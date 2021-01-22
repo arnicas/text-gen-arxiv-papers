@@ -3,6 +3,8 @@ layout: default
 ---
 
 <div class="page">
+  {% if page.category != "ignore" %}
   <h1 class="page-title">{{ page.title | capitalize}}</h1>
+  {% endif %}
   {{ content }}
 </div>
