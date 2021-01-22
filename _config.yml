@@ -12,7 +12,7 @@ plugins:
 # Setup
 title:            ArXiv Text Gen Searches
 tagline:          'Text generation papers'
-description:      'API searches for text generation papers by subtopic'
+description:      'API searches for text generation papers by subtopic, a project by @arnicas'
 url:              https://arnicas.github.io/text-gen-arxiv-papers/
 baseurl:          https://arnicas.github.io/text-gen-arxiv-papers
 
