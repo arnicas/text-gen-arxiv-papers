@@ -1,11 +1,11 @@
 ---
 layout: page
-title: ArXiv Searches for Text Gen
-tagline: Easy websites with GitHub Pages
-description: searches for types of text gen papers
+category: ignore
+title: ArXiv Text Generation Papers
+description: Searches for types of text gen papers
 ---
 
-
+These are the categories of work I'm crawling via API searches.  You can find the actual search terms on the [About]({{site.url}}pages/about.html) page.
 
 * [Story]({{site.baseurl}}categories/story/story.html)
 * [Dialogue]({{site.baseurl}}categories/dialogue/dialogue.html)

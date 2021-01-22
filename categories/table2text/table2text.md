@@ -95,4 +95,4 @@ sidebar:
 | [Modeling Coherency in Generated Emails by Leveraging Deep Neural  Learners](http://arxiv.org/abs/2007.07403v1) | Avisha Das, Rakesh M. Verma | cs.CL | 2020-07-14 |
 | [Deep Transformer based Data Augmentation with Subword Units for  Morphologically Rich Online ASR](http://arxiv.org/abs/2007.06949v3) | Balázs Tarján, György Szaszák, Tibor Fegyó, Péter Mihajlik | eess.AS, cs.CL | 2020-07-14 |
 
-[Previous]({{site.baseurl}}categories/table2text/2020/07/13/table2text.html)
+[Previous]({{site.url}}categories/table2text/2020/07/13/table2text.html)

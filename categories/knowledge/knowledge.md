@@ -95,4 +95,4 @@ sidebar:
 | [Logic2Text: High-Fidelity Natural Language Generation from Logical Forms](http://arxiv.org/abs/2004.14579v2) | Zhiyu Chen, Wenhu Chen, Hanwen Zha, Xiyou Zhou, Yunkai Zhang, Sairam Sundaresan, William Yang Wang | cs.CL | 2020-04-30 |
 | [Learning to Encode Evolutionary Knowledge for Automatic Commenting Long  Novels](http://arxiv.org/abs/2004.09974v1) | Canxiang Yan, Jianhao Yan, Yangyin Xu, Cheng Niu, Jie Zhou | cs.CL, cs.LG | 2020-04-21 |
 
-[Previous]({{site.baseurl}}categories/knowledge/2020/04/17/knowledge.html)
+[Previous]({{site.url}}categories/knowledge/2020/04/17/knowledge.html)
