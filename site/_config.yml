@@ -13,8 +13,8 @@ plugins:
 title:            ArXiv Text Gen Searches
 tagline:          'Text generation papers'
 description:      ''
-url:              http://hyde.getpoole.com
-baseurl:          /
+url:              https://arnicas.github.io/text-gen-arxiv-papers/
+baseurl:          /site
 
 author:
   name:           'Lynn Cherny'
