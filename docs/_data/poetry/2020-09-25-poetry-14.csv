@@ -1,0 +1,183 @@
+title,pubdate,id,authors,categories,search,abstract,displaydate
+Weird AI Yankovic: Generating Parody Lyrics,2020-09-25 13:56:20+00:00,http://arxiv.org/abs/2009.12240v1,Mark Riedl,"cs.CL, cs.AI",poetry,"Lyrics parody swaps one set of words that accompany a melody with a new set
+of words, preserving the number of syllables per line and the rhyme scheme.
+Lyrics parody generation is a challenge for controllable text generation. We
+show how a specialized sampling procedure, combined with backward text
+generation with XLNet can produce parody lyrics that reliably meet the syllable
+and rhyme scheme constraints.We introduce the Weird AI Yankovic system and
+provide a case study evaluation. We conclude with societal implications of
+neural lyric parody generation.",2020-09-25
+"Artificial Intelligence versus Maya Angelou: Experimental evidence that
+  people cannot differentiate AI-generated from human-written poetry",2020-05-20 11:52:28+00:00,http://arxiv.org/abs/2005.09980v2,"Nils Köbis, Luca Mossink","cs.AI, cs.CL, econ.GN, q-fin.EC",poetry,"The release of openly available, robust natural language generation
+algorithms (NLG) has spurred much public attention and debate. One reason lies
+in the algorithms' purported ability to generate human-like text across various
+domains. Empirical evidence using incentivized tasks to assess whether people
+(a) can distinguish and (b) prefer algorithm-generated versus human-written
+text is lacking. We conducted two experiments assessing behavioral reactions to
+the state-of-the-art Natural Language Generation algorithm GPT-2 (Ntotal =
+830). Using the identical starting lines of human poems, GPT-2 produced samples
+of poems. From these samples, either a random poem was chosen
+(Human-out-of-the-loop) or the best one was selected (Human-in-the-loop) and in
+turn matched with a human-written poem. In a new incentivized version of the
+Turing Test, participants failed to reliably detect the
+algorithmically-generated poems in the Human-in-the-loop treatment, yet
+succeeded in the Human-out-of-the-loop treatment. Further, people reveal a
+slight aversion to algorithm-generated poetry, independent on whether
+participants were informed about the algorithmic origin of the poem
+(Transparency) or not (Opacity). We discuss what these results convey about the
+performance of NLG algorithms to produce human-like text and propose
+methodologies to study such learning algorithms in human-agent experimental
+settings.",2020-05-20
+Rigid Formats Controlled Text Generation,2020-04-17 01:40:18+00:00,http://arxiv.org/abs/2004.08022v1,"Piji Li, Haisong Zhang, Xiaojiang Liu, Shuming Shi","cs.CL, cs.LG",poetry,"Neural text generation has made tremendous progress in various tasks. One
+common characteristic of most of the tasks is that the texts are not restricted
+to some rigid formats when generating. However, we may confront some special
+text paradigms such as Lyrics (assume the music score is given), Sonnet, SongCi
+(classical Chinese poetry of the Song dynasty), etc. The typical
+characteristics of these texts are in three folds: (1) They must comply fully
+with the rigid predefined formats. (2) They must obey some rhyming schemes. (3)
+Although they are restricted to some formats, the sentence integrity must be
+guaranteed. To the best of our knowledge, text generation based on the
+predefined rigid formats has not been well investigated. Therefore, we propose
+a simple and elegant framework named SongNet to tackle this problem. The
+backbone of the framework is a Transformer-based auto-regressive language
+model. Sets of symbols are tailor-designed to improve the modeling performance
+especially on format, rhyme, and sentence integrity. We improve the attention
+mechanism to impel the model to capture some future information on the format.
+A pre-training and fine-tuning framework is designed to further improve the
+generation quality. Extensive experiments conducted on two collected corpora
+demonstrate that our proposed framework generates significantly better results
+in terms of both automatic metrics and the human evaluation.",2020-04-17
+"Generating Major Types of Chinese Classical Poetry in a Uniformed
+  Framework",2020-03-13 14:16:25+00:00,http://arxiv.org/abs/2003.11528v1,"Jinyi Hu, Maosong Sun",cs.CL,poetry,"Poetry generation is an interesting research topic in the field of text
+generation. As one of the most valuable literary and cultural heritages of
+China, Chinese classical poetry is very familiar and loved by Chinese people
+from generation to generation. It has many particular characteristics in its
+language structure, ranging from form, sound to meaning, thus is regarded as an
+ideal testing task for text generation. In this paper, we propose a GPT-2 based
+uniformed framework for generating major types of Chinese classical poems. We
+define a unified format for formulating all types of training samples by
+integrating detailed form information, then present a simple form-stressed
+weighting method in GPT-2 to strengthen the control to the form of the
+generated poems, with special emphasis on those forms with longer body length.
+Preliminary experimental results show this enhanced model can generate Chinese
+classical poems of major types with high quality in both form and content,
+validating the effectiveness of the proposed strategy. The model has been
+incorporated into Jiuge, the most influential Chinese classical poetry
+generation system developed by Tsinghua University (Guo et al., 2019).",2020-03-13
+Introducing Aspects of Creativity in Automatic Poetry Generation,2020-02-06 20:44:12+00:00,http://arxiv.org/abs/2002.02511v1,"Brendan Bena, Jugal Kalita","cs.CL, cs.AI, cs.LG",poetry,"Poetry Generation involves teaching systems to automatically generate text
+that resembles poetic work. A deep learning system can learn to generate poetry
+on its own by training on a corpus of poems and modeling the particular style
+of language. In this paper, we propose taking an approach that fine-tunes
+GPT-2, a pre-trained language model, to our downstream task of poetry
+generation. We extend prior work on poetry generation by introducing creative
+elements. Specifically, we generate poems that express emotion and elicit the
+same in readers, and poems that use the language of dreams---called dream
+poetry. We are able to produce poems that correctly elicit the emotions of
+sadness and joy 87.5 and 85 percent, respectively, of the time. We produce
+dreamlike poetry by training on a corpus of texts that describe dreams. Poems
+from this model are shown to capture elements of dream poetry with scores of no
+less than 3.2 on the Likert scale. We perform crowdsourced human-evaluation for
+all our poems. We also make use of the Coh-Metrix tool, outlining metrics we
+use to gauge the quality of text generated.",2020-02-06
+Let's FACE it. Finnish Poetry Generation with Aesthetics and Framing,2019-10-30 16:00:54+00:00,http://arxiv.org/abs/1910.13946v1,"Mika Hämäläinen, Khalid Alnajjar",cs.CL,poetry,"We present a creative poem generator for the morphologically rich Finnish
+language. Our method falls into the master-apprentice paradigm, where a
+computationally creative genetic algorithm teaches a BRNN model to generate
+poetry. We model several parts of poetic aesthetics in the fitness function of
+the genetic algorithm, such as sonic features, semantic coherence, imagery and
+metaphor. Furthermore, we justify the creativity of our method based on the
+FACE theory on computational creativity and take additional care in evaluating
+our system by automatic metrics for concepts together with human evaluation for
+aesthetics, framing and expressions.",2019-10-30
+"Creative GANs for generating poems, lyrics, and metaphors",2019-09-20 14:40:18+00:00,http://arxiv.org/abs/1909.09534v1,"Asir Saeed, Suzana Ilić, Eva Zangerle","cs.CL, cs.LG",poetry,"Generative models for text have substantially contributed to tasks like
+machine translation and language modeling, using maximum likelihood
+optimization (MLE). However, for creative text generation, where multiple
+outputs are possible and originality and uniqueness are encouraged, MLE falls
+short. Methods optimized for MLE lead to outputs that can be generic,
+repetitive and incoherent. In this work, we use a Generative Adversarial
+Network framework to alleviate this problem. We evaluate our framework on
+poetry, lyrics and metaphor datasets, each with widely different
+characteristics, and report better performance of our objective function over
+other generative models.",2019-09-20
+"A Hierarchical Attention Based Seq2seq Model for Chinese Lyrics
+  Generation",2019-06-15 06:58:42+00:00,http://arxiv.org/abs/1906.06481v1,"Haoshen Fan, Jie Wang, Bojin Zhuang, Shaojun Wang, Jing Xiao","cs.CL, cs.LG",poetry,"In this paper, we comprehensively study on context-aware generation of
+Chinese song lyrics. Conventional text generative models generate a sequence or
+sentence word by word, failing to consider the contextual relationship between
+sentences. Taking account into the characteristics of lyrics, a hierarchical
+attention based Seq2Seq (Sequence-to-Sequence) model is proposed for Chinese
+lyrics generation. With encoding of word-level and sentence-level contextual
+information, this model promotes the topic relevance and consistency of
+generation. A large Chinese lyrics corpus is also leveraged for model training.
+Eventually, results of automatic and human evaluations demonstrate that our
+model is able to compose complete Chinese lyrics with one united topic
+constraint.",2019-06-15
+"Automated Speech Generation from UN General Assembly Statements: Mapping
+  Risks in AI Generated Texts",2019-06-05 11:23:14+00:00,http://arxiv.org/abs/1906.01946v1,"Joseph Bullock, Miguel Luengo-Oroz","cs.CL, cs.AI",poetry,"Automated text generation has been applied broadly in many domains such as
+marketing and robotics, and used to create chatbots, product reviews and write
+poetry. The ability to synthesize text, however, presents many potential risks,
+while access to the technology required to build generative models is becoming
+increasingly easy. This work is aligned with the efforts of the United Nations
+and other civil society organisations to highlight potential political and
+societal risks arising through the malicious use of text generation software,
+and their potential impact on human rights. As a case study, we present the
+findings of an experiment to generate remarks in the style of political leaders
+by fine-tuning a pretrained AWD- LSTM model on a dataset of speeches made at
+the UN General Assembly. This work highlights the ease with which this can be
+accomplished, as well as the threats of combining these techniques with other
+technologies.",2019-06-05
+Theme-aware generation model for chinese lyrics,2019-05-23 08:50:15+00:00,http://arxiv.org/abs/1906.02134v1,"Jie Wang, Xinyan Zhao","cs.CL, cs.LG",poetry,"With rapid development of neural networks, deep-learning has been extended to
+various natural language generation fields, such as machine translation,
+dialogue generation and even literature creation. In this paper, we propose a
+theme-aware language generation model for Chinese music lyrics, which improves
+the theme-connectivity and coherence of generated paragraphs greatly. A
+multi-channel sequence-to-sequence (seq2seq) model encodes themes and previous
+sentences as global and local contextual information. Moreover, attention
+mechanism is incorporated for sequence decoding, enabling to fuse context into
+predicted next texts. To prepare appropriate train corpus, LDA (Latent
+Dirichlet Allocation) is applied for theme extraction. Generated lyrics is
+grammatically correct and semantically coherent with selected themes, which
+offers a valuable modelling method in other fields including multi-turn
+chatbots, long paragraph generation and etc.",2019-05-23
+Hierarchical Attention: What Really Counts in Various NLP Tasks,2018-08-10 23:28:33+00:00,http://arxiv.org/abs/1808.03728v1,"Zehao Dou, Zhihua Zhang",cs.CL,poetry,"Attention mechanisms in sequence to sequence models have shown great ability
+and wonderful performance in various natural language processing (NLP) tasks,
+such as sentence embedding, text generation, machine translation, machine
+reading comprehension, etc. Unfortunately, existing attention mechanisms only
+learn either high-level or low-level features. In this paper, we think that the
+lack of hierarchical mechanisms is a bottleneck in improving the performance of
+the attention mechanisms, and propose a novel Hierarchical Attention Mechanism
+(Ham) based on the weighted sum of different layers of a multi-level attention.
+Ham achieves a state-of-the-art BLEU score of 0.26 on Chinese poem generation
+task and a nearly 6.5% averaged improvement compared with the existing machine
+reading comprehension models such as BIDAF and Match-LSTM. Furthermore, our
+experiments and theorems reveal that Ham has greater generalization and
+representation ability than existing attention mechanisms.",2018-08-10
+"Guess who? Multilingual approach for the automated generation of
+  author-stylized poetry",2018-07-17 15:13:20+00:00,http://arxiv.org/abs/1807.07147v3,"Alexey Tikhonov, Ivan P. Yamshchikov","cs.CL, cs.AI, cs.LG",poetry,"This paper addresses the problem of stylized text generation in a
+multilingual setup. A version of a language model based on a long short-term
+memory (LSTM) artificial neural network with extended phonetic and semantic
+embeddings is used for stylized poetry generation. The quality of the resulting
+poems generated by the network is estimated through bilingual evaluation
+understudy (BLEU), a survey and a new cross-entropy based metric that is
+suggested for the problems of such type. The experiments show that the proposed
+model consistently outperforms random sample and vanilla-LSTM baselines, humans
+also tend to associate machine generated texts with the target author.",2018-07-17
+Natural Language Statistical Features of LSTM-generated Texts,2018-04-10 13:17:36+00:00,http://arxiv.org/abs/1804.04087v2,"Marco Lippi, Marcelo A Montemurro, Mirko Degli Esposti, Giampaolo Cristadoro","cs.CL, cs.LG",poetry,"Long Short-Term Memory (LSTM) networks have recently shown remarkable
+performance in several tasks dealing with natural language generation, such as
+image captioning or poetry composition. Yet, only few works have analyzed text
+generated by LSTMs in order to quantitatively evaluate to which extent such
+artificial texts resemble those generated by humans. We compared the
+statistical structure of LSTM-generated language to that of written natural
+language, and to those produced by Markov models of various orders. In
+particular, we characterized the statistical structure of language by assessing
+word-frequency statistics, long-range correlations, and entropy measures. Our
+main finding is that while both LSTM and Markov-generated texts can exhibit
+features similar to real ones in their word-frequency statistics and entropy
+measures, LSTM-texts are shown to reproduce long-range correlations at scales
+comparable to those found in natural language. Moreover, for LSTM networks a
+temperature-like parameter controlling the generation process shows an optimal
+value---for which the produced texts are closest to real language---consistent
+across all the different statistical features investigated.",2018-04-10
+X575: writing rengas with web services,2016-06-25 20:04:42+00:00,http://arxiv.org/abs/1606.07955v1,"Daniel Winterstein, Joseph Corneli","cs.AI, cs.CL, I.2.1; J.5",poetry,"Our software system simulates the classical collaborative Japanese poetry
+form, renga, made of linked haikus. We used NLP methods wrapped up as web
+services. Our experiments were only a partial success, since results fail to
+satisfy classical constraints. To gather ideas for future work, we examine
+related research in semiotics, linguistics, and computing.",2016-06-25

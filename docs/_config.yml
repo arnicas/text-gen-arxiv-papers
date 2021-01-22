@@ -1,0 +1,29 @@
+# Dependencies
+markdown:         kramdown
+
+# Permalinks
+permalink:        /:categories/:year/:month/:day/:title:output_ext
+#relative_permalinks: true
+
+plugins:
+  - kramdown
+  - jekyll-paginate
+
+# Setup
+title:            ArXiv Text Gen Searches
+tagline:          'Text generation papers'
+description:      ''
+url:              https://arnicas.github.io/text-gen-arxiv-papers/
+baseurl:          /site
+
+author:
+  name:           'Lynn Cherny'
+  url:            https://twitter.com/arnicas
+
+paginate:         5
+
+# Custom vars
+#version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde

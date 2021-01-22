@@ -1,0 +1,1456 @@
+title,pubdate,id,authors,categories,search,abstract,displaydate
+Robust Dialogue Utterance Rewriting as Sequence Tagging,2020-12-29 00:05:35+00:00,http://arxiv.org/abs/2012.14535v1,"Jie Hao, Linfeng Song, Liwei Wang, Kun Xu, Zhaopeng Tu, Dong Yu",cs.CL,dialogue,"The task of dialogue rewriting aims to reconstruct the latest dialogue
+utterance by copying the missing content from the dialogue context. Until now,
+the existing models for this task suffer from the robustness issue, i.e.,
+performances drop dramatically when testing on a different domain. We address
+this robustness issue by proposing a novel sequence-tagging-based model so that
+the search space is significantly reduced, yet the core of this task is still
+well covered. As a common issue of most tagging models for text generation, the
+model's outputs may lack fluency. To alleviate this issue, we inject the loss
+signal from BLEU or GPT-2 under a REINFORCE framework. Experiments show huge
+improvements of our model over the current state-of-the-art systems on domain
+transfer.",2020-12-29
+"Conditioned Text Generation with Transfer for Closed-Domain Dialogue
+  Systems",2020-11-03 14:06:10+00:00,http://arxiv.org/abs/2011.02143v1,"Stéphane d'Ascoli, Alice Coucke, Francesco Caltagirone, Alexandre Caulier, Marc Lelarge","cs.CL, cs.AI, cs.LG",dialogue,"Scarcity of training data for task-oriented dialogue systems is a well known
+problem that is usually tackled with costly and time-consuming manual data
+annotation. An alternative solution is to rely on automatic text generation
+which, although less accurate than human supervision, has the advantage of
+being cheap and fast. Our contribution is twofold. First we show how to
+optimally train and control the generation of intent-specific sentences using a
+conditional variational autoencoder. Then we introduce a new protocol called
+query transfer that allows to leverage a large unlabelled dataset, possibly
+containing irrelevant queries, to extract relevant information. Comparison with
+two different baselines shows that this method, in the appropriate regime,
+consistently improves the diversity of the generated queries without
+compromising their quality. We also demonstrate the effectiveness of our
+generation method as a data augmentation technique for language modelling
+tasks.",2020-11-03
+"Improving Variational Autoencoder for Text Modelling with Timestep-Wise
+  Regularisation",2020-11-02 17:20:56+00:00,http://arxiv.org/abs/2011.01136v2,"Ruizhe Li, Xiao Li, Guanyi Chen, Chenghua Lin","cs.CL, cs.LG",dialogue,"The Variational Autoencoder (VAE) is a popular and powerful model applied to
+text modelling to generate diverse sentences. However, an issue known as
+posterior collapse (or KL loss vanishing) happens when the VAE is used in text
+modelling, where the approximate posterior collapses to the prior, and the
+model will totally ignore the latent variables and be degraded to a plain
+language model during text generation. Such an issue is particularly prevalent
+when RNN-based VAE models are employed for text modelling. In this paper, we
+propose a simple, generic architecture called Timestep-Wise Regularisation VAE
+(TWR-VAE), which can effectively avoid posterior collapse and can be applied to
+any RNN-based VAE models. The effectiveness and versatility of our model are
+demonstrated in different tasks, including language modelling and dialogue
+response generation.",2020-11-02
+Go Figure! A Meta Evaluation of Factuality in Summarization,2020-10-24 08:30:20+00:00,http://arxiv.org/abs/2010.12834v1,"Saadia Gabriel, Asli Celikyilmaz, Rahul Jha, Yejin Choi, Jianfeng Gao",cs.CL,dialogue,"Text generation models can generate factually inconsistent text containing
+distorted or fabricated facts about the source text. Recent work has focused on
+building evaluation models to verify the factual correctness of semantically
+constrained text generation tasks such as document summarization. While the
+field of factuality evaluation is growing fast, we don't have well-defined
+criteria for measuring the effectiveness, generalizability, reliability, or
+sensitivity of the factuality metrics. Focusing on these aspects, in this
+paper, we introduce a meta-evaluation framework for evaluating factual
+consistency metrics. We introduce five necessary, common-sense conditions for
+effective factuality metrics and experiment with nine recent factuality metrics
+using synthetic and human-labeled factuality data from short news, long news
+and dialogue summarization domains. Our framework enables assessing the
+efficiency of any new factual consistency metric on a variety of dimensions
+over multiple summarization domains and can be easily extended with new
+meta-evaluation criteria. We also present our conclusions towards standardizing
+the factuality evaluation metrics.",2020-10-24
+AI-lead Court Debate Case Investigation,2020-10-22 11:05:14+00:00,http://arxiv.org/abs/2010.11604v2,"Changzhen Ji, Xin Zhou, Conghui Zhu, Tiejun Zhao",cs.CL,dialogue,"The multi-role judicial debate composed of the plaintiff, defendant, and
+judge is an important part of the judicial trial. Different from other types of
+dialogue, questions are raised by the judge, The plaintiff, plaintiff's agent
+defendant, and defendant's agent would be to debating so that the trial can
+proceed in an orderly manner. Question generation is an important task in
+Natural Language Generation. In the judicial trial, it can help the judge raise
+efficient questions so that the judge has a clearer understanding of the case.
+In this work, we propose an innovative end-to-end question generation
+model-Trial Brain Model (TBM) to build a Trial Brain, it can generate the
+questions the judge wants to ask through the historical dialogue between the
+plaintiff and the defendant. Unlike prior efforts in natural language
+generation, our model can learn the judge's questioning intention through
+predefined knowledge. We do experiments on real-world datasets, the
+experimental results show that our model can provide a more accurate question
+in the multi-role court debate scene.",2020-10-22
+"RiSAWOZ: A Large-Scale Multi-Domain Wizard-of-Oz Dataset with Rich
+  Semantic Annotations for Task-Oriented Dialogue Modeling",2020-10-17 08:18:59+00:00,http://arxiv.org/abs/2010.08738v1,"Jun Quan, Shian Zhang, Qian Cao, Zizhong Li, Deyi Xiong",cs.CL,dialogue,"In order to alleviate the shortage of multi-domain data and to capture
+discourse phenomena for task-oriented dialogue modeling, we propose RiSAWOZ, a
+large-scale multi-domain Chinese Wizard-of-Oz dataset with Rich Semantic
+Annotations. RiSAWOZ contains 11.2K human-to-human (H2H) multi-turn
+semantically annotated dialogues, with more than 150K utterances spanning over
+12 domains, which is larger than all previous annotated H2H conversational
+datasets. Both single- and multi-domain dialogues are constructed, accounting
+for 65% and 35%, respectively. Each dialogue is labeled with comprehensive
+dialogue annotations, including dialogue goal in the form of natural language
+description, domain, dialogue states and acts at both the user and system side.
+In addition to traditional dialogue annotations, we especially provide
+linguistic annotations on discourse phenomena, e.g., ellipsis and coreference,
+in dialogues, which are useful for dialogue coreference and ellipsis resolution
+tasks. Apart from the fully annotated dataset, we also present a detailed
+description of the data collection procedure, statistics and analysis of the
+dataset. A series of benchmark models and results are reported, including
+natural language understanding (intent detection & slot filling), dialogue
+state tracking and dialogue context-to-text generation, as well as coreference
+and ellipsis resolution, which facilitate the baseline comparison for future
+research on this corpus.",2020-10-17
+Dissecting the components and factors of Neural Text Generation,2020-10-14 17:54:42+00:00,http://arxiv.org/abs/2010.07279v1,"Khyathi Raghavi Chandu, Alan W Black",cs.CL,dialogue,"Neural text generation metamorphosed into several critical natural language
+applications ranging from text completion to free form narrative generation.
+Generating natural language has fundamentally been a human attribute and the
+advent of ubiquitous NLP applications and virtual agents marks the need to
+impart this skill to machines. There has been a colossal research effort in
+various frontiers of neural text generation including machine translation,
+summarization, image captioning, storytelling etc., We believe that this is an
+excellent juncture to retrospect on the directions of the field. Specifically,
+this paper surveys the fundamental factors and components relaying task
+agnostic impacts across various generation tasks such as storytelling,
+summarization, translation etc., In specific, we present an abstraction of the
+imperative techniques with respect to learning paradigms, pretraining, modeling
+approaches, decoding and the key challenges. Thereby, we hope to deliver a
+one-stop destination for researchers in the field to facilitate a perspective
+on where to situate their work and how it impacts other closely related tasks.",2020-10-14
+"DLGNet-Task: An End-to-end Neural Network Framework for Modeling
+  Multi-turn Multi-domain Task-Oriented Dialogue",2020-10-04 21:43:17+00:00,http://arxiv.org/abs/2010.01693v2,"Oluwatobi O. Olabiyi, Prarthana Bhattarai, C. Bayan Bruss, Zachary Kulis","cs.CL, cs.AI, cs.HC, cs.LG, cs.NE",dialogue,"Task oriented dialogue (TOD) requires the complex interleaving of a number of
+individually controllable components with strong guarantees for explainability
+and verifiability. This has made it difficult to adopt the multi-turn
+multi-domain dialogue generation capabilities of streamlined end-to-end
+open-domain dialogue systems. In this paper, we present a new framework,
+DLGNet-Task, a unified task-oriented dialogue system which employs
+autoregressive transformer networks such as DLGNet and GPT-2/3 to complete user
+tasks in multi-turn multi-domain conversations. Our framework enjoys the
+controllable, verifiable, and explainable outputs of modular approaches, and
+the low development, deployment and maintenance cost of end-to-end systems.
+Treating open-domain system components as additional TOD system modules allows
+DLGNet-Task to learn the joint distribution of the inputs and outputs of all
+the functional blocks of existing modular approaches such as, natural language
+understanding (NLU), state tracking, action policy, as well as natural language
+generation (NLG). Rather than training the modules individually, as is common
+in real-world systems, we trained them jointly with appropriate module
+separations. When evaluated on the MultiWOZ2.1 dataset, DLGNet-Task shows
+comparable performance to the existing state-of-the-art approaches.
+Furthermore, using DLGNet-Task in conversational AI systems reduces the level
+of effort required for developing, deploying, and maintaining intelligent
+assistants at scale.",2020-10-04
+"Learning from Mistakes: Combining Ontologies via Self-Training for
+  Dialogue Generation",2020-09-30 23:54:38+00:00,http://arxiv.org/abs/2010.00150v1,"Lena Reed, Vrindavan Harrison, Shereen Oraby, Dilek Hakkani-Tur, Marilyn Walker",cs.CL,dialogue,"Natural language generators (NLGs) for task-oriented dialogue typically take
+a meaning representation (MR) as input. They are trained end-to-end with a
+corpus of MR/utterance pairs, where the MRs cover a specific set of dialogue
+acts and domain attributes. Creation of such datasets is labor-intensive and
+time-consuming. Therefore, dialogue systems for new domain ontologies would
+benefit from using data for pre-existing ontologies. Here we explore, for the
+first time, whether it is possible to train an NLG for a new larger ontology
+using existing training sets for the restaurant domain, where each set is based
+on a different ontology. We create a new, larger combined ontology, and then
+train an NLG to produce utterances covering it. For example, if one dataset has
+attributes for family-friendly and rating information, and the other has
+attributes for decor and service, our aim is an NLG for the combined ontology
+that can produce utterances that realize values for family-friendly, rating,
+decor and service. Initial experiments with a baseline neural
+sequence-to-sequence model show that this task is surprisingly challenging. We
+then develop a novel self-training method that identifies (errorful) model
+outputs, automatically constructs a corrected MR input to form a new (MR,
+utterance) training pair, and then repeatedly adds these new instances back
+into the training data. We then test the resulting model on a new test set. The
+result is a self-trained model whose performance is an absolute 75.4%
+improvement over the baseline model. We also report a human qualitative
+evaluation of the final model showing that it achieves high naturalness,
+semantic coherence and grammaticality",2020-09-30
+Utterance-level Dialogue Understanding: An Empirical Study,2020-09-29 09:50:21+00:00,http://arxiv.org/abs/2009.13902v5,"Deepanway Ghosal, Navonil Majumder, Rada Mihalcea, Soujanya Poria",cs.CL,dialogue,"The recent abundance of conversational data on the Web and elsewhere calls
+for effective NLP systems for dialog understanding. Complete utterance-level
+understanding often requires context understanding, defined by nearby
+utterances. In recent years, a number of approaches have been proposed for
+various utterance-level dialogue understanding tasks. Most of these approaches
+account for the context for effective understanding. In this paper, we explore
+and quantify the role of context for different aspects of a dialogue, namely
+emotion, intent, and dialogue act identification, using state-of-the-art dialog
+understanding methods as baselines. Specifically, we employ various
+perturbations to distort the context of a given utterance and study its impact
+on the different tasks and baselines. This provides us with insights into the
+fundamental contextual controlling factors of different aspects of a dialogue.
+Such insights can inspire more effective dialogue understanding models, and
+provide support for future text generation approaches. The implementation
+pertaining to this work is available at
+https://github.com/declare-lab/dialogue-understanding.",2020-09-29
+Learning to Plan and Realize Separately for Open-Ended Dialogue Systems,2020-09-26 02:31:42+00:00,http://arxiv.org/abs/2009.12506v2,"Sashank Santhanam, Zhuo Cheng, Brodie Mather, Bonnie Dorr, Archna Bhatia, Bryanna Hebenstreit, Alan Zemel, Adam Dalton, Tomek Strzalkowski, Samira Shaikh",cs.CL,dialogue,"Achieving true human-like ability to conduct a conversation remains an
+elusive goal for open-ended dialogue systems. We posit this is because extant
+approaches towards natural language generation (NLG) are typically construed as
+end-to-end architectures that do not adequately model human generation
+processes. To investigate, we decouple generation into two separate phases:
+planning and realization. In the planning phase, we train two planners to
+generate plans for response utterances. The realization phase uses response
+plans to produce an appropriate response. Through rigorous evaluations, both
+automated and human, we demonstrate that decoupling the process into planning
+and realization performs better than an end-to-end approach.",2020-09-26
+Language Models as Few-Shot Learner for Task-Oriented Dialogue Systems,2020-08-14 08:23:21+00:00,http://arxiv.org/abs/2008.06239v2,"Andrea Madotto, Zihan Liu, Zhaojiang Lin, Pascale Fung","cs.CL, cs.LG",dialogue,"Task-oriented dialogue systems use four connected modules, namely, Natural
+Language Understanding (NLU), a Dialogue State Tracking (DST), Dialogue Policy
+(DP) and Natural Language Generation (NLG). A research challenge is to learn
+each module with the least amount of samples (i.e., few-shots) given the high
+cost related to the data collection. The most common and effective technique to
+solve this problem is transfer learning, where large language models, either
+pre-trained on text or task-specific data, are fine-tuned on the few samples.
+These methods require fine-tuning steps and a set of parameters for each task.
+Differently, language models, such as GPT-2 (Radford et al., 2019) and GPT-3
+(Brown et al., 2020), allow few-shot learning by priming the model with few
+examples. In this paper, we evaluate the priming few-shot ability of language
+models in the NLU, DST, DP and NLG tasks. Importantly, we highlight the current
+limitations of this approach, and we discuss the possible implication for
+future work.",2020-08-14
+Navigating Human Language Models with Synthetic Agents,2020-08-10 14:39:53+00:00,http://arxiv.org/abs/2008.04162v7,"Philip Feldman, Antonio Bucchiarone","cs.AI, cs.CL, cs.MA, I.2; I.6; J.4",dialogue,"Modern natural language models such as the GPT-2/GPT-3 contain tremendous
+amounts of information about human belief in a consistently testable form. If
+these models could be shown to accurately reflect the underlying beliefs of the
+human beings that produced the data used to train these models, then such
+models become a powerful sociological tool in ways that are distinct from
+traditional methods, such as interviews and surveys. In this study, We train a
+version of the GPT-2 on a corpora of historical chess games, and then ""launch""
+clusters of synthetic agents into the model, using text strings to create
+context and orientation. We compare the trajectories contained in the text
+generated by the agents/model and compare that to the known ground truth of the
+chess board, move legality, and historical patterns of play. We find that the
+percentages of moves by piece using the model are substantially similar from
+human patterns. We further find that the model creates an accurate latent
+representation of the chessboard, and that it is possible to plot trajectories
+of legal moves across the board using this knowledge.",2020-08-10
+"SARG: A Novel Semi Autoregressive Generator for Multi-turn Incomplete
+  Utterance Restoration",2020-08-04 11:52:20+00:00,http://arxiv.org/abs/2008.01474v3,"Mengzuo Huang, Feng Li, Wuhe Zou, Weidong Zhang",cs.CL,dialogue,"Dialogue systems in open domain have achieved great success due to the easily
+obtained single-turn corpus and the development of deep learning, but the
+multi-turn scenario is still a challenge because of the frequent coreference
+and information omission. In this paper, we investigate the incomplete
+utterance restoration which has brought general improvement over multi-turn
+dialogue systems in recent studies. Meanwhile, jointly inspired by the
+autoregression for text generation and the sequence labeling for text editing,
+we propose a novel semi autoregressive generator (SARG) with the high
+efficiency and flexibility. Moreover, experiments on two benchmarks show that
+our proposed model significantly outperforms the state-of-the-art models in
+terms of quality and inference speed.",2020-08-04
+Multimodal Dialogue State Tracking By QA Approach with Data Augmentation,2020-07-20 06:23:18+00:00,http://arxiv.org/abs/2007.09903v1,"Xiangyang Mou, Brandyn Sigouin, Ian Steenstra, Hui Su",cs.CL,dialogue,"Recently, a more challenging state tracking task, Audio-Video Scene-Aware
+Dialogue (AVSD), is catching an increasing amount of attention among
+researchers. Different from purely text-based dialogue state tracking, the
+dialogue in AVSD contains a sequence of question-answer pairs about a video and
+the final answer to the given question requires additional understanding of the
+video. This paper interprets the AVSD task from an open-domain Question
+Answering (QA) point of view and proposes a multimodal open-domain QA system to
+deal with the problem. The proposed QA system uses common encoder-decoder
+framework with multimodal fusion and attention. Teacher forcing is applied to
+train a natural language generator. We also propose a new data augmentation
+approach specifically under QA assumption. Our experiments show that our model
+and techniques bring significant improvements over the baseline model on the
+DSTC7-AVSD dataset and demonstrate the potentials of our data augmentation
+techniques.",2020-07-20
+Toward Givenness Hierarchy Theoretic Natural Language Generation,2020-07-17 17:51:29+00:00,http://arxiv.org/abs/2007.16009v1,"Poulomi Pal, Tom Williams","cs.CL, cs.AI",dialogue,"Language-capable interactive robots participating in dialogues with human
+interlocutors must be able to naturally and efficiently communicate about the
+entities in their environment. A key aspect of such communication is the use of
+anaphoric language. The linguistic theory of the Givenness Hierarchy(GH)
+suggests that humans use anaphora based on the cognitive statuses their
+referents have in the minds of their interlocutors. In previous work,
+researchers presented GH-theoretic approaches to robot anaphora understanding.
+In this paper we describe how the GH might need to be used quite differently to
+facilitate robot anaphora generation.",2020-07-17
+"A Generative Model for Joint Natural Language Understanding and
+  Generation",2020-06-12 22:38:55+00:00,http://arxiv.org/abs/2006.07499v1,"Bo-Hsiang Tseng, Jianpeng Cheng, Yimai Fang, David Vandyke","cs.CL, cs.AI",dialogue,"Natural language understanding (NLU) and natural language generation (NLG)
+are two fundamental and related tasks in building task-oriented dialogue
+systems with opposite objectives: NLU tackles the transformation from natural
+language to formal representations, whereas NLG does the reverse. A key to
+success in either task is parallel training data which is expensive to obtain
+at a large scale. In this work, we propose a generative model which couples NLU
+and NLG through a shared latent variable. This approach allows us to explore
+both spaces of natural language and formal representations, and facilitates
+information sharing through the latent space to eventually benefit NLU and NLG.
+Our model achieves state-of-the-art performance on two dialogue datasets with
+both flat and tree-structured formal representations. We also show that the
+model can be trained in a semi-supervised fashion by utilising unlabelled data
+to boost its performance.",2020-06-12
+"Modelling Hierarchical Structure between Dialogue Policy and Natural
+  Language Generator with Option Framework for Task-oriented Dialogue System",2020-06-11 20:55:28+00:00,http://arxiv.org/abs/2006.06814v3,"Jianhong Wang, Yuan Zhang, Tae-Kyun Kim, Yunjie Gu","cs.CL, cs.AI, cs.LG",dialogue,"Designing task-oriented dialogue systems is a challenging research topic,
+since it needs not only to generate utterances fulfilling user requests but
+also to guarantee the comprehensibility. Many previous works trained end-to-end
+(E2E) models with supervised learning (SL), however, the bias in annotated
+system utterances remains as a bottleneck. Reinforcement learning (RL) deals
+with the problem through using non-differentiable evaluation metrics (e.g., the
+success rate) as rewards. Nonetheless, existing works with RL showed that the
+comprehensibility of generated system utterances could be corrupted when
+improving the performance on fulfilling user requests. In o gur work, we (1)
+propose modelling the hierarchical structure between dialogue policy and
+natural language generator (NLG) with the option framework, called HDNO, where
+the latent dialogue act is applied to avoid designing specific dialogue act
+representations; (2) train HDNO via hierarchical reinforcement learning (HRL),
+as well as suggest the asynchronous updates between dialogue policy and NLG
+during training to theoretically guarantee their convergence to a local
+maximizer; and (3) propose using a discriminator modelled with language models
+as an additional reward to further improve the comprehensibility. We test HDNO
+on MultiWoz 2.0 and MultiWoz 2.1, the datasets on multi-domain dialogues, in
+comparison with word-level E2E model trained with RL, LaRL and HDSA, showing
+improvements on the performance evaluated by automatic evaluation metrics and
+human evaluation. Finally, we demonstrate the semantic meanings of latent
+dialogue acts to show the ability of explanation.",2020-06-11
+"Improving Disentangled Text Representation Learning with
+  Information-Theoretic Guidance",2020-06-01 03:36:01+00:00,http://arxiv.org/abs/2006.00693v2,"Pengyu Cheng, Martin Renqiang Min, Dinghan Shen, Christopher Malon, Yizhe Zhang, Yitong Li, Lawrence Carin","cs.LG, stat.ML",dialogue,"Learning disentangled representations of natural language is essential for
+many NLP tasks, e.g., conditional text generation, style transfer, personalized
+dialogue systems, etc. Similar problems have been studied extensively for other
+forms of data, such as images and videos. However, the discrete nature of
+natural language makes the disentangling of textual representations more
+challenging (e.g., the manipulation over the data space cannot be easily
+achieved). Inspired by information theory, we propose a novel method that
+effectively manifests disentangled representations of text, without any
+supervision on semantics. A new mutual information upper bound is derived and
+leveraged to measure dependence between style and content. By minimizing this
+upper bound, the proposed method induces style and content embeddings into two
+independent low-dimensional spaces. Experiments on both conditional text
+generation and text-style transfer demonstrate the high quality of our
+disentangled representation in terms of content and style preservation.",2020-06-01
+Fluent Response Generation for Conversational Question Answering,2020-05-21 04:57:01+00:00,http://arxiv.org/abs/2005.10464v2,"Ashutosh Baheti, Alan Ritter, Kevin Small",cs.CL,dialogue,"Question answering (QA) is an important aspect of open-domain conversational
+agents, garnering specific research focus in the conversational QA (ConvQA)
+subtask. One notable limitation of recent ConvQA efforts is the response being
+answer span extraction from the target corpus, thus ignoring the natural
+language generation (NLG) aspect of high-quality conversational agents. In this
+work, we propose a method for situating QA responses within a SEQ2SEQ NLG
+approach to generate fluent grammatical answer responses while maintaining
+correctness. From a technical perspective, we use data augmentation to generate
+training data for an end-to-end system. Specifically, we develop Syntactic
+Transformations (STs) to produce question-specific candidate answer responses
+and rank them using a BERT-based classifier (Devlin et al., 2019). Human
+evaluation on SQuAD 2.0 data (Rajpurkar et al., 2018) demonstrate that the
+proposed model outperforms baseline CoQA and QuAC models in generating
+conversational responses. We further show our model's scalability by conducting
+tests on the CoQA dataset. The code and data are available at
+https://github.com/abaheti95/QADialogSystem.",2020-05-21
+"Artificial Intelligence versus Maya Angelou: Experimental evidence that
+  people cannot differentiate AI-generated from human-written poetry",2020-05-20 11:52:28+00:00,http://arxiv.org/abs/2005.09980v2,"Nils Köbis, Luca Mossink","cs.AI, cs.CL, econ.GN, q-fin.EC",dialogue,"The release of openly available, robust natural language generation
+algorithms (NLG) has spurred much public attention and debate. One reason lies
+in the algorithms' purported ability to generate human-like text across various
+domains. Empirical evidence using incentivized tasks to assess whether people
+(a) can distinguish and (b) prefer algorithm-generated versus human-written
+text is lacking. We conducted two experiments assessing behavioral reactions to
+the state-of-the-art Natural Language Generation algorithm GPT-2 (Ntotal =
+830). Using the identical starting lines of human poems, GPT-2 produced samples
+of poems. From these samples, either a random poem was chosen
+(Human-out-of-the-loop) or the best one was selected (Human-in-the-loop) and in
+turn matched with a human-written poem. In a new incentivized version of the
+Turing Test, participants failed to reliably detect the
+algorithmically-generated poems in the Human-in-the-loop treatment, yet
+succeeded in the Human-out-of-the-loop treatment. Further, people reveal a
+slight aversion to algorithm-generated poetry, independent on whether
+participants were informed about the algorithmic origin of the poem
+(Transparency) or not (Opacity). We discuss what these results convey about the
+performance of NLG algorithms to produce human-like text and propose
+methodologies to study such learning algorithms in human-agent experimental
+settings.",2020-05-20
+Token Manipulation Generative Adversarial Network for Text Generation,2020-05-06 13:10:43+00:00,http://arxiv.org/abs/2005.02794v2,DaeJin Jo,"stat.ML, cs.AI, cs.LG",dialogue,"MaskGAN opens the query for the conditional language model by filling in the
+blanks between the given tokens. In this paper, we focus on addressing the
+limitations caused by having to specify blanks to be filled. We decompose
+conditional text generation problem into two tasks, make-a-blank and
+fill-in-the-blank, and extend the former to handle more complex manipulations
+on the given tokens. We cast these tasks as a hierarchical multi agent RL
+problem and introduce a conditional adversarial learning that allows the agents
+to reach a goal, producing realistic texts, in cooperative setting. We show
+that the proposed model not only addresses the limitations but also provides
+good results without compromising the performance in terms of quality and
+diversity.",2020-05-06
+Towards Controllable Biases in Language Generation,2020-05-01 08:25:11+00:00,http://arxiv.org/abs/2005.00268v2,"Emily Sheng, Kai-Wei Chang, Premkumar Natarajan, Nanyun Peng",cs.CL,dialogue,"We present a general approach towards controllable societal biases in natural
+language generation (NLG). Building upon the idea of adversarial triggers, we
+develop a method to induce societal biases in generated text when input prompts
+contain mentions of specific demographic groups. We then analyze two scenarios:
+1) inducing negative biases for one demographic and positive biases for another
+demographic, and 2) equalizing biases between demographics. The former scenario
+enables us to detect the types of biases present in the model. Specifically, we
+show the effectiveness of our approach at facilitating bias analysis by finding
+topics that correspond to demographic inequalities in generated text and
+comparing the relative effectiveness of inducing biases for different
+demographics. The second scenario is useful for mitigating biases in downstream
+applications such as dialogue generation. In our experiments, the mitigation
+technique proves to be effective at equalizing the amount of biases across
+demographics while simultaneously generating less negatively biased text
+overall.",2020-05-01
+"Towards Unsupervised Language Understanding and Generation by Joint Dual
+  Learning",2020-04-30 12:02:33+00:00,http://arxiv.org/abs/2004.14710v1,"Shang-Yu Su, Chao-Wei Huang, Yun-Nung Chen",cs.CL,dialogue,"In modular dialogue systems, natural language understanding (NLU) and natural
+language generation (NLG) are two critical components, where NLU extracts the
+semantics from the given texts and NLG is to construct corresponding natural
+language sentences based on the input semantic representations. However, the
+dual property between understanding and generation has been rarely explored.
+The prior work is the first attempt that utilized the duality between NLU and
+NLG to improve the performance via a dual supervised learning framework.
+However, the prior work still learned both components in a supervised manner,
+instead, this paper introduces a general learning framework to effectively
+exploit such duality, providing flexibility of incorporating both supervised
+and unsupervised learning algorithms to train language understanding and
+generation models in a joint fashion. The benchmark experiments demonstrate
+that the proposed approach is capable of boosting the performance of both NLU
+and NLG.",2020-04-30
+"Boosting Naturalness of Language in Task-oriented Dialogues via
+  Adversarial Training",2020-04-30 03:35:20+00:00,http://arxiv.org/abs/2004.14565v2,Chenguang Zhu,cs.CL,dialogue,"The natural language generation (NLG) module in a task-oriented dialogue
+system produces user-facing utterances conveying required information. Thus, it
+is critical for the generated response to be natural and fluent. We propose to
+integrate adversarial training to produce more human-like responses. The model
+uses Straight-Through Gumbel-Softmax estimator for gradient computation. We
+also propose a two-stage training scheme to boost performance. Empirical
+results show that the adversarial training can effectively improve the quality
+of language generation in both automatic and human evaluations. For example, in
+the RNN-LG Restaurant dataset, our model AdvNLG outperforms the previous
+state-of-the-art result by 3.6% in BLEU.",2020-04-30
+BLEU Neighbors: A Reference-less Approach to Automatic Evaluation,2020-04-27 11:51:28+00:00,http://arxiv.org/abs/2004.12726v3,"Kawin Ethayarajh, Dorsa Sadigh","cs.CL, cs.LG",dialogue,"Evaluation is a bottleneck in the development of natural language generation
+(NLG) models. Automatic metrics such as BLEU rely on references, but for tasks
+such as open-ended generation, there are no references to draw upon. Although
+language diversity can be estimated using statistical measures such as
+perplexity, measuring language quality requires human evaluation. However,
+because human evaluation at scale is slow and expensive, it is used sparingly;
+it cannot be used to rapidly iterate on NLG models, in the way BLEU is used for
+machine translation. To this end, we propose BLEU Neighbors, a nearest
+neighbors model for estimating language quality by using the BLEU score as a
+kernel function. On existing datasets for chitchat dialogue and open-ended
+sentence generation, we find that -- on average -- the quality estimation from
+a BLEU Neighbors model has a lower mean squared error and higher Spearman
+correlation with the ground truth than individual human annotators. Despite its
+simplicity, BLEU Neighbors even outperforms state-of-the-art models on
+automatically grading essays, including models that have access to a
+gold-standard reference essay.",2020-04-27
+Residual Energy-Based Models for Text Generation,2020-04-22 23:19:55+00:00,http://arxiv.org/abs/2004.11714v1,"Yuntian Deng, Anton Bakhtin, Myle Ott, Arthur Szlam, Marc'Aurelio Ranzato","cs.CL, cs.LG",dialogue,"Text generation is ubiquitous in many NLP tasks, from summarization, to
+dialogue and machine translation. The dominant parametric approach is based on
+locally normalized models which predict one word at a time. While these work
+remarkably well, they are plagued by exposure bias due to the greedy nature of
+the generation process. In this work, we investigate un-normalized energy-based
+models (EBMs) which operate not at the token but at the sequence level. In
+order to make training tractable, we first work in the residual of a pretrained
+locally normalized language model and second we train using noise contrastive
+estimation. Furthermore, since the EBM works at the sequence level, we can
+leverage pretrained bi-directional contextual representations, such as BERT and
+RoBERTa. Our experiments on two large language modeling datasets show that
+residual EBMs yield lower perplexity compared to locally normalized baselines.
+Moreover, generation via importance sampling is very efficient and of higher
+quality than the baseline models according to human evaluation.",2020-04-22
+Trading Off Diversity and Quality in Natural Language Generation,2020-04-22 09:12:10+00:00,http://arxiv.org/abs/2004.10450v1,"Hugh Zhang, Daniel Duckworth, Daphne Ippolito, Arvind Neelakantan",cs.CL,dialogue,"For open-ended language generation tasks such as storytelling and dialogue,
+choosing the right decoding algorithm is critical to controlling the tradeoff
+between generation quality and diversity. However, there presently exists no
+consensus on which decoding procedure is best or even the criteria by which to
+compare them. We address these issues by casting decoding as a multi-objective
+optimization problem aiming to simultaneously maximize both response quality
+and diversity. Our framework enables us to perform the first large-scale
+evaluation of decoding methods along the entire quality-diversity spectrum. We
+find that when diversity is a priority, all methods perform similarly, but when
+quality is viewed as more important, the recently proposed nucleus sampling
+(Holtzman et al. 2019) outperforms all other evaluated decoding algorithms. Our
+experiments also confirm the existence of the `likelihood trap', the
+counter-intuitive observation that high likelihood sequences are often
+surprisingly low quality. We leverage our findings to create and evaluate an
+algorithm called \emph{selective sampling} which tractably approximates
+globally-normalized temperature sampling.",2020-04-22
+Sparse Text Generation,2020-04-06 13:09:10+00:00,http://arxiv.org/abs/2004.02644v3,"Pedro Henrique Martins, Zita Marinho, André F. T. Martins",cs.CL,dialogue,"Current state-of-the-art text generators build on powerful language models
+such as GPT-2, achieving impressive performance. However, to avoid degenerate
+text, they require sampling from a modified softmax, via temperature parameters
+or ad-hoc truncation techniques, as in top-$k$ or nucleus sampling. This
+creates a mismatch between training and testing conditions. In this paper, we
+use the recently introduced entmax transformation to train and sample from a
+natively sparse language model, avoiding this mismatch. The result is a text
+generator with favorable performance in terms of fluency and consistency, fewer
+repetitions, and n-gram diversity closer to human text. In order to evaluate
+our model, we propose three new metrics for comparing sparse or truncated
+distributions: $\epsilon$-perplexity, sparsemax score, and Jensen-Shannon
+divergence. Human-evaluated experiments in story completion and dialogue
+generation show that entmax sampling leads to more engaging and coherent
+stories and conversations.",2020-04-06
+"An Empirical Investigation of Pre-Trained Transformer Language Models
+  for Open-Domain Dialogue Generation",2020-03-09 15:20:21+00:00,http://arxiv.org/abs/2003.04195v1,Piji Li,"cs.CL, cs.AI",dialogue,"We present an empirical investigation of pre-trained Transformer-based
+auto-regressive language models for the task of open-domain dialogue
+generation. Training paradigm of pre-training and fine-tuning is employed to
+conduct the parameter learning. Corpora of News and Wikipedia in Chinese and
+English are collected for the pre-training stage respectively. Dialogue context
+and response are concatenated into a single sequence utilized as the input of
+the models during the fine-tuning stage. A weighted joint prediction paradigm
+for both context and response is designed to evaluate the performance of models
+with or without the loss term for context prediction. Various of decoding
+strategies such as greedy search, beam search, top-k sampling, etc. are
+employed to conduct the response text generation. Extensive experiments are
+conducted on the typical single-turn and multi-turn dialogue corpora such as
+Weibo, Douban, Reddit, DailyDialog, and Persona-Chat. Detailed numbers of
+automatic evaluation metrics on relevance and diversity of the generated
+results for the languages models as well as the baseline approaches are
+reported.",2020-03-09
+"Learning to Compare for Better Training and Evaluation of Open Domain
+  Natural Language Generation Models",2020-02-12 15:52:21+00:00,http://arxiv.org/abs/2002.05058v1,"Wangchunshu Zhou, Ke Xu","cs.CL, cs.LG",dialogue,"Automated evaluation of open domain natural language generation (NLG) models
+remains a challenge and widely used metrics such as BLEU and Perplexity can be
+misleading in some cases. In our paper, we propose to evaluate natural language
+generation models by learning to compare a pair of generated sentences by
+fine-tuning BERT, which has been shown to have good natural language
+understanding ability. We also propose to evaluate the model-level quality of
+NLG models with sample-level comparison results with skill rating system. While
+able to be trained in a fully self-supervised fashion, our model can be further
+fine-tuned with a little amount of human preference annotation to better
+imitate human judgment. In addition to evaluating trained models, we propose to
+apply our model as a performance indicator during training for better
+hyperparameter tuning and early-stopping. We evaluate our approach on both
+story generation and chit-chat dialogue response generation. Experimental
+results show that our model correlates better with human preference compared
+with previous automated evaluation approaches. Training with the proposed
+metric yields better performance in human evaluation, which further
+demonstrates the effectiveness of the proposed model.",2020-02-12
+"Bridging Text and Video: A Universal Multimodal Transformer for
+  Video-Audio Scene-Aware Dialog",2020-02-01 07:50:43+00:00,http://arxiv.org/abs/2002.00163v1,"Zekang Li, Zongjia Li, Jinchao Zhang, Yang Feng, Cheng Niu, Jie Zhou",cs.CL,dialogue,"Audio-Visual Scene-Aware Dialog (AVSD) is a task to generate responses when
+chatting about a given video, which is organized as a track of the 8th Dialog
+System Technology Challenge (DSTC8). To solve the task, we propose a universal
+multimodal transformer and introduce the multi-task learning method to learn
+joint representations among different modalities as well as generate
+informative and fluent responses. Our method extends the natural language
+generation pre-trained model to multimodal dialogue generation task. Our system
+achieves the best performance in both objective and subjective evaluations in
+the challenge.",2020-02-01
+"Incorporating Joint Embeddings into Goal-Oriented Dialogues with
+  Multi-Task Learning",2020-01-28 17:15:02+00:00,http://arxiv.org/abs/2001.10468v1,"Firas Kassawat, Debanjan Chaudhuri, Jens Lehmann","cs.CL, cs.LG, cs.NE, stat.ML",dialogue,"Attention-based encoder-decoder neural network models have recently shown
+promising results in goal-oriented dialogue systems. However, these models
+struggle to reason over and incorporate state-full knowledge while preserving
+their end-to-end text generation functionality. Since such models can greatly
+benefit from user intent and knowledge graph integration, in this paper we
+propose an RNN-based end-to-end encoder-decoder architecture which is trained
+with joint embeddings of the knowledge graph and the corpus as input. The model
+provides an additional integration of user intent along with text generation,
+trained with a multi-task learning paradigm along with an additional
+regularization technique to penalize generating the wrong entity as output. The
+model further incorporates a Knowledge Graph entity lookup during inference to
+guarantee the generated output is state-full based on the local knowledge graph
+provided. We finally evaluated the model using the BLEU score, empirical
+evaluation depicts that our proposed architecture can aid in the betterment of
+task-oriented dialogue system`s performance.",2020-01-28
+"ERNIE-GEN: An Enhanced Multi-Flow Pre-training and Fine-tuning Framework
+  for Natural Language Generation",2020-01-26 02:54:49+00:00,http://arxiv.org/abs/2001.11314v3,"Dongling Xiao, Han Zhang, Yukun Li, Yu Sun, Hao Tian, Hua Wu, Haifeng Wang","cs.CL, cs.LG",dialogue,"Current pre-training works in natural language generation pay little
+attention to the problem of exposure bias on downstream tasks. To address this
+issue, we propose an enhanced multi-flow sequence to sequence pre-training and
+fine-tuning framework named ERNIE-GEN, which bridges the discrepancy between
+training and inference with an infilling generation mechanism and a noise-aware
+generation method. To make generation closer to human writing patterns, this
+framework introduces a span-by-span generation flow that trains the model to
+predict semantically-complete spans consecutively rather than predicting word
+by word. Unlike existing pre-training methods, ERNIE-GEN incorporates
+multi-granularity target sampling to construct pre-training data, which
+enhances the correlation between encoder and decoder. Experimental results
+demonstrate that ERNIE-GEN achieves state-of-the-art results with a much
+smaller amount of pre-training data and parameters on a range of language
+generation tasks, including abstractive summarization (Gigaword and
+CNN/DailyMail), question generation (SQuAD), dialogue generation (Persona-Chat)
+and generative question answering (CoQA).",2020-01-26
+"Graph Constrained Reinforcement Learning for Natural Language Action
+  Spaces",2020-01-23 22:33:18+00:00,http://arxiv.org/abs/2001.08837v1,"Prithviraj Ammanabrolu, Matthew Hausknecht","cs.LG, cs.AI, cs.CL, stat.ML",dialogue,"Interactive Fiction games are text-based simulations in which an agent
+interacts with the world purely through natural language. They are ideal
+environments for studying how to extend reinforcement learning agents to meet
+the challenges of natural language understanding, partial observability, and
+action generation in combinatorially-large text-based action spaces. We present
+KG-A2C, an agent that builds a dynamic knowledge graph while exploring and
+generates actions using a template-based action space. We contend that the dual
+uses of the knowledge graph to reason about game state and to constrain natural
+language generation are the keys to scalable exploration of combinatorially
+large natural language actions. Results across a wide variety of IF games show
+that KG-A2C outperforms current IF agents despite the exponential increase in
+action space size.",2020-01-23
+Stochastic Natural Language Generation Using Dependency Information,2020-01-12 09:40:11+00:00,http://arxiv.org/abs/2001.03897v1,"Elham Seifossadat, Hossein Sameti","cs.CL, cs.LG",dialogue,"This article presents a stochastic corpus-based model for generating natural
+language text. Our model first encodes dependency relations from training data
+through a feature set, then concatenates these features to produce a new
+dependency tree for a given meaning representation, and finally generates a
+natural language utterance from the produced dependency tree. We test our model
+on nine domains from tabular, dialogue act and RDF format. Our model
+outperforms the corpus-based state-of-the-art methods trained on tabular
+datasets and also achieves comparable results with neural network-based
+approaches trained on dialogue act, E2E and WebNLG datasets for BLEU and ERR
+evaluation metrics. Also, by reporting Human Evaluation results, we show that
+our model produces high-quality utterances in aspects of informativeness and
+naturalness as well as quality.",2020-01-12
+"Natural Language Generation Using Reinforcement Learning with External
+  Rewards",2019-11-26 08:46:11+00:00,http://arxiv.org/abs/1911.11404v1,"Vidhushini Srinivasan, Sashank Santhanam, Samira Shaikh",cs.CL,dialogue,"We propose an approach towards natural language generation using a
+bidirectional encoder-decoder which incorporates external rewards through
+reinforcement learning (RL). We use attention mechanism and maximum mutual
+information as an initial objective function using RL. Using a two-part
+training scheme, we train an external reward analyzer to predict the external
+rewards and then use the predicted rewards to maximize the expected rewards
+(both internal and external). We evaluate the system on two standard dialogue
+corpora - Cornell Movie Dialog Corpus and Yelp Restaurant Review Corpus. We
+report standard evaluation metrics including BLEU, ROUGE-L, and perplexity as
+well as human evaluation to validate our approach.",2019-11-26
+Conditioned Query Generation for Task-Oriented Dialogue Systems,2019-11-09 14:22:57+00:00,http://arxiv.org/abs/1911.03698v1,"Stéphane d'Ascoli, Alice Coucke, Francesco Caltagirone, Alexandre Caulier, Marc Lelarge","cs.CL, cs.LG, stat.ML",dialogue,"Scarcity of training data for task-oriented dialogue systems is a well known
+problem that is usually tackled with costly and time-consuming manual data
+annotation. An alternative solution is to rely on automatic text generation
+which, although less accurate than human supervision, has the advantage of
+being cheap and fast. In this paper we propose a novel controlled data
+generation method that could be used as a training augmentation framework for
+closed-domain dialogue. Our contribution is twofold. First we show how to
+optimally train and control the generation of intent-specific sentences using a
+conditional variational autoencoder. Then we introduce a novel protocol called
+query transfer that allows to leverage a broad, unlabelled dataset to extract
+relevant information. Comparison with two different baselines shows that our
+method, in the appropriate regime, consistently improves the diversity of the
+generated queries without compromising their quality.",2019-11-09
+Generating Justifications for Norm-Related Agent Decisions,2019-11-01 06:53:12+00:00,http://arxiv.org/abs/1911.00226v1,"Daniel Kasenberg, Antonio Roque, Ravenna Thielstrom, Meia Chita-Tegmark, Matthias Scheutz","cs.CL, cs.AI",dialogue,"We present an approach to generating natural language justifications of
+decisions derived from norm-based reasoning. Assuming an agent which maximally
+satisfies a set of rules specified in an object-oriented temporal logic, the
+user can ask factual questions (about the agent's rules, actions, and the
+extent to which the agent violated the rules) as well as ""why"" questions that
+require the agent comparing actual behavior to counterfactual trajectories with
+respect to these rules. To produce natural-sounding explanations, we focus on
+the subproblem of producing natural language clauses from statements in a
+fragment of temporal logic, and then describe how to embed these clauses into
+explanatory sentences. We use a human judgment evaluation on a testbed task to
+compare our approach to variants in terms of intelligibility, mental model and
+perceived trust.",2019-11-01
+"BART: Denoising Sequence-to-Sequence Pre-training for Natural Language
+  Generation, Translation, and Comprehension",2019-10-29 18:01:00+00:00,http://arxiv.org/abs/1910.13461v1,"Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Ves Stoyanov, Luke Zettlemoyer","cs.CL, cs.LG, stat.ML",dialogue,"We present BART, a denoising autoencoder for pretraining sequence-to-sequence
+models. BART is trained by (1) corrupting text with an arbitrary noising
+function, and (2) learning a model to reconstruct the original text. It uses a
+standard Tranformer-based neural machine translation architecture which,
+despite its simplicity, can be seen as generalizing BERT (due to the
+bidirectional encoder), GPT (with the left-to-right decoder), and many other
+more recent pretraining schemes. We evaluate a number of noising approaches,
+finding the best performance by both randomly shuffling the order of the
+original sentences and using a novel in-filling scheme, where spans of text are
+replaced with a single mask token. BART is particularly effective when fine
+tuned for text generation but also works well for comprehension tasks. It
+matches the performance of RoBERTa with comparable training resources on GLUE
+and SQuAD, achieves new state-of-the-art results on a range of abstractive
+dialogue, question answering, and summarization tasks, with gains of up to 6
+ROUGE. BART also provides a 1.1 BLEU increase over a back-translation system
+for machine translation, with only target language pretraining. We also report
+ablation experiments that replicate other pretraining schemes within the BART
+framework, to better measure which factors most influence end-task performance.",2019-10-29
+"ViGGO: A Video Game Corpus for Data-To-Text Generation in Open-Domain
+  Conversation",2019-10-26 20:18:59+00:00,http://arxiv.org/abs/1910.12129v1,"Juraj Juraska, Kevin K. Bowden, Marilyn Walker",cs.CL,dialogue,"The uptake of deep learning in natural language generation (NLG) led to the
+release of both small and relatively large parallel corpora for training neural
+models. The existing data-to-text datasets are, however, aimed at task-oriented
+dialogue systems, and often thus limited in diversity and versatility. They are
+typically crowdsourced, with much of the noise left in them. Moreover, current
+neural NLG models do not take full advantage of large training data, and due to
+their strong generalizing properties produce sentences that look template-like
+regardless. We therefore present a new corpus of 7K samples, which (1) is clean
+despite being crowdsourced, (2) has utterances of 9 generalizable and
+conversational dialogue act types, making it more suitable for open-domain
+dialogue systems, and (3) explores the domain of video games, which is new to
+dialogue systems despite having excellent potential for supporting rich
+conversations.",2019-10-26
+"Controlled Text Generation for Data Augmentation in Intelligent
+  Artificial Agents",2019-10-04 20:44:21+00:00,http://arxiv.org/abs/1910.03487v1,"Nikolaos Malandrakis, Minmin Shen, Anuj Goyal, Shuyang Gao, Abhishek Sethi, Angeliki Metallinou","cs.CL, cs.LG, stat.ML",dialogue,"Data availability is a bottleneck during early stages of development of new
+capabilities for intelligent artificial agents. We investigate the use of text
+generation techniques to augment the training data of a popular commercial
+artificial agent across categories of functionality, with the goal of faster
+development of new functionality. We explore a variety of encoder-decoder
+generative models for synthetic training data generation and propose using
+conditional variational auto-encoders. Our approach requires only direct
+optimization, works well with limited data and significantly outperforms the
+previous controlled text generation techniques. Further, the generated data are
+used as additional training samples in an extrinsic intent classification task,
+leading to improved performance by up to 5\% absolute f-score in low-resource
+cases, validating the usefulness of our approach.",2019-10-04
+"Tree-Structured Semantic Encoder with Knowledge Sharing for Domain
+  Adaptation in Natural Language Generation",2019-10-02 14:27:11+00:00,http://arxiv.org/abs/1910.06719v1,"Bo-Hsiang Tseng, Paweł Budzianowski, Yen-Chen Wu, Milica Gašić","cs.CL, cs.LG",dialogue,"Domain adaptation in natural language generation (NLG) remains challenging
+because of the high complexity of input semantics across domains and limited
+data of a target domain. This is particularly the case for dialogue systems,
+where we want to be able to seamlessly include new domains into the
+conversation. Therefore, it is crucial for generation models to share knowledge
+across domains for the effective adaptation from one domain to another. In this
+study, we exploit a tree-structured semantic encoder to capture the internal
+structure of complex semantic representations required for multi-domain
+dialogues in order to facilitate knowledge sharing across domains. In addition,
+a layer-wise attention mechanism between the tree encoder and the decoder is
+adopted to further improve the model's capability. The automatic evaluation
+results show that our model outperforms previous methods in terms of the BLEU
+score and the slot error rate, in particular when the adaptation data is
+limited. In subjective evaluation, human judges tend to prefer the sentences
+generated by our model, rating them more highly on informativeness and
+naturalness than other systems.",2019-10-02
+"Towards a Metric for Automated Conversational Dialogue System Evaluation
+  and Improvement",2019-09-26 12:55:14+00:00,http://arxiv.org/abs/1909.12066v2,"Jan Deriu, Mark Cieliebak","cs.AI, cs.CL, cs.LG",dialogue,"We present ""AutoJudge"", an automated evaluation method for conversational
+dialogue systems. The method works by first generating dialogues based on
+self-talk, i.e. dialogue systems talking to itself. Then, it uses human ratings
+on these dialogues to train an automated judgement model. Our experiments show
+that AutoJudge correlates well with the human ratings and can be used to
+automatically evaluate dialogue systems, even in deployed systems. In a second
+part, we attempt to apply AutoJudge to improve existing systems. This works
+well for re-ranking a set of candidate utterances. However, our experiments
+show that AutoJudge cannot be applied as reward for reinforcement learning,
+although the metric can distinguish good from bad dialogues. We discuss
+potential reasons, but state here already that this is still an open question
+for further research.",2019-09-26
+MOSS: End-to-End Dialog System Framework with Modular Supervision,2019-09-12 09:27:37+00:00,http://arxiv.org/abs/1909.05528v1,"Weixin Liang, Youzhi Tian, Chengcai Chen, Zhou Yu","cs.AI, cs.CL",dialogue,"A major bottleneck in training end-to-end task-oriented dialog system is the
+lack of data. To utilize limited training data more efficiently, we propose
+Modular Supervision Network (MOSS), an encoder-decoder training framework that
+could incorporate supervision from various intermediate dialog system modules
+including natural language understanding, dialog state tracking, dialog policy
+learning, and natural language generation. With only 60% of the training data,
+MOSS-all (i.e., MOSS with supervision from all four dialog modules) outperforms
+state-of-the-art models on CamRest676. Moreover, introducing modular
+supervision has even bigger benefits when the dialog task has a more complex
+dialog state and action space. With only 40% of the training data, MOSS-all
+outperforms the state-of-the-art model on a complex laptop network
+troubleshooting dataset, LaptopNetwork, that we introduced. LaptopNetwork
+consists of conversations between real customers and customer service agents in
+Chinese. Moreover, MOSS framework can accommodate dialogs that have supervision
+from different dialog modules at both the framework level and model level.
+Therefore, MOSS is extremely flexible to update in a real-world deployment.",2019-09-12
+"TransSent: Towards Generation of Structured Sentences with Discourse
+  Marker",2019-09-05 14:03:35+00:00,http://arxiv.org/abs/1909.05364v3,"Xing Wu, Dongjun Wei, Liangjun Zang, Jizhong Han, Songlin Hu","cs.CL, cs.AI",dialogue,"Structured sentences are important expressions in human writings and
+dialogues. Previous works on neural text generation fused semantic and
+structural information by encoding the entire sentence into a mixed hidden
+representation. However, when a generated sentence becomes complicated, the
+structure is difficult to be properly maintained. To alleviate this problem, we
+explicitly separate the modeling process of semantic and structural
+information. Intuitively, humans generate structured sentences by directly
+connecting discourses with discourse markers (such as and, but, etc.).
+Therefore, we propose a task that mimics this process, called discourse
+transfer. This task represents a structured sentence as (head discourse,
+discourse marker, tail discourse), and aims at tail discourse generation based
+on head discourse and discourse marker. We also propose a corresponding model
+called TransSent, which interprets the relationship between two discourses as a
+translation1 from the head discourse to the tail discourse in the embedding
+space. We experiment TransSent not only in discourse transfer task but also in
+free text generation and dialogue generation tasks. Automatic and human
+evaluation results show that TransSent can generate structured sentences with
+high quality, and has certain scalability in different tasks.",2019-09-05
+"Learning Question-Guided Video Representation for Multi-Turn Video
+  Question Answering",2019-07-31 01:37:58+00:00,http://arxiv.org/abs/1907.13280v1,"Guan-Lin Chao, Abhinav Rastogi, Semih Yavuz, Dilek Hakkani-Tür, Jindong Chen, Ian Lane",cs.CL,dialogue,"Understanding and conversing about dynamic scenes is one of the key
+capabilities of AI agents that navigate the environment and convey useful
+information to humans. Video question answering is a specific scenario of such
+AI-human interaction where an agent generates a natural language response to a
+question regarding the video of a dynamic scene. Incorporating features from
+multiple modalities, which often provide supplementary information, is one of
+the challenging aspects of video question answering. Furthermore, a question
+often concerns only a small segment of the video, hence encoding the entire
+video sequence using a recurrent neural network is not computationally
+efficient. Our proposed question-guided video representation module efficiently
+generates the token-level video summary guided by each word in the question.
+The learned representations are then fused with the question to generate the
+answer. Through empirical evaluation on the Audio Visual Scene-aware Dialog
+(AVSD) dataset, our proposed models in single-turn and multi-turn question
+answering achieve state-of-the-art performance on several automatic natural
+language generation evaluation metrics.",2019-07-31
+"Automatic Conditional Generation of Personalized Social Media Short
+  Texts",2019-06-15 09:20:41+00:00,http://arxiv.org/abs/1906.09324v1,"Ziwen Wang, Jie Wang, Haiqian Gu, Fei Su, Bojin Zhuang","cs.CL, cs.AI, cs.SI",dialogue,"Automatic text generation has received much attention owing to rapid
+development of deep neural networks. In general, text generation systems based
+on statistical language model will not consider anthropomorphic
+characteristics, which results in machine-like generated texts. To fill the
+gap, we propose a conditional language generation model with Big Five
+Personality (BFP) feature vectors as input context, which writes human-like
+short texts. The short text generator consists of a layer of long short memory
+network (LSTM), where a BFP feature vector is concatenated as one part of input
+for each cell. To enable supervised training generation model, a text
+classification model based convolution neural network (CNN) has been used to
+prepare BFP-tagged Chinese micro-blog corpora. Validated by a BFP linguistic
+computational model, our generated Chinese short texts exhibit discriminative
+personality styles, which are also syntactically correct and semantically
+smooth with appropriate emoticons. With combination of natural language
+generation with psychological linguistics, our proposed BFP-dependent text
+generation model can be widely used for individualization in machine
+translation, image caption, dialogue generation and so on.",2019-06-15
+"Jointly Learning Semantic Parser and Natural Language Generator via Dual
+  Information Maximization",2019-06-03 05:00:09+00:00,http://arxiv.org/abs/1906.00575v3,"Hai Ye, Wenjie Li, Lu Wang",cs.CL,dialogue,"Semantic parsing aims to transform natural language (NL) utterances into
+formal meaning representations (MRs), whereas an NL generator achieves the
+reverse: producing a NL description for some given MRs. Despite this intrinsic
+connection, the two tasks are often studied separately in prior work. In this
+paper, we model the duality of these two tasks via a joint learning framework,
+and demonstrate its effectiveness of boosting the performance on both tasks.
+Concretely, we propose a novel method of dual information maximization (DIM) to
+regularize the learning process, where DIM empirically maximizes the
+variational lower bounds of expected joint distributions of NL and MRs. We
+further extend DIM to a semi-supervision setup (SemiDIM), which leverages
+unlabeled data of both tasks. Experiments on three datasets of dialogue
+management and code generation (and summarization) show that performance on
+both semantic parsing and NL generation can be consistently improved by DIM, in
+both supervised and semi-supervised setups.",2019-06-03
+"A Survey of Natural Language Generation Techniques with a Focus on
+  Dialogue Systems - Past, Present and Future Directions",2019-06-02 22:55:14+00:00,http://arxiv.org/abs/1906.00500v1,"Sashank Santhanam, Samira Shaikh",cs.CL,dialogue,"One of the hardest problems in the area of Natural Language Processing and
+Artificial Intelligence is automatically generating language that is coherent
+and understandable to humans. Teaching machines how to converse as humans do
+falls under the broad umbrella of Natural Language Generation. Recent years
+have seen unprecedented growth in the number of research articles published on
+this subject in conferences and journals both by academic and industry
+researchers. There have also been several workshops organized alongside
+top-tier NLP conferences dedicated specifically to this problem. All this
+activity makes it hard to clearly define the state of the field and reason
+about its future directions. In this work, we provide an overview of this
+important and thriving area, covering traditional approaches, statistical
+approaches and also approaches that use deep neural networks. We provide a
+comprehensive review towards building open domain dialogue systems, an
+important application of natural language generation. We find that,
+predominantly, the approaches for building dialogue systems use seq2seq or
+language models architecture. Notably, we identify three important areas of
+further research towards building more effective dialogue systems: 1)
+incorporating larger context, including conversation context and world
+knowledge; 2) adding personae or personality in the NLG system; and 3)
+overcoming dull and generic responses that affect the quality of
+system-produced responses. We provide pointers on how to tackle these open
+problems through the use of cognitive architectures that mimic human language
+understanding and generation capabilities.",2019-06-02
+Adversarial Generation and Encoding of Nested Texts,2019-06-01 15:01:16+00:00,http://arxiv.org/abs/1906.00238v1,Alon Rozental,cs.CL,dialogue,"In this paper we propose a new language model called AGENT, which stands for
+Adversarial Generation and Encoding of Nested Texts. AGENT is designed for
+encoding, generating and refining documents that consist of a long and coherent
+text, such as an entire book, provided they are hierarchically annotated
+(nested). i.e. divided into sentences, paragraphs and chapters. The core idea
+of our system is learning vector representations for each level of the text
+hierarchy (sentences, paragraphs, etc...), and train each such representation
+to perform 3 tasks: The task of reconstructing the sequence of vectors from a
+lower level that was used to create the representation, and generalized
+versions of the Masked Language Modeling (MLM) and ""Next Sentence Prediction""
+tasks from BERT Devlin et al. [2018]. Additionally we present a new adversarial
+model for long text generation and suggest a way to improve the coherence of
+the generated text by traversing its vector representation tree.",2019-06-01
+Theme-aware generation model for chinese lyrics,2019-05-23 08:50:15+00:00,http://arxiv.org/abs/1906.02134v1,"Jie Wang, Xinyan Zhao","cs.CL, cs.LG",dialogue,"With rapid development of neural networks, deep-learning has been extended to
+various natural language generation fields, such as machine translation,
+dialogue generation and even literature creation. In this paper, we propose a
+theme-aware language generation model for Chinese music lyrics, which improves
+the theme-connectivity and coherence of generated paragraphs greatly. A
+multi-channel sequence-to-sequence (seq2seq) model encodes themes and previous
+sentences as global and local contextual information. Moreover, attention
+mechanism is incorporated for sequence decoding, enabling to fuse context into
+predicted next texts. To prepare appropriate train corpus, LDA (Latent
+Dirichlet Allocation) is applied for theme extraction. Generated lyrics is
+grammatically correct and semantically coherent with selected themes, which
+offers a valuable modelling method in other fields including multi-turn
+chatbots, long paragraph generation and etc.",2019-05-23
+"Meta-Learning for Low-resource Natural Language Generation in
+  Task-oriented Dialogue Systems",2019-05-14 14:35:06+00:00,http://arxiv.org/abs/1905.05644v1,"Fei Mi, Minlie Huang, Jiyong Zhang, Boi Faltings","cs.CL, cs.LG",dialogue,"Natural language generation (NLG) is an essential component of task-oriented
+dialogue systems. Despite the recent success of neural approaches for NLG, they
+are typically developed for particular domains with rich annotated training
+examples. In this paper, we study NLG in a low-resource setting to generate
+sentences in new scenarios with handful training examples. We formulate the
+problem from a meta-learning perspective, and propose a generalized
+optimization-based approach (Meta-NLG) based on the well-recognized
+model-agnostic meta-learning (MAML) algorithm. Meta-NLG defines a set of meta
+tasks, and directly incorporates the objective of adapting to new low-resource
+NLG tasks into the meta-learning optimization process. Extensive experiments
+are conducted on a large multi-domain dataset (MultiWoz) with diverse
+linguistic variations. We show that Meta-NLG significantly outperforms other
+training procedures in various low-resource configurations. We analyze the
+results, and demonstrate that Meta-NLG adapts extremely fast and well to
+low-resource situations.",2019-05-14
+"Generate, Filter, and Rank: Grammaticality Classification for
+  Production-Ready NLG Systems",2019-04-05 21:02:12+00:00,http://arxiv.org/abs/1904.03279v2,"Ashwini Challa, Kartikeya Upasani, Anusha Balakrishnan, Rajen Subba",cs.CL,dialogue,"Neural approaches to Natural Language Generation (NLG) have been promising
+for goal-oriented dialogue. One of the challenges of productionizing these
+approaches, however, is the ability to control response quality, and ensure
+that generated responses are acceptable. We propose the use of a generate,
+filter, and rank framework, in which candidate responses are first filtered to
+eliminate unacceptable responses, and then ranked to select the best response.
+While acceptability includes grammatical correctness and semantic correctness,
+we focus only on grammaticality classification in this paper, and show that
+existing datasets for grammatical error correction don't correctly capture the
+distribution of errors that data-driven generators are likely to make. We
+release a grammatical classification and semantic correctness classification
+dataset for the weather domain that consists of responses generated by 3
+data-driven NLG systems. We then explore two supervised learning approaches
+(CNNs and GBDTs) for classifying grammaticality. Our experiments show that
+grammaticality classification is very sensitive to the distribution of errors
+in the data, and that these distributions vary significantly with both the
+source of the response as well as the domain. We show that it's possible to
+achieve high precision with reasonable recall on our dataset.",2019-04-05
+"Unifying Human and Statistical Evaluation for Natural Language
+  Generation",2019-04-04 21:03:34+00:00,http://arxiv.org/abs/1904.02792v1,"Tatsunori B. Hashimoto, Hugh Zhang, Percy Liang","cs.CL, cs.AI, stat.ML",dialogue,"How can we measure whether a natural language generation system produces both
+high quality and diverse outputs? Human evaluation captures quality but not
+diversity, as it does not catch models that simply plagiarize from the training
+set. On the other hand, statistical evaluation (i.e., perplexity) captures
+diversity but not quality, as models that occasionally emit low quality samples
+would be insufficiently penalized. In this paper, we propose a unified
+framework which evaluates both diversity and quality, based on the optimal
+error rate of predicting whether a sentence is human- or machine-generated. We
+demonstrate that this error rate can be efficiently estimated by combining
+human and statistical evaluation, using an evaluation metric which we call
+HUSE. On summarization and chit-chat dialogue, we show that (i) HUSE detects
+diversity defects which fool pure human evaluation and that (ii) techniques
+such as annealing for improving quality actually decrease HUSE due to decreased
+diversity.",2019-04-04
+"Natural Language Generation at Scale: A Case Study for Open Domain
+  Question Answering",2019-03-19 16:35:29+00:00,http://arxiv.org/abs/1903.08097v2,"Alessandra Cervone, Chandra Khatri, Rahul Goel, Behnam Hedayatnia, Anu Venkatesh, Dilek Hakkani-Tur, Raefer Gabriel",cs.CL,dialogue,"Current approaches to Natural Language Generation (NLG) for dialog mainly
+focus on domain-specific, task-oriented applications (e.g. restaurant booking)
+using limited ontologies (up to 20 slot types), usually without considering the
+previous conversation context. Furthermore, these approaches require large
+amounts of data for each domain, and do not benefit from examples that may be
+available for other domains. This work explores the feasibility of applying
+statistical NLG to scenarios requiring larger ontologies, such as multi-domain
+dialog applications or open-domain question answering (QA) based on knowledge
+graphs. We model NLG through an Encoder-Decoder framework using a large dataset
+of interactions between real-world users and a conversational agent for
+open-domain QA. First, we investigate the impact of increasing the number of
+slot types on the generation quality and experiment with different partitions
+of the QA data with progressively larger ontologies (up to 369 slot types).
+Second, we perform multi-task learning experiments between open-domain QA and
+task-oriented dialog, and benchmark our model on a popular NLG dataset.
+Moreover, we experiment with using the conversational context as an additional
+input to improve response generation quality. Our experiments show the
+feasibility of learning statistical NLG models for open-domain QA with larger
+ontologies.",2019-03-19
+"What makes a good conversation? How controllable attributes affect human
+  judgments",2019-02-22 19:59:47+00:00,http://arxiv.org/abs/1902.08654v2,"Abigail See, Stephen Roller, Douwe Kiela, Jason Weston",cs.CL,dialogue,"A good conversation requires balance -- between simplicity and detail;
+staying on topic and changing it; asking questions and answering them. Although
+dialogue agents are commonly evaluated via human judgments of overall quality,
+the relationship between quality and these individual factors is less
+well-studied. In this work, we examine two controllable neural text generation
+methods, conditional training and weighted decoding, in order to control four
+important attributes for chitchat dialogue: repetition, specificity,
+response-relatedness and question-asking. We conduct a large-scale human
+evaluation to measure the effect of these control parameters on multi-turn
+interactive conversations on the PersonaChat task. We provide a detailed
+analysis of their relationship to high-level aspects of conversation, and show
+that by controlling combinations of these variables our models obtain clear
+improvements in human quality judgments.",2019-02-22
+"End-to-End Knowledge-Routed Relational Dialogue System for Automatic
+  Diagnosis",2019-01-30 00:34:05+00:00,http://arxiv.org/abs/1901.10623v2,"Lin Xu, Qixian Zhou, Ke Gong, Xiaodan Liang, Jianheng Tang, Liang Lin",cs.CL,dialogue,"Beyond current conversational chatbots or task-oriented dialogue systems that
+have attracted increasing attention, we move forward to develop a dialogue
+system for automatic medical diagnosis that converses with patients to collect
+additional symptoms beyond their self-reports and automatically makes a
+diagnosis. Besides the challenges for conversational dialogue systems (e.g.
+topic transition coherency and question understanding), automatic medical
+diagnosis further poses more critical requirements for the dialogue rationality
+in the context of medical knowledge and symptom-disease relations. Existing
+dialogue systems (Madotto, Wu, and Fung 2018; Wei et al. 2018; Li et al. 2017)
+mostly rely on data-driven learning and cannot be able to encode extra expert
+knowledge graph. In this work, we propose an End-to-End Knowledge-routed
+Relational Dialogue System (KR-DS) that seamlessly incorporates rich medical
+knowledge graph into the topic transition in dialogue management, and makes it
+cooperative with natural language understanding and natural language
+generation. A novel Knowledge-routed Deep Q-network (KR-DQN) is introduced to
+manage topic transitions, which integrates a relational refinement branch for
+encoding relations among different symptoms and symptom-disease pairs, and a
+knowledge-routed graph branch for topic decision-making. Extensive experiments
+on a public medical dialogue dataset show our KR-DS significantly beats
+state-of-the-art methods (by more than 8% in diagnosis accuracy). We further
+show the superiority of our KR-DS on a newly collected medical dialogue system
+dataset, which is more challenging retaining original self-reports and
+conversational data between patients and doctors.",2019-01-30
+"Variational Cross-domain Natural Language Generation for Spoken Dialogue
+  Systems",2018-12-20 22:53:33+00:00,http://arxiv.org/abs/1812.08879v1,"Bo-Hsiang Tseng, Florian Kreyssig, Pawel Budzianowski, Inigo Casanueva, Yen-Chen Wu, Stefan Ultes, Milica Gasic","cs.CL, cs.AI",dialogue,"Cross-domain natural language generation (NLG) is still a difficult task
+within spoken dialogue modelling. Given a semantic representation provided by
+the dialogue manager, the language generator should generate sentences that
+convey desired information. Traditional template-based generators can produce
+sentences with all necessary information, but these sentences are not
+sufficiently diverse. With RNN-based models, the diversity of the generated
+sentences can be high, however, in the process some information is lost. In
+this work, we improve an RNN-based generator by considering latent information
+at the sentence level during generation using the conditional variational
+autoencoder architecture. We demonstrate that our model outperforms the
+original RNN-based generator, while yielding highly diverse sentences. In
+addition, our model performs better when the training data is limited.",2018-12-20
+The RLLChatbot: a solution to the ConvAI challenge,2018-11-07 01:19:05+00:00,http://arxiv.org/abs/1811.02714v2,"Nicolas Gontier, Koustuv Sinha, Peter Henderson, Iulian Serban, Michael Noseworthy, Prasanna Parthasarathi, Joelle Pineau",cs.CL,dialogue,"Current conversational systems can follow simple commands and answer basic
+questions, but they have difficulty maintaining coherent and open-ended
+conversations about specific topics. Competitions like the Conversational
+Intelligence (ConvAI) challenge are being organized to push the research
+development towards that goal. This article presents in detail the RLLChatbot
+that participated in the 2017 ConvAI challenge. The goal of this research is to
+better understand how current deep learning and reinforcement learning tools
+can be used to build a robust yet flexible open domain conversational agent. We
+provide a thorough description of how a dialog system can be built and trained
+from mostly public-domain datasets using an ensemble model. The first
+contribution of this work is a detailed description and analysis of different
+text generation models in addition to novel message ranking and selection
+methods. Moreover, a new open-source conversational dataset is presented.
+Training on this data significantly improves the Recall@k score of the ranking
+and selection mechanisms compared to our baseline model responsible for
+selecting the message returned at each interaction.",2018-11-07
+Improving Context Modelling in Multimodal Dialogue Generation,2018-10-20 17:07:42+00:00,http://arxiv.org/abs/1810.11955v1,"Shubham Agarwal, Ondrej Dusek, Ioannis Konstas, Verena Rieser",cs.CL,dialogue,"In this work, we investigate the task of textual response generation in a
+multimodal task-oriented dialogue system. Our work is based on the recently
+released Multimodal Dialogue (MMD) dataset (Saha et al., 2017) in the fashion
+domain. We introduce a multimodal extension to the Hierarchical Recurrent
+Encoder-Decoder (HRED) model and show that this extension outperforms strong
+baselines in terms of text-based similarity metrics. We also showcase the
+shortcomings of current vision and language models by performing an error
+analysis on our system's output.",2018-10-20
+Hierarchical Text Generation using an Outline,2018-10-20 13:27:04+00:00,http://arxiv.org/abs/1810.08802v1,"Mehdi Drissi, Olivia Watkins, Jugal Kalita","cs.CL, cs.LG, stat.ML",dialogue,"Many challenges in natural language processing require generating text,
+including language translation, dialogue generation, and speech recognition.
+For all of these problems, text generation becomes more difficult as the text
+becomes longer. Current language models often struggle to keep track of
+coherence for long pieces of text. Here, we attempt to have the model construct
+and use an outline of the text it generates to keep it focused. We find that
+the usage of an outline improves perplexity. We do not find that using the
+outline improves human evaluation over a simpler baseline, revealing a
+discrepancy in perplexity and human perception. Similarly, hierarchical
+generation is not found to improve human evaluation scores.",2018-10-20
+Findings of the E2E NLG Challenge,2018-10-02 11:06:35+00:00,http://arxiv.org/abs/1810.01170v1,"Ondřej Dušek, Jekaterina Novikova, Verena Rieser",cs.CL,dialogue,"This paper summarises the experimental setup and results of the first shared
+task on end-to-end (E2E) natural language generation (NLG) in spoken dialogue
+systems. Recent end-to-end generation systems are promising since they reduce
+the need for data annotation. However, they are currently limited to small,
+delexicalised datasets. The E2E NLG shared task aims to assess whether these
+novel approaches can generate better-quality output by learning from a dataset
+containing higher lexical richness, syntactic complexity and diverse discourse
+phenomena. We compare 62 systems submitted by 17 institutions, covering a wide
+range of approaches, including machine learning architectures -- with the
+majority implementing sequence-to-sequence models (seq2seq) -- as well as
+systems based on grammatical rules and templates.",2018-10-02
+Automatic Evaluation of Neural Personality-based Chatbots,2018-09-30 21:53:47+00:00,http://arxiv.org/abs/1810.00472v1,"Yujie Xing, Raquel Fernández",cs.CL,dialogue,"Stylistic variation is critical to render the utterances generated by
+conversational agents natural and engaging. In this paper, we focus on
+sequence-to-sequence models for open-domain dialogue response generation and
+propose a new method to evaluate the extent to which such models are able to
+generate responses that reflect different personality traits.",2018-09-30
+"Investigating Linguistic Pattern Ordering in Hierarchical Natural
+  Language Generation",2018-09-19 05:40:35+00:00,http://arxiv.org/abs/1809.07629v1,"Shang-Yu Su, Yun-Nung Chen",cs.CL,dialogue,"Natural language generation (NLG) is a critical component in spoken dialogue
+system, which can be divided into two phases: (1) sentence planning: deciding
+the overall sentence structure, (2) surface realization: determining specific
+word forms and flattening the sentence structure into a string. With the rise
+of deep learning, most modern NLG models are based on a sequence-to-sequence
+(seq2seq) model, which basically contains an encoder-decoder structure; these
+NLG models generate sentences from scratch by jointly optimizing sentence
+planning and surface realization. However, such simple encoder-decoder
+architecture usually fail to generate complex and long sentences, because the
+decoder has difficulty learning all grammar and diction knowledge well. This
+paper introduces an NLG model with a hierarchical attentional decoder, where
+the hierarchy focuses on leveraging linguistic knowledge in a specific order.
+The experiments show that the proposed method significantly outperforms the
+traditional seq2seq model with a smaller model size, and the design of the
+hierarchical attentional decoder can be applied to various NLG systems.
+Furthermore, different generation strategies based on linguistic patterns are
+investigated and analyzed in order to guide future NLG research work.",2018-09-19
+Neural MultiVoice Models for Expressing Novel Personalities in Dialog,2018-09-05 05:24:00+00:00,http://arxiv.org/abs/1809.01331v1,"Shereen Oraby, Lena Reed, Sharath TS, Shubhangi Tandon, Marilyn Walker",cs.CL,dialogue,"Natural language generators for task-oriented dialog should be able to vary
+the style of the output utterance while still effectively realizing the system
+dialog actions and their associated semantics. While the use of neural
+generation for training the response generation component of conversational
+agents promises to simplify the process of producing high quality responses in
+new domains, to our knowledge, there has been very little investigation of
+neural generators for task-oriented dialog that can vary their response style,
+and we know of no experiments on models that can generate responses that are
+different in style from those seen during training, while still maintain- ing
+semantic fidelity to the input meaning representation. Here, we show that a
+model that is trained to achieve a single stylis- tic personality target can
+produce outputs that combine stylistic targets. We carefully evaluate the
+multivoice outputs for both semantic fidelity and for similarities to and
+differences from the linguistic features that characterize the original
+training style. We show that contrary to our predictions, the learned models do
+not always simply interpolate model parameters, but rather produce styles that
+are distinct, and novel from the personalities they were trained on.",2018-09-05
+"An Auto-Encoder Matching Model for Learning Utterance-Level Semantic
+  Dependency in Dialogue Generation",2018-08-27 11:46:13+00:00,http://arxiv.org/abs/1808.08795v1,"Liangchen Luo, Jingjing Xu, Junyang Lin, Qi Zeng, Xu Sun",cs.CL,dialogue,"Generating semantically coherent responses is still a major challenge in
+dialogue generation. Different from conventional text generation tasks, the
+mapping between inputs and responses in conversations is more complicated,
+which highly demands the understanding of utterance-level semantic dependency,
+a relation between the whole meanings of inputs and outputs. To address this
+problem, we propose an Auto-Encoder Matching (AEM) model to learn such
+dependency. The model contains two auto-encoders and one mapping module. The
+auto-encoders learn the semantic representations of inputs and responses, and
+the mapping module learns to connect the utterance-level representations.
+Experimental results from automatic and human evaluations demonstrate that our
+model is capable of generating responses of high coherence and fluency compared
+to baseline models. The code is available at https://github.com/lancopku/AMM",2018-08-27
+"Natural Language Generation by Hierarchical Decoding with Linguistic
+  Patterns",2018-08-08 13:12:10+00:00,http://arxiv.org/abs/1808.02747v2,"Shang-Yu Su, Kai-Ling Lo, Yi-Ting Yeh, Yun-Nung Chen",cs.CL,dialogue,"Natural language generation (NLG) is a critical component in spoken dialogue
+systems. Classic NLG can be divided into two phases: (1) sentence planning:
+deciding on the overall sentence structure, (2) surface realization:
+determining specific word forms and flattening the sentence structure into a
+string. Many simple NLG models are based on recurrent neural networks (RNN) and
+sequence-to-sequence (seq2seq) model, which basically contains an
+encoder-decoder structure; these NLG models generate sentences from scratch by
+jointly optimizing sentence planning and surface realization using a simple
+cross entropy loss training criterion. However, the simple encoder-decoder
+architecture usually suffers from generating complex and long sentences,
+because the decoder has to learn all grammar and diction knowledge. This paper
+introduces a hierarchical decoding NLG model based on linguistic patterns in
+different levels, and shows that the proposed method outperforms the
+traditional one with a smaller model size. Furthermore, the design of the
+hierarchical decoding is flexible and easily-extensible in various NLG systems.",2018-08-08
+"Adversarial Domain Adaptation for Variational Neural Language Generation
+  in Dialogue Systems",2018-08-08 00:02:18+00:00,http://arxiv.org/abs/1808.02586v1,"Van-Khanh Tran, Le-Minh Nguyen",cs.CL,dialogue,"Domain Adaptation arises when we aim at learning from source domain a model
+that can per- form acceptably well on a different target domain. It is
+especially crucial for Natural Language Generation (NLG) in Spoken Dialogue
+Systems when there are sufficient annotated data in the source domain, but
+there is a limited labeled data in the target domain. How to effectively
+utilize as much of existing abilities from source domains is a crucial issue in
+domain adaptation. In this paper, we propose an adversarial training procedure
+to train a Variational encoder-decoder based language generator via multiple
+adaptation steps. In this procedure, a model is first trained on a source
+domain data and then fine-tuned on a small set of target domain utterances
+under the guidance of two proposed critics. Experimental results show that the
+proposed method can effec- tively leverage the existing knowledge in the source
+domain to adapt to another related domain by using only a small amount of
+in-domain data.",2018-08-08
+"Let's do it ""again"": A First Computational Approach to Detecting
+  Adverbial Presupposition Triggers",2018-06-11 22:44:38+00:00,http://arxiv.org/abs/1806.04262v1,"Andre Cianflone, Yulan Feng, Jad Kabbara, Jackie Chi Kit Cheung",cs.CL,dialogue,"We introduce the task of predicting adverbial presupposition triggers such as
+also and again. Solving such a task requires detecting recurring or similar
+events in the discourse context, and has applications in natural language
+generation tasks such as summarization and dialogue systems. We create two new
+datasets for the task, derived from the Penn Treebank and the Annotated English
+Gigaword corpora, as well as a novel attention mechanism tailored to this task.
+Our attention mechanism augments a baseline recurrent neural network without
+the need for additional trainable parameters, minimizing the added
+computational cost of our mechanism. We demonstrate that our model
+statistically outperforms a number of baselines, including an LSTM-based
+language model.",2018-06-11
+"Controlling Personality-Based Stylistic Variation with Neural Natural
+  Language Generators",2018-05-22 02:07:32+00:00,http://arxiv.org/abs/1805.08352v1,"Shereen Oraby, Lena Reed, Shubhangi Tandon, T. S. Sharath, Stephanie Lukin, Marilyn Walker",cs.CL,dialogue,"Natural language generators for task-oriented dialogue must effectively
+realize system dialogue actions and their associated semantics. In many
+applications, it is also desirable for generators to control the style of an
+utterance. To date, work on task-oriented neural generation has primarily
+focused on semantic fidelity rather than achieving stylistic goals, while work
+on style has been done in contexts where it is difficult to measure content
+preservation. Here we present three different sequence-to-sequence models and
+carefully test how well they disentangle content and style. We use a
+statistical generator, Personage, to synthesize a new corpus of over 88,000
+restaurant domain utterances whose style varies according to models of
+personality, giving us total control over both the semantic content and the
+stylistic variation in the training data. We then vary the amount of explicit
+stylistic supervision given to the three models. We show that our most explicit
+model can simultaneously achieve high fidelity to both semantic and stylistic
+goals: this model adds a context vector of 36 stylistic parameters as input to
+the hidden state of the encoder at each time step, showing the benefits of
+explicit stylistic supervision, even when the amount of training data is large.",2018-05-22
+"A Deep Ensemble Model with Slot Alignment for Sequence-to-Sequence
+  Natural Language Generation",2018-05-16 23:30:01+00:00,http://arxiv.org/abs/1805.06553v1,"Juraj Juraska, Panagiotis Karagiannis, Kevin K. Bowden, Marilyn A. Walker",cs.CL,dialogue,"Natural language generation lies at the core of generative dialogue systems
+and conversational agents. We describe an ensemble neural language generator,
+and present several novel methods for data representation and augmentation that
+yield improved results in our model. We test the model on three datasets in the
+restaurant, TV and laptop domains, and report both objective and subjective
+evaluations of our best model. Using a range of automatic metrics, as well as
+human evaluators, we show that our approach achieves better results than
+state-of-the-art models on the same datasets.",2018-05-16
+"DP-GAN: Diversity-Promoting Generative Adversarial Network for
+  Generating Informative and Diversified Text",2018-02-05 10:54:29+00:00,http://arxiv.org/abs/1802.01345v3,"Jingjing Xu, Xuancheng Ren, Junyang Lin, Xu Sun",cs.CL,dialogue,"Existing text generation methods tend to produce repeated and ""boring""
+expressions. To tackle this problem, we propose a new text generation model,
+called Diversity-Promoting Generative Adversarial Network (DP-GAN). The
+proposed model assigns low reward for repeatedly generated text and high reward
+for ""novel"" and fluent text, encouraging the generator to produce diverse and
+informative text. Moreover, we propose a novel language-model based
+discriminator, which can better distinguish novel text from repeated text
+without the saturation problem compared with existing classifier-based
+discriminators. The experimental results on review generation and dialogue
+generation tasks demonstrate that our model can generate substantially more
+diverse and informative text than existing baselines. The code is available at
+https://github.com/lancopku/DPGAN",2018-02-05
+A Deep Reinforcement Learning Chatbot (Short Version),2018-01-20 17:22:06+00:00,http://arxiv.org/abs/1801.06700v1,"Iulian V. Serban, Chinnadhurai Sankar, Mathieu Germain, Saizheng Zhang, Zhouhan Lin, Sandeep Subramanian, Taesup Kim, Michael Pieper, Sarath Chandar, Nan Rosemary Ke, Sai Rajeswar, Alexandre de Brebisson, Jose M. R. Sotelo, Dendi Suhubdy, Vincent Michalski, Alexandre Nguyen, Joelle Pineau, Yoshua Bengio","cs.CL, cs.AI, cs.LG, cs.NE, stat.ML, I.5.1; I.2.7",dialogue,"We present MILABOT: a deep reinforcement learning chatbot developed by the
+Montreal Institute for Learning Algorithms (MILA) for the Amazon Alexa Prize
+competition. MILABOT is capable of conversing with humans on popular small talk
+topics through both speech and text. The system consists of an ensemble of
+natural language generation and retrieval models, including neural network and
+template-based models. By applying reinforcement learning to crowdsourced data
+and real-world user interactions, the system has been trained to select an
+appropriate response from the models in its ensemble. The system has been
+evaluated through A/B testing with real-world users, where it performed
+significantly better than other systems. The results highlight the potential of
+coupling ensemble systems with deep reinforcement learning as a fruitful path
+for developing real-world, open-domain conversational agents.",2018-01-20
+Neural Text Generation: A Practical Guide,2017-11-27 04:50:15+00:00,http://arxiv.org/abs/1711.09534v1,Ziang Xie,"cs.CL, cs.LG, stat.ML",dialogue,"Deep learning methods have recently achieved great empirical success on
+machine translation, dialogue response generation, summarization, and other
+text generation tasks. At a high level, the technique has been to train
+end-to-end neural network models consisting of an encoder model to produce a
+hidden representation of the source text, followed by a decoder model to
+generate the target. While such models have significantly fewer pieces than
+earlier systems, significant tuning is still required to achieve good
+performance. For text generation models in particular, the decoder can behave
+in undesired ways, such as by generating truncated or repetitive outputs,
+outputting bland and generic responses, or in some cases producing
+ungrammatical gibberish. This paper is intended as a practical guide for
+resolving such undesired behavior in text generation models, with the aim of
+helping enable real-world applications.",2017-11-27
+Long Text Generation via Adversarial Training with Leaked Information,2017-09-24 13:35:08+00:00,http://arxiv.org/abs/1709.08624v2,"Jiaxian Guo, Sidi Lu, Han Cai, Weinan Zhang, Yong Yu, Jun Wang","cs.CL, cs.AI, cs.LG",dialogue,"Automatically generating coherent and semantically meaningful text has many
+applications in machine translation, dialogue systems, image captioning, etc.
+Recently, by combining with policy gradient, Generative Adversarial Nets (GAN)
+that use a discriminative model to guide the training of the generative model
+as a reinforcement learning policy has shown promising results in text
+generation. However, the scalar guiding signal is only available after the
+entire text has been generated and lacks intermediate information about text
+structure during the generative process. As such, it limits its success when
+the length of the generated text samples is long (more than 20 words). In this
+paper, we propose a new framework, called LeakGAN, to address the problem for
+long text generation. We allow the discriminative net to leak its own
+high-level extracted features to the generative net to further help the
+guidance. The generator incorporates such informative signals into all
+generation steps through an additional Manager module, which takes the
+extracted features of current generated words and outputs a latent vector to
+guide the Worker module for next-word generation. Our extensive experiments on
+synthetic data and various real-world tasks with Turing test demonstrate that
+LeakGAN is highly effective in long text generation and also improves the
+performance in short text generation scenarios. More importantly, without any
+supervision, LeakGAN would be able to implicitly learn sentence structures only
+through the interaction between Manager and Worker.",2017-09-24
+"Harvesting Creative Templates for Generating Stylistically Varied
+  Restaurant Reviews",2017-09-15 16:59:20+00:00,http://arxiv.org/abs/1709.05308v1,"Shereen Oraby, Sheideh Homayon, Marilyn Walker",cs.CL,dialogue,"Many of the creative and figurative elements that make language exciting are
+lost in translation in current natural language generation engines. In this
+paper, we explore a method to harvest templates from positive and negative
+reviews in the restaurant domain, with the goal of vastly expanding the types
+of stylistic variation available to the natural language generator. We learn
+hyperbolic adjective patterns that are representative of the strongly-valenced
+expressive language commonly used in either positive or negative reviews. We
+then identify and delexicalize entities, and use heuristics to extract
+generation templates from review sentences. We evaluate the learned templates
+against more traditional review templates, using subjective measures of
+""convincingness"", ""interestingness"", and ""naturalness"". Our results show that
+the learned templates score highly on these measures. Finally, we analyze the
+linguistic categories that characterize the learned positive and negative
+templates. We plan to use the learned templates to improve the conversational
+style of dialogue systems in the restaurant domain.",2017-09-15
+Automating Direct Speech Variations in Stories and Games,2017-08-30 02:19:39+00:00,http://arxiv.org/abs/1708.09090v1,"Stephanie M. Lukin, James O. Ryan, Marilyn A. Walker",cs.CL,dialogue,"Dialogue authoring in large games requires not only content creation but the
+subtlety of its delivery, which can vary from character to character. Manually
+authoring this dialogue can be tedious, time-consuming, or even altogether
+infeasible. This paper utilizes a rich narrative representation for modeling
+dialogue and an expressive natural language generation engine for realizing it,
+and expands upon a translation tool that bridges the two. We add functionality
+to the translator to allow direct speech to be modeled by the narrative
+representation, whereas the original translator supports only narratives told
+by a third person narrator. We show that we can perform character substitution
+in dialogues. We implement and evaluate a potential application to dialogue
+implementation: generating dialogue for games with big, dynamic, or
+procedurally-generated open worlds. We present a pilot study on human
+perceptions of the personalities of characters using direct speech, assuming
+unknown personality types at the time of authoring.",2017-08-30
+Generating Sentence Planning Variations for Story Telling,2017-08-29 03:11:20+00:00,http://arxiv.org/abs/1708.08580v1,"Stephanie M. Lukin, Lena I. Reed, Marilyn A. Walker",cs.CL,dialogue,"There has been a recent explosion in applications for dialogue interaction
+ranging from direction-giving and tourist information to interactive story
+systems. Yet the natural language generation (NLG) component for many of these
+systems remains largely handcrafted. This limitation greatly restricts the
+range of applications; it also means that it is impossible to take advantage of
+recent work in expressive and statistical language generation that can
+dynamically and automatically produce a large number of variations of given
+content. We propose that a solution to this problem lies in new methods for
+developing language generation resources. We describe the ES-Translator, a
+computational language generator that has previously been applied only to
+fables, and quantitatively evaluate the domain independence of the EST by
+applying it to personal narratives from weblogs. We then take advantage of
+recent work on language generation to create a parameterized sentence planner
+for story generation that provides aggregation operations, variations in
+discourse and in point of view. Finally, we present a user evaluation of
+different personal narrative retellings.",2017-08-29
+"Generating Different Story Tellings from Semantic Representations of
+  Narrative",2017-08-29 02:05:56+00:00,http://arxiv.org/abs/1708.08573v1,"Elena Rishes, Stephanie M. Lukin, David K. Elson, Marilyn A. Walker",cs.CL,dialogue,"In order to tell stories in different voices for different audiences,
+interactive story systems require: (1) a semantic representation of story
+structure, and (2) the ability to automatically generate story and dialogue
+from this semantic representation using some form of Natural Language
+Generation (NLG). However, there has been limited research on methods for
+linking story structures to narrative descriptions of scenes and story events.
+In this paper we present an automatic method for converting from Scheherazade's
+story intention graph, a semantic representation, to the input required by the
+Personage NLG engine. Using 36 Aesop Fables distributed in DramaBank, a
+collection of story encodings, we train translation rules on one story and then
+test these rules by generating text for the remaining 35. The results are
+measured in terms of the string similarity metrics Levenshtein Distance and
+BLEU score. The results show that we can generate the 35 stories with correct
+content: the test set stories on average are close to the output of the
+Scheherazade realizer, which was customized to this semantic representation. We
+provide some examples of story variations generated by personage. In future
+work, we will experiment with measuring the quality of the same stories
+generated in different voices, and with techniques for making storytelling
+interactive.",2017-08-29
+"Relevance of Unsupervised Metrics in Task-Oriented Dialogue for
+  Evaluating Natural Language Generation",2017-06-29 15:14:07+00:00,http://arxiv.org/abs/1706.09799v1,"Shikhar Sharma, Layla El Asri, Hannes Schulz, Jeremie Zumer",cs.CL,dialogue,"Automated metrics such as BLEU are widely used in the machine translation
+literature. They have also been used recently in the dialogue community for
+evaluating dialogue response generation. However, previous work in dialogue
+response generation has shown that these metrics do not correlate strongly with
+human judgment in the non task-oriented dialogue setting. Task-oriented
+dialogue responses are expressed on narrower domains and exhibit lower
+diversity. It is thus reasonable to think that these automated metrics would
+correlate well with human judgment in the task-oriented setting where the
+generation task consists of translating dialogue acts into a sentence. We
+conduct an empirical study to confirm whether this is the case. Our findings
+indicate that these automated metrics have stronger correlation with human
+judgments in the task-oriented setting compared to what has been observed in
+the non task-oriented setting. We also observe that these metrics correlate
+even better for datasets which provide multiple ground truth reference
+sentences. In addition, we show that some of the currently available corpora
+for task-oriented language generation can be solved with simple models and
+advocate for more challenging datasets.",2017-06-29
+"Neural-based Natural Language Generation in Dialogue using RNN
+  Encoder-Decoder with Semantic Aggregation",2017-06-21 01:07:02+00:00,http://arxiv.org/abs/1706.06714v3,"Van-Khanh Tran, Le-Minh Nguyen","cs.CL, cs.LG",dialogue,"Natural language generation (NLG) is an important component in spoken
+dialogue systems. This paper presents a model called Encoder-Aggregator-Decoder
+which is an extension of an Recurrent Neural Network based Encoder-Decoder
+architecture. The proposed Semantic Aggregator consists of two components: an
+Aligner and a Refiner. The Aligner is a conventional attention calculated over
+the encoded input information, while the Refiner is another attention or gating
+mechanism stacked over the attentive Aligner in order to further select and
+aggregate the semantic elements. The proposed model can be jointly trained both
+sentence planning and surface realization to produce natural language
+utterances. The model was extensively assessed on four different NLG domains,
+in which the experimental results showed that the proposed generator
+consistently outperforms the previous methods on all the NLG domains.",2017-06-21
+"Natural Language Generation for Spoken Dialogue System using RNN
+  Encoder-Decoder Networks",2017-06-01 01:06:17+00:00,http://arxiv.org/abs/1706.00139v3,"Van-Khanh Tran, Le-Minh Nguyen",cs.CL,dialogue,"Natural language generation (NLG) is a critical component in a spoken
+dialogue system. This paper presents a Recurrent Neural Network based
+Encoder-Decoder architecture, in which an LSTM-based decoder is introduced to
+select, aggregate semantic elements produced by an attention mechanism over the
+input elements, and to produce the required utterances. The proposed generator
+can be jointly trained both sentence planning and surface realization to
+produce natural language sentences. The proposed model was extensively
+evaluated on four different NLG datasets. The experimental results showed that
+the proposed generators not only consistently outperform the previous methods
+across all the NLG domains but also show an ability to generalize from a new,
+unseen domain and learn from multi-domain datasets.",2017-06-01
+"Semantic Refinement GRU-based Neural Language Generation for Spoken
+  Dialogue Systems",2017-06-01 00:37:46+00:00,http://arxiv.org/abs/1706.00134v4,"Van-Khanh Tran, Le-Minh Nguyen",cs.CL,dialogue,"Natural language generation (NLG) plays a critical role in spoken dialogue
+systems. This paper presents a new approach to NLG by using recurrent neural
+networks (RNN), in which a gating mechanism is applied before RNN computation.
+This allows the proposed model to generate appropriate sentences. The RNN-based
+generator can be learned from unaligned data by jointly training sentence
+planning and surface realization to produce natural language responses. The
+model was extensively evaluated on four different NLG domains. The results show
+that the proposed generator achieved better performance on all the NLG domains
+compared to previous generators.",2017-06-01
+Frames: A Corpus for Adding Memory to Goal-Oriented Dialogue Systems,2017-03-31 21:03:58+00:00,http://arxiv.org/abs/1704.00057v2,"Layla El Asri, Hannes Schulz, Shikhar Sharma, Jeremie Zumer, Justin Harris, Emery Fine, Rahul Mehrotra, Kaheer Suleman",cs.CL,dialogue,"This paper presents the Frames dataset (Frames is available at
+http://datasets.maluuba.com/Frames), a corpus of 1369 human-human dialogues
+with an average of 15 turns per dialogue. We developed this dataset to study
+the role of memory in goal-oriented dialogue systems. Based on Frames, we
+introduce a task called frame tracking, which extends state tracking to a
+setting where several states are tracked simultaneously. We propose a baseline
+model for this task. We show that Frames can also be used to study memory in
+dialogue management and information presentation through natural language
+generation.",2017-03-31
+Deep Reinforcement Learning: An Overview,2017-01-25 11:52:11+00:00,http://arxiv.org/abs/1701.07274v6,Yuxi Li,cs.LG,dialogue,"We give an overview of recent exciting achievements of deep reinforcement
+learning (RL). We discuss six core elements, six important mechanisms, and
+twelve applications. We start with background of machine learning, deep
+learning and reinforcement learning. Next we discuss core RL elements,
+including value function, in particular, Deep Q-Network (DQN), policy, reward,
+model, planning, and exploration. After that, we discuss important mechanisms
+for RL, including attention and memory, unsupervised learning, transfer
+learning, multi-agent RL, hierarchical RL, and learning to learn. Then we
+discuss various applications of RL, including games, in particular, AlphaGo,
+robotics, natural language processing, including dialogue systems, machine
+translation, and text generation, computer vision, neural architecture design,
+business management, finance, healthcare, Industry 4.0, smart grid, intelligent
+transportation systems, and computer systems. We mention topics not reviewed
+yet, and list a collection of RL resources. After presenting a brief summary,
+we close with discussions.
+  Please see Deep Reinforcement Learning, arXiv:1810.06339, for a significant
+update.",2017-01-25
+Piecewise Latent Variables for Neural Variational Text Processing,2016-12-01 18:49:23+00:00,http://arxiv.org/abs/1612.00377v4,"Iulian V. Serban, Alexander G. Ororbia II, Joelle Pineau, Aaron Courville","cs.CL, cs.AI, cs.LG, cs.NE, I.5.1; I.2.7",dialogue,"Advances in neural variational inference have facilitated the learning of
+powerful directed graphical models with continuous latent variables, such as
+variational autoencoders. The hope is that such models will learn to represent
+rich, multi-modal latent factors in real-world data, such as natural language
+text. However, current models often assume simplistic priors on the latent
+variables - such as the uni-modal Gaussian distribution - which are incapable
+of representing complex latent factors efficiently. To overcome this
+restriction, we propose the simple, but highly flexible, piecewise constant
+distribution. This distribution has the capacity to represent an exponential
+number of modes of a latent target distribution, while remaining mathematically
+tractable. Our results demonstrate that incorporating this new latent
+distribution into different models yields substantial improvements in natural
+language processing tasks such as document modeling and natural language
+generation for dialogue.",2016-12-01
+A Context-aware Natural Language Generator for Dialogue Systems,2016-08-25 10:43:56+00:00,http://arxiv.org/abs/1608.07076v1,"Ondřej Dušek, Filip Jurčíček","cs.CL, I.2.7",dialogue,"We present a novel natural language generation system for spoken dialogue
+systems capable of entraining (adapting) to users' way of speaking, providing
+contextually appropriate responses. The generator is based on recurrent neural
+networks and the sequence-to-sequence approach. It is fully trainable from data
+which include preceding context along with responses to be generated. We show
+that the context-aware generator yields significant improvements over the
+baseline in both automatic metrics and a human pairwise preference test.",2016-08-25
+An Actor-Critic Algorithm for Sequence Prediction,2016-07-24 20:05:07+00:00,http://arxiv.org/abs/1607.07086v3,"Dzmitry Bahdanau, Philemon Brakel, Kelvin Xu, Anirudh Goyal, Ryan Lowe, Joelle Pineau, Aaron Courville, Yoshua Bengio",cs.LG,dialogue,"We present an approach to training neural networks to generate sequences
+using actor-critic methods from reinforcement learning (RL). Current
+log-likelihood training methods are limited by the discrepancy between their
+training and testing modes, as models must generate tokens conditioned on their
+previous guesses rather than the ground-truth tokens. We address this problem
+by introducing a \textit{critic} network that is trained to predict the value
+of an output token, given the policy of an \textit{actor} network. This results
+in a training procedure that is much closer to the test phase, and allows us to
+directly optimize for a task-specific score such as BLEU. Crucially, since we
+leverage these techniques in the supervised learning setting rather than the
+traditional RL setting, we condition the critic network on the ground-truth
+output. We show that our method leads to improved performance on both a
+synthetic task, and for German-English machine translation. Our analysis paves
+the way for such methods to be applied in natural language generation tasks,
+such as machine translation, caption generation, and dialogue modelling.",2016-07-24
+"Sequence-to-Sequence Generation for Spoken Dialogue via Deep Syntax
+  Trees and Strings",2016-06-17 11:51:25+00:00,http://arxiv.org/abs/1606.05491v1,"Ondřej Dušek, Filip Jurčíček","cs.CL, I.2.7",dialogue,"We present a natural language generator based on the sequence-to-sequence
+approach that can be trained to produce natural language strings as well as
+deep syntax dependency trees from input dialogue acts, and we use it to
+directly compare two-step generation with separate sentence planning and
+surface realization stages to a joint, one-step approach. We were able to train
+both setups successfully using very little training data. The joint setup
+offers better performance, surpassing state-of-the-art with regards to
+n-gram-based scores while providing more relevant outputs.",2016-06-17
+"Natural Language Generation as Planning under Uncertainty Using
+  Reinforcement Learning",2016-06-15 09:05:56+00:00,http://arxiv.org/abs/1606.04686v1,"Verena Rieser, Oliver Lemon","cs.CL, cs.AI",dialogue,"We present and evaluate a new model for Natural Language Generation (NLG) in
+Spoken Dialogue Systems, based on statistical planning, given noisy feedback
+from the current generation context (e.g. a user and a surface realiser). We
+study its use in a standard NLG problem: how to present information (in this
+case a set of search results) to users, given the complex trade- offs between
+utterance length, amount of information conveyed, and cognitive load. We set
+these trade-offs by analysing existing MATCH data. We then train a NLG pol- icy
+using Reinforcement Learning (RL), which adapts its behaviour to noisy feed-
+back from the current generation context. This policy is compared to several
+base- lines derived from previous work in this area. The learned policy
+significantly out- performs all the prior approaches.",2016-06-15
+"Natural Language Generation in Dialogue using Lexicalized and
+  Delexicalized Data",2016-06-11 21:24:43+00:00,http://arxiv.org/abs/1606.03632v3,"Shikhar Sharma, Jing He, Kaheer Suleman, Hannes Schulz, Philip Bachman",cs.CL,dialogue,"Natural language generation plays a critical role in spoken dialogue systems.
+We present a new approach to natural language generation for task-oriented
+dialogue using recurrent neural networks in an encoder-decoder framework. In
+contrast to previous work, our model uses both lexicalized and delexicalized
+components i.e. slot-value pairs for dialogue acts, with slots and
+corresponding values aligned together. This allows our model to learn from all
+available data including the slot-value pairing, rather than being restricted
+to delexicalized slots. We show that this helps our model generate more natural
+sentences with better grammar. We further improve our model's performance by
+transferring weights learnt from a pretrained sentence auto-encoder. Human
+evaluation of our best-performing model indicates that it generates sentences
+which users find more appealing.",2016-06-11
+"Multiresolution Recurrent Neural Networks: An Application to Dialogue
+  Response Generation",2016-06-02 17:37:31+00:00,http://arxiv.org/abs/1606.00776v2,"Iulian Vlad Serban, Tim Klinger, Gerald Tesauro, Kartik Talamadupula, Bowen Zhou, Yoshua Bengio, Aaron Courville","cs.CL, cs.AI, cs.LG, cs.NE, stat.ML, I.5.1; I.2.7",dialogue,"We introduce the multiresolution recurrent neural network, which extends the
+sequence-to-sequence framework to model natural language generation as two
+parallel discrete stochastic processes: a sequence of high-level coarse tokens,
+and a sequence of natural language tokens. There are many ways to estimate or
+learn the high-level coarse tokens, but we argue that a simple extraction
+procedure is sufficient to capture a wealth of high-level discourse semantics.
+Such procedure allows training the multiresolution recurrent neural network by
+maximizing the exact joint log-likelihood over both sequences. In contrast to
+the standard log- likelihood objective w.r.t. natural language tokens (word
+perplexity), optimizing the joint log-likelihood biases the model towards
+modeling high-level abstractions. We apply the proposed model to the task of
+dialogue response generation in two challenging domains: the Ubuntu technical
+support domain, and Twitter conversations. On Ubuntu, the model outperforms
+competing approaches by a substantial margin, achieving state-of-the-art
+results according to both automatic evaluation metrics and a human evaluation
+study. On Twitter, the model appears to generate more relevant and on-topic
+responses according to automatic evaluation metrics. Finally, our experiments
+demonstrate that the proposed model is more adept at overcoming the sparsity of
+natural language and is better able to capture long-term structure.",2016-06-02
+Learning in the Rational Speech Acts Model,2015-10-23 02:24:23+00:00,http://arxiv.org/abs/1510.06807v1,"Will Monroe, Christopher Potts",cs.CL,dialogue,"The Rational Speech Acts (RSA) model treats language use as a recursive
+process in which probabilistic speaker and listener agents reason about each
+other's intentions to enrich the literal semantics of their language along
+broadly Gricean lines. RSA has been shown to capture many kinds of
+conversational implicature, but it has been criticized as an unrealistic model
+of speakers, and it has so far required the manual specification of a semantic
+lexicon, preventing its use in natural language processing applications that
+learn lexical knowledge from data. We address these concerns by showing how to
+define and optimize a trained statistical classifier that uses the intermediate
+agents of RSA as hidden layers of representation forming a non-linear
+activation function. This treatment opens up new application domains and new
+possibilities for learning effectively from data. We validate the model on a
+referential expression generation task, showing that the best performance is
+achieved by incorporating features approximating well-established insights
+about natural language generation into RSA.",2015-10-23
+"Stochastic Language Generation in Dialogue using Recurrent Neural
+  Networks with Convolutional Sentence Reranking",2015-08-07 16:34:11+00:00,http://arxiv.org/abs/1508.01755v1,"Tsung-Hsien Wen, Milica Gasic, Dongho Kim, Nikola Mrksic, Pei-Hao Su, David Vandyke, Steve Young",cs.CL,dialogue,"The natural language generation (NLG) component of a spoken dialogue system
+(SDS) usually needs a substantial amount of handcrafting or a well-labeled
+dataset to be trained on. These limitations add significantly to development
+costs and make cross-domain, multi-lingual dialogue systems intractable.
+Moreover, human languages are context-aware. The most natural response should
+be directly learned from data rather than depending on predefined syntaxes or
+rules. This paper presents a statistical language generator based on a joint
+recurrent and convolutional neural network structure which can be trained on
+dialogue act-utterance pairs without any semantic alignments or predefined
+grammar trees. Objective metrics suggest that this new model outperforms
+previous methods under the same experimental conditions. Results of an
+evaluation by human judges indicate that it produces not only high quality but
+linguistically varied utterances which are preferred compared to n-gram and
+rule-based systems.",2015-08-07
+"Semantically Conditioned LSTM-based Natural Language Generation for
+  Spoken Dialogue Systems",2015-08-07 16:16:44+00:00,http://arxiv.org/abs/1508.01745v2,"Tsung-Hsien Wen, Milica Gasic, Nikola Mrksic, Pei-Hao Su, David Vandyke, Steve Young",cs.CL,dialogue,"Natural language generation (NLG) is a critical component of spoken dialogue
+and it has a significant impact both on usability and perceived quality. Most
+NLG systems in common use employ rules and heuristics and tend to generate
+rigid and stylised responses without the natural variation of human language.
+They are also not easily scaled to systems covering multiple domains and
+languages. This paper presents a statistical language generator based on a
+semantically controlled Long Short-term Memory (LSTM) structure. The LSTM
+generator can learn from unaligned data by jointly optimising sentence planning
+and surface realisation using a simple cross entropy training criterion, and
+language variation can be easily achieved by sampling from output candidates.
+With fewer heuristics, an objective evaluation in two differing test domains
+showed the proposed method improved performance compared to previous methods.
+Human judges scored the LSTM system higher on informativeness and naturalness
+and overall preferred it to the other systems.",2015-08-07
+Considerations on Construction Ontologies,2009-05-28 10:19:02+00:00,http://arxiv.org/abs/0905.4601v1,"Alexandru Cicortas, Victoria Stana Iordan, Alexandra Emilia Fortis",cs.AI,dialogue,"The paper proposes an analysis on some existent ontologies, in order to point
+out ways to resolve semantic heterogeneity in information systems. Authors are
+highlighting the tasks in a Knowledge Acquisiton System and identifying aspects
+related to the addition of new information to an intelligent system. A solution
+is proposed, as a combination of ontology reasoning services and natural
+languages generation. A multi-agent system will be conceived with an extractor
+agent, a reasoner agent and a competence management agent.",2009-05-28
+"Dialogue as Discourse: Controlling Global Properties of Scripted
+  Dialogue",2003-12-22 17:07:31+00:00,http://arxiv.org/abs/cs/0312052v1,"Paul Piwek, Kees van Deemter","cs.CL, cs.AI, I.2.7",dialogue,"This paper explains why scripted dialogue shares some crucial properties with
+discourse. In particular, when scripted dialogues are generated by a Natural
+Language Generation system, the generator can apply revision strategies that
+cannot normally be used when the dialogue results from an interaction between
+autonomous agents (i.e., when the dialogue is not scripted). The paper explains
+that the relevant revision operators are best applied at the level of a
+dialogue plan and discusses how the generator may decide when to apply a given
+revision operator.",2003-12-22
+"Towards Automated Generation of Scripted Dialogue: Some Time-Honoured
+  Strategies",2003-12-22 16:51:53+00:00,http://arxiv.org/abs/cs/0312051v1,"Paul Piwek, Kees van Deemter","cs.CL, cs.AI, I.2.7",dialogue,"The main aim of this paper is to introduce automated generation of scripted
+dialogue as a worthwhile topic of investigation. In particular the fact that
+scripted dialogue involves two layers of communication, i.e., uni-directional
+communication between the author and the audience of a scripted dialogue and
+bi-directional pretended communication between the characters featuring in the
+dialogue, is argued to raise some interesting issues. Our hope is that the
+combined study of the two layers will forge links between research in text
+generation and dialogue processing. The paper presents a first attempt at
+creating such links by studying three types of strategies for the automated
+generation of scripted dialogue. The strategies are derived from examples of
+human-authored and naturally occurring dialogue.",2003-12-22
+A Flexible Pragmatics-driven Language Generator for Animated Agents,2003-12-22 16:23:34+00:00,http://arxiv.org/abs/cs/0312050v1,Paul Piwek,"cs.CL, cs.MM, I.2.7",dialogue,"This paper describes the NECA MNLG; a fully implemented Multimodal Natural
+Language Generation module. The MNLG is deployed as part of the NECA system
+which generates dialogues between animated agents. The generation module
+supports the seamless integration of full grammar rules, templates and canned
+text. The generator takes input which allows for the specification of
+syntactic, semantic and pragmatic constraints on the output.",2003-12-22
