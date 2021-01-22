@@ -1,13 +1,13 @@
 ---
 category: poetry
-title: Poetry and Lyrics
 layout: page
+title: poetry
 sidebar:
   nav: contents
 ---
 
 
-### Written on 2021-01-21
+### written on 2021-01-22
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |

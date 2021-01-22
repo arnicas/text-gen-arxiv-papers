@@ -1,13 +1,13 @@
 ---
 category: image2text
 layout: page
-title: Image2Text
+title: image2text
 sidebar:
   nav: contents
 ---
 
 
-### Written on 2021-01-21
+### written on 2021-01-22
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
@@ -26,4 +26,4 @@ sidebar:
 | [Learning Visual-Semantic Embeddings for Reporting Abnormal Findings on  Chest X-rays](http://arxiv.org/abs/2010.02467v1) | Jianmo Ni, Chun-Nan Hsu, Amilcare Gentili, Julian McAuley | cs.CV, cs.CL | 2020-10-06 |
 | [Knowledge-Enhanced Personalized Review Generation with Capsule Graph  Neural Network](http://arxiv.org/abs/2010.01480v1) | Junyi Li, Siqing Li, Wayne Xin Zhao, Gaole He, Zhicheng Wei, Nicholas Jing Yuan, Ji-Rong Wen | cs.CL, cs.AI | 2020-10-04 |
 
-[Previous](_site/categories/image2text/2020/09/28/image2text.html)
+[Previous]({{site.baseurl}}categories/image2text/2020/09/28/image2text.html)
