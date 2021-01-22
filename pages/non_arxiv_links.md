@@ -36,3 +36,5 @@ These need to be organized, I know - and I have so many links it's taking a whil
 * The [What-If Machine](http://ccg.doc.gold.ac.uk/research/whim/)
 * Emily Short's talk [5 Strategies for Collaborating With a Machine](https://www.youtube.com/watch?v=narjui3em1k)
 * Aaron Reed's [50 Years of Text Adventure Games project/newsletter](https://if50.substack.com/p/introduction)
+* [Tracery](https://tracery.io/) by Kate Compton
+* [NanoGenMo](https://nanogenmo.github.io/) - National Novel Generation Month
