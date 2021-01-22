@@ -15,7 +15,7 @@
           {% if node.title != null %}
             {% if node.layout == "page" %}
               {% if node.category != null  and node.category != "ignore" %}
-              <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %} categ" href="{{ site.baseurl }}{{ node.url }}">{{ node.title}}</a>
+              <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %} categ" href="{{ site.url }}{{ node.url }}">{{ node.title}}</a>
               {% endif %}
             {% endif %}
           {% endif %}
@@ -35,7 +35,7 @@
         {% if node.title != null %}
           {% if node.layout == "page" %}
             {% if node.category == null %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title}}</a>
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.url }}{{ node.url }}">{{ node.title}}</a>
             {% endif %}
           {% endif %}
         {% endif %}
