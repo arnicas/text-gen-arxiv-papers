@@ -1,0 +1,31 @@
+# main links
+main:
+  - title: About
+    url: /about/
+  - title: "@arnicas"
+    url: https://twitter.com/arnicas
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+contents:
+  - title: "Searches"
+    children:
+      - title: "Story/Narrative"
+        url: /categories/story/story/
+      - title: "Tables2Text"
+        url: /categories/table2text/table2text/
+      - title: "Games"
+        url: /categories/games/games/
+      - title: "Dialogue"
+        url: /categories/dialogue/dialogue/
+      - title: "Knowledge Graphs"
+        url: /categories/knowledge/knowledge/
+      - title: "Poetry/Lyrics"
+        url: /categories/poetry/poetry/
+      - title: "Image Description"
+        url: /categories/image2text/image2text/
