@@ -22,6 +22,9 @@ There is limited functionality in the [ArXiv API](https://arxiv.org/help/api/), 
 `(abs: text generation OR abs: natural language generation) AND (abs: dialogue OR abs: agents OR abs: conversation)`
 * API Search String for Image2Text:
 `(abs: text generation OR abs: natural language generation) AND (abs: images OR abs: image2text OR abs: descripton OR abs: image to text)`
+ 
+Let me know if you think the searches could be better?
 
+Jekyll isn't good at category indexing etc, so I ended up making a bunch of python scripts to build the pages I needed.  Right now it runs on my laptop a few times a week.  This site makes poor use of the [Hyde theme by Mark Otto](https://github.com/poole/hyde), but I'm grateful for it.
 
-Jekyll isn't good at category indexing etc, so I ended up making a bunch of python scripts to build the pages I needed.  Right now it runs on my laptop a few times a week.  Let me know if you think the searches could be better?
+I'm [@arnicas](https://twitter.com/arnicas), and if you like this you could [buy me a beer or coffee](https://www.buymeacoffee.com/svcB4UR) or a [Kofi](https://ko-fi.com/arnicas).

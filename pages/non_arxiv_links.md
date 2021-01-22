@@ -12,3 +12,5 @@ description: Non-Arxiv links of interest
 * [World Creation By Analogy](https://aidungeon.medium.com/world-creation-by-analogy-f26e3791d35f)
 * [Paranoid Transformer](https://medium.com/altsoph/paranoid-transformer-80a960ddc90a)
 * [Verse by Verse from Google AI](https://sites.research.google/versebyverse/)
+* [Gwern on GPT-3](https://www.gwern.net/GPT-3)
+* [Gwern on GPT-2 Poetry](https://www.gwern.net/GPT-2)
