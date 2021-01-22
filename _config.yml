@@ -14,7 +14,7 @@ title:            ArXiv Text Gen Searches
 tagline:          'Text generation papers'
 description:      ''
 url:              https://arnicas.github.io/text-gen-arxiv-papers/
-baseurl:          /docs
+baseurl:          /
 
 author:
   name:           'Lynn Cherny'
