@@ -56,11 +56,13 @@ description: Non-Arxiv links of interest
 ### Arty Text People
 
 * [Nick Montfort](https://nickm.com/) (Computational Poet)
+* [Liza Daly](https://lizadaly.com/)
 * [Ross Goodwin](https://rossgoodwin.com/)
 * [Mark Sample](https://www.davidson.edu/people/mark-sample) 
 * [Leonardo Flores](https://leonardoflores.net/creative-work/)
 * [Kate Compton](http://www.galaxykate.com/)
 * [Darius Kazemi](http://tinysubversions.com/)
+* [Mario Klingemann](https://twitter.com/quasimondo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) sometimes does text experiments on his feed
 
 
 ### Research People/Labs
