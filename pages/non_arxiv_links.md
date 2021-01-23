@@ -85,9 +85,17 @@ description: Non-Arxiv links of interest
 * Aaron Reed's [50 Years of Text Adventure Games project/newsletter](https://if50.substack.com/p/introduction)
 
 
-### Tools for Text Gen
+### Non-research Tools for Text Gen
 
 * [Tracery](https://tracery.io/) by Kate Compton
+
+### Newsletters
+
+* [Things I Think Are Awesome](https://tinyletter.com/arnicas) - my newsletter has stuff on procgen and AI art and poetry
+* Aaron Reed's [50 Years of Text Adventure Games project/newsletter](https://if50.substack.com/p/introduction)
+* [Robin Sloan's newsletter](https://www.robinsloan.com/)
+* [Gwern's newsletter](https://gwern.substack.com/)
+* [Luba Elliott's newsletter](https://mailchi.mp/e42fc9825362/the-creative-ai-newsletter-195661) of AI art links covers text
 
 
 #### What am i missing?  Tweet at me [@arnicas](https://twitter.com/arnicas) or file an issue.
