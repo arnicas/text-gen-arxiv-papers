@@ -36,12 +36,12 @@ html {
 }
 @media (min-width: 48em) {
   html {
-    font-size: 15px;
+    font-size: 1rem;
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 15px;
+    font-size: 1rem;
   }
 }
 
@@ -84,8 +84,8 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  /* font-family: "Abril Fatface", serif; */
-  font-size: 30px;
+  font-family: "Abril Fatface", serif;
+  font-size: 3rem;
 }
 
 /* Sidebar nav */
@@ -94,7 +94,7 @@ html {
 }
 .sidebar-nav-item {
   display: block;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 a.sidebar-nav-item:hover,
@@ -132,15 +132,15 @@ a.sidebar-nav-item:focus {
   padding-bottom: 4rem;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 48rem) {
   .content {
-    max-width: 68rem;
+    max-width: 78rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }
 }
 
-@media (min-width: 64em) {
+@media (min-width: 64rem) {
   .content {
     margin-left: 22rem;
     margin-right: 2rem;

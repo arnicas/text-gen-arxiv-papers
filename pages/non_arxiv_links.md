@@ -107,4 +107,4 @@ description: Non-Arxiv links of interest
 * [Janelle Shane's newsletter](https://janellecshane.substack.com/)
 
 
-#### What am i missing?  Tweet at me [@arnicas](https://twitter.com/arnicas) or file an issue.
+#### This is in progress, but what am I missing?  Tweet at me [@arnicas](https://twitter.com/arnicas) or file an issue.

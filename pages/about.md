@@ -6,7 +6,7 @@ description: "How the searches work"
 
 ### How the Searches Work
 
-There is limited functionality in the [ArXiv API](https://arxiv.org/help/api/), but it can do these.  But truly, thank you to arXiv for use of its open access interoperability.
+There is limited functionality in the [ArXiv API](https://arxiv.org/help/api/), but it can do these.  But truly, thank you to ArXiv for use of its open access interoperability.
 
 * API Search String for Story: 
 `(abs: text generation OR abs: natural language generation) AND (abs: narrative OR abs: story OR abs: fiction OR abs: plot)`
