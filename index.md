@@ -18,4 +18,4 @@ This site is to help me keep up with text generation topics of interest to me.  
 
 There are also some links (in progress) to articles, demos, repos, and other things that aren't ArXiv papers [here]({{site.url}}pages/non_arxiv_links.html).
 
-Like this?  It took way too much time because Jekyll isn't good at categories and I'm not good at Jekyll. :)  [Buy me a beer or coffee](https://www.buymeacoffee.com/svcB4UR) or a [Kofi](https://ko-fi.com/arnicas).
+Like this?  It took way too much time because Jekyll isn't good at categories and I'm not good at Jekyll. :)  [Buy me a 🍺 beer or ☕ coffee](https://www.buymeacoffee.com/svcB4UR) or a [Kofi](https://ko-fi.com/arnicas).
