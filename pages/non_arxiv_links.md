@@ -17,7 +17,7 @@ description: Non-Arxiv links of interest
 * Code for [KGPT: Knowledge-Grounded Pre-Training](https://github.com/wenhuchen/KGPT)
 * Repo for [Progressive Generation of Long Text](https://github.com/tanyuqian/progressive-generation)
 
-### Blog Posts/Articles
+### Blog Posts/Articles/Talks
 
 * [Gwern on GPT-3](https://www.gwern.net/GPT-3)
 * [Gwern on GPT-2 Poetry](https://www.gwern.net/GPT-2)
@@ -26,6 +26,11 @@ description: Non-Arxiv links of interest
 * Max Woolf's GPT-2 guide [How to Quickly Train a Text-Generating Neural Network for Free](https://minimaxir.com/2018/05/text-neural-networks/)
 * [Fine Tune GPT-2 for Text Generation Using PyTorch](https://towardsdatascience.com/fine-tuning-gpt2-for-text-generation-using-pytorch-2ee61a4f1ba7)
 * [An Introduction to AI Story Generation by Mark Riedl](https://mark-riedl.medium.com/an-introduction-to-ai-story-generation-7f99a450f615)
+* ["Plotto": Generating Truly Offensive Stories Since 1928 by Lynn Cherny (me)](https://medium.com/@lynn_72328/plotto-generating-truly-offensive-stories-since-1928-26b587f83c07)
+* [Coco's Memory Palace, by Lynn Cherny (me)](https://medium.com/@lynn_72328/cocos-memory-palace-a-strange-fantasia-28b48264612f) with generative poetry
+* [Robin Sloan at Roguelike 2019, Writing With the Machine](https://www.youtube.com/watch?v=cIpErjWBqm0)
+* [Robin Sloan at Eyeo 2017](https://vimeo.com/232545219)
+* [Aaron A Reed at at Roguelike on 10 Years of Procedural Novels](https://www.youtube.com/watch?v=x0Xh4oCX9t0)
 
 
 ### Demos/Sites
@@ -34,6 +39,7 @@ description: Non-Arxiv links of interest
 * Allen AI's [text to image generator](https://vision-explorer.allenai.org/text_to_image_generation) and [image captioning](https://vision-explorer.allenai.org/image_captioning)
 * The [What-If Machine](http://ccg.doc.gold.ac.uk/research/whim/)
 * [AI Dungeon runs GPT-3](https://play.aidungeon.io/main/landing)
+* [Andrej Karpathy's Unreasonable Effectiveness of RNNs](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 
 
 ### Artistic Product & People
@@ -49,7 +55,6 @@ description: Non-Arxiv links of interest
 * [Leonardo Flores](https://leonardoflores.net/creative-work/)
 * [Kate Compton](http://www.galaxykate.com/)
 * [Darius Kazemi](http://tinysubversions.com/)
-* [Robin Sloan](https://www.robinsloan.com/) sometimes does text art
 
 
 ### Research People/Labs
