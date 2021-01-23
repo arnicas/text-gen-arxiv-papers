@@ -10,16 +10,18 @@
     </div>
 
       <nav class="sidebar-nav">
+        <ul>
         {% assign pages_list = site.pages %}
         {% for node in pages_list %}
           {% if node.title != null %}
             {% if node.layout == "page" %}
               {% if node.category != null  and node.category != "ignore" %}
-              <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %} categ" href="{{ site.baseurl }}{{ node.url }}">{{ node.title}}</a>
+             <li> <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" id="categ" href="{{ site.baseurl }}{{ node.url }}">{{ node.title}}</a></li>
               {% endif %}
             {% endif %}
           {% endif %}
         {% endfor %}
+        </ul>
       </nav>
 
       {% comment %}
