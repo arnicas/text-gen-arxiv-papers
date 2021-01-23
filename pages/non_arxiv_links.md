@@ -31,6 +31,7 @@ description: Non-Arxiv links of interest
 * [Robin Sloan at Roguelike 2019, Writing With the Machine](https://www.youtube.com/watch?v=cIpErjWBqm0)
 * [Robin Sloan at Eyeo 2017](https://vimeo.com/232545219)
 * [Aaron A Reed at at Roguelike on 10 Years of Procedural Novels](https://www.youtube.com/watch?v=x0Xh4oCX9t0)
+* [AI and the Book Industry](https://zenodo.org/record/4036258#.YAw7VZNKhTb) white paper by Tom Lebrun and René Audet
 
 
 ### Demos/Sites
@@ -49,6 +50,11 @@ description: Non-Arxiv links of interest
 * [Allison Parrish](https://www.decontextualize.com/)'s all things, including [Reconstructions](https://reconstructions.decontextualize.com/)
 * [Isolation Soliloquies](https://taper.badquar.to/5/isolation_soliloquies.html) - artistic text gen
 * [NanoGenMo](https://nanogenmo.github.io/) - National Novel Generation Month
+* [Generating Fairy Tales from Images](https://andreasrefsgaard.dk/project/fairy-tales/) by Andreas Refsgaard
+
+
+### Arty Text People
+
 * [Nick Montfort](https://nickm.com/) (Computational Poet)
 * [Ross Goodwin](https://rossgoodwin.com/)
 * [Mark Sample](https://www.davidson.edu/people/mark-sample) 
@@ -96,6 +102,7 @@ description: Non-Arxiv links of interest
 * [Robin Sloan's newsletter](https://www.robinsloan.com/)
 * [Gwern's newsletter](https://gwern.substack.com/)
 * [Luba Elliott's newsletter](https://mailchi.mp/e42fc9825362/the-creative-ai-newsletter-195661) of AI art links covers text
+* [Janelle Shane's newsletter](https://janellecshane.substack.com/)
 
 
 #### What am i missing?  Tweet at me [@arnicas](https://twitter.com/arnicas) or file an issue.
