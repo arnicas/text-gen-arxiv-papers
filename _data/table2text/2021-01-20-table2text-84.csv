@@ -1,4 +1,17 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Generating (Formulaic) Text by Splicing Together Nearest Neighbors,2021-01-20 18:43:11+00:00,http://arxiv.org/abs/2101.08248v1,"Sam Wiseman, Arturs Backurs, Karl Stratos","cs.CL, cs.LG",table2text,"We propose to tackle conditional text generation tasks, especially those
+which require generating formulaic text, by splicing together segments of text
+from retrieved ""neighbor"" source-target pairs. Unlike recent work that
+conditions on retrieved neighbors in an encoder-decoder setting but generates
+text token-by-token, left-to-right, we learn a policy that directly manipulates
+segments of neighbor text (i.e., by inserting or replacing them) to form an
+output. Standard techniques for training such a policy require an oracle
+derivation for each generation, and we prove that finding the shortest such
+derivation can be reduced to parsing under a particular weighted context-free
+grammar. We find that policies learned in this way allow for interpretable
+table-to-text and headline generation that is competitive with or better than
+state-of-the-art autoregressive token-level policies in terms of automatic
+metrics, and moreover allows for faster decoding.",2021-01-20
 What Makes Good In-Context Examples for GPT-$3$?,2021-01-17 23:38:40+00:00,http://arxiv.org/abs/2101.06804v1,"Jiachang Liu, Dinghan Shen, Yizhe Zhang, Bill Dolan, Lawrence Carin, Weizhu Chen",cs.CL,table2text,"GPT-$3$ has attracted lots of attention due to its superior performance
 across a wide range of NLP tasks, especially with its powerful and versatile
 in-context few-shot learning ability. Despite its success, we found that the

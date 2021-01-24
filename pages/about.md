@@ -13,7 +13,7 @@ There is limited functionality in the [ArXiv API](https://arxiv.org/help/api/), 
 * API Search String for Table2Text:
 `(abs: text generation OR abs: natural language generation) AND (abs: tables OR abs: table-to-text OR abs: data OR abs: structured)`
 * API Search String for Games:
-`(abs: text generation OR abs: natural language generation) AND abs: games`
+`(abs: text generation OR abs: natural language generation) AND (abs: games OR abs: game)`
 * API Search String for Knowledge:
 `(abs: text generation OR abs: natural language generation) AND (abs: knowledge OR abs: graphs OR abs: semantics)`
 * API Search String for Poetry:
@@ -21,7 +21,7 @@ There is limited functionality in the [ArXiv API](https://arxiv.org/help/api/), 
 * API Search String for Dialogue:
 `(abs: text generation OR abs: natural language generation) AND (abs: dialogue OR abs: agents OR abs: conversation)`
 * API Search String for Image2Text:
-`(abs: text generation OR abs: natural language generation) AND (abs: images OR abs: image2text OR abs: descripton OR abs: image to text)`
+`(abs: text generation OR abs: natural language generation) AND (abs: images OR abs: image2text OR abs: descripton OR abs: image to text OR abs: caption)`
  
 Let me know if you think the searches could be better?
 
