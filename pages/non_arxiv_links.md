@@ -43,7 +43,7 @@ description: Non-Arxiv links of interest
 * [Andrej Karpathy's Unreasonable Effectiveness of RNNs](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 
 
-### Artistic Product & People
+### Artistic Projects with Text Gen
 
 * [Paranoid Transformer](https://medium.com/altsoph/paranoid-transformer-80a960ddc90a), a generative book by Aleksey Tikhonov
 * [Subcutanean, a book by Aaron A Reed](http://aaronareed.net/subcutanean-book/)
@@ -65,12 +65,14 @@ description: Non-Arxiv links of interest
 * [Mario Klingemann](https://twitter.com/quasimondo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) sometimes does text experiments on his feed
 
 
-### Research People/Labs
+### Research People/Labs/Project Umbrellas
 
 * [Mark Riedl and his Intelligent Narrative work/team at GA Tech](https://eilab.gatech.edu/mark-riedl) [Lab page](https://eilab.gatech.edu/)
 * [UC Santa Cruz's Expressive Intelligence Studio](https://eis.ucsc.edu/people/)
 * [Max Kreminski](https://mkremins.github.io/)
 * [James Ryan](https://www.jamesryan.world/projects)
+* [ParlAI](https://parl.ai/projects/) - some game and dialogue agents here, including [LIGHT](https://parl.ai/projects/light/)
+* [MSR's TextWorld Platform for text game research](https://www.microsoft.com/en-us/research/project/textworld/)
 
 
 ### Other Article Links
@@ -86,6 +88,7 @@ description: Non-Arxiv links of interest
 * [Proceedings of AIIDE](https://www.aaai.org/Library/AIIDE/aiide20contents.php)
 * [International Conference on Computational Creativity](https://computationalcreativity.net/iccc20/)
 * [Electronic Literature Organization (ELO)](https://eliterature.org/news/conference/)
+
 
 ### Game-Related Stuff
 
