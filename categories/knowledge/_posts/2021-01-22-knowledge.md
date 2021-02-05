@@ -6,10 +6,11 @@ sidebar:
 ---
 
 
-*written on 2021-01-22*
+*written on 2021-02-05*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [BERT Transformer model for Detecting Arabic GPT2 Auto-Generated Tweets](http://arxiv.org/abs/2101.09345v1) | Fouzi Harrag, Maria Debbah, Kareem Darwish, Ahmed Abdelali | cs.CL | 2021-01-22 |
 | [What Makes Good In-Context Examples for GPT-$3$?](http://arxiv.org/abs/2101.06804v1) | Jiachang Liu, Dinghan Shen, Yizhe Zhang, Bill Dolan, Lawrence Carin, Weizhu Chen | cs.CL | 2021-01-17 |
 | [Persuasive Natural Language Generation -- A Literature Review](http://arxiv.org/abs/2101.05786v1) | Sebastian Duerr, Peter A. Gloor | cs.CL, cs.AI, I.2.7; J.4 | 2021-01-14 |
 | [Political Depolarization of News Articles Using Attribute-aware Word  Embeddings](http://arxiv.org/abs/2101.01391v1) | Ruibo Liu, Lili Wang, Chenyan Jia, Soroush Vosoughi | cs.CL, cs.AI | 2021-01-05 |

@@ -1,4 +1,35 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Deep Learning for General Game Playing with Ludii and Polygames,2021-01-23 19:08:33+00:00,http://arxiv.org/abs/2101.09562v1,"Dennis J. N. J. Soemers, Vegard Mella, Cameron Browne, Olivier Teytaud",cs.AI,games,"Combinations of Monte-Carlo tree search and Deep Neural Networks, trained
+through self-play, have produced state-of-the-art results for automated
+game-playing in many board games. The training and search algorithms are not
+game-specific, but every individual game that these approaches are applied to
+still requires domain knowledge for the implementation of the game's rules, and
+constructing the neural network's architecture -- in particular the shapes of
+its input and output tensors. Ludii is a general game system that already
+contains over 500 different games, which can rapidly grow thanks to its
+powerful and user-friendly game description language. Polygames is a framework
+with training and search algorithms, which has already produced superhuman
+players for several board games. This paper describes the implementation of a
+bridge between Ludii and Polygames, which enables Polygames to train and
+evaluate models for games that are implemented and run through Ludii. We do not
+require any game-specific domain knowledge anymore, and instead leverage our
+domain knowledge of the Ludii system and its abstract state and move
+representations to write functions that can automatically determine the
+appropriate shapes for input and output tensors for any game implemented in
+Ludii. We describe experimental results for short training runs in a wide
+variety of different board games, and discuss several open problems and avenues
+for future research.",2021-01-23
+Ludii Game Logic Guide,2021-01-06 16:22:37+00:00,http://arxiv.org/abs/2101.02120v1,"Eric Piette, Cameron Browne, Dennis J. N. J. Soemers",cs.AI,games,"This technical report outlines the fundamental workings of the game logic
+behind Ludii, a general game system, that can be used to play a wide variety of
+games. Ludii is a program developed for the ERC-funded Digital Ludeme Project,
+in which mathematical and computational approaches are used to study how games
+were played, and spread, throughout history. This report explains how general
+game states and equipment are represented in Ludii, and how the rule ludemes
+dictating play are implemented behind the scenes, giving some insight into the
+core game logic behind the Ludii general game player. This guide is intended to
+help game designers using the Ludii game description language to understand it
+more completely and make fuller use of its features when describing their
+games.",2021-01-06
 DORB: Dynamically Optimizing Multiple Rewards with Bandits,2020-11-15 21:57:47+00:00,http://arxiv.org/abs/2011.07635v1,"Ramakanth Pasunuru, Han Guo, Mohit Bansal","cs.CL, cs.AI, cs.LG",games,"Policy gradients-based reinforcement learning has proven to be a promising
 approach for directly optimizing non-differentiable evaluation metrics for
 language generation tasks. However, optimizing for a specific metric reward

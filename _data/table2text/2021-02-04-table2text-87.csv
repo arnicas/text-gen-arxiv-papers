@@ -1,4 +1,58 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Controlling Hallucinations at Word Level in Data-to-Text Generation,2021-02-04 18:58:28+00:00,http://arxiv.org/abs/2102.02810v1,"Clément Rebuffel, Marco Roberti, Laure Soulier, Geoffrey Scoutheeten, Rossella Cancelliere, Patrick Gallinari","cs.CL, cs.AI, cs.LG, cs.NE, 68T50 (Primary), 68T07 (Secondary), 68T05, I.2.6; I.2.7",table2text,"Data-to-Text Generation (DTG) is a subfield of Natural Language Generation
+aiming at transcribing structured data in natural language descriptions. The
+field has been recently boosted by the use of neural-based generators which
+exhibit on one side great syntactic skills without the need of hand-crafted
+pipelines; on the other side, the quality of the generated text reflects the
+quality of the training data, which in realistic settings only offer
+imperfectly aligned structure-text pairs. Consequently, state-of-art neural
+models include misleading statements - usually called hallucinations - in their
+outputs. The control of this phenomenon is today a major challenge for DTG, and
+is the problem addressed in the paper.
+  Previous work deal with this issue at the instance level: using an alignment
+score for each table-reference pair. In contrast, we propose a finer-grained
+approach, arguing that hallucinations should rather be treated at the word
+level. Specifically, we propose a Multi-Branch Decoder which is able to
+leverage word-level labels to learn the relevant parts of each training
+instance. These labels are obtained following a simple and efficient scoring
+procedure based on co-occurrence analysis and dependency parsing. Extensive
+evaluations, via automated metrics and human judgment on the standard WikiBio
+benchmark, show the accuracy of our alignment labels and the effectiveness of
+the proposed Multi-Branch Decoder. Our model is able to reduce and control
+hallucinations, while keeping fluency and coherence in generated texts. Further
+experiments on a degraded version of ToTTo show that our model could be
+successfully used on very noisy settings.",2021-02-04
+Data-to-text Generation with Macro Planning,2021-02-04 16:32:57+00:00,http://arxiv.org/abs/2102.02723v1,"Ratish Puduppully, Mirella Lapata",cs.CL,table2text,"Recent approaches to data-to-text generation have adopted the very successful
+encoder-decoder architecture or variants thereof. These models generate text
+which is fluent (but often imprecise) and perform quite poorly at selecting
+appropriate content and ordering it coherently. To overcome some of these
+issues, we propose a neural model with a macro planning stage followed by a
+generation stage reminiscent of traditional methods which embrace separate
+modules for planning and surface realization. Macro plans represent high level
+organization of important content such as entities, events and their
+interactions; they are learnt from data and given as input to the generator.
+Extensive experiments on two data-to-text benchmarks (RotoWire and MLB) show
+that our approach outperforms competitive baselines in terms of automatic and
+human evaluation.",2021-02-04
+"GUIGAN: Learning to Generate GUI Designs Using Generative Adversarial
+  Networks",2021-01-25 09:42:58+00:00,http://arxiv.org/abs/2101.09978v2,"Tianming Zhao, Chunyang Chen, Yuanning Liu, Xiaodong Zhu","cs.HC, cs.CV, cs.LG, cs.SE",table2text,"Graphical User Interface (GUI) is ubiquitous in almost all modern desktop
+software, mobile applications, and online websites. A good GUI design is
+crucial to the success of the software in the market, but designing a good GUI
+which requires much innovation and creativity is difficult even to well-trained
+designers. Besides, the requirement of the rapid development of GUI design also
+aggravates designers' working load. So, the availability of various automated
+generated GUIs can help enhance the design personalization and specialization
+as they can cater to the taste of different designers. To assist designers, we
+develop a model GUIGAN to automatically generate GUI designs. Different from
+conventional image generation models based on image pixels, our GUIGAN is to
+reuse GUI components collected from existing mobile app GUIs for composing a
+new design that is similar to natural-language generation. Our GUIGAN is based
+on SeqGAN by modeling the GUI component style compatibility and GUI structure.
+The evaluation demonstrates that our model significantly outperforms the best
+of the baseline methods by 30.77% in Frechet Inception distance (FID) and
+12.35% in 1-Nearest Neighbor Accuracy (1-NNA). Through a pilot user study, we
+provide initial evidence of the usefulness of our approach for generating
+acceptable brand new GUI designs.",2021-01-25
 Generating (Formulaic) Text by Splicing Together Nearest Neighbors,2021-01-20 18:43:11+00:00,http://arxiv.org/abs/2101.08248v1,"Sam Wiseman, Arturs Backurs, Karl Stratos","cs.CL, cs.LG",table2text,"We propose to tackle conditional text generation tasks, especially those
 which require generating formulaic text, by splicing together segments of text
 from retrieved ""neighbor"" source-target pairs. Unlike recent work that

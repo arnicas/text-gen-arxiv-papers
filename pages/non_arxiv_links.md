@@ -28,6 +28,7 @@ description: Non-Arxiv links of interest
 * [Stephen Ware's grad seminar on interactive narrative](http://cs.uky.edu/~sgware/courses/cs660/index.syl)
 * [An Introduction to AI Story Generation by Mark Riedl](https://mark-riedl.medium.com/an-introduction-to-ai-story-generation-7f99a450f615)
 * [References to Computational Narratology Papers by Louis Castricato](https://github.com/LouisCastricato/Narratology-Papers)
+* [Knowledge Graphs in NLP at EMPNLP 2020 Overview](https://mgalkin.medium.com/knowledge-graphs-in-nlp-emnlp-2020-2f98ec527738) by Michael Galkin
 
 
 
@@ -88,7 +89,7 @@ description: Non-Arxiv links of interest
 * [Proceedings of AIIDE](https://www.aaai.org/Library/AIIDE/aiide20contents.php)
 * [International Conference on Computational Creativity](https://computationalcreativity.net/iccc20/)
 * [Electronic Literature Organization (ELO)](https://eliterature.org/news/conference/)
-
+* [WordPlay Workshop papers](https://wordplay-workshop.github.io/accepted/)
 
 ### Publications for Computational Text Experiments 
 

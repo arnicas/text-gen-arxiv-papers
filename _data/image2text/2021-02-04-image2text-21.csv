@@ -1,4 +1,124 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Controlling Hallucinations at Word Level in Data-to-Text Generation,2021-02-04 18:58:28+00:00,http://arxiv.org/abs/2102.02810v1,"Clément Rebuffel, Marco Roberti, Laure Soulier, Geoffrey Scoutheeten, Rossella Cancelliere, Patrick Gallinari","cs.CL, cs.AI, cs.LG, cs.NE, 68T50 (Primary), 68T07 (Secondary), 68T05, I.2.6; I.2.7",image2text,"Data-to-Text Generation (DTG) is a subfield of Natural Language Generation
+aiming at transcribing structured data in natural language descriptions. The
+field has been recently boosted by the use of neural-based generators which
+exhibit on one side great syntactic skills without the need of hand-crafted
+pipelines; on the other side, the quality of the generated text reflects the
+quality of the training data, which in realistic settings only offer
+imperfectly aligned structure-text pairs. Consequently, state-of-art neural
+models include misleading statements - usually called hallucinations - in their
+outputs. The control of this phenomenon is today a major challenge for DTG, and
+is the problem addressed in the paper.
+  Previous work deal with this issue at the instance level: using an alignment
+score for each table-reference pair. In contrast, we propose a finer-grained
+approach, arguing that hallucinations should rather be treated at the word
+level. Specifically, we propose a Multi-Branch Decoder which is able to
+leverage word-level labels to learn the relevant parts of each training
+instance. These labels are obtained following a simple and efficient scoring
+procedure based on co-occurrence analysis and dependency parsing. Extensive
+evaluations, via automated metrics and human judgment on the standard WikiBio
+benchmark, show the accuracy of our alignment labels and the effectiveness of
+the proposed Multi-Branch Decoder. Our model is able to reduce and control
+hallucinations, while keeping fluency and coherence in generated texts. Further
+experiments on a degraded version of ToTTo show that our model could be
+successfully used on very noisy settings.",2021-02-04
+Unifying Vision-and-Language Tasks via Text Generation,2021-02-04 17:59:30+00:00,http://arxiv.org/abs/2102.02779v1,"Jaemin Cho, Jie Lei, Hao Tan, Mohit Bansal","cs.CL, cs.AI, cs.CV, cs.LG",image2text,"Existing methods for vision-and-language learning typically require designing
+task-specific architectures and objectives for each task. For example, a
+multi-label answer classifier for visual question answering, a region scorer
+for referring expression comprehension, and a language decoder for image
+captioning, etc. To alleviate these hassles, in this work, we propose a unified
+framework that learns different tasks in a single architecture with the same
+language modeling objective, i.e., multimodal conditional text generation,
+where our models learn to generate labels in text based on the visual and
+textual inputs. On 7 popular vision-and-language benchmarks, including visual
+question answering, referring expression comprehension, visual commonsense
+reasoning, most of which have been previously modeled as discriminative tasks,
+our generative approach (with a single unified architecture) reaches comparable
+performance to recent task-specific state-of-the-art vision-and-language
+models. Moreover, our generative approach shows better generalization ability
+on answering questions that have rare answers. In addition, we show that our
+framework allows multi-task learning in a single architecture with a single set
+of parameters, which achieves similar performance to separately optimized
+single-task models. Our code will be publicly available at:
+https://github.com/j-min/VL-T5",2021-02-04
+"The GEM Benchmark: Natural Language Generation, its Evaluation and
+  Metrics",2021-02-02 18:42:05+00:00,http://arxiv.org/abs/2102.01672v2,"Sebastian Gehrmann, Tosin Adewumi, Karmanya Aggarwal, Pawan Sasanka Ammanamanchi, Aremu Anuoluwapo, Antoine Bosselut, Khyathi Raghavi Chandu, Miruna Clinciu, Dipanjan Das, Kaustubh D. Dhole, Wanyu Du, Esin Durmus, Ondřej Dušek, Chris Emezue, Varun Gangal, Cristina Garbacea, Tatsunori Hashimoto, Yufang Hou, Yacine Jernite, Harsh Jhamtani, Yangfeng Ji, Shailza Jolly, Dhruv Kumar, Faisal Ladhak, Aman Madaan, Mounica Maddela, Khyati Mahajan, Saad Mahamood, Bodhisattwa Prasad Majumder, Pedro Henrique Martins, Angelina McMillan-Major, Simon Mille, Emiel van Miltenburg, Moin Nadeem, Shashi Narayan, Vitaly Nikolaev, Rubungo Andre Niyongabo, Salomey Osei, Ankur Parikh, Laura Perez-Beltrachini, Niranjan Ramesh Rao, Vikas Raunak, Juan Diego Rodriguez, Sashank Santhanam, João Sedoc, Thibault Sellam, Samira Shaikh, Anastasia Shimorina, Marco Antonio Sobrevilla Cabezudo, Hendrik Strobelt, Nishant Subramani, Wei Xu, Diyi Yang, Akhila Yerukola, Jiawei Zhou","cs.CL, cs.AI, cs.LG",image2text,"We introduce GEM, a living benchmark for natural language Generation (NLG),
+its Evaluation, and Metrics. Measuring progress in NLG relies on a constantly
+evolving ecosystem of automated metrics, datasets, and human evaluation
+standards. However, due to this moving target, new models often still evaluate
+on divergent anglo-centric corpora with well-established, but flawed, metrics.
+This disconnect makes it challenging to identify the limitations of current
+models and opportunities for progress. Addressing this limitation, GEM provides
+an environment in which models can easily be applied to a wide set of corpora
+and evaluation strategies can be tested. Regular updates to the benchmark will
+help NLG research become more multilingual and evolve the challenge alongside
+models.
+  This paper serves as the description of the initial release for which we are
+organizing a shared task at our ACL 2021 Workshop and to which we invite the
+entire NLG community to participate.",2021-02-02
+"Generating images from caption and vice versa via CLIP-Guided Generative
+  Latent Space Search",2021-02-02 18:00:13+00:00,http://arxiv.org/abs/2102.01645v2,"Federico A. Galatolo, Mario G. C. A. Cimino, Gigliola Vaglini","cs.NE, cs.AI, cs.LG",image2text,"In this research work we present GLaSS, a novel zero-shot framework to
+generate an image(or a caption) corresponding to a given caption(or image).
+GLaSS is based on the CLIP neural network which given an image and a
+descriptive caption provides similar embeddings. Differently, GLaSS takes a
+caption (or an image) as an input, and generates the image (or the caption)
+whose CLIP embedding is most similar to the input one. This optimal image (or
+caption) is produced via a generative network after an exploration by a genetic
+algorithm. Promising results are shown, based on the experimentation of the
+image generators BigGAN and StyleGAN2, and of the text generator GPT2.",2021-02-02
+"VX2TEXT: End-to-End Learning of Video-Based Text Generation From
+  Multimodal Inputs",2021-01-28 15:22:36+00:00,http://arxiv.org/abs/2101.12059v2,"Xudong Lin, Gedas Bertasius, Jue Wang, Shih-Fu Chang, Devi Parikh, Lorenzo Torresani","cs.CV, cs.CL",image2text,"We present \textsc{Vx2Text}, a framework for text generation from multimodal
+inputs consisting of video plus text, speech, or audio. In order to leverage
+transformer networks, which have been shown to be effective at modeling
+language, each modality is first converted into a set of language embeddings by
+a learnable tokenizer. This allows our approach to perform multimodal fusion in
+the language space, thus eliminating the need for ad-hoc cross-modal fusion
+modules. To address the non-differentiability of tokenization on continuous
+inputs (e.g., video or audio), we utilize a relaxation scheme that enables
+end-to-end training. Furthermore, unlike prior encoder-only models, our network
+includes an autoregressive decoder to generate open-ended text from the
+multimodal embeddings fused by the language encoder. This renders our approach
+fully generative and makes it directly applicable to different ""video+$x$ to
+text"" problems without the need to design specialized network heads for each
+task. The proposed framework is not only conceptually simple but also
+remarkably effective: experiments demonstrate that our approach based on a
+single architecture outperforms the state-of-the-art on three video-based
+text-generation tasks -- captioning, question answering and audio-visual
+scene-aware dialog.",2021-01-28
+"GUIGAN: Learning to Generate GUI Designs Using Generative Adversarial
+  Networks",2021-01-25 09:42:58+00:00,http://arxiv.org/abs/2101.09978v2,"Tianming Zhao, Chunyang Chen, Yuanning Liu, Xiaodong Zhu","cs.HC, cs.CV, cs.LG, cs.SE",image2text,"Graphical User Interface (GUI) is ubiquitous in almost all modern desktop
+software, mobile applications, and online websites. A good GUI design is
+crucial to the success of the software in the market, but designing a good GUI
+which requires much innovation and creativity is difficult even to well-trained
+designers. Besides, the requirement of the rapid development of GUI design also
+aggravates designers' working load. So, the availability of various automated
+generated GUIs can help enhance the design personalization and specialization
+as they can cater to the taste of different designers. To assist designers, we
+develop a model GUIGAN to automatically generate GUI designs. Different from
+conventional image generation models based on image pixels, our GUIGAN is to
+reuse GUI components collected from existing mobile app GUIs for composing a
+new design that is similar to natural-language generation. Our GUIGAN is based
+on SeqGAN by modeling the GUI component style compatibility and GUI structure.
+The evaluation demonstrates that our model significantly outperforms the best
+of the baseline methods by 30.77% in Frechet Inception distance (FID) and
+12.35% in 1-Nearest Neighbor Accuracy (1-NNA). Through a pilot user study, we
+provide initial evidence of the usefulness of our approach for generating
+acceptable brand new GUI designs.",2021-01-25
+"Towards Understanding How Readers Integrate Charts and Captions: A Case
+  Study with Line Charts",2021-01-20 18:11:35+00:00,http://arxiv.org/abs/2101.08235v1,"Dae Hyun Kim, Vidya Setlur, Maneesh Agrawala",cs.HC,image2text,"Charts often contain visually prominent features that draw attention to
+aspects of the data and include text captions that emphasize aspects of the
+data. Through a crowdsourced study, we explore how readers gather takeaways
+when considering charts and captions together. We first ask participants to
+mark visually prominent regions in a set of line charts. We then generate text
+captions based on the prominent features and ask participants to report their
+takeaways after observing chart-caption pairs. We find that when both the chart
+and caption describe a high-prominence feature, readers treat the doubly
+emphasized high-prominence feature as the takeaway; when the caption describes
+a low-prominence chart feature, readers rely on the chart and report a
+higher-prominence feature as the takeaway. We also find that external
+information that provides context, helps further convey the caption's message
+to the reader. We use these findings to provide guidelines for authoring
+effective chart-caption pairs.",2021-01-20
 Narration Generation for Cartoon Videos,2021-01-17 23:23:09+00:00,http://arxiv.org/abs/2101.06803v1,"Nikos Papasarantopoulos, Shay B. Cohen",cs.CL,image2text,"Research on text generation from multimodal inputs has largely focused on
 static images, and less on video data. In this paper, we propose a new task,
 narration generation, that is complementing videos with narration texts that

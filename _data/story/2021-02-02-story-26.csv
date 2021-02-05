@@ -1,4 +1,33 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"MAUVE: Human-Machine Divergence Curves for Evaluating Open-Ended Text
+  Generation",2021-02-02 11:59:28+00:00,http://arxiv.org/abs/2102.01454v1,"Krishna Pillutla, Swabha Swayamdipta, Rowan Zellers, John Thickstun, Yejin Choi, Zaid Harchaoui",cs.CL,story,"Despite major advances in open-ended text generation, there has been limited
+progress in designing evaluation metrics for this task. We propose MAUVE -- a
+metric for open-ended text generation, which directly compares the distribution
+of machine-generated text to that of human language. MAUVE measures the mean
+area under the divergence curve for the two distributions, exploring the
+trade-off between two types of errors: those arising from parts of the human
+distribution that the model distribution approximates well, and those it does
+not. We present experiments across two open-ended generation tasks in the web
+text domain and the story domain, and a variety of decoding algorithms and
+model sizes. Our results show that evaluation under MAUVE indeed reflects the
+more natural behavior with respect to model size, compared to prior metrics.
+MAUVE's ordering of the decoding algorithms also agrees with that of generation
+perplexity, the most widely used metric in open-ended text generation; however,
+MAUVE presents a more principled evaluation metric for the task as it considers
+both model and human text.",2021-02-02
+Persistent Anti-Muslim Bias in Large Language Models,2021-01-14 18:41:55+00:00,http://arxiv.org/abs/2101.05783v2,"Abubakar Abid, Maheen Farooqi, James Zou","cs.CL, cs.LG",story,"It has been observed that large-scale language models capture undesirable
+societal biases, e.g. relating to race and gender; yet religious bias has been
+relatively unexplored. We demonstrate that GPT-3, a state-of-the-art contextual
+language model, captures persistent Muslim-violence bias. We probe GPT-3 in
+various ways, including prompt completion, analogical reasoning, and story
+generation, to understand this anti-Muslim bias, demonstrating that it appears
+consistently and creatively in different uses of the model and that it is
+severe even compared to biases about other religious groups. For instance,
+""Muslim"" is analogized to ""terrorist"" in 23% of test cases, while ""Jewish"" is
+mapped to ""money"" in 5% of test cases. We quantify the positive distraction
+needed to overcome this bias with adversarial text prompts, and find that use
+of the most positive 6 adjectives reduces violent completions for ""Muslims""
+from 66% to 20%, but which is still higher than for other religious groups.",2021-01-14
 "Political Depolarization of News Articles Using Attribute-aware Word
   Embeddings",2021-01-05 07:39:12+00:00,http://arxiv.org/abs/2101.01391v1,"Ruibo Liu, Lili Wang, Chenyan Jia, Soroush Vosoughi","cs.CL, cs.AI",story,"Political polarization in the US is on the rise. This polarization negatively
 affects the public sphere by contributing to the creation of ideological echo

@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2021-01-22*
+*written on 2021-02-05*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [MAUVE: Human-Machine Divergence Curves for Evaluating Open-Ended Text  Generation](http://arxiv.org/abs/2102.01454v1) | Krishna Pillutla, Swabha Swayamdipta, Rowan Zellers, John Thickstun, Yejin Choi, Zaid Harchaoui | cs.CL | 2021-02-02 |
+| [Persistent Anti-Muslim Bias in Large Language Models](http://arxiv.org/abs/2101.05783v2) | Abubakar Abid, Maheen Farooqi, James Zou | cs.CL, cs.LG | 2021-01-14 |
 | [Political Depolarization of News Articles Using Attribute-aware Word  Embeddings](http://arxiv.org/abs/2101.01391v1) | Ruibo Liu, Lili Wang, Chenyan Jia, Soroush Vosoughi | cs.CL, cs.AI | 2021-01-05 |
 | [Outline to Story: Fine-grained Controllable Story Generation from  Cascaded Events](http://arxiv.org/abs/2101.00822v1) | Le Fang, Tao Zeng, Chaochun Liu, Liefeng Bo, Wen Dong, Changyou Chen | cs.CL, cs.AI, cs.LG | 2021-01-04 |
 | [Facts2Story: Controlling Text Generation by Key Facts](http://arxiv.org/abs/2012.04332v1) | Eyal Orbach, Yoav Goldberg | cs.CL | 2020-12-08 |
