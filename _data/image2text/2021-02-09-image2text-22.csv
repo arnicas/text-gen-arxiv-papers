@@ -1,4 +1,23 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+SG2Caps: Revisiting Scene Graphs for Image Captioning,2021-02-09 18:00:53+00:00,http://arxiv.org/abs/2102.04990v1,"Subarna Tripathi, Kien Nguyen, Tanaya Guha, Bang Du, Truong Q. Nguyen","cs.CV, cs.CL",image2text,"The mainstream image captioning models rely on Convolutional Neural Network
+(CNN) image features with an additional attention to salient regions and
+objects to generate captions via recurrent models. Recently, scene graph
+representations of images have been used to augment captioning models so as to
+leverage their structural semantics, such as object entities, relationships and
+attributes. Several studies have noted that naive use of scene graphs from a
+black-box scene graph generator harms image caption-ing performance, and scene
+graph-based captioning mod-els have to incur the overhead of explicit use of
+image features to generate decent captions. Addressing these challenges, we
+propose a framework, SG2Caps, that utilizes only the scene graph labels for
+competitive image caption-ing performance. The basic idea is to close the
+semantic gap between two scene graphs - one derived from the input image and
+the other one from its caption. In order to achieve this, we leverage the
+spatial location of objects and the Human-Object-Interaction (HOI) labels as an
+additional HOI graph. Our framework outperforms existing scene graph-only
+captioning models by a large margin (CIDEr score of 110 vs 71) indicating scene
+graphs as a promising representation for image captioning. Direct utilization
+of the scene graph labels avoids expensive graph convolutions over
+high-dimensional CNN features resulting in 49%fewer trainable parameters.",2021-02-09
 Controlling Hallucinations at Word Level in Data-to-Text Generation,2021-02-04 18:58:28+00:00,http://arxiv.org/abs/2102.02810v1,"Clément Rebuffel, Marco Roberti, Laure Soulier, Geoffrey Scoutheeten, Rossella Cancelliere, Patrick Gallinari","cs.CL, cs.AI, cs.LG, cs.NE, 68T50 (Primary), 68T07 (Secondary), 68T05, I.2.6; I.2.7",image2text,"Data-to-Text Generation (DTG) is a subfield of Natural Language Generation
 aiming at transcribing structured data in natural language descriptions. The
 field has been recently boosted by the use of neural-based generators which

@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-02-05*
+*written on 2021-02-11*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [SG2Caps: Revisiting Scene Graphs for Image Captioning](http://arxiv.org/abs/2102.04990v1) | Subarna Tripathi, Kien Nguyen, Tanaya Guha, Bang Du, Truong Q. Nguyen | cs.CV, cs.CL | 2021-02-09 |
 | [Controlling Hallucinations at Word Level in Data-to-Text Generation](http://arxiv.org/abs/2102.02810v1) | Clément Rebuffel, Marco Roberti, Laure Soulier, Geoffrey Scoutheeten, Rossella Cancelliere, Patrick Gallinari | cs.CL, cs.AI, cs.LG, cs.NE, 68T50 (Primary), 68T07 (Secondary), 68T05, I.2.6; I.2.7 | 2021-02-04 |
 | [Unifying Vision-and-Language Tasks via Text Generation](http://arxiv.org/abs/2102.02779v1) | Jaemin Cho, Jie Lei, Hao Tan, Mohit Bansal | cs.CL, cs.AI, cs.CV, cs.LG | 2021-02-04 |
 | [The GEM Benchmark: Natural Language Generation, its Evaluation and  Metrics](http://arxiv.org/abs/2102.01672v2) | Sebastian Gehrmann, Tosin Adewumi, Karmanya Aggarwal, Pawan Sasanka Ammanamanchi, Aremu Anuoluwapo, Antoine Bosselut, Khyathi Raghavi Chandu, Miruna Clinciu, Dipanjan Das, Kaustubh D. Dhole, Wanyu Du, Esin Durmus, Ondřej Dušek, Chris Emezue, Varun Gangal, Cristina Garbacea, Tatsunori Hashimoto, Yufang Hou, Yacine Jernite, Harsh Jhamtani, Yangfeng Ji, Shailza Jolly, Dhruv Kumar, Faisal Ladhak, Aman Madaan, Mounica Maddela, Khyati Mahajan, Saad Mahamood, Bodhisattwa Prasad Majumder, Pedro Henrique Martins, Angelina McMillan-Major, Simon Mille, Emiel van Miltenburg, Moin Nadeem, Shashi Narayan, Vitaly Nikolaev, Rubungo Andre Niyongabo, Salomey Osei, Ankur Parikh, Laura Perez-Beltrachini, Niranjan Ramesh Rao, Vikas Raunak, Juan Diego Rodriguez, Sashank Santhanam, João Sedoc, Thibault Sellam, Samira Shaikh, Anastasia Shimorina, Marco Antonio Sobrevilla Cabezudo, Hendrik Strobelt, Nishant Subramani, Wei Xu, Diyi Yang, Akhila Yerukola, Jiawei Zhou | cs.CL, cs.AI, cs.LG | 2021-02-02 |

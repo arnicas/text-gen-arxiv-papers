@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2021-02-05*
+*written on 2021-02-11*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Generating Synthetic Text Data to Evaluate Causal Inference Methods](http://arxiv.org/abs/2102.05638v1) | Zach Wood-Doughty, Ilya Shpitser, Mark Dredze | cs.CL | 2021-02-10 |
+| [Neural Data-to-Text Generation with LM-based Text Augmentation](http://arxiv.org/abs/2102.03556v1) | Ernie Chang, Xiaoyu Shen, Dawei Zhu, Vera Demberg, Hui Su | cs.CL | 2021-02-06 |
+| [Does the Order of Training Samples Matter? Improving Neural Data-to-Text  Generation with Curriculum Learning](http://arxiv.org/abs/2102.03554v1) | Ernie Chang, Hui-Syuan Yeh, Vera Demberg | cs.CL | 2021-02-06 |
+| [Jointly Improving Language Understanding and Generation with  Quality-Weighted Weak Supervision of Automatic Labeling](http://arxiv.org/abs/2102.03551v1) | Ernie Chang, Vera Demberg, Alex Marin | cs.CL, cs.AI | 2021-02-06 |
 | [Controlling Hallucinations at Word Level in Data-to-Text Generation](http://arxiv.org/abs/2102.02810v1) | Clément Rebuffel, Marco Roberti, Laure Soulier, Geoffrey Scoutheeten, Rossella Cancelliere, Patrick Gallinari | cs.CL, cs.AI, cs.LG, cs.NE, 68T50 (Primary), 68T07 (Secondary), 68T05, I.2.6; I.2.7 | 2021-02-04 |
 | [Data-to-text Generation with Macro Planning](http://arxiv.org/abs/2102.02723v1) | Ratish Puduppully, Mirella Lapata | cs.CL | 2021-02-04 |
 | [GUIGAN: Learning to Generate GUI Designs Using Generative Adversarial  Networks](http://arxiv.org/abs/2101.09978v2) | Tianming Zhao, Chunyang Chen, Yuanning Liu, Xiaodong Zhu | cs.HC, cs.CV, cs.LG, cs.SE | 2021-01-25 |

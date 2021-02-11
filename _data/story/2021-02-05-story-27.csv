@@ -1,4 +1,18 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+GraphPlan: Story Generation by Planning with Event Graph,2021-02-05 03:18:55+00:00,http://arxiv.org/abs/2102.02977v1,"Hong Chen, Raphael Shu, Hiroya Takamura, Hideki Nakayama",cs.CL,story,"Story generation is a task that aims to automatically produce multiple
+sentences to make up a meaningful story. This task is challenging because it
+requires high-level understanding of semantic meaning of sentences and
+causality of story events. Naive sequence-to-sequence models generally fail to
+acquire such knowledge, as the logical correctness can hardly be guaranteed in
+a text generation model without the strategic planning. In this paper, we focus
+on planning a sequence of events assisted by event graphs, and use the events
+to guide the generator. Instead of using a sequence-to-sequence model to output
+a storyline as in some existing works, we propose to generate an event sequence
+by walking on an event graph. The event graphs are built automatically based on
+the corpus. To evaluate the proposed approach, we conduct human evaluation both
+on event planning and story generation. Based on large-scale human annotation
+results, our proposed approach is shown to produce more logically correct event
+sequences and stories.",2021-02-05
 "MAUVE: Human-Machine Divergence Curves for Evaluating Open-Ended Text
   Generation",2021-02-02 11:59:28+00:00,http://arxiv.org/abs/2102.01454v1,"Krishna Pillutla, Swabha Swayamdipta, Rowan Zellers, John Thickstun, Yejin Choi, Zaid Harchaoui",cs.CL,story,"Despite major advances in open-ended text generation, there has been limited
 progress in designing evaluation metrics for this task. We propose MAUVE -- a

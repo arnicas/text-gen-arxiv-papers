@@ -1,4 +1,149 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Improving Model-Based Reinforcement Learning with Internal State
+  Representations through Self-Supervision",2021-02-10 17:55:04+00:00,http://arxiv.org/abs/2102.05599v1,"Julien Scholz, Cornelius Weber, Muhammad Burhan Hafez, Stefan Wermter",cs.LG,dialogue,"Using a model of the environment, reinforcement learning agents can plan
+their future moves and achieve superhuman performance in board games like
+Chess, Shogi, and Go, while remaining relatively sample-efficient. As
+demonstrated by the MuZero Algorithm, the environment model can even be learned
+dynamically, generalizing the agent to many more tasks while at the same time
+achieving state-of-the-art performance. Notably, MuZero uses internal state
+representations derived from real environment states for its predictions. In
+this paper, we bind the model's predicted internal state representation to the
+environment state via two additional terms: a reconstruction model loss and a
+simpler consistency loss, both of which work independently and unsupervised,
+acting as constraints to stabilize the learning process. Our experiments show
+that this new integration of reconstruction model loss and simpler consistency
+loss provide a significant performance increase in OpenAI Gym environments. Our
+modifications also enable self-supervised pretraining for MuZero, so the
+algorithm can learn about environment dynamics before a goal is made available.",2021-02-10
+Multi-turn Dialogue Reading Comprehension with Pivot Turns and Knowledge,2021-02-10 15:00:12+00:00,http://arxiv.org/abs/2102.05474v1,"Zhuosheng Zhang, Junlong Li, Hai Zhao","cs.CL, cs.AI",dialogue,"Multi-turn dialogue reading comprehension aims to teach machines to read
+dialogue contexts and solve tasks such as response selection and answering
+questions. The major challenges involve noisy history contexts and especial
+prerequisites of commonsense knowledge that is unseen in the given material.
+Existing works mainly focus on context and response matching approaches. This
+work thus makes the first attempt to tackle the above two challenges by
+extracting substantially important turns as pivot utterances and utilizing
+external knowledge to enhance the representation of context. We propose a
+pivot-oriented deep selection model (PoDS) on top of the Transformer-based
+language models for dialogue comprehension. In detail, our model first picks
+out the pivot utterances from the conversation history according to the
+semantic matching with the candidate response or question, if any. Besides,
+knowledge items related to the dialogue context are extracted from a knowledge
+graph as external knowledge. Then, the pivot utterances and the external
+knowledge are combined with a well-designed mechanism for refining predictions.
+Experimental results on four dialogue comprehension benchmark tasks show that
+our proposed model achieves great improvements on baselines. A series of
+empirical comparisons are conducted to show how our selection strategies and
+the extra knowledge injection influence the results.",2021-02-10
+"Automated and Distributed Statistical Analysis of Economic Agent-Based
+  Models",2021-02-10 12:39:34+00:00,http://arxiv.org/abs/2102.05405v1,"Andrea Vandin, Daniele Giachini, Francesco Lamperti, Francesca Chiaromonte","econ.GN, cs.MA, cs.PF, q-fin.EC",dialogue,"We propose a novel approach to the statistical analysis of simulation models
+and, especially, agent-based models (ABMs). Our main goal is to provide a fully
+automated and model-independent tool-kit to inspect simulations and perform
+counterfactual analysis. Our approach: (i) is easy-to-use by the modeller, (ii)
+improves reproducibility of results, (iii) optimizes running time given the
+modeller's machine, (iv) automatically chooses the number of required
+simulations and simulation steps to reach user-specified statistical
+confidence, and (v) automatically performs a variety of statistical tests. In
+particular, our framework is designed to distinguish the transient dynamics of
+the model from its steady-state behaviour (if any), estimate properties of the
+model in both ""phases"", and provide indications on the ergodic (or non-ergodic)
+nature of the simulated processes -- which, in turns allows one to gauge the
+reliability of a steady-state analysis. Estimates are equipped with statistical
+guarantees, allowing for robust comparisons across computational experiments.
+To demonstrate the effectiveness of our approach, we apply it to two models
+from the literature: a large scale macro-financial ABM and a small scale
+prediction market model. Compared to prior analyses of these models, we obtain
+new insights and we are able to identify and fix some erroneous conclusions.",2021-02-10
+"Policy Augmentation: An Exploration Strategy for Faster Convergence of
+  Deep Reinforcement Learning Algorithms",2021-02-10 03:51:45+00:00,http://arxiv.org/abs/2102.05249v1,Arash Mahyari,"cs.LG, cs.AI, cs.CV, cs.RO, cs.SY, eess.SY",dialogue,"Despite advancements in deep reinforcement learning algorithms, developing an
+effective exploration strategy is still an open problem. Most existing
+exploration strategies either are based on simple heuristics, or require the
+model of the environment, or train additional deep neural networks to generate
+imagination-augmented paths. In this paper, a revolutionary algorithm, called
+Policy Augmentation, is introduced. Policy Augmentation is based on a newly
+developed inductive matrix completion method. The proposed algorithm augments
+the values of unexplored state-action pairs, helping the agent take actions
+that will result in high-value returns while the agent is in the early
+episodes. Training deep reinforcement learning algorithms with high-value
+rollouts leads to the faster convergence of deep reinforcement learning
+algorithms. Our experiments show the superior performance of Policy
+Augmentation. The code can be found at:
+https://github.com/arashmahyari/PolicyAugmentation.",2021-02-10
+Decontextualization: Making Sentences Stand-Alone,2021-02-09 22:52:37+00:00,http://arxiv.org/abs/2102.05169v1,"Eunsol Choi, Jennimaria Palomaki, Matthew Lamm, Tom Kwiatkowski, Dipanjan Das, Michael Collins","cs.CL, cs.AI",dialogue,"Models for question answering, dialogue agents, and summarization often
+interpret the meaning of a sentence in a rich context and use that meaning in a
+new context. Taking excerpts of text can be problematic, as key pieces may not
+be explicit in a local window. We isolate and define the problem of sentence
+decontextualization: taking a sentence together with its context and rewriting
+it to be interpretable out of context, while preserving its meaning. We
+describe an annotation procedure, collect data on the Wikipedia corpus, and use
+the data to train models to automatically decontextualize sentences. We present
+preliminary studies that show the value of sentence decontextualization in a
+user facing task, and as preprocessing for systems that perform document
+understanding. We argue that decontextualization is an important subtask in
+many downstream applications, and that the definitions and resources provided
+can benefit tasks that operate on sentences that occur in a richer context.",2021-02-09
+Scheduling the NASA Deep Space Network with Deep Reinforcement Learning,2021-02-09 22:48:05+00:00,http://arxiv.org/abs/2102.05167v1,"Edwin Goh, Hamsa Shwetha Venkataram, Mark Hoffmann, Mark Johnston, Brian Wilson",cs.LG,dialogue,"With three complexes spread evenly across the Earth, NASA's Deep Space
+Network (DSN) is the primary means of communications as well as a significant
+scientific instrument for dozens of active missions around the world. A rapidly
+rising number of spacecraft and increasingly complex scientific instruments
+with higher bandwidth requirements have resulted in demand that exceeds the
+network's capacity across its 12 antennae. The existing DSN scheduling process
+operates on a rolling weekly basis and is time-consuming; for a given week,
+generation of the final baseline schedule of spacecraft tracking passes takes
+roughly 5 months from the initial requirements submission deadline, with
+several weeks of peer-to-peer negotiations in between. This paper proposes a
+deep reinforcement learning (RL) approach to generate candidate DSN schedules
+from mission requests and spacecraft ephemeris data with demonstrated
+capability to address real-world operational constraints. A deep RL agent is
+developed that takes mission requests for a given week as input, and interacts
+with a DSN scheduling environment to allocate tracks such that its reward
+signal is maximized. A comparison is made between an agent trained using
+Proximal Policy Optimization and its random, untrained counterpart. The results
+represent a proof-of-concept that, given a well-shaped reward signal, a deep RL
+agent can learn the complex heuristics used by experts to schedule the DSN. A
+trained agent can potentially be used to generate candidate schedules to
+bootstrap the scheduling process and thus reduce the turnaround cycle for DSN
+scheduling.",2021-02-09
+AuGPT: Dialogue with Pre-trained Language Models and Data Augmentation,2021-02-09 20:53:34+00:00,http://arxiv.org/abs/2102.05126v1,"Jonáš Kulhánek, Vojtěch Hudeček, Tomáš Nekvinda, Ondřej Dušek","cs.CL, cs.AI, cs.LG",dialogue,"Attention-based pre-trained language models such as GPT-2 brought
+considerable progress to end-to-end dialogue modelling. However, they also
+present considerable risks for task-oriented dialogue, such as lack of
+knowledge grounding or diversity. To address these issues, we introduce
+modified training objectives for language model finetuning, and we employ
+massive data augmentation via back-translation to increase the diversity of the
+training data. We further examine the possibilities of combining data from
+multiples sources to improve performance on the target dataset. We carefully
+evaluate our contributions with both human and automatic methods. Our model
+achieves state-of-the-art performance on the MultiWOZ data and shows
+competitive performance in human evaluation.",2021-02-09
+RL for Latent MDPs: Regret Guarantees and a Lower Bound,2021-02-09 16:49:58+00:00,http://arxiv.org/abs/2102.04939v1,"Jeongyeol Kwon, Yonathan Efroni, Constantine Caramanis, Shie Mannor",cs.LG,dialogue,"In this work, we consider the regret minimization problem for reinforcement
+learning in latent Markov Decision Processes (LMDP). In an LMDP, an MDP is
+randomly drawn from a set of $M$ possible MDPs at the beginning of the
+interaction, but the identity of the chosen MDP is not revealed to the agent.
+We first show that a general instance of LMDPs requires at least
+$\Omega((SA)^M)$ episodes to even approximate the optimal policy. Then, we
+consider sufficient assumptions under which learning good policies requires
+polynomial number of episodes. We show that the key link is a notion of
+separation between the MDP system dynamics. With sufficient separation, we
+provide an efficient algorithm with local guarantee, {\it i.e.,} providing a
+sublinear regret guarantee when we are given a good initialization. Finally, if
+we are given standard statistical sufficiency assumptions common in the
+Predictive State Representation (PSR) literature (e.g., Boots et al.) and a
+reachability assumption, we show that the need for initialization can be
+removed.",2021-02-09
+"Learning State Representations from Random Deep Action-conditional
+  Predictions",2021-02-09 15:53:22+00:00,http://arxiv.org/abs/2102.04897v1,"Zeyu Zheng, Vivek Veeriah, Risto Vuorio, Richard Lewis, Satinder Singh","cs.LG, cs.AI",dialogue,"In this work, we study auxiliary prediction tasks defined by
+temporal-difference networks (TD networks); these networks are a language for
+expressing a rich space of general value function (GVF) prediction targets that
+may be learned efficiently with TD. Through analysis in an illustrative domain
+we show the benefits to learning state representations of exploiting the full
+richness of TD networks, including both action-conditional predictions and
+temporally deep predictions. Our main (and perhaps surprising) result is that
+deep action-conditional TD networks with random structures that create random
+prediction-questions about random features yield state representations that are
+competitive with state-of-the-art hand-crafted value prediction and pixel
+control auxiliary tasks in both Atari games and DeepMind Lab tasks. We also
+show through stop-gradient experiments that learning the state representations
+solely via these unsupervised random TD network prediction tasks yield agents
+that outperform the end-to-end-trained actor-critic baseline.",2021-02-09
 Persistent Rule-based Interactive Reinforcement Learning,2021-02-04 06:48:57+00:00,http://arxiv.org/abs/2102.02441v1,"Adam Bignold, Francisco Cruz, Richard Dazeley, Peter Vamplew, Cameron Foale","cs.AI, cs.MA",dialogue,"Interactive reinforcement learning has allowed speeding up the learning
 process in autonomous agents by including a human trainer providing extra
 information to the agent in real-time. Current interactive reinforcement

@@ -1,4 +1,62 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Generating Synthetic Text Data to Evaluate Causal Inference Methods,2021-02-10 18:53:11+00:00,http://arxiv.org/abs/2102.05638v1,"Zach Wood-Doughty, Ilya Shpitser, Mark Dredze",cs.CL,table2text,"Drawing causal conclusions from observational data requires making
+assumptions about the true data-generating process. Causal inference research
+typically considers low-dimensional data, such as categorical or numerical
+fields in structured medical records. High-dimensional and unstructured data
+such as natural language complicates the evaluation of causal inference
+methods; such evaluations rely on synthetic datasets with known causal effects.
+Models for natural language generation have been widely studied and perform
+well empirically. However, existing methods not immediately applicable to
+producing synthetic datasets for causal evaluations, as they do not allow for
+quantifying a causal effect on the text itself. In this work, we develop a
+framework for adapting existing generation models to produce synthetic text
+datasets with known causal effects. We use this framework to perform an
+empirical comparison of four recently-proposed methods for estimating causal
+effects from text data. We release our code and synthetic datasets.",2021-02-10
+Neural Data-to-Text Generation with LM-based Text Augmentation,2021-02-06 10:21:48+00:00,http://arxiv.org/abs/2102.03556v1,"Ernie Chang, Xiaoyu Shen, Dawei Zhu, Vera Demberg, Hui Su",cs.CL,table2text,"For many new application domains for data-to-text generation, the main
+obstacle in training neural models consists of a lack of training data. While
+usually large numbers of instances are available on the data side, often only
+very few text samples are available. To address this problem, we here propose a
+novel few-shot approach for this setting. Our approach automatically augments
+the data available for training by (i) generating new text samples based on
+replacing specific values by alternative ones from the same category, (ii)
+generating new text samples based on GPT-2, and (iii) proposing an automatic
+method for pairing the new text samples with data samples. As the text
+augmentation can introduce noise to the training data, we use cycle consistency
+as an objective, in order to make sure that a given data sample can be
+correctly reconstructed after having been formulated as text (and that text
+samples can be reconstructed from data). On both the E2E and WebNLG benchmarks,
+we show that this weakly supervised training paradigm is able to outperform
+fully supervised seq2seq models with less than 10% annotations. By utilizing
+all annotated data, our model can boost the performance of a standard seq2seq
+model by over 5 BLEU points, establishing a new state-of-the-art on both
+datasets.",2021-02-06
+"Does the Order of Training Samples Matter? Improving Neural Data-to-Text
+  Generation with Curriculum Learning",2021-02-06 10:14:18+00:00,http://arxiv.org/abs/2102.03554v1,"Ernie Chang, Hui-Syuan Yeh, Vera Demberg",cs.CL,table2text,"Recent advancements in data-to-text generation largely take on the form of
+neural end-to-end systems. Efforts have been dedicated to improving text
+generation systems by changing the order of training samples in a process known
+as curriculum learning. Past research on sequence-to-sequence learning showed
+that curriculum learning helps to improve both the performance and convergence
+speed. In this work, we delve into the same idea surrounding the training
+samples consisting of structured data and text pairs, where at each update, the
+curriculum framework selects training samples based on the model's competence.
+Specifically, we experiment with various difficulty metrics and put forward a
+soft edit distance metric for ranking training samples. Our benchmarks show
+faster convergence speed where training time is reduced by 38.7% and
+performance is boosted by 4.84 BLEU.",2021-02-06
+"Jointly Improving Language Understanding and Generation with
+  Quality-Weighted Weak Supervision of Automatic Labeling",2021-02-06 10:06:15+00:00,http://arxiv.org/abs/2102.03551v1,"Ernie Chang, Vera Demberg, Alex Marin","cs.CL, cs.AI",table2text,"Neural natural language generation (NLG) and understanding (NLU) models are
+data-hungry and require massive amounts of annotated data to be competitive.
+Recent frameworks address this bottleneck with generative models that
+synthesize weak labels at scale, where a small amount of training labels are
+expert-curated and the rest of the data is automatically annotated. We follow
+that approach, by automatically constructing a large-scale weakly-labeled data
+with a fine-tuned GPT-2, and employ a semi-supervised framework to jointly
+train the NLG and NLU models. The proposed framework adapts the parameter
+updates to the models according to the estimated label-quality. On both the E2E
+and Weather benchmarks, we show that this weakly supervised training paradigm
+is an effective approach under low resource scenarios and outperforming
+benchmark systems on both datasets when 100% of training data is used.",2021-02-06
 Controlling Hallucinations at Word Level in Data-to-Text Generation,2021-02-04 18:58:28+00:00,http://arxiv.org/abs/2102.02810v1,"Clément Rebuffel, Marco Roberti, Laure Soulier, Geoffrey Scoutheeten, Rossella Cancelliere, Patrick Gallinari","cs.CL, cs.AI, cs.LG, cs.NE, 68T50 (Primary), 68T07 (Secondary), 68T05, I.2.6; I.2.7",table2text,"Data-to-Text Generation (DTG) is a subfield of Natural Language Generation
 aiming at transcribing structured data in natural language descriptions. The
 field has been recently boosted by the use of neural-based generators which

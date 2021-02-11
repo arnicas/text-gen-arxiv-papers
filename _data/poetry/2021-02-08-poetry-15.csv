@@ -1,4 +1,20 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Generate and Revise: Reinforcement Learning in Neural Poetry,2021-02-08 10:35:33+00:00,http://arxiv.org/abs/2102.04114v1,"Andrea Zugarini, Luca Pasqualini, Stefano Melacci, Marco Maggini","cs.CL, cs.AI, cs.LG",poetry,"Writers, poets, singers usually do not create their compositions in just one
+breath. Text is revisited, adjusted, modified, rephrased, even multiple times,
+in order to better convey meanings, emotions and feelings that the author wants
+to express. Amongst the noble written arts, Poetry is probably the one that
+needs to be elaborated the most, since the composition has to formally respect
+predefined meter and rhyming schemes. In this paper, we propose a framework to
+generate poems that are repeatedly revisited and corrected, as humans do, in
+order to improve their overall quality. We frame the problem of revising poems
+in the context of Reinforcement Learning and, in particular, using Proximal
+Policy Optimization. Our model generates poems from scratch and it learns to
+progressively adjust the generated text in order to match a target criterion.
+We evaluate this approach in the case of matching a rhyming scheme, without
+having any information on which words are responsible of creating rhymes and on
+how to coherently alter the poem words. The proposed framework is general and,
+with an appropriate reward shaping, it can be applied to other text generation
+problems.",2021-02-08
 Weird AI Yankovic: Generating Parody Lyrics,2020-09-25 13:56:20+00:00,http://arxiv.org/abs/2009.12240v1,Mark Riedl,"cs.CL, cs.AI",poetry,"Lyrics parody swaps one set of words that accompany a melody with a new set
 of words, preserving the number of syllables per line and the rhyme scheme.
 Lyrics parody generation is a challenge for controllable text generation. We
