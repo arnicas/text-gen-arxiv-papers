@@ -1,4 +1,16 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Structural Information Preserving for Graph-to-Text Generation,2021-02-12 20:09:01+00:00,http://arxiv.org/abs/2102.06749v1,"Linfeng Song, Ante Wang, Jinsong Su, Yue Zhang, Kun Xu, Yubin Ge, Dong Yu",cs.CL,table2text,"The task of graph-to-text generation aims at producing sentences that
+preserve the meaning of input graphs. As a crucial defect, the current
+state-of-the-art models may mess up or even drop the core structural
+information of input graphs when generating outputs. We propose to tackle this
+problem by leveraging richer training signals that can guide our model for
+preserving input information. In particular, we introduce two types of
+autoencoding losses, each individually focusing on different aspects (a.k.a.
+views) of input graphs. The losses are then back-propagated to better calibrate
+our model via multi-task training. Experiments on two benchmarks for
+graph-to-text generation show the effectiveness of our approach over a
+state-of-the-art baseline. Our code is available at
+\url{http://github.com/Soistesimmer/AMR-multiview}.",2021-02-12
 Generating Synthetic Text Data to Evaluate Causal Inference Methods,2021-02-10 18:53:11+00:00,http://arxiv.org/abs/2102.05638v1,"Zach Wood-Doughty, Ilya Shpitser, Mark Dredze",cs.CL,table2text,"Drawing causal conclusions from observational data requires making
 assumptions about the true data-generating process. Causal inference research
 typically considers low-dimensional data, such as categorical or numerical

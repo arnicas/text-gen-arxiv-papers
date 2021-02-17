@@ -5,8 +5,8 @@ date,category,md_filename,generated_file,data_file,most_recent,count,delete,prev
 2020-09-28,image2text,categories/image2text/_posts/2020-09-28-image2text.md,categories/image2text/2020/09/28/image2text.html,_data/image2text/2020-09-28-image2text-100.csv,False,100,False,,categories/image2text/2021/01/17/image2text.html
 2021-01-23,games,categories/games/_posts/2021-01-23-games.md,categories/games/2021/01/23/games.html,_data/games/2021-01-23-games-16.csv,True,16,False,,
 2021-02-05,story,categories/story/_posts/2021-02-05-story.md,categories/story/2021/02/05/story.html,_data/story/2021-02-05-story-27.csv,True,27,False,,
-2021-02-10,table2text,categories/table2text/_posts/2021-02-10-table2text.md,categories/table2text/2021/02/10/table2text.html,_data/table2text/2021-02-10-table2text-91.csv,True,91,False,categories/table2text/2020/07/13/table2text.html,
-2021-02-10,dialogue,categories/dialogue/_posts/2021-02-10-dialogue.md,categories/dialogue/2021/02/10/dialogue.html,_data/dialogue/2021-02-10-dialogue-21.csv,True,21,False,categories/dialogue/2020/12/29/dialogue.html,
-2021-02-05,knowledge,categories/knowledge/_posts/2021-02-05-knowledge.md,categories/knowledge/2021/02/05/knowledge.html,_data/knowledge/2021-02-05-knowledge-85.csv,True,85,False,categories/knowledge/2020/04/17/knowledge.html,
-2021-02-08,poetry,categories/poetry/_posts/2021-02-08-poetry.md,categories/poetry/2021/02/08/poetry.html,_data/poetry/2021-02-08-poetry-15.csv,True,15,False,,
-2021-02-09,image2text,categories/image2text/_posts/2021-02-09-image2text.md,categories/image2text/2021/02/09/image2text.html,_data/image2text/2021-02-09-image2text-22.csv,True,22,False,categories/image2text/2020/09/28/image2text.html,
+2021-02-12,table2text,categories/table2text/_posts/2021-02-12-table2text.md,categories/table2text/2021/02/12/table2text.html,_data/table2text/2021-02-12-table2text-92.csv,True,92,False,categories/table2text/2020/07/13/table2text.html,
+2021-02-16,dialogue,categories/dialogue/_posts/2021-02-16-dialogue.md,categories/dialogue/2021/02/16/dialogue.html,_data/dialogue/2021-02-16-dialogue-32.csv,True,32,False,categories/dialogue/2020/12/29/dialogue.html,
+2021-02-12,knowledge,categories/knowledge/_posts/2021-02-12-knowledge.md,categories/knowledge/2021/02/12/knowledge.html,_data/knowledge/2021-02-12-knowledge-86.csv,True,86,False,categories/knowledge/2020/04/17/knowledge.html,
+2021-02-16,poetry,categories/poetry/_posts/2021-02-16-poetry.md,categories/poetry/2021/02/16/poetry.html,_data/poetry/2021-02-16-poetry-16.csv,True,16,False,,
+2021-02-12,image2text,categories/image2text/_posts/2021-02-12-image2text.md,categories/image2text/2021/02/12/image2text.html,_data/image2text/2021-02-12-image2text-23.csv,True,23,False,categories/image2text/2020/09/28/image2text.html,

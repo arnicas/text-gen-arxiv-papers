@@ -1,4 +1,16 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Exploring Transformers in Natural Language Generation: GPT, BERT, and
+  XLNet",2021-02-16 09:18:16+00:00,http://arxiv.org/abs/2102.08036v1,"M. Onat Topal, Anil Bas, Imke van Heerden","cs.CL, cs.LG",poetry,"Recent years have seen a proliferation of attention mechanisms and the rise
+of Transformers in Natural Language Generation (NLG). Previously,
+state-of-the-art NLG architectures such as RNN and LSTM ran into vanishing
+gradient problems; as sentences grew larger, distance between positions
+remained linear, and sequential computation hindered parallelization since
+sentences were processed word by word. Transformers usher in a new era. In this
+paper, we explore three major Transformer-based models, namely GPT, BERT, and
+XLNet, that carry significant implications for the field. NLG is a burgeoning
+area that is now bolstered with rapid developments in attention mechanisms.
+From poetry generation to summarization, text generation derives benefit as
+Transformer-based language models achieve groundbreaking results.",2021-02-16
 Generate and Revise: Reinforcement Learning in Neural Poetry,2021-02-08 10:35:33+00:00,http://arxiv.org/abs/2102.04114v1,"Andrea Zugarini, Luca Pasqualini, Stefano Melacci, Marco Maggini","cs.CL, cs.AI, cs.LG",poetry,"Writers, poets, singers usually do not create their compositions in just one
 breath. Text is revisited, adjusted, modified, rephrased, even multiple times,
 in order to better convey meanings, emotions and feelings that the author wants

@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-02-11*
+*written on 2021-02-17*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Exploring Transformers in Natural Language Generation: GPT, BERT, and  XLNet](http://arxiv.org/abs/2102.08036v1) | M. Onat Topal, Anil Bas, Imke van Heerden | cs.CL, cs.LG | 2021-02-16 |
 | [Generate and Revise: Reinforcement Learning in Neural Poetry](http://arxiv.org/abs/2102.04114v1) | Andrea Zugarini, Luca Pasqualini, Stefano Melacci, Marco Maggini | cs.CL, cs.AI, cs.LG | 2021-02-08 |
 | [Weird AI Yankovic: Generating Parody Lyrics](http://arxiv.org/abs/2009.12240v1) | Mark Riedl | cs.CL, cs.AI | 2020-09-25 |
 | [Artificial Intelligence versus Maya Angelou: Experimental evidence that  people cannot differentiate AI-generated from human-written poetry](http://arxiv.org/abs/2005.09980v2) | Nils Köbis, Luca Mossink | cs.AI, cs.CL, econ.GN, q-fin.EC | 2020-05-20 |

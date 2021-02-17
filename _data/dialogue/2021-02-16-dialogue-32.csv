@@ -1,4 +1,203 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Quantifying environment and population diversity in multi-agent
+  reinforcement learning",2021-02-16 18:54:39+00:00,http://arxiv.org/abs/2102.08370v1,"Kevin R. McKee, Joel Z. Leibo, Charlie Beattie, Richard Everett","cs.MA, cs.AI",dialogue,"Generalization is a major challenge for multi-agent reinforcement learning.
+How well does an agent perform when placed in novel environments and in
+interactions with new co-players? In this paper, we investigate and quantify
+the relationship between generalization and diversity in the multi-agent
+domain. Across the range of multi-agent environments considered here,
+procedurally generating training levels significantly improves agent
+performance on held-out levels. However, agent performance on the specific
+levels used in training sometimes declines as a result. To better understand
+the effects of co-player variation, our experiments introduce a new
+environment-agnostic measure of behavioral diversity. Results demonstrate that
+population size and intrinsic motivation are both effective methods of
+generating greater population diversity. In turn, training with a diverse set
+of co-players strengthens agent performance in some (but not all) cases.",2021-02-16
+"A Cooperative Memory Network for Personalized Task-oriented Dialogue
+  Systems with Incomplete User Profiles",2021-02-16 18:05:54+00:00,http://arxiv.org/abs/2102.08322v1,"Jiahuan Pei, Pengjie Ren, Maarten de Rijke","cs.AI, cs.CL, cs.IR",dialogue,"There is increasing interest in developing personalized Task-oriented
+Dialogue Systems (TDSs). Previous work on personalized TDSs often assumes that
+complete user profiles are available for most or even all users. This is
+unrealistic because (1) not everyone is willing to expose their profiles due to
+privacy concerns; and (2) rich user profiles may involve a large number of
+attributes (e.g., gender, age, tastes, . . .). In this paper, we study
+personalized TDSs without assuming that user profiles are complete. We propose
+a Cooperative Memory Network (CoMemNN) that has a novel mechanism to gradually
+enrich user profiles as dialogues progress and to simultaneously improve
+response selection based on the enriched profiles. CoMemNN consists of two core
+modules: User Profile Enrichment (UPE) and Dialogue Response Selection (DRS).
+The former enriches incomplete user profiles by utilizing collaborative
+information from neighbor users as well as current dialogues. The latter uses
+the enriched profiles to update the current user query so as to encode more
+useful information, based on which a personalized response to a user request is
+selected.
+  We conduct extensive experiments on the personalized bAbI dialogue benchmark
+datasets. We find that CoMemNN is able to enrich user profiles effectively,
+which results in an improvement of 3.06% in terms of response selection
+accuracy compared to state-of-the-art methods. We also test the robustness of
+CoMemNN against incompleteness of user profiles by randomly discarding
+attribute values from user profiles. Even when discarding 50% of the attribute
+values, CoMemNN is able to match the performance of the best performing
+baseline without discarding user profiles, showing the robustness of CoMemNN.",2021-02-16
+"An Effort to Measure Customer Relationship Performance in Indonesia's
+  Fintech Industry",2021-02-16 16:33:46+00:00,http://arxiv.org/abs/2102.08262v1,"Alisya Putri Rabbani, Andry Alamsyah, Sri Widiyanesti","econ.GN, cs.CY, cs.LG, cs.SI, q-fin.EC, 00-XX, K.4.m",dialogue,"The availability of social media simplifies the companies-customers
+relationship. An effort to engage customers in conversation networks using
+social media is called Social Customer Relationship Management (SCRM). Social
+Network Analysis helps to understand network characteristics and how active the
+conversation network on social media. Calculating its network properties is
+beneficial for measuring customer relationship performance. Financial
+Technology, a new emerging industry that provides digital-based financial
+services utilize social media to interact with its customers. Measuring SCRM
+performance is needed in order to stay competitive among others. Therefore, we
+aim to explore the SCRM performance of the Indonesia Fintech company. In terms
+of discovering the market majority thought in conversation networks, we perform
+sentiment analysis by classifying into positive and negative opinion. As case
+studies, we investigate Twitter conversations about GoPay, OVO, Dana, and
+LinkAja during the observation period from 1st October until 1st November 2019.
+The result of this research is beneficial for business intelligence purposes
+especially in managing relationships with customers.",2021-02-16
+Composing Pick-and-Place Tasks By Grounding Language,2021-02-16 11:29:09+00:00,http://arxiv.org/abs/2102.08094v1,"Oier Mees, Wolfram Burgard","cs.RO, cs.AI, cs.CV, cs.LG",dialogue,"Controlling robots to perform tasks via natural language is one of the most
+challenging topics in human-robot interaction. In this work, we present a robot
+system that follows unconstrained language instructions to pick and place
+arbitrary objects and effectively resolves ambiguities through dialogues. Our
+approach infers objects and their relationships from input images and language
+expressions and can place objects in accordance with the spatial relations
+expressed by the user. Unlike previous approaches, we consider grounding not
+only for the picking but also for the placement of everyday objects from
+language. Specifically, by grounding objects and their spatial relations, we
+allow specification of complex placement instructions, e.g. ""place it behind
+the middle red bowl"". Our results obtained using a real-world PR2 robot
+demonstrate the effectiveness of our method in understanding pick-and-place
+language instructions and sequentially composing them to solve tabletop
+manipulation tasks. Videos are available at
+http://speechrobot.cs.uni-freiburg.de",2021-02-16
+Steadily Learn to Drive with Virtual Memory,2021-02-16 10:46:52+00:00,http://arxiv.org/abs/2102.08072v1,"Yuhang Zhang, Yao Mu, Yujie Yang, Yang Guan, Shengbo Eben Li, Qi Sun, Jianyu Chen","cs.LG, cs.AI, cs.RO, cs.SY, eess.SY",dialogue,"Reinforcement learning has shown great potential in developing high-level
+autonomous driving. However, for high-dimensional tasks, current RL methods
+suffer from low data efficiency and oscillation in the training process. This
+paper proposes an algorithm called Learn to drive with Virtual Memory (LVM) to
+overcome these problems. LVM compresses the high-dimensional information into
+compact latent states and learns a latent dynamic model to summarize the
+agent's experience. Various imagined latent trajectories are generated as
+virtual memory by the latent dynamic model. The policy is learned by
+propagating gradient through the learned latent model with the imagined latent
+trajectories and thus leads to high data efficiency. Furthermore, a double
+critic structure is designed to reduce the oscillation during the training
+process. The effectiveness of LVM is demonstrated by an image-input autonomous
+driving task, in which LVM outperforms the existing method in terms of data
+efficiency, learning stability, and control performance.",2021-02-16
+"DFAC Framework: Factorizing the Value Function via Quantile Mixture for
+  Multi-Agent Distributional Q-Learning",2021-02-16 03:16:49+00:00,http://arxiv.org/abs/2102.07936v1,"Wei-Fang Sun, Cheng-Kuang Lee, Chun-Yi Lee","cs.MA, cs.LG",dialogue,"In fully cooperative multi-agent reinforcement learning (MARL) settings, the
+environments are highly stochastic due to the partial observability of each
+agent and the continuously changing policies of the other agents. To address
+the above issues, we integrate distributional RL and value function
+factorization methods by proposing a Distributional Value Function
+Factorization (DFAC) framework to generalize expected value function
+factorization methods to their DFAC variants. DFAC extends the individual
+utility functions from deterministic variables to random variables, and models
+the quantile function of the total return as a quantile mixture. To validate
+DFAC, we demonstrate DFAC's ability to factorize a simple two-step matrix game
+with stochastic rewards and perform experiments on all Super Hard tasks of
+StarCraft Multi-Agent Challenge, showing that DFAC is able to outperform
+expected value function factorization baselines.",2021-02-16
+"""From What I see, this makes sense"": Seeing meaning in algorithmic
+  results",2021-02-15 20:50:11+00:00,http://arxiv.org/abs/2102.07844v1,Samir Passi,"cs.HC, cs.CL",dialogue,"In this workshop paper, we use an empirical example from our ongoing
+fieldwork, to showcase the complexity and situatedness of the process of making
+sense of algorithmic results; i.e. how to evaluate, validate, and contextualize
+algorithmic outputs. So far, in our research work, we have focused on such
+sense-making processes in data analytic learning environments such as
+classrooms and training workshops. Multiple moments in our fieldwork suggest
+that meaning, in data analytics, is constructed through an iterative and
+reflexive dialogue between data, code, assumptions, prior knowledge, and
+algorithmic results. A data analytic result is nothing short of a
+sociotechnical accomplishment - one in which it is extremely difficult, if not
+at times impossible, to clearly distinguish between 'human' and 'technical'
+forms of data analytic work. We conclude this paper with a set of questions
+that we would like to explore further in this workshop.",2021-02-15
+Interim envy-freeness: A new fairness concept for random allocations,2021-02-15 20:35:55+00:00,http://arxiv.org/abs/2102.07839v1,"Ioannis Caragiannis, Panagiotis Kanellopoulos, Maria Kyropoulou",cs.GT,dialogue,"With very few exceptions, research in fair division has mostly focused on
+deterministic allocations. Deviating from this trend, we define and study the
+novel notion of interim envy-freeness (iEF) for lotteries over allocations,
+which aims to serve as a sweet spot between the too stringent notion of ex-post
+envy-freeness and the very weak notion of ex-ante envy-freeness. Our new
+fairness notion is a natural generalization of envy-freeness to random
+allocations in the sense that a deterministic envy-free allocation is iEF (when
+viewed as a degenerate lottery). It is also certainly meaningful as it allows
+for a richer solution space, which includes solutions that are provably better
+than envy-freeness according to several criteria. Our analysis relates iEF to
+other fairness notions as well, and reveals tradeoffs between iEF and
+efficiency. Even though several of our results apply to general fair division
+problems, we are particularly interested in instances with equal numbers of
+agents and items where allocations are perfect matchings of the items to the
+agents. Envy-freeness can be trivially decided and (when it can be achieved,
+it) implies full efficiency in this setting. Although computing iEF allocations
+in matching allocation instances is considerably more challenging, we show how
+to compute them in polynomial time, while also maximizing several efficiency
+objectives. Our algorithms use the ellipsoid method for linear programming and
+efficient solutions to a novel variant of the bipartite matching problem as a
+separation oracle. We also extend the interim envy-freeness notion by
+introducing payments to or from the agents. We present a series of results on
+two optimization problems, including a generalization of the classical rent
+division problem to random allocations using interim envy-freeness as the
+solution concept.",2021-02-15
+End-to-End Egospheric Spatial Memory,2021-02-15 18:59:07+00:00,http://arxiv.org/abs/2102.07764v1,"Daniel Lenton, Stephen James, Ronald Clark, Andrew J. Davison","cs.RO, cs.AI, cs.CV, cs.LG, cs.NE",dialogue,"Spatial memory, or the ability to remember and recall specific locations and
+objects, is central to autonomous agents' ability to carry out tasks in real
+environments. However, most existing artificial memory modules have difficulty
+recalling information over long time periods and are not very adept at storing
+spatial information. We propose a parameter-free module, Egospheric Spatial
+Memory (ESM), which encodes the memory in an ego-sphere around the agent,
+enabling expressive 3D representations. ESM can be trained end-to-end via
+either imitation or reinforcement learning, and improves both training
+efficiency and final performance against other memory baselines on both drone
+and manipulator visuomotor control tasks. The explicit egocentric geometry also
+enables us to seamlessly combine the learned controller with other non-learned
+modalities, such as local obstacle avoidance. We further show applications to
+semantic segmentation on the ScanNet dataset, where ESM naturally combines
+image-level and map-level inference modalities. Through our broad set of
+experiments, we show that ESM provides a general computation graph for embodied
+spatial reasoning, and the module forms a bridge between real-time mapping
+systems and differentiable memory architectures.",2021-02-15
+Data-driven Analysis for Understanding Team Sports Behaviors,2021-02-15 13:31:45+00:00,http://arxiv.org/abs/2102.07545v1,Keisuke Fujii,cs.AI,dialogue,"Understanding the principles of real-world biological multi-agent behaviors
+is a current challenge in various scientific and engineering fields. The rules
+regarding the real-world biological multi-agent behaviors such as team sports
+are often largely unknown due to their inherently higher-order interactions,
+cognition, and body dynamics. Estimation of the rules from data, i.e.,
+data-driven approaches such as machine learning, provides an effective way for
+the analysis of such behaviors. Although most data-driven models have
+non-linear structures and high prediction performances, it is sometimes hard to
+interpret them. This survey focuses on data-driven analysis for quantitative
+understanding of invasion team sports behaviors such as basketball and
+football, and introduces two main approaches for understanding such multi-agent
+behaviors: (1) extracting easily interpretable features or rules from data and
+(2) generating and controlling behaviors in visually-understandable ways. The
+first approach involves the visualization of learned representations and the
+extraction of mathematical structures behind the behaviors. The second approach
+can be used to test hypotheses by simulating and controlling future and
+counterfactual behaviors. Lastly, the potential practical applications of
+extracted rules, features, and generated behaviors are discussed. These
+approaches can contribute to a better understanding of multi-agent behaviors in
+the real world.",2021-02-15
+Cooperation and Reputation Dynamics with Reinforcement Learning,2021-02-15 12:48:56+00:00,http://arxiv.org/abs/2102.07523v1,"Nicolas Anastassacos, Julian García, Stephen Hailes, Mirco Musolesi","cs.MA, cs.AI",dialogue,"Creating incentives for cooperation is a challenge in natural and artificial
+systems. One potential answer is reputation, whereby agents trade the immediate
+cost of cooperation for the future benefits of having a good reputation. Game
+theoretical models have shown that specific social norms can make cooperation
+stable, but how agents can independently learn to establish effective
+reputation mechanisms on their own is less understood. We use a simple model of
+reinforcement learning to show that reputation mechanisms generate two
+coordination problems: agents need to learn how to coordinate on the meaning of
+existing reputations and collectively agree on a social norm to assign
+reputations to others based on their behavior. These coordination problems
+exhibit multiple equilibria, some of which effectively establish cooperation.
+When we train agents with a standard Q-learning algorithm in an environment
+with the presence of reputation mechanisms, convergence to undesirable
+equilibria is widespread. We propose two mechanisms to alleviate this: (i)
+seeding a proportion of the system with fixed agents that steer others towards
+good equilibria; and (ii), intrinsic rewards based on the idea of
+introspection, i.e., augmenting agents' rewards by an amount proportionate to
+the performance of their own strategy against themselves. A combination of
+these simple mechanisms is successful in stabilizing cooperation, even in a
+fully decentralized version of the problem where agents learn to use and assign
+reputations simultaneously. We show how our results relate to the literature in
+Evolutionary Game Theory, and discuss implications for artificial, human and
+hybrid systems, where reputations can be used as a way to establish trust and
+cooperation.",2021-02-15
 "Improving Model-Based Reinforcement Learning with Internal State
   Representations through Self-Supervision",2021-02-10 17:55:04+00:00,http://arxiv.org/abs/2102.05599v1,"Julien Scholz, Cornelius Weber, Muhammad Burhan Hafez, Stefan Wermter",cs.LG,dialogue,"Using a model of the environment, reinforcement learning agents can plan
 their future moves and achieve superhuman performance in board games like

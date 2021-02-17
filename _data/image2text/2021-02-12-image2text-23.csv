@@ -1,4 +1,20 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Annotation Cleaning for the MSR-Video to Text Dataset,2021-02-12 11:14:56+00:00,http://arxiv.org/abs/2102.06448v1,"Haoran Chen, Jianmin Li, Simone Frintrop, Xiaolin Hu","cs.CV, cs.LG, 68T45, 68T50, I.2.10; I.2.7",image2text,"The video captioning task is to describe the video contents with natural
+language by the machine. Many methods have been proposed for solving this task.
+A large dataset called MSR Video to Text (MSR-VTT) is often used as the
+benckmark dataset for testing the performance of the methods. However, we found
+that the human annotations, i.e., the descriptions of video contents in the
+dataset are quite noisy, e.g., there are many duplicate captions and many
+captions contain grammatical problems. These problems may pose difficulties to
+video captioning models for learning. We cleaned the MSR-VTT annotations by
+removing these problems, then tested several typical video captioning models on
+the cleaned dataset. Experimental results showed that data cleaning boosted the
+performances of the models measured by popular quantitative metrics. We
+recruited subjects to evaluate the results of a model trained on the original
+and cleaned datasets. The human behavior experiment demonstrated that trained
+on the cleaned dataset, the model generated captions that were more coherent
+and more relevant to contents of the video clips. The cleaned dataset is
+publicly available.",2021-02-12
 SG2Caps: Revisiting Scene Graphs for Image Captioning,2021-02-09 18:00:53+00:00,http://arxiv.org/abs/2102.04990v1,"Subarna Tripathi, Kien Nguyen, Tanaya Guha, Bang Du, Truong Q. Nguyen","cs.CV, cs.CL",image2text,"The mainstream image captioning models rely on Convolutional Neural Network
 (CNN) image features with an additional attention to salient regions and
 objects to generate captions via recurrent models. Recently, scene graph
