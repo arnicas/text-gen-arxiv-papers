@@ -8,20 +8,22 @@ description: "How the searches work"
 
 There is limited functionality in the [ArXiv API](https://arxiv.org/help/api/), but it can do these.  But truly, thank you to ArXiv for use of its open access interoperability.
 
+Note: I had a bug in the search for dialogue, so I am going to paste these in as I use them, in order to keep them up to date easier - which means url-encoded. 
+
 * API Search String for Story: 
-`(abs: text generation OR abs: natural language generation) AND (abs: narrative OR abs: story OR abs: fiction OR abs: plot)`
+`%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"generating%20text"OR+abs:"plot%20generation"OR+abs:"story%20generation"%29+AND+%28abs:narrative+OR+abs:story+OR+abs:fiction+OR+abs:plot%2`
 * API Search String for Table2Text:
-`(abs: text generation OR abs: natural language generation) AND (abs: tables OR abs: table-to-text OR abs: data OR abs: structured)`
+`%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"generating%20text"%29+AND+%28abs:tables+OR+abs:data+OR+abs:structured+OR+abs:table-to-text%29`
 * API Search String for Games:
-`(abs: text generation OR abs: natural language generation) AND (abs: games OR abs: game)`
+`%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"generating%20text"+OR+abs:"generating%20games"%29+AND+%28abs:games+OR+abs:game%29`
 * API Search String for Knowledge:
-`(abs: text generation OR abs: natural language generation) AND (abs: knowledge OR abs: graphs OR abs: semantics)`
+`%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"generating%20text"%29+AND+%28abs:knowledge+OR+abs:graphs+OR+abs:semantics%29`
 * API Search String for Poetry:
-`(abs: text generation OR abs: natural language generation) AND (abs: poetry OR abs: lyrics OR abs: poems)`
+`%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"generating%20text"+OR+abs:"generating%20poetry"%29+AND+%28abs:poetry+OR+abs:poems+OR+abs:lyrics%29`
 * API Search String for Dialogue:
-`(abs: text generation OR abs: natural language generation) AND (abs: dialogue OR abs: agents OR abs: conversation)`
+`%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"generating%20text"+OR+abs:"generating%20dialogue"%29+AND+%28abs:dialogue+OR+abs:agents+OR+abs:conversation%29`
 * API Search String for Image2Text:
-`(abs: text generation OR abs: natural language generation) AND (abs: images OR abs: image2text OR abs: descripton OR abs: image to text OR abs: caption)`
+`%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"generating%20text"+OR+abs:"generating%20captions"%29+AND+%28abs:images+OR+abs:image2text+OR+abs:description+OR+abs:image-to-text+OR+abs:caption%29`
  
 Let me know if you think the searches could be better?
 
