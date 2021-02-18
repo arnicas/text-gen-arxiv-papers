@@ -29,6 +29,7 @@ description: Non-Arxiv links of interest
 * [An Introduction to AI Story Generation by Mark Riedl](https://mark-riedl.medium.com/an-introduction-to-ai-story-generation-7f99a450f615)
 * [References to Computational Narratology Papers by Louis Castricato](https://github.com/LouisCastricato/Narratology-Papers)
 * [Knowledge Graphs in NLP at EMPNLP 2020 Overview](https://mgalkin.medium.com/knowledge-graphs-in-nlp-emnlp-2020-2f98ec527738) by Michael Galkin
+* [Allison Parrish's course on Computational Approaches to Narrative](http://catn.decontextualize.com/schedule/) and her [Reading and Writing Electronic Text](http://rwet.decontextualize.com/)
 
 
 
@@ -53,7 +54,8 @@ description: Non-Arxiv links of interest
 
 ### Arty Text People
 
-* [Nick Montfort](https://nickm.com/) (Computational Poet)
+* [Nick Montfort](https://nickm.com/)
+* [Allison Parrish](https://www.decontextualize.com/)
 * [Liza Daly](https://lizadaly.com/)
 * [Ross Goodwin](https://rossgoodwin.com/)
 * [Judy Malloy](https://people.well.com/user/jmalloy/)
@@ -96,6 +98,7 @@ description: Non-Arxiv links of interest
 * [Dead Alive magazine](https://deadalivemagazine.com/)
 * [Taper](https://taper.badquar.to/)
 * [Bad Quarto](https://badquar.to/)
+* [Pretty Cool Poetry Thing](https://www.poetrything.cool/menu)
 
 
 ### Game-Related Stuff
