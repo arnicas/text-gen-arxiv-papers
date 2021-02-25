@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2021-02-17*
+*written on 2021-02-25*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Controllable and Diverse Text Generation in E-commerce](http://arxiv.org/abs/2102.11497v1) | Huajie Shao, Jun Wang, Haohong Lin, Xuezhou Zhang, Aston Zhang, Heng Ji, Tarek Abdelzaher | cs.LG | 2021-02-23 |
+| [Progressive Transformer-Based Generation of Radiology Reports](http://arxiv.org/abs/2102.09777v1) | Farhad Nooralahzadeh, Nicolas Perez Gonzalez, Thomas Frauenfelder, Koji Fujimoto, Michael Krauthammer | cs.CL | 2021-02-19 |
 | [Annotation Cleaning for the MSR-Video to Text Dataset](http://arxiv.org/abs/2102.06448v1) | Haoran Chen, Jianmin Li, Simone Frintrop, Xiaolin Hu | cs.CV, cs.LG, 68T45, 68T50, I.2.10; I.2.7 | 2021-02-12 |
 | [SG2Caps: Revisiting Scene Graphs for Image Captioning](http://arxiv.org/abs/2102.04990v1) | Subarna Tripathi, Kien Nguyen, Tanaya Guha, Bang Du, Truong Q. Nguyen | cs.CV, cs.CL | 2021-02-09 |
 | [Controlling Hallucinations at Word Level in Data-to-Text Generation](http://arxiv.org/abs/2102.02810v1) | Clément Rebuffel, Marco Roberti, Laure Soulier, Geoffrey Scoutheeten, Rossella Cancelliere, Patrick Gallinari | cs.CL, cs.AI, cs.LG, cs.NE, 68T50 (Primary), 68T07 (Secondary), 68T05, I.2.6; I.2.7 | 2021-02-04 |

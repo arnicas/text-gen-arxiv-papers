@@ -1,4 +1,23 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"On Efficient Training, Controllability and Compositional Generalization
+  of Insertion-based Language Generators",2021-02-12 11:05:02+00:00,http://arxiv.org/abs/2102.11008v1,"Sidi Lu, Nanyun Peng",cs.CL,story,"Auto-regressive language models with the left-to-right generation order have
+been a predominant paradigm for language generation. Recently, out-of-order
+text generation beyond the traditional left-to-right paradigm has attracted
+extensive attention, with a notable variation of insertion-based generation,
+where a model is used to gradually extend the context into a complete sentence
+purely with insertion operations. However, since insertion operations disturb
+the position information of each token, it is often believed that each step of
+the insertion-based likelihood estimation requires a bi-directional
+\textit{re-encoding} of the whole generated sequence. This computational
+overhead prohibits the model from scaling up to generate long, diverse texts
+such as stories, news articles, and reports. To address this issue, we propose
+InsNet, an insertion-based sequence model that can be trained as efficiently as
+traditional transformer decoders while maintaining the same performance as that
+with a bi-directional context encoder. We evaluate InsNet on story generation
+and CleVR-CoGENT captioning, showing the advantages of InsNet in several
+dimensions, including computational costs, generation quality, the ability to
+perfectly incorporate lexical controls, and better compositional
+generalization.",2021-02-12
 GraphPlan: Story Generation by Planning with Event Graph,2021-02-05 03:18:55+00:00,http://arxiv.org/abs/2102.02977v1,"Hong Chen, Raphael Shu, Hiroya Takamura, Hideki Nakayama",cs.CL,story,"Story generation is a task that aims to automatically produce multiple
 sentences to make up a meaningful story. This task is challenging because it
 requires high-level understanding of semantic meaning of sentences and

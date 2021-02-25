@@ -1,4 +1,37 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Controllable and Diverse Text Generation in E-commerce,2021-02-23 05:16:27+00:00,http://arxiv.org/abs/2102.11497v1,"Huajie Shao, Jun Wang, Haohong Lin, Xuezhou Zhang, Aston Zhang, Heng Ji, Tarek Abdelzaher",cs.LG,image2text,"In E-commerce, a key challenge in text generation is to find a good trade-off
+between word diversity and accuracy (relevance) in order to make generated text
+appear more natural and human-like. In order to improve the relevance of
+generated results, conditional text generators were developed that use input
+keywords or attributes to produce the corresponding text. Prior work, however,
+do not finely control the diversity of automatically generated sentences. For
+example, it does not control the order of keywords to put more relevant ones
+first. Moreover, it does not explicitly control the balance between diversity
+and accuracy. To remedy these problems, we propose a fine-grained controllable
+generative model, called~\textit{Apex}, that uses an algorithm borrowed from
+automatic control (namely, a variant of the \textit{proportional, integral, and
+derivative (PID) controller}) to precisely manipulate the diversity/accuracy
+trade-off of generated text. The algorithm is injected into a Conditional
+Variational Autoencoder (CVAE), allowing \textit{Apex} to control both (i) the
+order of keywords in the generated sentences (conditioned on the input keywords
+and their order), and (ii) the trade-off between diversity and accuracy.
+Evaluation results on real-world datasets show that the proposed method
+outperforms existing generative models in terms of diversity and relevance.
+Apex is currently deployed to generate production descriptions and item
+recommendation reasons in Taobao owned by Alibaba, the largest E-commerce
+platform in China. The A/B production test results show that our method
+improves click-through rate (CTR) by 13.17\% compared to the existing method
+for production descriptions. For item recommendation reason, it is able to
+increase CTR by 6.89\% and 1.42\% compared to user reviews and top-K item
+recommendation without reviews, respectively.",2021-02-23
+Progressive Transformer-Based Generation of Radiology Reports,2021-02-19 07:42:13+00:00,http://arxiv.org/abs/2102.09777v1,"Farhad Nooralahzadeh, Nicolas Perez Gonzalez, Thomas Frauenfelder, Koji Fujimoto, Michael Krauthammer",cs.CL,image2text,"Inspired by Curriculum Learning, we propose a consecutive (i.e.
+image-to-text-to-text) generation framework where we divide the problem of
+radiology report generation into two steps. Contrary to generating the full
+radiology report from the image at once, the model generates global concepts
+from the image in the first step and then reforms them into finer and coherent
+texts using transformer-based architecture. We follow the transformer-based
+sequence-to-sequence paradigm at each step. We improve upon the
+state-of-the-art on two benchmark datasets.",2021-02-19
 Annotation Cleaning for the MSR-Video to Text Dataset,2021-02-12 11:14:56+00:00,http://arxiv.org/abs/2102.06448v1,"Haoran Chen, Jianmin Li, Simone Frintrop, Xiaolin Hu","cs.CV, cs.LG, 68T45, 68T50, I.2.10; I.2.7",image2text,"The video captioning task is to describe the video contents with natural
 language by the machine. Many methods have been proposed for solving this task.
 A large dataset called MSR Video to Text (MSR-VTT) is often used as the

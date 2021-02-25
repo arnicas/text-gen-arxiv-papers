@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-02-17*
+*written on 2021-02-25*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Towards Faithfulness in Open Domain Table-to-text Generation from an  Entity-centric View](http://arxiv.org/abs/2102.08585v1) | Tianyu Liu, Xin Zheng, Baobao Chang, Zhifang Sui | cs.CL, cs.AI | 2021-02-17 |
 | [Structural Information Preserving for Graph-to-Text Generation](http://arxiv.org/abs/2102.06749v1) | Linfeng Song, Ante Wang, Jinsong Su, Yue Zhang, Kun Xu, Yubin Ge, Dong Yu | cs.CL | 2021-02-12 |
 | [Generating Synthetic Text Data to Evaluate Causal Inference Methods](http://arxiv.org/abs/2102.05638v1) | Zach Wood-Doughty, Ilya Shpitser, Mark Dredze | cs.CL | 2021-02-10 |
 | [Neural Data-to-Text Generation with LM-based Text Augmentation](http://arxiv.org/abs/2102.03556v1) | Ernie Chang, Xiaoyu Shen, Dawei Zhu, Vera Demberg, Hui Su | cs.CL | 2021-02-06 |

@@ -1,4 +1,19 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Towards Faithfulness in Open Domain Table-to-text Generation from an
+  Entity-centric View",2021-02-17 05:41:06+00:00,http://arxiv.org/abs/2102.08585v1,"Tianyu Liu, Xin Zheng, Baobao Chang, Zhifang Sui","cs.CL, cs.AI",table2text,"In open domain table-to-text generation, we notice that the unfaithful
+generation usually contains hallucinated content which can not be aligned to
+any input table record. We thus try to evaluate the generation faithfulness
+with two entity-centric metrics: table record coverage and the ratio of
+hallucinated entities in text, both of which are shown to have strong agreement
+with human judgements. Then based on these metrics, we quantitatively analyze
+the correlation between training data quality and generation fidelity which
+indicates the potential usage of entity information in faithful generation.
+Motivated by these findings, we propose two methods for faithful generation: 1)
+augmented training by incorporating the auxiliary entity information, including
+both an augmented plan-based model and an unsupervised model and 2) training
+instance selection based on faithfulness ranking. We show these approaches
+improve generation fidelity in both full dataset setting and few shot learning
+settings by both automatic and human evaluations.",2021-02-17
 Structural Information Preserving for Graph-to-Text Generation,2021-02-12 20:09:01+00:00,http://arxiv.org/abs/2102.06749v1,"Linfeng Song, Ante Wang, Jinsong Su, Yue Zhang, Kun Xu, Yubin Ge, Dong Yu",cs.CL,table2text,"The task of graph-to-text generation aims at producing sentences that
 preserve the meaning of input graphs. As a crucial defect, the current
 state-of-the-art models may mess up or even drop the core structural
