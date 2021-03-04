@@ -1,4 +1,10 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Automatic Story Generation: Challenges and Attempts,2021-02-25 02:03:35+00:00,http://arxiv.org/abs/2102.12634v1,"Amal Alabdulkarim, Siyan Li, Xiangyu Peng",cs.CL,story,"The scope of this survey paper is to explore the challenges in automatic
+story generation. We hope to contribute in the following ways: 1. Explore how
+previous research in story generation addressed those challenges. 2. Discuss
+future research directions and new technologies that may aid more advancements.
+3. Shed light on emerging and often overlooked challenges such as creativity
+and discourse.",2021-02-25
 "On Efficient Training, Controllability and Compositional Generalization
   of Insertion-based Language Generators",2021-02-12 11:05:02+00:00,http://arxiv.org/abs/2102.11008v1,"Sidi Lu, Nanyun Peng",cs.CL,story,"Auto-regressive language models with the left-to-right generation order have
 been a predominant paradigm for language generation. Recently, out-of-order

@@ -1,4 +1,15 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Topic Modelling Meets Deep Neural Networks: A Survey,2021-02-28 12:59:28+00:00,http://arxiv.org/abs/2103.00498v1,"He Zhao, Dinh Phung, Viet Huynh, Yuan Jin, Lan Du, Wray Buntine","cs.LG, cs.CL, cs.IR",knowledge,"Topic modelling has been a successful technique for text analysis for almost
+twenty years. When topic modelling met deep neural networks, there emerged a
+new and increasingly popular research area, neural topic models, with over a
+hundred models developed and a wide range of applications in neural language
+understanding such as text generation, summarisation and language models. There
+is a need to summarise research developments and discuss open problems and
+future directions. In this paper, we provide a focused yet comprehensive
+overview of neural topic models for interested researchers in the AI community,
+so as to facilitate them to navigate and innovate in this fast-growing research
+area. To the best of our knowledge, ours is the first review focusing on this
+specific topic.",2021-02-28
 Structural Information Preserving for Graph-to-Text Generation,2021-02-12 20:09:01+00:00,http://arxiv.org/abs/2102.06749v1,"Linfeng Song, Ante Wang, Jinsong Su, Yue Zhang, Kun Xu, Yubin Ge, Dong Yu",cs.CL,knowledge,"The task of graph-to-text generation aims at producing sentences that
 preserve the meaning of input graphs. As a crucial defect, the current
 state-of-the-art models may mess up or even drop the core structural

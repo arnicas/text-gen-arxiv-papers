@@ -1,27 +1,4 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
-"Transfer of Fully Convolutional Policy-Value Networks Between Games and
-  Game Variants",2021-02-24 15:59:58+00:00,http://arxiv.org/abs/2102.12375v1,"Dennis J. N. J. Soemers, Vegard Mella, Eric Piette, Matthew Stephenson, Cameron Browne, Olivier Teytaud",cs.LG,games,"In this paper, we use fully convolutional architectures in AlphaZero-like
-self-play training setups to facilitate transfer between variants of board
-games as well as distinct games. We explore how to transfer trained parameters
-of these architectures based on shared semantics of channels in the state and
-action representations of the Ludii general game system. We use Ludii's large
-library of games and game variants for extensive transfer learning evaluations,
-in zero-shot transfer experiments as well as experiments with additional
-fine-tuning time.",2021-02-24
-"Mutual information-based group explainers with coalition structure for
-  machine learning model explanations",2021-02-22 10:17:39+00:00,http://arxiv.org/abs/2102.10878v2,"Alexey Miroshnikov, Konstandinos Kotsiopoulos, Arjun Ravi Kannan","cs.GT, math.PR",games,"In this article, we propose and investigate ML group explainers in a general
-game-theoretic setting with the focus on coalitional game values and games
-based on the conditional and marginal expectation of an ML model. The
-conditional game takes into account the joint distribution of the predictors,
-while the marginal game depends on the structure of the model. The objective of
-the article is to unify the two points of view under predictor dependencies and
-to reduce the complexity of group explanations. To achieve this, we propose a
-feature grouping technique that employs an information-theoretic measure of
-dependence and design appropriate groups explainers. Furthermore, in the
-context of coalitional game values with a two-step formulation, we introduce a
-theoretical scheme that generates recursive coalitional game values under a
-partition tree structure and investigate the properties of the corresponding
-group explainers.",2021-02-22
 Deep Learning for General Game Playing with Ludii and Polygames,2021-01-23 19:08:33+00:00,http://arxiv.org/abs/2101.09562v1,"Dennis J. N. J. Soemers, Vegard Mella, Cameron Browne, Olivier Teytaud",cs.AI,games,"Combinations of Monte-Carlo tree search and Deep Neural Networks, trained
 through self-play, have produced state-of-the-art results for automated
 game-playing in many board games. The training and search algorithms are not

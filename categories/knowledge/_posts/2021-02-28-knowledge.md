@@ -6,10 +6,11 @@ sidebar:
 ---
 
 
-*written on 2021-02-17*
+*written on 2021-03-04*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Topic Modelling Meets Deep Neural Networks: A Survey](http://arxiv.org/abs/2103.00498v1) | He Zhao, Dinh Phung, Viet Huynh, Yuan Jin, Lan Du, Wray Buntine | cs.LG, cs.CL, cs.IR | 2021-02-28 |
 | [Structural Information Preserving for Graph-to-Text Generation](http://arxiv.org/abs/2102.06749v1) | Linfeng Song, Ante Wang, Jinsong Su, Yue Zhang, Kun Xu, Yubin Ge, Dong Yu | cs.CL | 2021-02-12 |
 | [GraphPlan: Story Generation by Planning with Event Graph](http://arxiv.org/abs/2102.02977v1) | Hong Chen, Raphael Shu, Hiroya Takamura, Hideki Nakayama | cs.CL | 2021-02-05 |
 | [BERT Transformer model for Detecting Arabic GPT2 Auto-Generated Tweets](http://arxiv.org/abs/2101.09345v1) | Fouzi Harrag, Maria Debbah, Kareem Darwish, Ahmed Abdelali | cs.CL | 2021-01-22 |

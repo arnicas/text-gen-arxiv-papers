@@ -1,4 +1,17 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Towards Conversational Humor Analysis and Design,2021-02-28 15:22:57+00:00,http://arxiv.org/abs/2103.00536v1,"Tanishq Chaudhary, Mayank Goel, Radhika Mamidi","cs.CL, cs.HC, cs.LG",dialogue,"Well-defined jokes can be divided neatly into a setup and a punchline. While
+most works on humor today talk about a joke as a whole, the idea of generating
+punchlines to a setup has applications in conversational humor, where funny
+remarks usually occur with a non-funny context. Thus, this paper is based
+around two core concepts: Classification and the Generation of a punchline from
+a particular setup based on the Incongruity Theory. We first implement a
+feature-based machine learning model to classify humor. For humor generation,
+we use a neural model, and then merge the classical rule-based approaches with
+the neural approach to create a hybrid model. The idea behind being: combining
+insights gained from other tasks with the setup-punchline model and thus
+applying it to existing text generation approaches. We then use and compare our
+model with human written jokes with the help of human evaluators in a
+double-blind study.",2021-02-28
 "BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language
   Generation",2021-01-27 22:07:03+00:00,http://arxiv.org/abs/2101.11718v1,"Jwala Dhamala, Tony Sun, Varun Kumar, Satyapriya Krishna, Yada Pruksachatkun, Kai-Wei Chang, Rahul Gupta","cs.CL, cs.AI, cs.LG",dialogue,"Recent advances in deep learning techniques have enabled machines to generate
 cohesive open-ended text when prompted with a sequence of words as context.

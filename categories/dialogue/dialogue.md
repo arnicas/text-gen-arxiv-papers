@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-02-18*
+*written on 2021-03-04*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Towards Conversational Humor Analysis and Design](http://arxiv.org/abs/2103.00536v1) | Tanishq Chaudhary, Mayank Goel, Radhika Mamidi | cs.CL, cs.HC, cs.LG | 2021-02-28 |
 | [BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language  Generation](http://arxiv.org/abs/2101.11718v1) | Jwala Dhamala, Tony Sun, Varun Kumar, Satyapriya Krishna, Yada Pruksachatkun, Kai-Wei Chang, Rahul Gupta | cs.CL, cs.AI, cs.LG | 2021-01-27 |
 | [An Empirical Study of Cross-Lingual Transferability in Generative  Dialogue State Tracker](http://arxiv.org/abs/2101.11360v1) | Yen-Ting Lin, Yun-Nung Chen | cs.CL | 2021-01-27 |
 | [BERT Transformer model for Detecting Arabic GPT2 Auto-Generated Tweets](http://arxiv.org/abs/2101.09345v1) | Fouzi Harrag, Maria Debbah, Kareem Darwish, Ahmed Abdelali | cs.CL | 2021-01-22 |
