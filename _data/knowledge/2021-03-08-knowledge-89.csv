@@ -1,4 +1,32 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+InFillmore: Neural Frame Lexicalization for Narrative Text Infilling,2021-03-08 17:59:41+00:00,http://arxiv.org/abs/2103.04941v1,"Jiefu Ou, Nathaniel Weir, Anton Belyy, Felix Yu, Benjamin Van Durme",cs.CL,knowledge,"We propose a structured extension to bidirectional-context conditional
+language generation, or ""infilling,"" inspired by Frame Semantic theory
+(Fillmore, 1976). Guidance is provided through two approaches: (1) model
+fine-tuning, conditioning directly on observed symbolic frames, and (2) a novel
+extension to disjunctive lexically constrained decoding that leverages frame
+semantic lexical units. Automatic and human evaluations confirm that
+frame-guided generation allows for explicit manipulation of intended infill
+semantics, with minimal loss of indistinguishability from the human-generated
+text. Our methods flexibly apply to a variety of use scenarios, and we provide
+an interactive web demo available at https://nlp.jhu.edu/demos.",2021-03-08
+"Empathetic BERT2BERT Conversational Model: Learning Arabic Language
+  Generation with Little Data",2021-03-07 13:23:51+00:00,http://arxiv.org/abs/2103.04353v1,"Tarek Naous, Wissam Antoun, Reem A. Mahmoud, Hazem Hajj",cs.CL,knowledge,"Enabling empathetic behavior in Arabic dialogue agents is an important aspect
+of building human-like conversational models. While Arabic Natural Language
+Processing has seen significant advances in Natural Language Understanding
+(NLU) with language models such as AraBERT, Natural Language Generation (NLG)
+remains a challenge. The shortcomings of NLG encoder-decoder models are
+primarily due to the lack of Arabic datasets suitable to train NLG models such
+as conversational agents. To overcome this issue, we propose a
+transformer-based encoder-decoder initialized with AraBERT parameters. By
+initializing the weights of the encoder and decoder with AraBERT pre-trained
+weights, our model was able to leverage knowledge transfer and boost
+performance in response generation. To enable empathy in our conversational
+model, we train it using the ArabicEmpatheticDialogues dataset and achieve high
+performance in empathetic response generation. Specifically, our model achieved
+a low perplexity value of 17.0 and an increase in 5 BLEU points compared to the
+previous state-of-the-art model. Also, our proposed model was rated highly by
+85 human evaluators, validating its high capability in exhibiting empathy while
+generating relevant and fluent responses in open-domain settings.",2021-03-07
 Topic Modelling Meets Deep Neural Networks: A Survey,2021-02-28 12:59:28+00:00,http://arxiv.org/abs/2103.00498v1,"He Zhao, Dinh Phung, Viet Huynh, Yuan Jin, Lan Du, Wray Buntine","cs.LG, cs.CL, cs.IR",knowledge,"Topic modelling has been a successful technique for text analysis for almost
 twenty years. When topic modelling met deep neural networks, there emerged a
 new and increasingly popular research area, neural topic models, with over a

@@ -1,4 +1,29 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Text Simplification by Tagging,2021-03-08 20:57:55+00:00,http://arxiv.org/abs/2103.05070v1,"Kostiantyn Omelianchuk, Vipul Raheja, Oleksandr Skurzhanskyi",cs.CL,table2text,"Edit-based approaches have recently shown promising results on multiple
+monolingual sequence transduction tasks. In contrast to conventional
+sequence-to-sequence (Seq2Seq) models, which learn to generate text from
+scratch as they are trained on parallel corpora, these methods have proven to
+be much more effective since they are able to learn to make fast and accurate
+transformations while leveraging powerful pre-trained language models. Inspired
+by these ideas, we present TST, a simple and efficient Text Simplification
+system based on sequence Tagging, leveraging pre-trained Transformer-based
+encoders. Our system makes simplistic data augmentations and tweaks in training
+and inference on a pre-existing system, which makes it less reliant on large
+amounts of parallel training data, provides more control over the outputs and
+enables faster inference speeds. Our best model achieves near state-of-the-art
+performance on benchmark test datasets for the task. Since it is fully
+non-autoregressive, it achieves faster inference speeds by over 11 times than
+the current state-of-the-art text simplification system.",2021-03-08
+InFillmore: Neural Frame Lexicalization for Narrative Text Infilling,2021-03-08 17:59:41+00:00,http://arxiv.org/abs/2103.04941v1,"Jiefu Ou, Nathaniel Weir, Anton Belyy, Felix Yu, Benjamin Van Durme",cs.CL,table2text,"We propose a structured extension to bidirectional-context conditional
+language generation, or ""infilling,"" inspired by Frame Semantic theory
+(Fillmore, 1976). Guidance is provided through two approaches: (1) model
+fine-tuning, conditioning directly on observed symbolic frames, and (2) a novel
+extension to disjunctive lexically constrained decoding that leverages frame
+semantic lexical units. Automatic and human evaluations confirm that
+frame-guided generation allows for explicit manipulation of intended infill
+semantics, with minimal loss of indistinguishability from the human-generated
+text. Our methods flexibly apply to a variety of use scenarios, and we provide
+an interactive web demo available at https://nlp.jhu.edu/demos.",2021-03-08
 "Towards Faithfulness in Open Domain Table-to-text Generation from an
   Entity-centric View",2021-02-17 05:41:06+00:00,http://arxiv.org/abs/2102.08585v1,"Tianyu Liu, Xin Zheng, Baobao Chang, Zhifang Sui","cs.CL, cs.AI",table2text,"In open domain table-to-text generation, we notice that the unfaithful
 generation usually contains hallucinated content which can not be aligned to

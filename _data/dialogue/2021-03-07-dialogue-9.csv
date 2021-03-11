@@ -1,4 +1,22 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Empathetic BERT2BERT Conversational Model: Learning Arabic Language
+  Generation with Little Data",2021-03-07 13:23:51+00:00,http://arxiv.org/abs/2103.04353v1,"Tarek Naous, Wissam Antoun, Reem A. Mahmoud, Hazem Hajj",cs.CL,dialogue,"Enabling empathetic behavior in Arabic dialogue agents is an important aspect
+of building human-like conversational models. While Arabic Natural Language
+Processing has seen significant advances in Natural Language Understanding
+(NLU) with language models such as AraBERT, Natural Language Generation (NLG)
+remains a challenge. The shortcomings of NLG encoder-decoder models are
+primarily due to the lack of Arabic datasets suitable to train NLG models such
+as conversational agents. To overcome this issue, we propose a
+transformer-based encoder-decoder initialized with AraBERT parameters. By
+initializing the weights of the encoder and decoder with AraBERT pre-trained
+weights, our model was able to leverage knowledge transfer and boost
+performance in response generation. To enable empathy in our conversational
+model, we train it using the ArabicEmpatheticDialogues dataset and achieve high
+performance in empathetic response generation. Specifically, our model achieved
+a low perplexity value of 17.0 and an increase in 5 BLEU points compared to the
+previous state-of-the-art model. Also, our proposed model was rated highly by
+85 human evaluators, validating its high capability in exhibiting empathy while
+generating relevant and fluent responses in open-domain settings.",2021-03-07
 Towards Conversational Humor Analysis and Design,2021-02-28 15:22:57+00:00,http://arxiv.org/abs/2103.00536v1,"Tanishq Chaudhary, Mayank Goel, Radhika Mamidi","cs.CL, cs.HC, cs.LG",dialogue,"Well-defined jokes can be divided neatly into a setup and a punchline. While
 most works on humor today talk about a joke as a whole, the idea of generating
 punchlines to a setup has applications in conversational humor, where funny

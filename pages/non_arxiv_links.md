@@ -84,6 +84,7 @@ description: Non-Arxiv links of interest
 * ACL [Plug and Play Autoencoders for Conditional Text Generation](https://www.aclweb.org/anthology/2020.emnlp-main.491.pdf)
 * ACL [A Survey on Intelligent Poetry Generation: Languages, Features, Techniques, Reutilisation and Evaluation](https://www.aclweb.org/anthology/W17-3502.pdf)
 * ACL [Acrostic Poem Generation](https://www.aclweb.org/anthology/2020.emnlp-main.94.pdf)
+* ACL [Deep-Speare: A joint neural model of poetic language, meter and rhyme](https://www.aclweb.org/anthology/P18-1181.pdf) [Code](https://github.com/jhlau/deepspeare)
 
 
 ### Conferences of Relevance
@@ -123,6 +124,9 @@ description: Non-Arxiv links of interest
 * Repo for [StoryGen](https://github.com/limelody/StoryGen) image captioning and story gen
 * Code for [KGPT: Knowledge-Grounded Pre-Training](https://github.com/wenhuchen/KGPT)
 * Repo for [Progressive Generation of Long Text](https://github.com/tanyuqian/progressive-generation)
+* [Lyrics Generation Using BERT](https://github.com/ApurbaSengupta/Lyrics-Generation-using-BERT)
+* [Rhyme With AI](https://github.com/godatadriven/rhyme-with-ai) (post)[https://devpost.com/software/rhyme-with-ai]
+* [BERT-Gen](https://github.com/nyu-dl/bert-gen)
 
 ### Newsletters
 

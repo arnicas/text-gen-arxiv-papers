@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2021-03-04*
+*written on 2021-03-11*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [InFillmore: Neural Frame Lexicalization for Narrative Text Infilling](http://arxiv.org/abs/2103.04941v1) | Jiefu Ou, Nathaniel Weir, Anton Belyy, Felix Yu, Benjamin Van Durme | cs.CL | 2021-03-08 |
+| [Empathetic BERT2BERT Conversational Model: Learning Arabic Language  Generation with Little Data](http://arxiv.org/abs/2103.04353v1) | Tarek Naous, Wissam Antoun, Reem A. Mahmoud, Hazem Hajj | cs.CL | 2021-03-07 |
 | [Topic Modelling Meets Deep Neural Networks: A Survey](http://arxiv.org/abs/2103.00498v1) | He Zhao, Dinh Phung, Viet Huynh, Yuan Jin, Lan Du, Wray Buntine | cs.LG, cs.CL, cs.IR | 2021-02-28 |
 | [Structural Information Preserving for Graph-to-Text Generation](http://arxiv.org/abs/2102.06749v1) | Linfeng Song, Ante Wang, Jinsong Su, Yue Zhang, Kun Xu, Yubin Ge, Dong Yu | cs.CL | 2021-02-12 |
 | [GraphPlan: Story Generation by Planning with Event Graph](http://arxiv.org/abs/2102.02977v1) | Hong Chen, Raphael Shu, Hiroya Takamura, Hideki Nakayama | cs.CL | 2021-02-05 |

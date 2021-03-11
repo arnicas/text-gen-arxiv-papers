@@ -1,4 +1,19 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Relationship-based Neural Baby Talk,2021-03-08 15:51:24+00:00,http://arxiv.org/abs/2103.04846v1,"Fan Fu, Tingting Xie, Ioannis Patras, Sepehr Jalali","cs.CV, cs.AI",image2text,"Understanding interactions between objects in an image is an important
+element for generating captions. In this paper, we propose a relationship-based
+neural baby talk (R-NBT) model to comprehensively investigate several types of
+pairwise object interactions by encoding each image via three different
+relationship-based graph attention networks (GATs). We study three main
+relationships: \textit{spatial relationships} to explore geometric
+interactions, \textit{semantic relationships} to extract semantic interactions,
+and \textit{implicit relationships} to capture hidden information that could
+not be modelled explicitly as above. We construct three relationship graphs
+with the objects in an image as nodes, and the mutual relationships of pairwise
+objects as edges. By exploring features of neighbouring regions individually
+via GATs, we integrate different types of relationships into visual features of
+each node. Experiments on COCO dataset show that our proposed R-NBT model
+outperforms state-of-the-art models trained on COCO dataset in three image
+caption generation tasks.",2021-03-08
 Controllable and Diverse Text Generation in E-commerce,2021-02-23 05:16:27+00:00,http://arxiv.org/abs/2102.11497v1,"Huajie Shao, Jun Wang, Haohong Lin, Xuezhou Zhang, Aston Zhang, Heng Ji, Tarek Abdelzaher",cs.LG,image2text,"In E-commerce, a key challenge in text generation is to find a good trade-off
 between word diversity and accuracy (relevance) in order to make generated text
 appear more natural and human-like. In order to improve the relevance of
