@@ -15,6 +15,7 @@ This site was meant to help me (Lynn Cherny) keep up with text generation topics
 * [Games]({{site.url}}categories/games/games.html)
 * [Poetry and Lyrics]({{site.url}}categories/poetry/poetry.html)
 * [Knowledge Graphs]({{site.url}}categories/knowledge/knowledge.html)
+* [Table2Text]({{site.url}}categories/table2text/table2text.html)
 
 There are also some links (in progress, I have a lot to get thru) to articles, demos, repos, and other things that aren't ArXiv papers [here]({{site.url}}pages/non_arxiv_links.html).
 
