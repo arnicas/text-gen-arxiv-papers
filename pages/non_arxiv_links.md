@@ -93,6 +93,7 @@ description: Non-Arxiv links of interest
 * [International Conference on Computational Creativity](https://computationalcreativity.net/iccc20/)
 * [Electronic Literature Organization (ELO)](https://eliterature.org/news/conference/)
 * [WordPlay Workshop papers](https://wordplay-workshop.github.io/accepted/)
+* [Procedural Content Generation Workshop papers db with search](http://www.pcgworkshop.com/database.php)
 
 ### Publications for Computational Text Experiments 
 

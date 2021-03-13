@@ -1,4 +1,41 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Topical Language Generation using Transformers,2021-03-11 03:45:24+00:00,http://arxiv.org/abs/2103.06434v1,"Rohola Zandie, Mohammad H. Mahoor","cs.CL, cs.AI",table2text,"Large-scale transformer-based language models (LMs) demonstrate impressive
+capabilities in open text generation. However, controlling the generated text's
+properties such as the topic, style, and sentiment is challenging and often
+requires significant changes to the model architecture or retraining and
+fine-tuning the model on new supervised data. This paper presents a novel
+approach for Topical Language Generation (TLG) by combining a pre-trained LM
+with topic modeling information. We cast the problem using Bayesian probability
+formulation with topic probabilities as a prior, LM probabilities as the
+likelihood, and topical language generation probability as the posterior. In
+learning the model, we derive the topic probability distribution from the
+user-provided document's natural structure. Furthermore, we extend our model by
+introducing new parameters and functions to influence the quantity of the
+topical features presented in the generated text. This feature would allow us
+to easily control the topical properties of the generated text. Our
+experimental results demonstrate that our model outperforms the
+state-of-the-art results on coherency, diversity, and fluency while being
+faster in decoding.",2021-03-11
+Causal-aware Safe Policy Improvement for Task-oriented dialogue,2021-03-10 22:34:28+00:00,http://arxiv.org/abs/2103.06370v1,"Govardana Sachithanandam Ramachandran, Kazuma Hashimoto, Caiming Xiong","cs.CL, cs.AI, cs.LG",table2text,"The recent success of reinforcement learning's (RL) in solving complex tasks
+is most often attributed to its capacity to explore and exploit an environment
+where it has been trained. Sample efficiency is usually not an issue since
+cheap simulators are available to sample data on-policy. On the other hand,
+task oriented dialogues are usually learnt from offline data collected using
+human demonstrations. Collecting diverse demonstrations and annotating them is
+expensive. Unfortunately, use of RL methods trained on off-policy data are
+prone to issues of bias and generalization, which are further exacerbated by
+stochasticity in human response and non-markovian belief state of a dialogue
+management system. To this end, we propose a batch RL framework for task
+oriented dialogue policy learning: causal aware safe policy improvement
+(CASPI). This method gives guarantees on dialogue policy's performance and also
+learns to shape rewards according to intentions behind human responses, rather
+than just mimicking demonstration data; this couple with batch-RL helps overall
+with sample efficiency of the framework. We demonstrate the effectiveness of
+this framework on a dialogue-context-to-text Generation and end-to-end dialogue
+task of the Multiwoz2.0 dataset. The proposed method outperforms the current
+state of the art on these metrics, in both case. In the end-to-end case, our
+method trained only on 10\% of the data was able to out perform current state
+in three out of four evaluation metrics.",2021-03-10
 Text Simplification by Tagging,2021-03-08 20:57:55+00:00,http://arxiv.org/abs/2103.05070v1,"Kostiantyn Omelianchuk, Vipul Raheja, Oleksandr Skurzhanskyi",cs.CL,table2text,"Edit-based approaches have recently shown promising results on multiple
 monolingual sequence transduction tasks. In contrast to conventional
 sequence-to-sequence (Seq2Seq) models, which learn to generate text from

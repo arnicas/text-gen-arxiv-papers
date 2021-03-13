@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-02-25*
+*written on 2021-03-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Hurdles to Progress in Long-form Question Answering](http://arxiv.org/abs/2103.06332v1) | Kalpesh Krishna, Aurko Roy, Mohit Iyyer | cs.CL, cs.LG | 2021-03-10 |
 | [Deep Learning for General Game Playing with Ludii and Polygames](http://arxiv.org/abs/2101.09562v1) | Dennis J. N. J. Soemers, Vegard Mella, Cameron Browne, Olivier Teytaud | cs.AI | 2021-01-23 |
 | [Ludii Game Logic Guide](http://arxiv.org/abs/2101.02120v1) | Eric Piette, Cameron Browne, Dennis J. N. J. Soemers | cs.AI | 2021-01-06 |
 | [DORB: Dynamically Optimizing Multiple Rewards with Bandits](http://arxiv.org/abs/2011.07635v1) | Ramakanth Pasunuru, Han Guo, Mohit Bansal | cs.CL, cs.AI, cs.LG | 2020-11-15 |

@@ -1,4 +1,24 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Causal-aware Safe Policy Improvement for Task-oriented dialogue,2021-03-10 22:34:28+00:00,http://arxiv.org/abs/2103.06370v1,"Govardana Sachithanandam Ramachandran, Kazuma Hashimoto, Caiming Xiong","cs.CL, cs.AI, cs.LG",dialogue,"The recent success of reinforcement learning's (RL) in solving complex tasks
+is most often attributed to its capacity to explore and exploit an environment
+where it has been trained. Sample efficiency is usually not an issue since
+cheap simulators are available to sample data on-policy. On the other hand,
+task oriented dialogues are usually learnt from offline data collected using
+human demonstrations. Collecting diverse demonstrations and annotating them is
+expensive. Unfortunately, use of RL methods trained on off-policy data are
+prone to issues of bias and generalization, which are further exacerbated by
+stochasticity in human response and non-markovian belief state of a dialogue
+management system. To this end, we propose a batch RL framework for task
+oriented dialogue policy learning: causal aware safe policy improvement
+(CASPI). This method gives guarantees on dialogue policy's performance and also
+learns to shape rewards according to intentions behind human responses, rather
+than just mimicking demonstration data; this couple with batch-RL helps overall
+with sample efficiency of the framework. We demonstrate the effectiveness of
+this framework on a dialogue-context-to-text Generation and end-to-end dialogue
+task of the Multiwoz2.0 dataset. The proposed method outperforms the current
+state of the art on these metrics, in both case. In the end-to-end case, our
+method trained only on 10\% of the data was able to out perform current state
+in three out of four evaluation metrics.",2021-03-10
 "Empathetic BERT2BERT Conversational Model: Learning Arabic Language
   Generation with Little Data",2021-03-07 13:23:51+00:00,http://arxiv.org/abs/2103.04353v1,"Tarek Naous, Wissam Antoun, Reem A. Mahmoud, Hazem Hajj",cs.CL,dialogue,"Enabling empathetic behavior in Arabic dialogue agents is an important aspect
 of building human-like conversational models. While Arabic Natural Language

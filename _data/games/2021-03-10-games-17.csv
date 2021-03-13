@@ -1,4 +1,21 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Hurdles to Progress in Long-form Question Answering,2021-03-10 20:32:30+00:00,http://arxiv.org/abs/2103.06332v1,"Kalpesh Krishna, Aurko Roy, Mohit Iyyer","cs.CL, cs.LG",games,"The task of long-form question answering (LFQA) involves retrieving documents
+relevant to a given question and using them to generate a paragraph-length
+answer. While many models have recently been proposed for LFQA, we show in this
+paper that the task formulation raises fundamental challenges regarding
+evaluation and dataset creation that currently preclude meaningful modeling
+progress. To demonstrate these challenges, we first design a new system that
+relies on sparse attention and contrastive retriever learning to achieve
+state-of-the-art performance on the ELI5 LFQA dataset. While our system tops
+the public leaderboard, a detailed analysis reveals several troubling trends:
+(1) our system's generated answers are not actually grounded in the documents
+that it retrieves; (2) ELI5 contains significant train / test overlap, as at
+least 81% of ELI5 validation questions occur in paraphrased form in the
+training set; (3) ROUGE-L is not an informative metric of generated answer
+quality and can be easily gamed; and (4) human evaluations used for other text
+generation tasks are unreliable for LFQA. We provide suggestions to mitigate
+each of these issues, which we hope will lead to more rigorous LFQA research
+and meaningful progress in the future.",2021-03-10
 Deep Learning for General Game Playing with Ludii and Polygames,2021-01-23 19:08:33+00:00,http://arxiv.org/abs/2101.09562v1,"Dennis J. N. J. Soemers, Vegard Mella, Cameron Browne, Olivier Teytaud",cs.AI,games,"Combinations of Monte-Carlo tree search and Deep Neural Networks, trained
 through self-play, have produced state-of-the-art results for automated
 game-playing in many board games. The training and search algorithms are not
