@@ -1,4 +1,18 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Structural Adapters in Pretrained Language Models for AMR-to-text
+  Generation",2021-03-16 15:06:50+00:00,http://arxiv.org/abs/2103.09120v1,"Leonardo F. R. Ribeiro, Yue Zhang, Iryna Gurevych",cs.CL,knowledge,"Previous work on text generation from graph-structured data relies on
+pretrained language models (PLMs) and utilizes graph linearization heuristics
+rather than explicitly considering the graph structure. Efficiently encoding
+the graph structure in PLMs is challenging because they were pretrained on
+natural language, and modeling structured data may lead to catastrophic
+forgetting of distributional knowledge. In this paper, we propose StructAdapt,
+an adapter method to encode graph structure into PLMs. Contrary to prior work,
+StructAdapt effectively models interactions among the nodes based on the graph
+connectivity, only training graph structure-aware adapter parameters. In this
+way, we avoid catastrophic forgetting while maintaining the topological
+structure of the graph. We empirically show the benefits of explicitly encoding
+graph structure into PLMs using adapters and achieve state-of-the-art results
+on two AMR-to-text datasets, training only 5.1% of the PLM parameters.",2021-03-16
 InFillmore: Neural Frame Lexicalization for Narrative Text Infilling,2021-03-08 17:59:41+00:00,http://arxiv.org/abs/2103.04941v1,"Jiefu Ou, Nathaniel Weir, Anton Belyy, Felix Yu, Benjamin Van Durme",cs.CL,knowledge,"We propose a structured extension to bidirectional-context conditional
 language generation, or ""infilling,"" inspired by Frame Semantic theory
 (Fillmore, 1976). Guidance is provided through two approaches: (1) model

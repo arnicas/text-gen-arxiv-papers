@@ -1,4 +1,36 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Structural Adapters in Pretrained Language Models for AMR-to-text
+  Generation",2021-03-16 15:06:50+00:00,http://arxiv.org/abs/2103.09120v1,"Leonardo F. R. Ribeiro, Yue Zhang, Iryna Gurevych",cs.CL,table2text,"Previous work on text generation from graph-structured data relies on
+pretrained language models (PLMs) and utilizes graph linearization heuristics
+rather than explicitly considering the graph structure. Efficiently encoding
+the graph structure in PLMs is challenging because they were pretrained on
+natural language, and modeling structured data may lead to catastrophic
+forgetting of distributional knowledge. In this paper, we propose StructAdapt,
+an adapter method to encode graph structure into PLMs. Contrary to prior work,
+StructAdapt effectively models interactions among the nodes based on the graph
+connectivity, only training graph structure-aware adapter parameters. In this
+way, we avoid catastrophic forgetting while maintaining the topological
+structure of the graph. We empirically show the benefits of explicitly encoding
+graph structure into PLMs using adapters and achieve state-of-the-art results
+on two AMR-to-text datasets, training only 5.1% of the PLM parameters.",2021-03-16
+Get Your Vitamin C! Robust Fact Verification with Contrastive Evidence,2021-03-15 17:05:13+00:00,http://arxiv.org/abs/2103.08541v1,"Tal Schuster, Adam Fisch, Regina Barzilay","cs.CL, cs.IR, cs.LG",table2text,"Typical fact verification models use retrieved written evidence to verify
+claims. Evidence sources, however, often change over time as more information
+is gathered and revised. In order to adapt, models must be sensitive to subtle
+differences in supporting evidence. We present VitaminC, a benchmark infused
+with challenging cases that require fact verification models to discern and
+adjust to slight factual changes. We collect over 100,000 Wikipedia revisions
+that modify an underlying fact, and leverage these revisions, together with
+additional synthetically constructed ones, to create a total of over 400,000
+claim-evidence pairs. Unlike previous resources, the examples in VitaminC are
+contrastive, i.e., they contain evidence pairs that are nearly identical in
+language and content, with the exception that one supports a given claim while
+the other does not. We show that training using this design increases
+robustness -- improving accuracy by 10% on adversarial fact verification and 6%
+on adversarial natural language inference (NLI). Moreover, the structure of
+VitaminC leads us to define additional tasks for fact-checking resources:
+tagging relevant words in the evidence for verifying the claim, identifying
+factual revisions, and providing automatic edits via factually consistent text
+generation.",2021-03-15
 Topical Language Generation using Transformers,2021-03-11 03:45:24+00:00,http://arxiv.org/abs/2103.06434v1,"Rohola Zandie, Mohammad H. Mahoor","cs.CL, cs.AI",table2text,"Large-scale transformer-based language models (LMs) demonstrate impressive
 capabilities in open text generation. However, controlling the generated text's
 properties such as the topic, style, and sentiment is challenging and often
