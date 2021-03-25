@@ -1,4 +1,23 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Controllable Generation from Pre-trained Language Models via Inverse
+  Prompting",2021-03-19 08:36:52+00:00,http://arxiv.org/abs/2103.10685v1,"Xu Zou, Da Yin, Qingyang Zhong, Hongxia Yang, Zhilin Yang, Jie Tang","cs.CL, cs.AI, cs.LG",poetry,"Large-scale pre-trained language models have demonstrated strong capabilities
+of generating realistic text. However, it remains challenging to control the
+generation results. Previous approaches such as prompting are far from
+sufficient, which limits the usage of language models. To tackle this
+challenge, we propose an innovative method, inverse prompting, to better
+control text generation. The core idea of inverse prompting is to use generated
+text to inversely predict the prompt during beam search, which enhances the
+relevance between the prompt and the generated text and provides better
+controllability. Empirically, we pre-train a large-scale Chinese language model
+to perform a systematic study using human evaluation on the tasks of
+open-domain poem generation and open-domain long-form question answering. Our
+results show that our proposed method substantially outperforms the baselines
+and that our generation quality is close to human performance on some of the
+tasks.
+  Narrators can try our poem generation demo at
+https://pretrain.aminer.cn/apps/poetry.html, while our QA demo can be found at
+https://pretrain.aminer.cn/app/qa. For researchers, the code is provided in
+https://github.com/THUDM/InversePrompting.",2021-03-19
 "Exploring Transformers in Natural Language Generation: GPT, BERT, and
   XLNet",2021-02-16 09:18:16+00:00,http://arxiv.org/abs/2102.08036v1,"M. Onat Topal, Anil Bas, Imke van Heerden","cs.CL, cs.LG",poetry,"Recent years have seen a proliferation of attention mechanisms and the rise
 of Transformers in Natural Language Generation (NLG). Previously,

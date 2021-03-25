@@ -1,4 +1,17 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Attribute Alignment: Controlling Text Generation from Pre-trained
+  Language Models",2021-03-20 01:51:32+00:00,http://arxiv.org/abs/2103.11070v1,"Dian Yu, Kenji Sagae, Zhou Yu",cs.CL,table2text,"Large language models benefit from training with a large amount of unlabeled
+text, which gives them increasingly fluent and diverse generation capabilities.
+However, using these models for text generation that takes into account target
+attributes, such as sentiment polarity or specific topics, remains a challenge.
+We propose a simple and flexible method for controlling text generation by
+aligning disentangled attribute representations. In contrast to recent efforts
+on training a discriminator to perturb the token level distribution for an
+attribute, we use the same data to learn an alignment function to guide the
+pre-trained, non-controlled language model to generate texts with the target
+attribute without changing the original language model parameters. We evaluate
+our method on sentiment- and topic-controlled generation, and show large
+performance gains over previous methods while retaining fluency and diversity.",2021-03-20
 "Structural Adapters in Pretrained Language Models for AMR-to-text
   Generation",2021-03-16 15:06:50+00:00,http://arxiv.org/abs/2103.09120v1,"Leonardo F. R. Ribeiro, Yue Zhang, Iryna Gurevych",cs.CL,table2text,"Previous work on text generation from graph-structured data relies on
 pretrained language models (PLMs) and utilizes graph linearization heuristics

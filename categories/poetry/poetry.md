@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-02-17*
+*written on 2021-03-25*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Controllable Generation from Pre-trained Language Models via Inverse  Prompting](http://arxiv.org/abs/2103.10685v1) | Xu Zou, Da Yin, Qingyang Zhong, Hongxia Yang, Zhilin Yang, Jie Tang | cs.CL, cs.AI, cs.LG | 2021-03-19 |
 | [Exploring Transformers in Natural Language Generation: GPT, BERT, and  XLNet](http://arxiv.org/abs/2102.08036v1) | M. Onat Topal, Anil Bas, Imke van Heerden | cs.CL, cs.LG | 2021-02-16 |
 | [Generate and Revise: Reinforcement Learning in Neural Poetry](http://arxiv.org/abs/2102.04114v1) | Andrea Zugarini, Luca Pasqualini, Stefano Melacci, Marco Maggini | cs.CL, cs.AI, cs.LG | 2021-02-08 |
 | [Weird AI Yankovic: Generating Parody Lyrics](http://arxiv.org/abs/2009.12240v1) | Mark Riedl | cs.CL, cs.AI | 2020-09-25 |

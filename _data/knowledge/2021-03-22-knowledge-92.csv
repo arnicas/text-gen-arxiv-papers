@@ -1,4 +1,35 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+SparseGAN: Sparse Generative Adversarial Network for Text Generation,2021-03-22 04:44:43+00:00,http://arxiv.org/abs/2103.11578v1,"Liping Yuan, Jiehang Zeng, Xiaoqing Zheng",cs.CL,knowledge,"It is still a challenging task to learn a neural text generation model under
+the framework of generative adversarial networks (GANs) since the entire
+training process is not differentiable. The existing training strategies either
+suffer from unreliable gradient estimations or imprecise sentence
+representations. Inspired by the principle of sparse coding, we propose a
+SparseGAN that generates semantic-interpretable, but sparse sentence
+representations as inputs to the discriminator. The key idea is that we treat
+an embedding matrix as an over-complete dictionary, and use a linear
+combination of very few selected word embeddings to approximate the output
+feature representation of the generator at each time step. With such
+semantic-rich representations, we not only reduce unnecessary noises for
+efficient adversarial training, but also make the entire training process fully
+differentiable. Experiments on multiple text generation datasets yield
+performance improvements, especially in sequence-level metrics, such as BLEU.",2021-03-22
+"Model Extraction and Adversarial Transferability, Your BERT is
+  Vulnerable!",2021-03-18 04:23:21+00:00,http://arxiv.org/abs/2103.10013v1,"Xuanli He, Lingjuan Lyu, Qiongkai Xu, Lichao Sun",cs.CL,knowledge,"Natural language processing (NLP) tasks, ranging from text classification to
+text generation, have been revolutionised by the pre-trained language models,
+such as BERT. This allows corporations to easily build powerful APIs by
+encapsulating fine-tuned BERT models for downstream tasks. However, when a
+fine-tuned BERT model is deployed as a service, it may suffer from different
+attacks launched by malicious users. In this work, we first present how an
+adversary can steal a BERT-based API service (the victim/target model) on
+multiple benchmark datasets with limited prior knowledge and queries. We
+further show that the extracted model can lead to highly transferable
+adversarial attacks against the victim model. Our studies indicate that the
+potential vulnerabilities of BERT-based API services still hold, even when
+there is an architectural mismatch between the victim model and the attack
+model. Finally, we investigate two defence strategies to protect the victim
+model and find that unless the performance of the victim model is sacrificed,
+both model ex-traction and adversarial transferability can effectively
+compromise the target models",2021-03-18
 "Structural Adapters in Pretrained Language Models for AMR-to-text
   Generation",2021-03-16 15:06:50+00:00,http://arxiv.org/abs/2103.09120v1,"Leonardo F. R. Ribeiro, Yue Zhang, Iryna Gurevych",cs.CL,knowledge,"Previous work on text generation from graph-structured data relies on
 pretrained language models (PLMs) and utilizes graph linearization heuristics

@@ -1,4 +1,14 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Overprotective Training Environments Fall Short at Testing Time: Let
+  Models Contribute to Their Own Training",2021-03-20 09:55:50+00:00,http://arxiv.org/abs/2103.11145v1,"Alberto Testoni, Raffaella Bernardi",cs.CL,dialogue,"Despite important progress, conversational systems often generate dialogues
+that sound unnatural to humans. We conjecture that the reason lies in their
+different training and testing conditions: agents are trained in a controlled
+""lab"" setting but tested in the ""wild"". During training, they learn to generate
+an utterance given the human dialogue history. On the other hand, during
+testing, they must interact with each other, and hence deal with noisy data. We
+propose to fill this gap by training the model with mixed batches containing
+both samples of human and machine-generated dialogues. We assess the validity
+of the proposed method on",2021-03-20
 Causal-aware Safe Policy Improvement for Task-oriented dialogue,2021-03-10 22:34:28+00:00,http://arxiv.org/abs/2103.06370v1,"Govardana Sachithanandam Ramachandran, Kazuma Hashimoto, Caiming Xiong","cs.CL, cs.AI, cs.LG",dialogue,"The recent success of reinforcement learning's (RL) in solving complex tasks
 is most often attributed to its capacity to explore and exploit an environment
 where it has been trained. Sample efficiency is usually not an issue since

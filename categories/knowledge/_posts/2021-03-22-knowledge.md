@@ -6,10 +6,12 @@ sidebar:
 ---
 
 
-*written on 2021-03-18*
+*written on 2021-03-25*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [SparseGAN: Sparse Generative Adversarial Network for Text Generation](http://arxiv.org/abs/2103.11578v1) | Liping Yuan, Jiehang Zeng, Xiaoqing Zheng | cs.CL | 2021-03-22 |
+| [Model Extraction and Adversarial Transferability, Your BERT is  Vulnerable!](http://arxiv.org/abs/2103.10013v1) | Xuanli He, Lingjuan Lyu, Qiongkai Xu, Lichao Sun | cs.CL | 2021-03-18 |
 | [Structural Adapters in Pretrained Language Models for AMR-to-text  Generation](http://arxiv.org/abs/2103.09120v1) | Leonardo F. R. Ribeiro, Yue Zhang, Iryna Gurevych | cs.CL | 2021-03-16 |
 | [InFillmore: Neural Frame Lexicalization for Narrative Text Infilling](http://arxiv.org/abs/2103.04941v1) | Jiefu Ou, Nathaniel Weir, Anton Belyy, Felix Yu, Benjamin Van Durme | cs.CL | 2021-03-08 |
 | [Empathetic BERT2BERT Conversational Model: Learning Arabic Language  Generation with Little Data](http://arxiv.org/abs/2103.04353v1) | Tarek Naous, Wissam Antoun, Reem A. Mahmoud, Hazem Hajj | cs.CL | 2021-03-07 |
