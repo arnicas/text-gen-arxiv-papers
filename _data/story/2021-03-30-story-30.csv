@@ -1,4 +1,10 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+AfriKI: Machine-in-the-Loop Afrikaans Poetry Generation,2021-03-30 09:17:56+00:00,http://arxiv.org/abs/2103.16190v1,"Imke van Heerden, Anil Bas","cs.CL, cs.LG",story,"This paper proposes a generative language model called AfriKI. Our approach
+is based on an LSTM architecture trained on a small corpus of contemporary
+fiction. With the aim of promoting human creativity, we use the model as an
+authoring tool to explore machine-in-the-loop Afrikaans poetry generation. To
+our knowledge, this is the first study to attempt creative text generation in
+Afrikaans.",2021-03-30
 Automatic Story Generation: Challenges and Attempts,2021-02-25 02:03:35+00:00,http://arxiv.org/abs/2102.12634v1,"Amal Alabdulkarim, Siyan Li, Xiangyu Peng",cs.CL,story,"The scope of this survey paper is to explore the challenges in automatic
 story generation. We hope to contribute in the following ways: 1. Explore how
 previous research in story generation addressed those challenges. 2. Discuss

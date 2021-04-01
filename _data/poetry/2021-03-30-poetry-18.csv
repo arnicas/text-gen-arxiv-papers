@@ -1,4 +1,10 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+AfriKI: Machine-in-the-Loop Afrikaans Poetry Generation,2021-03-30 09:17:56+00:00,http://arxiv.org/abs/2103.16190v1,"Imke van Heerden, Anil Bas","cs.CL, cs.LG",poetry,"This paper proposes a generative language model called AfriKI. Our approach
+is based on an LSTM architecture trained on a small corpus of contemporary
+fiction. With the aim of promoting human creativity, we use the model as an
+authoring tool to explore machine-in-the-loop Afrikaans poetry generation. To
+our knowledge, this is the first study to attempt creative text generation in
+Afrikaans.",2021-03-30
 "Controllable Generation from Pre-trained Language Models via Inverse
   Prompting",2021-03-19 08:36:52+00:00,http://arxiv.org/abs/2103.10685v1,"Xu Zou, Da Yin, Qingyang Zhong, Hongxia Yang, Zhilin Yang, Jie Tang","cs.CL, cs.AI, cs.LG",poetry,"Large-scale pre-trained language models have demonstrated strong capabilities
 of generating realistic text. However, it remains challenging to control the

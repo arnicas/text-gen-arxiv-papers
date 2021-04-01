@@ -6,10 +6,11 @@ sidebar:
 ---
 
 
-*written on 2021-03-25*
+*written on 2021-04-01*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [AfriKI: Machine-in-the-Loop Afrikaans Poetry Generation](http://arxiv.org/abs/2103.16190v1) | Imke van Heerden, Anil Bas | cs.CL, cs.LG | 2021-03-30 |
 | [SparseGAN: Sparse Generative Adversarial Network for Text Generation](http://arxiv.org/abs/2103.11578v1) | Liping Yuan, Jiehang Zeng, Xiaoqing Zheng | cs.CL | 2021-03-22 |
 | [Model Extraction and Adversarial Transferability, Your BERT is  Vulnerable!](http://arxiv.org/abs/2103.10013v1) | Xuanli He, Lingjuan Lyu, Qiongkai Xu, Lichao Sun | cs.CL | 2021-03-18 |
 | [Structural Adapters in Pretrained Language Models for AMR-to-text  Generation](http://arxiv.org/abs/2103.09120v1) | Leonardo F. R. Ribeiro, Yue Zhang, Iryna Gurevych | cs.CL | 2021-03-16 |
