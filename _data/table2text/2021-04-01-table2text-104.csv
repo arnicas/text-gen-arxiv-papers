@@ -1,4 +1,38 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+WakaVT: A Sequential Variational Transformer for Waka Generation,2021-04-01 12:14:41+00:00,http://arxiv.org/abs/2104.00426v1,"Yuka Takeishi, Mingxuan Niu, Jing Luo, Zhong Jin, Xinyu Yang","cs.CL, cs.AI",table2text,"Poetry generation has long been a challenge for artificial intelligence. In
+the scope of Japanese poetry generation, many researchers have paid attention
+to Haiku generation, but few have focused on Waka generation. To further
+explore the creative potential of natural language generation systems in
+Japanese poetry creation, we propose a novel Waka generation model, WakaVT,
+which automatically produces Waka poems given user-specified keywords. Firstly,
+an additive mask-based approach is presented to satisfy the form constraint.
+Secondly, the structures of Transformer and variational autoencoder are
+integrated to enhance the quality of generated content. Specifically, to obtain
+novelty and diversity, WakaVT employs a sequence of latent variables, which
+effectively captures word-level variability in Waka data. To improve linguistic
+quality in terms of fluency, coherence, and meaningfulness, we further propose
+the fused multilevel self-attention mechanism, which properly models the
+hierarchical linguistic structure of Waka. To the best of our knowledge, we are
+the first to investigate Waka generation with models based on Transformer
+and/or variational autoencoder. Both objective and subjective evaluation
+results demonstrate that our model outperforms baselines significantly.",2021-04-01
+FeTaQA: Free-form Table Question Answering,2021-04-01 09:59:40+00:00,http://arxiv.org/abs/2104.00369v1,"Linyong Nan, Chiachun Hsieh, Ziming Mao, Xi Victoria Lin, Neha Verma, Rui Zhang, Wojciech Kryściński, Nick Schoelkopf, Riley Kong, Xiangru Tang, Murori Mutuma, Ben Rosand, Isabel Trindade, Renusree Bandaru, Jacob Cunningham, Caiming Xiong, Dragomir Radev",cs.CL,table2text,"Existing table question answering datasets contain abundant factual questions
+that primarily evaluate the query and schema comprehension capability of a
+system, but they fail to include questions that require complex reasoning and
+integration of information due to the constraint of the associated short-form
+answers. To address these issues and to demonstrate the full challenge of table
+question answering, we introduce FeTaQA, a new dataset with 10K Wikipedia-based
+{table, question, free-form answer, supporting table cells} pairs. FeTaQA
+yields a more challenging table question answering setting because it requires
+generating free-form text answers after retrieval, inference, and integration
+of multiple discontinuous facts from a structured knowledge source. Unlike
+datasets of generative QA over text in which answers are prevalent with copies
+of short text spans from the source, answers in our dataset are human-generated
+explanations involving entities and their high-level relations. We provide two
+benchmark methods for the proposed task: a pipeline method based on
+semantic-parsing-based QA systems and an end-to-end method based on large
+pretrained text generation models, and show that FeTaQA poses a challenge for
+both methods.",2021-04-01
 "On Hallucination and Predictive Uncertainty in Conditional Language
   Generation",2021-03-28 00:32:27+00:00,http://arxiv.org/abs/2103.15025v1,"Yijun Xiao, William Yang Wang",cs.CL,table2text,"Despite improvements in performances on different natural language generation
 tasks, deep neural models are prone to hallucinating facts that are incorrect

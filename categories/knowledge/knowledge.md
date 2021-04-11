@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2021-04-01*
+*written on 2021-04-11*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [What's the best place for an AI conference, Vancouver or ______: Why  completing comparative questions is difficult](http://arxiv.org/abs/2104.01940v1) | Avishai Zagoury, Einat Minkov, Idan Szpektor, William W. Cohen | cs.CL | 2021-04-05 |
+| [WakaVT: A Sequential Variational Transformer for Waka Generation](http://arxiv.org/abs/2104.00426v1) | Yuka Takeishi, Mingxuan Niu, Jing Luo, Zhong Jin, Xinyu Yang | cs.CL, cs.AI | 2021-04-01 |
+| [FeTaQA: Free-form Table Question Answering](http://arxiv.org/abs/2104.00369v1) | Linyong Nan, Chiachun Hsieh, Ziming Mao, Xi Victoria Lin, Neha Verma, Rui Zhang, Wojciech Kryściński, Nick Schoelkopf, Riley Kong, Xiangru Tang, Murori Mutuma, Ben Rosand, Isabel Trindade, Renusree Bandaru, Jacob Cunningham, Caiming Xiong, Dragomir Radev | cs.CL | 2021-04-01 |
 | [AfriKI: Machine-in-the-Loop Afrikaans Poetry Generation](http://arxiv.org/abs/2103.16190v1) | Imke van Heerden, Anil Bas | cs.CL, cs.LG | 2021-03-30 |
 | [SparseGAN: Sparse Generative Adversarial Network for Text Generation](http://arxiv.org/abs/2103.11578v1) | Liping Yuan, Jiehang Zeng, Xiaoqing Zheng | cs.CL | 2021-03-22 |
 | [Model Extraction and Adversarial Transferability, Your BERT is  Vulnerable!](http://arxiv.org/abs/2103.10013v1) | Xuanli He, Lingjuan Lyu, Qiongkai Xu, Lichao Sun | cs.CL | 2021-03-18 |

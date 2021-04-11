@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-04-01*
+*written on 2021-04-11*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [WakaVT: A Sequential Variational Transformer for Waka Generation](http://arxiv.org/abs/2104.00426v1) | Yuka Takeishi, Mingxuan Niu, Jing Luo, Zhong Jin, Xinyu Yang | cs.CL, cs.AI | 2021-04-01 |
 | [AfriKI: Machine-in-the-Loop Afrikaans Poetry Generation](http://arxiv.org/abs/2103.16190v1) | Imke van Heerden, Anil Bas | cs.CL, cs.LG | 2021-03-30 |
 | [Controllable Generation from Pre-trained Language Models via Inverse  Prompting](http://arxiv.org/abs/2103.10685v1) | Xu Zou, Da Yin, Qingyang Zhong, Hongxia Yang, Zhilin Yang, Jie Tang | cs.CL, cs.AI, cs.LG | 2021-03-19 |
 | [Exploring Transformers in Natural Language Generation: GPT, BERT, and  XLNet](http://arxiv.org/abs/2102.08036v1) | M. Onat Topal, Anil Bas, Imke van Heerden | cs.CL, cs.LG | 2021-02-16 |

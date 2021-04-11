@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2021-04-01*
+*written on 2021-04-11*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [WakaVT: A Sequential Variational Transformer for Waka Generation](http://arxiv.org/abs/2104.00426v1) | Yuka Takeishi, Mingxuan Niu, Jing Luo, Zhong Jin, Xinyu Yang | cs.CL, cs.AI | 2021-04-01 |
+| [FeTaQA: Free-form Table Question Answering](http://arxiv.org/abs/2104.00369v1) | Linyong Nan, Chiachun Hsieh, Ziming Mao, Xi Victoria Lin, Neha Verma, Rui Zhang, Wojciech Kryściński, Nick Schoelkopf, Riley Kong, Xiangru Tang, Murori Mutuma, Ben Rosand, Isabel Trindade, Renusree Bandaru, Jacob Cunningham, Caiming Xiong, Dragomir Radev | cs.CL | 2021-04-01 |
 | [On Hallucination and Predictive Uncertainty in Conditional Language  Generation](http://arxiv.org/abs/2103.15025v1) | Yijun Xiao, William Yang Wang | cs.CL | 2021-03-28 |
 | [Data Augmentation in Natural Language Processing: A Novel Text  Generation Approach for Long and Short Text Classifiers](http://arxiv.org/abs/2103.14453v1) | Markus Bayer, Marc-André Kaufhold, Björn Buchhold, Marcel Keller, Jörg Dallmeyer, Christian Reuter | cs.CL, cs.AI | 2021-03-26 |
 | [Attribute Alignment: Controlling Text Generation from Pre-trained  Language Models](http://arxiv.org/abs/2103.11070v1) | Dian Yu, Kenji Sagae, Zhou Yu | cs.CL | 2021-03-20 |

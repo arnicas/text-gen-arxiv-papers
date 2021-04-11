@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-04-01*
+*written on 2021-04-11*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Sketch and Customize: A Counterfactual Story Generator](http://arxiv.org/abs/2104.00929v1) | Changying Hao, Liang Pang, Yanyan Lan, Yan Wang, Jiafeng Guo, Xueqi Cheng | cs.CL, cs.AI | 2021-04-02 |
 | [AfriKI: Machine-in-the-Loop Afrikaans Poetry Generation](http://arxiv.org/abs/2103.16190v1) | Imke van Heerden, Anil Bas | cs.CL, cs.LG | 2021-03-30 |
 | [Automatic Story Generation: Challenges and Attempts](http://arxiv.org/abs/2102.12634v1) | Amal Alabdulkarim, Siyan Li, Xiangyu Peng | cs.CL | 2021-02-25 |
 | [On Efficient Training, Controllability and Compositional Generalization  of Insertion-based Language Generators](http://arxiv.org/abs/2102.11008v1) | Sidi Lu, Nanyun Peng | cs.CL | 2021-02-12 |

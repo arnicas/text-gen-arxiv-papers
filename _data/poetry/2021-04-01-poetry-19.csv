@@ -1,4 +1,21 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+WakaVT: A Sequential Variational Transformer for Waka Generation,2021-04-01 12:14:41+00:00,http://arxiv.org/abs/2104.00426v1,"Yuka Takeishi, Mingxuan Niu, Jing Luo, Zhong Jin, Xinyu Yang","cs.CL, cs.AI",poetry,"Poetry generation has long been a challenge for artificial intelligence. In
+the scope of Japanese poetry generation, many researchers have paid attention
+to Haiku generation, but few have focused on Waka generation. To further
+explore the creative potential of natural language generation systems in
+Japanese poetry creation, we propose a novel Waka generation model, WakaVT,
+which automatically produces Waka poems given user-specified keywords. Firstly,
+an additive mask-based approach is presented to satisfy the form constraint.
+Secondly, the structures of Transformer and variational autoencoder are
+integrated to enhance the quality of generated content. Specifically, to obtain
+novelty and diversity, WakaVT employs a sequence of latent variables, which
+effectively captures word-level variability in Waka data. To improve linguistic
+quality in terms of fluency, coherence, and meaningfulness, we further propose
+the fused multilevel self-attention mechanism, which properly models the
+hierarchical linguistic structure of Waka. To the best of our knowledge, we are
+the first to investigate Waka generation with models based on Transformer
+and/or variational autoencoder. Both objective and subjective evaluation
+results demonstrate that our model outperforms baselines significantly.",2021-04-01
 AfriKI: Machine-in-the-Loop Afrikaans Poetry Generation,2021-03-30 09:17:56+00:00,http://arxiv.org/abs/2103.16190v1,"Imke van Heerden, Anil Bas","cs.CL, cs.LG",poetry,"This paper proposes a generative language model called AfriKI. Our approach
 is based on an LSTM architecture trained on a small corpus of contemporary
 fiction. With the aim of promoting human creativity, we use the model as an

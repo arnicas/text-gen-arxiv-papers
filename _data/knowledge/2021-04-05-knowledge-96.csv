@@ -1,4 +1,59 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"What's the best place for an AI conference, Vancouver or ______: Why
+  completing comparative questions is difficult",2021-04-05 14:56:09+00:00,http://arxiv.org/abs/2104.01940v1,"Avishai Zagoury, Einat Minkov, Idan Szpektor, William W. Cohen",cs.CL,knowledge,"Although large neural language models (LMs) like BERT can be finetuned to
+yield state-of-the-art results on many NLP tasks, it is often unclear what
+these models actually learn. Here we study using such LMs to fill in entities
+in human-authored comparative questions, like ``Which country is older, India
+or ______?'' -- i.e., we study the ability of neural LMs to ask (not answer)
+reasonable questions. We show that accuracy in this fill-in-the-blank task is
+well-correlated with human judgements of whether a question is reasonable, and
+that these models can be trained to achieve nearly human-level performance in
+completing comparative questions in three different subdomains. However,
+analysis shows that what they learn fails to model any sort of broad notion of
+which entities are semantically comparable or similar -- instead the trained
+models are very domain-specific, and performance is highly correlated with
+co-occurrences between specific entities observed in the training set. This is
+true both for models that are pretrained on general text corpora, as well as
+models trained on a large corpus of comparison questions. Our study thus
+reinforces recent results on the difficulty of making claims about a deep
+model's world knowledge or linguistic competence based on performance on
+specific benchmark problems. We make our evaluation datasets publicly available
+to foster future research on complex understanding and reasoning in such models
+at standards of human interaction.",2021-04-05
+WakaVT: A Sequential Variational Transformer for Waka Generation,2021-04-01 12:14:41+00:00,http://arxiv.org/abs/2104.00426v1,"Yuka Takeishi, Mingxuan Niu, Jing Luo, Zhong Jin, Xinyu Yang","cs.CL, cs.AI",knowledge,"Poetry generation has long been a challenge for artificial intelligence. In
+the scope of Japanese poetry generation, many researchers have paid attention
+to Haiku generation, but few have focused on Waka generation. To further
+explore the creative potential of natural language generation systems in
+Japanese poetry creation, we propose a novel Waka generation model, WakaVT,
+which automatically produces Waka poems given user-specified keywords. Firstly,
+an additive mask-based approach is presented to satisfy the form constraint.
+Secondly, the structures of Transformer and variational autoencoder are
+integrated to enhance the quality of generated content. Specifically, to obtain
+novelty and diversity, WakaVT employs a sequence of latent variables, which
+effectively captures word-level variability in Waka data. To improve linguistic
+quality in terms of fluency, coherence, and meaningfulness, we further propose
+the fused multilevel self-attention mechanism, which properly models the
+hierarchical linguistic structure of Waka. To the best of our knowledge, we are
+the first to investigate Waka generation with models based on Transformer
+and/or variational autoencoder. Both objective and subjective evaluation
+results demonstrate that our model outperforms baselines significantly.",2021-04-01
+FeTaQA: Free-form Table Question Answering,2021-04-01 09:59:40+00:00,http://arxiv.org/abs/2104.00369v1,"Linyong Nan, Chiachun Hsieh, Ziming Mao, Xi Victoria Lin, Neha Verma, Rui Zhang, Wojciech Kryściński, Nick Schoelkopf, Riley Kong, Xiangru Tang, Murori Mutuma, Ben Rosand, Isabel Trindade, Renusree Bandaru, Jacob Cunningham, Caiming Xiong, Dragomir Radev",cs.CL,knowledge,"Existing table question answering datasets contain abundant factual questions
+that primarily evaluate the query and schema comprehension capability of a
+system, but they fail to include questions that require complex reasoning and
+integration of information due to the constraint of the associated short-form
+answers. To address these issues and to demonstrate the full challenge of table
+question answering, we introduce FeTaQA, a new dataset with 10K Wikipedia-based
+{table, question, free-form answer, supporting table cells} pairs. FeTaQA
+yields a more challenging table question answering setting because it requires
+generating free-form text answers after retrieval, inference, and integration
+of multiple discontinuous facts from a structured knowledge source. Unlike
+datasets of generative QA over text in which answers are prevalent with copies
+of short text spans from the source, answers in our dataset are human-generated
+explanations involving entities and their high-level relations. We provide two
+benchmark methods for the proposed task: a pipeline method based on
+semantic-parsing-based QA systems and an end-to-end method based on large
+pretrained text generation models, and show that FeTaQA poses a challenge for
+both methods.",2021-04-01
 AfriKI: Machine-in-the-Loop Afrikaans Poetry Generation,2021-03-30 09:17:56+00:00,http://arxiv.org/abs/2103.16190v1,"Imke van Heerden, Anil Bas","cs.CL, cs.LG",knowledge,"This paper proposes a generative language model called AfriKI. Our approach
 is based on an LSTM architecture trained on a small corpus of contemporary
 fiction. With the aim of promoting human creativity, we use the model as an
