@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-03-25*
+*written on 2021-04-16*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Estimating Subjective Crowd-Evaluations as an Additional Objective to  Improve Natural Language Generation](http://arxiv.org/abs/2104.05224v1) | Jakob Nyberg, Ramesh Manuvinakurike, Maike Paetzel-Prüsmann | cs.CL | 2021-04-12 |
 | [Overprotective Training Environments Fall Short at Testing Time: Let  Models Contribute to Their Own Training](http://arxiv.org/abs/2103.11145v1) | Alberto Testoni, Raffaella Bernardi | cs.CL | 2021-03-20 |
 | [Causal-aware Safe Policy Improvement for Task-oriented dialogue](http://arxiv.org/abs/2103.06370v1) | Govardana Sachithanandam Ramachandran, Kazuma Hashimoto, Caiming Xiong | cs.CL, cs.AI, cs.LG | 2021-03-10 |
 | [Empathetic BERT2BERT Conversational Model: Learning Arabic Language  Generation with Little Data](http://arxiv.org/abs/2103.04353v1) | Tarek Naous, Wissam Antoun, Reem A. Mahmoud, Hazem Hajj | cs.CL | 2021-03-07 |

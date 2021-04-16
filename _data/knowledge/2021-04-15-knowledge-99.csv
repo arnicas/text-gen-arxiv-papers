@@ -1,4 +1,68 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"ExplaGraphs: An Explanation Graph Generation Task for Structured
+  Commonsense Reasoning",2021-04-15 17:51:36+00:00,http://arxiv.org/abs/2104.07644v1,"Swarnadeep Saha, Prateek Yadav, Lisa Bauer, Mohit Bansal","cs.CL, cs.AI",knowledge,"Recent commonsense-reasoning tasks are typically discriminative in nature,
+where a model answers a multiple-choice question for a certain context.
+Discriminative tasks are limiting because they fail to adequately evaluate the
+model's ability to reason and explain predictions with underlying commonsense
+knowledge. They also allow such models to use reasoning shortcuts and not be
+""right for the right reasons"". In this work, we present ExplaGraphs, a new
+generative and structured commonsense-reasoning task (and an associated
+dataset) of explanation graph generation for stance prediction. Specifically,
+given a belief and an argument, a model has to predict whether the argument
+supports or counters the belief and also generate a commonsense-augmented graph
+that serves as non-trivial, complete, and unambiguous explanation for the
+predicted stance. The explanation graphs for our dataset are collected via
+crowdsourcing through a novel Collect-Judge-And-Refine graph collection
+framework that improves the graph quality via multiple rounds of verification
+and refinement. A significant 83% of our graphs contain external commonsense
+nodes with diverse structures and reasoning depths. We also propose a
+multi-level evaluation framework that checks for the structural and semantic
+correctness of the generated graphs and their plausibility with human-written
+graphs. We experiment with state-of-the-art text generation models like BART
+and T5 to generate explanation graphs and observe that there is a large gap
+with human performance, thereby encouraging useful future work for this new
+commonsense graph-based explanation generation task.",2021-04-15
+"Span Pointer Networks for Non-Autoregressive Task-Oriented Semantic
+  Parsing",2021-04-15 07:02:35+00:00,http://arxiv.org/abs/2104.07275v1,"Akshat Shrivastava, Pierce Chuang, Arun Babu, Shrey Desai, Abhinav Arora, Alexander Zotov, Ahmed Aly",cs.CL,knowledge,"An effective recipe for building seq2seq, non-autoregressive, task-oriented
+parsers to map utterances to semantic frames proceeds in three steps: encoding
+an utterance $x$, predicting a frame's length |y|, and decoding a |y|-sized
+frame with utterance and ontology tokens. Though empirically strong, these
+models are typically bottle necked by length prediction, as even small
+inaccuracies change the syntactic and semantic characteristics of resulting
+frames. In our work, we propose span pointer networks, non-autoregressive
+parsers which shift the decoding task from text generation to span prediction;
+that is, when imputing utterance spans into frame slots, our model produces
+endpoints (e.g., [i, j]) as opposed to text (e.g., ""6pm""). This natural
+quantization of the output space reduces the variability of gold frames,
+therefore improving length prediction and, ultimately, exact match.
+Furthermore, length prediction is now responsible for frame syntax and the
+decoder is responsible for frame semantics, resulting in a coarse-to-fine
+model. We evaluate our approach on several task-oriented semantic parsing
+datasets. Notably, we bridge the quality gap between non-autogressive and
+autoregressive parsers, achieving 87 EM on TOPv2 (Chen et al. 2020).
+Furthermore,due to our more consistent gold frames, we show strong improvements
+in model generalization in both cross-domain and cross-lingual transfer in
+low-resource settings. Finally, due to our diminished output vocabulary, we
+observe 70% reduction in latency and 83% reduction in memory at beam size 5
+compared to prior non-autoregressive parsers.",2021-04-15
+"StylePTB: A Compositional Benchmark for Fine-grained Controllable Text
+  Style Transfer",2021-04-12 04:25:09+00:00,http://arxiv.org/abs/2104.05196v1,"Yiwei Lyu, Paul Pu Liang, Hai Pham, Eduard Hovy, Barnabás Póczos, Ruslan Salakhutdinov, Louis-Philippe Morency","cs.CL, cs.AI, cs.LG",knowledge,"Text style transfer aims to controllably generate text with targeted
+stylistic changes while maintaining core meaning from the source sentence
+constant. Many of the existing style transfer benchmarks primarily focus on
+individual high-level semantic changes (e.g. positive to negative), which
+enable controllability at a high level but do not offer fine-grained control
+involving sentence structure, emphasis, and content of the sentence. In this
+paper, we introduce a large-scale benchmark, StylePTB, with (1) paired
+sentences undergoing 21 fine-grained stylistic changes spanning atomic lexical,
+syntactic, semantic, and thematic transfers of text, as well as (2)
+compositions of multiple transfers which allow modeling of fine-grained
+stylistic changes as building blocks for more complex, high-level transfers. By
+benchmarking existing methods on StylePTB, we find that they struggle to model
+fine-grained changes and have an even more difficult time composing multiple
+styles. As a result, StylePTB brings novel challenges that we hope will
+encourage future research in controllable text style transfer, compositional
+models, and learning disentangled representations. Solving these challenges
+would present important steps towards controllable text generation.",2021-04-12
 "What's the best place for an AI conference, Vancouver or ______: Why
   completing comparative questions is difficult",2021-04-05 14:56:09+00:00,http://arxiv.org/abs/2104.01940v1,"Avishai Zagoury, Einat Minkov, Idan Szpektor, William W. Cohen",cs.CL,knowledge,"Although large neural language models (LMs) like BERT can be finetuned to
 yield state-of-the-art results on many NLP tasks, it is often unclear what

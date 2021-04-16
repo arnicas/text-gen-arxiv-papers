@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2021-04-11*
+*written on 2021-04-16*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [ExplaGraphs: An Explanation Graph Generation Task for Structured  Commonsense Reasoning](http://arxiv.org/abs/2104.07644v1) | Swarnadeep Saha, Prateek Yadav, Lisa Bauer, Mohit Bansal | cs.CL, cs.AI | 2021-04-15 |
+| [Span Pointer Networks for Non-Autoregressive Task-Oriented Semantic  Parsing](http://arxiv.org/abs/2104.07275v1) | Akshat Shrivastava, Pierce Chuang, Arun Babu, Shrey Desai, Abhinav Arora, Alexander Zotov, Ahmed Aly | cs.CL | 2021-04-15 |
+| [StylePTB: A Compositional Benchmark for Fine-grained Controllable Text  Style Transfer](http://arxiv.org/abs/2104.05196v1) | Yiwei Lyu, Paul Pu Liang, Hai Pham, Eduard Hovy, Barnabás Póczos, Ruslan Salakhutdinov, Louis-Philippe Morency | cs.CL, cs.AI, cs.LG | 2021-04-12 |
 | [What's the best place for an AI conference, Vancouver or ______: Why  completing comparative questions is difficult](http://arxiv.org/abs/2104.01940v1) | Avishai Zagoury, Einat Minkov, Idan Szpektor, William W. Cohen | cs.CL | 2021-04-05 |
 | [WakaVT: A Sequential Variational Transformer for Waka Generation](http://arxiv.org/abs/2104.00426v1) | Yuka Takeishi, Mingxuan Niu, Jing Luo, Zhong Jin, Xinyu Yang | cs.CL, cs.AI | 2021-04-01 |
 | [FeTaQA: Free-form Table Question Answering](http://arxiv.org/abs/2104.00369v1) | Linyong Nan, Chiachun Hsieh, Ziming Mao, Xi Victoria Lin, Neha Verma, Rui Zhang, Wojciech Kryściński, Nick Schoelkopf, Riley Kong, Xiangru Tang, Murori Mutuma, Ben Rosand, Isabel Trindade, Renusree Bandaru, Jacob Cunningham, Caiming Xiong, Dragomir Radev | cs.CL | 2021-04-01 |

@@ -1,4 +1,80 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"ExplaGraphs: An Explanation Graph Generation Task for Structured
+  Commonsense Reasoning",2021-04-15 17:51:36+00:00,http://arxiv.org/abs/2104.07644v1,"Swarnadeep Saha, Prateek Yadav, Lisa Bauer, Mohit Bansal","cs.CL, cs.AI",table2text,"Recent commonsense-reasoning tasks are typically discriminative in nature,
+where a model answers a multiple-choice question for a certain context.
+Discriminative tasks are limiting because they fail to adequately evaluate the
+model's ability to reason and explain predictions with underlying commonsense
+knowledge. They also allow such models to use reasoning shortcuts and not be
+""right for the right reasons"". In this work, we present ExplaGraphs, a new
+generative and structured commonsense-reasoning task (and an associated
+dataset) of explanation graph generation for stance prediction. Specifically,
+given a belief and an argument, a model has to predict whether the argument
+supports or counters the belief and also generate a commonsense-augmented graph
+that serves as non-trivial, complete, and unambiguous explanation for the
+predicted stance. The explanation graphs for our dataset are collected via
+crowdsourcing through a novel Collect-Judge-And-Refine graph collection
+framework that improves the graph quality via multiple rounds of verification
+and refinement. A significant 83% of our graphs contain external commonsense
+nodes with diverse structures and reasoning depths. We also propose a
+multi-level evaluation framework that checks for the structural and semantic
+correctness of the generated graphs and their plausibility with human-written
+graphs. We experiment with state-of-the-art text generation models like BART
+and T5 to generate explanation graphs and observe that there is a large gap
+with human performance, thereby encouraging useful future work for this new
+commonsense graph-based explanation generation task.",2021-04-15
+"Data-QuestEval: A Referenceless Metric for Data to Text Semantic
+  Evaluation",2021-04-15 16:10:46+00:00,http://arxiv.org/abs/2104.07555v1,"Clément Rebuffel, Thomas Scialom, Laure Soulier, Benjamin Piwowarski, Sylvain Lamprier, Jacopo Staiano, Geoffrey Scoutheeten, Patrick Gallinari",cs.CL,table2text,"In this paper, we explore how QuestEval, which is a Text-vs-Text metric, can
+be adapted for the evaluation of Data-to-Text Generation systems. QuestEval is
+a reference-less metric that compares the predictions directly to the
+structured input data by automatically asking and answering questions. Its
+adaptation to Data-to-Text is not straightforward as it requires multi-modal
+Question Generation and Answering (QG \& QA) systems. To this purpose, we
+propose to build synthetic multi-modal corpora that enables to train
+multi-modal QG/QA. The resulting metric is reference-less, multi-modal; it
+obtains state-of-the-art correlations with human judgement on the E2E and
+WebNLG benchmark.",2021-04-15
+"Plot-guided Adversarial Example Construction for Evaluating Open-domain
+  Story Generation",2021-04-12 20:19:24+00:00,http://arxiv.org/abs/2104.05801v1,"Sarik Ghazarian, Zixi Liu, Akash SM, Ralph Weischedel, Aram Galstyan, Nanyun Peng","cs.CL, cs.LG",table2text,"With the recent advances of open-domain story generation, the lack of
+reliable automatic evaluation metrics becomes an increasingly imperative issue
+that hinders the fast development of story generation. According to conducted
+researches in this regard, learnable evaluation metrics have promised more
+accurate assessments by having higher correlations with human judgments. A
+critical bottleneck of obtaining a reliable learnable evaluation metric is the
+lack of high-quality training data for classifiers to efficiently distinguish
+plausible and implausible machine-generated stories. Previous works relied on
+\textit{heuristically manipulated} plausible examples to mimic possible system
+drawbacks such as repetition, contradiction, or irrelevant content in the text
+level, which can be \textit{unnatural} and \textit{oversimplify} the
+characteristics of implausible machine-generated stories. We propose to tackle
+these issues by generating a more comprehensive set of implausible stories
+using {\em plots}, which are structured representations of controllable factors
+used to generate stories. Since these plots are compact and structured, it is
+easier to manipulate them to generate text with targeted undesirable
+properties, while at the same time maintain the grammatical correctness and
+naturalness of the generated sentences. To improve the quality of generated
+implausible stories, we further apply the adversarial filtering procedure
+presented by \citet{zellers2018swag} to select a more nuanced set of
+implausible texts. Experiments show that the evaluation metrics trained on our
+generated data result in more reliable automatic assessments that correlate
+remarkably better with human judgments compared to the baselines.",2021-04-12
+"StylePTB: A Compositional Benchmark for Fine-grained Controllable Text
+  Style Transfer",2021-04-12 04:25:09+00:00,http://arxiv.org/abs/2104.05196v1,"Yiwei Lyu, Paul Pu Liang, Hai Pham, Eduard Hovy, Barnabás Póczos, Ruslan Salakhutdinov, Louis-Philippe Morency","cs.CL, cs.AI, cs.LG",table2text,"Text style transfer aims to controllably generate text with targeted
+stylistic changes while maintaining core meaning from the source sentence
+constant. Many of the existing style transfer benchmarks primarily focus on
+individual high-level semantic changes (e.g. positive to negative), which
+enable controllability at a high level but do not offer fine-grained control
+involving sentence structure, emphasis, and content of the sentence. In this
+paper, we introduce a large-scale benchmark, StylePTB, with (1) paired
+sentences undergoing 21 fine-grained stylistic changes spanning atomic lexical,
+syntactic, semantic, and thematic transfers of text, as well as (2)
+compositions of multiple transfers which allow modeling of fine-grained
+stylistic changes as building blocks for more complex, high-level transfers. By
+benchmarking existing methods on StylePTB, we find that they struggle to model
+fine-grained changes and have an even more difficult time composing multiple
+styles. As a result, StylePTB brings novel challenges that we hope will
+encourage future research in controllable text style transfer, compositional
+models, and learning disentangled representations. Solving these challenges
+would present important steps towards controllable text generation.",2021-04-12
 WakaVT: A Sequential Variational Transformer for Waka Generation,2021-04-01 12:14:41+00:00,http://arxiv.org/abs/2104.00426v1,"Yuka Takeishi, Mingxuan Niu, Jing Luo, Zhong Jin, Xinyu Yang","cs.CL, cs.AI",table2text,"Poetry generation has long been a challenge for artificial intelligence. In
 the scope of Japanese poetry generation, many researchers have paid attention
 to Haiku generation, but few have focused on Waka generation. To further
