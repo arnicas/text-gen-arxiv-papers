@@ -1,4 +1,25 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Imaginative Walks: Generative Random Walk Deviation Loss for Improved
+  Unseen Learning Representation",2021-04-20 04:34:28+00:00,http://arxiv.org/abs/2104.09757v1,"Mohamed Elhoseiny, Divyansh Jha, Kai Yi, Ivan Skorokhodov","cs.CV, cs.AI",knowledge,"We propose a novel loss for generative models, dubbed as GRaWD (Generative
+Random Walk Deviation), to improve learning representations of unexplored
+visual spaces. Quality learning representation of unseen classes (or styles) is
+crucial to facilitate novel image generation and better generative
+understanding of unseen visual classes (a.k.a. Zero-Shot Learning, ZSL). By
+generating representations of unseen classes from their semantic descriptions,
+such as attributes or text, Generative ZSL aims at identifying unseen
+categories discriminatively from seen ones. We define GRaWD by constructing a
+dynamic graph, including the seen class/style centers and generated samples in
+the current mini-batch. Our loss starts a random walk probability from each
+center through visual generations produced from hallucinated unseen classes. As
+a deviation signal, we encourage the random walk to eventually land after t
+steps in a feature representation that is hard to classify to any of the seen
+classes. We show that our loss can improve unseen class representation quality
+on four text-based ZSL benchmarks on CUB and NABirds datasets and three
+attribute-based ZSL benchmarks on AWA2, SUN, and aPY datasets. We also study
+our loss's ability to produce meaningful novel visual art generations on
+WikiArt dataset. Our experiments and human studies show that our loss can
+improve StyleGAN1 and StyleGAN2 generation quality, creating novel art that is
+significantly more preferred. Code will be made available.",2021-04-20
 "ExplaGraphs: An Explanation Graph Generation Task for Structured
   Commonsense Reasoning",2021-04-15 17:51:36+00:00,http://arxiv.org/abs/2104.07644v1,"Swarnadeep Saha, Prateek Yadav, Lisa Bauer, Mohit Bansal","cs.CL, cs.AI",knowledge,"Recent commonsense-reasoning tasks are typically discriminative in nature,
 where a model answers a multiple-choice question for a certain context.

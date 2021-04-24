@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-04-16*
+*written on 2021-04-24*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Imaginative Walks: Generative Random Walk Deviation Loss for Improved  Unseen Learning Representation](http://arxiv.org/abs/2104.09757v1) | Mohamed Elhoseiny, Divyansh Jha, Kai Yi, Ivan Skorokhodov | cs.CV, cs.AI | 2021-04-20 |
 | [ExplaGraphs: An Explanation Graph Generation Task for Structured  Commonsense Reasoning](http://arxiv.org/abs/2104.07644v1) | Swarnadeep Saha, Prateek Yadav, Lisa Bauer, Mohit Bansal | cs.CL, cs.AI | 2021-04-15 |
 | [Span Pointer Networks for Non-Autoregressive Task-Oriented Semantic  Parsing](http://arxiv.org/abs/2104.07275v1) | Akshat Shrivastava, Pierce Chuang, Arun Babu, Shrey Desai, Abhinav Arora, Alexander Zotov, Ahmed Aly | cs.CL | 2021-04-15 |
 | [StylePTB: A Compositional Benchmark for Fine-grained Controllable Text  Style Transfer](http://arxiv.org/abs/2104.05196v1) | Yiwei Lyu, Paul Pu Liang, Hai Pham, Eduard Hovy, Barnabás Póczos, Ruslan Salakhutdinov, Louis-Philippe Morency | cs.CL, cs.AI, cs.LG | 2021-04-12 |

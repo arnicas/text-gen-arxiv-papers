@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2021-04-16*
+*written on 2021-04-24*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [A Token-level Reference-free Hallucination Detection Benchmark for  Free-form Text Generation](http://arxiv.org/abs/2104.08704v1) | Tianyu Liu, Yizhe Zhang, Chris Brockett, Yi Mao, Zhifang Sui, Weizhu Chen, Bill Dolan | cs.CL, cs.AI | 2021-04-18 |
+| [Learning to Reason for Text Generation from Scientific Tables](http://arxiv.org/abs/2104.08296v1) | Nafise Sadat Moosavi, Andreas Rücklé, Dan Roth, Iryna Gurevych | cs.CL | 2021-04-16 |
+| [ProphetNet-X: Large-Scale Pre-training Models for English, Chinese,  Multi-lingual, Dialog, and Code Generation](http://arxiv.org/abs/2104.08006v1) | Weizhen Qi, Yeyun Gong, Yu Yan, Can Xu, Bolun Yao, Bartuer Zhou, Biao Cheng, Daxin Jiang, Jiusheng Chen, Ruofei Zhang, Houqiang Li, Nan Duan | cs.CL | 2021-04-16 |
 | [ExplaGraphs: An Explanation Graph Generation Task for Structured  Commonsense Reasoning](http://arxiv.org/abs/2104.07644v1) | Swarnadeep Saha, Prateek Yadav, Lisa Bauer, Mohit Bansal | cs.CL, cs.AI | 2021-04-15 |
 | [Data-QuestEval: A Referenceless Metric for Data to Text Semantic  Evaluation](http://arxiv.org/abs/2104.07555v1) | Clément Rebuffel, Thomas Scialom, Laure Soulier, Benjamin Piwowarski, Sylvain Lamprier, Jacopo Staiano, Geoffrey Scoutheeten, Patrick Gallinari | cs.CL | 2021-04-15 |
 | [Plot-guided Adversarial Example Construction for Evaluating Open-domain  Story Generation](http://arxiv.org/abs/2104.05801v1) | Sarik Ghazarian, Zixi Liu, Akash SM, Ralph Weischedel, Aram Galstyan, Nanyun Peng | cs.CL, cs.LG | 2021-04-12 |

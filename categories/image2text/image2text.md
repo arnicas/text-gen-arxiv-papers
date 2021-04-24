@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2021-04-16*
+*written on 2021-04-24*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Imaginative Walks: Generative Random Walk Deviation Loss for Improved  Unseen Learning Representation](http://arxiv.org/abs/2104.09757v1) | Mohamed Elhoseiny, Divyansh Jha, Kai Yi, Ivan Skorokhodov | cs.CV, cs.AI | 2021-04-20 |
+| [Learning to Reason for Text Generation from Scientific Tables](http://arxiv.org/abs/2104.08296v1) | Nafise Sadat Moosavi, Andreas Rücklé, Dan Roth, Iryna Gurevych | cs.CL | 2021-04-16 |
 | [IGA : An Intent-Guided Authoring Assistant](http://arxiv.org/abs/2104.07000v1) | Simeng Sun, Wenlong Zhao, Varun Manjunatha, Rajiv Jain, Vlad Morariu, Franck Dernoncourt, Balaji Vasan Srinivasan, Mohit Iyyer | cs.CL | 2021-04-14 |
 | [Automatic Generation of Descriptive Titles for Video Clips Using Deep  Learning](http://arxiv.org/abs/2104.03337v1) | Soheyla Amirian, Khaled Rasheed, Thiab R. Taha, Hamid R. Arabnia | cs.CV, cs.AI, cs.LG | 2021-04-07 |
 | [On Hallucination and Predictive Uncertainty in Conditional Language  Generation](http://arxiv.org/abs/2103.15025v1) | Yijun Xiao, William Yang Wang | cs.CL | 2021-03-28 |

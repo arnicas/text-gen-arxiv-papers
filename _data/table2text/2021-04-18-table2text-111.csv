@@ -1,4 +1,57 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"A Token-level Reference-free Hallucination Detection Benchmark for
+  Free-form Text Generation",2021-04-18 04:09:48+00:00,http://arxiv.org/abs/2104.08704v1,"Tianyu Liu, Yizhe Zhang, Chris Brockett, Yi Mao, Zhifang Sui, Weizhu Chen, Bill Dolan","cs.CL, cs.AI",table2text,"Large pretrained generative models like GPT-3 often suffer from hallucinating
+non-existent or incorrect content, which undermines their potential merits in
+real applications. Existing work usually attempts to detect these
+hallucinations based on a corresponding oracle reference at a sentence or
+document level. However ground-truth references may not be readily available
+for many free-form text generation applications, and sentence- or
+document-level detection may fail to provide the fine-grained signals that
+would prevent fallacious content in real time. As a first step to addressing
+these issues, we propose a novel token-level, reference-free hallucination
+detection task and an associated annotated dataset named HaDes (HAllucination
+DEtection dataSet). To create this dataset, we first perturb a large number of
+text segments extracted from English language Wikipedia, and then verify these
+with crowd-sourced annotations. To mitigate label imbalance during annotation,
+we utilize an iterative model-in-loop strategy. We conduct comprehensive data
+analyses and create multiple baseline models.",2021-04-18
+Learning to Reason for Text Generation from Scientific Tables,2021-04-16 18:01:36+00:00,http://arxiv.org/abs/2104.08296v1,"Nafise Sadat Moosavi, Andreas Rücklé, Dan Roth, Iryna Gurevych",cs.CL,table2text,"In this paper, we introduce SciGen, a new challenge dataset for the task of
+reasoning-aware data-to-text generation consisting of tables from scientific
+articles and their corresponding descriptions. Describing scientific tables
+goes beyond the surface realization of the table content and requires reasoning
+over table values. The unique properties of SciGen are that (1) tables mostly
+contain numerical values, and (2) the corresponding descriptions require
+arithmetic reasoning. SciGen is therefore the first dataset that assesses the
+arithmetic reasoning capabilities of generation models on complex input
+structures, i.e., tables from scientific articles. We study the effectiveness
+of state-of-the-art data-to-text generation models on SciGen and evaluate the
+results using common metrics as well as human evaluation. Our results and
+analyses show that (a) while humans like to reason for describing scientific
+tables, the ability of state-of-the-art models is severely limited on this
+task, (b) while adding more training data improves the results, it is not the
+solution for reasoning-aware text generation, and (c) one of the main
+bottlenecks for this task is the lack of proper automatic evaluation metrics.
+The data, code, and annotations for human evaluation will be available at
+https://github.com/UKPLab/SciGen. SciGen opens new avenues for future research
+in reasoning-aware text generation and evaluation.",2021-04-16
+"ProphetNet-X: Large-Scale Pre-training Models for English, Chinese,
+  Multi-lingual, Dialog, and Code Generation",2021-04-16 10:00:43+00:00,http://arxiv.org/abs/2104.08006v1,"Weizhen Qi, Yeyun Gong, Yu Yan, Can Xu, Bolun Yao, Bartuer Zhou, Biao Cheng, Daxin Jiang, Jiusheng Chen, Ruofei Zhang, Houqiang Li, Nan Duan",cs.CL,table2text,"Now, the pre-training technique is ubiquitous in natural language processing
+field. ProphetNet is a pre-training based natural language generation method
+which shows powerful performance on English text summarization and question
+generation tasks. In this paper, we extend ProphetNet into other domains and
+languages, and present the ProphetNet family pre-training models, named
+ProphetNet-X, where X can be English, Chinese, Multi-lingual, and so on. We
+pre-train a cross-lingual generation model ProphetNet-Multi, a Chinese
+generation model ProphetNet-Zh, two open-domain dialog generation models
+ProphetNet-Dialog-En and ProphetNet-Dialog-Zh. And also, we provide a PLG
+(Programming Language Generation) model ProphetNet-Code to show the generation
+performance besides NLG (Natural Language Generation) tasks. In our
+experiments, ProphetNet-X models achieve new state-of-the-art performance on 10
+benchmarks. All the models of ProphetNet-X share the same model structure,
+which allows users to easily switch between different models. We make the code
+and models publicly available, and we will keep updating more pre-training
+models and finetuning scripts. A video to introduce ProphetNet-X usage is also
+released.",2021-04-16
 "ExplaGraphs: An Explanation Graph Generation Task for Structured
   Commonsense Reasoning",2021-04-15 17:51:36+00:00,http://arxiv.org/abs/2104.07644v1,"Swarnadeep Saha, Prateek Yadav, Lisa Bauer, Mohit Bansal","cs.CL, cs.AI",table2text,"Recent commonsense-reasoning tasks are typically discriminative in nature,
 where a model answers a multiple-choice question for a certain context.

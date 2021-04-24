@@ -1,4 +1,44 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Imaginative Walks: Generative Random Walk Deviation Loss for Improved
+  Unseen Learning Representation",2021-04-20 04:34:28+00:00,http://arxiv.org/abs/2104.09757v1,"Mohamed Elhoseiny, Divyansh Jha, Kai Yi, Ivan Skorokhodov","cs.CV, cs.AI",image2text,"We propose a novel loss for generative models, dubbed as GRaWD (Generative
+Random Walk Deviation), to improve learning representations of unexplored
+visual spaces. Quality learning representation of unseen classes (or styles) is
+crucial to facilitate novel image generation and better generative
+understanding of unseen visual classes (a.k.a. Zero-Shot Learning, ZSL). By
+generating representations of unseen classes from their semantic descriptions,
+such as attributes or text, Generative ZSL aims at identifying unseen
+categories discriminatively from seen ones. We define GRaWD by constructing a
+dynamic graph, including the seen class/style centers and generated samples in
+the current mini-batch. Our loss starts a random walk probability from each
+center through visual generations produced from hallucinated unseen classes. As
+a deviation signal, we encourage the random walk to eventually land after t
+steps in a feature representation that is hard to classify to any of the seen
+classes. We show that our loss can improve unseen class representation quality
+on four text-based ZSL benchmarks on CUB and NABirds datasets and three
+attribute-based ZSL benchmarks on AWA2, SUN, and aPY datasets. We also study
+our loss's ability to produce meaningful novel visual art generations on
+WikiArt dataset. Our experiments and human studies show that our loss can
+improve StyleGAN1 and StyleGAN2 generation quality, creating novel art that is
+significantly more preferred. Code will be made available.",2021-04-20
+Learning to Reason for Text Generation from Scientific Tables,2021-04-16 18:01:36+00:00,http://arxiv.org/abs/2104.08296v1,"Nafise Sadat Moosavi, Andreas Rücklé, Dan Roth, Iryna Gurevych",cs.CL,image2text,"In this paper, we introduce SciGen, a new challenge dataset for the task of
+reasoning-aware data-to-text generation consisting of tables from scientific
+articles and their corresponding descriptions. Describing scientific tables
+goes beyond the surface realization of the table content and requires reasoning
+over table values. The unique properties of SciGen are that (1) tables mostly
+contain numerical values, and (2) the corresponding descriptions require
+arithmetic reasoning. SciGen is therefore the first dataset that assesses the
+arithmetic reasoning capabilities of generation models on complex input
+structures, i.e., tables from scientific articles. We study the effectiveness
+of state-of-the-art data-to-text generation models on SciGen and evaluate the
+results using common metrics as well as human evaluation. Our results and
+analyses show that (a) while humans like to reason for describing scientific
+tables, the ability of state-of-the-art models is severely limited on this
+task, (b) while adding more training data improves the results, it is not the
+solution for reasoning-aware text generation, and (c) one of the main
+bottlenecks for this task is the lack of proper automatic evaluation metrics.
+The data, code, and annotations for human evaluation will be available at
+https://github.com/UKPLab/SciGen. SciGen opens new avenues for future research
+in reasoning-aware text generation and evaluation.",2021-04-16
 IGA : An Intent-Guided Authoring Assistant,2021-04-14 17:32:21+00:00,http://arxiv.org/abs/2104.07000v1,"Simeng Sun, Wenlong Zhao, Varun Manjunatha, Rajiv Jain, Vlad Morariu, Franck Dernoncourt, Balaji Vasan Srinivasan, Mohit Iyyer",cs.CL,image2text,"While large-scale pretrained language models have significantly improved
 writing assistance functionalities such as autocomplete, more complex and
 controllable writing assistants have yet to be explored. We leverage advances
