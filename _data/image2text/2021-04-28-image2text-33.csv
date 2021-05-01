@@ -1,4 +1,40 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Removing Word-Level Spurious Alignment between Images and
+  Pseudo-Captions in Unsupervised Image Captioning",2021-04-28 16:36:52+00:00,http://arxiv.org/abs/2104.13872v1,"Ukyo Honda, Yoshitaka Ushiku, Atsushi Hashimoto, Taro Watanabe, Yuji Matsumoto","cs.CL, cs.CV",image2text,"Unsupervised image captioning is a challenging task that aims at generating
+captions without the supervision of image-sentence pairs, but only with images
+and sentences drawn from different sources and object labels detected from the
+images. In previous work, pseudo-captions, i.e., sentences that contain the
+detected object labels, were assigned to a given image. The focus of the
+previous work was on the alignment of input images and pseudo-captions at the
+sentence level. However, pseudo-captions contain many words that are irrelevant
+to a given image. In this work, we investigate the effect of removing
+mismatched words from image-sentence alignment to determine how they make this
+task difficult. We propose a simple gating mechanism that is trained to align
+image features with only the most reliable words in pseudo-captions: the
+detected object labels. The experimental results show that our proposed method
+outperforms the previous methods without introducing complex sentence-level
+learning objectives. Combined with the sentence-level alignment method of
+previous work, our method further improves its performance. These results
+confirm the importance of careful alignment in word-level details.",2021-04-28
+MusCaps: Generating Captions for Music Audio,2021-04-24 16:34:47+00:00,http://arxiv.org/abs/2104.11984v1,"Ilaria Manco, Emmanouil Benetos, Elio Quinton, Gyorgy Fazekas","cs.SD, cs.CL, cs.LG, eess.AS",image2text,"Content-based music information retrieval has seen rapid progress with the
+adoption of deep learning. Current approaches to high-level music description
+typically make use of classification models, such as in auto-tagging or genre
+and mood classification. In this work, we propose to address music description
+via audio captioning, defined as the task of generating a natural language
+description of music audio content in a human-like manner. To this end, we
+present the first music audio captioning model, MusCaps, consisting of an
+encoder-decoder with temporal attention. Our method combines convolutional and
+recurrent neural network architectures to jointly process audio-text inputs
+through a multimodal encoder and leverages pre-training on audio data to obtain
+representations that effectively capture and summarise musical features in the
+input. Evaluation of the generated captions through automatic metrics shows
+that our method outperforms a baseline designed for non-music audio captioning.
+Through an ablation study, we unveil that this performance boost can be mainly
+attributed to pre-training of the audio encoder, while other design choices -
+modality fusion, decoding strategy and the use of attention - contribute only
+marginally. Our model represents a shift away from classification-based music
+description and combines tasks requiring both auditory and linguistic
+understanding to bridge the semantic gap in music information retrieval.",2021-04-24
 "Imaginative Walks: Generative Random Walk Deviation Loss for Improved
   Unseen Learning Representation",2021-04-20 04:34:28+00:00,http://arxiv.org/abs/2104.09757v1,"Mohamed Elhoseiny, Divyansh Jha, Kai Yi, Ivan Skorokhodov","cs.CV, cs.AI",image2text,"We propose a novel loss for generative models, dubbed as GRaWD (Generative
 Random Walk Deviation), to improve learning representations of unexplored

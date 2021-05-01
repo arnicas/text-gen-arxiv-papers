@@ -1,4 +1,16 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Focused Attention Improves Document-Grounded Generation,2021-04-26 16:56:29+00:00,http://arxiv.org/abs/2104.12714v1,"Shrimai Prabhumoye, Kazuma Hashimoto, Yingbo Zhou, Alan W Black, Ruslan Salakhutdinov",cs.CL,dialogue,"Document grounded generation is the task of using the information provided in
+a document to improve text generation. This work focuses on two different
+document grounded generation tasks: Wikipedia Update Generation task and
+Dialogue response generation. Our work introduces two novel adaptations of
+large scale pre-trained encoder-decoder models focusing on building context
+driven representation of the document and enabling specific attention to the
+information in the document. Additionally, we provide a stronger BART baseline
+for these tasks. Our proposed techniques outperform existing methods on both
+automated (at least 48% increase in BLEU-4 points) and human evaluation for
+closeness to reference and relevance to the document. Furthermore, we perform
+comprehensive manual inspection of the generated output and categorize errors
+to provide insights into future directions in modeling these tasks.",2021-04-26
 "Estimating Subjective Crowd-Evaluations as an Additional Objective to
   Improve Natural Language Generation",2021-04-12 06:33:16+00:00,http://arxiv.org/abs/2104.05224v1,"Jakob Nyberg, Ramesh Manuvinakurike, Maike Paetzel-Prüsmann",cs.CL,dialogue,"Human ratings are one of the most prevalent methods to evaluate the
 performance of natural language processing algorithms. Similarly, it is common

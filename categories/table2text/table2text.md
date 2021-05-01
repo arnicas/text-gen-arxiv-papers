@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-04-24*
+*written on 2021-05-01*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Text Generation with Deep Variational GAN](http://arxiv.org/abs/2104.13488v1) | Mahmoud Hossam, Trung Le, Michael Papasimeon, Viet Huynh, Dinh Phung | cs.LG, cs.AI, cs.CL, I.2.0; I.2.7; I.5.0 | 2021-04-27 |
 | [A Token-level Reference-free Hallucination Detection Benchmark for  Free-form Text Generation](http://arxiv.org/abs/2104.08704v1) | Tianyu Liu, Yizhe Zhang, Chris Brockett, Yi Mao, Zhifang Sui, Weizhu Chen, Bill Dolan | cs.CL, cs.AI | 2021-04-18 |
 | [Learning to Reason for Text Generation from Scientific Tables](http://arxiv.org/abs/2104.08296v1) | Nafise Sadat Moosavi, Andreas Rücklé, Dan Roth, Iryna Gurevych | cs.CL | 2021-04-16 |
 | [ProphetNet-X: Large-Scale Pre-training Models for English, Chinese,  Multi-lingual, Dialog, and Code Generation](http://arxiv.org/abs/2104.08006v1) | Weizhen Qi, Yeyun Gong, Yu Yan, Can Xu, Bolun Yao, Bartuer Zhou, Biao Cheng, Daxin Jiang, Jiusheng Chen, Ruofei Zhang, Houqiang Li, Nan Duan | cs.CL | 2021-04-16 |

@@ -1,4 +1,14 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Text Generation with Deep Variational GAN,2021-04-27 21:42:13+00:00,http://arxiv.org/abs/2104.13488v1,"Mahmoud Hossam, Trung Le, Michael Papasimeon, Viet Huynh, Dinh Phung","cs.LG, cs.AI, cs.CL, I.2.0; I.2.7; I.5.0",table2text,"Generating realistic sequences is a central task in many machine learning
+applications. There has been considerable recent progress on building deep
+generative models for sequence generation tasks. However, the issue of
+mode-collapsing remains a main issue for the current models. In this paper we
+propose a GAN-based generic framework to address the problem of mode-collapse
+in a principled approach. We change the standard GAN objective to maximize a
+variational lower-bound of the log-likelihood while minimizing the
+Jensen-Shanon divergence between data and model distributions. We experiment
+our model with text generation task and show that it can generate realistic
+text with high diversity.",2021-04-27
 "A Token-level Reference-free Hallucination Detection Benchmark for
   Free-form Text Generation",2021-04-18 04:09:48+00:00,http://arxiv.org/abs/2104.08704v1,"Tianyu Liu, Yizhe Zhang, Chris Brockett, Yi Mao, Zhifang Sui, Weizhu Chen, Bill Dolan","cs.CL, cs.AI",table2text,"Large pretrained generative models like GPT-3 often suffer from hallucinating
 non-existent or incorrect content, which undermines their potential merits in

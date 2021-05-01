@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2021-04-24*
+*written on 2021-05-01*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Removing Word-Level Spurious Alignment between Images and  Pseudo-Captions in Unsupervised Image Captioning](http://arxiv.org/abs/2104.13872v1) | Ukyo Honda, Yoshitaka Ushiku, Atsushi Hashimoto, Taro Watanabe, Yuji Matsumoto | cs.CL, cs.CV | 2021-04-28 |
+| [MusCaps: Generating Captions for Music Audio](http://arxiv.org/abs/2104.11984v1) | Ilaria Manco, Emmanouil Benetos, Elio Quinton, Gyorgy Fazekas | cs.SD, cs.CL, cs.LG, eess.AS | 2021-04-24 |
 | [Imaginative Walks: Generative Random Walk Deviation Loss for Improved  Unseen Learning Representation](http://arxiv.org/abs/2104.09757v1) | Mohamed Elhoseiny, Divyansh Jha, Kai Yi, Ivan Skorokhodov | cs.CV, cs.AI | 2021-04-20 |
 | [Learning to Reason for Text Generation from Scientific Tables](http://arxiv.org/abs/2104.08296v1) | Nafise Sadat Moosavi, Andreas Rücklé, Dan Roth, Iryna Gurevych | cs.CL | 2021-04-16 |
 | [IGA : An Intent-Guided Authoring Assistant](http://arxiv.org/abs/2104.07000v1) | Simeng Sun, Wenlong Zhao, Varun Manjunatha, Rajiv Jain, Vlad Morariu, Franck Dernoncourt, Balaji Vasan Srinivasan, Mohit Iyyer | cs.CL | 2021-04-14 |
