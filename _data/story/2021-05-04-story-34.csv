@@ -1,4 +1,19 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Inferring the Reader: Guiding Automated Story Generation with
+  Commonsense Reasoning",2021-05-04 06:40:33+00:00,http://arxiv.org/abs/2105.01311v1,"Xiangyu Peng, Siyan Li, Sarah Wiegreffe, Mark Riedl",cs.CL,story,"Transformer-based language model approaches to automated story generation
+currently provide state-of-the-art results. However, they still suffer from
+plot incoherence when generating narratives over time, and critically lack
+basic commonsense reasoning. Furthermore, existing methods generally focus only
+on single-character stories, or fail to track characters at all. To improve the
+coherence of generated narratives and to expand the scope of character-centric
+narrative generation, we introduce Commonsense-inference Augmented neural
+StoryTelling (CAST), a framework for introducing commonsense reasoning into the
+generation process while modeling the interaction between multiple characters.
+We find that our CAST method produces significantly more coherent and on-topic
+two-character stories, outperforming baselines in dimensions including plot
+plausibility and staying on topic. We also show how the CAST method can be used
+to further train language models that generate more coherent stories and reduce
+computation cost.",2021-05-04
 "Plot-guided Adversarial Example Construction for Evaluating Open-domain
   Story Generation",2021-04-12 20:19:24+00:00,http://arxiv.org/abs/2104.05801v1,"Sarik Ghazarian, Zixi Liu, Akash SM, Ralph Weischedel, Aram Galstyan, Nanyun Peng","cs.CL, cs.LG",story,"With the recent advances of open-domain story generation, the lack of
 reliable automatic evaluation metrics becomes an increasingly imperative issue
