@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2021-05-07*
+*written on 2021-05-17*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [R2D2: Relational Text Decoding with Transformers](http://arxiv.org/abs/2105.04645v1) | Aryan Arbabi, Mingqiu Wang, Laurent El Shafey, Nan Du, Izhak Shafran | cs.CL | 2021-05-10 |
+| [Knowledge-based Review Generation by Coherence Enhanced Text Planning](http://arxiv.org/abs/2105.03815v1) | Junyi Li, Wayne Xin Zhao, Zhicheng Wei, Nicholas Jing Yuan, Ji-Rong Wen | cs.CL | 2021-05-09 |
+| [Neural Text Generation with Part-of-Speech Guided Softmax](http://arxiv.org/abs/2105.03641v1) | Zhixian Yang, Xiaojun Wan | cs.CL, cs.AI | 2021-05-08 |
 | [Hidden Backdoors in Human-Centric Language Models](http://arxiv.org/abs/2105.00164v1) | Shaofeng Li, Hui Liu, Tian Dong, Benjamin Zi Hao Zhao, Minhui Xue, Haojin Zhu, Jialiang Lu | cs.CL, cs.CR | 2021-05-01 |
 | [Mitigating Political Bias in Language Models Through Reinforced  Calibration](http://arxiv.org/abs/2104.14795v1) | Ruibo Liu, Chenyan Jia, Jason Wei, Guangxuan Xu, Lili Wang, Soroush Vosoughi | cs.CL, cs.AI | 2021-04-30 |
 | [Text Generation with Deep Variational GAN](http://arxiv.org/abs/2104.13488v1) | Mahmoud Hossam, Trung Le, Michael Papasimeon, Viet Huynh, Dinh Phung | cs.LG, cs.AI, cs.CL, I.2.0; I.2.7; I.5.0 | 2021-04-27 |

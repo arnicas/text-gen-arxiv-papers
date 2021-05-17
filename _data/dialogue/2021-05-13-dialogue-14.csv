@@ -1,4 +1,16 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Retrieval-Free Knowledge-Grounded Dialogue Response Generation with
+  Adapters",2021-05-13 12:33:23+00:00,http://arxiv.org/abs/2105.06232v1,"Yan Xu, Etsuko Ishii, Zihan Liu, Genta Indra Winata, Dan Su, Andrea Madotto, Pascale Fung","cs.CL, cs.AI",dialogue,"To diversify and enrich generated dialogue responses, knowledge-grounded
+dialogue has been investigated in recent years. Despite the success of the
+existing methods, they mainly follow the paradigm of retrieving the relevant
+sentences over a large corpus and augment the dialogues with explicit extra
+information, which is time- and resource-consuming. In this paper, we propose
+KnowExpert, an end-to-end framework to bypass the retrieval process by
+injecting prior knowledge into the pre-trained language models with lightweight
+adapters. To the best of our knowledge, this is the first attempt to tackle
+this task relying solely on a generation-based approach. Experimental results
+show that KnowExpert performs comparably with the retrieval-based baselines,
+demonstrating the potential of our proposed direction.",2021-05-13
 Focused Attention Improves Document-Grounded Generation,2021-04-26 16:56:29+00:00,http://arxiv.org/abs/2104.12714v1,"Shrimai Prabhumoye, Kazuma Hashimoto, Yingbo Zhou, Alan W Black, Ruslan Salakhutdinov",cs.CL,dialogue,"Document grounded generation is the task of using the information provided in
 a document to improve text generation. This work focuses on two different
 document grounded generation tasks: Wikipedia Update Generation task and

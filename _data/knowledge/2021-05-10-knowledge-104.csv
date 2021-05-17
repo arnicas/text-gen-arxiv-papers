@@ -1,4 +1,45 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+R2D2: Relational Text Decoding with Transformers,2021-05-10 19:59:11+00:00,http://arxiv.org/abs/2105.04645v1,"Aryan Arbabi, Mingqiu Wang, Laurent El Shafey, Nan Du, Izhak Shafran",cs.CL,knowledge,"We propose a novel framework for modeling the interaction between graphical
+structures and the natural language text associated with their nodes and edges.
+Existing approaches typically fall into two categories. On group ignores the
+relational structure by converting them into linear sequences and then utilize
+the highly successful Seq2Seq models. The other side ignores the sequential
+nature of the text by representing them as fixed-dimensional vectors and apply
+graph neural networks. Both simplifications lead to information loss.
+  Our proposed method utilizes both the graphical structure as well as the
+sequential nature of the texts. The input to our model is a set of text
+segments associated with the nodes and edges of the graph, which are then
+processed with a transformer encoder-decoder model, equipped with a
+self-attention mechanism that is aware of the graphical relations between the
+nodes containing the segments. This also allows us to use BERT-like models that
+are already trained on large amounts of text.
+  While the proposed model has wide applications, we demonstrate its
+capabilities on data-to-text generation tasks. Our approach compares favorably
+against state-of-the-art methods in four tasks without tailoring the model
+architecture. We also provide an early demonstration in a novel practical
+application -- generating clinical notes from the medical entities mentioned
+during clinical visits.",2021-05-10
+Knowledge-based Review Generation by Coherence Enhanced Text Planning,2021-05-09 02:12:05+00:00,http://arxiv.org/abs/2105.03815v1,"Junyi Li, Wayne Xin Zhao, Zhicheng Wei, Nicholas Jing Yuan, Ji-Rong Wen",cs.CL,knowledge,"As a natural language generation task, it is challenging to generate
+informative and coherent review text. In order to enhance the informativeness
+of the generated text, existing solutions typically learn to copy entities or
+triples from knowledge graphs (KGs). However, they lack overall consideration
+to select and arrange the incorporated knowledge, which tends to cause text
+incoherence.
+  To address the above issue, we focus on improving entity-centric coherence of
+the generated reviews by leveraging the semantic structure of KGs. In this
+paper, we propose a novel Coherence Enhanced Text Planning model (CETP) based
+on knowledge graphs (KGs) to improve both global and local coherence for review
+generation. The proposed model learns a two-level text plan for generating a
+document: (1) the document plan is modeled as a sequence of sentence plans in
+order, and (2) the sentence plan is modeled as an entity-based subgraph from
+KG. Local coherence can be naturally enforced by KG subgraphs through
+intra-sentence correlations between entities. For global coherence, we design a
+hierarchical self-attentive architecture with both subgraph- and node-level
+attention to enhance the correlations between subgraphs. To our knowledge, we
+are the first to utilize a KG-based text planning model to enhance text
+coherence for review generation. Extensive experiments on three datasets
+confirm the effectiveness of our model on improving the content coherence of
+generated texts.",2021-05-09
 "SGG: Learning to Select, Guide, and Generate for Keyphrase Generation",2021-05-06 09:43:33+00:00,http://arxiv.org/abs/2105.02544v1,"Jing Zhao, Junwei Bao, Yifan Wang, Youzheng Wu, Xiaodong He, Bowen Zhou","cs.CL, cs.AI",knowledge,"Keyphrases, that concisely summarize the high-level topics discussed in a
 document, can be categorized into present keyphrase which explicitly appears in
 the source text, and absent keyphrase which does not match any contiguous

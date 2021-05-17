@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-05-01*
+*written on 2021-05-17*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Retrieval-Free Knowledge-Grounded Dialogue Response Generation with  Adapters](http://arxiv.org/abs/2105.06232v1) | Yan Xu, Etsuko Ishii, Zihan Liu, Genta Indra Winata, Dan Su, Andrea Madotto, Pascale Fung | cs.CL, cs.AI | 2021-05-13 |
 | [Focused Attention Improves Document-Grounded Generation](http://arxiv.org/abs/2104.12714v1) | Shrimai Prabhumoye, Kazuma Hashimoto, Yingbo Zhou, Alan W Black, Ruslan Salakhutdinov | cs.CL | 2021-04-26 |
 | [Estimating Subjective Crowd-Evaluations as an Additional Objective to  Improve Natural Language Generation](http://arxiv.org/abs/2104.05224v1) | Jakob Nyberg, Ramesh Manuvinakurike, Maike Paetzel-Prüsmann | cs.CL | 2021-04-12 |
 | [Overprotective Training Environments Fall Short at Testing Time: Let  Models Contribute to Their Own Training](http://arxiv.org/abs/2103.11145v1) | Alberto Testoni, Raffaella Bernardi | cs.CL | 2021-03-20 |

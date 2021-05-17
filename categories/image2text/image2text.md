@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2021-05-01*
+*written on 2021-05-17*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Passage Retrieval for Outside-Knowledge Visual Question Answering](http://arxiv.org/abs/2105.03938v1) | Chen Qu, Hamed Zamani, Liu Yang, W. Bruce Croft, Erik Learned-Miller | cs.IR | 2021-05-09 |
+| [e-ViL: A Dataset and Benchmark for Natural Language Explanations in  Vision-Language Tasks](http://arxiv.org/abs/2105.03761v1) | Maxime Kayser, Oana-Maria Camburu, Leonard Salewski, Cornelius Emde, Virginie Do, Zeynep Akata, Thomas Lukasiewicz | cs.CV, cs.CL, cs.LG | 2021-05-08 |
 | [Removing Word-Level Spurious Alignment between Images and  Pseudo-Captions in Unsupervised Image Captioning](http://arxiv.org/abs/2104.13872v1) | Ukyo Honda, Yoshitaka Ushiku, Atsushi Hashimoto, Taro Watanabe, Yuji Matsumoto | cs.CL, cs.CV | 2021-04-28 |
 | [MusCaps: Generating Captions for Music Audio](http://arxiv.org/abs/2104.11984v1) | Ilaria Manco, Emmanouil Benetos, Elio Quinton, Gyorgy Fazekas | cs.SD, cs.CL, cs.LG, eess.AS | 2021-04-24 |
 | [Imaginative Walks: Generative Random Walk Deviation Loss for Improved  Unseen Learning Representation](http://arxiv.org/abs/2104.09757v1) | Mohamed Elhoseiny, Divyansh Jha, Kai Yi, Ivan Skorokhodov | cs.CV, cs.AI | 2021-04-20 |

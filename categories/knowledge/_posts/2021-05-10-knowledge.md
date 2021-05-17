@@ -6,10 +6,12 @@ sidebar:
 ---
 
 
-*written on 2021-05-07*
+*written on 2021-05-17*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [R2D2: Relational Text Decoding with Transformers](http://arxiv.org/abs/2105.04645v1) | Aryan Arbabi, Mingqiu Wang, Laurent El Shafey, Nan Du, Izhak Shafran | cs.CL | 2021-05-10 |
+| [Knowledge-based Review Generation by Coherence Enhanced Text Planning](http://arxiv.org/abs/2105.03815v1) | Junyi Li, Wayne Xin Zhao, Zhicheng Wei, Nicholas Jing Yuan, Ji-Rong Wen | cs.CL | 2021-05-09 |
 | [SGG: Learning to Select, Guide, and Generate for Keyphrase Generation](http://arxiv.org/abs/2105.02544v1) | Jing Zhao, Junwei Bao, Yifan Wang, Youzheng Wu, Xiaodong He, Bowen Zhou | cs.CL, cs.AI | 2021-05-06 |
 | [Mitigating Political Bias in Language Models Through Reinforced  Calibration](http://arxiv.org/abs/2104.14795v1) | Ruibo Liu, Chenyan Jia, Jason Wei, Guangxuan Xu, Lili Wang, Soroush Vosoughi | cs.CL, cs.AI | 2021-04-30 |
 | [Imaginative Walks: Generative Random Walk Deviation Loss for Improved  Unseen Learning Representation](http://arxiv.org/abs/2104.09757v1) | Mohamed Elhoseiny, Divyansh Jha, Kai Yi, Ivan Skorokhodov | cs.CV, cs.AI | 2021-04-20 |
