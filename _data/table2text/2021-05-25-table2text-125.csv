@@ -1,4 +1,110 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Empirical Error Modeling Improves Robustness of Noisy Neural Sequence
+  Labeling",2021-05-25 12:15:45+00:00,http://arxiv.org/abs/2105.11872v1,"Marcin Namysl, Sven Behnke, Joachim Köhler",cs.CL,table2text,"Despite recent advances, standard sequence labeling systems often fail when
+processing noisy user-generated text or consuming the output of an Optical
+Character Recognition (OCR) process. In this paper, we improve the noise-aware
+training method by proposing an empirical error generation approach that
+employs a sequence-to-sequence model trained to perform translation from
+error-free to erroneous text. Using an OCR engine, we generated a large
+parallel text corpus for training and produced several real-world noisy
+sequence labeling benchmarks for evaluation. Moreover, to overcome the data
+sparsity problem that exacerbates in the case of imperfect textual input, we
+learned noisy language model-based embeddings. Our approach outperformed the
+baseline noise generation and error correction techniques on the erroneous
+sequence labeling data sets. To facilitate future research on robustness, we
+make our code, embeddings, and data conversion scripts publicly available.",2021-05-25
+Controlling Text Edition by Changing Answers of Specific Questions,2021-05-23 20:44:15+00:00,http://arxiv.org/abs/2105.11018v1,"Lei Sha, Patrick Hohenecker, Thomas Lukasiewicz","cs.CL, cs.AI, cs.LG",table2text,"In this paper, we introduce the new task of controllable text edition, in
+which we take as input a long text, a question, and a target answer, and the
+output is a minimally modified text, so that it fits the target answer. This
+task is very important in many situations, such as changing some conditions,
+consequences, or properties in a legal document, or changing some key
+information of an event in a news text. This is very challenging, as it is hard
+to obtain a parallel corpus for training, and we need to first find all text
+positions that should be changed and then decide how to change them. We
+constructed the new dataset WikiBioCTE for this task based on the existing
+dataset WikiBio (originally created for table-to-text generation). We use
+WikiBioCTE for training, and manually labeled a test set for testing. We also
+propose novel evaluation metrics and a novel method for solving the new task.
+Experimental results on the test set show that our proposed method is a good
+fit for this novel NLP task.",2021-05-23
+Pretrained Language Models for Text Generation: A Survey,2021-05-21 12:27:44+00:00,http://arxiv.org/abs/2105.10311v2,"Junyi Li, Tianyi Tang, Wayne Xin Zhao, Ji-Rong Wen","cs.CL, cs.AI",table2text,"Text generation has become one of the most important yet challenging tasks in
+natural language processing (NLP). The resurgence of deep learning has greatly
+advanced this field by neural generation models, especially the paradigm of
+pretrained language models (PLMs). In this paper, we present an overview of the
+major advances achieved in the topic of PLMs for text generation. As the
+preliminaries, we present the general task definition and briefly describe the
+mainstream architectures of PLMs for text generation. As the core content, we
+discuss how to adapt existing PLMs to model different input data and satisfy
+special properties in the generated text. We further summarize several
+important fine-tuning strategies for text generation. Finally, we present
+several future directions and conclude this paper. Our survey aims to provide
+text generation researchers a synthesis and pointer to related research.",2021-05-21
+"Towards a Universal NLG for Dialogue Systems and Simulators with Future
+  Bridging",2021-05-21 10:37:10+00:00,http://arxiv.org/abs/2105.10267v2,"Philipp Ennen, Yen-Ting Lin, Ali Girayhan Ozbay, Ferdinando Insalata, Maolin Li, Ye Tian, Sepehr Jalali, Da-shan Shiu","cs.CL, cs.AI, cs.LG",table2text,"In a dialogue system pipeline, a natural language generation (NLG) unit
+converts the dialogue direction and content to a corresponding natural language
+realization. A recent trend for dialogue systems is to first pre-train on large
+datasets and then fine-tune in a supervised manner using datasets annotated
+with application-specific features. Though novel behaviours can be learned from
+custom annotation, the required effort severely bounds the quantity of the
+training set, and the application-specific nature limits the reuse. In light of
+the recent success of data-driven approaches, we propose the novel future
+bridging NLG (FBNLG) concept for dialogue systems and simulators. The critical
+step is for an FBNLG to accept a future user or system utterance to bridge the
+present context towards. Future bridging enables self supervised training over
+annotation-free datasets, decoupled the training of NLG from the rest of the
+system. An FBNLG, pre-trained with massive datasets, is expected to apply in
+classical or new dialogue scenarios with minimal adaptation effort. We evaluate
+a prototype FBNLG to show that future bridging can be a viable approach to a
+universal few-shot NLG for task-oriented and chit-chat dialogues.",2021-05-21
+Retrieval-Augmented Transformer-XL for Close-Domain Dialog Generation,2021-05-19 16:34:33+00:00,http://arxiv.org/abs/2105.09235v1,"Giovanni Bonetta, Rossella Cancelliere, Ding Liu, Paul Vozila","cs.CL, cs.AI",table2text,"Transformer-based models have demonstrated excellent capabilities of
+capturing patterns and structures in natural language generation and achieved
+state-of-the-art results in many tasks. In this paper we present a
+transformer-based model for multi-turn dialog response generation. Our solution
+is based on a hybrid approach which augments a transformer-based generative
+model with a novel retrieval mechanism, which leverages the memorized
+information in the training data via k-Nearest Neighbor search. Our system is
+evaluated on two datasets made by customer/assistant dialogs: the Taskmaster-1,
+released by Google and holding high quality, goal-oriented conversational data
+and a proprietary dataset collected from a real customer service call center.
+Both achieve better BLEU scores over strong baselines.",2021-05-19
+"Long Text Generation by Modeling Sentence-Level and Discourse-Level
+  Coherence",2021-05-19 07:29:08+00:00,http://arxiv.org/abs/2105.08963v1,"Jian Guan, Xiaoxi Mao, Changjie Fan, Zitao Liu, Wenbiao Ding, Minlie Huang",cs.CL,table2text,"Generating long and coherent text is an important but challenging task,
+particularly for open-ended language generation tasks such as story generation.
+Despite the success in modeling intra-sentence coherence, existing generation
+models (e.g., BART) still struggle to maintain a coherent event sequence
+throughout the generated text. We conjecture that this is because of the
+difficulty for the decoder to capture the high-level semantics and discourse
+structures in the context beyond token-level co-occurrence. In this paper, we
+propose a long text generation model, which can represent the prefix sentences
+at sentence level and discourse level in the decoding process. To this end, we
+propose two pretraining objectives to learn the representations by predicting
+inter-sentence semantic similarity and distinguishing between normal and
+shuffled sentence orders. Extensive experiments show that our model can
+generate more coherent texts than state-of-the-art baselines.",2021-05-19
+CoTexT: Multi-task Learning with Code-Text Transformer,2021-05-18 16:22:05+00:00,http://arxiv.org/abs/2105.08645v1,"Long Phan, Hieu Tran, Daniel Le, Hieu Nguyen, James Anibal, Alec Peltekian, Yanfang Ye","cs.AI, cs.PL",table2text,"We present CoTexT, a transformer-based architecture encoder-decoder
+pre-trained model that learns the representative context between natural
+language (NL) and programming language (PL) through multi-task learning. CoTexT
+is pre-trained, in self-supervised fashion, based on large programming language
+corpus to learn general-purpose understanding and code-text generation
+supporting downstream NL-PL task such as code summarizing/documentation, code
+generation, defect detection, code debugging, etc. We train CoTexT on different
+combination of available PL corpus including both ""bimodal"" and ""unimodal"" data
+where the former is the combinations of both natural texts and their
+corresponding code snippets in an input sequence and the latter is merely code
+snippets. We evaluate multi-task learning CoTexT on different generation and
+classification tasks on CodeXGLUE and it achieves state-of-the-art on all
+downstream tasks.",2021-05-18
+Stage-wise Fine-tuning for Graph-to-Text Generation,2021-05-17 17:15:29+00:00,http://arxiv.org/abs/2105.08021v1,"Qingyun Wang, Semih Yavuz, Victoria Lin, Heng Ji, Nazneen Rajani","cs.CL, cs.AI",table2text,"Graph-to-text generation has benefited from pre-trained language models
+(PLMs) in achieving better performance than structured graph encoders. However,
+they fail to fully utilize the structure information of the input graph. In
+this paper, we aim to further improve the performance of the pre-trained
+language model by proposing a structured graph-to-text model with a two-step
+fine-tuning mechanism which first fine-tunes model on Wikipedia before adapting
+to the graph-to-text generation. In addition to using the traditional token and
+position embeddings to encode the knowledge graph (KG), we propose a novel
+tree-level embedding method to capture the inter-dependency structures of the
+input graph. This new approach has significantly improved the performance of
+all text generation metrics for the English WebNLG 2017 dataset.",2021-05-17
 R2D2: Relational Text Decoding with Transformers,2021-05-10 19:59:11+00:00,http://arxiv.org/abs/2105.04645v1,"Aryan Arbabi, Mingqiu Wang, Laurent El Shafey, Nan Du, Izhak Shafran",cs.CL,table2text,"We propose a novel framework for modeling the interaction between graphical
 structures and the natural language text associated with their nodes and edges.
 Existing approaches typically fall into two categories. On group ignores the

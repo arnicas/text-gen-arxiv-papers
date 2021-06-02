@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2021-05-17*
+*written on 2021-06-02*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Dependent Multi-Task Learning with Causal Intervention for Image  Captioning](http://arxiv.org/abs/2105.08573v1) | Wenqing Chen, Jidong Tian, Caoyun Fan, Hao He, Yaohui Jin | cs.LG, cs.CV, eess.IV | 2021-05-18 |
+| [Multi-Modal Image Captioning for the Visually Impaired](http://arxiv.org/abs/2105.08106v1) | Hiba Ahsan, Nikita Bhalla, Daivat Bhatt, Kaivankumar Shah | cs.CL | 2021-05-17 |
 | [Passage Retrieval for Outside-Knowledge Visual Question Answering](http://arxiv.org/abs/2105.03938v1) | Chen Qu, Hamed Zamani, Liu Yang, W. Bruce Croft, Erik Learned-Miller | cs.IR | 2021-05-09 |
 | [e-ViL: A Dataset and Benchmark for Natural Language Explanations in  Vision-Language Tasks](http://arxiv.org/abs/2105.03761v1) | Maxime Kayser, Oana-Maria Camburu, Leonard Salewski, Cornelius Emde, Virginie Do, Zeynep Akata, Thomas Lukasiewicz | cs.CV, cs.CL, cs.LG | 2021-05-08 |
 | [Removing Word-Level Spurious Alignment between Images and  Pseudo-Captions in Unsupervised Image Captioning](http://arxiv.org/abs/2104.13872v1) | Ukyo Honda, Yoshitaka Ushiku, Atsushi Hashimoto, Taro Watanabe, Yuji Matsumoto | cs.CL, cs.CV | 2021-04-28 |

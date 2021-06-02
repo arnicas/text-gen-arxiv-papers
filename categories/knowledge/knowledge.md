@@ -7,10 +7,15 @@ sidebar:
 ---
 
 
-*written on 2021-05-17*
+*written on 2021-06-02*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Personalized Transformer for Explainable Recommendation](http://arxiv.org/abs/2105.11601v1) | Lei Li, Yongfeng Zhang, Li Chen | cs.IR, cs.AI | 2021-05-25 |
+| [VANiLLa : Verbalized Answers in Natural Language at Large Scale](http://arxiv.org/abs/2105.11407v1) | Debanjali Biswas, Mohnish Dubey, Md Rashad Al Hasan Rony, Jens Lehmann | cs.CL | 2021-05-24 |
+| [Long Text Generation by Modeling Sentence-Level and Discourse-Level  Coherence](http://arxiv.org/abs/2105.08963v1) | Jian Guan, Xiaoxi Mao, Changjie Fan, Zitao Liu, Wenbiao Ding, Minlie Huang | cs.CL | 2021-05-19 |
+| [OpenMEVA: A Benchmark for Evaluating Open-ended Story Generation Metrics](http://arxiv.org/abs/2105.08920v1) | Jian Guan, Zhexin Zhang, Zhuoer Feng, Zitao Liu, Wenbiao Ding, Xiaoxi Mao, Changjie Fan, Minlie Huang | cs.CL | 2021-05-19 |
+| [Stage-wise Fine-tuning for Graph-to-Text Generation](http://arxiv.org/abs/2105.08021v1) | Qingyun Wang, Semih Yavuz, Victoria Lin, Heng Ji, Nazneen Rajani | cs.CL, cs.AI | 2021-05-17 |
 | [R2D2: Relational Text Decoding with Transformers](http://arxiv.org/abs/2105.04645v1) | Aryan Arbabi, Mingqiu Wang, Laurent El Shafey, Nan Du, Izhak Shafran | cs.CL | 2021-05-10 |
 | [Knowledge-based Review Generation by Coherence Enhanced Text Planning](http://arxiv.org/abs/2105.03815v1) | Junyi Li, Wayne Xin Zhao, Zhicheng Wei, Nicholas Jing Yuan, Ji-Rong Wen | cs.CL | 2021-05-09 |
 | [SGG: Learning to Select, Guide, and Generate for Keyphrase Generation](http://arxiv.org/abs/2105.02544v1) | Jing Zhao, Junwei Bao, Yifan Wang, Youzheng Wu, Xiaodong He, Bowen Zhou | cs.CL, cs.AI | 2021-05-06 |

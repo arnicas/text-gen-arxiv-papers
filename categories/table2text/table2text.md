@@ -7,10 +7,18 @@ sidebar:
 ---
 
 
-*written on 2021-05-17*
+*written on 2021-06-02*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Empirical Error Modeling Improves Robustness of Noisy Neural Sequence  Labeling](http://arxiv.org/abs/2105.11872v1) | Marcin Namysl, Sven Behnke, Joachim Köhler | cs.CL | 2021-05-25 |
+| [Controlling Text Edition by Changing Answers of Specific Questions](http://arxiv.org/abs/2105.11018v1) | Lei Sha, Patrick Hohenecker, Thomas Lukasiewicz | cs.CL, cs.AI, cs.LG | 2021-05-23 |
+| [Pretrained Language Models for Text Generation: A Survey](http://arxiv.org/abs/2105.10311v2) | Junyi Li, Tianyi Tang, Wayne Xin Zhao, Ji-Rong Wen | cs.CL, cs.AI | 2021-05-21 |
+| [Towards a Universal NLG for Dialogue Systems and Simulators with Future  Bridging](http://arxiv.org/abs/2105.10267v2) | Philipp Ennen, Yen-Ting Lin, Ali Girayhan Ozbay, Ferdinando Insalata, Maolin Li, Ye Tian, Sepehr Jalali, Da-shan Shiu | cs.CL, cs.AI, cs.LG | 2021-05-21 |
+| [Retrieval-Augmented Transformer-XL for Close-Domain Dialog Generation](http://arxiv.org/abs/2105.09235v1) | Giovanni Bonetta, Rossella Cancelliere, Ding Liu, Paul Vozila | cs.CL, cs.AI | 2021-05-19 |
+| [Long Text Generation by Modeling Sentence-Level and Discourse-Level  Coherence](http://arxiv.org/abs/2105.08963v1) | Jian Guan, Xiaoxi Mao, Changjie Fan, Zitao Liu, Wenbiao Ding, Minlie Huang | cs.CL | 2021-05-19 |
+| [CoTexT: Multi-task Learning with Code-Text Transformer](http://arxiv.org/abs/2105.08645v1) | Long Phan, Hieu Tran, Daniel Le, Hieu Nguyen, James Anibal, Alec Peltekian, Yanfang Ye | cs.AI, cs.PL | 2021-05-18 |
+| [Stage-wise Fine-tuning for Graph-to-Text Generation](http://arxiv.org/abs/2105.08021v1) | Qingyun Wang, Semih Yavuz, Victoria Lin, Heng Ji, Nazneen Rajani | cs.CL, cs.AI | 2021-05-17 |
 | [R2D2: Relational Text Decoding with Transformers](http://arxiv.org/abs/2105.04645v1) | Aryan Arbabi, Mingqiu Wang, Laurent El Shafey, Nan Du, Izhak Shafran | cs.CL | 2021-05-10 |
 | [Knowledge-based Review Generation by Coherence Enhanced Text Planning](http://arxiv.org/abs/2105.03815v1) | Junyi Li, Wayne Xin Zhao, Zhicheng Wei, Nicholas Jing Yuan, Ji-Rong Wen | cs.CL | 2021-05-09 |
 | [Neural Text Generation with Part-of-Speech Guided Softmax](http://arxiv.org/abs/2105.03641v1) | Zhixian Yang, Xiaojun Wan | cs.CL, cs.AI | 2021-05-08 |

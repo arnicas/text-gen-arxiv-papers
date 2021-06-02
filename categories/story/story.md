@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2021-05-07*
+*written on 2021-06-02*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Long Text Generation by Modeling Sentence-Level and Discourse-Level  Coherence](http://arxiv.org/abs/2105.08963v1) | Jian Guan, Xiaoxi Mao, Changjie Fan, Zitao Liu, Wenbiao Ding, Minlie Huang | cs.CL | 2021-05-19 |
+| [OpenMEVA: A Benchmark for Evaluating Open-ended Story Generation Metrics](http://arxiv.org/abs/2105.08920v1) | Jian Guan, Zhexin Zhang, Zhuoer Feng, Zitao Liu, Wenbiao Ding, Xiaoxi Mao, Changjie Fan, Minlie Huang | cs.CL | 2021-05-19 |
+| [Stylized Story Generation with Style-Guided Planning](http://arxiv.org/abs/2105.08625v2) | Xiangzhe Kong, Jialiang Huang, Ziquan Tung, Jian Guan, Minlie Huang | cs.CL, cs.AI | 2021-05-18 |
 | [Inferring the Reader: Guiding Automated Story Generation with  Commonsense Reasoning](http://arxiv.org/abs/2105.01311v1) | Xiangyu Peng, Siyan Li, Sarah Wiegreffe, Mark Riedl | cs.CL | 2021-05-04 |
 | [Plot-guided Adversarial Example Construction for Evaluating Open-domain  Story Generation](http://arxiv.org/abs/2104.05801v1) | Sarik Ghazarian, Zixi Liu, Akash SM, Ralph Weischedel, Aram Galstyan, Nanyun Peng | cs.CL, cs.LG | 2021-04-12 |
 | [Semantic Frame Forecast](http://arxiv.org/abs/2104.05604v1) | Chieh-Yang Huang, Ting-Hao 'Kenneth' Huang | cs.CL | 2021-04-12 |

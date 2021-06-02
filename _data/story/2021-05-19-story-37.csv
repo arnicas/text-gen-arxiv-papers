@@ -1,4 +1,47 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Long Text Generation by Modeling Sentence-Level and Discourse-Level
+  Coherence",2021-05-19 07:29:08+00:00,http://arxiv.org/abs/2105.08963v1,"Jian Guan, Xiaoxi Mao, Changjie Fan, Zitao Liu, Wenbiao Ding, Minlie Huang",cs.CL,story,"Generating long and coherent text is an important but challenging task,
+particularly for open-ended language generation tasks such as story generation.
+Despite the success in modeling intra-sentence coherence, existing generation
+models (e.g., BART) still struggle to maintain a coherent event sequence
+throughout the generated text. We conjecture that this is because of the
+difficulty for the decoder to capture the high-level semantics and discourse
+structures in the context beyond token-level co-occurrence. In this paper, we
+propose a long text generation model, which can represent the prefix sentences
+at sentence level and discourse level in the decoding process. To this end, we
+propose two pretraining objectives to learn the representations by predicting
+inter-sentence semantic similarity and distinguishing between normal and
+shuffled sentence orders. Extensive experiments show that our model can
+generate more coherent texts than state-of-the-art baselines.",2021-05-19
+OpenMEVA: A Benchmark for Evaluating Open-ended Story Generation Metrics,2021-05-19 04:45:07+00:00,http://arxiv.org/abs/2105.08920v1,"Jian Guan, Zhexin Zhang, Zhuoer Feng, Zitao Liu, Wenbiao Ding, Xiaoxi Mao, Changjie Fan, Minlie Huang",cs.CL,story,"Automatic metrics are essential for developing natural language generation
+(NLG) models, particularly for open-ended language generation tasks such as
+story generation. However, existing automatic metrics are observed to correlate
+poorly with human evaluation. The lack of standardized benchmark datasets makes
+it difficult to fully evaluate the capabilities of a metric and fairly compare
+different metrics. Therefore, we propose OpenMEVA, a benchmark for evaluating
+open-ended story generation metrics. OpenMEVA provides a comprehensive test
+suite to assess the capabilities of metrics, including (a) the correlation with
+human judgments, (b) the generalization to different model outputs and
+datasets, (c) the ability to judge story coherence, and (d) the robustness to
+perturbations. To this end, OpenMEVA includes both manually annotated stories
+and auto-constructed test examples. We evaluate existing metrics on OpenMEVA
+and observe that they have poor correlation with human judgments, fail to
+recognize discourse-level incoherence, and lack inferential knowledge (e.g.,
+causal order between events), the generalization ability and robustness. Our
+study presents insights for developing NLG models and metrics in further
+research.",2021-05-19
+Stylized Story Generation with Style-Guided Planning,2021-05-18 15:55:38+00:00,http://arxiv.org/abs/2105.08625v2,"Xiangzhe Kong, Jialiang Huang, Ziquan Tung, Jian Guan, Minlie Huang","cs.CL, cs.AI",story,"Current storytelling systems focus more ongenerating stories with coherent
+plots regard-less of the narration style, which is impor-tant for controllable
+text generation. There-fore, we propose a new task, stylized story gen-eration,
+namely generating stories with speci-fied style given a leading context. To
+tacklethe problem, we propose a novel generationmodel that first plans the
+stylized keywordsand then generates the whole story with theguidance of the
+keywords. Besides, we pro-pose two automatic metrics to evaluate theconsistency
+between the generated story andthe specified style. Experiments
+demonstratesthat our model can controllably generateemo-tion-driven
+orevent-driven stories based onthe ROCStories dataset (Mostafazadeh et
+al.,2016). Our study presents insights for stylizedstory generation in further
+research.",2021-05-18
 "Inferring the Reader: Guiding Automated Story Generation with
   Commonsense Reasoning",2021-05-04 06:40:33+00:00,http://arxiv.org/abs/2105.01311v1,"Xiangyu Peng, Siyan Li, Sarah Wiegreffe, Mark Riedl",cs.CL,story,"Transformer-based language model approaches to automated story generation
 currently provide state-of-the-art results. However, they still suffer from

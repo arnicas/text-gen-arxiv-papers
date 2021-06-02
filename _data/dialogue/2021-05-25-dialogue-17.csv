@@ -1,4 +1,46 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Empirical Error Modeling Improves Robustness of Noisy Neural Sequence
+  Labeling",2021-05-25 12:15:45+00:00,http://arxiv.org/abs/2105.11872v1,"Marcin Namysl, Sven Behnke, Joachim Köhler",cs.CL,dialogue,"Despite recent advances, standard sequence labeling systems often fail when
+processing noisy user-generated text or consuming the output of an Optical
+Character Recognition (OCR) process. In this paper, we improve the noise-aware
+training method by proposing an empirical error generation approach that
+employs a sequence-to-sequence model trained to perform translation from
+error-free to erroneous text. Using an OCR engine, we generated a large
+parallel text corpus for training and produced several real-world noisy
+sequence labeling benchmarks for evaluation. Moreover, to overcome the data
+sparsity problem that exacerbates in the case of imperfect textual input, we
+learned noisy language model-based embeddings. Our approach outperformed the
+baseline noise generation and error correction techniques on the erroneous
+sequence labeling data sets. To facilitate future research on robustness, we
+make our code, embeddings, and data conversion scripts publicly available.",2021-05-25
+"Towards a Universal NLG for Dialogue Systems and Simulators with Future
+  Bridging",2021-05-21 10:37:10+00:00,http://arxiv.org/abs/2105.10267v2,"Philipp Ennen, Yen-Ting Lin, Ali Girayhan Ozbay, Ferdinando Insalata, Maolin Li, Ye Tian, Sepehr Jalali, Da-shan Shiu","cs.CL, cs.AI, cs.LG",dialogue,"In a dialogue system pipeline, a natural language generation (NLG) unit
+converts the dialogue direction and content to a corresponding natural language
+realization. A recent trend for dialogue systems is to first pre-train on large
+datasets and then fine-tune in a supervised manner using datasets annotated
+with application-specific features. Though novel behaviours can be learned from
+custom annotation, the required effort severely bounds the quantity of the
+training set, and the application-specific nature limits the reuse. In light of
+the recent success of data-driven approaches, we propose the novel future
+bridging NLG (FBNLG) concept for dialogue systems and simulators. The critical
+step is for an FBNLG to accept a future user or system utterance to bridge the
+present context towards. Future bridging enables self supervised training over
+annotation-free datasets, decoupled the training of NLG from the rest of the
+system. An FBNLG, pre-trained with massive datasets, is expected to apply in
+classical or new dialogue scenarios with minimal adaptation effort. We evaluate
+a prototype FBNLG to show that future bridging can be a viable approach to a
+universal few-shot NLG for task-oriented and chit-chat dialogues.",2021-05-21
+Retrieval-Augmented Transformer-XL for Close-Domain Dialog Generation,2021-05-19 16:34:33+00:00,http://arxiv.org/abs/2105.09235v1,"Giovanni Bonetta, Rossella Cancelliere, Ding Liu, Paul Vozila","cs.CL, cs.AI",dialogue,"Transformer-based models have demonstrated excellent capabilities of
+capturing patterns and structures in natural language generation and achieved
+state-of-the-art results in many tasks. In this paper we present a
+transformer-based model for multi-turn dialog response generation. Our solution
+is based on a hybrid approach which augments a transformer-based generative
+model with a novel retrieval mechanism, which leverages the memorized
+information in the training data via k-Nearest Neighbor search. Our system is
+evaluated on two datasets made by customer/assistant dialogs: the Taskmaster-1,
+released by Google and holding high quality, goal-oriented conversational data
+and a proprietary dataset collected from a real customer service call center.
+Both achieve better BLEU scores over strong baselines.",2021-05-19
 "Retrieval-Free Knowledge-Grounded Dialogue Response Generation with
   Adapters",2021-05-13 12:33:23+00:00,http://arxiv.org/abs/2105.06232v1,"Yan Xu, Etsuko Ishii, Zihan Liu, Genta Indra Winata, Dan Su, Andrea Madotto, Pascale Fung","cs.CL, cs.AI",dialogue,"To diversify and enrich generated dialogue responses, knowledge-grounded
 dialogue has been investigated in recent years. Despite the success of the
