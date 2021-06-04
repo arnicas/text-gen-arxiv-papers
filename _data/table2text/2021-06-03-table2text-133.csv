@@ -1,4 +1,130 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Defending against Backdoor Attacks in Natural Language Generation,2021-06-03 13:00:28+00:00,http://arxiv.org/abs/2106.01810v1,"Chun Fan, Xiaoya Li, Yuxian Meng, Xiaofei Sun, Xiang Ao, Fei Wu, Jiwei Li, Tianwei Zhang",cs.CL,table2text,"The frustratingly fragile nature of neural network models make current
+natural language generation (NLG) systems prone to backdoor attacks and
+generate malicious sequences that could be sexist or offensive. Unfortunately,
+little effort has been invested to how backdoor attacks can affect current NLG
+models and how to defend against these attacks. In this work, we investigate
+this problem on two important NLG tasks, machine translation and dialogue
+generation. By giving a formal definition for backdoor attack and defense, and
+developing corresponding benchmarks, we design methods to attack NLG models,
+which achieve high attack success to ask NLG models to generate malicious
+sequences. To defend against these attacks, we propose to detect the attack
+trigger by examining the effect of deleting or replacing certain words on the
+generation outputs, which we find successful for certain types of attacks. We
+will discuss the limitation of this work, and hope this work can raise the
+awareness of backdoor risks concealed in deep NLG systems. (Code and data are
+available at https://github.com/ShannonAI/backdoor_nlg.)",2021-06-03
+"ZmBART: An Unsupervised Cross-lingual Transfer Framework for Language
+  Generation",2021-06-03 05:08:01+00:00,http://arxiv.org/abs/2106.01597v1,"Kaushal Kumar Maurya, Maunendra Sankar Desarkar, Yoshinobu Kano, Kumari Deepshikha","cs.CL, cs.AI, cs.LG",table2text,"Despite the recent advancement in NLP research, cross-lingual transfer for
+natural language generation is relatively understudied. In this work, we
+transfer supervision from high resource language (HRL) to multiple low-resource
+languages (LRLs) for natural language generation (NLG). We consider four NLG
+tasks (text summarization, question generation, news headline generation, and
+distractor generation) and three syntactically diverse languages, i.e.,
+English, Hindi, and Japanese. We propose an unsupervised cross-lingual language
+generation framework (called ZmBART) that does not use any parallel or
+pseudo-parallel/back-translated data. In this framework, we further pre-train
+mBART sequence-to-sequence denoising auto-encoder model with an auxiliary task
+using monolingual data of three languages. The objective function of the
+auxiliary task is close to the target tasks which enriches the multi-lingual
+latent representation of mBART and provides good initialization for target
+tasks. Then, this model is fine-tuned with task-specific supervised English
+data and directly evaluated with low-resource languages in the Zero-shot
+setting. To overcome catastrophic forgetting and spurious correlation issues,
+we applied freezing model component and data argumentation approaches
+respectively. This simple modeling approach gave us promising results.We
+experimented with few-shot training (with 1000 supervised data points) which
+boosted the model performance further. We performed several ablations and
+cross-lingual transferability analyses to demonstrate the robustness of ZmBART.",2021-06-03
+"Sketch and Refine: Towards Faithful and Informative Table-to-Text
+  Generation",2021-05-31 08:18:13+00:00,http://arxiv.org/abs/2105.14778v1,"Peng Wang, Junyang Lin, An Yang, Chang Zhou, Yichang Zhang, Jingren Zhou, Hongxia Yang",cs.CL,table2text,"Table-to-text generation refers to generating a descriptive text from a
+key-value table. Traditional autoregressive methods, though can generate text
+with high fluency, suffer from low coverage and poor faithfulness problems. To
+mitigate these problems, we propose a novel Skeleton-based two-stage method
+that combines both Autoregressive and Non-Autoregressive generations (SANA).
+Our approach includes: (1) skeleton generation with an autoregressive pointer
+network to select key tokens from the source table; (2) edit-based
+non-autoregressive generation model to produce texts via iterative insertion
+and deletion operations. By integrating hard constraints from the skeleton, the
+non-autoregressive model improves the generation's coverage over the source
+table and thus enhances its faithfulness. We conduct automatic and human
+evaluations on both WikiPerson and WikiBio datasets. Experimental results
+demonstrate that our method outperforms the previous state-of-the-art methods
+in both automatic and human evaluation, especially on coverage and
+faithfulness. In particular, we achieve PARENT-T recall of 99.47 in WikiPerson,
+improving over the existing best results by more than 10 points.",2021-05-31
+"Grammar Accuracy Evaluation (GAE): Quantifiable Intrinsic Evaluation of
+  Machine Translation Models",2021-05-29 11:40:51+00:00,http://arxiv.org/abs/2105.14277v2,"Dojun Park, Youngjin Jang, Harksoo Kim",cs.CL,table2text,"Intrinsic evaluation by humans for the performance of natural language
+generation models is conducted to overcome the fact that the quality of
+generated sentences cannot be fully represented by only extrinsic evaluation.
+Nevertheless, existing intrinsic evaluations have a large score deviation
+according to the evaluator's criteria. In this paper, we propose Grammar
+Accuracy Evaluation (GAE) that can provide specific evaluating criteria. As a
+result of analyzing the quality of machine translation by BLEU and GAE, it was
+confirmed that the BLEU score does not represent the absolute performance of
+machine translation models and that GAE compensates for the shortcomings of
+BLEU with a flexible evaluation on alternative synonyms and changes in sentence
+structure.",2021-05-29
+Annotation Inconsistency and Entity Bias in MultiWOZ,2021-05-29 00:09:06+00:00,http://arxiv.org/abs/2105.14150v1,"Kun Qian, Ahmad Beirami, Zhouhan Lin, Ankita De, Alborz Geramifard, Zhou Yu, Chinnadhurai Sankar",cs.CL,table2text,"MultiWOZ is one of the most popular multi-domain task-oriented dialog
+datasets, containing 10K+ annotated dialogs covering eight domains. It has been
+widely accepted as a benchmark for various dialog tasks, e.g., dialog state
+tracking (DST), natural language generation (NLG), and end-to-end (E2E) dialog
+modeling. In this work, we identify an overlooked issue with dialog state
+annotation inconsistencies in the dataset, where a slot type is tagged
+inconsistently across similar dialogs leading to confusion for DST modeling. We
+propose an automated correction for this issue, which is present in a whopping
+70% of the dialogs. Additionally, we notice that there is significant entity
+bias in the dataset (e.g., ""cambridge"" appears in 50% of the destination cities
+in the train domain). The entity bias can potentially lead to named entity
+memorization in generative models, which may go unnoticed as the test set
+suffers from a similar entity bias as well. We release a new test set with all
+entities replaced with unseen entities. Finally, we benchmark joint goal
+accuracy (JGA) of the state-of-the-art DST baselines on these modified versions
+of the data. Our experiments show that the annotation inconsistency corrections
+lead to 7-10% improvement in JGA. On the other hand, we observe a 29% drop in
+JGA when models are evaluated on the new test set with unseen entities.",2021-05-29
+OTTers: One-turn Topic Transitions for Open-Domain Dialogue,2021-05-28 10:16:59+00:00,http://arxiv.org/abs/2105.13710v1,"Karin Sevegnani, David M. Howcroft, Ioannis Konstas, Verena Rieser",cs.CL,table2text,"Mixed initiative in open-domain dialogue requires a system to pro-actively
+introduce new topics. The one-turn topic transition task explores how a system
+connects two topics in a cooperative and coherent manner. The goal of the task
+is to generate a ""bridging"" utterance connecting the new topic to the topic of
+the previous conversation turn. We are especially interested in commonsense
+explanations of how a new topic relates to what has been mentioned before. We
+first collect a new dataset of human one-turn topic transitions, which we call
+OTTers. We then explore different strategies used by humans when asked to
+complete such a task, and notice that the use of a bridging utterance to
+connect the two topics is the approach used the most. We finally show how
+existing state-of-the-art text generation models can be adapted to this task
+and examine the performance of these baselines on different splits of the
+OTTers data.",2021-05-28
+Data Augmentation for Text Generation Without Any Augmented Data,2021-05-28 07:56:51+00:00,http://arxiv.org/abs/2105.13650v1,"Wei Bi, Huayang Li, Jiacheng Huang","cs.CL, cs.AI",table2text,"Data augmentation is an effective way to improve the performance of many
+neural text generation models. However, current data augmentation methods need
+to define or choose proper data mapping functions that map the original samples
+into the augmented samples. In this work, we derive an objective to formulate
+the problem of data augmentation on text generation tasks without any use of
+augmented data constructed by specific mapping functions. Our proposed
+objective can be efficiently optimized and applied to popular loss functions on
+text generation tasks with a convergence rate guarantee. Experiments on five
+datasets of two text generation tasks show that our approach can approximate or
+even surpass popular data augmentation methods.",2021-05-28
+Generative Adversarial Imitation Learning for Empathy-based AI,2021-05-27 17:37:37+00:00,http://arxiv.org/abs/2105.13328v1,"Pratyush Muthukumar, Karishma Muthukumar, Deepan Muthirayan, Pramod Khargonekar",cs.CL,table2text,"Generative adversarial imitation learning (GAIL) is a model-free algorithm
+that has been shown to provide strong results in imitating complex behaviors in
+high-dimensional environments. In this paper, we utilize the GAIL model for
+text generation to develop empathy-based context-aware conversational AI. Our
+model uses an expert trajectory of empathetic prompt-response dialogues which
+can accurately exhibit the correct empathetic emotion when generating a
+response. The Generator of the GAIL model uses the GPT-2 sequential pre-trained
+language model trained on 117 million parameters from 40 GB of internet data.
+We propose a novel application of an approach used in transfer learning to fine
+tune the GPT-2 model in order to generate concise, user-specific empathetic
+responses validated against the Discriminator. Our novel GAIL model utilizes a
+sentiment analysis history-based reinforcement learning approach to
+empathetically respond to human interactions in a personalized manner. We find
+that our model's response scores on various human-generated prompts collected
+from the Facebook Empathetic Dialogues dataset outperform baseline
+counterparts. Moreover, our model improves upon various history-based
+conversational AI models developed recently, as our model's performance over a
+sustained conversation of 3 or more interactions outperform similar
+conversational AI models.",2021-05-27
 "Empirical Error Modeling Improves Robustness of Noisy Neural Sequence
   Labeling",2021-05-25 12:15:45+00:00,http://arxiv.org/abs/2105.11872v1,"Marcin Namysl, Sven Behnke, Joachim Köhler",cs.CL,table2text,"Despite recent advances, standard sequence labeling systems often fail when
 processing noisy user-generated text or consuming the output of an Optical

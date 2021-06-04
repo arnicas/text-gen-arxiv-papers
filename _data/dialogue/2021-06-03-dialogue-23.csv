@@ -1,4 +1,94 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Defending against Backdoor Attacks in Natural Language Generation,2021-06-03 13:00:28+00:00,http://arxiv.org/abs/2106.01810v1,"Chun Fan, Xiaoya Li, Yuxian Meng, Xiaofei Sun, Xiang Ao, Fei Wu, Jiwei Li, Tianwei Zhang",cs.CL,dialogue,"The frustratingly fragile nature of neural network models make current
+natural language generation (NLG) systems prone to backdoor attacks and
+generate malicious sequences that could be sexist or offensive. Unfortunately,
+little effort has been invested to how backdoor attacks can affect current NLG
+models and how to defend against these attacks. In this work, we investigate
+this problem on two important NLG tasks, machine translation and dialogue
+generation. By giving a formal definition for backdoor attack and defense, and
+developing corresponding benchmarks, we design methods to attack NLG models,
+which achieve high attack success to ask NLG models to generate malicious
+sequences. To defend against these attacks, we propose to detect the attack
+trigger by examining the effect of deleting or replacing certain words on the
+generation outputs, which we find successful for certain types of attacks. We
+will discuss the limitation of this work, and hope this work can raise the
+awareness of backdoor risks concealed in deep NLG systems. (Code and data are
+available at https://github.com/ShannonAI/backdoor_nlg.)",2021-06-03
+"Generate, Prune, Select: A Pipeline for Counterspeech Generation against
+  Online Hate Speech",2021-06-03 06:54:03+00:00,http://arxiv.org/abs/2106.01625v1,"Wanzheng Zhu, Suma Bhat",cs.CL,dialogue,"Countermeasures to effectively fight the ever increasing hate speech online
+without blocking freedom of speech is of great social interest. Natural
+Language Generation (NLG), is uniquely capable of developing scalable
+solutions. However, off-the-shelf NLG methods are primarily
+sequence-to-sequence neural models and they are limited in that they generate
+commonplace, repetitive and safe responses regardless of the hate speech (e.g.,
+""Please refrain from using such language."") or irrelevant responses, making
+them ineffective for de-escalating hateful conversations. In this paper, we
+design a three-module pipeline approach to effectively improve the diversity
+and relevance. Our proposed pipeline first generates various counterspeech
+candidates by a generative model to promote diversity, then filters the
+ungrammatical ones using a BERT model, and finally selects the most relevant
+counterspeech response using a novel retrieval-based method. Extensive
+Experiments on three representative datasets demonstrate the efficacy of our
+approach in generating diverse and relevant counterspeech.",2021-06-03
+"Detecting Bot-Generated Text by Characterizing Linguistic Accommodation
+  in Human-Bot Interactions",2021-06-02 14:10:28+00:00,http://arxiv.org/abs/2106.01170v1,"Paras Bhatt, Anthony Rios",cs.CL,dialogue,"Language generation models' democratization benefits many domains, from
+answering health-related questions to enhancing education by providing
+AI-driven tutoring services. However, language generation models'
+democratization also makes it easier to generate human-like text at-scale for
+nefarious activities, from spreading misinformation to targeting specific
+groups with hate speech. Thus, it is essential to understand how people
+interact with bots and develop methods to detect bot-generated text. This paper
+shows that bot-generated text detection methods are more robust across datasets
+and models if we use information about how people respond to it rather than
+using the bot's text directly. We also analyze linguistic alignment, providing
+insight into differences between human-human and human-bot conversations.",2021-06-02
+"NeuralWOZ: Learning to Collect Task-Oriented Dialogue via Model-Based
+  Simulation",2021-05-30 07:54:54+00:00,http://arxiv.org/abs/2105.14454v1,"Sungdong Kim, Minsuk Chang, Sang-Woo Lee",cs.CL,dialogue,"We propose NeuralWOZ, a novel dialogue collection framework that uses
+model-based dialogue simulation. NeuralWOZ has two pipelined models, Collector
+and Labeler. Collector generates dialogues from (1) user's goal instructions,
+which are the user context and task constraints in natural language, and (2)
+system's API call results, which is a list of possible query responses for user
+requests from the given knowledge base. Labeler annotates the generated
+dialogue by formulating the annotation as a multiple-choice problem, in which
+the candidate labels are extracted from goal instructions and API call results.
+We demonstrate the effectiveness of the proposed method in the zero-shot domain
+transfer learning for dialogue state tracking. In the evaluation, the synthetic
+dialogue corpus generated from NeuralWOZ achieves a new state-of-the-art with
+improvements of 4.4% point joint goal accuracy on average across domains, and
+improvements of 5.7% point of zero-shot coverage against the MultiWOZ 2.1
+dataset.",2021-05-30
+OTTers: One-turn Topic Transitions for Open-Domain Dialogue,2021-05-28 10:16:59+00:00,http://arxiv.org/abs/2105.13710v1,"Karin Sevegnani, David M. Howcroft, Ioannis Konstas, Verena Rieser",cs.CL,dialogue,"Mixed initiative in open-domain dialogue requires a system to pro-actively
+introduce new topics. The one-turn topic transition task explores how a system
+connects two topics in a cooperative and coherent manner. The goal of the task
+is to generate a ""bridging"" utterance connecting the new topic to the topic of
+the previous conversation turn. We are especially interested in commonsense
+explanations of how a new topic relates to what has been mentioned before. We
+first collect a new dataset of human one-turn topic transitions, which we call
+OTTers. We then explore different strategies used by humans when asked to
+complete such a task, and notice that the use of a bridging utterance to
+connect the two topics is the approach used the most. We finally show how
+existing state-of-the-art text generation models can be adapted to this task
+and examine the performance of these baselines on different splits of the
+OTTers data.",2021-05-28
+Generative Adversarial Imitation Learning for Empathy-based AI,2021-05-27 17:37:37+00:00,http://arxiv.org/abs/2105.13328v1,"Pratyush Muthukumar, Karishma Muthukumar, Deepan Muthirayan, Pramod Khargonekar",cs.CL,dialogue,"Generative adversarial imitation learning (GAIL) is a model-free algorithm
+that has been shown to provide strong results in imitating complex behaviors in
+high-dimensional environments. In this paper, we utilize the GAIL model for
+text generation to develop empathy-based context-aware conversational AI. Our
+model uses an expert trajectory of empathetic prompt-response dialogues which
+can accurately exhibit the correct empathetic emotion when generating a
+response. The Generator of the GAIL model uses the GPT-2 sequential pre-trained
+language model trained on 117 million parameters from 40 GB of internet data.
+We propose a novel application of an approach used in transfer learning to fine
+tune the GPT-2 model in order to generate concise, user-specific empathetic
+responses validated against the Discriminator. Our novel GAIL model utilizes a
+sentiment analysis history-based reinforcement learning approach to
+empathetically respond to human interactions in a personalized manner. We find
+that our model's response scores on various human-generated prompts collected
+from the Facebook Empathetic Dialogues dataset outperform baseline
+counterparts. Moreover, our model improves upon various history-based
+conversational AI models developed recently, as our model's performance over a
+sustained conversation of 3 or more interactions outperform similar
+conversational AI models.",2021-05-27
 "Empirical Error Modeling Improves Robustness of Noisy Neural Sequence
   Labeling",2021-05-25 12:15:45+00:00,http://arxiv.org/abs/2105.11872v1,"Marcin Namysl, Sven Behnke, Joachim Köhler",cs.CL,dialogue,"Despite recent advances, standard sequence labeling systems often fail when
 processing noisy user-generated text or consuming the output of an Optical

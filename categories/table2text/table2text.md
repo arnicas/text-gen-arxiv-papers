@@ -7,10 +7,18 @@ sidebar:
 ---
 
 
-*written on 2021-06-02*
+*written on 2021-06-04*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Defending against Backdoor Attacks in Natural Language Generation](http://arxiv.org/abs/2106.01810v1) | Chun Fan, Xiaoya Li, Yuxian Meng, Xiaofei Sun, Xiang Ao, Fei Wu, Jiwei Li, Tianwei Zhang | cs.CL | 2021-06-03 |
+| [ZmBART: An Unsupervised Cross-lingual Transfer Framework for Language  Generation](http://arxiv.org/abs/2106.01597v1) | Kaushal Kumar Maurya, Maunendra Sankar Desarkar, Yoshinobu Kano, Kumari Deepshikha | cs.CL, cs.AI, cs.LG | 2021-06-03 |
+| [Sketch and Refine: Towards Faithful and Informative Table-to-Text  Generation](http://arxiv.org/abs/2105.14778v1) | Peng Wang, Junyang Lin, An Yang, Chang Zhou, Yichang Zhang, Jingren Zhou, Hongxia Yang | cs.CL | 2021-05-31 |
+| [Grammar Accuracy Evaluation (GAE): Quantifiable Intrinsic Evaluation of  Machine Translation Models](http://arxiv.org/abs/2105.14277v2) | Dojun Park, Youngjin Jang, Harksoo Kim | cs.CL | 2021-05-29 |
+| [Annotation Inconsistency and Entity Bias in MultiWOZ](http://arxiv.org/abs/2105.14150v1) | Kun Qian, Ahmad Beirami, Zhouhan Lin, Ankita De, Alborz Geramifard, Zhou Yu, Chinnadhurai Sankar | cs.CL | 2021-05-29 |
+| [OTTers: One-turn Topic Transitions for Open-Domain Dialogue](http://arxiv.org/abs/2105.13710v1) | Karin Sevegnani, David M. Howcroft, Ioannis Konstas, Verena Rieser | cs.CL | 2021-05-28 |
+| [Data Augmentation for Text Generation Without Any Augmented Data](http://arxiv.org/abs/2105.13650v1) | Wei Bi, Huayang Li, Jiacheng Huang | cs.CL, cs.AI | 2021-05-28 |
+| [Generative Adversarial Imitation Learning for Empathy-based AI](http://arxiv.org/abs/2105.13328v1) | Pratyush Muthukumar, Karishma Muthukumar, Deepan Muthirayan, Pramod Khargonekar | cs.CL | 2021-05-27 |
 | [Empirical Error Modeling Improves Robustness of Noisy Neural Sequence  Labeling](http://arxiv.org/abs/2105.11872v1) | Marcin Namysl, Sven Behnke, Joachim Köhler | cs.CL | 2021-05-25 |
 | [Controlling Text Edition by Changing Answers of Specific Questions](http://arxiv.org/abs/2105.11018v1) | Lei Sha, Patrick Hohenecker, Thomas Lukasiewicz | cs.CL, cs.AI, cs.LG | 2021-05-23 |
 | [Pretrained Language Models for Text Generation: A Survey](http://arxiv.org/abs/2105.10311v2) | Junyi Li, Tianyi Tang, Wayne Xin Zhao, Ji-Rong Wen | cs.CL, cs.AI | 2021-05-21 |

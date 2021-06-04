@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-06-02*
+*written on 2021-06-04*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Sketch and Refine: Towards Faithful and Informative Table-to-Text  Generation](http://arxiv.org/abs/2105.14778v1) | Peng Wang, Junyang Lin, An Yang, Chang Zhou, Yichang Zhang, Jingren Zhou, Hongxia Yang | cs.CL | 2021-05-31 |
 | [Dependent Multi-Task Learning with Causal Intervention for Image  Captioning](http://arxiv.org/abs/2105.08573v1) | Wenqing Chen, Jidong Tian, Caoyun Fan, Hao He, Yaohui Jin | cs.LG, cs.CV, eess.IV | 2021-05-18 |
 | [Multi-Modal Image Captioning for the Visually Impaired](http://arxiv.org/abs/2105.08106v1) | Hiba Ahsan, Nikita Bhalla, Daivat Bhatt, Kaivankumar Shah | cs.CL | 2021-05-17 |
 | [Passage Retrieval for Outside-Knowledge Visual Question Answering](http://arxiv.org/abs/2105.03938v1) | Chen Qu, Hamed Zamani, Liu Yang, W. Bruce Croft, Erik Learned-Miller | cs.IR | 2021-05-09 |

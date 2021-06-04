@@ -1,4 +1,45 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Few-shot Knowledge Graph-to-Text Generation with Pretrained Language
+  Models",2021-06-03 06:48:00+00:00,http://arxiv.org/abs/2106.01623v1,"Junyi Li, Tianyi Tang, Wayne Xin Zhao, Zhicheng Wei, Nicholas Jing Yuan, Ji-Rong Wen",cs.CL,knowledge,"This paper studies how to automatically generate a natural language text that
+describes the facts in knowledge graph (KG). Considering the few-shot setting,
+we leverage the excellent capacities of pretrained language models (PLMs) in
+language understanding and generation. We make three major technical
+contributions, namely representation alignment for bridging the semantic gap
+between KG encodings and PLMs, relation-biased KG linearization for deriving
+better input representations, and multi-task learning for learning the
+correspondence between KG and text. Extensive experiments on three benchmark
+datasets have demonstrated the effectiveness of our model on KG-to-text
+generation task. In particular, our model outperforms all comparison methods on
+both fully-supervised and few-shot settings. Our code and datasets are
+available at https://github.com/RUCAIBox/Few-Shot-KG2Text.",2021-06-03
+Inspecting the concept knowledge graph encoded by modern language models,2021-05-27 22:19:19+00:00,http://arxiv.org/abs/2105.13471v2,"Carlos Aspillaga, Marcelo Mendoza, Alvaro Soto","cs.AI, cs.CL",knowledge,"The field of natural language understanding has experienced exponential
+progress in the last few years, with impressive results in several tasks. This
+success has motivated researchers to study the underlying knowledge encoded by
+these models. Despite this, attempts to understand their semantic capabilities
+have not been successful, often leading to non-conclusive, or contradictory
+conclusions among different works. Via a probing classifier, we extract the
+underlying knowledge graph of nine of the most influential language models of
+the last years, including word embeddings, text generators, and context
+encoders. This probe is based on concept relatedness, grounded on WordNet. Our
+results reveal that all the models encode this knowledge, but suffer from
+several inaccuracies. Furthermore, we show that the different architectures and
+training strategies lead to different model biases. We conduct a systematic
+evaluation to discover specific factors that explain why some concepts are
+challenging. We hope our insights will motivate the development of models that
+capture concepts more precisely.",2021-05-27
+"Read, Listen, and See: Leveraging Multimodal Information Helps Chinese
+  Spell Checking",2021-05-26 02:38:11+00:00,http://arxiv.org/abs/2105.12306v1,"Heng-Da Xu, Zhongli Li, Qingyu Zhou, Chao Li, Zizhen Wang, Yunbo Cao, Heyan Huang, Xian-Ling Mao",cs.CL,knowledge,"Chinese Spell Checking (CSC) aims to detect and correct erroneous characters
+for user-generated text in the Chinese language. Most of the Chinese spelling
+errors are misused semantically, phonetically or graphically similar
+characters. Previous attempts noticed this phenomenon and try to use the
+similarity for this task. However, these methods use either heuristics or
+handcrafted confusion sets to predict the correct character. In this paper, we
+propose a Chinese spell checker called ReaLiSe, by directly leveraging the
+multimodal information of the Chinese characters. The ReaLiSe model tackles the
+CSC task by (1) capturing the semantic, phonetic and graphic information of the
+input characters, and (2) selectively mixing the information in these
+modalities to predict the correct output. Experiments on the SIGHAN benchmarks
+show that the proposed model outperforms strong baselines by a large margin.",2021-05-26
 Personalized Transformer for Explainable Recommendation,2021-05-25 01:42:47+00:00,http://arxiv.org/abs/2105.11601v1,"Lei Li, Yongfeng Zhang, Li Chen","cs.IR, cs.AI",knowledge,"Personalization of natural language generation plays a vital role in a large
 spectrum of tasks, such as explainable recommendation, review summarization and
 dialog systems. In these tasks, user and item IDs are important identifiers for

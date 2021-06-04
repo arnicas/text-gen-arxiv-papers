@@ -6,10 +6,13 @@ sidebar:
 ---
 
 
-*written on 2021-06-02*
+*written on 2021-06-04*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Few-shot Knowledge Graph-to-Text Generation with Pretrained Language  Models](http://arxiv.org/abs/2106.01623v1) | Junyi Li, Tianyi Tang, Wayne Xin Zhao, Zhicheng Wei, Nicholas Jing Yuan, Ji-Rong Wen | cs.CL | 2021-06-03 |
+| [Inspecting the concept knowledge graph encoded by modern language models](http://arxiv.org/abs/2105.13471v2) | Carlos Aspillaga, Marcelo Mendoza, Alvaro Soto | cs.AI, cs.CL | 2021-05-27 |
+| [Read, Listen, and See: Leveraging Multimodal Information Helps Chinese  Spell Checking](http://arxiv.org/abs/2105.12306v1) | Heng-Da Xu, Zhongli Li, Qingyu Zhou, Chao Li, Zizhen Wang, Yunbo Cao, Heyan Huang, Xian-Ling Mao | cs.CL | 2021-05-26 |
 | [Personalized Transformer for Explainable Recommendation](http://arxiv.org/abs/2105.11601v1) | Lei Li, Yongfeng Zhang, Li Chen | cs.IR, cs.AI | 2021-05-25 |
 | [VANiLLa : Verbalized Answers in Natural Language at Large Scale](http://arxiv.org/abs/2105.11407v1) | Debanjali Biswas, Mohnish Dubey, Md Rashad Al Hasan Rony, Jens Lehmann | cs.CL | 2021-05-24 |
 | [Long Text Generation by Modeling Sentence-Level and Discourse-Level  Coherence](http://arxiv.org/abs/2105.08963v1) | Jian Guan, Xiaoxi Mao, Changjie Fan, Zitao Liu, Wenbiao Ding, Minlie Huang | cs.CL | 2021-05-19 |

@@ -1,4 +1,21 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Sketch and Refine: Towards Faithful and Informative Table-to-Text
+  Generation",2021-05-31 08:18:13+00:00,http://arxiv.org/abs/2105.14778v1,"Peng Wang, Junyang Lin, An Yang, Chang Zhou, Yichang Zhang, Jingren Zhou, Hongxia Yang",cs.CL,image2text,"Table-to-text generation refers to generating a descriptive text from a
+key-value table. Traditional autoregressive methods, though can generate text
+with high fluency, suffer from low coverage and poor faithfulness problems. To
+mitigate these problems, we propose a novel Skeleton-based two-stage method
+that combines both Autoregressive and Non-Autoregressive generations (SANA).
+Our approach includes: (1) skeleton generation with an autoregressive pointer
+network to select key tokens from the source table; (2) edit-based
+non-autoregressive generation model to produce texts via iterative insertion
+and deletion operations. By integrating hard constraints from the skeleton, the
+non-autoregressive model improves the generation's coverage over the source
+table and thus enhances its faithfulness. We conduct automatic and human
+evaluations on both WikiPerson and WikiBio datasets. Experimental results
+demonstrate that our method outperforms the previous state-of-the-art methods
+in both automatic and human evaluation, especially on coverage and
+faithfulness. In particular, we achieve PARENT-T recall of 99.47 in WikiPerson,
+improving over the existing best results by more than 10 points.",2021-05-31
 "Dependent Multi-Task Learning with Causal Intervention for Image
   Captioning",2021-05-18 14:57:33+00:00,http://arxiv.org/abs/2105.08573v1,"Wenqing Chen, Jidong Tian, Caoyun Fan, Hao He, Yaohui Jin","cs.LG, cs.CV, eess.IV",image2text,"Recent work for image captioning mainly followed an extract-then-generate
 paradigm, pre-extracting a sequence of object-based features and then
