@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-06-04*
+*written on 2021-06-14*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [AUGNLG: Few-shot Natural Language Generation using Self-trained Data  Augmentation](http://arxiv.org/abs/2106.05589v1) | Xinnuo Xu, Guoyin Wang, Young-Bum Kim, Sungjin Lee | cs.CL | 2021-06-10 |
 | [Defending against Backdoor Attacks in Natural Language Generation](http://arxiv.org/abs/2106.01810v1) | Chun Fan, Xiaoya Li, Yuxian Meng, Xiaofei Sun, Xiang Ao, Fei Wu, Jiwei Li, Tianwei Zhang | cs.CL | 2021-06-03 |
 | [Generate, Prune, Select: A Pipeline for Counterspeech Generation against  Online Hate Speech](http://arxiv.org/abs/2106.01625v1) | Wanzheng Zhu, Suma Bhat | cs.CL | 2021-06-03 |
 | [Detecting Bot-Generated Text by Characterizing Linguistic Accommodation  in Human-Bot Interactions](http://arxiv.org/abs/2106.01170v1) | Paras Bhatt, Anthony Rios | cs.CL | 2021-06-02 |

@@ -1,4 +1,57 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"AUGNLG: Few-shot Natural Language Generation using Self-trained Data
+  Augmentation",2021-06-10 08:45:28+00:00,http://arxiv.org/abs/2106.05589v1,"Xinnuo Xu, Guoyin Wang, Young-Bum Kim, Sungjin Lee",cs.CL,table2text,"Natural Language Generation (NLG) is a key component in a task-oriented
+dialogue system, which converts the structured meaning representation (MR) to
+the natural language. For large-scale conversational systems, where it is
+common to have over hundreds of intents and thousands of slots, neither
+template-based approaches nor model-based approaches are scalable. Recently,
+neural NLGs started leveraging transfer learning and showed promising results
+in few-shot settings. This paper proposes AUGNLG, a novel data augmentation
+approach that combines a self-trained neural retrieval model with a few-shot
+learned NLU model, to automatically create MR-to-Text data from open-domain
+texts. The proposed system mostly outperforms the state-of-the-art methods on
+the FewShotWOZ data in both BLEU and Slot Error Rate. We further confirm
+improved results on the FewShotSGD data and provide comprehensive analysis
+results on key components of our system. Our code and data are available at
+https://github.com/XinnuoXu/AugNLG.",2021-06-10
+AGGGEN: Ordering and Aggregating while Generating,2021-06-10 08:14:59+00:00,http://arxiv.org/abs/2106.05580v1,"Xinnuo Xu, Ondřej Dušek, Verena Rieser, Ioannis Konstas",cs.CL,table2text,"We present AGGGEN (pronounced 'again'), a data-to-text model which
+re-introduces two explicit sentence planning stages into neural data-to-text
+systems: input ordering and input aggregation. In contrast to previous work
+using sentence planning, our model is still end-to-end: AGGGEN performs
+sentence planning at the same time as generating text by learning latent
+alignments (via semantic facts) between input representation and target text.
+Experiments on the WebNLG and E2E challenge data show that by using fact-based
+alignments our approach is more interpretable, expressive, robust to noise, and
+easier to control, while retaining the advantages of end-to-end systems in
+terms of fluency. Our code is available at https://github.com/XinnuoXu/AggGen.",2021-06-10
+"Turing: an Accurate and Interpretable Multi-Hypothesis Cross-Domain
+  Natural Language Database Interface",2021-06-08 17:46:20+00:00,http://arxiv.org/abs/2106.04559v1,"Peng Xu, Wenjie Zi, Hamidreza Shahidi, Ákos Kádár, Keyi Tang, Wei Yang, Jawad Ateeq, Harsh Barot, Meidan Alon, Yanshuai Cao",cs.CL,table2text,"A natural language database interface (NLDB) can democratize data-driven
+insights for non-technical users. However, existing Text-to-SQL semantic
+parsers cannot achieve high enough accuracy in the cross-database setting to
+allow good usability in practice. This work presents Turing, a NLDB system
+toward bridging this gap. The cross-domain semantic parser of Turing with our
+novel value prediction method achieves $75.1\%$ execution accuracy, and
+$78.3\%$ top-5 beam execution accuracy on the Spider validation set. To benefit
+from the higher beam accuracy, we design an interactive system where the SQL
+hypotheses in the beam are explained step-by-step in natural language, with
+their differences highlighted. The user can then compare and judge the
+hypotheses to select which one reflects their intention if any. The English
+explanations of SQL queries in Turing are produced by our high-precision
+natural language generation system based on synchronous grammars.",2021-06-08
+Neural semi-Markov CRF for Monolingual Word Alignment,2021-06-04 16:04:00+00:00,http://arxiv.org/abs/2106.02569v1,"Wuwei Lan, Chao Jiang, Wei Xu",cs.CL,table2text,"Monolingual word alignment is important for studying fine-grained editing
+operations (i.e., deletion, addition, and substitution) in text-to-text
+generation tasks, such as paraphrase generation, text simplification,
+neutralizing biased language, etc. In this paper, we present a novel neural
+semi-Markov CRF alignment model, which unifies word and phrase alignments
+through variable-length spans. We also create a new benchmark with human
+annotations that cover four different text genres to evaluate monolingual word
+alignment models in more realistic settings. Experimental results show that our
+proposed model outperforms all previous approaches for monolingual word
+alignment as well as a competitive QA-based baseline, which was previously only
+applied to bilingual data. Our model demonstrates good generalizability to
+three out-of-domain datasets and shows great utility in two downstream
+applications: automatic text simplification and sentence pair classification
+tasks.",2021-06-04
 Defending against Backdoor Attacks in Natural Language Generation,2021-06-03 13:00:28+00:00,http://arxiv.org/abs/2106.01810v1,"Chun Fan, Xiaoya Li, Yuxian Meng, Xiaofei Sun, Xiang Ao, Fei Wu, Jiwei Li, Tianwei Zhang",cs.CL,table2text,"The frustratingly fragile nature of neural network models make current
 natural language generation (NLG) systems prone to backdoor attacks and
 generate malicious sequences that could be sexist or offensive. Unfortunately,

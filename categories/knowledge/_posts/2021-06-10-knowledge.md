@@ -6,10 +6,12 @@ sidebar:
 ---
 
 
-*written on 2021-06-04*
+*written on 2021-06-14*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [AGGGEN: Ordering and Aggregating while Generating](http://arxiv.org/abs/2106.05580v1) | Xinnuo Xu, Ondřej Dušek, Verena Rieser, Ioannis Konstas | cs.CL | 2021-06-10 |
+| [Turing: an Accurate and Interpretable Multi-Hypothesis Cross-Domain  Natural Language Database Interface](http://arxiv.org/abs/2106.04559v1) | Peng Xu, Wenjie Zi, Hamidreza Shahidi, Ákos Kádár, Keyi Tang, Wei Yang, Jawad Ateeq, Harsh Barot, Meidan Alon, Yanshuai Cao | cs.CL | 2021-06-08 |
 | [Few-shot Knowledge Graph-to-Text Generation with Pretrained Language  Models](http://arxiv.org/abs/2106.01623v1) | Junyi Li, Tianyi Tang, Wayne Xin Zhao, Zhicheng Wei, Nicholas Jing Yuan, Ji-Rong Wen | cs.CL | 2021-06-03 |
 | [Inspecting the concept knowledge graph encoded by modern language models](http://arxiv.org/abs/2105.13471v2) | Carlos Aspillaga, Marcelo Mendoza, Alvaro Soto | cs.AI, cs.CL | 2021-05-27 |
 | [Read, Listen, and See: Leveraging Multimodal Information Helps Chinese  Spell Checking](http://arxiv.org/abs/2105.12306v1) | Heng-Da Xu, Zhongli Li, Qingyu Zhou, Chao Li, Zizhen Wang, Yunbo Cao, Heyan Huang, Xian-Ling Mao | cs.CL | 2021-05-26 |

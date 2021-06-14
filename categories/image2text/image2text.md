@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-06-04*
+*written on 2021-06-14*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [ImaginE: An Imagination-Based Automatic Evaluation Metric for Natural  Language Generation](http://arxiv.org/abs/2106.05970v1) | Wanrong Zhu, Xin Eric Wang, An Yan, Miguel Eckstein, William Yang Wang | cs.CL, cs.AI, cs.CV | 2021-06-10 |
 | [Sketch and Refine: Towards Faithful and Informative Table-to-Text  Generation](http://arxiv.org/abs/2105.14778v1) | Peng Wang, Junyang Lin, An Yang, Chang Zhou, Yichang Zhang, Jingren Zhou, Hongxia Yang | cs.CL | 2021-05-31 |
 | [Dependent Multi-Task Learning with Causal Intervention for Image  Captioning](http://arxiv.org/abs/2105.08573v1) | Wenqing Chen, Jidong Tian, Caoyun Fan, Hao He, Yaohui Jin | cs.LG, cs.CV, eess.IV | 2021-05-18 |
 | [Multi-Modal Image Captioning for the Visually Impaired](http://arxiv.org/abs/2105.08106v1) | Hiba Ahsan, Nikita Bhalla, Daivat Bhatt, Kaivankumar Shah | cs.CL | 2021-05-17 |

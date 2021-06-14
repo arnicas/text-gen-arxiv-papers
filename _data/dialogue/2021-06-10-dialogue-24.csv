@@ -1,4 +1,19 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"AUGNLG: Few-shot Natural Language Generation using Self-trained Data
+  Augmentation",2021-06-10 08:45:28+00:00,http://arxiv.org/abs/2106.05589v1,"Xinnuo Xu, Guoyin Wang, Young-Bum Kim, Sungjin Lee",cs.CL,dialogue,"Natural Language Generation (NLG) is a key component in a task-oriented
+dialogue system, which converts the structured meaning representation (MR) to
+the natural language. For large-scale conversational systems, where it is
+common to have over hundreds of intents and thousands of slots, neither
+template-based approaches nor model-based approaches are scalable. Recently,
+neural NLGs started leveraging transfer learning and showed promising results
+in few-shot settings. This paper proposes AUGNLG, a novel data augmentation
+approach that combines a self-trained neural retrieval model with a few-shot
+learned NLU model, to automatically create MR-to-Text data from open-domain
+texts. The proposed system mostly outperforms the state-of-the-art methods on
+the FewShotWOZ data in both BLEU and Slot Error Rate. We further confirm
+improved results on the FewShotSGD data and provide comprehensive analysis
+results on key components of our system. Our code and data are available at
+https://github.com/XinnuoXu/AugNLG.",2021-06-10
 Defending against Backdoor Attacks in Natural Language Generation,2021-06-03 13:00:28+00:00,http://arxiv.org/abs/2106.01810v1,"Chun Fan, Xiaoya Li, Yuxian Meng, Xiaofei Sun, Xiang Ao, Fei Wu, Jiwei Li, Tianwei Zhang",cs.CL,dialogue,"The frustratingly fragile nature of neural network models make current
 natural language generation (NLG) systems prone to backdoor attacks and
 generate malicious sequences that could be sexist or offensive. Unfortunately,

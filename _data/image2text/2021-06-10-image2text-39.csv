@@ -1,4 +1,18 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"ImaginE: An Imagination-Based Automatic Evaluation Metric for Natural
+  Language Generation",2021-06-10 17:59:52+00:00,http://arxiv.org/abs/2106.05970v1,"Wanrong Zhu, Xin Eric Wang, An Yan, Miguel Eckstein, William Yang Wang","cs.CL, cs.AI, cs.CV",image2text,"Automatic evaluations for natural language generation (NLG) conventionally
+rely on token-level or embedding-level comparisons with the text references.
+This is different from human language processing, for which visual imaginations
+often improve comprehension. In this work, we propose ImaginE, an
+imagination-based automatic evaluation metric for natural language generation.
+With the help of CLIP and DALL-E, two cross-modal models pre-trained on
+large-scale image-text pairs, we automatically generate an image as the
+embodied imagination for the text snippet and compute the imagination
+similarity using contextual embeddings. Experiments spanning several text
+generation tasks demonstrate that adding imagination with our ImaginE displays
+great potential in introducing multi-modal information into NLG evaluation, and
+improves existing automatic metrics' correlations with human similarity
+judgments in many circumstances.",2021-06-10
 "Sketch and Refine: Towards Faithful and Informative Table-to-Text
   Generation",2021-05-31 08:18:13+00:00,http://arxiv.org/abs/2105.14778v1,"Peng Wang, Junyang Lin, An Yang, Chang Zhou, Yichang Zhang, Jingren Zhou, Hongxia Yang",cs.CL,image2text,"Table-to-text generation refers to generating a descriptive text from a
 key-value table. Traditional autoregressive methods, though can generate text
