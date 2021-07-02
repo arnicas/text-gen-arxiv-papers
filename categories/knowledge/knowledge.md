@@ -7,10 +7,16 @@ sidebar:
 ---
 
 
-*written on 2021-06-14*
+*written on 2021-07-02*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Capturing Event Argument Interaction via A Bi-Directional Entity-Level  Recurrent Decoder](http://arxiv.org/abs/2107.00189v1) | Xiangyu Xi, Wei Ye, Shikun Zhang, Quanxiu Wang, Huixing Jiang, Wei Wu | cs.CL | 2021-07-01 |
+| [Topic-to-Essay Generation with Comprehensive Knowledge Enhancement](http://arxiv.org/abs/2106.15142v1) | Zhiyue Liu, Jiahai Wang, Zhenghong Li | cs.CL | 2021-06-29 |
+| [Membership Inference on Word Embedding and Beyond](http://arxiv.org/abs/2106.11384v1) | Saeed Mahloujifar, Huseyin A. Inan, Melissa Chase, Esha Ghosh, Marcello Hasegawa | cs.CL, cs.AI, cs.CR, cs.LG | 2021-06-21 |
+| [Do Encoder Representations of Generative Dialogue Models Encode  Sufficient Information about the Task ?](http://arxiv.org/abs/2106.10622v1) | Prasanna Parthasarathi, Joelle Pineau, Sarath Chandar | cs.CL | 2021-06-20 |
+| [JointGT: Graph-Text Joint Representation Learning for Text Generation  from Knowledge Graphs](http://arxiv.org/abs/2106.10502v1) | Pei Ke, Haozhe Ji, Yu Ran, Xin Cui, Liwei Wang, Linfeng Song, Xiaoyan Zhu, Minlie Huang | cs.CL, cs.AI | 2021-06-19 |
+| [Zero-Shot Controlled Generation with Encoder-Decoder Transformers](http://arxiv.org/abs/2106.06411v2) | Devamanyu Hazarika, Mahdi Namazifar, Dilek Hakkani-Tür | cs.CL, cs.AI | 2021-06-11 |
 | [AGGGEN: Ordering and Aggregating while Generating](http://arxiv.org/abs/2106.05580v1) | Xinnuo Xu, Ondřej Dušek, Verena Rieser, Ioannis Konstas | cs.CL | 2021-06-10 |
 | [Turing: an Accurate and Interpretable Multi-Hypothesis Cross-Domain  Natural Language Database Interface](http://arxiv.org/abs/2106.04559v1) | Peng Xu, Wenjie Zi, Hamidreza Shahidi, Ákos Kádár, Keyi Tang, Wei Yang, Jawad Ateeq, Harsh Barot, Meidan Alon, Yanshuai Cao | cs.CL | 2021-06-08 |
 | [Few-shot Knowledge Graph-to-Text Generation with Pretrained Language  Models](http://arxiv.org/abs/2106.01623v1) | Junyi Li, Tianyi Tang, Wayne Xin Zhao, Zhicheng Wei, Nicholas Jing Yuan, Ji-Rong Wen | cs.CL | 2021-06-03 |

@@ -1,4 +1,39 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Do Encoder Representations of Generative Dialogue Models Encode
+  Sufficient Information about the Task ?",2021-06-20 04:52:37+00:00,http://arxiv.org/abs/2106.10622v1,"Prasanna Parthasarathi, Joelle Pineau, Sarath Chandar",cs.CL,dialogue,"Predicting the next utterance in dialogue is contingent on encoding of users'
+input text to generate appropriate and relevant response in data-driven
+approaches. Although the semantic and syntactic quality of the language
+generated is evaluated, more often than not, the encoded representation of
+input is not evaluated. As the representation of the encoder is essential for
+predicting the appropriate response, evaluation of encoder representation is a
+challenging yet important problem. In this work, we showcase evaluating the
+text generated through human or automatic metrics is not sufficient to
+appropriately evaluate soundness of the language understanding of dialogue
+models and, to that end, propose a set of probe tasks to evaluate encoder
+representation of different language encoders commonly used in dialogue models.
+From experiments, we observe that some of the probe tasks are easier and some
+are harder for even sophisticated model architectures to learn. And, through
+experiments we observe that RNN based architectures have lower performance on
+automatic metrics on text generation than transformer model but perform better
+than the transformer model on the probe tasks indicating that RNNs might
+preserve task information better than the Transformers.",2021-06-20
+Local Explanation of Dialogue Response Generation,2021-06-11 17:58:36+00:00,http://arxiv.org/abs/2106.06528v1,"Yi-Lin Tuan, Connor Pryor, Wenhu Chen, Lise Getoor, William Yang Wang","cs.CL, stat.ML",dialogue,"In comparison to the interpretation of classification models, the explanation
+of sequence generation models is also an important problem, however it has seen
+little attention. In this work, we study model-agnostic explanations of a
+representative text generation task -- dialogue response generation. Dialog
+response generation is challenging with its open-ended sentences and multiple
+acceptable responses. To gain insights into the reasoning process of a
+generation model, we propose anew method, local explanation of response
+generation (LERG) that regards the explanations as the mutual interaction of
+segments in input and output sentences. LERG views the sequence prediction as
+uncertainty estimation of a human response and then creates explanations by
+perturbing the input and calculating the certainty change over the human
+response. We show that LERG adheres to desired properties of explanations for
+text generation including unbiased approximation, consistency and cause
+identification. Empirically, our results show that our method consistently
+improves other widely used methods on proposed automatic- and human- evaluation
+metrics for this new task by 4.4-12.8%. Our analysis demonstrates that LERG can
+extract both explicit and implicit relations between input and output segments.",2021-06-11
 "AUGNLG: Few-shot Natural Language Generation using Self-trained Data
   Augmentation",2021-06-10 08:45:28+00:00,http://arxiv.org/abs/2106.05589v1,"Xinnuo Xu, Guoyin Wang, Young-Bum Kim, Sungjin Lee",cs.CL,dialogue,"Natural Language Generation (NLG) is a key component in a task-oriented
 dialogue system, which converts the structured meaning representation (MR) to

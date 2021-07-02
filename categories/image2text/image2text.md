@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2021-06-14*
+*written on 2021-07-02*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Don't Take It Literally: An Edit-Invariant Sequence Loss for Text  Generation](http://arxiv.org/abs/2106.15078v1) | Guangyi Liu, Zichao Yang, Tianhua Tao, Xiaodan Liang, Zhen Li, Bowen Zhou, Shuguang Cui, Zhiting Hu | cs.CL, cs.AI | 2021-06-29 |
+| [UMIC: An Unreferenced Metric for Image Captioning via Contrastive  Learning](http://arxiv.org/abs/2106.14019v1) | Hwanhee Lee, Seunghyun Yoon, Franck Dernoncourt, Trung Bui, Kyomin Jung | cs.CL, cs.CV | 2021-06-26 |
 | [ImaginE: An Imagination-Based Automatic Evaluation Metric for Natural  Language Generation](http://arxiv.org/abs/2106.05970v1) | Wanrong Zhu, Xin Eric Wang, An Yan, Miguel Eckstein, William Yang Wang | cs.CL, cs.AI, cs.CV | 2021-06-10 |
 | [Sketch and Refine: Towards Faithful and Informative Table-to-Text  Generation](http://arxiv.org/abs/2105.14778v1) | Peng Wang, Junyang Lin, An Yang, Chang Zhou, Yichang Zhang, Jingren Zhou, Hongxia Yang | cs.CL | 2021-05-31 |
 | [Dependent Multi-Task Learning with Causal Intervention for Image  Captioning](http://arxiv.org/abs/2105.08573v1) | Wenqing Chen, Jidong Tian, Caoyun Fan, Hao He, Yaohui Jin | cs.LG, cs.CV, eess.IV | 2021-05-18 |

@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2021-06-02*
+*written on 2021-07-02*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated  Text](http://arxiv.org/abs/2107.00061v1) | Elizabeth Clark, Tal August, Sofia Serrano, Nikita Haduong, Suchin Gururangan, Noah A. Smith | cs.CL | 2021-06-30 |
+| [Graph-based Trajectory Visualization for Text Mining of COVID-19  Biomedical Literature](http://arxiv.org/abs/2106.07374v1) | Yeseul Jeon, Dongjun Chung, Jina Park, Ick Hoon Jin | cs.IR, stat.AP | 2021-06-07 |
 | [Long Text Generation by Modeling Sentence-Level and Discourse-Level  Coherence](http://arxiv.org/abs/2105.08963v1) | Jian Guan, Xiaoxi Mao, Changjie Fan, Zitao Liu, Wenbiao Ding, Minlie Huang | cs.CL | 2021-05-19 |
 | [OpenMEVA: A Benchmark for Evaluating Open-ended Story Generation Metrics](http://arxiv.org/abs/2105.08920v1) | Jian Guan, Zhexin Zhang, Zhuoer Feng, Zitao Liu, Wenbiao Ding, Xiaoxi Mao, Changjie Fan, Minlie Huang | cs.CL | 2021-05-19 |
 | [Stylized Story Generation with Style-Guided Planning](http://arxiv.org/abs/2105.08625v2) | Xiangzhe Kong, Jialiang Huang, Ziquan Tung, Jian Guan, Minlie Huang | cs.CL, cs.AI | 2021-05-18 |

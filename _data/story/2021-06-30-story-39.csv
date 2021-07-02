@@ -1,4 +1,44 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated
+  Text",2021-06-30 19:00:25+00:00,http://arxiv.org/abs/2107.00061v1,"Elizabeth Clark, Tal August, Sofia Serrano, Nikita Haduong, Suchin Gururangan, Noah A. Smith",cs.CL,story,"Human evaluations are typically considered the gold standard in natural
+language generation, but as models' fluency improves, how well can evaluators
+detect and judge machine-generated text? We run a study assessing non-experts'
+ability to distinguish between human- and machine-authored text (GPT2 and GPT3)
+in three domains (stories, news articles, and recipes). We find that, without
+training, evaluators distinguished between GPT3- and human-authored text at
+random chance level. We explore three approaches for quickly training
+evaluators to better identify GPT3-authored text (detailed instructions,
+annotated examples, and paired examples) and find that while evaluators'
+accuracy improved up to 55%, it did not significantly improve across the three
+domains. Given the inconsistent results across text domains and the often
+contradictory reasons evaluators gave for their judgments, we examine the role
+untrained human evaluations play in NLG evaluation and provide recommendations
+to NLG researchers for improving human evaluations of text generated from
+state-of-the-art models.",2021-06-30
+"Graph-based Trajectory Visualization for Text Mining of COVID-19
+  Biomedical Literature",2021-06-07 06:01:17+00:00,http://arxiv.org/abs/2106.07374v1,"Yeseul Jeon, Dongjun Chung, Jina Park, Ick Hoon Jin","cs.IR, stat.AP",story,"Since the emergence of the worldwide pandemic of COVID-19, relevant research
+has been published at a dazzling pace, which makes it hard to follow the
+research in this area without dedicated efforts. It is practically impossible
+to implement this task manually due to the high volume of the relevant
+literature. Text mining has been considered to be a powerful approach to
+address this challenge, especially the topic modeling, a well-known
+unsupervised method that aims to reveal latent topics from the literature.
+However, in spite of its potential utility, the results generated from this
+approach are often investigated manually. Hence, its application to the
+COVID-19 literature is not straightforward and expert knowledge is needed to
+make meaningful interpretations. In order to address these challenges, we
+propose a novel analytical framework for effective visualization and mining of
+topic modeling results. Here we assumed that topics constituting a paper can be
+positioned on an interaction map, which belongs to a high-dimensional Euclidean
+space. Based on this assumption, after summarizing topics with their topic-word
+distributions using the biterm topic model, we mapped these latent topics on
+networks to visualize relationships among the topics. Moreover, in the proposed
+approach, the change of relationships among topics can be traced using a
+trajectory plot generated with different levels of word richness. These results
+together provide a deeply mined and intuitive representation of relationships
+among topics related to a specific research area. The application of this
+proposed framework to the PubMed literature shows that our approach facilitates
+understanding of the topics constituting the COVID-19 knowledge.",2021-06-07
 "Long Text Generation by Modeling Sentence-Level and Discourse-Level
   Coherence",2021-05-19 07:29:08+00:00,http://arxiv.org/abs/2105.08963v1,"Jian Guan, Xiaoxi Mao, Changjie Fan, Zitao Liu, Wenbiao Ding, Minlie Huang",cs.CL,story,"Generating long and coherent text is an important but challenging task,
 particularly for open-ended language generation tasks such as story generation.

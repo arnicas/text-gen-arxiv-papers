@@ -1,4 +1,108 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Topic-to-Essay Generation with Comprehensive Knowledge Enhancement,2021-06-29 08:01:42+00:00,http://arxiv.org/abs/2106.15142v1,"Zhiyue Liu, Jiahai Wang, Zhenghong Li",cs.CL,table2text,"Generating high-quality and diverse essays with a set of topics is a
+challenging task in natural language generation. Since several given topics
+only provide limited source information, utilizing various topic-related
+knowledge is essential for improving essay generation performance. However,
+previous works cannot sufficiently use that knowledge to facilitate the
+generation procedure. This paper aims to improve essay generation by extracting
+information from both internal and external knowledge. Thus, a topic-to-essay
+generation model with comprehensive knowledge enhancement, named TEGKE, is
+proposed. For internal knowledge enhancement, both topics and related essays
+are fed to a teacher network as source information. Then, informative features
+would be obtained from the teacher network and transferred to a student network
+which only takes topics as input but provides comparable information compared
+with the teacher network. For external knowledge enhancement, a topic knowledge
+graph encoder is proposed. Unlike the previous works only using the nearest
+neighbors of topics in the commonsense base, our topic knowledge graph encoder
+could exploit more structural and semantic information of the commonsense
+knowledge graph to facilitate essay generation. Moreover, the adversarial
+training based on the Wasserstein distance is proposed to improve generation
+quality. Experimental results demonstrate that TEGKE could achieve
+state-of-the-art performance on both automatic and human evaluation.",2021-06-29
+"DeltaLM: Encoder-Decoder Pre-training for Language Generation and
+  Translation by Augmenting Pretrained Multilingual Encoders",2021-06-25 16:12:10+00:00,http://arxiv.org/abs/2106.13736v1,"Shuming Ma, Li Dong, Shaohan Huang, Dongdong Zhang, Alexandre Muzio, Saksham Singhal, Hany Hassan Awadalla, Xia Song, Furu Wei",cs.CL,table2text,"While pretrained encoders have achieved success in various natural language
+understanding (NLU) tasks, there is a gap between these pretrained encoders and
+natural language generation (NLG). NLG tasks are often based on the
+encoder-decoder framework, where the pretrained encoders can only benefit part
+of it. To reduce this gap, we introduce DeltaLM, a pretrained multilingual
+encoder-decoder model that regards the decoder as the task layer of
+off-the-shelf pretrained encoders. Specifically, we augment the pretrained
+multilingual encoder with a decoder and pre-train it in a self-supervised way.
+To take advantage of both the large-scale monolingual data and bilingual data,
+we adopt the span corruption and translation span corruption as the
+pre-training tasks. Experiments show that DeltaLM outperforms various strong
+baselines on both natural language generation and translation tasks, including
+machine translation, abstractive text summarization, data-to-text, and question
+generation.",2021-06-25
+Membership Inference on Word Embedding and Beyond,2021-06-21 19:37:06+00:00,http://arxiv.org/abs/2106.11384v1,"Saeed Mahloujifar, Huseyin A. Inan, Melissa Chase, Esha Ghosh, Marcello Hasegawa","cs.CL, cs.AI, cs.CR, cs.LG",table2text,"In the text processing context, most ML models are built on word embeddings.
+These embeddings are themselves trained on some datasets, potentially
+containing sensitive data. In some cases this training is done independently,
+in other cases, it occurs as part of training a larger, task-specific model. In
+either case, it is of interest to consider membership inference attacks based
+on the embedding layer as a way of understanding sensitive information leakage.
+But, somewhat surprisingly, membership inference attacks on word embeddings and
+their effect in other natural language processing (NLP) tasks that use these
+embeddings, have remained relatively unexplored.
+  In this work, we show that word embeddings are vulnerable to black-box
+membership inference attacks under realistic assumptions. Furthermore, we show
+that this leakage persists through two other major NLP applications:
+classification and text-generation, even when the embedding layer is not
+exposed to the attacker. We show that our MI attack achieves high attack
+accuracy against a classifier model and an LSTM-based language model. Indeed,
+our attack is a cheaper membership inference attack on text-generative models,
+which does not require the knowledge of the target model or any expensive
+training of text-generative models as shadow models.",2021-06-21
+"Do Encoder Representations of Generative Dialogue Models Encode
+  Sufficient Information about the Task ?",2021-06-20 04:52:37+00:00,http://arxiv.org/abs/2106.10622v1,"Prasanna Parthasarathi, Joelle Pineau, Sarath Chandar",cs.CL,table2text,"Predicting the next utterance in dialogue is contingent on encoding of users'
+input text to generate appropriate and relevant response in data-driven
+approaches. Although the semantic and syntactic quality of the language
+generated is evaluated, more often than not, the encoded representation of
+input is not evaluated. As the representation of the encoder is essential for
+predicting the appropriate response, evaluation of encoder representation is a
+challenging yet important problem. In this work, we showcase evaluating the
+text generated through human or automatic metrics is not sufficient to
+appropriately evaluate soundness of the language understanding of dialogue
+models and, to that end, propose a set of probe tasks to evaluate encoder
+representation of different language encoders commonly used in dialogue models.
+From experiments, we observe that some of the probe tasks are easier and some
+are harder for even sophisticated model architectures to learn. And, through
+experiments we observe that RNN based architectures have lower performance on
+automatic metrics on text generation than transformer model but perform better
+than the transformer model on the probe tasks indicating that RNNs might
+preserve task information better than the Transformers.",2021-06-20
+"JointGT: Graph-Text Joint Representation Learning for Text Generation
+  from Knowledge Graphs",2021-06-19 14:10:10+00:00,http://arxiv.org/abs/2106.10502v1,"Pei Ke, Haozhe Ji, Yu Ran, Xin Cui, Liwei Wang, Linfeng Song, Xiaoyan Zhu, Minlie Huang","cs.CL, cs.AI",table2text,"Existing pre-trained models for knowledge-graph-to-text (KG-to-text)
+generation simply fine-tune text-to-text pre-trained models such as BART or T5
+on KG-to-text datasets, which largely ignore the graph structure during
+encoding and lack elaborate pre-training tasks to explicitly model graph-text
+alignments. To tackle these problems, we propose a graph-text joint
+representation learning model called JointGT. During encoding, we devise a
+structure-aware semantic aggregation module which is plugged into each
+Transformer layer to preserve the graph structure. Furthermore, we propose
+three new pre-training tasks to explicitly enhance the graph-text alignment
+including respective text / graph reconstruction, and graph-text alignment in
+the embedding space via Optimal Transport. Experiments show that JointGT
+obtains new state-of-the-art performance on various KG-to-text datasets.",2021-06-19
+Zero-Shot Controlled Generation with Encoder-Decoder Transformers,2021-06-11 14:07:19+00:00,http://arxiv.org/abs/2106.06411v2,"Devamanyu Hazarika, Mahdi Namazifar, Dilek Hakkani-Tür","cs.CL, cs.AI",table2text,"Controlling neural network-based models for natural language generation (NLG)
+has broad applications in numerous areas such as machine translation, document
+summarization, and dialog systems. Approaches that enable such control in a
+zero-shot manner would be of great importance as, among other reasons, they
+remove the need for additional annotated data and training. In this work, we
+propose novel approaches for controlling encoder-decoder transformer-based NLG
+models in zero-shot. This is done by introducing three control knobs, namely,
+attention biasing, decoder mixing, and context augmentation, that are applied
+to these models at generation time. These knobs control the generation process
+by directly manipulating trained NLG models (e.g., biasing cross-attention
+layers) to realize the desired attributes in the generated outputs. We show
+that not only are these NLG models robust to such manipulations, but also their
+behavior could be controlled without an impact on their generation performance.
+These results, to the best of our knowledge, are the first of their kind.
+Through these control knobs, we also investigate the role of transformer
+decoder's self-attention module and show strong evidence that its primary role
+is maintaining fluency of sentences generated by these models. Based on this
+hypothesis, we show that alternative architectures for transformer decoders
+could be viable options. We also study how this hypothesis could lead to more
+efficient ways for training encoder-decoder transformer models.",2021-06-11
 "AUGNLG: Few-shot Natural Language Generation using Self-trained Data
   Augmentation",2021-06-10 08:45:28+00:00,http://arxiv.org/abs/2106.05589v1,"Xinnuo Xu, Guoyin Wang, Young-Bum Kim, Sungjin Lee",cs.CL,table2text,"Natural Language Generation (NLG) is a key component in a task-oriented
 dialogue system, which converts the structured meaning representation (MR) to

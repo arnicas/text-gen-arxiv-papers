@@ -1,4 +1,36 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Don't Take It Literally: An Edit-Invariant Sequence Loss for Text
+  Generation",2021-06-29 03:59:21+00:00,http://arxiv.org/abs/2106.15078v1,"Guangyi Liu, Zichao Yang, Tianhua Tao, Xiaodan Liang, Zhen Li, Bowen Zhou, Shuguang Cui, Zhiting Hu","cs.CL, cs.AI",image2text,"Neural text generation models are typically trained by maximizing
+log-likelihood with the sequence cross entropy loss, which encourages an exact
+token-by-token match between a target sequence with a generated sequence. Such
+training objective is sub-optimal when the target sequence not perfect, e.g.,
+when the target sequence is corrupted with noises, or when only weak sequence
+supervision is available. To address this challenge, we propose a novel
+Edit-Invariant Sequence Loss (EISL), which computes the matching loss of a
+target n-gram with all n-grams in the generated sequence. EISL draws
+inspirations from convolutional networks (ConvNets) which are shift-invariant
+to images, hence is robust to the shift of n-grams to tolerate edits in the
+target sequences. Moreover, the computation of EISL is essentially a
+convolution operation with target n-grams as kernels, which is easy to
+implement with existing libraries. To demonstrate the effectiveness of EISL, we
+conduct experiments on three tasks: machine translation with noisy target
+sequences, unsupervised text style transfer, and non-autoregressive machine
+translation. Experimental results show our method significantly outperforms
+cross entropy loss on these three tasks.",2021-06-29
+"UMIC: An Unreferenced Metric for Image Captioning via Contrastive
+  Learning",2021-06-26 13:27:14+00:00,http://arxiv.org/abs/2106.14019v1,"Hwanhee Lee, Seunghyun Yoon, Franck Dernoncourt, Trung Bui, Kyomin Jung","cs.CL, cs.CV",image2text,"Despite the success of various text generation metrics such as BERTScore, it
+is still difficult to evaluate the image captions without enough reference
+captions due to the diversity of the descriptions. In this paper, we introduce
+a new metric UMIC, an Unreferenced Metric for Image Captioning which does not
+require reference captions to evaluate image captions. Based on
+Vision-and-Language BERT, we train UMIC to discriminate negative captions via
+contrastive learning. Also, we observe critical problems of the previous
+benchmark dataset (i.e., human annotations) on image captioning metric, and
+introduce a new collection of human annotations on the generated captions. We
+validate UMIC on four datasets, including our new dataset, and show that UMIC
+has a higher correlation than all previous metrics that require multiple
+references. We release the benchmark dataset and pre-trained models to compute
+the UMIC.",2021-06-26
 "ImaginE: An Imagination-Based Automatic Evaluation Metric for Natural
   Language Generation",2021-06-10 17:59:52+00:00,http://arxiv.org/abs/2106.05970v1,"Wanrong Zhu, Xin Eric Wang, An Yan, Miguel Eckstein, William Yang Wang","cs.CL, cs.AI, cs.CV",image2text,"Automatic evaluations for natural language generation (NLG) conventionally
 rely on token-level or embedding-level comparisons with the text references.
