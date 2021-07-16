@@ -1,4 +1,61 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Inspiration through Observation: Demonstrating the Influence of
+  Automatically Generated Text on Creative Writing",2021-07-08 17:53:22+00:00,http://arxiv.org/abs/2107.04007v1,Melissa Roemmele,"cs.CL, cs.AI, cs.HC",story,"Getting machines to generate text perceived as creative is a long-pursued
+goal. A growing body of research directs this goal towards augmenting the
+creative writing abilities of human authors. In this paper, we pursue this
+objective by analyzing how observing examples of automatically generated text
+influences writing. In particular, we examine a task referred to as sentence
+infilling, which involves transforming a list of words into a complete
+sentence. We emphasize ""storiability"" as a desirable feature of the resulting
+sentences, where ""storiable"" sentences are those that suggest a story a reader
+would be curious to hear about. Both humans and an automated system (based on a
+neural language model) performed this sentence infilling task. In one setting,
+people wrote sentences on their own; in a different setting, people observed
+the sentences produced by the model while writing their own sentences. Readers
+then assigned storiability preferences to the resulting sentences in a
+subsequent evaluation. We find that human-authored sentences were judged as
+more storiable when authors observed the generated examples, and that
+storiability increased as authors derived more semantic content from the
+examples. This result gives evidence of an ""inspiration through observation""
+paradigm for human-computer collaborative writing, through which human writing
+can be enhanced by text generation models without directly copying their
+output.",2021-07-08
+"Improving Coherence and Consistency in Neural Sequence Models with
+  Dual-System, Neuro-Symbolic Reasoning",2021-07-06 17:59:49+00:00,http://arxiv.org/abs/2107.02794v1,"Maxwell Nye, Michael Henry Tessler, Joshua B. Tenenbaum, Brenden M. Lake","cs.AI, cs.CL, cs.LG",story,"Human reasoning can often be understood as an interplay between two systems:
+the intuitive and associative (""System 1"") and the deliberative and logical
+(""System 2""). Neural sequence models -- which have been increasingly successful
+at performing complex, structured tasks -- exhibit the advantages and failure
+modes of System 1: they are fast and learn patterns from data, but are often
+inconsistent and incoherent. In this work, we seek a lightweight, training-free
+means of improving existing System 1-like sequence models by adding System
+2-inspired logical reasoning. We explore several variations on this theme in
+which candidate generations from a neural sequence model are examined for
+logical consistency by a symbolic reasoning module, which can either accept or
+reject the generations. Our approach uses neural inference to mediate between
+the neural System 1 and the logical System 2. Results in robust story
+generation and grounded instruction-following show that this approach can
+increase the coherence and accuracy of neurally-based generations.",2021-07-06
+Scarecrow: A Framework for Scrutinizing Machine Text,2021-07-02 22:37:03+00:00,http://arxiv.org/abs/2107.01294v2,"Yao Dou, Maxwell Forbes, Rik Koncel-Kedziorski, Noah A. Smith, Yejin Choi",cs.CL,story,"Modern neural text generation systems can produce remarkably fluent and
+grammatical texts. While earlier language models suffered from repetition and
+syntactic errors, the errors made by contemporary models are often semantic,
+narrative, or discourse failures.
+  To facilitate research of these complex error types, we introduce a new
+structured, crowdsourced error annotation schema called Scarecrow. The error
+categories used in Scarecrow -- such as redundancy, commonsense errors, and
+incoherence -- were identified by combining expert analysis with several pilot
+rounds of ontology-free crowd annotation to arrive at a schema which covers the
+error phenomena found in real machine generated text.
+  We use Scarecrow to collect 13k annotations of 1.3k human and machine
+generate paragraphs of English language news text, amounting to over 41k spans
+each labeled with its error category, severity, a natural language explanation,
+and antecedent span (where relevant). We collect annotations for text generated
+by state-of-the-art systems with varying known performance levels, from GPT-2
+Small through the largest GPT-3. We isolate several factors for detailed
+analysis, including parameter count, training data, and decoding technique. Our
+results show both expected and surprising differences across these settings.
+These findings demonstrate the value of Scarecrow annotations in the assessment
+of current and future text generation systems. We release our complete
+annotation toolkit and dataset at https://yao-dou.github.io/scarecrow/.",2021-07-02
 "All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated
   Text",2021-06-30 19:00:25+00:00,http://arxiv.org/abs/2107.00061v1,"Elizabeth Clark, Tal August, Sofia Serrano, Nikita Haduong, Suchin Gururangan, Noah A. Smith",cs.CL,story,"Human evaluations are typically considered the gold standard in natural
 language generation, but as models' fluency improves, how well can evaluators

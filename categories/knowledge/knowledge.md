@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2021-07-02*
+*written on 2021-07-16*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [From Show to Tell: A Survey on Image Captioning](http://arxiv.org/abs/2107.06912v1) | Matteo Stefanini, Marcella Cornia, Lorenzo Baraldi, Silvia Cascianelli, Giuseppe Fiameni, Rita Cucchiara | cs.CV, cs.CL | 2021-07-14 |
+| [Document Embedding for Scientific Articles: Efficacy of Word Embeddings  vs TFIDF](http://arxiv.org/abs/2107.05151v1) | H. J. Meijer, J. Truong, R. Karimi | cs.AI | 2021-07-11 |
+| [Inspiration through Observation: Demonstrating the Influence of  Automatically Generated Text on Creative Writing](http://arxiv.org/abs/2107.04007v1) | Melissa Roemmele | cs.CL, cs.AI, cs.HC | 2021-07-08 |
+| [Scarecrow: A Framework for Scrutinizing Machine Text](http://arxiv.org/abs/2107.01294v2) | Yao Dou, Maxwell Forbes, Rik Koncel-Kedziorski, Noah A. Smith, Yejin Choi | cs.CL | 2021-07-02 |
 | [Capturing Event Argument Interaction via A Bi-Directional Entity-Level  Recurrent Decoder](http://arxiv.org/abs/2107.00189v1) | Xiangyu Xi, Wei Ye, Shikun Zhang, Quanxiu Wang, Huixing Jiang, Wei Wu | cs.CL | 2021-07-01 |
 | [Topic-to-Essay Generation with Comprehensive Knowledge Enhancement](http://arxiv.org/abs/2106.15142v1) | Zhiyue Liu, Jiahai Wang, Zhenghong Li | cs.CL | 2021-06-29 |
 | [Membership Inference on Word Embedding and Beyond](http://arxiv.org/abs/2106.11384v1) | Saeed Mahloujifar, Huseyin A. Inan, Melissa Chase, Esha Ghosh, Marcello Hasegawa | cs.CL, cs.AI, cs.CR, cs.LG | 2021-06-21 |

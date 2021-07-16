@@ -1,4 +1,16 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+A Survey on Dialogue Summarization: Recent Advances and New Frontiers,2021-07-07 12:11:14+00:00,http://arxiv.org/abs/2107.03175v1,"Xiachong Feng, Xiaocheng Feng, Bing Qin",cs.CL,dialogue,"With the development of dialogue systems and natural language generation
+techniques, the resurgence of dialogue summarization has attracted significant
+research attentions, which aims to condense the original dialogue into a
+shorter version covering salient information. However, there remains a lack of
+comprehensive survey for this task. To this end, we take the first step and
+present a thorough review of this research field. In detail, we provide an
+overview of publicly available research datasets, summarize existing works
+according to the domain of input dialogue as well as organize leaderboards
+under unified metrics. Furthermore, we discuss some future directions and give
+our thoughts. We hope that this first survey of dialogue summarization can
+provide the community with a quick access and a general picture to this task
+and motivate future researches.",2021-07-07
 "Do Encoder Representations of Generative Dialogue Models Encode
   Sufficient Information about the Task ?",2021-06-20 04:52:37+00:00,http://arxiv.org/abs/2106.10622v1,"Prasanna Parthasarathi, Joelle Pineau, Sarath Chandar",cs.CL,dialogue,"Predicting the next utterance in dialogue is contingent on encoding of users'
 input text to generate appropriate and relevant response in data-driven
