@@ -1,4 +1,32 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+WikiGraphs: A Wikipedia Text - Knowledge Graph Paired Dataset,2021-07-20 15:18:30+00:00,http://arxiv.org/abs/2107.09556v1,"Luyu Wang, Yujia Li, Ozlem Aslan, Oriol Vinyals","cs.CL, cs.AI",table2text,"We present a new dataset of Wikipedia articles each paired with a knowledge
+graph, to facilitate the research in conditional text generation, graph
+generation and graph representation learning. Existing graph-text paired
+datasets typically contain small graphs and short text (1 or few sentences),
+thus limiting the capabilities of the models that can be learned on the data.
+Our new dataset WikiGraphs is collected by pairing each Wikipedia article from
+the established WikiText-103 benchmark (Merity et al., 2016) with a subgraph
+from the Freebase knowledge graph (Bollacker et al., 2008). This makes it easy
+to benchmark against other state-of-the-art text generative models that are
+capable of generating long paragraphs of coherent text. Both the graphs and the
+text data are of significantly larger scale compared to prior graph-text paired
+datasets. We present baseline graph neural network and transformer model
+results on our dataset for 3 tasks: graph -> text generation, graph -> text
+retrieval and text -> graph retrieval. We show that better conditioning on the
+graph provides gains in generation and retrieval quality but there is still
+large room for improvement.",2021-07-20
+Generative Pretraining for Paraphrase Evaluation,2021-07-17 14:48:48+00:00,http://arxiv.org/abs/2107.08251v1,"Jack Weston, Raphael Lenain, Udeepa Meepegama, Emil Fristed","cs.CL, cs.LG",table2text,"We introduce ParaBLEU, a paraphrase representation learning model and
+evaluation metric for text generation. Unlike previous approaches, ParaBLEU
+learns to understand paraphrasis using generative conditioning as a pretraining
+objective. ParaBLEU correlates more strongly with human judgements than
+existing metrics, obtaining new state-of-the-art results on the 2017 WMT
+Metrics Shared Task. We show that our model is robust to data scarcity,
+exceeding previous state-of-the-art performance using only $50\%$ of the
+available training data and surpassing BLEU, ROUGE and METEOR with only $40$
+labelled examples. Finally, we demonstrate that ParaBLEU can be used to
+conditionally generate novel paraphrases from a single demonstration, which we
+use to confirm our hypothesis that it learns abstract, generalized paraphrase
+representations.",2021-07-17
 "Robust Learning for Text Classification with Multi-source Noise
   Simulation and Hard Example Mining",2021-07-15 04:39:22+00:00,http://arxiv.org/abs/2107.07113v1,"Guowei Xu, Wenbiao Ding, Weiping Fu, Zhongqin Wu, Zitao Liu","cs.CL, cs.AI",table2text,"Many real-world applications involve the use of Optical Character Recognition
 (OCR) engines to transform handwritten images into transcripts on which

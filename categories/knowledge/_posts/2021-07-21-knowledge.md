@@ -6,10 +6,12 @@ sidebar:
 ---
 
 
-*written on 2021-07-16*
+*written on 2021-07-26*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Guided Generation of Cause and Effect](http://arxiv.org/abs/2107.09846v1) | Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme | cs.CL | 2021-07-21 |
+| [WikiGraphs: A Wikipedia Text - Knowledge Graph Paired Dataset](http://arxiv.org/abs/2107.09556v1) | Luyu Wang, Yujia Li, Ozlem Aslan, Oriol Vinyals | cs.CL, cs.AI | 2021-07-20 |
 | [From Show to Tell: A Survey on Image Captioning](http://arxiv.org/abs/2107.06912v1) | Matteo Stefanini, Marcella Cornia, Lorenzo Baraldi, Silvia Cascianelli, Giuseppe Fiameni, Rita Cucchiara | cs.CV, cs.CL | 2021-07-14 |
 | [Document Embedding for Scientific Articles: Efficacy of Word Embeddings  vs TFIDF](http://arxiv.org/abs/2107.05151v1) | H. J. Meijer, J. Truong, R. Karimi | cs.AI | 2021-07-11 |
 | [Inspiration through Observation: Demonstrating the Influence of  Automatically Generated Text on Creative Writing](http://arxiv.org/abs/2107.04007v1) | Melissa Roemmele | cs.CL, cs.AI, cs.HC | 2021-07-08 |

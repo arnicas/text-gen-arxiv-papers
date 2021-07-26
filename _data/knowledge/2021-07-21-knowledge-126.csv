@@ -1,4 +1,31 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Guided Generation of Cause and Effect,2021-07-21 02:32:47+00:00,http://arxiv.org/abs/2107.09846v1,"Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme",cs.CL,knowledge,"We present a conditional text generation framework that posits sentential
+expressions of possible causes and effects. This framework depends on two novel
+resources we develop in the course of this work: a very large-scale collection
+of English sentences expressing causal patterns CausalBank; and a refinement
+over previous work on constructing large lexical causal knowledge graphs Cause
+Effect Graph. Further, we extend prior work in lexically-constrained decoding
+to support disjunctive positive constraints. Human assessment confirms that our
+approach gives high-quality and diverse outputs. Finally, we use CausalBank to
+perform continued training of an encoder supporting a recent state-of-the-art
+model for causal reasoning, leading to a 3-point improvement on the COPA
+challenge set, with no change in model architecture.",2021-07-21
+WikiGraphs: A Wikipedia Text - Knowledge Graph Paired Dataset,2021-07-20 15:18:30+00:00,http://arxiv.org/abs/2107.09556v1,"Luyu Wang, Yujia Li, Ozlem Aslan, Oriol Vinyals","cs.CL, cs.AI",knowledge,"We present a new dataset of Wikipedia articles each paired with a knowledge
+graph, to facilitate the research in conditional text generation, graph
+generation and graph representation learning. Existing graph-text paired
+datasets typically contain small graphs and short text (1 or few sentences),
+thus limiting the capabilities of the models that can be learned on the data.
+Our new dataset WikiGraphs is collected by pairing each Wikipedia article from
+the established WikiText-103 benchmark (Merity et al., 2016) with a subgraph
+from the Freebase knowledge graph (Bollacker et al., 2008). This makes it easy
+to benchmark against other state-of-the-art text generative models that are
+capable of generating long paragraphs of coherent text. Both the graphs and the
+text data are of significantly larger scale compared to prior graph-text paired
+datasets. We present baseline graph neural network and transformer model
+results on our dataset for 3 tasks: graph -> text generation, graph -> text
+retrieval and text -> graph retrieval. We show that better conditioning on the
+graph provides gains in generation and retrieval quality but there is still
+large room for improvement.",2021-07-20
 From Show to Tell: A Survey on Image Captioning,2021-07-14 18:00:54+00:00,http://arxiv.org/abs/2107.06912v1,"Matteo Stefanini, Marcella Cornia, Lorenzo Baraldi, Silvia Cascianelli, Giuseppe Fiameni, Rita Cucchiara","cs.CV, cs.CL",knowledge,"Connecting Vision and Language plays an essential role in Generative
 Intelligence. For this reason, in the last few years, a large research effort
 has been devoted to image captioning, i.e. the task of describing images with

@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2021-07-16*
+*written on 2021-07-26*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [WikiGraphs: A Wikipedia Text - Knowledge Graph Paired Dataset](http://arxiv.org/abs/2107.09556v1) | Luyu Wang, Yujia Li, Ozlem Aslan, Oriol Vinyals | cs.CL, cs.AI | 2021-07-20 |
+| [Generative Pretraining for Paraphrase Evaluation](http://arxiv.org/abs/2107.08251v1) | Jack Weston, Raphael Lenain, Udeepa Meepegama, Emil Fristed | cs.CL, cs.LG | 2021-07-17 |
 | [Robust Learning for Text Classification with Multi-source Noise  Simulation and Hard Example Mining](http://arxiv.org/abs/2107.07113v1) | Guowei Xu, Wenbiao Ding, Weiping Fu, Zhongqin Wu, Zitao Liu | cs.CL, cs.AI | 2021-07-15 |
 | [From Machine Translation to Code-Switching: Generating High-Quality  Code-Switched Text](http://arxiv.org/abs/2107.06483v1) | Ishan Tarunesh, Syamantak Kumar, Preethi Jyothi | cs.CL | 2021-07-14 |
 | [Direct speech-to-speech translation with discrete units](http://arxiv.org/abs/2107.05604v1) | Ann Lee, Peng-Jen Chen, Changhan Wang, Jiatao Gu, Xutai Ma, Adam Polyak, Yossi Adi, Qing He, Yun Tang, Juan Pino, Wei-Ning Hsu | cs.CL, cs.LG, eess.AS | 2021-07-12 |
