@@ -1,4 +1,29 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Urdu & Hindi Poetry Generation using Neural Networks,2021-07-16 16:12:51+00:00,http://arxiv.org/abs/2107.14587v1,"Shakeeb A. M. Mukhtar, Pushkar S. Joglekar","cs.CL, cs.LG",poetry,"One of the major problems writers and poets face is the writer's block. It is
+a condition in which an author loses the ability to produce new work or
+experiences a creative slowdown. The problem is more difficult in the context
+of poetry than prose, as in the latter case authors need not be very concise
+while expressing their ideas, also the various aspects such as rhyme, poetic
+meters are not relevant for prose. One of the most effective ways to overcome
+this writing block for poets can be, to have a prompt system, which would help
+their imagination and open their minds for new ideas. A prompt system can
+possibly generate one liner, two liner or full ghazals. The purpose of this
+work is to give an ode to the Urdu, Hindi poets, and helping them start their
+next line of poetry, a couplet or a complete ghazal considering various factors
+like rhymes, refrain, and meters. The result will help aspiring poets to get
+new ideas and help them overcome writer's block by auto-generating pieces of
+poetry using Deep Learning techniques. A concern with creative works like this,
+especially in the literary context, is to ensure that the output is not
+plagiarized. This work also addresses the concern and makes sure that the
+resulting odes are not exact match with input data using parameters like
+temperature and manual plagiarism check against input corpus. To the best of
+our knowledge, although the automatic text generation problem has been studied
+quite extensively in the literature, the specific problem of Urdu, Hindi poetry
+generation has not been explored much. Apart from developing system to
+auto-generate Urdu, Hindi poetry, another key contribution of our work is to
+create a cleaned and preprocessed corpus of Urdu, Hindi poetry (derived from
+authentic resources) and making it freely available for researchers in the
+area.",2021-07-16
 FUDGE: Controlled Text Generation With Future Discriminators,2021-04-12 05:59:53+00:00,http://arxiv.org/abs/2104.05218v1,"Kevin Yang, Dan Klein","cs.CL, cs.LG",poetry,"We propose Future Discriminators for Generation (FUDGE), a flexible and
 modular method for controlled text generation. Given a pre-existing model G for
 generating text from a distribution of interest, FUDGE enables conditioning on

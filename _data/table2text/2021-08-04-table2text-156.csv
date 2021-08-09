@@ -1,4 +1,71 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Controlled Text Generation as Continuous Optimization with Multiple
+  Constraints",2021-08-04 05:25:20+00:00,http://arxiv.org/abs/2108.01850v1,"Sachin Kumar, Eric Malmi, Aliaksei Severyn, Yulia Tsvetkov",cs.CL,table2text,"As large-scale language model pretraining pushes the state-of-the-art in text
+generation, recent work has turned to controlling attributes of the text such
+models generate. While modifying the pretrained models via fine-tuning remains
+the popular approach, it incurs a significant computational cost and can be
+infeasible due to lack of appropriate data. As an alternative, we propose
+MuCoCO -- a flexible and modular algorithm for controllable inference from
+pretrained models. We formulate the decoding process as an optimization problem
+which allows for multiple attributes we aim to control to be easily
+incorporated as differentiable constraints to the optimization. By relaxing
+this discrete optimization to a continuous one, we make use of Lagrangian
+multipliers and gradient-descent based techniques to generate the desired text.
+We evaluate our approach on controllable machine translation and style transfer
+with multiple sentence-level attributes and observe significant improvements
+over baselines.",2021-08-04
+"Exploiting BERT For Multimodal Target Sentiment Classification Through
+  Input Space Translation",2021-08-03 18:02:38+00:00,http://arxiv.org/abs/2108.01682v2,"Zaid Khan, Yun Fu","cs.CL, cs.CV",table2text,"Multimodal target/aspect sentiment classification combines multimodal
+sentiment analysis and aspect/target sentiment classification. The goal of the
+task is to combine vision and language to understand the sentiment towards a
+target entity in a sentence. Twitter is an ideal setting for the task because
+it is inherently multimodal, highly emotional, and affects real world events.
+However, multimodal tweets are short and accompanied by complex, possibly
+irrelevant images. We introduce a two-stream model that translates images in
+input space using an object-aware transformer followed by a single-pass
+non-autoregressive text generation approach. We then leverage the translation
+to construct an auxiliary sentence that provides multimodal information to a
+language model. Our approach increases the amount of text available to the
+language model and distills the object-level information in complex images. We
+achieve state-of-the-art performance on two multimodal Twitter datasets without
+modifying the internals of the language model to accept multimodal data,
+demonstrating the effectiveness of our translation. In addition, we explain a
+failure mode of a popular approach for aspect sentiment analysis when applied
+to tweets. Our code is available at
+\textcolor{blue}{\url{https://github.com/codezakh/exploiting-BERT-thru-translation}}.",2021-08-03
+Logic-Consistency Text Generation from Semantic Parses,2021-08-02 01:12:18+00:00,http://arxiv.org/abs/2108.00577v1,"Chang Shu, Yusen Zhang, Xiangyu Dong, Peng Shi, Tao Yu, Rui Zhang",cs.CL,table2text,"Text generation from semantic parses is to generate textual descriptions for
+formal representation inputs such as logic forms and SQL queries. This is
+challenging due to two reasons: (1) the complex and intensive inner logic with
+the data scarcity constraint, (2) the lack of automatic evaluation metrics for
+logic consistency. To address these two challenges, this paper first proposes
+SNOWBALL, a framework for logic consistent text generation from semantic parses
+that employs an iterative training procedure by recursively augmenting the
+training set with quality control. Second, we propose a novel automatic metric,
+BLEC, for evaluating the logical consistency between the semantic parses and
+generated texts. The experimental results on two benchmark datasets, Logic2Text
+and Spider, demonstrate the SNOWBALL framework enhances the logic consistency
+on both BLEC and human evaluation. Furthermore, our statistical analysis
+reveals that BLEC is more logically consistent with human evaluation than
+general-purpose automatic metrics including BLEU, ROUGE and, BLEURT. Our data
+and code are available at https://github.com/Ciaranshu/relogic.",2021-08-02
+"Neural Rule-Execution Tracking Machine For Transformer-Based Text
+  Generation",2021-07-27 20:41:05+00:00,http://arxiv.org/abs/2107.13077v1,"Yufei Wang, Can Xu, Huang Hu, Chongyang Tao, Stephen Wan, Mark Dras, Mark Johnson, Daxin Jiang",cs.CL,table2text,"Sequence-to-Sequence (S2S) neural text generation models, especially the
+pre-trained ones (e.g., BART and T5), have exhibited compelling performance on
+various natural language generation tasks. However, the black-box nature of
+these models limits their application in tasks where specific rules (e.g.,
+controllable constraints, prior knowledge) need to be executed. Previous works
+either design specific model structure (e.g., Copy Mechanism corresponding to
+the rule ""the generated output should include certain words in the source
+input"") or implement specialized inference algorithm (e.g., Constrained Beam
+Search) to execute particular rules through the text generation. These methods
+require careful design case-by-case and are difficult to support multiple rules
+concurrently. In this paper, we propose a novel module named Neural
+Rule-Execution Tracking Machine that can be equipped into various
+transformer-based generators to leverage multiple rules simultaneously to guide
+the neural generation model for superior generation performance in a unified
+and scalable way. Extensive experimental results on several benchmarks verify
+the effectiveness of our proposed model in both controllable and general text
+generation.",2021-07-27
 WikiGraphs: A Wikipedia Text - Knowledge Graph Paired Dataset,2021-07-20 15:18:30+00:00,http://arxiv.org/abs/2107.09556v1,"Luyu Wang, Yujia Li, Ozlem Aslan, Oriol Vinyals","cs.CL, cs.AI",table2text,"We present a new dataset of Wikipedia articles each paired with a knowledge
 graph, to facilitate the research in conditional text generation, graph
 generation and graph representation learning. Existing graph-text paired

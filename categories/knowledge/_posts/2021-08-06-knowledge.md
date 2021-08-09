@@ -6,10 +6,14 @@ sidebar:
 ---
 
 
-*written on 2021-07-26*
+*written on 2021-08-09*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Sentence Semantic Regression for Text Generation](http://arxiv.org/abs/2108.02984v1) | Wei Wang, Piji Li, Hai-Tao Zheng | cs.CL | 2021-08-06 |
+| [Logic-Consistency Text Generation from Semantic Parses](http://arxiv.org/abs/2108.00577v1) | Chang Shu, Yusen Zhang, Xiangyu Dong, Peng Shi, Tao Yu, Rui Zhang | cs.CL | 2021-08-02 |
+| [Neural Rule-Execution Tracking Machine For Transformer-Based Text  Generation](http://arxiv.org/abs/2107.13077v1) | Yufei Wang, Can Xu, Huang Hu, Chongyang Tao, Stephen Wan, Mark Dras, Mark Johnson, Daxin Jiang | cs.CL | 2021-07-27 |
+| [Exploiting Language Model for Efficient Linguistic Steganalysis: An  Empirical Study](http://arxiv.org/abs/2107.12168v1) | Biao Yi, Hanzhou Wu, Guorui Feng, Xinpeng Zhang | cs.CL, cs.MM | 2021-07-26 |
 | [Guided Generation of Cause and Effect](http://arxiv.org/abs/2107.09846v1) | Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme | cs.CL | 2021-07-21 |
 | [WikiGraphs: A Wikipedia Text - Knowledge Graph Paired Dataset](http://arxiv.org/abs/2107.09556v1) | Luyu Wang, Yujia Li, Ozlem Aslan, Oriol Vinyals | cs.CL, cs.AI | 2021-07-20 |
 | [From Show to Tell: A Survey on Image Captioning](http://arxiv.org/abs/2107.06912v1) | Matteo Stefanini, Marcella Cornia, Lorenzo Baraldi, Silvia Cascianelli, Giuseppe Fiameni, Rita Cucchiara | cs.CV, cs.CL | 2021-07-14 |

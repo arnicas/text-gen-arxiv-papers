@@ -1,4 +1,56 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+ICECAP: Information Concentrated Entity-aware Image Captioning,2021-08-04 13:27:51+00:00,http://arxiv.org/abs/2108.02050v1,"Anwen Hu, Shizhe Chen, Qin Jin","cs.CV, cs.MM",image2text,"Most current image captioning systems focus on describing general image
+content, and lack background knowledge to deeply understand the image, such as
+exact named entities or concrete events. In this work, we focus on the
+entity-aware news image captioning task which aims to generate informative
+captions by leveraging the associated news articles to provide background
+knowledge about the target image. However, due to the length of news articles,
+previous works only employ news articles at the coarse article or sentence
+level, which are not fine-grained enough to refine relevant events and choose
+named entities accurately. To overcome these limitations, we propose an
+Information Concentrated Entity-aware news image CAPtioning (ICECAP) model,
+which progressively concentrates on relevant textual information within the
+corresponding news article from the sentence level to the word level. Our model
+first creates coarse concentration on relevant sentences using a cross-modality
+retrieval model and then generates captions by further concentrating on
+relevant words within the sentences. Extensive experiments on both BreakingNews
+and GoodNews datasets demonstrate the effectiveness of our proposed method,
+which outperforms other state-of-the-arts. The code of ICECAP is publicly
+available at https://github.com/HAWLYQ/ICECAP.",2021-08-04
+"Exploiting BERT For Multimodal Target Sentiment Classification Through
+  Input Space Translation",2021-08-03 18:02:38+00:00,http://arxiv.org/abs/2108.01682v2,"Zaid Khan, Yun Fu","cs.CL, cs.CV",image2text,"Multimodal target/aspect sentiment classification combines multimodal
+sentiment analysis and aspect/target sentiment classification. The goal of the
+task is to combine vision and language to understand the sentiment towards a
+target entity in a sentence. Twitter is an ideal setting for the task because
+it is inherently multimodal, highly emotional, and affects real world events.
+However, multimodal tweets are short and accompanied by complex, possibly
+irrelevant images. We introduce a two-stream model that translates images in
+input space using an object-aware transformer followed by a single-pass
+non-autoregressive text generation approach. We then leverage the translation
+to construct an auxiliary sentence that provides multimodal information to a
+language model. Our approach increases the amount of text available to the
+language model and distills the object-level information in complex images. We
+achieve state-of-the-art performance on two multimodal Twitter datasets without
+modifying the internals of the language model to accept multimodal data,
+demonstrating the effectiveness of our translation. In addition, we explain a
+failure mode of a popular approach for aspect sentiment analysis when applied
+to tweets. Our code is available at
+\textcolor{blue}{\url{https://github.com/codezakh/exploiting-BERT-thru-translation}}.",2021-08-03
+Logic-Consistency Text Generation from Semantic Parses,2021-08-02 01:12:18+00:00,http://arxiv.org/abs/2108.00577v1,"Chang Shu, Yusen Zhang, Xiangyu Dong, Peng Shi, Tao Yu, Rui Zhang",cs.CL,image2text,"Text generation from semantic parses is to generate textual descriptions for
+formal representation inputs such as logic forms and SQL queries. This is
+challenging due to two reasons: (1) the complex and intensive inner logic with
+the data scarcity constraint, (2) the lack of automatic evaluation metrics for
+logic consistency. To address these two challenges, this paper first proposes
+SNOWBALL, a framework for logic consistent text generation from semantic parses
+that employs an iterative training procedure by recursively augmenting the
+training set with quality control. Second, we propose a novel automatic metric,
+BLEC, for evaluating the logical consistency between the semantic parses and
+generated texts. The experimental results on two benchmark datasets, Logic2Text
+and Spider, demonstrate the SNOWBALL framework enhances the logic consistency
+on both BLEC and human evaluation. Furthermore, our statistical analysis
+reveals that BLEC is more logically consistent with human evaluation than
+general-purpose automatic metrics including BLEU, ROUGE and, BLEURT. Our data
+and code are available at https://github.com/Ciaranshu/relogic.",2021-08-02
 "Robust Learning for Text Classification with Multi-source Noise
   Simulation and Hard Example Mining",2021-07-15 04:39:22+00:00,http://arxiv.org/abs/2107.07113v1,"Guowei Xu, Wenbiao Ding, Weiping Fu, Zhongqin Wu, Zitao Liu","cs.CL, cs.AI",image2text,"Many real-world applications involve the use of Optical Character Recognition
 (OCR) engines to transform handwritten images into transcripts on which

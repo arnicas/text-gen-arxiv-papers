@@ -1,4 +1,73 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Sentence Semantic Regression for Text Generation,2021-08-06 07:35:59+00:00,http://arxiv.org/abs/2108.02984v1,"Wei Wang, Piji Li, Hai-Tao Zheng",cs.CL,knowledge,"Recall the classical text generation works, the generation framework can be
+briefly divided into two phases: \textbf{idea reasoning} and \textbf{surface
+realization}. The target of idea reasoning is to figure out the main idea which
+will be presented in the following talking/writing periods. Surface realization
+aims to arrange the most appropriate sentence to depict and convey the
+information distilled from the main idea. However, the current popular
+token-by-token text generation methods ignore this crucial process and suffer
+from many serious issues, such as idea/topic drift. To tackle the problems and
+realize this two-phase paradigm, we propose a new framework named Sentence
+Semantic Regression (\textbf{SSR}) based on sentence-level language modeling.
+For idea reasoning, two architectures \textbf{SSR-AR} and \textbf{SSR-NonAR}
+are designed to conduct sentence semantic regression autoregressively (like
+GPT2/3) and bidirectionally (like BERT). In the phase of surface realization, a
+mixed-granularity sentence decoder is designed to generate text with better
+consistency by jointly incorporating the predicted sentence-level main idea as
+well as the preceding contextual token-level information. We conduct
+experiments on four tasks of story ending prediction, story ending generation,
+dialogue generation, and sentence infilling. The results show that SSR can
+obtain better performance in terms of automatic metrics and human evaluation.",2021-08-06
+Logic-Consistency Text Generation from Semantic Parses,2021-08-02 01:12:18+00:00,http://arxiv.org/abs/2108.00577v1,"Chang Shu, Yusen Zhang, Xiangyu Dong, Peng Shi, Tao Yu, Rui Zhang",cs.CL,knowledge,"Text generation from semantic parses is to generate textual descriptions for
+formal representation inputs such as logic forms and SQL queries. This is
+challenging due to two reasons: (1) the complex and intensive inner logic with
+the data scarcity constraint, (2) the lack of automatic evaluation metrics for
+logic consistency. To address these two challenges, this paper first proposes
+SNOWBALL, a framework for logic consistent text generation from semantic parses
+that employs an iterative training procedure by recursively augmenting the
+training set with quality control. Second, we propose a novel automatic metric,
+BLEC, for evaluating the logical consistency between the semantic parses and
+generated texts. The experimental results on two benchmark datasets, Logic2Text
+and Spider, demonstrate the SNOWBALL framework enhances the logic consistency
+on both BLEC and human evaluation. Furthermore, our statistical analysis
+reveals that BLEC is more logically consistent with human evaluation than
+general-purpose automatic metrics including BLEU, ROUGE and, BLEURT. Our data
+and code are available at https://github.com/Ciaranshu/relogic.",2021-08-02
+"Neural Rule-Execution Tracking Machine For Transformer-Based Text
+  Generation",2021-07-27 20:41:05+00:00,http://arxiv.org/abs/2107.13077v1,"Yufei Wang, Can Xu, Huang Hu, Chongyang Tao, Stephen Wan, Mark Dras, Mark Johnson, Daxin Jiang",cs.CL,knowledge,"Sequence-to-Sequence (S2S) neural text generation models, especially the
+pre-trained ones (e.g., BART and T5), have exhibited compelling performance on
+various natural language generation tasks. However, the black-box nature of
+these models limits their application in tasks where specific rules (e.g.,
+controllable constraints, prior knowledge) need to be executed. Previous works
+either design specific model structure (e.g., Copy Mechanism corresponding to
+the rule ""the generated output should include certain words in the source
+input"") or implement specialized inference algorithm (e.g., Constrained Beam
+Search) to execute particular rules through the text generation. These methods
+require careful design case-by-case and are difficult to support multiple rules
+concurrently. In this paper, we propose a novel module named Neural
+Rule-Execution Tracking Machine that can be equipped into various
+transformer-based generators to leverage multiple rules simultaneously to guide
+the neural generation model for superior generation performance in a unified
+and scalable way. Extensive experimental results on several benchmarks verify
+the effectiveness of our proposed model in both controllable and general text
+generation.",2021-07-27
+"Exploiting Language Model for Efficient Linguistic Steganalysis: An
+  Empirical Study",2021-07-26 12:37:18+00:00,http://arxiv.org/abs/2107.12168v1,"Biao Yi, Hanzhou Wu, Guorui Feng, Xinpeng Zhang","cs.CL, cs.MM",knowledge,"Recent advances in linguistic steganalysis have successively applied CNNs,
+RNNs, GNNs and other deep learning models for detecting secret information in
+generative texts. These methods tend to seek stronger feature extractors to
+achieve higher steganalysis effects. However, we have found through experiments
+that there actually exists significant difference between automatically
+generated steganographic texts and carrier texts in terms of the conditional
+probability distribution of individual words. Such kind of statistical
+difference can be naturally captured by the language model used for generating
+steganographic texts, which drives us to give the classifier a priori knowledge
+of the language model to enhance the steganalysis ability. To this end, we
+present two methods to efficient linguistic steganalysis in this paper. One is
+to pre-train a language model based on RNN, and the other is to pre-train a
+sequence autoencoder. Experimental results show that the two methods have
+different degrees of performance improvement when compared to the randomly
+initialized RNN classifier, and the convergence speed is significantly
+accelerated. Moreover, our methods have achieved the best detection results.",2021-07-26
 Guided Generation of Cause and Effect,2021-07-21 02:32:47+00:00,http://arxiv.org/abs/2107.09846v1,"Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme",cs.CL,knowledge,"We present a conditional text generation framework that posits sentential
 expressions of possible causes and effects. This framework depends on two novel
 resources we develop in the course of this work: a very large-scale collection

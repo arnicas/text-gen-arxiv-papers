@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-04-16*
+*written on 2021-08-09*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Urdu & Hindi Poetry Generation using Neural Networks](http://arxiv.org/abs/2107.14587v1) | Shakeeb A. M. Mukhtar, Pushkar S. Joglekar | cs.CL, cs.LG | 2021-07-16 |
 | [FUDGE: Controlled Text Generation With Future Discriminators](http://arxiv.org/abs/2104.05218v1) | Kevin Yang, Dan Klein | cs.CL, cs.LG | 2021-04-12 |
 | [WakaVT: A Sequential Variational Transformer for Waka Generation](http://arxiv.org/abs/2104.00426v1) | Yuka Takeishi, Mingxuan Niu, Jing Luo, Zhong Jin, Xinyu Yang | cs.CL, cs.AI | 2021-04-01 |
 | [AfriKI: Machine-in-the-Loop Afrikaans Poetry Generation](http://arxiv.org/abs/2103.16190v1) | Imke van Heerden, Anil Bas | cs.CL, cs.LG | 2021-03-30 |
