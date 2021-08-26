@@ -1,4 +1,206 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Using BERT Encoding and Sentence-Level Language Model for Sentence
+  Ordering",2021-08-24 23:03:36+00:00,http://arxiv.org/abs/2108.10986v1,"Melika Golestani, Seyedeh Zahra Razavi, Zeinab Borhanifard, Farnaz Tahmasebian, Hesham Faili",cs.CL,table2text,"Discovering the logical sequence of events is one of the cornerstones in
+Natural Language Understanding. One approach to learn the sequence of events is
+to study the order of sentences in a coherent text. Sentence ordering can be
+applied in various tasks such as retrieval-based Question Answering, document
+summarization, storytelling, text generation, and dialogue systems.
+Furthermore, we can learn to model text coherence by learning how to order a
+set of shuffled sentences. Previous research has relied on RNN, LSTM, and
+BiLSTM architecture for learning text language models. However, these networks
+have performed poorly due to the lack of attention mechanisms. We propose an
+algorithm for sentence ordering in a corpus of short stories. Our proposed
+method uses a language model based on Universal Transformers (UT) that captures
+sentences' dependencies by employing an attention mechanism. Our method
+improves the previous state-of-the-art in terms of Perfect Match Ratio (PMR)
+score in the ROCStories dataset, a corpus of nearly 100K short human-made
+stories. The proposed model includes three components: Sentence Encoder,
+Language Model, and Sentence Arrangement with Brute Force Search. The first
+component generates sentence embeddings using SBERT-WK pre-trained model
+fine-tuned on the ROCStories data. Then a Universal Transformer network
+generates a sentence-level language model. For decoding, the network generates
+a candidate sentence as the following sentence of the current sentence. We use
+cosine similarity as a scoring function to assign scores to the candidate
+embedding and the embeddings of other sentences in the shuffled set. Then a
+Brute Force Search is employed to maximize the sum of similarities between
+pairs of consecutive sentences.",2021-08-24
+CGEMs: A Metric Model for Automatic Code Generation using GPT-3,2021-08-23 13:28:57+00:00,http://arxiv.org/abs/2108.10168v1,"Aishwarya Narasimhan, Krishna Prasad Agara Venkatesha Rao, Veena M B",cs.AI,table2text,"Today, AI technology is showing its strengths in almost every industry and
+walks of life. From text generation, text summarization, chatbots, NLP is being
+used widely. One such paradigm is automatic code generation. An AI could be
+generating anything; hence the output space is unconstrained. A self-driving
+car is driven for 100 million miles to validate its safety, but tests cannot be
+written to monitor and cover an unconstrained space. One of the solutions to
+validate AI-generated content is to constrain the problem and convert it from
+abstract to realistic, and this can be accomplished by either validating the
+unconstrained algorithm using theoretical proofs or by using Monte-Carlo
+simulation methods. In this case, we use the latter approach to test/validate a
+statistically significant number of samples. This hypothesis of validating the
+AI-generated code is the main motive of this work and to know if AI-generated
+code is reliable, a metric model CGEMs is proposed. This is an extremely
+challenging task as programs can have different logic with different naming
+conventions, but the metrics must capture the structure and logic of the
+program. This is similar to the importance grammar carries in AI-based text
+generation, Q&A, translations, etc. The various metrics that are garnered in
+this work to support the evaluation of generated code are as follows:
+Compilation, NL description to logic conversion, number of edits needed, some
+of the commonly used static-code metrics and NLP metrics. These metrics are
+applied to 80 codes generated using OpenAI's GPT-3. Post which a Neural network
+is designed for binary classification (acceptable/not acceptable quality of the
+generated code). The inputs to this network are the values of the features
+obtained from the metrics. The model achieves a classification accuracy of
+76.92% and an F1 score of 55.56%. XAI is augmented for model interpretability.",2021-08-23
+"A Neural Conversation Generation Model via Equivalent Shared Memory
+  Investigation",2021-08-20 13:20:14+00:00,http://arxiv.org/abs/2108.09164v1,"Changzhen Ji, Yating Zhang, Xiaozhong Liu, Adam Jatowt, Changlong Sun, Conghui Zhu, Tiejun Zhao",cs.CL,table2text,"Conversation generation as a challenging task in Natural Language Generation
+(NLG) has been increasingly attracting attention over the last years. A number
+of recent works adopted sequence-to-sequence structures along with external
+knowledge, which successfully enhanced the quality of generated conversations.
+Nevertheless, few works utilized the knowledge extracted from similar
+conversations for utterance generation. Taking conversations in customer
+service and court debate domains as examples, it is evident that essential
+entities/phrases, as well as their associated logic and inter-relationships can
+be extracted and borrowed from similar conversation instances. Such information
+could provide useful signals for improving conversation generation. In this
+paper, we propose a novel reading and memory framework called Deep Reading
+Memory Network (DRMN) which is capable of remembering useful information of
+similar conversations for improving utterance generation. We apply our model to
+two large-scale conversation datasets of justice and e-commerce fields.
+Experiments prove that the proposed model outperforms the state-of-the-art
+approaches.",2021-08-20
+"Table Caption Generation in Scholarly Documents Leveraging Pre-trained
+  Language Models",2021-08-18 12:25:43+00:00,http://arxiv.org/abs/2108.08111v1,"Junjie H. Xu, Kohei Shinden, Makoto P. Kato",cs.CL,table2text,"This paper addresses the problem of generating table captions for scholarly
+documents, which often require additional information outside the table. To
+this end, we propose a method of retrieving relevant sentences from the paper
+body, and feeding the table content as well as the retrieved sentences into
+pre-trained language models (e.g. T5 and GPT-2) for generating table captions.
+The contributions of this paper are: (1) discussion on the challenges in table
+captioning for scholarly documents; (2) development of a dataset DocBank-TB,
+which is publicly available; and (3) comparison of caption generation methods
+for scholarly documents with different strategies to retrieve relevant
+sentences from the paper body. Our experimental results showed that T5 is the
+better generation model for this task, as it outperformed GPT-2 in BLEU and
+METEOR implying that the generated text are clearer and more precise. Moreover,
+inputting relevant sentences matching the row header or whole table is
+effective.",2021-08-18
+"GGP: A Graph-based Grouping Planner for Explicit Control of Long Text
+  Generation",2021-08-18 06:55:55+00:00,http://arxiv.org/abs/2108.07998v1,"Xuming Lin, Shaobo Cui, Zhongzhou Zhao, Wei Zhou, Ji Zhang, Haiqing Chen",cs.CL,table2text,"Existing data-driven methods can well handle short text generation. However,
+when applied to the long-text generation scenarios such as story generation or
+advertising text generation in the commercial scenario, these methods may
+generate illogical and uncontrollable texts. To address these aforementioned
+issues, we propose a graph-based grouping planner(GGP) following the idea of
+first-plan-then-generate. Specifically, given a collection of key phrases, GGP
+firstly encodes these phrases into an instance-level sequential representation
+and a corpus-level graph-based representation separately. With these two
+synergic representations, we then regroup these phrases into a fine-grained
+plan, based on which we generate the final long text. We conduct our
+experiments on three long text generation datasets and the experimental results
+reveal that GGP significantly outperforms baselines, which proves that GGP can
+control the long text generation by knowing how to say and in what order.",2021-08-18
+"Reusable Templates and Guides For Documenting Datasets and Models for
+  Natural Language Processing and Generation: A Case Study of the HuggingFace
+  and GEM Data and Model Cards",2021-08-16 23:15:09+00:00,http://arxiv.org/abs/2108.07374v1,"Angelina McMillan-Major, Salomey Osei, Juan Diego Rodriguez, Pawan Sasanka Ammanamanchi, Sebastian Gehrmann, Yacine Jernite","cs.DB, cs.CL",table2text,"Developing documentation guidelines and easy-to-use templates for datasets
+and models is a challenging task, especially given the variety of backgrounds,
+skills, and incentives of the people involved in the building of natural
+language processing (NLP) tools. Nevertheless, the adoption of standard
+documentation practices across the field of NLP promotes more accessible and
+detailed descriptions of NLP datasets and models, while supporting researchers
+and developers in reflecting on their work. To help with the standardization of
+documentation, we present two case studies of efforts that aim to develop
+reusable documentation templates -- the HuggingFace data card, a general
+purpose card for datasets in NLP, and the GEM benchmark data and model cards
+with a focus on natural language generation. We describe our process for
+developing these templates, including the identification of relevant
+stakeholder groups, the definition of a set of guiding principles, the use of
+existing templates as our foundation, and iterative revisions based on
+feedback.",2021-08-16
+A Single Example Can Improve Zero-Shot Data Generation,2021-08-16 09:43:26+00:00,http://arxiv.org/abs/2108.06991v1,"Pavel Burnyshev, Valentin Malykh, Andrey Bout, Ekaterina Artemova, Irina Piontkovskaya",cs.CL,table2text,"Sub-tasks of intent classification, such as robustness to distribution shift,
+adaptation to specific user groups and personalization, out-of-domain
+detection, require extensive and flexible datasets for experiments and
+evaluation. As collecting such datasets is time- and labor-consuming, we
+propose to use text generation methods to gather datasets. The generator should
+be trained to generate utterances that belong to the given intent. We explore
+two approaches to generating task-oriented utterances. In the zero-shot
+approach, the model is trained to generate utterances from seen intents and is
+further used to generate utterances for intents unseen during training. In the
+one-shot approach, the model is presented with a single utterance from a test
+intent. We perform a thorough automatic, and human evaluation of the dataset
+generated utilizing two proposed approaches. Our results reveal that the
+attributes of the generated data are close to original test sets, collected via
+crowd-sourcing.",2021-08-16
+"HiTab: A Hierarchical Table Dataset for Question Answering and Natural
+  Language Generation",2021-08-15 10:14:21+00:00,http://arxiv.org/abs/2108.06712v1,"Zhoujun Cheng, Haoyu Dong, Zhiruo Wang, Ran Jia, Jiaqi Guo, Yan Gao, Shi Han, Jian-Guang Lou, Dongmei Zhang","cs.CL, cs.IR",table2text,"Tables are often created with hierarchies, but existing works on table
+reasoning mainly focus on flat tables and neglect hierarchical tables.
+Hierarchical tables challenge existing methods by hierarchical indexing, as
+well as implicit relationships of calculation and semantics. This work presents
+HiTab, a free and open dataset for the research community to study question
+answering (QA) and natural language generation (NLG) over hierarchical tables.
+HiTab is a cross-domain dataset constructed from a wealth of statistical
+reports and Wikipedia pages, and has unique characteristics: (1) nearly all
+tables are hierarchical, and (2) both target sentences for NLG and questions
+for QA are revised from high-quality descriptions in statistical reports that
+are meaningful and diverse. (3) HiTab provides fine-grained annotations on both
+entity and quantity alignment. Targeting hierarchical structure, we devise a
+novel hierarchy-aware logical form for symbolic reasoning over tables, which
+shows high effectiveness. Then given annotations of entity and quantity
+alignment, we propose partially supervised training, which helps models to
+largely reduce spurious predictions in the QA task. In the NLG task, we find
+that entity and quantity alignment also helps NLG models to generate better
+results in a conditional generation setting. Experiment results of
+state-of-the-art baselines suggest that this dataset presents a strong
+challenge and a valuable benchmark for future research.",2021-08-15
+MTG: A Benchmarking Suite for Multilingual Text Generation,2021-08-13 13:25:08+00:00,http://arxiv.org/abs/2108.07140v1,"Yiran Chen, Zhenqiao Song, Xianze Wu, Danqing Wang, Jingjing Xu, Jiaze Chen, Hao Zhou, Lei Li",cs.CL,table2text,"We introduce MTG, a new benchmark suite for training and evaluating
+multilingual text generation. It is the first and largest text generation
+benchmark with 120k human-annotated multi-way parallel data for three tasks
+(story generation, question generation, and title generation) across four
+languages (English, German, French, and Spanish). Based on it, we set various
+evaluation scenarios and make a deep analysis of several popular multilingual
+generation models from different aspects. Our benchmark suite will encourage
+the multilingualism for text generation community with more human-annotated
+parallel data and more diverse generation scenarios.",2021-08-13
+"Curriculum Learning: A Regularization Method for Efficient and Stable
+  Billion-Scale GPT Model Pre-Training",2021-08-13 06:32:53+00:00,http://arxiv.org/abs/2108.06084v1,"Conglong Li, Minjia Zhang, Yuxiong He","cs.LG, cs.DC",table2text,"Recent works have demonstrated great success in training high-capacity
+autoregressive language models (GPT, GPT-2, GPT-3) on a huge amount of
+unlabeled text corpus for text generation. Despite showing great results, this
+generates two training efficiency challenges. First, training large corpora can
+be extremely timing consuming, and how to present training samples to the model
+to improve the token-wise convergence speed remains a challenging and open
+question. Second, many of these large models have to be trained with hundreds
+or even thousands of processors using data-parallelism with a very large batch
+size. Despite of its better compute efficiency, it has been observed that
+large-batch training often runs into training instability issue or converges to
+solutions with bad generalization performance. To overcome these two
+challenges, we present a study of a curriculum learning based approach, which
+helps improves the pre-training convergence speed of autoregressive models.
+More importantly, we find that curriculum learning, as a regularization method,
+exerts a gradient variance reduction effect and enables to train autoregressive
+models with much larger batch sizes and learning rates without training
+instability, further improving the training speed. Our evaluations demonstrate
+that curriculum learning enables training GPT-2 models (with up to 1.5B
+parameters) with 8x larger batch size and 4x larger learning rate, whereas the
+baseline approach struggles with training divergence. To achieve the same
+validation perplexity targets during pre-training, curriculum learning reduces
+the required number of tokens and wall clock time by up to 59% and 54%,
+respectively. To achieve the same or better zero-shot WikiText-103/LAMBADA
+evaluation results at the end of pre-training, curriculum learning reduces the
+required number of tokens and wall clock time by up to 13% and 61%,
+respectively.",2021-08-13
+IntenT5: Search Result Diversification using Causal Language Models,2021-08-09 13:29:24+00:00,http://arxiv.org/abs/2108.04026v1,"Sean MacAvaney, Craig Macdonald, Roderick Murray-Smith, Iadh Ounis",cs.IR,table2text,"Search result diversification is a beneficial approach to overcome
+under-specified queries, such as those that are ambiguous or multi-faceted.
+Existing approaches often rely on massive query logs and interaction data to
+generate a variety of possible query intents, which then can be used to re-rank
+documents. However, relying on user interaction data is problematic because one
+first needs a massive user base to build a sufficient log; public query logs
+are insufficient on their own. Given the recent success of causal language
+models (such as the Text-To-Text Transformer (T5) model) at text generation
+tasks, we explore the capacity of these models to generate potential query
+intents. We find that to encourage diversity in the generated queries, it is
+beneficial to adapt the model by including a new Distributional Causal Language
+Modeling (DCLM) objective during fine-tuning and a representation replacement
+during inference. Across six standard evaluation benchmarks, we find that our
+method (which we call IntenT5) improves search result diversity and attains
+(and sometimes exceeds) the diversity obtained when using query suggestions
+based on a proprietary query log. Our analysis shows that our approach is most
+effective for multi-faceted queries and is able to generalize effectively to
+queries that were unseen in training data.",2021-08-09
 "Controlled Text Generation as Continuous Optimization with Multiple
   Constraints",2021-08-04 05:25:20+00:00,http://arxiv.org/abs/2108.01850v1,"Sachin Kumar, Eric Malmi, Aliaksei Severyn, Yulia Tsvetkov",cs.CL,table2text,"As large-scale language model pretraining pushes the state-of-the-art in text
 generation, recent work has turned to controlling attributes of the text such

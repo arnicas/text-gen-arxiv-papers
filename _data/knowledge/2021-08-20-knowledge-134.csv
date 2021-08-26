@@ -1,4 +1,68 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"A Neural Conversation Generation Model via Equivalent Shared Memory
+  Investigation",2021-08-20 13:20:14+00:00,http://arxiv.org/abs/2108.09164v1,"Changzhen Ji, Yating Zhang, Xiaozhong Liu, Adam Jatowt, Changlong Sun, Conghui Zhu, Tiejun Zhao",cs.CL,knowledge,"Conversation generation as a challenging task in Natural Language Generation
+(NLG) has been increasingly attracting attention over the last years. A number
+of recent works adopted sequence-to-sequence structures along with external
+knowledge, which successfully enhanced the quality of generated conversations.
+Nevertheless, few works utilized the knowledge extracted from similar
+conversations for utterance generation. Taking conversations in customer
+service and court debate domains as examples, it is evident that essential
+entities/phrases, as well as their associated logic and inter-relationships can
+be extracted and borrowed from similar conversation instances. Such information
+could provide useful signals for improving conversation generation. In this
+paper, we propose a novel reading and memory framework called Deep Reading
+Memory Network (DRMN) which is capable of remembering useful information of
+similar conversations for improving utterance generation. We apply our model to
+two large-scale conversation datasets of justice and e-commerce fields.
+Experiments prove that the proposed model outperforms the state-of-the-art
+approaches.",2021-08-20
+"GGP: A Graph-based Grouping Planner for Explicit Control of Long Text
+  Generation",2021-08-18 06:55:55+00:00,http://arxiv.org/abs/2108.07998v1,"Xuming Lin, Shaobo Cui, Zhongzhou Zhao, Wei Zhou, Ji Zhang, Haiqing Chen",cs.CL,knowledge,"Existing data-driven methods can well handle short text generation. However,
+when applied to the long-text generation scenarios such as story generation or
+advertising text generation in the commercial scenario, these methods may
+generate illogical and uncontrollable texts. To address these aforementioned
+issues, we propose a graph-based grouping planner(GGP) following the idea of
+first-plan-then-generate. Specifically, given a collection of key phrases, GGP
+firstly encodes these phrases into an instance-level sequential representation
+and a corpus-level graph-based representation separately. With these two
+synergic representations, we then regroup these phrases into a fine-grained
+plan, based on which we generate the final long text. We conduct our
+experiments on three long text generation datasets and the experimental results
+reveal that GGP significantly outperforms baselines, which proves that GGP can
+control the long text generation by knowing how to say and in what order.",2021-08-18
+"HiTab: A Hierarchical Table Dataset for Question Answering and Natural
+  Language Generation",2021-08-15 10:14:21+00:00,http://arxiv.org/abs/2108.06712v1,"Zhoujun Cheng, Haoyu Dong, Zhiruo Wang, Ran Jia, Jiaqi Guo, Yan Gao, Shi Han, Jian-Guang Lou, Dongmei Zhang","cs.CL, cs.IR",knowledge,"Tables are often created with hierarchies, but existing works on table
+reasoning mainly focus on flat tables and neglect hierarchical tables.
+Hierarchical tables challenge existing methods by hierarchical indexing, as
+well as implicit relationships of calculation and semantics. This work presents
+HiTab, a free and open dataset for the research community to study question
+answering (QA) and natural language generation (NLG) over hierarchical tables.
+HiTab is a cross-domain dataset constructed from a wealth of statistical
+reports and Wikipedia pages, and has unique characteristics: (1) nearly all
+tables are hierarchical, and (2) both target sentences for NLG and questions
+for QA are revised from high-quality descriptions in statistical reports that
+are meaningful and diverse. (3) HiTab provides fine-grained annotations on both
+entity and quantity alignment. Targeting hierarchical structure, we devise a
+novel hierarchy-aware logical form for symbolic reasoning over tables, which
+shows high effectiveness. Then given annotations of entity and quantity
+alignment, we propose partially supervised training, which helps models to
+largely reduce spurious predictions in the QA task. In the NLG task, we find
+that entity and quantity alignment also helps NLG models to generate better
+results in a conditional generation setting. Experiment results of
+state-of-the-art baselines suggest that this dataset presents a strong
+challenge and a valuable benchmark for future research.",2021-08-15
+Generating Diverse Descriptions from Semantic Graphs,2021-08-12 11:00:09+00:00,http://arxiv.org/abs/2108.05659v2,"Jiuzhou Han, Daniel Beck, Trevor Cohn",cs.CL,knowledge,"Text generation from semantic graphs is traditionally performed with
+deterministic methods, which generate a unique description given an input
+graph. However, the generation problem admits a range of acceptable textual
+outputs, exhibiting lexical, syntactic and semantic variation. To address this
+disconnect, we present two main contributions. First, we propose a stochastic
+graph-to-text model, incorporating a latent variable in an encoder-decoder
+model, and its use in an ensemble. Second, to assess the diversity of the
+generated sentences, we propose a new automatic evaluation metric which jointly
+evaluates output diversity and quality in a multi-reference setting. We
+evaluate the models on WebNLG datasets in English and Russian, and show an
+ensemble of stochastic models produces diverse sets of generated sentences,
+while retaining similar quality to state-of-the-art models.",2021-08-12
 Sentence Semantic Regression for Text Generation,2021-08-06 07:35:59+00:00,http://arxiv.org/abs/2108.02984v1,"Wei Wang, Piji Li, Hai-Tao Zheng",cs.CL,knowledge,"Recall the classical text generation works, the generation framework can be
 briefly divided into two phases: \textbf{idea reasoning} and \textbf{surface
 realization}. The target of idea reasoning is to figure out the main idea which

@@ -7,10 +7,18 @@ sidebar:
 ---
 
 
-*written on 2021-08-09*
+*written on 2021-08-26*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [CGEMs: A Metric Model for Automatic Code Generation using GPT-3](http://arxiv.org/abs/2108.10168v1) | Aishwarya Narasimhan, Krishna Prasad Agara Venkatesha Rao, Veena M B | cs.AI | 2021-08-23 |
+| [Group-based Distinctive Image Captioning with Memory Attention](http://arxiv.org/abs/2108.09151v1) | Jiuniu Wang, Wenjia Xu, Qingzhong Wang, Antoni B. Chan | cs.CV, cs.CL, cs.LG | 2021-08-20 |
+| [CIGLI: Conditional Image Generation from Language & Image](http://arxiv.org/abs/2108.08955v1) | Xiaopeng Lu, Lynnette Ng, Jared Fernandez, Hao Zhu | cs.CV, cs.CL | 2021-08-20 |
+| [Table Caption Generation in Scholarly Documents Leveraging Pre-trained  Language Models](http://arxiv.org/abs/2108.08111v1) | Junjie H. Xu, Kohei Shinden, Makoto P. Kato | cs.CL | 2021-08-18 |
+| [Reusable Templates and Guides For Documenting Datasets and Models for  Natural Language Processing and Generation: A Case Study of the HuggingFace  and GEM Data and Model Cards](http://arxiv.org/abs/2108.07374v1) | Angelina McMillan-Major, Salomey Osei, Juan Diego Rodriguez, Pawan Sasanka Ammanamanchi, Sebastian Gehrmann, Yacine Jernite | cs.DB, cs.CL | 2021-08-16 |
+| [AutoChart: A Dataset for Chart-to-Text Generation Task](http://arxiv.org/abs/2108.06897v1) | Jiawen Zhu, Jinye Ran, Roy Ka-wei Lee, Kenny Choo, Zhi Li | cs.CL, cs.AI, cs.MM | 2021-08-16 |
+| [HiTab: A Hierarchical Table Dataset for Question Answering and Natural  Language Generation](http://arxiv.org/abs/2108.06712v1) | Zhoujun Cheng, Haoyu Dong, Zhiruo Wang, Ran Jia, Jiaqi Guo, Yan Gao, Shi Han, Jian-Guang Lou, Dongmei Zhang | cs.CL, cs.IR | 2021-08-15 |
+| [Generating Diverse Descriptions from Semantic Graphs](http://arxiv.org/abs/2108.05659v2) | Jiuzhou Han, Daniel Beck, Trevor Cohn | cs.CL | 2021-08-12 |
 | [ICECAP: Information Concentrated Entity-aware Image Captioning](http://arxiv.org/abs/2108.02050v1) | Anwen Hu, Shizhe Chen, Qin Jin | cs.CV, cs.MM | 2021-08-04 |
 | [Exploiting BERT For Multimodal Target Sentiment Classification Through  Input Space Translation](http://arxiv.org/abs/2108.01682v2) | Zaid Khan, Yun Fu | cs.CL, cs.CV | 2021-08-03 |
 | [Logic-Consistency Text Generation from Semantic Parses](http://arxiv.org/abs/2108.00577v1) | Chang Shu, Yusen Zhang, Xiangyu Dong, Peng Shi, Tao Yu, Rui Zhang | cs.CL | 2021-08-02 |

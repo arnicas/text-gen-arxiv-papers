@@ -7,10 +7,21 @@ sidebar:
 ---
 
 
-*written on 2021-08-09*
+*written on 2021-08-26*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Using BERT Encoding and Sentence-Level Language Model for Sentence  Ordering](http://arxiv.org/abs/2108.10986v1) | Melika Golestani, Seyedeh Zahra Razavi, Zeinab Borhanifard, Farnaz Tahmasebian, Hesham Faili | cs.CL | 2021-08-24 |
+| [CGEMs: A Metric Model for Automatic Code Generation using GPT-3](http://arxiv.org/abs/2108.10168v1) | Aishwarya Narasimhan, Krishna Prasad Agara Venkatesha Rao, Veena M B | cs.AI | 2021-08-23 |
+| [A Neural Conversation Generation Model via Equivalent Shared Memory  Investigation](http://arxiv.org/abs/2108.09164v1) | Changzhen Ji, Yating Zhang, Xiaozhong Liu, Adam Jatowt, Changlong Sun, Conghui Zhu, Tiejun Zhao | cs.CL | 2021-08-20 |
+| [Table Caption Generation in Scholarly Documents Leveraging Pre-trained  Language Models](http://arxiv.org/abs/2108.08111v1) | Junjie H. Xu, Kohei Shinden, Makoto P. Kato | cs.CL | 2021-08-18 |
+| [GGP: A Graph-based Grouping Planner for Explicit Control of Long Text  Generation](http://arxiv.org/abs/2108.07998v1) | Xuming Lin, Shaobo Cui, Zhongzhou Zhao, Wei Zhou, Ji Zhang, Haiqing Chen | cs.CL | 2021-08-18 |
+| [Reusable Templates and Guides For Documenting Datasets and Models for  Natural Language Processing and Generation: A Case Study of the HuggingFace  and GEM Data and Model Cards](http://arxiv.org/abs/2108.07374v1) | Angelina McMillan-Major, Salomey Osei, Juan Diego Rodriguez, Pawan Sasanka Ammanamanchi, Sebastian Gehrmann, Yacine Jernite | cs.DB, cs.CL | 2021-08-16 |
+| [A Single Example Can Improve Zero-Shot Data Generation](http://arxiv.org/abs/2108.06991v1) | Pavel Burnyshev, Valentin Malykh, Andrey Bout, Ekaterina Artemova, Irina Piontkovskaya | cs.CL | 2021-08-16 |
+| [HiTab: A Hierarchical Table Dataset for Question Answering and Natural  Language Generation](http://arxiv.org/abs/2108.06712v1) | Zhoujun Cheng, Haoyu Dong, Zhiruo Wang, Ran Jia, Jiaqi Guo, Yan Gao, Shi Han, Jian-Guang Lou, Dongmei Zhang | cs.CL, cs.IR | 2021-08-15 |
+| [MTG: A Benchmarking Suite for Multilingual Text Generation](http://arxiv.org/abs/2108.07140v1) | Yiran Chen, Zhenqiao Song, Xianze Wu, Danqing Wang, Jingjing Xu, Jiaze Chen, Hao Zhou, Lei Li | cs.CL | 2021-08-13 |
+| [Curriculum Learning: A Regularization Method for Efficient and Stable  Billion-Scale GPT Model Pre-Training](http://arxiv.org/abs/2108.06084v1) | Conglong Li, Minjia Zhang, Yuxiong He | cs.LG, cs.DC | 2021-08-13 |
+| [IntenT5: Search Result Diversification using Causal Language Models](http://arxiv.org/abs/2108.04026v1) | Sean MacAvaney, Craig Macdonald, Roderick Murray-Smith, Iadh Ounis | cs.IR | 2021-08-09 |
 | [Controlled Text Generation as Continuous Optimization with Multiple  Constraints](http://arxiv.org/abs/2108.01850v1) | Sachin Kumar, Eric Malmi, Aliaksei Severyn, Yulia Tsvetkov | cs.CL | 2021-08-04 |
 | [Exploiting BERT For Multimodal Target Sentiment Classification Through  Input Space Translation](http://arxiv.org/abs/2108.01682v2) | Zaid Khan, Yun Fu | cs.CL, cs.CV | 2021-08-03 |
 | [Logic-Consistency Text Generation from Semantic Parses](http://arxiv.org/abs/2108.00577v1) | Chang Shu, Yusen Zhang, Xiangyu Dong, Peng Shi, Tao Yu, Rui Zhang | cs.CL | 2021-08-02 |

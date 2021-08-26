@@ -6,10 +6,14 @@ sidebar:
 ---
 
 
-*written on 2021-08-09*
+*written on 2021-08-26*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [A Neural Conversation Generation Model via Equivalent Shared Memory  Investigation](http://arxiv.org/abs/2108.09164v1) | Changzhen Ji, Yating Zhang, Xiaozhong Liu, Adam Jatowt, Changlong Sun, Conghui Zhu, Tiejun Zhao | cs.CL | 2021-08-20 |
+| [GGP: A Graph-based Grouping Planner for Explicit Control of Long Text  Generation](http://arxiv.org/abs/2108.07998v1) | Xuming Lin, Shaobo Cui, Zhongzhou Zhao, Wei Zhou, Ji Zhang, Haiqing Chen | cs.CL | 2021-08-18 |
+| [HiTab: A Hierarchical Table Dataset for Question Answering and Natural  Language Generation](http://arxiv.org/abs/2108.06712v1) | Zhoujun Cheng, Haoyu Dong, Zhiruo Wang, Ran Jia, Jiaqi Guo, Yan Gao, Shi Han, Jian-Guang Lou, Dongmei Zhang | cs.CL, cs.IR | 2021-08-15 |
+| [Generating Diverse Descriptions from Semantic Graphs](http://arxiv.org/abs/2108.05659v2) | Jiuzhou Han, Daniel Beck, Trevor Cohn | cs.CL | 2021-08-12 |
 | [Sentence Semantic Regression for Text Generation](http://arxiv.org/abs/2108.02984v1) | Wei Wang, Piji Li, Hai-Tao Zheng | cs.CL | 2021-08-06 |
 | [Logic-Consistency Text Generation from Semantic Parses](http://arxiv.org/abs/2108.00577v1) | Chang Shu, Yusen Zhang, Xiangyu Dong, Peng Shi, Tao Yu, Rui Zhang | cs.CL | 2021-08-02 |
 | [Neural Rule-Execution Tracking Machine For Transformer-Based Text  Generation](http://arxiv.org/abs/2107.13077v1) | Yufei Wang, Can Xu, Huang Hu, Chongyang Tao, Stephen Wan, Mark Dras, Mark Johnson, Daxin Jiang | cs.CL | 2021-07-27 |

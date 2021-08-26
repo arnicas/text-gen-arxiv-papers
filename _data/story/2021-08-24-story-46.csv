@@ -1,4 +1,52 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Using BERT Encoding and Sentence-Level Language Model for Sentence
+  Ordering",2021-08-24 23:03:36+00:00,http://arxiv.org/abs/2108.10986v1,"Melika Golestani, Seyedeh Zahra Razavi, Zeinab Borhanifard, Farnaz Tahmasebian, Hesham Faili",cs.CL,story,"Discovering the logical sequence of events is one of the cornerstones in
+Natural Language Understanding. One approach to learn the sequence of events is
+to study the order of sentences in a coherent text. Sentence ordering can be
+applied in various tasks such as retrieval-based Question Answering, document
+summarization, storytelling, text generation, and dialogue systems.
+Furthermore, we can learn to model text coherence by learning how to order a
+set of shuffled sentences. Previous research has relied on RNN, LSTM, and
+BiLSTM architecture for learning text language models. However, these networks
+have performed poorly due to the lack of attention mechanisms. We propose an
+algorithm for sentence ordering in a corpus of short stories. Our proposed
+method uses a language model based on Universal Transformers (UT) that captures
+sentences' dependencies by employing an attention mechanism. Our method
+improves the previous state-of-the-art in terms of Perfect Match Ratio (PMR)
+score in the ROCStories dataset, a corpus of nearly 100K short human-made
+stories. The proposed model includes three components: Sentence Encoder,
+Language Model, and Sentence Arrangement with Brute Force Search. The first
+component generates sentence embeddings using SBERT-WK pre-trained model
+fine-tuned on the ROCStories data. Then a Universal Transformer network
+generates a sentence-level language model. For decoding, the network generates
+a candidate sentence as the following sentence of the current sentence. We use
+cosine similarity as a scoring function to assign scores to the candidate
+embedding and the embeddings of other sentences in the shuffled set. Then a
+Brute Force Search is employed to maximize the sum of similarities between
+pairs of consecutive sentences.",2021-08-24
+"GGP: A Graph-based Grouping Planner for Explicit Control of Long Text
+  Generation",2021-08-18 06:55:55+00:00,http://arxiv.org/abs/2108.07998v1,"Xuming Lin, Shaobo Cui, Zhongzhou Zhao, Wei Zhou, Ji Zhang, Haiqing Chen",cs.CL,story,"Existing data-driven methods can well handle short text generation. However,
+when applied to the long-text generation scenarios such as story generation or
+advertising text generation in the commercial scenario, these methods may
+generate illogical and uncontrollable texts. To address these aforementioned
+issues, we propose a graph-based grouping planner(GGP) following the idea of
+first-plan-then-generate. Specifically, given a collection of key phrases, GGP
+firstly encodes these phrases into an instance-level sequential representation
+and a corpus-level graph-based representation separately. With these two
+synergic representations, we then regroup these phrases into a fine-grained
+plan, based on which we generate the final long text. We conduct our
+experiments on three long text generation datasets and the experimental results
+reveal that GGP significantly outperforms baselines, which proves that GGP can
+control the long text generation by knowing how to say and in what order.",2021-08-18
+MTG: A Benchmarking Suite for Multilingual Text Generation,2021-08-13 13:25:08+00:00,http://arxiv.org/abs/2108.07140v1,"Yiran Chen, Zhenqiao Song, Xianze Wu, Danqing Wang, Jingjing Xu, Jiaze Chen, Hao Zhou, Lei Li",cs.CL,story,"We introduce MTG, a new benchmark suite for training and evaluating
+multilingual text generation. It is the first and largest text generation
+benchmark with 120k human-annotated multi-way parallel data for three tasks
+(story generation, question generation, and title generation) across four
+languages (English, German, French, and Spanish). Based on it, we set various
+evaluation scenarios and make a deep analysis of several popular multilingual
+generation models from different aspects. Our benchmark suite will encourage
+the multilingualism for text generation community with more human-annotated
+parallel data and more diverse generation scenarios.",2021-08-13
 Sentence Semantic Regression for Text Generation,2021-08-06 07:35:59+00:00,http://arxiv.org/abs/2108.02984v1,"Wei Wang, Piji Li, Hai-Tao Zheng",cs.CL,story,"Recall the classical text generation works, the generation framework can be
 briefly divided into two phases: \textbf{idea reasoning} and \textbf{surface
 realization}. The target of idea reasoning is to figure out the main idea which

@@ -1,4 +1,116 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Viola: A Topic Agnostic Generate-and-Rank Dialogue System,2021-08-25 06:20:34+00:00,http://arxiv.org/abs/2108.11063v1,"Hyundong Cho, Basel Shbita, Kartik Shenoy, Shuai Liu, Nikhil Patel, Hitesh Pindikanti, Jennifer Lee, Jonathan May",cs.CL,dialogue,"We present Viola, an open-domain dialogue system for spoken conversation that
+uses a topic-agnostic dialogue manager based on a simple generate-and-rank
+approach. Leveraging recent advances of generative dialogue systems powered by
+large language models, Viola fetches a batch of response candidates from
+various neural dialogue models trained with different datasets and
+knowledge-grounding inputs. Additional responses originating from
+template-based generators are also considered, depending on the user's input
+and detected entities. The hand-crafted generators build on a dynamic knowledge
+graph injected with rich content that is crawled from the web and automatically
+processed on a daily basis. Viola's response ranker is a fine-tuned polyencoder
+that chooses the best response given the dialogue history. While dedicated
+annotations for the polyencoder alone can indirectly steer it away from
+choosing problematic responses, we add rule-based safety nets to detect neural
+degeneration and a dedicated classifier to filter out offensive content. We
+analyze conversations that Viola took part in for the Alexa Prize Socialbot
+Grand Challenge 4 and discuss the strengths and weaknesses of our approach.
+Lastly, we suggest future work with a focus on curating conversation data
+specifcially for socialbots that will contribute towards a more robust
+data-driven socialbot.",2021-08-25
+"Using BERT Encoding and Sentence-Level Language Model for Sentence
+  Ordering",2021-08-24 23:03:36+00:00,http://arxiv.org/abs/2108.10986v1,"Melika Golestani, Seyedeh Zahra Razavi, Zeinab Borhanifard, Farnaz Tahmasebian, Hesham Faili",cs.CL,dialogue,"Discovering the logical sequence of events is one of the cornerstones in
+Natural Language Understanding. One approach to learn the sequence of events is
+to study the order of sentences in a coherent text. Sentence ordering can be
+applied in various tasks such as retrieval-based Question Answering, document
+summarization, storytelling, text generation, and dialogue systems.
+Furthermore, we can learn to model text coherence by learning how to order a
+set of shuffled sentences. Previous research has relied on RNN, LSTM, and
+BiLSTM architecture for learning text language models. However, these networks
+have performed poorly due to the lack of attention mechanisms. We propose an
+algorithm for sentence ordering in a corpus of short stories. Our proposed
+method uses a language model based on Universal Transformers (UT) that captures
+sentences' dependencies by employing an attention mechanism. Our method
+improves the previous state-of-the-art in terms of Perfect Match Ratio (PMR)
+score in the ROCStories dataset, a corpus of nearly 100K short human-made
+stories. The proposed model includes three components: Sentence Encoder,
+Language Model, and Sentence Arrangement with Brute Force Search. The first
+component generates sentence embeddings using SBERT-WK pre-trained model
+fine-tuned on the ROCStories data. Then a Universal Transformer network
+generates a sentence-level language model. For decoding, the network generates
+a candidate sentence as the following sentence of the current sentence. We use
+cosine similarity as a scoring function to assign scores to the candidate
+embedding and the embeddings of other sentences in the shuffled set. Then a
+Brute Force Search is employed to maximize the sum of similarities between
+pairs of consecutive sentences.",2021-08-24
+Taming the Beast: Learning to Control Neural Conversational Models,2021-08-24 07:58:16+00:00,http://arxiv.org/abs/2108.10561v1,Andrea Madotto,"cs.CL, cs.AI, cs.LG",dialogue,"This thesis investigates the controllability of deep learning-based,
+end-to-end, generative dialogue systems in both task-oriented and chit-chat
+scenarios. In particular, we study the different aspects of controlling
+generative dialogue systems, including controlling styles and topics and
+continuously adding and combining dialogue skills. In the three decades since
+the first dialogue system was commercialized, the basic architecture of such
+systems has remained substantially unchanged, consisting of four pipelined
+basic components, namely, natural language understanding (NLU), dialogue state
+tracking (DST), a dialogue manager (DM) and natural language generation (NLG).
+The dialogue manager, which is the critical component of the modularized
+system, controls the response content and style. This module is usually
+programmed by rules and is designed to be highly controllable and easily
+extendable. With the emergence of powerful ""deep learning"" architectures,
+end-to-end generative dialogue systems have been proposed to optimize overall
+system performance and simplify training. However, these systems cannot be
+easily controlled and extended as the modularized dialogue manager can. This is
+because a single neural system is used, which is usually a large pre-trained
+language model (e.g., GPT-2), and thus it is hard to surgically change
+desirable attributes (e.g., style, topics, etc.). More importantly,
+uncontrollable dialogue systems can generate offensive and even toxic
+responses. Therefore, in this thesis, we study controllable methods for
+end-to-end generative dialogue systems in task-oriented and chit-chat
+scenarios. Throughout the chapters, we describe 1) how to control the style and
+topics of chit-chat models, 2) how to continuously control and extend
+task-oriented dialogue systems, and 3) how to compose and control multi-skill
+dialogue models.",2021-08-24
+CGEMs: A Metric Model for Automatic Code Generation using GPT-3,2021-08-23 13:28:57+00:00,http://arxiv.org/abs/2108.10168v1,"Aishwarya Narasimhan, Krishna Prasad Agara Venkatesha Rao, Veena M B",cs.AI,dialogue,"Today, AI technology is showing its strengths in almost every industry and
+walks of life. From text generation, text summarization, chatbots, NLP is being
+used widely. One such paradigm is automatic code generation. An AI could be
+generating anything; hence the output space is unconstrained. A self-driving
+car is driven for 100 million miles to validate its safety, but tests cannot be
+written to monitor and cover an unconstrained space. One of the solutions to
+validate AI-generated content is to constrain the problem and convert it from
+abstract to realistic, and this can be accomplished by either validating the
+unconstrained algorithm using theoretical proofs or by using Monte-Carlo
+simulation methods. In this case, we use the latter approach to test/validate a
+statistically significant number of samples. This hypothesis of validating the
+AI-generated code is the main motive of this work and to know if AI-generated
+code is reliable, a metric model CGEMs is proposed. This is an extremely
+challenging task as programs can have different logic with different naming
+conventions, but the metrics must capture the structure and logic of the
+program. This is similar to the importance grammar carries in AI-based text
+generation, Q&A, translations, etc. The various metrics that are garnered in
+this work to support the evaluation of generated code are as follows:
+Compilation, NL description to logic conversion, number of edits needed, some
+of the commonly used static-code metrics and NLP metrics. These metrics are
+applied to 80 codes generated using OpenAI's GPT-3. Post which a Neural network
+is designed for binary classification (acceptable/not acceptable quality of the
+generated code). The inputs to this network are the values of the features
+obtained from the metrics. The model achieves a classification accuracy of
+76.92% and an F1 score of 55.56%. XAI is augmented for model interpretability.",2021-08-23
+"A Neural Conversation Generation Model via Equivalent Shared Memory
+  Investigation",2021-08-20 13:20:14+00:00,http://arxiv.org/abs/2108.09164v1,"Changzhen Ji, Yating Zhang, Xiaozhong Liu, Adam Jatowt, Changlong Sun, Conghui Zhu, Tiejun Zhao",cs.CL,dialogue,"Conversation generation as a challenging task in Natural Language Generation
+(NLG) has been increasingly attracting attention over the last years. A number
+of recent works adopted sequence-to-sequence structures along with external
+knowledge, which successfully enhanced the quality of generated conversations.
+Nevertheless, few works utilized the knowledge extracted from similar
+conversations for utterance generation. Taking conversations in customer
+service and court debate domains as examples, it is evident that essential
+entities/phrases, as well as their associated logic and inter-relationships can
+be extracted and borrowed from similar conversation instances. Such information
+could provide useful signals for improving conversation generation. In this
+paper, we propose a novel reading and memory framework called Deep Reading
+Memory Network (DRMN) which is capable of remembering useful information of
+similar conversations for improving utterance generation. We apply our model to
+two large-scale conversation datasets of justice and e-commerce fields.
+Experiments prove that the proposed model outperforms the state-of-the-art
+approaches.",2021-08-20
 Sentence Semantic Regression for Text Generation,2021-08-06 07:35:59+00:00,http://arxiv.org/abs/2108.02984v1,"Wei Wang, Piji Li, Hai-Tao Zheng",cs.CL,dialogue,"Recall the classical text generation works, the generation framework can be
 briefly divided into two phases: \textbf{idea reasoning} and \textbf{surface
 realization}. The target of idea reasoning is to figure out the main idea which

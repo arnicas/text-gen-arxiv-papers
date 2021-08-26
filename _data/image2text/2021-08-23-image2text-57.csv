@@ -1,4 +1,141 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+CGEMs: A Metric Model for Automatic Code Generation using GPT-3,2021-08-23 13:28:57+00:00,http://arxiv.org/abs/2108.10168v1,"Aishwarya Narasimhan, Krishna Prasad Agara Venkatesha Rao, Veena M B",cs.AI,image2text,"Today, AI technology is showing its strengths in almost every industry and
+walks of life. From text generation, text summarization, chatbots, NLP is being
+used widely. One such paradigm is automatic code generation. An AI could be
+generating anything; hence the output space is unconstrained. A self-driving
+car is driven for 100 million miles to validate its safety, but tests cannot be
+written to monitor and cover an unconstrained space. One of the solutions to
+validate AI-generated content is to constrain the problem and convert it from
+abstract to realistic, and this can be accomplished by either validating the
+unconstrained algorithm using theoretical proofs or by using Monte-Carlo
+simulation methods. In this case, we use the latter approach to test/validate a
+statistically significant number of samples. This hypothesis of validating the
+AI-generated code is the main motive of this work and to know if AI-generated
+code is reliable, a metric model CGEMs is proposed. This is an extremely
+challenging task as programs can have different logic with different naming
+conventions, but the metrics must capture the structure and logic of the
+program. This is similar to the importance grammar carries in AI-based text
+generation, Q&A, translations, etc. The various metrics that are garnered in
+this work to support the evaluation of generated code are as follows:
+Compilation, NL description to logic conversion, number of edits needed, some
+of the commonly used static-code metrics and NLP metrics. These metrics are
+applied to 80 codes generated using OpenAI's GPT-3. Post which a Neural network
+is designed for binary classification (acceptable/not acceptable quality of the
+generated code). The inputs to this network are the values of the features
+obtained from the metrics. The model achieves a classification accuracy of
+76.92% and an F1 score of 55.56%. XAI is augmented for model interpretability.",2021-08-23
+Group-based Distinctive Image Captioning with Memory Attention,2021-08-20 12:46:36+00:00,http://arxiv.org/abs/2108.09151v1,"Jiuniu Wang, Wenjia Xu, Qingzhong Wang, Antoni B. Chan","cs.CV, cs.CL, cs.LG",image2text,"Describing images using natural language is widely known as image captioning,
+which has made consistent progress due to the development of computer vision
+and natural language generation techniques. Though conventional captioning
+models achieve high accuracy based on popular metrics, i.e., BLEU, CIDEr, and
+SPICE, the ability of captions to distinguish the target image from other
+similar images is under-explored. To generate distinctive captions, a few
+pioneers employ contrastive learning or re-weighted the ground-truth captions,
+which focuses on one single input image. However, the relationships between
+objects in a similar image group (e.g., items or properties within the same
+album or fine-grained events) are neglected. In this paper, we improve the
+distinctiveness of image captions using a Group-based Distinctive Captioning
+Model (GdisCap), which compares each image with other images in one similar
+group and highlights the uniqueness of each image. In particular, we propose a
+group-based memory attention (GMA) module, which stores object features that
+are unique among the image group (i.e., with low similarity to objects in other
+images). These unique object features are highlighted when generating captions,
+resulting in more distinctive captions. Furthermore, the distinctive words in
+the ground-truth captions are selected to supervise the language decoder and
+GMA. Finally, we propose a new evaluation metric, distinctive word rate
+(DisWordRate) to measure the distinctiveness of captions. Quantitative results
+indicate that the proposed method significantly improves the distinctiveness of
+several baseline models, and achieves the state-of-the-art performance on both
+accuracy and distinctiveness. Results of a user study agree with the
+quantitative evaluation and demonstrate the rationality of the new metric
+DisWordRate.",2021-08-20
+CIGLI: Conditional Image Generation from Language & Image,2021-08-20 00:58:42+00:00,http://arxiv.org/abs/2108.08955v1,"Xiaopeng Lu, Lynnette Ng, Jared Fernandez, Hao Zhu","cs.CV, cs.CL",image2text,"Multi-modal generation has been widely explored in recent years. Current
+research directions involve generating text based on an image or vice versa. In
+this paper, we propose a new task called CIGLI: Conditional Image Generation
+from Language and Image. Instead of generating an image based on text as in
+text-image generation, this task requires the generation of an image from a
+textual description and an image prompt. We designed a new dataset to ensure
+that the text description describes information from both images, and that
+solely analyzing the description is insufficient to generate an image. We then
+propose a novel language-image fusion model which improves the performance over
+two established baseline methods, as evaluated by quantitative (automatic) and
+qualitative (human) evaluations. The code and dataset is available at
+https://github.com/vincentlux/CIGLI.",2021-08-20
+"Table Caption Generation in Scholarly Documents Leveraging Pre-trained
+  Language Models",2021-08-18 12:25:43+00:00,http://arxiv.org/abs/2108.08111v1,"Junjie H. Xu, Kohei Shinden, Makoto P. Kato",cs.CL,image2text,"This paper addresses the problem of generating table captions for scholarly
+documents, which often require additional information outside the table. To
+this end, we propose a method of retrieving relevant sentences from the paper
+body, and feeding the table content as well as the retrieved sentences into
+pre-trained language models (e.g. T5 and GPT-2) for generating table captions.
+The contributions of this paper are: (1) discussion on the challenges in table
+captioning for scholarly documents; (2) development of a dataset DocBank-TB,
+which is publicly available; and (3) comparison of caption generation methods
+for scholarly documents with different strategies to retrieve relevant
+sentences from the paper body. Our experimental results showed that T5 is the
+better generation model for this task, as it outperformed GPT-2 in BLEU and
+METEOR implying that the generated text are clearer and more precise. Moreover,
+inputting relevant sentences matching the row header or whole table is
+effective.",2021-08-18
+"Reusable Templates and Guides For Documenting Datasets and Models for
+  Natural Language Processing and Generation: A Case Study of the HuggingFace
+  and GEM Data and Model Cards",2021-08-16 23:15:09+00:00,http://arxiv.org/abs/2108.07374v1,"Angelina McMillan-Major, Salomey Osei, Juan Diego Rodriguez, Pawan Sasanka Ammanamanchi, Sebastian Gehrmann, Yacine Jernite","cs.DB, cs.CL",image2text,"Developing documentation guidelines and easy-to-use templates for datasets
+and models is a challenging task, especially given the variety of backgrounds,
+skills, and incentives of the people involved in the building of natural
+language processing (NLP) tools. Nevertheless, the adoption of standard
+documentation practices across the field of NLP promotes more accessible and
+detailed descriptions of NLP datasets and models, while supporting researchers
+and developers in reflecting on their work. To help with the standardization of
+documentation, we present two case studies of efforts that aim to develop
+reusable documentation templates -- the HuggingFace data card, a general
+purpose card for datasets in NLP, and the GEM benchmark data and model cards
+with a focus on natural language generation. We describe our process for
+developing these templates, including the identification of relevant
+stakeholder groups, the definition of a set of guiding principles, the use of
+existing templates as our foundation, and iterative revisions based on
+feedback.",2021-08-16
+AutoChart: A Dataset for Chart-to-Text Generation Task,2021-08-16 05:01:46+00:00,http://arxiv.org/abs/2108.06897v1,"Jiawen Zhu, Jinye Ran, Roy Ka-wei Lee, Kenny Choo, Zhi Li","cs.CL, cs.AI, cs.MM",image2text,"The analytical description of charts is an exciting and important research
+area with many applications in academia and industry. Yet, this challenging
+task has received limited attention from the computational linguistics research
+community. This paper proposes \textsf{AutoChart}, a large dataset for the
+analytical description of charts, which aims to encourage more research into
+this important area. Specifically, we offer a novel framework that generates
+the charts and their analytical description automatically. We conducted
+extensive human and machine evaluations on the generated charts and
+descriptions and demonstrate that the generated texts are informative,
+coherent, and relevant to the corresponding charts.",2021-08-16
+"HiTab: A Hierarchical Table Dataset for Question Answering and Natural
+  Language Generation",2021-08-15 10:14:21+00:00,http://arxiv.org/abs/2108.06712v1,"Zhoujun Cheng, Haoyu Dong, Zhiruo Wang, Ran Jia, Jiaqi Guo, Yan Gao, Shi Han, Jian-Guang Lou, Dongmei Zhang","cs.CL, cs.IR",image2text,"Tables are often created with hierarchies, but existing works on table
+reasoning mainly focus on flat tables and neglect hierarchical tables.
+Hierarchical tables challenge existing methods by hierarchical indexing, as
+well as implicit relationships of calculation and semantics. This work presents
+HiTab, a free and open dataset for the research community to study question
+answering (QA) and natural language generation (NLG) over hierarchical tables.
+HiTab is a cross-domain dataset constructed from a wealth of statistical
+reports and Wikipedia pages, and has unique characteristics: (1) nearly all
+tables are hierarchical, and (2) both target sentences for NLG and questions
+for QA are revised from high-quality descriptions in statistical reports that
+are meaningful and diverse. (3) HiTab provides fine-grained annotations on both
+entity and quantity alignment. Targeting hierarchical structure, we devise a
+novel hierarchy-aware logical form for symbolic reasoning over tables, which
+shows high effectiveness. Then given annotations of entity and quantity
+alignment, we propose partially supervised training, which helps models to
+largely reduce spurious predictions in the QA task. In the NLG task, we find
+that entity and quantity alignment also helps NLG models to generate better
+results in a conditional generation setting. Experiment results of
+state-of-the-art baselines suggest that this dataset presents a strong
+challenge and a valuable benchmark for future research.",2021-08-15
+Generating Diverse Descriptions from Semantic Graphs,2021-08-12 11:00:09+00:00,http://arxiv.org/abs/2108.05659v2,"Jiuzhou Han, Daniel Beck, Trevor Cohn",cs.CL,image2text,"Text generation from semantic graphs is traditionally performed with
+deterministic methods, which generate a unique description given an input
+graph. However, the generation problem admits a range of acceptable textual
+outputs, exhibiting lexical, syntactic and semantic variation. To address this
+disconnect, we present two main contributions. First, we propose a stochastic
+graph-to-text model, incorporating a latent variable in an encoder-decoder
+model, and its use in an ensemble. Second, to assess the diversity of the
+generated sentences, we propose a new automatic evaluation metric which jointly
+evaluates output diversity and quality in a multi-reference setting. We
+evaluate the models on WebNLG datasets in English and Russian, and show an
+ensemble of stochastic models produces diverse sets of generated sentences,
+while retaining similar quality to state-of-the-art models.",2021-08-12
 ICECAP: Information Concentrated Entity-aware Image Captioning,2021-08-04 13:27:51+00:00,http://arxiv.org/abs/2108.02050v1,"Anwen Hu, Shizhe Chen, Qin Jin","cs.CV, cs.MM",image2text,"Most current image captioning systems focus on describing general image
 content, and lack background knowledge to deeply understand the image, such as
 exact named entities or concrete events. In this work, we focus on the

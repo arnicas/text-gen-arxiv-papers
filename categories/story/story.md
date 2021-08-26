@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2021-08-09*
+*written on 2021-08-26*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Using BERT Encoding and Sentence-Level Language Model for Sentence  Ordering](http://arxiv.org/abs/2108.10986v1) | Melika Golestani, Seyedeh Zahra Razavi, Zeinab Borhanifard, Farnaz Tahmasebian, Hesham Faili | cs.CL | 2021-08-24 |
+| [GGP: A Graph-based Grouping Planner for Explicit Control of Long Text  Generation](http://arxiv.org/abs/2108.07998v1) | Xuming Lin, Shaobo Cui, Zhongzhou Zhao, Wei Zhou, Ji Zhang, Haiqing Chen | cs.CL | 2021-08-18 |
+| [MTG: A Benchmarking Suite for Multilingual Text Generation](http://arxiv.org/abs/2108.07140v1) | Yiran Chen, Zhenqiao Song, Xianze Wu, Danqing Wang, Jingjing Xu, Jiaze Chen, Hao Zhou, Lei Li | cs.CL | 2021-08-13 |
 | [Sentence Semantic Regression for Text Generation](http://arxiv.org/abs/2108.02984v1) | Wei Wang, Piji Li, Hai-Tao Zheng | cs.CL | 2021-08-06 |
 | [Inspiration through Observation: Demonstrating the Influence of  Automatically Generated Text on Creative Writing](http://arxiv.org/abs/2107.04007v1) | Melissa Roemmele | cs.CL, cs.AI, cs.HC | 2021-07-08 |
 | [Improving Coherence and Consistency in Neural Sequence Models with  Dual-System, Neuro-Symbolic Reasoning](http://arxiv.org/abs/2107.02794v1) | Maxwell Nye, Michael Henry Tessler, Joshua B. Tenenbaum, Brenden M. Lake | cs.AI, cs.CL, cs.LG | 2021-07-06 |
