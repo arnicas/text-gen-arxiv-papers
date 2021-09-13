@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-08-09*
+*written on 2021-09-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Lingxi: A Diversity-aware Chinese Modern Poetry Generation System](http://arxiv.org/abs/2108.12108v1) | Xinran Zhang, Maosong Sun, Jiafeng Liu, Xiaobing Li | cs.CL | 2021-08-27 |
 | [Urdu & Hindi Poetry Generation using Neural Networks](http://arxiv.org/abs/2107.14587v1) | Shakeeb A. M. Mukhtar, Pushkar S. Joglekar | cs.CL, cs.LG | 2021-07-16 |
 | [FUDGE: Controlled Text Generation With Future Discriminators](http://arxiv.org/abs/2104.05218v1) | Kevin Yang, Dan Klein | cs.CL, cs.LG | 2021-04-12 |
 | [WakaVT: A Sequential Variational Transformer for Waka Generation](http://arxiv.org/abs/2104.00426v1) | Yuka Takeishi, Mingxuan Niu, Jing Luo, Zhong Jin, Xinyu Yang | cs.CL, cs.AI | 2021-04-01 |

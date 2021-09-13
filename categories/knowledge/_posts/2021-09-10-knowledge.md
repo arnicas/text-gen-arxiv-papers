@@ -6,10 +6,21 @@ sidebar:
 ---
 
 
-*written on 2021-08-26*
+*written on 2021-09-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Style Pooling: Automatic Text Style Obfuscation for Improved  Classification Fairness](http://arxiv.org/abs/2109.04624v1) | Fatemehsadat Mireshghallah, Taylor Berg-Kirkpatrick | cs.LG | 2021-09-10 |
+| [Graphine: A Dataset for Graph-aware Terminology Definition Generation](http://arxiv.org/abs/2109.04018v1) | Zequn Liu, Shukai Wang, Yiyang Gu, Ruiyi Zhang, Ming Zhang, Sheng Wang | cs.CL | 2021-09-09 |
+| [NumGPT: Improving Numeracy Ability of Generative Pre-trained Models](http://arxiv.org/abs/2109.03137v1) | Zhihua Jin, Xin Jiang, Xingbo Wang, Qun Liu, Yong Wang, Xiaozhe Ren, Huamin Qu | cs.CL, cs.LG | 2021-09-07 |
+| [Naturalness Evaluation of Natural Language Generation in Task-oriented  Dialogues using BERT](http://arxiv.org/abs/2109.02938v1) | Ye Liu, Wolfgang Maier, Wolfgang Minker, Stefan Ultes | cs.CL, cs.AI | 2021-09-07 |
+| [ConQX: Semantic Expansion of Spoken Queries for Intent Detection based  on Conditioned Text Generation](http://arxiv.org/abs/2109.00729v1) | Eyup Halit Yilmaz, Cagri Toraman | cs.CL, cs.AI | 2021-09-02 |
+| [Event Extraction as Natural Language Generation](http://arxiv.org/abs/2108.12724v1) | I-Hung Hsu, Kuan-Hao Huang, Elizabeth Boschee, Scott Miller, Prem Natarajan, Kai-Wei Chang, Nanyun Peng | cs.CL, cs.AI | 2021-08-29 |
+| [ReGen: Reinforcement Learning for Text and Knowledge Base Generation  using Pretrained Language Models](http://arxiv.org/abs/2108.12472v1) | Pierre L. Dognin, Inkit Padhi, Igor Melnyk, Payel Das | cs.CL, cs.LG | 2021-08-27 |
+| [Latent Tree Decomposition Parsers for AMR-to-Text Generation](http://arxiv.org/abs/2108.12304v2) | Lisa Jin, Daniel Gildea | cs.CL | 2021-08-27 |
+| [Tree Decomposition Attention for AMR-to-Text Generation](http://arxiv.org/abs/2108.12300v2) | Lisa Jin, Daniel Gildea | cs.CL | 2021-08-27 |
+| [Lingxi: A Diversity-aware Chinese Modern Poetry Generation System](http://arxiv.org/abs/2108.12108v1) | Xinran Zhang, Maosong Sun, Jiafeng Liu, Xiaobing Li | cs.CL | 2021-08-27 |
+| [Semantic-based Self-Critical Training For Question Generation](http://arxiv.org/abs/2108.12026v1) | Loïc, Kwate Dassi | cs.CL, cs.AI | 2021-08-26 |
 | [A Neural Conversation Generation Model via Equivalent Shared Memory  Investigation](http://arxiv.org/abs/2108.09164v1) | Changzhen Ji, Yating Zhang, Xiaozhong Liu, Adam Jatowt, Changlong Sun, Conghui Zhu, Tiejun Zhao | cs.CL | 2021-08-20 |
 | [GGP: A Graph-based Grouping Planner for Explicit Control of Long Text  Generation](http://arxiv.org/abs/2108.07998v1) | Xuming Lin, Shaobo Cui, Zhongzhou Zhao, Wei Zhou, Ji Zhang, Haiqing Chen | cs.CL | 2021-08-18 |
 | [HiTab: A Hierarchical Table Dataset for Question Answering and Natural  Language Generation](http://arxiv.org/abs/2108.06712v1) | Zhoujun Cheng, Haoyu Dong, Zhiruo Wang, Ran Jia, Jiaqi Guo, Yan Gao, Shi Han, Jian-Guang Lou, Dongmei Zhang | cs.CL, cs.IR | 2021-08-15 |

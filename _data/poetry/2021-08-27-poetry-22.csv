@@ -1,4 +1,23 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Lingxi: A Diversity-aware Chinese Modern Poetry Generation System,2021-08-27 03:33:28+00:00,http://arxiv.org/abs/2108.12108v1,"Xinran Zhang, Maosong Sun, Jiafeng Liu, Xiaobing Li",cs.CL,poetry,"Poetry generation has been a difficult task in natural language processing.
+Unlike plain neural text generation tasks, poetry has a high requirement for
+novelty, since an easily-understood sentence with too many high frequency words
+might not be considered as poetic, while adequately ambiguous sentences with
+low frequency words can possibly be novel and creative. Inspired by this, we
+present Lingxi, a diversity-aware Chinese modern poetry generation system. We
+propose nucleus sampling with randomized head (NS-RH) algorithm, which
+randomizes the high frequency part (""head"") of the predicted distribution, in
+order to emphasize on the ""comparatively low frequency"" words. The proposed
+algorithm can significantly increase the novelty of generated poetry compared
+with traditional sampling methods. The permutation of distribution is
+controllable by tuning the filtering parameter that determines the ""head"" to
+permutate, achieving diversity-aware sampling. We find that even when a large
+portion of filtered vocabulary is randomized, it can actually generate fluent
+poetry but with notably higher novelty. We also propose a
+semantic-similarity-based rejection sampling algorithm, which creates longer
+and more informative context on the basis of the short input poetry title while
+maintaining high semantic similarity to the title, alleviating the off-topic
+issue.",2021-08-27
 Urdu & Hindi Poetry Generation using Neural Networks,2021-07-16 16:12:51+00:00,http://arxiv.org/abs/2107.14587v1,"Shakeeb A. M. Mukhtar, Pushkar S. Joglekar","cs.CL, cs.LG",poetry,"One of the major problems writers and poets face is the writer's block. It is
 a condition in which an author loses the ability to produce new work or
 experiences a creative slowdown. The problem is more difficult in the context

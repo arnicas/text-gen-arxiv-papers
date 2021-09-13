@@ -7,10 +7,24 @@ sidebar:
 ---
 
 
-*written on 2021-08-26*
+*written on 2021-09-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [CINS: Comprehensive Instruction for Few-shot Learning in  Task-orientedDialog Systems](http://arxiv.org/abs/2109.04645v1) | Fei Mi, Yitong Li, Yasheng Wang, Xin Jiang, Qun Liu | cs.CL, cs.LG | 2021-09-10 |
+| [Graphine: A Dataset for Graph-aware Terminology Definition Generation](http://arxiv.org/abs/2109.04018v1) | Zequn Liu, Shukai Wang, Yiyang Gu, Ruiyi Zhang, Ming Zhang, Sheng Wang | cs.CL | 2021-09-09 |
+| [Smelting Gold and Silver for Improved Multilingual AMR-to-Text  Generation](http://arxiv.org/abs/2109.03808v1) | Leonardo F. R. Ribeiro, Jonas Pfeiffer, Yue Zhang, Iryna Gurevych | cs.CL | 2021-09-08 |
+| [NumGPT: Improving Numeracy Ability of Generative Pre-trained Models](http://arxiv.org/abs/2109.03137v1) | Zhihua Jin, Xin Jiang, Xingbo Wang, Qun Liu, Yong Wang, Xiaozhe Ren, Huamin Qu | cs.CL, cs.LG | 2021-09-07 |
+| [Vision Guided Generative Pre-trained Language Models for Multimodal  Abstractive Summarization](http://arxiv.org/abs/2109.02401v2) | Tiezheng Yu, Wenliang Dai, Zihan Liu, Pascale Fung | cs.CL | 2021-09-06 |
+| [Transformer Models for Text Coherence Assessment](http://arxiv.org/abs/2109.02176v1) | Tushar Abhishek, Daksh Rawat, Manish Gupta, Vasudeva Varma | cs.CL | 2021-09-05 |
+| [ConQX: Semantic Expansion of Spoken Queries for Intent Detection based  on Conditioned Text Generation](http://arxiv.org/abs/2109.00729v1) | Eyup Halit Yilmaz, Cagri Toraman | cs.CL, cs.AI | 2021-09-02 |
+| [OptAGAN: Entropy-based finetuning on text VAE-GAN](http://arxiv.org/abs/2109.00239v1) | Paolo Tirotta, Stefano Lodi | cs.CL | 2021-09-01 |
+| [Plan-then-Generate: Controlled Data-to-Text Generation via Planning](http://arxiv.org/abs/2108.13740v1) | Yixuan Su, David Vandyke, Sihui Wang, Yimai Fang, Nigel Collier | cs.CL | 2021-08-31 |
+| [Event Extraction as Natural Language Generation](http://arxiv.org/abs/2108.12724v1) | I-Hung Hsu, Kuan-Hao Huang, Elizabeth Boschee, Scott Miller, Prem Natarajan, Kai-Wei Chang, Nanyun Peng | cs.CL, cs.AI | 2021-08-29 |
+| [Few-Shot Table-to-Text Generation with Prototype Memory](http://arxiv.org/abs/2108.12516v2) | Yixuan Su, Zaiqiao Meng, Simon Baker, Nigel Collier | cs.CL | 2021-08-27 |
+| [Latent Tree Decomposition Parsers for AMR-to-Text Generation](http://arxiv.org/abs/2108.12304v2) | Lisa Jin, Daniel Gildea | cs.CL | 2021-08-27 |
+| [Tree Decomposition Attention for AMR-to-Text Generation](http://arxiv.org/abs/2108.12300v2) | Lisa Jin, Daniel Gildea | cs.CL | 2021-08-27 |
+| [Latent Space Energy-Based Model of Symbol-Vector Coupling for Text  Generation and Classification](http://arxiv.org/abs/2108.11556v1) | Bo Pang, Ying Nian Wu | cs.LG | 2021-08-26 |
 | [Using BERT Encoding and Sentence-Level Language Model for Sentence  Ordering](http://arxiv.org/abs/2108.10986v1) | Melika Golestani, Seyedeh Zahra Razavi, Zeinab Borhanifard, Farnaz Tahmasebian, Hesham Faili | cs.CL | 2021-08-24 |
 | [CGEMs: A Metric Model for Automatic Code Generation using GPT-3](http://arxiv.org/abs/2108.10168v1) | Aishwarya Narasimhan, Krishna Prasad Agara Venkatesha Rao, Veena M B | cs.AI | 2021-08-23 |
 | [A Neural Conversation Generation Model via Equivalent Shared Memory  Investigation](http://arxiv.org/abs/2108.09164v1) | Changzhen Ji, Yating Zhang, Xiaozhong Liu, Adam Jatowt, Changlong Sun, Conghui Zhu, Tiejun Zhao | cs.CL | 2021-08-20 |

@@ -1,4 +1,83 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Retrieve, Caption, Generate: Visual Grounding for Enhancing Commonsense
+  in Text Generation Models",2021-09-08 19:38:11+00:00,http://arxiv.org/abs/2109.03892v1,"Steven Y. Feng, Kevin Lu, Zhuofu Tao, Malihe Alikhani, Teruko Mitamura, Eduard Hovy, Varun Gangal","cs.CL, cs.AI, cs.LG",image2text,"We investigate the use of multimodal information contained in images as an
+effective method for enhancing the commonsense of Transformer models for text
+generation. We perform experiments using BART and T5 on concept-to-text
+generation, specifically the task of generative commonsense reasoning, or
+CommonGen. We call our approach VisCTG: Visually Grounded Concept-to-Text
+Generation. VisCTG involves captioning images representing appropriate everyday
+scenarios, and using these captions to enrich and steer the generation process.
+Comprehensive evaluation and analysis demonstrate that VisCTG noticeably
+improves model performance while successfully addressing several issues of the
+baseline generations, including poor commonsense, fluency, and specificity.",2021-09-08
+Sequence Level Contrastive Learning for Text Summarization,2021-09-08 08:00:36+00:00,http://arxiv.org/abs/2109.03481v1,"Shusheng Xu, Xingxing Zhang, Yi Wu, Furu Wei",cs.CL,image2text,"Contrastive learning models have achieved great success in unsupervised
+visual representation learning, which maximize the similarities between feature
+representations of different views of the same image, while minimize the
+similarities between feature representations of views of different images. In
+text summarization, the output summary is a shorter form of the input document
+and they have similar meanings. In this paper, we propose a contrastive
+learning model for supervised abstractive text summarization, where we view a
+document, its gold summary and its model generated summaries as different views
+of the same mean representation and maximize the similarities between them
+during training. We improve over a strong sequence-to-sequence text generation
+model (i.e., BART) on three different summarization datasets. Human evaluation
+also shows that our model achieves better faithfulness ratings compared to its
+counterpart without contrastive objectives.",2021-09-08
+Multimodal Conditionality for Natural Language Generation,2021-09-02 22:06:07+00:00,http://arxiv.org/abs/2109.01229v1,"Michael Sollami, Aashish Jain","cs.CL, cs.LG",image2text,"Large scale pretrained language models have demonstrated state-of-the-art
+performance in language understanding tasks. Their application has recently
+expanded into multimodality learning, leading to improved representations
+combining vision and language. However, progress in adapting language models
+towards conditional Natural Language Generation (NLG) has been limited to a
+single modality, generally text. We propose MAnTiS, Multimodal Adaptation for
+Text Synthesis, a general approach for multimodal conditionality in
+transformer-based NLG models. In this method, we pass inputs from each modality
+through modality-specific encoders, project to textual token space, and finally
+join to form a conditionality prefix. We fine-tune the pretrained language
+model and encoders with the conditionality prefix guiding the generation. We
+apply MAnTiS to the task of product description generation, conditioning a
+network on both product images and titles to generate descriptive text. We
+demonstrate that MAnTiS outperforms strong baseline approaches on standard NLG
+scoring metrics. Furthermore, qualitative assessments demonstrate that MAnTiS
+can generate human quality descriptions consistent with given multimodal
+inputs.",2021-09-02
+Goal-driven text descriptions for images,2021-08-28 05:10:38+00:00,http://arxiv.org/abs/2108.12575v1,Ruotian Luo,"cs.CV, cs.CL",image2text,"A big part of achieving Artificial General Intelligence(AGI) is to build a
+machine that can see and listen like humans. Much work has focused on designing
+models for image classification, video classification, object detection, pose
+estimation, speech recognition, etc., and has achieved significant progress in
+recent years thanks to deep learning. However, understanding the world is not
+enough. An AI agent also needs to know how to talk, especially how to
+communicate with a human. While perception (vision, for example) is more common
+across animal species, the use of complicated language is unique to humans and
+is one of the most important aspects of intelligence.
+  In this thesis, we focus on generating textual output given visual input. In
+Chapter 3, we focus on generating the referring expression, a text description
+for an object in the image so that a receiver can infer which object is being
+described. We use a comprehension machine to directly guide the generated
+referring expressions to be more discriminative. In Chapter 4, we introduce a
+method that encourages discriminability in image caption generation. We show
+that more discriminative captioning models generate more descriptive captions.
+In Chapter 5, we study how training objectives and sampling methods affect the
+models' ability to generate diverse captions. We find that a popular captioning
+training strategy will be detrimental to the diversity of generated captions.
+In Chapter 6, we propose a model that can control the length of generated
+captions. By changing the desired length, one can influence the style and
+descriptiveness of the captions. Finally, in Chapter 7, we rank/generate
+informative image tags according to their information utility. The proposed
+method better matches what humans think are the most important tags for the
+images.",2021-08-28
+Automatic Text Evaluation through the Lens of Wasserstein Barycenters,2021-08-27 19:08:52+00:00,http://arxiv.org/abs/2108.12463v2,"Pierre Colombo, Guillaume Staerman, Chloe Clavel, Pablo Piantanida","cs.CL, cs.AI",image2text,"A new metric \texttt{BaryScore} to evaluate text generation based on deep
+contextualized embeddings e.g., BERT, Roberta, ELMo) is introduced. This metric
+is motivated by a new framework relying on optimal transport tools, i.e.,
+Wasserstein distance and barycenter. By modelling the layer output of deep
+contextualized embeddings as a probability distribution rather than by a vector
+embedding; this framework provides a natural way to aggregate the different
+outputs through the Wasserstein space topology. In addition, it provides
+theoretical grounds to our metric and offers an alternative to available
+solutions e.g., MoverScore and BertScore). Numerical evaluation is performed on
+four different tasks: machine translation, summarization, data2text generation
+and image captioning. Our results show that \texttt{BaryScore} outperforms
+other BERT based metrics and exhibits more consistent behaviour in particular
+for text summarization.",2021-08-27
 CGEMs: A Metric Model for Automatic Code Generation using GPT-3,2021-08-23 13:28:57+00:00,http://arxiv.org/abs/2108.10168v1,"Aishwarya Narasimhan, Krishna Prasad Agara Venkatesha Rao, Veena M B",cs.AI,image2text,"Today, AI technology is showing its strengths in almost every industry and
 walks of life. From text generation, text summarization, chatbots, NLP is being
 used widely. One such paradigm is automatic code generation. An AI could be

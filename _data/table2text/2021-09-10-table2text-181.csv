@@ -1,4 +1,209 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"CINS: Comprehensive Instruction for Few-shot Learning in
+  Task-orientedDialog Systems",2021-09-10 03:23:06+00:00,http://arxiv.org/abs/2109.04645v1,"Fei Mi, Yitong Li, Yasheng Wang, Xin Jiang, Qun Liu","cs.CL, cs.LG",table2text,"As labeling cost for different modules in task-oriented dialog (ToD) systems
+is high, a major challenge in practice is to learn different tasks with the
+least amount of labeled data. Recently, prompting methods over pre-trained
+language models (PLMs) have shown promising results for few-shot learning in
+ToD. To better utilize the power of PLMs, this paper proposes Comprehensive
+Instruction (CINS) that exploits PLMs with extra task-specific instructions. We
+design a schema(definition, constraint, prompt) of instructions and their
+customized realizations for three important downstream tasks in ToD, i.e.
+intent classification, dialog state tracking, and natural language generation.
+A sequence-to-sequence model (T5)is adopted to solve these three tasks in a
+unified framework. Extensive experiments are conducted on these ToD tasks in
+realistic few-shot learning scenarios with small validation data. Empirical
+results demonstrate that the proposed CINS approach consistently improves
+techniques that finetune PLMs with raw input or short prompts.",2021-09-10
+Graphine: A Dataset for Graph-aware Terminology Definition Generation,2021-09-09 03:29:23+00:00,http://arxiv.org/abs/2109.04018v1,"Zequn Liu, Shukai Wang, Yiyang Gu, Ruiyi Zhang, Ming Zhang, Sheng Wang",cs.CL,table2text,"Precisely defining the terminology is the first step in scientific
+communication. Developing neural text generation models for definition
+generation can circumvent the labor-intensity curation, further accelerating
+scientific discovery. Unfortunately, the lack of large-scale terminology
+definition dataset hinders the process toward definition generation. In this
+paper, we present a large-scale terminology definition dataset Graphine
+covering 2,010,648 terminology definition pairs, spanning 227 biomedical
+subdisciplines. Terminologies in each subdiscipline further form a directed
+acyclic graph, opening up new avenues for developing graph-aware text
+generation models. We then proposed a novel graph-aware definition generation
+model Graphex that integrates transformer with graph neural network. Our model
+outperforms existing text generation models by exploiting the graph structure
+of terminologies. We further demonstrated how Graphine can be used to evaluate
+pretrained language models, compare graph representation learning methods and
+predict sentence granularity. We envision Graphine to be a unique resource for
+definition generation and many other NLP tasks in biomedicine.",2021-09-09
+"Smelting Gold and Silver for Improved Multilingual AMR-to-Text
+  Generation",2021-09-08 17:55:46+00:00,http://arxiv.org/abs/2109.03808v1,"Leonardo F. R. Ribeiro, Jonas Pfeiffer, Yue Zhang, Iryna Gurevych",cs.CL,table2text,"Recent work on multilingual AMR-to-text generation has exclusively focused on
+data augmentation strategies that utilize silver AMR. However, this assumes a
+high quality of generated AMRs, potentially limiting the transferability to the
+target task. In this paper, we investigate different techniques for
+automatically generating AMR annotations, where we aim to study which source of
+information yields better multilingual results. Our models trained on gold AMR
+with silver (machine translated) sentences outperform approaches which leverage
+generated silver AMR. We find that combining both complementary sources of
+information further improves multilingual AMR-to-text generation. Our models
+surpass the previous state of the art for German, Italian, Spanish, and Chinese
+by a large margin.",2021-09-08
+NumGPT: Improving Numeracy Ability of Generative Pre-trained Models,2021-09-07 15:06:12+00:00,http://arxiv.org/abs/2109.03137v1,"Zhihua Jin, Xin Jiang, Xingbo Wang, Qun Liu, Yong Wang, Xiaozhe Ren, Huamin Qu","cs.CL, cs.LG",table2text,"Existing generative pre-trained language models (e.g., GPT) focus on modeling
+the language structure and semantics of general texts. However, those models do
+not consider the numerical properties of numbers and cannot perform robustly on
+numerical reasoning tasks (e.g., math word problems and measurement
+estimation). In this paper, we propose NumGPT, a generative pre-trained model
+that explicitly models the numerical properties of numbers in texts.
+Specifically, it leverages a prototype-based numeral embedding to encode the
+mantissa of the number and an individual embedding to encode the exponent of
+the number. A numeral-aware loss function is designed to integrate numerals
+into the pre-training objective of NumGPT. We conduct extensive experiments on
+four different datasets to evaluate the numeracy ability of NumGPT. The
+experiment results show that NumGPT outperforms baseline models (e.g., GPT and
+GPT with DICE) on a range of numerical reasoning tasks such as measurement
+estimation, number comparison, math word problems, and magnitude
+classification. Ablation studies are also conducted to evaluate the impact of
+pre-training and model hyperparameters on the performance.",2021-09-07
+"Vision Guided Generative Pre-trained Language Models for Multimodal
+  Abstractive Summarization",2021-09-06 12:31:21+00:00,http://arxiv.org/abs/2109.02401v2,"Tiezheng Yu, Wenliang Dai, Zihan Liu, Pascale Fung",cs.CL,table2text,"Multimodal abstractive summarization (MAS) models that summarize videos
+(vision modality) and their corresponding transcripts (text modality) are able
+to extract the essential information from massive multimodal data on the
+Internet. Recently, large-scale generative pre-trained language models (GPLMs)
+have been shown to be effective in text generation tasks. However, existing MAS
+models cannot leverage GPLMs' powerful generation ability. To fill this
+research gap, we aim to study two research questions: 1) how to inject visual
+information into GPLMs without hurting their generation ability; and 2) where
+is the optimal place in GPLMs to inject the visual information? In this paper,
+we present a simple yet effective method to construct vision guided (VG) GPLMs
+for the MAS task using attention-based add-on layers to incorporate visual
+information while maintaining their original text generation ability. Results
+show that our best model significantly surpasses the prior state-of-the-art
+model by 5.7 ROUGE-1, 5.3 ROUGE-2, and 5.1 ROUGE-L scores on the How2 dataset,
+and our visual guidance method contributes 83.6% of the overall improvement.
+Furthermore, we conduct thorough ablation studies to analyze the effectiveness
+of various modality fusion methods and fusion locations.",2021-09-06
+Transformer Models for Text Coherence Assessment,2021-09-05 22:27:17+00:00,http://arxiv.org/abs/2109.02176v1,"Tushar Abhishek, Daksh Rawat, Manish Gupta, Vasudeva Varma",cs.CL,table2text,"Coherence is an important aspect of text quality and is crucial for ensuring
+its readability. It is essential desirable for outputs from text generation
+systems like summarization, question answering, machine translation, question
+generation, table-to-text, etc. An automated coherence scoring model is also
+helpful in essay scoring or providing writing feedback. A large body of
+previous work has leveraged entity-based methods, syntactic patterns, discourse
+relations, and more recently traditional deep learning architectures for text
+coherence assessment. Previous work suffers from drawbacks like the inability
+to handle long-range dependencies, out-of-vocabulary words, or model sequence
+information. We hypothesize that coherence assessment is a cognitively complex
+task that requires deeper models and can benefit from other related tasks.
+Accordingly, in this paper, we propose four different Transformer-based
+architectures for the task: vanilla Transformer, hierarchical Transformer,
+multi-task learning-based model, and a model with fact-based input
+representation. Our experiments with popular benchmark datasets across multiple
+domains on four different coherence assessment tasks demonstrate that our
+models achieve state-of-the-art results outperforming existing models by a good
+margin.",2021-09-05
+"ConQX: Semantic Expansion of Spoken Queries for Intent Detection based
+  on Conditioned Text Generation",2021-09-02 05:57:07+00:00,http://arxiv.org/abs/2109.00729v1,"Eyup Halit Yilmaz, Cagri Toraman","cs.CL, cs.AI",table2text,"Intent detection of spoken queries is a challenging task due to their noisy
+structure and short length. To provide additional information regarding the
+query and enhance the performance of intent detection, we propose a method for
+semantic expansion of spoken queries, called ConQX, which utilizes the text
+generation ability of an auto-regressive language model, GPT-2. To avoid
+off-topic text generation, we condition the input query to a structured context
+with prompt mining. We then apply zero-shot, one-shot, and few-shot learning.
+We lastly use the expanded queries to fine-tune BERT and RoBERTa for intent
+detection. The experimental results show that the performance of intent
+detection can be improved by our semantic expansion method.",2021-09-02
+OptAGAN: Entropy-based finetuning on text VAE-GAN,2021-09-01 08:23:19+00:00,http://arxiv.org/abs/2109.00239v1,"Paolo Tirotta, Stefano Lodi",cs.CL,table2text,"Transfer learning through large pre-trained models has changed the landscape
+of current applications in natural language processing (NLP). Recently Optimus,
+a variational autoencoder (VAE) which combines two pre-trained models, BERT and
+GPT-2, has been released, and its combination with generative adversial
+networks (GANs) has been shown to produce novel, yet very human-looking text.
+The Optimus and GANs combination avoids the troublesome application of GANs to
+the discrete domain of text, and prevents the exposure bias of standard maximum
+likelihood methods. We combine the training of GANs in the latent space, with
+the finetuning of the decoder of Optimus for single word generation. This
+approach lets us model both the high-level features of the sentences, and the
+low-level word-by-word generation. We finetune using reinforcement learning
+(RL) by exploiting the structure of GPT-2 and by adding entropy-based
+intrinsically motivated rewards to balance between quality and diversity. We
+benchmark the results of the VAE-GAN model, and show the improvements brought
+by our RL finetuning on three widely used datasets for text generation, with
+results that greatly surpass the current state-of-the-art for the quality of
+the generated texts.",2021-09-01
+Plan-then-Generate: Controlled Data-to-Text Generation via Planning,2021-08-31 10:53:32+00:00,http://arxiv.org/abs/2108.13740v1,"Yixuan Su, David Vandyke, Sihui Wang, Yimai Fang, Nigel Collier",cs.CL,table2text,"Recent developments in neural networks have led to the advance in
+data-to-text generation. However, the lack of ability of neural models to
+control the structure of generated output can be limiting in certain real-world
+applications. In this study, we propose a novel Plan-then-Generate (PlanGen)
+framework to improve the controllability of neural data-to-text models.
+Extensive experiments and analyses are conducted on two benchmark datasets,
+ToTTo and WebNLG. The results show that our model is able to control both the
+intra-sentence and inter-sentence structure of the generated output.
+Furthermore, empirical comparisons against previous state-of-the-art methods
+show that our model improves the generation quality as well as the output
+diversity as judged by human and automatic evaluations.",2021-08-31
+Event Extraction as Natural Language Generation,2021-08-29 00:27:31+00:00,http://arxiv.org/abs/2108.12724v1,"I-Hung Hsu, Kuan-Hao Huang, Elizabeth Boschee, Scott Miller, Prem Natarajan, Kai-Wei Chang, Nanyun Peng","cs.CL, cs.AI",table2text,"Event extraction (EE), the task that identifies event triggers and their
+arguments in text, is usually formulated as a classification or structured
+prediction problem. Such models usually reduce labels to numeric identifiers,
+making them unable to take advantage of label semantics (e.g. an event type
+named Arrest is related to words like arrest, detain, or apprehend). This
+prevents the generalization to new event types. In this work, we formulate EE
+as a natural language generation task and propose GenEE, a model that not only
+captures complex dependencies within an event but also generalizes well to
+unseen or rare event types. Given a passage and an event type, GenEE is trained
+to generate a natural sentence following a predefined template for that event
+type. The generated output is then decoded into trigger and argument
+predictions. The autoregressive generation process naturally models the
+dependencies among the predictions -- each new word predicted depends on those
+already generated in the output sentence. Using carefully designed input
+prompts during generation, GenEE is able to capture label semantics, which
+enables the generalization to new event types. Empirical results show that our
+model achieves strong performance on event extraction tasks under all
+zero-shot, few-shot, and high-resource scenarios. Especially, in the
+high-resource setting, GenEE outperforms the state-of-the-art model on argument
+extraction and gets competitive results with the current best on end-to-end EE
+tasks.",2021-08-29
+Few-Shot Table-to-Text Generation with Prototype Memory,2021-08-27 22:16:30+00:00,http://arxiv.org/abs/2108.12516v2,"Yixuan Su, Zaiqiao Meng, Simon Baker, Nigel Collier",cs.CL,table2text,"Neural table-to-text generation models have achieved remarkable progress on
+an array of tasks. However, due to the data-hungry nature of neural models,
+their performances strongly rely on large-scale training examples, limiting
+their applicability in real-world applications. To address this, we propose a
+new framework: Prototype-to-Generate (P2G), for table-to-text generation under
+the few-shot scenario. The proposed framework utilizes the retrieved
+prototypes, which are jointly selected by an IR system and a novel prototype
+selector to help the model bridging the structural gap between tables and
+texts. Experimental results on three benchmark datasets with three
+state-of-the-art models demonstrate that the proposed framework significantly
+improves the model performance across various evaluation metrics.",2021-08-27
+Latent Tree Decomposition Parsers for AMR-to-Text Generation,2021-08-27 14:30:35+00:00,http://arxiv.org/abs/2108.12304v2,"Lisa Jin, Daniel Gildea",cs.CL,table2text,"Graph encoders in AMR-to-text generation models often rely on neighborhood
+convolutions or global vertex attention. While these approaches apply to
+general graphs, AMRs may be amenable to encoders that target their tree-like
+structure. By clustering edges into a hierarchy, a tree decomposition
+summarizes graph structure. Our model encodes a derivation forest of tree
+decompositions and extracts an expected tree. From tree node embeddings, it
+builds graph edge features used in vertex attention of the graph encoder.
+Encoding TD forests instead of shortest-pairwise paths in a self-attentive
+baseline raises BLEU by 0.7 and chrF++ by 0.3. The forest encoder also
+surpasses a convolutional baseline for molecular property prediction by 1.92%
+ROC-AUC.",2021-08-27
+Tree Decomposition Attention for AMR-to-Text Generation,2021-08-27 14:24:25+00:00,http://arxiv.org/abs/2108.12300v2,"Lisa Jin, Daniel Gildea",cs.CL,table2text,"Text generation from AMR requires mapping a semantic graph to a string that
+it annotates. Transformer-based graph encoders, however, poorly capture vertex
+dependencies that may benefit sequence prediction. To impose order on an
+encoder, we locally constrain vertex self-attention using a graph's tree
+decomposition. Instead of forming a full query-key bipartite graph, we restrict
+attention to vertices in parent, subtree, and same-depth bags of a vertex. This
+hierarchical context lends both sparsity and structure to vertex state updates.
+We apply dynamic programming to derive a forest of tree decompositions,
+choosing the most structurally similar tree to the AMR. Our system outperforms
+a self-attentive baseline by 1.6 BLEU and 1.8 chrF++.",2021-08-27
+"Latent Space Energy-Based Model of Symbol-Vector Coupling for Text
+  Generation and Classification",2021-08-26 02:31:18+00:00,http://arxiv.org/abs/2108.11556v1,"Bo Pang, Ying Nian Wu",cs.LG,table2text,"We propose a latent space energy-based prior model for text generation and
+classification. The model stands on a generator network that generates the text
+sequence based on a continuous latent vector. The energy term of the prior
+model couples a continuous latent vector and a symbolic one-hot vector, so that
+discrete category can be inferred from the observed example based on the
+continuous latent vector. Such a latent space coupling naturally enables
+incorporation of information bottleneck regularization to encourage the
+continuous latent vector to extract information from the observed example that
+is informative of the underlying category. In our learning method, the
+symbol-vector coupling, the generator network and the inference network are
+learned jointly. Our model can be learned in an unsupervised setting where no
+category labels are provided. It can also be learned in semi-supervised setting
+where category labels are provided for a subset of training examples. Our
+experiments demonstrate that the proposed model learns well-structured and
+meaningful latent space, which (1) guides the generator to generate text with
+high quality, diversity, and interpretability, and (2) effectively classifies
+text.",2021-08-26
 "Using BERT Encoding and Sentence-Level Language Model for Sentence
   Ordering",2021-08-24 23:03:36+00:00,http://arxiv.org/abs/2108.10986v1,"Melika Golestani, Seyedeh Zahra Razavi, Zeinab Borhanifard, Farnaz Tahmasebian, Hesham Faili",cs.CL,table2text,"Discovering the logical sequence of events is one of the cornerstones in
 Natural Language Understanding. One approach to learn the sequence of events is

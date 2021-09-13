@@ -1,4 +1,163 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Style Pooling: Automatic Text Style Obfuscation for Improved
+  Classification Fairness",2021-09-10 02:17:21+00:00,http://arxiv.org/abs/2109.04624v1,"Fatemehsadat Mireshghallah, Taylor Berg-Kirkpatrick",cs.LG,knowledge,"Text style can reveal sensitive attributes of the author (e.g. race or age)
+to the reader, which can, in turn, lead to privacy violations and bias in both
+human and algorithmic decisions based on text. For example, the style of
+writing in job applications might reveal protected attributes of the candidate
+which could lead to bias in hiring decisions, regardless of whether hiring
+decisions are made algorithmically or by humans. We propose a VAE-based
+framework that obfuscates stylistic features of human-generated text through
+style transfer by automatically re-writing the text itself. Our framework
+operationalizes the notion of obfuscated style in a flexible way that enables
+two distinct notions of obfuscated style: (1) a minimal notion that effectively
+intersects the various styles seen in training, and (2) a maximal notion that
+seeks to obfuscate by adding stylistic features of all sensitive attributes to
+text, in effect, computing a union of styles. Our style-obfuscation framework
+can be used for multiple purposes, however, we demonstrate its effectiveness in
+improving the fairness of downstream classifiers. We also conduct a
+comprehensive study on style pooling's effect on fluency, semantic consistency,
+and attribute removal from text, in two and three domain style obfuscation.",2021-09-10
+Graphine: A Dataset for Graph-aware Terminology Definition Generation,2021-09-09 03:29:23+00:00,http://arxiv.org/abs/2109.04018v1,"Zequn Liu, Shukai Wang, Yiyang Gu, Ruiyi Zhang, Ming Zhang, Sheng Wang",cs.CL,knowledge,"Precisely defining the terminology is the first step in scientific
+communication. Developing neural text generation models for definition
+generation can circumvent the labor-intensity curation, further accelerating
+scientific discovery. Unfortunately, the lack of large-scale terminology
+definition dataset hinders the process toward definition generation. In this
+paper, we present a large-scale terminology definition dataset Graphine
+covering 2,010,648 terminology definition pairs, spanning 227 biomedical
+subdisciplines. Terminologies in each subdiscipline further form a directed
+acyclic graph, opening up new avenues for developing graph-aware text
+generation models. We then proposed a novel graph-aware definition generation
+model Graphex that integrates transformer with graph neural network. Our model
+outperforms existing text generation models by exploiting the graph structure
+of terminologies. We further demonstrated how Graphine can be used to evaluate
+pretrained language models, compare graph representation learning methods and
+predict sentence granularity. We envision Graphine to be a unique resource for
+definition generation and many other NLP tasks in biomedicine.",2021-09-09
+NumGPT: Improving Numeracy Ability of Generative Pre-trained Models,2021-09-07 15:06:12+00:00,http://arxiv.org/abs/2109.03137v1,"Zhihua Jin, Xin Jiang, Xingbo Wang, Qun Liu, Yong Wang, Xiaozhe Ren, Huamin Qu","cs.CL, cs.LG",knowledge,"Existing generative pre-trained language models (e.g., GPT) focus on modeling
+the language structure and semantics of general texts. However, those models do
+not consider the numerical properties of numbers and cannot perform robustly on
+numerical reasoning tasks (e.g., math word problems and measurement
+estimation). In this paper, we propose NumGPT, a generative pre-trained model
+that explicitly models the numerical properties of numbers in texts.
+Specifically, it leverages a prototype-based numeral embedding to encode the
+mantissa of the number and an individual embedding to encode the exponent of
+the number. A numeral-aware loss function is designed to integrate numerals
+into the pre-training objective of NumGPT. We conduct extensive experiments on
+four different datasets to evaluate the numeracy ability of NumGPT. The
+experiment results show that NumGPT outperforms baseline models (e.g., GPT and
+GPT with DICE) on a range of numerical reasoning tasks such as measurement
+estimation, number comparison, math word problems, and magnitude
+classification. Ablation studies are also conducted to evaluate the impact of
+pre-training and model hyperparameters on the performance.",2021-09-07
+"Naturalness Evaluation of Natural Language Generation in Task-oriented
+  Dialogues using BERT",2021-09-07 08:40:14+00:00,http://arxiv.org/abs/2109.02938v1,"Ye Liu, Wolfgang Maier, Wolfgang Minker, Stefan Ultes","cs.CL, cs.AI",knowledge,"This paper presents an automatic method to evaluate the naturalness of
+natural language generation in dialogue systems. While this task was previously
+rendered through expensive and time-consuming human labor, we present this
+novel task of automatic naturalness evaluation of generated language. By
+fine-tuning the BERT model, our proposed naturalness evaluation method shows
+robust results and outperforms the baselines: support vector machines,
+bi-directional LSTMs, and BLEURT. In addition, the training speed and
+evaluation performance of naturalness model are improved by transfer learning
+from quality and informativeness linguistic knowledge.",2021-09-07
+"ConQX: Semantic Expansion of Spoken Queries for Intent Detection based
+  on Conditioned Text Generation",2021-09-02 05:57:07+00:00,http://arxiv.org/abs/2109.00729v1,"Eyup Halit Yilmaz, Cagri Toraman","cs.CL, cs.AI",knowledge,"Intent detection of spoken queries is a challenging task due to their noisy
+structure and short length. To provide additional information regarding the
+query and enhance the performance of intent detection, we propose a method for
+semantic expansion of spoken queries, called ConQX, which utilizes the text
+generation ability of an auto-regressive language model, GPT-2. To avoid
+off-topic text generation, we condition the input query to a structured context
+with prompt mining. We then apply zero-shot, one-shot, and few-shot learning.
+We lastly use the expanded queries to fine-tune BERT and RoBERTa for intent
+detection. The experimental results show that the performance of intent
+detection can be improved by our semantic expansion method.",2021-09-02
+Event Extraction as Natural Language Generation,2021-08-29 00:27:31+00:00,http://arxiv.org/abs/2108.12724v1,"I-Hung Hsu, Kuan-Hao Huang, Elizabeth Boschee, Scott Miller, Prem Natarajan, Kai-Wei Chang, Nanyun Peng","cs.CL, cs.AI",knowledge,"Event extraction (EE), the task that identifies event triggers and their
+arguments in text, is usually formulated as a classification or structured
+prediction problem. Such models usually reduce labels to numeric identifiers,
+making them unable to take advantage of label semantics (e.g. an event type
+named Arrest is related to words like arrest, detain, or apprehend). This
+prevents the generalization to new event types. In this work, we formulate EE
+as a natural language generation task and propose GenEE, a model that not only
+captures complex dependencies within an event but also generalizes well to
+unseen or rare event types. Given a passage and an event type, GenEE is trained
+to generate a natural sentence following a predefined template for that event
+type. The generated output is then decoded into trigger and argument
+predictions. The autoregressive generation process naturally models the
+dependencies among the predictions -- each new word predicted depends on those
+already generated in the output sentence. Using carefully designed input
+prompts during generation, GenEE is able to capture label semantics, which
+enables the generalization to new event types. Empirical results show that our
+model achieves strong performance on event extraction tasks under all
+zero-shot, few-shot, and high-resource scenarios. Especially, in the
+high-resource setting, GenEE outperforms the state-of-the-art model on argument
+extraction and gets competitive results with the current best on end-to-end EE
+tasks.",2021-08-29
+"ReGen: Reinforcement Learning for Text and Knowledge Base Generation
+  using Pretrained Language Models",2021-08-27 19:37:12+00:00,http://arxiv.org/abs/2108.12472v1,"Pierre L. Dognin, Inkit Padhi, Igor Melnyk, Payel Das","cs.CL, cs.LG",knowledge,"Automatic construction of relevant Knowledge Bases (KBs) from text, and
+generation of semantically meaningful text from KBs are both long-standing
+goals in Machine Learning. In this paper, we present ReGen, a bidirectional
+generation of text and graph leveraging Reinforcement Learning (RL) to improve
+performance. Graph linearization enables us to re-frame both tasks as a
+sequence to sequence generation problem regardless of the generative direction,
+which in turn allows the use of Reinforcement Learning for sequence training
+where the model itself is employed as its own critic leading to Self-Critical
+Sequence Training (SCST). We present an extensive investigation demonstrating
+that the use of RL via SCST benefits graph and text generation on WebNLG+ 2020
+and TekGen datasets. Our system provides state-of-the-art results on WebNLG+
+2020 by significantly improving upon published results from the WebNLG 2020+
+Challenge for both text-to-graph and graph-to-text generation tasks.",2021-08-27
+Latent Tree Decomposition Parsers for AMR-to-Text Generation,2021-08-27 14:30:35+00:00,http://arxiv.org/abs/2108.12304v2,"Lisa Jin, Daniel Gildea",cs.CL,knowledge,"Graph encoders in AMR-to-text generation models often rely on neighborhood
+convolutions or global vertex attention. While these approaches apply to
+general graphs, AMRs may be amenable to encoders that target their tree-like
+structure. By clustering edges into a hierarchy, a tree decomposition
+summarizes graph structure. Our model encodes a derivation forest of tree
+decompositions and extracts an expected tree. From tree node embeddings, it
+builds graph edge features used in vertex attention of the graph encoder.
+Encoding TD forests instead of shortest-pairwise paths in a self-attentive
+baseline raises BLEU by 0.7 and chrF++ by 0.3. The forest encoder also
+surpasses a convolutional baseline for molecular property prediction by 1.92%
+ROC-AUC.",2021-08-27
+Tree Decomposition Attention for AMR-to-Text Generation,2021-08-27 14:24:25+00:00,http://arxiv.org/abs/2108.12300v2,"Lisa Jin, Daniel Gildea",cs.CL,knowledge,"Text generation from AMR requires mapping a semantic graph to a string that
+it annotates. Transformer-based graph encoders, however, poorly capture vertex
+dependencies that may benefit sequence prediction. To impose order on an
+encoder, we locally constrain vertex self-attention using a graph's tree
+decomposition. Instead of forming a full query-key bipartite graph, we restrict
+attention to vertices in parent, subtree, and same-depth bags of a vertex. This
+hierarchical context lends both sparsity and structure to vertex state updates.
+We apply dynamic programming to derive a forest of tree decompositions,
+choosing the most structurally similar tree to the AMR. Our system outperforms
+a self-attentive baseline by 1.6 BLEU and 1.8 chrF++.",2021-08-27
+Lingxi: A Diversity-aware Chinese Modern Poetry Generation System,2021-08-27 03:33:28+00:00,http://arxiv.org/abs/2108.12108v1,"Xinran Zhang, Maosong Sun, Jiafeng Liu, Xiaobing Li",cs.CL,knowledge,"Poetry generation has been a difficult task in natural language processing.
+Unlike plain neural text generation tasks, poetry has a high requirement for
+novelty, since an easily-understood sentence with too many high frequency words
+might not be considered as poetic, while adequately ambiguous sentences with
+low frequency words can possibly be novel and creative. Inspired by this, we
+present Lingxi, a diversity-aware Chinese modern poetry generation system. We
+propose nucleus sampling with randomized head (NS-RH) algorithm, which
+randomizes the high frequency part (""head"") of the predicted distribution, in
+order to emphasize on the ""comparatively low frequency"" words. The proposed
+algorithm can significantly increase the novelty of generated poetry compared
+with traditional sampling methods. The permutation of distribution is
+controllable by tuning the filtering parameter that determines the ""head"" to
+permutate, achieving diversity-aware sampling. We find that even when a large
+portion of filtered vocabulary is randomized, it can actually generate fluent
+poetry but with notably higher novelty. We also propose a
+semantic-similarity-based rejection sampling algorithm, which creates longer
+and more informative context on the basis of the short input poetry title while
+maintaining high semantic similarity to the title, alleviating the off-topic
+issue.",2021-08-27
+Semantic-based Self-Critical Training For Question Generation,2021-08-26 20:33:35+00:00,http://arxiv.org/abs/2108.12026v1,"Loïc, Kwate Dassi","cs.CL, cs.AI",knowledge,"We present in this work a fully Transformer-based reinforcement learning
+generator-evaluator architecture for neural question generation. Question
+generation is a task that consists in generating questions given a context and
+answer. To improve the quality of the generated question, we came up with a
+semantic-based self-critical training layout in generator-evaluator
+architecture, which goes beyond typical maximum likelihood training. Evaluation
+metrics for language modeling only based on n-gram overlapping do not consider
+semantic relations between reference and candidate strings. To improve the
+evaluation step, we assess our model for both n-gram overlap using BLEU and
+semantically using BERTScore and NUBIA, a novel state-of-the-art evaluation
+metric for text generation. Question generation could be used in many
+downstream applications, including in extending question answering datasets,
+conversational systems, and educational assessment systems.",2021-08-26
 "A Neural Conversation Generation Model via Equivalent Shared Memory
   Investigation",2021-08-20 13:20:14+00:00,http://arxiv.org/abs/2108.09164v1,"Changzhen Ji, Yating Zhang, Xiaozhong Liu, Adam Jatowt, Changlong Sun, Conghui Zhu, Tiejun Zhao",cs.CL,knowledge,"Conversation generation as a challenging task in Natural Language Generation
 (NLG) has been increasingly attracting attention over the last years. A number

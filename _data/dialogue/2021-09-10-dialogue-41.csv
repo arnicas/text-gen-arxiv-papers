@@ -1,4 +1,107 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Generating Self-Contained and Summary-Centric Question Answer Pairs via
+  Differentiable Reward Imitation Learning",2021-09-10 06:34:55+00:00,http://arxiv.org/abs/2109.04689v1,"Li Zhou, Kevin Small, Yong Zhang, Sandeep Atluri","cs.CL, cs.AI, cs.LG",dialogue,"Motivated by suggested question generation in conversational news
+recommendation systems, we propose a model for generating question-answer pairs
+(QA pairs) with self-contained, summary-centric questions and
+length-constrained, article-summarizing answers. We begin by collecting a new
+dataset of news articles with questions as titles and pairing them with
+summaries of varying length. This dataset is used to learn a QA pair generation
+model producing summaries as answers that balance brevity with sufficiency
+jointly with their corresponding questions. We then reinforce the QA pair
+generation process with a differentiable reward function to mitigate exposure
+bias, a common problem in natural language generation. Both automatic metrics
+and human evaluation demonstrate these QA pairs successfully capture the
+central gists of the articles and achieve high answer accuracy.",2021-09-10
+"Hi, my name is Martha: Using names to measure and mitigate bias in
+  generative dialogue models",2021-09-07 19:20:24+00:00,http://arxiv.org/abs/2109.03300v1,"Eric Michael Smith, Adina Williams",cs.CL,dialogue,"All AI models are susceptible to learning biases in data that they are
+trained on. For generative dialogue models, being trained on real human
+conversations containing unbalanced gender and race/ethnicity references can
+lead to models that display learned biases, which we define here broadly as any
+measurable differences in the distributions of words or semantic content of
+conversations based on demographic groups. We measure the strength of such
+biases by producing artificial conversations between two copies of a dialogue
+model, conditioning one conversational partner to state a name commonly
+associated with a certain gender and/or race/ethnicity. We find that larger
+capacity models tend to exhibit more gender bias and greater stereotyping of
+occupations by gender. We show that several methods of tuning these dialogue
+models, specifically name scrambling, controlled generation, and unlikelihood
+training, are effective in reducing bias in conversation, including on a
+downstream conversational task. Name scrambling is also effective in lowering
+differences in token usage across conversations where partners have names
+associated with different genders or races/ethnicities.",2021-09-07
+"Naturalness Evaluation of Natural Language Generation in Task-oriented
+  Dialogues using BERT",2021-09-07 08:40:14+00:00,http://arxiv.org/abs/2109.02938v1,"Ye Liu, Wolfgang Maier, Wolfgang Minker, Stefan Ultes","cs.CL, cs.AI",dialogue,"This paper presents an automatic method to evaluate the naturalness of
+natural language generation in dialogue systems. While this task was previously
+rendered through expensive and time-consuming human labor, we present this
+novel task of automatic naturalness evaluation of generated language. By
+fine-tuning the BERT model, our proposed naturalness evaluation method shows
+robust results and outperforms the baselines: support vector machines,
+bi-directional LSTMs, and BLEURT. In addition, the training speed and
+evaluation performance of naturalness model are improved by transfer learning
+from quality and informativeness linguistic knowledge.",2021-09-07
+"SideControl: Controlled Open-domain Dialogue Generation via Additive
+  Side Networks",2021-09-05 01:15:26+00:00,http://arxiv.org/abs/2109.01958v1,"Wanyu Du, Yangfeng Ji",cs.CL,dialogue,"Transformer-based pre-trained language models boost the performance of
+open-domain dialogue systems. Prior works leverage Transformer-based
+pre-trained language models to generate texts with desired attributes in two
+general approaches: (1) gradient-based methods: updating all latent
+representations of pre-trained models with gradients from attribute models; (2)
+weighted-decoding methods: re-ranking beam candidates from pre-trained models
+with attribute functions. However, gradient-based methods lead to high
+computation cost and can easily get overfitted on small training sets, while
+weighted-decoding methods are inherently constrained by the low-variance
+high-bias pre-trained model. In this work, we propose a novel approach to
+control the generation of Transformer-based pre-trained language models: the
+SideControl framework, which leverages a novel control attributes loss to
+incorporate useful control signals, and is shown to perform well with very
+limited training samples. We evaluate our proposed method on two benchmark
+open-domain dialogue datasets, and results show that the SideControl framework
+has better controllability, higher generation quality and better
+sample-efficiency than existing gradient-based and weighted-decoding baselines.",2021-09-05
+Task-Oriented Dialogue System as Natural Language Generation,2021-08-31 08:36:42+00:00,http://arxiv.org/abs/2108.13679v2,"Weizhi Wang, Zhirui Zhang, Junliang Guo, Yinpei Dai, Boxing Chen, Weihua Luo","cs.CL, cs.AI",dialogue,"In this paper, we propose to formulate the task-oriented dialogue system as
+the purely natural language generation task, so as to fully leverage the
+large-scale pre-trained models like GPT-2 and simplify complicated
+delexicalization prepossessing. However, directly applying this method heavily
+suffers from the dialogue entity inconsistency caused by the removal of
+delexicalized tokens, as well as the catastrophic forgetting problem of the
+pre-trained model during fine-tuning, leading to unsatisfactory performance. To
+alleviate these problems, we design a novel GPT-Adapter-CopyNet network, which
+incorporates the lightweight adapter and CopyNet modules into GPT-2 to achieve
+better performance on transfer learning and dialogue entity generation.
+Experimental results conducted on the DSTC8 Track 1 benchmark and MultiWOZ
+dataset demonstrate that our proposed approach significantly outperforms
+baseline models with a remarkable performance on automatic and human
+evaluations.",2021-08-31
+Semantic-based Self-Critical Training For Question Generation,2021-08-26 20:33:35+00:00,http://arxiv.org/abs/2108.12026v1,"Loïc, Kwate Dassi","cs.CL, cs.AI",dialogue,"We present in this work a fully Transformer-based reinforcement learning
+generator-evaluator architecture for neural question generation. Question
+generation is a task that consists in generating questions given a context and
+answer. To improve the quality of the generated question, we came up with a
+semantic-based self-critical training layout in generator-evaluator
+architecture, which goes beyond typical maximum likelihood training. Evaluation
+metrics for language modeling only based on n-gram overlapping do not consider
+semantic relations between reference and candidate strings. To improve the
+evaluation step, we assess our model for both n-gram overlap using BLEU and
+semantically using BERTScore and NUBIA, a novel state-of-the-art evaluation
+metric for text generation. Question generation could be used in many
+downstream applications, including in extending question answering datasets,
+conversational systems, and educational assessment systems.",2021-08-26
+"Just Say No: Analyzing the Stance of Neural Dialogue Generation in
+  Offensive Contexts",2021-08-26 14:58:05+00:00,http://arxiv.org/abs/2108.11830v1,"Ashutosh Baheti, Maarten Sap, Alan Ritter, Mark Riedl",cs.CL,dialogue,"Dialogue models trained on human conversations inadvertently learn to
+generate offensive responses. Moreover, models can insult anyone by agreeing
+with an offensive context. To understand the dynamics of contextually offensive
+language, we study the stance of dialogue model responses in offensive Reddit
+conversations. Specifically, we crowd-annotate ToxiChat, a new dataset of 2,000
+Reddit threads and model responses labeled with offensive language and stance.
+Our analysis reveals that 42% of user responses agree with toxic comments; 3x
+their agreement with safe comments (13%). Pre-trained transformer-based
+classifiers fine-tuned on our dataset achieve 0.71 F1 for offensive labels and
+0.53 Macro-F1 for stance labels. Finally, we analyze some existing controllable
+text generation (CTG) methods to mitigate the contextual offensive behavior of
+dialogue models. Compared to the baseline, our best CTG model obtains a 19%
+reduction in agreement with offensive context and 29% fewer offensive
+responses. This highlights the need for future work to characterize and analyze
+more forms of inappropriate behavior in dialogue models to help make them
+safer. Our code and corpus are available at
+https://github.com/abaheti95/ToxiChat .",2021-08-26
 Viola: A Topic Agnostic Generate-and-Rank Dialogue System,2021-08-25 06:20:34+00:00,http://arxiv.org/abs/2108.11063v1,"Hyundong Cho, Basel Shbita, Kartik Shenoy, Shuai Liu, Nikhil Patel, Hitesh Pindikanti, Jennifer Lee, Jonathan May",cs.CL,dialogue,"We present Viola, an open-domain dialogue system for spoken conversation that
 uses a topic-agnostic dialogue manager based on a simple generate-and-rank
 approach. Leveraging recent advances of generative dialogue systems powered by
