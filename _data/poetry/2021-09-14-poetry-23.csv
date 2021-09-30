@@ -1,4 +1,21 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"The Perils of Using Mechanical Turk to Evaluate Open-Ended Text
+  Generation",2021-09-14 17:20:30+00:00,http://arxiv.org/abs/2109.06835v1,"Marzena Karpinska, Nader Akoury, Mohit Iyyer",cs.CL,poetry,"Recent text generation research has increasingly focused on open-ended
+domains such as story and poetry generation. Because models built for such
+tasks are difficult to evaluate automatically, most researchers in the space
+justify their modeling choices by collecting crowdsourced human judgments of
+text quality (e.g., Likert scores of coherence or grammaticality) from Amazon
+Mechanical Turk (AMT). In this paper, we first conduct a survey of 45
+open-ended text generation papers and find that the vast majority of them fail
+to report crucial details about their AMT tasks, hindering reproducibility. We
+then run a series of story evaluation experiments with both AMT workers and
+English teachers and discover that even with strict qualification filters, AMT
+workers (unlike teachers) fail to distinguish between model-generated text and
+human-generated references. We show that AMT worker judgments improve when they
+are shown model-generated output alongside human-generated references, which
+enables the workers to better calibrate their ratings. Finally, interviews with
+the English teachers provide deeper insights into the challenges of the
+evaluation process, particularly when rating model-generated text.",2021-09-14
 Lingxi: A Diversity-aware Chinese Modern Poetry Generation System,2021-08-27 03:33:28+00:00,http://arxiv.org/abs/2108.12108v1,"Xinran Zhang, Maosong Sun, Jiafeng Liu, Xiaobing Li",cs.CL,poetry,"Poetry generation has been a difficult task in natural language processing.
 Unlike plain neural text generation tasks, poetry has a high requirement for
 novelty, since an easily-understood sentence with too many high frequency words

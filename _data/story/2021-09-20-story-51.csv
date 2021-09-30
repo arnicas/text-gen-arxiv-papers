@@ -1,4 +1,84 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+A Plug-and-Play Method for Controlled Text Generation,2021-09-20 17:27:03+00:00,http://arxiv.org/abs/2109.09707v1,"Damian Pascual, Beni Egressy, Clara Meister, Ryan Cotterell, Roger Wattenhofer","cs.CL, cs.AI",story,"Large pre-trained language models have repeatedly shown their ability to
+produce fluent text. Yet even when starting from a prompt, generation can
+continue in many plausible directions. Current decoding methods with the goal
+of controlling generation, e.g., to ensure specific words are included, either
+require additional models or fine-tuning, or work poorly when the task at hand
+is semantically unconstrained, e.g., story generation. In this work, we present
+a plug-and-play decoding method for controlled language generation that is so
+simple and intuitive, it can be described in a single sentence: given a topic
+or keyword, we add a shift to the probability distribution over our vocabulary
+towards semantically similar words. We show how annealing this distribution can
+be used to impose hard constraints on language generation, something no other
+plug-and-play method is currently able to do with SOTA language generators.
+Despite the simplicity of this approach, we see it works incredibly well in
+practice: decoding from GPT-2 leads to diverse and fluent sentences while
+guaranteeing the appearance of given guide words. We perform two user studies,
+revealing that (1) our method outperforms competing methods in human
+evaluations; and (2) forcing the guide words to appear in the generated text
+has no impact on the fluency of the generated text.",2021-09-20
+TVRecap: A Dataset for Generating Stories with Character Descriptions,2021-09-18 05:02:29+00:00,http://arxiv.org/abs/2109.08833v1,"Mingda Chen, Kevin Gimpel",cs.CL,story,"We introduce TVRecap, a story generation dataset that requires generating
+detailed TV show episode recaps from a brief summary and a set of documents
+describing the characters involved. Unlike other story generation datasets,
+TVRecap contains stories that are authored by professional screenwriters and
+that feature complex interactions among multiple characters. Generating stories
+in TVRecap requires drawing relevant information from the lengthy provided
+documents about characters based on the brief summary. In addition, by swapping
+the input and output, TVRecap can serve as a challenging testbed for
+abstractive summarization. We create TVRecap from fan-contributed websites,
+which allows us to collect 26k episode recaps with 1868.7 tokens on average.
+Empirically, we take a hierarchical story generation approach and find that the
+neural model that uses oracle content selectors for character descriptions
+demonstrates the best performance on automatic metrics, showing the potential
+of our dataset to inspire future research on story generation with constraints.
+Qualitative analysis shows that the best-performing model sometimes generates
+content that is unfaithful to the short summaries, suggesting promising
+directions for future work.",2021-09-18
+"The Perils of Using Mechanical Turk to Evaluate Open-Ended Text
+  Generation",2021-09-14 17:20:30+00:00,http://arxiv.org/abs/2109.06835v1,"Marzena Karpinska, Nader Akoury, Mohit Iyyer",cs.CL,story,"Recent text generation research has increasingly focused on open-ended
+domains such as story and poetry generation. Because models built for such
+tasks are difficult to evaluate automatically, most researchers in the space
+justify their modeling choices by collecting crowdsourced human judgments of
+text quality (e.g., Likert scores of coherence or grammaticality) from Amazon
+Mechanical Turk (AMT). In this paper, we first conduct a survey of 45
+open-ended text generation papers and find that the vast majority of them fail
+to report crucial details about their AMT tasks, hindering reproducibility. We
+then run a series of story evaluation experiments with both AMT workers and
+English teachers and discover that even with strict qualification filters, AMT
+workers (unlike teachers) fail to distinguish between model-generated text and
+human-generated references. We show that AMT worker judgments improve when they
+are shown model-generated output alongside human-generated references, which
+enables the workers to better calibrate their ratings. Finally, interviews with
+the English teachers provide deeper insights into the challenges of the
+evaluation process, particularly when rating model-generated text.",2021-09-14
+A Temporal Variational Model for Story Generation,2021-09-14 16:36:12+00:00,http://arxiv.org/abs/2109.06807v1,"David Wilmot, Frank Keller","cs.CL, cs.AI",story,"Recent language models can generate interesting and grammatically correct
+text in story generation but often lack plot development and long-term
+coherence. This paper experiments with a latent vector planning approach based
+on a TD-VAE (Temporal Difference Variational Autoencoder), using the model for
+conditioning and reranking for text generation. The results demonstrate strong
+performance in automatic cloze and swapping evaluations. The human judgments
+show stories generated with TD-VAE reranking improve on a GPT-2 medium baseline
+and show comparable performance to a hierarchical LSTM reranking model.
+Conditioning on the latent vectors proves disappointing and deteriorates
+performance in human evaluation because it reduces the diversity of generation,
+and the models don't learn to progress the narrative. This highlights an
+important difference between technical task performance (e.g. cloze) and
+generating interesting stories.",2021-09-14
+"Implicit Premise Generation with Discourse-aware Commonsense Knowledge
+  Models",2021-09-11 19:54:39+00:00,http://arxiv.org/abs/2109.05358v1,"Tuhin Chakrabarty, Aadit Trivedi, Smaranda Muresan",cs.CL,story,"Enthymemes are defined as arguments where a premise or conclusion is left
+implicit. We tackle the task of generating the implicit premise in an
+enthymeme, which requires not only an understanding of the stated conclusion
+and premise but also additional inferences that could depend on commonsense
+knowledge. The largest available dataset for enthymemes (Habernal et al., 2018)
+consists of 1.7k samples, which is not large enough to train a neural text
+generation model. To address this issue, we take advantage of a similar task
+and dataset: Abductive reasoning in narrative text (Bhagavatula et al., 2020).
+However, we show that simply using a state-of-the-art seq2seq model fine-tuned
+on this data might not generate meaningful implicit premises associated with
+the given enthymemes. We demonstrate that encoding discourse-aware commonsense
+during fine-tuning improves the quality of the generated implicit premises and
+outperforms all other baselines both in automatic and human evaluations on
+three different datasets.",2021-09-11
 "Using BERT Encoding and Sentence-Level Language Model for Sentence
   Ordering",2021-08-24 23:03:36+00:00,http://arxiv.org/abs/2108.10986v1,"Melika Golestani, Seyedeh Zahra Razavi, Zeinab Borhanifard, Farnaz Tahmasebian, Hesham Faili",cs.CL,story,"Discovering the logical sequence of events is one of the cornerstones in
 Natural Language Understanding. One approach to learn the sequence of events is

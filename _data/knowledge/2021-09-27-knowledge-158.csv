@@ -1,4 +1,221 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"TURINGBENCH: A Benchmark Environment for Turing Test in the Age of
+  Neural Text Generation",2021-09-27 18:35:33+00:00,http://arxiv.org/abs/2109.13296v1,"Adaku Uchendu, Zeyu Ma, Thai Le, Rui Zhang, Dongwon Lee",cs.CL,knowledge,"Recent progress in generative language models has enabled machines to
+generate astonishingly realistic texts. While there are many legitimate
+applications of such models, there is also a rising need to distinguish
+machine-generated texts from human-written ones (e.g., fake news detection).
+However, to our best knowledge, there is currently no benchmark environment
+with datasets and tasks to systematically study the so-called ""Turing Test""
+problem for neural text generation methods. In this work, we present the
+TuringBench benchmark environment, which is comprised of (1) a dataset with
+200K human- or machine-generated samples across 20 labels {Human, GPT-1,
+GPT-2_small, GPT-2_medium, GPT-2_large, GPT-2_xl, GPT-2_PyTorch, GPT-3,
+GROVER_base, GROVER_large, GROVER_mega, CTRL, XLM, XLNET_base, XLNET_large,
+FAIR_wmt19, FAIR_wmt20, TRANSFORMER_XL, PPLM_distil, PPLM_gpt2}, (2) two
+benchmark tasks -- i.e., Turing Test (TT) and Authorship Attribution (AA), and
+(3) a website with leaderboards. Our preliminary experimental results using
+TuringBench show that FAIR_wmt20 and GPT-3 are the current winners, among all
+language models tested, in generating the most human-like indistinguishable
+texts with the lowest F1 score by five state-of-the-art TT detection models.
+The TuringBench is available at: https://turingbench.ist.psu.edu/",2021-09-27
+Weakly Supervised Contrastive Learning for Chest X-Ray Report Generation,2021-09-25 00:06:23+00:00,http://arxiv.org/abs/2109.12242v1,"An Yan, Zexue He, Xing Lu, Jiang Du, Eric Chang, Amilcare Gentili, Julian McAuley, Chun-Nan Hsu",cs.CL,knowledge,"Radiology report generation aims at generating descriptive text from
+radiology images automatically, which may present an opportunity to improve
+radiology reporting and interpretation. A typical setting consists of training
+encoder-decoder models on image-report pairs with a cross entropy loss, which
+struggles to generate informative sentences for clinical diagnoses since normal
+findings dominate the datasets. To tackle this challenge and encourage more
+clinically-accurate text outputs, we propose a novel weakly supervised
+contrastive loss for medical report generation. Experimental results
+demonstrate that our method benefits from contrasting target reports with
+incorrect but semantically-close ones. It outperforms previous work on both
+clinical correctness and text generation metrics for two public benchmarks.",2021-09-25
+Style Control for Schema-Guided Natural Language Generation,2021-09-24 21:47:58+00:00,http://arxiv.org/abs/2109.12211v1,"Alicia Y. Tsai, Shereen Oraby, Vittorio Perera, Jiun-Yu Kao, Yuheng Du, Anjali Narayan-Chen, Tagyoung Chung, Dilek Hakkani-Tur",cs.CL,knowledge,"Natural Language Generation (NLG) for task-oriented dialogue systems focuses
+on communicating specific content accurately, fluently, and coherently. While
+these attributes are crucial for a successful dialogue, it is also desirable to
+simultaneously accomplish specific stylistic goals, such as response length,
+point-of-view, descriptiveness, sentiment, formality, and empathy. In this
+work, we focus on stylistic control and evaluation for schema-guided NLG, with
+joint goals of achieving both semantic and stylistic control. We experiment in
+detail with various controlled generation methods for large pretrained language
+models: specifically, conditional training, guided fine-tuning, and guided
+decoding. We discuss their advantages and limitations, and evaluate them with a
+broad range of automatic and human evaluation metrics. Our results show that
+while high style accuracy and semantic correctness are easier to achieve for
+more lexically-defined styles with conditional training, stylistic control is
+also achievable for more semantically complex styles using discriminator-based
+guided decoding methods. The results also suggest that methods that are more
+scalable (with less hyper-parameters tuning) and that disentangle content
+generation and stylistic variations are more effective at achieving semantic
+correctness and style accuracy.",2021-09-24
+"Incorporating Linguistic Knowledge for Abstractive Multi-document
+  Summarization",2021-09-23 08:13:35+00:00,http://arxiv.org/abs/2109.11199v1,"Congbo Ma, Wei Emma Zhang, Hu Wang, Shubham Gupta, Mingyu Guo",cs.CL,knowledge,"Within natural language processing tasks, linguistic knowledge can always
+serve an important role in assisting the model to learn excel representations
+and better guide the natural language generation. In this work, we develop a
+neural network based abstractive multi-document summarization (MDS) model which
+leverages dependency parsing to capture cross-positional dependencies and
+grammatical structures. More concretely, we process the dependency information
+into the linguistic-guided attention mechanism and further fuse it with the
+multi-head attention for better feature representation. With the help of
+linguistic signals, sentence-level relations can be correctly captured, thus
+improving MDS performance. Our model has two versions based on Flat-Transformer
+and Hierarchical Transformer respectively. Empirical studies on both versions
+demonstrate that this simple but effective method outperforms existing works on
+the benchmark dataset. Extensive analyses examine different settings and
+configurations of the proposed model which provide a good reference to the
+community.",2021-09-23
+Enriching and Controlling Global Semantics for Text Summarization,2021-09-22 09:31:50+00:00,http://arxiv.org/abs/2109.10616v1,"Thong Nguyen, Anh Tuan Luu, Truc Lu, Tho Quan",cs.CL,knowledge,"Recently, Transformer-based models have been proven effective in the
+abstractive summarization task by creating fluent and informative summaries.
+Nevertheless, these models still suffer from the short-range dependency
+problem, causing them to produce summaries that miss the key points of
+document. In this paper, we attempt to address this issue by introducing a
+neural topic model empowered with normalizing flow to capture the global
+semantics of the document, which are then integrated into the summarization
+model. In addition, to avoid the overwhelming effect of global semantics on
+contextualized representation, we introduce a mechanism to control the amount
+of global semantics supplied to the text generation module. Our method
+outperforms state-of-the-art summarization models on five common text
+summarization datasets, namely CNN/DailyMail, XSum, Reddit TIFU, arXiv, and
+PubMed.",2021-09-22
+A Plug-and-Play Method for Controlled Text Generation,2021-09-20 17:27:03+00:00,http://arxiv.org/abs/2109.09707v1,"Damian Pascual, Beni Egressy, Clara Meister, Ryan Cotterell, Roger Wattenhofer","cs.CL, cs.AI",knowledge,"Large pre-trained language models have repeatedly shown their ability to
+produce fluent text. Yet even when starting from a prompt, generation can
+continue in many plausible directions. Current decoding methods with the goal
+of controlling generation, e.g., to ensure specific words are included, either
+require additional models or fine-tuning, or work poorly when the task at hand
+is semantically unconstrained, e.g., story generation. In this work, we present
+a plug-and-play decoding method for controlled language generation that is so
+simple and intuitive, it can be described in a single sentence: given a topic
+or keyword, we add a shift to the probability distribution over our vocabulary
+towards semantically similar words. We show how annealing this distribution can
+be used to impose hard constraints on language generation, something no other
+plug-and-play method is currently able to do with SOTA language generators.
+Despite the simplicity of this approach, we see it works incredibly well in
+practice: decoding from GPT-2 leads to diverse and fluent sentences while
+guaranteeing the appearance of given guide words. We perform two user studies,
+revealing that (1) our method outperforms competing methods in human
+evaluations; and (2) forcing the guide words to appear in the generated text
+has no impact on the fluency of the generated text.",2021-09-20
+Relating Neural Text Degeneration to Exposure Bias,2021-09-17 18:11:03+00:00,http://arxiv.org/abs/2109.08705v1,"Ting-Rui Chiang, Yun-Nung Chen","cs.CL, cs.LG",knowledge,"This work focuses on relating two mysteries in neural-based text generation:
+exposure bias, and text degeneration. Despite the long time since exposure bias
+was mentioned and the numerous studies for its remedy, to our knowledge, its
+impact on text generation has not yet been verified. Text degeneration is a
+problem that the widely-used pre-trained language model GPT-2 was recently
+found to suffer from (Holtzman et al., 2020). Motivated by the unknown
+causation of the text degeneration, in this paper we attempt to relate these
+two mysteries. Specifically, we first qualitatively quantitatively identify
+mistakes made before text degeneration occurs. Then we investigate the
+significance of the mistakes by inspecting the hidden states in GPT-2. Our
+results show that text degeneration is likely to be partly caused by exposure
+bias. We also study the self-reinforcing mechanism of text degeneration,
+explaining why the mistakes amplify. In sum, our study provides a more concrete
+foundation for further investigation on exposure bias and text degeneration
+problems.",2021-09-17
+Let the CAT out of the bag: Contrastive Attributed explanations for Text,2021-09-16 13:44:55+00:00,http://arxiv.org/abs/2109.07983v1,"Saneem Chemmengath, Amar Prakash Azad, Ronny Luss, Amit Dhurandhar","cs.CL, cs.AI",knowledge,"Contrastive explanations for understanding the behavior of black box models
+has gained a lot of attention recently as they provide potential for recourse.
+In this paper, we propose a method Contrastive Attributed explanations for Text
+(CAT) which provides contrastive explanations for natural language text data
+with a novel twist as we build and exploit attribute classifiers leading to
+more semantically meaningful explanations. To ensure that our contrastive
+generated text has the fewest possible edits with respect to the original text,
+while also being fluent and close to a human generated contrastive, we resort
+to a minimal perturbation approach regularized using a BERT language model and
+attribute classifiers trained on available attributes. We show through
+qualitative examples and a user study that our method not only conveys more
+insight because of these attributes, but also leads to better quality
+(contrastive) text. Moreover, quantitatively we show that our method is more
+efficient than other state-of-the-art methods with it also scoring higher on
+benchmark metrics such as flip rate, (normalized) Levenstein distance, fluency
+and content preservation.",2021-09-16
+"Attention Is Indeed All You Need: Semantically Attention-Guided Decoding
+  for Data-to-Text NLG",2021-09-15 01:42:51+00:00,http://arxiv.org/abs/2109.07043v1,"Juraj Juraska, Marilyn Walker","cs.CL, cs.LG",knowledge,"Ever since neural models were adopted in data-to-text language generation,
+they have invariably been reliant on extrinsic components to improve their
+semantic accuracy, because the models normally do not exhibit the ability to
+generate text that reliably mentions all of the information provided in the
+input. In this paper, we propose a novel decoding method that extracts
+interpretable information from encoder-decoder models' cross-attention, and
+uses it to infer which attributes are mentioned in the generated text, which is
+subsequently used to rescore beam hypotheses. Using this decoding method with
+T5 and BART, we show on three datasets its ability to dramatically reduce
+semantic errors in the generated outputs, while maintaining their
+state-of-the-art quality.",2021-09-15
+"PETGEN: Personalized Text Generation Attack on Deep Sequence
+  Embedding-based Classification Models",2021-09-14 15:48:07+00:00,http://arxiv.org/abs/2109.06777v1,"Bing He, Mustaque Ahamad, Srijan Kumar","cs.LG, cs.SI",knowledge,"\textit{What should a malicious user write next to fool a detection model?}
+Identifying malicious users is critical to ensure the safety and integrity of
+internet platforms. Several deep learning based detection models have been
+created. However, malicious users can evade deep detection models by
+manipulating their behavior, rendering these models of little use. The
+vulnerability of such deep detection models against adversarial attacks is
+unknown. Here we create a novel adversarial attack model against deep user
+sequence embedding-based classification models, which use the sequence of user
+posts to generate user embeddings and detect malicious users. In the attack,
+the adversary generates a new post to fool the classifier. We propose a novel
+end-to-end Personalized Text Generation Attack model, called \texttt{PETGEN},
+that simultaneously reduces the efficacy of the detection model and generates
+posts that have several key desirable properties. Specifically, \texttt{PETGEN}
+generates posts that are personalized to the user's writing style, have
+knowledge about a given target context, are aware of the user's historical
+posts on the target context, and encapsulate the user's recent topical
+interests. We conduct extensive experiments on two real-world datasets (Yelp
+and Wikipedia, both with ground-truth of malicious users) to show that
+\texttt{PETGEN} significantly reduces the performance of popular deep user
+sequence embedding-based classification models. \texttt{PETGEN} outperforms
+five attack baselines in terms of text quality and attack efficacy in both
+white-box and black-box classifier settings. Overall, this work paves the path
+towards the next generation of adversary-aware sequence classification models.",2021-09-14
+"Controllable Dialogue Generation with Disentangled Multi-grained Style
+  Specification and Attribute Consistency Reward",2021-09-14 14:29:38+00:00,http://arxiv.org/abs/2109.06717v1,"Zhe Hu, Zhiwei Cao, Hou Pong Chan, Jiachen Liu, Xinyan Xiao, Jinsong Su, Hua Wu","cs.CL, cs.AI",knowledge,"Controllable text generation is an appealing but challenging task, which
+allows users to specify particular attributes of the generated outputs. In this
+paper, we propose a controllable dialogue generation model to steer response
+generation under multi-attribute constraints. Specifically, we define and
+categorize the commonly used control attributes into global and local ones,
+which possess different granularities of effects on response generation. Then,
+we significantly extend the conventional seq2seq framework by introducing a
+novel two-stage decoder, which first uses a multi-grained style specification
+layer to impose the stylistic constraints and determine word-level control
+states of responses based on the attributes, and then employs a response
+generation layer to generate final responses maintaining both semantic
+relevancy to the contexts and fidelity to the attributes. Furthermore, we train
+our model with an attribute consistency reward to promote response control with
+explicit supervision signals. Extensive experiments and in-depth analyses on
+two datasets indicate that our model can significantly outperform competitive
+baselines in terms of response quality, content diversity and controllability.",2021-09-14
+"KFCNet: Knowledge Filtering and Contrastive Learning Network for
+  Generative Commonsense Reasoning",2021-09-14 14:10:37+00:00,http://arxiv.org/abs/2109.06704v1,"Haonan Li, Yeyun Gong, Jian Jiao, Ruofei Zhang, Timothy Baldwin, Nan Duan",cs.CL,knowledge,"Pre-trained language models have led to substantial gains over a broad range
+of natural language processing (NLP) tasks, but have been shown to have
+limitations for natural language generation tasks with high-quality
+requirements on the output, such as commonsense generation and ad keyword
+generation. In this work, we present a novel Knowledge Filtering and
+Contrastive learning Network (KFCNet) which references external knowledge and
+achieves better generation performance. Specifically, we propose a BERT-based
+filter model to remove low-quality candidates, and apply contrastive learning
+separately to each of the encoder and decoder, within a general
+encoder--decoder architecture. The encoder contrastive module helps to capture
+global target semantics during encoding, and the decoder contrastive module
+enhances the utility of retrieved prototypes while learning general features.
+Extensive experiments on the CommonGen benchmark show that our model
+outperforms the previous state of the art by a large margin: +6.6 points (42.5
+vs. 35.9) for BLEU-4, +3.7 points (33.3 vs. 29.6) for SPICE, and +1.3 points
+(18.3 vs. 17.0) for CIDEr. We further verify the effectiveness of the proposed
+contrastive module on ad keyword generation, and show that our model has
+potential commercial value.",2021-09-14
+"Improving Gradient-based Adversarial Training for Text Classification by
+  Contrastive Learning and Auto-Encoder",2021-09-14 09:08:58+00:00,http://arxiv.org/abs/2109.06536v1,"Yao Qiu, Jinchao Zhang, Jie Zhou",cs.CL,knowledge,"Recent work has proposed several efficient approaches for generating
+gradient-based adversarial perturbations on embeddings and proved that the
+model's performance and robustness can be improved when they are trained with
+these contaminated embeddings. While they paid little attention to how to help
+the model to learn these adversarial samples more efficiently. In this work, we
+focus on enhancing the model's ability to defend gradient-based adversarial
+attack during the model's training process and propose two novel adversarial
+training approaches: (1) CARL narrows the original sample and its adversarial
+sample in the representation space while enlarging their distance from
+different labeled samples. (2) RAR forces the model to reconstruct the original
+sample from its adversarial representation. Experiments show that the proposed
+two approaches outperform strong baselines on various text classification
+datasets. Analysis experiments find that when using our approaches, the
+semantic representation of the input sentence won't be significantly affected
+by adversarial perturbations, and the model's performance drops less under
+adversarial attack. That is to say, our approaches can effectively improve the
+robustness of the model. Besides, RAR can also be used to generate text-form
+adversarial samples.",2021-09-14
 "Style Pooling: Automatic Text Style Obfuscation for Improved
   Classification Fairness",2021-09-10 02:17:21+00:00,http://arxiv.org/abs/2109.04624v1,"Fatemehsadat Mireshghallah, Taylor Berg-Kirkpatrick",cs.LG,knowledge,"Text style can reveal sensitive attributes of the author (e.g. race or age)
 to the reader, which can, in turn, lead to privacy violations and bias in both

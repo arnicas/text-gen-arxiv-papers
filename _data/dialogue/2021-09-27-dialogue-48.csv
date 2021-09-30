@@ -1,4 +1,106 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"OpenViDial 2.0: A Larger-Scale, Open-Domain Dialogue Generation Dataset
+  with Visual Contexts",2021-09-27 02:10:29+00:00,http://arxiv.org/abs/2109.12761v2,"Shuhe Wang, Yuxian Meng, Xiaoya Li, Xiaofei Sun, Rongbin Ouyang, Jiwei Li",cs.CL,dialogue,"In order to better simulate the real human conversation process, models need
+to generate dialogue utterances based on not only preceding textual contexts
+but also visual contexts. However, with the development of multi-modal dialogue
+learning, the dataset scale gradually becomes a bottleneck. In this report, we
+release OpenViDial 2.0, a larger-scale open-domain multi-modal dialogue dataset
+compared to the previous version OpenViDial 1.0. OpenViDial 2.0 contains a
+total number of 5.6 million dialogue turns extracted from either movies or TV
+series from different resources, and each dialogue turn is paired with its
+corresponding visual context. We hope this large-scale dataset can help
+facilitate future researches on open-domain multi-modal dialog generation,
+e.g., multi-modal pretraining for dialogue generation.",2021-09-27
+"An animated picture says at least a thousand words: Selecting Gif-based
+  Replies in Multimodal Dialog",2021-09-24 21:48:27+00:00,http://arxiv.org/abs/2109.12212v1,"Xingyao Wang, David Jurgens","cs.CL, cs.CV, cs.CY",dialogue,"Online conversations include more than just text. Increasingly, image-based
+responses such as memes and animated gifs serve as culturally recognized and
+often humorous responses in conversation. However, while NLP has broadened to
+multimodal models, conversational dialog systems have largely focused only on
+generating text replies. Here, we introduce a new dataset of 1.56M text-gif
+conversation turns and introduce a new multimodal conversational model Pepe the
+King Prawn for selecting gif-based replies. We demonstrate that our model
+produces relevant and high-quality gif responses and, in a large randomized
+control trial of multiple models replying to real users, we show that our model
+replies with gifs that are significantly better received by the community.",2021-09-24
+Style Control for Schema-Guided Natural Language Generation,2021-09-24 21:47:58+00:00,http://arxiv.org/abs/2109.12211v1,"Alicia Y. Tsai, Shereen Oraby, Vittorio Perera, Jiun-Yu Kao, Yuheng Du, Anjali Narayan-Chen, Tagyoung Chung, Dilek Hakkani-Tur",cs.CL,dialogue,"Natural Language Generation (NLG) for task-oriented dialogue systems focuses
+on communicating specific content accurately, fluently, and coherently. While
+these attributes are crucial for a successful dialogue, it is also desirable to
+simultaneously accomplish specific stylistic goals, such as response length,
+point-of-view, descriptiveness, sentiment, formality, and empathy. In this
+work, we focus on stylistic control and evaluation for schema-guided NLG, with
+joint goals of achieving both semantic and stylistic control. We experiment in
+detail with various controlled generation methods for large pretrained language
+models: specifically, conditional training, guided fine-tuning, and guided
+decoding. We discuss their advantages and limitations, and evaluate them with a
+broad range of automatic and human evaluation metrics. Our results show that
+while high style accuracy and semantic correctness are easier to achieve for
+more lexically-defined styles with conditional training, stylistic control is
+also achievable for more semantically complex styles using discriminator-based
+guided decoding methods. The results also suggest that methods that are more
+scalable (with less hyper-parameters tuning) and that disentangle content
+generation and stylistic variations are more effective at achieving semantic
+correctness and style accuracy.",2021-09-24
+"Controllable Dialogue Generation with Disentangled Multi-grained Style
+  Specification and Attribute Consistency Reward",2021-09-14 14:29:38+00:00,http://arxiv.org/abs/2109.06717v1,"Zhe Hu, Zhiwei Cao, Hou Pong Chan, Jiachen Liu, Xinyan Xiao, Jinsong Su, Hua Wu","cs.CL, cs.AI",dialogue,"Controllable text generation is an appealing but challenging task, which
+allows users to specify particular attributes of the generated outputs. In this
+paper, we propose a controllable dialogue generation model to steer response
+generation under multi-attribute constraints. Specifically, we define and
+categorize the commonly used control attributes into global and local ones,
+which possess different granularities of effects on response generation. Then,
+we significantly extend the conventional seq2seq framework by introducing a
+novel two-stage decoder, which first uses a multi-grained style specification
+layer to impose the stylistic constraints and determine word-level control
+states of responses based on the attributes, and then employs a response
+generation layer to generate final responses maintaining both semantic
+relevancy to the contexts and fidelity to the attributes. Furthermore, we train
+our model with an attribute consistency reward to promote response control with
+explicit supervision signals. Extensive experiments and in-depth analyses on
+two datasets indicate that our model can significantly outperform competitive
+baselines in terms of response quality, content diversity and controllability.",2021-09-14
+"End-to-End Conversational Search for Online Shopping with Utterance
+  Transfer",2021-09-12 08:33:44+00:00,http://arxiv.org/abs/2109.05460v1,"Liqiang Xiao, Jun Ma2, Xin Luna Dong, Pascual Martinez-Gomez, Nasser Zalmout, Wei Chen, Tong Zhao, Hao He, Yaohui Jin","cs.CL, cs.AI",dialogue,"Successful conversational search systems can present natural, adaptive and
+interactive shopping experience for online shopping customers. However,
+building such systems from scratch faces real word challenges from both
+imperfect product schema/knowledge and lack of training dialog data.In this
+work we first propose ConvSearch, an end-to-end conversational search system
+that deeply combines the dialog system with search. It leverages the text
+profile to retrieve products, which is more robust against imperfect product
+schema/knowledge compared with using product attributes alone. We then address
+the lack of data challenges by proposing an utterance transfer approach that
+generates dialogue utterances by using existing dialog from other domains, and
+leveraging the search behavior data from e-commerce retailer. With utterance
+transfer, we introduce a new conversational search dataset for online shopping.
+Experiments show that our utterance transfer method can significantly improve
+the availability of training dialogue data without crowd-sourcing, and the
+conversational search system significantly outperformed the best tested
+baseline.",2021-09-12
+Zero-Shot Text-to-Speech for Text-Based Insertion in Audio Narration,2021-09-12 04:17:53+00:00,http://arxiv.org/abs/2109.05426v1,"Chuanxin Tang, Chong Luo, Zhiyuan Zhao, Dacheng Yin, Yucheng Zhao, Wenjun Zeng","cs.SD, cs.AI, eess.AS",dialogue,"Given a piece of speech and its transcript text, text-based speech editing
+aims to generate speech that can be seamlessly inserted into the given speech
+by editing the transcript. Existing methods adopt a two-stage approach:
+synthesize the input text using a generic text-to-speech (TTS) engine and then
+transform the voice to the desired voice using voice conversion (VC). A major
+problem of this framework is that VC is a challenging problem which usually
+needs a moderate amount of parallel training data to work satisfactorily. In
+this paper, we propose a one-stage context-aware framework to generate natural
+and coherent target speech without any training data of the target speaker. In
+particular, we manage to perform accurate zero-shot duration prediction for the
+inserted text. The predicted duration is used to regulate both text embedding
+and speech embedding. Then, based on the aligned cross-modality input, we
+directly generate the mel-spectrogram of the edited speech with a
+transformer-based decoder. Subjective listening tests show that despite the
+lack of training data for the speaker, our method has achieved satisfactory
+results. It outperforms a recent zero-shot TTS engine by a large margin.",2021-09-12
+Refocusing on Relevance: Personalization in NLG,2021-09-10 23:50:02+00:00,http://arxiv.org/abs/2109.05140v1,"Shiran Dudy, Steven Bedrick, Bonnie Webber","cs.CL, cs.CY, cs.HC",dialogue,"Many NLG tasks such as summarization, dialogue response, or open domain
+question answering focus primarily on a source text in order to generate a
+target response. This standard approach falls short, however, when a user's
+intent or context of work is not easily recoverable based solely on that source
+text -- a scenario that we argue is more of the rule than the exception. In
+this work, we argue that NLG systems in general should place a much higher
+level of emphasis on making use of additional context, and suggest that
+relevance (as used in Information Retrieval) be thought of as a crucial tool
+for designing user-oriented text-generating tasks. We further discuss possible
+harms and hazards around such personalization, and argue that value-sensitive
+design represents a crucial path forward through these challenges.",2021-09-10
 "Generating Self-Contained and Summary-Centric Question Answer Pairs via
   Differentiable Reward Imitation Learning",2021-09-10 06:34:55+00:00,http://arxiv.org/abs/2109.04689v1,"Li Zhou, Kevin Small, Yong Zhang, Sandeep Atluri","cs.CL, cs.AI, cs.LG",dialogue,"Motivated by suggested question generation in conversational news
 recommendation systems, we propose a model for generating question-answer pairs

@@ -1,4 +1,150 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+CIDEr-R: Robust Consensus-based Image Description Evaluation,2021-09-28 13:13:21+00:00,http://arxiv.org/abs/2109.13701v1,"Gabriel Oliveira dos Santos, Esther Luna Colombini, Sandra Avila","cs.CV, cs.CL",image2text,"This paper shows that CIDEr-D, a traditional evaluation metric for image
+description, does not work properly on datasets where the number of words in
+the sentence is significantly greater than those in the MS COCO Captions
+dataset. We also show that CIDEr-D has performance hampered by the lack of
+multiple reference sentences and high variance of sentence length. To bypass
+this problem, we introduce CIDEr-R, which improves CIDEr-D, making it more
+flexible in dealing with datasets with high sentence length variance. We
+demonstrate that CIDEr-R is more accurate and closer to human judgment than
+CIDEr-D; CIDEr-R is more robust regarding the number of available references.
+Our results reveal that using Self-Critical Sequence Training to optimize
+CIDEr-R generates descriptive captions. In contrast, when CIDEr-D is optimized,
+the generated captions' length tends to be similar to the reference length.
+However, the models also repeat several times the same word to increase the
+sentence length.",2021-09-28
+Weakly Supervised Contrastive Learning for Chest X-Ray Report Generation,2021-09-25 00:06:23+00:00,http://arxiv.org/abs/2109.12242v1,"An Yan, Zexue He, Xing Lu, Jiang Du, Eric Chang, Amilcare Gentili, Julian McAuley, Chun-Nan Hsu",cs.CL,image2text,"Radiology report generation aims at generating descriptive text from
+radiology images automatically, which may present an opportunity to improve
+radiology reporting and interpretation. A typical setting consists of training
+encoder-decoder models on image-report pairs with a cross entropy loss, which
+struggles to generate informative sentences for clinical diagnoses since normal
+findings dominate the datasets. To tackle this challenge and encourage more
+clinically-accurate text outputs, we propose a novel weakly supervised
+contrastive loss for medical report generation. Experimental results
+demonstrate that our method benefits from contrasting target reports with
+incorrect but semantically-close ones. It outperforms previous work on both
+clinical correctness and text generation metrics for two public benchmarks.",2021-09-25
+"An animated picture says at least a thousand words: Selecting Gif-based
+  Replies in Multimodal Dialog",2021-09-24 21:48:27+00:00,http://arxiv.org/abs/2109.12212v1,"Xingyao Wang, David Jurgens","cs.CL, cs.CV, cs.CY",image2text,"Online conversations include more than just text. Increasingly, image-based
+responses such as memes and animated gifs serve as culturally recognized and
+often humorous responses in conversation. However, while NLP has broadened to
+multimodal models, conversational dialog systems have largely focused only on
+generating text replies. Here, we introduce a new dataset of 1.56M text-gif
+conversation turns and introduce a new multimodal conversational model Pepe the
+King Prawn for selecting gif-based replies. We demonstrate that our model
+produces relevant and high-quality gif responses and, in a large randomized
+control trial of multiple models replying to real users, we show that our model
+replies with gifs that are significantly better received by the community.",2021-09-24
+Style Control for Schema-Guided Natural Language Generation,2021-09-24 21:47:58+00:00,http://arxiv.org/abs/2109.12211v1,"Alicia Y. Tsai, Shereen Oraby, Vittorio Perera, Jiun-Yu Kao, Yuheng Du, Anjali Narayan-Chen, Tagyoung Chung, Dilek Hakkani-Tur",cs.CL,image2text,"Natural Language Generation (NLG) for task-oriented dialogue systems focuses
+on communicating specific content accurately, fluently, and coherently. While
+these attributes are crucial for a successful dialogue, it is also desirable to
+simultaneously accomplish specific stylistic goals, such as response length,
+point-of-view, descriptiveness, sentiment, formality, and empathy. In this
+work, we focus on stylistic control and evaluation for schema-guided NLG, with
+joint goals of achieving both semantic and stylistic control. We experiment in
+detail with various controlled generation methods for large pretrained language
+models: specifically, conditional training, guided fine-tuning, and guided
+decoding. We discuss their advantages and limitations, and evaluate them with a
+broad range of automatic and human evaluation metrics. Our results show that
+while high style accuracy and semantic correctness are easier to achieve for
+more lexically-defined styles with conditional training, stylistic control is
+also achievable for more semantically complex styles using discriminator-based
+guided decoding methods. The results also suggest that methods that are more
+scalable (with less hyper-parameters tuning) and that disentangle content
+generation and stylistic variations are more effective at achieving semantic
+correctness and style accuracy.",2021-09-24
+"TrOCR: Transformer-based Optical Character Recognition with Pre-trained
+  Models",2021-09-21 16:01:56+00:00,http://arxiv.org/abs/2109.10282v3,"Minghao Li, Tengchao Lv, Lei Cui, Yijuan Lu, Dinei Florencio, Cha Zhang, Zhoujun Li, Furu Wei","cs.CL, cs.CV",image2text,"Text recognition is a long-standing research problem for document
+digitalization. Existing approaches for text recognition are usually built
+based on CNN for image understanding and RNN for char-level text generation. In
+addition, another language model is usually needed to improve the overall
+accuracy as a post-processing step. In this paper, we propose an end-to-end
+text recognition approach with pre-trained image Transformer and text
+Transformer models, namely TrOCR, which leverages the Transformer architecture
+for both image understanding and wordpiece-level text generation. The TrOCR
+model is simple but effective, and can be pre-trained with large-scale
+synthetic data and fine-tuned with human-labeled datasets. Experiments show
+that the TrOCR model outperforms the current state-of-the-art models on both
+printed and handwritten text recognition tasks. The code and models will be
+publicly available at https://aka.ms/TrOCR.",2021-09-21
+PluGeN: Multi-Label Conditional Generation From Pre-Trained Models,2021-09-18 21:02:24+00:00,http://arxiv.org/abs/2109.09011v1,"Maciej Wołczyk, Magdalena Proszewska, Łukasz Maziarka, Maciej Zięba, Patryk Wielopolski, Rafał Kurczab, Marek Śmieja",cs.LG,image2text,"Modern generative models achieve excellent quality in a variety of tasks
+including image or text generation and chemical molecule modeling. However,
+existing methods often lack the essential ability to generate examples with
+requested properties, such as the age of the person in the photo or the weight
+of the generated molecule. Incorporating such additional conditioning factors
+would require rebuilding the entire architecture and optimizing the parameters
+from scratch. Moreover, it is difficult to disentangle selected attributes so
+that to perform edits of only one attribute while leaving the others unchanged.
+To overcome these limitations we propose PluGeN (Plugin Generative Network), a
+simple yet effective generative technique that can be used as a plugin to
+pre-trained generative models. The idea behind our approach is to transform the
+entangled latent representation using a flow-based module into a
+multi-dimensional space where the values of each attribute are modeled as an
+independent one-dimensional distribution. In consequence, PluGeN can generate
+new samples with desired attributes as well as manipulate labeled attributes of
+existing examples. Due to the disentangling of the latent representation, we
+are even able to generate samples with rare or unseen combinations of
+attributes in the dataset, such as a young person with gray hair, men with
+make-up, or women with beards. We combined PluGeN with GAN and VAE models and
+applied it to conditional generation and manipulation of images and chemical
+molecule modeling. Experiments demonstrate that PluGeN preserves the quality of
+backbone models while adding the ability to control the values of labeled
+attributes.",2021-09-18
+"Label-Attention Transformer with Geometrically Coherent Objects for
+  Image Captioning",2021-09-16 08:43:46+00:00,http://arxiv.org/abs/2109.07799v1,"Shikha Dubey, Farrukh Olimov, Muhammad Aasim Rafique, Joonmo Kim, Moongu Jeon","cs.CV, cs.AI",image2text,"Automatic transcription of scene understanding in images and videos is a step
+towards artificial general intelligence. Image captioning is a nomenclature for
+describing meaningful information in an image using computer vision techniques.
+Automated image captioning techniques utilize encoder and decoder architecture,
+where the encoder extracts features from an image and the decoder generates a
+transcript. In this work, we investigate two unexplored ideas for image
+captioning using transformers: First, we demonstrate the enforcement of using
+objects' relevance in the surrounding environment. Second, learning an explicit
+association between labels and language constructs. We propose label-attention
+Transformer with geometrically coherent objects (LATGeO). The proposed
+technique acquires a proposal of geometrically coherent objects using a deep
+neural network (DNN) and generates captions by investigating their
+relationships using a label-attention module. Object coherence is defined using
+the localized ratio of the geometrical properties of the proposals. The
+label-attention module associates the extracted objects classes to the
+available dictionary using self-attention layers. The experimentation results
+show that objects' relevance in surroundings and binding of their visual
+feature with their geometrically localized ratios combined with its associated
+labels help in defining meaningful captions. The proposed framework is tested
+on the MSCOCO dataset, and a thorough evaluation resulting in overall better
+quantitative scores pronounces its superiority.",2021-09-16
+"UniMS: A Unified Framework for Multimodal Summarization with Knowledge
+  Distillation",2021-09-13 09:36:04+00:00,http://arxiv.org/abs/2109.05812v1,"Zhengkun Zhang, Xiaojun Meng, Yasheng Wang, Xin Jiang, Qun Liu, Zhenglu Yang",cs.CL,image2text,"With the rapid increase of multimedia data, a large body of literature has
+emerged to work on multimodal summarization, the majority of which target at
+refining salient information from textual and visual modalities to output a
+pictorial summary with the most relevant images. Existing methods mostly focus
+on either extractive or abstractive summarization and rely on qualified image
+captions to build image references. We are the first to propose a Unified
+framework for Multimodal Summarization grounding on BART, UniMS, that
+integrates extractive and abstractive objectives, as well as selecting the
+image output. Specially, we adopt knowledge distillation from a vision-language
+pretrained model to improve image selection, which avoids any requirement on
+the existence and quality of image captions. Besides, we introduce a visual
+guided decoder to better integrate textual and visual modalities in guiding
+abstractive text generation. Results show that our best model achieves a new
+state-of-the-art result on a large-scale benchmark dataset. The newly involved
+extractive objective as well as the knowledge distillation technique are proven
+to bring a noticeable improvement to the multimodal summarization task.",2021-09-13
+COSMic: A Coherence-Aware Generation Metric for Image Descriptions,2021-09-11 13:43:36+00:00,http://arxiv.org/abs/2109.05281v1,"Mert İnan, Piyush Sharma, Baber Khalid, Radu Soricut, Matthew Stone, Malihe Alikhani","cs.CL, cs.AI, cs.CV, cs.LG",image2text,"Developers of text generation models rely on automated evaluation metrics as
+a stand-in for slow and expensive manual evaluations. However, image captioning
+metrics have struggled to give accurate learned estimates of the semantic and
+pragmatic success of output text. We address this weakness by introducing the
+first discourse-aware learned generation metric for evaluating image
+descriptions. Our approach is inspired by computational theories of discourse
+for capturing information goals using coherence. We present a dataset of
+image$\unicode{x2013}$description pairs annotated with coherence relations. We
+then train a coherence-aware metric on a subset of the Conceptual Captions
+dataset and measure its effectiveness$\unicode{x2014}$its ability to predict
+human ratings of output captions$\unicode{x2014}$on a test set composed of
+out-of-domain images. We demonstrate a higher Kendall Correlation Coefficient
+for our proposed metric with the human judgments for the results of a number of
+state-of-the-art coherence-aware caption generation models when compared to
+several other metrics including recently proposed learned metrics such as
+BLEURT and BERTScore.",2021-09-11
 "Retrieve, Caption, Generate: Visual Grounding for Enhancing Commonsense
   in Text Generation Models",2021-09-08 19:38:11+00:00,http://arxiv.org/abs/2109.03892v1,"Steven Y. Feng, Kevin Lu, Zhuofu Tao, Malihe Alikhani, Teruko Mitamura, Eduard Hovy, Varun Gangal","cs.CL, cs.AI, cs.LG",image2text,"We investigate the use of multimodal information contained in images as an
 effective method for enhancing the commonsense of Transformer models for text

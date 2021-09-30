@@ -6,10 +6,23 @@ sidebar:
 ---
 
 
-*written on 2021-09-13*
+*written on 2021-09-30*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [TURINGBENCH: A Benchmark Environment for Turing Test in the Age of  Neural Text Generation](http://arxiv.org/abs/2109.13296v1) | Adaku Uchendu, Zeyu Ma, Thai Le, Rui Zhang, Dongwon Lee | cs.CL | 2021-09-27 |
+| [Weakly Supervised Contrastive Learning for Chest X-Ray Report Generation](http://arxiv.org/abs/2109.12242v1) | An Yan, Zexue He, Xing Lu, Jiang Du, Eric Chang, Amilcare Gentili, Julian McAuley, Chun-Nan Hsu | cs.CL | 2021-09-25 |
+| [Style Control for Schema-Guided Natural Language Generation](http://arxiv.org/abs/2109.12211v1) | Alicia Y. Tsai, Shereen Oraby, Vittorio Perera, Jiun-Yu Kao, Yuheng Du, Anjali Narayan-Chen, Tagyoung Chung, Dilek Hakkani-Tur | cs.CL | 2021-09-24 |
+| [Incorporating Linguistic Knowledge for Abstractive Multi-document  Summarization](http://arxiv.org/abs/2109.11199v1) | Congbo Ma, Wei Emma Zhang, Hu Wang, Shubham Gupta, Mingyu Guo | cs.CL | 2021-09-23 |
+| [Enriching and Controlling Global Semantics for Text Summarization](http://arxiv.org/abs/2109.10616v1) | Thong Nguyen, Anh Tuan Luu, Truc Lu, Tho Quan | cs.CL | 2021-09-22 |
+| [A Plug-and-Play Method for Controlled Text Generation](http://arxiv.org/abs/2109.09707v1) | Damian Pascual, Beni Egressy, Clara Meister, Ryan Cotterell, Roger Wattenhofer | cs.CL, cs.AI | 2021-09-20 |
+| [Relating Neural Text Degeneration to Exposure Bias](http://arxiv.org/abs/2109.08705v1) | Ting-Rui Chiang, Yun-Nung Chen | cs.CL, cs.LG | 2021-09-17 |
+| [Let the CAT out of the bag: Contrastive Attributed explanations for Text](http://arxiv.org/abs/2109.07983v1) | Saneem Chemmengath, Amar Prakash Azad, Ronny Luss, Amit Dhurandhar | cs.CL, cs.AI | 2021-09-16 |
+| [Attention Is Indeed All You Need: Semantically Attention-Guided Decoding  for Data-to-Text NLG](http://arxiv.org/abs/2109.07043v1) | Juraj Juraska, Marilyn Walker | cs.CL, cs.LG | 2021-09-15 |
+| [PETGEN: Personalized Text Generation Attack on Deep Sequence  Embedding-based Classification Models](http://arxiv.org/abs/2109.06777v1) | Bing He, Mustaque Ahamad, Srijan Kumar | cs.LG, cs.SI | 2021-09-14 |
+| [Controllable Dialogue Generation with Disentangled Multi-grained Style  Specification and Attribute Consistency Reward](http://arxiv.org/abs/2109.06717v1) | Zhe Hu, Zhiwei Cao, Hou Pong Chan, Jiachen Liu, Xinyan Xiao, Jinsong Su, Hua Wu | cs.CL, cs.AI | 2021-09-14 |
+| [KFCNet: Knowledge Filtering and Contrastive Learning Network for  Generative Commonsense Reasoning](http://arxiv.org/abs/2109.06704v1) | Haonan Li, Yeyun Gong, Jian Jiao, Ruofei Zhang, Timothy Baldwin, Nan Duan | cs.CL | 2021-09-14 |
+| [Improving Gradient-based Adversarial Training for Text Classification by  Contrastive Learning and Auto-Encoder](http://arxiv.org/abs/2109.06536v1) | Yao Qiu, Jinchao Zhang, Jie Zhou | cs.CL | 2021-09-14 |
 | [Style Pooling: Automatic Text Style Obfuscation for Improved  Classification Fairness](http://arxiv.org/abs/2109.04624v1) | Fatemehsadat Mireshghallah, Taylor Berg-Kirkpatrick | cs.LG | 2021-09-10 |
 | [Graphine: A Dataset for Graph-aware Terminology Definition Generation](http://arxiv.org/abs/2109.04018v1) | Zequn Liu, Shukai Wang, Yiyang Gu, Ruiyi Zhang, Ming Zhang, Sheng Wang | cs.CL | 2021-09-09 |
 | [NumGPT: Improving Numeracy Ability of Generative Pre-trained Models](http://arxiv.org/abs/2109.03137v1) | Zhihua Jin, Xin Jiang, Xingbo Wang, Qun Liu, Yong Wang, Xiaozhe Ren, Huamin Qu | cs.CL, cs.LG | 2021-09-07 |

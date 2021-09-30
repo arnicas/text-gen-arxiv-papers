@@ -7,10 +7,19 @@ sidebar:
 ---
 
 
-*written on 2021-09-13*
+*written on 2021-09-30*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [CIDEr-R: Robust Consensus-based Image Description Evaluation](http://arxiv.org/abs/2109.13701v1) | Gabriel Oliveira dos Santos, Esther Luna Colombini, Sandra Avila | cs.CV, cs.CL | 2021-09-28 |
+| [Weakly Supervised Contrastive Learning for Chest X-Ray Report Generation](http://arxiv.org/abs/2109.12242v1) | An Yan, Zexue He, Xing Lu, Jiang Du, Eric Chang, Amilcare Gentili, Julian McAuley, Chun-Nan Hsu | cs.CL | 2021-09-25 |
+| [An animated picture says at least a thousand words: Selecting Gif-based  Replies in Multimodal Dialog](http://arxiv.org/abs/2109.12212v1) | Xingyao Wang, David Jurgens | cs.CL, cs.CV, cs.CY | 2021-09-24 |
+| [Style Control for Schema-Guided Natural Language Generation](http://arxiv.org/abs/2109.12211v1) | Alicia Y. Tsai, Shereen Oraby, Vittorio Perera, Jiun-Yu Kao, Yuheng Du, Anjali Narayan-Chen, Tagyoung Chung, Dilek Hakkani-Tur | cs.CL | 2021-09-24 |
+| [TrOCR: Transformer-based Optical Character Recognition with Pre-trained  Models](http://arxiv.org/abs/2109.10282v3) | Minghao Li, Tengchao Lv, Lei Cui, Yijuan Lu, Dinei Florencio, Cha Zhang, Zhoujun Li, Furu Wei | cs.CL, cs.CV | 2021-09-21 |
+| [PluGeN: Multi-Label Conditional Generation From Pre-Trained Models](http://arxiv.org/abs/2109.09011v1) | Maciej Wołczyk, Magdalena Proszewska, Łukasz Maziarka, Maciej Zięba, Patryk Wielopolski, Rafał Kurczab, Marek Śmieja | cs.LG | 2021-09-18 |
+| [Label-Attention Transformer with Geometrically Coherent Objects for  Image Captioning](http://arxiv.org/abs/2109.07799v1) | Shikha Dubey, Farrukh Olimov, Muhammad Aasim Rafique, Joonmo Kim, Moongu Jeon | cs.CV, cs.AI | 2021-09-16 |
+| [UniMS: A Unified Framework for Multimodal Summarization with Knowledge  Distillation](http://arxiv.org/abs/2109.05812v1) | Zhengkun Zhang, Xiaojun Meng, Yasheng Wang, Xin Jiang, Qun Liu, Zhenglu Yang | cs.CL | 2021-09-13 |
+| [COSMic: A Coherence-Aware Generation Metric for Image Descriptions](http://arxiv.org/abs/2109.05281v1) | Mert İnan, Piyush Sharma, Baber Khalid, Radu Soricut, Matthew Stone, Malihe Alikhani | cs.CL, cs.AI, cs.CV, cs.LG | 2021-09-11 |
 | [Retrieve, Caption, Generate: Visual Grounding for Enhancing Commonsense  in Text Generation Models](http://arxiv.org/abs/2109.03892v1) | Steven Y. Feng, Kevin Lu, Zhuofu Tao, Malihe Alikhani, Teruko Mitamura, Eduard Hovy, Varun Gangal | cs.CL, cs.AI, cs.LG | 2021-09-08 |
 | [Sequence Level Contrastive Learning for Text Summarization](http://arxiv.org/abs/2109.03481v1) | Shusheng Xu, Xingxing Zhang, Yi Wu, Furu Wei | cs.CL | 2021-09-08 |
 | [Multimodal Conditionality for Natural Language Generation](http://arxiv.org/abs/2109.01229v1) | Michael Sollami, Aashish Jain | cs.CL, cs.LG | 2021-09-02 |

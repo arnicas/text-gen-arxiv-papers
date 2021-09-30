@@ -7,10 +7,15 @@ sidebar:
 ---
 
 
-*written on 2021-08-26*
+*written on 2021-09-30*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [A Plug-and-Play Method for Controlled Text Generation](http://arxiv.org/abs/2109.09707v1) | Damian Pascual, Beni Egressy, Clara Meister, Ryan Cotterell, Roger Wattenhofer | cs.CL, cs.AI | 2021-09-20 |
+| [TVRecap: A Dataset for Generating Stories with Character Descriptions](http://arxiv.org/abs/2109.08833v1) | Mingda Chen, Kevin Gimpel | cs.CL | 2021-09-18 |
+| [The Perils of Using Mechanical Turk to Evaluate Open-Ended Text  Generation](http://arxiv.org/abs/2109.06835v1) | Marzena Karpinska, Nader Akoury, Mohit Iyyer | cs.CL | 2021-09-14 |
+| [A Temporal Variational Model for Story Generation](http://arxiv.org/abs/2109.06807v1) | David Wilmot, Frank Keller | cs.CL, cs.AI | 2021-09-14 |
+| [Implicit Premise Generation with Discourse-aware Commonsense Knowledge  Models](http://arxiv.org/abs/2109.05358v1) | Tuhin Chakrabarty, Aadit Trivedi, Smaranda Muresan | cs.CL | 2021-09-11 |
 | [Using BERT Encoding and Sentence-Level Language Model for Sentence  Ordering](http://arxiv.org/abs/2108.10986v1) | Melika Golestani, Seyedeh Zahra Razavi, Zeinab Borhanifard, Farnaz Tahmasebian, Hesham Faili | cs.CL | 2021-08-24 |
 | [GGP: A Graph-based Grouping Planner for Explicit Control of Long Text  Generation](http://arxiv.org/abs/2108.07998v1) | Xuming Lin, Shaobo Cui, Zhongzhou Zhao, Wei Zhou, Ji Zhang, Haiqing Chen | cs.CL | 2021-08-18 |
 | [MTG: A Benchmarking Suite for Multilingual Text Generation](http://arxiv.org/abs/2108.07140v1) | Yiran Chen, Zhenqiao Song, Xianze Wu, Danqing Wang, Jingjing Xu, Jiaze Chen, Hao Zhou, Lei Li | cs.CL | 2021-08-13 |
