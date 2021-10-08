@@ -1,4 +1,40 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Simulated annealing for optimization of graphs and sequences,2021-10-01 01:12:19+00:00,http://arxiv.org/abs/2110.01384v1,"Xianggen Liu, Pengyong Li, Fandong Meng, Hao Zhou, Huasong Zhong, Jie Zhou, Lili Mou, Sen Song","cs.LG, cs.AI",knowledge,"Optimization of discrete structures aims at generating a new structure with
+the better property given an existing one, which is a fundamental problem in
+machine learning. Different from the continuous optimization, the realistic
+applications of discrete optimization (e.g., text generation) are very
+challenging due to the complex and long-range constraints, including both
+syntax and semantics, in discrete structures. In this work, we present SAGS, a
+novel Simulated Annealing framework for Graph and Sequence optimization. The
+key idea is to integrate powerful neural networks into metaheuristics (e.g.,
+simulated annealing, SA) to restrict the search space in discrete optimization.
+We start by defining a sophisticated objective function, involving the property
+of interest and pre-defined constraints (e.g., grammar validity). SAGS searches
+from the discrete space towards this objective by performing a sequence of
+local edits, where deep generative neural networks propose the editing content
+and thus can control the quality of editing. We evaluate SAGS on paraphrase
+generation and molecule generation for sequence optimization and graph
+optimization, respectively. Extensive results show that our approach achieves
+state-of-the-art performance compared with existing paraphrase generation
+methods in terms of both automatic and human evaluations. Further, SAGS also
+significantly outperforms all the previous methods in molecule generation.",2021-10-01
+Self-conditioning pre-trained language models,2021-09-30 11:18:19+00:00,http://arxiv.org/abs/2110.02802v1,"Xavier Suau, Luca Zappella, Nicholas Apostoloff",cs.CL,knowledge,"We study the presence of expert units in pre-trained Transformer-based
+Language Models (TLMs), and how they can be used to condition text generation
+to contain specific concepts. We define expert units to be neurons that are
+able to detect a concept in the input with a given average precision. A concept
+is represented with a set of sentences that either do or do not contain the
+concept. Leveraging the OneSec dataset, we compile a dataset of 1344 concepts
+that allows diverse expert units in TLMs to be discovered. Our experiments
+demonstrate that off-the-shelf pre-trained TLMs can be conditioned on their own
+knowledge (self-conditioning) to generate text that contains a given concept.
+To this end, we intervene on the top expert units by fixing their output during
+inference, and we show experimentally that this is an effective method to
+condition TLMs. Our method does not require fine-tuning the model or using
+additional parameters, which allows conditioning large TLM with minimal compute
+resources. Furthermore, by intervening on a small number of experts in GPT2, we
+can achieve parity with respect to two concepts at generation time. The
+specific case of gender bias is explored, and we show that, for given contexts,
+gender parity is achieved while maintaining the model's perplexity.",2021-09-30
 "TURINGBENCH: A Benchmark Environment for Turing Test in the Age of
   Neural Text Generation",2021-09-27 18:35:33+00:00,http://arxiv.org/abs/2109.13296v1,"Adaku Uchendu, Zeyu Ma, Thai Le, Rui Zhang, Dongwon Lee",cs.CL,knowledge,"Recent progress in generative language models has enabled machines to
 generate astonishingly realistic texts. While there are many legitimate

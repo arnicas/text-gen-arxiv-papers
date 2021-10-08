@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2021-09-30*
+*written on 2021-10-08*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Cut the CARP: Fishing for zero-shot story evaluation](http://arxiv.org/abs/2110.03111v1) | Shahbuland Matiana, JR Smith, Ryan Teehan, Louis Castricato, Stella Biderman, Leo Gao, Spencer Frazier | cs.CL | 2021-10-06 |
+| [CLIP-Forge: Towards Zero-Shot Text-to-Shape Generation](http://arxiv.org/abs/2110.02624v1) | Aditya Sanghi, Hang Chu, Joseph G. Lambourne, Ye Wang, Chin-Yi Cheng, Marco Fumero | cs.CV, cs.AI, 68T07, I.2.10 | 2021-10-06 |
+| [Simulated annealing for optimization of graphs and sequences](http://arxiv.org/abs/2110.01384v1) | Xianggen Liu, Pengyong Li, Fandong Meng, Hao Zhou, Huasong Zhong, Jie Zhou, Lili Mou, Sen Song | cs.LG, cs.AI | 2021-10-01 |
 | [Towards Reinforcement Learning for Pivot-based Neural Machine  Translation with Non-autoregressive Transformer](http://arxiv.org/abs/2109.13097v1) | Evgeniia Tokarchuk, Jan Rosendahl, Weiyue Wang, Pavel Petrushkov, Tomer Lancewicki, Shahram Khadivi, Hermann Ney | cs.CL | 2021-09-27 |
 | [Incorporating Linguistic Knowledge for Abstractive Multi-document  Summarization](http://arxiv.org/abs/2109.11199v1) | Congbo Ma, Wei Emma Zhang, Hu Wang, Shubham Gupta, Mingyu Guo | cs.CL | 2021-09-23 |
 | [Exploiting Curriculum Learning in Unsupervised Neural Machine  Translation](http://arxiv.org/abs/2109.11177v1) | Jinliang Lu, Jiajun Zhang | cs.CL | 2021-09-23 |

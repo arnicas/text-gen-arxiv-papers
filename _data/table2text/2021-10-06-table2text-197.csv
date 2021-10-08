@@ -1,4 +1,48 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Cut the CARP: Fishing for zero-shot story evaluation,2021-10-06 23:50:46+00:00,http://arxiv.org/abs/2110.03111v1,"Shahbuland Matiana, JR Smith, Ryan Teehan, Louis Castricato, Stella Biderman, Leo Gao, Spencer Frazier",cs.CL,table2text,"Recent advances in large-scale language models (Raffel et al., 2019; Brown et
+al., 2020) have brought significant qualitative and quantitative improvements
+in machine-driven text generation. Despite this, generation and evaluation of
+machine-generated narrative text remains a challenging problem. Objective
+evaluation of computationally-generated stories may be prohibitively expensive,
+require meticulously annotated datasets, or may not adequately measure the
+logical coherence of a generated story's narratological structure.
+  Informed by recent advances in contrastive learning (Radford et al., 2021),
+we present Contrastive Authoring and Reviewing Pairing (CARP): a scalable,
+efficient method for performing qualitatively superior, zero-shot evaluation of
+stories. We show a strong correlation between human evaluation of stories and
+those of CARP. Model outputs more significantly correlate with corresponding
+human input than those language-model based methods which utilize finetuning or
+prompt engineering approaches. We also present and analyze the Story-Critique
+Dataset, a new corpora composed of 1.3 million aligned story-critique pairs
+derived from over 80,000 stories. We expect this corpus to be of interest to
+NLP researchers.",2021-10-06
+CLIP-Forge: Towards Zero-Shot Text-to-Shape Generation,2021-10-06 09:55:19+00:00,http://arxiv.org/abs/2110.02624v1,"Aditya Sanghi, Hang Chu, Joseph G. Lambourne, Ye Wang, Chin-Yi Cheng, Marco Fumero","cs.CV, cs.AI, 68T07, I.2.10",table2text,"While recent progress has been made in text-to-image generation,
+text-to-shape generation remains a challenging problem due to the
+unavailability of paired text and shape data at a large scale. We present a
+simple yet effective method for zero-shot text-to-shape generation based on a
+two-stage training process, which only depends on an unlabelled shape dataset
+and a pre-trained image-text network such as CLIP. Our method not only
+demonstrates promising zero-shot generalization, but also avoids expensive
+inference time optimization and can generate multiple shapes for a given text.",2021-10-06
+Simulated annealing for optimization of graphs and sequences,2021-10-01 01:12:19+00:00,http://arxiv.org/abs/2110.01384v1,"Xianggen Liu, Pengyong Li, Fandong Meng, Hao Zhou, Huasong Zhong, Jie Zhou, Lili Mou, Sen Song","cs.LG, cs.AI",table2text,"Optimization of discrete structures aims at generating a new structure with
+the better property given an existing one, which is a fundamental problem in
+machine learning. Different from the continuous optimization, the realistic
+applications of discrete optimization (e.g., text generation) are very
+challenging due to the complex and long-range constraints, including both
+syntax and semantics, in discrete structures. In this work, we present SAGS, a
+novel Simulated Annealing framework for Graph and Sequence optimization. The
+key idea is to integrate powerful neural networks into metaheuristics (e.g.,
+simulated annealing, SA) to restrict the search space in discrete optimization.
+We start by defining a sophisticated objective function, involving the property
+of interest and pre-defined constraints (e.g., grammar validity). SAGS searches
+from the discrete space towards this objective by performing a sequence of
+local edits, where deep generative neural networks propose the editing content
+and thus can control the quality of editing. We evaluate SAGS on paraphrase
+generation and molecule generation for sequence optimization and graph
+optimization, respectively. Extensive results show that our approach achieves
+state-of-the-art performance compared with existing paraphrase generation
+methods in terms of both automatic and human evaluations. Further, SAGS also
+significantly outperforms all the previous methods in molecule generation.",2021-10-01
 "Towards Reinforcement Learning for Pivot-based Neural Machine
   Translation with Non-autoregressive Transformer",2021-09-27 14:49:35+00:00,http://arxiv.org/abs/2109.13097v1,"Evgeniia Tokarchuk, Jan Rosendahl, Weiyue Wang, Pavel Petrushkov, Tomer Lancewicki, Shahram Khadivi, Hermann Ney",cs.CL,table2text,"Pivot-based neural machine translation (NMT) is commonly used in low-resource
 setups, especially for translation between non-English language pairs. It

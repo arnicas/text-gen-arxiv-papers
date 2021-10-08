@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-09-30*
+*written on 2021-10-08*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [CLIP-Forge: Towards Zero-Shot Text-to-Shape Generation](http://arxiv.org/abs/2110.02624v1) | Aditya Sanghi, Hang Chu, Joseph G. Lambourne, Ye Wang, Chin-Yi Cheng, Marco Fumero | cs.CV, cs.AI, 68T07, I.2.10 | 2021-10-06 |
 | [CIDEr-R: Robust Consensus-based Image Description Evaluation](http://arxiv.org/abs/2109.13701v1) | Gabriel Oliveira dos Santos, Esther Luna Colombini, Sandra Avila | cs.CV, cs.CL | 2021-09-28 |
 | [Weakly Supervised Contrastive Learning for Chest X-Ray Report Generation](http://arxiv.org/abs/2109.12242v1) | An Yan, Zexue He, Xing Lu, Jiang Du, Eric Chang, Amilcare Gentili, Julian McAuley, Chun-Nan Hsu | cs.CL | 2021-09-25 |
 | [An animated picture says at least a thousand words: Selecting Gif-based  Replies in Multimodal Dialog](http://arxiv.org/abs/2109.12212v1) | Xingyao Wang, David Jurgens | cs.CL, cs.CV, cs.CY | 2021-09-24 |

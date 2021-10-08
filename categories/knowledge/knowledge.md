@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2021-09-30*
+*written on 2021-10-08*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Simulated annealing for optimization of graphs and sequences](http://arxiv.org/abs/2110.01384v1) | Xianggen Liu, Pengyong Li, Fandong Meng, Hao Zhou, Huasong Zhong, Jie Zhou, Lili Mou, Sen Song | cs.LG, cs.AI | 2021-10-01 |
+| [Self-conditioning pre-trained language models](http://arxiv.org/abs/2110.02802v1) | Xavier Suau, Luca Zappella, Nicholas Apostoloff | cs.CL | 2021-09-30 |
 | [TURINGBENCH: A Benchmark Environment for Turing Test in the Age of  Neural Text Generation](http://arxiv.org/abs/2109.13296v1) | Adaku Uchendu, Zeyu Ma, Thai Le, Rui Zhang, Dongwon Lee | cs.CL | 2021-09-27 |
 | [Weakly Supervised Contrastive Learning for Chest X-Ray Report Generation](http://arxiv.org/abs/2109.12242v1) | An Yan, Zexue He, Xing Lu, Jiang Du, Eric Chang, Amilcare Gentili, Julian McAuley, Chun-Nan Hsu | cs.CL | 2021-09-25 |
 | [Style Control for Schema-Guided Natural Language Generation](http://arxiv.org/abs/2109.12211v1) | Alicia Y. Tsai, Shereen Oraby, Vittorio Perera, Jiun-Yu Kao, Yuheng Du, Anjali Narayan-Chen, Tagyoung Chung, Dilek Hakkani-Tur | cs.CL | 2021-09-24 |

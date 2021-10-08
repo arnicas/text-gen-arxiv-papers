@@ -1,4 +1,21 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Cut the CARP: Fishing for zero-shot story evaluation,2021-10-06 23:50:46+00:00,http://arxiv.org/abs/2110.03111v1,"Shahbuland Matiana, JR Smith, Ryan Teehan, Louis Castricato, Stella Biderman, Leo Gao, Spencer Frazier",cs.CL,story,"Recent advances in large-scale language models (Raffel et al., 2019; Brown et
+al., 2020) have brought significant qualitative and quantitative improvements
+in machine-driven text generation. Despite this, generation and evaluation of
+machine-generated narrative text remains a challenging problem. Objective
+evaluation of computationally-generated stories may be prohibitively expensive,
+require meticulously annotated datasets, or may not adequately measure the
+logical coherence of a generated story's narratological structure.
+  Informed by recent advances in contrastive learning (Radford et al., 2021),
+we present Contrastive Authoring and Reviewing Pairing (CARP): a scalable,
+efficient method for performing qualitatively superior, zero-shot evaluation of
+stories. We show a strong correlation between human evaluation of stories and
+those of CARP. Model outputs more significantly correlate with corresponding
+human input than those language-model based methods which utilize finetuning or
+prompt engineering approaches. We also present and analyze the Story-Critique
+Dataset, a new corpora composed of 1.3 million aligned story-critique pairs
+derived from over 80,000 stories. We expect this corpus to be of interest to
+NLP researchers.",2021-10-06
 A Plug-and-Play Method for Controlled Text Generation,2021-09-20 17:27:03+00:00,http://arxiv.org/abs/2109.09707v1,"Damian Pascual, Beni Egressy, Clara Meister, Ryan Cotterell, Roger Wattenhofer","cs.CL, cs.AI",story,"Large pre-trained language models have repeatedly shown their ability to
 produce fluent text. Yet even when starting from a prompt, generation can
 continue in many plausible directions. Current decoding methods with the goal

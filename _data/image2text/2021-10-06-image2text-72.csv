@@ -1,4 +1,12 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+CLIP-Forge: Towards Zero-Shot Text-to-Shape Generation,2021-10-06 09:55:19+00:00,http://arxiv.org/abs/2110.02624v1,"Aditya Sanghi, Hang Chu, Joseph G. Lambourne, Ye Wang, Chin-Yi Cheng, Marco Fumero","cs.CV, cs.AI, 68T07, I.2.10",image2text,"While recent progress has been made in text-to-image generation,
+text-to-shape generation remains a challenging problem due to the
+unavailability of paired text and shape data at a large scale. We present a
+simple yet effective method for zero-shot text-to-shape generation based on a
+two-stage training process, which only depends on an unlabelled shape dataset
+and a pre-trained image-text network such as CLIP. Our method not only
+demonstrates promising zero-shot generalization, but also avoids expensive
+inference time optimization and can generate multiple shapes for a given text.",2021-10-06
 CIDEr-R: Robust Consensus-based Image Description Evaluation,2021-09-28 13:13:21+00:00,http://arxiv.org/abs/2109.13701v1,"Gabriel Oliveira dos Santos, Esther Luna Colombini, Sandra Avila","cs.CV, cs.CL",image2text,"This paper shows that CIDEr-D, a traditional evaluation metric for image
 description, does not work properly on datasets where the number of words in
 the sentence is significantly greater than those in the MS COCO Captions
