@@ -1,4 +1,53 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"FrugalScore: Learning Cheaper, Lighter and Faster Evaluation Metricsfor
+  Automatic Text Generation",2021-10-16 11:59:48+00:00,http://arxiv.org/abs/2110.08559v1,"Moussa Kamal Eddine, Guokan Shang, Antoine J. -P. Tixier, Michalis Vazirgiannis",cs.CL,dialogue,"Fast and reliable evaluation metrics are key to R&D progress. While
+traditional natural language generation metrics are fast, they are not very
+reliable. Conversely, new metrics based on large pretrained language models are
+much more reliable, but require significant computational resources. In this
+paper, we propose FrugalScore, an approach to learn a fixed, low cost version
+of any expensive NLG metric, while retaining most of its original performance.
+Experiments with BERTScore and MoverScore on summarization and translation show
+that FrugalScore is on par with the original metrics (and sometimes better),
+while having several orders of magnitude less parameters and running several
+times faster. On average over all learned metrics, tasks, and variants,
+FrugalScore retains 96.8% of the performance, runs 24 times faster, and has 35
+times less parameters than the original metrics. We make our trained metrics
+publicly available, to benefit the entire NLP community and in particular
+researchers and practitioners with limited resources.",2021-10-16
+"Hindsight: Posterior-guided training of retrievers for improved
+  open-ended generation",2021-10-14 22:24:57+00:00,http://arxiv.org/abs/2110.07752v2,"Ashwin Paranjape, Omar Khattab, Christopher Potts, Matei Zaharia, Christopher D. Manning","cs.CL, cs.IR",dialogue,"Many text generation systems benefit from using a retriever to retrieve
+passages from a textual knowledge corpus (e.g., Wikipedia) which are then
+provided as additional context to the generator. For open-ended generation
+tasks (like generating informative utterances in conversations) many varied
+passages may be equally relevant and we find that existing methods that jointly
+train the retriever and generator underperform: the retriever may not find
+relevant passages even amongst the top-10 and hence the generator may not learn
+a preference to ground its generated output in them. We propose using an
+additional guide retriever that is allowed to use the target output and ""in
+hindsight"" retrieve relevant passages during training. We model the guide
+retriever after the posterior distribution Q of passages given the input and
+the target output and train it jointly with the standard retriever and the
+generator by maximizing the evidence lower bound (ELBo) in expectation over Q.
+For informative conversations from the Wizard of Wikipedia dataset, with
+posterior-guided training, the retriever finds passages with higher relevance
+in the top-10 (23% relative improvement), the generator's responses are more
+grounded in the retrieved passage (19% relative improvement) and the end-to-end
+system produces better overall output (6.4% relative improvement).",2021-10-14
+Federated Natural Language Generation for Personalized Dialogue System,2021-10-13 00:59:52+00:00,http://arxiv.org/abs/2110.06419v1,"Yujie Lu, Chao Huang, Huanli Zhan, Yong Zhuang","cs.CL, cs.AI",dialogue,"Neural conversational models have long suffered from the problem of
+inconsistency and lacking coherent personality. To address the issue,
+persona-based models capturing individual characteristics have been proposed,
+but they still face the dilemma of model adaption and data privacy. To break
+this dilemma, we propose a novel Federated Natural Language Generation (FedNLG)
+framework, which learns personalized representations from various dataset on
+distributed devices, and thus implements the personalized dialogue system
+efficiently and safely. FedNLG first pre-trains parameters of standard neural
+conversational model over a large dialogue corpus, and then fine-tune the model
+parameters and persona embeddings on specific datasets, in a federated manner.
+Thus, the model could simultaneously learn the persona embeddings in local
+clients and learn shared model parameters by federated aggregation, which
+achieves accuracyprivacy balance. By conducting extensive experiments, we
+demonstrate the effectiveness of our model by pre-training model over Cornell
+Movie-Dialogs Corpus and fine-tuning the model over two TV series dataset.",2021-10-13
 "OpenViDial 2.0: A Larger-Scale, Open-Domain Dialogue Generation Dataset
   with Visual Contexts",2021-09-27 02:10:29+00:00,http://arxiv.org/abs/2109.12761v2,"Shuhe Wang, Yuxian Meng, Xiaoya Li, Xiaofei Sun, Rongbin Ouyang, Jiwei Li",cs.CL,dialogue,"In order to better simulate the real human conversation process, models need
 to generate dialogue utterances based on not only preceding textual contexts

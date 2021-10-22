@@ -1,4 +1,149 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Permutation invariant graph-to-sequence model for template-free
+  retrosynthesis and reaction prediction",2021-10-19 01:23:15+00:00,http://arxiv.org/abs/2110.09681v1,"Zhengkai Tu, Connor W. Coley",cs.LG,knowledge,"Synthesis planning and reaction outcome prediction are two fundamental
+problems in computer-aided organic chemistry for which a variety of data-driven
+approaches have emerged. Natural language approaches that model each problem as
+a SMILES-to-SMILES translation lead to a simple end-to-end formulation, reduce
+the need for data preprocessing, and enable the use of well-optimized machine
+translation model architectures. However, SMILES representations are not an
+efficient representation for capturing information about molecular structures,
+as evidenced by the success of SMILES augmentation to boost empirical
+performance. Here, we describe a novel Graph2SMILES model that combines the
+power of Transformer models for text generation with the permutation invariance
+of molecular graph encoders that mitigates the need for input data
+augmentation. As an end-to-end architecture, Graph2SMILES can be used as a
+drop-in replacement for the Transformer in any task involving
+molecule(s)-to-molecule(s) transformations. In our encoder, an
+attention-augmented directed message passing neural network (D-MPNN) captures
+local chemical environments, and the global attention encoder allows for
+long-range and intermolecular interactions, enhanced by graph-aware positional
+embedding. Graph2SMILES improves the top-1 accuracy of the Transformer
+baselines by $1.7\%$ and $1.9\%$ for reaction outcome prediction on USPTO_480k
+and USPTO_STEREO datasets respectively, and by $9.8\%$ for one-step
+retrosynthesis on the USPTO_50k dataset.",2021-10-19
+"Improving Compositional Generalization with Self-Training for
+  Data-to-Text Generation",2021-10-16 04:26:56+00:00,http://arxiv.org/abs/2110.08467v1,"Sanket Vaibhav Mehta, Jinfeng Rao, Yi Tay, Mihir Kale, Ankur Parikh, Hongtao Zhong, Emma Strubell","cs.CL, cs.AI",knowledge,"Data-to-text generation focuses on generating fluent natural language
+responses from structured semantic representations. Such representations are
+compositional, allowing for the combination of atomic meaning schemata in
+various ways to express the rich semantics in natural language. Recently,
+pretrained language models (LMs) have achieved impressive results on
+data-to-text tasks, though it remains unclear the extent to which these LMs
+generalize to new semantic representations. In this work, we systematically
+study the compositional generalization of current state-of-the-art generation
+models in data-to-text tasks. By simulating structural shifts in the
+compositional Weather dataset, we show that T5 models fail to generalize to
+unseen structures. Next, we show that template-based input representations
+greatly improve the model performance and model scale does not trivially solve
+the lack of generalization. To further improve the model's performance, we
+propose an approach based on self-training using finetuned BLEURT for
+pseudo-response selection. Extensive experiments on the few-shot Weather and
+multi-domain SGD datasets demonstrate strong gains of our method.",2021-10-16
+"Open Domain Question Answering over Virtual Documents: A Unified
+  Approach for Data and Text",2021-10-16 00:11:21+00:00,http://arxiv.org/abs/2110.08417v1,"Kaixin Ma, Hao Cheng, Xiaodong Liu, Eric Nyberg, Jianfeng Gao","cs.CL, cs.AI",knowledge,"Due to its potential for a universal interface over both data and text,
+data-to-text generation is becoming increasingly popular recently. However, few
+previous work has focused on its application to downstream tasks, e.g. using
+the converted data for grounding or reasoning. In this work, we aim to bridge
+this gap and use the data-to-text method as a means for encoding structured
+knowledge for knowledge-intensive applications, i.e. open-domain question
+answering (QA). Specifically, we propose a verbalizer-retriever-reader
+framework for open-domain QA over data and text where verbalized tables from
+Wikipedia and triples from Wikidata are used as augmented knowledge sources. We
+show that our Unified Data and Text QA, UDT-QA, can effectively benefit from
+the expanded knowledge index, leading to large gains over text-only baselines.
+Notably, our approach sets the single-model state-of-the-art on Natural
+Questions. Furthermore, our analyses indicate that verbalized knowledge is
+preferred for answer reasoning for both adapted and hot-swap settings.",2021-10-16
+"Cross-Domain Data Integration for Named Entity Disambiguation in
+  Biomedical Text",2021-10-15 17:38:16+00:00,http://arxiv.org/abs/2110.08228v1,"Maya Varma, Laurel Orr, Sen Wu, Megan Leszczynski, Xiao Ling, Christopher Ré","cs.CL, cs.AI",knowledge,"Named entity disambiguation (NED), which involves mapping textual mentions to
+structured entities, is particularly challenging in the medical domain due to
+the presence of rare entities. Existing approaches are limited by the presence
+of coarse-grained structural resources in biomedical knowledge bases as well as
+the use of training datasets that provide low coverage over uncommon resources.
+In this work, we address these issues by proposing a cross-domain data
+integration method that transfers structural knowledge from a general text
+knowledge base to the medical domain. We utilize our integration scheme to
+augment structural resources and generate a large biomedical NED dataset for
+pretraining. Our pretrained model with injected structural knowledge achieves
+state-of-the-art performance on two benchmark medical NED datasets: MedMentions
+and BC5CDR. Furthermore, we improve disambiguation of rare entities by up to 57
+accuracy points.",2021-10-15
+"Hindsight: Posterior-guided training of retrievers for improved
+  open-ended generation",2021-10-14 22:24:57+00:00,http://arxiv.org/abs/2110.07752v2,"Ashwin Paranjape, Omar Khattab, Christopher Potts, Matei Zaharia, Christopher D. Manning","cs.CL, cs.IR",knowledge,"Many text generation systems benefit from using a retriever to retrieve
+passages from a textual knowledge corpus (e.g., Wikipedia) which are then
+provided as additional context to the generator. For open-ended generation
+tasks (like generating informative utterances in conversations) many varied
+passages may be equally relevant and we find that existing methods that jointly
+train the retriever and generator underperform: the retriever may not find
+relevant passages even amongst the top-10 and hence the generator may not learn
+a preference to ground its generated output in them. We propose using an
+additional guide retriever that is allowed to use the target output and ""in
+hindsight"" retrieve relevant passages during training. We model the guide
+retriever after the posterior distribution Q of passages given the input and
+the target output and train it jointly with the standard retriever and the
+generator by maximizing the evidence lower bound (ELBo) in expectation over Q.
+For informative conversations from the Wizard of Wikipedia dataset, with
+posterior-guided training, the retriever finds passages with higher relevance
+in the top-10 (23% relative improvement), the generator's responses are more
+grounded in the retrieved passage (19% relative improvement) and the end-to-end
+system produces better overall output (6.4% relative improvement).",2021-10-14
+MReD: A Meta-Review Dataset for Controllable Text Generation,2021-10-14 15:48:03+00:00,http://arxiv.org/abs/2110.07474v1,"Chenhui Shen, Liying Cheng, Ran Zhou, Lidong Bing, Yang You, Luo Si",cs.CL,knowledge,"When directly using existing text generation datasets for controllable
+generation, we are facing the problem of not having the domain knowledge and
+thus the aspects that could be controlled are limited.A typical example is when
+using CNN/Daily Mail dataset for controllable text summarization, there is no
+guided information on the emphasis of summary sentences. A more useful text
+generator should leverage both the input text and control variables to guide
+the generation, which can only be built with deep understanding of the domain
+knowledge. Motivated by this vi-sion, our paper introduces a new text
+generation dataset, named MReD. Our new dataset consists of 7,089 meta-reviews
+and all its 45k meta-review sentences are manually annotated as one of the
+carefully defined 9 categories, including abstract, strength, decision, etc. We
+present experimental results on start-of-the-art summarization models, and
+propose methods for controlled generation on both extractive and abstractive
+models using our annotated data. By exploring various settings and analaysing
+the model behavior with respect to the control inputs, we demonstrate the
+challenges and values of our dataset. MReD allows us to have a better
+understanding of the meta-review corpora and enlarge the research room for
+controllable text generation.",2021-10-14
+Solving Aspect Category Sentiment Analysis as a Text Generation Task,2021-10-14 12:25:21+00:00,http://arxiv.org/abs/2110.07310v1,"Jian Liu, Zhiyang Teng, Leyang Cui, Hanmeng Liu, Yue Zhang",cs.CL,knowledge,"Aspect category sentiment analysis has attracted increasing research
+attention. The dominant methods make use of pre-trained language models by
+learning effective aspect category-specific representations, and adding
+specific output layers to its pre-trained representation. We consider a more
+direct way of making use of pre-trained language models, by casting the ACSA
+tasks into natural language generation tasks, using natural language sentences
+to represent the output. Our method allows more direct use of pre-trained
+knowledge in seq2seq language models by directly following the task setting
+during pre-training. Experiments on several benchmarks show that our method
+gives the best reported results, having large advantages in few-shot and
+zero-shot settings.",2021-10-14
+Learning Compact Metrics for MT,2021-10-12 20:39:35+00:00,http://arxiv.org/abs/2110.06341v1,"Amy Pu, Hyung Won Chung, Ankur P. Parikh, Sebastian Gehrmann, Thibault Sellam",cs.CL,knowledge,"Recent developments in machine translation and multilingual text generation
+have led researchers to adopt trained metrics such as COMET or BLEURT, which
+treat evaluation as a regression problem and use representations from
+multilingual pre-trained models such as XLM-RoBERTa or mBERT. Yet studies on
+related tasks suggest that these models are most efficient when they are large,
+which is costly and impractical for evaluation. We investigate the trade-off
+between multilinguality and model capacity with RemBERT, a state-of-the-art
+multilingual language model, using data from the WMT Metrics Shared Task. We
+present a series of experiments which show that model size is indeed a
+bottleneck for cross-lingual transfer, then demonstrate how distillation can
+help addressing this bottleneck, by leveraging synthetic data generation and
+transferring knowledge from one teacher to multiple students trained on related
+languages. Our method yields up to 10.5% improvement over vanilla fine-tuning
+and reaches 92.6% of RemBERT's performance using only a third of its
+parameters.",2021-10-12
+"Global Explainability of BERT-Based Evaluation Metrics by Disentangling
+  along Linguistic Factors",2021-10-08 22:40:33+00:00,http://arxiv.org/abs/2110.04399v1,"Marvin Kaster, Wei Zhao, Steffen Eger",cs.CL,knowledge,"Evaluation metrics are a key ingredient for progress of text generation
+systems. In recent years, several BERT-based evaluation metrics have been
+proposed (including BERTScore, MoverScore, BLEURT, etc.) which correlate much
+better with human assessment of text generation quality than BLEU or ROUGE,
+invented two decades ago. However, little is known what these metrics, which
+are based on black-box language model representations, actually capture (it is
+typically assumed they model semantic similarity). In this work, we \wei{use a
+simple regression based global explainability technique to} disentangle metric
+scores along linguistic factors, including semantics, syntax, morphology, and
+lexical overlap. We show that the different metrics capture all aspects to some
+degree, but that they are all substantially sensitive to lexical overlap, just
+like BLEU and ROUGE. This exposes limitations of these novelly proposed
+metrics, which we also highlight in an adversarial test scenario.",2021-10-08
 Simulated annealing for optimization of graphs and sequences,2021-10-01 01:12:19+00:00,http://arxiv.org/abs/2110.01384v1,"Xianggen Liu, Pengyong Li, Fandong Meng, Hao Zhou, Huasong Zhong, Jie Zhou, Lili Mou, Sen Song","cs.LG, cs.AI",knowledge,"Optimization of discrete structures aims at generating a new structure with
 the better property given an existing one, which is a fundamental problem in
 machine learning. Different from the continuous optimization, the realistic

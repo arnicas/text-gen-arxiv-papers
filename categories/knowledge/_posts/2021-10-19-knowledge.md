@@ -6,10 +6,19 @@ sidebar:
 ---
 
 
-*written on 2021-10-08*
+*written on 2021-10-22*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Permutation invariant graph-to-sequence model for template-free  retrosynthesis and reaction prediction](http://arxiv.org/abs/2110.09681v1) | Zhengkai Tu, Connor W. Coley | cs.LG | 2021-10-19 |
+| [Improving Compositional Generalization with Self-Training for  Data-to-Text Generation](http://arxiv.org/abs/2110.08467v1) | Sanket Vaibhav Mehta, Jinfeng Rao, Yi Tay, Mihir Kale, Ankur Parikh, Hongtao Zhong, Emma Strubell | cs.CL, cs.AI | 2021-10-16 |
+| [Open Domain Question Answering over Virtual Documents: A Unified  Approach for Data and Text](http://arxiv.org/abs/2110.08417v1) | Kaixin Ma, Hao Cheng, Xiaodong Liu, Eric Nyberg, Jianfeng Gao | cs.CL, cs.AI | 2021-10-16 |
+| [Cross-Domain Data Integration for Named Entity Disambiguation in  Biomedical Text](http://arxiv.org/abs/2110.08228v1) | Maya Varma, Laurel Orr, Sen Wu, Megan Leszczynski, Xiao Ling, Christopher Ré | cs.CL, cs.AI | 2021-10-15 |
+| [Hindsight: Posterior-guided training of retrievers for improved  open-ended generation](http://arxiv.org/abs/2110.07752v2) | Ashwin Paranjape, Omar Khattab, Christopher Potts, Matei Zaharia, Christopher D. Manning | cs.CL, cs.IR | 2021-10-14 |
+| [MReD: A Meta-Review Dataset for Controllable Text Generation](http://arxiv.org/abs/2110.07474v1) | Chenhui Shen, Liying Cheng, Ran Zhou, Lidong Bing, Yang You, Luo Si | cs.CL | 2021-10-14 |
+| [Solving Aspect Category Sentiment Analysis as a Text Generation Task](http://arxiv.org/abs/2110.07310v1) | Jian Liu, Zhiyang Teng, Leyang Cui, Hanmeng Liu, Yue Zhang | cs.CL | 2021-10-14 |
+| [Learning Compact Metrics for MT](http://arxiv.org/abs/2110.06341v1) | Amy Pu, Hyung Won Chung, Ankur P. Parikh, Sebastian Gehrmann, Thibault Sellam | cs.CL | 2021-10-12 |
+| [Global Explainability of BERT-Based Evaluation Metrics by Disentangling  along Linguistic Factors](http://arxiv.org/abs/2110.04399v1) | Marvin Kaster, Wei Zhao, Steffen Eger | cs.CL | 2021-10-08 |
 | [Simulated annealing for optimization of graphs and sequences](http://arxiv.org/abs/2110.01384v1) | Xianggen Liu, Pengyong Li, Fandong Meng, Hao Zhou, Huasong Zhong, Jie Zhou, Lili Mou, Sen Song | cs.LG, cs.AI | 2021-10-01 |
 | [Self-conditioning pre-trained language models](http://arxiv.org/abs/2110.02802v1) | Xavier Suau, Luca Zappella, Nicholas Apostoloff | cs.CL | 2021-09-30 |
 | [TURINGBENCH: A Benchmark Environment for Turing Test in the Age of  Neural Text Generation](http://arxiv.org/abs/2109.13296v1) | Adaku Uchendu, Zeyu Ma, Thai Le, Rui Zhang, Dongwon Lee | cs.CL | 2021-09-27 |

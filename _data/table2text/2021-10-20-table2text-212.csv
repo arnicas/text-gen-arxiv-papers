@@ -1,4 +1,252 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"An Open Natural Language Processing Development Framework for EHR-based
+  Clinical Research: A case demonstration using the National COVID Cohort
+  Collaborative (N3C)",2021-10-20 21:09:41+00:00,http://arxiv.org/abs/2110.10780v1,"Sijia Liu, Andrew Wen, Liwei Wang, Huan He, Sunyang Fu, Robert Miller, Andrew Williams, Daniel Harris, Ramakanth Kavuluru, Mei Liu, Noor Abu-el-rub, Rui Zhang, John D. Osborne, Masoud Rouhizadeh, Yongqun He, Emily Pfaff, Christopher G. Chute, Tim Duong, Melissa A. Haendel, Rafael Fuentes, Peter Szolovits, Hua Xu, Hongfang Liu","cs.CL, cs.IR",table2text,"While we pay attention to the latest advances in clinical natural language
+processing (NLP), we can notice some resistance in the clinical and
+translational research community to adopt NLP models due to limited
+transparency, Interpretability and usability. Built upon our previous work, in
+this study, we proposed an open natural language processing development
+framework and evaluated it through the implementation of NLP algorithms for the
+National COVID Cohort Collaborative (N3C). Based on the interests in
+information extraction from COVID-19 related clinical notes, our work includes
+1) an open data annotation process using COVID-19 signs and symptoms as the use
+case, 2) a community-driven ruleset composing platform, and 3) a synthetic text
+data generation workflow to generate texts for information extraction tasks
+without involving human subjects. The generated corpora derived out of the
+texts from multiple intuitions and gold standard annotation are tested on a
+single institution's rule set has the performances in F1 score of 0.876, 0.706
+and 0.694, respectively. The study as a consortium effort of the N3C NLP
+subgroup demonstrates the feasibility of creating a federated NLP algorithm
+development and benchmarking platform to enhance multi-institution clinical NLP
+study.",2021-10-20
+SciXGen: A Scientific Paper Dataset for Context-Aware Text Generation,2021-10-20 20:37:11+00:00,http://arxiv.org/abs/2110.10774v1,"Hong Chen, Hiroya Takamura, Hideki Nakayama",cs.CL,table2text,"Generating texts in scientific papers requires not only capturing the content
+contained within the given input but also frequently acquiring the external
+information called \textit{context}. We push forward the scientific text
+generation by proposing a new task, namely \textbf{context-aware text
+generation} in the scientific domain, aiming at exploiting the contributions of
+context in generated texts. To this end, we present a novel challenging
+large-scale \textbf{Sci}entific Paper Dataset for Conte\textbf{X}t-Aware Text
+\textbf{Gen}eration (SciXGen), consisting of well-annotated 205,304 papers with
+full references to widely-used objects (e.g., tables, figures, algorithms) in a
+paper. We comprehensively benchmark, using state-of-the-arts, the efficacy of
+our newly constructed SciXGen dataset in generating description and paragraph.
+Our dataset and benchmarks will be made publicly available to hopefully
+facilitate the scientific text generation research.",2021-10-20
+Privacy in Open Search: A Review of Challenges and Solutions,2021-10-20 18:38:48+00:00,http://arxiv.org/abs/2110.10720v1,"Samuel Sousa, Roman Kern, Christian Guetl","cs.CR, cs.AI, cs.IR",table2text,"Privacy is of worldwide concern regarding activities and processes that
+include sensitive data. For this reason, many countries and territories have
+been recently approving regulations controlling the extent to which
+organizations may exploit data provided by people. Artificial intelligence
+areas, such as machine learning and natural language processing, have already
+successfully employed privacy-preserving mechanisms in order to safeguard data
+privacy in a vast number of applications. Information retrieval (IR) is
+likewise prone to privacy threats, such as attacks and unintended disclosures
+of documents and search history, which may cripple the security of users and be
+penalized by data protection laws. This work aims at highlighting and
+discussing open challenges for privacy in the recent literature of IR, focusing
+on tasks featuring user-generated text data. Our contribution is threefold:
+firstly, we present an overview of privacy threats to IR tasks; secondly, we
+discuss applicable privacy-preserving mechanisms which may be employed in
+solutions to restrain privacy hazards; finally, we bring insights on the
+tradeoffs between privacy preservation and utility performance for IR tasks.",2021-10-20
+"Permutation invariant graph-to-sequence model for template-free
+  retrosynthesis and reaction prediction",2021-10-19 01:23:15+00:00,http://arxiv.org/abs/2110.09681v1,"Zhengkai Tu, Connor W. Coley",cs.LG,table2text,"Synthesis planning and reaction outcome prediction are two fundamental
+problems in computer-aided organic chemistry for which a variety of data-driven
+approaches have emerged. Natural language approaches that model each problem as
+a SMILES-to-SMILES translation lead to a simple end-to-end formulation, reduce
+the need for data preprocessing, and enable the use of well-optimized machine
+translation model architectures. However, SMILES representations are not an
+efficient representation for capturing information about molecular structures,
+as evidenced by the success of SMILES augmentation to boost empirical
+performance. Here, we describe a novel Graph2SMILES model that combines the
+power of Transformer models for text generation with the permutation invariance
+of molecular graph encoders that mitigates the need for input data
+augmentation. As an end-to-end architecture, Graph2SMILES can be used as a
+drop-in replacement for the Transformer in any task involving
+molecule(s)-to-molecule(s) transformations. In our encoder, an
+attention-augmented directed message passing neural network (D-MPNN) captures
+local chemical environments, and the global attention encoder allows for
+long-range and intermolecular interactions, enhanced by graph-aware positional
+embedding. Graph2SMILES improves the top-1 accuracy of the Transformer
+baselines by $1.7\%$ and $1.9\%$ for reaction outcome prediction on USPTO_480k
+and USPTO_STEREO datasets respectively, and by $9.8\%$ for one-step
+retrosynthesis on the USPTO_50k dataset.",2021-10-19
+"Improving Compositional Generalization with Self-Training for
+  Data-to-Text Generation",2021-10-16 04:26:56+00:00,http://arxiv.org/abs/2110.08467v1,"Sanket Vaibhav Mehta, Jinfeng Rao, Yi Tay, Mihir Kale, Ankur Parikh, Hongtao Zhong, Emma Strubell","cs.CL, cs.AI",table2text,"Data-to-text generation focuses on generating fluent natural language
+responses from structured semantic representations. Such representations are
+compositional, allowing for the combination of atomic meaning schemata in
+various ways to express the rich semantics in natural language. Recently,
+pretrained language models (LMs) have achieved impressive results on
+data-to-text tasks, though it remains unclear the extent to which these LMs
+generalize to new semantic representations. In this work, we systematically
+study the compositional generalization of current state-of-the-art generation
+models in data-to-text tasks. By simulating structural shifts in the
+compositional Weather dataset, we show that T5 models fail to generalize to
+unseen structures. Next, we show that template-based input representations
+greatly improve the model performance and model scale does not trivially solve
+the lack of generalization. To further improve the model's performance, we
+propose an approach based on self-training using finetuned BLEURT for
+pseudo-response selection. Extensive experiments on the few-shot Weather and
+multi-domain SGD datasets demonstrate strong gains of our method.",2021-10-16
+How Well Do You Know Your Audience? Reader-aware Question Generation,2021-10-16 02:10:16+00:00,http://arxiv.org/abs/2110.08445v1,"Ian Stewart, Rada Mihalcea","cs.CL, I.7",table2text,"When writing, a person may need to anticipate questions from their readers,
+but different types of readers may ask very different types of questions. If
+someone is writing for advice about a problem, what question will a domain
+expert ask, and is this different from how a novice might react? In this paper,
+we address the task of reader-aware question generation. We collect a new data
+set of questions and posts from social media, augmented with background
+information about the post readers. Based on predictive analysis and
+descriptive differences, we find that different readers, such as experts and
+novices, consistently ask different types of questions. We next develop several
+text generation models that incorporate different types of reader background,
+including discrete and continuous reader representations based on the readers'
+prior behavior. We demonstrate that reader-aware models can perform on par or
+slightly better than the text-only model in some cases, particularly in cases
+where a post attracts very different questions from readers of different
+groups. Our work has the potential to help writers anticipate the information
+needs of different readers.",2021-10-16
+"Open Domain Question Answering over Virtual Documents: A Unified
+  Approach for Data and Text",2021-10-16 00:11:21+00:00,http://arxiv.org/abs/2110.08417v1,"Kaixin Ma, Hao Cheng, Xiaodong Liu, Eric Nyberg, Jianfeng Gao","cs.CL, cs.AI",table2text,"Due to its potential for a universal interface over both data and text,
+data-to-text generation is becoming increasingly popular recently. However, few
+previous work has focused on its application to downstream tasks, e.g. using
+the converted data for grounding or reasoning. In this work, we aim to bridge
+this gap and use the data-to-text method as a means for encoding structured
+knowledge for knowledge-intensive applications, i.e. open-domain question
+answering (QA). Specifically, we propose a verbalizer-retriever-reader
+framework for open-domain QA over data and text where verbalized tables from
+Wikipedia and triples from Wikidata are used as augmented knowledge sources. We
+show that our Unified Data and Text QA, UDT-QA, can effectively benefit from
+the expanded knowledge index, leading to large gains over text-only baselines.
+Notably, our approach sets the single-model state-of-the-art on Natural
+Questions. Furthermore, our analyses indicate that verbalized knowledge is
+preferred for answer reasoning for both adapted and hot-swap settings.",2021-10-16
+Control Prefixes for Text Generation,2021-10-15 19:32:17+00:00,http://arxiv.org/abs/2110.08329v1,"Jordan Clive, Kris Cao, Marek Rei","cs.CL, cs.AI, cs.LG",table2text,"Prompt learning methods adapt pre-trained language models to downstream
+applications by using a task-specific prompt together with the input. Most of
+the current work on prompt learning in text generation relies on a shared
+dataset-level prompt for all examples in the dataset. We extend this approach
+and propose a dynamic method, Control Prefixes, which allows for the inclusion
+of conditional input-dependent information in each prompt. Control Prefixes is
+at the intersection of prompt learning and controlled generation, empowering
+the model to have finer-grained control during text generation. The method
+incorporates attribute-level learnable representations into different layers of
+a pre-trained transformer, allowing for the generated text to be guided in a
+particular direction. We provide a systematic evaluation of the technique and
+apply it to five datasets from the GEM benchmark for natural language
+generation (NLG). We present state-of-the-art results on several data-to-text
+datasets, including WebNLG.",2021-10-15
+"Cross-Domain Data Integration for Named Entity Disambiguation in
+  Biomedical Text",2021-10-15 17:38:16+00:00,http://arxiv.org/abs/2110.08228v1,"Maya Varma, Laurel Orr, Sen Wu, Megan Leszczynski, Xiao Ling, Christopher Ré","cs.CL, cs.AI",table2text,"Named entity disambiguation (NED), which involves mapping textual mentions to
+structured entities, is particularly challenging in the medical domain due to
+the presence of rare entities. Existing approaches are limited by the presence
+of coarse-grained structural resources in biomedical knowledge bases as well as
+the use of training datasets that provide low coverage over uncommon resources.
+In this work, we address these issues by proposing a cross-domain data
+integration method that transfers structural knowledge from a general text
+knowledge base to the medical domain. We utilize our integration scheme to
+augment structural resources and generate a large biomedical NED dataset for
+pretraining. Our pretrained model with injected structural knowledge achieves
+state-of-the-art performance on two benchmark medical NED datasets: MedMentions
+and BC5CDR. Furthermore, we improve disambiguation of rare entities by up to 57
+accuracy points.",2021-10-15
+MReD: A Meta-Review Dataset for Controllable Text Generation,2021-10-14 15:48:03+00:00,http://arxiv.org/abs/2110.07474v1,"Chenhui Shen, Liying Cheng, Ran Zhou, Lidong Bing, Yang You, Luo Si",cs.CL,table2text,"When directly using existing text generation datasets for controllable
+generation, we are facing the problem of not having the domain knowledge and
+thus the aspects that could be controlled are limited.A typical example is when
+using CNN/Daily Mail dataset for controllable text summarization, there is no
+guided information on the emphasis of summary sentences. A more useful text
+generator should leverage both the input text and control variables to guide
+the generation, which can only be built with deep understanding of the domain
+knowledge. Motivated by this vi-sion, our paper introduces a new text
+generation dataset, named MReD. Our new dataset consists of 7,089 meta-reviews
+and all its 45k meta-review sentences are manually annotated as one of the
+carefully defined 9 categories, including abstract, strength, decision, etc. We
+present experimental results on start-of-the-art summarization models, and
+propose methods for controlled generation on both extractive and abstractive
+models using our annotated data. By exploring various settings and analaysing
+the model behavior with respect to the control inputs, we demonstrate the
+challenges and values of our dataset. MReD allows us to have a better
+understanding of the meta-review corpora and enlarge the research room for
+controllable text generation.",2021-10-14
+"Rethinking Self-Supervision Objectives for Generalizable Coherence
+  Modeling",2021-10-14 07:44:14+00:00,http://arxiv.org/abs/2110.07198v1,"Prathyusha Jwalapuram, Shafiq Joty, Xiang Lin",cs.CL,table2text,"Although large-scale pre-trained neural models have shown impressive
+performances in a variety of tasks, their ability to generate coherent text
+that appropriately models discourse phenomena is harder to evaluate and less
+understood. Given the claims of improved text generation quality across various
+systems, we consider the coherence evaluation of machine generated text to be
+one of the principal applications of coherence models that needs to be
+investigated. We explore training data and self-supervision objectives that
+result in a model that generalizes well across tasks and can be used
+off-the-shelf to perform such evaluations. Prior work in neural coherence
+modeling has primarily focused on devising new architectures, and trained the
+model to distinguish coherent and incoherent text through pairwise
+self-supervision on the permuted documents task. We instead use a basic model
+architecture and show significant improvements over state of the art within the
+same training regime. We then design a harder self-supervision objective by
+increasing the ratio of negative samples within a contrastive learning setup,
+and enhance the model further through automatic hard negative mining coupled
+with a large global negative queue encoded by a momentum encoder. We show
+empirically that increasing the density of negative samples improves the basic
+model, and using a global negative queue further improves and stabilizes the
+model while training with hard negative samples. We evaluate the coherence
+model on task-independent test sets that resemble real-world use cases and show
+significant improvements in coherence evaluations of downstream applications.",2021-10-14
+Federated Natural Language Generation for Personalized Dialogue System,2021-10-13 00:59:52+00:00,http://arxiv.org/abs/2110.06419v1,"Yujie Lu, Chao Huang, Huanli Zhan, Yong Zhuang","cs.CL, cs.AI",table2text,"Neural conversational models have long suffered from the problem of
+inconsistency and lacking coherent personality. To address the issue,
+persona-based models capturing individual characteristics have been proposed,
+but they still face the dilemma of model adaption and data privacy. To break
+this dilemma, we propose a novel Federated Natural Language Generation (FedNLG)
+framework, which learns personalized representations from various dataset on
+distributed devices, and thus implements the personalized dialogue system
+efficiently and safely. FedNLG first pre-trains parameters of standard neural
+conversational model over a large dialogue corpus, and then fine-tune the model
+parameters and persona embeddings on specific datasets, in a federated manner.
+Thus, the model could simultaneously learn the persona embeddings in local
+clients and learn shared model parameters by federated aggregation, which
+achieves accuracyprivacy balance. By conducting extensive experiments, we
+demonstrate the effectiveness of our model by pre-training model over Cornell
+Movie-Dialogs Corpus and fine-tuning the model over two TV series dataset.",2021-10-13
+Learning Compact Metrics for MT,2021-10-12 20:39:35+00:00,http://arxiv.org/abs/2110.06341v1,"Amy Pu, Hyung Won Chung, Ankur P. Parikh, Sebastian Gehrmann, Thibault Sellam",cs.CL,table2text,"Recent developments in machine translation and multilingual text generation
+have led researchers to adopt trained metrics such as COMET or BLEURT, which
+treat evaluation as a regression problem and use representations from
+multilingual pre-trained models such as XLM-RoBERTa or mBERT. Yet studies on
+related tasks suggest that these models are most efficient when they are large,
+which is costly and impractical for evaluation. We investigate the trade-off
+between multilinguality and model capacity with RemBERT, a state-of-the-art
+multilingual language model, using data from the WMT Metrics Shared Task. We
+present a series of experiments which show that model size is indeed a
+bottleneck for cross-lingual transfer, then demonstrate how distillation can
+help addressing this bottleneck, by leveraging synthetic data generation and
+transferring knowledge from one teacher to multiple students trained on related
+languages. Our method yields up to 10.5% improvement over vanilla fine-tuning
+and reaches 92.6% of RemBERT's performance using only a third of its
+parameters.",2021-10-12
+"DiscoDVT: Generating Long Text with Discourse-Aware Discrete Variational
+  Transformer",2021-10-12 13:41:06+00:00,http://arxiv.org/abs/2110.05999v1,"Haozhe Ji, Minlie Huang",cs.CL,table2text,"Despite the recent advances in applying pre-trained language models to
+generate high-quality texts, generating long passages that maintain long-range
+coherence is yet challenging for these models. In this paper, we propose
+DiscoDVT, a discourse-aware discrete variational Transformer to tackle the
+incoherence issue. DiscoDVT learns a discrete variable sequence that summarizes
+the global structure of the text and then applies it to guide the generation
+process at each decoding step. To further embed discourse-aware information
+into the discrete latent representations, we introduce an auxiliary objective
+to model the discourse relations within the text. We conduct extensive
+experiments on two open story generation datasets and demonstrate that the
+latent codes learn meaningful correspondence to the discourse structures that
+guide the model to generate long texts with better long-range coherence.",2021-10-12
+"Yuan 1.0: Large-Scale Pre-trained Language Model in Zero-Shot and
+  Few-Shot Learning",2021-10-10 07:40:22+00:00,http://arxiv.org/abs/2110.04725v2,"Shaohua Wu, Xudong Zhao, Tong Yu, Rongguo Zhang, Chong Shen, Hongli Liu, Feng Li, Hong Zhu, Jiangang Luo, Liang Xu, Xuanwei Zhang","cs.CL, cs.AI",table2text,"Recent work like GPT-3 has demonstrated excellent performance of Zero-Shot
+and Few-Shot learning on many natural language processing (NLP) tasks by
+scaling up model size, dataset size and the amount of computation. However,
+training a model like GPT-3 requires huge amount of computational resources
+which makes it challengeable to researchers. In this work, we propose a method
+that incorporates large-scale distributed training performance into model
+architecture design. With this method, Yuan 1.0, the current largest singleton
+language model with 245B parameters, achieves excellent performance on
+thousands GPUs during training, and the state-of-the-art results on NLP tasks.
+A data processing method is designed to efficiently filter massive amount of
+raw data. The current largest high-quality Chinese corpus with 5TB high quality
+texts is built based on this method. In addition, a calibration and label
+expansion method is proposed to improve the Zero-Shot and Few-Shot performance,
+and steady improvement is observed on the accuracy of various tasks. Yuan 1.0
+presents strong capacity of natural language generation, and the generated
+articles are difficult to distinguish from the human-written ones.",2021-10-10
 Cut the CARP: Fishing for zero-shot story evaluation,2021-10-06 23:50:46+00:00,http://arxiv.org/abs/2110.03111v1,"Shahbuland Matiana, JR Smith, Ryan Teehan, Louis Castricato, Stella Biderman, Leo Gao, Spencer Frazier",cs.CL,table2text,"Recent advances in large-scale language models (Raffel et al., 2019; Brown et
 al., 2020) have brought significant qualitative and quantitative improvements
 in machine-driven text generation. Despite this, generation and evaluation of
