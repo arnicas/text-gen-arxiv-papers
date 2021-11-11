@@ -6,10 +6,12 @@ sidebar:
 ---
 
 
-*written on 2021-10-22*
+*written on 2021-11-11*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Explaining Face Presentation Attack Detection Using Natural Language](http://arxiv.org/abs/2111.04862v1) | Hengameh Mirzaalian, Mohamed E. Hussein, Leonidas Spinoulas, Jonathan May, Wael Abd-Almageed | cs.CV, cs.AI, cs.CL, cs.CR | 2021-11-08 |
+| [Generating Watermarked Adversarial Texts](http://arxiv.org/abs/2110.12948v1) | Mingjie Li, Hanzhou Wu, Xinpeng Zhang | cs.CR, cs.CL | 2021-10-25 |
 | [Permutation invariant graph-to-sequence model for template-free  retrosynthesis and reaction prediction](http://arxiv.org/abs/2110.09681v1) | Zhengkai Tu, Connor W. Coley | cs.LG | 2021-10-19 |
 | [Improving Compositional Generalization with Self-Training for  Data-to-Text Generation](http://arxiv.org/abs/2110.08467v1) | Sanket Vaibhav Mehta, Jinfeng Rao, Yi Tay, Mihir Kale, Ankur Parikh, Hongtao Zhong, Emma Strubell | cs.CL, cs.AI | 2021-10-16 |
 | [Open Domain Question Answering over Virtual Documents: A Unified  Approach for Data and Text](http://arxiv.org/abs/2110.08417v1) | Kaixin Ma, Hao Cheng, Xiaodong Liu, Eric Nyberg, Jianfeng Gao | cs.CL, cs.AI | 2021-10-16 |

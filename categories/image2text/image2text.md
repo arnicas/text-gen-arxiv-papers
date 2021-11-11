@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2021-10-22*
+*written on 2021-11-11*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Explaining Face Presentation Attack Detection Using Natural Language](http://arxiv.org/abs/2111.04862v1) | Hengameh Mirzaalian, Mohamed E. Hussein, Leonidas Spinoulas, Jonathan May, Wael Abd-Almageed | cs.CV, cs.AI, cs.CL, cs.CR | 2021-11-08 |
+| [Machine-in-the-Loop Rewriting for Creative Image Captioning](http://arxiv.org/abs/2111.04193v1) | Vishakh Padmakumar, He He | cs.CL | 2021-11-07 |
+| [Exploiting Cross-Modal Prediction and Relation Consistency for  Semi-Supervised Image Captioning](http://arxiv.org/abs/2110.11767v2) | Yang Yang, Hongchen Wei, Hengshu Zhu, Dianhai Yu, Hui Xiong, Jian Yang | cs.CV, cs.AI | 2021-10-22 |
+| [SciCap: Generating Captions for Scientific Figures](http://arxiv.org/abs/2110.11624v2) | Ting-Yao Hsu, C. Lee Giles, Ting-Hao 'Kenneth' Huang | cs.CL, cs.AI, cs.CV | 2021-10-22 |
 | [SciXGen: A Scientific Paper Dataset for Context-Aware Text Generation](http://arxiv.org/abs/2110.10774v1) | Hong Chen, Hiroya Takamura, Hideki Nakayama | cs.CL | 2021-10-20 |
 | [A Picture is Worth a Thousand Words: A Unified System for Diverse  Captions and Rich Images Generation](http://arxiv.org/abs/2110.09756v1) | Yupan Huang, Bei Liu, Jianlong Fu, Yutong Lu | cs.CV, cs.CL, cs.MM | 2021-10-19 |
 | [Unifying Multimodal Transformer for Bi-directional Image and Text  Generation](http://arxiv.org/abs/2110.09753v1) | Yupan Huang, Hongwei Xue, Bei Liu, Yutong Lu | cs.CV, cs.CL, cs.MM | 2021-10-19 |

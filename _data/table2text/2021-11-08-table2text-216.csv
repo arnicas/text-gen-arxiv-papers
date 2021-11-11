@@ -1,4 +1,63 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Explaining Face Presentation Attack Detection Using Natural Language,2021-11-08 22:55:55+00:00,http://arxiv.org/abs/2111.04862v1,"Hengameh Mirzaalian, Mohamed E. Hussein, Leonidas Spinoulas, Jonathan May, Wael Abd-Almageed","cs.CV, cs.AI, cs.CL, cs.CR",table2text,"A large number of deep neural network based techniques have been developed to
+address the challenging problem of face presentation attack detection (PAD).
+Whereas such techniques' focus has been on improving PAD performance in terms
+of classification accuracy and robustness against unseen attacks and
+environmental conditions, there exists little attention on the explainability
+of PAD predictions. In this paper, we tackle the problem of explaining PAD
+predictions through natural language. Our approach passes feature
+representations of a deep layer of the PAD model to a language model to
+generate text describing the reasoning behind the PAD prediction. Due to the
+limited amount of annotated data in our study, we apply a light-weight LSTM
+network as our natural language generation model. We investigate how the
+quality of the generated explanations is affected by different loss functions,
+including the commonly used word-wise cross entropy loss, a sentence
+discriminative loss, and a sentence semantic loss. We perform our experiments
+using face images from a dataset consisting of 1,105 bona-fide and 924
+presentation attack samples. Our quantitative and qualitative results show the
+effectiveness of our model for generating proper PAD explanations through text
+as well as the power of the sentence-wise losses. To the best of our knowledge,
+this is the first introduction of a joint biometrics-NLP task. Our dataset can
+be obtained through our GitHub page.",2021-11-08
+Unsupervised and Distributional Detection of Machine-Generated Text,2021-11-04 14:07:46+00:00,http://arxiv.org/abs/2111.02878v1,"Matthias Gallé, Jos Rozen, Germán Kruszewski, Hady Elsahar","cs.CL, cs.IR",table2text,"The power of natural language generation models has provoked a flurry of
+interest in automatic methods to detect if a piece of text is human or
+machine-authored. The problem so far has been framed in a standard supervised
+way and consists in training a classifier on annotated data to predict the
+origin of one given new document. In this paper, we frame the problem in an
+unsupervised and distributional way: we assume that we have access to a large
+collection of unannotated documents, a big fraction of which is
+machine-generated. We propose a method to detect those machine-generated
+documents leveraging repeated higher-order n-grams, which we show over-appear
+in machine-generated text as compared to human ones. That weak signal is the
+starting point of a self-training setting where pseudo-labelled documents are
+used to train an ensemble of classifiers. Our experiments show that leveraging
+that signal allows us to rank suspicious documents accurately. Precision at
+5000 is over 90% for top-k sampling strategies, and over 80% for nucleus
+sampling for the largest model we used (GPT2-large). The drop with increased
+size of model is small, which could indicate that the results hold for other
+current and future large language models.",2021-11-04
+"Recent Advances in Natural Language Processing via Large Pre-Trained
+  Language Models: A Survey",2021-11-01 20:08:05+00:00,http://arxiv.org/abs/2111.01243v1,"Bonan Min, Hayley Ross, Elior Sulem, Amir Pouran Ben Veyseh, Thien Huu Nguyen, Oscar Sainz, Eneko Agirre, Ilana Heinz, Dan Roth","cs.CL, cs.AI, cs.LG",table2text,"Large, pre-trained transformer-based language models such as BERT have
+drastically changed the Natural Language Processing (NLP) field. We present a
+survey of recent work that uses these large language models to solve NLP tasks
+via pre-training then fine-tuning, prompting, or text generation approaches. We
+also present approaches that use pre-trained language models to generate data
+for training augmentation or other purposes. We conclude with discussions on
+limitations and suggested directions for future research.",2021-11-01
+"Generating artificial texts as substitution or complement of training
+  data",2021-10-25 14:53:42+00:00,http://arxiv.org/abs/2110.13016v1,"Vincent Claveau, Antoine Chaffin, Ewa Kijak","cs.CL, cs.IR",table2text,"The quality of artificially generated texts has considerably improved with
+the advent of transformers. The question of using these models to generate
+learning data for supervised learning tasks naturally arises. In this article,
+this question is explored under 3 aspects: (i) are artificial data an efficient
+complement? (ii) can they replace the original data when those are not
+available or cannot be distributed for confidentiality reasons? (iii) can they
+improve the explainability of classifiers? Different experiments are carried
+out on Web-related classification tasks -- namely sentiment analysis on product
+reviews and Fake News detection -- using artificially generated data by
+fine-tuned GPT-2 models. The results show that such artificial data can be used
+in a certain extend but require pre-processing to significantly improve
+performance. We show that bag-of-word approaches benefit the most from such
+data augmentation.",2021-10-25
 "An Open Natural Language Processing Development Framework for EHR-based
   Clinical Research: A case demonstration using the National COVID Cohort
   Collaborative (N3C)",2021-10-20 21:09:41+00:00,http://arxiv.org/abs/2110.10780v1,"Sijia Liu, Andrew Wen, Liwei Wang, Huan He, Sunyang Fu, Robert Miller, Andrew Williams, Daniel Harris, Ramakanth Kavuluru, Mei Liu, Noor Abu-el-rub, Rui Zhang, John D. Osborne, Masoud Rouhizadeh, Yongqun He, Emily Pfaff, Christopher G. Chute, Tim Duong, Melissa A. Haendel, Rafael Fuentes, Peter Szolovits, Hua Xu, Hongfang Liu","cs.CL, cs.IR",table2text,"While we pay attention to the latest advances in clinical natural language

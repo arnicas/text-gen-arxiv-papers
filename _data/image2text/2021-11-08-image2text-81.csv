@@ -1,4 +1,75 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Explaining Face Presentation Attack Detection Using Natural Language,2021-11-08 22:55:55+00:00,http://arxiv.org/abs/2111.04862v1,"Hengameh Mirzaalian, Mohamed E. Hussein, Leonidas Spinoulas, Jonathan May, Wael Abd-Almageed","cs.CV, cs.AI, cs.CL, cs.CR",image2text,"A large number of deep neural network based techniques have been developed to
+address the challenging problem of face presentation attack detection (PAD).
+Whereas such techniques' focus has been on improving PAD performance in terms
+of classification accuracy and robustness against unseen attacks and
+environmental conditions, there exists little attention on the explainability
+of PAD predictions. In this paper, we tackle the problem of explaining PAD
+predictions through natural language. Our approach passes feature
+representations of a deep layer of the PAD model to a language model to
+generate text describing the reasoning behind the PAD prediction. Due to the
+limited amount of annotated data in our study, we apply a light-weight LSTM
+network as our natural language generation model. We investigate how the
+quality of the generated explanations is affected by different loss functions,
+including the commonly used word-wise cross entropy loss, a sentence
+discriminative loss, and a sentence semantic loss. We perform our experiments
+using face images from a dataset consisting of 1,105 bona-fide and 924
+presentation attack samples. Our quantitative and qualitative results show the
+effectiveness of our model for generating proper PAD explanations through text
+as well as the power of the sentence-wise losses. To the best of our knowledge,
+this is the first introduction of a joint biometrics-NLP task. Our dataset can
+be obtained through our GitHub page.",2021-11-08
+Machine-in-the-Loop Rewriting for Creative Image Captioning,2021-11-07 22:17:41+00:00,http://arxiv.org/abs/2111.04193v1,"Vishakh Padmakumar, He He",cs.CL,image2text,"Machine-in-the-loop writing aims to enable humans to collaborate with models
+to complete their writing tasks more effectively. Prior work has found that
+providing humans a machine-written draft or sentence-level continuations has
+limited success since the generated text tends to deviate from humans'
+intention. To allow the user to retain control over the content, we train a
+rewriting model that, when prompted, modifies specified spans of text within
+the user's original draft to introduce descriptive and figurative elements
+locally in the text. We evaluate the model on its ability to collaborate with
+humans on the task of creative image captioning. On a user study through Amazon
+Mechanical Turk, our model is rated to be more helpful than a baseline
+infilling language model. In addition, third-party evaluation shows that users
+write more descriptive and figurative captions when collaborating with our
+model compared to completing the task alone.",2021-11-07
+"Exploiting Cross-Modal Prediction and Relation Consistency for
+  Semi-Supervised Image Captioning",2021-10-22 13:14:32+00:00,http://arxiv.org/abs/2110.11767v2,"Yang Yang, Hongchen Wei, Hengshu Zhu, Dianhai Yu, Hui Xiong, Jian Yang","cs.CV, cs.AI",image2text,"The task of image captioning aims to generate captions directly from images
+via the automatically learned cross-modal generator. To build a well-performing
+generator, existing approaches usually need a large number of described images,
+which requires a huge effects on manual labeling. However, in real-world
+applications, a more general scenario is that we only have limited amount of
+described images and a large number of undescribed images. Therefore, a
+resulting challenge is how to effectively combine the undescribed images into
+the learning of cross-modal generator. To solve this problem, we propose a
+novel image captioning method by exploiting the Cross-modal Prediction and
+Relation Consistency (CPRC), which aims to utilize the raw image input to
+constrain the generated sentence in the commonly semantic space. In detail,
+considering that the heterogeneous gap between modalities always leads to the
+supervision difficulty of using the global embedding directly, CPRC turns to
+transform both the raw image and corresponding generated sentence into the
+shared semantic space, and measure the generated sentence from two aspects: 1)
+Prediction consistency. CPRC utilizes the prediction of raw image as soft label
+to distill useful supervision for the generated sentence, rather than employing
+the traditional pseudo labeling; 2) Relation consistency. CPRC develops a novel
+relation consistency between augmented images and corresponding generated
+sentences to retain the important relational knowledge. In result, CPRC
+supervises the generated sentence from both the informativeness and
+representativeness perspectives, and can reasonably use the undescribed images
+to learn a more effective generator under the semi-supervised scenario.",2021-10-22
+SciCap: Generating Captions for Scientific Figures,2021-10-22 07:10:41+00:00,http://arxiv.org/abs/2110.11624v2,"Ting-Yao Hsu, C. Lee Giles, Ting-Hao 'Kenneth' Huang","cs.CL, cs.AI, cs.CV",image2text,"Researchers use figures to communicate rich, complex information in
+scientific papers. The captions of these figures are critical to conveying
+effective messages. However, low-quality figure captions commonly occur in
+scientific articles and may decrease understanding. In this paper, we propose
+an end-to-end neural framework to automatically generate informative,
+high-quality captions for scientific figures. To this end, we introduce SCICAP,
+a large-scale figure-caption dataset based on computer science arXiv papers
+published between 2010 and 2020. After pre-processing - including figure-type
+classification, sub-figure identification, text normalization, and caption text
+selection - SCICAP contained more than two million figures extracted from over
+290,000 papers. We then established baseline models that caption graph plots,
+the dominant (19.2%) figure type. The experimental results showed both
+opportunities and steep challenges of generating captions for scientific
+figures.",2021-10-22
 SciXGen: A Scientific Paper Dataset for Context-Aware Text Generation,2021-10-20 20:37:11+00:00,http://arxiv.org/abs/2110.10774v1,"Hong Chen, Hiroya Takamura, Hideki Nakayama",cs.CL,image2text,"Generating texts in scientific papers requires not only capturing the content
 contained within the given input but also frequently acquiring the external
 information called \textit{context}. We push forward the scientific text

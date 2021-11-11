@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2021-10-22*
+*written on 2021-11-11*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Explaining Face Presentation Attack Detection Using Natural Language](http://arxiv.org/abs/2111.04862v1) | Hengameh Mirzaalian, Mohamed E. Hussein, Leonidas Spinoulas, Jonathan May, Wael Abd-Almageed | cs.CV, cs.AI, cs.CL, cs.CR | 2021-11-08 |
+| [Unsupervised and Distributional Detection of Machine-Generated Text](http://arxiv.org/abs/2111.02878v1) | Matthias Gallé, Jos Rozen, Germán Kruszewski, Hady Elsahar | cs.CL, cs.IR | 2021-11-04 |
+| [Recent Advances in Natural Language Processing via Large Pre-Trained  Language Models: A Survey](http://arxiv.org/abs/2111.01243v1) | Bonan Min, Hayley Ross, Elior Sulem, Amir Pouran Ben Veyseh, Thien Huu Nguyen, Oscar Sainz, Eneko Agirre, Ilana Heinz, Dan Roth | cs.CL, cs.AI, cs.LG | 2021-11-01 |
+| [Generating artificial texts as substitution or complement of training  data](http://arxiv.org/abs/2110.13016v1) | Vincent Claveau, Antoine Chaffin, Ewa Kijak | cs.CL, cs.IR | 2021-10-25 |
 | [An Open Natural Language Processing Development Framework for EHR-based  Clinical Research: A case demonstration using the National COVID Cohort  Collaborative (N3C)](http://arxiv.org/abs/2110.10780v1) | Sijia Liu, Andrew Wen, Liwei Wang, Huan He, Sunyang Fu, Robert Miller, Andrew Williams, Daniel Harris, Ramakanth Kavuluru, Mei Liu, Noor Abu-el-rub, Rui Zhang, John D. Osborne, Masoud Rouhizadeh, Yongqun He, Emily Pfaff, Christopher G. Chute, Tim Duong, Melissa A. Haendel, Rafael Fuentes, Peter Szolovits, Hua Xu, Hongfang Liu | cs.CL, cs.IR | 2021-10-20 |
 | [SciXGen: A Scientific Paper Dataset for Context-Aware Text Generation](http://arxiv.org/abs/2110.10774v1) | Hong Chen, Hiroya Takamura, Hideki Nakayama | cs.CL | 2021-10-20 |
 | [Privacy in Open Search: A Review of Challenges and Solutions](http://arxiv.org/abs/2110.10720v1) | Samuel Sousa, Roman Kern, Christian Guetl | cs.CR, cs.AI, cs.IR | 2021-10-20 |

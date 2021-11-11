@@ -1,4 +1,39 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+A Review of Dialogue Systems: From Trained Monkeys to Stochastic Parrots,2021-11-02 08:07:55+00:00,http://arxiv.org/abs/2111.01414v1,"Atharv Singh Patlan, Shiven Tripathi, Shubham Korde","cs.CL, cs.AI",dialogue,"In spoken dialogue systems, we aim to deploy artificial intelligence to build
+automated dialogue agents that can converse with humans. Dialogue systems are
+increasingly being designed to move beyond just imitating conversation and also
+improve from such interactions over time. In this survey, we present a broad
+overview of methods developed to build dialogue systems over the years.
+Different use cases for dialogue systems ranging from task-based systems to
+open domain chatbots motivate and necessitate specific systems. Starting from
+simple rule-based systems, research has progressed towards increasingly complex
+architectures trained on a massive corpus of datasets, like deep learning
+systems. Motivated with the intuition of resembling human dialogues, progress
+has been made towards incorporating emotions into the natural language
+generator, using reinforcement learning. While we see a trend of highly
+marginal improvement on some metrics, we find that limited justification exists
+for the metrics, and evaluation practices are not uniform. To conclude, we flag
+these concerns and highlight possible research directions.",2021-11-02
+"Dynamic population-based meta-learning for multi-agent communication
+  with natural language",2021-10-27 07:50:02+00:00,http://arxiv.org/abs/2110.14241v1,"Abhinav Gupta, Marc Lanctot, Angeliki Lazaridou","cs.LG, cs.AI, cs.CL, cs.MA",dialogue,"In this work, our goal is to train agents that can coordinate with seen,
+unseen as well as human partners in a multi-agent communication environment
+involving natural language. Previous work using a single set of agents has
+shown great progress in generalizing to known partners, however it struggles
+when coordinating with unfamiliar agents. To mitigate that, recent work
+explored the use of population-based approaches, where multiple agents interact
+with each other with the goal of learning more generic protocols. These
+methods, while able to result in good coordination between unseen partners,
+still only achieve so in cases of simple languages, thus failing to adapt to
+human partners using natural language. We attribute this to the use of static
+populations and instead propose a dynamic population-based meta-learning
+approach that builds such a population in an iterative manner. We perform a
+holistic evaluation of our method on two different referential games, and show
+that our agents outperform all prior work when communicating with seen partners
+and humans. Furthermore, we analyze the natural language generation skills of
+our agents, where we find that our agents also outperform strong baselines.
+Finally, we test the robustness of our agents when communicating with
+out-of-population agents and carefully test the importance of each component of
+our method through ablation studies.",2021-10-27
 "FrugalScore: Learning Cheaper, Lighter and Faster Evaluation Metricsfor
   Automatic Text Generation",2021-10-16 11:59:48+00:00,http://arxiv.org/abs/2110.08559v1,"Moussa Kamal Eddine, Guokan Shang, Antoine J. -P. Tixier, Michalis Vazirgiannis",cs.CL,dialogue,"Fast and reliable evaluation metrics are key to R&D progress. While
 traditional natural language generation metrics are fast, they are not very

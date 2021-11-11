@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2021-10-22*
+*written on 2021-11-11*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [A Review of Dialogue Systems: From Trained Monkeys to Stochastic Parrots](http://arxiv.org/abs/2111.01414v1) | Atharv Singh Patlan, Shiven Tripathi, Shubham Korde | cs.CL, cs.AI | 2021-11-02 |
+| [Dynamic population-based meta-learning for multi-agent communication  with natural language](http://arxiv.org/abs/2110.14241v1) | Abhinav Gupta, Marc Lanctot, Angeliki Lazaridou | cs.LG, cs.AI, cs.CL, cs.MA | 2021-10-27 |
 | [FrugalScore: Learning Cheaper, Lighter and Faster Evaluation Metricsfor  Automatic Text Generation](http://arxiv.org/abs/2110.08559v1) | Moussa Kamal Eddine, Guokan Shang, Antoine J. -P. Tixier, Michalis Vazirgiannis | cs.CL | 2021-10-16 |
 | [Hindsight: Posterior-guided training of retrievers for improved  open-ended generation](http://arxiv.org/abs/2110.07752v2) | Ashwin Paranjape, Omar Khattab, Christopher Potts, Matei Zaharia, Christopher D. Manning | cs.CL, cs.IR | 2021-10-14 |
 | [Federated Natural Language Generation for Personalized Dialogue System](http://arxiv.org/abs/2110.06419v1) | Yujie Lu, Chao Huang, Huanli Zhan, Yong Zhuang | cs.CL, cs.AI | 2021-10-13 |

@@ -1,4 +1,26 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+SP-GPT2: Semantics Improvement in Vietnamese Poetry Generation,2021-10-10 14:31:08+00:00,http://arxiv.org/abs/2110.15723v1,"Tuan Nguyen, Hanh Pham, Truong Bui, Tan Nguyen, Duc Luong, Phong Nguyen","cs.CL, cs.AI, cs.LG",poetry,"Automatic text generation has garnered growing attention in recent years as
+an essential step towards computer creativity. Generative Pretraining
+Transformer 2 (GPT2) is one of the state of the art approaches that have
+excellent successes. In this paper, we took the first step to investigate the
+power of GPT2 in traditional Vietnamese poetry generation. In the earlier time,
+our experiment with base GPT2 was quite good at generating the poem in the
+proper template. Though it can learn the patterns, including rhyme and tone
+rules, from the training data, like almost all other text generation
+approaches, the poems generated still has a topic drift and semantic
+inconsistency. To improve the cohesion within the poems, we proposed a new
+model SP-GPT2 (semantic poem GPT2) which was built on the top GPT2 model and an
+additional loss to constrain context throughout the entire poem. For better
+evaluation, we examined the methods by both automatic quantitative evaluation
+and human evaluation. Both automatic and human evaluation demonstrated that our
+approach can generate poems that have better cohesion without losing the
+quality due to additional loss. At the same time, we are the pioneers of this
+topic. We released the first computational scoring module for poems generated
+in the template containing the style rule dictionary. Additionally, we are the
+first to publish a Luc-Bat dataset, including 87609 Luc Bat poems, which is
+equivalent to about 2.6 million sentences, combined with about 83579 poems in
+other styles was also published for further exploration. The code is available
+at https://github.com/fsoft-ailab/Poem-Generator",2021-10-10
 "The Perils of Using Mechanical Turk to Evaluate Open-Ended Text
   Generation",2021-09-14 17:20:30+00:00,http://arxiv.org/abs/2109.06835v1,"Marzena Karpinska, Nader Akoury, Mohit Iyyer",cs.CL,poetry,"Recent text generation research has increasingly focused on open-ended
 domains such as story and poetry generation. Because models built for such
