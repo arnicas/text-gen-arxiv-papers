@@ -6,10 +6,14 @@ sidebar:
 ---
 
 
-*written on 2021-11-11*
+*written on 2021-11-26*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [RDF-to-Text Generation with Reinforcement Learning Based Graph-augmented  Structural Neural Encoders](http://arxiv.org/abs/2111.10545v1) | Hanning Gao, Lingfei Wu, Po Hu, Zhihua Wei, Fangli Xu, Bo Long | cs.CL, cs.AI | 2021-11-20 |
+| [How much do language models copy from their training data? Evaluating  linguistic novelty in text generation using RAVEN](http://arxiv.org/abs/2111.09509v1) | R. Thomas McCoy, Paul Smolensky, Tal Linzen, Jianfeng Gao, Asli Celikyilmaz | cs.CL | 2021-11-18 |
+| [MEDCOD: A Medically-Accurate, Emotive, Diverse, and Controllable Dialog  System](http://arxiv.org/abs/2111.09381v1) | Rhys Compton, Ilya Valmianski, Li Deng, Costa Huang, Namit Katariya, Xavier Amatriain, Anitha Kannan | cs.CL, cs.AI, cs.LG | 2021-11-17 |
+| [A Novel Corpus of Discourse Structure in Humans and Computers](http://arxiv.org/abs/2111.05940v1) | Babak Hemmatian, Sheridan Feucht, Rachel Avram, Alexander Wey, Muskaan Garg, Kate Spitalnic, Carsten Eickhoff, Ellie Pavlick, Bjorn Sandstede, Steven Sloman | cs.CL | 2021-11-10 |
 | [Explaining Face Presentation Attack Detection Using Natural Language](http://arxiv.org/abs/2111.04862v1) | Hengameh Mirzaalian, Mohamed E. Hussein, Leonidas Spinoulas, Jonathan May, Wael Abd-Almageed | cs.CV, cs.AI, cs.CL, cs.CR | 2021-11-08 |
 | [Generating Watermarked Adversarial Texts](http://arxiv.org/abs/2110.12948v1) | Mingjie Li, Hanzhou Wu, Xinpeng Zhang | cs.CR, cs.CL | 2021-10-25 |
 | [Permutation invariant graph-to-sequence model for template-free  retrosynthesis and reaction prediction](http://arxiv.org/abs/2110.09681v1) | Zhengkai Tu, Connor W. Coley | cs.LG | 2021-10-19 |

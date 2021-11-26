@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2021-11-11*
+*written on 2021-11-26*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Realistic simulation of users for IT systems in cyber ranges](http://arxiv.org/abs/2111.11785v1) | Alexandre Dey, Benjamin Costé, Éric Totel, Adrien Bécue | cs.AI, cs.CR | 2021-11-23 |
+| [MEDCOD: A Medically-Accurate, Emotive, Diverse, and Controllable Dialog  System](http://arxiv.org/abs/2111.09381v1) | Rhys Compton, Ilya Valmianski, Li Deng, Costa Huang, Namit Katariya, Xavier Amatriain, Anitha Kannan | cs.CL, cs.AI, cs.LG | 2021-11-17 |
 | [A Review of Dialogue Systems: From Trained Monkeys to Stochastic Parrots](http://arxiv.org/abs/2111.01414v1) | Atharv Singh Patlan, Shiven Tripathi, Shubham Korde | cs.CL, cs.AI | 2021-11-02 |
 | [Dynamic population-based meta-learning for multi-agent communication  with natural language](http://arxiv.org/abs/2110.14241v1) | Abhinav Gupta, Marc Lanctot, Angeliki Lazaridou | cs.LG, cs.AI, cs.CL, cs.MA | 2021-10-27 |
 | [FrugalScore: Learning Cheaper, Lighter and Faster Evaluation Metricsfor  Automatic Text Generation](http://arxiv.org/abs/2110.08559v1) | Moussa Kamal Eddine, Guokan Shang, Antoine J. -P. Tixier, Michalis Vazirgiannis | cs.CL | 2021-10-16 |

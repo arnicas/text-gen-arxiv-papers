@@ -1,4 +1,28 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Realistic simulation of users for IT systems in cyber ranges,2021-11-23 10:53:29+00:00,http://arxiv.org/abs/2111.11785v1,"Alexandre Dey, Benjamin Costé, Éric Totel, Adrien Bécue","cs.AI, cs.CR",dialogue,"Generating user activity is a key capability for both evaluating security
+monitoring tools as well as improving the credibility of attacker analysis
+platforms (e.g., honeynets). In this paper, to generate this activity, we
+instrument each machine by means of an external agent. This agent combines both
+deterministic and deep learning based methods to adapt to different environment
+(e.g., multiple OS, software versions, etc.), while maintaining high
+performances. We also propose conditional text generation models to facilitate
+the creation of conversations and documents to accelerate the definition of
+coherent, system-wide, life scenarios.",2021-11-23
+"MEDCOD: A Medically-Accurate, Emotive, Diverse, and Controllable Dialog
+  System",2021-11-17 20:31:16+00:00,http://arxiv.org/abs/2111.09381v1,"Rhys Compton, Ilya Valmianski, Li Deng, Costa Huang, Namit Katariya, Xavier Amatriain, Anitha Kannan","cs.CL, cs.AI, cs.LG",dialogue,"We present MEDCOD, a Medically-Accurate, Emotive, Diverse, and Controllable
+Dialog system with a unique approach to the natural language generator module.
+MEDCOD has been developed and evaluated specifically for the history taking
+task. It integrates the advantage of a traditional modular approach to
+incorporate (medical) domain knowledge with modern deep learning techniques to
+generate flexible, human-like natural language expressions. Two key aspects of
+MEDCOD's natural language output are described in detail. First, the generated
+sentences are emotive and empathetic, similar to how a doctor would communicate
+to the patient. Second, the generated sentence structures and phrasings are
+varied and diverse while maintaining medical consistency with the desired
+medical concept (provided by the dialogue manager module of MEDCOD).
+Experimental results demonstrate the effectiveness of our approach in creating
+a human-like medical dialogue system. Relevant code is available at
+https://github.com/curai/curai-research/tree/main/MEDCOD",2021-11-17
 A Review of Dialogue Systems: From Trained Monkeys to Stochastic Parrots,2021-11-02 08:07:55+00:00,http://arxiv.org/abs/2111.01414v1,"Atharv Singh Patlan, Shiven Tripathi, Shubham Korde","cs.CL, cs.AI",dialogue,"In spoken dialogue systems, we aim to deploy artificial intelligence to build
 automated dialogue agents that can converse with humans. Dialogue systems are
 increasingly being designed to move beyond just imitating conversation and also

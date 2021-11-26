@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2021-10-22*
+*written on 2021-11-26*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Exploring Story Generation with Multi-task Objectives in Variational  Autoencoders](http://arxiv.org/abs/2111.08133v1) | Zhuohan Xie, Trevor Cohn, Jey Han Lau | cs.CL, cs.LG | 2021-11-15 |
+| [A Novel Corpus of Discourse Structure in Humans and Computers](http://arxiv.org/abs/2111.05940v1) | Babak Hemmatian, Sheridan Feucht, Rachel Avram, Alexander Wey, Muskaan Garg, Kate Spitalnic, Carsten Eickhoff, Ellie Pavlick, Bjorn Sandstede, Steven Sloman | cs.CL | 2021-11-10 |
 | [DiscoDVT: Generating Long Text with Discourse-Aware Discrete Variational  Transformer](http://arxiv.org/abs/2110.05999v1) | Haozhe Ji, Minlie Huang | cs.CL | 2021-10-12 |
 | [A guided journey through non-interactive automatic story generation](http://arxiv.org/abs/2110.11167v1) | Luis Miguel Botelho | cs.CL, cs.AI | 2021-10-08 |
 | [Cut the CARP: Fishing for zero-shot story evaluation](http://arxiv.org/abs/2110.03111v1) | Shahbuland Matiana, JR Smith, Ryan Teehan, Louis Castricato, Stella Biderman, Leo Gao, Spencer Frazier | cs.CL | 2021-10-06 |

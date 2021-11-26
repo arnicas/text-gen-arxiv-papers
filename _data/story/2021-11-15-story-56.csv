@@ -1,4 +1,26 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Exploring Story Generation with Multi-task Objectives in Variational
+  Autoencoders",2021-11-15 23:07:19+00:00,http://arxiv.org/abs/2111.08133v1,"Zhuohan Xie, Trevor Cohn, Jey Han Lau","cs.CL, cs.LG",story,"GPT-2 has been frequently adapted in story generation models as it provides
+powerful generative capability. However, it still fails to generate consistent
+stories and lacks diversity. Current story generation models leverage
+additional information such as plots or commonsense into GPT-2 to guide the
+generation process. These approaches focus on improving generation quality of
+stories while our work look at both quality and diversity. We explore combining
+BERT and GPT-2 to build a variational autoencoder (VAE), and extend it by
+adding additional objectives to learn global features such as story topic and
+discourse relations. Our evaluations show our enhanced VAE can provide better
+quality and diversity trade off, generate less repetitive story content and
+learn a more informative latent variable.",2021-11-15
+A Novel Corpus of Discourse Structure in Humans and Computers,2021-11-10 20:56:08+00:00,http://arxiv.org/abs/2111.05940v1,"Babak Hemmatian, Sheridan Feucht, Rachel Avram, Alexander Wey, Muskaan Garg, Kate Spitalnic, Carsten Eickhoff, Ellie Pavlick, Bjorn Sandstede, Steven Sloman",cs.CL,story,"We present a novel corpus of 445 human- and computer-generated documents,
+comprising about 27,000 clauses, annotated for semantic clause types and
+coherence relations that allow for nuanced comparison of artificial and natural
+discourse modes. The corpus covers both formal and informal discourse, and
+contains documents generated using fine-tuned GPT-2 (Zellers et al., 2019) and
+GPT-3(Brown et al., 2020). We showcase the usefulness of this corpus for
+detailed discourse analysis of text generation by providing preliminary
+evidence that less numerous, shorter and more often incoherent clause relations
+are associated with lower perceived quality of computer-generated narratives
+and arguments.",2021-11-10
 "DiscoDVT: Generating Long Text with Discourse-Aware Discrete Variational
   Transformer",2021-10-12 13:41:06+00:00,http://arxiv.org/abs/2110.05999v1,"Haozhe Ji, Minlie Huang",cs.CL,story,"Despite the recent advances in applying pre-trained language models to
 generate high-quality texts, generating long passages that maintain long-range

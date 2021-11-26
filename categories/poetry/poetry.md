@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-11-11*
+*written on 2021-11-26*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Say What? Collaborative Pop Lyric Generation Using Multitask Transfer  Learning](http://arxiv.org/abs/2111.07592v1) | Naveen Ram, Tanay Gummadi, Rahul Bhethanabotla, Richard J. Savery, Gil Weinberg | cs.CL, cs.HC, cs.LG, I.2.7 | 2021-11-15 |
 | [SP-GPT2: Semantics Improvement in Vietnamese Poetry Generation](http://arxiv.org/abs/2110.15723v1) | Tuan Nguyen, Hanh Pham, Truong Bui, Tan Nguyen, Duc Luong, Phong Nguyen | cs.CL, cs.AI, cs.LG | 2021-10-10 |
 | [The Perils of Using Mechanical Turk to Evaluate Open-Ended Text  Generation](http://arxiv.org/abs/2109.06835v1) | Marzena Karpinska, Nader Akoury, Mohit Iyyer | cs.CL | 2021-09-14 |
 | [Lingxi: A Diversity-aware Chinese Modern Poetry Generation System](http://arxiv.org/abs/2108.12108v1) | Xinran Zhang, Maosong Sun, Jiafeng Liu, Xiaobing Li | cs.CL | 2021-08-27 |

@@ -7,10 +7,16 @@ sidebar:
 ---
 
 
-*written on 2021-11-11*
+*written on 2021-11-26*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Octree Transformer: Autoregressive 3D Shape Generation on Hierarchically  Structured Sequences](http://arxiv.org/abs/2111.12480v1) | Moritz Ibing, Gregor Kobsik, Leif Kobbelt | cs.CV, cs.GR, cs.LG | 2021-11-24 |
+| [NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion](http://arxiv.org/abs/2111.12417v1) | Chenfei Wu, Jian Liang, Lei Ji, Fan Yang, Yuejian Fang, Daxin Jiang, Nan Duan | cs.CV, cs.AI | 2021-11-24 |
+| [Scaling Up Vision-Language Pre-training for Image Captioning](http://arxiv.org/abs/2111.12233v1) | Xiaowei Hu, Zhe Gan, Jianfeng Wang, Zhengyuan Yang, Zicheng Liu, Yumao Lu, Lijuan Wang | cs.CV, cs.CL | 2021-11-24 |
+| [L-Verse: Bidirectional Generation Between Image and Text](http://arxiv.org/abs/2111.11133v3) | Taehoon Kim, Gwangmo Song, Sihaeng Lee, Sangyun Kim, Yewon Seo, Soonyoung Lee, Seung Hwan Kim, Honglak Lee, Kyunghoon Bae | cs.CV, cs.CL, cs.LG | 2021-11-22 |
+| [RDF-to-Text Generation with Reinforcement Learning Based Graph-augmented  Structural Neural Encoders](http://arxiv.org/abs/2111.10545v1) | Hanning Gao, Lingfei Wu, Po Hu, Zhihua Wei, Fangli Xu, Bo Long | cs.CL, cs.AI | 2021-11-20 |
+| [Transparent Human Evaluation for Image Captioning](http://arxiv.org/abs/2111.08940v1) | Jungo Kasai, Keisuke Sakaguchi, Lavinia Dunagan, Jacob Morrison, Ronan Le Bras, Yejin Choi, Noah A. Smith | cs.CL, cs.CV | 2021-11-17 |
 | [Explaining Face Presentation Attack Detection Using Natural Language](http://arxiv.org/abs/2111.04862v1) | Hengameh Mirzaalian, Mohamed E. Hussein, Leonidas Spinoulas, Jonathan May, Wael Abd-Almageed | cs.CV, cs.AI, cs.CL, cs.CR | 2021-11-08 |
 | [Machine-in-the-Loop Rewriting for Creative Image Captioning](http://arxiv.org/abs/2111.04193v1) | Vishakh Padmakumar, He He | cs.CL | 2021-11-07 |
 | [Exploiting Cross-Modal Prediction and Relation Consistency for  Semi-Supervised Image Captioning](http://arxiv.org/abs/2110.11767v2) | Yang Yang, Hongchen Wei, Hengshu Zhu, Dianhai Yu, Hui Xiong, Jian Yang | cs.CV, cs.AI | 2021-10-22 |

@@ -1,4 +1,101 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Octree Transformer: Autoregressive 3D Shape Generation on Hierarchically
+  Structured Sequences",2021-11-24 13:17:16+00:00,http://arxiv.org/abs/2111.12480v1,"Moritz Ibing, Gregor Kobsik, Leif Kobbelt","cs.CV, cs.GR, cs.LG",image2text,"Autoregressive models have proven to be very powerful in NLP text generation
+tasks and lately have gained popularity for image generation as well. However,
+they have seen limited use for the synthesis of 3D shapes so far. This is
+mainly due to the lack of a straightforward way to linearize 3D data as well as
+to scaling problems with the length of the resulting sequences when describing
+complex shapes. In this work we address both of these problems. We use octrees
+as a compact hierarchical shape representation that can be sequentialized by
+traversal ordering. Moreover, we introduce an adaptive compression scheme, that
+significantly reduces sequence lengths and thus enables their effective
+generation with a transformer, while still allowing fully autoregressive
+sampling and parallel training. We demonstrate the performance of our model by
+comparing against the state-of-the-art in shape generation.",2021-11-24
+NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion,2021-11-24 11:02:12+00:00,http://arxiv.org/abs/2111.12417v1,"Chenfei Wu, Jian Liang, Lei Ji, Fan Yang, Yuejian Fang, Daxin Jiang, Nan Duan","cs.CV, cs.AI",image2text,"This paper presents a unified multimodal pre-trained model called N\""UWA that
+can generate new or manipulate existing visual data (i.e., images and videos)
+for various visual synthesis tasks. To cover language, image, and video at the
+same time for different scenarios, a 3D transformer encoder-decoder framework
+is designed, which can not only deal with videos as 3D data but also adapt to
+texts and images as 1D and 2D data, respectively. A 3D Nearby Attention (3DNA)
+mechanism is also proposed to consider the nature of the visual data and reduce
+the computational complexity. We evaluate N\""UWA on 8 downstream tasks.
+Compared to several strong baselines, N\""UWA achieves state-of-the-art results
+on text-to-image generation, text-to-video generation, video prediction, etc.
+Furthermore, it also shows surprisingly good zero-shot capabilities on
+text-guided image and video manipulation tasks. Project repo is
+https://github.com/microsoft/NUWA.",2021-11-24
+Scaling Up Vision-Language Pre-training for Image Captioning,2021-11-24 02:30:22+00:00,http://arxiv.org/abs/2111.12233v1,"Xiaowei Hu, Zhe Gan, Jianfeng Wang, Zhengyuan Yang, Zicheng Liu, Yumao Lu, Lijuan Wang","cs.CV, cs.CL",image2text,"In recent years, we have witnessed significant performance boost in the image
+captioning task based on vision-language pre-training (VLP). Scale is believed
+to be an important factor for this advance. However, most existing work only
+focuses on pre-training transformers with moderate sizes (e.g., 12 or 24
+layers) on roughly 4 million images. In this paper, we present LEMON, a
+LargE-scale iMage captiONer, and provide the first empirical study on the
+scaling behavior of VLP for image captioning. We use the state-of-the-art VinVL
+model as our reference model, which consists of an image feature extractor and
+a transformer model, and scale the transformer both up and down, with model
+sizes ranging from 13 to 675 million parameters. In terms of data, we conduct
+experiments with up to 200 million image-text pairs which are automatically
+collected from web based on the alt attribute of the image (dubbed as ALT200M).
+Extensive analysis helps to characterize the performance trend as the model
+size and the pre-training data size increase. We also compare different
+training recipes, especially for training on large-scale noisy data. As a
+result, LEMON achieves new state of the arts on several major image captioning
+benchmarks, including COCO Caption, nocaps, and Conceptual Captions. We also
+show LEMON can generate captions with long-tail visual concepts when used in a
+zero-shot manner.",2021-11-24
+L-Verse: Bidirectional Generation Between Image and Text,2021-11-22 11:48:26+00:00,http://arxiv.org/abs/2111.11133v3,"Taehoon Kim, Gwangmo Song, Sihaeng Lee, Sangyun Kim, Yewon Seo, Soonyoung Lee, Seung Hwan Kim, Honglak Lee, Kyunghoon Bae","cs.CV, cs.CL, cs.LG",image2text,"Far beyond learning long-range interactions of natural language, transformers
+are becoming the de-facto standard for many vision tasks with their power and
+scalabilty. Especially with cross-modal tasks between image and text, vector
+quantized variational autoencoders (VQ-VAEs) are widely used to make a raw RGB
+image into a sequence of feature vectors. To better leverage the correlation
+between image and text, we propose L-Verse, a novel architecture consisting of
+feature-augmented variational autoencoder (AugVAE) and bidirectional
+auto-regressive transformer (BiART) for text-to-image and image-to-text
+generation. Our AugVAE shows the state-of-the-art reconstruction performance on
+ImageNet1K validation set, along with the robustness to unseen images in the
+wild. Unlike other models, BiART can distinguish between image (or text) as a
+conditional reference and a generation target. L-Verse can be directly used for
+image-to-text or text-to-image generation tasks without any finetuning or extra
+object detection frameworks. In quantitative and qualitative experiments,
+L-Verse shows impressive results against previous methods in both image-to-text
+and text-to-image generation on MS-COCO Captions. We furthermore assess the
+scalability of L-Verse architecture on Conceptual Captions and present the
+initial results of bidirectional vision-language representation learning on
+general domain. Codes available at: https://github.com/tgisaturday/L-Verse",2021-11-22
+"RDF-to-Text Generation with Reinforcement Learning Based Graph-augmented
+  Structural Neural Encoders",2021-11-20 08:41:54+00:00,http://arxiv.org/abs/2111.10545v1,"Hanning Gao, Lingfei Wu, Po Hu, Zhihua Wei, Fangli Xu, Bo Long","cs.CL, cs.AI",image2text,"Considering a collection of RDF triples, the RDF-to-text generation task aims
+to generate a text description. Most previous methods solve this task using a
+sequence-to-sequence model or using a graph-based model to encode RDF triples
+and to generate a text sequence. Nevertheless, these approaches fail to clearly
+model the local and global structural information between and within RDF
+triples. Moreover, the previous methods also face the non-negligible problem of
+low faithfulness of the generated text, which seriously affects the overall
+performance of these models. To solve these problems, we propose a model
+combining two new graph-augmented structural neural encoders to jointly learn
+both local and global structural information in the input RDF triples. To
+further improve text faithfulness, we innovatively introduce a reinforcement
+learning (RL) reward based on information extraction (IE). We first extract
+triples from the generated text using a pretrained IE model and regard the
+correct number of the extracted triples as the additional RL reward.
+Experimental results on two benchmark datasets demonstrate that our proposed
+model outperforms the state-of-the-art baselines, and the additional
+reinforcement learning reward does help to improve the faithfulness of the
+generated text.",2021-11-20
+Transparent Human Evaluation for Image Captioning,2021-11-17 07:09:59+00:00,http://arxiv.org/abs/2111.08940v1,"Jungo Kasai, Keisuke Sakaguchi, Lavinia Dunagan, Jacob Morrison, Ronan Le Bras, Yejin Choi, Noah A. Smith","cs.CL, cs.CV",image2text,"We establish a rubric-based human evaluation protocol for image captioning
+models. Our scoring rubrics and their definitions are carefully developed based
+on machine- and human-generated captions on the MSCOCO dataset. Each caption is
+evaluated along two main dimensions in a tradeoff (precision and recall) as
+well as other aspects that measure the text quality (fluency, conciseness, and
+inclusive language). Our evaluations demonstrate several critical problems of
+the current evaluation practice. Human-generated captions show substantially
+higher quality than machine-generated ones, especially in coverage of salient
+information (i.e., recall), while all automatic metrics say the opposite. Our
+rubric-based results reveal that CLIPScore, a recent metric that uses image
+features, better correlates with human judgments than conventional text-only
+metrics because it is more sensitive to recall. We hope that this work will
+promote a more transparent evaluation protocol for image captioning and its
+automatic metrics.",2021-11-17
 Explaining Face Presentation Attack Detection Using Natural Language,2021-11-08 22:55:55+00:00,http://arxiv.org/abs/2111.04862v1,"Hengameh Mirzaalian, Mohamed E. Hussein, Leonidas Spinoulas, Jonathan May, Wael Abd-Almageed","cs.CV, cs.AI, cs.CL, cs.CR",image2text,"A large number of deep neural network based techniques have been developed to
 address the challenging problem of face presentation attack detection (PAD).
 Whereas such techniques' focus has been on improving PAD performance in terms

@@ -1,4 +1,18 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Say What? Collaborative Pop Lyric Generation Using Multitask Transfer
+  Learning",2021-11-15 08:13:26+00:00,http://arxiv.org/abs/2111.07592v1,"Naveen Ram, Tanay Gummadi, Rahul Bhethanabotla, Richard J. Savery, Gil Weinberg","cs.CL, cs.HC, cs.LG, I.2.7",poetry,"Lyric generation is a popular sub-field of natural language generation that
+has seen growth in recent years. Pop lyrics are of unique interest due to the
+genre's unique style and content, in addition to the high level of
+collaboration that goes on behind the scenes in the professional pop
+songwriting process. In this paper, we present a collaborative line-level lyric
+generation system that utilizes transfer-learning via the T5 transformer model,
+which, till date, has not been used to generate pop lyrics. By working and
+communicating directly with professional songwriters, we develop a model that
+is able to learn lyrical and stylistic tasks like rhyming, matching line beat
+requirements, and ending lines with specific target words. Our approach
+compares favorably to existing methods for multiple datasets and yields
+positive results from our online studies and interviews with industry
+songwriters.",2021-11-15
 SP-GPT2: Semantics Improvement in Vietnamese Poetry Generation,2021-10-10 14:31:08+00:00,http://arxiv.org/abs/2110.15723v1,"Tuan Nguyen, Hanh Pham, Truong Bui, Tan Nguyen, Duc Luong, Phong Nguyen","cs.CL, cs.AI, cs.LG",poetry,"Automatic text generation has garnered growing attention in recent years as
 an essential step towards computer creativity. Generative Pretraining
 Transformer 2 (GPT2) is one of the state of the art approaches that have

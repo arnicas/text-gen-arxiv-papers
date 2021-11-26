@@ -1,4 +1,64 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"RDF-to-Text Generation with Reinforcement Learning Based Graph-augmented
+  Structural Neural Encoders",2021-11-20 08:41:54+00:00,http://arxiv.org/abs/2111.10545v1,"Hanning Gao, Lingfei Wu, Po Hu, Zhihua Wei, Fangli Xu, Bo Long","cs.CL, cs.AI",knowledge,"Considering a collection of RDF triples, the RDF-to-text generation task aims
+to generate a text description. Most previous methods solve this task using a
+sequence-to-sequence model or using a graph-based model to encode RDF triples
+and to generate a text sequence. Nevertheless, these approaches fail to clearly
+model the local and global structural information between and within RDF
+triples. Moreover, the previous methods also face the non-negligible problem of
+low faithfulness of the generated text, which seriously affects the overall
+performance of these models. To solve these problems, we propose a model
+combining two new graph-augmented structural neural encoders to jointly learn
+both local and global structural information in the input RDF triples. To
+further improve text faithfulness, we innovatively introduce a reinforcement
+learning (RL) reward based on information extraction (IE). We first extract
+triples from the generated text using a pretrained IE model and regard the
+correct number of the extracted triples as the additional RL reward.
+Experimental results on two benchmark datasets demonstrate that our proposed
+model outperforms the state-of-the-art baselines, and the additional
+reinforcement learning reward does help to improve the faithfulness of the
+generated text.",2021-11-20
+"How much do language models copy from their training data? Evaluating
+  linguistic novelty in text generation using RAVEN",2021-11-18 04:07:09+00:00,http://arxiv.org/abs/2111.09509v1,"R. Thomas McCoy, Paul Smolensky, Tal Linzen, Jianfeng Gao, Asli Celikyilmaz",cs.CL,knowledge,"Current language models can generate high-quality text. Are they simply
+copying text they have seen before, or have they learned generalizable
+linguistic abstractions? To tease apart these possibilities, we introduce
+RAVEN, a suite of analyses for assessing the novelty of generated text,
+focusing on sequential structure (n-grams) and syntactic structure. We apply
+these analyses to four neural language models (an LSTM, a Transformer,
+Transformer-XL, and GPT-2). For local structure - e.g., individual dependencies
+- model-generated text is substantially less novel than our baseline of
+human-generated text from each model's test set. For larger-scale structure -
+e.g., overall sentence structure - model-generated text is as novel or even
+more novel than the human-generated baseline, but models still sometimes copy
+substantially, in some cases duplicating passages over 1,000 words long from
+the training set. We also perform extensive manual analysis showing that
+GPT-2's novel text is usually well-formed morphologically and syntactically but
+has reasonably frequent semantic issues (e.g., being self-contradictory).",2021-11-18
+"MEDCOD: A Medically-Accurate, Emotive, Diverse, and Controllable Dialog
+  System",2021-11-17 20:31:16+00:00,http://arxiv.org/abs/2111.09381v1,"Rhys Compton, Ilya Valmianski, Li Deng, Costa Huang, Namit Katariya, Xavier Amatriain, Anitha Kannan","cs.CL, cs.AI, cs.LG",knowledge,"We present MEDCOD, a Medically-Accurate, Emotive, Diverse, and Controllable
+Dialog system with a unique approach to the natural language generator module.
+MEDCOD has been developed and evaluated specifically for the history taking
+task. It integrates the advantage of a traditional modular approach to
+incorporate (medical) domain knowledge with modern deep learning techniques to
+generate flexible, human-like natural language expressions. Two key aspects of
+MEDCOD's natural language output are described in detail. First, the generated
+sentences are emotive and empathetic, similar to how a doctor would communicate
+to the patient. Second, the generated sentence structures and phrasings are
+varied and diverse while maintaining medical consistency with the desired
+medical concept (provided by the dialogue manager module of MEDCOD).
+Experimental results demonstrate the effectiveness of our approach in creating
+a human-like medical dialogue system. Relevant code is available at
+https://github.com/curai/curai-research/tree/main/MEDCOD",2021-11-17
+A Novel Corpus of Discourse Structure in Humans and Computers,2021-11-10 20:56:08+00:00,http://arxiv.org/abs/2111.05940v1,"Babak Hemmatian, Sheridan Feucht, Rachel Avram, Alexander Wey, Muskaan Garg, Kate Spitalnic, Carsten Eickhoff, Ellie Pavlick, Bjorn Sandstede, Steven Sloman",cs.CL,knowledge,"We present a novel corpus of 445 human- and computer-generated documents,
+comprising about 27,000 clauses, annotated for semantic clause types and
+coherence relations that allow for nuanced comparison of artificial and natural
+discourse modes. The corpus covers both formal and informal discourse, and
+contains documents generated using fine-tuned GPT-2 (Zellers et al., 2019) and
+GPT-3(Brown et al., 2020). We showcase the usefulness of this corpus for
+detailed discourse analysis of text generation by providing preliminary
+evidence that less numerous, shorter and more often incoherent clause relations
+are associated with lower perceived quality of computer-generated narratives
+and arguments.",2021-11-10
 Explaining Face Presentation Attack Detection Using Natural Language,2021-11-08 22:55:55+00:00,http://arxiv.org/abs/2111.04862v1,"Hengameh Mirzaalian, Mohamed E. Hussein, Leonidas Spinoulas, Jonathan May, Wael Abd-Almageed","cs.CV, cs.AI, cs.CL, cs.CR",knowledge,"A large number of deep neural network based techniques have been developed to
 address the challenging problem of face presentation attack detection (PAD).
 Whereas such techniques' focus has been on improving PAD performance in terms
