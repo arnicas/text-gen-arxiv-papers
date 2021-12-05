@@ -1,4 +1,22 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Mutltimodal AI Companion for Interactive Fairytale Co-creation,2021-12-01 07:53:38+00:00,http://arxiv.org/abs/2112.00331v1,"Ruiyang Liu, Predrag K. Nikolic",cs.MM,story,"AI fairy tale companions play an important role in early childhood education
+as an augmentation for parents' efforts to close the participation gap and
+boost kids' mental and language development. Existing systems are generally
+designed to provide vivid materials as unidirectional entertaining reading
+environments, e.g, visualizing inputting texts. However, due to the limited
+vocabulary of kids, these systems failed to afford effective interaction to
+motivate kids to write their own fairy tales. In this work, we propose AI.R
+Taletorium, an illustrative, immersive, and inclusive multimodal AI companion,
+for interactive fairy tale co-creation that actively involves kids to create
+fairy tales with both the AI agent and their normal peers. AI.R Taletorium
+consists a neural story generator and a doodler-based fairy tale visualizer. We
+design a character-centric bidirectional connection mechanism between the story
+generator and visualizer equipped with Contrastive Language Image Pretraining
+(CLIP), thus enabling kids to participant in the story generation process by
+simple sketching. Extensive experiments and user studies show that our system
+was able to generate and visualize meaningful and vivid fairy tales with
+limited training data and complete the full interaction cycle under various
+inputs (text, doodler) through the bidirectional connection.",2021-12-01
 "Exploring Story Generation with Multi-task Objectives in Variational
   Autoencoders",2021-11-15 23:07:19+00:00,http://arxiv.org/abs/2111.08133v1,"Zhuohan Xie, Trevor Cohn, Jey Han Lau","cs.CL, cs.LG",story,"GPT-2 has been frequently adapted in story generation models as it provides
 powerful generative capability. However, it still fails to generate consistent

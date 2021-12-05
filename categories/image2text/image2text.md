@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2021-11-26*
+*written on 2021-12-05*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [LOGEN: Few-shot Logical Knowledge-Conditioned Text Generation with  Self-training](http://arxiv.org/abs/2112.01404v1) | Ningyu Zhang, Hongbin Ye, Jiacheng Yang, Shumin Deng, Chuanqi Tan, Mosha Chen, Songfang Huang, Fei Huang, Huajun Chen | cs.CL, cs.AI | 2021-12-02 |
+| [Translation-equivariant Image Quantizer for Bi-directional Image-Text  Generation](http://arxiv.org/abs/2112.00384v1) | Woncheol Shin, Gyubok Lee, Jiyoung Lee, Joonseok Lee, Edward Choi | cs.CV, cs.CL, cs.LG | 2021-12-01 |
+| [Zero-Shot Image-to-Text Generation for Visual-Semantic Arithmetic](http://arxiv.org/abs/2111.14447v1) | Yoad Tewel, Yoav Shalev, Idan Schwartz, Lior Wolf | cs.CV, cs.AI, cs.CL | 2021-11-29 |
+| [LAFITE: Towards Language-Free Training for Text-to-Image Generation](http://arxiv.org/abs/2111.13792v1) | Yufan Zhou, Ruiyi Zhang, Changyou Chen, Chunyuan Li, Chris Tensmeyer, Tong Yu, Jiuxiang Gu, Jinhui Xu, Tong Sun | cs.CV, cs.LG | 2021-11-27 |
 | [Octree Transformer: Autoregressive 3D Shape Generation on Hierarchically  Structured Sequences](http://arxiv.org/abs/2111.12480v1) | Moritz Ibing, Gregor Kobsik, Leif Kobbelt | cs.CV, cs.GR, cs.LG | 2021-11-24 |
 | [NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion](http://arxiv.org/abs/2111.12417v1) | Chenfei Wu, Jian Liang, Lei Ji, Fan Yang, Yuejian Fang, Daxin Jiang, Nan Duan | cs.CV, cs.AI | 2021-11-24 |
 | [Scaling Up Vision-Language Pre-training for Image Captioning](http://arxiv.org/abs/2111.12233v1) | Xiaowei Hu, Zhe Gan, Jianfeng Wang, Zhengyuan Yang, Zicheng Liu, Yumao Lu, Lijuan Wang | cs.CV, cs.CL | 2021-11-24 |

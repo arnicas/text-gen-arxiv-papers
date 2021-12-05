@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2021-11-26*
+*written on 2021-12-05*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [LOGEN: Few-shot Logical Knowledge-Conditioned Text Generation with  Self-training](http://arxiv.org/abs/2112.01404v1) | Ningyu Zhang, Hongbin Ye, Jiacheng Yang, Shumin Deng, Chuanqi Tan, Mosha Chen, Songfang Huang, Fei Huang, Huajun Chen | cs.CL, cs.AI | 2021-12-02 |
+| [LAFITE: Towards Language-Free Training for Text-to-Image Generation](http://arxiv.org/abs/2111.13792v1) | Yufan Zhou, Ruiyi Zhang, Changyou Chen, Chunyuan Li, Chris Tensmeyer, Tong Yu, Jiuxiang Gu, Jinhui Xu, Tong Sun | cs.CV, cs.LG | 2021-11-27 |
 | [Octree Transformer: Autoregressive 3D Shape Generation on Hierarchically  Structured Sequences](http://arxiv.org/abs/2111.12480v1) | Moritz Ibing, Gregor Kobsik, Leif Kobbelt | cs.CV, cs.GR, cs.LG | 2021-11-24 |
 | [Selection of pseudo-annotated data for adverse drug reaction  classification across drug groups](http://arxiv.org/abs/2111.12477v1) | Ilseyar Alimova, Elena Tutubalina | cs.CL, cs.LG | 2021-11-24 |
 | [NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion](http://arxiv.org/abs/2111.12417v1) | Chenfei Wu, Jian Liang, Lei Ji, Fan Yang, Yuejian Fang, Daxin Jiang, Nan Duan | cs.CV, cs.AI | 2021-11-24 |

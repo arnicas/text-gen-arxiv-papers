@@ -1,4 +1,61 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"LOGEN: Few-shot Logical Knowledge-Conditioned Text Generation with
+  Self-training",2021-12-02 16:49:41+00:00,http://arxiv.org/abs/2112.01404v1,"Ningyu Zhang, Hongbin Ye, Jiacheng Yang, Shumin Deng, Chuanqi Tan, Mosha Chen, Songfang Huang, Fei Huang, Huajun Chen","cs.CL, cs.AI",image2text,"Natural language generation from structured data mainly focuses on
+surface-level descriptions, suffering from uncontrollable content selection and
+low fidelity. Previous works leverage logical forms to facilitate logical
+knowledge-conditioned text generation. Though achieving remarkable progress,
+they are data-hungry, which makes the adoption for real-world applications
+challenging with limited data. To this end, this paper proposes a unified
+framework for logical knowledge-conditioned text generation in the few-shot
+setting. With only a few seeds logical forms (e.g., 20/100 shot), our approach
+leverages self-training and samples pseudo logical forms based on content and
+structure consistency. Experimental results demonstrate that our approach can
+obtain better few-shot performance than baselines.",2021-12-02
+"Translation-equivariant Image Quantizer for Bi-directional Image-Text
+  Generation",2021-12-01 10:08:24+00:00,http://arxiv.org/abs/2112.00384v1,"Woncheol Shin, Gyubok Lee, Jiyoung Lee, Joonseok Lee, Edward Choi","cs.CV, cs.CL, cs.LG",image2text,"Recently, vector-quantized image modeling has demonstrated impressive
+performance on generation tasks such as text-to-image generation. However, we
+discover that the current image quantizers do not satisfy translation
+equivariance in the quantized space due to aliasing, degrading performance in
+the downstream text-to-image generation and image-to-text generation, even in
+simple experimental setups. Instead of focusing on anti-aliasing, we take a
+direct approach to encourage translation equivariance in the quantized space.
+In particular, we explore a desirable property of image quantizers, called
+'Translation Equivariance in the Quantized Space' and propose a simple but
+effective way to achieve translation equivariance by regularizing orthogonality
+in the codebook embedding vectors. Using this method, we improve accuracy by
++22% in text-to-image generation and +26% in image-to-text generation,
+outperforming the VQGAN.",2021-12-01
+Zero-Shot Image-to-Text Generation for Visual-Semantic Arithmetic,2021-11-29 11:01:49+00:00,http://arxiv.org/abs/2111.14447v1,"Yoad Tewel, Yoav Shalev, Idan Schwartz, Lior Wolf","cs.CV, cs.AI, cs.CL",image2text,"Recent text-to-image matching models apply contrastive learning to large
+corpora of uncurated pairs of images and sentences. While such models can
+provide a powerful score for matching and subsequent zero-shot tasks, they are
+not capable of generating caption given an image. In this work, we repurpose
+such models to generate a descriptive text given an image at inference time,
+without any further training or tuning step. This is done by combining the
+visual-semantic model with a large language model, benefiting from the
+knowledge in both web-scale models. The resulting captions are much less
+restrictive than those obtained by supervised captioning methods. Moreover, as
+a zero-shot learning method, it is extremely flexible and we demonstrate its
+ability to perform image arithmetic in which the inputs can be either images or
+text and the output is a sentence. This enables novel high-level vision
+capabilities such as comparing two images or solving visual analogy tests.",2021-11-29
+LAFITE: Towards Language-Free Training for Text-to-Image Generation,2021-11-27 01:54:45+00:00,http://arxiv.org/abs/2111.13792v1,"Yufan Zhou, Ruiyi Zhang, Changyou Chen, Chunyuan Li, Chris Tensmeyer, Tong Yu, Jiuxiang Gu, Jinhui Xu, Tong Sun","cs.CV, cs.LG",image2text,"One of the major challenges in training text-to-image generation models is
+the need of a large number of high-quality image-text pairs. While image
+samples are often easily accessible, the associated text descriptions typically
+require careful human captioning, which is particularly time- and
+cost-consuming. In this paper, we propose the first work to train text-to-image
+generation models without any text data. Our method leverages the well-aligned
+multi-modal semantic space of the powerful pre-trained CLIP model: the
+requirement of text-conditioning is seamlessly alleviated via generating text
+features from image features. Extensive experiments are conducted to illustrate
+the effectiveness of the proposed method. We obtain state-of-the-art results in
+the standard text-to-image generation tasks. Importantly, the proposed
+language-free model outperforms most existing models trained with full
+image-text pairs. Furthermore, our method can be applied in fine-tuning
+pre-trained models, which saves both training time and cost in training
+text-to-image generation models. Our pre-trained model obtains competitive
+results in zero-shot text-to-image generation on the MS-COCO dataset, yet with
+around only 1% of the model size and training data size relative to the
+recently proposed large DALL-E model.",2021-11-27
 "Octree Transformer: Autoregressive 3D Shape Generation on Hierarchically
   Structured Sequences",2021-11-24 13:17:16+00:00,http://arxiv.org/abs/2111.12480v1,"Moritz Ibing, Gregor Kobsik, Leif Kobbelt","cs.CV, cs.GR, cs.LG",image2text,"Autoregressive models have proven to be very powerful in NLP text generation
 tasks and lately have gained popularity for image generation as well. However,

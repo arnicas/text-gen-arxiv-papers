@@ -1,4 +1,34 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"LOGEN: Few-shot Logical Knowledge-Conditioned Text Generation with
+  Self-training",2021-12-02 16:49:41+00:00,http://arxiv.org/abs/2112.01404v1,"Ningyu Zhang, Hongbin Ye, Jiacheng Yang, Shumin Deng, Chuanqi Tan, Mosha Chen, Songfang Huang, Fei Huang, Huajun Chen","cs.CL, cs.AI",knowledge,"Natural language generation from structured data mainly focuses on
+surface-level descriptions, suffering from uncontrollable content selection and
+low fidelity. Previous works leverage logical forms to facilitate logical
+knowledge-conditioned text generation. Though achieving remarkable progress,
+they are data-hungry, which makes the adoption for real-world applications
+challenging with limited data. To this end, this paper proposes a unified
+framework for logical knowledge-conditioned text generation in the few-shot
+setting. With only a few seeds logical forms (e.g., 20/100 shot), our approach
+leverages self-training and samples pseudo logical forms based on content and
+structure consistency. Experimental results demonstrate that our approach can
+obtain better few-shot performance than baselines.",2021-12-02
+LAFITE: Towards Language-Free Training for Text-to-Image Generation,2021-11-27 01:54:45+00:00,http://arxiv.org/abs/2111.13792v1,"Yufan Zhou, Ruiyi Zhang, Changyou Chen, Chunyuan Li, Chris Tensmeyer, Tong Yu, Jiuxiang Gu, Jinhui Xu, Tong Sun","cs.CV, cs.LG",knowledge,"One of the major challenges in training text-to-image generation models is
+the need of a large number of high-quality image-text pairs. While image
+samples are often easily accessible, the associated text descriptions typically
+require careful human captioning, which is particularly time- and
+cost-consuming. In this paper, we propose the first work to train text-to-image
+generation models without any text data. Our method leverages the well-aligned
+multi-modal semantic space of the powerful pre-trained CLIP model: the
+requirement of text-conditioning is seamlessly alleviated via generating text
+features from image features. Extensive experiments are conducted to illustrate
+the effectiveness of the proposed method. We obtain state-of-the-art results in
+the standard text-to-image generation tasks. Importantly, the proposed
+language-free model outperforms most existing models trained with full
+image-text pairs. Furthermore, our method can be applied in fine-tuning
+pre-trained models, which saves both training time and cost in training
+text-to-image generation models. Our pre-trained model obtains competitive
+results in zero-shot text-to-image generation on the MS-COCO dataset, yet with
+around only 1% of the model size and training data size relative to the
+recently proposed large DALL-E model.",2021-11-27
 "RDF-to-Text Generation with Reinforcement Learning Based Graph-augmented
   Structural Neural Encoders",2021-11-20 08:41:54+00:00,http://arxiv.org/abs/2111.10545v1,"Hanning Gao, Lingfei Wu, Po Hu, Zhihua Wei, Fangli Xu, Bo Long","cs.CL, cs.AI",knowledge,"Considering a collection of RDF triples, the RDF-to-text generation task aims
 to generate a text description. Most previous methods solve this task using a

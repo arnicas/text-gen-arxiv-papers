@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2021-11-26*
+*written on 2021-12-05*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [LOGEN: Few-shot Logical Knowledge-Conditioned Text Generation with  Self-training](http://arxiv.org/abs/2112.01404v1) | Ningyu Zhang, Hongbin Ye, Jiacheng Yang, Shumin Deng, Chuanqi Tan, Mosha Chen, Songfang Huang, Fei Huang, Huajun Chen | cs.CL, cs.AI | 2021-12-02 |
+| [LAFITE: Towards Language-Free Training for Text-to-Image Generation](http://arxiv.org/abs/2111.13792v1) | Yufan Zhou, Ruiyi Zhang, Changyou Chen, Chunyuan Li, Chris Tensmeyer, Tong Yu, Jiuxiang Gu, Jinhui Xu, Tong Sun | cs.CV, cs.LG | 2021-11-27 |
 | [RDF-to-Text Generation with Reinforcement Learning Based Graph-augmented  Structural Neural Encoders](http://arxiv.org/abs/2111.10545v1) | Hanning Gao, Lingfei Wu, Po Hu, Zhihua Wei, Fangli Xu, Bo Long | cs.CL, cs.AI | 2021-11-20 |
 | [How much do language models copy from their training data? Evaluating  linguistic novelty in text generation using RAVEN](http://arxiv.org/abs/2111.09509v1) | R. Thomas McCoy, Paul Smolensky, Tal Linzen, Jianfeng Gao, Asli Celikyilmaz | cs.CL | 2021-11-18 |
 | [MEDCOD: A Medically-Accurate, Emotive, Diverse, and Controllable Dialog  System](http://arxiv.org/abs/2111.09381v1) | Rhys Compton, Ilya Valmianski, Li Deng, Costa Huang, Namit Katariya, Xavier Amatriain, Anitha Kannan | cs.CL, cs.AI, cs.LG | 2021-11-17 |
