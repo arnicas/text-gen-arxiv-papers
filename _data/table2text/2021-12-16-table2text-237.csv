@@ -1,4 +1,197 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"NeuroLogic A*esque Decoding: Constrained Text Generation with Lookahead
+  Heuristics",2021-12-16 09:22:54+00:00,http://arxiv.org/abs/2112.08726v1,"Ximing Lu, Sean Welleck, Peter West, Liwei Jiang, Jungo Kasai, Daniel Khashabi, Ronan Le Bras, Lianhui Qin, Youngjae Yu, Rowan Zellers, Noah A. Smith, Yejin Choi",cs.CL,table2text,"The dominant paradigm for neural text generation is left-to-right decoding
+from autoregressive language models. Constrained or controllable generation
+under complex lexical constraints, however, requires foresight to plan ahead
+feasible future paths.
+  Drawing inspiration from the A* search algorithm, we propose NeuroLogic
+A*esque, a decoding algorithm that incorporates heuristic estimates of future
+cost. We develop efficient lookahead heuristics that are efficient for
+large-scale language models, making our method a drop-in replacement for common
+techniques such as beam search and top-k sampling. To enable constrained
+generation, we build on NeuroLogic decoding (Lu et al., 2021), combining its
+flexibility in incorporating logical constraints with A*esque estimates of
+future constraint satisfaction.
+  Our approach outperforms competitive baselines on five generation tasks, and
+achieves new state-of-the-art performance on table-to-text generation,
+constrained machine translation, and keyword-constrained generation. The
+improvements are particularly notable on tasks that require complex constraint
+satisfaction or in few-shot or zero-shot settings. NeuroLogic A*esque
+illustrates the power of decoding for improving and enabling new capabilities
+of large-scale language models.",2021-12-16
+"DSGPT: Domain-Specific Generative Pre-Training of Transformers for Text
+  Generation in E-commerce Title and Review Summarization",2021-12-15 19:02:49+00:00,http://arxiv.org/abs/2112.08414v1,"Xueying Zhang, Yunjiang Jiang, Yue Shang, Zhaomeng Cheng, Chi Zhang, Xiaochuan Fan, Yun Xiao, Bo Long","cs.CL, cs.AI",table2text,"We propose a novel domain-specific generative pre-training (DS-GPT) method
+for text generation and apply it to the product titleand review summarization
+problems on E-commerce mobile display.First, we adopt a decoder-only
+transformer architecture, which fitswell for fine-tuning tasks by combining
+input and output all to-gether. Second, we demonstrate utilizing only small
+amount of pre-training data in related domains is powerful. Pre-training a
+languagemodel from a general corpus such as Wikipedia or the CommonCrawl
+requires tremendous time and resource commitment, andcan be wasteful if the
+downstream tasks are limited in variety. OurDSGPT is pre-trained on a limited
+dataset, the Chinese short textsummarization dataset (LCSTS). Third, our model
+does not requireproduct-related human-labeled data. For title summarization
+task,the state of art explicitly uses additional background knowledgein
+training and predicting stages. In contrast, our model implic-itly captures
+this knowledge and achieves significant improvementover other methods, after
+fine-tuning on the public Taobao.comdataset. For review summarization task, we
+utilize JD.com in-housedataset, and observe similar improvement over standard
+machinetranslation methods which lack the flexibility of fine-tuning.
+Ourproposed work can be simply extended to other domains for a widerange of
+text generation tasks.",2021-12-15
+"Simple Text Detoxification by Identifying a Linear Toxic Subspace in
+  Language Model Embeddings",2021-12-15 18:54:34+00:00,http://arxiv.org/abs/2112.08346v1,"Andrew Wang, Mohit Sudhakar, Yangfeng Ji","cs.CL, cs.LG",table2text,"Large pre-trained language models are often trained on large volumes of
+internet data, some of which may contain toxic or abusive language.
+Consequently, language models encode toxic information, which makes the
+real-world usage of these language models limited. Current methods aim to
+prevent toxic features from appearing generated text. We hypothesize the
+existence of a low-dimensional toxic subspace in the latent space of
+pre-trained language models, the existence of which suggests that toxic
+features follow some underlying pattern and are thus removable. To construct
+this toxic subspace, we propose a method to generalize toxic directions in the
+latent space. We also provide a methodology for constructing parallel datasets
+using a context based word masking system. Through our experiments, we show
+that when the toxic subspace is removed from a set of sentence representations,
+almost no toxic representations remain in the result. We demonstrate
+empirically that the subspace found using our method generalizes to multiple
+toxicity corpora, indicating the existence of a low-dimensional toxic subspace.",2021-12-15
+"Improving Logical-Level Natural Language Generation with
+  Topic-Conditioned Data Augmentation and Logical Form Generation",2021-12-12 13:50:18+00:00,http://arxiv.org/abs/2112.06240v1,"Ao Liu, Congjian Luo, Naoaki Okazaki",cs.CL,table2text,"Logical Natural Language Generation, i.e., generating textual descriptions
+that can be logically entailed by a structured table, has been a challenge due
+to the low fidelity of the generation. \citet{chen2020logic2text} have
+addressed this problem by annotating interim logical programs to control the
+generation contents and semantics, and presented the task of table-aware
+logical form to text (Logic2text) generation. However, although table instances
+are abundant in the real world, logical forms paired with textual descriptions
+require costly human annotation work, which limits the performance of neural
+models. To mitigate this, we propose topic-conditioned data augmentation
+(TopicDA), which utilizes GPT-2 to generate unpaired logical forms and textual
+descriptions directly from tables. We further introduce logical form generation
+(LG), a dual task of Logic2text that requires generating a valid logical form
+based on a text description of a table. We also propose a semi-supervised
+learning approach to jointly train a Logic2text and an LG model with both
+labeled and augmented data. The two models benefit from each other by providing
+extra supervision signals through back-translation. Experimental results on the
+Logic2text dataset and the LG task demonstrate that our approach can
+effectively utilize the augmented data and outperform supervised baselines by a
+substantial margin.",2021-12-12
+Discourse-Aware Prompt Design for Text Generation,2021-12-10 18:15:44+00:00,http://arxiv.org/abs/2112.05717v1,"Marjan Ghazvininejad, Vladimir Karpukhin, Asli Celikyilmaz","cs.CL, cs.LG, stat.ML",table2text,"Current efficient fine-tuning methods (e.g., adapters, prefix-tuning, etc.)
+have optimized conditional text generation via training a small set of extra
+parameters of the neural language model, while freezing the rest for
+efficiency. While showing strong performance on some generation tasks, they
+don't generalize across all generation tasks. In this work, we show that prompt
+based conditional text generation can be improved with simple and efficient
+methods that simulate modeling the discourse structure of human written text.
+We introduce two key design choices: First we show that a higher-level
+discourse structure of human written text can be modelled with
+\textit{hierarchical blocking} on prefix parameters that enable spanning
+different parts of the input and output text and yield more coherent output
+generations. Second, we propose sparse prefix tuning by introducing
+\textit{attention sparsity} on the prefix parameters at different layers of the
+network and learn sparse transformations on the softmax-function, respectively.
+We find that sparse attention enables the prefix-tuning to better control of
+the input contents (salient facts) yielding more efficient tuning of the
+prefix-parameters. Experiments on a wide-variety of text generation tasks show
+that structured design of prefix parameters can achieve comparable results to
+fine-tuning all parameters while outperforming standard prefix-tuning on all
+generation tasks even in low-resource settings.",2021-12-10
+"Unified Multimodal Pre-training and Prompt-based Tuning for
+  Vision-Language Understanding and Generation",2021-12-10 14:59:06+00:00,http://arxiv.org/abs/2112.05587v2,"Tianyi Liu, Zuxuan Wu, Wenhan Xiong, Jingjing Chen, Yu-Gang Jiang","cs.CV, cs.CL, cs.LG",table2text,"Most existing vision-language pre-training methods focus on understanding
+tasks and use BERT-like objectives (masked language modeling and image-text
+matching) during pretraining. Although they perform well in many understanding
+downstream tasks, e.g., visual question answering, image-text retrieval and
+visual entailment, they do not possess the ability to generate. To tackle this
+problem, we propose Unified multimodal pre-training for both Vision-Language
+understanding and generation (UniVL). The proposed UniVL is capable of handling
+both understanding tasks and generative tasks. We augment existing pretraining
+paradigms that only use random masks with causal masks, i.e., triangular masks
+that mask out future tokens, such that the pre-trained models can have
+autoregressive generation abilities by design. We formulate several previous
+understanding tasks as a text generation task and propose to use prompt-based
+method for fine-tuning on different downstream tasks. Our experiments show that
+there is a trade-off between understanding tasks and generation tasks while
+using the same model, and a feasible way to improve both tasks is to use more
+data. Our UniVL framework attains comparable performance to recent
+vision-language pre-training methods on both understanding tasks and generation
+tasks. Moreover, we demostrate that prompt-based finetuning is more
+data-efficient - it outperforms discriminative methods in few-shot scenarios.",2021-12-10
+"MAGMA -- Multimodal Augmentation of Generative Models through
+  Adapter-based Finetuning",2021-12-09 23:58:45+00:00,http://arxiv.org/abs/2112.05253v1,"Constantin Eichenberg, Sidney Black, Samuel Weinbach, Letitia Parcalabescu, Anette Frank","cs.CV, cs.CL, I.2.7; I.4.8; I.5.1",table2text,"Large-scale pretraining is fast becoming the norm in Vision-Language (VL)
+modeling. However, prevailing VL approaches are limited by the requirement for
+labeled data and the use of complex multi-step pretraining objectives. We
+present MAGMA - a simple method for augmenting generative language models with
+additional modalities using adapter-based finetuning. Building on Frozen, we
+train a series of VL models that autoregressively generate text from arbitrary
+combinations of visual and textual input. The pretraining is entirely
+end-to-end using a single language modeling objective, simplifying optimization
+compared to previous approaches. Importantly, the language model weights remain
+unchanged during training, allowing for transfer of encyclopedic knowledge and
+in-context learning abilities from language pretraining. MAGMA outperforms
+Frozen on open-ended generative tasks, achieving state of the art results on
+the OKVQA benchmark and competitive results on a range of other popular VL
+benchmarks, while pretraining on 0.2% of the number of samples used to train
+SimVLM.",2021-12-09
+Self-Supervised Image-to-Text and Text-to-Image Synthesis,2021-12-09 13:54:56+00:00,http://arxiv.org/abs/2112.04928v1,"Anindya Sundar Das, Sriparna Saha","cs.CV, cs.CL, cs.LG",table2text,"A comprehensive understanding of vision and language and their interrelation
+are crucial to realize the underlying similarities and differences between
+these modalities and to learn more generalized, meaningful representations. In
+recent years, most of the works related to Text-to-Image synthesis and
+Image-to-Text generation, focused on supervised generative deep architectures
+to solve the problems, where very little interest was placed on learning the
+similarities between the embedding spaces across modalities. In this paper, we
+propose a novel self-supervised deep learning based approach towards learning
+the cross-modal embedding spaces; for both image to text and text to image
+generations. In our approach, we first obtain dense vector representations of
+images using StackGAN-based autoencoder model and also dense vector
+representations on sentence-level utilizing LSTM based text-autoencoder; then
+we study the mapping from embedding space of one modality to embedding space of
+the other modality utilizing GAN and maximum mean discrepancy based generative
+networks. We, also demonstrate that our model learns to generate textual
+description from image data as well as images from textual data both
+qualitatively and quantitatively.",2021-12-09
+"Does Structure Matter? Leveraging Data-to-Text Generation for Answering
+  Complex Information Needs",2021-12-08 15:51:27+00:00,http://arxiv.org/abs/2112.04344v1,"Hanane Djeddal, Thomas Gerald, Laure Soulier, Karen Pinel-Sauvagnat, Lynda Tamine","cs.CL, cs.IR, cs.LG",table2text,"In this work, our aim is to provide a structured answer in natural language
+to a complex information need. Particularly, we envision using generative
+models from the perspective of data-to-text generation. We propose the use of a
+content selection and planning pipeline which aims at structuring the answer by
+generating intermediate plans. The experimental evaluation is performed using
+the TREC Complex Answer Retrieval (CAR) dataset. We evaluate both the generated
+answer and its corresponding structure and show the effectiveness of
+planning-based models in comparison to a text-to-text model.",2021-12-08
+"Search and Learn: Improving Semantic Coverage for Data-to-Text
+  Generation",2021-12-06 03:51:56+00:00,http://arxiv.org/abs/2112.02770v1,"Shailza Jolly, Zi Xuan Zhang, Andreas Dengel, Lili Mou",cs.CL,table2text,"Data-to-text generation systems aim to generate text descriptions based on
+input data (often represented in the tabular form). A typical system uses huge
+training samples for learning the correspondence between tables and texts.
+However, large training sets are expensive to obtain, limiting the
+applicability of these approaches in real-world scenarios. In this work, we
+focus on few-shot data-to-text generation. We observe that, while fine-tuned
+pretrained language models may generate plausible sentences, they suffer from
+the low semantic coverage problem in the few-shot setting. In other words,
+important input slots tend to be missing in the generated text. To this end, we
+propose a search-and-learning approach that leverages pretrained language
+models but inserts the missing slots to improve the semantic coverage. We
+further fine-tune our system based on the search results to smooth out the
+search noise, yielding better-quality text and improving inference efficiency
+to a large extent. Experiments show that our model achieves high performance on
+E2E and WikiBio datasets. Especially, we cover 98.35% of input slots on E2E,
+largely alleviating the low coverage problem.",2021-12-06
+"Representation Learning for Conversational Data using Discourse Mutual
+  Information Maximization",2021-12-04 13:17:07+00:00,http://arxiv.org/abs/2112.05787v1,"Bishal Santra, Sumegh Roychowdhury, Aishik Mandal, Vasu Gurram, Atharva Naik, Manish Gupta, Pawan Goyal",cs.CL,table2text,"Although many pretrained models exist for text or images, there have been
+relatively fewer attempts to train representations specifically for dialog
+understanding. Prior works usually relied on finetuned representations based on
+generic text representation models like BERT or GPT-2. But, existing
+pretraining objectives do not take the structural information of text into
+consideration. Although generative dialog models can learn structural features
+too, we argue that the structure-unaware word-by-word generation is not
+suitable for effective conversation modeling. We empirically demonstrate that
+such representations do not perform consistently across various dialog
+understanding tasks. Hence, we propose a structure-aware Mutual Information
+based loss-function DMI (Discourse Mutual Information) for training
+dialog-representation models, that additionally captures the inherent
+uncertainty in response prediction. Extensive evaluation on nine diverse dialog
+modeling tasks shows that our proposed DMI-based models outperform strong
+baselines by significant margins, even with small-scale pretraining. Our models
+show the most promising performance on the dialog evaluation task
+DailyDialog++, in both random and adversarial negative scenarios.",2021-12-04
 "LOGEN: Few-shot Logical Knowledge-Conditioned Text Generation with
   Self-training",2021-12-02 16:49:41+00:00,http://arxiv.org/abs/2112.01404v1,"Ningyu Zhang, Hongbin Ye, Jiacheng Yang, Shumin Deng, Chuanqi Tan, Mosha Chen, Songfang Huang, Fei Huang, Huajun Chen","cs.CL, cs.AI",table2text,"Natural language generation from structured data mainly focuses on
 surface-level descriptions, suffering from uncontrollable content selection and

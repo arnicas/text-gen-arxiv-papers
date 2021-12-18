@@ -7,10 +7,21 @@ sidebar:
 ---
 
 
-*written on 2021-12-05*
+*written on 2021-12-18*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [NeuroLogic A*esque Decoding: Constrained Text Generation with Lookahead  Heuristics](http://arxiv.org/abs/2112.08726v1) | Ximing Lu, Sean Welleck, Peter West, Liwei Jiang, Jungo Kasai, Daniel Khashabi, Ronan Le Bras, Lianhui Qin, Youngjae Yu, Rowan Zellers, Noah A. Smith, Yejin Choi | cs.CL | 2021-12-16 |
+| [DSGPT: Domain-Specific Generative Pre-Training of Transformers for Text  Generation in E-commerce Title and Review Summarization](http://arxiv.org/abs/2112.08414v1) | Xueying Zhang, Yunjiang Jiang, Yue Shang, Zhaomeng Cheng, Chi Zhang, Xiaochuan Fan, Yun Xiao, Bo Long | cs.CL, cs.AI | 2021-12-15 |
+| [Simple Text Detoxification by Identifying a Linear Toxic Subspace in  Language Model Embeddings](http://arxiv.org/abs/2112.08346v1) | Andrew Wang, Mohit Sudhakar, Yangfeng Ji | cs.CL, cs.LG | 2021-12-15 |
+| [Improving Logical-Level Natural Language Generation with  Topic-Conditioned Data Augmentation and Logical Form Generation](http://arxiv.org/abs/2112.06240v1) | Ao Liu, Congjian Luo, Naoaki Okazaki | cs.CL | 2021-12-12 |
+| [Discourse-Aware Prompt Design for Text Generation](http://arxiv.org/abs/2112.05717v1) | Marjan Ghazvininejad, Vladimir Karpukhin, Asli Celikyilmaz | cs.CL, cs.LG, stat.ML | 2021-12-10 |
+| [Unified Multimodal Pre-training and Prompt-based Tuning for  Vision-Language Understanding and Generation](http://arxiv.org/abs/2112.05587v2) | Tianyi Liu, Zuxuan Wu, Wenhan Xiong, Jingjing Chen, Yu-Gang Jiang | cs.CV, cs.CL, cs.LG | 2021-12-10 |
+| [MAGMA -- Multimodal Augmentation of Generative Models through  Adapter-based Finetuning](http://arxiv.org/abs/2112.05253v1) | Constantin Eichenberg, Sidney Black, Samuel Weinbach, Letitia Parcalabescu, Anette Frank | cs.CV, cs.CL, I.2.7; I.4.8; I.5.1 | 2021-12-09 |
+| [Self-Supervised Image-to-Text and Text-to-Image Synthesis](http://arxiv.org/abs/2112.04928v1) | Anindya Sundar Das, Sriparna Saha | cs.CV, cs.CL, cs.LG | 2021-12-09 |
+| [Does Structure Matter? Leveraging Data-to-Text Generation for Answering  Complex Information Needs](http://arxiv.org/abs/2112.04344v1) | Hanane Djeddal, Thomas Gerald, Laure Soulier, Karen Pinel-Sauvagnat, Lynda Tamine | cs.CL, cs.IR, cs.LG | 2021-12-08 |
+| [Search and Learn: Improving Semantic Coverage for Data-to-Text  Generation](http://arxiv.org/abs/2112.02770v1) | Shailza Jolly, Zi Xuan Zhang, Andreas Dengel, Lili Mou | cs.CL | 2021-12-06 |
+| [Representation Learning for Conversational Data using Discourse Mutual  Information Maximization](http://arxiv.org/abs/2112.05787v1) | Bishal Santra, Sumegh Roychowdhury, Aishik Mandal, Vasu Gurram, Atharva Naik, Manish Gupta, Pawan Goyal | cs.CL | 2021-12-04 |
 | [LOGEN: Few-shot Logical Knowledge-Conditioned Text Generation with  Self-training](http://arxiv.org/abs/2112.01404v1) | Ningyu Zhang, Hongbin Ye, Jiacheng Yang, Shumin Deng, Chuanqi Tan, Mosha Chen, Songfang Huang, Fei Huang, Huajun Chen | cs.CL, cs.AI | 2021-12-02 |
 | [LAFITE: Towards Language-Free Training for Text-to-Image Generation](http://arxiv.org/abs/2111.13792v1) | Yufan Zhou, Ruiyi Zhang, Changyou Chen, Chunyuan Li, Chris Tensmeyer, Tong Yu, Jiuxiang Gu, Jinhui Xu, Tong Sun | cs.CV, cs.LG | 2021-11-27 |
 | [Octree Transformer: Autoregressive 3D Shape Generation on Hierarchically  Structured Sequences](http://arxiv.org/abs/2111.12480v1) | Moritz Ibing, Gregor Kobsik, Leif Kobbelt | cs.CV, cs.GR, cs.LG | 2021-11-24 |

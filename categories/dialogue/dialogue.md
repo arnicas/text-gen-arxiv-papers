@@ -7,10 +7,15 @@ sidebar:
 ---
 
 
-*written on 2021-11-26*
+*written on 2021-12-18*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Taming Repetition in Dialogue Generation](http://arxiv.org/abs/2112.08657v1) | Yadong Xi, Jiashu Pu, Xiaoxi Mao | cs.CL | 2021-12-16 |
+| [DG2: Data Augmentation Through Document Grounded Dialogue Generation](http://arxiv.org/abs/2112.08342v1) | Qingyang Wu, Song Feng, Derek Chen, Sachindra Joshi, Luis A. Lastras, Zhou Yu | cs.CL | 2021-12-15 |
+| [Dynamic Human Evaluation for Relative Model Comparisons](http://arxiv.org/abs/2112.08048v1) | Thórhildur Thorleiksdóttir, Cedric Renggli, Nora Hollenstein, Ce Zhang | cs.CL | 2021-12-15 |
+| [Controlled Cue Generation for Play Scripts](http://arxiv.org/abs/2112.06953v1) | Alara Dirik, Hilal Donmez, Pinar Yanardag | cs.CL, cs.AI, cs.LG | 2021-12-13 |
+| [Representation Learning for Conversational Data using Discourse Mutual  Information Maximization](http://arxiv.org/abs/2112.05787v1) | Bishal Santra, Sumegh Roychowdhury, Aishik Mandal, Vasu Gurram, Atharva Naik, Manish Gupta, Pawan Goyal | cs.CL | 2021-12-04 |
 | [Realistic simulation of users for IT systems in cyber ranges](http://arxiv.org/abs/2111.11785v1) | Alexandre Dey, Benjamin Costé, Éric Totel, Adrien Bécue | cs.AI, cs.CR | 2021-11-23 |
 | [MEDCOD: A Medically-Accurate, Emotive, Diverse, and Controllable Dialog  System](http://arxiv.org/abs/2111.09381v1) | Rhys Compton, Ilya Valmianski, Li Deng, Costa Huang, Namit Katariya, Xavier Amatriain, Anitha Kannan | cs.CL, cs.AI, cs.LG | 2021-11-17 |
 | [A Review of Dialogue Systems: From Trained Monkeys to Stochastic Parrots](http://arxiv.org/abs/2111.01414v1) | Atharv Singh Patlan, Shiven Tripathi, Shubham Korde | cs.CL, cs.AI | 2021-11-02 |

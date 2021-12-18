@@ -7,10 +7,16 @@ sidebar:
 ---
 
 
-*written on 2021-12-05*
+*written on 2021-12-18*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Guiding Neural Story Generation with Reader Models](http://arxiv.org/abs/2112.08596v1) | Xiangyu Peng, Kaige Xie, Amal Alabdulkarim, Harshith Kayam, Samihan Dani, Mark O. Riedl | cs.CL | 2021-12-16 |
+| [Goal-Directed Story Generation: Augmenting Generative Language Models  with Reinforcement Learning](http://arxiv.org/abs/2112.08593v1) | Amal Alabdulkarim, Winston Li, Lara J. Martin, Mark O. Riedl | cs.CL, cs.AI | 2021-12-16 |
+| [TopNet: Learning from Neural Topic Model to Generate Long Stories](http://arxiv.org/abs/2112.07259v1) | Yazheng Yang, Boyuan Pan, Deng Cai, Huan Sun | cs.LG, cs.CL | 2021-12-14 |
+| [Contextualized Scene Imagination for Generative Commonsense Reasoning](http://arxiv.org/abs/2112.06318v1) | PeiFeng Wang, Jonathan Zamora, Junfeng Liu, Filip Ilievski, Muhao Chen, Xiang Ren | cs.CL | 2021-12-12 |
+| [Show and Write: Entity-aware News Generation with Image Information](http://arxiv.org/abs/2112.05917v1) | Zhongping Zhang, Yiwen Gu, Bryan A. Plummer | cs.CL | 2021-12-11 |
+| [Automated Story Generation as Question-Answering](http://arxiv.org/abs/2112.03808v1) | Louis Castricato, Spencer Frazier, Jonathan Balloch, Nitya Tarakad, Mark Riedl | cs.CL | 2021-12-07 |
 | [Mutltimodal AI Companion for Interactive Fairytale Co-creation](http://arxiv.org/abs/2112.00331v1) | Ruiyang Liu, Predrag K. Nikolic | cs.MM | 2021-12-01 |
 | [Exploring Story Generation with Multi-task Objectives in Variational  Autoencoders](http://arxiv.org/abs/2111.08133v1) | Zhuohan Xie, Trevor Cohn, Jey Han Lau | cs.CL, cs.LG | 2021-11-15 |
 | [A Novel Corpus of Discourse Structure in Humans and Computers](http://arxiv.org/abs/2111.05940v1) | Babak Hemmatian, Sheridan Feucht, Rachel Avram, Alexander Wey, Muskaan Garg, Kate Spitalnic, Carsten Eickhoff, Ellie Pavlick, Bjorn Sandstede, Steven Sloman | cs.CL | 2021-11-10 |

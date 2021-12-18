@@ -1,4 +1,76 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Taming Repetition in Dialogue Generation,2021-12-16 06:25:46+00:00,http://arxiv.org/abs/2112.08657v1,"Yadong Xi, Jiashu Pu, Xiaoxi Mao",cs.CL,dialogue,"The wave of pre-training language models has been continuously improving the
+quality of the machine-generated conversations, however, some of the generated
+responses still suffer from excessive repetition, sometimes repeating words
+from utterance, sometimes repeating words within self-generated responses, or
+both. Inappropriate repetition of words can significantly degrade the quality
+of the generated texts. Penalized sampling is one popular solution, reducing
+the sampling probability of existing words during inference, however, it is
+highly vulnerable to the inappropriate setting of the static weight. Setting it
+too high can yield strange and unrealistic sentences while setting it too low
+makes the task of suppressing repetition trivial. To remedy the shortcomings of
+the above methods, we design a context-aware classifier to explicitly decide
+when to allow repetition and when to employ penalized sampling. Such a
+classifier can be easily integrated with existing decoding methods, reducing
+repetitions where appropriate while preserving the diversity of the text.
+Experimental results demonstrate that our method can generate higher quality
+and more authentic dialogues.",2021-12-16
+DG2: Data Augmentation Through Document Grounded Dialogue Generation,2021-12-15 18:50:14+00:00,http://arxiv.org/abs/2112.08342v1,"Qingyang Wu, Song Feng, Derek Chen, Sachindra Joshi, Luis A. Lastras, Zhou Yu",cs.CL,dialogue,"Collecting data for training dialog systems can be extremely expensive due to
+the involvement of human participants and need for extensive annotation.
+Especially in document-grounded dialog systems, human experts need to carefully
+read the unstructured documents to answer the users' questions. As a result,
+existing document-grounded dialog datasets are relatively small-scale and
+obstruct the effective training of dialogue systems. In this paper, we propose
+an automatic data augmentation technique grounded on documents through a
+generative dialogue model. The dialogue model consists of a user bot and agent
+bot that can synthesize diverse dialogues given an input document, which are
+then used to train a downstream model. When supplementing the original dataset,
+our method achieves significant improvement over traditional data augmentation
+methods. We also achieve great performance in the low-resource setting.",2021-12-15
+Dynamic Human Evaluation for Relative Model Comparisons,2021-12-15 11:32:13+00:00,http://arxiv.org/abs/2112.08048v1,"Thórhildur Thorleiksdóttir, Cedric Renggli, Nora Hollenstein, Ce Zhang",cs.CL,dialogue,"Collecting human judgements is currently the most reliable evaluation method
+for natural language generation systems. Automatic metrics have reported flaws
+when applied to measure quality aspects of generated text and have been shown
+to correlate poorly with human judgements. However, human evaluation is time
+and cost-intensive, and we lack consensus on designing and conducting human
+evaluation experiments. Thus there is a need for streamlined approaches for
+efficient collection of human judgements when evaluating natural language
+generation systems. Therefore, we present a dynamic approach to measure the
+required number of human annotations when evaluating generated outputs in
+relative comparison settings. We propose an agent-based framework of human
+evaluation to assess multiple labelling strategies and methods to decide the
+better model in a simulation and a crowdsourcing case study. The main results
+indicate that a decision about the superior model can be made with high
+probability across different labelling strategies, where assigning a single
+random worker per task requires the least overall labelling effort and thus the
+least cost.",2021-12-15
+Controlled Cue Generation for Play Scripts,2021-12-13 19:00:17+00:00,http://arxiv.org/abs/2112.06953v1,"Alara Dirik, Hilal Donmez, Pinar Yanardag","cs.CL, cs.AI, cs.LG",dialogue,"In this paper, we use a large-scale play scripts dataset to propose the novel
+task of theatrical cue generation from dialogues. Using over one million lines
+of dialogue and cues, we approach the problem of cue generation as a controlled
+text generation task, and show how cues can be used to enhance the impact of
+dialogue using a language model conditioned on a dialogue/cue discriminator. In
+addition, we explore the use of topic keywords and emotions for controlled text
+generation. Extensive quantitative and qualitative experiments show that
+language models can be successfully used to generate plausible and
+attribute-controlled texts in highly specialised domains such as play scripts.
+Supporting materials can be found at: https://catlab-team.github.io/cuegen.",2021-12-13
+"Representation Learning for Conversational Data using Discourse Mutual
+  Information Maximization",2021-12-04 13:17:07+00:00,http://arxiv.org/abs/2112.05787v1,"Bishal Santra, Sumegh Roychowdhury, Aishik Mandal, Vasu Gurram, Atharva Naik, Manish Gupta, Pawan Goyal",cs.CL,dialogue,"Although many pretrained models exist for text or images, there have been
+relatively fewer attempts to train representations specifically for dialog
+understanding. Prior works usually relied on finetuned representations based on
+generic text representation models like BERT or GPT-2. But, existing
+pretraining objectives do not take the structural information of text into
+consideration. Although generative dialog models can learn structural features
+too, we argue that the structure-unaware word-by-word generation is not
+suitable for effective conversation modeling. We empirically demonstrate that
+such representations do not perform consistently across various dialog
+understanding tasks. Hence, we propose a structure-aware Mutual Information
+based loss-function DMI (Discourse Mutual Information) for training
+dialog-representation models, that additionally captures the inherent
+uncertainty in response prediction. Extensive evaluation on nine diverse dialog
+modeling tasks shows that our proposed DMI-based models outperform strong
+baselines by significant margins, even with small-scale pretraining. Our models
+show the most promising performance on the dialog evaluation task
+DailyDialog++, in both random and adversarial negative scenarios.",2021-12-04
 Realistic simulation of users for IT systems in cyber ranges,2021-11-23 10:53:29+00:00,http://arxiv.org/abs/2111.11785v1,"Alexandre Dey, Benjamin Costé, Éric Totel, Adrien Bécue","cs.AI, cs.CR",dialogue,"Generating user activity is a key capability for both evaluating security
 monitoring tools as well as improving the credibility of attacker analysis
 platforms (e.g., honeynets). In this paper, to generate this activity, we

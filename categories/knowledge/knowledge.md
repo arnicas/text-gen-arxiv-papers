@@ -7,10 +7,18 @@ sidebar:
 ---
 
 
-*written on 2021-12-05*
+*written on 2021-12-18*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Goal-Directed Story Generation: Augmenting Generative Language Models  with Reinforcement Learning](http://arxiv.org/abs/2112.08593v1) | Amal Alabdulkarim, Winston Li, Lara J. Martin, Mark O. Riedl | cs.CL, cs.AI | 2021-12-16 |
+| [DSGPT: Domain-Specific Generative Pre-Training of Transformers for Text  Generation in E-commerce Title and Review Summarization](http://arxiv.org/abs/2112.08414v1) | Xueying Zhang, Yunjiang Jiang, Yue Shang, Zhaomeng Cheng, Chi Zhang, Xiaochuan Fan, Yun Xiao, Bo Long | cs.CL, cs.AI | 2021-12-15 |
+| [Contextualized Scene Imagination for Generative Commonsense Reasoning](http://arxiv.org/abs/2112.06318v1) | PeiFeng Wang, Jonathan Zamora, Junfeng Liu, Filip Ilievski, Muhao Chen, Xiang Ren | cs.CL | 2021-12-12 |
+| [Improving Logical-Level Natural Language Generation with  Topic-Conditioned Data Augmentation and Logical Form Generation](http://arxiv.org/abs/2112.06240v1) | Ao Liu, Congjian Luo, Naoaki Okazaki | cs.CL | 2021-12-12 |
+| [Protecting Your NLG Models with Semantic and Robust Watermarks](http://arxiv.org/abs/2112.05428v1) | Tao Xiang, Chunlong Xie, Shangwei Guo, Jiwei Li, Tianwei Zhang | cs.MM | 2021-12-10 |
+| [MAGMA -- Multimodal Augmentation of Generative Models through  Adapter-based Finetuning](http://arxiv.org/abs/2112.05253v1) | Constantin Eichenberg, Sidney Black, Samuel Weinbach, Letitia Parcalabescu, Anette Frank | cs.CV, cs.CL, I.2.7; I.4.8; I.5.1 | 2021-12-09 |
+| [Search and Learn: Improving Semantic Coverage for Data-to-Text  Generation](http://arxiv.org/abs/2112.02770v1) | Shailza Jolly, Zi Xuan Zhang, Andreas Dengel, Lili Mou | cs.CL | 2021-12-06 |
+| [Protecting Intellectual Property of Language Generation APIs with  Lexical Watermark](http://arxiv.org/abs/2112.02701v1) | Xuanli He, Qiongkai Xu, Lingjuan Lyu, Fangzhao Wu, Chenguang Wang | cs.CR, cs.CL | 2021-12-05 |
 | [LOGEN: Few-shot Logical Knowledge-Conditioned Text Generation with  Self-training](http://arxiv.org/abs/2112.01404v1) | Ningyu Zhang, Hongbin Ye, Jiacheng Yang, Shumin Deng, Chuanqi Tan, Mosha Chen, Songfang Huang, Fei Huang, Huajun Chen | cs.CL, cs.AI | 2021-12-02 |
 | [LAFITE: Towards Language-Free Training for Text-to-Image Generation](http://arxiv.org/abs/2111.13792v1) | Yufan Zhou, Ruiyi Zhang, Changyou Chen, Chunyuan Li, Chris Tensmeyer, Tong Yu, Jiuxiang Gu, Jinhui Xu, Tong Sun | cs.CV, cs.LG | 2021-11-27 |
 | [RDF-to-Text Generation with Reinforcement Learning Based Graph-augmented  Structural Neural Encoders](http://arxiv.org/abs/2111.10545v1) | Hanning Gao, Lingfei Wu, Po Hu, Zhihua Wei, Fangli Xu, Bo Long | cs.CL, cs.AI | 2021-11-20 |

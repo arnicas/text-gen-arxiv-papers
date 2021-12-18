@@ -7,10 +7,18 @@ sidebar:
 ---
 
 
-*written on 2021-12-05*
+*written on 2021-12-18*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Contextualized Scene Imagination for Generative Commonsense Reasoning](http://arxiv.org/abs/2112.06318v1) | PeiFeng Wang, Jonathan Zamora, Junfeng Liu, Filip Ilievski, Muhao Chen, Xiang Ren | cs.CL | 2021-12-12 |
+| [Improving Logical-Level Natural Language Generation with  Topic-Conditioned Data Augmentation and Logical Form Generation](http://arxiv.org/abs/2112.06240v1) | Ao Liu, Congjian Luo, Naoaki Okazaki | cs.CL | 2021-12-12 |
+| [Show and Write: Entity-aware News Generation with Image Information](http://arxiv.org/abs/2112.05917v1) | Zhongping Zhang, Yiwen Gu, Bryan A. Plummer | cs.CL | 2021-12-11 |
+| [Unified Multimodal Pre-training and Prompt-based Tuning for  Vision-Language Understanding and Generation](http://arxiv.org/abs/2112.05587v2) | Tianyi Liu, Zuxuan Wu, Wenhan Xiong, Jingjing Chen, Yu-Gang Jiang | cs.CV, cs.CL, cs.LG | 2021-12-10 |
+| [Self-Supervised Image-to-Text and Text-to-Image Synthesis](http://arxiv.org/abs/2112.04928v1) | Anindya Sundar Das, Sriparna Saha | cs.CV, cs.CL, cs.LG | 2021-12-09 |
+| [Search and Learn: Improving Semantic Coverage for Data-to-Text  Generation](http://arxiv.org/abs/2112.02770v1) | Shailza Jolly, Zi Xuan Zhang, Andreas Dengel, Lili Mou | cs.CL | 2021-12-06 |
+| [Protecting Intellectual Property of Language Generation APIs with  Lexical Watermark](http://arxiv.org/abs/2112.02701v1) | Xuanli He, Qiongkai Xu, Lingjuan Lyu, Fangzhao Wu, Chenguang Wang | cs.CR, cs.CL | 2021-12-05 |
+| [Representation Learning for Conversational Data using Discourse Mutual  Information Maximization](http://arxiv.org/abs/2112.05787v1) | Bishal Santra, Sumegh Roychowdhury, Aishik Mandal, Vasu Gurram, Atharva Naik, Manish Gupta, Pawan Goyal | cs.CL | 2021-12-04 |
 | [LOGEN: Few-shot Logical Knowledge-Conditioned Text Generation with  Self-training](http://arxiv.org/abs/2112.01404v1) | Ningyu Zhang, Hongbin Ye, Jiacheng Yang, Shumin Deng, Chuanqi Tan, Mosha Chen, Songfang Huang, Fei Huang, Huajun Chen | cs.CL, cs.AI | 2021-12-02 |
 | [Translation-equivariant Image Quantizer for Bi-directional Image-Text  Generation](http://arxiv.org/abs/2112.00384v1) | Woncheol Shin, Gyubok Lee, Jiyoung Lee, Joonseok Lee, Edward Choi | cs.CV, cs.CL, cs.LG | 2021-12-01 |
 | [Zero-Shot Image-to-Text Generation for Visual-Semantic Arithmetic](http://arxiv.org/abs/2111.14447v1) | Yoad Tewel, Yoav Shalev, Idan Schwartz, Lior Wolf | cs.CV, cs.AI, cs.CL | 2021-11-29 |
