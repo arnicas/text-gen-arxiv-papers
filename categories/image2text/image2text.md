@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-12-18*
+*written on 2021-12-29*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Automatic Product Copywriting for E-Commerce](http://arxiv.org/abs/2112.11915v1) | Xueying Zhang, Yanyan Zou, Hainan Zhang, Jing Zhou, Shiliang Diao, Jiajia Chen, Zhuoye Ding, Zhen He, Xueqi He, Yun Xiao, Bo Long, Han Yu, Lingfei Wu | cs.CL, cs.AI | 2021-12-15 |
 | [Contextualized Scene Imagination for Generative Commonsense Reasoning](http://arxiv.org/abs/2112.06318v1) | PeiFeng Wang, Jonathan Zamora, Junfeng Liu, Filip Ilievski, Muhao Chen, Xiang Ren | cs.CL | 2021-12-12 |
 | [Improving Logical-Level Natural Language Generation with  Topic-Conditioned Data Augmentation and Logical Form Generation](http://arxiv.org/abs/2112.06240v1) | Ao Liu, Congjian Luo, Naoaki Okazaki | cs.CL | 2021-12-12 |
 | [Show and Write: Entity-aware News Generation with Image Information](http://arxiv.org/abs/2112.05917v1) | Zhongping Zhang, Yiwen Gu, Bryan A. Plummer | cs.CL | 2021-12-11 |

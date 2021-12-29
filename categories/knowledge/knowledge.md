@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2021-12-18*
+*written on 2021-12-29*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [A Preliminary Study for Literary Rhyme Generation based on Neuronal  Representation, Semantics and Shallow Parsing](http://arxiv.org/abs/2112.13241v1) | Luis-Gil Moreno-Jiménez, Juan-Manuel Torres-Moreno, Roseli S. Wedemann | cs.CL, cs.AI | 2021-12-25 |
+| [Counterfactual Memorization in Neural Language Models](http://arxiv.org/abs/2112.12938v1) | Chiyuan Zhang, Daphne Ippolito, Katherine Lee, Matthew Jagielski, Florian Tramèr, Nicholas Carlini | cs.CL, cs.AI, cs.LG | 2021-12-24 |
+| [Word Graph Guided Summarization for Radiology Findings](http://arxiv.org/abs/2112.09925v1) | Jinpeng Hu, Jianling Li, Zhihong Chen, Yaling Shen, Yan Song, Xiang Wan, Tsung-Hui Chang | cs.CL | 2021-12-18 |
 | [Goal-Directed Story Generation: Augmenting Generative Language Models  with Reinforcement Learning](http://arxiv.org/abs/2112.08593v1) | Amal Alabdulkarim, Winston Li, Lara J. Martin, Mark O. Riedl | cs.CL, cs.AI | 2021-12-16 |
 | [DSGPT: Domain-Specific Generative Pre-Training of Transformers for Text  Generation in E-commerce Title and Review Summarization](http://arxiv.org/abs/2112.08414v1) | Xueying Zhang, Yunjiang Jiang, Yue Shang, Zhaomeng Cheng, Chi Zhang, Xiaochuan Fan, Yun Xiao, Bo Long | cs.CL, cs.AI | 2021-12-15 |
 | [Contextualized Scene Imagination for Generative Commonsense Reasoning](http://arxiv.org/abs/2112.06318v1) | PeiFeng Wang, Jonathan Zamora, Junfeng Liu, Filip Ilievski, Muhao Chen, Xiang Ren | cs.CL | 2021-12-12 |

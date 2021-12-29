@@ -1,4 +1,17 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Measuring Attribution in Natural Language Generation Models,2021-12-23 22:33:20+00:00,http://arxiv.org/abs/2112.12870v1,"Hannah Rashkin, Vitaly Nikolaev, Matthew Lamm, Michael Collins, Dipanjan Das, Slav Petrov, Gaurav Singh Tomar, Iulia Turc, David Reitter",cs.CL,dialogue,"With recent improvements in natural language generation (NLG) models for
+various applications, it has become imperative to have the means to identify
+and evaluate whether NLG output is only sharing verifiable information about
+the external world. In this work, we present a new evaluation framework
+entitled Attributable to Identified Sources (AIS) for assessing the output of
+natural language generation models, when such output pertains to the external
+world. We first define AIS and introduce a two-stage annotation pipeline for
+allowing annotators to appropriately evaluate model output according to AIS
+guidelines. We empirically validate this approach on three generation datasets
+(two in the conversational QA domain and one in summarization) via human
+evaluation studies that suggest that AIS could serve as a common framework for
+measuring whether model-generated statements are supported by underlying
+sources. We release guidelines for the human evaluation studies.",2021-12-23
 Taming Repetition in Dialogue Generation,2021-12-16 06:25:46+00:00,http://arxiv.org/abs/2112.08657v1,"Yadong Xi, Jiashu Pu, Xiaoxi Mao",cs.CL,dialogue,"The wave of pre-training language models has been continuously improving the
 quality of the machine-generated conversations, however, some of the generated
 responses still suffer from excessive repetition, sometimes repeating words

@@ -7,10 +7,15 @@ sidebar:
 ---
 
 
-*written on 2021-12-18*
+*written on 2021-12-29*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [A Preliminary Study for Literary Rhyme Generation based on Neuronal  Representation, Semantics and Shallow Parsing](http://arxiv.org/abs/2112.13241v1) | Luis-Gil Moreno-Jiménez, Juan-Manuel Torres-Moreno, Roseli S. Wedemann | cs.CL, cs.AI | 2021-12-25 |
+| [Counterfactual Memorization in Neural Language Models](http://arxiv.org/abs/2112.12938v1) | Chiyuan Zhang, Daphne Ippolito, Katherine Lee, Matthew Jagielski, Florian Tramèr, Nicholas Carlini | cs.CL, cs.AI, cs.LG | 2021-12-24 |
+| [A Survey of Natural Language Generation](http://arxiv.org/abs/2112.11739v1) | Chenhe Dong, Yinghui Li, Haifan Gong, Miaoxin Chen, Junxin Li, Ying Shen, Min Yang | cs.CL, cs.AI, cs.LG | 2021-12-22 |
+| [May the Force Be with Your Copy Mechanism: Enhanced Supervised-Copy  Method for Natural Language Generation](http://arxiv.org/abs/2112.10360v1) | Sanghyuk Choi, Jeong-in Hwang, Hyungjong Noh, Yeonsoo Lee | cs.CL | 2021-12-20 |
+| [Data Augmentation for Mental Health Classification on Social Media](http://arxiv.org/abs/2112.10064v1) | Gunjan Ansari, Muskan Garg, Chandni Saxena | cs.CL | 2021-12-19 |
 | [NeuroLogic A*esque Decoding: Constrained Text Generation with Lookahead  Heuristics](http://arxiv.org/abs/2112.08726v1) | Ximing Lu, Sean Welleck, Peter West, Liwei Jiang, Jungo Kasai, Daniel Khashabi, Ronan Le Bras, Lianhui Qin, Youngjae Yu, Rowan Zellers, Noah A. Smith, Yejin Choi | cs.CL | 2021-12-16 |
 | [DSGPT: Domain-Specific Generative Pre-Training of Transformers for Text  Generation in E-commerce Title and Review Summarization](http://arxiv.org/abs/2112.08414v1) | Xueying Zhang, Yunjiang Jiang, Yue Shang, Zhaomeng Cheng, Chi Zhang, Xiaochuan Fan, Yun Xiao, Bo Long | cs.CL, cs.AI | 2021-12-15 |
 | [Simple Text Detoxification by Identifying a Linear Toxic Subspace in  Language Model Embeddings](http://arxiv.org/abs/2112.08346v1) | Andrew Wang, Mohit Sudhakar, Yangfeng Ji | cs.CL, cs.LG | 2021-12-15 |
