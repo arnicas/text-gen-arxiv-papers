@@ -1,4 +1,53 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"ERNIE-ViLG: Unified Generative Pre-training for Bidirectional
+  Vision-Language Generation",2021-12-31 03:53:33+00:00,http://arxiv.org/abs/2112.15283v1,"Han Zhang, Weichong Yin, Yewei Fang, Lanxin Li, Boqiang Duan, Zhihua Wu, Yu Sun, Hao Tian, Hua Wu, Haifeng Wang","cs.CV, cs.CL",knowledge,"Conventional methods for the image-text generation tasks mainly tackle the
+naturally bidirectional generation tasks separately, focusing on designing
+task-specific frameworks to improve the quality and fidelity of the generated
+samples. Recently, Vision-Language Pre-training models have greatly improved
+the performance of the image-to-text generation tasks, but large-scale
+pre-training models for text-to-image synthesis task are still under-developed.
+In this paper, we propose ERNIE-ViLG, a unified generative pre-training
+framework for bidirectional image-text generation with transformer model. Based
+on the image quantization models, we formulate both image generation and text
+generation as autoregressive generative tasks conditioned on the text/image
+input. The bidirectional image-text generative modeling eases the semantic
+alignments across vision and language. For the text-to-image generation
+process, we further propose an end-to-end training method to jointly learn the
+visual sequence generator and the image reconstructor. To explore the landscape
+of large-scale pre-training for bidirectional text-image generation, we train a
+10-billion parameter ERNIE-ViLG model on a large-scale dataset of 145 million
+(Chinese) image-text pairs which achieves state-of-the-art performance for both
+text-to-image and image-to-text tasks, obtaining an FID of 7.9 on MS-COCO for
+text-to-image synthesis and best results on COCO-CN and AIC-ICC for image
+captioning.",2021-12-31
+What is Event Knowledge Graph: A Survey,2021-12-31 03:42:55+00:00,http://arxiv.org/abs/2112.15280v1,"Saiping Guan, Xueqi Cheng, Long Bai, Fujun Zhang, Zixuan Li, Yutao Zeng, Xiaolong Jin, Jiafeng Guo","cs.LG, cs.AI, cs.CL",knowledge,"Besides entity-centric knowledge, usually organized as Knowledge Graph (KG),
+events are also an essential kind of knowledge in the world, which trigger the
+spring up of event-centric knowledge representation form like Event KG (EKG).
+It plays an increasingly important role in many machine learning and artificial
+intelligence applications, such as intelligent search, question-answering,
+recommendation, and text generation. This paper provides a comprehensive survey
+of EKG from history, ontology, instance, and application views. Specifically,
+to characterize EKG thoroughly, we focus on its history, definitions, schema
+induction, acquisition, related representative graphs/systems, and
+applications. The development processes and trends are studied therein. We
+further summarize perspective directions to facilitate future research on EKG.",2021-12-31
+"Radiology Report Generation with a Learned Knowledge Base and
+  Multi-modal Alignment",2021-12-30 10:43:56+00:00,http://arxiv.org/abs/2112.15011v1,"Shuxin Yang, Xian Wu, Shen Ge, Xingwang Wu, S. Kevin Zhou, Li Xiao","eess.IV, cs.CL, cs.CV",knowledge,"In clinics, a radiology report is crucial for guiding a patient's treatment.
+Unfortunately, report writing imposes a heavy burden on radiologists. To
+effectively reduce such a burden, we hereby present an automatic, multi-modal
+approach for report generation from chest x-ray. Our approach, motivated by the
+observation that the descriptions in radiology reports are highly correlated
+with the x-ray images, features two distinct modules: (i) Learned knowledge
+base. To absorb the knowledge embedded in the above-mentioned correlation, we
+automatically build a knowledge base based on textual embedding. (ii)
+Multi-modal alignment. To promote the semantic alignment among reports, disease
+labels and images, we explicitly utilize textual embedding to guide the
+learning of the visual feature space. We evaluate the performance of the
+proposed model using metrics from both natural language generation and clinic
+efficacy on the public IU and MIMIC-CXR datasets. Our ablation study shows that
+each module contributes to improving the quality of generated reports.
+Furthermore, with the aid of both modules, our approach clearly outperforms
+state-of-the-art methods.",2021-12-30
 "A Preliminary Study for Literary Rhyme Generation based on Neuronal
   Representation, Semantics and Shallow Parsing",2021-12-25 14:40:09+00:00,http://arxiv.org/abs/2112.13241v1,"Luis-Gil Moreno-Jiménez, Juan-Manuel Torres-Moreno, Roseli S. Wedemann","cs.CL, cs.AI",knowledge,"In recent years, researchers in the area of Computational Creativity have
 studied the human creative process proposing different approaches to reproduce

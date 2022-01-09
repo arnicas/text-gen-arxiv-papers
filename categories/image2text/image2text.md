@@ -7,10 +7,15 @@ sidebar:
 ---
 
 
-*written on 2021-12-29*
+*written on 2022-01-09*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Self-Training Vision Language BERTs with a Unified Conditional Model](http://arxiv.org/abs/2201.02010v1) | Xiaofeng Yang, Fengmao Lv, Fayao Liu, Guosheng Lin | cs.CV, cs.CL | 2022-01-06 |
+| [Compact Bidirectional Transformer for Image Captioning](http://arxiv.org/abs/2201.01984v1) | Yuanen Zhou, Zhenzhen Hu, Daqing Liu, Huixia Ben, Meng Wang | cs.CV, cs.CL | 2022-01-06 |
+| [StyleM: Stylized Metrics for Image Captioning Built with Contrastive  N-grams](http://arxiv.org/abs/2201.00975v1) | Chengxi Li, Brent Harrison | cs.CV, cs.AI, cs.CL | 2022-01-04 |
+| [ERNIE-ViLG: Unified Generative Pre-training for Bidirectional  Vision-Language Generation](http://arxiv.org/abs/2112.15283v1) | Han Zhang, Weichong Yin, Yewei Fang, Lanxin Li, Boqiang Duan, Zhihua Wu, Yu Sun, Hao Tian, Hua Wu, Haifeng Wang | cs.CV, cs.CL | 2021-12-31 |
+| [Radiology Report Generation with a Learned Knowledge Base and  Multi-modal Alignment](http://arxiv.org/abs/2112.15011v1) | Shuxin Yang, Xian Wu, Shen Ge, Xingwang Wu, S. Kevin Zhou, Li Xiao | eess.IV, cs.CL, cs.CV | 2021-12-30 |
 | [Automatic Product Copywriting for E-Commerce](http://arxiv.org/abs/2112.11915v1) | Xueying Zhang, Yanyan Zou, Hainan Zhang, Jing Zhou, Shiliang Diao, Jiajia Chen, Zhuoye Ding, Zhen He, Xueqi He, Yun Xiao, Bo Long, Han Yu, Lingfei Wu | cs.CL, cs.AI | 2021-12-15 |
 | [Contextualized Scene Imagination for Generative Commonsense Reasoning](http://arxiv.org/abs/2112.06318v1) | PeiFeng Wang, Jonathan Zamora, Junfeng Liu, Filip Ilievski, Muhao Chen, Xiang Ren | cs.CL | 2021-12-12 |
 | [Improving Logical-Level Natural Language Generation with  Topic-Conditioned Data Augmentation and Logical Form Generation](http://arxiv.org/abs/2112.06240v1) | Ao Liu, Congjian Luo, Naoaki Okazaki | cs.CL | 2021-12-12 |

@@ -1,4 +1,85 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Self-Training Vision Language BERTs with a Unified Conditional Model,2022-01-06 11:00:52+00:00,http://arxiv.org/abs/2201.02010v1,"Xiaofeng Yang, Fengmao Lv, Fayao Liu, Guosheng Lin","cs.CV, cs.CL",image2text,"Natural language BERTs are trained with language corpus in a self-supervised
+manner. Unlike natural language BERTs, vision language BERTs need paired data
+to train, which restricts the scale of VL-BERT pretraining. We propose a
+self-training approach that allows training VL-BERTs from unlabeled image data.
+The proposed method starts with our unified conditional model -- a vision
+language BERT model that can perform zero-shot conditional generation. Given
+different conditions, the unified conditional model can generate captions,
+dense captions, and even questions. We use the labeled image data to train a
+teacher model and use the trained model to generate pseudo captions on
+unlabeled image data. We then combine the labeled data and pseudo labeled data
+to train a student model. The process is iterated by putting the student model
+as a new teacher. By using the proposed self-training approach and only 300k
+unlabeled extra data, we are able to get competitive or even better
+performances compared to the models of similar model size trained with 3
+million extra image data.",2022-01-06
+Compact Bidirectional Transformer for Image Captioning,2022-01-06 09:23:18+00:00,http://arxiv.org/abs/2201.01984v1,"Yuanen Zhou, Zhenzhen Hu, Daqing Liu, Huixia Ben, Meng Wang","cs.CV, cs.CL",image2text,"Most current image captioning models typically generate captions from left to
+right. This unidirectional property makes them can only leverage past context
+but not future context. Though recent refinement-based models can exploit both
+past and future context by generating a new caption in the second stage based
+on pre-retrieved or pre-generated captions in the first stage, the decoder of
+these models generally consists of two networks~(i.e. a retriever or captioner
+in the first stage and a refiner in the second stage), which can only be
+executed sequentially. In this paper, we introduce a Compact Bidirectional
+Transformer model for image captioning that can leverage bidirectional context
+implicitly and explicitly while the decoder can be executed parallelly.
+Specifically, it is implemented by tightly coupling left-to-right(L2R) and
+right-to-left(R2L) flows into a single compact model~(i.e. implicitly) and
+optionally allowing interaction of the two flows(i.e. explicitly), while the
+final caption is chosen from either L2R or R2L flow in a sentence-level
+ensemble manner. We conduct extensive ablation studies on the MSCOCO benchmark
+and find that the compact architecture, which serves as a regularization for
+implicitly exploiting bidirectional context, and the sentence-level ensemble
+play more important roles than the explicit interaction mechanism. By combining
+with word-level ensemble seamlessly, the effect of the sentence-level ensemble
+is further enlarged. We further extend the conventional one-flow self-critical
+training to the two-flows version under this architecture and achieve new
+state-of-the-art results in comparison with non-vision-language-pretraining
+models. Source code is available at
+{\color{magenta}\url{https://github.com/YuanEZhou/CBTrans}}.",2022-01-06
+"StyleM: Stylized Metrics for Image Captioning Built with Contrastive
+  N-grams",2022-01-04 04:44:05+00:00,http://arxiv.org/abs/2201.00975v1,"Chengxi Li, Brent Harrison","cs.CV, cs.AI, cs.CL",image2text,"In this paper, we build two automatic evaluation metrics for evaluating the
+association between a machine-generated caption and a ground truth stylized
+caption: OnlyStyle and StyleCIDEr.",2022-01-04
+"ERNIE-ViLG: Unified Generative Pre-training for Bidirectional
+  Vision-Language Generation",2021-12-31 03:53:33+00:00,http://arxiv.org/abs/2112.15283v1,"Han Zhang, Weichong Yin, Yewei Fang, Lanxin Li, Boqiang Duan, Zhihua Wu, Yu Sun, Hao Tian, Hua Wu, Haifeng Wang","cs.CV, cs.CL",image2text,"Conventional methods for the image-text generation tasks mainly tackle the
+naturally bidirectional generation tasks separately, focusing on designing
+task-specific frameworks to improve the quality and fidelity of the generated
+samples. Recently, Vision-Language Pre-training models have greatly improved
+the performance of the image-to-text generation tasks, but large-scale
+pre-training models for text-to-image synthesis task are still under-developed.
+In this paper, we propose ERNIE-ViLG, a unified generative pre-training
+framework for bidirectional image-text generation with transformer model. Based
+on the image quantization models, we formulate both image generation and text
+generation as autoregressive generative tasks conditioned on the text/image
+input. The bidirectional image-text generative modeling eases the semantic
+alignments across vision and language. For the text-to-image generation
+process, we further propose an end-to-end training method to jointly learn the
+visual sequence generator and the image reconstructor. To explore the landscape
+of large-scale pre-training for bidirectional text-image generation, we train a
+10-billion parameter ERNIE-ViLG model on a large-scale dataset of 145 million
+(Chinese) image-text pairs which achieves state-of-the-art performance for both
+text-to-image and image-to-text tasks, obtaining an FID of 7.9 on MS-COCO for
+text-to-image synthesis and best results on COCO-CN and AIC-ICC for image
+captioning.",2021-12-31
+"Radiology Report Generation with a Learned Knowledge Base and
+  Multi-modal Alignment",2021-12-30 10:43:56+00:00,http://arxiv.org/abs/2112.15011v1,"Shuxin Yang, Xian Wu, Shen Ge, Xingwang Wu, S. Kevin Zhou, Li Xiao","eess.IV, cs.CL, cs.CV",image2text,"In clinics, a radiology report is crucial for guiding a patient's treatment.
+Unfortunately, report writing imposes a heavy burden on radiologists. To
+effectively reduce such a burden, we hereby present an automatic, multi-modal
+approach for report generation from chest x-ray. Our approach, motivated by the
+observation that the descriptions in radiology reports are highly correlated
+with the x-ray images, features two distinct modules: (i) Learned knowledge
+base. To absorb the knowledge embedded in the above-mentioned correlation, we
+automatically build a knowledge base based on textual embedding. (ii)
+Multi-modal alignment. To promote the semantic alignment among reports, disease
+labels and images, we explicitly utilize textual embedding to guide the
+learning of the visual feature space. We evaluate the performance of the
+proposed model using metrics from both natural language generation and clinic
+efficacy on the public IU and MIMIC-CXR datasets. Our ablation study shows that
+each module contributes to improving the quality of generated reports.
+Furthermore, with the aid of both modules, our approach clearly outperforms
+state-of-the-art methods.",2021-12-30
 Automatic Product Copywriting for E-Commerce,2021-12-15 19:06:31+00:00,http://arxiv.org/abs/2112.11915v1,"Xueying Zhang, Yanyan Zou, Hainan Zhang, Jing Zhou, Shiliang Diao, Jiajia Chen, Zhuoye Ding, Zhen He, Xueqi He, Yun Xiao, Bo Long, Han Yu, Lingfei Wu","cs.CL, cs.AI",image2text,"Product copywriting is a critical component of e-commerce recommendation
 platforms. It aims to attract users' interest and improve user experience by
 highlighting product characteristics with textual descriptions. In this paper,

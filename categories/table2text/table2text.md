@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2021-12-29*
+*written on 2022-01-09*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [YACLC: A Chinese Learner Corpus with Multidimensional Annotation](http://arxiv.org/abs/2112.15043v1) | Yingying Wang, Cunliang Kong, Liner Yang, Yijun Wang, Xiaorong Lu, Renfen Hu, Shan He, Zhenghao Liu, Yun Chen, Erhong Yang, Maosong Sun | cs.CL | 2021-12-30 |
 | [A Preliminary Study for Literary Rhyme Generation based on Neuronal  Representation, Semantics and Shallow Parsing](http://arxiv.org/abs/2112.13241v1) | Luis-Gil Moreno-Jiménez, Juan-Manuel Torres-Moreno, Roseli S. Wedemann | cs.CL, cs.AI | 2021-12-25 |
 | [Counterfactual Memorization in Neural Language Models](http://arxiv.org/abs/2112.12938v1) | Chiyuan Zhang, Daphne Ippolito, Katherine Lee, Matthew Jagielski, Florian Tramèr, Nicholas Carlini | cs.CL, cs.AI, cs.LG | 2021-12-24 |
 | [A Survey of Natural Language Generation](http://arxiv.org/abs/2112.11739v1) | Chenhe Dong, Yinghui Li, Haifan Gong, Miaoxin Chen, Junxin Li, Ying Shen, Min Yang | cs.CL, cs.AI, cs.LG | 2021-12-22 |

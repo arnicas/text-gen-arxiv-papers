@@ -6,10 +6,13 @@ sidebar:
 ---
 
 
-*written on 2021-12-29*
+*written on 2022-01-09*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [ERNIE-ViLG: Unified Generative Pre-training for Bidirectional  Vision-Language Generation](http://arxiv.org/abs/2112.15283v1) | Han Zhang, Weichong Yin, Yewei Fang, Lanxin Li, Boqiang Duan, Zhihua Wu, Yu Sun, Hao Tian, Hua Wu, Haifeng Wang | cs.CV, cs.CL | 2021-12-31 |
+| [What is Event Knowledge Graph: A Survey](http://arxiv.org/abs/2112.15280v1) | Saiping Guan, Xueqi Cheng, Long Bai, Fujun Zhang, Zixuan Li, Yutao Zeng, Xiaolong Jin, Jiafeng Guo | cs.LG, cs.AI, cs.CL | 2021-12-31 |
+| [Radiology Report Generation with a Learned Knowledge Base and  Multi-modal Alignment](http://arxiv.org/abs/2112.15011v1) | Shuxin Yang, Xian Wu, Shen Ge, Xingwang Wu, S. Kevin Zhou, Li Xiao | eess.IV, cs.CL, cs.CV | 2021-12-30 |
 | [A Preliminary Study for Literary Rhyme Generation based on Neuronal  Representation, Semantics and Shallow Parsing](http://arxiv.org/abs/2112.13241v1) | Luis-Gil Moreno-Jiménez, Juan-Manuel Torres-Moreno, Roseli S. Wedemann | cs.CL, cs.AI | 2021-12-25 |
 | [Counterfactual Memorization in Neural Language Models](http://arxiv.org/abs/2112.12938v1) | Chiyuan Zhang, Daphne Ippolito, Katherine Lee, Matthew Jagielski, Florian Tramèr, Nicholas Carlini | cs.CL, cs.AI, cs.LG | 2021-12-24 |
 | [Word Graph Guided Summarization for Radiology Findings](http://arxiv.org/abs/2112.09925v1) | Jinpeng Hu, Jianling Li, Zhihong Chen, Yaling Shen, Yan Song, Xiang Wan, Tsung-Hui Chang | cs.CL | 2021-12-18 |
