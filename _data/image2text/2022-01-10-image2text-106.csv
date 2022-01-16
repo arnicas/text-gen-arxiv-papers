@@ -1,4 +1,18 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Local Information Assisted Attention-free Decoder for Audio Captioning,2022-01-10 08:55:52+00:00,http://arxiv.org/abs/2201.03217v1,"Feiyang Xiao, Jian Guan, Qiaoxi Zhu, Haiyan Lan, Wenwu Wang","cs.SD, cs.LG, eess.AS",image2text,"Automated audio captioning (AAC) aims to describe audio data with captions
+using natural language. Most existing AAC methods adopt an encoder-decoder
+structure, where the attention based mechanism is a popular choice in the
+decoder (e.g., Transformer decoder) for predicting captions from audio
+features. Such attention based decoders can capture the global information from
+the audio features, however, their ability in extracting local information can
+be limited, which may lead to degraded quality in the generated captions. In
+this paper, we present an AAC method with an attention-free decoder, where an
+encoder based on PANNs is employed for audio feature extraction, and the
+attention-free decoder is designed to introduce local information. The proposed
+method enables the effective use of both global and local information from
+audio signals. Experiments show that our method outperforms the
+state-of-the-art methods with the standard attention based decoder in Task 6 of
+the DCASE 2021 Challenge.",2022-01-10
 Self-Training Vision Language BERTs with a Unified Conditional Model,2022-01-06 11:00:52+00:00,http://arxiv.org/abs/2201.02010v1,"Xiaofeng Yang, Fengmao Lv, Fayao Liu, Guosheng Lin","cs.CV, cs.CL",image2text,"Natural language BERTs are trained with language corpus in a self-supervised
 manner. Unlike natural language BERTs, vision language BERTs need paired data
 to train, which restricts the scale of VL-BERT pretraining. We propose a

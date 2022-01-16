@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2022-01-09*
+*written on 2022-01-16*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Local Information Assisted Attention-free Decoder for Audio Captioning](http://arxiv.org/abs/2201.03217v1) | Feiyang Xiao, Jian Guan, Qiaoxi Zhu, Haiyan Lan, Wenwu Wang | cs.SD, cs.LG, eess.AS | 2022-01-10 |
 | [Self-Training Vision Language BERTs with a Unified Conditional Model](http://arxiv.org/abs/2201.02010v1) | Xiaofeng Yang, Fengmao Lv, Fayao Liu, Guosheng Lin | cs.CV, cs.CL | 2022-01-06 |
 | [Compact Bidirectional Transformer for Image Captioning](http://arxiv.org/abs/2201.01984v1) | Yuanen Zhou, Zhenzhen Hu, Daqing Liu, Huixia Ben, Meng Wang | cs.CV, cs.CL | 2022-01-06 |
 | [StyleM: Stylized Metrics for Image Captioning Built with Contrastive  N-grams](http://arxiv.org/abs/2201.00975v1) | Chengxi Li, Brent Harrison | cs.CV, cs.AI, cs.CL | 2022-01-04 |
