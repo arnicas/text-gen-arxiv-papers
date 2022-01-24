@@ -1,4 +1,21 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Inferring Commonsense Explanations as Prompts for Future Event
+  Generation",2022-01-18 16:21:23+00:00,http://arxiv.org/abs/2201.07099v1,"Li Lin, Yixin Cao, Lifu Huang, Shuang Li, Xuming Hu, Lijie Wen, Jianmin Wang","cs.CL, cs.LG, I.2.7; I.2.4",story,"Future Event Generation aims to generate fluent and reasonable future event
+descriptions given preceding events. It requires not only fluent text
+generation but also commonsense reasoning to maintain the coherence of the
+entire event story. However, existing FEG methods are easily trapped into
+repeated or general events without imposing any logical constraint to the
+generation process. In this paper, we propose a novel explainable FEG framework
+that consists of a commonsense inference model (IM) and an event generation
+model (GM). The IM, which is pre-trained on a commonsense knowledge graph
+ATOMIC, learns to interpret the preceding events and conducts commonsense
+reasoning to reveal the characters psychology such as intent, reaction, and
+needs as latent variables. GM further takes the commonsense knowledge as
+prompts to guide and enforce the generation of logistically coherent future
+events. As unique merit, the commonsense prompts can be further decoded into
+textual descriptions, yielding explanations for the future event. Automatic and
+human evaluation demonstrate that our approach can generate more coherent,
+specific, and logical future events than the strong baselines.",2022-01-18
 Guiding Neural Story Generation with Reader Models,2021-12-16 03:44:01+00:00,http://arxiv.org/abs/2112.08596v1,"Xiangyu Peng, Kaige Xie, Amal Alabdulkarim, Harshith Kayam, Samihan Dani, Mark O. Riedl",cs.CL,story,"Automated storytelling has long captured the attention of researchers for the
 ubiquity of narratives in everyday life. However, it is challenging to maintain
 coherence and stay on-topic toward a specific ending when generating narratives

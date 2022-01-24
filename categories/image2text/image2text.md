@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2022-01-16*
+*written on 2022-01-24*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Inferring Commonsense Explanations as Prompts for Future Event  Generation](http://arxiv.org/abs/2201.07099v1) | Li Lin, Yixin Cao, Lifu Huang, Shuang Li, Xuming Hu, Lijie Wen, Jianmin Wang | cs.CL, cs.LG, I.2.7; I.2.4 | 2022-01-18 |
 | [Local Information Assisted Attention-free Decoder for Audio Captioning](http://arxiv.org/abs/2201.03217v1) | Feiyang Xiao, Jian Guan, Qiaoxi Zhu, Haiyan Lan, Wenwu Wang | cs.SD, cs.LG, eess.AS | 2022-01-10 |
 | [Self-Training Vision Language BERTs with a Unified Conditional Model](http://arxiv.org/abs/2201.02010v1) | Xiaofeng Yang, Fengmao Lv, Fayao Liu, Guosheng Lin | cs.CV, cs.CL | 2022-01-06 |
 | [Compact Bidirectional Transformer for Image Captioning](http://arxiv.org/abs/2201.01984v1) | Yuanen Zhou, Zhenzhen Hu, Daqing Liu, Huixia Ben, Meng Wang | cs.CV, cs.CL | 2022-01-06 |

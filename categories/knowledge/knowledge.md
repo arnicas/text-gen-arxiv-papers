@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2022-01-09*
+*written on 2022-01-24*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Context-Tuning: Learning Contextualized Prompts for Natural Language  Generation](http://arxiv.org/abs/2201.08670v1) | Tianyi Tang, Junyi Li, Wayne Xin Zhao | cs.CL | 2022-01-21 |
+| [Inferring Commonsense Explanations as Prompts for Future Event  Generation](http://arxiv.org/abs/2201.07099v1) | Li Lin, Yixin Cao, Lifu Huang, Shuang Li, Xuming Hu, Lijie Wen, Jianmin Wang | cs.CL, cs.LG, I.2.7; I.2.4 | 2022-01-18 |
+| [A Survey of Controllable Text Generation using Transformer-based  Pre-trained Language Models](http://arxiv.org/abs/2201.05337v1) | Hanqing Zhang, Haolin Song, Shaoyu Li, Ming Zhou, Dawei Song | cs.CL | 2022-01-14 |
+| [A Survey of Pretrained Language Models Based Text Generation](http://arxiv.org/abs/2201.05273v1) | Junyi Li, Tianyi Tang, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen | cs.CL | 2022-01-14 |
 | [ERNIE-ViLG: Unified Generative Pre-training for Bidirectional  Vision-Language Generation](http://arxiv.org/abs/2112.15283v1) | Han Zhang, Weichong Yin, Yewei Fang, Lanxin Li, Boqiang Duan, Zhihua Wu, Yu Sun, Hao Tian, Hua Wu, Haifeng Wang | cs.CV, cs.CL | 2021-12-31 |
 | [What is Event Knowledge Graph: A Survey](http://arxiv.org/abs/2112.15280v1) | Saiping Guan, Xueqi Cheng, Long Bai, Fujun Zhang, Zixuan Li, Yutao Zeng, Xiaolong Jin, Jiafeng Guo | cs.LG, cs.AI, cs.CL | 2021-12-31 |
 | [Radiology Report Generation with a Learned Knowledge Base and  Multi-modal Alignment](http://arxiv.org/abs/2112.15011v1) | Shuxin Yang, Xian Wu, Shen Ge, Xingwang Wu, S. Kevin Zhou, Li Xiao | eess.IV, cs.CL, cs.CV | 2021-12-30 |

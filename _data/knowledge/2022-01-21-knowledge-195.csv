@@ -1,4 +1,73 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Context-Tuning: Learning Contextualized Prompts for Natural Language
+  Generation",2022-01-21 12:35:28+00:00,http://arxiv.org/abs/2201.08670v1,"Tianyi Tang, Junyi Li, Wayne Xin Zhao",cs.CL,knowledge,"Recently, pretrained language models (PLMs) have made exceptional success in
+language generation. To leverage the rich knowledge encoded by PLMs, a simple
+yet powerful mechanism is to use prompts, in the form of either discrete tokens
+or continuous embeddings. In existing studies, manual prompts are
+time-consuming and require domain expertise, while continuous prompts are
+typically independent of the inputs. To address this issue, we propose a novel
+continuous prompting approach, called Context-Tuning, to fine-tuning PLMs for
+natural language generation. Firstly, the prompts are derived based on the
+input text, so that they can elicit useful knowledge from PLMs for generation.
+We refer to such prompts as contextualized prompts. Secondly, to further
+enhance the relevance of the generated text to the inputs, we utilize
+continuous inverse prompting to refine the process of natural language
+generation by modeling an inverse generation process from output to input.
+Moreover, we propose a lightweight contexttuning, fine-tuning only 0.4% of
+parameters while retaining well performance.",2022-01-21
+"Inferring Commonsense Explanations as Prompts for Future Event
+  Generation",2022-01-18 16:21:23+00:00,http://arxiv.org/abs/2201.07099v1,"Li Lin, Yixin Cao, Lifu Huang, Shuang Li, Xuming Hu, Lijie Wen, Jianmin Wang","cs.CL, cs.LG, I.2.7; I.2.4",knowledge,"Future Event Generation aims to generate fluent and reasonable future event
+descriptions given preceding events. It requires not only fluent text
+generation but also commonsense reasoning to maintain the coherence of the
+entire event story. However, existing FEG methods are easily trapped into
+repeated or general events without imposing any logical constraint to the
+generation process. In this paper, we propose a novel explainable FEG framework
+that consists of a commonsense inference model (IM) and an event generation
+model (GM). The IM, which is pre-trained on a commonsense knowledge graph
+ATOMIC, learns to interpret the preceding events and conducts commonsense
+reasoning to reveal the characters psychology such as intent, reaction, and
+needs as latent variables. GM further takes the commonsense knowledge as
+prompts to guide and enforce the generation of logistically coherent future
+events. As unique merit, the commonsense prompts can be further decoded into
+textual descriptions, yielding explanations for the future event. Automatic and
+human evaluation demonstrate that our approach can generate more coherent,
+specific, and logical future events than the strong baselines.",2022-01-18
+"A Survey of Controllable Text Generation using Transformer-based
+  Pre-trained Language Models",2022-01-14 08:32:20+00:00,http://arxiv.org/abs/2201.05337v1,"Hanqing Zhang, Haolin Song, Shaoyu Li, Ming Zhou, Dawei Song",cs.CL,knowledge,"Controllable Text Generation (CTG) is emerging area in the field of natural
+language generation (NLG). It is regarded as crucial for the development of
+advanced text generation technologies that are more natural and better meet the
+specific constraints in practical applications. In recent years, methods using
+large-scale pre-trained language models (PLMs), in particular the widely used
+transformer-based PLMs, have become a new paradigm of NLG, allowing generation
+of more diverse and fluent text. However, due to the lower level of
+interpretability of deep neural networks, the controllability of these methods
+need to be guaranteed. To this end, controllable text generation using
+transformer-based PLMs has become a rapidly growing yet challenging new
+research hotspot. A diverse range of approaches have emerged in the recent 3-4
+years, targeting different CTG tasks which may require different types of
+controlled constraints. In this paper, we present a systematic critical review
+on the common tasks, main approaches and evaluation methods in this area.
+Finally, we discuss the challenges that the field is facing, and put forward
+various promising future directions. To the best of our knowledge, this is the
+first survey paper to summarize CTG techniques from the perspective of PLMs. We
+hope it can help researchers in related fields to quickly track the academic
+frontier, providing them with a landscape of the area and a roadmap for future
+research.",2022-01-14
+A Survey of Pretrained Language Models Based Text Generation,2022-01-14 01:44:58+00:00,http://arxiv.org/abs/2201.05273v1,"Junyi Li, Tianyi Tang, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen",cs.CL,knowledge,"Text Generation aims to produce plausible and readable text in human language
+from input data. The resurgence of deep learning has greatly advanced this
+field by neural generation models, especially the paradigm of pretrained
+language models (PLMs). Grounding text generation on PLMs is seen as a
+promising direction in both academia and industry. In this survey, we present
+the recent advances achieved in the topic of PLMs for text generation. In
+detail, we begin with introducing three key points of applying PLMs to text
+generation: 1) how to encode the input data as representations preserving input
+semantics which can be fused into PLMs; 2) how to design a universal and
+performant architecture of PLMs served as generation models; and 3) how to
+optimize PLMs given the reference text and ensure the generated text satisfying
+special text properties. Then, we figure out several challenges and future
+directions within each key point. Next, we present a summary of various useful
+resources and typical text generation applications to work with PLMs. Finally,
+we conclude and summarize the contribution of this survey.",2022-01-14
 "ERNIE-ViLG: Unified Generative Pre-training for Bidirectional
   Vision-Language Generation",2021-12-31 03:53:33+00:00,http://arxiv.org/abs/2112.15283v1,"Han Zhang, Weichong Yin, Yewei Fang, Lanxin Li, Boqiang Duan, Zhihua Wu, Yu Sun, Hao Tian, Hua Wu, Haifeng Wang","cs.CV, cs.CL",knowledge,"Conventional methods for the image-text generation tasks mainly tackle the
 naturally bidirectional generation tasks separately, focusing on designing

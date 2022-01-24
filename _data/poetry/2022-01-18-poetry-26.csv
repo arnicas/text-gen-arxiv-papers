@@ -1,4 +1,19 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Youling: an AI-Assisted Lyrics Creation System,2022-01-18 03:57:04+00:00,http://arxiv.org/abs/2201.06724v1,"Rongsheng Zhang, Xiaoxi Mao, Le Li, Lin Jiang, Lin Chen, Zhiwei Hu, Yadong Xi, Changjie Fan, Minlie Huang",cs.CL,poetry,"Recently, a variety of neural models have been proposed for lyrics
+generation. However, most previous work completes the generation process in a
+single pass with little human intervention. We believe that lyrics creation is
+a creative process with human intelligence centered. AI should play a role as
+an assistant in the lyrics creation process, where human interactions are
+crucial for high-quality creation. This paper demonstrates \textit{Youling}, an
+AI-assisted lyrics creation system, designed to collaborate with music
+creators. In the lyrics generation process, \textit{Youling} supports
+traditional one pass full-text generation mode as well as an interactive
+generation mode, which allows users to select the satisfactory sentences from
+generated candidates conditioned on preceding context. The system also provides
+a revision module which enables users to revise undesired sentences or words of
+lyrics repeatedly. Besides, \textit{Youling} allows users to use multifaceted
+attributes to control the content and format of generated lyrics. The demo
+video of the system is available at https://youtu.be/DFeNpHk0pm4.",2022-01-18
 "Say What? Collaborative Pop Lyric Generation Using Multitask Transfer
   Learning",2021-11-15 08:13:26+00:00,http://arxiv.org/abs/2111.07592v1,"Naveen Ram, Tanay Gummadi, Rahul Bhethanabotla, Richard J. Savery, Gil Weinberg","cs.CL, cs.HC, cs.LG, I.2.7",poetry,"Lyric generation is a popular sub-field of natural language generation that
 has seen growth in recent years. Pop lyrics are of unique interest due to the
