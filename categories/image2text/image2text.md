@@ -7,10 +7,15 @@ sidebar:
 ---
 
 
-*written on 2022-01-24*
+*written on 2022-02-11*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Unifying Architectures, Tasks, and Modalities Through a Simple  Sequence-to-Sequence Learning Framework](http://arxiv.org/abs/2202.03052v1) | Peng Wang, An Yang, Rui Men, Junyang Lin, Shuai Bai, Zhikang Li, Jianxin Ma, Chang Zhou, Jingren Zhou, Hongxia Yang | cs.CV, cs.CL | 2022-02-07 |
+| [XAlign: Cross-lingual Fact-to-Text Alignment and Generation for  Low-Resource Languages](http://arxiv.org/abs/2202.00291v1) | Tushar Abhishek, Shivprasad Sagare, Bhavyajeet Singh, Anubhav Sharma, Manish Gupta, Vasudeva Varma | cs.CL | 2022-02-01 |
+| [BERTHA: Video Captioning Evaluation Via Transfer-Learned Human  Assessment](http://arxiv.org/abs/2201.10243v1) | Luis Lebron, Yvette Graham, Kevin McGuinness, Konstantinos Kouramas, Noel E. O'Connor | cs.CV, cs.LG | 2022-01-25 |
+| [Pre-Trained Language Transformers are Universal Image Classifiers](http://arxiv.org/abs/2201.10182v1) | Rahul Goel, Modar Sulaiman, Kimia Noorbakhsh, Mahdi Sharifi, Rajesh Sharma, Pooyan Jamshidi, Kallol Roy | cs.CV, cs.AI | 2022-01-25 |
+| [An Integrated Approach for Video Captioning and Applications](http://arxiv.org/abs/2201.09153v1) | Soheyla Amirian, Thiab R. Taha, Khaled Rasheed, Hamid R. Arabnia | cs.CV, cs.AI | 2022-01-23 |
 | [Inferring Commonsense Explanations as Prompts for Future Event  Generation](http://arxiv.org/abs/2201.07099v1) | Li Lin, Yixin Cao, Lifu Huang, Shuang Li, Xuming Hu, Lijie Wen, Jianmin Wang | cs.CL, cs.LG, I.2.7; I.2.4 | 2022-01-18 |
 | [Local Information Assisted Attention-free Decoder for Audio Captioning](http://arxiv.org/abs/2201.03217v1) | Feiyang Xiao, Jian Guan, Qiaoxi Zhu, Haiyan Lan, Wenwu Wang | cs.SD, cs.LG, eess.AS | 2022-01-10 |
 | [Self-Training Vision Language BERTs with a Unified Conditional Model](http://arxiv.org/abs/2201.02010v1) | Xiaofeng Yang, Fengmao Lv, Fayao Liu, Guosheng Lin | cs.CV, cs.CL | 2022-01-06 |

@@ -1,4 +1,177 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Generating Training Data with Language Models: Towards Zero-Shot
+  Language Understanding",2022-02-09 16:02:18+00:00,http://arxiv.org/abs/2202.04538v1,"Yu Meng, Jiaxin Huang, Yu Zhang, Jiawei Han","cs.CL, cs.LG",table2text,"Pretrained language models (PLMs) have demonstrated remarkable performance in
+various natural language processing tasks: Unidirectional PLMs (e.g., GPT) are
+well known for their superior text generation capabilities; bidirectional PLMs
+(e.g., BERT) have been the prominent choice for natural language understanding
+(NLU) tasks. While both types of models have achieved promising few-shot
+learning performance, their potential for zero-shot learning has been
+underexplored. In this paper, we present a simple approach that uses both types
+of PLMs for fully zero-shot learning of NLU tasks without requiring any
+task-specific data: A unidirectional PLM generates class-conditioned texts
+guided by prompts, which are used as the training data for fine-tuning a
+bidirectional PLM. With quality training data selected based on the generation
+probability and regularization techniques (label smoothing and temporal
+ensembling) applied to the fine-tuning stage for better generalization and
+stability, our approach demonstrates strong performance across seven
+classification tasks of the GLUE benchmark (e.g., 72.3/73.8 on MNLI-m/mm and
+92.8 on SST-2), significantly outperforming zero-shot prompting methods and
+achieving even comparable results to strong few-shot approaches using 32
+training samples per class.",2022-02-09
+Survey of Hallucination in Natural Language Generation,2022-02-08 03:55:01+00:00,http://arxiv.org/abs/2202.03629v1,"Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii, Yejin Bang, Andrea Madotto, Pascale Fung","cs.CL, A.1",table2text,"Natural Language Generation (NLG) has improved exponentially in recent years
+thanks to the development of deep learning technologies such as
+Transformer-based language models. This advancement has led to more fluent and
+coherent natural language generation, naturally leading to development in
+downstream tasks such as abstractive summarization, dialogue generation and
+data-to-text generation. However, it is also investigated that such generation
+includes hallucinated texts, which makes the performances of text generation
+fail to meet users' expectations in many real-world scenarios. In order to
+address this issue, studies in evaluation and mitigation methods of
+hallucinations have been presented in various tasks, but have not been reviewed
+in a combined manner. In this survey, we provide a broad overview of the
+research progress and challenges in the hallucination problem of NLG. The
+survey is organized into two big divisions: (i) a general overview of metrics,
+mitigation methods, and future directions; (ii) task-specific research progress
+for hallucinations in a large set of downstream tasks: abstractive
+summarization, dialogue generation, generative question answering, data-to-text
+generation, and machine translation. This survey could facilitate collaborative
+efforts among researchers in these tasks.",2022-02-08
+Red Teaming Language Models with Language Models,2022-02-07 15:22:17+00:00,http://arxiv.org/abs/2202.03286v1,"Ethan Perez, Saffron Huang, Francis Song, Trevor Cai, Roman Ring, John Aslanides, Amelia Glaese, Nat McAleese, Geoffrey Irving","cs.CL, cs.AI, cs.CR, cs.LG",table2text,"Language Models (LMs) often cannot be deployed because of their potential to
+harm users in hard-to-predict ways. Prior work identifies harmful behaviors
+before deployment by using human annotators to hand-write test cases. However,
+human annotation is expensive, limiting the number and diversity of test cases.
+In this work, we automatically find cases where a target LM behaves in a
+harmful way, by generating test cases (""red teaming"") using another LM. We
+evaluate the target LM's replies to generated test questions using a classifier
+trained to detect offensive content, uncovering tens of thousands of offensive
+replies in a 280B parameter LM chatbot. We explore several methods, from
+zero-shot generation to reinforcement learning, for generating test cases with
+varying levels of diversity and difficulty. Furthermore, we use prompt
+engineering to control LM-generated test cases to uncover a variety of other
+harms, automatically finding groups of people that the chatbot discusses in
+offensive ways, personal and hospital phone numbers generated as the chatbot's
+own contact info, leakage of private training data in generated text, and harms
+that occur over the course of a conversation. Overall, LM-based red teaming is
+one promising tool (among many needed) for finding and fixing diverse,
+undesirable LM behaviors before impacting users.",2022-02-07
+"XAlign: Cross-lingual Fact-to-Text Alignment and Generation for
+  Low-Resource Languages",2022-02-01 09:41:59+00:00,http://arxiv.org/abs/2202.00291v1,"Tushar Abhishek, Shivprasad Sagare, Bhavyajeet Singh, Anubhav Sharma, Manish Gupta, Vasudeva Varma",cs.CL,table2text,"Multiple critical scenarios (like Wikipedia text generation given English
+Infoboxes) need automated generation of descriptive text in low resource (LR)
+languages from English fact triples. Previous work has focused on English
+fact-to-text (F2T) generation. To the best of our knowledge, there has been no
+previous attempt on cross-lingual alignment or generation for LR languages.
+Building an effective cross-lingual F2T (XF2T) system requires alignment
+between English structured facts and LR sentences. We propose two unsupervised
+methods for cross-lingual alignment. We contribute XALIGN, an XF2T dataset with
+0.45M pairs across 8 languages, of which 5402 pairs have been manually
+annotated. We also train strong baseline XF2T generation models on the XAlign
+dataset.",2022-02-01
+"Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A
+  Large-Scale Generative Language Model",2022-01-28 08:59:57+00:00,http://arxiv.org/abs/2201.11990v3,"Shaden Smith, Mostofa Patwary, Brandon Norick, Patrick LeGresley, Samyam Rajbhandari, Jared Casper, Zhun Liu, Shrimai Prabhumoye, George Zerveas, Vijay Korthikanti, Elton Zhang, Rewon Child, Reza Yazdani Aminabadi, Julie Bernauer, Xia Song, Mohammad Shoeybi, Yuxiong He, Michael Houston, Saurabh Tiwary, Bryan Catanzaro",cs.CL,table2text,"Pretrained general-purpose language models can achieve state-of-the-art
+accuracies in various natural language processing domains by adapting to
+downstream tasks via zero-shot, few-shot and fine-tuning techniques. Because of
+their success, the size of these models has increased rapidly, requiring
+high-performance hardware, software, and algorithmic techniques to enable
+training such large models. As the result of a joint effort between Microsoft
+and NVIDIA, we present details on the training of the largest monolithic
+transformer based language model, Megatron-Turing NLG 530B (MT-NLG), with 530
+billion parameters. In this paper, we first focus on the infrastructure as well
+as the 3D parallelism methodology used to train this model using DeepSpeed and
+Megatron. Next, we detail the training process, the design of our training
+corpus, and our data curation techniques, which we believe is a key ingredient
+to the success of the model. Finally, we discuss various evaluation results, as
+well as other interesting observations and new properties exhibited by MT-NLG.
+We demonstrate that MT-NLG achieves superior zero-, one-, and few-shot learning
+accuracies on several NLP benchmarks and establishes new state-of-the-art
+results. We believe that our contributions will help further the development of
+large-scale training infrastructures, large-scale language models, and natural
+language generations.",2022-01-28
+Pre-Trained Language Transformers are Universal Image Classifiers,2022-01-25 08:56:14+00:00,http://arxiv.org/abs/2201.10182v1,"Rahul Goel, Modar Sulaiman, Kimia Noorbakhsh, Mahdi Sharifi, Rajesh Sharma, Pooyan Jamshidi, Kallol Roy","cs.CV, cs.AI",table2text,"Facial images disclose many hidden personal traits such as age, gender, race,
+health, emotion, and psychology. Understanding these traits will help to
+classify the people in different attributes. In this paper, we have presented a
+novel method for classifying images using a pretrained transformer model. We
+apply the pretrained transformer for the binary classification of facial images
+in criminal and non-criminal classes. The pretrained transformer of GPT-2 is
+trained to generate text and then fine-tuned to classify facial images. During
+the finetuning process with images, most of the layers of GT-2 are frozen
+during backpropagation and the model is frozen pretrained transformer (FPT).
+The FPT acts as a universal image classifier, and this paper shows the
+application of FPT on facial images. We also use our FPT on encrypted images
+for classification. Our FPT shows high accuracy on both raw facial images and
+encrypted images. We hypothesize the meta-learning capacity FPT gained because
+of its large size and trained on a large size with theory and experiments. The
+GPT-2 trained to generate a single word token at a time, through the
+autoregressive process, forced to heavy-tail distribution. Then the FPT uses
+the heavy-tail property as its meta-learning capacity for classifying images.
+Our work shows one way to avoid bias during the machine classification of
+images.The FPT encodes worldly knowledge because of the pretraining of one
+text, which it uses during the classification. The statistical error of
+classification is reduced because of the added context gained from the text.Our
+paper shows the ethical dimension of using encrypted data for
+classification.Criminal images are sensitive to share across the boundary but
+encrypted largely evades ethical concern.FPT showing good classification
+accuracy on encrypted images shows promise for further research on
+privacy-preserving machine learning.",2022-01-25
+An Application of Pseudo-Log-Likelihoods to Natural Language Scoring,2022-01-23 22:00:54+00:00,http://arxiv.org/abs/2201.09377v1,"Darren Abramson, Ali Emami","cs.CL, cs.AI, cs.LG",table2text,"Language models built using semi-supervised machine learning on large corpora
+of natural language have very quickly enveloped the fields of natural language
+generation and understanding. In this paper we apply a zero-shot approach
+independently developed by a number of researchers now gaining recognition as a
+significant alternative to fine-tuning for evaluation on common sense tasks. A
+language model with relatively few parameters and training steps compared to a
+more recent language model (T5) can outperform it on a recent large data set
+(TimeDial), while displaying robustness in its performance across a similar
+class of language tasks. Surprisingly, this result is achieved by using a
+hyperparameter-free zero-shot method with the smaller model, compared to
+fine-tuning to the larger model. We argue that robustness of the smaller model
+ought to be understood in terms of compositionality, in a sense that we draw
+from recent literature on a class of similar models. We identify a practical
+cost for our method and model: high GPU-time for natural language evaluation.
+The zero-shot measurement technique that produces remarkable stability, both
+for ALBERT and other BERT variants, is an application of pseudo-log-likelihoods
+to masked language models for the relative measurement of probability for
+substitution alternatives in forced choice language tasks such as the Winograd
+Schema Challenge, Winogrande, and others. One contribution of this paper is to
+bring together a number of similar, but independent strands of research. We
+produce some absolute state-of-the-art results for common sense reasoning in
+binary choice tasks, performing better than any published result in the
+literature, including fine-tuned efforts. We show a remarkable consistency of
+the model's performance under adversarial settings, which we argue is best
+explained by the model's compositionality of representations.",2022-01-23
+"Gradient-guided Unsupervised Text Style Transfer via Contrastive
+  Learning",2022-01-23 12:45:00+00:00,http://arxiv.org/abs/2202.00469v1,"Chenghao Fan, Ziao Li, Wei wei","cs.CL, cs.AI",table2text,"Text style transfer is a challenging text generation problem, which aims at
+altering the style of a given sentence to a target one while keeping its
+content unchanged. Since there is a natural scarcity of parallel datasets,
+recent works mainly focus on solving the problem in an unsupervised manner.
+However, previous gradient-based works generally suffer from the deficiencies
+as follows, namely: (1) Content migration. Previous approaches lack explicit
+modeling of content invariance and are thus susceptible to content shift
+between the original sentence and the transferred one. (2) Style
+misclassification. A natural drawback of the gradient-guided approaches is that
+the inference process is homogeneous with a line of adversarial attack, making
+latent optimization easily becomes an attack to the classifier due to
+misclassification. This leads to difficulties in achieving high transfer
+accuracy. To address the problems, we propose a novel gradient-guided model
+through a contrastive paradigm for text style transfer, to explicitly gather
+similar semantic sentences, and to design a siamese-structure based style
+classifier for alleviating such two issues, respectively. Experiments on two
+datasets show the effectiveness of our proposed approach, as compared to the
+state-of-the-arts.",2022-01-23
+A Causal Lens for Controllable Text Generation,2022-01-22 19:31:43+00:00,http://arxiv.org/abs/2201.09119v1,"Zhiting Hu, Li Erran Li","cs.CL, cs.AI, cs.LG, stat.ML",table2text,"Controllable text generation concerns two fundamental tasks of wide
+applications, namely generating text of given attributes (i.e.,
+attribute-conditional generation), and minimally editing existing text to
+possess desired attributes (i.e., text attribute transfer). Extensive prior
+work has largely studied the two problems separately, and developed different
+conditional models which, however, are prone to producing biased text (e.g.,
+various gender stereotypes). This paper proposes to formulate controllable text
+generation from a principled causal perspective which models the two tasks with
+a unified framework. A direct advantage of the causal formulation is the use of
+rich causality tools to mitigate generation biases and improve control. We
+treat the two tasks as interventional and counterfactual causal inference based
+on a structural causal model, respectively. We then apply the framework to the
+challenging practical setting where confounding factors (that induce spurious
+correlations) are observable only on a small fraction of data. Experiments show
+significant superiority of the causal approach over previous conditional models
+for improved control accuracy and reduced bias.",2022-01-22
 A Survey of Pretrained Language Models Based Text Generation,2022-01-14 01:44:58+00:00,http://arxiv.org/abs/2201.05273v1,"Junyi Li, Tianyi Tang, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen",cs.CL,table2text,"Text Generation aims to produce plausible and readable text in human language
 from input data. The resurgence of deep learning has greatly advanced this
 field by neural generation models, especially the paradigm of pretrained

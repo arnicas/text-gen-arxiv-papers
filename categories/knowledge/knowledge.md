@@ -7,10 +7,15 @@ sidebar:
 ---
 
 
-*written on 2022-01-24*
+*written on 2022-02-11*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [XAlign: Cross-lingual Fact-to-Text Alignment and Generation for  Low-Resource Languages](http://arxiv.org/abs/2202.00291v1) | Tushar Abhishek, Shivprasad Sagare, Bhavyajeet Singh, Anubhav Sharma, Manish Gupta, Vasudeva Varma | cs.CL | 2022-02-01 |
+| [Language Generation for Broad-Coverage, Explainable Cognitive Systems](http://arxiv.org/abs/2201.10422v1) | Marjorie McShane, Ivan Leon | cs.CL, cs.AI | 2022-01-25 |
+| [Pre-Trained Language Transformers are Universal Image Classifiers](http://arxiv.org/abs/2201.10182v1) | Rahul Goel, Modar Sulaiman, Kimia Noorbakhsh, Mahdi Sharifi, Rajesh Sharma, Pooyan Jamshidi, Kallol Roy | cs.CV, cs.AI | 2022-01-25 |
+| [Relational Memory Augmented Language Models](http://arxiv.org/abs/2201.09680v1) | Qi Liu, Dani Yogatama, Phil Blunsom | cs.CL, cs.AI | 2022-01-24 |
+| [Gradient-guided Unsupervised Text Style Transfer via Contrastive  Learning](http://arxiv.org/abs/2202.00469v1) | Chenghao Fan, Ziao Li, Wei wei | cs.CL, cs.AI | 2022-01-23 |
 | [Context-Tuning: Learning Contextualized Prompts for Natural Language  Generation](http://arxiv.org/abs/2201.08670v1) | Tianyi Tang, Junyi Li, Wayne Xin Zhao | cs.CL | 2022-01-21 |
 | [Inferring Commonsense Explanations as Prompts for Future Event  Generation](http://arxiv.org/abs/2201.07099v1) | Li Lin, Yixin Cao, Lifu Huang, Shuang Li, Xuming Hu, Lijie Wen, Jianmin Wang | cs.CL, cs.LG, I.2.7; I.2.4 | 2022-01-18 |
 | [A Survey of Controllable Text Generation using Transformer-based  Pre-trained Language Models](http://arxiv.org/abs/2201.05337v1) | Hanqing Zhang, Haolin Song, Shaoyu Li, Ming Zhou, Dawei Song | cs.CL | 2022-01-14 |

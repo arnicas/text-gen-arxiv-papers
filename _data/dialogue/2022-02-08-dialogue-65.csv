@@ -1,4 +1,57 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Survey of Hallucination in Natural Language Generation,2022-02-08 03:55:01+00:00,http://arxiv.org/abs/2202.03629v1,"Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii, Yejin Bang, Andrea Madotto, Pascale Fung","cs.CL, A.1",dialogue,"Natural Language Generation (NLG) has improved exponentially in recent years
+thanks to the development of deep learning technologies such as
+Transformer-based language models. This advancement has led to more fluent and
+coherent natural language generation, naturally leading to development in
+downstream tasks such as abstractive summarization, dialogue generation and
+data-to-text generation. However, it is also investigated that such generation
+includes hallucinated texts, which makes the performances of text generation
+fail to meet users' expectations in many real-world scenarios. In order to
+address this issue, studies in evaluation and mitigation methods of
+hallucinations have been presented in various tasks, but have not been reviewed
+in a combined manner. In this survey, we provide a broad overview of the
+research progress and challenges in the hallucination problem of NLG. The
+survey is organized into two big divisions: (i) a general overview of metrics,
+mitigation methods, and future directions; (ii) task-specific research progress
+for hallucinations in a large set of downstream tasks: abstractive
+summarization, dialogue generation, generative question answering, data-to-text
+generation, and machine translation. This survey could facilitate collaborative
+efforts among researchers in these tasks.",2022-02-08
+Red Teaming Language Models with Language Models,2022-02-07 15:22:17+00:00,http://arxiv.org/abs/2202.03286v1,"Ethan Perez, Saffron Huang, Francis Song, Trevor Cai, Roman Ring, John Aslanides, Amelia Glaese, Nat McAleese, Geoffrey Irving","cs.CL, cs.AI, cs.CR, cs.LG",dialogue,"Language Models (LMs) often cannot be deployed because of their potential to
+harm users in hard-to-predict ways. Prior work identifies harmful behaviors
+before deployment by using human annotators to hand-write test cases. However,
+human annotation is expensive, limiting the number and diversity of test cases.
+In this work, we automatically find cases where a target LM behaves in a
+harmful way, by generating test cases (""red teaming"") using another LM. We
+evaluate the target LM's replies to generated test questions using a classifier
+trained to detect offensive content, uncovering tens of thousands of offensive
+replies in a 280B parameter LM chatbot. We explore several methods, from
+zero-shot generation to reinforcement learning, for generating test cases with
+varying levels of diversity and difficulty. Furthermore, we use prompt
+engineering to control LM-generated test cases to uncover a variety of other
+harms, automatically finding groups of people that the chatbot discusses in
+offensive ways, personal and hospital phone numbers generated as the chatbot's
+own contact info, leakage of private training data in generated text, and harms
+that occur over the course of a conversation. Overall, LM-based red teaming is
+one promising tool (among many needed) for finding and fixing diverse,
+undesirable LM behaviors before impacting users.",2022-02-07
+A Survey on Retrieval-Augmented Text Generation,2022-02-02 16:18:41+00:00,http://arxiv.org/abs/2202.01110v1,"Huayang Li, Yixuan Su, Deng Cai, Yan Wang, Lemao Liu",cs.CL,dialogue,"Recently, retrieval-augmented text generation attracted increasing attention
+of the computational linguistics community. Compared with conventional
+generation models, retrieval-augmented text generation has remarkable
+advantages and particularly has achieved state-of-the-art performance in many
+NLP tasks. This paper aims to conduct a survey about retrieval-augmented text
+generation. It firstly highlights the generic paradigm of retrieval-augmented
+generation, and then it reviews notable approaches according to different tasks
+including dialogue response generation, machine translation, and other
+generation tasks. Finally, it points out some important directions on top of
+recent methods to facilitate future research.",2022-02-02
+"Language Generation for Broad-Coverage, Explainable Cognitive Systems",2022-01-25 16:09:19+00:00,http://arxiv.org/abs/2201.10422v1,"Marjorie McShane, Ivan Leon","cs.CL, cs.AI",dialogue,"This paper describes recent progress on natural language generation (NLG) for
+language-endowed intelligent agents (LEIAs) developed within the OntoAgent
+cognitive architecture. The approach draws heavily from past work on natural
+language understanding in this paradigm: it uses the same knowledge bases,
+theory of computational linguistics, agent architecture, and methodology of
+developing broad-coverage capabilities over time while still supporting
+near-term applications.",2022-01-25
 Measuring Attribution in Natural Language Generation Models,2021-12-23 22:33:20+00:00,http://arxiv.org/abs/2112.12870v1,"Hannah Rashkin, Vitaly Nikolaev, Matthew Lamm, Michael Collins, Dipanjan Das, Slav Petrov, Gaurav Singh Tomar, Iulia Turc, David Reitter",cs.CL,dialogue,"With recent improvements in natural language generation (NLG) models for
 various applications, it has become imperative to have the means to identify
 and evaluate whether NLG output is only sharing verifiable information about

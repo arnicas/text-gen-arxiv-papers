@@ -7,10 +7,19 @@ sidebar:
 ---
 
 
-*written on 2022-01-24*
+*written on 2022-02-11*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Generating Training Data with Language Models: Towards Zero-Shot  Language Understanding](http://arxiv.org/abs/2202.04538v1) | Yu Meng, Jiaxin Huang, Yu Zhang, Jiawei Han | cs.CL, cs.LG | 2022-02-09 |
+| [Survey of Hallucination in Natural Language Generation](http://arxiv.org/abs/2202.03629v1) | Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii, Yejin Bang, Andrea Madotto, Pascale Fung | cs.CL, A.1 | 2022-02-08 |
+| [Red Teaming Language Models with Language Models](http://arxiv.org/abs/2202.03286v1) | Ethan Perez, Saffron Huang, Francis Song, Trevor Cai, Roman Ring, John Aslanides, Amelia Glaese, Nat McAleese, Geoffrey Irving | cs.CL, cs.AI, cs.CR, cs.LG | 2022-02-07 |
+| [XAlign: Cross-lingual Fact-to-Text Alignment and Generation for  Low-Resource Languages](http://arxiv.org/abs/2202.00291v1) | Tushar Abhishek, Shivprasad Sagare, Bhavyajeet Singh, Anubhav Sharma, Manish Gupta, Vasudeva Varma | cs.CL | 2022-02-01 |
+| [Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A  Large-Scale Generative Language Model](http://arxiv.org/abs/2201.11990v3) | Shaden Smith, Mostofa Patwary, Brandon Norick, Patrick LeGresley, Samyam Rajbhandari, Jared Casper, Zhun Liu, Shrimai Prabhumoye, George Zerveas, Vijay Korthikanti, Elton Zhang, Rewon Child, Reza Yazdani Aminabadi, Julie Bernauer, Xia Song, Mohammad Shoeybi, Yuxiong He, Michael Houston, Saurabh Tiwary, Bryan Catanzaro | cs.CL | 2022-01-28 |
+| [Pre-Trained Language Transformers are Universal Image Classifiers](http://arxiv.org/abs/2201.10182v1) | Rahul Goel, Modar Sulaiman, Kimia Noorbakhsh, Mahdi Sharifi, Rajesh Sharma, Pooyan Jamshidi, Kallol Roy | cs.CV, cs.AI | 2022-01-25 |
+| [An Application of Pseudo-Log-Likelihoods to Natural Language Scoring](http://arxiv.org/abs/2201.09377v1) | Darren Abramson, Ali Emami | cs.CL, cs.AI, cs.LG | 2022-01-23 |
+| [Gradient-guided Unsupervised Text Style Transfer via Contrastive  Learning](http://arxiv.org/abs/2202.00469v1) | Chenghao Fan, Ziao Li, Wei wei | cs.CL, cs.AI | 2022-01-23 |
+| [A Causal Lens for Controllable Text Generation](http://arxiv.org/abs/2201.09119v1) | Zhiting Hu, Li Erran Li | cs.CL, cs.AI, cs.LG, stat.ML | 2022-01-22 |
 | [A Survey of Pretrained Language Models Based Text Generation](http://arxiv.org/abs/2201.05273v1) | Junyi Li, Tianyi Tang, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen | cs.CL | 2022-01-14 |
 | [YACLC: A Chinese Learner Corpus with Multidimensional Annotation](http://arxiv.org/abs/2112.15043v1) | Yingying Wang, Cunliang Kong, Liner Yang, Yijun Wang, Xiaorong Lu, Renfen Hu, Shan He, Zhenghao Liu, Yun Chen, Erhong Yang, Maosong Sun | cs.CL | 2021-12-30 |
 | [A Preliminary Study for Literary Rhyme Generation based on Neuronal  Representation, Semantics and Shallow Parsing](http://arxiv.org/abs/2112.13241v1) | Luis-Gil Moreno-Jiménez, Juan-Manuel Torres-Moreno, Roseli S. Wedemann | cs.CL, cs.AI | 2021-12-25 |

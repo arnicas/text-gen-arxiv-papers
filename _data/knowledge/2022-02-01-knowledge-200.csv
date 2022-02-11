@@ -1,4 +1,78 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"XAlign: Cross-lingual Fact-to-Text Alignment and Generation for
+  Low-Resource Languages",2022-02-01 09:41:59+00:00,http://arxiv.org/abs/2202.00291v1,"Tushar Abhishek, Shivprasad Sagare, Bhavyajeet Singh, Anubhav Sharma, Manish Gupta, Vasudeva Varma",cs.CL,knowledge,"Multiple critical scenarios (like Wikipedia text generation given English
+Infoboxes) need automated generation of descriptive text in low resource (LR)
+languages from English fact triples. Previous work has focused on English
+fact-to-text (F2T) generation. To the best of our knowledge, there has been no
+previous attempt on cross-lingual alignment or generation for LR languages.
+Building an effective cross-lingual F2T (XF2T) system requires alignment
+between English structured facts and LR sentences. We propose two unsupervised
+methods for cross-lingual alignment. We contribute XALIGN, an XF2T dataset with
+0.45M pairs across 8 languages, of which 5402 pairs have been manually
+annotated. We also train strong baseline XF2T generation models on the XAlign
+dataset.",2022-02-01
+"Language Generation for Broad-Coverage, Explainable Cognitive Systems",2022-01-25 16:09:19+00:00,http://arxiv.org/abs/2201.10422v1,"Marjorie McShane, Ivan Leon","cs.CL, cs.AI",knowledge,"This paper describes recent progress on natural language generation (NLG) for
+language-endowed intelligent agents (LEIAs) developed within the OntoAgent
+cognitive architecture. The approach draws heavily from past work on natural
+language understanding in this paradigm: it uses the same knowledge bases,
+theory of computational linguistics, agent architecture, and methodology of
+developing broad-coverage capabilities over time while still supporting
+near-term applications.",2022-01-25
+Pre-Trained Language Transformers are Universal Image Classifiers,2022-01-25 08:56:14+00:00,http://arxiv.org/abs/2201.10182v1,"Rahul Goel, Modar Sulaiman, Kimia Noorbakhsh, Mahdi Sharifi, Rajesh Sharma, Pooyan Jamshidi, Kallol Roy","cs.CV, cs.AI",knowledge,"Facial images disclose many hidden personal traits such as age, gender, race,
+health, emotion, and psychology. Understanding these traits will help to
+classify the people in different attributes. In this paper, we have presented a
+novel method for classifying images using a pretrained transformer model. We
+apply the pretrained transformer for the binary classification of facial images
+in criminal and non-criminal classes. The pretrained transformer of GPT-2 is
+trained to generate text and then fine-tuned to classify facial images. During
+the finetuning process with images, most of the layers of GT-2 are frozen
+during backpropagation and the model is frozen pretrained transformer (FPT).
+The FPT acts as a universal image classifier, and this paper shows the
+application of FPT on facial images. We also use our FPT on encrypted images
+for classification. Our FPT shows high accuracy on both raw facial images and
+encrypted images. We hypothesize the meta-learning capacity FPT gained because
+of its large size and trained on a large size with theory and experiments. The
+GPT-2 trained to generate a single word token at a time, through the
+autoregressive process, forced to heavy-tail distribution. Then the FPT uses
+the heavy-tail property as its meta-learning capacity for classifying images.
+Our work shows one way to avoid bias during the machine classification of
+images.The FPT encodes worldly knowledge because of the pretraining of one
+text, which it uses during the classification. The statistical error of
+classification is reduced because of the added context gained from the text.Our
+paper shows the ethical dimension of using encrypted data for
+classification.Criminal images are sensitive to share across the boundary but
+encrypted largely evades ethical concern.FPT showing good classification
+accuracy on encrypted images shows promise for further research on
+privacy-preserving machine learning.",2022-01-25
+Relational Memory Augmented Language Models,2022-01-24 13:25:41+00:00,http://arxiv.org/abs/2201.09680v1,"Qi Liu, Dani Yogatama, Phil Blunsom","cs.CL, cs.AI",knowledge,"We present a memory-augmented approach to condition an autoregressive
+language model on a knowledge graph. We represent the graph as a collection of
+relation triples and retrieve relevant relations for a given context to improve
+text generation. Experiments on WikiText-103, WMT19, and enwik8 English
+datasets demonstrate that our approach produces a better language model in
+terms of perplexity and bits per character. We also show that relational memory
+improves coherence, is complementary to token-based memory, and enables causal
+interventions. Our model provides a simple yet effective way to combine an
+autoregressive language model with a knowledge graph for a more coherent and
+logical generation.",2022-01-24
+"Gradient-guided Unsupervised Text Style Transfer via Contrastive
+  Learning",2022-01-23 12:45:00+00:00,http://arxiv.org/abs/2202.00469v1,"Chenghao Fan, Ziao Li, Wei wei","cs.CL, cs.AI",knowledge,"Text style transfer is a challenging text generation problem, which aims at
+altering the style of a given sentence to a target one while keeping its
+content unchanged. Since there is a natural scarcity of parallel datasets,
+recent works mainly focus on solving the problem in an unsupervised manner.
+However, previous gradient-based works generally suffer from the deficiencies
+as follows, namely: (1) Content migration. Previous approaches lack explicit
+modeling of content invariance and are thus susceptible to content shift
+between the original sentence and the transferred one. (2) Style
+misclassification. A natural drawback of the gradient-guided approaches is that
+the inference process is homogeneous with a line of adversarial attack, making
+latent optimization easily becomes an attack to the classifier due to
+misclassification. This leads to difficulties in achieving high transfer
+accuracy. To address the problems, we propose a novel gradient-guided model
+through a contrastive paradigm for text style transfer, to explicitly gather
+similar semantic sentences, and to design a siamese-structure based style
+classifier for alleviating such two issues, respectively. Experiments on two
+datasets show the effectiveness of our proposed approach, as compared to the
+state-of-the-arts.",2022-01-23
 "Context-Tuning: Learning Contextualized Prompts for Natural Language
   Generation",2022-01-21 12:35:28+00:00,http://arxiv.org/abs/2201.08670v1,"Tianyi Tang, Junyi Li, Wayne Xin Zhao",cs.CL,knowledge,"Recently, pretrained language models (PLMs) have made exceptional success in
 language generation. To leverage the rich knowledge encoded by PLMs, a simple

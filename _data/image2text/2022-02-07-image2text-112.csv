@@ -1,4 +1,94 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Unifying Architectures, Tasks, and Modalities Through a Simple
+  Sequence-to-Sequence Learning Framework",2022-02-07 10:38:21+00:00,http://arxiv.org/abs/2202.03052v1,"Peng Wang, An Yang, Rui Men, Junyang Lin, Shuai Bai, Zhikang Li, Jianxin Ma, Chang Zhou, Jingren Zhou, Hongxia Yang","cs.CV, cs.CL",image2text,"In this work, we pursue a unified paradigm for multimodal pretraining to
+break the scaffolds of complex task/modality-specific customization. We propose
+OFA, a unified multimodal pretrained model that unifies modalities (i.e.,
+cross-modality, vision, language) and tasks (e.g., image generation, visual
+grounding, image captioning, image classification, text generation, etc.) to a
+simple sequence-to-sequence learning framework based on the encoder-decoder
+architecture. OFA performs pretraining and finetuning with task instructions
+and introduces no extra task-specific layers for finetuning. Experimental
+results show that OFA achieves new state-of-the-arts on a series of multimodal
+tasks, including image captioning (COCO test CIDEr: 149.6), text-to-image
+generation (COCO test FID: 10.5), VQA (test-std acc.: 80.02), SNLI-VE (test
+acc.: 90.20), and referring expression comprehension (RefCOCO / RefCOCO+ /
+RefCOCOg test acc.: 92.93 / 90.10 / 85.20). Through extensive analyses, we
+demonstrate that OFA reaches comparable performance with uni-modal pretrained
+models (e.g., BERT, MAE, MoCo v3, SimCLR v2, etc.) in uni-modal tasks,
+including NLU, NLG, and image classification, and it effectively transfers to
+unseen tasks and domains. Code shall be released soon at
+http://github.com/OFA-Sys/OFA",2022-02-07
+"XAlign: Cross-lingual Fact-to-Text Alignment and Generation for
+  Low-Resource Languages",2022-02-01 09:41:59+00:00,http://arxiv.org/abs/2202.00291v1,"Tushar Abhishek, Shivprasad Sagare, Bhavyajeet Singh, Anubhav Sharma, Manish Gupta, Vasudeva Varma",cs.CL,image2text,"Multiple critical scenarios (like Wikipedia text generation given English
+Infoboxes) need automated generation of descriptive text in low resource (LR)
+languages from English fact triples. Previous work has focused on English
+fact-to-text (F2T) generation. To the best of our knowledge, there has been no
+previous attempt on cross-lingual alignment or generation for LR languages.
+Building an effective cross-lingual F2T (XF2T) system requires alignment
+between English structured facts and LR sentences. We propose two unsupervised
+methods for cross-lingual alignment. We contribute XALIGN, an XF2T dataset with
+0.45M pairs across 8 languages, of which 5402 pairs have been manually
+annotated. We also train strong baseline XF2T generation models on the XAlign
+dataset.",2022-02-01
+"BERTHA: Video Captioning Evaluation Via Transfer-Learned Human
+  Assessment",2022-01-25 11:29:58+00:00,http://arxiv.org/abs/2201.10243v1,"Luis Lebron, Yvette Graham, Kevin McGuinness, Konstantinos Kouramas, Noel E. O'Connor","cs.CV, cs.LG",image2text,"Evaluating video captioning systems is a challenging task as there are
+multiple factors to consider; for instance: the fluency of the caption,
+multiple actions happening in a single scene, and the human bias of what is
+considered important. Most metrics try to measure how similar the system
+generated captions are to a single or a set of human-annotated captions. This
+paper presents a new method based on a deep learning model to evaluate these
+systems. The model is based on BERT, which is a language model that has been
+shown to work well in multiple NLP tasks. The aim is for the model to learn to
+perform an evaluation similar to that of a human. To do so, we use a dataset
+that contains human evaluations of system generated captions. The dataset
+consists of the human judgments of the captions produce by the system
+participating in various years of the TRECVid video to text task. These
+annotations will be made publicly available. BERTHA obtain favourable results,
+outperforming the commonly used metrics in some setups.",2022-01-25
+Pre-Trained Language Transformers are Universal Image Classifiers,2022-01-25 08:56:14+00:00,http://arxiv.org/abs/2201.10182v1,"Rahul Goel, Modar Sulaiman, Kimia Noorbakhsh, Mahdi Sharifi, Rajesh Sharma, Pooyan Jamshidi, Kallol Roy","cs.CV, cs.AI",image2text,"Facial images disclose many hidden personal traits such as age, gender, race,
+health, emotion, and psychology. Understanding these traits will help to
+classify the people in different attributes. In this paper, we have presented a
+novel method for classifying images using a pretrained transformer model. We
+apply the pretrained transformer for the binary classification of facial images
+in criminal and non-criminal classes. The pretrained transformer of GPT-2 is
+trained to generate text and then fine-tuned to classify facial images. During
+the finetuning process with images, most of the layers of GT-2 are frozen
+during backpropagation and the model is frozen pretrained transformer (FPT).
+The FPT acts as a universal image classifier, and this paper shows the
+application of FPT on facial images. We also use our FPT on encrypted images
+for classification. Our FPT shows high accuracy on both raw facial images and
+encrypted images. We hypothesize the meta-learning capacity FPT gained because
+of its large size and trained on a large size with theory and experiments. The
+GPT-2 trained to generate a single word token at a time, through the
+autoregressive process, forced to heavy-tail distribution. Then the FPT uses
+the heavy-tail property as its meta-learning capacity for classifying images.
+Our work shows one way to avoid bias during the machine classification of
+images.The FPT encodes worldly knowledge because of the pretraining of one
+text, which it uses during the classification. The statistical error of
+classification is reduced because of the added context gained from the text.Our
+paper shows the ethical dimension of using encrypted data for
+classification.Criminal images are sensitive to share across the boundary but
+encrypted largely evades ethical concern.FPT showing good classification
+accuracy on encrypted images shows promise for further research on
+privacy-preserving machine learning.",2022-01-25
+An Integrated Approach for Video Captioning and Applications,2022-01-23 01:06:00+00:00,http://arxiv.org/abs/2201.09153v1,"Soheyla Amirian, Thiab R. Taha, Khaled Rasheed, Hamid R. Arabnia","cs.CV, cs.AI",image2text,"Physical computing infrastructure, data gathering, and algorithms have
+recently had significant advances to extract information from images and
+videos. The growth has been especially outstanding in image captioning and
+video captioning. However, most of the advancements in video captioning still
+take place in short videos. In this research, we caption longer videos only by
+using the keyframes, which are a small subset of the total video frames.
+Instead of processing thousands of frames, only a few frames are processed
+depending on the number of keyframes. There is a trade-off between the
+computation of many frames and the speed of the captioning process. The
+approach in this research is to allow the user to specify the trade-off between
+execution time and accuracy. In addition, we argue that linking images, videos,
+and natural language offers many practical benefits and immediate practical
+applications. From the modeling perspective, instead of designing and staging
+explicit algorithms to process videos and generate captions in complex
+processing pipelines, our contribution lies in designing hybrid deep learning
+architectures to apply in long videos by captioning video keyframes. We
+consider the technology and the methodology that we have developed as steps
+toward the applications discussed in this research.",2022-01-23
 "Inferring Commonsense Explanations as Prompts for Future Event
   Generation",2022-01-18 16:21:23+00:00,http://arxiv.org/abs/2201.07099v1,"Li Lin, Yixin Cao, Lifu Huang, Shuang Li, Xuming Hu, Lijie Wen, Jianmin Wang","cs.CL, cs.LG, I.2.7; I.2.4",image2text,"Future Event Generation aims to generate fluent and reasonable future event
 descriptions given preceding events. It requires not only fluent text
