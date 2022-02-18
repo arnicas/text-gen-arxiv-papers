@@ -1,4 +1,19 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Integrating AI Planning with Natural Language Processing: A Combination
+  of Explicit and Tacit Knowledge",2022-02-15 02:19:09+00:00,http://arxiv.org/abs/2202.07138v1,"Kebing Jin, Hankz Hankui Zhuo","cs.AI, cs.CL",dialogue,"Automated planning focuses on strategies, building domain models and
+synthesizing plans to transit initial states to goals. Natural language
+processing concerns with the interactions between agents and human language,
+especially processing and analyzing large amounts of natural language data.
+These two fields have abilities to generate explicit knowledge, e.g.,
+preconditions and effects of action models, and learn from tacit knowledge,
+e.g., neural models, respectively. Integrating AI planning and natural language
+processing effectively improves the communication between human and intelligent
+agents. This paper outlines the commons and relations between AI planning and
+natural language processing, argues that each of them can effectively impact on
+the other one by four areas: (1) planning-based text understanding, (2)
+planning-based text generation, (3) text-based human-robot interaction, and (4)
+text-based explainable planning. We also explore some potential future issues
+between AI planning and natural language processing.",2022-02-15
 Survey of Hallucination in Natural Language Generation,2022-02-08 03:55:01+00:00,http://arxiv.org/abs/2202.03629v1,"Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii, Yejin Bang, Andrea Madotto, Pascale Fung","cs.CL, A.1",dialogue,"Natural Language Generation (NLG) has improved exponentially in recent years
 thanks to the development of deep learning technologies such as
 Transformer-based language models. This advancement has led to more fluent and

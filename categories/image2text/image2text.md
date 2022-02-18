@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2022-02-11*
+*written on 2022-02-18*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [How to Fill the Optimum Set? Population Gradient Descent with Harmless  Diversity](http://arxiv.org/abs/2202.08376v1) | Chengyue Gong, Lemeng Wu, Qiang Liu | cs.LG, cs.CV | 2022-02-16 |
+| [Deep soccer captioning with transformer: dataset, semantics-related  losses, and multi-level evaluation](http://arxiv.org/abs/2202.05728v1) | Ahmad Hammoudeh, Bastein Vanderplaetse, Stéphane Dupont | cs.CV, cs.AI | 2022-02-11 |
 | [Unifying Architectures, Tasks, and Modalities Through a Simple  Sequence-to-Sequence Learning Framework](http://arxiv.org/abs/2202.03052v1) | Peng Wang, An Yang, Rui Men, Junyang Lin, Shuai Bai, Zhikang Li, Jianxin Ma, Chang Zhou, Jingren Zhou, Hongxia Yang | cs.CV, cs.CL | 2022-02-07 |
 | [XAlign: Cross-lingual Fact-to-Text Alignment and Generation for  Low-Resource Languages](http://arxiv.org/abs/2202.00291v1) | Tushar Abhishek, Shivprasad Sagare, Bhavyajeet Singh, Anubhav Sharma, Manish Gupta, Vasudeva Varma | cs.CL | 2022-02-01 |
 | [BERTHA: Video Captioning Evaluation Via Transfer-Learned Human  Assessment](http://arxiv.org/abs/2201.10243v1) | Luis Lebron, Yvette Graham, Kevin McGuinness, Konstantinos Kouramas, Noel E. O'Connor | cs.CV, cs.LG | 2022-01-25 |

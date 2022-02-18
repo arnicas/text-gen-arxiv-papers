@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2022-02-11*
+*written on 2022-02-18*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Integrating AI Planning with Natural Language Processing: A Combination  of Explicit and Tacit Knowledge](http://arxiv.org/abs/2202.07138v1) | Kebing Jin, Hankz Hankui Zhuo | cs.AI, cs.CL | 2022-02-15 |
 | [Survey of Hallucination in Natural Language Generation](http://arxiv.org/abs/2202.03629v1) | Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii, Yejin Bang, Andrea Madotto, Pascale Fung | cs.CL, A.1 | 2022-02-08 |
 | [Red Teaming Language Models with Language Models](http://arxiv.org/abs/2202.03286v1) | Ethan Perez, Saffron Huang, Francis Song, Trevor Cai, Roman Ring, John Aslanides, Amelia Glaese, Nat McAleese, Geoffrey Irving | cs.CL, cs.AI, cs.CR, cs.LG | 2022-02-07 |
 | [A Survey on Retrieval-Augmented Text Generation](http://arxiv.org/abs/2202.01110v1) | Huayang Li, Yixuan Su, Deng Cai, Yan Wang, Lemao Liu | cs.CL | 2022-02-02 |

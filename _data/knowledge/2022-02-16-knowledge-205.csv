@@ -1,4 +1,84 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+ZeroGen: Efficient Zero-shot Learning via Dataset Generation,2022-02-16 08:18:02+00:00,http://arxiv.org/abs/2202.07922v1,"Jiacheng Ye, Jiahui Gao, Qintong Li, Hang Xu, Jiangtao Feng, Zhiyong Wu, Tao Yu, Lingpeng Kong","cs.CL, cs.AI",knowledge,"There is a growing interest in dataset generation recently due to the
+superior generative capacity of large pre-trained language models (PLMs). In
+this paper, we study a flexible and efficient zero-short learning method,
+ZeroGen. Given a zero-shot task, we first generate a dataset from scratch using
+PLMs in an unsupervised manner. Then, we train a tiny task model (e.g., LSTM)
+under the supervision of the synthesized dataset. This approach allows highly
+efficient inference as the final task model only has orders of magnitude fewer
+parameters comparing to PLMs (e.g., GPT2-XL). Apart from being annotation-free
+and efficient, we argue that ZeroGen can also provide useful insights from the
+perspective of data-free model-agnostic knowledge distillation, and
+unreferenced text generation evaluation. Experiments and analysis on different
+NLP tasks, namely, text classification, question answering, and natural
+language inference), show the effectiveness of ZeroGen.",2022-02-16
+Personalized Prompt Learning for Explainable Recommendation,2022-02-15 12:53:52+00:00,http://arxiv.org/abs/2202.07371v1,"Lei Li, Yongfeng Zhang, Li Chen","cs.IR, cs.AI, cs.CL, cs.LG",knowledge,"Providing user-understandable explanations to justify recommendations could
+help users better understand the recommended items, increase the system's ease
+of use, and gain users' trust. A typical approach to realize it is natural
+language generation. However, previous works mostly adopt recurrent neural
+networks to meet the ends, leaving the potentially more effective pre-trained
+Transformer models under-explored. In fact, user and item IDs, as important
+identifiers in recommender systems, are inherently in different semantic space
+as words that pre-trained models were already trained on. Thus, how to
+effectively fuse IDs into such models becomes a critical issue. Inspired by
+recent advancement in prompt learning, we come up with two solutions: find
+alternative words to represent IDs (called discrete prompt learning), and
+directly input ID vectors to a pre-trained model (termed continuous prompt
+learning). In the latter case, ID vectors are randomly initialized but the
+model is trained in advance on large corpora, so they are actually in different
+learning stages. To bridge the gap, we further propose two training strategies:
+sequential tuning and recommendation as regularization. Extensive experiments
+show that our continuous prompt learning approach equipped with the training
+strategies consistently outperforms strong baselines on three datasets of
+explainable recommendation.",2022-02-15
+"Integrating AI Planning with Natural Language Processing: A Combination
+  of Explicit and Tacit Knowledge",2022-02-15 02:19:09+00:00,http://arxiv.org/abs/2202.07138v1,"Kebing Jin, Hankz Hankui Zhuo","cs.AI, cs.CL",knowledge,"Automated planning focuses on strategies, building domain models and
+synthesizing plans to transit initial states to goals. Natural language
+processing concerns with the interactions between agents and human language,
+especially processing and analyzing large amounts of natural language data.
+These two fields have abilities to generate explicit knowledge, e.g.,
+preconditions and effects of action models, and learn from tacit knowledge,
+e.g., neural models, respectively. Integrating AI planning and natural language
+processing effectively improves the communication between human and intelligent
+agents. This paper outlines the commons and relations between AI planning and
+natural language processing, argues that each of them can effectively impact on
+the other one by four areas: (1) planning-based text understanding, (2)
+planning-based text generation, (3) text-based human-robot interaction, and (4)
+text-based explainable planning. We also explore some potential future issues
+between AI planning and natural language processing.",2022-02-15
+"Research on Dual Channel News Headline Classification Based on ERNIE
+  Pre-training Model",2022-02-14 10:44:12+00:00,http://arxiv.org/abs/2202.06600v1,"Junjie Li, Hui Cao","cs.CL, cs.AI",knowledge,"The classification of news headlines is an important direction in the field
+of NLP, and its data has the characteristics of compactness, uniqueness and
+various forms. Aiming at the problem that the traditional neural network model
+cannot adequately capture the underlying feature information of the data and
+cannot jointly extract key global features and deep local features, a
+dual-channel network model DC-EBAD based on the ERNIE pre-training model is
+proposed. Use ERNIE to extract the lexical, semantic and contextual feature
+information at the bottom of the text, generate dynamic word vector
+representations fused with context, and then use the BiLSTM-AT network channel
+to secondary extract the global features of the data and use the attention
+mechanism to give key parts higher The weight of the DPCNN channel is used to
+overcome the long-distance text dependence problem and obtain deep local
+features. The local and global feature vectors are spliced, and finally passed
+to the fully connected layer, and the final classification result is output
+through Softmax. The experimental results show that the proposed model improves
+the accuracy, precision and F1-score of news headline classification compared
+with the traditional neural network model and the single-channel model under
+the same conditions. It can be seen that it can perform well in the
+multi-classification application of news headline text under large data volume.",2022-02-14
+A multi-task semi-supervised framework for Text2Graph & Graph2Text,2022-02-12 11:02:17+00:00,http://arxiv.org/abs/2202.06041v1,"Oriol Domingo, Marta R. Costa-jussà, Carlos Escolano","cs.CL, cs.IR",knowledge,"The Artificial Intelligence industry regularly develops applications that
+mostly rely on Knowledge Bases, a data repository about specific, or general,
+domains, usually represented in a graph shape. Similar to other databases, they
+face two main challenges: information ingestion and information retrieval. We
+approach these challenges by jointly learning graph extraction from text and
+text generation from graphs. The proposed solution, a T5 architecture, is
+trained in a multi-task semi-supervised environment, with our collected
+non-parallel data, following a cycle training regime. Experiments on WebNLG
+dataset show that our approach surpasses unsupervised state-of-the-art results
+in text-to-graph and graph-to-text. More relevantly, our framework is more
+consistent across seen and unseen domains than supervised models. The resulting
+model can be easily trained in any new domain with non-parallel data, by simply
+adding text and graphs about it, in our cycle framework.",2022-02-12
 "XAlign: Cross-lingual Fact-to-Text Alignment and Generation for
   Low-Resource Languages",2022-02-01 09:41:59+00:00,http://arxiv.org/abs/2202.00291v1,"Tushar Abhishek, Shivprasad Sagare, Bhavyajeet Singh, Anubhav Sharma, Manish Gupta, Vasudeva Varma",cs.CL,knowledge,"Multiple critical scenarios (like Wikipedia text generation given English
 Infoboxes) need automated generation of descriptive text in low resource (LR)

@@ -6,10 +6,15 @@ sidebar:
 ---
 
 
-*written on 2022-02-11*
+*written on 2022-02-18*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [ZeroGen: Efficient Zero-shot Learning via Dataset Generation](http://arxiv.org/abs/2202.07922v1) | Jiacheng Ye, Jiahui Gao, Qintong Li, Hang Xu, Jiangtao Feng, Zhiyong Wu, Tao Yu, Lingpeng Kong | cs.CL, cs.AI | 2022-02-16 |
+| [Personalized Prompt Learning for Explainable Recommendation](http://arxiv.org/abs/2202.07371v1) | Lei Li, Yongfeng Zhang, Li Chen | cs.IR, cs.AI, cs.CL, cs.LG | 2022-02-15 |
+| [Integrating AI Planning with Natural Language Processing: A Combination  of Explicit and Tacit Knowledge](http://arxiv.org/abs/2202.07138v1) | Kebing Jin, Hankz Hankui Zhuo | cs.AI, cs.CL | 2022-02-15 |
+| [Research on Dual Channel News Headline Classification Based on ERNIE  Pre-training Model](http://arxiv.org/abs/2202.06600v1) | Junjie Li, Hui Cao | cs.CL, cs.AI | 2022-02-14 |
+| [A multi-task semi-supervised framework for Text2Graph & Graph2Text](http://arxiv.org/abs/2202.06041v1) | Oriol Domingo, Marta R. Costa-jussà, Carlos Escolano | cs.CL, cs.IR | 2022-02-12 |
 | [XAlign: Cross-lingual Fact-to-Text Alignment and Generation for  Low-Resource Languages](http://arxiv.org/abs/2202.00291v1) | Tushar Abhishek, Shivprasad Sagare, Bhavyajeet Singh, Anubhav Sharma, Manish Gupta, Vasudeva Varma | cs.CL | 2022-02-01 |
 | [Language Generation for Broad-Coverage, Explainable Cognitive Systems](http://arxiv.org/abs/2201.10422v1) | Marjorie McShane, Ivan Leon | cs.CL, cs.AI | 2022-01-25 |
 | [Pre-Trained Language Transformers are Universal Image Classifiers](http://arxiv.org/abs/2201.10182v1) | Rahul Goel, Modar Sulaiman, Kimia Noorbakhsh, Mahdi Sharifi, Rajesh Sharma, Pooyan Jamshidi, Kallol Roy | cs.CV, cs.AI | 2022-01-25 |

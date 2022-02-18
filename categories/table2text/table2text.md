@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2022-02-11*
+*written on 2022-02-18*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [ZeroGen: Efficient Zero-shot Learning via Dataset Generation](http://arxiv.org/abs/2202.07922v1) | Jiacheng Ye, Jiahui Gao, Qintong Li, Hang Xu, Jiangtao Feng, Zhiyong Wu, Tao Yu, Lingpeng Kong | cs.CL, cs.AI | 2022-02-16 |
+| [Integrating AI Planning with Natural Language Processing: A Combination  of Explicit and Tacit Knowledge](http://arxiv.org/abs/2202.07138v1) | Kebing Jin, Hankz Hankui Zhuo | cs.AI, cs.CL | 2022-02-15 |
+| [Research on Dual Channel News Headline Classification Based on ERNIE  Pre-training Model](http://arxiv.org/abs/2202.06600v1) | Junjie Li, Hui Cao | cs.CL, cs.AI | 2022-02-14 |
+| [A multi-task semi-supervised framework for Text2Graph & Graph2Text](http://arxiv.org/abs/2202.06041v1) | Oriol Domingo, Marta R. Costa-jussà, Carlos Escolano | cs.CL, cs.IR | 2022-02-12 |
 | [Generating Training Data with Language Models: Towards Zero-Shot  Language Understanding](http://arxiv.org/abs/2202.04538v1) | Yu Meng, Jiaxin Huang, Yu Zhang, Jiawei Han | cs.CL, cs.LG | 2022-02-09 |
 | [Survey of Hallucination in Natural Language Generation](http://arxiv.org/abs/2202.03629v1) | Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii, Yejin Bang, Andrea Madotto, Pascale Fung | cs.CL, A.1 | 2022-02-08 |
 | [Red Teaming Language Models with Language Models](http://arxiv.org/abs/2202.03286v1) | Ethan Perez, Saffron Huang, Francis Song, Trevor Cai, Roman Ring, John Aslanides, Amelia Glaese, Nat McAleese, Geoffrey Irving | cs.CL, cs.AI, cs.CR, cs.LG | 2022-02-07 |

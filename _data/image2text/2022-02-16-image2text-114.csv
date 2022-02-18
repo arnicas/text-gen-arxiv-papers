@@ -1,4 +1,34 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"How to Fill the Optimum Set? Population Gradient Descent with Harmless
+  Diversity",2022-02-16 23:40:18+00:00,http://arxiv.org/abs/2202.08376v1,"Chengyue Gong, Lemeng Wu, Qiang Liu","cs.LG, cs.CV",image2text,"Although traditional optimization methods focus on finding a single optimal
+solution, most objective functions in modern machine learning problems,
+especially those in deep learning, often have multiple or infinite numbers of
+optima. Therefore, it is useful to consider the problem of finding a set of
+diverse points in the optimum set of an objective function. In this work, we
+frame this problem as a bi-level optimization problem of maximizing a diversity
+score inside the optimum set of the main loss function, and solve it with a
+simple population gradient descent framework that iteratively updates the
+points to maximize the diversity score in a fashion that does not hurt the
+optimization of the main loss. We demonstrate that our method can efficiently
+generate diverse solutions on a variety of applications, including
+text-to-image generation, text-to-mesh generation, molecular conformation
+generation and ensemble neural network training.",2022-02-16
+"Deep soccer captioning with transformer: dataset, semantics-related
+  losses, and multi-level evaluation",2022-02-11 16:04:03+00:00,http://arxiv.org/abs/2202.05728v1,"Ahmad Hammoudeh, Bastein Vanderplaetse, Stéphane Dupont","cs.CV, cs.AI",image2text,"This work aims at generating captions for soccer videos using deep learning.
+In this context, this paper introduces a dataset, model, and triple-level
+evaluation. The dataset consists of 22k caption-clip pairs and three visual
+features (images, optical flow, inpainting) for ~500 hours of \emph{SoccerNet}
+videos. The model is divided into three parts: a transformer learns language,
+ConvNets learn vision, and a fusion of linguistic and visual features generates
+captions. The paper suggests evaluating generated captions at three levels:
+syntax (the commonly used evaluation metrics such as BLEU-score and CIDEr),
+meaning (the quality of descriptions for a domain expert), and corpus (the
+diversity of generated captions). The paper shows that the diversity of
+generated captions has improved (from 0.07 reaching 0.18) with
+semantics-related losses that prioritize selected words. Semantics-related
+losses and the utilization of more visual features (optical flow, inpainting)
+improved the normalized captioning score by 28\%. The web page of this work:
+https://sites.google.com/view/soccercaptioning}{https://sites.google.com/view/soccercaptioning",2022-02-11
 "Unifying Architectures, Tasks, and Modalities Through a Simple
   Sequence-to-Sequence Learning Framework",2022-02-07 10:38:21+00:00,http://arxiv.org/abs/2202.03052v1,"Peng Wang, An Yang, Rui Men, Junyang Lin, Shuai Bai, Zhikang Li, Jianxin Ma, Chang Zhou, Jingren Zhou, Hongxia Yang","cs.CV, cs.CL",image2text,"In this work, we pursue a unified paradigm for multimodal pretraining to
 break the scaffolds of complex task/modality-specific customization. We propose
