@@ -1,4 +1,20 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"COLD Decoding: Energy-based Constrained Text Generation with Langevin
+  Dynamics",2022-02-23 18:59:27+00:00,http://arxiv.org/abs/2202.11705v1,"Lianhui Qin, Sean Welleck, Daniel Khashabi, Yejin Choi","cs.CL, cs.AI, cs.LG",knowledge,"Many applications of text generation require incorporating different
+constraints to control the semantics or style of generated text. These
+constraints can be hard (e.g., ensuring certain keywords are included in the
+output) and soft (e.g., contextualizing the output with the left- or right-hand
+context). In this paper, we present Energy-based Constrained Decoding with
+Langevin Dynamics (COLD), a decoding framework which unifies constrained
+generation as specifying constraints through an energy function, then
+performing efficient differentiable reasoning over the constraints through
+gradient-based sampling. COLD decoding is a flexible framework that can be
+applied directly to off-the-shelf left-to-right language models without the
+need for any task-specific fine-tuning, as demonstrated through three
+challenging text generation applications: lexically-constrained generation,
+abductive reasoning, and counterfactual reasoning. Our experiments on these
+constrained generation tasks point to the effectiveness of our approach, both
+in terms of automatic and human evaluation.",2022-02-23
 ZeroGen: Efficient Zero-shot Learning via Dataset Generation,2022-02-16 08:18:02+00:00,http://arxiv.org/abs/2202.07922v1,"Jiacheng Ye, Jiahui Gao, Qintong Li, Hang Xu, Jiangtao Feng, Zhiyong Wu, Tao Yu, Lingpeng Kong","cs.CL, cs.AI",knowledge,"There is a growing interest in dataset generation recently due to the
 superior generative capacity of large pre-trained language models (PLMs). In
 this paper, we study a flexible and efficient zero-short learning method,

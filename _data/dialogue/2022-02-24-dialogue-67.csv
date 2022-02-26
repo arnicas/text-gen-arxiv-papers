@@ -1,4 +1,18 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Capturing Failures of Large Language Models via Human Cognitive Biases,2022-02-24 18:58:52+00:00,http://arxiv.org/abs/2202.12299v1,"Erik Jones, Jacob Steinhardt","cs.CL, cs.AI, cs.LG",dialogue,"Large language models generate complex, open-ended outputs: instead of
+outputting a single class, they can write summaries, generate dialogue, and
+produce working code. In order to study the reliability of these open-ended
+systems, we must understand not just when they fail, but also how they fail. To
+approach this, we draw inspiration from human cognitive biases -- systematic
+patterns of deviation from rational judgement. Specifically, we use cognitive
+biases to (i) identify inputs that models are likely to err on, and (ii)
+develop tests to qualitatively characterize their errors on these inputs. Using
+code generation as a case study, we find that OpenAI's Codex errs predictably
+based on how the input prompt is framed, adjusts outputs towards anchors, and
+is biased towards outputs that mimic frequent training examples. We then use
+our framework to uncover high-impact errors such as incorrectly deleting files.
+Our experiments suggest that cognitive science can be a useful jumping-off
+point to better understand how contemporary machine learning systems behave.",2022-02-24
 "Integrating AI Planning with Natural Language Processing: A Combination
   of Explicit and Tacit Knowledge",2022-02-15 02:19:09+00:00,http://arxiv.org/abs/2202.07138v1,"Kebing Jin, Hankz Hankui Zhuo","cs.AI, cs.CL",dialogue,"Automated planning focuses on strategies, building domain models and
 synthesizing plans to transit initial states to goals. Natural language

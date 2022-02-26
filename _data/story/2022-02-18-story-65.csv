@@ -1,4 +1,22 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+CLSEG: Contrastive Learning of Story Ending Generation,2022-02-18 07:11:04+00:00,http://arxiv.org/abs/2202.09049v1,"Yuqiang Xie, Yue Hu, Luxi Xing, Yunpeng Li, Wei Peng, Ping Guo",cs.CL,story,"Story Ending Generation (SEG) is a challenging task in natural language
+generation. Recently, methods based on Pre-trained Language Models (PLM) have
+achieved great prosperity, which can produce fluent and coherent story endings.
+However, the pre-training objective of PLM-based methods is unable to model the
+consistency between story context and ending. The goal of this paper is to
+adopt contrastive learning to generate endings more consistent with story
+context, while there are two main challenges in contrastive learning of SEG.
+First is the negative sampling of wrong endings inconsistent with story
+contexts. The second challenge is the adaptation of contrastive learning for
+SEG. To address these two issues, we propose a novel Contrastive Learning
+framework for Story Ending Generation (CLSEG), which has two steps:
+multi-aspect sampling and story-specific contrastive learning. Particularly,
+for the first issue, we utilize novel multi-aspect sampling mechanisms to
+obtain wrong endings considering the consistency of order, causality, and
+sentiment. To solve the second issue, we well-design a story-specific
+contrastive training strategy that is adapted for SEG. Experiments show that
+CLSEG outperforms baselines and can produce story endings with stronger
+consistency and rationality.",2022-02-18
 "Inferring Commonsense Explanations as Prompts for Future Event
   Generation",2022-01-18 16:21:23+00:00,http://arxiv.org/abs/2201.07099v1,"Li Lin, Yixin Cao, Lifu Huang, Shuang Li, Xuming Hu, Lijie Wen, Jianmin Wang","cs.CL, cs.LG, I.2.7; I.2.4",story,"Future Event Generation aims to generate fluent and reasonable future event
 descriptions given preceding events. It requires not only fluent text

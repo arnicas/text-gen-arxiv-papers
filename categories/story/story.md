@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2022-01-24*
+*written on 2022-02-26*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [CLSEG: Contrastive Learning of Story Ending Generation](http://arxiv.org/abs/2202.09049v1) | Yuqiang Xie, Yue Hu, Luxi Xing, Yunpeng Li, Wei Peng, Ping Guo | cs.CL | 2022-02-18 |
 | [Inferring Commonsense Explanations as Prompts for Future Event  Generation](http://arxiv.org/abs/2201.07099v1) | Li Lin, Yixin Cao, Lifu Huang, Shuang Li, Xuming Hu, Lijie Wen, Jianmin Wang | cs.CL, cs.LG, I.2.7; I.2.4 | 2022-01-18 |
 | [Guiding Neural Story Generation with Reader Models](http://arxiv.org/abs/2112.08596v1) | Xiangyu Peng, Kaige Xie, Amal Alabdulkarim, Harshith Kayam, Samihan Dani, Mark O. Riedl | cs.CL | 2021-12-16 |
 | [Goal-Directed Story Generation: Augmenting Generative Language Models  with Reinforcement Learning](http://arxiv.org/abs/2112.08593v1) | Amal Alabdulkarim, Winston Li, Lara J. Martin, Mark O. Riedl | cs.CL, cs.AI | 2021-12-16 |
