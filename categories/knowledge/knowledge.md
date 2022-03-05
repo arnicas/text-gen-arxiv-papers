@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2022-02-26*
+*written on 2022-03-05*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Combining Modular Skills in Multitask Learning](http://arxiv.org/abs/2202.13914v2) | Edoardo M. Ponti, Alessandro Sordoni, Yoshua Bengio, Siva Reddy | cs.LG, cs.CL | 2022-02-28 |
 | [COLD Decoding: Energy-based Constrained Text Generation with Langevin  Dynamics](http://arxiv.org/abs/2202.11705v1) | Lianhui Qin, Sean Welleck, Daniel Khashabi, Yejin Choi | cs.CL, cs.AI, cs.LG | 2022-02-23 |
 | [ZeroGen: Efficient Zero-shot Learning via Dataset Generation](http://arxiv.org/abs/2202.07922v1) | Jiacheng Ye, Jiahui Gao, Qintong Li, Hang Xu, Jiangtao Feng, Zhiyong Wu, Tao Yu, Lingpeng Kong | cs.CL, cs.AI | 2022-02-16 |
 | [Personalized Prompt Learning for Explainable Recommendation](http://arxiv.org/abs/2202.07371v1) | Lei Li, Yongfeng Zhang, Li Chen | cs.IR, cs.AI, cs.CL, cs.LG | 2022-02-15 |

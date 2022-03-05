@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2022-02-18*
+*written on 2022-03-05*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Attend, Memorize and Generate: Towards Faithful Table-to-Text Generation  in Few Shots](http://arxiv.org/abs/2203.00732v1) | Wenting Zhao, Ye Liu, Yao Wan, Philip S. Yu | cs.CL | 2022-03-01 |
+| [Data-to-text Generation with Variational Sequential Planning](http://arxiv.org/abs/2202.13756v1) | Ratish Puduppully, Yao Fu, Mirella Lapata | cs.CL | 2022-02-28 |
+| [Variational Autoencoder with Disentanglement Priors for Low-Resource  Task-Specific Natural Language Generation](http://arxiv.org/abs/2202.13363v1) | Zhuang Li, Lizhen Qu, Qiongkai Xu, Tongtong Wu, Tianyang Zhan, Gholamreza Haffari | cs.CL | 2022-02-27 |
 | [ZeroGen: Efficient Zero-shot Learning via Dataset Generation](http://arxiv.org/abs/2202.07922v1) | Jiacheng Ye, Jiahui Gao, Qintong Li, Hang Xu, Jiangtao Feng, Zhiyong Wu, Tao Yu, Lingpeng Kong | cs.CL, cs.AI | 2022-02-16 |
 | [Integrating AI Planning with Natural Language Processing: A Combination  of Explicit and Tacit Knowledge](http://arxiv.org/abs/2202.07138v1) | Kebing Jin, Hankz Hankui Zhuo | cs.AI, cs.CL | 2022-02-15 |
 | [Research on Dual Channel News Headline Classification Based on ERNIE  Pre-training Model](http://arxiv.org/abs/2202.06600v1) | Junjie Li, Hui Cao | cs.CL, cs.AI | 2022-02-14 |

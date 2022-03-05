@@ -1,4 +1,23 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Combining Modular Skills in Multitask Learning,2022-02-28 16:07:19+00:00,http://arxiv.org/abs/2202.13914v2,"Edoardo M. Ponti, Alessandro Sordoni, Yoshua Bengio, Siva Reddy","cs.LG, cs.CL",knowledge,"A modular design encourages neural models to disentangle and recombine
+different facets of knowledge to generalise more systematically to new tasks.
+In this work, we assume that each task is associated with a subset of latent
+discrete skills from a (potentially small) inventory. In turn, skills
+correspond to parameter-efficient (sparse / low-rank) model parameterisations.
+By jointly learning these and a task-skill allocation matrix, the network for
+each task is instantiated as the average of the parameters of active skills. To
+favour non-trivial soft partitions of skills across tasks, we experiment with a
+series of inductive biases, such as an Indian Buffet Process prior and a
+two-speed learning rate. We evaluate our latent-skill model on two main
+settings: 1) multitask reinforcement learning for grounded instruction
+following on 8 levels of the BabyAI platform; and 2) few-shot adaptation of
+pre-trained text-to-text generative models on CrossFit, a benchmark comprising
+160 NLP tasks. We find that the modular design of a network significantly
+increases sample efficiency in reinforcement learning and few-shot
+generalisation in supervised learning, compared to baselines with fully shared,
+task-specific, or conditionally generated parameters where knowledge is
+entangled across tasks. In addition, we show how discrete skills help
+interpretability, as they yield an explicit hierarchy of tasks.",2022-02-28
 "COLD Decoding: Energy-based Constrained Text Generation with Langevin
   Dynamics",2022-02-23 18:59:27+00:00,http://arxiv.org/abs/2202.11705v1,"Lianhui Qin, Sean Welleck, Daniel Khashabi, Yejin Choi","cs.CL, cs.AI, cs.LG",knowledge,"Many applications of text generation require incorporating different
 constraints to control the semantics or style of generated text. These
