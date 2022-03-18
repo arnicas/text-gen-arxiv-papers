@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2022-02-18*
+*written on 2022-03-18*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Chart-to-Text: A Large-Scale Benchmark for Chart Summarization](http://arxiv.org/abs/2203.06486v1) | Shankar Kanthara, Rixie Tiffany Ko Leong, Xiang Lin, Ahmed Masry, Megh Thakkar, Enamul Hoque, Shafiq Joty | cs.CL | 2022-03-12 |
+| [Compilable Neural Code Generation with Compiler Feedback](http://arxiv.org/abs/2203.05132v1) | Xin Wang, Yasheng Wang, Yao Wan, Fei Mi, Yitong Li, Pingyi Zhou, Jin Liu, Hao Wu, Xin Jiang, Qun Liu | cs.CL, cs.AI, cs.PL | 2022-03-10 |
 | [How to Fill the Optimum Set? Population Gradient Descent with Harmless  Diversity](http://arxiv.org/abs/2202.08376v1) | Chengyue Gong, Lemeng Wu, Qiang Liu | cs.LG, cs.CV | 2022-02-16 |
 | [Deep soccer captioning with transformer: dataset, semantics-related  losses, and multi-level evaluation](http://arxiv.org/abs/2202.05728v1) | Ahmad Hammoudeh, Bastein Vanderplaetse, Stéphane Dupont | cs.CV, cs.AI | 2022-02-11 |
 | [Unifying Architectures, Tasks, and Modalities Through a Simple  Sequence-to-Sequence Learning Framework](http://arxiv.org/abs/2202.03052v1) | Peng Wang, An Yang, Rui Men, Junyang Lin, Shuai Bai, Zhikang Li, Jianxin Ma, Chang Zhou, Jingren Zhou, Hongxia Yang | cs.CV, cs.CL | 2022-02-07 |

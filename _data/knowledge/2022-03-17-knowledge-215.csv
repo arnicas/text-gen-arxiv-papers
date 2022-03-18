@@ -1,4 +1,121 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+RoMe: A Robust Metric for Evaluating Natural Language Generation,2022-03-17 09:07:39+00:00,http://arxiv.org/abs/2203.09183v1,"Md Rashad Al Hasan Rony, Liubov Kovriguina, Debanjan Chaudhuri, Ricardo Usbeck, Jens Lehmann","cs.CL, cs.AI",knowledge,"Evaluating Natural Language Generation (NLG) systems is a challenging task.
+Firstly, the metric should ensure that the generated hypothesis reflects the
+reference's semantics. Secondly, it should consider the grammatical quality of
+the generated sentence. Thirdly, it should be robust enough to handle various
+surface forms of the generated sentence. Thus, an effective evaluation metric
+has to be multifaceted. In this paper, we propose an automatic evaluation
+metric incorporating several core aspects of natural language understanding
+(language competence, syntactic and semantic variation). Our proposed metric,
+RoMe, is trained on language features such as semantic similarity combined with
+tree edit distance and grammatical acceptability, using a self-supervised
+neural network to assess the overall quality of the generated sentence.
+Moreover, we perform an extensive robustness analysis of the state-of-the-art
+methods and RoMe. Empirical results suggest that RoMe has a stronger
+correlation to human judgment over state-of-the-art metrics in evaluating
+system-generated sentences across several NLG tasks.",2022-03-17
+"PLANET: Dynamic Content Planning in Autoregressive Transformers for
+  Long-form Text Generation",2022-03-17 05:52:35+00:00,http://arxiv.org/abs/2203.09100v1,"Zhe Hu, Hou Pong Chan, Jiachen Liu, Xinyan Xiao, Hua Wu, Lifu Huang",cs.CL,knowledge,"Despite recent progress of pre-trained language models on generating fluent
+text, existing methods still suffer from incoherence problems in long-form text
+generation tasks that require proper content control and planning to form a
+coherent high-level logical flow. In this work, we propose PLANET, a novel
+generation framework leveraging autoregressive self-attention mechanism to
+conduct content planning and surface realization dynamically. To guide the
+generation of output sentences, our framework enriches the Transformer decoder
+with latent representations to maintain sentence-level semantic plans grounded
+by bag-of-words. Moreover, we introduce a new coherence-based contrastive
+learning objective to further improve the coherence of output. Extensive
+experiments are conducted on two challenging long-form text generation tasks
+including counterargument generation and opinion article generation. Both
+automatic and human evaluations show that our method significantly outperforms
+strong baselines and generates more coherent texts with richer contents.",2022-03-17
+"TegTok: Augmenting Text Generation via Task-specific and Open-world
+  Knowledge",2022-03-16 10:37:59+00:00,http://arxiv.org/abs/2203.08517v1,"Chao-Hong Tan, Jia-Chen Gu, Chongyang Tao, Zhen-Hua Ling, Can Xu, Huang Hu, Xiubo Geng, Daxin Jiang","cs.CL, cs.AI",knowledge,"Generating natural and informative texts has been a long-standing problem in
+NLP. Much effort has been dedicated into incorporating pre-trained language
+models (PLMs) with various open-world knowledge, such as knowledge graphs or
+wiki pages. However, their ability to access and manipulate the task-specific
+knowledge is still limited on downstream tasks, as this type of knowledge is
+usually not well covered in PLMs and is hard to acquire. To address the
+problem, we propose augmenting TExt Generation via Task-specific and Open-world
+Knowledge (TegTok) in a unified framework. Our model selects knowledge entries
+from two types of knowledge sources through dense retrieval and then injects
+them into the input encoding and output decoding stages respectively on the
+basis of PLMs. With the help of these two types of knowledge, our model can
+learn what and how to generate. Experiments on two text generation tasks of
+dialogue generation and question generation, and on two datasets show that our
+method achieves better performance than various baseline models.",2022-03-16
+Graph Pre-training for AMR Parsing and Generation,2022-03-15 12:47:00+00:00,http://arxiv.org/abs/2203.07836v1,"Xuefeng Bai, Yulong Chen, Yue Zhang",cs.CL,knowledge,"Abstract meaning representation (AMR) highlights the core semantic
+information of text in a graph structure. Recently, pre-trained language models
+(PLMs) have advanced tasks of AMR parsing and AMR-to-text generation,
+respectively. However, PLMs are typically pre-trained on textual data, thus are
+sub-optimal for modeling structural knowledge. To this end, we investigate
+graph self-supervised training to improve the structure awareness of PLMs over
+AMR graphs. In particular, we introduce two graph auto-encoding strategies for
+graph-to-graph pre-training and four tasks to integrate text and graph
+information during pre-training. We further design a unified framework to
+bridge the gap between pre-training and fine-tuning tasks. Experiments on both
+AMR parsing and AMR-to-text generation show the superiority of our model. To
+our knowledge, we are the first to consider pre-training on semantic graphs.",2022-03-15
+Pruned Graph Neural Network for Short Story Ordering,2022-03-13 22:25:17+00:00,http://arxiv.org/abs/2203.06778v1,"Melika Golestani, Zeinab Borhanifard, Farnaz Tahmasebian, Heshaam Faili",cs.CL,knowledge,"Text coherence is a fundamental problem in natural language generation and
+understanding. Organizing sentences into an order that maximizes coherence is
+known as sentence ordering. This paper is proposing a new approach based on the
+graph neural network approach to encode a set of sentences and learn orderings
+of short stories. We propose a new method for constructing sentence-entity
+graphs of short stories to create the edges between sentences and reduce noise
+in our graph by replacing the pronouns with their referring entities. We
+improve the sentence ordering by introducing an aggregation method based on
+majority voting of state-of-the-art methods and our proposed one. Our approach
+employs a BERT-based model to learn semantic representations of the sentences.
+The results demonstrate that the proposed method significantly outperforms
+existing baselines on a corpus of short stories with a new state-of-the-art
+performance in terms of Perfect Match Ratio (PMR) and Kendall's Tau (Tau)
+metrics. More precisely, our method increases PMR and Tau criteria by more than
+5% and 4.3%, respectively. These outcomes highlight the benefit of forming the
+edges between sentences based on their cosine similarity. We also observe that
+replacing pronouns with their referring entities effectively encodes sentences
+in sentence-entity graphs.",2022-03-13
+"IndicNLG Suite: Multilingual Datasets for Diverse NLG Tasks in Indic
+  Languages",2022-03-10 15:53:58+00:00,http://arxiv.org/abs/2203.05437v1,"Aman Kumar, Himani Shrotriya, Prachi Sahu, Raj Dabre, Ratish Puduppully, Anoop Kunchukuttan, Amogh Mishra, Mitesh M. Khapra, Pratyush Kumar","cs.CL, cs.AI",knowledge,"In this paper, we present the IndicNLG suite, a collection of datasets for
+benchmarking Natural Language Generation (NLG) for 11 Indic languages. We focus
+on five diverse tasks, namely, biography generation using Wikipedia infoboxes
+(WikiBio), news headline generation, sentence summarization, question
+generation and paraphrase generation. We describe the process of creating the
+datasets and present statistics of the dataset, following which we train and
+report a variety of strong monolingual and multilingual baselines that leverage
+pre-trained sequence-to-sequence models and analyze the results to understand
+the challenges involved in Indic language NLG. To the best of our knowledge,
+this is the first NLG dataset for Indic languages and also the largest
+multilingual NLG dataset. Our methods can also be easily applied to
+modest-resource languages with reasonable monolingual and parallel corpora, as
+well as corpora containing structured data like Wikipedia. We hope this dataset
+spurs research in NLG on diverse languages and tasks, particularly for Indic
+languages. The datasets and models are publicly available at
+https://indicnlp.ai4bharat.org/indicnlg-suite.",2022-03-10
+Recent Advances in Neural Text Generation: A Task-Agnostic Survey,2022-03-06 20:47:49+00:00,http://arxiv.org/abs/2203.03047v1,"Chen Tang, Frank Guerin, Yucheng Li, Chenghua Lin","cs.CL, cs.AI",knowledge,"In recent years much effort has been devoted to applying neural models to the
+task of natural language generation. The challenge is to generate natural
+human-like text, and to control the generation process. This paper presents a
+task-agnostic survey of recent advances in neural text generation. These
+advances have been achieved by numerous developments, which we group under the
+following four headings: data construction, neural frameworks, training and
+inference strategies, and evaluation metrics. Finally we discuss the future
+directions for the development of neural text generation including neural
+pipelines and exploiting back-ground knowledge.",2022-03-06
+Deep Latent-Variable Models for Text Generation,2022-03-03 23:06:39+00:00,http://arxiv.org/abs/2203.02055v1,Xiaoyu Shen,cs.CL,knowledge,"Text generation aims to produce human-like natural language output for
+down-stream tasks. It covers a wide range of applications like machine
+translation, document summarization, dialogue generation and so on. Recently
+deep neural network-based end-to-end architectures have been widely adopted.
+The end-to-end approach conflates all sub-modules, which used to be designed by
+complex handcrafted rules, into a holistic encode-decode architecture. Given
+enough training data, it is able to achieve state-of-the-art performance yet
+avoiding the need of language/domain-dependent knowledge. Nonetheless, deep
+learning models are known to be extremely data-hungry, and text generated from
+them usually suffer from low diversity, interpretability and controllability.
+As a result, it is difficult to trust the output from them in real-life
+applications. Deep latent-variable models, by specifying the probabilistic
+distribution over an intermediate latent process, provide a potential way of
+addressing these problems while maintaining the expressive power of deep neural
+networks. This dissertation presents how deep latent-variable models can
+improve over the standard encoder-decoder model for text generation.",2022-03-03
 Combining Modular Skills in Multitask Learning,2022-02-28 16:07:19+00:00,http://arxiv.org/abs/2202.13914v2,"Edoardo M. Ponti, Alessandro Sordoni, Yoshua Bengio, Siva Reddy","cs.LG, cs.CL",knowledge,"A modular design encourages neural models to disentangle and recombine
 different facets of knowledge to generalise more systematically to new tasks.
 In this work, we assume that each task is associated with a subset of latent

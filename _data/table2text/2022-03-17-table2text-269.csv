@@ -1,4 +1,148 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"ToxiGen: A Large-Scale Machine-Generated Dataset for Adversarial and
+  Implicit Hate Speech Detection",2022-03-17 17:57:56+00:00,http://arxiv.org/abs/2203.09509v1,"Thomas Hartvigsen, Saadia Gabriel, Hamid Palangi, Maarten Sap, Dipankar Ray, Ece Kamar",cs.CL,table2text,"Toxic language detection systems often falsely flag text that contains
+minority group mentions as toxic, as those groups are often the targets of
+online hate. Such over-reliance on spurious correlations also causes systems to
+struggle with detecting implicitly toxic language. To help mitigate these
+issues, we create ToxiGen, a new large-scale and machine-generated dataset of
+274k toxic and benign statements about 13 minority groups. We develop a
+demonstration-based prompting framework and an adversarial
+classifier-in-the-loop decoding method to generate subtly toxic and benign text
+with a massive pretrained language model. Controlling machine generation in
+this way allows ToxiGen to cover implicitly toxic text at a larger scale, and
+about more demographic groups, than previous resources of human-written text.
+We conduct a human evaluation on a challenging subset of ToxiGen and find that
+annotators struggle to distinguish machine-generated text from human-written
+language. We also find that 94.5% of toxic examples are labeled as hate speech
+by human annotators. Using three publicly-available datasets, we show that
+finetuning a toxicity classifier on our data improves its performance on
+human-written data substantially. We also demonstrate that ToxiGen can be used
+to fight machine-generated toxicity as finetuning improves the classifier
+significantly on our evaluation subset.",2022-03-17
+"Time Dependency, Data Flow, and Competitive Advantage",2022-03-17 07:09:30+00:00,http://arxiv.org/abs/2203.09128v1,"Ehsan Valavi, Joel Hestness, Marco Iansiti, Newsha Ardalani, Feng Zhu, Karim R. Lakhani","cs.LG, cs.CL, econ.GN, q-fin.EC",table2text,"Data is fundamental to machine learning-based products and services and is
+considered strategic due to its externalities for businesses, governments,
+non-profits, and more generally for society. It is renowned that the value of
+organizations (businesses, government agencies and programs, and even
+industries) scales with the volume of available data. What is often less
+appreciated is that the data value in making useful organizational predictions
+will range widely and is prominently a function of data characteristics and
+underlying algorithms.
+  In this research, our goal is to study how the value of data changes over
+time and how this change varies across contexts and business areas (e.g. next
+word prediction in the context of history, sports, politics). We focus on data
+from Reddit.com and compare the value's time-dependency across various Reddit
+topics (Subreddits). We make this comparison by measuring the rate at which
+user-generated text data loses its relevance to the algorithmic prediction of
+conversations. We show that different subreddits have different rates of
+relevance decline over time.
+  Relating the text topics to various business areas of interest, we argue that
+competing in a business area in which data value decays rapidly alters
+strategies to acquire competitive advantage. When data value decays rapidly,
+access to a continuous flow of data will be more valuable than access to a
+fixed stock of data. In this kind of setting, improving user engagement and
+increasing user-base help creating and maintaining a competitive advantage.",2022-03-17
+Graph Pre-training for AMR Parsing and Generation,2022-03-15 12:47:00+00:00,http://arxiv.org/abs/2203.07836v1,"Xuefeng Bai, Yulong Chen, Yue Zhang",cs.CL,table2text,"Abstract meaning representation (AMR) highlights the core semantic
+information of text in a graph structure. Recently, pre-trained language models
+(PLMs) have advanced tasks of AMR parsing and AMR-to-text generation,
+respectively. However, PLMs are typically pre-trained on textual data, thus are
+sub-optimal for modeling structural knowledge. To this end, we investigate
+graph self-supervised training to improve the structure awareness of PLMs over
+AMR graphs. In particular, we introduce two graph auto-encoding strategies for
+graph-to-graph pre-training and four tasks to integrate text and graph
+information during pre-training. We further design a unified framework to
+bridge the gap between pre-training and fine-tuning tasks. Experiments on both
+AMR parsing and AMR-to-text generation show the superiority of our model. To
+our knowledge, we are the first to consider pre-training on semantic graphs.",2022-03-15
+Chart-to-Text: A Large-Scale Benchmark for Chart Summarization,2022-03-12 17:01:38+00:00,http://arxiv.org/abs/2203.06486v1,"Shankar Kanthara, Rixie Tiffany Ko Leong, Xiang Lin, Ahmed Masry, Megh Thakkar, Enamul Hoque, Shafiq Joty",cs.CL,table2text,"Charts are commonly used for exploring data and communicating insights.
+Generating natural language summaries from charts can be very helpful for
+people in inferring key insights that would otherwise require a lot of
+cognitive and perceptual efforts. We present Chart-to-text, a large-scale
+benchmark with two datasets and a total of 44,096 charts covering a wide range
+of topics and chart types. We explain the dataset construction process and
+analyze the datasets. We also introduce a number of state-of-the-art neural
+models as baselines that utilize image captioning and data-to-text generation
+techniques to tackle two problem variations: one assumes the underlying data
+table of the chart is available while the other needs to extract data from
+chart images. Our analysis with automatic and human evaluation shows that while
+our best models usually generate fluent summaries and yield reasonable BLEU
+scores, they also suffer from hallucinations and factual errors as well as
+difficulties in correctly explaining complex patterns and trends in charts.",2022-03-12
+"IndicNLG Suite: Multilingual Datasets for Diverse NLG Tasks in Indic
+  Languages",2022-03-10 15:53:58+00:00,http://arxiv.org/abs/2203.05437v1,"Aman Kumar, Himani Shrotriya, Prachi Sahu, Raj Dabre, Ratish Puduppully, Anoop Kunchukuttan, Amogh Mishra, Mitesh M. Khapra, Pratyush Kumar","cs.CL, cs.AI",table2text,"In this paper, we present the IndicNLG suite, a collection of datasets for
+benchmarking Natural Language Generation (NLG) for 11 Indic languages. We focus
+on five diverse tasks, namely, biography generation using Wikipedia infoboxes
+(WikiBio), news headline generation, sentence summarization, question
+generation and paraphrase generation. We describe the process of creating the
+datasets and present statistics of the dataset, following which we train and
+report a variety of strong monolingual and multilingual baselines that leverage
+pre-trained sequence-to-sequence models and analyze the results to understand
+the challenges involved in Indic language NLG. To the best of our knowledge,
+this is the first NLG dataset for Indic languages and also the largest
+multilingual NLG dataset. Our methods can also be easily applied to
+modest-resource languages with reasonable monolingual and parallel corpora, as
+well as corpora containing structured data like Wikipedia. We hope this dataset
+spurs research in NLG on diverse languages and tasks, particularly for Indic
+languages. The datasets and models are publicly available at
+https://indicnlp.ai4bharat.org/indicnlg-suite.",2022-03-10
+"Faithfulness in Natural Language Generation: A Systematic Survey of
+  Analysis, Evaluation and Optimization Methods",2022-03-10 08:28:32+00:00,http://arxiv.org/abs/2203.05227v1,"Wei Li, Wenhao Wu, Moye Chen, Jiachen Liu, Xinyan Xiao, Hua Wu",cs.CL,table2text,"Natural Language Generation (NLG) has made great progress in recent years due
+to the development of deep learning techniques such as pre-trained language
+models. This advancement has resulted in more fluent, coherent and even
+properties controllable (e.g. stylistic, sentiment, length etc.) generation,
+naturally leading to development in downstream tasks such as abstractive
+summarization, dialogue generation, machine translation, and data-to-text
+generation. However, the faithfulness problem that the generated text usually
+contains unfaithful or non-factual information has become the biggest
+challenge, which makes the performance of text generation unsatisfactory for
+practical applications in many real-world scenarios. Many studies on analysis,
+evaluation, and optimization methods for faithfulness problems have been
+proposed for various tasks, but have not been organized, compared and discussed
+in a combined manner. In this survey, we provide a systematic overview of the
+research progress on the faithfulness problem of NLG, including problem
+analysis, evaluation metrics and optimization methods. We organize the
+evaluation and optimization methods for different tasks into a unified taxonomy
+to facilitate comparison and learning across tasks. Several research trends are
+discussed further.",2022-03-10
+Compilable Neural Code Generation with Compiler Feedback,2022-03-10 03:15:17+00:00,http://arxiv.org/abs/2203.05132v1,"Xin Wang, Yasheng Wang, Yao Wan, Fei Mi, Yitong Li, Pingyi Zhou, Jin Liu, Hao Wu, Xin Jiang, Qun Liu","cs.CL, cs.AI, cs.PL",table2text,"Automatically generating compilable programs with (or without) natural
+language descriptions has always been a touchstone problem for computational
+linguistics and automated software engineering. Existing deep-learning
+approaches model code generation as text generation, either constrained by
+grammar structures in decoder, or driven by pre-trained language models on
+large-scale code corpus (e.g., CodeGPT, PLBART, and CodeT5). However, few of
+them account for compilability of the generated programs. To improve
+compilability of the generated programs, this paper proposes COMPCODER, a
+three-stage pipeline utilizing compiler feedback for compilable code
+generation, including language model fine-tuning, compilability reinforcement,
+and compilability discrimination. Comprehensive experiments on two code
+generation tasks demonstrate the effectiveness of our proposed approach,
+improving the success rate of compilation from 44.18 to 89.18 in code
+completion on average and from 70.3 to 96.2 in text-to-code generation,
+respectively, when comparing with the state-of-the-art CodeGPT.",2022-03-10
+Recent Advances in Neural Text Generation: A Task-Agnostic Survey,2022-03-06 20:47:49+00:00,http://arxiv.org/abs/2203.03047v1,"Chen Tang, Frank Guerin, Yucheng Li, Chenghua Lin","cs.CL, cs.AI",table2text,"In recent years much effort has been devoted to applying neural models to the
+task of natural language generation. The challenge is to generate natural
+human-like text, and to control the generation process. This paper presents a
+task-agnostic survey of recent advances in neural text generation. These
+advances have been achieved by numerous developments, which we group under the
+following four headings: data construction, neural frameworks, training and
+inference strategies, and evaluation metrics. Finally we discuss the future
+directions for the development of neural text generation including neural
+pipelines and exploiting back-ground knowledge.",2022-03-06
+Deep Latent-Variable Models for Text Generation,2022-03-03 23:06:39+00:00,http://arxiv.org/abs/2203.02055v1,Xiaoyu Shen,cs.CL,table2text,"Text generation aims to produce human-like natural language output for
+down-stream tasks. It covers a wide range of applications like machine
+translation, document summarization, dialogue generation and so on. Recently
+deep neural network-based end-to-end architectures have been widely adopted.
+The end-to-end approach conflates all sub-modules, which used to be designed by
+complex handcrafted rules, into a holistic encode-decode architecture. Given
+enough training data, it is able to achieve state-of-the-art performance yet
+avoiding the need of language/domain-dependent knowledge. Nonetheless, deep
+learning models are known to be extremely data-hungry, and text generated from
+them usually suffer from low diversity, interpretability and controllability.
+As a result, it is difficult to trust the output from them in real-life
+applications. Deep latent-variable models, by specifying the probabilistic
+distribution over an intermediate latent process, provide a potential way of
+addressing these problems while maintaining the expressive power of deep neural
+networks. This dissertation presents how deep latent-variable models can
+improve over the standard encoder-decoder model for text generation.",2022-03-03
 "Attend, Memorize and Generate: Towards Faithful Table-to-Text Generation
   in Few Shots",2022-03-01 20:37:20+00:00,http://arxiv.org/abs/2203.00732v1,"Wenting Zhao, Ye Liu, Yao Wan, Philip S. Yu",cs.CL,table2text,"Few-shot table-to-text generation is a task of composing fluent and faithful
 sentences to convey table content using limited data. Despite many efforts

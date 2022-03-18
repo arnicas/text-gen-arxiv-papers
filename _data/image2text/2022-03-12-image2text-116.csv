@@ -1,4 +1,33 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Chart-to-Text: A Large-Scale Benchmark for Chart Summarization,2022-03-12 17:01:38+00:00,http://arxiv.org/abs/2203.06486v1,"Shankar Kanthara, Rixie Tiffany Ko Leong, Xiang Lin, Ahmed Masry, Megh Thakkar, Enamul Hoque, Shafiq Joty",cs.CL,image2text,"Charts are commonly used for exploring data and communicating insights.
+Generating natural language summaries from charts can be very helpful for
+people in inferring key insights that would otherwise require a lot of
+cognitive and perceptual efforts. We present Chart-to-text, a large-scale
+benchmark with two datasets and a total of 44,096 charts covering a wide range
+of topics and chart types. We explain the dataset construction process and
+analyze the datasets. We also introduce a number of state-of-the-art neural
+models as baselines that utilize image captioning and data-to-text generation
+techniques to tackle two problem variations: one assumes the underlying data
+table of the chart is available while the other needs to extract data from
+chart images. Our analysis with automatic and human evaluation shows that while
+our best models usually generate fluent summaries and yield reasonable BLEU
+scores, they also suffer from hallucinations and factual errors as well as
+difficulties in correctly explaining complex patterns and trends in charts.",2022-03-12
+Compilable Neural Code Generation with Compiler Feedback,2022-03-10 03:15:17+00:00,http://arxiv.org/abs/2203.05132v1,"Xin Wang, Yasheng Wang, Yao Wan, Fei Mi, Yitong Li, Pingyi Zhou, Jin Liu, Hao Wu, Xin Jiang, Qun Liu","cs.CL, cs.AI, cs.PL",image2text,"Automatically generating compilable programs with (or without) natural
+language descriptions has always been a touchstone problem for computational
+linguistics and automated software engineering. Existing deep-learning
+approaches model code generation as text generation, either constrained by
+grammar structures in decoder, or driven by pre-trained language models on
+large-scale code corpus (e.g., CodeGPT, PLBART, and CodeT5). However, few of
+them account for compilability of the generated programs. To improve
+compilability of the generated programs, this paper proposes COMPCODER, a
+three-stage pipeline utilizing compiler feedback for compilable code
+generation, including language model fine-tuning, compilability reinforcement,
+and compilability discrimination. Comprehensive experiments on two code
+generation tasks demonstrate the effectiveness of our proposed approach,
+improving the success rate of compilation from 44.18 to 89.18 in code
+completion on average and from 70.3 to 96.2 in text-to-code generation,
+respectively, when comparing with the state-of-the-art CodeGPT.",2022-03-10
 "How to Fill the Optimum Set? Population Gradient Descent with Harmless
   Diversity",2022-02-16 23:40:18+00:00,http://arxiv.org/abs/2202.08376v1,"Chengyue Gong, Lemeng Wu, Qiang Liu","cs.LG, cs.CV",image2text,"Although traditional optimization methods focus on finding a single optimal
 solution, most objective functions in modern machine learning problems,

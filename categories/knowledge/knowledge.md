@@ -7,10 +7,18 @@ sidebar:
 ---
 
 
-*written on 2022-03-05*
+*written on 2022-03-18*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [RoMe: A Robust Metric for Evaluating Natural Language Generation](http://arxiv.org/abs/2203.09183v1) | Md Rashad Al Hasan Rony, Liubov Kovriguina, Debanjan Chaudhuri, Ricardo Usbeck, Jens Lehmann | cs.CL, cs.AI | 2022-03-17 |
+| [PLANET: Dynamic Content Planning in Autoregressive Transformers for  Long-form Text Generation](http://arxiv.org/abs/2203.09100v1) | Zhe Hu, Hou Pong Chan, Jiachen Liu, Xinyan Xiao, Hua Wu, Lifu Huang | cs.CL | 2022-03-17 |
+| [TegTok: Augmenting Text Generation via Task-specific and Open-world  Knowledge](http://arxiv.org/abs/2203.08517v1) | Chao-Hong Tan, Jia-Chen Gu, Chongyang Tao, Zhen-Hua Ling, Can Xu, Huang Hu, Xiubo Geng, Daxin Jiang | cs.CL, cs.AI | 2022-03-16 |
+| [Graph Pre-training for AMR Parsing and Generation](http://arxiv.org/abs/2203.07836v1) | Xuefeng Bai, Yulong Chen, Yue Zhang | cs.CL | 2022-03-15 |
+| [Pruned Graph Neural Network for Short Story Ordering](http://arxiv.org/abs/2203.06778v1) | Melika Golestani, Zeinab Borhanifard, Farnaz Tahmasebian, Heshaam Faili | cs.CL | 2022-03-13 |
+| [IndicNLG Suite: Multilingual Datasets for Diverse NLG Tasks in Indic  Languages](http://arxiv.org/abs/2203.05437v1) | Aman Kumar, Himani Shrotriya, Prachi Sahu, Raj Dabre, Ratish Puduppully, Anoop Kunchukuttan, Amogh Mishra, Mitesh M. Khapra, Pratyush Kumar | cs.CL, cs.AI | 2022-03-10 |
+| [Recent Advances in Neural Text Generation: A Task-Agnostic Survey](http://arxiv.org/abs/2203.03047v1) | Chen Tang, Frank Guerin, Yucheng Li, Chenghua Lin | cs.CL, cs.AI | 2022-03-06 |
+| [Deep Latent-Variable Models for Text Generation](http://arxiv.org/abs/2203.02055v1) | Xiaoyu Shen | cs.CL | 2022-03-03 |
 | [Combining Modular Skills in Multitask Learning](http://arxiv.org/abs/2202.13914v2) | Edoardo M. Ponti, Alessandro Sordoni, Yoshua Bengio, Siva Reddy | cs.LG, cs.CL | 2022-02-28 |
 | [COLD Decoding: Energy-based Constrained Text Generation with Langevin  Dynamics](http://arxiv.org/abs/2202.11705v1) | Lianhui Qin, Sean Welleck, Daniel Khashabi, Yejin Choi | cs.CL, cs.AI, cs.LG | 2022-02-23 |
 | [ZeroGen: Efficient Zero-shot Learning via Dataset Generation](http://arxiv.org/abs/2202.07922v1) | Jiacheng Ye, Jiahui Gao, Qintong Li, Hang Xu, Jiangtao Feng, Zhiyong Wu, Tao Yu, Lingpeng Kong | cs.CL, cs.AI | 2022-02-16 |

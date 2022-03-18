@@ -1,4 +1,96 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Time Dependency, Data Flow, and Competitive Advantage",2022-03-17 07:09:30+00:00,http://arxiv.org/abs/2203.09128v1,"Ehsan Valavi, Joel Hestness, Marco Iansiti, Newsha Ardalani, Feng Zhu, Karim R. Lakhani","cs.LG, cs.CL, econ.GN, q-fin.EC",dialogue,"Data is fundamental to machine learning-based products and services and is
+considered strategic due to its externalities for businesses, governments,
+non-profits, and more generally for society. It is renowned that the value of
+organizations (businesses, government agencies and programs, and even
+industries) scales with the volume of available data. What is often less
+appreciated is that the data value in making useful organizational predictions
+will range widely and is prominently a function of data characteristics and
+underlying algorithms.
+  In this research, our goal is to study how the value of data changes over
+time and how this change varies across contexts and business areas (e.g. next
+word prediction in the context of history, sports, politics). We focus on data
+from Reddit.com and compare the value's time-dependency across various Reddit
+topics (Subreddits). We make this comparison by measuring the rate at which
+user-generated text data loses its relevance to the algorithmic prediction of
+conversations. We show that different subreddits have different rates of
+relevance decline over time.
+  Relating the text topics to various business areas of interest, we argue that
+competing in a business area in which data value decays rapidly alters
+strategies to acquire competitive advantage. When data value decays rapidly,
+access to a continuous flow of data will be more valuable than access to a
+fixed stock of data. In this kind of setting, improving user engagement and
+increasing user-base help creating and maintaining a competitive advantage.",2022-03-17
+"TegTok: Augmenting Text Generation via Task-specific and Open-world
+  Knowledge",2022-03-16 10:37:59+00:00,http://arxiv.org/abs/2203.08517v1,"Chao-Hong Tan, Jia-Chen Gu, Chongyang Tao, Zhen-Hua Ling, Can Xu, Huang Hu, Xiubo Geng, Daxin Jiang","cs.CL, cs.AI",dialogue,"Generating natural and informative texts has been a long-standing problem in
+NLP. Much effort has been dedicated into incorporating pre-trained language
+models (PLMs) with various open-world knowledge, such as knowledge graphs or
+wiki pages. However, their ability to access and manipulate the task-specific
+knowledge is still limited on downstream tasks, as this type of knowledge is
+usually not well covered in PLMs and is hard to acquire. To address the
+problem, we propose augmenting TExt Generation via Task-specific and Open-world
+Knowledge (TegTok) in a unified framework. Our model selects knowledge entries
+from two types of knowledge sources through dense retrieval and then injects
+them into the input encoding and output decoding stages respectively on the
+basis of PLMs. With the help of these two types of knowledge, our model can
+learn what and how to generate. Experiments on two text generation tasks of
+dialogue generation and question generation, and on two datasets show that our
+method achieves better performance than various baseline models.",2022-03-16
+"Faithfulness in Natural Language Generation: A Systematic Survey of
+  Analysis, Evaluation and Optimization Methods",2022-03-10 08:28:32+00:00,http://arxiv.org/abs/2203.05227v1,"Wei Li, Wenhao Wu, Moye Chen, Jiachen Liu, Xinyan Xiao, Hua Wu",cs.CL,dialogue,"Natural Language Generation (NLG) has made great progress in recent years due
+to the development of deep learning techniques such as pre-trained language
+models. This advancement has resulted in more fluent, coherent and even
+properties controllable (e.g. stylistic, sentiment, length etc.) generation,
+naturally leading to development in downstream tasks such as abstractive
+summarization, dialogue generation, machine translation, and data-to-text
+generation. However, the faithfulness problem that the generated text usually
+contains unfaithful or non-factual information has become the biggest
+challenge, which makes the performance of text generation unsatisfactory for
+practical applications in many real-world scenarios. Many studies on analysis,
+evaluation, and optimization methods for faithfulness problems have been
+proposed for various tasks, but have not been organized, compared and discussed
+in a combined manner. In this survey, we provide a systematic overview of the
+research progress on the faithfulness problem of NLG, including problem
+analysis, evaluation metrics and optimization methods. We organize the
+evaluation and optimization methods for different tasks into a unified taxonomy
+to facilitate comparison and learning across tasks. Several research trends are
+discussed further.",2022-03-10
+"Towards Generalized Models for Task-oriented Dialogue Modeling on Spoken
+  Conversations",2022-03-08 12:26:57+00:00,http://arxiv.org/abs/2203.04045v1,"Ruijie Yan, Shuang Peng, Haitao Mi, Liang Jiang, Shihui Yang, Yuchi Zhang, Jiajun Li, Liangrui Peng, Yongliang Wang, Zujie Wen",cs.CL,dialogue,"Building robust and general dialogue models for spoken conversations is
+challenging due to the gap in distributions of spoken and written data. This
+paper presents our approach to build generalized models for the
+Knowledge-grounded Task-oriented Dialogue Modeling on Spoken Conversations
+Challenge of DSTC-10. In order to mitigate the discrepancies between spoken and
+written text, we mainly employ extensive data augmentation strategies on
+written data, including artificial error injection and round-trip text-speech
+transformation. To train robust models for spoken conversations, we improve
+pre-trained language models, and apply ensemble algorithms for each sub-task.
+Typically, for the detection task, we fine-tune \roberta and ELECTRA, and run
+an error-fixing ensemble algorithm. For the selection task, we adopt a
+two-stage framework that consists of entity tracking and knowledge ranking, and
+propose a multi-task learning method to learn multi-level semantic information
+by domain classification and entity selection. For the generation task, we
+adopt a cross-validation data process to improve pre-trained generative
+language models, followed by a consensus decoding algorithm, which can add
+arbitrary features like relative \rouge metric, and tune associated feature
+weights toward \bleu directly. Our approach ranks third on the objective
+evaluation and second on the final official human evaluation.",2022-03-08
+Deep Latent-Variable Models for Text Generation,2022-03-03 23:06:39+00:00,http://arxiv.org/abs/2203.02055v1,Xiaoyu Shen,cs.CL,dialogue,"Text generation aims to produce human-like natural language output for
+down-stream tasks. It covers a wide range of applications like machine
+translation, document summarization, dialogue generation and so on. Recently
+deep neural network-based end-to-end architectures have been widely adopted.
+The end-to-end approach conflates all sub-modules, which used to be designed by
+complex handcrafted rules, into a holistic encode-decode architecture. Given
+enough training data, it is able to achieve state-of-the-art performance yet
+avoiding the need of language/domain-dependent knowledge. Nonetheless, deep
+learning models are known to be extremely data-hungry, and text generated from
+them usually suffer from low diversity, interpretability and controllability.
+As a result, it is difficult to trust the output from them in real-life
+applications. Deep latent-variable models, by specifying the probabilistic
+distribution over an intermediate latent process, provide a potential way of
+addressing these problems while maintaining the expressive power of deep neural
+networks. This dissertation presents how deep latent-variable models can
+improve over the standard encoder-decoder model for text generation.",2022-03-03
 Capturing Failures of Large Language Models via Human Cognitive Biases,2022-02-24 18:58:52+00:00,http://arxiv.org/abs/2202.12299v1,"Erik Jones, Jacob Steinhardt","cs.CL, cs.AI, cs.LG",dialogue,"Large language models generate complex, open-ended outputs: instead of
 outputting a single class, they can write summaries, generate dialogue, and
 produce working code. In order to study the reliability of these open-ended

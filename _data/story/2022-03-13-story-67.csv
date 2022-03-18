@@ -1,4 +1,45 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Pruned Graph Neural Network for Short Story Ordering,2022-03-13 22:25:17+00:00,http://arxiv.org/abs/2203.06778v1,"Melika Golestani, Zeinab Borhanifard, Farnaz Tahmasebian, Heshaam Faili",cs.CL,story,"Text coherence is a fundamental problem in natural language generation and
+understanding. Organizing sentences into an order that maximizes coherence is
+known as sentence ordering. This paper is proposing a new approach based on the
+graph neural network approach to encode a set of sentences and learn orderings
+of short stories. We propose a new method for constructing sentence-entity
+graphs of short stories to create the edges between sentences and reduce noise
+in our graph by replacing the pronouns with their referring entities. We
+improve the sentence ordering by introducing an aggregation method based on
+majority voting of state-of-the-art methods and our proposed one. Our approach
+employs a BERT-based model to learn semantic representations of the sentences.
+The results demonstrate that the proposed method significantly outperforms
+existing baselines on a corpus of short stories with a new state-of-the-art
+performance in terms of Perfect Match Ratio (PMR) and Kendall's Tau (Tau)
+metrics. More precisely, our method increases PMR and Tau criteria by more than
+5% and 4.3%, respectively. These outcomes highlight the benefit of forming the
+edges between sentences based on their cosine similarity. We also observe that
+replacing pronouns with their referring entities effectively encodes sentences
+in sentence-entity graphs.",2022-03-13
+"Knowledge-enriched Attention Network with Group-wise Semantic for Visual
+  Storytelling",2022-03-10 12:55:47+00:00,http://arxiv.org/abs/2203.05346v1,"Tengpeng Li, Hanli Wang, Bin He, Chang Wen Chen","cs.CV, cs.CL",story,"As a technically challenging topic, visual storytelling aims at generating an
+imaginary and coherent story with narrative multi-sentences from a group of
+relevant images. Existing methods often generate direct and rigid descriptions
+of apparent image-based contents, because they are not capable of exploring
+implicit information beyond images. Hence, these schemes could not capture
+consistent dependencies from holistic representation, impairing the generation
+of reasonable and fluent story. To address these problems, a novel
+knowledge-enriched attention network with group-wise semantic model is
+proposed. Three main novel components are designed and supported by substantial
+experiments to reveal practical advantages. First, a knowledge-enriched
+attention network is designed to extract implicit concepts from external
+knowledge system, and these concepts are followed by a cascade cross-modal
+attention mechanism to characterize imaginative and concrete representations.
+Second, a group-wise semantic module with second-order pooling is developed to
+explore the globally consistent guidance. Third, a unified one-stage story
+generation model with encoder-decoder structure is proposed to simultaneously
+train and infer the knowledge-enriched attention network, group-wise semantic
+module and multi-modal story generation decoder in an end-to-end fashion.
+Substantial experiments on the popular Visual Storytelling dataset with both
+objective and subjective evaluation metrics demonstrate the superior
+performance of the proposed scheme as compared with other state-of-the-art
+methods.",2022-03-10
 CLSEG: Contrastive Learning of Story Ending Generation,2022-02-18 07:11:04+00:00,http://arxiv.org/abs/2202.09049v1,"Yuqiang Xie, Yue Hu, Luxi Xing, Yunpeng Li, Wei Peng, Ping Guo",cs.CL,story,"Story Ending Generation (SEG) is a challenging task in natural language
 generation. Recently, methods based on Pre-trained Language Models (PLM) have
 achieved great prosperity, which can produce fluent and coherent story endings.
