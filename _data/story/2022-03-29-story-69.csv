@@ -1,4 +1,29 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+On Decoding Strategies for Neural Text Generators,2022-03-29 16:25:30+00:00,http://arxiv.org/abs/2203.15721v1,"Gian Wiher, Clara Meister, Ryan Cotterell","cs.CL, cs.AI",story,"When generating text from probabilistic models, the chosen decoding strategy
+has a profound effect on the resulting text. Yet the properties elicited by
+various decoding strategies do not always transfer across natural language
+generation tasks. For example, while mode-seeking methods like beam search
+perform remarkably well for machine translation, they have been observed to
+lead to incoherent and repetitive text in story generation. Despite such
+observations, the effectiveness of decoding strategies is often assessed with
+respect to only a single task. This work -- in contrast -- provides a
+comprehensive analysis of the interaction between language generation tasks and
+decoding strategies. Specifically, we measure changes in attributes of
+generated text as a function of both decoding strategy and task using human and
+automatic evaluation. Our results reveal both previously-observed and
+surprising findings. For example, the nature of the diversity-quality trade-off
+in language generation is very task-specific; the length bias often attributed
+to beam search is not constant across tasks.",2022-03-29
+Immersive Text Game and Personality Classification,2022-03-20 18:37:03+00:00,http://arxiv.org/abs/2203.10621v1,"Wanshui Li, Yifan Bai, Jiaxuan Lu, Kexin Yi","cs.CL, cs.AI, cs.LG",story,"We designed and built a game called \textit{Immersive Text Game}, which
+allows the player to choose a story and a character, and interact with other
+characters in the story in an immersive manner of dialogues. The game is based
+on several latest models, including text generation language model, information
+extraction model, commonsense reasoning model, and psychology evaluation model.
+In the past, similar text games usually let players choose from limited actions
+instead of answering on their own, and not every time what characters said are
+determined by the player. Through the combination of these models and elaborate
+game mechanics and modes, the player will find some novel experiences as driven
+through the storyline.",2022-03-20
 Pruned Graph Neural Network for Short Story Ordering,2022-03-13 22:25:17+00:00,http://arxiv.org/abs/2203.06778v1,"Melika Golestani, Zeinab Borhanifard, Farnaz Tahmasebian, Heshaam Faili",cs.CL,story,"Text coherence is a fundamental problem in natural language generation and
 understanding. Organizing sentences into an order that maximizes coherence is
 known as sentence ordering. This paper is proposing a new approach based on the

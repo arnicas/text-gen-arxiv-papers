@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2022-03-18*
+*written on 2022-03-30*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [On Decoding Strategies for Neural Text Generators](http://arxiv.org/abs/2203.15721v1) | Gian Wiher, Clara Meister, Ryan Cotterell | cs.CL, cs.AI | 2022-03-29 |
+| [Immersive Text Game and Personality Classification](http://arxiv.org/abs/2203.10621v1) | Wanshui Li, Yifan Bai, Jiaxuan Lu, Kexin Yi | cs.CL, cs.AI, cs.LG | 2022-03-20 |
 | [Pruned Graph Neural Network for Short Story Ordering](http://arxiv.org/abs/2203.06778v1) | Melika Golestani, Zeinab Borhanifard, Farnaz Tahmasebian, Heshaam Faili | cs.CL | 2022-03-13 |
 | [Knowledge-enriched Attention Network with Group-wise Semantic for Visual  Storytelling](http://arxiv.org/abs/2203.05346v1) | Tengpeng Li, Hanli Wang, Bin He, Chang Wen Chen | cs.CV, cs.CL | 2022-03-10 |
 | [CLSEG: Contrastive Learning of Story Ending Generation](http://arxiv.org/abs/2202.09049v1) | Yuqiang Xie, Yue Hu, Luxi Xing, Yunpeng Li, Wei Peng, Ping Guo | cs.CL | 2022-02-18 |

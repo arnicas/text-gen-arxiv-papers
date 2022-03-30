@@ -1,4 +1,14 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Immersive Text Game and Personality Classification,2022-03-20 18:37:03+00:00,http://arxiv.org/abs/2203.10621v1,"Wanshui Li, Yifan Bai, Jiaxuan Lu, Kexin Yi","cs.CL, cs.AI, cs.LG",games,"We designed and built a game called \textit{Immersive Text Game}, which
+allows the player to choose a story and a character, and interact with other
+characters in the story in an immersive manner of dialogues. The game is based
+on several latest models, including text generation language model, information
+extraction model, commonsense reasoning model, and psychology evaluation model.
+In the past, similar text games usually let players choose from limited actions
+instead of answering on their own, and not every time what characters said are
+determined by the player. Through the combination of these models and elaborate
+game mechanics and modes, the player will find some novel experiences as driven
+through the storyline.",2022-03-20
 "Dynamic population-based meta-learning for multi-agent communication
   with natural language",2021-10-27 07:50:02+00:00,http://arxiv.org/abs/2110.14241v1,"Abhinav Gupta, Marc Lanctot, Angeliki Lazaridou","cs.LG, cs.AI, cs.CL, cs.MA",games,"In this work, our goal is to train agents that can coordinate with seen,
 unseen as well as human partners in a multi-agent communication environment

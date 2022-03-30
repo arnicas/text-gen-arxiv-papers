@@ -1,4 +1,104 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Bridge-Prompt: Towards Ordinal Action Understanding in Instructional
+  Videos",2022-03-26 15:52:27+00:00,http://arxiv.org/abs/2203.14104v1,"Muheng Li, Lei Chen, Yueqi Duan, Zhilan Hu, Jianjiang Feng, Jie Zhou, Jiwen Lu","cs.CV, cs.AI, cs.LG",knowledge,"Action recognition models have shown a promising capability to classify human
+actions in short video clips. In a real scenario, multiple correlated human
+actions commonly occur in particular orders, forming semantically meaningful
+human activities. Conventional action recognition approaches focus on analyzing
+single actions. However, they fail to fully reason about the contextual
+relations between adjacent actions, which provide potential temporal logic for
+understanding long videos. In this paper, we propose a prompt-based framework,
+Bridge-Prompt (Br-Prompt), to model the semantics across adjacent actions, so
+that it simultaneously exploits both out-of-context and contextual information
+from a series of ordinal actions in instructional videos. More specifically, we
+reformulate the individual action labels as integrated text prompts for
+supervision, which bridge the gap between individual action semantics. The
+generated text prompts are paired with corresponding video clips, and together
+co-train the text encoder and the video encoder via a contrastive approach. The
+learned vision encoder has a stronger capability for ordinal-action-related
+downstream tasks, e.g. action segmentation and human activity recognition. We
+evaluate the performances of our approach on several video datasets: Georgia
+Tech Egocentric Activities (GTEA), 50Salads, and the Breakfast dataset.
+Br-Prompt achieves state-of-the-art on multiple benchmarks. Code is available
+at https://github.com/ttlmh/Bridge-Prompt",2022-03-26
+A Roadmap for Big Model,2022-03-26 15:38:00+00:00,http://arxiv.org/abs/2203.14101v1,"Sha Yuan, Hanyu Zhao, Shuai Zhao, Jiahong Leng, Yangxiao Liang, Xiaozhi Wang, Jifan Yu, Xin Lv, Zhou Shao, Jiaao He, Yankai Lin, Xu Han, Zhenghao Liu, Ning Ding, Yongming Rao, Yizhao Gao, Liang Zhang, Ming Ding, Cong Fang, Yisen Wang, Mingsheng Long, Jing Zhang, Yinpeng Dong, Tianyu Pang, Peng Cui, Lingxiao Huang, Zheng Liang, Huawei Shen, Hui Zhang, Quanshi Zhang, Qingxiu Dong, Zhixing Tan, Mingxuan Wang, Shuo Wang, Long Zhou, Haoran Li, Junwei Bao, Yingwei Pan, Weinan Zhang, Zhou Yu, Rui Yan, Chence Shi, Minghao Xu, Zuobai Zhang, Guoqiang Wang, Xiang Pan, Mengjie Li, Xiaoyu Chu, Zijun Yao, Fangwei Zhu, Shulin Cao, Weicheng Xue, Zixuan Ma, Zhengyan Zhang, Shengding Hu, Yujia Qin, Chaojun Xiao, Zheni Zeng, Ganqu Cui, Weize Chen, Weilin Zhao, Yuan Yao, Peng Li, Wenzhao Zheng, Wenliang Zhao, Ziyi Wang, Borui Zhang, Nanyi Fei, Anwen Hu, Zenan Ling, Haoyang Li, Boxi Cao, Xianpei Han, Weidong Zhan, Baobao Chang, Hao Sun, Jiawen Deng, Juanzi Li, Lei Hou, Xigang Cao, Jidong Zhai, Zhiyuan Liu, Maosong Sun, Jiwen Lu, Zhiwu Lu, Qin Jin, Ruihua Song, Ji-Rong Wen, Zhouchen Lin, Liwei Wang, Hang Su, Jun Zhu, Zhifang Sui, Jiajun Zhang, Yang Liu, Xiaodong He, Minlie Huang, Jian Tang, Jie Tang","cs.LG, cs.AI, cs.CL",knowledge,"With the rapid development of deep learning, training Big Models (BMs) for
+multiple downstream tasks becomes a popular paradigm. Researchers have achieved
+various outcomes in the construction of BMs and the BM application in many
+fields. At present, there is a lack of research work that sorts out the overall
+progress of BMs and guides the follow-up research. In this paper, we cover not
+only the BM technologies themselves but also the prerequisites for BM training
+and applications with BMs, dividing the BM review into four parts: Resource,
+Models, Key Technologies and Application. We introduce 16 specific BM-related
+topics in those four parts, they are Data, Knowledge, Computing System,
+Parallel Training System, Language Model, Vision Model, Multi-modal Model,
+Theory&Interpretability, Commonsense Reasoning, Reliability&Security,
+Governance, Evaluation, Machine Translation, Text Generation, Dialogue and
+Protein Research. In each topic, we summarize clearly the current studies and
+propose some future research directions. At the end of this paper, we conclude
+the further development of BMs in a more general view.",2022-03-26
+"Mitigating Gender Bias in Distilled Language Models via Counterfactual
+  Role Reversal",2022-03-23 17:34:35+00:00,http://arxiv.org/abs/2203.12574v1,"Umang Gupta, Jwala Dhamala, Varun Kumar, Apurv Verma, Yada Pruksachatkun, Satyapriya Krishna, Rahul Gupta, Kai-Wei Chang, Greg Ver Steeg, Aram Galstyan","cs.CL, cs.LG",knowledge,"Language models excel at generating coherent text, and model compression
+techniques such as knowledge distillation have enabled their use in
+resource-constrained settings. However, these models can be biased in multiple
+ways, including the unfounded association of male and female genders with
+gender-neutral professions. Therefore, knowledge distillation without any
+fairness constraints may preserve or exaggerate the teacher model's biases onto
+the distilled model. To this end, we present a novel approach to mitigate
+gender disparity in text generation by learning a fair model during knowledge
+distillation. We propose two modifications to the base knowledge distillation
+based on counterfactual role reversal$\unicode{x2014}$modifying teacher
+probabilities and augmenting the training set. We evaluate gender polarity
+across professions in open-ended text generated from the resulting distilled
+and finetuned GPT$\unicode{x2012}$2 models and demonstrate a substantial
+reduction in gender disparity with only a minor compromise in utility. Finally,
+we observe that language models that reduce gender polarity in language
+generation do not improve embedding fairness or downstream classification
+fairness.",2022-03-23
+"An Empirical Study on Learning and Improving the Search Objective for
+  Unsupervised Paraphrasing",2022-03-23 00:30:28+00:00,http://arxiv.org/abs/2203.12106v1,Weikai Steven Lu,"cs.CL, cs.AI, cs.LG",knowledge,"Research in unsupervised text generation has been gaining attention over the
+years. One recent approach is local search towards a heuristically defined
+objective, which specifies language fluency, semantic meanings, and other
+task-specific attributes. Search in the sentence space is realized by
+word-level edit operations including insertion, replacement, and deletion.
+However, such objective function is manually designed with multiple components.
+Although previous work has shown maximizing this objective yields good
+performance in terms of true measure of success (i.e. BLEU and iBLEU), the
+objective landscape is considered to be non-smooth with significant noises,
+posing challenges for optimization. In this dissertation, we address the
+research problem of smoothing the noise in the heuristic search objective by
+learning to model the search dynamics. Then, the learned model is combined with
+the original objective function to guide the search in a bootstrapping fashion.
+Experimental results show that the learned models combined with the original
+search objective can indeed provide a smoothing effect, improving the search
+performance by a small margin.",2022-03-23
+"Perturbations in the Wild: Leveraging Human-Written Text Perturbations
+  for Realistic Adversarial Attack and Defense",2022-03-19 16:00:01+00:00,http://arxiv.org/abs/2203.10346v1,"Thai Le, Jooyoung Lee, Kevin Yen, Yifan Hu, Dongwon Lee","cs.LG, cs.CL, cs.CR",knowledge,"We proposes a novel algorithm, ANTHRO, that inductively extracts over 600K
+human-written text perturbations in the wild and leverages them for realistic
+adversarial attack. Unlike existing character-based attacks which often
+deductively hypothesize a set of manipulation strategies, our work is grounded
+on actual observations from real-world texts. We find that adversarial texts
+generated by ANTHRO achieve the best trade-off between (1) attack success rate,
+(2) semantic preservation of the original text, and (3) stealthiness--i.e.
+indistinguishable from human writings hence harder to be flagged as suspicious.
+Specifically, our attacks accomplished around 83% and 91% attack success rates
+on BERT and RoBERTa, respectively. Moreover, it outperformed the TextBugger
+baseline with an increase of 50% and 40% in terms of semantic preservation and
+stealthiness when evaluated by both layperson and professional human workers.
+ANTHRO can further enhance a BERT classifier's performance in understanding
+different variations of human-written toxic texts via adversarial training when
+compared to the Perspective API.",2022-03-19
+Dependency-based Mixture Language Models,2022-03-19 06:28:30+00:00,http://arxiv.org/abs/2203.10256v1,"Zhixian Yang, Xiaojun Wan",cs.CL,knowledge,"Various models have been proposed to incorporate knowledge of syntactic
+structures into neural language models. However, previous works have relied
+heavily on elaborate components for a specific language model, usually
+recurrent neural network (RNN), which makes themselves unwieldy in practice to
+fit into other neural language models, such as Transformer and GPT-2. In this
+paper, we introduce the Dependency-based Mixture Language Models. In detail, we
+first train neural language models with a novel dependency modeling objective
+to learn the probability distribution of future dependent tokens given context.
+We then formulate the next-token probability by mixing the previous dependency
+modeling probability distributions with self-attention. Extensive experiments
+and human evaluations show that our method can be easily and effectively
+applied to different neural language models while improving neural text
+generation on various tasks.",2022-03-19
 RoMe: A Robust Metric for Evaluating Natural Language Generation,2022-03-17 09:07:39+00:00,http://arxiv.org/abs/2203.09183v1,"Md Rashad Al Hasan Rony, Liubov Kovriguina, Debanjan Chaudhuri, Ricardo Usbeck, Jens Lehmann","cs.CL, cs.AI",knowledge,"Evaluating Natural Language Generation (NLG) systems is a challenging task.
 Firstly, the metric should ensure that the generated hypothesis reflects the
 reference's semantics. Secondly, it should consider the grammatical quality of

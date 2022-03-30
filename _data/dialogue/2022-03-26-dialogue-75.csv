@@ -1,4 +1,48 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+A Roadmap for Big Model,2022-03-26 15:38:00+00:00,http://arxiv.org/abs/2203.14101v1,"Sha Yuan, Hanyu Zhao, Shuai Zhao, Jiahong Leng, Yangxiao Liang, Xiaozhi Wang, Jifan Yu, Xin Lv, Zhou Shao, Jiaao He, Yankai Lin, Xu Han, Zhenghao Liu, Ning Ding, Yongming Rao, Yizhao Gao, Liang Zhang, Ming Ding, Cong Fang, Yisen Wang, Mingsheng Long, Jing Zhang, Yinpeng Dong, Tianyu Pang, Peng Cui, Lingxiao Huang, Zheng Liang, Huawei Shen, Hui Zhang, Quanshi Zhang, Qingxiu Dong, Zhixing Tan, Mingxuan Wang, Shuo Wang, Long Zhou, Haoran Li, Junwei Bao, Yingwei Pan, Weinan Zhang, Zhou Yu, Rui Yan, Chence Shi, Minghao Xu, Zuobai Zhang, Guoqiang Wang, Xiang Pan, Mengjie Li, Xiaoyu Chu, Zijun Yao, Fangwei Zhu, Shulin Cao, Weicheng Xue, Zixuan Ma, Zhengyan Zhang, Shengding Hu, Yujia Qin, Chaojun Xiao, Zheni Zeng, Ganqu Cui, Weize Chen, Weilin Zhao, Yuan Yao, Peng Li, Wenzhao Zheng, Wenliang Zhao, Ziyi Wang, Borui Zhang, Nanyi Fei, Anwen Hu, Zenan Ling, Haoyang Li, Boxi Cao, Xianpei Han, Weidong Zhan, Baobao Chang, Hao Sun, Jiawen Deng, Juanzi Li, Lei Hou, Xigang Cao, Jidong Zhai, Zhiyuan Liu, Maosong Sun, Jiwen Lu, Zhiwu Lu, Qin Jin, Ruihua Song, Ji-Rong Wen, Zhouchen Lin, Liwei Wang, Hang Su, Jun Zhu, Zhifang Sui, Jiajun Zhang, Yang Liu, Xiaodong He, Minlie Huang, Jian Tang, Jie Tang","cs.LG, cs.AI, cs.CL",dialogue,"With the rapid development of deep learning, training Big Models (BMs) for
+multiple downstream tasks becomes a popular paradigm. Researchers have achieved
+various outcomes in the construction of BMs and the BM application in many
+fields. At present, there is a lack of research work that sorts out the overall
+progress of BMs and guides the follow-up research. In this paper, we cover not
+only the BM technologies themselves but also the prerequisites for BM training
+and applications with BMs, dividing the BM review into four parts: Resource,
+Models, Key Technologies and Application. We introduce 16 specific BM-related
+topics in those four parts, they are Data, Knowledge, Computing System,
+Parallel Training System, Language Model, Vision Model, Multi-modal Model,
+Theory&Interpretability, Commonsense Reasoning, Reliability&Security,
+Governance, Evaluation, Machine Translation, Text Generation, Dialogue and
+Protein Research. In each topic, we summarize clearly the current studies and
+propose some future research directions. At the end of this paper, we conclude
+the further development of BMs in a more general view.",2022-03-26
+"GPT-D: Inducing Dementia-related Linguistic Anomalies by Deliberate
+  Degradation of Artificial Neural Language Models",2022-03-25 00:25:42+00:00,http://arxiv.org/abs/2203.13397v1,"Changye Li, David Knopman, Weizhe Xu, Trevor Cohen, Serguei Pakhomov",cs.CL,dialogue,"Deep learning (DL) techniques involving fine-tuning large numbers of model
+parameters have delivered impressive performance on the task of discriminating
+between language produced by cognitively healthy individuals, and those with
+Alzheimer's disease (AD). However, questions remain about their ability to
+generalize beyond the small reference sets that are publicly available for
+research. As an alternative to fitting model parameters directly, we propose a
+novel method by which a Transformer DL model (GPT-2) pre-trained on general
+English text is paired with an artificially degraded version of itself (GPT-D),
+to compute the ratio between these two models' \textit{perplexities} on
+language from cognitively healthy and impaired individuals. This technique
+approaches state-of-the-art performance on text data from a widely used ""Cookie
+Theft"" picture description task, and unlike established alternatives also
+generalizes well to spontaneous conversations. Furthermore, GPT-D generates
+text with characteristics known to be associated with AD, demonstrating the
+induction of dementia-related linguistic anomalies. Our study is a step toward
+better understanding of the relationships between the inner workings of
+generative neural language models, the language that they produce, and the
+deleterious effects of dementia on human speech and language characteristics.",2022-03-25
+Immersive Text Game and Personality Classification,2022-03-20 18:37:03+00:00,http://arxiv.org/abs/2203.10621v1,"Wanshui Li, Yifan Bai, Jiaxuan Lu, Kexin Yi","cs.CL, cs.AI, cs.LG",dialogue,"We designed and built a game called \textit{Immersive Text Game}, which
+allows the player to choose a story and a character, and interact with other
+characters in the story in an immersive manner of dialogues. The game is based
+on several latest models, including text generation language model, information
+extraction model, commonsense reasoning model, and psychology evaluation model.
+In the past, similar text games usually let players choose from limited actions
+instead of answering on their own, and not every time what characters said are
+determined by the player. Through the combination of these models and elaborate
+game mechanics and modes, the player will find some novel experiences as driven
+through the storyline.",2022-03-20
 "Time Dependency, Data Flow, and Competitive Advantage",2022-03-17 07:09:30+00:00,http://arxiv.org/abs/2203.09128v1,"Ehsan Valavi, Joel Hestness, Marco Iansiti, Newsha Ardalani, Feng Zhu, Karim R. Lakhani","cs.LG, cs.CL, econ.GN, q-fin.EC",dialogue,"Data is fundamental to machine learning-based products and services and is
 considered strategic due to its externalities for businesses, governments,
 non-profits, and more generally for society. It is renowned that the value of

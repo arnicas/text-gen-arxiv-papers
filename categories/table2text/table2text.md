@@ -7,10 +7,16 @@ sidebar:
 ---
 
 
-*written on 2022-03-18*
+*written on 2022-03-30*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [A Roadmap for Big Model](http://arxiv.org/abs/2203.14101v1) | Sha Yuan, Hanyu Zhao, Shuai Zhao, Jiahong Leng, Yangxiao Liang, Xiaozhi Wang, Jifan Yu, Xin Lv, Zhou Shao, Jiaao He, Yankai Lin, Xu Han, Zhenghao Liu, Ning Ding, Yongming Rao, Yizhao Gao, Liang Zhang, Ming Ding, Cong Fang, Yisen Wang, Mingsheng Long, Jing Zhang, Yinpeng Dong, Tianyu Pang, Peng Cui, Lingxiao Huang, Zheng Liang, Huawei Shen, Hui Zhang, Quanshi Zhang, Qingxiu Dong, Zhixing Tan, Mingxuan Wang, Shuo Wang, Long Zhou, Haoran Li, Junwei Bao, Yingwei Pan, Weinan Zhang, Zhou Yu, Rui Yan, Chence Shi, Minghao Xu, Zuobai Zhang, Guoqiang Wang, Xiang Pan, Mengjie Li, Xiaoyu Chu, Zijun Yao, Fangwei Zhu, Shulin Cao, Weicheng Xue, Zixuan Ma, Zhengyan Zhang, Shengding Hu, Yujia Qin, Chaojun Xiao, Zheni Zeng, Ganqu Cui, Weize Chen, Weilin Zhao, Yuan Yao, Peng Li, Wenzhao Zheng, Wenliang Zhao, Ziyi Wang, Borui Zhang, Nanyi Fei, Anwen Hu, Zenan Ling, Haoyang Li, Boxi Cao, Xianpei Han, Weidong Zhan, Baobao Chang, Hao Sun, Jiawen Deng, Juanzi Li, Lei Hou, Xigang Cao, Jidong Zhai, Zhiyuan Liu, Maosong Sun, Jiwen Lu, Zhiwu Lu, Qin Jin, Ruihua Song, Ji-Rong Wen, Zhouchen Lin, Liwei Wang, Hang Su, Jun Zhu, Zhifang Sui, Jiajun Zhang, Yang Liu, Xiaodong He, Minlie Huang, Jian Tang, Jie Tang | cs.LG, cs.AI, cs.CL | 2022-03-26 |
+| [GPT-D: Inducing Dementia-related Linguistic Anomalies by Deliberate  Degradation of Artificial Neural Language Models](http://arxiv.org/abs/2203.13397v1) | Changye Li, David Knopman, Weizhe Xu, Trevor Cohen, Serguei Pakhomov | cs.CL | 2022-03-25 |
+| [Mix and Match: Learning-free Controllable Text Generation using Energy  Language Models](http://arxiv.org/abs/2203.13299v1) | Fatemehsadat Mireshghallah, Kartik Goyal, Taylor Berg-Kirkpatrick | cs.CL, cs.LG | 2022-03-24 |
+| [Language modeling via stochastic processes](http://arxiv.org/abs/2203.11370v1) | Rose E Wang, Esin Durmus, Noah Goodman, Tatsunori Hashimoto | cs.CL, cs.LG | 2022-03-21 |
+| [Dependency-based Mixture Language Models](http://arxiv.org/abs/2203.10256v1) | Zhixian Yang, Xiaojun Wan | cs.CL | 2022-03-19 |
+| [Are You Robert or RoBERTa? Deceiving Online Authorship Attribution  Models Using Neural Text Generators](http://arxiv.org/abs/2203.09813v1) | Keenan Jones, Jason R. C. Nurse, Shujun Li | cs.CL, cs.AI, cs.LG | 2022-03-18 |
 | [ToxiGen: A Large-Scale Machine-Generated Dataset for Adversarial and  Implicit Hate Speech Detection](http://arxiv.org/abs/2203.09509v1) | Thomas Hartvigsen, Saadia Gabriel, Hamid Palangi, Maarten Sap, Dipankar Ray, Ece Kamar | cs.CL | 2022-03-17 |
 | [Time Dependency, Data Flow, and Competitive Advantage](http://arxiv.org/abs/2203.09128v1) | Ehsan Valavi, Joel Hestness, Marco Iansiti, Newsha Ardalani, Feng Zhu, Karim R. Lakhani | cs.LG, cs.CL, econ.GN, q-fin.EC | 2022-03-17 |
 | [Graph Pre-training for AMR Parsing and Generation](http://arxiv.org/abs/2203.07836v1) | Xuefeng Bai, Yulong Chen, Yue Zhang | cs.CL | 2022-03-15 |

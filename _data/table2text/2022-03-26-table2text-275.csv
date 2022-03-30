@@ -1,4 +1,104 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+A Roadmap for Big Model,2022-03-26 15:38:00+00:00,http://arxiv.org/abs/2203.14101v1,"Sha Yuan, Hanyu Zhao, Shuai Zhao, Jiahong Leng, Yangxiao Liang, Xiaozhi Wang, Jifan Yu, Xin Lv, Zhou Shao, Jiaao He, Yankai Lin, Xu Han, Zhenghao Liu, Ning Ding, Yongming Rao, Yizhao Gao, Liang Zhang, Ming Ding, Cong Fang, Yisen Wang, Mingsheng Long, Jing Zhang, Yinpeng Dong, Tianyu Pang, Peng Cui, Lingxiao Huang, Zheng Liang, Huawei Shen, Hui Zhang, Quanshi Zhang, Qingxiu Dong, Zhixing Tan, Mingxuan Wang, Shuo Wang, Long Zhou, Haoran Li, Junwei Bao, Yingwei Pan, Weinan Zhang, Zhou Yu, Rui Yan, Chence Shi, Minghao Xu, Zuobai Zhang, Guoqiang Wang, Xiang Pan, Mengjie Li, Xiaoyu Chu, Zijun Yao, Fangwei Zhu, Shulin Cao, Weicheng Xue, Zixuan Ma, Zhengyan Zhang, Shengding Hu, Yujia Qin, Chaojun Xiao, Zheni Zeng, Ganqu Cui, Weize Chen, Weilin Zhao, Yuan Yao, Peng Li, Wenzhao Zheng, Wenliang Zhao, Ziyi Wang, Borui Zhang, Nanyi Fei, Anwen Hu, Zenan Ling, Haoyang Li, Boxi Cao, Xianpei Han, Weidong Zhan, Baobao Chang, Hao Sun, Jiawen Deng, Juanzi Li, Lei Hou, Xigang Cao, Jidong Zhai, Zhiyuan Liu, Maosong Sun, Jiwen Lu, Zhiwu Lu, Qin Jin, Ruihua Song, Ji-Rong Wen, Zhouchen Lin, Liwei Wang, Hang Su, Jun Zhu, Zhifang Sui, Jiajun Zhang, Yang Liu, Xiaodong He, Minlie Huang, Jian Tang, Jie Tang","cs.LG, cs.AI, cs.CL",table2text,"With the rapid development of deep learning, training Big Models (BMs) for
+multiple downstream tasks becomes a popular paradigm. Researchers have achieved
+various outcomes in the construction of BMs and the BM application in many
+fields. At present, there is a lack of research work that sorts out the overall
+progress of BMs and guides the follow-up research. In this paper, we cover not
+only the BM technologies themselves but also the prerequisites for BM training
+and applications with BMs, dividing the BM review into four parts: Resource,
+Models, Key Technologies and Application. We introduce 16 specific BM-related
+topics in those four parts, they are Data, Knowledge, Computing System,
+Parallel Training System, Language Model, Vision Model, Multi-modal Model,
+Theory&Interpretability, Commonsense Reasoning, Reliability&Security,
+Governance, Evaluation, Machine Translation, Text Generation, Dialogue and
+Protein Research. In each topic, we summarize clearly the current studies and
+propose some future research directions. At the end of this paper, we conclude
+the further development of BMs in a more general view.",2022-03-26
+"GPT-D: Inducing Dementia-related Linguistic Anomalies by Deliberate
+  Degradation of Artificial Neural Language Models",2022-03-25 00:25:42+00:00,http://arxiv.org/abs/2203.13397v1,"Changye Li, David Knopman, Weizhe Xu, Trevor Cohen, Serguei Pakhomov",cs.CL,table2text,"Deep learning (DL) techniques involving fine-tuning large numbers of model
+parameters have delivered impressive performance on the task of discriminating
+between language produced by cognitively healthy individuals, and those with
+Alzheimer's disease (AD). However, questions remain about their ability to
+generalize beyond the small reference sets that are publicly available for
+research. As an alternative to fitting model parameters directly, we propose a
+novel method by which a Transformer DL model (GPT-2) pre-trained on general
+English text is paired with an artificially degraded version of itself (GPT-D),
+to compute the ratio between these two models' \textit{perplexities} on
+language from cognitively healthy and impaired individuals. This technique
+approaches state-of-the-art performance on text data from a widely used ""Cookie
+Theft"" picture description task, and unlike established alternatives also
+generalizes well to spontaneous conversations. Furthermore, GPT-D generates
+text with characteristics known to be associated with AD, demonstrating the
+induction of dementia-related linguistic anomalies. Our study is a step toward
+better understanding of the relationships between the inner workings of
+generative neural language models, the language that they produce, and the
+deleterious effects of dementia on human speech and language characteristics.",2022-03-25
+"Mix and Match: Learning-free Controllable Text Generation using Energy
+  Language Models",2022-03-24 18:52:09+00:00,http://arxiv.org/abs/2203.13299v1,"Fatemehsadat Mireshghallah, Kartik Goyal, Taylor Berg-Kirkpatrick","cs.CL, cs.LG",table2text,"Recent work on controlled text generation has either required attribute-based
+fine-tuning of the base language model (LM), or has restricted the
+parameterization of the attribute discriminator to be compatible with the base
+autoregressive LM. In this work, we propose Mix and Match LM, a global
+score-based alternative for controllable text generation that combines
+arbitrary pre-trained black-box models for achieving the desired attributes in
+the generated text without involving any fine-tuning or structural assumptions
+about the black-box models. We interpret the task of controllable generation as
+drawing samples from an energy-based model whose energy values are a linear
+combination of scores from black-box models that are separately responsible for
+fluency, the control attribute, and faithfulness to any conditioning context.
+We use a Metropolis-Hastings sampling scheme to sample from this energy-based
+model using bidirectional context and global attribute features. We validate
+the effectiveness of our approach on various controlled generation and
+style-based text revision tasks by outperforming recently proposed methods that
+involve extra training, fine-tuning, or restrictive assumptions over the form
+of models.",2022-03-24
+Language modeling via stochastic processes,2022-03-21 22:13:53+00:00,http://arxiv.org/abs/2203.11370v1,"Rose E Wang, Esin Durmus, Noah Goodman, Tatsunori Hashimoto","cs.CL, cs.LG",table2text,"Modern language models can generate high-quality short texts. However, they
+often meander or are incoherent when generating longer texts. These issues
+arise from the next-token-only language modeling objective. To address these
+issues, we introduce Time Control (TC), a language model that implicitly plans
+via a latent stochastic process. TC does this by learning a representation
+which maps the dynamics of how text changes in a document to the dynamics of a
+stochastic process of interest. Using this representation, the language model
+can generate text by first implicitly generating a document plan via a
+stochastic process, and then generating text that is consistent with this
+latent plan. Compared to domain-specific methods and fine-tuning GPT2 across a
+variety of text domains, TC improves performance on text infilling and
+discourse coherence. On long text generation settings, TC preserves the text
+structure both in terms of ordering (up to +40% better) and text length
+consistency (up to +17% better). Human evaluators also prefer TC's output 28.6%
+more than the baselines.",2022-03-21
+Dependency-based Mixture Language Models,2022-03-19 06:28:30+00:00,http://arxiv.org/abs/2203.10256v1,"Zhixian Yang, Xiaojun Wan",cs.CL,table2text,"Various models have been proposed to incorporate knowledge of syntactic
+structures into neural language models. However, previous works have relied
+heavily on elaborate components for a specific language model, usually
+recurrent neural network (RNN), which makes themselves unwieldy in practice to
+fit into other neural language models, such as Transformer and GPT-2. In this
+paper, we introduce the Dependency-based Mixture Language Models. In detail, we
+first train neural language models with a novel dependency modeling objective
+to learn the probability distribution of future dependent tokens given context.
+We then formulate the next-token probability by mixing the previous dependency
+modeling probability distributions with self-attention. Extensive experiments
+and human evaluations show that our method can be easily and effectively
+applied to different neural language models while improving neural text
+generation on various tasks.",2022-03-19
+"Are You Robert or RoBERTa? Deceiving Online Authorship Attribution
+  Models Using Neural Text Generators",2022-03-18 09:19:14+00:00,http://arxiv.org/abs/2203.09813v1,"Keenan Jones, Jason R. C. Nurse, Shujun Li","cs.CL, cs.AI, cs.LG",table2text,"Recently, there has been a rise in the development of powerful pre-trained
+natural language models, including GPT-2, Grover, and XLM. These models have
+shown state-of-the-art capabilities towards a variety of different NLP tasks,
+including question answering, content summarisation, and text generation.
+Alongside this, there have been many studies focused on online authorship
+attribution (AA). That is, the use of models to identify the authors of online
+texts. Given the power of natural language models in generating convincing
+texts, this paper examines the degree to which these language models can
+generate texts capable of deceiving online AA models. Experimenting with both
+blog and Twitter data, we utilise GPT-2 language models to generate texts using
+the existing posts of online users. We then examine whether these AI-based text
+generators are capable of mimicking authorial style to such a degree that they
+can deceive typical AA models. From this, we find that current AI-based text
+generators are able to successfully mimic authorship, showing capabilities
+towards this on both datasets. Our findings, in turn, highlight the current
+capacity of powerful natural language models to generate original online posts
+capable of mimicking authorial style sufficiently to deceive popular AA
+methods; a key finding given the proposed role of AA in real world applications
+such as spam-detection and forensic investigation.",2022-03-18
 "ToxiGen: A Large-Scale Machine-Generated Dataset for Adversarial and
   Implicit Hate Speech Detection",2022-03-17 17:57:56+00:00,http://arxiv.org/abs/2203.09509v1,"Thomas Hartvigsen, Saadia Gabriel, Hamid Palangi, Maarten Sap, Dipankar Ray, Ece Kamar",cs.CL,table2text,"Toxic language detection systems often falsely flag text that contains
 minority group mentions as toxic, as those groups are often the targets of

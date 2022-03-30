@@ -1,4 +1,23 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"GPT-D: Inducing Dementia-related Linguistic Anomalies by Deliberate
+  Degradation of Artificial Neural Language Models",2022-03-25 00:25:42+00:00,http://arxiv.org/abs/2203.13397v1,"Changye Li, David Knopman, Weizhe Xu, Trevor Cohen, Serguei Pakhomov",cs.CL,image2text,"Deep learning (DL) techniques involving fine-tuning large numbers of model
+parameters have delivered impressive performance on the task of discriminating
+between language produced by cognitively healthy individuals, and those with
+Alzheimer's disease (AD). However, questions remain about their ability to
+generalize beyond the small reference sets that are publicly available for
+research. As an alternative to fitting model parameters directly, we propose a
+novel method by which a Transformer DL model (GPT-2) pre-trained on general
+English text is paired with an artificially degraded version of itself (GPT-D),
+to compute the ratio between these two models' \textit{perplexities} on
+language from cognitively healthy and impaired individuals. This technique
+approaches state-of-the-art performance on text data from a widely used ""Cookie
+Theft"" picture description task, and unlike established alternatives also
+generalizes well to spontaneous conversations. Furthermore, GPT-D generates
+text with characteristics known to be associated with AD, demonstrating the
+induction of dementia-related linguistic anomalies. Our study is a step toward
+better understanding of the relationships between the inner workings of
+generative neural language models, the language that they produce, and the
+deleterious effects of dementia on human speech and language characteristics.",2022-03-25
 Chart-to-Text: A Large-Scale Benchmark for Chart Summarization,2022-03-12 17:01:38+00:00,http://arxiv.org/abs/2203.06486v1,"Shankar Kanthara, Rixie Tiffany Ko Leong, Xiang Lin, Ahmed Masry, Megh Thakkar, Enamul Hoque, Shafiq Joty",cs.CL,image2text,"Charts are commonly used for exploring data and communicating insights.
 Generating natural language summaries from charts can be very helpful for
 people in inferring key insights that would otherwise require a lot of

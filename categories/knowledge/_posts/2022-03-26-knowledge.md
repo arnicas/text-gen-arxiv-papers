@@ -6,10 +6,16 @@ sidebar:
 ---
 
 
-*written on 2022-03-18*
+*written on 2022-03-30*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Bridge-Prompt: Towards Ordinal Action Understanding in Instructional  Videos](http://arxiv.org/abs/2203.14104v1) | Muheng Li, Lei Chen, Yueqi Duan, Zhilan Hu, Jianjiang Feng, Jie Zhou, Jiwen Lu | cs.CV, cs.AI, cs.LG | 2022-03-26 |
+| [A Roadmap for Big Model](http://arxiv.org/abs/2203.14101v1) | Sha Yuan, Hanyu Zhao, Shuai Zhao, Jiahong Leng, Yangxiao Liang, Xiaozhi Wang, Jifan Yu, Xin Lv, Zhou Shao, Jiaao He, Yankai Lin, Xu Han, Zhenghao Liu, Ning Ding, Yongming Rao, Yizhao Gao, Liang Zhang, Ming Ding, Cong Fang, Yisen Wang, Mingsheng Long, Jing Zhang, Yinpeng Dong, Tianyu Pang, Peng Cui, Lingxiao Huang, Zheng Liang, Huawei Shen, Hui Zhang, Quanshi Zhang, Qingxiu Dong, Zhixing Tan, Mingxuan Wang, Shuo Wang, Long Zhou, Haoran Li, Junwei Bao, Yingwei Pan, Weinan Zhang, Zhou Yu, Rui Yan, Chence Shi, Minghao Xu, Zuobai Zhang, Guoqiang Wang, Xiang Pan, Mengjie Li, Xiaoyu Chu, Zijun Yao, Fangwei Zhu, Shulin Cao, Weicheng Xue, Zixuan Ma, Zhengyan Zhang, Shengding Hu, Yujia Qin, Chaojun Xiao, Zheni Zeng, Ganqu Cui, Weize Chen, Weilin Zhao, Yuan Yao, Peng Li, Wenzhao Zheng, Wenliang Zhao, Ziyi Wang, Borui Zhang, Nanyi Fei, Anwen Hu, Zenan Ling, Haoyang Li, Boxi Cao, Xianpei Han, Weidong Zhan, Baobao Chang, Hao Sun, Jiawen Deng, Juanzi Li, Lei Hou, Xigang Cao, Jidong Zhai, Zhiyuan Liu, Maosong Sun, Jiwen Lu, Zhiwu Lu, Qin Jin, Ruihua Song, Ji-Rong Wen, Zhouchen Lin, Liwei Wang, Hang Su, Jun Zhu, Zhifang Sui, Jiajun Zhang, Yang Liu, Xiaodong He, Minlie Huang, Jian Tang, Jie Tang | cs.LG, cs.AI, cs.CL | 2022-03-26 |
+| [Mitigating Gender Bias in Distilled Language Models via Counterfactual  Role Reversal](http://arxiv.org/abs/2203.12574v1) | Umang Gupta, Jwala Dhamala, Varun Kumar, Apurv Verma, Yada Pruksachatkun, Satyapriya Krishna, Rahul Gupta, Kai-Wei Chang, Greg Ver Steeg, Aram Galstyan | cs.CL, cs.LG | 2022-03-23 |
+| [An Empirical Study on Learning and Improving the Search Objective for  Unsupervised Paraphrasing](http://arxiv.org/abs/2203.12106v1) | Weikai Steven Lu | cs.CL, cs.AI, cs.LG | 2022-03-23 |
+| [Perturbations in the Wild: Leveraging Human-Written Text Perturbations  for Realistic Adversarial Attack and Defense](http://arxiv.org/abs/2203.10346v1) | Thai Le, Jooyoung Lee, Kevin Yen, Yifan Hu, Dongwon Lee | cs.LG, cs.CL, cs.CR | 2022-03-19 |
+| [Dependency-based Mixture Language Models](http://arxiv.org/abs/2203.10256v1) | Zhixian Yang, Xiaojun Wan | cs.CL | 2022-03-19 |
 | [RoMe: A Robust Metric for Evaluating Natural Language Generation](http://arxiv.org/abs/2203.09183v1) | Md Rashad Al Hasan Rony, Liubov Kovriguina, Debanjan Chaudhuri, Ricardo Usbeck, Jens Lehmann | cs.CL, cs.AI | 2022-03-17 |
 | [PLANET: Dynamic Content Planning in Autoregressive Transformers for  Long-form Text Generation](http://arxiv.org/abs/2203.09100v1) | Zhe Hu, Hou Pong Chan, Jiachen Liu, Xinyan Xiao, Hua Wu, Lifu Huang | cs.CL | 2022-03-17 |
 | [TegTok: Augmenting Text Generation via Task-specific and Open-world  Knowledge](http://arxiv.org/abs/2203.08517v1) | Chao-Hong Tan, Jia-Chen Gu, Chongyang Tao, Zhen-Hua Ling, Can Xu, Huang Hu, Xiubo Geng, Daxin Jiang | cs.CL, cs.AI | 2022-03-16 |

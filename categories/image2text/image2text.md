@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2022-03-18*
+*written on 2022-03-30*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [GPT-D: Inducing Dementia-related Linguistic Anomalies by Deliberate  Degradation of Artificial Neural Language Models](http://arxiv.org/abs/2203.13397v1) | Changye Li, David Knopman, Weizhe Xu, Trevor Cohen, Serguei Pakhomov | cs.CL | 2022-03-25 |
 | [Chart-to-Text: A Large-Scale Benchmark for Chart Summarization](http://arxiv.org/abs/2203.06486v1) | Shankar Kanthara, Rixie Tiffany Ko Leong, Xiang Lin, Ahmed Masry, Megh Thakkar, Enamul Hoque, Shafiq Joty | cs.CL | 2022-03-12 |
 | [Compilable Neural Code Generation with Compiler Feedback](http://arxiv.org/abs/2203.05132v1) | Xin Wang, Yasheng Wang, Yao Wan, Fei Mi, Yitong Li, Pingyi Zhou, Jin Liu, Hao Wu, Xin Jiang, Qun Liu | cs.CL, cs.AI, cs.PL | 2022-03-10 |
 | [How to Fill the Optimum Set? Population Gradient Descent with Harmless  Diversity](http://arxiv.org/abs/2202.08376v1) | Chengyue Gong, Lemeng Wu, Qiang Liu | cs.LG, cs.CV | 2022-02-16 |
