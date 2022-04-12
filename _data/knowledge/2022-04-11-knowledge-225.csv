@@ -1,4 +1,87 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Explanation Graph Generation via Pre-trained Language Models: An
+  Empirical Study with Contrastive Learning",2022-04-11 00:58:27+00:00,http://arxiv.org/abs/2204.04813v1,"Swarnadeep Saha, Prateek Yadav, Mohit Bansal","cs.CL, cs.AI, cs.LG",knowledge,"Pre-trained sequence-to-sequence language models have led to widespread
+success in many natural language generation tasks. However, there has been
+relatively less work on analyzing their ability to generate structured outputs
+such as graphs. Unlike natural language, graphs have distinct structural and
+semantic properties in the context of a downstream NLP task, e.g., generating a
+graph that is connected and acyclic can be attributed to its structural
+constraints, while the semantics of a graph can refer to how meaningfully an
+edge represents the relation between two node concepts. In this work, we study
+pre-trained language models that generate explanation graphs in an end-to-end
+manner and analyze their ability to learn the structural constraints and
+semantics of such graphs. We first show that with limited supervision,
+pre-trained language models often generate graphs that either violate these
+constraints or are semantically incoherent. Since curating large amount of
+human-annotated graphs is expensive and tedious, we propose simple yet
+effective ways of graph perturbations via node and edge edit operations that
+lead to structurally and semantically positive and negative graphs. Next, we
+leverage these graphs in different contrastive learning models with Max-Margin
+and InfoNCE losses. Our methods lead to significant improvements in both
+structural and semantic accuracy of explanation graphs and also generalize to
+other similar graph generation tasks. Lastly, we show that human errors are the
+best negatives for contrastive learning and also that automatically generating
+more such human-like negative graphs can lead to further improvements. Our code
+and models are publicly available at https://github.com/swarnaHub/ExplagraphGen",2022-04-11
+"Explaining Deep Convolutional Neural Networks via Latent Visual-Semantic
+  Filter Attention",2022-04-10 04:57:56+00:00,http://arxiv.org/abs/2204.04601v1,"Yu Yang, Seungbae Kim, Jungseock Joo","cs.CV, cs.AI, cs.LG",knowledge,"Interpretability is an important property for visual models as it helps
+researchers and users understand the internal mechanism of a complex model.
+However, generating semantic explanations about the learned representation is
+challenging without direct supervision to produce such explanations. We propose
+a general framework, Latent Visual Semantic Explainer (LaViSE), to teach any
+existing convolutional neural network to generate text descriptions about its
+own latent representations at the filter level. Our method constructs a mapping
+between the visual and semantic spaces using generic image datasets, using
+images and category names. It then transfers the mapping to the target domain
+which does not have semantic labels. The proposed framework employs a modular
+structure and enables to analyze any trained network whether or not its
+original training data is available. We show that our method can generate novel
+descriptions for learned filters beyond the set of categories defined in the
+training dataset and perform an extensive evaluation on multiple datasets. We
+also demonstrate a novel application of our method for unsupervised dataset
+bias analysis which allows us to automatically discover hidden biases in
+datasets or compare different subsets without using additional labels. The
+dataset and code are made public to facilitate further research.",2022-04-10
+Knowledge Infused Decoding,2022-04-06 20:58:32+00:00,http://arxiv.org/abs/2204.03084v1,"Ruibo Liu, Guoqing Zheng, Shashank Gupta, Radhika Gaonkar, Chongyang Gao, Soroush Vosoughi, Milad Shokouhi, Ahmed Hassan Awadallah","cs.CL, cs.AI, cs.LG",knowledge,"Pre-trained language models (LMs) have been shown to memorize a substantial
+amount of knowledge from the pre-training corpora; however, they are still
+limited in recalling factually correct knowledge given a certain context.
+Hence, they tend to suffer from counterfactual or hallucinatory generation when
+used in knowledge-intensive natural language generation (NLG) tasks. Recent
+remedies to this problem focus on modifying either the pre-training or task
+fine-tuning objectives to incorporate knowledge, which normally require
+additional costly training or architecture modification of LMs for practical
+applications. We present Knowledge Infused Decoding (KID) -- a novel decoding
+algorithm for generative LMs, which dynamically infuses external knowledge into
+each step of the LM decoding. Specifically, we maintain a local knowledge
+memory based on the current context, interacting with a dynamically created
+external knowledge trie, and continuously update the local memory as a
+knowledge-aware constraint to guide decoding via reinforcement learning. On six
+diverse knowledge-intensive NLG tasks, task-agnostic LMs (e.g., GPT-2 and BART)
+armed with KID outperform many task-optimized state-of-the-art models, and show
+particularly strong performance in few-shot scenarios over seven related
+knowledge-infusion techniques. Human evaluation confirms KID's ability to
+generate more relevant and factual language for the input context when compared
+with multiple baselines. Finally, KID also alleviates exposure bias and
+provides stable generation quality when generating longer sequences. Code for
+KID is available at https://github.com/microsoft/KID.",2022-04-06
+CLEVR-X: A Visual Reasoning Dataset for Natural Language Explanations,2022-04-05 17:38:04+00:00,http://arxiv.org/abs/2204.02380v1,"Leonard Salewski, A. Sophia Koepke, Hendrik P. A. Lensch, Zeynep Akata","cs.CV, cs.CL",knowledge,"Providing explanations in the context of Visual Question Answering (VQA)
+presents a fundamental problem in machine learning. To obtain detailed insights
+into the process of generating natural language explanations for VQA, we
+introduce the large-scale CLEVR-X dataset that extends the CLEVR dataset with
+natural language explanations. For each image-question pair in the CLEVR
+dataset, CLEVR-X contains multiple structured textual explanations which are
+derived from the original scene graphs. By construction, the CLEVR-X
+explanations are correct and describe the reasoning and visual information that
+is necessary to answer a given question. We conducted a user study to confirm
+that the ground-truth explanations in our proposed dataset are indeed complete
+and relevant. We present baseline results for generating natural language
+explanations in the context of VQA using two state-of-the-art frameworks on the
+CLEVR-X dataset. Furthermore, we provide a detailed analysis of the explanation
+generation quality for different question and answer types. Additionally, we
+study the influence of using different numbers of ground-truth explanations on
+the convergence of natural language generation (NLG) metrics. The CLEVR-X
+dataset is publicly available at
+\url{https://explainableml.github.io/CLEVR-X/}.",2022-04-05
 "Bridge-Prompt: Towards Ordinal Action Understanding in Instructional
   Videos",2022-03-26 15:52:27+00:00,http://arxiv.org/abs/2203.14104v1,"Muheng Li, Lei Chen, Yueqi Duan, Zhilan Hu, Jianjiang Feng, Jie Zhou, Jiwen Lu","cs.CV, cs.AI, cs.LG",knowledge,"Action recognition models have shown a promising capability to classify human
 actions in short video clips. In a real scenario, multiple correlated human

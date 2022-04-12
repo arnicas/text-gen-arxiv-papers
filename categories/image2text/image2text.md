@@ -7,10 +7,16 @@ sidebar:
 ---
 
 
-*written on 2022-03-30*
+*written on 2022-04-12*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Regularization-based Pruning of Irrelevant Weights in Deep Neural  Architectures](http://arxiv.org/abs/2204.04977v1) | Giovanni Bonetta, Matteo Ribero, Rossella Cancelliere | cs.CL, cs.AI | 2022-04-11 |
+| [Explaining Deep Convolutional Neural Networks via Latent Visual-Semantic  Filter Attention](http://arxiv.org/abs/2204.04601v1) | Yu Yang, Seungbae Kim, Jungseock Joo | cs.CV, cs.AI, cs.LG | 2022-04-10 |
+| [On Distinctive Image Captioning via Comparing and Reweighting](http://arxiv.org/abs/2204.03938v1) | Jiuniu Wang, Wenjia Xu, Qingzhong Wang, Antoni B. Chan | cs.CV, cs.AI | 2022-04-08 |
+| [CLEVR-X: A Visual Reasoning Dataset for Natural Language Explanations](http://arxiv.org/abs/2204.02380v1) | Leonard Salewski, A. Sophia Koepke, Hendrik P. A. Lensch, Zeynep Akata | cs.CV, cs.CL | 2022-04-05 |
+| [Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language](http://arxiv.org/abs/2204.00598v1) | Andy Zeng, Adrian Wong, Stefan Welker, Krzysztof Choromanski, Federico Tombari, Aveek Purohit, Michael Ryoo, Vikas Sindhwani, Johnny Lee, Vincent Vanhoucke, Pete Florence | cs.CV, cs.AI, cs.CL, cs.LG | 2022-04-01 |
+| [Neural Pipeline for Zero-Shot Data-to-Text Generation](http://arxiv.org/abs/2203.16279v1) | Zdeněk Kasner, Ondřej Dušek | cs.CL | 2022-03-30 |
 | [GPT-D: Inducing Dementia-related Linguistic Anomalies by Deliberate  Degradation of Artificial Neural Language Models](http://arxiv.org/abs/2203.13397v1) | Changye Li, David Knopman, Weizhe Xu, Trevor Cohen, Serguei Pakhomov | cs.CL | 2022-03-25 |
 | [Chart-to-Text: A Large-Scale Benchmark for Chart Summarization](http://arxiv.org/abs/2203.06486v1) | Shankar Kanthara, Rixie Tiffany Ko Leong, Xiang Lin, Ahmed Masry, Megh Thakkar, Enamul Hoque, Shafiq Joty | cs.CL | 2022-03-12 |
 | [Compilable Neural Code Generation with Compiler Feedback](http://arxiv.org/abs/2203.05132v1) | Xin Wang, Yasheng Wang, Yao Wan, Fei Mi, Yitong Li, Pingyi Zhou, Jin Liu, Hao Wu, Xin Jiang, Qun Liu | cs.CL, cs.AI, cs.PL | 2022-03-10 |

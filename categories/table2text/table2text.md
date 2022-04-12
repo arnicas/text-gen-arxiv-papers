@@ -7,10 +7,19 @@ sidebar:
 ---
 
 
-*written on 2022-03-30*
+*written on 2022-04-12*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Toward More Effective Human Evaluation for Machine Translation](http://arxiv.org/abs/2204.05307v1) | Belén Saldías, George Foster, Markus Freitag, Qijun Tan | cs.CL, cs.LG | 2022-04-11 |
+| [TRUE: Re-evaluating Factual Consistency Evaluation](http://arxiv.org/abs/2204.04991v1) | Or Honovich, Roee Aharoni, Jonathan Herzig, Hagai Taitelbaum, Doron Kukliansy, Vered Cohen, Thomas Scialom, Idan Szpektor, Avinatan Hassidim, Yossi Matias | cs.CL | 2022-04-11 |
+| [Explanation Graph Generation via Pre-trained Language Models: An  Empirical Study with Contrastive Learning](http://arxiv.org/abs/2204.04813v1) | Swarnadeep Saha, Prateek Yadav, Mohit Bansal | cs.CL, cs.AI, cs.LG | 2022-04-11 |
+| [Explaining Deep Convolutional Neural Networks via Latent Visual-Semantic  Filter Attention](http://arxiv.org/abs/2204.04601v1) | Yu Yang, Seungbae Kim, Jungseock Joo | cs.CV, cs.AI, cs.LG | 2022-04-10 |
+| [PSP: Pre-trained Soft Prompts for Few-Shot Abstractive Summarization](http://arxiv.org/abs/2204.04413v1) | Xiaochen Liu, Yu Bai, Jiawei Li, Yinan Hu, Yang Gao | cs.CL, cs.AI | 2022-04-09 |
+| [Language Model for Text Analytic in Cybersecurity](http://arxiv.org/abs/2204.02685v1) | Ehsan Aghaei, Xi Niu, Waseem Shadid, Ehab Al-Shaer | cs.CL, cs.AI, cs.CR | 2022-04-06 |
+| [CLEVR-X: A Visual Reasoning Dataset for Natural Language Explanations](http://arxiv.org/abs/2204.02380v1) | Leonard Salewski, A. Sophia Koepke, Hendrik P. A. Lensch, Zeynep Akata | cs.CV, cs.CL | 2022-04-05 |
+| [Diverse Text Generation via Variational Encoder-Decoder Models with  Gaussian Process Priors](http://arxiv.org/abs/2204.01227v1) | Wanyu Du, Jianqiao Zhao, Liwei Wang, Yangfeng Ji | cs.CL | 2022-04-04 |
+| [CTRLEval: An Unsupervised Reference-Free Metric for Evaluating  Controlled Text Generation](http://arxiv.org/abs/2204.00862v1) | Pei Ke, Hao Zhou, Yankai Lin, Peng Li, Jie Zhou, Xiaoyan Zhu, Minlie Huang | cs.CL, cs.AI | 2022-04-02 |
 | [A Roadmap for Big Model](http://arxiv.org/abs/2203.14101v1) | Sha Yuan, Hanyu Zhao, Shuai Zhao, Jiahong Leng, Yangxiao Liang, Xiaozhi Wang, Jifan Yu, Xin Lv, Zhou Shao, Jiaao He, Yankai Lin, Xu Han, Zhenghao Liu, Ning Ding, Yongming Rao, Yizhao Gao, Liang Zhang, Ming Ding, Cong Fang, Yisen Wang, Mingsheng Long, Jing Zhang, Yinpeng Dong, Tianyu Pang, Peng Cui, Lingxiao Huang, Zheng Liang, Huawei Shen, Hui Zhang, Quanshi Zhang, Qingxiu Dong, Zhixing Tan, Mingxuan Wang, Shuo Wang, Long Zhou, Haoran Li, Junwei Bao, Yingwei Pan, Weinan Zhang, Zhou Yu, Rui Yan, Chence Shi, Minghao Xu, Zuobai Zhang, Guoqiang Wang, Xiang Pan, Mengjie Li, Xiaoyu Chu, Zijun Yao, Fangwei Zhu, Shulin Cao, Weicheng Xue, Zixuan Ma, Zhengyan Zhang, Shengding Hu, Yujia Qin, Chaojun Xiao, Zheni Zeng, Ganqu Cui, Weize Chen, Weilin Zhao, Yuan Yao, Peng Li, Wenzhao Zheng, Wenliang Zhao, Ziyi Wang, Borui Zhang, Nanyi Fei, Anwen Hu, Zenan Ling, Haoyang Li, Boxi Cao, Xianpei Han, Weidong Zhan, Baobao Chang, Hao Sun, Jiawen Deng, Juanzi Li, Lei Hou, Xigang Cao, Jidong Zhai, Zhiyuan Liu, Maosong Sun, Jiwen Lu, Zhiwu Lu, Qin Jin, Ruihua Song, Ji-Rong Wen, Zhouchen Lin, Liwei Wang, Hang Su, Jun Zhu, Zhifang Sui, Jiajun Zhang, Yang Liu, Xiaodong He, Minlie Huang, Jian Tang, Jie Tang | cs.LG, cs.AI, cs.CL | 2022-03-26 |
 | [GPT-D: Inducing Dementia-related Linguistic Anomalies by Deliberate  Degradation of Artificial Neural Language Models](http://arxiv.org/abs/2203.13397v1) | Changye Li, David Knopman, Weizhe Xu, Trevor Cohen, Serguei Pakhomov | cs.CL | 2022-03-25 |
 | [Mix and Match: Learning-free Controllable Text Generation using Energy  Language Models](http://arxiv.org/abs/2203.13299v1) | Fatemehsadat Mireshghallah, Kartik Goyal, Taylor Berg-Kirkpatrick | cs.CL, cs.LG | 2022-03-24 |

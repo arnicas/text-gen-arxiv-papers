@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2022-03-30*
+*written on 2022-04-12*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Uniform Complexity for Text Generation](http://arxiv.org/abs/2204.05185v1) | Joseph Marvin Imperial | cs.CL, cs.LG | 2022-04-11 |
 | [On Decoding Strategies for Neural Text Generators](http://arxiv.org/abs/2203.15721v1) | Gian Wiher, Clara Meister, Ryan Cotterell | cs.CL, cs.AI | 2022-03-29 |
 | [Immersive Text Game and Personality Classification](http://arxiv.org/abs/2203.10621v1) | Wanshui Li, Yifan Bai, Jiaxuan Lu, Kexin Yi | cs.CL, cs.AI, cs.LG | 2022-03-20 |
 | [Pruned Graph Neural Network for Short Story Ordering](http://arxiv.org/abs/2203.06778v1) | Melika Golestani, Zeinab Borhanifard, Farnaz Tahmasebian, Heshaam Faili | cs.CL | 2022-03-13 |

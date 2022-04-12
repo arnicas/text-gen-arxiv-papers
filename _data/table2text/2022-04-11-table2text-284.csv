@@ -1,4 +1,164 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Toward More Effective Human Evaluation for Machine Translation,2022-04-11 17:59:22+00:00,http://arxiv.org/abs/2204.05307v1,"Belén Saldías, George Foster, Markus Freitag, Qijun Tan","cs.CL, cs.LG",table2text,"Improvements in text generation technologies such as machine translation have
+necessitated more costly and time-consuming human evaluation procedures to
+ensure an accurate signal. We investigate a simple way to reduce cost by
+reducing the number of text segments that must be annotated in order to
+accurately predict a score for a complete test set. Using a sampling approach,
+we demonstrate that information from document membership and automatic metrics
+can help improve estimates compared to a pure random sampling baseline. We
+achieve gains of up to 20% in average absolute error by leveraging stratified
+sampling and control variates. Our techniques can improve estimates made from a
+fixed annotation budget, are easy to implement, and can be applied to any
+problem with structure similar to the one we study.",2022-04-11
+TRUE: Re-evaluating Factual Consistency Evaluation,2022-04-11 10:14:35+00:00,http://arxiv.org/abs/2204.04991v1,"Or Honovich, Roee Aharoni, Jonathan Herzig, Hagai Taitelbaum, Doron Kukliansy, Vered Cohen, Thomas Scialom, Idan Szpektor, Avinatan Hassidim, Yossi Matias",cs.CL,table2text,"Grounded text generation systems often generate text that contains factual
+inconsistencies, hindering their real-world applicability. Automatic factual
+consistency evaluation may help alleviate this limitation by accelerating
+evaluation cycles, filtering inconsistent outputs and augmenting training data.
+While attracting increasing attention, such evaluation metrics are usually
+developed and evaluated in silo for a single task or dataset, slowing their
+adoption. Moreover, previous meta-evaluation protocols focused on system-level
+correlations with human annotations, which leave the example-level accuracy of
+such metrics unclear. In this work, we introduce TRUE: a comprehensive study of
+factual consistency metrics on a standardized collection of existing texts from
+diverse tasks, manually annotated for factual consistency. Our standardization
+enables an example-level meta-evaluation protocol that is more actionable and
+interpretable than previously reported correlations, yielding clearer quality
+measures. Across diverse state-of-the-art metrics and 11 datasets we find that
+large-scale NLI and question generation-and-answering-based approaches achieve
+strong and complementary results. We recommend those methods as a starting
+point for model and metric developers, and hope TRUE will foster progress
+towards even better methods.",2022-04-11
+"Explanation Graph Generation via Pre-trained Language Models: An
+  Empirical Study with Contrastive Learning",2022-04-11 00:58:27+00:00,http://arxiv.org/abs/2204.04813v1,"Swarnadeep Saha, Prateek Yadav, Mohit Bansal","cs.CL, cs.AI, cs.LG",table2text,"Pre-trained sequence-to-sequence language models have led to widespread
+success in many natural language generation tasks. However, there has been
+relatively less work on analyzing their ability to generate structured outputs
+such as graphs. Unlike natural language, graphs have distinct structural and
+semantic properties in the context of a downstream NLP task, e.g., generating a
+graph that is connected and acyclic can be attributed to its structural
+constraints, while the semantics of a graph can refer to how meaningfully an
+edge represents the relation between two node concepts. In this work, we study
+pre-trained language models that generate explanation graphs in an end-to-end
+manner and analyze their ability to learn the structural constraints and
+semantics of such graphs. We first show that with limited supervision,
+pre-trained language models often generate graphs that either violate these
+constraints or are semantically incoherent. Since curating large amount of
+human-annotated graphs is expensive and tedious, we propose simple yet
+effective ways of graph perturbations via node and edge edit operations that
+lead to structurally and semantically positive and negative graphs. Next, we
+leverage these graphs in different contrastive learning models with Max-Margin
+and InfoNCE losses. Our methods lead to significant improvements in both
+structural and semantic accuracy of explanation graphs and also generalize to
+other similar graph generation tasks. Lastly, we show that human errors are the
+best negatives for contrastive learning and also that automatically generating
+more such human-like negative graphs can lead to further improvements. Our code
+and models are publicly available at https://github.com/swarnaHub/ExplagraphGen",2022-04-11
+"Explaining Deep Convolutional Neural Networks via Latent Visual-Semantic
+  Filter Attention",2022-04-10 04:57:56+00:00,http://arxiv.org/abs/2204.04601v1,"Yu Yang, Seungbae Kim, Jungseock Joo","cs.CV, cs.AI, cs.LG",table2text,"Interpretability is an important property for visual models as it helps
+researchers and users understand the internal mechanism of a complex model.
+However, generating semantic explanations about the learned representation is
+challenging without direct supervision to produce such explanations. We propose
+a general framework, Latent Visual Semantic Explainer (LaViSE), to teach any
+existing convolutional neural network to generate text descriptions about its
+own latent representations at the filter level. Our method constructs a mapping
+between the visual and semantic spaces using generic image datasets, using
+images and category names. It then transfers the mapping to the target domain
+which does not have semantic labels. The proposed framework employs a modular
+structure and enables to analyze any trained network whether or not its
+original training data is available. We show that our method can generate novel
+descriptions for learned filters beyond the set of categories defined in the
+training dataset and perform an extensive evaluation on multiple datasets. We
+also demonstrate a novel application of our method for unsupervised dataset
+bias analysis which allows us to automatically discover hidden biases in
+datasets or compare different subsets without using additional labels. The
+dataset and code are made public to facilitate further research.",2022-04-10
+PSP: Pre-trained Soft Prompts for Few-Shot Abstractive Summarization,2022-04-09 07:40:52+00:00,http://arxiv.org/abs/2204.04413v1,"Xiaochen Liu, Yu Bai, Jiawei Li, Yinan Hu, Yang Gao","cs.CL, cs.AI",table2text,"Few-shot abstractive summarization has become a challenging task in natural
+language generation. To support it, we designed a novel soft prompts
+architecture coupled with a prompt pre-training plus fine-tuning paradigm that
+is effective and tunes only extremely light parameters. The soft prompts
+include continuous input embeddings across an encoder and a decoder to fit the
+structure of the generation models. Importantly, a novel inner-prompt placed in
+the text is introduced to capture document-level information. The aim is to
+devote attention to understanding the document that better prompts the model to
+generate document-related content. The first step in the summarization
+procedure is to conduct prompt pre-training with self-supervised pseudo-data.
+This teaches the model basic summarizing capabilities. The model is then
+fine-tuned with few-shot examples. Experimental results on the CNN/DailyMail
+and XSum datasets show that our method, with only 0.1% of the parameters,
+outperforms full-model tuning where all model parameters are tuned. It also
+surpasses Prompt Tuning by a large margin and delivers competitive results
+against Prefix-Tuning with 3% of the parameters.",2022-04-09
+Language Model for Text Analytic in Cybersecurity,2022-04-06 09:17:21+00:00,http://arxiv.org/abs/2204.02685v1,"Ehsan Aghaei, Xi Niu, Waseem Shadid, Ehab Al-Shaer","cs.CL, cs.AI, cs.CR",table2text,"NLP is a form of artificial intelligence and machine learning concerned with
+a computer or machine's ability to understand and interpret human language.
+Language models are crucial in text analytics and NLP since they allow
+computers to interpret qualitative input and convert it to quantitative data
+that they can use in other tasks. In essence, in the context of transfer
+learning, language models are typically trained on a large generic corpus,
+referred to as the pre-training stage, and then fine-tuned to a specific
+underlying task. As a result, pre-trained language models are mostly used as a
+baseline model that incorporates a broad grasp of the context and may be
+further customized to be used in a new NLP task.
+  The majority of pre-trained models are trained on corpora from general
+domains, such as Twitter, newswire, Wikipedia, and Web. Such off-the-shelf NLP
+models trained on general text may be inefficient and inaccurate in specialized
+fields. In this paper, we propose a cybersecurity language model called
+SecureBERT, which is able to capture the text connotations in the cybersecurity
+domain, and therefore could further be used in automation for many important
+cybersecurity tasks that would otherwise rely on human expertise and tedious
+manual efforts. SecureBERT is trained on a large corpus of cybersecurity text
+collected and preprocessed by us from a variety of sources in cybersecurity and
+the general computing domain. Using our proposed methods for tokenization and
+model weights adjustment, SecureBERT is not only able to preserve the
+understanding of general English as most pre-trained language models can do,
+but also effective when applied to text that has cybersecurity implications.",2022-04-06
+CLEVR-X: A Visual Reasoning Dataset for Natural Language Explanations,2022-04-05 17:38:04+00:00,http://arxiv.org/abs/2204.02380v1,"Leonard Salewski, A. Sophia Koepke, Hendrik P. A. Lensch, Zeynep Akata","cs.CV, cs.CL",table2text,"Providing explanations in the context of Visual Question Answering (VQA)
+presents a fundamental problem in machine learning. To obtain detailed insights
+into the process of generating natural language explanations for VQA, we
+introduce the large-scale CLEVR-X dataset that extends the CLEVR dataset with
+natural language explanations. For each image-question pair in the CLEVR
+dataset, CLEVR-X contains multiple structured textual explanations which are
+derived from the original scene graphs. By construction, the CLEVR-X
+explanations are correct and describe the reasoning and visual information that
+is necessary to answer a given question. We conducted a user study to confirm
+that the ground-truth explanations in our proposed dataset are indeed complete
+and relevant. We present baseline results for generating natural language
+explanations in the context of VQA using two state-of-the-art frameworks on the
+CLEVR-X dataset. Furthermore, we provide a detailed analysis of the explanation
+generation quality for different question and answer types. Additionally, we
+study the influence of using different numbers of ground-truth explanations on
+the convergence of natural language generation (NLG) metrics. The CLEVR-X
+dataset is publicly available at
+\url{https://explainableml.github.io/CLEVR-X/}.",2022-04-05
+"Diverse Text Generation via Variational Encoder-Decoder Models with
+  Gaussian Process Priors",2022-04-04 04:09:15+00:00,http://arxiv.org/abs/2204.01227v1,"Wanyu Du, Jianqiao Zhao, Liwei Wang, Yangfeng Ji",cs.CL,table2text,"Generating high quality texts with high diversity is important for many NLG
+applications, but current methods mostly focus on building deterministic models
+to generate higher quality texts and do not provide many options for promoting
+diversity. In this work, we present a novel latent structured variable model to
+generate high quality texts by enriching contextual representation learning of
+encoder-decoder models. Specifically, we introduce a stochastic function to map
+deterministic encoder hidden states into random context variables. The proposed
+stochastic function is sampled from a Gaussian process prior to (1) provide
+infinite number of joint Gaussian distributions of random context variables
+(diversity-promoting) and (2) explicitly model dependency between context
+variables (accurate-encoding). To address the learning challenge of Gaussian
+processes, we propose an efficient variational inference approach to
+approximate the posterior distribution of random context variables. We evaluate
+our method in two typical text generation tasks: paraphrase generation and text
+style transfer. Experimental results on benchmark datasets demonstrate that our
+method improves the generation quality and diversity compared with other
+baselines.",2022-04-04
+"CTRLEval: An Unsupervised Reference-Free Metric for Evaluating
+  Controlled Text Generation",2022-04-02 13:42:49+00:00,http://arxiv.org/abs/2204.00862v1,"Pei Ke, Hao Zhou, Yankai Lin, Peng Li, Jie Zhou, Xiaoyan Zhu, Minlie Huang","cs.CL, cs.AI",table2text,"Existing reference-free metrics have obvious limitations for evaluating
+controlled text generation models. Unsupervised metrics can only provide a
+task-agnostic evaluation result which correlates weakly with human judgments,
+whereas supervised ones may overfit task-specific data with poor generalization
+ability to other datasets. In this paper, we propose an unsupervised
+reference-free metric called CTRLEval, which evaluates controlled text
+generation from different aspects by formulating each aspect into multiple text
+infilling tasks. On top of these tasks, the metric assembles the generation
+probabilities from a pre-trained language model without any model training.
+Experimental results show that our metric has higher correlations with human
+judgments than other baselines, while obtaining better generalization of
+evaluating generated texts from different models and with different qualities.",2022-04-02
 A Roadmap for Big Model,2022-03-26 15:38:00+00:00,http://arxiv.org/abs/2203.14101v1,"Sha Yuan, Hanyu Zhao, Shuai Zhao, Jiahong Leng, Yangxiao Liang, Xiaozhi Wang, Jifan Yu, Xin Lv, Zhou Shao, Jiaao He, Yankai Lin, Xu Han, Zhenghao Liu, Ning Ding, Yongming Rao, Yizhao Gao, Liang Zhang, Ming Ding, Cong Fang, Yisen Wang, Mingsheng Long, Jing Zhang, Yinpeng Dong, Tianyu Pang, Peng Cui, Lingxiao Huang, Zheng Liang, Huawei Shen, Hui Zhang, Quanshi Zhang, Qingxiu Dong, Zhixing Tan, Mingxuan Wang, Shuo Wang, Long Zhou, Haoran Li, Junwei Bao, Yingwei Pan, Weinan Zhang, Zhou Yu, Rui Yan, Chence Shi, Minghao Xu, Zuobai Zhang, Guoqiang Wang, Xiang Pan, Mengjie Li, Xiaoyu Chu, Zijun Yao, Fangwei Zhu, Shulin Cao, Weicheng Xue, Zixuan Ma, Zhengyan Zhang, Shengding Hu, Yujia Qin, Chaojun Xiao, Zheni Zeng, Ganqu Cui, Weize Chen, Weilin Zhao, Yuan Yao, Peng Li, Wenzhao Zheng, Wenliang Zhao, Ziyi Wang, Borui Zhang, Nanyi Fei, Anwen Hu, Zenan Ling, Haoyang Li, Boxi Cao, Xianpei Han, Weidong Zhan, Baobao Chang, Hao Sun, Jiawen Deng, Juanzi Li, Lei Hou, Xigang Cao, Jidong Zhai, Zhiyuan Liu, Maosong Sun, Jiwen Lu, Zhiwu Lu, Qin Jin, Ruihua Song, Ji-Rong Wen, Zhouchen Lin, Liwei Wang, Hang Su, Jun Zhu, Zhifang Sui, Jiajun Zhang, Yang Liu, Xiaodong He, Minlie Huang, Jian Tang, Jie Tang","cs.LG, cs.AI, cs.CL",table2text,"With the rapid development of deep learning, training Big Models (BMs) for
 multiple downstream tasks becomes a popular paradigm. Researchers have achieved
 various outcomes in the construction of BMs and the BM application in many

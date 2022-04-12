@@ -6,10 +6,14 @@ sidebar:
 ---
 
 
-*written on 2022-03-30*
+*written on 2022-04-12*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Explanation Graph Generation via Pre-trained Language Models: An  Empirical Study with Contrastive Learning](http://arxiv.org/abs/2204.04813v1) | Swarnadeep Saha, Prateek Yadav, Mohit Bansal | cs.CL, cs.AI, cs.LG | 2022-04-11 |
+| [Explaining Deep Convolutional Neural Networks via Latent Visual-Semantic  Filter Attention](http://arxiv.org/abs/2204.04601v1) | Yu Yang, Seungbae Kim, Jungseock Joo | cs.CV, cs.AI, cs.LG | 2022-04-10 |
+| [Knowledge Infused Decoding](http://arxiv.org/abs/2204.03084v1) | Ruibo Liu, Guoqing Zheng, Shashank Gupta, Radhika Gaonkar, Chongyang Gao, Soroush Vosoughi, Milad Shokouhi, Ahmed Hassan Awadallah | cs.CL, cs.AI, cs.LG | 2022-04-06 |
+| [CLEVR-X: A Visual Reasoning Dataset for Natural Language Explanations](http://arxiv.org/abs/2204.02380v1) | Leonard Salewski, A. Sophia Koepke, Hendrik P. A. Lensch, Zeynep Akata | cs.CV, cs.CL | 2022-04-05 |
 | [Bridge-Prompt: Towards Ordinal Action Understanding in Instructional  Videos](http://arxiv.org/abs/2203.14104v1) | Muheng Li, Lei Chen, Yueqi Duan, Zhilan Hu, Jianjiang Feng, Jie Zhou, Jiwen Lu | cs.CV, cs.AI, cs.LG | 2022-03-26 |
 | [A Roadmap for Big Model](http://arxiv.org/abs/2203.14101v1) | Sha Yuan, Hanyu Zhao, Shuai Zhao, Jiahong Leng, Yangxiao Liang, Xiaozhi Wang, Jifan Yu, Xin Lv, Zhou Shao, Jiaao He, Yankai Lin, Xu Han, Zhenghao Liu, Ning Ding, Yongming Rao, Yizhao Gao, Liang Zhang, Ming Ding, Cong Fang, Yisen Wang, Mingsheng Long, Jing Zhang, Yinpeng Dong, Tianyu Pang, Peng Cui, Lingxiao Huang, Zheng Liang, Huawei Shen, Hui Zhang, Quanshi Zhang, Qingxiu Dong, Zhixing Tan, Mingxuan Wang, Shuo Wang, Long Zhou, Haoran Li, Junwei Bao, Yingwei Pan, Weinan Zhang, Zhou Yu, Rui Yan, Chence Shi, Minghao Xu, Zuobai Zhang, Guoqiang Wang, Xiang Pan, Mengjie Li, Xiaoyu Chu, Zijun Yao, Fangwei Zhu, Shulin Cao, Weicheng Xue, Zixuan Ma, Zhengyan Zhang, Shengding Hu, Yujia Qin, Chaojun Xiao, Zheni Zeng, Ganqu Cui, Weize Chen, Weilin Zhao, Yuan Yao, Peng Li, Wenzhao Zheng, Wenliang Zhao, Ziyi Wang, Borui Zhang, Nanyi Fei, Anwen Hu, Zenan Ling, Haoyang Li, Boxi Cao, Xianpei Han, Weidong Zhan, Baobao Chang, Hao Sun, Jiawen Deng, Juanzi Li, Lei Hou, Xigang Cao, Jidong Zhai, Zhiyuan Liu, Maosong Sun, Jiwen Lu, Zhiwu Lu, Qin Jin, Ruihua Song, Ji-Rong Wen, Zhouchen Lin, Liwei Wang, Hang Su, Jun Zhu, Zhifang Sui, Jiajun Zhang, Yang Liu, Xiaodong He, Minlie Huang, Jian Tang, Jie Tang | cs.LG, cs.AI, cs.CL | 2022-03-26 |
 | [Mitigating Gender Bias in Distilled Language Models via Counterfactual  Role Reversal](http://arxiv.org/abs/2203.12574v1) | Umang Gupta, Jwala Dhamala, Varun Kumar, Apurv Verma, Yada Pruksachatkun, Satyapriya Krishna, Rahul Gupta, Kai-Wei Chang, Greg Ver Steeg, Aram Galstyan | cs.CL, cs.LG | 2022-03-23 |

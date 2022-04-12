@@ -1,4 +1,15 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Uniform Complexity for Text Generation,2022-04-11 15:19:47+00:00,http://arxiv.org/abs/2204.05185v1,Joseph Marvin Imperial,"cs.CL, cs.LG",story,"Powerful language models such as GPT-2 have shown promising results in tasks
+such as narrative generation which can be useful in an educational setup. These
+models, however, should be consistent with the linguistic properties of
+triggers used. For example, if the reading level of an input text prompt is
+appropriate for low-leveled learners (ex. A2 in the CEFR), then the generated
+continuation should also assume this particular level. Thus, we propose the
+task of uniform complexity for text generation which serves as a call to make
+existing language generators uniformly complex with respect to prompts used.
+Our study surveyed over 160 linguistic properties for evaluating text
+complexity and found out that both humans and GPT-2 models struggle in
+preserving the complexity of prompts in a narrative generation setting.",2022-04-11
 On Decoding Strategies for Neural Text Generators,2022-03-29 16:25:30+00:00,http://arxiv.org/abs/2203.15721v1,"Gian Wiher, Clara Meister, Ryan Cotterell","cs.CL, cs.AI",story,"When generating text from probabilistic models, the chosen decoding strategy
 has a profound effect on the resulting text. Yet the properties elicited by
 various decoding strategies do not always transfer across natural language

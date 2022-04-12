@@ -1,4 +1,110 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Regularization-based Pruning of Irrelevant Weights in Deep Neural
+  Architectures",2022-04-11 09:44:16+00:00,http://arxiv.org/abs/2204.04977v1,"Giovanni Bonetta, Matteo Ribero, Rossella Cancelliere","cs.CL, cs.AI",image2text,"Deep neural networks exploiting millions of parameters are nowadays the norm
+in deep learning applications. This is a potential issue because of the great
+amount of computational resources needed for training, and of the possible loss
+of generalization performance of overparametrized networks. We propose in this
+paper a method for learning sparse neural topologies via a regularization
+technique which identifies non relevant weights and selectively shrinks their
+norm, while performing a classic update for relevant ones. This technique,
+which is an improvement of classical weight decay, is based on the definition
+of a regularization term which can be added to any loss functional regardless
+of its form, resulting in a unified general framework exploitable in many
+different contexts. The actual elimination of parameters identified as
+irrelevant is handled by an iterative pruning algorithm. We tested the proposed
+technique on different image classification and Natural language generation
+tasks, obtaining results on par or better then competitors in terms of sparsity
+and metrics, while achieving strong models compression.",2022-04-11
+"Explaining Deep Convolutional Neural Networks via Latent Visual-Semantic
+  Filter Attention",2022-04-10 04:57:56+00:00,http://arxiv.org/abs/2204.04601v1,"Yu Yang, Seungbae Kim, Jungseock Joo","cs.CV, cs.AI, cs.LG",image2text,"Interpretability is an important property for visual models as it helps
+researchers and users understand the internal mechanism of a complex model.
+However, generating semantic explanations about the learned representation is
+challenging without direct supervision to produce such explanations. We propose
+a general framework, Latent Visual Semantic Explainer (LaViSE), to teach any
+existing convolutional neural network to generate text descriptions about its
+own latent representations at the filter level. Our method constructs a mapping
+between the visual and semantic spaces using generic image datasets, using
+images and category names. It then transfers the mapping to the target domain
+which does not have semantic labels. The proposed framework employs a modular
+structure and enables to analyze any trained network whether or not its
+original training data is available. We show that our method can generate novel
+descriptions for learned filters beyond the set of categories defined in the
+training dataset and perform an extensive evaluation on multiple datasets. We
+also demonstrate a novel application of our method for unsupervised dataset
+bias analysis which allows us to automatically discover hidden biases in
+datasets or compare different subsets without using additional labels. The
+dataset and code are made public to facilitate further research.",2022-04-10
+On Distinctive Image Captioning via Comparing and Reweighting,2022-04-08 08:59:23+00:00,http://arxiv.org/abs/2204.03938v1,"Jiuniu Wang, Wenjia Xu, Qingzhong Wang, Antoni B. Chan","cs.CV, cs.AI",image2text,"Recent image captioning models are achieving impressive results based on
+popular metrics, i.e., BLEU, CIDEr, and SPICE. However, focusing on the most
+popular metrics that only consider the overlap between the generated captions
+and human annotation could result in using common words and phrases, which
+lacks distinctiveness, i.e., many similar images have the same caption. In this
+paper, we aim to improve the distinctiveness of image captions via comparing
+and reweighting with a set of similar images. First, we propose a
+distinctiveness metric -- between-set CIDEr (CIDErBtw) to evaluate the
+distinctiveness of a caption with respect to those of similar images. Our
+metric reveals that the human annotations of each image in the MSCOCO dataset
+are not equivalent based on distinctiveness; however, previous works normally
+treat the human annotations equally during training, which could be a reason
+for generating less distinctive captions. In contrast, we reweight each
+ground-truth caption according to its distinctiveness during training. We
+further integrate a long-tailed weight strategy to highlight the rare words
+that contain more information, and captions from the similar image set are
+sampled as negative examples to encourage the generated sentence to be unique.
+Finally, extensive experiments are conducted, showing that our proposed
+approach significantly improves both distinctiveness (as measured by CIDErBtw
+and retrieval metrics) and accuracy (e.g., as measured by CIDEr) for a wide
+variety of image captioning baselines. These results are further confirmed
+through a user study.",2022-04-08
+CLEVR-X: A Visual Reasoning Dataset for Natural Language Explanations,2022-04-05 17:38:04+00:00,http://arxiv.org/abs/2204.02380v1,"Leonard Salewski, A. Sophia Koepke, Hendrik P. A. Lensch, Zeynep Akata","cs.CV, cs.CL",image2text,"Providing explanations in the context of Visual Question Answering (VQA)
+presents a fundamental problem in machine learning. To obtain detailed insights
+into the process of generating natural language explanations for VQA, we
+introduce the large-scale CLEVR-X dataset that extends the CLEVR dataset with
+natural language explanations. For each image-question pair in the CLEVR
+dataset, CLEVR-X contains multiple structured textual explanations which are
+derived from the original scene graphs. By construction, the CLEVR-X
+explanations are correct and describe the reasoning and visual information that
+is necessary to answer a given question. We conducted a user study to confirm
+that the ground-truth explanations in our proposed dataset are indeed complete
+and relevant. We present baseline results for generating natural language
+explanations in the context of VQA using two state-of-the-art frameworks on the
+CLEVR-X dataset. Furthermore, we provide a detailed analysis of the explanation
+generation quality for different question and answer types. Additionally, we
+study the influence of using different numbers of ground-truth explanations on
+the convergence of natural language generation (NLG) metrics. The CLEVR-X
+dataset is publicly available at
+\url{https://explainableml.github.io/CLEVR-X/}.",2022-04-05
+Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language,2022-04-01 17:43:13+00:00,http://arxiv.org/abs/2204.00598v1,"Andy Zeng, Adrian Wong, Stefan Welker, Krzysztof Choromanski, Federico Tombari, Aveek Purohit, Michael Ryoo, Vikas Sindhwani, Johnny Lee, Vincent Vanhoucke, Pete Florence","cs.CV, cs.AI, cs.CL, cs.LG",image2text,"Large foundation models can exhibit unique capabilities depending on the
+domain of data they are trained on. While these domains are generic, they may
+only barely overlap. For example, visual-language models (VLMs) are trained on
+Internet-scale image captions, but large language models (LMs) are further
+trained on Internet-scale text with no images (e.g. from spreadsheets, to SAT
+questions). As a result, these models store different forms of commonsense
+knowledge across different domains. In this work, we show that this model
+diversity is symbiotic, and can be leveraged to build AI systems with
+structured Socratic dialogue -- in which new multimodal tasks are formulated as
+a guided language-based exchange between different pre-existing foundation
+models, without additional finetuning. In the context of egocentric perception,
+we present a case study of Socratic Models (SMs) that can provide meaningful
+results for complex tasks such as generating free-form answers to contextual
+questions about egocentric video, by formulating video Q&A as short story Q&A,
+i.e. summarizing the video into a short story, then answering questions about
+it. Additionally, SMs can generate captions for Internet images, and are
+competitive with state-of-the-art on zero-shot video-to-text retrieval with
+42.8 R@1 on MSR-VTT 1k-A. SMs demonstrate how to compose foundation models
+zero-shot to capture new multimodal functionalities, without domain-specific
+data collection. Prototypes are available at socraticmodels.github.io.",2022-04-01
+Neural Pipeline for Zero-Shot Data-to-Text Generation,2022-03-30 13:14:35+00:00,http://arxiv.org/abs/2203.16279v1,"Zdeněk Kasner, Ondřej Dušek",cs.CL,image2text,"In data-to-text (D2T) generation, training on in-domain data leads to
+overfitting to the data representation and repeating training data noise. We
+examine how to avoid finetuning pretrained language models (PLMs) on D2T
+generation datasets while still taking advantage of surface realization
+capabilities of PLMs. Inspired by pipeline approaches, we propose to generate
+text by transforming single-item descriptions with a sequence of modules
+trained on general-domain text-based operations: ordering, aggregation, and
+paragraph compression. We train PLMs for performing these operations on a
+synthetic corpus WikiFluent which we build from English Wikipedia. Our
+experiments on two major triple-to-text datasets -- WebNLG and E2E -- show that
+our approach enables D2T generation from RDF triples in zero-shot settings.",2022-03-30
 "GPT-D: Inducing Dementia-related Linguistic Anomalies by Deliberate
   Degradation of Artificial Neural Language Models",2022-03-25 00:25:42+00:00,http://arxiv.org/abs/2203.13397v1,"Changye Li, David Knopman, Weizhe Xu, Trevor Cohen, Serguei Pakhomov",cs.CL,image2text,"Deep learning (DL) techniques involving fine-tuning large numbers of model
 parameters have delivered impressive performance on the task of discriminating
