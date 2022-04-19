@@ -1,4 +1,33 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Rows from Many Sources: Enriching row completions from Wikidata with a
+  pre-trained Language Model",2022-04-14 15:11:52+00:00,http://arxiv.org/abs/2204.07014v1,"Carina Negreanu, Alperen Karaoglu, Jack Williams, Shuang Chen, Daniel Fabian, Andrew Gordon, Chin-Yew Lin","cs.CL, cs.AI",knowledge,"Row completion is the task of augmenting a given table of text and numbers
+with additional, relevant rows. The task divides into two steps: subject
+suggestion, the task of populating the main column; and gap filling, the task
+of populating the remaining columns. We present state-of-the-art results for
+subject suggestion and gap filling measured on a standard benchmark
+(WikiTables). Our idea is to solve this task by harmoniously combining
+knowledge base table interpretation and free text generation. We interpret the
+table using the knowledge base to suggest new rows and generate metadata like
+headers through property linking. To improve candidate diversity, we synthesize
+additional rows using free text generation via GPT-3, and crucially, we exploit
+the metadata we interpret to produce better prompts for text generation.
+Finally, we verify that the additional synthesized content can be linked to the
+knowledge base or a trusted web source such as Wikipedia.",2022-04-14
+"GAP: A Graph-aware Language Model Framework for Knowledge Graph-to-Text
+  Generation",2022-04-13 23:53:37+00:00,http://arxiv.org/abs/2204.06674v1,"Anthony Colas, Mehrdad Alvandipour, Daisy Zhe Wang",cs.CL,knowledge,"Recent improvements in KG-to-text generation are due to additional auxiliary
+pre-trained tasks designed to give the fine-tune task a boost in performance.
+These tasks require extensive computational resources while only suggesting
+marginal improvements. Here, we demonstrate that by fusing graph-aware elements
+into existing pre-trained language models, we are able to outperform
+state-of-the-art models and close the gap imposed by additional pre-train
+tasks. We do so by proposing a mask structure to capture neighborhood
+information and a novel type encoder that adds a bias to the graph-attention
+weights depending on the connection type. Experiments on two KG-to-text
+benchmark datasets show these models to be superior in quality while involving
+fewer parameters and no additional pre-trained tasks. By formulating the
+problem as a framework, we can interchange the various proposed components and
+begin interpreting KG-to-text generative models based on the topological and
+type information found in a graph.",2022-04-13
 "Explanation Graph Generation via Pre-trained Language Models: An
   Empirical Study with Contrastive Learning",2022-04-11 00:58:27+00:00,http://arxiv.org/abs/2204.04813v1,"Swarnadeep Saha, Prateek Yadav, Mohit Bansal","cs.CL, cs.AI, cs.LG",knowledge,"Pre-trained sequence-to-sequence language models have led to widespread
 success in many natural language generation tasks. However, there has been

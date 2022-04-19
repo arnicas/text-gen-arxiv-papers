@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2022-04-12*
+*written on 2022-04-19*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Rows from Many Sources: Enriching row completions from Wikidata with a  pre-trained Language Model](http://arxiv.org/abs/2204.07014v1) | Carina Negreanu, Alperen Karaoglu, Jack Williams, Shuang Chen, Daniel Fabian, Andrew Gordon, Chin-Yew Lin | cs.CL, cs.AI | 2022-04-14 |
+| [GAP: A Graph-aware Language Model Framework for Knowledge Graph-to-Text  Generation](http://arxiv.org/abs/2204.06674v1) | Anthony Colas, Mehrdad Alvandipour, Daisy Zhe Wang | cs.CL | 2022-04-13 |
 | [Explanation Graph Generation via Pre-trained Language Models: An  Empirical Study with Contrastive Learning](http://arxiv.org/abs/2204.04813v1) | Swarnadeep Saha, Prateek Yadav, Mohit Bansal | cs.CL, cs.AI, cs.LG | 2022-04-11 |
 | [Explaining Deep Convolutional Neural Networks via Latent Visual-Semantic  Filter Attention](http://arxiv.org/abs/2204.04601v1) | Yu Yang, Seungbae Kim, Jungseock Joo | cs.CV, cs.AI, cs.LG | 2022-04-10 |
 | [Knowledge Infused Decoding](http://arxiv.org/abs/2204.03084v1) | Ruibo Liu, Guoqing Zheng, Shashank Gupta, Radhika Gaonkar, Chongyang Gao, Soroush Vosoughi, Milad Shokouhi, Ahmed Hassan Awadallah | cs.CL, cs.AI, cs.LG | 2022-04-06 |

@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2022-04-12*
+*written on 2022-04-19*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Evaluating Mixed-initiative Conversational Search Systems via User  Simulation](http://arxiv.org/abs/2204.08046v1) | Ivan Sekulić, Mohammad Aliannejadi, Fabio Crestani | cs.CL, cs.IR | 2022-04-17 |
 | [Regularization-based Pruning of Irrelevant Weights in Deep Neural  Architectures](http://arxiv.org/abs/2204.04977v1) | Giovanni Bonetta, Matteo Ribero, Rossella Cancelliere | cs.CL, cs.AI | 2022-04-11 |
 | [Explaining Deep Convolutional Neural Networks via Latent Visual-Semantic  Filter Attention](http://arxiv.org/abs/2204.04601v1) | Yu Yang, Seungbae Kim, Jungseock Joo | cs.CV, cs.AI, cs.LG | 2022-04-10 |
 | [On Distinctive Image Captioning via Comparing and Reweighting](http://arxiv.org/abs/2204.03938v1) | Jiuniu Wang, Wenjia Xu, Qingzhong Wang, Antoni B. Chan | cs.CV, cs.AI | 2022-04-08 |
