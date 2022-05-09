@@ -1,4 +1,83 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Language Models Can See: Plugging Visual Controls in Text Generation,2022-05-05 13:56:18+00:00,http://arxiv.org/abs/2205.02655v1,"Yixuan Su, Tian Lan, Yahui Liu, Fangyu Liu, Dani Yogatama, Yan Wang, Lingpeng Kong, Nigel Collier","cs.CV, cs.CL",image2text,"Generative language models (LMs) such as GPT-2/3 can be prompted to generate
+text with remarkable quality. While they are designed for text-prompted
+generation, it remains an open question how the generation process could be
+guided by modalities beyond text such as images. In this work, we propose a
+training-free framework, called MAGIC (iMAge-Guided text generatIon with CLIP),
+for plugging in visual controls in the generation process and enabling LMs to
+perform multimodal tasks (e.g., image captioning) in a zero-shot manner. MAGIC
+is a simple yet efficient plug-and-play framework, which directly combines an
+off-the-shelf LM (i.e., GPT-2) and an image-text matching model (i.e., CLIP)
+for image-grounded text generation. During decoding, MAGIC influences the
+generation of the LM by introducing a CLIP-induced score, called magic score,
+which regularizes the generated result to be semantically related to a given
+image while being coherent to the previously generated context. Notably, the
+proposed decoding scheme does not involve any gradient update operation,
+therefore being computationally efficient. On the challenging task of zero-shot
+image captioning, MAGIC outperforms the state-of-the-art method by notable
+margins with a nearly 27 times decoding speedup. MAGIC is a flexible framework
+and is theoretically compatible with any text generation tasks that incorporate
+image grounding. In the experiments, we showcase that it is also capable of
+performing visually grounded story generation given both an image and a text
+prompt.",2022-05-05
+Diverse Image Captioning with Grounded Style,2022-05-03 22:57:59+00:00,http://arxiv.org/abs/2205.01813v1,"Franz Klein, Shweta Mahajan, Stefan Roth","cs.CV, cs.LG",image2text,"Stylized image captioning as presented in prior work aims to generate
+captions that reflect characteristics beyond a factual description of the scene
+composition, such as sentiments. Such prior work relies on given sentiment
+identifiers, which are used to express a certain global style in the caption,
+e.g. positive or negative, however without taking into account the stylistic
+content of the visual scene. To address this shortcoming, we first analyze the
+limitations of current stylized captioning datasets and propose COCO
+attribute-based augmentations to obtain varied stylized captions from COCO
+annotations. Furthermore, we encode the stylized information in the latent
+space of a Variational Autoencoder; specifically, we leverage extracted image
+attributes to explicitly structure its sequential latent space according to
+different localized style characteristics. Our experiments on the Senticap and
+COCO datasets show the ability of our approach to generate accurate captions
+with diversity in styles that are grounded in the image.",2022-05-03
+Cross-modal Memory Networks for Radiology Report Generation,2022-04-28 02:32:53+00:00,http://arxiv.org/abs/2204.13258v1,"Zhihong Chen, Yaling Shen, Yan Song, Xiang Wan",cs.CL,image2text,"Medical imaging plays a significant role in clinical practice of medical
+diagnosis, where the text reports of the images are essential in understanding
+them and facilitating later treatments. By generating the reports
+automatically, it is beneficial to help lighten the burden of radiologists and
+significantly promote clinical automation, which already attracts much
+attention in applying artificial intelligence to medical domain. Previous
+studies mainly follow the encoder-decoder paradigm and focus on the aspect of
+text generation, with few studies considering the importance of cross-modal
+mappings and explicitly exploit such mappings to facilitate radiology report
+generation. In this paper, we propose a cross-modal memory networks (CMN) to
+enhance the encoder-decoder framework for radiology report generation, where a
+shared memory is designed to record the alignment between images and texts so
+as to facilitate the interaction and generation across modalities. Experimental
+results illustrate the effectiveness of our proposed model, where
+state-of-the-art performance is achieved on two widely used benchmark datasets,
+i.e., IU X-Ray and MIMIC-CXR. Further analyses also prove that our model is
+able to better align information from radiology images and texts so as to help
+generating more accurate reports in terms of clinical indicators.",2022-04-28
+"Recovering Patient Journeys: A Corpus of Biomedical Entities and
+  Relations on Twitter (BEAR)",2022-04-21 08:18:44+00:00,http://arxiv.org/abs/2204.09952v1,"Amelie Wührl, Roman Klinger","cs.CL, cs.IR",image2text,"Text mining and information extraction for the medical domain has focused on
+scientific text generated by researchers. However, their direct access to
+individual patient experiences or patient-doctor interactions can be limited.
+Information provided on social media, e.g., by patients and their relatives,
+complements the knowledge in scientific text. It reflects the patient's journey
+and their subjective perspective on the process of developing symptoms, being
+diagnosed and offered a treatment, being cured or learning to live with a
+medical condition. The value of this type of data is therefore twofold:
+Firstly, it offers direct access to people's perspectives. Secondly, it might
+cover information that is not available elsewhere, including self-treatment or
+self-diagnoses. Named entity recognition and relation extraction are methods to
+structure information that is available in unstructured text. However, existing
+medical social media corpora focused on a comparably small set of entities and
+relations and particular domains, rather than putting the patient into the
+center of analyses. With this paper we contribute a corpus with a rich set of
+annotation layers following the motivation to uncover and model patients'
+journeys and experiences in more detail. We label 14 entity classes (incl.
+environmental factors, diagnostics, biochemical processes, patients'
+quality-of-life descriptions, pathogens, medical conditions, and treatments)
+and 20 relation classes (e.g., prevents, influences, interactions, causes) most
+of which have not been considered before for social media data. The publicly
+available dataset consists of 2,100 tweets with approx. 6,000 entity and 3,000
+relation annotations. In a corpus analysis we find that over 80 % of documents
+contain relevant entities. Over 50 % of tweets express relations which we
+consider essential for uncovering patients' narratives about their journeys.",2022-04-21
 "Evaluating Mixed-initiative Conversational Search Systems via User
   Simulation",2022-04-17 16:27:33+00:00,http://arxiv.org/abs/2204.08046v1,"Ivan Sekulić, Mohammad Aliannejadi, Fabio Crestani","cs.CL, cs.IR",image2text,"Clarifying the underlying user information need by asking clarifying
 questions is an important feature of modern conversational search system.

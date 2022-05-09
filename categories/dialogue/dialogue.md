@@ -7,10 +7,15 @@ sidebar:
 ---
 
 
-*written on 2022-04-19*
+*written on 2022-05-09*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Diversifying Neural Dialogue Generation via Negative Distillation](http://arxiv.org/abs/2205.02795v1) | Yiwei Li, Shaoxiong Feng, Bin Sun, Kan Li | cs.CL, cs.AI | 2022-05-05 |
+| [AI Personification: Estimating the Personality of Language Models](http://arxiv.org/abs/2204.12000v1) | Saketh Reddy Karra, Son Nguyen, Theja Tulabandhula | cs.CL, cs.AI | 2022-04-25 |
+| [SalesBot: Transitioning from Chit-Chat to Task-Oriented Dialogues](http://arxiv.org/abs/2204.10591v1) | Ssu Chiu, Maolin Li, Yen-Ting Lin, Yun-Nung Chen | cs.CL, cs.AI | 2022-04-22 |
+| [Event Transition Planning for Open-ended Text Generation](http://arxiv.org/abs/2204.09453v1) | Qintong Li, Piji Li, Wei Bi, Zhaochun Ren, Yuxuan Lai, Lingpeng Kong | cs.CL | 2022-04-20 |
+| [A Survey on Non-Autoregressive Generation for Neural Machine Translation  and Beyond](http://arxiv.org/abs/2204.09269v1) | Yisheng Xiao, Lijun Wu, Junliang Guo, Juntao Li, Min Zhang, Tao Qin, Tie-yan Liu | cs.CL, cs.LG | 2022-04-20 |
 | [Evaluating Mixed-initiative Conversational Search Systems via User  Simulation](http://arxiv.org/abs/2204.08046v1) | Ivan Sekulić, Mohammad Aliannejadi, Fabio Crestani | cs.CL, cs.IR | 2022-04-17 |
 | [UniDU: Towards A Unified Generative Dialogue Understanding Framework](http://arxiv.org/abs/2204.04637v1) | Zhi Chen, Lu Chen, Bei Chen, Libo Qin, Yuncong Liu, Su Zhu, Jian-Guang Lou, Kai Yu | cs.CL | 2022-04-10 |
 | [BioBART: Pretraining and Evaluation of A Biomedical Generative Language  Model](http://arxiv.org/abs/2204.03905v1) | Hongyi Yuan, Zheng Yuan, Ruyi Gan, Jiaxing Zhang, Yutao Xie, Sheng Yu | cs.CL | 2022-04-08 |

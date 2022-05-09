@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2022-04-19*
+*written on 2022-05-09*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Language Models Can See: Plugging Visual Controls in Text Generation](http://arxiv.org/abs/2205.02655v1) | Yixuan Su, Tian Lan, Yahui Liu, Fangyu Liu, Dani Yogatama, Yan Wang, Lingpeng Kong, Nigel Collier | cs.CV, cs.CL | 2022-05-05 |
+| [Diverse Image Captioning with Grounded Style](http://arxiv.org/abs/2205.01813v1) | Franz Klein, Shweta Mahajan, Stefan Roth | cs.CV, cs.LG | 2022-05-03 |
+| [Cross-modal Memory Networks for Radiology Report Generation](http://arxiv.org/abs/2204.13258v1) | Zhihong Chen, Yaling Shen, Yan Song, Xiang Wan | cs.CL | 2022-04-28 |
+| [Recovering Patient Journeys: A Corpus of Biomedical Entities and  Relations on Twitter (BEAR)](http://arxiv.org/abs/2204.09952v1) | Amelie Wührl, Roman Klinger | cs.CL, cs.IR | 2022-04-21 |
 | [Evaluating Mixed-initiative Conversational Search Systems via User  Simulation](http://arxiv.org/abs/2204.08046v1) | Ivan Sekulić, Mohammad Aliannejadi, Fabio Crestani | cs.CL, cs.IR | 2022-04-17 |
 | [Regularization-based Pruning of Irrelevant Weights in Deep Neural  Architectures](http://arxiv.org/abs/2204.04977v1) | Giovanni Bonetta, Matteo Ribero, Rossella Cancelliere | cs.CL, cs.AI | 2022-04-11 |
 | [Explaining Deep Convolutional Neural Networks via Latent Visual-Semantic  Filter Attention](http://arxiv.org/abs/2204.04601v1) | Yu Yang, Seungbae Kim, Jungseock Joo | cs.CV, cs.AI, cs.LG | 2022-04-10 |

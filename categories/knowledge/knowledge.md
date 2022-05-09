@@ -7,10 +7,15 @@ sidebar:
 ---
 
 
-*written on 2022-04-19*
+*written on 2022-05-09*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Language Models Can See: Plugging Visual Controls in Text Generation](http://arxiv.org/abs/2205.02655v1) | Yixuan Su, Tian Lan, Yahui Liu, Fangyu Liu, Dani Yogatama, Yan Wang, Lingpeng Kong, Nigel Collier | cs.CV, cs.CL | 2022-05-05 |
+| [Efficient Few-Shot Fine-Tuning for Opinion Summarization](http://arxiv.org/abs/2205.02170v1) | Arthur Bražinskas, Ramesh Nallapati, Mohit Bansal, Markus Dreyer | cs.CL, cs.AI, cs.LG | 2022-05-04 |
+| [Faithful to the Document or to the World? Mitigating Hallucinations via  Entity-linked Knowledge in Abstractive Summarization](http://arxiv.org/abs/2204.13761v1) | Yue Dong, John Wieting, Pat Verga | cs.CL | 2022-04-28 |
+| [Recovering Patient Journeys: A Corpus of Biomedical Entities and  Relations on Twitter (BEAR)](http://arxiv.org/abs/2204.09952v1) | Amelie Wührl, Roman Klinger | cs.CL, cs.IR | 2022-04-21 |
+| [A Survey on Non-Autoregressive Generation for Neural Machine Translation  and Beyond](http://arxiv.org/abs/2204.09269v1) | Yisheng Xiao, Lijun Wu, Junliang Guo, Juntao Li, Min Zhang, Tao Qin, Tie-yan Liu | cs.CL, cs.LG | 2022-04-20 |
 | [Rows from Many Sources: Enriching row completions from Wikidata with a  pre-trained Language Model](http://arxiv.org/abs/2204.07014v1) | Carina Negreanu, Alperen Karaoglu, Jack Williams, Shuang Chen, Daniel Fabian, Andrew Gordon, Chin-Yew Lin | cs.CL, cs.AI | 2022-04-14 |
 | [GAP: A Graph-aware Language Model Framework for Knowledge Graph-to-Text  Generation](http://arxiv.org/abs/2204.06674v1) | Anthony Colas, Mehrdad Alvandipour, Daisy Zhe Wang | cs.CL | 2022-04-13 |
 | [Explanation Graph Generation via Pre-trained Language Models: An  Empirical Study with Contrastive Learning](http://arxiv.org/abs/2204.04813v1) | Swarnadeep Saha, Prateek Yadav, Mohit Bansal | cs.CL, cs.AI, cs.LG | 2022-04-11 |

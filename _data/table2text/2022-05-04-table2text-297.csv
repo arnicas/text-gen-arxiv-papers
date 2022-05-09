@@ -1,4 +1,153 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Analysing the Robustness of Dual Encoders for Dense Retrieval Against
+  Misspellings",2022-05-04 19:48:13+00:00,http://arxiv.org/abs/2205.02303v1,"Georgios Sidiropoulos, Evangelos Kanoulas",cs.IR,table2text,"Dense retrieval is becoming one of the standard approaches for document and
+passage ranking. The dual-encoder architecture is widely adopted for scoring
+question-passage pairs due to its efficiency and high performance. Typically,
+dense retrieval models are evaluated on clean and curated datasets. However,
+when deployed in real-life applications, these models encounter noisy
+user-generated text. That said, the performance of state-of-the-art dense
+retrievers can substantially deteriorate when exposed to noisy text. In this
+work, we study the robustness of dense retrievers against typos in the user
+question. We observe a significant drop in the performance of the dual-encoder
+model when encountering typos and explore ways to improve its robustness by
+combining data augmentation with contrastive learning. Our experiments on two
+large-scale passage ranking and open-domain question answering datasets show
+that our proposed approach outperforms competing approaches. Additionally, we
+perform a thorough analysis on robustness. Finally, we provide insights on how
+different typos affect the robustness of embeddings differently and how our
+method alleviates the effect of some typos but not of others.",2022-05-04
+Learning to Transfer Prompts for Text Generation,2022-05-03 14:53:48+00:00,http://arxiv.org/abs/2205.01543v1,"Junyi Li, Tianyi Tang, Jian-Yun Nie, Ji-Rong Wen, Wayne Xin Zhao",cs.CL,table2text,"Pretrained language models (PLMs) have made remarkable progress in text
+generation tasks via fine-tuning. While, it is challenging to fine-tune PLMs in
+a data-scarce situation. Therefore, it is non-trivial to develop a general and
+lightweight model that can adapt to various text generation tasks based on
+PLMs. To fulfill this purpose, the recent prompt-based learning offers a
+potential solution. In this paper, we improve this technique and propose a
+novel prompt-based method (PTG) for text generation in a transferable setting.
+First, PTG learns a set of source prompts for various source generation tasks
+and then transfers these prompts as target prompts to perform target generation
+tasks. To consider both task- and instance-level information, we design an
+adaptive attention mechanism to derive the target prompts. For each data
+instance, PTG learns a specific target prompt by attending to highly relevant
+source prompts. In extensive experiments, PTG yields competitive or better
+results than fine-tuning methods. We release our source prompts as an open
+resource, where users can add or reuse them to improve new text generation
+tasks for future research. Code and data can be available at
+https://github.com/RUCAIBox/Transfer-Prompts-for-Text-Generation.",2022-05-03
+"LIDER: An Efficient High-dimensional Learned Index for Large-scale Dense
+  Passage Retrieval",2022-05-02 15:15:41+00:00,http://arxiv.org/abs/2205.00970v1,"Yifan Wang, Haodi Ma, Daisy Zhe Wang","cs.IR, cs.DB",table2text,"Text retrieval using dense embeddings generated from deep neural models is
+called ""dense passage retrieval"". Dense passage retrieval systems normally
+deploy a deep neural model followed by an approximate nearest neighbor (ANN)
+search module. The model generates text embeddings, which are then indexed by
+the ANN module. With the increasing data scale, the ANN module unavoidably
+becomes the bottleneck on efficiency, because of its linear or sublinear time
+complexity with data scale. An alternative is the learned index which has a
+theoretically constant time complexity. But most of the existing learned
+indexes are designed for low dimensional data. Thus they are not suitable for
+dense passage retrieval tasks with high-dimensional dense embeddings. We
+propose LIDER, an efficient high-dimensional Learned Index for large-scale
+DEnse passage Retrieval. LIDER has a clustering-based hierarchical architecture
+formed by two layers of core models. As the basic unit of LIDER to index and
+search data, each core model includes an adapted recursive model index (RMI)
+and a dimension reduction component which consists of an extended
+SortingKeys-LSH (SK-LSH) and a key re-scaling module. The dimension reduction
+component reduces the high-dimensional dense embeddings into one-dimensional
+keys and sorts them in a specific order, which are then used by the RMI. And
+the RMI consists of multiple simple linear regression models that make fast
+prediction in only O(1) time. We successfully optimize and combine SK-LSH and
+RMI together into the core model, and organize multiple core models into a
+two-layer structure based on a clustering-based partitioning of the whole data
+space. Experiments show that LIDER has a higher search speed with high
+retrieval quality comparing to the state-of-the-art ANN indexes commonly used
+in dense passage retrieval. Furthermore, LIDER has a better capability of
+speed-quality trade-off.",2022-05-02
+"NMTScore: A Multilingual Analysis of Translation-based Text Similarity
+  Measures",2022-04-28 17:57:17+00:00,http://arxiv.org/abs/2204.13692v1,"Jannis Vamvas, Rico Sennrich",cs.CL,table2text,"Being able to rank the similarity of short text segments is an interesting
+bonus feature of neural machine translation. Translation-based similarity
+measures include direct and pivot translation probability, as well as
+translation cross-likelihood, which has not been studied so far. We analyze
+these measures in the common framework of multilingual NMT, releasing the
+NMTScore library (available at https://github.com/ZurichNLP/nmtscore). Compared
+to baselines such as sentence embeddings, translation-based measures prove
+competitive in paraphrase identification and are more robust against
+adversarial or multilingual input, especially if proper normalization is
+applied. When used for reference-based evaluation of data-to-text generation in
+2 tasks and 17 languages, translation-based measures show a relatively high
+correlation to human judgments.",2022-04-28
+"Crystal Transformer: Self-learning neural language model for Generative
+  and Tinkering Design of Materials",2022-04-25 20:20:26+00:00,http://arxiv.org/abs/2204.11953v1,"Lai Wei, Qinyang Li, Yuqi Song, Stanislav Stefanov, Edirisuriya M. D. Siriwardane, Fanglin Chen, Jianjun Hu","cond-mat.mtrl-sci, cs.LG",table2text,"Self-supervised neural language models have recently achieved unprecedented
+success, from natural language processing to learning the languages of
+biological sequences and organic molecules. These models have demonstrated
+superior performance in the generation, structure classification, and
+functional predictions for proteins and molecules with learned representations.
+However, most of the masking-based pre-trained language models are not designed
+for generative design, and their black-box nature makes it difficult to
+interpret their design logic. Here we propose BLMM Crystal Transformer, a
+neural network based probabilistic generative model for generative and
+tinkering design of inorganic materials. Our model is built on the blank
+filling language model for text generation and has demonstrated unique
+advantages in learning the ""materials grammars"" together with high-quality
+generation, interpretability, and data efficiency. It can generate chemically
+valid materials compositions with as high as 89.7\% charge neutrality and
+84.8\% balanced electronegativity, which are more than 4 and 8 times higher
+compared to a pseudo random sampling baseline. The probabilistic generation
+process of BLMM allows it to recommend tinkering operations based on learned
+materials chemistry and makes it useful for materials doping. Combined with the
+TCSP crysal structure prediction algorithm, We have applied our model to
+discover a set of new materials as validated using DFT calculations. Our work
+thus brings the unsupervised transformer language models based generative
+artificial intelligence to inorganic materials. A user-friendly web app has
+been developed for computational materials doping and can be accessed freely at
+\url{www.materialsatlas.org/blmtinker}.",2022-04-25
+"Recovering Patient Journeys: A Corpus of Biomedical Entities and
+  Relations on Twitter (BEAR)",2022-04-21 08:18:44+00:00,http://arxiv.org/abs/2204.09952v1,"Amelie Wührl, Roman Klinger","cs.CL, cs.IR",table2text,"Text mining and information extraction for the medical domain has focused on
+scientific text generated by researchers. However, their direct access to
+individual patient experiences or patient-doctor interactions can be limited.
+Information provided on social media, e.g., by patients and their relatives,
+complements the knowledge in scientific text. It reflects the patient's journey
+and their subjective perspective on the process of developing symptoms, being
+diagnosed and offered a treatment, being cured or learning to live with a
+medical condition. The value of this type of data is therefore twofold:
+Firstly, it offers direct access to people's perspectives. Secondly, it might
+cover information that is not available elsewhere, including self-treatment or
+self-diagnoses. Named entity recognition and relation extraction are methods to
+structure information that is available in unstructured text. However, existing
+medical social media corpora focused on a comparably small set of entities and
+relations and particular domains, rather than putting the patient into the
+center of analyses. With this paper we contribute a corpus with a rich set of
+annotation layers following the motivation to uncover and model patients'
+journeys and experiences in more detail. We label 14 entity classes (incl.
+environmental factors, diagnostics, biochemical processes, patients'
+quality-of-life descriptions, pathogens, medical conditions, and treatments)
+and 20 relation classes (e.g., prevents, influences, interactions, causes) most
+of which have not been considered before for social media data. The publicly
+available dataset consists of 2,100 tweets with approx. 6,000 entity and 3,000
+relation annotations. In a corpus analysis we find that over 80 % of documents
+contain relevant entities. Over 50 % of tweets express relations which we
+consider essential for uncovering patients' narratives about their journeys.",2022-04-21
+"A Survey on Non-Autoregressive Generation for Neural Machine Translation
+  and Beyond",2022-04-20 07:25:22+00:00,http://arxiv.org/abs/2204.09269v1,"Yisheng Xiao, Lijun Wu, Junliang Guo, Juntao Li, Min Zhang, Tao Qin, Tie-yan Liu","cs.CL, cs.LG",table2text,"Non-autoregressive (NAR) generation, which is first proposed in neural
+machine translation (NMT) to speed up inference, has attracted much attention
+in both machine learning and natural language processing communities. While NAR
+generation can significantly accelerate inference speed for machine
+translation, the speedup comes at the cost of sacrificed translation accuracy
+compared to its counterpart, auto-regressive (AR) generation. In recent years,
+many new models and algorithms have been designed/proposed to bridge the
+accuracy gap between NAR generation and AR generation. In this paper, we
+conduct a systematic survey with comparisons and discussions of various
+non-autoregressive translation (NAT) models from different aspects.
+Specifically, we categorize the efforts of NAT into several groups, including
+data manipulation, modeling methods, training criterion, decoding algorithms,
+and the benefit from pre-trained models. Furthermore, we briefly review other
+applications of NAR models beyond machine translation, such as dialogue
+generation, text summarization, grammar error correction, semantic parsing,
+speech synthesis, and automatic speech recognition. In addition, we also
+discuss potential directions for future exploration, including releasing the
+dependency of KD, dynamic length prediction, pre-training for NAR, and wider
+applications, etc. We hope this survey can help researchers capture the latest
+progress in NAR generation, inspire the design of advanced NAR models and
+algorithms, and enable industry practitioners to choose appropriate solutions
+for their applications. The web page of this survey is at
+\url{https://github.com/LitterBrother-Xiao/Overview-of-Non-autoregressive-Applications}.",2022-04-20
 "Evaluating Mixed-initiative Conversational Search Systems via User
   Simulation",2022-04-17 16:27:33+00:00,http://arxiv.org/abs/2204.08046v1,"Ivan Sekulić, Mohammad Aliannejadi, Fabio Crestani","cs.CL, cs.IR",table2text,"Clarifying the underlying user information need by asking clarifying
 questions is an important feature of modern conversational search system.

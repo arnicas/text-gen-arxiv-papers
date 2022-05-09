@@ -1,4 +1,111 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Language Models Can See: Plugging Visual Controls in Text Generation,2022-05-05 13:56:18+00:00,http://arxiv.org/abs/2205.02655v1,"Yixuan Su, Tian Lan, Yahui Liu, Fangyu Liu, Dani Yogatama, Yan Wang, Lingpeng Kong, Nigel Collier","cs.CV, cs.CL",knowledge,"Generative language models (LMs) such as GPT-2/3 can be prompted to generate
+text with remarkable quality. While they are designed for text-prompted
+generation, it remains an open question how the generation process could be
+guided by modalities beyond text such as images. In this work, we propose a
+training-free framework, called MAGIC (iMAge-Guided text generatIon with CLIP),
+for plugging in visual controls in the generation process and enabling LMs to
+perform multimodal tasks (e.g., image captioning) in a zero-shot manner. MAGIC
+is a simple yet efficient plug-and-play framework, which directly combines an
+off-the-shelf LM (i.e., GPT-2) and an image-text matching model (i.e., CLIP)
+for image-grounded text generation. During decoding, MAGIC influences the
+generation of the LM by introducing a CLIP-induced score, called magic score,
+which regularizes the generated result to be semantically related to a given
+image while being coherent to the previously generated context. Notably, the
+proposed decoding scheme does not involve any gradient update operation,
+therefore being computationally efficient. On the challenging task of zero-shot
+image captioning, MAGIC outperforms the state-of-the-art method by notable
+margins with a nearly 27 times decoding speedup. MAGIC is a flexible framework
+and is theoretically compatible with any text generation tasks that incorporate
+image grounding. In the experiments, we showcase that it is also capable of
+performing visually grounded story generation given both an image and a text
+prompt.",2022-05-05
+Efficient Few-Shot Fine-Tuning for Opinion Summarization,2022-05-04 16:38:37+00:00,http://arxiv.org/abs/2205.02170v1,"Arthur Bražinskas, Ramesh Nallapati, Mohit Bansal, Markus Dreyer","cs.CL, cs.AI, cs.LG",knowledge,"Abstractive summarization models are typically pre-trained on large amounts
+of generic texts, then fine-tuned on tens or hundreds of thousands of annotated
+samples. However, in opinion summarization, large annotated datasets of reviews
+paired with reference summaries are not available and would be expensive to
+create. This calls for fine-tuning methods robust to overfitting on small
+datasets. In addition, generically pre-trained models are often not accustomed
+to the specifics of customer reviews and, after fine-tuning, yield summaries
+with disfluencies and semantic mistakes. To address these problems, we utilize
+an efficient few-shot method based on adapters which, as we show, can easily
+store in-domain knowledge. Instead of fine-tuning the entire model, we add
+adapters and pre-train them in a task-specific way on a large corpus of
+unannotated customer reviews, using held-out reviews as pseudo summaries. Then,
+fine-tune the adapters on the small available human-annotated dataset. We show
+that this self-supervised adapter pre-training improves summary quality over
+standard fine-tuning by 2.0 and 1.3 ROUGE-L points on the Amazon and Yelp
+datasets, respectively. Finally, for summary personalization, we condition on
+aspect keyword queries, automatically created from generic datasets. In the
+same vein, we pre-train the adapters in a query-based manner on customer
+reviews and then fine-tune them on annotated datasets. This results in
+better-organized summary content reflected in improved coherence and fewer
+redundancies.",2022-05-04
+"Faithful to the Document or to the World? Mitigating Hallucinations via
+  Entity-linked Knowledge in Abstractive Summarization",2022-04-28 20:28:45+00:00,http://arxiv.org/abs/2204.13761v1,"Yue Dong, John Wieting, Pat Verga",cs.CL,knowledge,"Despite recent advances in abstractive summarization, current summarization
+systems still suffer from content hallucinations where models generate text
+that is either irrelevant or contradictory to the source document. However,
+prior work has been predicated on the assumption that any generated facts not
+appearing explicitly in the source are undesired hallucinations. Methods have
+been proposed to address this scenario by ultimately improving `faithfulness'
+to the source document, but in reality, there is a large portion of entities in
+the gold reference targets that are not directly in the source. In this work,
+we show that these entities are not aberrations, but they instead require
+utilizing external world knowledge to infer reasoning paths from entities in
+the source. We show that by utilizing an external knowledge base, we can
+improve the faithfulness of summaries without simply making them more
+extractive, and additionally, we show that external knowledge bases linked from
+the source can benefit the factuality of generated summaries.",2022-04-28
+"Recovering Patient Journeys: A Corpus of Biomedical Entities and
+  Relations on Twitter (BEAR)",2022-04-21 08:18:44+00:00,http://arxiv.org/abs/2204.09952v1,"Amelie Wührl, Roman Klinger","cs.CL, cs.IR",knowledge,"Text mining and information extraction for the medical domain has focused on
+scientific text generated by researchers. However, their direct access to
+individual patient experiences or patient-doctor interactions can be limited.
+Information provided on social media, e.g., by patients and their relatives,
+complements the knowledge in scientific text. It reflects the patient's journey
+and their subjective perspective on the process of developing symptoms, being
+diagnosed and offered a treatment, being cured or learning to live with a
+medical condition. The value of this type of data is therefore twofold:
+Firstly, it offers direct access to people's perspectives. Secondly, it might
+cover information that is not available elsewhere, including self-treatment or
+self-diagnoses. Named entity recognition and relation extraction are methods to
+structure information that is available in unstructured text. However, existing
+medical social media corpora focused on a comparably small set of entities and
+relations and particular domains, rather than putting the patient into the
+center of analyses. With this paper we contribute a corpus with a rich set of
+annotation layers following the motivation to uncover and model patients'
+journeys and experiences in more detail. We label 14 entity classes (incl.
+environmental factors, diagnostics, biochemical processes, patients'
+quality-of-life descriptions, pathogens, medical conditions, and treatments)
+and 20 relation classes (e.g., prevents, influences, interactions, causes) most
+of which have not been considered before for social media data. The publicly
+available dataset consists of 2,100 tweets with approx. 6,000 entity and 3,000
+relation annotations. In a corpus analysis we find that over 80 % of documents
+contain relevant entities. Over 50 % of tweets express relations which we
+consider essential for uncovering patients' narratives about their journeys.",2022-04-21
+"A Survey on Non-Autoregressive Generation for Neural Machine Translation
+  and Beyond",2022-04-20 07:25:22+00:00,http://arxiv.org/abs/2204.09269v1,"Yisheng Xiao, Lijun Wu, Junliang Guo, Juntao Li, Min Zhang, Tao Qin, Tie-yan Liu","cs.CL, cs.LG",knowledge,"Non-autoregressive (NAR) generation, which is first proposed in neural
+machine translation (NMT) to speed up inference, has attracted much attention
+in both machine learning and natural language processing communities. While NAR
+generation can significantly accelerate inference speed for machine
+translation, the speedup comes at the cost of sacrificed translation accuracy
+compared to its counterpart, auto-regressive (AR) generation. In recent years,
+many new models and algorithms have been designed/proposed to bridge the
+accuracy gap between NAR generation and AR generation. In this paper, we
+conduct a systematic survey with comparisons and discussions of various
+non-autoregressive translation (NAT) models from different aspects.
+Specifically, we categorize the efforts of NAT into several groups, including
+data manipulation, modeling methods, training criterion, decoding algorithms,
+and the benefit from pre-trained models. Furthermore, we briefly review other
+applications of NAR models beyond machine translation, such as dialogue
+generation, text summarization, grammar error correction, semantic parsing,
+speech synthesis, and automatic speech recognition. In addition, we also
+discuss potential directions for future exploration, including releasing the
+dependency of KD, dynamic length prediction, pre-training for NAR, and wider
+applications, etc. We hope this survey can help researchers capture the latest
+progress in NAR generation, inspire the design of advanced NAR models and
+algorithms, and enable industry practitioners to choose appropriate solutions
+for their applications. The web page of this survey is at
+\url{https://github.com/LitterBrother-Xiao/Overview-of-Non-autoregressive-Applications}.",2022-04-20
 "Rows from Many Sources: Enriching row completions from Wikidata with a
   pre-trained Language Model",2022-04-14 15:11:52+00:00,http://arxiv.org/abs/2204.07014v1,"Carina Negreanu, Alperen Karaoglu, Jack Williams, Shuang Chen, Daniel Fabian, Andrew Gordon, Chin-Yew Lin","cs.CL, cs.AI",knowledge,"Row completion is the task of augmenting a given table of text and numbers
 with additional, relevant rows. The task divides into two steps: subject

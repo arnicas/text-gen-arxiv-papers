@@ -1,4 +1,97 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Diversifying Neural Dialogue Generation via Negative Distillation,2022-05-05 17:14:56+00:00,http://arxiv.org/abs/2205.02795v1,"Yiwei Li, Shaoxiong Feng, Bin Sun, Kan Li","cs.CL, cs.AI",dialogue,"Generative dialogue models suffer badly from the generic response problem,
+limiting their applications to a few toy scenarios. Recently, an interesting
+approach, namely negative training, has been proposed to alleviate this problem
+by reminding the model not to generate high-frequency responses during
+training. However, its performance is hindered by two issues, ignoring
+low-frequency but generic responses and bringing low-frequency but meaningless
+responses. In this paper, we propose a novel negative training paradigm, called
+negative distillation, to keep the model away from the undesirable generic
+responses while avoiding the above problems. First, we introduce a negative
+teacher model that can produce query-wise generic responses, and then the
+student model is required to maximize the distance with multi-level negative
+knowledge. Empirical results show that our method outperforms previous negative
+training methods significantly.",2022-05-05
+AI Personification: Estimating the Personality of Language Models,2022-04-25 23:53:53+00:00,http://arxiv.org/abs/2204.12000v1,"Saketh Reddy Karra, Son Nguyen, Theja Tulabandhula","cs.CL, cs.AI",dialogue,"Technology for open-ended language generation, a key application of
+artificial intelligence, has advanced to a great extent in recent years.
+Large-scale language models, which are trained on large corpora of text, are
+being used in a wide range of applications everywhere, from virtual assistants
+to conversational bots. While these language models output fluent text,
+existing research shows that these models can and do capture human biases. Many
+of these biases, especially those that could potentially cause harm, are being
+well investigated. On the other hand, studies that infer and change personality
+traits inherited by these models have been scarce or non-existent. In this
+work, we explore the personality traits of several large-scale language models
+designed for open-ended text generation and the datasets used for training
+them. Our work builds on the popular Big Five factors and develops robust
+methods that quantify the personality traits of these models and their
+underlying datasets. In particular, we trigger the models with a questionnaire
+designed for personality assessment and subsequently classify the text
+responses into quantifiable traits using a Zero-shot classifier. Our
+classification sheds light on an important anthropomorphic element found in
+such AI models and can help stakeholders decide how they should be applied and
+how society could perceive them. We augment our analysis by studying approaches
+that can alter these personalities.",2022-04-25
+SalesBot: Transitioning from Chit-Chat to Task-Oriented Dialogues,2022-04-22 09:31:13+00:00,http://arxiv.org/abs/2204.10591v1,"Ssu Chiu, Maolin Li, Yen-Ting Lin, Yun-Nung Chen","cs.CL, cs.AI",dialogue,"Dialogue systems are usually categorized into two types, open-domain and
+task-oriented. The first one focuses on chatting with users and making them
+engage in the conversations, where selecting a proper topic to fit the dialogue
+context is essential for a successful dialogue. The other one focuses on a
+specific task instead of casual talks, e.g., finding a movie on Friday night,
+or playing a song. These two directions have been studied separately due to
+their different purposes. However, how smoothly transitioning from social
+chatting to task-oriented dialogues is important for triggering business
+opportunities, and there is no public data focusing on such scenarios. Hence,
+this paper focuses on investigating the conversations starting from open-domain
+social chatting and then gradually transitioning to task-oriented purposes, and
+releases a large-scale dataset with detailed annotations for encouraging this
+research direction. To achieve this goal, this paper proposes a framework to
+automatically generate many dialogues without human involvement, in which any
+powerful open-domain dialogue generation model can be easily leveraged. The
+human evaluation shows that our generated dialogue data has a natural flow at a
+reasonable quality, showing that our released data has a great potential of
+guiding future research directions and commercial activities. Furthermore, the
+released models allow researchers to automatically generate unlimited dialogues
+in the target scenarios, which can greatly benefit semi-supervised and
+unsupervised approaches.",2022-04-22
+Event Transition Planning for Open-ended Text Generation,2022-04-20 13:37:51+00:00,http://arxiv.org/abs/2204.09453v1,"Qintong Li, Piji Li, Wei Bi, Zhaochun Ren, Yuxuan Lai, Lingpeng Kong",cs.CL,dialogue,"Open-ended text generation tasks, such as dialogue generation and story
+completion, require models to generate a coherent continuation given limited
+preceding context. The open-ended nature of these tasks brings new challenges
+to the neural auto-regressive text generators nowadays. Despite these neural
+models are good at producing human-like text, it is difficult for them to
+arrange causalities and relations between given facts and possible ensuing
+events. To bridge this gap, we propose a novel two-stage method which
+explicitly arranges the ensuing events in open-ended text generation. Our
+approach can be understood as a specially-trained coarse-to-fine algorithm,
+where an event transition planner provides a ""coarse"" plot skeleton and a text
+generator in the second stage refines the skeleton. Experiments on two
+open-ended text generation tasks demonstrate that our proposed method
+effectively improves the quality of the generated text, especially in coherence
+and diversity. The code is available at:
+\url{https://github.com/qtli/EventPlanforTextGen}.",2022-04-20
+"A Survey on Non-Autoregressive Generation for Neural Machine Translation
+  and Beyond",2022-04-20 07:25:22+00:00,http://arxiv.org/abs/2204.09269v1,"Yisheng Xiao, Lijun Wu, Junliang Guo, Juntao Li, Min Zhang, Tao Qin, Tie-yan Liu","cs.CL, cs.LG",dialogue,"Non-autoregressive (NAR) generation, which is first proposed in neural
+machine translation (NMT) to speed up inference, has attracted much attention
+in both machine learning and natural language processing communities. While NAR
+generation can significantly accelerate inference speed for machine
+translation, the speedup comes at the cost of sacrificed translation accuracy
+compared to its counterpart, auto-regressive (AR) generation. In recent years,
+many new models and algorithms have been designed/proposed to bridge the
+accuracy gap between NAR generation and AR generation. In this paper, we
+conduct a systematic survey with comparisons and discussions of various
+non-autoregressive translation (NAT) models from different aspects.
+Specifically, we categorize the efforts of NAT into several groups, including
+data manipulation, modeling methods, training criterion, decoding algorithms,
+and the benefit from pre-trained models. Furthermore, we briefly review other
+applications of NAR models beyond machine translation, such as dialogue
+generation, text summarization, grammar error correction, semantic parsing,
+speech synthesis, and automatic speech recognition. In addition, we also
+discuss potential directions for future exploration, including releasing the
+dependency of KD, dynamic length prediction, pre-training for NAR, and wider
+applications, etc. We hope this survey can help researchers capture the latest
+progress in NAR generation, inspire the design of advanced NAR models and
+algorithms, and enable industry practitioners to choose appropriate solutions
+for their applications. The web page of this survey is at
+\url{https://github.com/LitterBrother-Xiao/Overview-of-Non-autoregressive-Applications}.",2022-04-20
 "Evaluating Mixed-initiative Conversational Search Systems via User
   Simulation",2022-04-17 16:27:33+00:00,http://arxiv.org/abs/2204.08046v1,"Ivan Sekulić, Mohammad Aliannejadi, Fabio Crestani","cs.CL, cs.IR",dialogue,"Clarifying the underlying user information need by asking clarifying
 questions is an important feature of modern conversational search system.

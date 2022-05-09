@@ -7,10 +7,17 @@ sidebar:
 ---
 
 
-*written on 2022-04-19*
+*written on 2022-05-09*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Analysing the Robustness of Dual Encoders for Dense Retrieval Against  Misspellings](http://arxiv.org/abs/2205.02303v1) | Georgios Sidiropoulos, Evangelos Kanoulas | cs.IR | 2022-05-04 |
+| [Learning to Transfer Prompts for Text Generation](http://arxiv.org/abs/2205.01543v1) | Junyi Li, Tianyi Tang, Jian-Yun Nie, Ji-Rong Wen, Wayne Xin Zhao | cs.CL | 2022-05-03 |
+| [LIDER: An Efficient High-dimensional Learned Index for Large-scale Dense  Passage Retrieval](http://arxiv.org/abs/2205.00970v1) | Yifan Wang, Haodi Ma, Daisy Zhe Wang | cs.IR, cs.DB | 2022-05-02 |
+| [NMTScore: A Multilingual Analysis of Translation-based Text Similarity  Measures](http://arxiv.org/abs/2204.13692v1) | Jannis Vamvas, Rico Sennrich | cs.CL | 2022-04-28 |
+| [Crystal Transformer: Self-learning neural language model for Generative  and Tinkering Design of Materials](http://arxiv.org/abs/2204.11953v1) | Lai Wei, Qinyang Li, Yuqi Song, Stanislav Stefanov, Edirisuriya M. D. Siriwardane, Fanglin Chen, Jianjun Hu | cond-mat.mtrl-sci, cs.LG | 2022-04-25 |
+| [Recovering Patient Journeys: A Corpus of Biomedical Entities and  Relations on Twitter (BEAR)](http://arxiv.org/abs/2204.09952v1) | Amelie Wührl, Roman Klinger | cs.CL, cs.IR | 2022-04-21 |
+| [A Survey on Non-Autoregressive Generation for Neural Machine Translation  and Beyond](http://arxiv.org/abs/2204.09269v1) | Yisheng Xiao, Lijun Wu, Junliang Guo, Juntao Li, Min Zhang, Tao Qin, Tie-yan Liu | cs.CL, cs.LG | 2022-04-20 |
 | [Evaluating Mixed-initiative Conversational Search Systems via User  Simulation](http://arxiv.org/abs/2204.08046v1) | Ivan Sekulić, Mohammad Aliannejadi, Fabio Crestani | cs.CL, cs.IR | 2022-04-17 |
 | [Learning to Adapt Domain Shifts of Moral Values via Instance Weighting](http://arxiv.org/abs/2204.07603v1) | Xiaolei Huang, Alexandra Wormley, Adam Cohen | cs.CL, cs.SI | 2022-04-15 |
 | [Text Revision by On-the-Fly Representation Optimization](http://arxiv.org/abs/2204.07359v1) | Jingjing Li, Zichao Li, Tao Ge, Irwin King, Michael R. Lyu | cs.CL | 2022-04-15 |

@@ -7,10 +7,15 @@ sidebar:
 ---
 
 
-*written on 2022-04-12*
+*written on 2022-05-09*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Language Models Can See: Plugging Visual Controls in Text Generation](http://arxiv.org/abs/2205.02655v1) | Yixuan Su, Tian Lan, Yahui Liu, Fangyu Liu, Dani Yogatama, Yan Wang, Lingpeng Kong, Nigel Collier | cs.CV, cs.CL | 2022-05-05 |
+| [Persona-Guided Planning for Controlling the Protagonist's Persona in  Story Generation](http://arxiv.org/abs/2204.10703v1) | Zhexin Zhang, Jiaxin Wen, Jian Guan, Minlie Huang | cs.CL | 2022-04-22 |
+| [Recovering Patient Journeys: A Corpus of Biomedical Entities and  Relations on Twitter (BEAR)](http://arxiv.org/abs/2204.09952v1) | Amelie Wührl, Roman Klinger | cs.CL, cs.IR | 2022-04-21 |
+| [Event Transition Planning for Open-ended Text Generation](http://arxiv.org/abs/2204.09453v1) | Qintong Li, Piji Li, Wei Bi, Zhaochun Ren, Yuxuan Lai, Lingpeng Kong | cs.CL | 2022-04-20 |
+| [Probing Script Knowledge from Pre-Trained Models](http://arxiv.org/abs/2204.10176v1) | Zijian Jin, Xingyu Zhang, Mo Yu, Lifu Huang | cs.CL, cs.AI | 2022-04-16 |
 | [Uniform Complexity for Text Generation](http://arxiv.org/abs/2204.05185v1) | Joseph Marvin Imperial | cs.CL, cs.LG | 2022-04-11 |
 | [On Decoding Strategies for Neural Text Generators](http://arxiv.org/abs/2203.15721v1) | Gian Wiher, Clara Meister, Ryan Cotterell | cs.CL, cs.AI | 2022-03-29 |
 | [Immersive Text Game and Personality Classification](http://arxiv.org/abs/2203.10621v1) | Wanshui Li, Yifan Bai, Jiaxuan Lu, Kexin Yi | cs.CL, cs.AI, cs.LG | 2022-03-20 |
