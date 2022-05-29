@@ -1,4 +1,61 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"The Dialog Must Go On: Improving Visual Dialog via Generative
+  Self-Training",2022-05-25 05:40:00+00:00,http://arxiv.org/abs/2205.12502v1,"Gi-Cheon Kang, Sungdong Kim, Jin-Hwa Kim, Donghyun Kwak, Byoung-Tak Zhang","cs.CV, cs.CL, cs.LG",dialogue,"Visual dialog (VisDial) is a task of answering a sequence of questions
+grounded in an image, using the dialog history as context. Prior work has
+trained the dialog agents solely on VisDial data via supervised learning or
+leveraged pre-training on related vision-and-language datasets. This paper
+presents a semi-supervised learning approach for visually-grounded dialog,
+called Generative Self-Training (GST), to leverage unlabeled images on the Web.
+Specifically, GST first retrieves in-domain images through out-of-distribution
+detection and generates synthetic dialogs regarding the images via multimodal
+conditional text generation. GST then trains a dialog agent on the synthetic
+and the original VisDial data. As a result, GST scales the amount of training
+data up to an order of magnitude that of VisDial (1.2M to 12.9M QA data). For
+robust training of the generated dialogs, we also propose perplexity-based data
+selection and multimodal consistency regularization. Evaluation on VisDial v1.0
+and v0.9 datasets shows that GST achieves new state-of-the-art results on both
+datasets. We further observe strong performance gains in the low-data regime
+(up to 9.35 absolute points on NDCG).",2022-05-25
+"CORAL: Contextual Response Retrievability Loss Function for Training
+  Dialog Generation Models",2022-05-21 10:36:22+00:00,http://arxiv.org/abs/2205.10558v1,"Bishal Santra, Ravi Ghadia, Arpit Dwivedi, Manish Gupta, Pawan Goyal",cs.CL,dialogue,"Natural Language Generation (NLG) represents a large collection of tasks in
+the field of NLP. While many of these tasks have been tackled well by the
+cross-entropy (CE) loss, the task of dialog generation poses a few unique
+challenges for this loss function. First, CE loss assumes that for any given
+input, the only possible output is the one available as the ground truth in the
+training dataset. In general, this is not true for any task, as there can be
+multiple semantically equivalent sentences, each with a different surface form.
+This problem gets exaggerated further for the dialog generation task, as there
+can be multiple valid responses (for a given context) that not only have
+different surface forms but are also not semantically equivalent. Second, CE
+loss does not take the context into consideration while processing the response
+and, hence, it treats all ground truths with equal importance irrespective of
+the context. But, we may want our final agent to avoid certain classes of
+responses (e.g. bland, non-informative or biased responses) and give relatively
+higher weightage for more context-specific responses. To circumvent these
+shortcomings of the CE loss, in this paper, we propose a novel loss function,
+CORAL, that directly optimizes recently proposed estimates of human preference
+for generated responses. Using CORAL, we can train dialog generation models
+without assuming non-existence of response other than the ground-truth. Also,
+the CORAL loss is computed based on both the context and the response.
+Extensive comparisons on two benchmark datasets show that the proposed methods
+outperform strong state-of-the-art baseline models of different sizes.",2022-05-21
+Self-augmented Data Selection for Few-shot Dialogue Generation,2022-05-19 16:25:50+00:00,http://arxiv.org/abs/2205.09661v1,"Wanyu Du, Hanjie Chen, Yangfeng Ji",cs.CL,dialogue,"The natural language generation (NLG) module in task-oriented dialogue
+systems translates structured meaning representations (MRs) into text
+responses, which has a great impact on users' experience as the human-machine
+interaction interface. However, in practice, developers often only have a few
+well-annotated data and confront a high data collection cost to build the NLG
+module. In this work, we adopt the self-training framework to deal with the
+few-shot MR-to-Text generation problem. We leverage the pre-trained language
+model to self-augment many pseudo-labeled data. To prevent the gradual drift
+from target data distribution to noisy augmented data distribution, we propose
+a novel data selection strategy to select the data that our generation model is
+most uncertain about. Compared with existing data selection methods, our method
+is: (1) parameter-efficient, which does not require training any additional
+neural models, (2) computation-efficient, which only needs to apply several
+stochastic forward passes of the model to estimate the uncertainty. We conduct
+empirical experiments on two benchmark datasets: FewShotWOZ and FewShotSGD, and
+show that our proposed framework consistently outperforms other baselines in
+terms of BLEU and ERR.",2022-05-19
 Diversifying Neural Dialogue Generation via Negative Distillation,2022-05-05 17:14:56+00:00,http://arxiv.org/abs/2205.02795v1,"Yiwei Li, Shaoxiong Feng, Bin Sun, Kan Li","cs.CL, cs.AI",dialogue,"Generative dialogue models suffer badly from the generic response problem,
 limiting their applications to a few toy scenarios. Recently, an interesting
 approach, namely negative training, has been proposed to alleviate this problem

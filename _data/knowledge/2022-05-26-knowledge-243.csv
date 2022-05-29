@@ -1,4 +1,223 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Revisiting Generative Commonsense Reasoning: A Pre-Ordering Approach,2022-05-26 06:36:53+00:00,http://arxiv.org/abs/2205.13183v1,"Chao Zhao, Faeze Brahman, Tenghao Huang, Snigdha Chaturvedi",cs.CL,knowledge,"Pre-trained models (PTMs) have lead to great improvements in natural language
+generation (NLG). However, it is still unclear how much commonsense knowledge
+they possess. With the goal of evaluating commonsense knowledge of NLG models,
+recent work has proposed the problem of generative commonsense reasoning, e.g.,
+to compose a logical sentence given a set of unordered concepts. Existing
+approaches to this problem hypothesize that PTMs lack sufficient parametric
+knowledge for this task, which can be overcome by introducing external
+knowledge or task-specific pre-training objectives. Different from this trend,
+we argue that PTM's inherent ability for generative commonsense reasoning is
+underestimated due to the order-agnostic property of its input. In particular,
+we hypothesize that the order of the input concepts can affect the PTM's
+ability to utilize its commonsense knowledge. To this end, we propose a
+pre-ordering approach to elaborately manipulate the order of the given concepts
+before generation. Experiments show that our approach can outperform the more
+sophisticated models that have access to a lot of external data and resources.",2022-05-26
+"Automatic question generation based on sentence structure analysis using
+  machine learning approach",2022-05-25 14:35:29+00:00,http://arxiv.org/abs/2205.12811v1,"Miroslav Blšták, Viera Rozinajová","cs.CL, cs.AI",knowledge,"Automatic question generation is one of the most challenging tasks of Natural
+Language Processing. It requires ""bidirectional"" language processing: firstly,
+the system has to understand the input text (Natural Language Understanding)
+and it then has to generate questions also in the form of text (Natural
+Language Generation). In this article, we introduce our framework for
+generating the factual questions from unstructured text in the English
+language. It uses a combination of traditional linguistic approaches based on
+sentence patterns with several machine learning methods. We firstly obtain
+lexical, syntactic and semantic information from an input text and we then
+construct a hierarchical set of patterns for each sentence. The set of features
+is extracted from the patterns and it is then used for automated learning of
+new transformation rules. Our learning process is totally data-driven because
+the transformation rules are obtained from a set of initial sentence-question
+pairs. The advantages of this approach lie in a simple expansion of new
+transformation rules which allows us to generate various types of questions and
+also in the continuous improvement of the system by reinforcement learning. The
+framework also includes a question evaluation module which estimates the
+quality of generated questions. It serves as a filter for selecting the best
+questions and eliminating incorrect ones or duplicates. We have performed
+several experiments to evaluate the correctness of generated questions and we
+have also compared our system with several state-of-the-art systems. Our
+results indicate that the quality of generated questions outperforms the
+state-of-the-art systems and our questions are also comparable to questions
+created by humans. We have also created and published an interface with all
+created datasets and evaluated questions, so it is possible to follow up on our
+work.",2022-05-25
+PLOG: Table-to-Logic Pretraining for Logical Table-to-Text Generation,2022-05-25 11:55:54+00:00,http://arxiv.org/abs/2205.12697v1,"Ao Liu, Haoyu Dong, Naoaki Okazaki, Shi Han, Dongmei Zhang",cs.CL,knowledge,"Logical table-to-text generation is a task that involves generating logically
+faithful sentences from tables, which requires models to derive logical level
+facts from table records via logical inference. It raises a new challenge on
+the logical-level content planning of table-to-text models. However, directly
+learning the logical inference knowledge from table-text pairs is very
+difficult for neural models because of the ambiguity of natural language and
+the scarcity of parallel data. Hence even large-scale pre-trained language
+models present low logical fidelity on logical table-to-text. In this work, we
+propose a PLOG (Pretrained Logical Form Generator) framework to improve the
+generation fidelity. Specifically, PLOG is first pretrained on a
+table-to-logic-form generation (table-to-logic) task, then finetuned on
+downstream table-to-text tasks. The formal definition of logical forms enables
+us to collect large amount of accurate logical forms from tables without human
+annotation. In addition, PLOG can learn logical inference from table-logic
+pairs much more definitely than from table-text pairs. To evaluate our model,
+we further collect a controlled logical table-to-text dataset CONTLOG based on
+an existing dataset. On two benchmarks, LOGICNLG and CONTLOG, PLOG outperforms
+strong baselines by a large margin on the logical fidelity, demonstrating the
+effectiveness of table-to-logic pretraining.",2022-05-25
+Exploring industrial safety knowledge via Zipf law,2022-05-25 10:22:14+00:00,http://arxiv.org/abs/2205.12636v1,"Zhenhua Wang, Ming Ren, Dong Gao, Zhuang Li",cs.CL,knowledge,"The hazard and operability analysis (HAZOP) report contains precious
+industrial safety knowledge (ISK) with expert experience and process nature,
+which is of great significance to the development of industrial intelligence.
+Subject to the attributes of ISK, existing researches mine them through
+sequence labeling in deep learning. Yet, there are two thorny issues: (1)
+Uneven distribution of ISK and (2) Consistent importance of ISK: for safety
+review. In this study, we propose a novel generative mining strategy called
+CRGM to explore ISK. Inspired Zipf law in linguistics, CRGM consists of
+common-rare discriminator, induction-extension generator and ISK extractor.
+Firstly, the common-rare discriminator divides HAZOP descriptions into common
+words and rare words, and obtains the common description and the rare
+description, where the latter contains more industrial substances. Then, they
+are operated by the induction-extension generator in the way of deep text
+generation, the common description is induced and the rare description is
+extended, the material knowledge and the equipment knowledge can be enriched.
+Finally, the ISK extractor processes the material knowledge and equipment
+knowledge from the generated description through the rule template method, the
+additional ISK is regarded as the supplement of the training set to train the
+proposed sequence labeling model. We conduct multiple evaluation experiments on
+two industrial safety datasets. The results show that CRGM has promising and
+gratifying aptitudes, greatly improves the performance of the model, and is
+efficient and generalized. Our sequence labeling model also shows the expected
+performance, which is better than the existing research. Our research provides
+a new perspective for exploring ISK, we hope it can contribute support for the
+intelligent progress of industrial safety.",2022-05-25
+"RSTGen: Imbuing Fine-Grained Interpretable Control into Long-FormText
+  Generators",2022-05-25 09:06:04+00:00,http://arxiv.org/abs/2205.12590v1,"Rilwan A. Adewoyin, Ritabrata Dutta, Yulan He",cs.CL,knowledge,"In this paper, we study the task of improving the cohesion and coherence of
+long-form text generated by language models. To this end, we propose RSTGen, a
+framework that utilises Rhetorical Structure Theory (RST), a classical language
+theory, to control the discourse structure, semantics and topics of generated
+text. Firstly, we demonstrate our model's ability to control structural
+discourse and semantic features of generated text in open generation
+evaluation. Then we experiment on the two challenging long-form text tasks of
+argument generation and story generation. Evaluation using automated metrics
+and a metric with high correlation to human evaluation, shows that our model
+performs competitively against existing models, while offering significantly
+more controls over generated text than alternative methods.",2022-05-25
+"A Dynamic, Interpreted CheckList for Meaning-oriented NLG Metric
+  Evaluation -- through the Lens of Semantic Similarity Rating",2022-05-24 16:19:32+00:00,http://arxiv.org/abs/2205.12176v1,"Laura Zeidler, Juri Opitz, Anette Frank",cs.CL,knowledge,"Evaluating the quality of generated text is difficult, since traditional NLG
+evaluation metrics, focusing more on surface form than meaning, often fail to
+assign appropriate scores. This is especially problematic for AMR-to-text
+evaluation, given the abstract nature of AMR. Our work aims to support the
+development and improvement of NLG evaluation metrics that focus on meaning, by
+developing a dynamic CheckList for NLG metrics that is interpreted by being
+organized around meaning-relevant linguistic phenomena. Each test instance
+consists of a pair of sentences with their AMR graphs and a human-produced
+textual semantic similarity or relatedness score. Our CheckList facilitates
+comparative evaluation of metrics and reveals strengths and weaknesses of novel
+and traditional metrics. We demonstrate the usefulness of CheckList by
+designing a new metric GraCo that computes lexical cohesion graphs over AMR
+concepts. Our analysis suggests that GraCo presents an interesting NLG metric
+worth future investigation and that meaning-oriented NLG metrics can profit
+from graph-based metric components using AMR.",2022-05-24
+What Makes Data-to-Text Generation Hard for Pretrained Language Models?,2022-05-23 17:58:39+00:00,http://arxiv.org/abs/2205.11505v1,"Moniba Keymanesh, Adrian Benton, Mark Dredze","cs.CL, cs.AI, cs.IR, cs.LG",knowledge,"Expressing natural language descriptions of structured facts or relations --
+data-to-text generation (D2T) -- increases the accessibility of structured
+knowledge repositories. Previous work shows that pre-trained language
+models(PLMs) perform remarkably well on this task after fine-tuning on a
+significant amount of task-specific training data. On the other hand, while
+auto-regressive PLMs can generalize from a few task examples, their efficacy at
+D2T is largely unexplored. Furthermore, we have an incomplete understanding of
+the limits of PLMs on D2T.
+  In this work, we conduct an empirical study of both fine-tuned and
+auto-regressive PLMs on the DART multi-domain D2T dataset. We consider their
+performance as a function of the amount of task-specific data and how these
+data are incorporated into the models: zero and few-shot learning, and
+fine-tuning of model weights. In addition, we probe the limits of PLMs by
+measuring performance on subsets of the evaluation data: novel predicates and
+abstractive test examples. To improve the performance on these subsets, we
+investigate two techniques: providing predicate descriptions in the context and
+re-ranking generated candidates by information reflected in the source.
+Finally, we conduct a human evaluation of model errors and show that D2T
+generation tasks would benefit from datasets with more careful manual curation.",2022-05-23
+A Self-Paced Mixed Distillation Method for Non-Autoregressive Generation,2022-05-23 09:54:53+00:00,http://arxiv.org/abs/2205.11162v1,"Weizhen Qi, Yeyun Gong, Yelong Shen, Jian Jiao, Yu Yan, Houqiang Li, Ruofei Zhang, Weizhu Chen, Nan Duan",cs.CL,knowledge,"Non-Autoregressive generation is a sequence generation paradigm, which
+removes the dependency between target tokens. It could efficiently reduce the
+text generation latency with parallel decoding in place of token-by-token
+sequential decoding. However, due to the known multi-modality problem,
+Non-Autoregressive (NAR) models significantly under-perform Auto-regressive
+(AR) models on various language generation tasks. Among the NAR models, BANG is
+the first large-scale pre-training model on English un-labeled raw text corpus.
+It considers different generation paradigms as its pre-training tasks including
+Auto-regressive (AR), Non-Autoregressive (NAR), and semi-Non-Autoregressive
+(semi-NAR) information flow with multi-stream strategy. It achieves
+state-of-the-art performance without any distillation techniques. However, AR
+distillation has been shown to be a very effective solution for improving NAR
+performance. In this paper, we propose a novel self-paced mixed distillation
+method to further improve the generation quality of BANG. Firstly, we propose
+the mixed distillation strategy based on the AR stream knowledge. Secondly, we
+encourage the model to focus on the samples with the same modality by
+self-paced learning. The proposed self-paced mixed distillation algorithm
+improves the generation quality and has no influence on the inference latency.
+We carry out extensive experiments on summarization and question generation
+tasks to validate the effectiveness. To further illustrate the commercial value
+of our approach, we conduct experiments on three generation tasks in real-world
+advertisements applications. Experimental results on commercial data show the
+effectiveness of the proposed model. Compared with BANG, it achieves
+significant BLEU score improvement. On the other hand, compared with
+auto-regressive generation method, it achieves more than 7x speedup.",2022-05-23
+"CORAL: Contextual Response Retrievability Loss Function for Training
+  Dialog Generation Models",2022-05-21 10:36:22+00:00,http://arxiv.org/abs/2205.10558v1,"Bishal Santra, Ravi Ghadia, Arpit Dwivedi, Manish Gupta, Pawan Goyal",cs.CL,knowledge,"Natural Language Generation (NLG) represents a large collection of tasks in
+the field of NLP. While many of these tasks have been tackled well by the
+cross-entropy (CE) loss, the task of dialog generation poses a few unique
+challenges for this loss function. First, CE loss assumes that for any given
+input, the only possible output is the one available as the ground truth in the
+training dataset. In general, this is not true for any task, as there can be
+multiple semantically equivalent sentences, each with a different surface form.
+This problem gets exaggerated further for the dialog generation task, as there
+can be multiple valid responses (for a given context) that not only have
+different surface forms but are also not semantically equivalent. Second, CE
+loss does not take the context into consideration while processing the response
+and, hence, it treats all ground truths with equal importance irrespective of
+the context. But, we may want our final agent to avoid certain classes of
+responses (e.g. bland, non-informative or biased responses) and give relatively
+higher weightage for more context-specific responses. To circumvent these
+shortcomings of the CE loss, in this paper, we propose a novel loss function,
+CORAL, that directly optimizes recently proposed estimates of human preference
+for generated responses. Using CORAL, we can train dialog generation models
+without assuming non-existence of response other than the ground-truth. Also,
+the CORAL loss is computed based on both the context and the response.
+Extensive comparisons on two benchmark datasets show that the proposed methods
+outperform strong state-of-the-art baseline models of different sizes.",2022-05-21
+"Exploiting Inductive Bias in Transformers for Unsupervised
+  Disentanglement of Syntax and Semantics with VAEs",2022-05-12 08:21:38+00:00,http://arxiv.org/abs/2205.05943v2,"Ghazi Felhi, Joseph Le Roux, Djamé Seddah","cs.CL, cs.LG",knowledge,"We propose a generative model for text generation, which exhibits
+disentangled latent representations of syntax and semantics. Contrary to
+previous work, this model does not need syntactic information such as
+constituency parses, or semantic information such as paraphrase pairs. Our
+model relies solely on the inductive bias found in attention-based
+architectures such as Transformers.
+  In the attention of Transformers, keys handle information selection while
+values specify what information is conveyed. Our model, dubbed QKVAE, uses
+Attention in its decoder to read latent variables where one latent variable
+infers keys while another infers values. We run experiments on latent
+representations and experiments on syntax/semantics transfer which show that
+QKVAE displays clear signs of disentangled syntax and semantics. We also show
+that our model displays competitive syntax transfer capabilities when compared
+to supervised models and that comparable supervised models need a fairly large
+amount of data (more than 50K samples) to outperform it on both syntactic and
+semantic transfer. The code for our experiments is publicly available.",2022-05-12
+"Robust (Controlled) Table-to-Text Generation with Structure-Aware
+  Equivariance Learning",2022-05-08 23:37:27+00:00,http://arxiv.org/abs/2205.03972v1,"Fei Wang, Zhewei Xu, Pedro Szekely, Muhao Chen","cs.CL, cs.AI, cs.LG",knowledge,"Controlled table-to-text generation seeks to generate natural language
+descriptions for highlighted subparts of a table. Previous SOTA systems still
+employ a sequence-to-sequence generation method, which merely captures the
+table as a linear structure and is brittle when table layouts change. We seek
+to go beyond this paradigm by (1) effectively expressing the relations of
+content pieces in the table, and (2) making our model robust to
+content-invariant structural transformations. Accordingly, we propose an
+equivariance learning framework, which encodes tables with a structure-aware
+self-attention mechanism. This prunes the full self-attention structure into an
+order-invariant graph attention that captures the connected graph structure of
+cells belonging to the same row or column, and it differentiates between
+relevant cells and irrelevant cells from the structural perspective. Our
+framework also modifies the positional encoding mechanism to preserve the
+relative position of tokens in the same cell but enforce position invariance
+among different cells. Our technology is free to be plugged into existing
+table-to-text generation models, and has improved T5-based models to offer
+better performance on ToTTo and HiTab. Moreover, on a harder version of ToTTo,
+we preserve promising performance, while previous SOTA systems, even with
+transformation-based data augmentation, have seen significant performance
+drops. Our code is available at https://github.com/luka-group/Lattice.",2022-05-08
 Language Models Can See: Plugging Visual Controls in Text Generation,2022-05-05 13:56:18+00:00,http://arxiv.org/abs/2205.02655v1,"Yixuan Su, Tian Lan, Yahui Liu, Fangyu Liu, Dani Yogatama, Yan Wang, Lingpeng Kong, Nigel Collier","cs.CV, cs.CL",knowledge,"Generative language models (LMs) such as GPT-2/3 can be prompted to generate
 text with remarkable quality. While they are designed for text-prompted
 generation, it remains an open question how the generation process could be

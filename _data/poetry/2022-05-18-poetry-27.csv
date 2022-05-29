@@ -1,4 +1,17 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+GPoeT-2: A GPT-2 Based Poem Generator,2022-05-18 10:25:12+00:00,http://arxiv.org/abs/2205.08847v1,"Kai-Ling Lo, Rami Ariss, Philipp Kurz","cs.CL, cs.AI",poetry,"This project aims to produce the next volume of machine-generated poetry, a
+complex art form that can be structured and unstructured, and carries depth in
+the meaning between the lines. GPoeT-2 is based on fine-tuning a state of the
+art natural language model (i.e. GPT-2) to generate limericks, typically
+humorous structured poems consisting of five lines with a AABBA rhyming scheme.
+With a two-stage generation system utilizing both forward and reverse language
+modeling, GPoeT-2 is capable of freely generating limericks in diverse topics
+while following the rhyming structure without any seed phrase or a posteriori
+constraints.Based on the automated generation process, we explore a wide
+variety of evaluation metrics to quantify ""good poetry,"" including syntactical
+correctness, lexical diversity, and subject continuity. Finally, we present a
+collection of 94 categorized limericks that rank highly on the explored ""good
+poetry"" metrics to provoke human creativity.",2022-05-18
 Youling: an AI-Assisted Lyrics Creation System,2022-01-18 03:57:04+00:00,http://arxiv.org/abs/2201.06724v1,"Rongsheng Zhang, Xiaoxi Mao, Le Li, Lin Jiang, Lin Chen, Zhiwei Hu, Yadong Xi, Changjie Fan, Minlie Huang",cs.CL,poetry,"Recently, a variety of neural models have been proposed for lyrics
 generation. However, most previous work completes the generation process in a
 single pass with little human intervention. We believe that lyrics creation is

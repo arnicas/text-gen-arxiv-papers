@@ -7,10 +7,22 @@ sidebar:
 ---
 
 
-*written on 2022-05-09*
+*written on 2022-05-29*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Exploring industrial safety knowledge via Zipf law](http://arxiv.org/abs/2205.12636v1) | Zhenhua Wang, Ming Ren, Dong Gao, Zhuang Li | cs.CL | 2022-05-25 |
+| [The Dialog Must Go On: Improving Visual Dialog via Generative  Self-Training](http://arxiv.org/abs/2205.12502v1) | Gi-Cheon Kang, Sungdong Kim, Jin-Hwa Kim, Donghyun Kwak, Byoung-Tak Zhang | cs.CV, cs.CL, cs.LG | 2022-05-25 |
+| [Rethinking Evaluation Practices in Visual Question Answering: A Case  Study on Out-of-Distribution Generalization](http://arxiv.org/abs/2205.12191v1) | Aishwarya Agrawal, Ivana Kajić, Emanuele Bugliarello, Elnaz Davoodi, Anita Gergely, Phil Blunsom, Aida Nematzadeh | cs.CL, cs.AI, cs.CV, cs.LG | 2022-05-24 |
+| [On Advances in Text Generation from Images Beyond Captioning: A Case  Study in Self-Rationalization](http://arxiv.org/abs/2205.11686v1) | Shruti Palaskar, Akshita Bhagia, Yonatan Bisk, Florian Metze, Alan W Black, Ana Marasovic | cs.CL, cs.CV | 2022-05-24 |
+| [What Makes Data-to-Text Generation Hard for Pretrained Language Models?](http://arxiv.org/abs/2205.11505v1) | Moniba Keymanesh, Adrian Benton, Mark Dredze | cs.CL, cs.AI, cs.IR, cs.LG | 2022-05-23 |
+| [Language Models with Image Descriptors are Strong Few-Shot  Video-Language Learners](http://arxiv.org/abs/2205.10747v2) | Zhenhailong Wang, Manling Li, Ruochen Xu, Luowei Zhou, Jie Lei, Xudong Lin, Shuohang Wang, Ziyi Yang, Chenguang Zhu, Derek Hoiem, Shih-Fu Chang, Mohit Bansal, Heng Ji | cs.CV, cs.AI | 2022-05-22 |
+| [Context Matters for Image Descriptions for Accessibility: Challenges for  Referenceless Evaluation Metrics](http://arxiv.org/abs/2205.10646v1) | Elisa Kreiss, Cynthia Bennett, Shayan Hooshmand, Eric Zelikman, Meredith Ringel Morris, Christopher Potts | cs.CL | 2022-05-21 |
+| [It Isn't Sh!tposting, It's My CAT Posting](http://arxiv.org/abs/2205.08710v1) | Parthsarthi Rawat, Sayan Das, Jorge Aguirre, Akhil Daphara | cs.CV, cs.AI, cs.LG | 2022-05-18 |
+| [Breaking with Fixed Set Pathology Recognition through Report-Guided  Contrastive Training](http://arxiv.org/abs/2205.07139v1) | Constantin Seibold, Simon Reiß, M. Saquib Sarfraz, Rainer Stiefelhagen, Jens Kleesiek | cs.CV, cs.LG | 2022-05-14 |
+| [Robust (Controlled) Table-to-Text Generation with Structure-Aware  Equivariance Learning](http://arxiv.org/abs/2205.03972v1) | Fei Wang, Zhewei Xu, Pedro Szekely, Muhao Chen | cs.CL, cs.AI, cs.LG | 2022-05-08 |
+| [RoViST:Learning Robust Metrics for Visual Storytelling](http://arxiv.org/abs/2205.03774v1) | Eileen Wang, Caren Han, Josiah Poon | cs.CV, cs.AI | 2022-05-08 |
+| [Attract me to Buy: Advertisement Copywriting Generation with Multimodal  Multi-structured Information](http://arxiv.org/abs/2205.03534v1) | Zhipeng Zhang, Xinglin Hou, Kai Niu, Zhongzhen Huang, Tiezheng Ge, Yuning Jiang, Qi Wu, Peng Wang | cs.CL, cs.CV, cs.MM | 2022-05-07 |
 | [Language Models Can See: Plugging Visual Controls in Text Generation](http://arxiv.org/abs/2205.02655v1) | Yixuan Su, Tian Lan, Yahui Liu, Fangyu Liu, Dani Yogatama, Yan Wang, Lingpeng Kong, Nigel Collier | cs.CV, cs.CL | 2022-05-05 |
 | [Diverse Image Captioning with Grounded Style](http://arxiv.org/abs/2205.01813v1) | Franz Klein, Shweta Mahajan, Stefan Roth | cs.CV, cs.LG | 2022-05-03 |
 | [Cross-modal Memory Networks for Radiology Report Generation](http://arxiv.org/abs/2204.13258v1) | Zhihong Chen, Yaling Shen, Yan Song, Xiang Wan | cs.CL | 2022-04-28 |

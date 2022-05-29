@@ -1,4 +1,323 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Revisiting Generative Commonsense Reasoning: A Pre-Ordering Approach,2022-05-26 06:36:53+00:00,http://arxiv.org/abs/2205.13183v1,"Chao Zhao, Faeze Brahman, Tenghao Huang, Snigdha Chaturvedi",cs.CL,table2text,"Pre-trained models (PTMs) have lead to great improvements in natural language
+generation (NLG). However, it is still unclear how much commonsense knowledge
+they possess. With the goal of evaluating commonsense knowledge of NLG models,
+recent work has proposed the problem of generative commonsense reasoning, e.g.,
+to compose a logical sentence given a set of unordered concepts. Existing
+approaches to this problem hypothesize that PTMs lack sufficient parametric
+knowledge for this task, which can be overcome by introducing external
+knowledge or task-specific pre-training objectives. Different from this trend,
+we argue that PTM's inherent ability for generative commonsense reasoning is
+underestimated due to the order-agnostic property of its input. In particular,
+we hypothesize that the order of the input concepts can affect the PTM's
+ability to utilize its commonsense knowledge. To this end, we propose a
+pre-ordering approach to elaborately manipulate the order of the given concepts
+before generation. Experiments show that our approach can outperform the more
+sophisticated models that have access to a lot of external data and resources.",2022-05-26
+"Automatic question generation based on sentence structure analysis using
+  machine learning approach",2022-05-25 14:35:29+00:00,http://arxiv.org/abs/2205.12811v1,"Miroslav Blšták, Viera Rozinajová","cs.CL, cs.AI",table2text,"Automatic question generation is one of the most challenging tasks of Natural
+Language Processing. It requires ""bidirectional"" language processing: firstly,
+the system has to understand the input text (Natural Language Understanding)
+and it then has to generate questions also in the form of text (Natural
+Language Generation). In this article, we introduce our framework for
+generating the factual questions from unstructured text in the English
+language. It uses a combination of traditional linguistic approaches based on
+sentence patterns with several machine learning methods. We firstly obtain
+lexical, syntactic and semantic information from an input text and we then
+construct a hierarchical set of patterns for each sentence. The set of features
+is extracted from the patterns and it is then used for automated learning of
+new transformation rules. Our learning process is totally data-driven because
+the transformation rules are obtained from a set of initial sentence-question
+pairs. The advantages of this approach lie in a simple expansion of new
+transformation rules which allows us to generate various types of questions and
+also in the continuous improvement of the system by reinforcement learning. The
+framework also includes a question evaluation module which estimates the
+quality of generated questions. It serves as a filter for selecting the best
+questions and eliminating incorrect ones or duplicates. We have performed
+several experiments to evaluate the correctness of generated questions and we
+have also compared our system with several state-of-the-art systems. Our
+results indicate that the quality of generated questions outperforms the
+state-of-the-art systems and our questions are also comparable to questions
+created by humans. We have also created and published an interface with all
+created datasets and evaluated questions, so it is possible to follow up on our
+work.",2022-05-25
+PLOG: Table-to-Logic Pretraining for Logical Table-to-Text Generation,2022-05-25 11:55:54+00:00,http://arxiv.org/abs/2205.12697v1,"Ao Liu, Haoyu Dong, Naoaki Okazaki, Shi Han, Dongmei Zhang",cs.CL,table2text,"Logical table-to-text generation is a task that involves generating logically
+faithful sentences from tables, which requires models to derive logical level
+facts from table records via logical inference. It raises a new challenge on
+the logical-level content planning of table-to-text models. However, directly
+learning the logical inference knowledge from table-text pairs is very
+difficult for neural models because of the ambiguity of natural language and
+the scarcity of parallel data. Hence even large-scale pre-trained language
+models present low logical fidelity on logical table-to-text. In this work, we
+propose a PLOG (Pretrained Logical Form Generator) framework to improve the
+generation fidelity. Specifically, PLOG is first pretrained on a
+table-to-logic-form generation (table-to-logic) task, then finetuned on
+downstream table-to-text tasks. The formal definition of logical forms enables
+us to collect large amount of accurate logical forms from tables without human
+annotation. In addition, PLOG can learn logical inference from table-logic
+pairs much more definitely than from table-text pairs. To evaluate our model,
+we further collect a controlled logical table-to-text dataset CONTLOG based on
+an existing dataset. On two benchmarks, LOGICNLG and CONTLOG, PLOG outperforms
+strong baselines by a large margin on the logical fidelity, demonstrating the
+effectiveness of table-to-logic pretraining.",2022-05-25
+"Intermediate Training on Question Answering Datasets Improves Generative
+  Data Augmentation",2022-05-25 09:28:21+00:00,http://arxiv.org/abs/2205.12604v1,"Dheeraj Mekala, Tu Vu, Jingbo Shang",cs.CL,table2text,"Manually annotating datasets requires domain experts to read through many
+documents and carefully label them, which is often expensive. Recently,
+pre-trained generative language models (GLMs) have demonstrated exceptional
+abilities in generating text which motivates to leverage them for generative
+data augmentation. We improve generative data augmentation by formulating the
+data generation as context generation task and use question answering (QA)
+datasets for intermediate training. Specifically, we view QA to be more as a
+format than of a task and train GLMs as context generators for a given question
+and its respective answer. Then, we cast downstream tasks into question
+answering format and adapt the fine-tuned context generators to the target task
+domain. Finally, we use the fine-tuned GLM to generate relevant contexts, which
+is further used as synthetic training data for their corresponding tasks. We
+perform extensive experiments, case studies, and ablation studies on multiple
+sentiment and topic classification datasets and demonstrate substantial
+improvements in performance in few-shot, zero-shot settings. Remarkably, on the
+SST-2 dataset, intermediate training on SocialIQA dataset achieves an
+improvement of 40% on Macro-F1 score. Through thorough analyses, we observe
+that QA datasets that requires high-level reasoning abilities (e.g.,
+abstractive and common-sense QA datasets) tend to give the best boost in
+performance in both few-shot and zero-shot settings.",2022-05-25
+"RSTGen: Imbuing Fine-Grained Interpretable Control into Long-FormText
+  Generators",2022-05-25 09:06:04+00:00,http://arxiv.org/abs/2205.12590v1,"Rilwan A. Adewoyin, Ritabrata Dutta, Yulan He",cs.CL,table2text,"In this paper, we study the task of improving the cohesion and coherence of
+long-form text generated by language models. To this end, we propose RSTGen, a
+framework that utilises Rhetorical Structure Theory (RST), a classical language
+theory, to control the discourse structure, semantics and topics of generated
+text. Firstly, we demonstrate our model's ability to control structural
+discourse and semantic features of generated text in open generation
+evaluation. Then we experiment on the two challenging long-form text tasks of
+argument generation and story generation. Evaluation using automated metrics
+and a metric with high correlation to human evaluation, shows that our model
+performs competitively against existing models, while offering significantly
+more controls over generated text than alternative methods.",2022-05-25
+"The Dialog Must Go On: Improving Visual Dialog via Generative
+  Self-Training",2022-05-25 05:40:00+00:00,http://arxiv.org/abs/2205.12502v1,"Gi-Cheon Kang, Sungdong Kim, Jin-Hwa Kim, Donghyun Kwak, Byoung-Tak Zhang","cs.CV, cs.CL, cs.LG",table2text,"Visual dialog (VisDial) is a task of answering a sequence of questions
+grounded in an image, using the dialog history as context. Prior work has
+trained the dialog agents solely on VisDial data via supervised learning or
+leveraged pre-training on related vision-and-language datasets. This paper
+presents a semi-supervised learning approach for visually-grounded dialog,
+called Generative Self-Training (GST), to leverage unlabeled images on the Web.
+Specifically, GST first retrieves in-domain images through out-of-distribution
+detection and generates synthetic dialogs regarding the images via multimodal
+conditional text generation. GST then trains a dialog agent on the synthetic
+and the original VisDial data. As a result, GST scales the amount of training
+data up to an order of magnitude that of VisDial (1.2M to 12.9M QA data). For
+robust training of the generated dialogs, we also propose perplexity-based data
+selection and multimodal consistency regularization. Evaluation on VisDial v1.0
+and v0.9 datasets shows that GST achieves new state-of-the-art results on both
+datasets. We further observe strong performance gains in the low-data regime
+(up to 9.35 absolute points on NDCG).",2022-05-25
+R2D2: Robust Data-to-Text with Replacement Detection,2022-05-25 03:29:25+00:00,http://arxiv.org/abs/2205.12467v1,"Linyong Nan, Lorenzo Jaime Yu Flores, Yilun Zhao, Yixin Liu, Luke Benson, Weijin Zou, Dragomir Radev",cs.CL,table2text,"Unfaithful text generation is a common problem for text generation systems.
+In the case of Data-to-Text (D2T) systems, the factuality of the generated text
+is particularly crucial for any real-world applications. We introduce R2D2, a
+training framework that addresses unfaithful Data-to-Text generation by
+training a system both as a generator and a faithfulness discriminator with
+additional replacement detection and unlikelihood learning tasks. To facilitate
+such training, we propose two methods for sampling unfaithful sentences. We
+argue that the poor entity retrieval capability of D2T systems is one of the
+primary sources of unfaithfulness, so in addition to the existing metrics, we
+further propose NER-based metrics to evaluate the fidelity of D2T generations.
+Our experimental results show that R2D2 systems could effectively mitigate the
+unfaithful text generation, and they achieve new state-of-the-art results on
+FeTaQA, LogicNLG, and ToTTo, all with significant improvements.",2022-05-25
+"Medical Scientific Table-to-Text Generation with Human-in-the-Loop under
+  the Data Sparsity Constraint",2022-05-24 21:10:57+00:00,http://arxiv.org/abs/2205.12368v1,"Heng-Yi Wu, Jingqing Zhang, Julia Ive, Tong Li, Narges Tabari, Bingyuan Chen, Vibhor Gupta, Yike Guo",cs.CL,table2text,"Structured (tabular) data in the preclinical and clinical domains contains
+valuable information about individuals and an efficient table-to-text
+summarization system can drastically reduce manual efforts to condense this
+data into reports. However, in practice, the problem is heavily impeded by the
+data paucity, data sparsity and inability of the state-of-the-art natural
+language generation models (including T5, PEGASUS and GPT-Neo) to produce
+accurate and reliable outputs. In this paper, we propose a novel table-to-text
+approach and tackle these problems with a novel two-step architecture which is
+enhanced by auto-correction, copy mechanism and synthetic data augmentation.
+The study shows that the proposed approach selects salient biomedical entities
+and values from structured data with improved precision (up to 0.13 absolute
+increase) of copying the tabular values to generate coherent and accurate text
+for assay validation reports and toxicology reports. Moreover, we also
+demonstrate a light-weight adaptation of the proposed system to new datasets by
+fine-tuning with as little as 40\% training examples. The outputs of our model
+are validated by human experts in the Human-in-the-Loop scenario.",2022-05-24
+"DivEMT: Neural Machine Translation Post-Editing Effort Across
+  Typologically Diverse Languages",2022-05-24 17:22:52+00:00,http://arxiv.org/abs/2205.12215v1,"Gabriele Sarti, Arianna Bisazza, Ana Guerberof Arenas, Antonio Toral",cs.CL,table2text,"We introduce DivEMT, the first publicly available post-editing study of
+Neural Machine Translation (NMT) over a typologically diverse set of target
+languages. Using a strictly controlled setup, 18 professional translators were
+instructed to translate or post-edit the same set of English documents into
+Arabic, Dutch, Italian, Turkish, Ukrainian, and Vietnamese. During the process,
+their edits, keystrokes, editing times, pauses, and perceived effort were
+recorded, enabling an in-depth, cross-lingual evaluation of NMT quality and its
+post-editing process. Using this new dataset, we assess the impact on
+translation productivity of two state-of-the-art NMT systems, namely: Google
+Translate and the open-source multilingual model mBART50. We find that, while
+post-editing is consistently faster than translation from scratch, the
+magnitude of its contribution varies largely across systems and languages,
+ranging from doubled productivity in Dutch and Italian to marginal gains in
+Arabic, Turkish and Ukrainian, for some of the evaluated modalities. Moreover,
+the observed cross-language variability appears to partly reflect source-target
+relatedness and type of target morphology, while remaining hard to predict even
+based on state-of-the-art automatic MT quality metrics. We publicly release the
+complete dataset, including all collected behavioural data, to foster new
+research on the ability of state-of-the-art NMT systems to generate text in
+typologically diverse languages.",2022-05-24
+"Rethinking Evaluation Practices in Visual Question Answering: A Case
+  Study on Out-of-Distribution Generalization",2022-05-24 16:44:45+00:00,http://arxiv.org/abs/2205.12191v1,"Aishwarya Agrawal, Ivana Kajić, Emanuele Bugliarello, Elnaz Davoodi, Anita Gergely, Phil Blunsom, Aida Nematzadeh","cs.CL, cs.AI, cs.CV, cs.LG",table2text,"Vision-and-language (V&L) models pretrained on large-scale multimodal data
+have demonstrated strong performance on various tasks such as image captioning
+and visual question answering (VQA). The quality of such models is commonly
+assessed by measuring their performance on unseen data that typically comes
+from the same distribution as the training data. However, we observe that these
+models exhibit poor out-of-distribution (OOD) generalization on the task of
+VQA. To better understand the underlying causes of poor generalization, we
+comprehensively investigate performance of two pretrained V&L models under
+different settings (i.e. classification and open-ended text generation) by
+conducting cross-dataset evaluations. We find that these models tend to learn
+to solve the benchmark, rather than learning the high-level skills required by
+the VQA task. We also argue that in most cases generative models are less
+susceptible to shifts in data distribution, while frequently performing better
+on our tested benchmarks. Moreover, we find that multimodal pretraining
+improves OOD performance in most settings. Finally, we revisit assumptions
+underlying the use of automatic VQA evaluation metrics, and empirically show
+that their stringent nature repeatedly penalizes models for correct responses.",2022-05-24
+"On Advances in Text Generation from Images Beyond Captioning: A Case
+  Study in Self-Rationalization",2022-05-24 00:52:40+00:00,http://arxiv.org/abs/2205.11686v1,"Shruti Palaskar, Akshita Bhagia, Yonatan Bisk, Florian Metze, Alan W Black, Ana Marasovic","cs.CL, cs.CV",table2text,"Integrating vision and language has gained notable attention following the
+success of pretrained language models. Despite that, a fraction of emerging
+multimodal models is suitable for text generation conditioned on images. This
+minority is typically developed and evaluated for image captioning, a text
+generation task conditioned solely on images with the goal to describe what is
+explicitly visible in an image. In this paper, we take a step back and ask: How
+do these models work for more complex generative tasks, conditioned on both
+text and images? Are models based on joint multimodal pretraining, visually
+adapted pretrained language models, or models that combine these two
+approaches, more promising for such tasks? We address these questions in the
+context of self-rationalization (jointly generating task labels/answers and
+free-text explanations) of three tasks: (i) visual question answering in VQA-X,
+(ii) visual commonsense reasoning in VCR, and (iii) visual-textual entailment
+in E-SNLI-VE. We show that recent advances in each modality, CLIP image
+representations and scaling of language models, do not consistently improve
+multimodal self-rationalization of tasks with multimodal inputs. We also
+observe that no model type works universally the best across tasks/datasets and
+finetuning data sizes. Our findings call for a backbone modelling approach that
+can be built on to advance text generation from images and text beyond image
+captioning.",2022-05-24
+What Makes Data-to-Text Generation Hard for Pretrained Language Models?,2022-05-23 17:58:39+00:00,http://arxiv.org/abs/2205.11505v1,"Moniba Keymanesh, Adrian Benton, Mark Dredze","cs.CL, cs.AI, cs.IR, cs.LG",table2text,"Expressing natural language descriptions of structured facts or relations --
+data-to-text generation (D2T) -- increases the accessibility of structured
+knowledge repositories. Previous work shows that pre-trained language
+models(PLMs) perform remarkably well on this task after fine-tuning on a
+significant amount of task-specific training data. On the other hand, while
+auto-regressive PLMs can generalize from a few task examples, their efficacy at
+D2T is largely unexplored. Furthermore, we have an incomplete understanding of
+the limits of PLMs on D2T.
+  In this work, we conduct an empirical study of both fine-tuned and
+auto-regressive PLMs on the DART multi-domain D2T dataset. We consider their
+performance as a function of the amount of task-specific data and how these
+data are incorporated into the models: zero and few-shot learning, and
+fine-tuning of model weights. In addition, we probe the limits of PLMs by
+measuring performance on subsets of the evaluation data: novel predicates and
+abstractive test examples. To improve the performance on these subsets, we
+investigate two techniques: providing predicate descriptions in the context and
+re-ranking generated candidates by information reflected in the source.
+Finally, we conduct a human evaluation of model errors and show that D2T
+generation tasks would benefit from datasets with more careful manual curation.",2022-05-23
+A Self-Paced Mixed Distillation Method for Non-Autoregressive Generation,2022-05-23 09:54:53+00:00,http://arxiv.org/abs/2205.11162v1,"Weizhen Qi, Yeyun Gong, Yelong Shen, Jian Jiao, Yu Yan, Houqiang Li, Ruofei Zhang, Weizhu Chen, Nan Duan",cs.CL,table2text,"Non-Autoregressive generation is a sequence generation paradigm, which
+removes the dependency between target tokens. It could efficiently reduce the
+text generation latency with parallel decoding in place of token-by-token
+sequential decoding. However, due to the known multi-modality problem,
+Non-Autoregressive (NAR) models significantly under-perform Auto-regressive
+(AR) models on various language generation tasks. Among the NAR models, BANG is
+the first large-scale pre-training model on English un-labeled raw text corpus.
+It considers different generation paradigms as its pre-training tasks including
+Auto-regressive (AR), Non-Autoregressive (NAR), and semi-Non-Autoregressive
+(semi-NAR) information flow with multi-stream strategy. It achieves
+state-of-the-art performance without any distillation techniques. However, AR
+distillation has been shown to be a very effective solution for improving NAR
+performance. In this paper, we propose a novel self-paced mixed distillation
+method to further improve the generation quality of BANG. Firstly, we propose
+the mixed distillation strategy based on the AR stream knowledge. Secondly, we
+encourage the model to focus on the samples with the same modality by
+self-paced learning. The proposed self-paced mixed distillation algorithm
+improves the generation quality and has no influence on the inference latency.
+We carry out extensive experiments on summarization and question generation
+tasks to validate the effectiveness. To further illustrate the commercial value
+of our approach, we conduct experiments on three generation tasks in real-world
+advertisements applications. Experimental results on commercial data show the
+effectiveness of the proposed model. Compared with BANG, it achieves
+significant BLEU score improvement. On the other hand, compared with
+auto-regressive generation method, it achieves more than 7x speedup.",2022-05-23
+"BanglaNLG: Benchmarks and Resources for Evaluating Low-Resource Natural
+  Language Generation in Bangla",2022-05-23 06:54:56+00:00,http://arxiv.org/abs/2205.11081v2,"Abhik Bhattacharjee, Tahmid Hasan, Wasi Uddin Ahmad, Rifat Shahriyar",cs.CL,table2text,"This work presents BanglaNLG, a comprehensive benchmark for evaluating
+natural language generation (NLG) models in Bangla, a widely spoken yet
+low-resource language in the web domain. We aggregate three challenging
+conditional text generation tasks under the BanglaNLG benchmark. Then, using a
+clean corpus of 27.5 GB of Bangla data, we pretrain BanglaT5, a
+sequence-to-sequence Transformer model for Bangla. BanglaT5 achieves
+state-of-the-art performance in all of these tasks, outperforming mT5 (base) by
+up to 5.4%. We are making the BanglaT5 language model and a leaderboard
+publicly available in the hope of advancing future research and evaluation on
+Bangla NLG. The resources can be found at
+https://github.com/csebuetnlp/BanglaNLG.",2022-05-23
+TempLM: Distilling Language Models into Template-Based Generators,2022-05-23 05:46:59+00:00,http://arxiv.org/abs/2205.11055v1,"Tianyi Zhang, Mina Lee, Lisa Li, Ende Shen, Tatsunori B. Hashimoto","cs.CL, cs.LG",table2text,"While pretrained language models (PLMs) have greatly improved text
+generation, they have also been known to produce unfaithful or inappropriate
+content. In contrast, classic template-based systems provide strong guarantees
+of faithfulness at the cost of fluency. We propose TempLM, which achieves the
+best of both worlds by distilling a PLM into a template-based generator. On the
+E2E and SynthBio data-to-text datasets, we show that TempLM is more faithful
+than the original PLM and is more fluent than prior template systems. Notably,
+on an out-of-domain evaluation, TempLM reduces a finetuned BART model's
+unfaithfulness rate from 83% to 0%. In a human study, we find that TempLM's
+templates substantially improve upon human-written ones in BERTScore.",2022-05-23
+Diversity Enhanced Table-to-Text Generation via Type Control,2022-05-22 22:05:21+00:00,http://arxiv.org/abs/2205.10938v1,"Yotam Perlitz, Liat Ein-Dot, Dafna Sheinwald, Noam Slonim, Michal Shmueli-Scheuer",cs.CL,table2text,"Generating natural language statements to convey information from tabular
+data (i.e., Table-to-text) is a process with one input and a variety of valid
+outputs. This characteristic underscores the abilities to control the
+generation and produce a diverse set of outputs as two key assets. Thus, we
+propose a diversity enhancing scheme that builds upon an inherent property of
+the statements, namely, their logic-types, by using a type-controlled
+Table-to-text generation model. Employing automatic and manual tests, we prove
+its twofold advantage: users can effectively tune the generated statement type,
+and, by sampling different types, can obtain a diverse set of statements for a
+given table.",2022-05-22
+"Language Models with Image Descriptors are Strong Few-Shot
+  Video-Language Learners",2022-05-22 05:18:27+00:00,http://arxiv.org/abs/2205.10747v2,"Zhenhailong Wang, Manling Li, Ruochen Xu, Luowei Zhou, Jie Lei, Xudong Lin, Shuohang Wang, Ziyi Yang, Chenguang Zhu, Derek Hoiem, Shih-Fu Chang, Mohit Bansal, Heng Ji","cs.CV, cs.AI",table2text,"The goal of this work is to build flexible video-language models that can
+generalize to various video-to-text tasks from few examples, such as
+domain-specific captioning, question answering, and future event prediction.
+Existing few-shot video-language learners focus exclusively on the encoder,
+resulting in the absence of a video-to-text decoder to handle generative tasks.
+Video captioners have been pretrained on large-scale video-language datasets,
+but they rely heavily on finetuning and lack the ability to generate text for
+unseen tasks in a few-shot setting. We propose VidIL, a few-shot Video-language
+Learner via Image and Language models, which demonstrates strong performance on
+few-shot video-to-text tasks without the necessity of pretraining or finetuning
+on any video datasets. We use the image-language models to translate the video
+content into frame captions, object, attribute, and event phrases, and compose
+them into a temporal structure template. We then instruct a language model,
+with a prompt containing a few in-context examples, to generate a target output
+from the composed content. The flexibility of prompting allows the model to
+capture any form of text input, such as automatic speech recognition (ASR)
+transcripts. Our experiments demonstrate the power of language models in
+understanding videos on a wide variety of video-language tasks, including video
+captioning, video question answering, video caption retrieval, and video future
+event prediction. Especially, on video future event prediction, our few-shot
+model significantly outperforms state-of-the-art supervised models trained on
+large-scale video datasets. Code and resources are publicly available for
+research purposes at https://github.com/MikeWangWZHL/VidIL .",2022-05-22
+"ViT5: Pretrained Text-to-Text Transformer for Vietnamese Language
+  Generation",2022-05-13 06:08:35+00:00,http://arxiv.org/abs/2205.06457v2,"Long Phan, Hieu Tran, Hieu Nguyen, Trieu H. Trinh","cs.CL, cs.AI",table2text,"We present ViT5, a pretrained Transformer-based encoder-decoder model for the
+Vietnamese language. With T5-style self-supervised pretraining, ViT5 is trained
+on a large corpus of high-quality and diverse Vietnamese texts. We benchmark
+ViT5 on two downstream text generation tasks, Abstractive Text Summarization
+and Named Entity Recognition. Although Abstractive Text Summarization has been
+widely studied for the English language thanks to its rich and large source of
+data, there has been minimal research into the same task in Vietnamese, a much
+lower resource language. In this work, we perform exhaustive experiments on
+both Vietnamese Abstractive Summarization and Named Entity Recognition,
+validating the performance of ViT5 against many other pretrained
+Transformer-based encoder-decoder models. Our experiments show that ViT5
+significantly outperforms existing models and achieves state-of-the-art results
+on Vietnamese Text Summarization. On the task of Named Entity Recognition, ViT5
+is competitive against previous best results from pretrained encoder-based
+Transformer models. Further analysis shows the importance of context length
+during the self-supervised pretraining on downstream performance across
+different settings.",2022-05-13
 "Analysing the Robustness of Dual Encoders for Dense Retrieval Against
   Misspellings",2022-05-04 19:48:13+00:00,http://arxiv.org/abs/2205.02303v1,"Georgios Sidiropoulos, Evangelos Kanoulas",cs.IR,table2text,"Dense retrieval is becoming one of the standard approaches for document and
 passage ranking. The dual-encoder architecture is widely adopted for scoring

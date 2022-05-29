@@ -7,10 +7,28 @@ sidebar:
 ---
 
 
-*written on 2022-05-09*
+*written on 2022-05-29*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Revisiting Generative Commonsense Reasoning: A Pre-Ordering Approach](http://arxiv.org/abs/2205.13183v1) | Chao Zhao, Faeze Brahman, Tenghao Huang, Snigdha Chaturvedi | cs.CL | 2022-05-26 |
+| [Automatic question generation based on sentence structure analysis using  machine learning approach](http://arxiv.org/abs/2205.12811v1) | Miroslav Blšták, Viera Rozinajová | cs.CL, cs.AI | 2022-05-25 |
+| [PLOG: Table-to-Logic Pretraining for Logical Table-to-Text Generation](http://arxiv.org/abs/2205.12697v1) | Ao Liu, Haoyu Dong, Naoaki Okazaki, Shi Han, Dongmei Zhang | cs.CL | 2022-05-25 |
+| [Intermediate Training on Question Answering Datasets Improves Generative  Data Augmentation](http://arxiv.org/abs/2205.12604v1) | Dheeraj Mekala, Tu Vu, Jingbo Shang | cs.CL | 2022-05-25 |
+| [RSTGen: Imbuing Fine-Grained Interpretable Control into Long-FormText  Generators](http://arxiv.org/abs/2205.12590v1) | Rilwan A. Adewoyin, Ritabrata Dutta, Yulan He | cs.CL | 2022-05-25 |
+| [The Dialog Must Go On: Improving Visual Dialog via Generative  Self-Training](http://arxiv.org/abs/2205.12502v1) | Gi-Cheon Kang, Sungdong Kim, Jin-Hwa Kim, Donghyun Kwak, Byoung-Tak Zhang | cs.CV, cs.CL, cs.LG | 2022-05-25 |
+| [R2D2: Robust Data-to-Text with Replacement Detection](http://arxiv.org/abs/2205.12467v1) | Linyong Nan, Lorenzo Jaime Yu Flores, Yilun Zhao, Yixin Liu, Luke Benson, Weijin Zou, Dragomir Radev | cs.CL | 2022-05-25 |
+| [Medical Scientific Table-to-Text Generation with Human-in-the-Loop under  the Data Sparsity Constraint](http://arxiv.org/abs/2205.12368v1) | Heng-Yi Wu, Jingqing Zhang, Julia Ive, Tong Li, Narges Tabari, Bingyuan Chen, Vibhor Gupta, Yike Guo | cs.CL | 2022-05-24 |
+| [DivEMT: Neural Machine Translation Post-Editing Effort Across  Typologically Diverse Languages](http://arxiv.org/abs/2205.12215v1) | Gabriele Sarti, Arianna Bisazza, Ana Guerberof Arenas, Antonio Toral | cs.CL | 2022-05-24 |
+| [Rethinking Evaluation Practices in Visual Question Answering: A Case  Study on Out-of-Distribution Generalization](http://arxiv.org/abs/2205.12191v1) | Aishwarya Agrawal, Ivana Kajić, Emanuele Bugliarello, Elnaz Davoodi, Anita Gergely, Phil Blunsom, Aida Nematzadeh | cs.CL, cs.AI, cs.CV, cs.LG | 2022-05-24 |
+| [On Advances in Text Generation from Images Beyond Captioning: A Case  Study in Self-Rationalization](http://arxiv.org/abs/2205.11686v1) | Shruti Palaskar, Akshita Bhagia, Yonatan Bisk, Florian Metze, Alan W Black, Ana Marasovic | cs.CL, cs.CV | 2022-05-24 |
+| [What Makes Data-to-Text Generation Hard for Pretrained Language Models?](http://arxiv.org/abs/2205.11505v1) | Moniba Keymanesh, Adrian Benton, Mark Dredze | cs.CL, cs.AI, cs.IR, cs.LG | 2022-05-23 |
+| [A Self-Paced Mixed Distillation Method for Non-Autoregressive Generation](http://arxiv.org/abs/2205.11162v1) | Weizhen Qi, Yeyun Gong, Yelong Shen, Jian Jiao, Yu Yan, Houqiang Li, Ruofei Zhang, Weizhu Chen, Nan Duan | cs.CL | 2022-05-23 |
+| [BanglaNLG: Benchmarks and Resources for Evaluating Low-Resource Natural  Language Generation in Bangla](http://arxiv.org/abs/2205.11081v2) | Abhik Bhattacharjee, Tahmid Hasan, Wasi Uddin Ahmad, Rifat Shahriyar | cs.CL | 2022-05-23 |
+| [TempLM: Distilling Language Models into Template-Based Generators](http://arxiv.org/abs/2205.11055v1) | Tianyi Zhang, Mina Lee, Lisa Li, Ende Shen, Tatsunori B. Hashimoto | cs.CL, cs.LG | 2022-05-23 |
+| [Diversity Enhanced Table-to-Text Generation via Type Control](http://arxiv.org/abs/2205.10938v1) | Yotam Perlitz, Liat Ein-Dot, Dafna Sheinwald, Noam Slonim, Michal Shmueli-Scheuer | cs.CL | 2022-05-22 |
+| [Language Models with Image Descriptors are Strong Few-Shot  Video-Language Learners](http://arxiv.org/abs/2205.10747v2) | Zhenhailong Wang, Manling Li, Ruochen Xu, Luowei Zhou, Jie Lei, Xudong Lin, Shuohang Wang, Ziyi Yang, Chenguang Zhu, Derek Hoiem, Shih-Fu Chang, Mohit Bansal, Heng Ji | cs.CV, cs.AI | 2022-05-22 |
+| [ViT5: Pretrained Text-to-Text Transformer for Vietnamese Language  Generation](http://arxiv.org/abs/2205.06457v2) | Long Phan, Hieu Tran, Hieu Nguyen, Trieu H. Trinh | cs.CL, cs.AI | 2022-05-13 |
 | [Analysing the Robustness of Dual Encoders for Dense Retrieval Against  Misspellings](http://arxiv.org/abs/2205.02303v1) | Georgios Sidiropoulos, Evangelos Kanoulas | cs.IR | 2022-05-04 |
 | [Learning to Transfer Prompts for Text Generation](http://arxiv.org/abs/2205.01543v1) | Junyi Li, Tianyi Tang, Jian-Yun Nie, Ji-Rong Wen, Wayne Xin Zhao | cs.CL | 2022-05-03 |
 | [LIDER: An Efficient High-dimensional Learned Index for Large-scale Dense  Passage Retrieval](http://arxiv.org/abs/2205.00970v1) | Yifan Wang, Haodi Ma, Daisy Zhe Wang | cs.IR, cs.DB | 2022-05-02 |

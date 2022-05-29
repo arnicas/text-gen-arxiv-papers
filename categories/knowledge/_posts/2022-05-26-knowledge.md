@@ -6,10 +6,21 @@ sidebar:
 ---
 
 
-*written on 2022-05-09*
+*written on 2022-05-29*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Revisiting Generative Commonsense Reasoning: A Pre-Ordering Approach](http://arxiv.org/abs/2205.13183v1) | Chao Zhao, Faeze Brahman, Tenghao Huang, Snigdha Chaturvedi | cs.CL | 2022-05-26 |
+| [Automatic question generation based on sentence structure analysis using  machine learning approach](http://arxiv.org/abs/2205.12811v1) | Miroslav Blšták, Viera Rozinajová | cs.CL, cs.AI | 2022-05-25 |
+| [PLOG: Table-to-Logic Pretraining for Logical Table-to-Text Generation](http://arxiv.org/abs/2205.12697v1) | Ao Liu, Haoyu Dong, Naoaki Okazaki, Shi Han, Dongmei Zhang | cs.CL | 2022-05-25 |
+| [Exploring industrial safety knowledge via Zipf law](http://arxiv.org/abs/2205.12636v1) | Zhenhua Wang, Ming Ren, Dong Gao, Zhuang Li | cs.CL | 2022-05-25 |
+| [RSTGen: Imbuing Fine-Grained Interpretable Control into Long-FormText  Generators](http://arxiv.org/abs/2205.12590v1) | Rilwan A. Adewoyin, Ritabrata Dutta, Yulan He | cs.CL | 2022-05-25 |
+| [A Dynamic, Interpreted CheckList for Meaning-oriented NLG Metric  Evaluation -- through the Lens of Semantic Similarity Rating](http://arxiv.org/abs/2205.12176v1) | Laura Zeidler, Juri Opitz, Anette Frank | cs.CL | 2022-05-24 |
+| [What Makes Data-to-Text Generation Hard for Pretrained Language Models?](http://arxiv.org/abs/2205.11505v1) | Moniba Keymanesh, Adrian Benton, Mark Dredze | cs.CL, cs.AI, cs.IR, cs.LG | 2022-05-23 |
+| [A Self-Paced Mixed Distillation Method for Non-Autoregressive Generation](http://arxiv.org/abs/2205.11162v1) | Weizhen Qi, Yeyun Gong, Yelong Shen, Jian Jiao, Yu Yan, Houqiang Li, Ruofei Zhang, Weizhu Chen, Nan Duan | cs.CL | 2022-05-23 |
+| [CORAL: Contextual Response Retrievability Loss Function for Training  Dialog Generation Models](http://arxiv.org/abs/2205.10558v1) | Bishal Santra, Ravi Ghadia, Arpit Dwivedi, Manish Gupta, Pawan Goyal | cs.CL | 2022-05-21 |
+| [Exploiting Inductive Bias in Transformers for Unsupervised  Disentanglement of Syntax and Semantics with VAEs](http://arxiv.org/abs/2205.05943v2) | Ghazi Felhi, Joseph Le Roux, Djamé Seddah | cs.CL, cs.LG | 2022-05-12 |
+| [Robust (Controlled) Table-to-Text Generation with Structure-Aware  Equivariance Learning](http://arxiv.org/abs/2205.03972v1) | Fei Wang, Zhewei Xu, Pedro Szekely, Muhao Chen | cs.CL, cs.AI, cs.LG | 2022-05-08 |
 | [Language Models Can See: Plugging Visual Controls in Text Generation](http://arxiv.org/abs/2205.02655v1) | Yixuan Su, Tian Lan, Yahui Liu, Fangyu Liu, Dani Yogatama, Yan Wang, Lingpeng Kong, Nigel Collier | cs.CV, cs.CL | 2022-05-05 |
 | [Efficient Few-Shot Fine-Tuning for Opinion Summarization](http://arxiv.org/abs/2205.02170v1) | Arthur Bražinskas, Ramesh Nallapati, Mohit Bansal, Markus Dreyer | cs.CL, cs.AI, cs.LG | 2022-05-04 |
 | [Faithful to the Document or to the World? Mitigating Hallucinations via  Entity-linked Knowledge in Abstractive Summarization](http://arxiv.org/abs/2204.13761v1) | Yue Dong, John Wieting, Pat Verga | cs.CL | 2022-04-28 |
