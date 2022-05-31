@@ -182,11 +182,17 @@ def write_new_files_after_scrape(arts2):
         new_written.to_csv("_data/files_written.csv", index=None)
         written_df = pd.read_csv("_data/files_written.csv")
 
+def get_latest_pickle():
+    latest = max(Path(PICK_PATH).glob(r'*.p'), key=lambda f: f.stat().st_ctime)
+    return str(latest)
 
 def main(pickfile):
     arts2 = None
+    if not pickfile:
+        pickfile = get_latest_pickle()
+        print("Using latest pickle file", pickfile)
     if '/' not in pickfile:
-        pickfile = PICKPATH + pickfile
+        pickfile = PICK_PATH + pickfile
     try: 
         arts2 = pickle.load(open(pickfile, 'rb'))
     except:
@@ -199,6 +205,6 @@ def main(pickfile):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--pickle', type=str)
+    parser.add_argument('--pickle', type=str, default=None)
     args = parser.parse_args()
     main(args.pickle)
