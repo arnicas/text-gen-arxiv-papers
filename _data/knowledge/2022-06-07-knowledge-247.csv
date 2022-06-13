@@ -1,4 +1,69 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Plot Writing From Pre-Trained Language Models,2022-06-07 05:30:46+00:00,http://arxiv.org/abs/2206.03021v1,"Yiping Jin, Vishakha Kadam, Dittaya Wanvarie",cs.CL,knowledge,"Pre-trained language models (PLMs) fail to generate long-form narrative text
+because they do not consider global structure. As a result, the generated texts
+are often incohesive, repetitive, or lack content. Recent work in story
+generation reintroduced explicit content planning in the form of prompts,
+keywords, or semantic frames. Trained on large parallel corpora, these models
+can generate more logical event sequences and thus more contentful stories.
+However, these intermediate representations are often not in natural language
+and cannot be utilized by PLMs without fine-tuning. We propose generating story
+plots using off-the-shelf PLMs while maintaining the benefit of content
+planning to generate cohesive and contentful stories. Our proposed method,
+ScratchPlot, first prompts a PLM to compose a content plan. Then, we generate
+the story's body and ending conditioned on the content plan. Furthermore, we
+take a generate-and-rank approach by using additional PLMs to rank the
+generated (story, ending) pairs. We benchmark our method with various baselines
+and achieved superior results in both human and automatic evaluation.",2022-06-07
+"Enhancing Dual-Encoders with Question and Answer Cross-Embeddings for
+  Answer Retrieval",2022-06-07 02:39:24+00:00,http://arxiv.org/abs/2206.02978v1,"Yanmeng Wang, Jun Bai, Ye Wang, Jianfei Zhang, Wenge Rong, Zongcheng Ji, Shaojun Wang, Jing Xiao","cs.CL, cs.AI",knowledge,"Dual-Encoders is a promising mechanism for answer retrieval in question
+answering (QA) systems. Currently most conventional Dual-Encoders learn the
+semantic representations of questions and answers merely through matching
+score. Researchers proposed to introduce the QA interaction features in scoring
+function but at the cost of low efficiency in inference stage. To keep
+independent encoding of questions and answers during inference stage,
+variational auto-encoder is further introduced to reconstruct answers
+(questions) from question (answer) embeddings as an auxiliary task to enhance
+QA interaction in representation learning in training stage. However, the needs
+of text generation and answer retrieval are different, which leads to hardness
+in training. In this work, we propose a framework to enhance the Dual-Encoders
+model with question answer cross-embeddings and a novel Geometry Alignment
+Mechanism (GAM) to align the geometry of embeddings from Dual-Encoders with
+that from Cross-Encoders. Extensive experimental results show that our
+framework significantly improves Dual-Encoders model and outperforms the
+state-of-the-art method on multiple answer retrieval datasets.",2022-06-07
+"Dict-TTS: Learning to Pronounce with Prior Dictionary Knowledge for
+  Text-to-Speech",2022-06-05 10:50:34+00:00,http://arxiv.org/abs/2206.02147v1,"Ziyue Jiang, Su Zhe, Zhou Zhao, Qian Yang, Yi Ren, Jinglin Liu, Zhenhui Ye","eess.AS, cs.CL, cs.SD",knowledge,"Polyphone disambiguation aims to capture accurate pronunciation knowledge
+from natural text sequences for reliable Text-to-speech (TTS) systems. However,
+previous approaches require substantial annotated training data and additional
+efforts from language experts, making it difficult to extend high-quality
+neural TTS systems to out-of-domain daily conversations and countless languages
+worldwide. This paper tackles the polyphone disambiguation problem from a
+concise and novel perspective: we propose Dict-TTS, a semantic-aware generative
+text-to-speech model with an online website dictionary (the existing prior
+information in the natural language). Specifically, we design a
+semantics-to-pronunciation attention (S2PA) module to match the semantic
+patterns between the input text sequence and the prior semantics in the
+dictionary and obtain the corresponding pronunciations; The S2PA module can be
+easily trained with the end-to-end TTS model without any annotated phoneme
+labels. Experimental results in three languages show that our model outperforms
+several strong baseline models in terms of pronunciation accuracy and improves
+the prosody modeling of TTS systems. Further extensive analyses with different
+linguistic encoders demonstrate that each design in Dict-TTS is effective.
+Audio samples are available at \url{https://dicttts.github.io/DictTTS-Demo/}.",2022-06-05
+Beyond Opinion Mining: Summarizing Opinions of Customer Reviews,2022-06-03 12:43:40+00:00,http://arxiv.org/abs/2206.01543v1,"Reinald Kim Amplayo, Arthur Bražinskas, Yoshi Suhara, Xiaolan Wang, Bing Liu","cs.CL, cs.AI, cs.LG",knowledge,"Customer reviews are vital for making purchasing decisions in the Information
+Age. Such reviews can be automatically summarized to provide the user with an
+overview of opinions. In this tutorial, we present various aspects of opinion
+summarization that are useful for researchers and practitioners. First, we will
+introduce the task and major challenges. Then, we will present existing opinion
+summarization solutions, both pre-neural and neural. We will discuss how
+summarizers can be trained in the unsupervised, few-shot, and supervised
+regimes. Each regime has roots in different machine learning methods, such as
+auto-encoding, controllable text generation, and variational inference.
+Finally, we will discuss resources and evaluation methods and conclude with the
+future directions. This three-hour tutorial will provide a comprehensive
+overview over major advances in opinion summarization. The listeners will be
+well-equipped with the knowledge that is both useful for research and practical
+applications.",2022-06-03
 Revisiting Generative Commonsense Reasoning: A Pre-Ordering Approach,2022-05-26 06:36:53+00:00,http://arxiv.org/abs/2205.13183v1,"Chao Zhao, Faeze Brahman, Tenghao Huang, Snigdha Chaturvedi",cs.CL,knowledge,"Pre-trained models (PTMs) have lead to great improvements in natural language
 generation (NLG). However, it is still unclear how much commonsense knowledge
 they possess. With the goal of evaluating commonsense knowledge of NLG models,

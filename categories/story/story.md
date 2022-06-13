@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2022-05-29*
+*written on 2022-06-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Plot Writing From Pre-Trained Language Models](http://arxiv.org/abs/2206.03021v1) | Yiping Jin, Vishakha Kadam, Dittaya Wanvarie | cs.CL | 2022-06-07 |
 | [RSTGen: Imbuing Fine-Grained Interpretable Control into Long-FormText  Generators](http://arxiv.org/abs/2205.12590v1) | Rilwan A. Adewoyin, Ritabrata Dutta, Yulan He | cs.CL | 2022-05-25 |
 | [How Human is Human Evaluation? Improving the Gold Standard for NLG with  Utility Theory](http://arxiv.org/abs/2205.11930v1) | Kawin Ethayarajh, Dan Jurafsky | cs.CL, cs.AI, cs.LG | 2022-05-24 |
 | [RoViST:Learning Robust Metrics for Visual Storytelling](http://arxiv.org/abs/2205.03774v1) | Eileen Wang, Caren Han, Josiah Poon | cs.CV, cs.AI | 2022-05-08 |

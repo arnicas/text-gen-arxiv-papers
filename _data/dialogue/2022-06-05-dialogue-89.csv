@@ -1,4 +1,60 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Dict-TTS: Learning to Pronounce with Prior Dictionary Knowledge for
+  Text-to-Speech",2022-06-05 10:50:34+00:00,http://arxiv.org/abs/2206.02147v1,"Ziyue Jiang, Su Zhe, Zhou Zhao, Qian Yang, Yi Ren, Jinglin Liu, Zhenhui Ye","eess.AS, cs.CL, cs.SD",dialogue,"Polyphone disambiguation aims to capture accurate pronunciation knowledge
+from natural text sequences for reliable Text-to-speech (TTS) systems. However,
+previous approaches require substantial annotated training data and additional
+efforts from language experts, making it difficult to extend high-quality
+neural TTS systems to out-of-domain daily conversations and countless languages
+worldwide. This paper tackles the polyphone disambiguation problem from a
+concise and novel perspective: we propose Dict-TTS, a semantic-aware generative
+text-to-speech model with an online website dictionary (the existing prior
+information in the natural language). Specifically, we design a
+semantics-to-pronunciation attention (S2PA) module to match the semantic
+patterns between the input text sequence and the prior semantics in the
+dictionary and obtain the corresponding pronunciations; The S2PA module can be
+easily trained with the end-to-end TTS model without any annotated phoneme
+labels. Experimental results in three languages show that our model outperforms
+several strong baseline models in terms of pronunciation accuracy and improves
+the prosody modeling of TTS systems. Further extensive analyses with different
+linguistic encoders demonstrate that each design in Dict-TTS is effective.
+Audio samples are available at \url{https://dicttts.github.io/DictTTS-Demo/}.",2022-06-05
+"Findings of the The RuATD Shared Task 2022 on Artificial Text Detection
+  in Russian",2022-06-03 14:12:33+00:00,http://arxiv.org/abs/2206.01583v1,"Tatiana Shamardina, Vladislav Mikhailov, Daniil Chernianskii, Alena Fenogenova, Marat Saidov, Anastasiya Valeeva, Tatiana Shavrina, Ivan Smurov, Elena Tutubalina, Ekaterina Artemova",cs.CL,dialogue,"We present the shared task on artificial text detection in Russian, which is
+organized as a part of the Dialogue Evaluation initiative, held in 2022. The
+shared task dataset includes texts from 14 text generators, i.e., one human
+writer and 13 text generative models fine-tuned for one or more of the
+following generation tasks: machine translation, paraphrase generation, text
+summarization, text simplification. We also consider back-translation and
+zero-shot generation approaches. The human-written texts are collected from
+publicly available resources across multiple domains. The shared task consists
+of two sub-tasks: (i) to determine if a given text is automatically generated
+or written by a human; (ii) to identify the author of a given text. The first
+task is framed as a binary classification problem. The second task is a
+multi-class classification problem. We provide count-based and BERT-based
+baselines, along with the human evaluation on the first sub-task. A total of 30
+and 8 systems have been submitted to the binary and multi-class sub-tasks,
+correspondingly. Most teams outperform the baselines by a wide margin. We
+publicly release our codebase, human evaluation results, and other materials in
+our GitHub repository (https://github.com/dialogue-evaluation/RuATD).",2022-06-03
+Clinical Dialogue Transcription Error Correction using Seq2Seq Models,2022-05-26 18:27:17+00:00,http://arxiv.org/abs/2205.13572v1,"Gayani Nanayakkara, Nirmalie Wiratunga, David Corsar, Kyle Martin, Anjana Wijekoon","cs.CL, cs.AI",dialogue,"Good communication is critical to good healthcare. Clinical dialogue is a
+conversation between health practitioners and their patients, with the explicit
+goal of obtaining and sharing medical information. This information contributes
+to medical decision-making regarding the patient and plays a crucial role in
+their healthcare journey. The reliance on note taking and manual scribing
+processes are extremely inefficient and leads to manual transcription errors
+when digitizing notes. Automatic Speech Recognition (ASR) plays a significant
+role in speech-to-text applications, and can be directly used as a text
+generator in conversational applications. However, recording clinical dialogue
+presents a number of general and domain-specific challenges. In this paper, we
+present a seq2seq learning approach for ASR transcription error correction of
+clinical dialogues. We introduce a new Gastrointestinal Clinical Dialogue (GCD)
+Dataset which was gathered by healthcare professionals from a NHS Inflammatory
+Bowel Disease clinic and use this in a comparative study with four commercial
+ASR systems. Using self-supervision strategies, we fine-tune a seq2seq model on
+a mask-filling task using a domain-specific PubMed dataset which we have shared
+publicly for future research. The BART model fine-tuned for mask-filling was
+able to correct transcription errors and achieve lower word error rates for
+three out of four commercial ASR outputs.",2022-05-26
 "The Dialog Must Go On: Improving Visual Dialog via Generative
   Self-Training",2022-05-25 05:40:00+00:00,http://arxiv.org/abs/2205.12502v1,"Gi-Cheon Kang, Sungdong Kim, Jin-Hwa Kim, Donghyun Kwak, Byoung-Tak Zhang","cs.CV, cs.CL, cs.LG",dialogue,"Visual dialog (VisDial) is a task of answering a sequence of questions
 grounded in an image, using the dialog history as context. Prior work has

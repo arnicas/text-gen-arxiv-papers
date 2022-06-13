@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2022-05-29*
+*written on 2022-06-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Dict-TTS: Learning to Pronounce with Prior Dictionary Knowledge for  Text-to-Speech](http://arxiv.org/abs/2206.02147v1) | Ziyue Jiang, Su Zhe, Zhou Zhao, Qian Yang, Yi Ren, Jinglin Liu, Zhenhui Ye | eess.AS, cs.CL, cs.SD | 2022-06-05 |
+| [Findings of the The RuATD Shared Task 2022 on Artificial Text Detection  in Russian](http://arxiv.org/abs/2206.01583v1) | Tatiana Shamardina, Vladislav Mikhailov, Daniil Chernianskii, Alena Fenogenova, Marat Saidov, Anastasiya Valeeva, Tatiana Shavrina, Ivan Smurov, Elena Tutubalina, Ekaterina Artemova | cs.CL | 2022-06-03 |
+| [Clinical Dialogue Transcription Error Correction using Seq2Seq Models](http://arxiv.org/abs/2205.13572v1) | Gayani Nanayakkara, Nirmalie Wiratunga, David Corsar, Kyle Martin, Anjana Wijekoon | cs.CL, cs.AI | 2022-05-26 |
 | [The Dialog Must Go On: Improving Visual Dialog via Generative  Self-Training](http://arxiv.org/abs/2205.12502v1) | Gi-Cheon Kang, Sungdong Kim, Jin-Hwa Kim, Donghyun Kwak, Byoung-Tak Zhang | cs.CV, cs.CL, cs.LG | 2022-05-25 |
 | [CORAL: Contextual Response Retrievability Loss Function for Training  Dialog Generation Models](http://arxiv.org/abs/2205.10558v1) | Bishal Santra, Ravi Ghadia, Arpit Dwivedi, Manish Gupta, Pawan Goyal | cs.CL | 2022-05-21 |
 | [Self-augmented Data Selection for Few-shot Dialogue Generation](http://arxiv.org/abs/2205.09661v1) | Wanyu Du, Hanjie Chen, Yangfeng Ji | cs.CL | 2022-05-19 |

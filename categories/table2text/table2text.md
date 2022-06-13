@@ -7,10 +7,19 @@ sidebar:
 ---
 
 
-*written on 2022-05-29*
+*written on 2022-06-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [A Benchmark for Federated Hetero-Task Learning](http://arxiv.org/abs/2206.03436v2) | Liuyi Yao, Dawei Gao, Zhen Wang, Yuexiang Xie, Weirui Kuang, Daoyuan Chen, Haohui Wang, Chenhe Dong, Bolin Ding, Yaliang Li | cs.LG | 2022-06-07 |
+| [DeepCAVE: An Interactive Analysis Tool for Automated Machine Learning](http://arxiv.org/abs/2206.03493v1) | René Sass, Eddie Bergman, André Biedenkapp, Frank Hutter, Marius Lindauer | cs.LG | 2022-06-07 |
+| [Plot Writing From Pre-Trained Language Models](http://arxiv.org/abs/2206.03021v1) | Yiping Jin, Vishakha Kadam, Dittaya Wanvarie | cs.CL | 2022-06-07 |
+| [Curriculum-Based Self-Training Makes Better Few-Shot Learners for  Data-to-Text Generation](http://arxiv.org/abs/2206.02712v1) | Pei Ke, Haozhe Ji, Zhenyu Yang, Yi Huang, Junlan Feng, Xiaoyan Zhu, Minlie Huang | cs.CL | 2022-06-06 |
+| [Learning to Break the Loop: Analyzing and Mitigating Repetitions for  Neural Text Generation](http://arxiv.org/abs/2206.02369v1) | Jin Xu, Xiaojiang Liu, Jianhao Yan, Deng Cai, Huayang Li, Jian Li | cs.CL | 2022-06-06 |
+| [Dict-TTS: Learning to Pronounce with Prior Dictionary Knowledge for  Text-to-Speech](http://arxiv.org/abs/2206.02147v1) | Ziyue Jiang, Su Zhe, Zhou Zhao, Qian Yang, Yi Ren, Jinglin Liu, Zhenhui Ye | eess.AS, cs.CL, cs.SD | 2022-06-05 |
+| [CoNT: Contrastive Neural Text Generation](http://arxiv.org/abs/2205.14690v1) | Chenxin An, Jiangtao Feng, Kai Lv, Lingpeng Kong, Xipeng Qiu, Xuanjing Huang | cs.CL | 2022-05-29 |
+| [Controllable Text Generation with Neurally-Decomposed Oracle](http://arxiv.org/abs/2205.14219v1) | Tao Meng, Sidi Lu, Nanyun Peng, Kai-Wei Chang | cs.CL | 2022-05-27 |
+| [Diffusion-LM Improves Controllable Text Generation](http://arxiv.org/abs/2205.14217v1) | Xiang Lisa Li, John Thickstun, Ishaan Gulrajani, Percy Liang, Tatsunori B. Hashimoto | cs.CL, cs.AI, cs.LG | 2022-05-27 |
 | [Revisiting Generative Commonsense Reasoning: A Pre-Ordering Approach](http://arxiv.org/abs/2205.13183v1) | Chao Zhao, Faeze Brahman, Tenghao Huang, Snigdha Chaturvedi | cs.CL | 2022-05-26 |
 | [Automatic question generation based on sentence structure analysis using  machine learning approach](http://arxiv.org/abs/2205.12811v1) | Miroslav Blšták, Viera Rozinajová | cs.CL, cs.AI | 2022-05-25 |
 | [PLOG: Table-to-Logic Pretraining for Logical Table-to-Text Generation](http://arxiv.org/abs/2205.12697v1) | Ao Liu, Haoyu Dong, Naoaki Okazaki, Shi Han, Dongmei Zhang | cs.CL | 2022-05-25 |

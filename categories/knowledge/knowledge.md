@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2022-05-29*
+*written on 2022-06-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Plot Writing From Pre-Trained Language Models](http://arxiv.org/abs/2206.03021v1) | Yiping Jin, Vishakha Kadam, Dittaya Wanvarie | cs.CL | 2022-06-07 |
+| [Enhancing Dual-Encoders with Question and Answer Cross-Embeddings for  Answer Retrieval](http://arxiv.org/abs/2206.02978v1) | Yanmeng Wang, Jun Bai, Ye Wang, Jianfei Zhang, Wenge Rong, Zongcheng Ji, Shaojun Wang, Jing Xiao | cs.CL, cs.AI | 2022-06-07 |
+| [Dict-TTS: Learning to Pronounce with Prior Dictionary Knowledge for  Text-to-Speech](http://arxiv.org/abs/2206.02147v1) | Ziyue Jiang, Su Zhe, Zhou Zhao, Qian Yang, Yi Ren, Jinglin Liu, Zhenhui Ye | eess.AS, cs.CL, cs.SD | 2022-06-05 |
+| [Beyond Opinion Mining: Summarizing Opinions of Customer Reviews](http://arxiv.org/abs/2206.01543v1) | Reinald Kim Amplayo, Arthur Bražinskas, Yoshi Suhara, Xiaolan Wang, Bing Liu | cs.CL, cs.AI, cs.LG | 2022-06-03 |
 | [Revisiting Generative Commonsense Reasoning: A Pre-Ordering Approach](http://arxiv.org/abs/2205.13183v1) | Chao Zhao, Faeze Brahman, Tenghao Huang, Snigdha Chaturvedi | cs.CL | 2022-05-26 |
 | [Automatic question generation based on sentence structure analysis using  machine learning approach](http://arxiv.org/abs/2205.12811v1) | Miroslav Blšták, Viera Rozinajová | cs.CL, cs.AI | 2022-05-25 |
 | [PLOG: Table-to-Logic Pretraining for Logical Table-to-Text Generation](http://arxiv.org/abs/2205.12697v1) | Ao Liu, Haoyu Dong, Naoaki Okazaki, Shi Han, Dongmei Zhang | cs.CL | 2022-05-25 |

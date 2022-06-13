@@ -1,4 +1,158 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+A Benchmark for Federated Hetero-Task Learning,2022-06-07 16:43:09+00:00,http://arxiv.org/abs/2206.03436v2,"Liuyi Yao, Dawei Gao, Zhen Wang, Yuexiang Xie, Weirui Kuang, Daoyuan Chen, Haohui Wang, Chenhe Dong, Bolin Ding, Yaliang Li",cs.LG,table2text,"To investigate the heterogeneity in federated learning in real-world
+scenarios, we generalize the classic federated learning to federated
+hetero-task learning, which emphasizes the inconsistency across the
+participants in federated learning in terms of both data distribution and
+learning tasks. We also present B-FHTL, a federated hetero-task learning
+benchmark consisting of simulation dataset, FL protocols and a unified
+evaluation mechanism. B-FHTL dataset contains three well-designed federated
+learning tasks with increasing heterogeneity. Each task simulates the clients
+with different non-IID data and learning tasks. To ensure fair comparison among
+different FL algorithms, B-FHTL builds in a full suite of FL protocols by
+providing high-level APIs to avoid privacy leakage, and presets most common
+evaluation metrics spanning across different learning tasks, such as
+regression, classification, text generation and etc. Furthermore, we compare
+the FL algorithms in fields of federated multi-task learning, federated
+personalization and federated meta learning within B-FHTL, and highlight the
+influence of heterogeneity and difficulties of federated hetero-task learning.
+Our benchmark, including the federated dataset, protocols, the evaluation
+mechanism and the preliminary experiment, is open-sourced at
+https://github.com/alibaba/FederatedScope/tree/master/benchmark/B-FHTL",2022-06-07
+DeepCAVE: An Interactive Analysis Tool for Automated Machine Learning,2022-06-07 12:59:39+00:00,http://arxiv.org/abs/2206.03493v1,"René Sass, Eddie Bergman, André Biedenkapp, Frank Hutter, Marius Lindauer",cs.LG,table2text,"Automated Machine Learning (AutoML) is used more than ever before to support
+users in determining efficient hyperparameters, neural architectures, or even
+full machine learning pipelines. However, users tend to mistrust the
+optimization process and its results due to a lack of transparency, making
+manual tuning still widespread. We introduce DeepCAVE, an interactive framework
+to analyze and monitor state-of-the-art optimization procedures for AutoML
+easily and ad hoc. By aiming for full and accessible transparency, DeepCAVE
+builds a bridge between users and AutoML and contributes to establishing trust.
+Our framework's modular and easy-to-extend nature provides users with
+automatically generated text, tables, and graphic visualizations. We show the
+value of DeepCAVE in an exemplary use-case of outlier detection, in which our
+framework makes it easy to identify problems, compare multiple runs and
+interpret optimization processes. The package is freely available on GitHub
+https://github.com/automl/DeepCAVE.",2022-06-07
+Plot Writing From Pre-Trained Language Models,2022-06-07 05:30:46+00:00,http://arxiv.org/abs/2206.03021v1,"Yiping Jin, Vishakha Kadam, Dittaya Wanvarie",cs.CL,table2text,"Pre-trained language models (PLMs) fail to generate long-form narrative text
+because they do not consider global structure. As a result, the generated texts
+are often incohesive, repetitive, or lack content. Recent work in story
+generation reintroduced explicit content planning in the form of prompts,
+keywords, or semantic frames. Trained on large parallel corpora, these models
+can generate more logical event sequences and thus more contentful stories.
+However, these intermediate representations are often not in natural language
+and cannot be utilized by PLMs without fine-tuning. We propose generating story
+plots using off-the-shelf PLMs while maintaining the benefit of content
+planning to generate cohesive and contentful stories. Our proposed method,
+ScratchPlot, first prompts a PLM to compose a content plan. Then, we generate
+the story's body and ending conditioned on the content plan. Furthermore, we
+take a generate-and-rank approach by using additional PLMs to rank the
+generated (story, ending) pairs. We benchmark our method with various baselines
+and achieved superior results in both human and automatic evaluation.",2022-06-07
+"Curriculum-Based Self-Training Makes Better Few-Shot Learners for
+  Data-to-Text Generation",2022-06-06 16:11:58+00:00,http://arxiv.org/abs/2206.02712v1,"Pei Ke, Haozhe Ji, Zhenyu Yang, Yi Huang, Junlan Feng, Xiaoyan Zhu, Minlie Huang",cs.CL,table2text,"Despite the success of text-to-text pre-trained models in various natural
+language generation (NLG) tasks, the generation performance is largely
+restricted by the number of labeled data in downstream tasks, particularly in
+data-to-text generation tasks. Existing works mostly utilize abundant unlabeled
+structured data to conduct unsupervised pre-training for task adaption, which
+fail to model the complex relationship between source structured data and
+target texts. Thus, we introduce self-training as a better few-shot learner
+than task-adaptive pre-training, which explicitly captures this relationship
+via pseudo-labeled data generated by the pre-trained model. To alleviate the
+side-effect of low-quality pseudo-labeled data during self-training, we propose
+a novel method called Curriculum-Based Self-Training (CBST) to effectively
+leverage unlabeled data in a rearranged order determined by the difficulty of
+text generation. Experimental results show that our method can outperform
+fine-tuning and task-adaptive pre-training methods, and achieve
+state-of-the-art performance in the few-shot setting of data-to-text
+generation.",2022-06-06
+"Learning to Break the Loop: Analyzing and Mitigating Repetitions for
+  Neural Text Generation",2022-06-06 05:51:12+00:00,http://arxiv.org/abs/2206.02369v1,"Jin Xu, Xiaojiang Liu, Jianhao Yan, Deng Cai, Huayang Li, Jian Li",cs.CL,table2text,"While large-scale neural language models, such as GPT2 and BART, have
+achieved impressive results on various text generation tasks, they tend to get
+stuck in undesirable sentence-level loops with maximization-based decoding
+algorithms (\textit{e.g.}, greedy search). This phenomenon is counter-intuitive
+since there are few consecutive sentence-level repetitions in human corpora
+(e.g., 0.02\% in Wikitext-103). To investigate the underlying reasons for
+generating consecutive sentence-level repetitions, we study the relationship
+between the probabilities of the repetitive tokens and their previous
+repetitions in the context. Through our quantitative experiments, we find that
+1) Language models have a preference to repeat the previous sentence; 2) The
+sentence-level repetitions have a \textit{self-reinforcement effect}: the more
+times a sentence is repeated in the context, the higher the probability of
+continuing to generate that sentence; 3) The sentences with higher initial
+probabilities usually have a stronger self-reinforcement effect. Motivated by
+our findings, we propose a simple and effective training method \textbf{DITTO}
+(Pseu\underline{D}o-Repet\underline{IT}ion
+Penaliza\underline{T}i\underline{O}n), where the model learns to penalize
+probabilities of sentence-level repetitions from pseudo repetitive data.
+Although our method is motivated by mitigating repetitions, experiments show
+that DITTO not only mitigates the repetition issue without sacrificing
+perplexity, but also achieves better generation quality. Extensive experiments
+on open-ended text generation (Wikitext-103) and text summarization
+(CNN/DailyMail) demonstrate the generality and effectiveness of our method.",2022-06-06
+"Dict-TTS: Learning to Pronounce with Prior Dictionary Knowledge for
+  Text-to-Speech",2022-06-05 10:50:34+00:00,http://arxiv.org/abs/2206.02147v1,"Ziyue Jiang, Su Zhe, Zhou Zhao, Qian Yang, Yi Ren, Jinglin Liu, Zhenhui Ye","eess.AS, cs.CL, cs.SD",table2text,"Polyphone disambiguation aims to capture accurate pronunciation knowledge
+from natural text sequences for reliable Text-to-speech (TTS) systems. However,
+previous approaches require substantial annotated training data and additional
+efforts from language experts, making it difficult to extend high-quality
+neural TTS systems to out-of-domain daily conversations and countless languages
+worldwide. This paper tackles the polyphone disambiguation problem from a
+concise and novel perspective: we propose Dict-TTS, a semantic-aware generative
+text-to-speech model with an online website dictionary (the existing prior
+information in the natural language). Specifically, we design a
+semantics-to-pronunciation attention (S2PA) module to match the semantic
+patterns between the input text sequence and the prior semantics in the
+dictionary and obtain the corresponding pronunciations; The S2PA module can be
+easily trained with the end-to-end TTS model without any annotated phoneme
+labels. Experimental results in three languages show that our model outperforms
+several strong baseline models in terms of pronunciation accuracy and improves
+the prosody modeling of TTS systems. Further extensive analyses with different
+linguistic encoders demonstrate that each design in Dict-TTS is effective.
+Audio samples are available at \url{https://dicttts.github.io/DictTTS-Demo/}.",2022-06-05
+CoNT: Contrastive Neural Text Generation,2022-05-29 15:18:37+00:00,http://arxiv.org/abs/2205.14690v1,"Chenxin An, Jiangtao Feng, Kai Lv, Lingpeng Kong, Xipeng Qiu, Xuanjing Huang",cs.CL,table2text,"Recently, contrastive learning attracts increasing interests in neural text
+generation as a new solution to alleviate the exposure bias problem. It
+introduces a sequence-level training signal which is crucial to generation
+tasks that always rely on auto-regressive decoding. However, previous methods
+using contrastive learning in neural text generation usually lead to inferior
+performance. In this paper, we analyse the underlying reasons and propose a new
+Contrastive Neural Text generation framework, CoNT. CoNT addresses bottlenecks
+that prevent contrastive learning from being widely adopted in generation tasks
+from three aspects -- the construction of contrastive examples, the choice of
+the contrastive loss, and the strategy in decoding. We validate CoNT on five
+generation tasks with ten benchmarks, including machine translation,
+summarization, code comment generation, data-to-text generation and commonsense
+generation. Experimental results show that CoNT clearly outperforms the
+conventional training framework on all the ten benchmarks with a convincing
+margin. Especially, CoNT surpasses previous the most competitive contrastive
+learning method for text generation, by 1.50 BLEU on machine translation and
+1.77 ROUGE-1 on summarization, respectively. It achieves new state-of-the-art
+on summarization, code comment generation (without external data) and
+data-to-text generation.",2022-05-29
+Controllable Text Generation with Neurally-Decomposed Oracle,2022-05-27 20:17:53+00:00,http://arxiv.org/abs/2205.14219v1,"Tao Meng, Sidi Lu, Nanyun Peng, Kai-Wei Chang",cs.CL,table2text,"We propose a general and efficient framework to control auto-regressive
+generation models with NeurAlly-Decomposed Oracle (NADO). Given a pre-trained
+base language model and a sequence-level boolean oracle function, we propose to
+decompose the oracle function into token-level guidance to steer the base model
+in text generation. Specifically, the token-level guidance is approximated by a
+neural model trained with examples sampled from the base model, demanding no
+additional auxiliary labeled data. We present the closed-form optimal solution
+to incorporate the token-level guidance into the base model for controllable
+generation. We further provide a theoretical analysis of how the approximation
+quality of NADO affects the controllable generation results. Experiments
+conducted on two applications: (1) text generation with lexical constraints and
+(2) machine translation with formality control demonstrate that our framework
+efficiently guides the base model towards the given oracle while maintaining
+high generation quality.",2022-05-27
+Diffusion-LM Improves Controllable Text Generation,2022-05-27 20:12:09+00:00,http://arxiv.org/abs/2205.14217v1,"Xiang Lisa Li, John Thickstun, Ishaan Gulrajani, Percy Liang, Tatsunori B. Hashimoto","cs.CL, cs.AI, cs.LG",table2text,"Controlling the behavior of language models (LMs) without re-training is a
+major open problem in natural language generation. While recent works have
+demonstrated successes on controlling simple sentence attributes (e.g.,
+sentiment), there has been little progress on complex, fine-grained controls
+(e.g., syntactic structure). To address this challenge, we develop a new
+non-autoregressive language model based on continuous diffusions that we call
+Diffusion-LM. Building upon the recent successes of diffusion models in
+continuous domains, Diffusion-LM iteratively denoises a sequence of Gaussian
+vectors into word vectors, yielding a sequence of intermediate latent
+variables. The continuous, hierarchical nature of these intermediate variables
+enables a simple gradient-based algorithm to perform complex, controllable
+generation tasks. We demonstrate successful control of Diffusion-LM for six
+challenging fine-grained control tasks, significantly outperforming prior work.",2022-05-27
 Revisiting Generative Commonsense Reasoning: A Pre-Ordering Approach,2022-05-26 06:36:53+00:00,http://arxiv.org/abs/2205.13183v1,"Chao Zhao, Faeze Brahman, Tenghao Huang, Snigdha Chaturvedi",cs.CL,table2text,"Pre-trained models (PTMs) have lead to great improvements in natural language
 generation (NLG). However, it is still unclear how much commonsense knowledge
 they possess. With the goal of evaluating commonsense knowledge of NLG models,
