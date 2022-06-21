@@ -6,10 +6,12 @@ sidebar:
 ---
 
 
-*written on 2022-06-13*
+*written on 2022-06-21*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Interpretable AMR-Based Question Decomposition for Multi-hop Question  Answering](http://arxiv.org/abs/2206.08486v1) | Zhenyun Deng, Yonghua Zhu, Yang Chen, Michael Witbrock, Patricia Riddle | cs.CL | 2022-06-16 |
+| [An Exploration of Post-Editing Effectiveness in Text Summarization](http://arxiv.org/abs/2206.06383v1) | Vivian Lai, Alison Smith-Renner, Ke Zhang, Ruijia Cheng, Wenjuan Zhang, Joel Tetreault, Alejandro Jaimes | cs.CL, cs.AI, cs.HC | 2022-06-13 |
 | [Plot Writing From Pre-Trained Language Models](http://arxiv.org/abs/2206.03021v1) | Yiping Jin, Vishakha Kadam, Dittaya Wanvarie | cs.CL | 2022-06-07 |
 | [Enhancing Dual-Encoders with Question and Answer Cross-Embeddings for  Answer Retrieval](http://arxiv.org/abs/2206.02978v1) | Yanmeng Wang, Jun Bai, Ye Wang, Jianfei Zhang, Wenge Rong, Zongcheng Ji, Shaojun Wang, Jing Xiao | cs.CL, cs.AI | 2022-06-07 |
 | [Dict-TTS: Learning to Pronounce with Prior Dictionary Knowledge for  Text-to-Speech](http://arxiv.org/abs/2206.02147v1) | Ziyue Jiang, Su Zhe, Zhou Zhao, Qian Yang, Yi Ren, Jinglin Liu, Zhenhui Ye | eess.AS, cs.CL, cs.SD | 2022-06-05 |

@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2022-05-29*
+*written on 2022-06-21*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [niksss at HinglishEval: Language-agnostic BERT-based Contextual  Embeddings with Catboost for Quality Evaluation of the Low-Resource  Synthetically Generated Code-Mixed Hinglish Text](http://arxiv.org/abs/2206.08910v1) | Nikhil Singh | cs.CL | 2022-06-17 |
+| [Prefix Language Models are Unified Modal Learners](http://arxiv.org/abs/2206.07699v1) | Shizhe Diao, Wangchunshu Zhou, Xinsong Zhang, Jiawei Wang | cs.CV, cs.CL, cs.LG | 2022-06-15 |
 | [Exploring industrial safety knowledge via Zipf law](http://arxiv.org/abs/2205.12636v1) | Zhenhua Wang, Ming Ren, Dong Gao, Zhuang Li | cs.CL | 2022-05-25 |
 | [The Dialog Must Go On: Improving Visual Dialog via Generative  Self-Training](http://arxiv.org/abs/2205.12502v1) | Gi-Cheon Kang, Sungdong Kim, Jin-Hwa Kim, Donghyun Kwak, Byoung-Tak Zhang | cs.CV, cs.CL, cs.LG | 2022-05-25 |
 | [Rethinking Evaluation Practices in Visual Question Answering: A Case  Study on Out-of-Distribution Generalization](http://arxiv.org/abs/2205.12191v1) | Aishwarya Agrawal, Ivana Kajić, Emanuele Bugliarello, Elnaz Davoodi, Anita Gergely, Phil Blunsom, Aida Nematzadeh | cs.CL, cs.AI, cs.CV, cs.LG | 2022-05-24 |
