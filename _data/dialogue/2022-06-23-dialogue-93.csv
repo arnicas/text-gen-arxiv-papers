@@ -1,4 +1,66 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Comparing informativeness of an NLG chatbot vs graphical app in
+  diet-information domain",2022-06-23 07:15:58+00:00,http://arxiv.org/abs/2206.13435v1,"Simone Balloccu, Ehud Reiter","cs.CL, cs.AI",dialogue,"Visual representation of data like charts and tables can be challenging to
+understand for readers. Previous work showed that combining visualisations with
+text can improve the communication of insights in static contexts, but little
+is known about interactive ones. In this work we present an NLG chatbot that
+processes natural language queries and provides insights through a combination
+of charts and text. We apply it to nutrition, a domain communication quality is
+critical. Through crowd-sourced evaluation we compare the informativeness of
+our chatbot against traditional, static diet-apps. We find that the
+conversational context significantly improved users' understanding of dietary
+data in various tasks, and that users considered the chatbot as more useful and
+quick to use than traditional apps.",2022-06-23
+"Automatic Summarization of Russian Texts: Comparison of Extractive and
+  Abstractive Methods",2022-06-18 17:28:04+00:00,http://arxiv.org/abs/2206.09253v1,"Valeriya Goloviznina, Evgeny Kotelnikov",cs.CL,dialogue,"The development of large and super-large language models, such as GPT-3, T5,
+Switch Transformer, ERNIE, etc., has significantly improved the performance of
+text generation. One of the important research directions in this area is the
+generation of texts with arguments. The solution of this problem can be used in
+business meetings, political debates, dialogue systems, for preparation of
+student essays. One of the main domains for these applications is the economic
+sphere. The key problem of the argument text generation for the Russian
+language is the lack of annotated argumentation corpora. In this paper, we use
+translated versions of the Argumentative Microtext, Persuasive Essays and UKP
+Sentential corpora to fine-tune RuBERT model. Further, this model is used to
+annotate the corpus of economic news by argumentation. Then the annotated
+corpus is employed to fine-tune the ruGPT-3 model, which generates argument
+texts. The results show that this approach improves the accuracy of the
+argument generation by more than 20 percentage points (63.2% vs. 42.5%)
+compared to the original ruGPT-3 model.",2022-06-18
+Argumentative Text Generation in Economic Domain,2022-06-18 17:22:06+00:00,http://arxiv.org/abs/2206.09251v1,"Irina Fishcheva, Dmitriy Osadchiy, Klavdiya Bochenina, Evgeny Kotelnikov",cs.CL,dialogue,"The development of large and super-large language models, such as GPT-3, T5,
+Switch Transformer, ERNIE, etc., has significantly improved the performance of
+text generation. One of the important research directions in this area is the
+generation of texts with arguments. The solution of this problem can be used in
+business meetings, political debates, dialogue systems, for preparation of
+student essays. One of the main domains for these applications is the economic
+sphere. The key problem of the argument text generation for the Russian
+language is the lack of annotated argumentation corpora. In this paper, we use
+translated versions of the Argumentative Microtext, Persuasive Essays and UKP
+Sentential corpora to fine-tune RuBERT model. Further, this model is used to
+annotate the corpus of economic news by argumentation. Then the annotated
+corpus is employed to fine-tune the ruGPT-3 model, which generates argument
+texts. The results show that this approach improves the accuracy of the
+argument generation by more than 20 percentage points (63.2\% vs. 42.5\%)
+compared to the original ruGPT-3 model.",2022-06-18
+"Offline RL for Natural Language Generation with Implicit Language Q
+  Learning",2022-06-05 18:38:42+00:00,http://arxiv.org/abs/2206.11871v1,"Charlie Snell, Ilya Kostrikov, Yi Su, Mengjiao Yang, Sergey Levine","cs.CL, cs.LG",dialogue,"Large language models distill broad knowledge from text corpora. However,
+they can be inconsistent when it comes to completing user specified tasks. This
+issue can be addressed by finetuning such models via supervised learning on
+curated datasets, or via reinforcement learning. In this work, we propose a
+novel offline RL motivated method, implicit language Q-learning (ILQL),
+designed for use on language models, that combines both the flexible utility
+optimization framework of traditional RL algorithms with supervised learning's
+ability to leverage existing data and its simplicity and stability. Our method,
+based on dynamic programming, employs a blend of value conservatism alongside
+an implicit dataset support constraint in learning value functions, which are
+then used to guide language model generations towards maximizing utility. In
+addition to empirically validating ILQL, we present a detailed empirical
+analysis of situations where offline RL can be useful in natural language
+generation settings, demonstrating how it can be a more effective utility
+optimizer than prior approaches for end-to-end dialogue, and how it can
+effectively optimize high variance reward functions based on subjective
+judgement, such as whether to label a comment as an example of toxic speech or
+not.",2022-06-05
 "Dict-TTS: Learning to Pronounce with Prior Dictionary Knowledge for
   Text-to-Speech",2022-06-05 10:50:34+00:00,http://arxiv.org/abs/2206.02147v1,"Ziyue Jiang, Su Zhe, Zhou Zhao, Qian Yang, Yi Ren, Jinglin Liu, Zhenhui Ye","eess.AS, cs.CL, cs.SD",dialogue,"Polyphone disambiguation aims to capture accurate pronunciation knowledge
 from natural text sequences for reliable Text-to-speech (TTS) systems. However,

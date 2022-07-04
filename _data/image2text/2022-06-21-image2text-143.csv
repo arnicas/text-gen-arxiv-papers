@@ -1,4 +1,19 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Automatic Controllable Product Copywriting for E-Commerce,2022-06-21 04:18:52+00:00,http://arxiv.org/abs/2206.10103v1,"Xiaojie Guo, Qingkai Zeng, Meng Jiang, Yun Xiao, Bo Long, Lingfei Wu","cs.AI, cs.LG",image2text,"Automatic product description generation for e-commerce has witnessed
+significant advancement in the past decade. Product copywriting aims to attract
+users' interest and improve user experience by highlighting product
+characteristics with textual descriptions. As the services provided by
+e-commerce platforms become diverse, it is necessary to adapt the patterns of
+automatically-generated descriptions dynamically. In this paper, we report our
+experience in deploying an E-commerce Prefix-based Controllable Copywriting
+Generation (EPCCG) system into the JD.com e-commerce product recommendation
+platform. The development of the system contains two main components: 1)
+copywriting aspect extraction; 2) weakly supervised aspect labeling; 3) text
+generation with a prefix-based language model; 4) copywriting quality control.
+We conduct experiments to validate the effectiveness of the proposed EPCCG. In
+addition, we introduce the deployed architecture which cooperates with the
+EPCCG into the real-time JD.com e-commerce recommendation platform and the
+significant payoff since deployment.",2022-06-21
 "niksss at HinglishEval: Language-agnostic BERT-based Contextual
   Embeddings with Catboost for Quality Evaluation of the Low-Resource
   Synthetically Generated Code-Mixed Hinglish Text",2022-06-17 17:36:03+00:00,http://arxiv.org/abs/2206.08910v1,Nikhil Singh,cs.CL,image2text,"This paper describes the system description for the HinglishEval challenge at

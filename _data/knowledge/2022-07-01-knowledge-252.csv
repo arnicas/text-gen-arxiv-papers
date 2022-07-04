@@ -1,4 +1,60 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Is neural language acquisition similar to natural? A chronological
+  probing study",2022-07-01 17:24:11+00:00,http://arxiv.org/abs/2207.00560v1,"Ekaterina Voloshina, Oleg Serikov, Tatiana Shavrina",cs.CL,knowledge,"The probing methodology allows one to obtain a partial representation of
+linguistic phenomena stored in the inner layers of the neural network, using
+external classifiers and statistical analysis. Pre-trained transformer-based
+language models are widely used both for natural language understanding (NLU)
+and natural language generation (NLG) tasks making them most commonly used for
+downstream applications. However, little analysis was carried out, whether the
+models were pre-trained enough or contained knowledge correlated with
+linguistic theory. We are presenting the chronological probing study of
+transformer English models such as MultiBERT and T5. We sequentially compare
+the information about the language learned by the models in the process of
+training on corpora. The results show that 1) linguistic information is
+acquired in the early stages of training 2) both language models demonstrate
+capabilities to capture various features from various levels of language,
+including morphology, syntax, and even discourse, while they also can
+inconsistently fail on tasks that are perceived as easy. We also introduce the
+open-source framework for chronological probing research, compatible with other
+transformer-based models.
+https://github.com/EkaterinaVoloshina/chronological_probing",2022-07-01
+Evaluation of Semantic Answer Similarity Metrics,2022-06-25 14:40:36+00:00,http://arxiv.org/abs/2206.12664v1,"Farida Mustafazade, Peter F. Ebbinghaus","cs.CL, cs.AI, cs.LG",knowledge,"There are several issues with the existing general machine translation or
+natural language generation evaluation metrics, and question-answering (QA)
+systems are indifferent in that context. To build robust QA systems, we need
+the ability to have equivalently robust evaluation systems to verify whether
+model predictions to questions are similar to ground-truth annotations. The
+ability to compare similarity based on semantics as opposed to pure string
+overlap is important to compare models fairly and to indicate more realistic
+acceptance criteria in real-life applications. We build upon the first to our
+knowledge paper that uses transformer-based model metrics to assess semantic
+answer similarity and achieve higher correlations to human judgement in the
+case of no lexical overlap. We propose cross-encoder augmented bi-encoder and
+BERTScore models for semantic answer similarity, trained on a new dataset
+consisting of name pairs of US-American public figures. As far as we are
+concerned, we provide the first dataset of co-referent name string pairs along
+with their similarities, which can be used for training.
+  Machine Learning & Applications 4th International Conference on Machine
+Learning & Applications (CMLA 2022) June 25~26, 2022, Copenhagen, Denmark
+Volume Editors : David C. Wyld, Dhinaharan Nagamalai (Eds) ISBN :
+978-1-925953-69-5",2022-06-25
+"BenchCLAMP: A Benchmark for Evaluating Language Models on Semantic
+  Parsing",2022-06-21 18:34:11+00:00,http://arxiv.org/abs/2206.10668v1,"Subhro Roy, Sam Thomson, Tongfei Chen, Richard Shin, Adam Pauls, Jason Eisner, Benjamin Van Durme",cs.CL,knowledge,"We introduce BenchCLAMP, a Benchmark to evaluate Constrained LAnguage Model
+Parsing, which produces semantic outputs based on the analysis of input text
+through constrained decoding of a prompted or fine-tuned language model.
+Developers of pretrained language models currently benchmark on classification,
+span extraction and free-text generation tasks. Semantic parsing is neglected
+in language model evaluation because of the complexity of handling
+task-specific architectures and representations. Recent work has shown that
+generation from a prompted or fine-tuned language model can perform well at
+semantic parsing when the output is constrained to be a valid semantic
+representation. BenchCLAMP includes context-free grammars for six semantic
+parsing datasets with varied output meaning representations, as well as a
+constrained decoding interface to generate outputs covered by these grammars.
+We provide low, medium, and high resource splits for each dataset, allowing
+accurate comparison of various language models under different data regimes.
+Our benchmark supports both prompt-based learning as well as fine-tuning, and
+provides an easy-to-use toolkit for language model developers to evaluate on
+semantic parsing.",2022-06-21
 "Interpretable AMR-Based Question Decomposition for Multi-hop Question
   Answering",2022-06-16 23:46:33+00:00,http://arxiv.org/abs/2206.08486v1,"Zhenyun Deng, Yonghua Zhu, Yang Chen, Michael Witbrock, Patricia Riddle",cs.CL,knowledge,"Effective multi-hop question answering (QA) requires reasoning over multiple
 scattered paragraphs and providing explanations for answers. Most existing

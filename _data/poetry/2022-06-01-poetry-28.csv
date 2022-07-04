@@ -1,4 +1,13 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Romantic-Computing,2022-06-01 14:27:17+00:00,http://arxiv.org/abs/2206.11864v1,Elizabeth Horishny,"cs.CL, cs.AI",poetry,"In this paper we compare various text generation models' ability to write
+poetry in the style of early English Romanticism. These models include:
+Character-Level Recurrent Neural Networks with Long Short-Term Memory, Hugging
+Face's GPT-2, OpenAI's GPT-3, and EleutherAI's GPT-NEO. Quality was measured
+based syllable count and coherence with the automatic evaluation metric GRUEN.
+Character-Level Recurrent Neural Networks performed far worse compared to
+transformer models. And, as parameter-size increased, the quality of
+transformer models' poems improved. These models are typically not compared in
+a creative context, and we are happy to contribute.",2022-06-01
 GPoeT-2: A GPT-2 Based Poem Generator,2022-05-18 10:25:12+00:00,http://arxiv.org/abs/2205.08847v1,"Kai-Ling Lo, Rami Ariss, Philipp Kurz","cs.CL, cs.AI",poetry,"This project aims to produce the next volume of machine-generated poetry, a
 complex art form that can be structured and unstructured, and carries depth in
 the meaning between the lines. GPoeT-2 is based on fine-tuning a state of the

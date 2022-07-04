@@ -1,4 +1,109 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Mapping the Design Space of Human-AI Interaction in Text Summarization,2022-06-29 19:03:25+00:00,http://arxiv.org/abs/2206.14863v1,"Ruijia Cheng, Alison Smith-Renner, Ke Zhang, Joel R. Tetreault, Alejandro Jaimes",cs.HC,table2text,"Automatic text summarization systems commonly involve humans for preparing
+data or evaluating model performance, yet, there lacks a systematic
+understanding of humans' roles, experience, and needs when interacting with or
+being assisted by AI. From a human-centered perspective, we map the design
+opportunities and considerations for human-AI interaction in text summarization
+and broader text generation tasks. We first conducted a systematic literature
+review of 70 papers, developing a taxonomy of five interactions in AI-assisted
+text generation and relevant design dimensions. We designed text summarization
+prototypes for each interaction. We then interviewed 16 users, aided by the
+prototypes, to understand their expectations, experience, and needs regarding
+efficiency, control, and trust with AI in text summarization and propose design
+considerations accordingly.",2022-06-29
+Joint Generator-Ranker Learning for Natural Language Generation,2022-06-28 12:58:30+00:00,http://arxiv.org/abs/2206.13974v1,"Weizhou Shen, Yeyun Gong, Yelong Shen, Song Wang, Xiaojun Quan, Nan Duan, Weizhu Chen",cs.CL,table2text,"Due to exposure bias, most existing natural language generation (NLG) models
+trained by maximizing the likelihood objective predict poor text results during
+the inference stage. In this paper, to tackle this problem, we revisit the
+generate-then-rank framework and propose a joint generator-ranker (JGR)
+training algorithm for text generation tasks. In JGR, the generator model is
+trained by maximizing two objectives: the likelihood of the training corpus and
+the expected reward given by the ranker model. Meanwhile, the ranker model
+takes input samples from the generator model and learns to distinguish good
+samples from the generation pool. The generator and ranker models are
+alternately optimized till convergence. In the empirical study, the proposed
+JGR model achieves new state-of-the-art performance on five public benchmarks
+covering three popular generation tasks: summarization, question generation,
+and response generation. We will make code, data, and models available at
+https://github.com/microsoft/AdvNLG.",2022-06-28
+Megapixel Image Generation with Step-Unrolled Denoising Autoencoders,2022-06-24 15:47:42+00:00,http://arxiv.org/abs/2206.12351v1,"Alex F. McKinney, Chris G. Willcocks","cs.CV, cs.LG",table2text,"An ongoing trend in generative modelling research has been to push sample
+resolutions higher whilst simultaneously reducing computational requirements
+for training and sampling. We aim to push this trend further via the
+combination of techniques - each component representing the current pinnacle of
+efficiency in their respective areas. These include vector-quantized GAN
+(VQ-GAN), a vector-quantization (VQ) model capable of high levels of lossy -
+but perceptually insignificant - compression; hourglass transformers, a highly
+scaleable self-attention model; and step-unrolled denoising autoencoders
+(SUNDAE), a non-autoregressive (NAR) text generative model. Unexpectedly, our
+method highlights weaknesses in the original formulation of hourglass
+transformers when applied to multidimensional data. In light of this, we
+propose modifications to the resampling mechanism, applicable in any task
+applying hierarchical transformers to multidimensional data. Additionally, we
+demonstrate the scalability of SUNDAE to long sequence lengths - four times
+longer than prior work. Our proposed framework scales to high-resolutions
+($1024 \times 1024$) and trains quickly (2-4 days). Crucially, the trained
+model produces diverse and realistic megapixel samples in approximately 2
+seconds on a consumer-grade GPU (GTX 1080Ti). In general, the framework is
+flexible: supporting an arbitrary number of sampling steps, sample-wise
+self-stopping, self-correction capabilities, conditional generation, and a NAR
+formulation that allows for arbitrary inpainting masks. We obtain FID scores of
+10.56 on FFHQ256 - close to the original VQ-GAN in less than half the sampling
+steps - and 21.85 on FFHQ1024 in only 100 sampling steps.",2022-06-24
+MVP: Multi-task Supervised Pre-training for Natural Language Generation,2022-06-24 07:49:47+00:00,http://arxiv.org/abs/2206.12131v1,"Tianyi Tang, Junyi Li, Wayne Xin Zhao, Ji-Rong Wen",cs.CL,table2text,"Pre-trained language models (PLMs) have achieved notable success in natural
+language generation (NLG) tasks. Up to now, most of the PLMs are pre-trained in
+an unsupervised manner using large-scale general corpus. In the meanwhile, an
+increasing number of models pre-trained with less labeled data showcase
+superior performance compared to unsupervised models. Motivated by the success
+of supervised pre-training, we propose Multi-task superVised Pre-training (MVP)
+for natural language generation. For pre-training the text generation model
+MVP, we collect a labeled pre-training corpus from 45 datasets over seven
+generation tasks. For each task, we further pre-train specific soft prompts to
+stimulate the model capacity in performing a specific task. Extensive
+experiments have demonstrated the effectiveness of our supervised pre-training
+in a number of NLG tasks, and our general methods achieve state-of-the-art
+performance on 12 of 17 datasets.",2022-06-24
+"Comparing informativeness of an NLG chatbot vs graphical app in
+  diet-information domain",2022-06-23 07:15:58+00:00,http://arxiv.org/abs/2206.13435v1,"Simone Balloccu, Ehud Reiter","cs.CL, cs.AI",table2text,"Visual representation of data like charts and tables can be challenging to
+understand for readers. Previous work showed that combining visualisations with
+text can improve the communication of insights in static contexts, but little
+is known about interactive ones. In this work we present an NLG chatbot that
+processes natural language queries and provides insights through a combination
+of charts and text. We apply it to nutrition, a domain communication quality is
+critical. Through crowd-sourced evaluation we compare the informativeness of
+our chatbot against traditional, static diet-apps. We find that the
+conversational context significantly improved users' understanding of dietary
+data in various tasks, and that users considered the chatbot as more useful and
+quick to use than traditional apps.",2022-06-23
+GEMv2: Multilingual NLG Benchmarking in a Single Line of Code,2022-06-22 17:52:30+00:00,http://arxiv.org/abs/2206.11249v3,"Sebastian Gehrmann, Abhik Bhattacharjee, Abinaya Mahendiran, Alex Wang, Alexandros Papangelis, Aman Madaan, Angelina McMillan-Major, Anna Shvets, Ashish Upadhyay, Bingsheng Yao, Bryan Wilie, Chandra Bhagavatula, Chaobin You, Craig Thomson, Cristina Garbacea, Dakuo Wang, Daniel Deutsch, Deyi Xiong, Di Jin, Dimitra Gkatzia, Dragomir Radev, Elizabeth Clark, Esin Durmus, Faisal Ladhak, Filip Ginter, Genta Indra Winata, Hendrik Strobelt, Hiroaki Hayashi, Jekaterina Novikova, Jenna Kanerva, Jenny Chim, Jiawei Zhou, Jordan Clive, Joshua Maynez, João Sedoc, Juraj Juraska, Kaustubh Dhole, Khyathi Raghavi Chandu, Laura Perez-Beltrachini, Leonardo F. R. Ribeiro, Lewis Tunstall, Li Zhang, Mahima Pushkarna, Mathias Creutz, Michael White, Mihir Sanjay Kale, Moussa Kamal Eddine, Nico Daheim, Nishant Subramani, Ondrej Dusek, Paul Pu Liang, Pawan Sasanka Ammanamanchi, Qi Zhu, Ratish Puduppully, Reno Kriz, Rifat Shahriyar, Ronald Cardenas, Saad Mahamood, Salomey Osei, Samuel Cahyawijaya, Sanja Štajner, Sebastien Montella, Shailza, Shailza Jolly, Simon Mille, Tahmid Hasan, Tianhao Shen, Tosin Adewumi, Vikas Raunak, Vipul Raheja, Vitaly Nikolaev, Vivian Tsai, Yacine Jernite, Ying Xu, Yisi Sang, Yixin Liu, Yufang Hou","cs.CL, cs.AI, cs.LG",table2text,"Evaluation in machine learning is usually informed by past choices, for
+example which datasets or metrics to use. This standardization enables the
+comparison on equal footing using leaderboards, but the evaluation choices
+become sub-optimal as better alternatives arise. This problem is especially
+pertinent in natural language generation which requires ever-improving suites
+of datasets, metrics, and human evaluation to make definitive claims. To make
+following best model evaluation practices easier, we introduce GEMv2. The new
+version of the Generation, Evaluation, and Metrics Benchmark introduces a
+modular infrastructure for dataset, model, and metric developers to benefit
+from each others work. GEMv2 supports 40 documented datasets in 51 languages.
+Models for all datasets can be evaluated online and our interactive data card
+creation and rendering tools make it easier to add new datasets to the living
+benchmark.",2022-06-22
+"BenchCLAMP: A Benchmark for Evaluating Language Models on Semantic
+  Parsing",2022-06-21 18:34:11+00:00,http://arxiv.org/abs/2206.10668v1,"Subhro Roy, Sam Thomson, Tongfei Chen, Richard Shin, Adam Pauls, Jason Eisner, Benjamin Van Durme",cs.CL,table2text,"We introduce BenchCLAMP, a Benchmark to evaluate Constrained LAnguage Model
+Parsing, which produces semantic outputs based on the analysis of input text
+through constrained decoding of a prompted or fine-tuned language model.
+Developers of pretrained language models currently benchmark on classification,
+span extraction and free-text generation tasks. Semantic parsing is neglected
+in language model evaluation because of the complexity of handling
+task-specific architectures and representations. Recent work has shown that
+generation from a prompted or fine-tuned language model can perform well at
+semantic parsing when the output is constrained to be a valid semantic
+representation. BenchCLAMP includes context-free grammars for six semantic
+parsing datasets with varied output meaning representations, as well as a
+constrained decoding interface to generate outputs covered by these grammars.
+We provide low, medium, and high resource splits for each dataset, allowing
+accurate comparison of various language models under different data regimes.
+Our benchmark supports both prompt-based learning as well as fine-tuning, and
+provides an easy-to-use toolkit for language model developers to evaluate on
+semantic parsing.",2022-06-21
 Prefix Language Models are Unified Modal Learners,2022-06-15 17:49:38+00:00,http://arxiv.org/abs/2206.07699v1,"Shizhe Diao, Wangchunshu Zhou, Xinsong Zhang, Jiawei Wang","cs.CV, cs.CL, cs.LG",table2text,"With the success of vision-language pre-training, we have witnessed the
 state-of-the-art has been pushed on multi-modal understanding and generation.
 However, the current pre-training paradigm is either incapable of targeting all

@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2022-06-21*
+*written on 2022-07-04*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Automatic Controllable Product Copywriting for E-Commerce](http://arxiv.org/abs/2206.10103v1) | Xiaojie Guo, Qingkai Zeng, Meng Jiang, Yun Xiao, Bo Long, Lingfei Wu | cs.AI, cs.LG | 2022-06-21 |
 | [niksss at HinglishEval: Language-agnostic BERT-based Contextual  Embeddings with Catboost for Quality Evaluation of the Low-Resource  Synthetically Generated Code-Mixed Hinglish Text](http://arxiv.org/abs/2206.08910v1) | Nikhil Singh | cs.CL | 2022-06-17 |
 | [Prefix Language Models are Unified Modal Learners](http://arxiv.org/abs/2206.07699v1) | Shizhe Diao, Wangchunshu Zhou, Xinsong Zhang, Jiawei Wang | cs.CV, cs.CL, cs.LG | 2022-06-15 |
 | [Exploring industrial safety knowledge via Zipf law](http://arxiv.org/abs/2205.12636v1) | Zhenhua Wang, Ming Ren, Dong Gao, Zhuang Li | cs.CL | 2022-05-25 |

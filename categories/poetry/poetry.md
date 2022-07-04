@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2022-05-29*
+*written on 2022-07-04*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Romantic-Computing](http://arxiv.org/abs/2206.11864v1) | Elizabeth Horishny | cs.CL, cs.AI | 2022-06-01 |
 | [GPoeT-2: A GPT-2 Based Poem Generator](http://arxiv.org/abs/2205.08847v1) | Kai-Ling Lo, Rami Ariss, Philipp Kurz | cs.CL, cs.AI | 2022-05-18 |
 | [Youling: an AI-Assisted Lyrics Creation System](http://arxiv.org/abs/2201.06724v1) | Rongsheng Zhang, Xiaoxi Mao, Le Li, Lin Jiang, Lin Chen, Zhiwei Hu, Yadong Xi, Changjie Fan, Minlie Huang | cs.CL | 2022-01-18 |
 | [Say What? Collaborative Pop Lyric Generation Using Multitask Transfer  Learning](http://arxiv.org/abs/2111.07592v1) | Naveen Ram, Tanay Gummadi, Rahul Bhethanabotla, Richard J. Savery, Gil Weinberg | cs.CL, cs.HC, cs.LG, I.2.7 | 2021-11-15 |

@@ -6,10 +6,13 @@ sidebar:
 ---
 
 
-*written on 2022-06-21*
+*written on 2022-07-04*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Is neural language acquisition similar to natural? A chronological  probing study](http://arxiv.org/abs/2207.00560v1) | Ekaterina Voloshina, Oleg Serikov, Tatiana Shavrina | cs.CL | 2022-07-01 |
+| [Evaluation of Semantic Answer Similarity Metrics](http://arxiv.org/abs/2206.12664v1) | Farida Mustafazade, Peter F. Ebbinghaus | cs.CL, cs.AI, cs.LG | 2022-06-25 |
+| [BenchCLAMP: A Benchmark for Evaluating Language Models on Semantic  Parsing](http://arxiv.org/abs/2206.10668v1) | Subhro Roy, Sam Thomson, Tongfei Chen, Richard Shin, Adam Pauls, Jason Eisner, Benjamin Van Durme | cs.CL | 2022-06-21 |
 | [Interpretable AMR-Based Question Decomposition for Multi-hop Question  Answering](http://arxiv.org/abs/2206.08486v1) | Zhenyun Deng, Yonghua Zhu, Yang Chen, Michael Witbrock, Patricia Riddle | cs.CL | 2022-06-16 |
 | [An Exploration of Post-Editing Effectiveness in Text Summarization](http://arxiv.org/abs/2206.06383v1) | Vivian Lai, Alison Smith-Renner, Ke Zhang, Ruijia Cheng, Wenjuan Zhang, Joel Tetreault, Alejandro Jaimes | cs.CL, cs.AI, cs.HC | 2022-06-13 |
 | [Plot Writing From Pre-Trained Language Models](http://arxiv.org/abs/2206.03021v1) | Yiping Jin, Vishakha Kadam, Dittaya Wanvarie | cs.CL | 2022-06-07 |
