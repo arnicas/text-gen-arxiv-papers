@@ -7,10 +7,16 @@ sidebar:
 ---
 
 
-*written on 2022-07-04*
+*written on 2022-07-16*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Neural Data-to-Text Generation Based on Small Datasets: Comparing the  Added Value of Two Semi-Supervised Learning Approaches on Top of a Large  Language Model](http://arxiv.org/abs/2207.06839v1) | Chris van der Lee, Thiago Castro Ferreira, Chris Emmery, Travis Wiltshire, Emiel Krahmer | cs.CL | 2022-07-14 |
+| [Fuse It More Deeply! A Variational Transformer with Layer-Wise Latent  Variable Inference for Text Generation](http://arxiv.org/abs/2207.06130v1) | Jinyi Hu, Xiaoyuan Yi, Wenhao Li, Maosong Sun, Xing Xie | cs.CL | 2022-07-13 |
+| [Towards Multimodal Vision-Language Models Generating Non-Generic Text](http://arxiv.org/abs/2207.04174v1) | Wes Robbins, Zanyar Zohourianshahzadi, Jugal Kalita | cs.CV, cs.AI | 2022-07-09 |
+| [TalkToModel: Understanding Machine Learning Models With Open Ended  Dialogues](http://arxiv.org/abs/2207.04154v1) | Dylan Slack, Satyapriya Krishna, Himabindu Lakkaraju, Sameer Singh | cs.LG, cs.AI, cs.CL | 2022-07-08 |
+| [Can Language Models Make Fun? A Case Study in Chinese Comical Crosstalk](http://arxiv.org/abs/2207.00735v1) | Benyou Wang, Xiangbo Wu, Xiaokang Liu, Jianquan Li, Prayag Tiwari, Qianqian Xie | cs.CL | 2022-07-02 |
+| [Syntax Controlled Knowledge Graph-to-Text Generation with Order and  Semantic Consistency](http://arxiv.org/abs/2207.00719v1) | Jin Liu, Chongfeng Fan, Fengyu Zhou, Huijuan Xu | cs.AI | 2022-07-02 |
 | [Mapping the Design Space of Human-AI Interaction in Text Summarization](http://arxiv.org/abs/2206.14863v1) | Ruijia Cheng, Alison Smith-Renner, Ke Zhang, Joel R. Tetreault, Alejandro Jaimes | cs.HC | 2022-06-29 |
 | [Joint Generator-Ranker Learning for Natural Language Generation](http://arxiv.org/abs/2206.13974v1) | Weizhou Shen, Yeyun Gong, Yelong Shen, Song Wang, Xiaojun Quan, Nan Duan, Weizhu Chen | cs.CL | 2022-06-28 |
 | [Megapixel Image Generation with Step-Unrolled Denoising Autoencoders](http://arxiv.org/abs/2206.12351v1) | Alex F. McKinney, Chris G. Willcocks | cs.CV, cs.LG | 2022-06-24 |

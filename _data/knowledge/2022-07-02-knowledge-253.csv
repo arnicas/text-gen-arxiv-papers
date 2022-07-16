@@ -1,4 +1,23 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Syntax Controlled Knowledge Graph-to-Text Generation with Order and
+  Semantic Consistency",2022-07-02 02:42:14+00:00,http://arxiv.org/abs/2207.00719v1,"Jin Liu, Chongfeng Fan, Fengyu Zhou, Huijuan Xu",cs.AI,knowledge,"The knowledge graph (KG) stores a large amount of structural knowledge, while
+it is not easy for direct human understanding. Knowledge graph-to-text
+(KG-to-text) generation aims to generate easy-to-understand sentences from the
+KG, and at the same time, maintains semantic consistency between generated
+sentences and the KG. Existing KG-to-text generation methods phrase this task
+as a sequence-to-sequence generation task with linearized KG as input and
+consider the consistency issue of the generated texts and KG through a simple
+selection between decoded sentence word and KG node word at each time step.
+However, the linearized KG order is commonly obtained through a heuristic
+search without data-driven optimization. In this paper, we optimize the
+knowledge description order prediction under the order supervision extracted
+from the caption and further enhance the consistency of the generated sentences
+and KG through syntactic and semantic regularization. We incorporate the
+Part-of-Speech (POS) syntactic tags to constrain the positions to copy words
+from the KG and employ a semantic context scoring function to evaluate the
+semantic fitness for each word in its local context when decoding each word in
+the generated sentence. Extensive experiments are conducted on two datasets,
+WebNLG and DART, and achieve state-of-the-art performances.",2022-07-02
 "Is neural language acquisition similar to natural? A chronological
   probing study",2022-07-01 17:24:11+00:00,http://arxiv.org/abs/2207.00560v1,"Ekaterina Voloshina, Oleg Serikov, Tatiana Shavrina",cs.CL,knowledge,"The probing methodology allows one to obtain a partial representation of
 linguistic phenomena stored in the inner layers of the neural network, using

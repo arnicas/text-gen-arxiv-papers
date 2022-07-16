@@ -1,4 +1,50 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"TalkToModel: Understanding Machine Learning Models With Open Ended
+  Dialogues",2022-07-08 23:42:56+00:00,http://arxiv.org/abs/2207.04154v1,"Dylan Slack, Satyapriya Krishna, Himabindu Lakkaraju, Sameer Singh","cs.LG, cs.AI, cs.CL",dialogue,"Machine Learning (ML) models are increasingly used to make critical decisions
+in real-world applications, yet they have also become more complex, making them
+harder to understand. To this end, several techniques to explain model
+predictions have been proposed. However, practitioners struggle to leverage
+explanations because they often do not know which to use, how to interpret the
+results, and may have insufficient data science experience to obtain
+explanations. In addition, most current works focus on generating one-shot
+explanations and do not allow users to follow up and ask fine-grained questions
+about the explanations, which can be frustrating. In this work, we address
+these challenges by introducing TalkToModel: an open-ended dialogue system for
+understanding machine learning models. Specifically, TalkToModel comprises
+three key components: 1) a natural language interface for engaging in
+dialogues, making understanding ML models highly accessible, 2) a dialogue
+engine that adapts to any tabular model and dataset, interprets natural
+language, maps it to appropriate operations (e.g., feature importance
+explanations, counterfactual explanations, showing model errors), and generates
+text responses, and 3) an execution component that run the operations and
+ensures explanations are accurate. We carried out quantitative and human
+subject evaluations of TalkToModel. We found the system understands user
+questions on novel datasets and models with high accuracy, demonstrating the
+system's capacity to generalize to new situations. In human evaluations, 73% of
+healthcare workers (e.g., doctors and nurses) agreed they would use TalkToModel
+over baseline point-and-click systems, and 84.6% of ML graduate students agreed
+TalkToModel was easier to use.",2022-07-08
+Can Language Models Make Fun? A Case Study in Chinese Comical Crosstalk,2022-07-02 04:30:07+00:00,http://arxiv.org/abs/2207.00735v1,"Benyou Wang, Xiangbo Wu, Xiaokang Liu, Jianquan Li, Prayag Tiwari, Qianqian Xie",cs.CL,dialogue,"Language is the principal tool for human communication, in which humor is one
+of the most attractive parts. Producing natural language like humans using
+computers, a.k.a, Natural Language Generation (NLG), has been widely used for
+dialogue systems, chatbots, machine translation, as well as computer-aid
+creation e.g., idea generations, scriptwriting. However, the humor aspect of
+natural language is relatively under-investigated, especially in the age of
+pre-trained language models. In this work, we aim to preliminarily test whether
+NLG can generate humor as humans do. We build a new dataset consisting of
+numerous digitized Chinese Comical Crosstalk scripts (called C$^3$ in short),
+which is for a popular Chinese performing art called `Xiangsheng' since 1800s.
+(For convenience for non-Chinese speakers, we called `crosstalk' for
+`Xiangsheng' in this paper.) We benchmark various generation approaches
+including training-from-scratch Seq2seq, fine-tuned middle-scale PLMs, and
+large-scale PLMs (with and without fine-tuning). Moreover, we also conduct a
+human assessment, showing that 1) large-scale pretraining largely improves
+crosstalk generation quality; and 2) even the scripts generated from the best
+PLM is far from what we expect, with only 65% quality of human-created
+crosstalk. We conclude, humor generation could be largely improved using
+large-scaled PLMs, but it is still in its infancy.
+  The data and benchmarking code is publicly available in
+\url{https://github.com/anonNo2/crosstalk-generation}.",2022-07-02
 "Comparing informativeness of an NLG chatbot vs graphical app in
   diet-information domain",2022-06-23 07:15:58+00:00,http://arxiv.org/abs/2206.13435v1,"Simone Balloccu, Ehud Reiter","cs.CL, cs.AI",dialogue,"Visual representation of data like charts and tables can be challenging to
 understand for readers. Previous work showed that combining visualisations with

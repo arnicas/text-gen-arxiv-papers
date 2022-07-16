@@ -1,4 +1,118 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Neural Data-to-Text Generation Based on Small Datasets: Comparing the
+  Added Value of Two Semi-Supervised Learning Approaches on Top of a Large
+  Language Model",2022-07-14 11:53:04+00:00,http://arxiv.org/abs/2207.06839v1,"Chris van der Lee, Thiago Castro Ferreira, Chris Emmery, Travis Wiltshire, Emiel Krahmer",cs.CL,table2text,"This study discusses the effect of semi-supervised learning in combination
+with pretrained language models for data-to-text generation. It is not known
+whether semi-supervised learning is still helpful when a large-scale language
+model is also supplemented. This study aims to answer this question by
+comparing a data-to-text system only supplemented with a language model, to two
+data-to-text systems that are additionally enriched by a data augmentation or a
+pseudo-labeling semi-supervised learning approach.
+  Results show that semi-supervised learning results in higher scores on
+diversity metrics. In terms of output quality, extending the training set of a
+data-to-text system with a language model using the pseudo-labeling approach
+did increase text quality scores, but the data augmentation approach yielded
+similar scores to the system without training set extension. These results
+indicate that semi-supervised learning approaches can bolster output quality
+and diversity, even when a language model is also present.",2022-07-14
+"Fuse It More Deeply! A Variational Transformer with Layer-Wise Latent
+  Variable Inference for Text Generation",2022-07-13 11:27:46+00:00,http://arxiv.org/abs/2207.06130v1,"Jinyi Hu, Xiaoyuan Yi, Wenhao Li, Maosong Sun, Xing Xie",cs.CL,table2text,"The past several years have witnessed Variational Auto-Encoder's superiority
+in various text generation tasks. However, due to the sequential nature of the
+text, auto-regressive decoders tend to ignore latent variables and then reduce
+to simple language models, known as the KL vanishing problem, which would
+further deteriorate when VAE is combined with Transformer-based structures. To
+ameliorate this problem, we propose DELLA, a novel variational Transformer
+framework. DELLA learns a series of layer-wise latent variables with each
+inferred from those of lower layers and tightly coupled with the hidden states
+by low-rank tensor product. In this way, DELLA forces these posterior latent
+variables to be fused deeply with the whole computation path and hence
+incorporate more information. We theoretically demonstrate that our method can
+be regarded as entangling latent variables to avoid posterior information
+decrease through layers, enabling DELLA to get higher non-zero KL values even
+without any annealing or thresholding tricks. Experiments on four unconditional
+and three conditional generation tasks show that DELLA could better alleviate
+KL vanishing and improve both quality and diversity compared to several strong
+baselines.",2022-07-13
+Towards Multimodal Vision-Language Models Generating Non-Generic Text,2022-07-09 01:56:35+00:00,http://arxiv.org/abs/2207.04174v1,"Wes Robbins, Zanyar Zohourianshahzadi, Jugal Kalita","cs.CV, cs.AI",table2text,"Vision-language models can assess visual context in an image and generate
+descriptive text. While the generated text may be accurate and syntactically
+correct, it is often overly general. To address this, recent work has used
+optical character recognition to supplement visual information with text
+extracted from an image. In this work, we contend that vision-language models
+can benefit from additional information that can be extracted from an image,
+but are not used by current models. We modify previous multimodal frameworks to
+accept relevant information from any number of auxiliary classifiers. In
+particular, we focus on person names as an additional set of tokens and create
+a novel image-caption dataset to facilitate captioning with person names. The
+dataset, Politicians and Athletes in Captions (PAC), consists of captioned
+images of well-known people in context. By fine-tuning pretrained models with
+this dataset, we demonstrate a model that can naturally integrate facial
+recognition tokens into generated text by training on limited data. For the PAC
+dataset, we provide a discussion on collection and baseline benchmark scores.",2022-07-09
+"TalkToModel: Understanding Machine Learning Models With Open Ended
+  Dialogues",2022-07-08 23:42:56+00:00,http://arxiv.org/abs/2207.04154v1,"Dylan Slack, Satyapriya Krishna, Himabindu Lakkaraju, Sameer Singh","cs.LG, cs.AI, cs.CL",table2text,"Machine Learning (ML) models are increasingly used to make critical decisions
+in real-world applications, yet they have also become more complex, making them
+harder to understand. To this end, several techniques to explain model
+predictions have been proposed. However, practitioners struggle to leverage
+explanations because they often do not know which to use, how to interpret the
+results, and may have insufficient data science experience to obtain
+explanations. In addition, most current works focus on generating one-shot
+explanations and do not allow users to follow up and ask fine-grained questions
+about the explanations, which can be frustrating. In this work, we address
+these challenges by introducing TalkToModel: an open-ended dialogue system for
+understanding machine learning models. Specifically, TalkToModel comprises
+three key components: 1) a natural language interface for engaging in
+dialogues, making understanding ML models highly accessible, 2) a dialogue
+engine that adapts to any tabular model and dataset, interprets natural
+language, maps it to appropriate operations (e.g., feature importance
+explanations, counterfactual explanations, showing model errors), and generates
+text responses, and 3) an execution component that run the operations and
+ensures explanations are accurate. We carried out quantitative and human
+subject evaluations of TalkToModel. We found the system understands user
+questions on novel datasets and models with high accuracy, demonstrating the
+system's capacity to generalize to new situations. In human evaluations, 73% of
+healthcare workers (e.g., doctors and nurses) agreed they would use TalkToModel
+over baseline point-and-click systems, and 84.6% of ML graduate students agreed
+TalkToModel was easier to use.",2022-07-08
+Can Language Models Make Fun? A Case Study in Chinese Comical Crosstalk,2022-07-02 04:30:07+00:00,http://arxiv.org/abs/2207.00735v1,"Benyou Wang, Xiangbo Wu, Xiaokang Liu, Jianquan Li, Prayag Tiwari, Qianqian Xie",cs.CL,table2text,"Language is the principal tool for human communication, in which humor is one
+of the most attractive parts. Producing natural language like humans using
+computers, a.k.a, Natural Language Generation (NLG), has been widely used for
+dialogue systems, chatbots, machine translation, as well as computer-aid
+creation e.g., idea generations, scriptwriting. However, the humor aspect of
+natural language is relatively under-investigated, especially in the age of
+pre-trained language models. In this work, we aim to preliminarily test whether
+NLG can generate humor as humans do. We build a new dataset consisting of
+numerous digitized Chinese Comical Crosstalk scripts (called C$^3$ in short),
+which is for a popular Chinese performing art called `Xiangsheng' since 1800s.
+(For convenience for non-Chinese speakers, we called `crosstalk' for
+`Xiangsheng' in this paper.) We benchmark various generation approaches
+including training-from-scratch Seq2seq, fine-tuned middle-scale PLMs, and
+large-scale PLMs (with and without fine-tuning). Moreover, we also conduct a
+human assessment, showing that 1) large-scale pretraining largely improves
+crosstalk generation quality; and 2) even the scripts generated from the best
+PLM is far from what we expect, with only 65% quality of human-created
+crosstalk. We conclude, humor generation could be largely improved using
+large-scaled PLMs, but it is still in its infancy.
+  The data and benchmarking code is publicly available in
+\url{https://github.com/anonNo2/crosstalk-generation}.",2022-07-02
+"Syntax Controlled Knowledge Graph-to-Text Generation with Order and
+  Semantic Consistency",2022-07-02 02:42:14+00:00,http://arxiv.org/abs/2207.00719v1,"Jin Liu, Chongfeng Fan, Fengyu Zhou, Huijuan Xu",cs.AI,table2text,"The knowledge graph (KG) stores a large amount of structural knowledge, while
+it is not easy for direct human understanding. Knowledge graph-to-text
+(KG-to-text) generation aims to generate easy-to-understand sentences from the
+KG, and at the same time, maintains semantic consistency between generated
+sentences and the KG. Existing KG-to-text generation methods phrase this task
+as a sequence-to-sequence generation task with linearized KG as input and
+consider the consistency issue of the generated texts and KG through a simple
+selection between decoded sentence word and KG node word at each time step.
+However, the linearized KG order is commonly obtained through a heuristic
+search without data-driven optimization. In this paper, we optimize the
+knowledge description order prediction under the order supervision extracted
+from the caption and further enhance the consistency of the generated sentences
+and KG through syntactic and semantic regularization. We incorporate the
+Part-of-Speech (POS) syntactic tags to constrain the positions to copy words
+from the KG and employ a semantic context scoring function to evaluate the
+semantic fitness for each word in its local context when decoding each word in
+the generated sentence. Extensive experiments are conducted on two datasets,
+WebNLG and DART, and achieve state-of-the-art performances.",2022-07-02
 Mapping the Design Space of Human-AI Interaction in Text Summarization,2022-06-29 19:03:25+00:00,http://arxiv.org/abs/2206.14863v1,"Ruijia Cheng, Alison Smith-Renner, Ke Zhang, Joel R. Tetreault, Alejandro Jaimes",cs.HC,table2text,"Automatic text summarization systems commonly involve humans for preparing
 data or evaluating model performance, yet, there lacks a systematic
 understanding of humans' roles, experience, and needs when interacting with or

@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2022-07-04*
+*written on 2022-07-16*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [TalkToModel: Understanding Machine Learning Models With Open Ended  Dialogues](http://arxiv.org/abs/2207.04154v1) | Dylan Slack, Satyapriya Krishna, Himabindu Lakkaraju, Sameer Singh | cs.LG, cs.AI, cs.CL | 2022-07-08 |
+| [Can Language Models Make Fun? A Case Study in Chinese Comical Crosstalk](http://arxiv.org/abs/2207.00735v1) | Benyou Wang, Xiangbo Wu, Xiaokang Liu, Jianquan Li, Prayag Tiwari, Qianqian Xie | cs.CL | 2022-07-02 |
 | [Comparing informativeness of an NLG chatbot vs graphical app in  diet-information domain](http://arxiv.org/abs/2206.13435v1) | Simone Balloccu, Ehud Reiter | cs.CL, cs.AI | 2022-06-23 |
 | [Automatic Summarization of Russian Texts: Comparison of Extractive and  Abstractive Methods](http://arxiv.org/abs/2206.09253v1) | Valeriya Goloviznina, Evgeny Kotelnikov | cs.CL | 2022-06-18 |
 | [Argumentative Text Generation in Economic Domain](http://arxiv.org/abs/2206.09251v1) | Irina Fishcheva, Dmitriy Osadchiy, Klavdiya Bochenina, Evgeny Kotelnikov | cs.CL | 2022-06-18 |

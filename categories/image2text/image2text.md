@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2022-07-04*
+*written on 2022-07-16*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [A Baseline for Detecting Out-of-Distribution Examples in Image  Captioning](http://arxiv.org/abs/2207.05418v1) | Gabi Shalev, Gal-Lev Shalev, Joseph Keshet | cs.CV, cs.LG | 2022-07-12 |
+| [Towards Multimodal Vision-Language Models Generating Non-Generic Text](http://arxiv.org/abs/2207.04174v1) | Wes Robbins, Zanyar Zohourianshahzadi, Jugal Kalita | cs.CV, cs.AI | 2022-07-09 |
+| [Dual-Stream Transformer for Generic Event Boundary Captioning](http://arxiv.org/abs/2207.03038v1) | Xin Gu, Hanhua Ye, Guang Chen, Yufei Wang, Libo Zhang, Longyin Wen | cs.CV, cs.CL | 2022-07-07 |
+| [Syntax Controlled Knowledge Graph-to-Text Generation with Order and  Semantic Consistency](http://arxiv.org/abs/2207.00719v1) | Jin Liu, Chongfeng Fan, Fengyu Zhou, Huijuan Xu | cs.AI | 2022-07-02 |
 | [Automatic Controllable Product Copywriting for E-Commerce](http://arxiv.org/abs/2206.10103v1) | Xiaojie Guo, Qingkai Zeng, Meng Jiang, Yun Xiao, Bo Long, Lingfei Wu | cs.AI, cs.LG | 2022-06-21 |
 | [niksss at HinglishEval: Language-agnostic BERT-based Contextual  Embeddings with Catboost for Quality Evaluation of the Low-Resource  Synthetically Generated Code-Mixed Hinglish Text](http://arxiv.org/abs/2206.08910v1) | Nikhil Singh | cs.CL | 2022-06-17 |
 | [Prefix Language Models are Unified Modal Learners](http://arxiv.org/abs/2206.07699v1) | Shizhe Diao, Wangchunshu Zhou, Xinsong Zhang, Jiawei Wang | cs.CV, cs.CL, cs.LG | 2022-06-15 |

@@ -1,4 +1,65 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"A Baseline for Detecting Out-of-Distribution Examples in Image
+  Captioning",2022-07-12 09:29:57+00:00,http://arxiv.org/abs/2207.05418v1,"Gabi Shalev, Gal-Lev Shalev, Joseph Keshet","cs.CV, cs.LG",image2text,"Image captioning research achieved breakthroughs in recent years by
+developing neural models that can generate diverse and high-quality
+descriptions for images drawn from the same distribution as training images.
+However, when facing out-of-distribution (OOD) images, such as corrupted
+images, or images containing unknown objects, the models fail in generating
+relevant captions.
+  In this paper, we consider the problem of OOD detection in image captioning.
+We formulate the problem and suggest an evaluation setup for assessing the
+model's performance on the task. Then, we analyze and show the effectiveness of
+the caption's likelihood score at detecting and rejecting OOD images, which
+implies that the relatedness between the input image and the generated caption
+is encapsulated within the score.",2022-07-12
+Towards Multimodal Vision-Language Models Generating Non-Generic Text,2022-07-09 01:56:35+00:00,http://arxiv.org/abs/2207.04174v1,"Wes Robbins, Zanyar Zohourianshahzadi, Jugal Kalita","cs.CV, cs.AI",image2text,"Vision-language models can assess visual context in an image and generate
+descriptive text. While the generated text may be accurate and syntactically
+correct, it is often overly general. To address this, recent work has used
+optical character recognition to supplement visual information with text
+extracted from an image. In this work, we contend that vision-language models
+can benefit from additional information that can be extracted from an image,
+but are not used by current models. We modify previous multimodal frameworks to
+accept relevant information from any number of auxiliary classifiers. In
+particular, we focus on person names as an additional set of tokens and create
+a novel image-caption dataset to facilitate captioning with person names. The
+dataset, Politicians and Athletes in Captions (PAC), consists of captioned
+images of well-known people in context. By fine-tuning pretrained models with
+this dataset, we demonstrate a model that can naturally integrate facial
+recognition tokens into generated text by training on limited data. For the PAC
+dataset, we provide a discussion on collection and baseline benchmark scores.",2022-07-09
+Dual-Stream Transformer for Generic Event Boundary Captioning,2022-07-07 01:47:19+00:00,http://arxiv.org/abs/2207.03038v1,"Xin Gu, Hanhua Ye, Guang Chen, Yufei Wang, Libo Zhang, Longyin Wen","cs.CV, cs.CL",image2text,"This paper describes our champion solution for the CVPR2022 Generic Event
+Boundary Captioning (GEBC) competition. GEBC requires the captioning model to
+have a comprehension of instantaneous status changes around the given video
+boundary, which makes it much more challenging than conventional video
+captioning task. In this paper, a Dual-Stream Transformer with improvements on
+both video content encoding and captions generation is proposed: (1) We utilize
+three pre-trained models to extract the video features from different
+granularities. Moreover, we exploit the types of boundary as hints to help the
+model generate captions. (2) We particularly design an model, termed as
+Dual-Stream Transformer, to learn discriminative representations for boundary
+captioning. (3) Towards generating content-relevant and human-like captions, we
+improve the description quality by designing a word-level ensemble strategy.
+The promising results on the GEBC test split demonstrate the efficacy of our
+proposed model.",2022-07-07
+"Syntax Controlled Knowledge Graph-to-Text Generation with Order and
+  Semantic Consistency",2022-07-02 02:42:14+00:00,http://arxiv.org/abs/2207.00719v1,"Jin Liu, Chongfeng Fan, Fengyu Zhou, Huijuan Xu",cs.AI,image2text,"The knowledge graph (KG) stores a large amount of structural knowledge, while
+it is not easy for direct human understanding. Knowledge graph-to-text
+(KG-to-text) generation aims to generate easy-to-understand sentences from the
+KG, and at the same time, maintains semantic consistency between generated
+sentences and the KG. Existing KG-to-text generation methods phrase this task
+as a sequence-to-sequence generation task with linearized KG as input and
+consider the consistency issue of the generated texts and KG through a simple
+selection between decoded sentence word and KG node word at each time step.
+However, the linearized KG order is commonly obtained through a heuristic
+search without data-driven optimization. In this paper, we optimize the
+knowledge description order prediction under the order supervision extracted
+from the caption and further enhance the consistency of the generated sentences
+and KG through syntactic and semantic regularization. We incorporate the
+Part-of-Speech (POS) syntactic tags to constrain the positions to copy words
+from the KG and employ a semantic context scoring function to evaluate the
+semantic fitness for each word in its local context when decoding each word in
+the generated sentence. Extensive experiments are conducted on two datasets,
+WebNLG and DART, and achieve state-of-the-art performances.",2022-07-02
 Automatic Controllable Product Copywriting for E-Commerce,2022-06-21 04:18:52+00:00,http://arxiv.org/abs/2206.10103v1,"Xiaojie Guo, Qingkai Zeng, Meng Jiang, Yun Xiao, Bo Long, Lingfei Wu","cs.AI, cs.LG",image2text,"Automatic product description generation for e-commerce has witnessed
 significant advancement in the past decade. Product copywriting aims to attract
 users' interest and improve user experience by highlighting product
