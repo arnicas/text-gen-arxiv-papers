@@ -1,4 +1,40 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Sequence to sequence pretraining for a less-resourced Slovenian language,2022-07-28 10:08:50+00:00,http://arxiv.org/abs/2207.13988v1,"Matej Ulčar, Marko Robnik-Šikonja",cs.CL,dialogue,"Large pretrained language models have recently conquered the area of natural
+language processing. As an alternative to predominant masked language modelling
+introduced in BERT, the T5 model has introduced a more general training
+objective, namely sequence to sequence transformation, which includes masked
+language model but more naturally fits text generation tasks such as machine
+translation, summarization, open-domain question answering, text
+simplification, dialogue systems, etc. The monolingual variants of T5 models
+have been limited to well-resourced languages, while the massively multilingual
+T5 model supports 101 languages. In contrast, we trained two different sized
+T5-type sequence to sequence models for morphologically rich Slovene language
+with much less resources and analyzed their behavior. Concerning classification
+tasks, the SloT5 models mostly lag behind the monolingual Slovene SloBERTa
+model but are to be considered for the generative tasks.",2022-07-28
+A Multi-Party Dialogue Ressource in French,2022-07-25 13:02:54+00:00,http://arxiv.org/abs/2207.12162v1,"Maria Boritchev, Maxime Amblard",cs.AI,dialogue,"We present Dialogues in Games (DinG), a corpus of manual transcriptions of
+real-life, oral, spontaneous multi-party dialogues between French-speaking
+players of the board game Catan. Our objective is to make available a quality
+resource for French, composed of long dialogues, to facilitate their study in
+the style of (Asher et al., 2016). In a general dialogue setting, participants
+share personal information, which makes it impossible to disseminate the
+resource freely and openly. In DinG, the attention of the participants is
+focused on the game, which prevents them from talking about themselves. In
+addition, we are conducting a study on the nature of the questions in dialogue,
+through annotation (Cruz Blandon et al., 2019), in order to develop more
+natural automatic dialogue systems.",2022-07-25
+Towards a Sentiment-Aware Conversational Agent,2022-07-24 16:59:44+00:00,http://arxiv.org/abs/2207.11774v1,"Isabel Dias, Ricardo Rei, Patrícia Pereira, Luisa Coheur",cs.CL,dialogue,"In this paper, we propose an end-to-end sentiment-aware conversational agent
+based on two models: a reply sentiment prediction model, which leverages the
+context of the dialogue to predict an appropriate sentiment for the agent to
+express in its reply; and a text generation model, which is conditioned on the
+predicted sentiment and the context of the dialogue, to produce a reply that is
+both context and sentiment appropriate. Additionally, we propose to use a
+sentiment classification model to evaluate the sentiment expressed by the agent
+during the development of the model. This allows us to evaluate the agent in an
+automatic way. Both automatic and human evaluation results show that explicitly
+guiding the text generation model with a pre-defined set of sentences leads to
+clear improvements, both regarding the expressed sentiment and the quality of
+the generated text.",2022-07-24
 "TalkToModel: Understanding Machine Learning Models With Open Ended
   Dialogues",2022-07-08 23:42:56+00:00,http://arxiv.org/abs/2207.04154v1,"Dylan Slack, Satyapriya Krishna, Himabindu Lakkaraju, Sameer Singh","cs.LG, cs.AI, cs.CL",dialogue,"Machine Learning (ML) models are increasingly used to make critical decisions
 in real-world applications, yet they have also become more complex, making them

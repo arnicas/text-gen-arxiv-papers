@@ -6,10 +6,12 @@ sidebar:
 ---
 
 
-*written on 2022-07-16*
+*written on 2022-08-01*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [LaKo: Knowledge-driven Visual Question Answering via Late  Knowledge-to-Text Injection](http://arxiv.org/abs/2207.12888v1) | Zhuo Chen, Yufeng Huang, Jiaoyan Chen, Yuxia Geng, Yin Fang, Jeff Pan, Ningyu Zhang, Wen Zhang | cs.CV, cs.AI | 2022-07-26 |
+| [Leveraging Natural Supervision for Language Representation Learning and  Generation](http://arxiv.org/abs/2207.10617v1) | Mingda Chen | cs.CL | 2022-07-21 |
 | [Syntax Controlled Knowledge Graph-to-Text Generation with Order and  Semantic Consistency](http://arxiv.org/abs/2207.00719v1) | Jin Liu, Chongfeng Fan, Fengyu Zhou, Huijuan Xu | cs.AI | 2022-07-02 |
 | [Is neural language acquisition similar to natural? A chronological  probing study](http://arxiv.org/abs/2207.00560v1) | Ekaterina Voloshina, Oleg Serikov, Tatiana Shavrina | cs.CL | 2022-07-01 |
 | [Evaluation of Semantic Answer Similarity Metrics](http://arxiv.org/abs/2206.12664v1) | Farida Mustafazade, Peter F. Ebbinghaus | cs.CL, cs.AI, cs.LG | 2022-06-25 |

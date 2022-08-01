@@ -1,4 +1,55 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"LaKo: Knowledge-driven Visual Question Answering via Late
+  Knowledge-to-Text Injection",2022-07-26 13:29:51+00:00,http://arxiv.org/abs/2207.12888v1,"Zhuo Chen, Yufeng Huang, Jiaoyan Chen, Yuxia Geng, Yin Fang, Jeff Pan, Ningyu Zhang, Wen Zhang","cs.CV, cs.AI",table2text,"Visual question answering (VQA) often requires an understanding of visual
+concepts and language semantics, which relies on external knowledge. Most
+existing methods exploit pre-trained language models or/and unstructured text,
+but the knowledge in these resources are often incomplete and noisy. Some
+methods prefer to use knowledge graphs (KGs) which often have intensive
+structured knowledge, but the research is still quite preliminary. In this
+paper, we propose LaKo, a knowledge-driven VQA method via Late
+Knowledge-to-text Injection. To effectively incorporate an external KG, we
+transfer triples into text and propose a late injection mechanism. Finally we
+address VQA as a text generation task with an effective encoder-decoder
+paradigm. In the evaluation with OKVQA datasets, our method achieves
+state-of-the-art results.",2022-07-26
+Innovations in Neural Data-to-text Generation,2022-07-25 23:21:48+00:00,http://arxiv.org/abs/2207.12571v1,"Mandar Sharma, Ajay Gogineni, Naren Ramakrishnan",cs.CL,table2text,"The neural boom that has sparked natural language processing (NLP) research
+through the last decade has similarly led to significant innovations in
+data-to-text generation (DTG). This survey offers a consolidated view into the
+neural DTG paradigm with a structured examination of the approaches, benchmark
+datasets, and evaluation protocols. This survey draws boundaries separating DTG
+from the rest of the natural language generation (NLG) landscape, encompassing
+an up-to-date synthesis of the literature, and highlighting the stages of
+technological adoption from within and outside the greater NLG umbrella. With
+this holistic view, we highlight promising avenues for DTG research that not
+only focus on the design of linguistically capable systems but also systems
+that exhibit fairness and accountability.",2022-07-25
+"Leveraging Natural Supervision for Language Representation Learning and
+  Generation",2022-07-21 17:26:03+00:00,http://arxiv.org/abs/2207.10617v1,Mingda Chen,cs.CL,table2text,"Recent breakthroughs in Natural Language Processing (NLP) have been driven by
+language models trained on a massive amount of plain text. While powerful,
+deriving supervision from textual resources is still an open question. For
+example, language model pretraining often neglects the rich, freely-available
+structures in textual data. In this thesis, we describe three lines of work
+that seek to improve the training and evaluation of neural models using
+naturally-occurring supervision.
+  We first investigate self-supervised training losses to help enhance the
+performance of pretrained language models for various NLP tasks. Specifically,
+we alter the sentence prediction loss to make it better suited to other
+pretraining losses and more challenging to solve. We design an intermediate
+finetuning step that uses self-supervised training to promote models' ability
+in cross-task generalization.
+  Then we describe methods to leverage the structures in Wikipedia and
+paraphrases. In particular, we propose training losses to exploit hyperlinks,
+article structures, and article category graphs for entity-, discourse-,
+entailment-related knowledge. We propose a framework that uses paraphrase pairs
+to disentangle semantics and syntax in sentence representations. We extend the
+framework for a novel generation task that controls the syntax of output text
+with a sentential exemplar.
+  Lastly, we discuss our work on tailoring textual resources for establishing
+challenging evaluation tasks. We introduce three datasets by defining novel
+tasks using various fan-contributed websites, including a long-form
+data-to-text generation dataset, a screenplay summarization dataset, and a
+long-form story generation dataset. These datasets have unique characteristics
+offering challenges to future work in their respective task settings.",2022-07-21
 "Neural Data-to-Text Generation Based on Small Datasets: Comparing the
   Added Value of Two Semi-Supervised Learning Approaches on Top of a Large
   Language Model",2022-07-14 11:53:04+00:00,http://arxiv.org/abs/2207.06839v1,"Chris van der Lee, Thiago Castro Ferreira, Chris Emmery, Travis Wiltshire, Emiel Krahmer",cs.CL,table2text,"This study discusses the effect of semi-supervised learning in combination

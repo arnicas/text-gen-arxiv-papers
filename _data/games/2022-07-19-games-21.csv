@@ -1,4 +1,33 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Mimetic Models: Ethical Implications of AI that Acts Like You,2022-07-19 16:41:36+00:00,http://arxiv.org/abs/2207.09394v1,"Reid McIlroy-Young, Jon Kleinberg, Siddhartha Sen, Solon Barocas, Ashton Anderson","cs.AI, cs.CY",games,"An emerging theme in artificial intelligence research is the creation of
+models to simulate the decisions and behavior of specific people, in domains
+including game-playing, text generation, and artistic expression. These models
+go beyond earlier approaches in the way they are tailored to individuals, and
+the way they are designed for interaction rather than simply the reproduction
+of fixed, pre-computed behaviors. We refer to these as mimetic models, and in
+this paper we develop a framework for characterizing the ethical and social
+issues raised by their growing availability. Our framework includes a number of
+distinct scenarios for the use of such models, and considers the impacts on a
+range of different participants, including the target being modeled, the
+operator who deploys the model, and the entities that interact with it.",2022-07-19
+Word Play for Playing Othello (Reverses),2022-07-18 17:13:32+00:00,http://arxiv.org/abs/2207.08766v1,"Samantha E. Miller Noever, David Noever",cs.LG,games,"Language models like OpenAI's Generative Pre-Trained Transformers (GPT-2/3)
+capture the long-term correlations needed to generate text in a variety of
+domains (such as language translators) and recently in gameplay (chess, Go, and
+checkers). The present research applies both the larger (GPT-3) and smaller
+(GPT-2) language models to explore the complex strategies for the game of
+Othello (or Reverses). Given the game rules for rapid reversals of fortune, the
+language model not only represents a candidate predictor of the next move based
+on previous game moves but also avoids sparse rewards in gameplay. The language
+model automatically captures or emulates championship-level strategies. The
+fine-tuned GPT-2 model generates Othello games ranging from 13-71% completion,
+while the larger GPT-3 model reaches 41% of a complete game. Like previous work
+with chess and Go, these language models offer a novel way to generate
+plausible game archives, particularly for comparing opening moves across a
+larger sample than humanly possible to explore. A primary contribution of these
+models magnifies (by two-fold) the previous record for player archives (120,000
+human games over 45 years from 1977-2022), thus supplying the research
+community with more diverse and original strategies for sampling with other
+reinforcement learning techniques.",2022-07-18
 Immersive Text Game and Personality Classification,2022-03-20 18:37:03+00:00,http://arxiv.org/abs/2203.10621v1,"Wanshui Li, Yifan Bai, Jiaxuan Lu, Kexin Yi","cs.CL, cs.AI, cs.LG",games,"We designed and built a game called \textit{Immersive Text Game}, which
 allows the player to choose a story and a character, and interact with other
 characters in the story in an immersive manner of dialogues. The game is based

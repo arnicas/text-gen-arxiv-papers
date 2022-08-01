@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2022-07-16*
+*written on 2022-08-01*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [ShapeCrafter: A Recursive Text-Conditioned 3D Shape Generation Model](http://arxiv.org/abs/2207.09446v1) | Rao Fu, Xiao Zhan, Yiwen Chen, Daniel Ritchie, Srinath Sridhar | cs.CV, cs.AI | 2022-07-19 |
 | [A Baseline for Detecting Out-of-Distribution Examples in Image  Captioning](http://arxiv.org/abs/2207.05418v1) | Gabi Shalev, Gal-Lev Shalev, Joseph Keshet | cs.CV, cs.LG | 2022-07-12 |
 | [Towards Multimodal Vision-Language Models Generating Non-Generic Text](http://arxiv.org/abs/2207.04174v1) | Wes Robbins, Zanyar Zohourianshahzadi, Jugal Kalita | cs.CV, cs.AI | 2022-07-09 |
 | [Dual-Stream Transformer for Generic Event Boundary Captioning](http://arxiv.org/abs/2207.03038v1) | Xin Gu, Hanhua Ye, Guang Chen, Yufei Wang, Libo Zhang, Longyin Wen | cs.CV, cs.CL | 2022-07-07 |

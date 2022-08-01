@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2022-03-30*
+*written on 2022-08-01*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Mimetic Models: Ethical Implications of AI that Acts Like You](http://arxiv.org/abs/2207.09394v1) | Reid McIlroy-Young, Jon Kleinberg, Siddhartha Sen, Solon Barocas, Ashton Anderson | cs.AI, cs.CY | 2022-07-19 |
+| [Word Play for Playing Othello (Reverses)](http://arxiv.org/abs/2207.08766v1) | Samantha E. Miller Noever, David Noever | cs.LG | 2022-07-18 |
 | [Immersive Text Game and Personality Classification](http://arxiv.org/abs/2203.10621v1) | Wanshui Li, Yifan Bai, Jiaxuan Lu, Kexin Yi | cs.CL, cs.AI, cs.LG | 2022-03-20 |
 | [Dynamic population-based meta-learning for multi-agent communication  with natural language](http://arxiv.org/abs/2110.14241v1) | Abhinav Gupta, Marc Lanctot, Angeliki Lazaridou | cs.LG, cs.AI, cs.CL, cs.MA | 2021-10-27 |
 | [Hurdles to Progress in Long-form Question Answering](http://arxiv.org/abs/2103.06332v1) | Kalpesh Krishna, Aurko Roy, Mohit Iyyer | cs.CL, cs.LG | 2021-03-10 |
