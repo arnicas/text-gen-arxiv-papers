@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2022-08-01*
+*written on 2022-08-03*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Suggestion Lists vs. Continuous Generation: Interaction Design for  Writing with Generative Models on Mobile Devices Affect Text Length, Wording  and Perceived Authorship](http://arxiv.org/abs/2208.00870v1) | Florian Lehmann, Niklas Markert, Hai Dang, Daniel Buschek | cs.HC, cs.AI | 2022-08-01 |
 | [LaKo: Knowledge-driven Visual Question Answering via Late  Knowledge-to-Text Injection](http://arxiv.org/abs/2207.12888v1) | Zhuo Chen, Yufeng Huang, Jiaoyan Chen, Yuxia Geng, Yin Fang, Jeff Pan, Ningyu Zhang, Wen Zhang | cs.CV, cs.AI | 2022-07-26 |
 | [Innovations in Neural Data-to-text Generation](http://arxiv.org/abs/2207.12571v1) | Mandar Sharma, Ajay Gogineni, Naren Ramakrishnan | cs.CL | 2022-07-25 |
 | [Leveraging Natural Supervision for Language Representation Learning and  Generation](http://arxiv.org/abs/2207.10617v1) | Mingda Chen | cs.CL | 2022-07-21 |

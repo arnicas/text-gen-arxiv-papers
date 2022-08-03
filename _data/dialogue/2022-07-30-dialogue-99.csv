@@ -1,4 +1,23 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Dynamically Retrieving Knowledge via Query Generation for informative
+  dialogue response",2022-07-30 03:05:43+00:00,http://arxiv.org/abs/2208.00128v1,"Zhongtian Hu, Yangqi Chen, Yushuang Liu, Lifang Wang",cs.CL,dialogue,"Knowledge-driven dialogue generation has recently made remarkable
+breakthroughs. Compared with general dialogue systems, superior
+knowledge-driven dialogue systems can generate more informative and
+knowledgeable responses with pre-provided knowledge. However, in practical
+applications, the dialogue system cannot be provided with corresponding
+knowledge in advance. In order to solve the problem, we design a
+knowledge-driven dialogue system named DRKQG (\emph{Dynamically Retrieving
+Knowledge via Query Generation for informative dialogue response}).
+Specifically, the system can be divided into two modules: query generation
+module and dialogue generation module. First, a time-aware mechanism is
+utilized to capture context information and a query can be generated for
+retrieving knowledge. Then, we integrate copy Mechanism and Transformers, which
+allows the response generation module produces responses derived from the
+context and retrieved knowledge. Experimental results at LIC2022, Language and
+Intelligence Technology Competition, show that our module outperforms the
+baseline model by a large margin on automatic evaluation metrics, while human
+evaluation by Baidu Linguistics team shows that our system achieves impressive
+results in Factually Correct and Knowledgeable.",2022-07-30
 Sequence to sequence pretraining for a less-resourced Slovenian language,2022-07-28 10:08:50+00:00,http://arxiv.org/abs/2207.13988v1,"Matej Ulčar, Marko Robnik-Šikonja",cs.CL,dialogue,"Large pretrained language models have recently conquered the area of natural
 language processing. As an alternative to predominant masked language modelling
 introduced in BERT, the T5 model has introduced a more general training

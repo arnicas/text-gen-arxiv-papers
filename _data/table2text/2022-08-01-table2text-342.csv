@@ -1,4 +1,20 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Suggestion Lists vs. Continuous Generation: Interaction Design for
+  Writing with Generative Models on Mobile Devices Affect Text Length, Wording
+  and Perceived Authorship",2022-08-01 13:57:11+00:00,http://arxiv.org/abs/2208.00870v1,"Florian Lehmann, Niklas Markert, Hai Dang, Daniel Buschek","cs.HC, cs.AI",table2text,"Neural language models have the potential to support human writing. However,
+questions remain on their integration and influence on writing and output. To
+address this, we designed and compared two user interfaces for writing with AI
+on mobile devices, which manipulate levels of initiative and control: 1)
+Writing with continuously generated text, the AI adds text word-by-word and
+user steers. 2) Writing with suggestions, the AI suggests phrases and user
+selects from a list. In a supervised online study (N=18), participants used
+these prototypes and a baseline without AI. We collected touch interactions,
+ratings on inspiration and authorship, and interview data. With AI suggestions,
+people wrote less actively, yet felt they were the author. Continuously
+generated text reduced this perceived authorship, yet increased editing
+behavior. In both designs, AI increased text length and was perceived to
+influence wording. Our findings add new empirical evidence on the impact of UI
+design decisions on user experience and output with co-creative systems.",2022-08-01
 "LaKo: Knowledge-driven Visual Question Answering via Late
   Knowledge-to-Text Injection",2022-07-26 13:29:51+00:00,http://arxiv.org/abs/2207.12888v1,"Zhuo Chen, Yufeng Huang, Jiaoyan Chen, Yuxia Geng, Yin Fang, Jeff Pan, Ningyu Zhang, Wen Zhang","cs.CV, cs.AI",table2text,"Visual question answering (VQA) often requires an understanding of visual
 concepts and language semantics, which relies on external knowledge. Most
