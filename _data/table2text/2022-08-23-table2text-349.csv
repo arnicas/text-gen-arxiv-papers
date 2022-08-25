@@ -1,4 +1,129 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"GenTUS: Simulating User Behaviour and Language in Task-oriented
+  Dialogues with Generative Transformers",2022-08-23 09:01:17+00:00,http://arxiv.org/abs/2208.10817v1,"Hsien-Chin Lin, Christian Geishauser, Shutong Feng, Nurul Lubis, Carel van Niekerk, Michael Heck, Milica Gašić",cs.CL,table2text,"User simulators (USs) are commonly used to train task-oriented dialogue
+systems (DSs) via reinforcement learning. The interactions often take place on
+semantic level for efficiency, but there is still a gap from semantic actions
+to natural language, which causes a mismatch between training and deployment
+environment. Incorporating a natural language generation (NLG) module with USs
+during training can partly deal with this problem. However, since the policy
+and NLG of USs are optimised separately, these simulated user utterances may
+not be natural enough in a given context. In this work, we propose a generative
+transformer-based user simulator (GenTUS). GenTUS consists of an
+encoder-decoder structure, which means it can optimise both the user policy and
+natural language generation jointly. GenTUS generates both semantic actions and
+natural language utterances, preserving interpretability and enhancing language
+variation. In addition, by representing the inputs and outputs as word
+sequences and by using a large pre-trained language model we can achieve
+generalisability in feature representation. We evaluate GenTUS with automatic
+metrics and human evaluation. Our results show that GenTUS generates more
+natural language and is able to transfer to an unseen ontology in a zero-shot
+fashion. In addition, its behaviour can be further shaped with reinforcement
+learning opening the door to training specialised user simulators.",2022-08-23
+Few-Shot Table-to-Text Generation with Prefix-Controlled Generator,2022-08-23 03:23:26+00:00,http://arxiv.org/abs/2208.10709v1,"Yutao Luo, Menghua Lu, Gongshen Liu, Shilin Wang",cs.CL,table2text,"Neural table-to-text generation approaches are data-hungry, limiting their
+adaptation for low-resource real-world applications. Previous works mostly
+resort to Pre-trained Language Models (PLMs) to generate fluent summaries of a
+table. However, they often contain hallucinated contents due to the
+uncontrolled nature of PLMs. Moreover, the topological differences between
+tables and sequences are rarely studied. Last but not least, fine-tuning on
+PLMs with a handful of instances may lead to over-fitting and catastrophic
+forgetting. To alleviate these problems, we propose a prompt-based approach,
+Prefix-Controlled Generator (i.e., PCG), for few-shot table-to-text generation.
+We prepend a task-specific prefix for a PLM to make the table structure better
+fit the pre-trained input. In addition, we generate an input-specific prefix to
+control the factual contents and word order of the generated text. Both
+automatic and human evaluations on different domains (humans, books and songs)
+of the Wikibio dataset show substantial improvements over baseline approaches.",2022-08-23
+Automatic tagging of knowledge points for K12 math problems,2022-08-21 11:11:30+00:00,http://arxiv.org/abs/2208.09867v1,"Xiaolu Wang, Ziqi Ding, Liangyu Chen",cs.CL,table2text,"Automatic tagging of knowledge points for practice problems is the basis for
+managing question bases and improving the automation and intelligence of
+education. Therefore, it is of great practical significance to study the
+automatic tagging technology for practice problems. However, there are few
+studies on the automatic tagging of knowledge points for math problems. Math
+texts have more complex structures and semantics compared with general texts
+because they contain unique elements such as symbols and formulas. Therefore,
+it is difficult to meet the accuracy requirement of knowledge point prediction
+by directly applying the text classification techniques in general domains. In
+this paper, K12 math problems taken as the research object, the LABS model
+based on label-semantic attention and multi-label smoothing combining textual
+features is proposed to improve the automatic tagging of knowledge points for
+math problems. The model combines the text classification techniques in general
+domains and the unique features of math texts. The results show that the models
+using label-semantic attention or multi-label smoothing perform better on
+precision, recall, and F1-score metrics than the traditional BiLSTM model,
+while the LABS model using both performs best. It can be seen that label
+information can guide the neural networks to extract meaningful information
+from the problem text, which improves the text classification performance of
+the model. Moreover, multi-label smoothing combining textual features can fully
+explore the relationship between text and labels, improve the model's
+prediction ability for new data and improve the model's classification
+accuracy.",2022-08-21
+"Beyond Text Generation: Supporting Writers with Continuous Automatic
+  Text Summaries",2022-08-19 13:09:56+00:00,http://arxiv.org/abs/2208.09323v1,"Hai Dang, Karim Benharrak, Florian Lehmann, Daniel Buschek","cs.HC, cs.CL, H.5.2; I.2.7",table2text,"We propose a text editor to help users plan, structure and reflect on their
+writing process. It provides continuously updated paragraph-wise summaries as
+margin annotations, using automatic text summarization. Summary levels range
+from full text, to selected (central) sentences, down to a collection of
+keywords. To understand how users interact with this system during writing, we
+conducted two user studies (N=4 and N=8) in which people wrote analytic essays
+about a given topic and article. As a key finding, the summaries gave users an
+external perspective on their writing and helped them to revise the content and
+scope of their drafted paragraphs. People further used the tool to quickly gain
+an overview of the text and developed strategies to integrate insights from the
+automated summaries. More broadly, this work explores and highlights the value
+of designing AI tools for writers, with Natural Language Processing (NLP)
+capabilities that go beyond direct text generation and correction.",2022-08-19
+"Coarse-to-Fine: Hierarchical Multi-task Learning for Natural Language
+  Understanding",2022-08-19 02:46:20+00:00,http://arxiv.org/abs/2208.09129v1,"Zhaoye Fei, Yu Tian, Yongkang Wu, Xinyu Zhang, Yutao Zhu, Zheng Liu, Jiawen Wu, Dejiang Kong, Ruofei Lai, Zhao Cao, Zhicheng Dou, Xipeng Qiu",cs.CL,table2text,"Generalized text representations are the foundation of many natural language
+understanding tasks. To fully utilize the different corpus, it is inevitable
+that models need to understand the relevance among them. However, many methods
+ignore the relevance and adopt a single-channel model (a coarse paradigm)
+directly for all tasks, which lacks enough rationality and interpretation. In
+addition, some existing works learn downstream tasks by stitches skill block(a
+fine paradigm), which might cause irrationalresults due to its redundancy and
+noise. Inthis work, we first analyze the task correlation through three
+different perspectives, i.e., data property, manual design, and model-based
+relevance, based on which the similar tasks are grouped together. Then, we
+propose a hierarchical framework with a coarse-to-fine paradigm, with the
+bottom level shared to all the tasks, the mid-level divided to different
+groups, and the top-level assigned to each of the tasks. This allows our model
+to learn basic language properties from all tasks, boost performance on
+relevant tasks, and reduce the negative impact from irrelevant tasks. Our
+experiments on 13 benchmark datasets across five natural language understanding
+tasks demonstrate the superiority of our method.",2022-08-19
+"Performance Optimization for Semantic Communications: An Attention-based
+  Reinforcement Learning Approach",2022-08-17 11:39:16+00:00,http://arxiv.org/abs/2208.08239v1,"Yining Wang, Mingzhe Chen, Tao Luo, Walid Saad, Dusit Niyato, H. Vincent Poor, Shuguang Cui","cs.IT, cs.AI, math.IT",table2text,"In this paper, a semantic communication framework is proposed for textual
+data transmission. In the studied model, a base station (BS) extracts the
+semantic information from textual data, and transmits it to each user. The
+semantic information is modeled by a knowledge graph (KG) that consists of a
+set of semantic triples. After receiving the semantic information, each user
+recovers the original text using a graph-to-text generation model. To measure
+the performance of the considered semantic communication framework, a metric of
+semantic similarity (MSS) that jointly captures the semantic accuracy and
+completeness of the recovered text is proposed. Due to wireless resource
+limitations, the BS may not be able to transmit the entire semantic information
+to each user and satisfy the transmission delay constraint. Hence, the BS must
+select an appropriate resource block for each user as well as determine and
+transmit part of the semantic information to the users. As such, we formulate
+an optimization problem whose goal is to maximize the total MSS by jointly
+optimizing the resource allocation policy and determining the partial semantic
+information to be transmitted. To solve this problem, a
+proximal-policy-optimization-based reinforcement learning (RL) algorithm
+integrated with an attention network is proposed. The proposed algorithm can
+evaluate the importance of each triple in the semantic information using an
+attention network and then, build a relationship between the importance
+distribution of the triples in the semantic information and the total MSS.
+Compared to traditional RL algorithms, the proposed algorithm can dynamically
+adjust its learning rate thus ensuring convergence to a locally optimal
+solution.",2022-08-17
+High Recall Data-to-text Generation with Progressive Edit,2022-08-09 06:22:05+00:00,http://arxiv.org/abs/2208.04558v1,"Choonghan Kim, Gary Geunbae Lee","cs.CL, cs.AI",table2text,"Data-to-text (D2T) generation is the task of generating texts from structured
+inputs. We observed that when the same target sentence was repeated twice,
+Transformer (T5) based model generates an output made up of asymmetric
+sentences from structured inputs. In other words, these sentences were
+different in length and quality. We call this phenomenon ""Asymmetric
+Generation"" and we exploit this in D2T generation. Once asymmetric sentences
+are generated, we add the first part of the output with a no-repeated-target.
+As this goes through progressive edit (ProEdit), the recall increases. Hence,
+this method better covers structured inputs than before editing. ProEdit is a
+simple but effective way to improve performance in D2T generation and it
+achieves the new stateof-the-art result on the ToTTo dataset",2022-08-09
 "Suggestion Lists vs. Continuous Generation: Interaction Design for
   Writing with Generative Models on Mobile Devices Affect Text Length, Wording
   and Perceived Authorship",2022-08-01 13:57:11+00:00,http://arxiv.org/abs/2208.00870v1,"Florian Lehmann, Niklas Markert, Hai Dang, Daniel Buschek","cs.HC, cs.AI",table2text,"Neural language models have the potential to support human writing. However,

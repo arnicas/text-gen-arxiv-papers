@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2022-08-03*
+*written on 2022-08-25*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [GenTUS: Simulating User Behaviour and Language in Task-oriented  Dialogues with Generative Transformers](http://arxiv.org/abs/2208.10817v1) | Hsien-Chin Lin, Christian Geishauser, Shutong Feng, Nurul Lubis, Carel van Niekerk, Michael Heck, Milica Gašić | cs.CL | 2022-08-23 |
+| [Efficient Task-Oriented Dialogue Systems with Response Selection as an  Auxiliary Task](http://arxiv.org/abs/2208.07097v1) | Radostin Cholakov, Todor Kolev | cs.CL, cs.AI | 2022-08-15 |
 | [Dynamically Retrieving Knowledge via Query Generation for informative  dialogue response](http://arxiv.org/abs/2208.00128v1) | Zhongtian Hu, Yangqi Chen, Yushuang Liu, Lifang Wang | cs.CL | 2022-07-30 |
 | [Sequence to sequence pretraining for a less-resourced Slovenian language](http://arxiv.org/abs/2207.13988v1) | Matej Ulčar, Marko Robnik-Šikonja | cs.CL | 2022-07-28 |
 | [A Multi-Party Dialogue Ressource in French](http://arxiv.org/abs/2207.12162v1) | Maria Boritchev, Maxime Amblard | cs.AI | 2022-07-25 |

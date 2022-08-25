@@ -7,10 +7,15 @@ sidebar:
 ---
 
 
-*written on 2022-08-01*
+*written on 2022-08-25*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [GenTUS: Simulating User Behaviour and Language in Task-oriented  Dialogues with Generative Transformers](http://arxiv.org/abs/2208.10817v1) | Hsien-Chin Lin, Christian Geishauser, Shutong Feng, Nurul Lubis, Carel van Niekerk, Michael Heck, Milica Gašić | cs.CL | 2022-08-23 |
+| [Automatic tagging of knowledge points for K12 math problems](http://arxiv.org/abs/2208.09867v1) | Xiaolu Wang, Ziqi Ding, Liangyu Chen | cs.CL | 2022-08-21 |
+| [Performance Optimization for Semantic Communications: An Attention-based  Reinforcement Learning Approach](http://arxiv.org/abs/2208.08239v1) | Yining Wang, Mingzhe Chen, Tao Luo, Walid Saad, Dusit Niyato, H. Vincent Poor, Shuguang Cui | cs.IT, cs.AI, math.IT | 2022-08-17 |
+| [Understanding Attention for Vision-and-Language Tasks](http://arxiv.org/abs/2208.08104v1) | Feiqi Cao, Soyeon Caren Han, Siqu Long, Changwei Xu, Josiah Poon | cs.CV, cs.CL | 2022-08-17 |
+| [A Representation Modeling Based Language GAN with Completely Random  Initialization](http://arxiv.org/abs/2208.02531v1) | Da Ren, Qing Li | cs.CL | 2022-08-04 |
 | [LaKo: Knowledge-driven Visual Question Answering via Late  Knowledge-to-Text Injection](http://arxiv.org/abs/2207.12888v1) | Zhuo Chen, Yufeng Huang, Jiaoyan Chen, Yuxia Geng, Yin Fang, Jeff Pan, Ningyu Zhang, Wen Zhang | cs.CV, cs.AI | 2022-07-26 |
 | [Leveraging Natural Supervision for Language Representation Learning and  Generation](http://arxiv.org/abs/2207.10617v1) | Mingda Chen | cs.CL | 2022-07-21 |
 | [Syntax Controlled Knowledge Graph-to-Text Generation with Order and  Semantic Consistency](http://arxiv.org/abs/2207.00719v1) | Jin Liu, Chongfeng Fan, Fengyu Zhou, Huijuan Xu | cs.AI | 2022-07-02 |

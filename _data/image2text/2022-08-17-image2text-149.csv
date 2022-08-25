@@ -1,4 +1,20 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Understanding Attention for Vision-and-Language Tasks,2022-08-17 06:45:07+00:00,http://arxiv.org/abs/2208.08104v1,"Feiqi Cao, Soyeon Caren Han, Siqu Long, Changwei Xu, Josiah Poon","cs.CV, cs.CL",image2text,"Attention mechanism has been used as an important component across
+Vision-and-Language(VL) tasks in order to bridge the semantic gap between
+visual and textual features. While attention has been widely used in VL tasks,
+it has not been examined the capability of different attention alignment
+calculation in bridging the semantic gap between visual and textual clues. In
+this research, we conduct a comprehensive analysis on understanding the role of
+attention alignment by looking into the attention score calculation methods and
+check how it actually represents the visual region's and textual token's
+significance for the global assessment. We also analyse the conditions which
+attention score calculation mechanism would be more (or less) interpretable,
+and which may impact the model performance on three different VL tasks,
+including visual question answering, text-to-image generation, text-and-image
+matching (both sentence and image retrieval). Our analysis is the first of its
+kind and provides useful insights of the importance of each attention alignment
+score calculation when applied at the training phase of VL tasks, commonly
+ignored in attention-based cross modal models, and/or pretrained models.",2022-08-17
 ShapeCrafter: A Recursive Text-Conditioned 3D Shape Generation Model,2022-07-19 17:59:01+00:00,http://arxiv.org/abs/2207.09446v1,"Rao Fu, Xiao Zhan, Yiwen Chen, Daniel Ritchie, Srinath Sridhar","cs.CV, cs.AI",image2text,"We present ShapeCrafter, a neural network for recursive text-conditioned 3D
 shape generation. Existing methods to generate text-conditioned 3D shapes
 consume an entire text prompt to generate a 3D shape in a single step. However,

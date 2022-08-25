@@ -1,4 +1,107 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"GenTUS: Simulating User Behaviour and Language in Task-oriented
+  Dialogues with Generative Transformers",2022-08-23 09:01:17+00:00,http://arxiv.org/abs/2208.10817v1,"Hsien-Chin Lin, Christian Geishauser, Shutong Feng, Nurul Lubis, Carel van Niekerk, Michael Heck, Milica Gašić",cs.CL,knowledge,"User simulators (USs) are commonly used to train task-oriented dialogue
+systems (DSs) via reinforcement learning. The interactions often take place on
+semantic level for efficiency, but there is still a gap from semantic actions
+to natural language, which causes a mismatch between training and deployment
+environment. Incorporating a natural language generation (NLG) module with USs
+during training can partly deal with this problem. However, since the policy
+and NLG of USs are optimised separately, these simulated user utterances may
+not be natural enough in a given context. In this work, we propose a generative
+transformer-based user simulator (GenTUS). GenTUS consists of an
+encoder-decoder structure, which means it can optimise both the user policy and
+natural language generation jointly. GenTUS generates both semantic actions and
+natural language utterances, preserving interpretability and enhancing language
+variation. In addition, by representing the inputs and outputs as word
+sequences and by using a large pre-trained language model we can achieve
+generalisability in feature representation. We evaluate GenTUS with automatic
+metrics and human evaluation. Our results show that GenTUS generates more
+natural language and is able to transfer to an unseen ontology in a zero-shot
+fashion. In addition, its behaviour can be further shaped with reinforcement
+learning opening the door to training specialised user simulators.",2022-08-23
+Automatic tagging of knowledge points for K12 math problems,2022-08-21 11:11:30+00:00,http://arxiv.org/abs/2208.09867v1,"Xiaolu Wang, Ziqi Ding, Liangyu Chen",cs.CL,knowledge,"Automatic tagging of knowledge points for practice problems is the basis for
+managing question bases and improving the automation and intelligence of
+education. Therefore, it is of great practical significance to study the
+automatic tagging technology for practice problems. However, there are few
+studies on the automatic tagging of knowledge points for math problems. Math
+texts have more complex structures and semantics compared with general texts
+because they contain unique elements such as symbols and formulas. Therefore,
+it is difficult to meet the accuracy requirement of knowledge point prediction
+by directly applying the text classification techniques in general domains. In
+this paper, K12 math problems taken as the research object, the LABS model
+based on label-semantic attention and multi-label smoothing combining textual
+features is proposed to improve the automatic tagging of knowledge points for
+math problems. The model combines the text classification techniques in general
+domains and the unique features of math texts. The results show that the models
+using label-semantic attention or multi-label smoothing perform better on
+precision, recall, and F1-score metrics than the traditional BiLSTM model,
+while the LABS model using both performs best. It can be seen that label
+information can guide the neural networks to extract meaningful information
+from the problem text, which improves the text classification performance of
+the model. Moreover, multi-label smoothing combining textual features can fully
+explore the relationship between text and labels, improve the model's
+prediction ability for new data and improve the model's classification
+accuracy.",2022-08-21
+"Performance Optimization for Semantic Communications: An Attention-based
+  Reinforcement Learning Approach",2022-08-17 11:39:16+00:00,http://arxiv.org/abs/2208.08239v1,"Yining Wang, Mingzhe Chen, Tao Luo, Walid Saad, Dusit Niyato, H. Vincent Poor, Shuguang Cui","cs.IT, cs.AI, math.IT",knowledge,"In this paper, a semantic communication framework is proposed for textual
+data transmission. In the studied model, a base station (BS) extracts the
+semantic information from textual data, and transmits it to each user. The
+semantic information is modeled by a knowledge graph (KG) that consists of a
+set of semantic triples. After receiving the semantic information, each user
+recovers the original text using a graph-to-text generation model. To measure
+the performance of the considered semantic communication framework, a metric of
+semantic similarity (MSS) that jointly captures the semantic accuracy and
+completeness of the recovered text is proposed. Due to wireless resource
+limitations, the BS may not be able to transmit the entire semantic information
+to each user and satisfy the transmission delay constraint. Hence, the BS must
+select an appropriate resource block for each user as well as determine and
+transmit part of the semantic information to the users. As such, we formulate
+an optimization problem whose goal is to maximize the total MSS by jointly
+optimizing the resource allocation policy and determining the partial semantic
+information to be transmitted. To solve this problem, a
+proximal-policy-optimization-based reinforcement learning (RL) algorithm
+integrated with an attention network is proposed. The proposed algorithm can
+evaluate the importance of each triple in the semantic information using an
+attention network and then, build a relationship between the importance
+distribution of the triples in the semantic information and the total MSS.
+Compared to traditional RL algorithms, the proposed algorithm can dynamically
+adjust its learning rate thus ensuring convergence to a locally optimal
+solution.",2022-08-17
+Understanding Attention for Vision-and-Language Tasks,2022-08-17 06:45:07+00:00,http://arxiv.org/abs/2208.08104v1,"Feiqi Cao, Soyeon Caren Han, Siqu Long, Changwei Xu, Josiah Poon","cs.CV, cs.CL",knowledge,"Attention mechanism has been used as an important component across
+Vision-and-Language(VL) tasks in order to bridge the semantic gap between
+visual and textual features. While attention has been widely used in VL tasks,
+it has not been examined the capability of different attention alignment
+calculation in bridging the semantic gap between visual and textual clues. In
+this research, we conduct a comprehensive analysis on understanding the role of
+attention alignment by looking into the attention score calculation methods and
+check how it actually represents the visual region's and textual token's
+significance for the global assessment. We also analyse the conditions which
+attention score calculation mechanism would be more (or less) interpretable,
+and which may impact the model performance on three different VL tasks,
+including visual question answering, text-to-image generation, text-and-image
+matching (both sentence and image retrieval). Our analysis is the first of its
+kind and provides useful insights of the importance of each attention alignment
+score calculation when applied at the training phase of VL tasks, commonly
+ignored in attention-based cross modal models, and/or pretrained models.",2022-08-17
+"A Representation Modeling Based Language GAN with Completely Random
+  Initialization",2022-08-04 08:56:04+00:00,http://arxiv.org/abs/2208.02531v1,"Da Ren, Qing Li",cs.CL,knowledge,"Text generative models trained via Maximum Likelihood Estimation (MLE) suffer
+from the notorious exposure bias problem, and Generative Adversarial Networks
+(GANs) are shown to have potential to tackle it. Existing language GANs adopt
+estimators like REINFORCE or continuous relaxations to model word
+distributions. The inherent limitations of such estimators lead current models
+to rely on pre-training techniques (MLE pre-training or pre-trained
+embeddings). Representation modeling methods which are free from those
+limitations, however, are seldom explored because of its poor performance in
+previous attempts. Our analyses reveal that invalid sampling method and
+unhealthy gradients are the main contributors to its unsatisfactory
+performance. In this work, we present two techniques to tackle these problems:
+dropout sampling and fully normalized LSTM. Based on these two techniques, we
+propose InitialGAN whose parameters are randomly initialized completely.
+Besides, we introduce a new evaluation metric, Least Coverage Rate, to better
+evaluate the quality of generated samples. The experimental results demonstrate
+that InitialGAN outperforms both MLE and other compared models. To the best of
+our knowledge, it is the first time a language GAN can outperform MLE without
+any pre-training techniques.",2022-08-04
 "LaKo: Knowledge-driven Visual Question Answering via Late
   Knowledge-to-Text Injection",2022-07-26 13:29:51+00:00,http://arxiv.org/abs/2207.12888v1,"Zhuo Chen, Yufeng Huang, Jiaoyan Chen, Yuxia Geng, Yin Fang, Jeff Pan, Ningyu Zhang, Wen Zhang","cs.CV, cs.AI",knowledge,"Visual question answering (VQA) often requires an understanding of visual
 concepts and language semantics, which relies on external knowledge. Most

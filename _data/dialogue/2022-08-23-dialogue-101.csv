@@ -1,4 +1,36 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"GenTUS: Simulating User Behaviour and Language in Task-oriented
+  Dialogues with Generative Transformers",2022-08-23 09:01:17+00:00,http://arxiv.org/abs/2208.10817v1,"Hsien-Chin Lin, Christian Geishauser, Shutong Feng, Nurul Lubis, Carel van Niekerk, Michael Heck, Milica Gašić",cs.CL,dialogue,"User simulators (USs) are commonly used to train task-oriented dialogue
+systems (DSs) via reinforcement learning. The interactions often take place on
+semantic level for efficiency, but there is still a gap from semantic actions
+to natural language, which causes a mismatch between training and deployment
+environment. Incorporating a natural language generation (NLG) module with USs
+during training can partly deal with this problem. However, since the policy
+and NLG of USs are optimised separately, these simulated user utterances may
+not be natural enough in a given context. In this work, we propose a generative
+transformer-based user simulator (GenTUS). GenTUS consists of an
+encoder-decoder structure, which means it can optimise both the user policy and
+natural language generation jointly. GenTUS generates both semantic actions and
+natural language utterances, preserving interpretability and enhancing language
+variation. In addition, by representing the inputs and outputs as word
+sequences and by using a large pre-trained language model we can achieve
+generalisability in feature representation. We evaluate GenTUS with automatic
+metrics and human evaluation. Our results show that GenTUS generates more
+natural language and is able to transfer to an unseen ontology in a zero-shot
+fashion. In addition, its behaviour can be further shaped with reinforcement
+learning opening the door to training specialised user simulators.",2022-08-23
+"Efficient Task-Oriented Dialogue Systems with Response Selection as an
+  Auxiliary Task",2022-08-15 09:59:44+00:00,http://arxiv.org/abs/2208.07097v1,"Radostin Cholakov, Todor Kolev","cs.CL, cs.AI",dialogue,"The adoption of pre-trained language models in task-oriented dialogue systems
+has resulted in significant enhancements of their text generation abilities.
+However, these architectures are slow to use because of the large number of
+trainable parameters and can sometimes fail to generate diverse responses. To
+address these limitations, we propose two models with auxiliary tasks for
+response selection - (1) distinguishing distractors from ground truth responses
+and (2) distinguishing synthetic responses from ground truth labels. They
+achieve state-of-the-art results on the MultiWOZ 2.1 dataset with combined
+scores of 107.5 and 108.3 and outperform a baseline with three times more
+parameters. We publish reproducible code and checkpoints and discuss the
+effects of applying auxiliary tasks to T5-based architectures.",2022-08-15
 "Dynamically Retrieving Knowledge via Query Generation for informative
   dialogue response",2022-07-30 03:05:43+00:00,http://arxiv.org/abs/2208.00128v1,"Zhongtian Hu, Yangqi Chen, Yushuang Liu, Lifang Wang",cs.CL,dialogue,"Knowledge-driven dialogue generation has recently made remarkable
 breakthroughs. Compared with general dialogue systems, superior

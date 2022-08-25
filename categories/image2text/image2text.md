@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2022-08-01*
+*written on 2022-08-25*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Understanding Attention for Vision-and-Language Tasks](http://arxiv.org/abs/2208.08104v1) | Feiqi Cao, Soyeon Caren Han, Siqu Long, Changwei Xu, Josiah Poon | cs.CV, cs.CL | 2022-08-17 |
 | [ShapeCrafter: A Recursive Text-Conditioned 3D Shape Generation Model](http://arxiv.org/abs/2207.09446v1) | Rao Fu, Xiao Zhan, Yiwen Chen, Daniel Ritchie, Srinath Sridhar | cs.CV, cs.AI | 2022-07-19 |
 | [A Baseline for Detecting Out-of-Distribution Examples in Image  Captioning](http://arxiv.org/abs/2207.05418v1) | Gabi Shalev, Gal-Lev Shalev, Joseph Keshet | cs.CV, cs.LG | 2022-07-12 |
 | [Towards Multimodal Vision-Language Models Generating Non-Generic Text](http://arxiv.org/abs/2207.04174v1) | Wes Robbins, Zanyar Zohourianshahzadi, Jugal Kalita | cs.CV, cs.AI | 2022-07-09 |

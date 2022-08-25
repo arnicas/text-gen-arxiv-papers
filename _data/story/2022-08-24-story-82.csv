@@ -1,4 +1,15 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Of Human Criteria and Automatic Metrics: A Benchmark of the Evaluation
+  of Story Generation",2022-08-24 16:35:32+00:00,http://arxiv.org/abs/2208.11646v1,"Cyril Chhun, Pierre Colombo, Chloé Clavel, Fabian M. Suchanek",cs.CL,story,"Research on Automatic Story Generation (ASG) relies heavily on human and
+automatic evaluation. However, there is no consensus on which human evaluation
+criteria to use, and no analysis of how well automatic criteria correlate with
+them. In this paper, we propose to re-evaluate ASG evaluation. We introduce a
+set of 6 orthogonal and comprehensive human criteria, carefully motivated by
+the social sciences literature. We also present HANNA, an annotated dataset of
+1,056 stories produced by 10 different ASG systems. HANNA allows us to
+quantitatively evaluate the correlations of 72 automatic metrics with human
+criteria. Our analysis highlights the weaknesses of current metrics for ASG and
+allows us to formulate practical recommendations for ASG evaluation.",2022-08-24
 "Leveraging Natural Supervision for Language Representation Learning and
   Generation",2022-07-21 17:26:03+00:00,http://arxiv.org/abs/2207.10617v1,Mingda Chen,cs.CL,story,"Recent breakthroughs in Natural Language Processing (NLP) have been driven by
 language models trained on a massive amount of plain text. While powerful,
