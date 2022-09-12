@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2022-08-01*
+*written on 2022-09-12*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Using Large Language Models to Simulate Multiple Humans](http://arxiv.org/abs/2208.10264v3) | Gati Aher, Rosa I. Arriaga, Adam Tauman Kalai | cs.CL, cs.AI, cs.LG | 2022-08-18 |
 | [Mimetic Models: Ethical Implications of AI that Acts Like You](http://arxiv.org/abs/2207.09394v1) | Reid McIlroy-Young, Jon Kleinberg, Siddhartha Sen, Solon Barocas, Ashton Anderson | cs.AI, cs.CY | 2022-07-19 |
 | [Word Play for Playing Othello (Reverses)](http://arxiv.org/abs/2207.08766v1) | Samantha E. Miller Noever, David Noever | cs.LG | 2022-07-18 |
 | [Immersive Text Game and Personality Classification](http://arxiv.org/abs/2203.10621v1) | Wanshui Li, Yifan Bai, Jiaxuan Lu, Kexin Yi | cs.CL, cs.AI, cs.LG | 2022-03-20 |

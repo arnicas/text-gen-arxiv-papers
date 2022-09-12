@@ -1,4 +1,103 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Layer or Representation Space: What makes BERT-based Evaluation Metrics
+  Robust?",2022-09-06 09:10:54+00:00,http://arxiv.org/abs/2209.02317v2,"Doan Nam Long Vu, Nafise Sadat Moosavi, Steffen Eger",cs.CL,table2text,"The evaluation of recent embedding-based evaluation metrics for text
+generation is primarily based on measuring their correlation with human
+evaluations on standard benchmarks. However, these benchmarks are mostly from
+similar domains to those used for pretraining word embeddings. This raises
+concerns about the (lack of) generalization of embedding-based metrics to new
+and noisy domains that contain a different vocabulary than the pretraining
+data. In this paper, we examine the robustness of BERTScore, one of the most
+popular embedding-based metrics for text generation. We show that (a) an
+embedding-based metric that has the highest correlation with human evaluations
+on a standard benchmark can have the lowest correlation if the amount of input
+noise or unknown tokens increases, (b) taking embeddings from the first layer
+of pretrained models improves the robustness of all metrics, and (c) the
+highest robustness is achieved when using character-level embeddings, instead
+of token-based embeddings, from the first layer of the pretrained model.",2022-09-06
+"Every picture tells a story: Image-grounded controllable stylistic story
+  generation",2022-09-04 15:07:53+00:00,http://arxiv.org/abs/2209.01638v1,"Holy Lovenia, Bryan Wilie, Romain Barraud, Samuel Cahyawijaya, Willy Chung, Pascale Fung",cs.CL,table2text,"Generating a short story out of an image is arduous. Unlike image captioning,
+story generation from an image poses multiple challenges: preserving the story
+coherence, appropriately assessing the quality of the story, steering the
+generated story into a certain style, and addressing the scarcity of
+image-story pair reference datasets limiting supervision during training. In
+this work, we introduce Plug-and-Play Story Teller (PPST) and improve
+image-to-story generation by: 1) alleviating the data scarcity problem by
+incorporating large pre-trained models, namely CLIP and GPT-2, to facilitate a
+fluent image-to-text generation with minimal supervision, and 2) enabling a
+more style-relevant generation by incorporating stylistic adapters to control
+the story generation. We conduct image-to-story generation experiments with
+non-styled, romance-styled, and action-styled PPST approaches and compare our
+generated stories with those of previous work over three aspects, i.e., story
+coherence, image-story relevance, and style fitness, using both automatic and
+human evaluation. The results show that PPST improves story coherence and has
+better image-story relevance, but has yet to be adequately stylistic.",2022-09-04
+Multi-Modal Experience Inspired AI Creation,2022-09-02 11:50:41+00:00,http://arxiv.org/abs/2209.02427v1,"Qian Cao, Xu Chen, Ruihua Song, Hao Jiang, Guang Yang, Zhao Cao",cs.AI,table2text,"AI creation, such as poem or lyrics generation, has attracted increasing
+attention from both industry and academic communities, with many promising
+models proposed in the past few years. Existing methods usually estimate the
+outputs based on single and independent visual or textual information. However,
+in reality, humans usually make creations according to their experiences, which
+may involve different modalities and be sequentially correlated. To model such
+human capabilities, in this paper, we define and solve a novel AI creation
+problem based on human experiences. More specifically, we study how to generate
+texts based on sequential multi-modal information. Compared with the previous
+works, this task is much more difficult because the designed model has to well
+understand and adapt the semantics among different modalities and effectively
+convert them into the output in a sequential manner. To alleviate these
+difficulties, we firstly design a multi-channel sequence-to-sequence
+architecture equipped with a multi-modal attention network. For more effective
+optimization, we then propose a curriculum negative sampling strategy tailored
+for the sequential inputs. To benchmark this problem and demonstrate the
+effectiveness of our model, we manually labeled a new multi-modal experience
+dataset. With this dataset, we conduct extensive experiments by comparing our
+model with a series of representative baselines, where we can demonstrate
+significant improvements in our model based on both automatic and
+human-centered metrics. The code and data are available at:
+\url{https://github.com/Aman-4-Real/MMTG}.",2022-09-02
+A Spanish dataset for Targeted Sentiment Analysis of political headlines,2022-08-30 01:30:30+00:00,http://arxiv.org/abs/2208.13947v1,"Tomás Alves Salgueiro, Emilio Recart Zapata, Damián Furman, Juan Manuel Pérez, Pablo Nicolás Fernández Larrosa",cs.CL,table2text,"Subjective texts have been studied by several works as they can induce
+certain behaviours in their users. Most work focuses on user-generated texts in
+social networks, but some other texts also comprise opinions on certain topics
+and could influence judgement criteria during political decisions. In this
+work, we address the task of Targeted Sentiment Analysis for the domain of news
+headlines, published by the main outlets during the 2019 Argentinean
+Presidential Elections. For this purpose, we present a polarity dataset of
+1,976 headlines mentioning candidates in the 2019 elections at the target
+level. Preliminary experiments with state-of-the-art classification algorithms
+based on pre-trained linguistic models suggest that target information is
+helpful for this task. We make our data and pre-trained models publicly
+available.",2022-08-30
+"StoryTrans: Non-Parallel Story Author-Style Transfer with Discourse
+  Representations and Content Enhancing",2022-08-29 08:47:49+00:00,http://arxiv.org/abs/2208.13423v1,"Xuekai Zhu, Jian Guan, Minlie Huang, Juan Liu",cs.CL,table2text,"Non-parallel text style transfer is an important task in natural language
+generation. However, previous studies concentrate on the token or sentence
+level, such as sentence sentiment and formality transfer, but neglect long
+style transfer at the discourse level. Long texts usually involve more
+complicated author linguistic preferences such as discourse structures than
+sentences. In this paper, we formulate the task of non-parallel story
+author-style transfer, which requires transferring an input story into a
+specified author style while maintaining source semantics. To tackle this
+problem, we propose a generation model, named StoryTrans, which leverages
+discourse representations to capture source content information and transfer
+them to target styles with learnable style embeddings. We use an additional
+training objective to disentangle stylistic features from the learned discourse
+representation to prevent the model from degenerating to an auto-encoder.
+Moreover, to enhance content preservation, we design a mask-and-fill framework
+to explicitly fuse style-specific keywords of source texts into generation.
+Furthermore, we constructed new datasets for this task in Chinese and English,
+respectively. Extensive experiments show that our model outperforms strong
+baselines in overall performance of style transfer and content preservation.",2022-08-29
+Nearest Neighbor Non-autoregressive Text Generation,2022-08-26 08:21:21+00:00,http://arxiv.org/abs/2208.12496v1,"Ayana Niwa, Sho Takase, Naoaki Okazaki",cs.CL,table2text,"Non-autoregressive (NAR) models can generate sentences with less computation
+than autoregressive models but sacrifice generation quality. Previous studies
+addressed this issue through iterative decoding. This study proposes using
+nearest neighbors as the initial state of an NAR decoder and editing them
+iteratively. We present a novel training strategy to learn the edit operations
+on neighbors to improve NAR text generation. Experimental results show that the
+proposed method (NeighborEdit) achieves higher translation quality (1.69 points
+higher than the vanilla Transformer) with fewer decoding iterations
+(one-eighteenth fewer iterations) on the JRC-Acquis En-De dataset, the common
+benchmark dataset for machine translation using nearest neighbors. We also
+confirm the effectiveness of the proposed method on a data-to-text task
+(WikiBio). In addition, the proposed method outperforms an NAR baseline on the
+WMT'14 En-De dataset. We also report analysis on neighbor examples used in the
+proposed method.",2022-08-26
 "GenTUS: Simulating User Behaviour and Language in Task-oriented
   Dialogues with Generative Transformers",2022-08-23 09:01:17+00:00,http://arxiv.org/abs/2208.10817v1,"Hsien-Chin Lin, Christian Geishauser, Shutong Feng, Nurul Lubis, Carel van Niekerk, Michael Heck, Milica Gašić",cs.CL,table2text,"User simulators (USs) are commonly used to train task-oriented dialogue
 systems (DSs) via reinforcement learning. The interactions often take place on

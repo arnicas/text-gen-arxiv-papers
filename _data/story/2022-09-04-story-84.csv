@@ -1,4 +1,40 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Every picture tells a story: Image-grounded controllable stylistic story
+  generation",2022-09-04 15:07:53+00:00,http://arxiv.org/abs/2209.01638v1,"Holy Lovenia, Bryan Wilie, Romain Barraud, Samuel Cahyawijaya, Willy Chung, Pascale Fung",cs.CL,story,"Generating a short story out of an image is arduous. Unlike image captioning,
+story generation from an image poses multiple challenges: preserving the story
+coherence, appropriately assessing the quality of the story, steering the
+generated story into a certain style, and addressing the scarcity of
+image-story pair reference datasets limiting supervision during training. In
+this work, we introduce Plug-and-Play Story Teller (PPST) and improve
+image-to-story generation by: 1) alleviating the data scarcity problem by
+incorporating large pre-trained models, namely CLIP and GPT-2, to facilitate a
+fluent image-to-text generation with minimal supervision, and 2) enabling a
+more style-relevant generation by incorporating stylistic adapters to control
+the story generation. We conduct image-to-story generation experiments with
+non-styled, romance-styled, and action-styled PPST approaches and compare our
+generated stories with those of previous work over three aspects, i.e., story
+coherence, image-story relevance, and style fitness, using both automatic and
+human evaluation. The results show that PPST improves story coherence and has
+better image-story relevance, but has yet to be adequately stylistic.",2022-09-04
+"StoryTrans: Non-Parallel Story Author-Style Transfer with Discourse
+  Representations and Content Enhancing",2022-08-29 08:47:49+00:00,http://arxiv.org/abs/2208.13423v1,"Xuekai Zhu, Jian Guan, Minlie Huang, Juan Liu",cs.CL,story,"Non-parallel text style transfer is an important task in natural language
+generation. However, previous studies concentrate on the token or sentence
+level, such as sentence sentiment and formality transfer, but neglect long
+style transfer at the discourse level. Long texts usually involve more
+complicated author linguistic preferences such as discourse structures than
+sentences. In this paper, we formulate the task of non-parallel story
+author-style transfer, which requires transferring an input story into a
+specified author style while maintaining source semantics. To tackle this
+problem, we propose a generation model, named StoryTrans, which leverages
+discourse representations to capture source content information and transfer
+them to target styles with learnable style embeddings. We use an additional
+training objective to disentangle stylistic features from the learned discourse
+representation to prevent the model from degenerating to an auto-encoder.
+Moreover, to enhance content preservation, we design a mask-and-fill framework
+to explicitly fuse style-specific keywords of source texts into generation.
+Furthermore, we constructed new datasets for this task in Chinese and English,
+respectively. Extensive experiments show that our model outperforms strong
+baselines in overall performance of style transfer and content preservation.",2022-08-29
 "Of Human Criteria and Automatic Metrics: A Benchmark of the Evaluation
   of Story Generation",2022-08-24 16:35:32+00:00,http://arxiv.org/abs/2208.11646v1,"Cyril Chhun, Pierre Colombo, Chloé Clavel, Fabian M. Suchanek",cs.CL,story,"Research on Automatic Story Generation (ASG) relies heavily on human and
 automatic evaluation. However, there is no consensus on which human evaluation

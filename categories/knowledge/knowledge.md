@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2022-08-25*
+*written on 2022-09-12*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Elaboration-Generating Commonsense Question Answering at Scale](http://arxiv.org/abs/2209.01232v1) | Wenya Wang, Vivek Srikumar, Hanna Hajishirzi, Noah A. Smith | cs.CL | 2022-09-02 |
+| [Multi-Modal Experience Inspired AI Creation](http://arxiv.org/abs/2209.02427v1) | Qian Cao, Xu Chen, Ruihua Song, Hao Jiang, Guang Yang, Zhao Cao | cs.AI | 2022-09-02 |
+| [Unified Knowledge Prompt Pre-training for Customer Service Dialogues](http://arxiv.org/abs/2208.14652v1) | Keqing He, Jingang Wang, Chaobo Sun, Wei Wu | cs.CL | 2022-08-31 |
+| [StoryTrans: Non-Parallel Story Author-Style Transfer with Discourse  Representations and Content Enhancing](http://arxiv.org/abs/2208.13423v1) | Xuekai Zhu, Jian Guan, Minlie Huang, Juan Liu | cs.CL | 2022-08-29 |
 | [GenTUS: Simulating User Behaviour and Language in Task-oriented  Dialogues with Generative Transformers](http://arxiv.org/abs/2208.10817v1) | Hsien-Chin Lin, Christian Geishauser, Shutong Feng, Nurul Lubis, Carel van Niekerk, Michael Heck, Milica Gašić | cs.CL | 2022-08-23 |
 | [Automatic tagging of knowledge points for K12 math problems](http://arxiv.org/abs/2208.09867v1) | Xiaolu Wang, Ziqi Ding, Liangyu Chen | cs.CL | 2022-08-21 |
 | [Performance Optimization for Semantic Communications: An Attention-based  Reinforcement Learning Approach](http://arxiv.org/abs/2208.08239v1) | Yining Wang, Mingzhe Chen, Tao Luo, Walid Saad, Dusit Niyato, H. Vincent Poor, Shuguang Cui | cs.IT, cs.AI, math.IT | 2022-08-17 |

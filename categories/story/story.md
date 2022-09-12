@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2022-08-25*
+*written on 2022-09-12*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Every picture tells a story: Image-grounded controllable stylistic story  generation](http://arxiv.org/abs/2209.01638v1) | Holy Lovenia, Bryan Wilie, Romain Barraud, Samuel Cahyawijaya, Willy Chung, Pascale Fung | cs.CL | 2022-09-04 |
+| [StoryTrans: Non-Parallel Story Author-Style Transfer with Discourse  Representations and Content Enhancing](http://arxiv.org/abs/2208.13423v1) | Xuekai Zhu, Jian Guan, Minlie Huang, Juan Liu | cs.CL | 2022-08-29 |
 | [Of Human Criteria and Automatic Metrics: A Benchmark of the Evaluation  of Story Generation](http://arxiv.org/abs/2208.11646v1) | Cyril Chhun, Pierre Colombo, Chloé Clavel, Fabian M. Suchanek | cs.CL | 2022-08-24 |
 | [Leveraging Natural Supervision for Language Representation Learning and  Generation](http://arxiv.org/abs/2207.10617v1) | Mingda Chen | cs.CL | 2022-07-21 |
 | [Collocation2Text: Controllable Text Generation from Guide Phrases in  Russian](http://arxiv.org/abs/2206.09248v1) | Sergey Vychegzhanin, Evgeny Kotelnikov | cs.CL | 2022-06-18 |
