@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2022-09-12*
+*written on 2022-09-24*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [LibertyMFD: A Lexicon to Assess the Moral Foundation of Liberty](http://arxiv.org/abs/2209.06750v1) | Oscar Araque, Lorenzo Gatti, Kyriaki Kalimeri | cs.CL | 2022-09-14 |
 | [Every picture tells a story: Image-grounded controllable stylistic story  generation](http://arxiv.org/abs/2209.01638v1) | Holy Lovenia, Bryan Wilie, Romain Barraud, Samuel Cahyawijaya, Willy Chung, Pascale Fung | cs.CL | 2022-09-04 |
 | [StoryTrans: Non-Parallel Story Author-Style Transfer with Discourse  Representations and Content Enhancing](http://arxiv.org/abs/2208.13423v1) | Xuekai Zhu, Jian Guan, Minlie Huang, Juan Liu | cs.CL | 2022-08-29 |
 | [Of Human Criteria and Automatic Metrics: A Benchmark of the Evaluation  of Story Generation](http://arxiv.org/abs/2208.11646v1) | Cyril Chhun, Pierre Colombo, Chloé Clavel, Fabian M. Suchanek | cs.CL | 2022-08-24 |

@@ -7,10 +7,16 @@ sidebar:
 ---
 
 
-*written on 2022-09-12*
+*written on 2022-09-24*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Can we do that simpler? Simple, Efficient, High-Quality Evaluation  Metrics for NLG](http://arxiv.org/abs/2209.09593v1) | Jens Grünwald, Christoph Leiter, Steffen Eger | cs.CL, cs.LG | 2022-09-20 |
+| [Selective Token Generation for Few-shot Natural Language Generation](http://arxiv.org/abs/2209.08206v1) | Daejin Jo, Taehwan Kwon, Eun-Sol Kim, Sungwoong Kim | cs.CL, cs.LG | 2022-09-17 |
+| [TwHIN-BERT: A Socially-Enriched Pre-trained Language Model for  Multilingual Tweet Representations](http://arxiv.org/abs/2209.07562v1) | Xinyang Zhang, Yury Malkov, Omar Florez, Serim Park, Brian McWilliams, Jiawei Han, Ahmed El-Kishky | cs.CL | 2022-09-15 |
+| [Distribution Aware Metrics for Conditional Natural Language Generation](http://arxiv.org/abs/2209.07518v1) | David M Chan, Yiming Ni, Austin Myers, Sudheendra Vijayanarasimhan, David A Ross, John Canny | cs.CL, cs.AI, cs.CV, cs.LG | 2022-09-15 |
+| [vec2text with Round-Trip Translations](http://arxiv.org/abs/2209.06792v1) | Geoffrey Cideron, Sertan Girgin, Anton Raichuk, Olivier Pietquin, Olivier Bachem, Léonard Hussenot | cs.CL, cs.LG | 2022-09-14 |
+| [Visual Recipe Flow: A Dataset for Learning Visual State Changes of  Objects with Recipe Flows](http://arxiv.org/abs/2209.05840v1) | Keisuke Shirai, Atsushi Hashimoto, Taichi Nishimura, Hirotaka Kameko, Shuhei Kurita, Yoshitaka Ushiku, Shinsuke Mori | cs.CL, cs.AI | 2022-09-13 |
 | [Elaboration-Generating Commonsense Question Answering at Scale](http://arxiv.org/abs/2209.01232v1) | Wenya Wang, Vivek Srikumar, Hanna Hajishirzi, Noah A. Smith | cs.CL | 2022-09-02 |
 | [Multi-Modal Experience Inspired AI Creation](http://arxiv.org/abs/2209.02427v1) | Qian Cao, Xu Chen, Ruihua Song, Hao Jiang, Guang Yang, Zhao Cao | cs.AI | 2022-09-02 |
 | [Unified Knowledge Prompt Pre-training for Customer Service Dialogues](http://arxiv.org/abs/2208.14652v1) | Keqing He, Jingang Wang, Chaobo Sun, Wei Wu | cs.CL | 2022-08-31 |

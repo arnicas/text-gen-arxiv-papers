@@ -1,4 +1,56 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"A Benchmark for Understanding and Generating Dialogue between Characters
+  in Stories",2022-09-18 10:19:04+00:00,http://arxiv.org/abs/2209.08524v1,"Jianzhu Yao, Ziqi Liu, Jian Guan, Minlie Huang","cs.CL, cs.AI",dialogue,"Many classical fairy tales, fiction, and screenplays leverage dialogue to
+advance story plots and establish characters. We present the first study to
+explore whether machines can understand and generate dialogue in stories, which
+requires capturing traits of different characters and the relationships between
+them. To this end, we propose two new tasks including Masked Dialogue
+Generation and Dialogue Speaker Recognition, i.e., generating missing dialogue
+turns and predicting speakers for specified dialogue turns, respectively. We
+build a new dataset DialStory, which consists of 105k Chinese stories with a
+large amount of dialogue weaved into the plots to support the evaluation. We
+show the difficulty of the proposed tasks by testing existing models with
+automatic and manual evaluation on DialStory. Furthermore, we propose to learn
+explicit character representations to improve performance on these tasks.
+Extensive experiments and case studies show that our approach can generate more
+coherent and informative dialogue, and achieve higher speaker recognition
+accuracy than strong baselines.",2022-09-18
+"Adaptive Natural Language Generation for Task-oriented Dialogue via
+  Reinforcement Learning",2022-09-16 12:08:57+00:00,http://arxiv.org/abs/2209.07873v1,"Atsumoto Ohashi, Ryuichiro Higashinaka","cs.CL, cs.AI",dialogue,"When a natural language generation (NLG) component is implemented in a
+real-world task-oriented dialogue system, it is necessary to generate not only
+natural utterances as learned on training data but also utterances adapted to
+the dialogue environment (e.g., noise from environmental sounds) and the user
+(e.g., users with low levels of understanding ability). Inspired by recent
+advances in reinforcement learning (RL) for language generation tasks, we
+propose ANTOR, a method for Adaptive Natural language generation for
+Task-Oriented dialogue via Reinforcement learning. In ANTOR, a natural language
+understanding (NLU) module, which corresponds to the user's understanding of
+system utterances, is incorporated into the objective function of RL. If the
+NLG's intentions are correctly conveyed to the NLU, which understands a
+system's utterances, the NLG is given a positive reward. We conducted
+experiments on the MultiWOZ dataset, and we confirmed that ANTOR could generate
+adaptive utterances against speech recognition errors and the different
+vocabulary levels of users.",2022-09-16
+"OPAL: Ontology-Aware Pretrained Language Model for End-to-End
+  Task-Oriented Dialogue",2022-09-10 04:38:27+00:00,http://arxiv.org/abs/2209.04595v1,"Zhi Chen, Yuncong Liu, Lu Chen, Su Zhu, Mengyue Wu, Kai Yu",cs.CL,dialogue,"This paper presents an ontology-aware pretrained language model (OPAL) for
+end-to-end task-oriented dialogue (TOD). Unlike chit-chat dialogue models,
+task-oriented dialogue models fulfill at least two task-specific modules:
+dialogue state tracker (DST) and response generator (RG). The dialogue state
+consists of the domain-slot-value triples, which are regarded as the user's
+constraints to search the domain-related databases. The large-scale
+task-oriented dialogue data with the annotated structured dialogue state
+usually are inaccessible. It prevents the development of the pretrained
+language model for the task-oriented dialogue. We propose a simple yet
+effective pretraining method to alleviate this problem, which consists of two
+pretraining phases. The first phase is to pretrain on large-scale contextual
+text data, where the structured information of the text is extracted by the
+information extracting tool. To bridge the gap between the pretraining method
+and downstream tasks, we design two pretraining tasks: ontology-like triple
+recovery and next-text generation, which simulates the DST and RG,
+respectively. The second phase is to fine-tune the pretrained model on the TOD
+data. The experimental results show that our proposed method achieves an
+exciting boost and get competitive performance even without any TOD data on
+CamRest676 and MultiWOZ benchmarks.",2022-09-10
 Unified Knowledge Prompt Pre-training for Customer Service Dialogues,2022-08-31 06:23:53+00:00,http://arxiv.org/abs/2208.14652v1,"Keqing He, Jingang Wang, Chaobo Sun, Wei Wu",cs.CL,dialogue,"Dialogue bots have been widely applied in customer service scenarios to
 provide timely and user-friendly experience. These bots must classify the
 appropriate domain of a dialogue, understand the intent of users, and generate

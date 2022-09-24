@@ -1,4 +1,21 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+LibertyMFD: A Lexicon to Assess the Moral Foundation of Liberty,2022-09-14 16:14:54+00:00,http://arxiv.org/abs/2209.06750v1,"Oscar Araque, Lorenzo Gatti, Kyriaki Kalimeri",cs.CL,story,"Quantifying the moral narratives expressed in the user-generated text, news,
+or public discourses is fundamental for understanding individuals' concerns and
+viewpoints and preventing violent protests and social polarisation. The Moral
+Foundation Theory (MFT) was developed to operationalise morality in a
+five-dimensional scale system. Recent developments of the theory urged for the
+introduction of a new foundation, the Liberty Foundation. Being only recently
+added to the theory, there are no available linguistic resources to assess
+whether liberty is present in text corpora. Given its importance to current
+social issues such as the vaccination debate, we propose two data-driven
+approaches, deriving two candidate lexicons generated based on aligned
+documents from online news sources with different worldviews. After extensive
+experimentation, we contribute to the research community a novel lexicon that
+assesses the liberty moral foundation in the way individuals with contrasting
+viewpoints express themselves through written text. The LibertyMFD dictionary
+can be a valuable tool for policymakers to understand diverse viewpoints on
+controversial social issues such as vaccination, abortion, or even uprisings,
+as they happen and on a large scale.",2022-09-14
 "Every picture tells a story: Image-grounded controllable stylistic story
   generation",2022-09-04 15:07:53+00:00,http://arxiv.org/abs/2209.01638v1,"Holy Lovenia, Bryan Wilie, Romain Barraud, Samuel Cahyawijaya, Willy Chung, Pascale Fung",cs.CL,story,"Generating a short story out of an image is arduous. Unlike image captioning,
 story generation from an image poses multiple challenges: preserving the story

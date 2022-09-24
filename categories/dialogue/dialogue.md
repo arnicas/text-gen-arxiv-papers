@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2022-09-12*
+*written on 2022-09-24*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [A Benchmark for Understanding and Generating Dialogue between Characters  in Stories](http://arxiv.org/abs/2209.08524v1) | Jianzhu Yao, Ziqi Liu, Jian Guan, Minlie Huang | cs.CL, cs.AI | 2022-09-18 |
+| [Adaptive Natural Language Generation for Task-oriented Dialogue via  Reinforcement Learning](http://arxiv.org/abs/2209.07873v1) | Atsumoto Ohashi, Ryuichiro Higashinaka | cs.CL, cs.AI | 2022-09-16 |
+| [OPAL: Ontology-Aware Pretrained Language Model for End-to-End  Task-Oriented Dialogue](http://arxiv.org/abs/2209.04595v1) | Zhi Chen, Yuncong Liu, Lu Chen, Su Zhu, Mengyue Wu, Kai Yu | cs.CL | 2022-09-10 |
 | [Unified Knowledge Prompt Pre-training for Customer Service Dialogues](http://arxiv.org/abs/2208.14652v1) | Keqing He, Jingang Wang, Chaobo Sun, Wei Wu | cs.CL | 2022-08-31 |
 | [GenTUS: Simulating User Behaviour and Language in Task-oriented  Dialogues with Generative Transformers](http://arxiv.org/abs/2208.10817v1) | Hsien-Chin Lin, Christian Geishauser, Shutong Feng, Nurul Lubis, Carel van Niekerk, Michael Heck, Milica Gašić | cs.CL | 2022-08-23 |
 | [Efficient Task-Oriented Dialogue Systems with Response Selection as an  Auxiliary Task](http://arxiv.org/abs/2208.07097v1) | Radostin Cholakov, Todor Kolev | cs.CL, cs.AI | 2022-08-15 |

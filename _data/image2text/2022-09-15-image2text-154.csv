@@ -1,4 +1,48 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Distribution Aware Metrics for Conditional Natural Language Generation,2022-09-15 17:58:13+00:00,http://arxiv.org/abs/2209.07518v1,"David M Chan, Yiming Ni, Austin Myers, Sudheendra Vijayanarasimhan, David A Ross, John Canny","cs.CL, cs.AI, cs.CV, cs.LG",image2text,"Traditional automated metrics for evaluating conditional natural language
+generation use pairwise comparisons between a single generated text and the
+best-matching gold-standard ground truth text. When multiple ground truths are
+available, scores are aggregated using an average or max operation across
+references. While this approach works well when diversity in the ground truth
+data (i.e. dispersion of the distribution of conditional texts) can be ascribed
+to noise, such as in automated speech recognition, it does not allow for robust
+evaluation in the case where diversity in the ground truths represents signal
+for the model. In this work we argue that existing metrics are not appropriate
+for domains such as visual description or summarization where ground truths are
+semantically diverse, and where the diversity in those captions captures useful
+additional information about the context. We propose a novel paradigm for
+multi-candidate evaluation of conditional language generation models, and a new
+family of metrics that compare the distributions of reference and
+model-generated caption sets using small sample sets of each. We demonstrate
+the utility of our approach with a case study in visual description: where we
+show that existing models optimize for single-description quality over
+diversity, and gain some insights into how sampling methods and temperature
+impact description quality and diversity.",2022-09-15
+PaLI: A Jointly-Scaled Multilingual Language-Image Model,2022-09-14 17:24:07+00:00,http://arxiv.org/abs/2209.06794v2,"Xi Chen, Xiao Wang, Soravit Changpinyo, AJ Piergiovanni, Piotr Padlewski, Daniel Salz, Sebastian Goodman, Adam Grycner, Basil Mustafa, Lucas Beyer, Alexander Kolesnikov, Joan Puigcerver, Nan Ding, Keran Rong, Hassan Akbari, Gaurav Mishra, Linting Xue, Ashish Thapliyal, James Bradbury, Weicheng Kuo, Mojtaba Seyedhosseini, Chao Jia, Burcu Karagol Ayan, Carlos Riquelme, Andreas Steiner, Anelia Angelova, Xiaohua Zhai, Neil Houlsby, Radu Soricut","cs.CV, cs.CL",image2text,"Effective scaling and a flexible task interface enable large language models
+to excel at many tasks. PaLI (Pathways Language and Image model) extends this
+approach to the joint modeling of language and vision. PaLI generates text
+based on visual and textual inputs, and with this interface performs many
+vision, language, and multimodal tasks, in many languages. To train PaLI, we
+make use of large pretrained encoder-decoder language models and Vision
+Transformers (ViTs). This allows us to capitalize on their existing
+capabilities and leverage the substantial cost of training them. We find that
+joint scaling of the vision and language components is important. Since
+existing Transformers for language are much larger than their vision
+counterparts, we train the largest ViT to date (ViT-e) to quantify the benefits
+from even larger-capacity vision models. To train PaLI, we create a large
+multilingual mix of pretraining tasks, based on a new image-text training set
+containing 10B images and texts in over 100 languages. PaLI achieves
+state-of-the-art in multiple vision and language tasks (such as captioning,
+visual question-answering, scene-text understanding), while retaining a simple,
+modular, and scalable design.",2022-09-14
+"Visual Recipe Flow: A Dataset for Learning Visual State Changes of
+  Objects with Recipe Flows",2022-09-13 09:38:32+00:00,http://arxiv.org/abs/2209.05840v1,"Keisuke Shirai, Atsushi Hashimoto, Taichi Nishimura, Hirotaka Kameko, Shuhei Kurita, Yoshitaka Ushiku, Shinsuke Mori","cs.CL, cs.AI",image2text,"We present a new multimodal dataset called Visual Recipe Flow, which enables
+us to learn each cooking action result in a recipe text. The dataset consists
+of object state changes and the workflow of the recipe text. The state change
+is represented as an image pair, while the workflow is represented as a recipe
+flow graph (r-FG). The image pairs are grounded in the r-FG, which provides the
+cross-modal relation. With our dataset, one can try a range of applications,
+from multimodal commonsense reasoning and procedural text generation.",2022-09-13
 "Bridging Music and Text with Crowdsourced Music Comments: A
   Sequence-to-Sequence Framework for Thematic Music Comments Generation",2022-09-05 14:51:51+00:00,http://arxiv.org/abs/2209.01996v1,"Peining Zhang, Junliang Guo, Linli Xu, Mu You, Junming Yin","cs.SD, cs.CL, eess.AS",image2text,"We consider a novel task of automatically generating text descriptions of
 music. Compared with other well-established text generation tasks such as image
