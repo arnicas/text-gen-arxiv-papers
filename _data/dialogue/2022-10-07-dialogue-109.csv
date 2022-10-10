@@ -1,4 +1,73 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Unsupervised Neural Stylistic Text Generation using Transfer learning
+  and Adapters",2022-10-07 00:09:22+00:00,http://arxiv.org/abs/2210.03264v1,"Vinayshekhar Bannihatti Kumar, Rashmi Gangadharaiah, Dan Roth",cs.CL,dialogue,"Research has shown that personality is a key driver to improve engagement and
+user experience in conversational systems. Conversational agents should also
+maintain a consistent persona to have an engaging conversation with a user.
+However, text generation datasets are often crowd sourced and thereby have an
+averaging effect where the style of the generation model is an average style of
+all the crowd workers that have contributed to the dataset. While one can
+collect persona-specific datasets for each task, it would be an expensive and
+time consuming annotation effort. In this work, we propose a novel transfer
+learning framework which updates only $0.3\%$ of model parameters to learn
+style specific attributes for response generation. For the purpose of this
+study, we tackle the problem of stylistic story ending generation using the ROC
+stories Corpus. We learn style specific attributes from the
+PERSONALITY-CAPTIONS dataset. Through extensive experiments and evaluation
+metrics we show that our novel training procedure can improve the style
+generation by 200 over Encoder-Decoder baselines while maintaining on-par
+content relevance metrics with",2022-10-07
+"Learning functional sections in medical conversations: iterative
+  pseudo-labeling and human-in-the-loop approach",2022-10-06 03:33:00+00:00,http://arxiv.org/abs/2210.02658v2,"Mengqian Wang, Ilya Valmianski, Xavier Amatriain, Anitha Kannan",cs.CL,dialogue,"Medical conversations between patients and medical professionals have
+implicit functional sections, such as ""history taking"", ""summarization"",
+""education"", and ""care plan."" In this work, we are interested in learning to
+automatically extract these sections. A direct approach would require
+collecting large amounts of expert annotations for this task, which is
+inherently costly due to the contextual inter-and-intra variability between
+these sections. This paper presents an approach that tackles the problem of
+learning to classify medical dialogue into functional sections without
+requiring a large number of annotations. Our approach combines pseudo-labeling
+and human-in-the-loop. First, we bootstrap using weak supervision with
+pseudo-labeling to generate dialogue turn-level pseudo-labels and train a
+transformer-based model, which is then applied to individual sentences to
+create noisy sentence-level labels. Second, we iteratively refine
+sentence-level labels using a cluster-based human-in-the-loop approach. Each
+iteration requires only a few dozen annotator decisions. We evaluate the
+results on an expert-annotated dataset of 100 dialogues and find that while our
+models start with 69.5% accuracy, we can iteratively improve it to 82.5%. The
+code used to perform all experiments described in this paper can be found here:
+https://github.com/curai/curai-research/tree/main/functional-sections.",2022-10-06
+"Dancing with the Unexpected and Beyond: The Use of AI Assistance in
+  Design Fiction Creation",2022-10-03 11:26:39+00:00,http://arxiv.org/abs/2210.00829v1,"Yiying Wu, Yunye Yu, Pengcheng An",cs.HC,dialogue,"The creation process of design fiction is going participatory and inclusive
+with non experts. Recognizing the potential of artificial intelligence in
+creativity support, we explore the use of AI assistance in creating design
+fiction. This investigation is based on a workshop on future work in 2040 with
+Chinese youth. We look into fiction quality, participants experiences with the
+AI agent, and their ways of incorporating those texts into writing. Our
+findings show that human writers while responding to messy and unexpected
+AI-generated texts, can elevate the richness and creativity in writing and
+initiate joyful and inspirational interactions. Furthermore, for the design of
+AI assistance in creativity support, we suggest two implications of enhancing
+interactional quality between human and AI and prompt programming. Our study
+indicates the potential of applying design fiction outside the design context
+using a more inclusive approach for future speculation with critical reflection
+on technology.",2022-10-03
+"Co-Writing Screenplays and Theatre Scripts with Language Models: An
+  Evaluation by Industry Professionals",2022-09-29 17:26:22+00:00,http://arxiv.org/abs/2209.14958v1,"Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, Richard Evans","cs.HC, cs.CL",dialogue,"Language models are increasingly attracting interest from writers. However,
+such models lack long-range semantic coherence, limiting their usefulness for
+longform creative writing. We address this limitation by applying language
+models hierarchically, in a system we call Dramatron. By building structural
+context via prompt chaining, Dramatron can generate coherent scripts and
+screenplays complete with title, characters, story beats, location
+descriptions, and dialogue. We illustrate Dramatron's usefulness as an
+interactive co-creative system with a user study of 15 theatre and film
+industry professionals. Participants co-wrote theatre scripts and screenplays
+with Dramatron and engaged in open-ended interviews. We report critical
+reflections both from our interviewees and from independent reviewers who
+watched stagings of the works to illustrate how both Dramatron and hierarchical
+text generation could be useful for human-machine co-creativity. Finally, we
+discuss the suitability of Dramatron for co-creativity, ethical considerations
+-- including plagiarism and bias -- and participatory models for the design and
+deployment of such tools.",2022-09-29
 "A Benchmark for Understanding and Generating Dialogue between Characters
   in Stories",2022-09-18 10:19:04+00:00,http://arxiv.org/abs/2209.08524v1,"Jianzhu Yao, Ziqi Liu, Jian Guan, Minlie Huang","cs.CL, cs.AI",dialogue,"Many classical fairy tales, fiction, and screenplays leverage dialogue to
 advance story plots and establish characters. We present the first study to

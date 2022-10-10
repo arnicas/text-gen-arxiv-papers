@@ -6,10 +6,18 @@ sidebar:
 ---
 
 
-*written on 2022-09-24*
+*written on 2022-10-10*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [A Unified Encoder-Decoder Framework with Entity Memory](http://arxiv.org/abs/2210.03273v1) | Zhihan Zhang, Wenhao Yu, Chenguang Zhu, Meng Jiang | cs.CL | 2022-10-07 |
+| [Unsupervised Sentence Textual Similarity with Compositional Phrase  Semantics](http://arxiv.org/abs/2210.02284v1) | Zihao Wang, Jiaheng Dou, Yong Zhang | cs.CL | 2022-10-05 |
+| [Synonym Detection Using Syntactic Dependency And Neural Embeddings](http://arxiv.org/abs/2209.15202v1) | Dongqiang Yang, Pikun Wang, Xiaodong Sun, Ning Li | cs.CL, cs.AI | 2022-09-30 |
+| [Co-Writing Screenplays and Theatre Scripts with Language Models: An  Evaluation by Industry Professionals](http://arxiv.org/abs/2209.14958v1) | Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, Richard Evans | cs.HC, cs.CL | 2022-09-29 |
+| [DR.BENCH: Diagnostic Reasoning Benchmark for Clinical Natural Language  Processing](http://arxiv.org/abs/2209.14901v1) | Yanjun Gao, Dmitriy Dligach, Timothy Miller, John Caskey, Brihat Sharma, Matthew M Churpek, Majid Afshar | cs.CL, cs.AI | 2022-09-29 |
+| [FiD-Light: Efficient and Effective Retrieval-Augmented Text Generation](http://arxiv.org/abs/2209.14290v1) | Sebastian Hofstätter, Jiecao Chen, Karthik Raman, Hamed Zamani | cs.CL, cs.IR | 2022-09-28 |
+| [Informative Text Generation from Knowledge Triples](http://arxiv.org/abs/2209.12733v1) | Zihao Fu, Yijiang River Dong, Lidong Bing, Wai Lam | cs.CL | 2022-09-26 |
+| [Controllable Text Generation for Open-Domain Creativity and Fairness](http://arxiv.org/abs/2209.12099v1) | Nanyun Peng | cs.CL, cs.AI | 2022-09-24 |
 | [Can we do that simpler? Simple, Efficient, High-Quality Evaluation  Metrics for NLG](http://arxiv.org/abs/2209.09593v1) | Jens Grünwald, Christoph Leiter, Steffen Eger | cs.CL, cs.LG | 2022-09-20 |
 | [Selective Token Generation for Few-shot Natural Language Generation](http://arxiv.org/abs/2209.08206v1) | Daejin Jo, Taehwan Kwon, Eun-Sol Kim, Sungwoong Kim | cs.CL, cs.LG | 2022-09-17 |
 | [TwHIN-BERT: A Socially-Enriched Pre-trained Language Model for  Multilingual Tweet Representations](http://arxiv.org/abs/2209.07562v1) | Xinyang Zhang, Yury Malkov, Omar Florez, Serim Park, Brian McWilliams, Jiawei Han, Ahmed El-Kishky | cs.CL | 2022-09-15 |

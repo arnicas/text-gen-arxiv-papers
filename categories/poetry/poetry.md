@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2022-09-12*
+*written on 2022-10-10*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Controllable Text Generation for Open-Domain Creativity and Fairness](http://arxiv.org/abs/2209.12099v1) | Nanyun Peng | cs.CL, cs.AI | 2022-09-24 |
 | [Multi-Modal Experience Inspired AI Creation](http://arxiv.org/abs/2209.02427v1) | Qian Cao, Xu Chen, Ruihua Song, Hao Jiang, Guang Yang, Zhao Cao | cs.AI | 2022-09-02 |
 | [Romantic-Computing](http://arxiv.org/abs/2206.11864v1) | Elizabeth Horishny | cs.CL, cs.AI | 2022-06-01 |
 | [GPoeT-2: A GPT-2 Based Poem Generator](http://arxiv.org/abs/2205.08847v1) | Kai-Ling Lo, Rami Ariss, Philipp Kurz | cs.CL, cs.AI | 2022-05-18 |

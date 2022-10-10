@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2022-09-24*
+*written on 2022-10-10*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Unsupervised Neural Stylistic Text Generation using Transfer learning  and Adapters](http://arxiv.org/abs/2210.03264v1) | Vinayshekhar Bannihatti Kumar, Rashmi Gangadharaiah, Dan Roth | cs.CL | 2022-10-07 |
+| [Co-Writing Screenplays and Theatre Scripts with Language Models: An  Evaluation by Industry Professionals](http://arxiv.org/abs/2209.14958v1) | Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, Richard Evans | cs.HC, cs.CL | 2022-09-29 |
+| [XF2T: Cross-lingual Fact-to-Text Generation for Low-Resource Languages](http://arxiv.org/abs/2209.11252v1) | Shivprasad Sagare, Tushar Abhishek, Bhavyajeet Singh, Anubhav Sharma, Manish Gupta, Vasudeva Varma | cs.CL | 2022-09-22 |
 | [Distribution Aware Metrics for Conditional Natural Language Generation](http://arxiv.org/abs/2209.07518v1) | David M Chan, Yiming Ni, Austin Myers, Sudheendra Vijayanarasimhan, David A Ross, John Canny | cs.CL, cs.AI, cs.CV, cs.LG | 2022-09-15 |
 | [PaLI: A Jointly-Scaled Multilingual Language-Image Model](http://arxiv.org/abs/2209.06794v2) | Xi Chen, Xiao Wang, Soravit Changpinyo, AJ Piergiovanni, Piotr Padlewski, Daniel Salz, Sebastian Goodman, Adam Grycner, Basil Mustafa, Lucas Beyer, Alexander Kolesnikov, Joan Puigcerver, Nan Ding, Keran Rong, Hassan Akbari, Gaurav Mishra, Linting Xue, Ashish Thapliyal, James Bradbury, Weicheng Kuo, Mojtaba Seyedhosseini, Chao Jia, Burcu Karagol Ayan, Carlos Riquelme, Andreas Steiner, Anelia Angelova, Xiaohua Zhai, Neil Houlsby, Radu Soricut | cs.CV, cs.CL | 2022-09-14 |
 | [Visual Recipe Flow: A Dataset for Learning Visual State Changes of  Objects with Recipe Flows](http://arxiv.org/abs/2209.05840v1) | Keisuke Shirai, Atsushi Hashimoto, Taichi Nishimura, Hirotaka Kameko, Shuhei Kurita, Yoshitaka Ushiku, Shinsuke Mori | cs.CL, cs.AI | 2022-09-13 |

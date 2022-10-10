@@ -1,4 +1,58 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Unsupervised Neural Stylistic Text Generation using Transfer learning
+  and Adapters",2022-10-07 00:09:22+00:00,http://arxiv.org/abs/2210.03264v1,"Vinayshekhar Bannihatti Kumar, Rashmi Gangadharaiah, Dan Roth",cs.CL,image2text,"Research has shown that personality is a key driver to improve engagement and
+user experience in conversational systems. Conversational agents should also
+maintain a consistent persona to have an engaging conversation with a user.
+However, text generation datasets are often crowd sourced and thereby have an
+averaging effect where the style of the generation model is an average style of
+all the crowd workers that have contributed to the dataset. While one can
+collect persona-specific datasets for each task, it would be an expensive and
+time consuming annotation effort. In this work, we propose a novel transfer
+learning framework which updates only $0.3\%$ of model parameters to learn
+style specific attributes for response generation. For the purpose of this
+study, we tackle the problem of stylistic story ending generation using the ROC
+stories Corpus. We learn style specific attributes from the
+PERSONALITY-CAPTIONS dataset. Through extensive experiments and evaluation
+metrics we show that our novel training procedure can improve the style
+generation by 200 over Encoder-Decoder baselines while maintaining on-par
+content relevance metrics with",2022-10-07
+"Co-Writing Screenplays and Theatre Scripts with Language Models: An
+  Evaluation by Industry Professionals",2022-09-29 17:26:22+00:00,http://arxiv.org/abs/2209.14958v1,"Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, Richard Evans","cs.HC, cs.CL",image2text,"Language models are increasingly attracting interest from writers. However,
+such models lack long-range semantic coherence, limiting their usefulness for
+longform creative writing. We address this limitation by applying language
+models hierarchically, in a system we call Dramatron. By building structural
+context via prompt chaining, Dramatron can generate coherent scripts and
+screenplays complete with title, characters, story beats, location
+descriptions, and dialogue. We illustrate Dramatron's usefulness as an
+interactive co-creative system with a user study of 15 theatre and film
+industry professionals. Participants co-wrote theatre scripts and screenplays
+with Dramatron and engaged in open-ended interviews. We report critical
+reflections both from our interviewees and from independent reviewers who
+watched stagings of the works to illustrate how both Dramatron and hierarchical
+text generation could be useful for human-machine co-creativity. Finally, we
+discuss the suitability of Dramatron for co-creativity, ethical considerations
+-- including plagiarism and bias -- and participatory models for the design and
+deployment of such tools.",2022-09-29
+XF2T: Cross-lingual Fact-to-Text Generation for Low-Resource Languages,2022-09-22 18:01:27+00:00,http://arxiv.org/abs/2209.11252v1,"Shivprasad Sagare, Tushar Abhishek, Bhavyajeet Singh, Anubhav Sharma, Manish Gupta, Vasudeva Varma",cs.CL,image2text,"Multiple business scenarios require an automated generation of descriptive
+human-readable text from structured input data. Hence, fact-to-text generation
+systems have been developed for various downstream tasks like generating soccer
+reports, weather and financial reports, medical reports, person biographies,
+etc. Unfortunately, previous work on fact-to-text (F2T) generation has focused
+primarily on English mainly due to the high availability of relevant datasets.
+Only recently, the problem of cross-lingual fact-to-text (XF2T) was proposed
+for generation across multiple languages alongwith a dataset, XALIGN for eight
+languages. However, there has been no rigorous work on the actual XF2T
+generation problem. We extend XALIGN dataset with annotated data for four more
+languages: Punjabi, Malayalam, Assamese and Oriya. We conduct an extensive
+study using popular Transformer-based text generation models on our extended
+multi-lingual dataset, which we call XALIGNV2. Further, we investigate the
+performance of different text generation strategies: multiple variations of
+pretraining, fact-aware embeddings and structure-aware input encoding. Our
+extensive experiments show that a multi-lingual mT5 model which uses fact-aware
+embeddings with structure-aware input encoding leads to best results on average
+across the twelve languages. We make our code, dataset and model publicly
+available, and hope that this will help advance further research in this
+critical area.",2022-09-22
 Distribution Aware Metrics for Conditional Natural Language Generation,2022-09-15 17:58:13+00:00,http://arxiv.org/abs/2209.07518v1,"David M Chan, Yiming Ni, Austin Myers, Sudheendra Vijayanarasimhan, David A Ross, John Canny","cs.CL, cs.AI, cs.CV, cs.LG",image2text,"Traditional automated metrics for evaluating conditional natural language
 generation use pairwise comparisons between a single generated text and the
 best-matching gold-standard ground truth text. When multiple ground truths are

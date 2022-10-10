@@ -7,10 +7,20 @@ sidebar:
 ---
 
 
-*written on 2022-09-24*
+*written on 2022-10-10*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [FAST: Improving Controllability for Text Generation with Feedback Aware  Self-Training](http://arxiv.org/abs/2210.03167v1) | Junyi Chai, Reid Pryzant, Victor Ye Dong, Konstantin Golobokov, Chenguang Zhu, Yi Liu | cs.CL | 2022-10-06 |
+| [A Distributional Lens for Multi-Aspect Controllable Text Generation](http://arxiv.org/abs/2210.02889v1) | Yuxuan Gu, Xiaocheng Feng, Sicheng Ma, Lingyuan Zhang, Heng Gong, Bing Qin | cs.CL | 2022-10-06 |
+| [Unsupervised Sentence Textual Similarity with Compositional Phrase  Semantics](http://arxiv.org/abs/2210.02284v1) | Zihao Wang, Jiaheng Dou, Yong Zhang | cs.CL | 2022-10-05 |
+| [CodeDSI: Differentiable Code Search](http://arxiv.org/abs/2210.00328v1) | Usama Nadeem, Noah Ziems, Shaoen Wu | cs.SE, cs.IR | 2022-10-01 |
+| [Calibrating Sequence likelihood Improves Conditional Language Generation](http://arxiv.org/abs/2210.00045v1) | Yao Zhao, Misha Khalman, Rishabh Joshi, Shashi Narayan, Mohammad Saleh, Peter J. Liu | cs.CL | 2022-09-30 |
+| [Co-Writing Screenplays and Theatre Scripts with Language Models: An  Evaluation by Industry Professionals](http://arxiv.org/abs/2209.14958v1) | Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, Richard Evans | cs.HC, cs.CL | 2022-09-29 |
+| [DR.BENCH: Diagnostic Reasoning Benchmark for Clinical Natural Language  Processing](http://arxiv.org/abs/2209.14901v1) | Yanjun Gao, Dmitriy Dligach, Timothy Miller, John Caskey, Brihat Sharma, Matthew M Churpek, Majid Afshar | cs.CL, cs.AI | 2022-09-29 |
+| [Informative Text Generation from Knowledge Triples](http://arxiv.org/abs/2209.12733v1) | Zihao Fu, Yijiang River Dong, Lidong Bing, Wai Lam | cs.CL | 2022-09-26 |
+| [Controllable Text Generation for Open-Domain Creativity and Fairness](http://arxiv.org/abs/2209.12099v1) | Nanyun Peng | cs.CL, cs.AI | 2022-09-24 |
+| [XF2T: Cross-lingual Fact-to-Text Generation for Low-Resource Languages](http://arxiv.org/abs/2209.11252v1) | Shivprasad Sagare, Tushar Abhishek, Bhavyajeet Singh, Anubhav Sharma, Manish Gupta, Vasudeva Varma | cs.CL | 2022-09-22 |
 | [Selective Token Generation for Few-shot Natural Language Generation](http://arxiv.org/abs/2209.08206v1) | Daejin Jo, Taehwan Kwon, Eun-Sol Kim, Sungwoong Kim | cs.CL, cs.LG | 2022-09-17 |
 | [Adaptive Natural Language Generation for Task-oriented Dialogue via  Reinforcement Learning](http://arxiv.org/abs/2209.07873v1) | Atsumoto Ohashi, Ryuichiro Higashinaka | cs.CL, cs.AI | 2022-09-16 |
 | [TwHIN-BERT: A Socially-Enriched Pre-trained Language Model for  Multilingual Tweet Representations](http://arxiv.org/abs/2209.07562v1) | Xinyang Zhang, Yury Malkov, Omar Florez, Serim Park, Brian McWilliams, Jiawei Han, Ahmed El-Kishky | cs.CL | 2022-09-15 |

@@ -1,4 +1,138 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+A Unified Encoder-Decoder Framework with Entity Memory,2022-10-07 01:15:30+00:00,http://arxiv.org/abs/2210.03273v1,"Zhihan Zhang, Wenhao Yu, Chenguang Zhu, Meng Jiang",cs.CL,knowledge,"Entities, as important carriers of real-world knowledge, play a key role in
+many NLP tasks. We focus on incorporating entity knowledge into an
+encoder-decoder framework for informative text generation. Existing approaches
+tried to index, retrieve, and read external documents as evidence, but they
+suffered from a large computational overhead. In this work, we propose an
+encoder-decoder framework with an entity memory, namely EDMem. The entity
+knowledge is stored in the memory as latent representations, and the memory is
+pre-trained on Wikipedia along with encoder-decoder parameters. To precisely
+generate entity names, we design three decoding methods to constrain entity
+generation by linking entities in the memory. EDMem is a unified framework that
+can be used on various entity-intensive question answering and generation
+tasks. Extensive experimental results show that EDMem outperforms both
+memory-based auto-encoder models and non-memory encoder-decoder models.",2022-10-07
+"Unsupervised Sentence Textual Similarity with Compositional Phrase
+  Semantics",2022-10-05 14:14:04+00:00,http://arxiv.org/abs/2210.02284v1,"Zihao Wang, Jiaheng Dou, Yong Zhang",cs.CL,knowledge,"Measuring Sentence Textual Similarity (STS) is a classic task that can be
+applied to many downstream NLP applications such as text generation and
+retrieval. In this paper, we focus on unsupervised STS that works on various
+domains but only requires minimal data and computational resources.
+Theoretically, we propose a light-weighted Expectation-Correction (EC)
+formulation for STS computation. EC formulation unifies unsupervised STS
+approaches including the cosine similarity of Additively Composed (AC) sentence
+embeddings, Optimal Transport (OT), and Tree Kernels (TK). Moreover, we propose
+the Recursive Optimal Transport Similarity (ROTS) algorithm to capture the
+compositional phrase semantics by composing multiple recursive EC formulations.
+ROTS finishes in linear time and is faster than its predecessors. ROTS is
+empirically more effective and scalable than previous approaches. Extensive
+experiments on 29 STS tasks under various settings show the clear advantage of
+ROTS over existing approaches. Detailed ablation studies demonstrate the
+effectiveness of our approaches.",2022-10-05
+Synonym Detection Using Syntactic Dependency And Neural Embeddings,2022-09-30 03:16:41+00:00,http://arxiv.org/abs/2209.15202v1,"Dongqiang Yang, Pikun Wang, Xiaodong Sun, Ning Li","cs.CL, cs.AI",knowledge,"Recent advances on the Vector Space Model have significantly improved some
+NLP applications such as neural machine translation and natural language
+generation. Although word co-occurrences in context have been widely used in
+counting-/predicting-based distributional models, the role of syntactic
+dependencies in deriving distributional semantics has not yet been thoroughly
+investigated. By comparing various Vector Space Models in detecting synonyms in
+TOEFL, we systematically study the salience of syntactic dependencies in
+accounting for distributional similarity. We separate syntactic dependencies
+into different groups according to their various grammatical roles and then use
+context-counting to construct their corresponding raw and SVD-compressed
+matrices. Moreover, using the same training hyperparameters and corpora, we
+study typical neural embeddings in the evaluation. We further study the
+effectiveness of injecting human-compiled semantic knowledge into neural
+embeddings on computing distributional similarity. Our results show that the
+syntactically conditioned contexts can interpret lexical semantics better than
+the unconditioned ones, whereas retrofitting neural embeddings with semantic
+knowledge can significantly improve synonym detection.",2022-09-30
+"Co-Writing Screenplays and Theatre Scripts with Language Models: An
+  Evaluation by Industry Professionals",2022-09-29 17:26:22+00:00,http://arxiv.org/abs/2209.14958v1,"Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, Richard Evans","cs.HC, cs.CL",knowledge,"Language models are increasingly attracting interest from writers. However,
+such models lack long-range semantic coherence, limiting their usefulness for
+longform creative writing. We address this limitation by applying language
+models hierarchically, in a system we call Dramatron. By building structural
+context via prompt chaining, Dramatron can generate coherent scripts and
+screenplays complete with title, characters, story beats, location
+descriptions, and dialogue. We illustrate Dramatron's usefulness as an
+interactive co-creative system with a user study of 15 theatre and film
+industry professionals. Participants co-wrote theatre scripts and screenplays
+with Dramatron and engaged in open-ended interviews. We report critical
+reflections both from our interviewees and from independent reviewers who
+watched stagings of the works to illustrate how both Dramatron and hierarchical
+text generation could be useful for human-machine co-creativity. Finally, we
+discuss the suitability of Dramatron for co-creativity, ethical considerations
+-- including plagiarism and bias -- and participatory models for the design and
+deployment of such tools.",2022-09-29
+"DR.BENCH: Diagnostic Reasoning Benchmark for Clinical Natural Language
+  Processing",2022-09-29 16:05:53+00:00,http://arxiv.org/abs/2209.14901v1,"Yanjun Gao, Dmitriy Dligach, Timothy Miller, John Caskey, Brihat Sharma, Matthew M Churpek, Majid Afshar","cs.CL, cs.AI",knowledge,"The meaningful use of electronic health records (EHR) continues to progress
+in the digital era with clinical decision support systems augmented by
+artificial intelligence. A priority in improving provider experience is to
+overcome information overload and reduce the cognitive burden so fewer medical
+errors and cognitive biases are introduced during patient care. One major type
+of medical error is diagnostic error due to systematic or predictable errors in
+judgment that rely on heuristics. The potential for clinical natural language
+processing (cNLP) to model diagnostic reasoning in humans with forward
+reasoning from data to diagnosis and potentially reduce the cognitive burden
+and medical error has not been investigated. Existing tasks to advance the
+science in cNLP have largely focused on information extraction and named entity
+recognition through classification tasks. We introduce a novel suite of tasks
+coined as Diagnostic Reasoning Benchmarks, DR.BENCH, as a new benchmark for
+developing and evaluating cNLP models with clinical diagnostic reasoning
+ability. The suite includes six tasks from ten publicly available datasets
+addressing clinical text understanding, medical knowledge reasoning, and
+diagnosis generation. DR.BENCH is the first clinical suite of tasks designed to
+be a natural language generation framework to evaluate pre-trained language
+models. Experiments with state-of-the-art pre-trained generative language
+models using large general domain models and models that were continually
+trained on a medical corpus demonstrate opportunities for improvement when
+evaluated in DR. BENCH. We share DR. BENCH as a publicly available GitLab
+repository with a systematic approach to load and evaluate models for the cNLP
+community.",2022-09-29
+FiD-Light: Efficient and Effective Retrieval-Augmented Text Generation,2022-09-28 17:54:55+00:00,http://arxiv.org/abs/2209.14290v1,"Sebastian Hofstätter, Jiecao Chen, Karthik Raman, Hamed Zamani","cs.CL, cs.IR",knowledge,"Retrieval-augmented generation models offer many benefits over standalone
+language models: besides a textual answer to a given query they provide
+provenance items retrieved from an updateable knowledge base. However, they are
+also more complex systems and need to handle long inputs. In this work, we
+introduce FiD-Light to strongly increase the efficiency of the state-of-the-art
+retrieval-augmented FiD model, while maintaining the same level of
+effectiveness. Our FiD-Light model constrains the information flow from the
+encoder (which encodes passages separately) to the decoder (using concatenated
+encoded representations). Furthermore, we adapt FiD-Light with re-ranking
+capabilities through textual source pointers, to improve the top-ranked
+provenance precision. Our experiments on a diverse set of seven knowledge
+intensive tasks (KILT) show FiD-Light consistently improves the Pareto frontier
+between query latency and effectiveness. FiD-Light with source pointing sets
+substantial new state-of-the-art results on six KILT tasks for combined text
+generation and provenance retrieval evaluation, while maintaining reasonable
+efficiency.",2022-09-28
+Informative Text Generation from Knowledge Triples,2022-09-26 14:35:57+00:00,http://arxiv.org/abs/2209.12733v1,"Zihao Fu, Yijiang River Dong, Lidong Bing, Wai Lam",cs.CL,knowledge,"As the development of the encoder-decoder architecture, researchers are able
+to study the text generation tasks with broader types of data. Among them,
+KB-to-text aims at converting a set of knowledge triples into human readable
+sentences. In the original setting, the task assumes that the input triples and
+the text are exactly aligned in the perspective of the embodied
+knowledge/information. In this paper, we extend this setting and explore how to
+facilitate the trained model to generate more informative text, namely,
+containing more information about the triple entities but not conveyed by the
+input triples. To solve this problem, we propose a novel memory augmented
+generator that employs a memory network to memorize the useful knowledge
+learned during the training and utilizes such information together with the
+input triples to generate text in the operational or testing phase. We derive a
+dataset from WebNLG for our new setting and conduct extensive experiments to
+investigate the effectiveness of our model as well as uncover the intrinsic
+characteristics of the setting.",2022-09-26
+Controllable Text Generation for Open-Domain Creativity and Fairness,2022-09-24 22:40:01+00:00,http://arxiv.org/abs/2209.12099v1,Nanyun Peng,"cs.CL, cs.AI",knowledge,"Recent advances in large pre-trained language models have demonstrated strong
+results in generating natural languages and significantly improved performances
+for many natural language generation (NLG) applications such as machine
+translation and text summarization. However, when the generation tasks are more
+open-ended and the content is under-specified, existing techniques struggle to
+generate long-term coherent and creative content. Moreover, the models exhibit
+and even amplify social biases that are learned from the training corpora. This
+happens because the generation models are trained to capture the surface
+patterns (i.e. sequences of words), instead of capturing underlying semantics
+and discourse structures, as well as background knowledge including social
+norms. In this paper, I introduce our recent works on controllable text
+generation to enhance the creativity and fairness of language generation
+models. We explore hierarchical generation and constrained decoding, with
+applications to creative language generation including story, poetry, and
+figurative languages, and bias mitigation for generation models.",2022-09-24
 "Can we do that simpler? Simple, Efficient, High-Quality Evaluation
   Metrics for NLG",2022-09-20 10:12:07+00:00,http://arxiv.org/abs/2209.09593v1,"Jens Grünwald, Christoph Leiter, Steffen Eger","cs.CL, cs.LG",knowledge,"We explore efficient evaluation metrics for Natural Language Generation
 (NLG). To implement efficient metrics, we replace (i) computation-heavy

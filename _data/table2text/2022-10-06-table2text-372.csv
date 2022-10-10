@@ -1,4 +1,182 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"FAST: Improving Controllability for Text Generation with Feedback Aware
+  Self-Training",2022-10-06 19:00:51+00:00,http://arxiv.org/abs/2210.03167v1,"Junyi Chai, Reid Pryzant, Victor Ye Dong, Konstantin Golobokov, Chenguang Zhu, Yi Liu",cs.CL,table2text,"Controllable text generation systems often leverage control codes to direct
+various properties of the output like style and length. Inspired by recent work
+on causal inference for NLP, this paper reveals a previously overlooked flaw in
+these control code-based conditional text generation algorithms. Spurious
+correlations in the training data can lead models to incorrectly rely on parts
+of the input other than the control code for attribute selection, significantly
+undermining downstream generation quality and controllability. We demonstrate
+the severity of this issue with a series of case studies and then propose two
+simple techniques to reduce these correlations in training sets. The first
+technique is based on resampling the data according to an example's propensity
+towards each linguistic attribute (IPS). The second produces multiple
+counterfactual versions of each example and then uses an additional feedback
+mechanism to remove noisy examples (feedback aware self-training, FAST). We
+evaluate on 3 tasks -- news headline, meta review, and search ads generation --
+and demonstrate that FAST can significantly improve the controllability and
+language quality of generated outputs when compared to state-of-the-art
+controllable text generation approaches.",2022-10-06
+A Distributional Lens for Multi-Aspect Controllable Text Generation,2022-10-06 13:08:04+00:00,http://arxiv.org/abs/2210.02889v1,"Yuxuan Gu, Xiaocheng Feng, Sicheng Ma, Lingyuan Zhang, Heng Gong, Bing Qin",cs.CL,table2text,"Multi-aspect controllable text generation is a more challenging and practical
+task than single-aspect control. Existing methods achieve complex multi-aspect
+control by fusing multiple controllers learned from single-aspect, but suffer
+from attribute degeneration caused by the mutual interference of these
+controllers. To address this, we provide observations on attribute fusion from
+a distributional perspective and propose to directly search for the
+intersection areas of multiple attribute distributions as their combination for
+generation. Our method first estimates the attribute space with an autoencoder
+structure. Afterward, we iteratively approach the intersections by jointly
+minimizing distances to points representing different attributes. Finally, we
+map them to attribute-relevant sentences with a prefix-tuning-based decoder.
+Experiments on the three-aspect control task, including sentiment, topic, and
+detoxification aspects, reveal that our method outperforms several strong
+baselines on attribute relevance and text quality and achieves the SOTA.
+Further analysis also supplies some explanatory support for the effectiveness
+of our approach.",2022-10-06
+"Unsupervised Sentence Textual Similarity with Compositional Phrase
+  Semantics",2022-10-05 14:14:04+00:00,http://arxiv.org/abs/2210.02284v1,"Zihao Wang, Jiaheng Dou, Yong Zhang",cs.CL,table2text,"Measuring Sentence Textual Similarity (STS) is a classic task that can be
+applied to many downstream NLP applications such as text generation and
+retrieval. In this paper, we focus on unsupervised STS that works on various
+domains but only requires minimal data and computational resources.
+Theoretically, we propose a light-weighted Expectation-Correction (EC)
+formulation for STS computation. EC formulation unifies unsupervised STS
+approaches including the cosine similarity of Additively Composed (AC) sentence
+embeddings, Optimal Transport (OT), and Tree Kernels (TK). Moreover, we propose
+the Recursive Optimal Transport Similarity (ROTS) algorithm to capture the
+compositional phrase semantics by composing multiple recursive EC formulations.
+ROTS finishes in linear time and is faster than its predecessors. ROTS is
+empirically more effective and scalable than previous approaches. Extensive
+experiments on 29 STS tasks under various settings show the clear advantage of
+ROTS over existing approaches. Detailed ablation studies demonstrate the
+effectiveness of our approaches.",2022-10-05
+CodeDSI: Differentiable Code Search,2022-10-01 17:39:57+00:00,http://arxiv.org/abs/2210.00328v1,"Usama Nadeem, Noah Ziems, Shaoen Wu","cs.SE, cs.IR",table2text,"Reimplementing solutions to previously solved software engineering problems
+is not only inefficient but also introduces inadequate and error-prone code.
+Many existing methods achieve impressive performance on this issue by using
+autoregressive text-generation models trained on code. However, these methods
+are not without their flaws. The generated code from these models can be buggy,
+lack documentation, and introduce vulnerabilities that may go unnoticed by
+developers. An alternative to code generation -- neural code search -- is a
+field of machine learning where a model takes natural language queries as input
+and, in turn, relevant code samples from a database are returned. Due to the
+nature of this pre-existing database, code samples can be documented, tested,
+licensed, and checked for vulnerabilities before being used by developers in
+production. In this work, we present CodeDSI, an end-to-end unified approach to
+code search. CodeDSI is trained to directly map natural language queries to
+their respective code samples, which can be retrieved later. In an effort to
+improve the performance of code search, we have investigated docid
+representation strategies, impact of tokenization on docid structure, and
+dataset sizes on overall code search performance. Our results demonstrate
+CodeDSI strong performance, exceeding conventional robust baselines by 2-6%
+across varying dataset sizes.",2022-10-01
+Calibrating Sequence likelihood Improves Conditional Language Generation,2022-09-30 19:16:16+00:00,http://arxiv.org/abs/2210.00045v1,"Yao Zhao, Misha Khalman, Rishabh Joshi, Shashi Narayan, Mohammad Saleh, Peter J. Liu",cs.CL,table2text,"Conditional language models are predominantly trained with maximum likelihood
+estimation (MLE), giving probability mass to sparsely observed target
+sequences. While MLE trained models assign high probability to plausible
+sequences given the context, the model probabilities often do not accurately
+rank-order generated sequences by quality. This has been empirically observed
+in beam search decoding as output quality degrading with large beam sizes, and
+decoding strategies benefiting from heuristics such as length normalization and
+repetition-blocking. In this work, we introduce sequence likelihood calibration
+(SLiC) where the likelihood of model generated sequences are calibrated to
+better align with reference sequences in the model's latent space. With SLiC,
+decoding heuristics become unnecessary and decoding candidates' quality
+significantly improves regardless of the decoding method. Furthermore, SLiC
+shows no sign of diminishing returns with model scale, and presents alternative
+ways to improve quality with limited training and inference budgets. With SLiC,
+we exceed or match SOTA results on a wide range of generation tasks spanning
+abstractive summarization, question generation, abstractive question answering
+and data-to-text generation, even with modest-sized models.",2022-09-30
+"Co-Writing Screenplays and Theatre Scripts with Language Models: An
+  Evaluation by Industry Professionals",2022-09-29 17:26:22+00:00,http://arxiv.org/abs/2209.14958v1,"Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, Richard Evans","cs.HC, cs.CL",table2text,"Language models are increasingly attracting interest from writers. However,
+such models lack long-range semantic coherence, limiting their usefulness for
+longform creative writing. We address this limitation by applying language
+models hierarchically, in a system we call Dramatron. By building structural
+context via prompt chaining, Dramatron can generate coherent scripts and
+screenplays complete with title, characters, story beats, location
+descriptions, and dialogue. We illustrate Dramatron's usefulness as an
+interactive co-creative system with a user study of 15 theatre and film
+industry professionals. Participants co-wrote theatre scripts and screenplays
+with Dramatron and engaged in open-ended interviews. We report critical
+reflections both from our interviewees and from independent reviewers who
+watched stagings of the works to illustrate how both Dramatron and hierarchical
+text generation could be useful for human-machine co-creativity. Finally, we
+discuss the suitability of Dramatron for co-creativity, ethical considerations
+-- including plagiarism and bias -- and participatory models for the design and
+deployment of such tools.",2022-09-29
+"DR.BENCH: Diagnostic Reasoning Benchmark for Clinical Natural Language
+  Processing",2022-09-29 16:05:53+00:00,http://arxiv.org/abs/2209.14901v1,"Yanjun Gao, Dmitriy Dligach, Timothy Miller, John Caskey, Brihat Sharma, Matthew M Churpek, Majid Afshar","cs.CL, cs.AI",table2text,"The meaningful use of electronic health records (EHR) continues to progress
+in the digital era with clinical decision support systems augmented by
+artificial intelligence. A priority in improving provider experience is to
+overcome information overload and reduce the cognitive burden so fewer medical
+errors and cognitive biases are introduced during patient care. One major type
+of medical error is diagnostic error due to systematic or predictable errors in
+judgment that rely on heuristics. The potential for clinical natural language
+processing (cNLP) to model diagnostic reasoning in humans with forward
+reasoning from data to diagnosis and potentially reduce the cognitive burden
+and medical error has not been investigated. Existing tasks to advance the
+science in cNLP have largely focused on information extraction and named entity
+recognition through classification tasks. We introduce a novel suite of tasks
+coined as Diagnostic Reasoning Benchmarks, DR.BENCH, as a new benchmark for
+developing and evaluating cNLP models with clinical diagnostic reasoning
+ability. The suite includes six tasks from ten publicly available datasets
+addressing clinical text understanding, medical knowledge reasoning, and
+diagnosis generation. DR.BENCH is the first clinical suite of tasks designed to
+be a natural language generation framework to evaluate pre-trained language
+models. Experiments with state-of-the-art pre-trained generative language
+models using large general domain models and models that were continually
+trained on a medical corpus demonstrate opportunities for improvement when
+evaluated in DR. BENCH. We share DR. BENCH as a publicly available GitLab
+repository with a systematic approach to load and evaluate models for the cNLP
+community.",2022-09-29
+Informative Text Generation from Knowledge Triples,2022-09-26 14:35:57+00:00,http://arxiv.org/abs/2209.12733v1,"Zihao Fu, Yijiang River Dong, Lidong Bing, Wai Lam",cs.CL,table2text,"As the development of the encoder-decoder architecture, researchers are able
+to study the text generation tasks with broader types of data. Among them,
+KB-to-text aims at converting a set of knowledge triples into human readable
+sentences. In the original setting, the task assumes that the input triples and
+the text are exactly aligned in the perspective of the embodied
+knowledge/information. In this paper, we extend this setting and explore how to
+facilitate the trained model to generate more informative text, namely,
+containing more information about the triple entities but not conveyed by the
+input triples. To solve this problem, we propose a novel memory augmented
+generator that employs a memory network to memorize the useful knowledge
+learned during the training and utilizes such information together with the
+input triples to generate text in the operational or testing phase. We derive a
+dataset from WebNLG for our new setting and conduct extensive experiments to
+investigate the effectiveness of our model as well as uncover the intrinsic
+characteristics of the setting.",2022-09-26
+Controllable Text Generation for Open-Domain Creativity and Fairness,2022-09-24 22:40:01+00:00,http://arxiv.org/abs/2209.12099v1,Nanyun Peng,"cs.CL, cs.AI",table2text,"Recent advances in large pre-trained language models have demonstrated strong
+results in generating natural languages and significantly improved performances
+for many natural language generation (NLG) applications such as machine
+translation and text summarization. However, when the generation tasks are more
+open-ended and the content is under-specified, existing techniques struggle to
+generate long-term coherent and creative content. Moreover, the models exhibit
+and even amplify social biases that are learned from the training corpora. This
+happens because the generation models are trained to capture the surface
+patterns (i.e. sequences of words), instead of capturing underlying semantics
+and discourse structures, as well as background knowledge including social
+norms. In this paper, I introduce our recent works on controllable text
+generation to enhance the creativity and fairness of language generation
+models. We explore hierarchical generation and constrained decoding, with
+applications to creative language generation including story, poetry, and
+figurative languages, and bias mitigation for generation models.",2022-09-24
+XF2T: Cross-lingual Fact-to-Text Generation for Low-Resource Languages,2022-09-22 18:01:27+00:00,http://arxiv.org/abs/2209.11252v1,"Shivprasad Sagare, Tushar Abhishek, Bhavyajeet Singh, Anubhav Sharma, Manish Gupta, Vasudeva Varma",cs.CL,table2text,"Multiple business scenarios require an automated generation of descriptive
+human-readable text from structured input data. Hence, fact-to-text generation
+systems have been developed for various downstream tasks like generating soccer
+reports, weather and financial reports, medical reports, person biographies,
+etc. Unfortunately, previous work on fact-to-text (F2T) generation has focused
+primarily on English mainly due to the high availability of relevant datasets.
+Only recently, the problem of cross-lingual fact-to-text (XF2T) was proposed
+for generation across multiple languages alongwith a dataset, XALIGN for eight
+languages. However, there has been no rigorous work on the actual XF2T
+generation problem. We extend XALIGN dataset with annotated data for four more
+languages: Punjabi, Malayalam, Assamese and Oriya. We conduct an extensive
+study using popular Transformer-based text generation models on our extended
+multi-lingual dataset, which we call XALIGNV2. Further, we investigate the
+performance of different text generation strategies: multiple variations of
+pretraining, fact-aware embeddings and structure-aware input encoding. Our
+extensive experiments show that a multi-lingual mT5 model which uses fact-aware
+embeddings with structure-aware input encoding leads to best results on average
+across the twelve languages. We make our code, dataset and model publicly
+available, and hope that this will help advance further research in this
+critical area.",2022-09-22
 Selective Token Generation for Few-shot Natural Language Generation,2022-09-17 00:48:52+00:00,http://arxiv.org/abs/2209.08206v1,"Daejin Jo, Taehwan Kwon, Eun-Sol Kim, Sungwoong Kim","cs.CL, cs.LG",table2text,"Natural language modeling with limited training data is a challenging
 problem, and many algorithms make use of large-scale pretrained language models
 (PLMs) for this due to its great generalization ability. Among them, additive

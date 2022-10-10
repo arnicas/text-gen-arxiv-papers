@@ -1,4 +1,68 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Unsupervised Neural Stylistic Text Generation using Transfer learning
+  and Adapters",2022-10-07 00:09:22+00:00,http://arxiv.org/abs/2210.03264v1,"Vinayshekhar Bannihatti Kumar, Rashmi Gangadharaiah, Dan Roth",cs.CL,story,"Research has shown that personality is a key driver to improve engagement and
+user experience in conversational systems. Conversational agents should also
+maintain a consistent persona to have an engaging conversation with a user.
+However, text generation datasets are often crowd sourced and thereby have an
+averaging effect where the style of the generation model is an average style of
+all the crowd workers that have contributed to the dataset. While one can
+collect persona-specific datasets for each task, it would be an expensive and
+time consuming annotation effort. In this work, we propose a novel transfer
+learning framework which updates only $0.3\%$ of model parameters to learn
+style specific attributes for response generation. For the purpose of this
+study, we tackle the problem of stylistic story ending generation using the ROC
+stories Corpus. We learn style specific attributes from the
+PERSONALITY-CAPTIONS dataset. Through extensive experiments and evaluation
+metrics we show that our novel training procedure can improve the style
+generation by 200 over Encoder-Decoder baselines while maintaining on-par
+content relevance metrics with",2022-10-07
+"Dancing with the Unexpected and Beyond: The Use of AI Assistance in
+  Design Fiction Creation",2022-10-03 11:26:39+00:00,http://arxiv.org/abs/2210.00829v1,"Yiying Wu, Yunye Yu, Pengcheng An",cs.HC,story,"The creation process of design fiction is going participatory and inclusive
+with non experts. Recognizing the potential of artificial intelligence in
+creativity support, we explore the use of AI assistance in creating design
+fiction. This investigation is based on a workshop on future work in 2040 with
+Chinese youth. We look into fiction quality, participants experiences with the
+AI agent, and their ways of incorporating those texts into writing. Our
+findings show that human writers while responding to messy and unexpected
+AI-generated texts, can elevate the richness and creativity in writing and
+initiate joyful and inspirational interactions. Furthermore, for the design of
+AI assistance in creativity support, we suggest two implications of enhancing
+interactional quality between human and AI and prompt programming. Our study
+indicates the potential of applying design fiction outside the design context
+using a more inclusive approach for future speculation with critical reflection
+on technology.",2022-10-03
+"Co-Writing Screenplays and Theatre Scripts with Language Models: An
+  Evaluation by Industry Professionals",2022-09-29 17:26:22+00:00,http://arxiv.org/abs/2209.14958v1,"Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, Richard Evans","cs.HC, cs.CL",story,"Language models are increasingly attracting interest from writers. However,
+such models lack long-range semantic coherence, limiting their usefulness for
+longform creative writing. We address this limitation by applying language
+models hierarchically, in a system we call Dramatron. By building structural
+context via prompt chaining, Dramatron can generate coherent scripts and
+screenplays complete with title, characters, story beats, location
+descriptions, and dialogue. We illustrate Dramatron's usefulness as an
+interactive co-creative system with a user study of 15 theatre and film
+industry professionals. Participants co-wrote theatre scripts and screenplays
+with Dramatron and engaged in open-ended interviews. We report critical
+reflections both from our interviewees and from independent reviewers who
+watched stagings of the works to illustrate how both Dramatron and hierarchical
+text generation could be useful for human-machine co-creativity. Finally, we
+discuss the suitability of Dramatron for co-creativity, ethical considerations
+-- including plagiarism and bias -- and participatory models for the design and
+deployment of such tools.",2022-09-29
+Controllable Text Generation for Open-Domain Creativity and Fairness,2022-09-24 22:40:01+00:00,http://arxiv.org/abs/2209.12099v1,Nanyun Peng,"cs.CL, cs.AI",story,"Recent advances in large pre-trained language models have demonstrated strong
+results in generating natural languages and significantly improved performances
+for many natural language generation (NLG) applications such as machine
+translation and text summarization. However, when the generation tasks are more
+open-ended and the content is under-specified, existing techniques struggle to
+generate long-term coherent and creative content. Moreover, the models exhibit
+and even amplify social biases that are learned from the training corpora. This
+happens because the generation models are trained to capture the surface
+patterns (i.e. sequences of words), instead of capturing underlying semantics
+and discourse structures, as well as background knowledge including social
+norms. In this paper, I introduce our recent works on controllable text
+generation to enhance the creativity and fairness of language generation
+models. We explore hierarchical generation and constrained decoding, with
+applications to creative language generation including story, poetry, and
+figurative languages, and bias mitigation for generation models.",2022-09-24
 LibertyMFD: A Lexicon to Assess the Moral Foundation of Liberty,2022-09-14 16:14:54+00:00,http://arxiv.org/abs/2209.06750v1,"Oscar Araque, Lorenzo Gatti, Kyriaki Kalimeri",cs.CL,story,"Quantifying the moral narratives expressed in the user-generated text, news,
 or public discourses is fundamental for understanding individuals' concerns and
 viewpoints and preventing violent protests and social polarisation. The Moral
