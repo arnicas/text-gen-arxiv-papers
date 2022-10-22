@@ -1,4 +1,21 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"LEATHER: A Framework for Learning to Generate Human-like Text in
+  Dialogue",2022-10-14 13:05:11+00:00,http://arxiv.org/abs/2210.07777v1,"Anthony Sicilia, Malihe Alikhani","cs.CL, cs.LG",games,"Algorithms for text-generation in dialogue can be misguided. For example, in
+task-oriented settings, reinforcement learning that optimizes only task-success
+can lead to abysmal lexical diversity. We hypothesize this is due to poor
+theoretical understanding of the objectives in text-generation and their
+relation to the learning process (i.e., model training). To this end, we
+propose a new theoretical framework for learning to generate text in dialogue.
+Compared to existing theories of learning, our framework allows for analysis of
+the multi-faceted goals inherent to text-generation. We use our framework to
+develop theoretical guarantees for learners that adapt to unseen data. As an
+example, we apply our theory to study data-shift within a cooperative learning
+algorithm proposed for the GuessWhat?! visual dialogue game. From this insight,
+we propose a new algorithm, and empirically, we demonstrate our proposal
+improves both task-success and human-likeness of the generated text. Finally,
+we show statistics from our theory are empirically predictive of multiple
+qualities of the generated dialogue, suggesting our theory is useful for
+model-selection when human evaluations are not available.",2022-10-14
 Using Large Language Models to Simulate Multiple Humans,2022-08-18 17:54:49+00:00,http://arxiv.org/abs/2208.10264v3,"Gati Aher, Rosa I. Arriaga, Adam Tauman Kalai","cs.CL, cs.AI, cs.LG",games,"We propose a method for using a large language model, such as GPT-3, to
 simulate responses of different humans in a given context. We test our method
 by attempting to reproduce well-established economic, psycholinguistic, and

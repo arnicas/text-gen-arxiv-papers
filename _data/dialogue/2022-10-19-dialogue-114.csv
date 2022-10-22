@@ -1,4 +1,84 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Language Detoxification with Attribute-Discriminative Latent Space,2022-10-19 06:54:42+00:00,http://arxiv.org/abs/2210.10329v1,"Jin Myung Kwak, Minseon Kim, Sung Ju Hwang","cs.CL, cs.AI",dialogue,"Transformer-based Language Models (LMs) achieve remarkable performances on a
+variety of NLU tasks, but are also prone to generating toxic texts such as
+insults, threats, and profanities which limit their adaptations to the
+real-world applications. To overcome this issue, a few text generation
+approaches aim to detoxify toxic texts with additional LMs or perturbations.
+However, previous methods require excessive memory, computations, and time
+which are serious bottlenecks in their real-world application. To address such
+limitations, we propose an effective yet efficient method for language
+detoxification using an attribute-discriminative latent space. Specifically, we
+project the latent space of an original Transformer LM to a discriminative
+latent space on which the texts are well-separated by their attributes, with
+the help of a projection block and a discriminator. This allows the LM to
+control the text generation to be non-toxic with minimal memory and computation
+overhead. We validate our model, Attribute-Discriminative Language Model (ADLM)
+on detoxified language and dialogue generation tasks, on which our method
+significantly outperforms baselines both in performance and efficiency.",2022-10-19
+"Team Flow at DRC2022: Pipeline System for Travel Destination
+  Recommendation Task in Spoken Dialogue",2022-10-18 01:11:16+00:00,http://arxiv.org/abs/2210.09518v1,"Ryu Hirai, Atsumoto Ohashi, Ao Guo, Hideki Shiroma, Xulin Zhou, Yukihiko Tone, Shinya Iizuka, Ryuichiro Higashinaka","cs.CL, cs.AI, cs.RO",dialogue,"To improve the interactive capabilities of a dialogue system, e.g., to adapt
+to different customers, the Dialogue Robot Competition (DRC2022) was held. As
+one of the teams, we built a dialogue system with a pipeline structure
+containing four modules. The natural language understanding (NLU) and natural
+language generation (NLG) modules were GPT-2 based models, and the dialogue
+state tracking (DST) and policy modules were designed on the basis of
+hand-crafted rules. After the preliminary round of the competition, we found
+that the low variation in training examples for the NLU and failed
+recommendation due to the policy used were probably the main reasons for the
+limited performance of the system.",2022-10-18
+"LEATHER: A Framework for Learning to Generate Human-like Text in
+  Dialogue",2022-10-14 13:05:11+00:00,http://arxiv.org/abs/2210.07777v1,"Anthony Sicilia, Malihe Alikhani","cs.CL, cs.LG",dialogue,"Algorithms for text-generation in dialogue can be misguided. For example, in
+task-oriented settings, reinforcement learning that optimizes only task-success
+can lead to abysmal lexical diversity. We hypothesize this is due to poor
+theoretical understanding of the objectives in text-generation and their
+relation to the learning process (i.e., model training). To this end, we
+propose a new theoretical framework for learning to generate text in dialogue.
+Compared to existing theories of learning, our framework allows for analysis of
+the multi-faceted goals inherent to text-generation. We use our framework to
+develop theoretical guarantees for learners that adapt to unseen data. As an
+example, we apply our theory to study data-shift within a cooperative learning
+algorithm proposed for the GuessWhat?! visual dialogue game. From this insight,
+we propose a new algorithm, and empirically, we demonstrate our proposal
+improves both task-success and human-likeness of the generated text. Finally,
+we show statistics from our theory are empirically predictive of multiple
+qualities of the generated dialogue, suggesting our theory is useful for
+model-selection when human evaluations are not available.",2022-10-14
+Towards a Unified Multi-Dimensional Evaluator for Text Generation,2022-10-13 17:17:03+00:00,http://arxiv.org/abs/2210.07197v1,"Ming Zhong, Yang Liu, Da Yin, Yuning Mao, Yizhu Jiao, Pengfei Liu, Chenguang Zhu, Heng Ji, Jiawei Han",cs.CL,dialogue,"Multi-dimensional evaluation is the dominant paradigm for human evaluation in
+Natural Language Generation (NLG), i.e., evaluating the generated text from
+multiple explainable dimensions, such as coherence and fluency. However,
+automatic evaluation in NLG is still dominated by similarity-based metrics, and
+we lack a reliable framework for a more comprehensive evaluation of advanced
+models. In this paper, we propose a unified multi-dimensional evaluator UniEval
+for NLG. We re-frame NLG evaluation as a Boolean Question Answering (QA) task,
+and by guiding the model with different questions, we can use one evaluator to
+evaluate from multiple dimensions. Furthermore, thanks to the unified Boolean
+QA format, we are able to introduce an intermediate learning phase that enables
+UniEval to incorporate external knowledge from multiple related tasks and gain
+further improvement. Experiments on three typical NLG tasks show that UniEval
+correlates substantially better with human judgments than existing metrics.
+Specifically, compared to the top-performing unified evaluators, UniEval
+achieves a 23% higher correlation on text summarization, and over 43% on
+dialogue response generation. Also, UniEval demonstrates a strong zero-shot
+learning ability for unseen evaluation dimensions and tasks. Source code, data
+and all pre-trained evaluators are available on our GitHub repository
+(https://github.com/maszhongming/UniEval).",2022-10-13
+Controllable Dialogue Simulation with In-Context Learning,2022-10-09 06:32:58+00:00,http://arxiv.org/abs/2210.04185v1,"Zekun Li, Wenhu Chen, Shiyang Li, Hong Wang, Jing Qian, Xifeng Yan","cs.CL, cs.AI",dialogue,"Building dialogue systems requires a large corpus of annotated dialogues.
+Such datasets are usually created via crowdsourcing, which is expensive and
+time-consuming. In this paper, we propose a novel method for dialogue
+simulation based on language model in-context learning, dubbed as
+\textsc{Dialogic}. Seeded with a few annotated dialogues, \textsc{Dialogic}
+automatically selects in-context examples for demonstration and prompts GPT-3
+to generate new dialogues and their annotations in a controllable way.
+Leveraging the strong in-context learning ability of GPT-3, our method can be
+used to rapidly expand a small set of dialogue data without requiring
+\textit{human involvement} or \textit{parameter update}, and is thus much more
+cost-efficient and time-saving than crowdsourcing. Experimental results on the
+MultiWOZ dataset demonstrate that training a model on the simulated dialogues
+leads to even better performance than using the same amount of human-generated
+dialogues in the low-resource settings, with as few as 85 dialogues as the seed
+data. Human evaluation results also show that our simulated dialogues has high
+language fluency and annotation accuracy. The code and data are available at
+\href{https://github.com/Leezekun/dialogic}{https://github.com/Leezekun/dialogic}.",2022-10-09
 "Unsupervised Neural Stylistic Text Generation using Transfer learning
   and Adapters",2022-10-07 00:09:22+00:00,http://arxiv.org/abs/2210.03264v1,"Vinayshekhar Bannihatti Kumar, Rashmi Gangadharaiah, Dan Roth",cs.CL,dialogue,"Research has shown that personality is a key driver to improve engagement and
 user experience in conversational systems. Conversational agents should also

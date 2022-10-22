@@ -7,10 +7,19 @@ sidebar:
 ---
 
 
-*written on 2022-10-10*
+*written on 2022-10-22*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [A Continuum of Generation Tasks for Investigating Length Bias and  Degenerate Repetition](http://arxiv.org/abs/2210.10817v1) | Darcey Riley, David Chiang | cs.CL, cs.AI | 2022-10-19 |
+| [Improving Chinese Story Generation via Awareness of Syntactic  Dependencies and Semantics](http://arxiv.org/abs/2210.10618v1) | Henglin Huang, Chen Tang, Tyler Loakman, Frank Guerin, Chenghua Lin | cs.CL, cs.AI | 2022-10-19 |
+| [NGEP: A Graph-based Event Planning Framework for Story Generation](http://arxiv.org/abs/2210.10602v1) | Chen Tang, Zhihao Zhang, Tyler Loakman, Chenghua Lin, Frank Guerin | cs.CL, cs.AI | 2022-10-19 |
+| [Model Criticism for Long-Form Text Generation](http://arxiv.org/abs/2210.08444v1) | Yuntian Deng, Volodymyr Kuleshov, Alexander M. Rush | cs.CL, cs.LG, stat.ML | 2022-10-16 |
+| [Robust Preference Learning for Storytelling via Contrastive  Reinforcement Learning](http://arxiv.org/abs/2210.07792v1) | Louis Castricato, Alexander Havrilla, Shahbuland Matiana, Michael Pieler, Anbang Ye, Ian Yang, Spencer Frazier, Mark Riedl | cs.CL | 2022-10-14 |
+| [Psychology-guided Controllable Story Generation](http://arxiv.org/abs/2210.07493v1) | Yuqiang Xie, Yue Hu, Yunpeng Li, Guanqun Bi, Luxi Xing, Wei Peng | cs.CL, cs.AI | 2022-10-14 |
+| [Re3: Generating Longer Stories With Recursive Reprompting and Revision](http://arxiv.org/abs/2210.06774v2) | Kevin Yang, Yuandong Tian, Nanyun Peng, Dan Klein | cs.CL, cs.AI | 2022-10-13 |
+| [CHAE: Fine-Grained Controllable Story Generation with Characters,  Actions and Emotions](http://arxiv.org/abs/2210.05221v1) | Xinpeng Wang, Han Jiang, Zhihua Wei, Shanlin Zhou | cs.CL, cs.AI | 2022-10-11 |
+| [Visualize Before You Write: Imagination-Guided Open-Ended Text  Generation](http://arxiv.org/abs/2210.03765v1) | Wanrong Zhu, An Yan, Yujie Lu, Wenda Xu, Xin Eric Wang, Miguel Eckstein, William Yang Wang | cs.CL, cs.AI | 2022-10-07 |
 | [Unsupervised Neural Stylistic Text Generation using Transfer learning  and Adapters](http://arxiv.org/abs/2210.03264v1) | Vinayshekhar Bannihatti Kumar, Rashmi Gangadharaiah, Dan Roth | cs.CL | 2022-10-07 |
 | [Dancing with the Unexpected and Beyond: The Use of AI Assistance in  Design Fiction Creation](http://arxiv.org/abs/2210.00829v1) | Yiying Wu, Yunye Yu, Pengcheng An | cs.HC | 2022-10-03 |
 | [Co-Writing Screenplays and Theatre Scripts with Language Models: An  Evaluation by Industry Professionals](http://arxiv.org/abs/2209.14958v1) | Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, Richard Evans | cs.HC, cs.CL | 2022-09-29 |

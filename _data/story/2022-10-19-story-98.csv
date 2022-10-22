@@ -1,4 +1,141 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"A Continuum of Generation Tasks for Investigating Length Bias and
+  Degenerate Repetition",2022-10-19 18:09:51+00:00,http://arxiv.org/abs/2210.10817v1,"Darcey Riley, David Chiang","cs.CL, cs.AI",story,"Language models suffer from various degenerate behaviors. These differ
+between tasks: machine translation (MT) exhibits length bias, while tasks like
+story generation exhibit excessive repetition. Recent work has attributed the
+difference to task constrainedness, but evidence for this claim has always
+involved many confounding variables. To study this question directly, we
+introduce a new experimental framework that allows us to smoothly vary task
+constrainedness, from MT at one end to fully open-ended generation at the
+other, while keeping all other aspects fixed. We find that: (1) repetition
+decreases smoothly with constrainedness, explaining the difference in
+repetition across tasks; (2) length bias surprisingly also decreases with
+constrainedness, suggesting some other cause for the difference in length bias;
+(3) across the board, these problems affect the mode, not the whole
+distribution; (4) the differences cannot be attributed to a change in the
+entropy of the distribution, since another method of changing the entropy,
+label smoothing, does not produce the same effect.",2022-10-19
+"Improving Chinese Story Generation via Awareness of Syntactic
+  Dependencies and Semantics",2022-10-19 15:01:52+00:00,http://arxiv.org/abs/2210.10618v1,"Henglin Huang, Chen Tang, Tyler Loakman, Frank Guerin, Chenghua Lin","cs.CL, cs.AI",story,"Story generation aims to generate a long narrative conditioned on a given
+input. In spite of the success of prior works with the application of
+pre-trained models, current neural models for Chinese stories still struggle to
+generate high-quality long text narratives. We hypothesise that this stems from
+ambiguity in syntactically parsing the Chinese language, which does not have
+explicit delimiters for word segmentation. Consequently, neural models suffer
+from the inefficient capturing of features in Chinese narratives. In this
+paper, we present a new generation framework that enhances the feature
+capturing mechanism by informing the generation model of dependencies between
+words and additionally augmenting the semantic representation learning through
+synonym denoising training. We conduct a range of experiments, and the results
+demonstrate that our framework outperforms the state-of-the-art Chinese
+generation models on all evaluation metrics, demonstrating the benefits of
+enhanced dependency and semantic representation learning.",2022-10-19
+NGEP: A Graph-based Event Planning Framework for Story Generation,2022-10-19 14:49:27+00:00,http://arxiv.org/abs/2210.10602v1,"Chen Tang, Zhihao Zhang, Tyler Loakman, Chenghua Lin, Frank Guerin","cs.CL, cs.AI",story,"To improve the performance of long text generation, recent studies have
+leveraged automatically planned event structures (i.e. storylines) to guide
+story generation. Such prior works mostly employ end-to-end neural generation
+models to predict event sequences for a story. However, such generation models
+struggle to guarantee the narrative coherence of separate events due to the
+hallucination problem, and additionally the generated event sequences are often
+hard to control due to the end-to-end nature of the models. To address these
+challenges, we propose NGEP, an novel event planning framework which generates
+an event sequence by performing inference on an automatically constructed event
+graph and enhances generalisation ability through a neural event advisor. We
+conduct a range of experiments on multiple criteria, and the results
+demonstrate that our graph-based neural framework outperforms the
+state-of-the-art (SOTA) event planning approaches, considering both the
+performance of event sequence generation and the effectiveness on the
+downstream task of story generation.",2022-10-19
+Model Criticism for Long-Form Text Generation,2022-10-16 04:35:58+00:00,http://arxiv.org/abs/2210.08444v1,"Yuntian Deng, Volodymyr Kuleshov, Alexander M. Rush","cs.CL, cs.LG, stat.ML",story,"Language models have demonstrated the ability to generate highly fluent text;
+however, it remains unclear whether their output retains coherent high-level
+structure (e.g., story progression). Here, we propose to apply a statistical
+tool, model criticism in latent space, to evaluate the high-level structure of
+the generated text. Model criticism compares the distributions between real and
+generated data in a latent space obtained according to an assumptive generative
+process. Different generative processes identify specific failure modes of the
+underlying model. We perform experiments on three representative aspects of
+high-level discourse -- coherence, coreference, and topicality -- and find that
+transformer-based language models are able to capture topical structures but
+have a harder time maintaining structural coherence or modeling coreference.",2022-10-16
+"Robust Preference Learning for Storytelling via Contrastive
+  Reinforcement Learning",2022-10-14 13:21:33+00:00,http://arxiv.org/abs/2210.07792v1,"Louis Castricato, Alexander Havrilla, Shahbuland Matiana, Michael Pieler, Anbang Ye, Ian Yang, Spencer Frazier, Mark Riedl",cs.CL,story,"Controlled automated story generation seeks to generate natural language
+stories satisfying constraints from natural language critiques or preferences.
+Existing methods to control for story preference utilize prompt engineering
+which is labor intensive and often inconsistent. They may also use
+logit-manipulation methods which require annotated datasets to exist for the
+desired attributes. To address these issues, we first train a contrastive
+bi-encoder model to align stories with corresponding human critiques, named
+CARP, building a general purpose preference model. This is subsequently used as
+a reward function to fine-tune a generative language model via reinforcement
+learning. However, simply fine-tuning a generative language model with a
+contrastive reward model does not always reliably result in a story generation
+system capable of generating stories that meet user preferences. To increase
+story generation robustness we further fine-tune the contrastive reward model
+using a prompt-learning technique. A human participant study is then conducted
+comparing generations from our full system, ablations, and two baselines. We
+show that the full fine-tuning pipeline results in a story generator preferred
+over a LLM 20x as large as well as logit-based methods. This motivates the use
+of contrastive learning for general purpose human preference modeling.",2022-10-14
+Psychology-guided Controllable Story Generation,2022-10-14 03:40:53+00:00,http://arxiv.org/abs/2210.07493v1,"Yuqiang Xie, Yue Hu, Yunpeng Li, Guanqun Bi, Luxi Xing, Wei Peng","cs.CL, cs.AI",story,"Controllable story generation is a challenging task in the field of NLP,
+which has attracted increasing research interest in recent years. However, most
+existing works generate a whole story conditioned on the appointed keywords or
+emotions, ignoring the psychological changes of the protagonist. Inspired by
+psychology theories, we introduce global psychological state chains, which
+include the needs and emotions of the protagonists, to help a story generation
+system create more controllable and well-planned stories. In this paper, we
+propose a Psychology-guIded Controllable Story Generation System (PICS) to
+generate stories that adhere to the given leading context and desired
+psychological state chains for the protagonist. Specifically, psychological
+state trackers are employed to memorize the protagonist's local psychological
+states to capture their inner temporal relationships. In addition,
+psychological state planners are adopted to gain the protagonist's global
+psychological states for story planning. Eventually, a psychology controller is
+designed to integrate the local and global psychological states into the story
+context representation for composing psychology-guided stories. Automatic and
+manual evaluations demonstrate that PICS outperforms baselines, and each part
+of PICS shows effectiveness for writing stories with more consistent
+psychological changes.",2022-10-14
+Re3: Generating Longer Stories With Recursive Reprompting and Revision,2022-10-13 06:29:57+00:00,http://arxiv.org/abs/2210.06774v2,"Kevin Yang, Yuandong Tian, Nanyun Peng, Dan Klein","cs.CL, cs.AI",story,"We consider the problem of automatically generating longer stories of over
+two thousand words. Compared to prior work on shorter stories, long-range plot
+coherence and relevance are more central challenges here. We propose the
+Recursive Reprompting and Revision framework (Re3) to address these challenges
+by (a) prompting a general-purpose language model to construct a structured
+overarching plan, and (b) generating story passages by repeatedly injecting
+contextual information from both the plan and current story state into a
+language model prompt. We then revise by (c) reranking different continuations
+for plot coherence and premise relevance, and finally (d) editing the best
+continuation for factual consistency. Compared to similar-length stories
+generated directly from the same base model, human evaluators judged
+substantially more of Re3's stories as having a coherent overarching plot (by
+14% absolute increase), and relevant to the given initial premise (by 20%).",2022-10-13
+"CHAE: Fine-Grained Controllable Story Generation with Characters,
+  Actions and Emotions",2022-10-11 07:37:50+00:00,http://arxiv.org/abs/2210.05221v1,"Xinpeng Wang, Han Jiang, Zhihua Wei, Shanlin Zhou","cs.CL, cs.AI",story,"Story generation has emerged as an interesting yet challenging NLP task in
+recent years. Some existing studies aim at generating fluent and coherent
+stories from keywords and outlines; while others attempt to control the global
+features of the story, such as emotion, style and topic. However, these works
+focus on coarse-grained control on the story, neglecting control on the details
+of the story, which is also crucial for the task. To fill the gap, this paper
+proposes a model for fine-grained control on the story, which allows the
+generation of customized stories with characters, corresponding actions and
+emotions arbitrarily assigned. Extensive experimental results on both automatic
+and human manual evaluations show the superiority of our method. It has strong
+controllability to generate stories according to the fine-grained personalized
+guidance, unveiling the effectiveness of our methodology. Our code is available
+at https://github.com/victorup/CHAE.",2022-10-11
+"Visualize Before You Write: Imagination-Guided Open-Ended Text
+  Generation",2022-10-07 18:01:09+00:00,http://arxiv.org/abs/2210.03765v1,"Wanrong Zhu, An Yan, Yujie Lu, Wenda Xu, Xin Eric Wang, Miguel Eckstein, William Yang Wang","cs.CL, cs.AI",story,"Recent advances in text-to-image synthesis make it possible to visualize
+machine imaginations for a given context. On the other hand, when generating
+text, human writers are gifted at creative visualization, which enhances their
+writings by forming imaginations as blueprints before putting down the stories
+in words. Inspired by such a cognitive process, we ask the natural question of
+whether we can endow machines with the same ability to utilize visual
+information and construct a general picture of the context to guide text
+generation. In this work, we propose iNLG that uses machine-generated images to
+guide language models (LM) in open-ended text generation. The experiments and
+analyses demonstrate the effectiveness of iNLG on open-ended text generation
+tasks, including text completion, story generation, and concept-to-text
+generation in few-shot scenarios. Both automatic metrics and human evaluations
+verify that the text snippets generated by our iNLG are coherent and
+informative while displaying minor degeneration.",2022-10-07
 "Unsupervised Neural Stylistic Text Generation using Transfer learning
   and Adapters",2022-10-07 00:09:22+00:00,http://arxiv.org/abs/2210.03264v1,"Vinayshekhar Bannihatti Kumar, Rashmi Gangadharaiah, Dan Roth",cs.CL,story,"Research has shown that personality is a key driver to improve engagement and
 user experience in conversational systems. Conversational agents should also

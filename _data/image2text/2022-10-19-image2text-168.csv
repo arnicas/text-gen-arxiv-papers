@@ -1,4 +1,183 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Image Semantic Relation Generation,2022-10-19 16:15:19+00:00,http://arxiv.org/abs/2210.11253v1,Mingzhe Du,"cs.CV, cs.CL",image2text,"Scene graphs provide structured semantic understanding beyond images. For
+downstream tasks, such as image retrieval, visual question answering, visual
+relationship detection, and even autonomous vehicle technology, scene graphs
+can not only distil complex image information but also correct the bias of
+visual models using semantic-level relations, which has broad application
+prospects. However, the heavy labour cost of constructing graph annotations may
+hinder the application of PSG in practical scenarios. Inspired by the
+observation that people usually identify the subject and object first and then
+determine the relationship between them, we proposed to decouple the scene
+graphs generation task into two sub-tasks: 1) an image segmentation task to
+pick up the qualified objects. 2) a restricted auto-regressive text generation
+task to generate the relation between given objects. Therefore, in this work,
+we introduce image semantic relation generation (ISRG), a simple but effective
+image-to-text model, which achieved 31 points on the OpenPSG dataset and
+outperforms strong baselines respectively by 16 points (ResNet-50) and 5 points
+(CLIP).",2022-10-19
+"BioGPT: Generative Pre-trained Transformer for Biomedical Text
+  Generation and Mining",2022-10-19 07:17:39+00:00,http://arxiv.org/abs/2210.10341v1,"Renqian Luo, Liai Sun, Yingce Xia, Tao Qin, Sheng Zhang, Hoifung Poon, Tie-Yan Liu","cs.CL, cs.AI",image2text,"Pre-trained language models have attracted increasing attention in the
+biomedical domain, inspired by their great success in the general natural
+language domain. Among the two main branches of pre-trained language models in
+the general language domain, i.e., BERT (and its variants) and GPT (and its
+variants), the first one has been extensively studied in the biomedical domain,
+such as BioBERT and PubMedBERT. While they have achieved great success on a
+variety of discriminative downstream biomedical tasks, the lack of generation
+ability constrains their application scope. In this paper, we propose BioGPT, a
+domain-specific generative Transformer language model pre-trained on large
+scale biomedical literature. We evaluate BioGPT on six biomedical NLP tasks and
+demonstrate that our model outperforms previous models on most tasks.
+Especially, we get 44.98%, 38.42% and 40.76% F1 score on BC5CDR, KD-DTI and DDI
+end-to-end relation extraction tasks respectively, and 78.2% accuracy on
+PubMedQA, creating a new record. Our case study on text generation further
+demonstrates the advantage of BioGPT on biomedical literature to generate
+fluent descriptions for biomedical terms. Code is available at
+https://github.com/microsoft/BioGPT.",2022-10-19
+"Probing Cross-modal Semantics Alignment Capability from the Textual
+  Perspective",2022-10-18 02:55:58+00:00,http://arxiv.org/abs/2210.09550v1,"Zheng Ma, Shi Zong, Mianzhi Pan, Jianbing Zhang, Shujian Huang, Xinyu Dai, Jiajun Chen",cs.CL,image2text,"In recent years, vision and language pre-training (VLP) models have advanced
+the state-of-the-art results in a variety of cross-modal downstream tasks.
+Aligning cross-modal semantics is claimed to be one of the essential
+capabilities of VLP models. However, it still remains unclear about the inner
+working mechanism of alignment in VLP models. In this paper, we propose a new
+probing method that is based on image captioning to first empirically study the
+cross-modal semantics alignment of VLP models. Our probing method is built upon
+the fact that given an image-caption pair, the VLP models will give a score,
+indicating how well two modalities are aligned; maximizing such scores will
+generate sentences that VLP models believe are of good alignment. Analyzing
+these sentences thus will reveal in what way different modalities are aligned
+and how well these alignments are in VLP models. We apply our probing method to
+five popular VLP models, including UNITER, ROSITA, ViLBERT, CLIP, and LXMERT,
+and provide a comprehensive analysis of the generated captions guided by these
+models. Our results show that VLP models (1) focus more on just aligning
+objects with visual words, while neglecting global semantics; (2) prefer fixed
+sentence patterns, thus ignoring more important textual information including
+fluency and grammar; and (3) deem the captions with more visual words are
+better aligned with images. These findings indicate that VLP models still have
+weaknesses in cross-modal semantics alignment and we hope this work will draw
+researchers' attention to such problems when designing a new VLP model.",2022-10-18
+"UniTune: Text-Driven Image Editing by Fine Tuning an Image Generation
+  Model on a Single Image",2022-10-17 23:46:05+00:00,http://arxiv.org/abs/2210.09477v3,"Dani Valevski, Matan Kalman, Yossi Matias, Yaniv Leviathan","cs.CV, cs.GR, cs.LG",image2text,"We present UniTune, a simple and novel method for general text-driven image
+editing. UniTune gets as input an arbitrary image and a textual edit
+description, and carries out the edit while maintaining high semantic and
+visual fidelity to the input image. UniTune uses text, an intuitive interface
+for art-direction, and does not require additional inputs, like masks or
+sketches. At the core of our method is the observation that with the right
+choice of parameters, we can fine-tune a large text-to-image diffusion model on
+a single image, encouraging the model to maintain fidelity to the input image
+while still allowing expressive manipulations. We used Imagen as our
+text-to-image model, but we expect UniTune to work with other large-scale
+models as well. We test our method in a range of different use cases, and
+demonstrate its wide applicability.",2022-10-17
+Social Biases in Automatic Evaluation Metrics for NLG,2022-10-17 08:55:26+00:00,http://arxiv.org/abs/2210.08859v1,"Mingqi Gao, Xiaojun Wan","cs.CL, cs.AI",image2text,"Many studies have revealed that word embeddings, language models, and models
+for specific downstream tasks in NLP are prone to social biases, especially
+gender bias. Recently these techniques have been gradually applied to automatic
+evaluation metrics for text generation. In the paper, we propose an evaluation
+method based on Word Embeddings Association Test (WEAT) and Sentence Embeddings
+Association Test (SEAT) to quantify social biases in evaluation metrics and
+discover that social biases are also widely present in some model-based
+automatic evaluation metrics. Moreover, we construct gender-swapped
+meta-evaluation datasets to explore the potential impact of gender bias in
+image caption and text summarization tasks. Results show that given
+gender-neutral references in the evaluation, model-based evaluation metrics may
+show a preference for the male hypothesis, and the performance of them, i.e.
+the correlation between evaluation metrics and human judgments, usually has
+more significant variation after gender swapping.",2022-10-17
+"Plausible May Not Be Faithful: Probing Object Hallucination in
+  Vision-Language Pre-training",2022-10-14 10:27:22+00:00,http://arxiv.org/abs/2210.07688v1,"Wenliang Dai, Zihan Liu, Ziwei Ji, Dan Su, Pascale Fung","cs.CL, cs.CV",image2text,"Large-scale vision-language pre-trained (VLP) models are prone to hallucinate
+non-existent visual objects when generating text based on visual information.
+In this paper, we exhaustively probe the object hallucination problem from
+three aspects. First, we examine various state-of-the-art VLP models, showing
+that models achieving better scores on standard metrics(e.g., BLEU-4, CIDEr)
+could hallucinate objects more frequently. Second, we investigate how different
+types of visual features in VLP influence hallucination, including
+region-based, grid-based, and patch-based. Surprisingly, we find that
+patch-based features perform the best and smaller patch resolution yields a
+non-trivial reduction in object hallucination. Third, we decouple various VLP
+objectives and demonstrate their effectiveness in alleviating object
+hallucination. Based on that, we propose a new pre-training loss, object masked
+language modeling, to further reduce object hallucination. We evaluate models
+on both COCO (in-domain) and NoCaps (out-of-domain) datasets with our improved
+CHAIR metric. Furthermore, we investigate the effects of various text decoding
+strategies and image augmentation methods on object hallucination.",2022-10-14
+Equi-Tuning: Group Equivariant Fine-Tuning of Pretrained Models,2022-10-13 08:45:23+00:00,http://arxiv.org/abs/2210.06475v1,"Sourya Basu, Prasanna Sattigeri, Karthikeyan Natesan Ramamurthy, Vijil Chenthamarakshan, Kush R. Varshney, Lav R. Varshney, Payel Das","cs.LG, cs.CL",image2text,"We introduce equi-tuning, a novel fine-tuning method that transforms
+(potentially non-equivariant) pretrained models into group equivariant models
+while incurring minimum $L_2$ loss between the feature representations of the
+pretrained and the equivariant models. Large pretrained models can be
+equi-tuned for different groups to satisfy the needs of various downstream
+tasks. Equi-tuned models benefit from both group equivariance as an inductive
+bias and semantic priors from pretrained models. We provide applications of
+equi-tuning on three different tasks: image classification, compositional
+generalization in language, and fairness in natural language generation (NLG).
+We also provide a novel group-theoretic definition for fairness in NLG. The
+effectiveness of this definition is shown by testing it against a standard
+empirical method of fairness in NLG. We provide experimental results for
+equi-tuning using a variety of pretrained models: Alexnet, Resnet, VGG, and
+Densenet for image classification; RNNs, GRUs, and LSTMs for compositional
+generalization; and GPT2 for fairness in NLG. We test these models on benchmark
+datasets across all considered tasks to show the generality and effectiveness
+of the proposed method.",2022-10-13
+"Not All Errors are Equal: Learning Text Generation Metrics using
+  Stratified Error Synthesis",2022-10-10 22:30:26+00:00,http://arxiv.org/abs/2210.05035v1,"Wenda Xu, Yilin Tuan, Yujie Lu, Michael Saxon, Lei Li, William Yang Wang","cs.CL, cs.AI",image2text,"Is it possible to build a general and automatic natural language generation
+(NLG) evaluation metric? Existing learned metrics either perform
+unsatisfactorily or are restricted to tasks where large human rating data is
+already available. We introduce SESCORE, a model-based metric that is highly
+correlated with human judgements without requiring human annotation, by
+utilizing a novel, iterative error synthesis and severity scoring pipeline.
+This pipeline applies a series of plausible errors to raw text and assigns
+severity labels by simulating human judgements with entailment. We evaluate
+SESCORE against existing metrics by comparing how their scores correlate with
+human ratings. SESCORE outperforms all prior unsupervised metrics on multiple
+diverse NLG tasks including machine translation, image captioning, and WebNLG
+text generation. For WMT 20/21 En-De and Zh-En, SESCORE improve the average
+Kendall correlation with human judgement from 0.154 to 0.195. SESCORE even
+achieves comparable performance to the best supervised metric COMET, despite
+receiving no human-annotated training data.",2022-10-10
+CLIP-Diffusion-LM: Apply Diffusion Model on Image Captioning,2022-10-10 10:55:53+00:00,http://arxiv.org/abs/2210.04559v1,Shitong Xu,"cs.CV, cs.LG",image2text,"Image captioning task has been extensively researched by previous work.
+However, limited experiments focus on generating captions based on
+non-autoregressive text decoder. Inspired by the recent success of the
+denoising diffusion model on image synthesis tasks, we apply denoising
+diffusion probabilistic models to text generation in image captioning tasks. We
+show that our CLIP-Diffusion-LM is capable of generating image captions using
+significantly fewer inference steps than autoregressive models. On the Flickr8k
+dataset, the model achieves 0.1876 BLEU-4 score. By training on the combined
+Flickr8k and Flickr30k dataset, our model achieves 0.2470 BLEU-4 score. Our
+code is available at https://github.com/xu-shitong/diffusion-image-captioning.",2022-10-10
+ASDOT: Any-Shot Data-to-Text Generation with Pretrained Language Models,2022-10-09 19:17:43+00:00,http://arxiv.org/abs/2210.04325v2,"Jiannan Xiang, Zhengzhong Liu, Yucheng Zhou, Eric P. Xing, Zhiting Hu",cs.CL,image2text,"Data-to-text generation is challenging due to the great variety of the input
+data in terms of domains (e.g., finance vs sports) or schemata (e.g., diverse
+predicates). Recent end-to-end neural methods thus require substantial training
+examples to learn to disambiguate and describe the data. Yet, real-world
+data-to-text problems often suffer from various data-scarce issues: one may
+have access to only a handful of or no training examples, and/or have to rely
+on examples in a different domain or schema. To fill this gap, we propose
+Any-Shot Data-to-Text (ASDOT), a new approach flexibly applicable to diverse
+settings by making efficient use of any given (or no) examples. ASDOT consists
+of two steps, data disambiguation and sentence fusion, both of which are
+amenable to be solved with off-the-shelf pretrained language models (LMs) with
+optional finetuning. In the data disambiguation stage, we employ the prompted
+GPT-3 model to understand possibly ambiguous triples from the input data and
+convert each into a short sentence with reduced ambiguity. The sentence fusion
+stage then uses an LM like T5 to fuse all the resulting sentences into a
+coherent paragraph as the final description. We evaluate extensively on various
+datasets in different scenarios, including the zero-/few-/full-shot settings,
+and generalization to unseen predicates and out-of-domain data. Experimental
+results show that ASDOT consistently achieves significant improvement over
+baselines, e.g., a 30.81 BLEU gain on the DART dataset under the zero-shot
+setting.",2022-10-09
+"Visualize Before You Write: Imagination-Guided Open-Ended Text
+  Generation",2022-10-07 18:01:09+00:00,http://arxiv.org/abs/2210.03765v1,"Wanrong Zhu, An Yan, Yujie Lu, Wenda Xu, Xin Eric Wang, Miguel Eckstein, William Yang Wang","cs.CL, cs.AI",image2text,"Recent advances in text-to-image synthesis make it possible to visualize
+machine imaginations for a given context. On the other hand, when generating
+text, human writers are gifted at creative visualization, which enhances their
+writings by forming imaginations as blueprints before putting down the stories
+in words. Inspired by such a cognitive process, we ask the natural question of
+whether we can endow machines with the same ability to utilize visual
+information and construct a general picture of the context to guide text
+generation. In this work, we propose iNLG that uses machine-generated images to
+guide language models (LM) in open-ended text generation. The experiments and
+analyses demonstrate the effectiveness of iNLG on open-ended text generation
+tasks, including text completion, story generation, and concept-to-text
+generation in few-shot scenarios. Both automatic metrics and human evaluations
+verify that the text snippets generated by our iNLG are coherent and
+informative while displaying minor degeneration.",2022-10-07
 "Unsupervised Neural Stylistic Text Generation using Transfer learning
   and Adapters",2022-10-07 00:09:22+00:00,http://arxiv.org/abs/2210.03264v1,"Vinayshekhar Bannihatti Kumar, Rashmi Gangadharaiah, Dan Roth",cs.CL,image2text,"Research has shown that personality is a key driver to improve engagement and
 user experience in conversational systems. Conversational agents should also

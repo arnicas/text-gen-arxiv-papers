@@ -1,4 +1,185 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Image Semantic Relation Generation,2022-10-19 16:15:19+00:00,http://arxiv.org/abs/2210.11253v1,Mingzhe Du,"cs.CV, cs.CL",knowledge,"Scene graphs provide structured semantic understanding beyond images. For
+downstream tasks, such as image retrieval, visual question answering, visual
+relationship detection, and even autonomous vehicle technology, scene graphs
+can not only distil complex image information but also correct the bias of
+visual models using semantic-level relations, which has broad application
+prospects. However, the heavy labour cost of constructing graph annotations may
+hinder the application of PSG in practical scenarios. Inspired by the
+observation that people usually identify the subject and object first and then
+determine the relationship between them, we proposed to decouple the scene
+graphs generation task into two sub-tasks: 1) an image segmentation task to
+pick up the qualified objects. 2) a restricted auto-regressive text generation
+task to generate the relation between given objects. Therefore, in this work,
+we introduce image semantic relation generation (ISRG), a simple but effective
+image-to-text model, which achieved 31 points on the OpenPSG dataset and
+outperforms strong baselines respectively by 16 points (ResNet-50) and 5 points
+(CLIP).",2022-10-19
+NGEP: A Graph-based Event Planning Framework for Story Generation,2022-10-19 14:49:27+00:00,http://arxiv.org/abs/2210.10602v1,"Chen Tang, Zhihao Zhang, Tyler Loakman, Chenghua Lin, Frank Guerin","cs.CL, cs.AI",knowledge,"To improve the performance of long text generation, recent studies have
+leveraged automatically planned event structures (i.e. storylines) to guide
+story generation. Such prior works mostly employ end-to-end neural generation
+models to predict event sequences for a story. However, such generation models
+struggle to guarantee the narrative coherence of separate events due to the
+hallucination problem, and additionally the generated event sequences are often
+hard to control due to the end-to-end nature of the models. To address these
+challenges, we propose NGEP, an novel event planning framework which generates
+an event sequence by performing inference on an automatically constructed event
+graph and enhances generalisation ability through a neural event advisor. We
+conduct a range of experiments on multiple criteria, and the results
+demonstrate that our graph-based neural framework outperforms the
+state-of-the-art (SOTA) event planning approaches, considering both the
+performance of event sequence generation and the effectiveness on the
+downstream task of story generation.",2022-10-19
+SafeText: A Benchmark for Exploring Physical Safety in Language Models,2022-10-18 17:59:31+00:00,http://arxiv.org/abs/2210.10045v1,"Sharon Levy, Emily Allaway, Melanie Subbiah, Lydia Chilton, Desmond Patton, Kathleen McKeown, William Yang Wang","cs.CL, cs.AI",knowledge,"Understanding what constitutes safe text is an important issue in natural
+language processing and can often prevent the deployment of models deemed
+harmful and unsafe. One such type of safety that has been scarcely studied is
+commonsense physical safety, i.e. text that is not explicitly violent and
+requires additional commonsense knowledge to comprehend that it leads to
+physical harm. We create the first benchmark dataset, SafeText, comprising
+real-life scenarios with paired safe and physically unsafe pieces of advice. We
+utilize SafeText to empirically study commonsense physical safety across
+various models designed for text generation and commonsense reasoning tasks. We
+find that state-of-the-art large language models are susceptible to the
+generation of unsafe text and have difficulty rejecting unsafe advice. As a
+result, we argue for further studies of safety and the assessment of
+commonsense physical safety in models before release.",2022-10-18
+"DisCup: Discriminator Cooperative Unlikelihood Prompt-tuning for
+  Controllable Text Generation",2022-10-18 02:59:06+00:00,http://arxiv.org/abs/2210.09551v1,"Hanqing Zhang, Dawei Song",cs.CL,knowledge,"Prompt learning with immensely large Casual Language Models (CLMs) has been
+shown promising for attribute-controllable text generation (CTG). However,
+vanilla prompt tuning tends to imitate training corpus characteristics beyond
+the control attributes, resulting in a poor generalization ability. Moreover,
+it is less able to capture the relationship between different attributes,
+further limiting the control performance. In this paper, we propose a new CTG
+approach, namely DisCup, which incorporates the attribute knowledge of
+discriminator to optimize the control-prompts, steering a frozen CLM to produce
+attribute-specific texts. Specifically, the frozen CLM model, capable of
+producing multitudinous texts, is first used to generate the next-token
+candidates based on the context, so as to ensure the diversity of tokens to be
+predicted. Then, we leverage an attribute-discriminator to select
+desired/undesired tokens from those candidates, providing the inter-attribute
+knowledge. Finally, we bridge the above two traits by an unlikelihood objective
+for prompt-tuning. Extensive experimental results show that DisCup can achieve
+a new state-of-the-art control performance while maintaining an efficient and
+high-quality text generation, only relying on around 10 virtual tokens.",2022-10-18
+"UniTune: Text-Driven Image Editing by Fine Tuning an Image Generation
+  Model on a Single Image",2022-10-17 23:46:05+00:00,http://arxiv.org/abs/2210.09477v3,"Dani Valevski, Matan Kalman, Yossi Matias, Yaniv Leviathan","cs.CV, cs.GR, cs.LG",knowledge,"We present UniTune, a simple and novel method for general text-driven image
+editing. UniTune gets as input an arbitrary image and a textual edit
+description, and carries out the edit while maintaining high semantic and
+visual fidelity to the input image. UniTune uses text, an intuitive interface
+for art-direction, and does not require additional inputs, like masks or
+sketches. At the core of our method is the observation that with the right
+choice of parameters, we can fine-tune a large text-to-image diffusion model on
+a single image, encouraging the model to maintain fidelity to the input image
+while still allowing expressive manipulations. We used Imagen as our
+text-to-image model, but we expect UniTune to work with other large-scale
+models as well. We test our method in a range of different use cases, and
+demonstrate its wide applicability.",2022-10-17
+Deepfake Text Detection: Limitations and Opportunities,2022-10-17 20:40:14+00:00,http://arxiv.org/abs/2210.09421v1,"Jiameng Pu, Zain Sarwar, Sifat Muhammad Abdullah, Abdullah Rehman, Yoonjin Kim, Parantapa Bhattacharya, Mobin Javed, Bimal Viswanath","cs.CR, cs.CL, cs.LG",knowledge,"Recent advances in generative models for language have enabled the creation
+of convincing synthetic text or deepfake text. Prior work has demonstrated the
+potential for misuse of deepfake text to mislead content consumers. Therefore,
+deepfake text detection, the task of discriminating between human and
+machine-generated text, is becoming increasingly critical. Several defenses
+have been proposed for deepfake text detection. However, we lack a thorough
+understanding of their real-world applicability. In this paper, we collect
+deepfake text from 4 online services powered by Transformer-based tools to
+evaluate the generalization ability of the defenses on content in the wild. We
+develop several low-cost adversarial attacks, and investigate the robustness of
+existing defenses against an adaptive attacker. We find that many defenses show
+significant degradation in performance under our evaluation scenarios compared
+to their original claimed performance. Our evaluation shows that tapping into
+the semantic information in the text content is a promising approach for
+improving the robustness and generalization performance of deepfake text
+detection schemes.",2022-10-17
+Towards a Unified Multi-Dimensional Evaluator for Text Generation,2022-10-13 17:17:03+00:00,http://arxiv.org/abs/2210.07197v1,"Ming Zhong, Yang Liu, Da Yin, Yuning Mao, Yizhu Jiao, Pengfei Liu, Chenguang Zhu, Heng Ji, Jiawei Han",cs.CL,knowledge,"Multi-dimensional evaluation is the dominant paradigm for human evaluation in
+Natural Language Generation (NLG), i.e., evaluating the generated text from
+multiple explainable dimensions, such as coherence and fluency. However,
+automatic evaluation in NLG is still dominated by similarity-based metrics, and
+we lack a reliable framework for a more comprehensive evaluation of advanced
+models. In this paper, we propose a unified multi-dimensional evaluator UniEval
+for NLG. We re-frame NLG evaluation as a Boolean Question Answering (QA) task,
+and by guiding the model with different questions, we can use one evaluator to
+evaluate from multiple dimensions. Furthermore, thanks to the unified Boolean
+QA format, we are able to introduce an intermediate learning phase that enables
+UniEval to incorporate external knowledge from multiple related tasks and gain
+further improvement. Experiments on three typical NLG tasks show that UniEval
+correlates substantially better with human judgments than existing metrics.
+Specifically, compared to the top-performing unified evaluators, UniEval
+achieves a 23% higher correlation on text summarization, and over 43% on
+dialogue response generation. Also, UniEval demonstrates a strong zero-shot
+learning ability for unseen evaluation dimensions and tasks. Source code, data
+and all pre-trained evaluators are available on our GitHub repository
+(https://github.com/maszhongming/UniEval).",2022-10-13
+"RaP: Redundancy-aware Video-language Pre-training for Text-Video
+  Retrieval",2022-10-13 10:11:41+00:00,http://arxiv.org/abs/2210.06881v1,"Xing Wu, Chaochen Gao, Zijia Lin, Zhongyuan Wang, Jizhong Han, Songlin Hu","cs.CV, cs.AI",knowledge,"Video language pre-training methods have mainly adopted sparse sampling
+techniques to alleviate the temporal redundancy of videos. Though effective,
+sparse sampling still suffers inter-modal redundancy: visual redundancy and
+textual redundancy. Compared with highly generalized text, sparsely sampled
+frames usually contain text-independent portions, called visual redundancy.
+Sparse sampling is also likely to miss important frames corresponding to some
+text portions, resulting in textual redundancy. Inter-modal redundancy leads to
+a mismatch of video and text information, hindering the model from better
+learning the shared semantics across modalities. To alleviate it, we propose
+Redundancy-aware Video-language Pre-training. We design a redundancy
+measurement of video patches and text tokens by calculating the cross-modal
+minimum dis-similarity. Then, we penalize the highredundant video patches and
+text tokens through a proposed redundancy-aware contrastive learning. We
+evaluate our method on four benchmark datasets, MSRVTT, MSVD, DiDeMo, and
+LSMDC, achieving a significant improvement over the previous stateof-the-art
+results. Our code are available at
+https://github.com/caskcsg/VLP/tree/main/RaP.",2022-10-13
+Equi-Tuning: Group Equivariant Fine-Tuning of Pretrained Models,2022-10-13 08:45:23+00:00,http://arxiv.org/abs/2210.06475v1,"Sourya Basu, Prasanna Sattigeri, Karthikeyan Natesan Ramamurthy, Vijil Chenthamarakshan, Kush R. Varshney, Lav R. Varshney, Payel Das","cs.LG, cs.CL",knowledge,"We introduce equi-tuning, a novel fine-tuning method that transforms
+(potentially non-equivariant) pretrained models into group equivariant models
+while incurring minimum $L_2$ loss between the feature representations of the
+pretrained and the equivariant models. Large pretrained models can be
+equi-tuned for different groups to satisfy the needs of various downstream
+tasks. Equi-tuned models benefit from both group equivariance as an inductive
+bias and semantic priors from pretrained models. We provide applications of
+equi-tuning on three different tasks: image classification, compositional
+generalization in language, and fairness in natural language generation (NLG).
+We also provide a novel group-theoretic definition for fairness in NLG. The
+effectiveness of this definition is shown by testing it against a standard
+empirical method of fairness in NLG. We provide experimental results for
+equi-tuning using a variety of pretrained models: Alexnet, Resnet, VGG, and
+Densenet for image classification; RNNs, GRUs, and LSTMs for compositional
+generalization; and GPT2 for fairness in NLG. We test these models on benchmark
+datasets across all considered tasks to show the generality and effectiveness
+of the proposed method.",2022-10-13
+"CHARD: Clinical Health-Aware Reasoning Across Dimensions for Text
+  Generation Models",2022-10-09 07:16:58+00:00,http://arxiv.org/abs/2210.04191v1,"Steven Y. Feng, Vivek Khetan, Bogdan Sacaleanu, Anatole Gershman, Eduard Hovy","cs.CL, cs.AI, cs.LG",knowledge,"We motivate and introduce CHARD: Clinical Health-Aware Reasoning across
+Dimensions, to investigate the capability of text generation models to act as
+implicit clinical knowledge bases and generate free-flow textual explanations
+about various health-related conditions across several dimensions. We collect
+and present an associated dataset, CHARDat, consisting of explanations about 52
+health conditions across three clinical dimensions. We conduct extensive
+experiments using BART and T5 along with data augmentation, and perform
+automatic, human, and qualitative analyses. We show that while our models can
+perform decently, CHARD is very challenging with strong potential for further
+exploration.",2022-10-09
+BLAB Reporter: Automated journalism covering the Blue Amazon,2022-10-08 21:51:50+00:00,http://arxiv.org/abs/2210.06431v1,"Yan V. Sym, João Gabriel M. Campos, Fabio G. Cozman",cs.CL,knowledge,"This demo paper introduces the BLAB Reporter, a robot-journalist covering the
+Brazilian Blue Amazon. The Reporter is based on a pipeline architecture for
+Natural Language Generation; it offers daily reports, news summaries and
+curious facts in Brazilian Portuguese. By collecting, storing and analysing
+structured data from publicly available sources, the robot-journalist uses
+domain knowledge to generate and publish texts in Twitter. Code and corpus are
+publicly available",2022-10-08
+Bird-Eye Transformers for Text Generation Models,2022-10-08 09:51:15+00:00,http://arxiv.org/abs/2210.03985v1,"Lei Sha, Yuhang Song, Yordan Yordanov, Tommaso Salvatori, Thomas Lukasiewicz",cs.CL,knowledge,"Transformers have become an indispensable module for text generation models
+since their great success in machine translation. Previous works attribute
+the~success of transformers to the query-key-value dot-product attention, which
+provides a robust inductive bias by the fully connected token graphs. However,
+we found that self-attention has a severe limitation. When predicting the
+(i+1)-th token, self-attention only takes the i-th token as an information
+collector, and it tends to give a high attention weight to those tokens similar
+to itself. Therefore, most of the historical information that occurred before
+the i-th token is not taken into consideration. Based on this observation, in
+this paper, we propose a new architecture, called bird-eye transformer(BET),
+which goes one step further to improve the performance of transformers by
+reweighting self-attention to encourage it to focus more on important
+historical information. We have conducted experiments on multiple text
+generation tasks, including machine translation (2 datasets) and language
+models (3 datasets). These experimental~results show that our proposed model
+achieves a better performance than the baseline transformer architectures
+on~all~datasets. The code is released at:
+\url{https://sites.google.com/view/bet-transformer/home}.",2022-10-08
 A Unified Encoder-Decoder Framework with Entity Memory,2022-10-07 01:15:30+00:00,http://arxiv.org/abs/2210.03273v1,"Zhihan Zhang, Wenhao Yu, Chenguang Zhu, Meng Jiang",cs.CL,knowledge,"Entities, as important carriers of real-world knowledge, play a key role in
 many NLP tasks. We focus on incorporating entity knowledge into an
 encoder-decoder framework for informative text generation. Existing approaches

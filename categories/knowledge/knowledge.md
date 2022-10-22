@@ -7,10 +7,22 @@ sidebar:
 ---
 
 
-*written on 2022-10-10*
+*written on 2022-10-22*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Image Semantic Relation Generation](http://arxiv.org/abs/2210.11253v1) | Mingzhe Du | cs.CV, cs.CL | 2022-10-19 |
+| [NGEP: A Graph-based Event Planning Framework for Story Generation](http://arxiv.org/abs/2210.10602v1) | Chen Tang, Zhihao Zhang, Tyler Loakman, Chenghua Lin, Frank Guerin | cs.CL, cs.AI | 2022-10-19 |
+| [SafeText: A Benchmark for Exploring Physical Safety in Language Models](http://arxiv.org/abs/2210.10045v1) | Sharon Levy, Emily Allaway, Melanie Subbiah, Lydia Chilton, Desmond Patton, Kathleen McKeown, William Yang Wang | cs.CL, cs.AI | 2022-10-18 |
+| [DisCup: Discriminator Cooperative Unlikelihood Prompt-tuning for  Controllable Text Generation](http://arxiv.org/abs/2210.09551v1) | Hanqing Zhang, Dawei Song | cs.CL | 2022-10-18 |
+| [UniTune: Text-Driven Image Editing by Fine Tuning an Image Generation  Model on a Single Image](http://arxiv.org/abs/2210.09477v3) | Dani Valevski, Matan Kalman, Yossi Matias, Yaniv Leviathan | cs.CV, cs.GR, cs.LG | 2022-10-17 |
+| [Deepfake Text Detection: Limitations and Opportunities](http://arxiv.org/abs/2210.09421v1) | Jiameng Pu, Zain Sarwar, Sifat Muhammad Abdullah, Abdullah Rehman, Yoonjin Kim, Parantapa Bhattacharya, Mobin Javed, Bimal Viswanath | cs.CR, cs.CL, cs.LG | 2022-10-17 |
+| [Towards a Unified Multi-Dimensional Evaluator for Text Generation](http://arxiv.org/abs/2210.07197v1) | Ming Zhong, Yang Liu, Da Yin, Yuning Mao, Yizhu Jiao, Pengfei Liu, Chenguang Zhu, Heng Ji, Jiawei Han | cs.CL | 2022-10-13 |
+| [RaP: Redundancy-aware Video-language Pre-training for Text-Video  Retrieval](http://arxiv.org/abs/2210.06881v1) | Xing Wu, Chaochen Gao, Zijia Lin, Zhongyuan Wang, Jizhong Han, Songlin Hu | cs.CV, cs.AI | 2022-10-13 |
+| [Equi-Tuning: Group Equivariant Fine-Tuning of Pretrained Models](http://arxiv.org/abs/2210.06475v1) | Sourya Basu, Prasanna Sattigeri, Karthikeyan Natesan Ramamurthy, Vijil Chenthamarakshan, Kush R. Varshney, Lav R. Varshney, Payel Das | cs.LG, cs.CL | 2022-10-13 |
+| [CHARD: Clinical Health-Aware Reasoning Across Dimensions for Text  Generation Models](http://arxiv.org/abs/2210.04191v1) | Steven Y. Feng, Vivek Khetan, Bogdan Sacaleanu, Anatole Gershman, Eduard Hovy | cs.CL, cs.AI, cs.LG | 2022-10-09 |
+| [BLAB Reporter: Automated journalism covering the Blue Amazon](http://arxiv.org/abs/2210.06431v1) | Yan V. Sym, João Gabriel M. Campos, Fabio G. Cozman | cs.CL | 2022-10-08 |
+| [Bird-Eye Transformers for Text Generation Models](http://arxiv.org/abs/2210.03985v1) | Lei Sha, Yuhang Song, Yordan Yordanov, Tommaso Salvatori, Thomas Lukasiewicz | cs.CL | 2022-10-08 |
 | [A Unified Encoder-Decoder Framework with Entity Memory](http://arxiv.org/abs/2210.03273v1) | Zhihan Zhang, Wenhao Yu, Chenguang Zhu, Meng Jiang | cs.CL | 2022-10-07 |
 | [Unsupervised Sentence Textual Similarity with Compositional Phrase  Semantics](http://arxiv.org/abs/2210.02284v1) | Zihao Wang, Jiaheng Dou, Yong Zhang | cs.CL | 2022-10-05 |
 | [Synonym Detection Using Syntactic Dependency And Neural Embeddings](http://arxiv.org/abs/2209.15202v1) | Dongqiang Yang, Pikun Wang, Xiaodong Sun, Ning Li | cs.CL, cs.AI | 2022-09-30 |
