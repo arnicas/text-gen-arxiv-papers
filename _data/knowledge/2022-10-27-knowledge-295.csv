@@ -1,4 +1,85 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Seq2Seq-SC: End-to-End Semantic Communication Systems with Pre-trained
+  Language Model",2022-10-27 07:48:18+00:00,http://arxiv.org/abs/2210.15237v1,"Ju-Hyung Lee, Dong-Ho Lee, Eunsoo Sheen, Thomas Choi, Jay Pujara, Joongheon Kim","eess.SP, cs.CL",knowledge,"While semantic communication is expected to bring unprecedented communication
+efficiency in comparison to classical communication, many challenges must be
+resolved to realize its potential. In this work, we provide a realistic
+semantic network dubbed seq2seq-SC, which is compatible to 5G NR and can work
+with generalized text dataset utilizing pre-trained language model. We also
+utilize a performance metric (SBERT) which can accurately measure semantic
+similarity and show that seq2seq-SC achieves superior performance while
+extracting semantically meaningful information.",2022-10-27
+Contrastive Search Is What You Need For Neural Text Generation,2022-10-25 16:40:48+00:00,http://arxiv.org/abs/2210.14140v1,"Yixuan Su, Nigel Collier",cs.CL,knowledge,"Generating text with autoregressive language models (LMs) is of great
+importance to many natural language processing (NLP) applications. Previous
+solutions for this task often produce text that contains degenerative
+expressions or lacks semantic consistency. Recently, Su et al. introduced a new
+decoding method, contrastive search, based on the isotropic representation
+space of the language model and obtained new state of the art on various
+benchmarks. Additionally, Su et al. argued that the representations of
+autoregressive LMs (e.g. GPT-2) are intrinsically anisotropic which is also
+shared by previous study. Therefore, to ensure the language model follows an
+isotropic distribution, Su et al. proposed a contrastive learning scheme,
+SimCTG, which calibrates the language model's representations through
+additional training.
+  In this study, we first answer the question: ""Are autoregressive LMs really
+anisotropic?"". To this end, we extensively evaluate the isotropy of LMs across
+16 major languages. Surprisingly, we find that the anisotropic problem only
+exists in the two specific English GPT-2-small/medium models. On the other
+hand, all other evaluated LMs are naturally isotropic which is in contrast to
+the conclusion drawn by previous studies. Based on our findings, we further
+assess the contrastive search decoding method using off-the-shelf LMs on four
+generation tasks across 16 languages. Our experimental results demonstrate that
+contrastive search significantly outperforms previous decoding methods without
+any additional training. More notably, on 12 out of 16 evaluated languages,
+contrastive search performs comparably with human-level performances as judged
+by human evaluations.",2022-10-25
+"Mapping Process for the Task: Wikidata Statements to Text as Wikipedia
+  Sentences",2022-10-23 08:34:33+00:00,http://arxiv.org/abs/2210.12659v1,"Hoang Thang Ta, Alexander Gelbukha, Grigori Sidorov","cs.CL, cs.AI",knowledge,"Acknowledged as one of the most successful online cooperative projects in
+human society, Wikipedia has obtained rapid growth in recent years and desires
+continuously to expand content and disseminate knowledge values for everyone
+globally. The shortage of volunteers brings to Wikipedia many issues, including
+developing content for over 300 languages at the present. Therefore, the
+benefit that machines can automatically generate content to reduce human
+efforts on Wikipedia language projects could be considerable. In this paper, we
+propose our mapping process for the task of converting Wikidata statements to
+natural language text (WS2T) for Wikipedia projects at the sentence level. The
+main step is to organize statements, represented as a group of quadruples and
+triples, and then to map them to corresponding sentences in English Wikipedia.
+We evaluate the output corpus in various aspects: sentence structure analysis,
+noise filtering, and relationships between sentence components based on word
+embedding models. The results are helpful not only for the data-to-text
+generation task but also for other relevant works in the field.",2022-10-23
+"Hard Gate Knowledge Distillation -- Leverage Calibration for Robust and
+  Reliable Language Model",2022-10-22 11:57:10+00:00,http://arxiv.org/abs/2210.12427v1,"Dongkyu Lee, Zhiliang Tian, Yingxiu Zhao, Ka Chun Cheung, Nevin L. Zhang","cs.CL, cs.AI",knowledge,"In knowledge distillation, a student model is trained with supervisions from
+both knowledge from a teacher and observations drawn from a training data
+distribution. Knowledge of a teacher is considered a subject that holds
+inter-class relations which send a meaningful supervision to a student; hence,
+much effort has been put to find such knowledge to be distilled. In this paper,
+we explore a question that has been given little attention: ""when to distill
+such knowledge."" The question is answered in our work with the concept of model
+calibration; we view a teacher model not only as a source of knowledge but also
+as a gauge to detect miscalibration of a student. This simple and yet novel
+view leads to a hard gate knowledge distillation scheme that switches between
+learning from a teacher model and training data. We verify the gating mechanism
+in the context of natural language generation at both the token-level and the
+sentence-level. Empirical comparisons with strong baselines show that hard gate
+knowledge distillation not only improves model generalization, but also
+significantly lowers model calibration error.",2022-10-22
+What do Large Language Models Learn beyond Language?,2022-10-21 23:43:13+00:00,http://arxiv.org/abs/2210.12302v1,"Avinash Madasu, Shashank Srivastava",cs.CL,knowledge,"Large language models (LMs) have rapidly become a mainstay in Natural
+Language Processing. These models are known to acquire rich linguistic
+knowledge from training on large amounts of text. In this paper, we investigate
+if pre-training on text also confers these models with helpful `inductive
+biases' for non-linguistic reasoning. On a set of 19 diverse non-linguistic
+tasks involving quantitative computations, recognizing regular expressions and
+reasoning over strings. We find that pretrained models significantly outperform
+comparable non-pretrained neural models. This remains true also in experiments
+with training non-pretrained models with fewer parameters to account for model
+regularization effects. We further explore the effect of text domain on LMs by
+pretraining models from text from different domains and provenances. Our
+experiments surprisingly reveal that the positive effects of pre-training
+persist even when pretraining on multi-lingual text or computer code, and even
+for text generated from synthetic languages. Our findings suggest a hitherto
+unexplored deep connection between pre-training and inductive learning
+abilities of language models.",2022-10-21
 Image Semantic Relation Generation,2022-10-19 16:15:19+00:00,http://arxiv.org/abs/2210.11253v1,Mingzhe Du,"cs.CV, cs.CL",knowledge,"Scene graphs provide structured semantic understanding beyond images. For
 downstream tasks, such as image retrieval, visual question answering, visual
 relationship detection, and even autonomous vehicle technology, scene graphs

@@ -1,4 +1,31 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"MOCHA: A Multi-Task Training Approach for Coherent Text Generation from
+  Cognitive Perspective",2022-10-26 11:55:41+00:00,http://arxiv.org/abs/2210.14650v1,"Zhe Hu, Hou Pong Chan, Lifu Huang",cs.CL,story,"Teaching neural models to generate narrative coherent texts is a critical
+problem. Recent pre-trained language models have achieved promising results,
+but there is still a gap between human written texts and machine-generated
+outputs. In this work, we propose a novel multi-task training strategy for
+coherent text generation grounded on the cognitive theory of writing, which
+empowers the model to learn essential subskills needed for writing including
+planning and reviewing besides end-to-end generation. We extensively evaluate
+our model on three open-ended generation tasks including story generation, news
+article writing and argument generation. Experiments show that our model
+achieves better results on both few-shot and fully-supervised settings than
+strong baselines, and human evaluations confirm that our model can generate
+more coherent outputs.",2022-10-26
+"EtriCA: Event-Triggered Context-Aware Story Generation Augmented by
+  Cross Attention",2022-10-22 14:51:12+00:00,http://arxiv.org/abs/2210.12463v1,"Chen Tang, Chenghua Lin, Henglin Huang, Frank Guerin, Zhihao Zhang","cs.CL, cs.AI",story,"One of the key challenges of automatic story generation is how to generate a
+long narrative that can maintain fluency, relevance, and coherence. Despite
+recent progress, current story generation systems still face the challenge of
+how to effectively capture contextual and event features, which has a profound
+impact on a model's generation performance. To address these challenges, we
+present EtriCA, a novel neural generation model, which improves the relevance
+and coherence of the generated stories through residually mapping context
+features to event sequences with a cross-attention mechanism. Such a feature
+capturing mechanism allows our model to better exploit the logical relatedness
+between events when generating stories. Extensive experiments based on both
+automatic and human evaluations show that our model significantly outperforms
+state-of-the-art baselines, demonstrating the effectiveness of our model in
+leveraging context and event features.",2022-10-22
 "A Continuum of Generation Tasks for Investigating Length Bias and
   Degenerate Repetition",2022-10-19 18:09:51+00:00,http://arxiv.org/abs/2210.10817v1,"Darcey Riley, David Chiang","cs.CL, cs.AI",story,"Language models suffer from various degenerate behaviors. These differ
 between tasks: machine translation (MT) exhibits length bias, while tasks like

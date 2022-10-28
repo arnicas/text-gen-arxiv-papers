@@ -7,10 +7,15 @@ sidebar:
 ---
 
 
-*written on 2022-10-22*
+*written on 2022-10-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Seq2Seq-SC: End-to-End Semantic Communication Systems with Pre-trained  Language Model](http://arxiv.org/abs/2210.15237v1) | Ju-Hyung Lee, Dong-Ho Lee, Eunsoo Sheen, Thomas Choi, Jay Pujara, Joongheon Kim | eess.SP, cs.CL | 2022-10-27 |
+| [Contrastive Search Is What You Need For Neural Text Generation](http://arxiv.org/abs/2210.14140v1) | Yixuan Su, Nigel Collier | cs.CL | 2022-10-25 |
+| [Mapping Process for the Task: Wikidata Statements to Text as Wikipedia  Sentences](http://arxiv.org/abs/2210.12659v1) | Hoang Thang Ta, Alexander Gelbukha, Grigori Sidorov | cs.CL, cs.AI | 2022-10-23 |
+| [Hard Gate Knowledge Distillation -- Leverage Calibration for Robust and  Reliable Language Model](http://arxiv.org/abs/2210.12427v1) | Dongkyu Lee, Zhiliang Tian, Yingxiu Zhao, Ka Chun Cheung, Nevin L. Zhang | cs.CL, cs.AI | 2022-10-22 |
+| [What do Large Language Models Learn beyond Language?](http://arxiv.org/abs/2210.12302v1) | Avinash Madasu, Shashank Srivastava | cs.CL | 2022-10-21 |
 | [Image Semantic Relation Generation](http://arxiv.org/abs/2210.11253v1) | Mingzhe Du | cs.CV, cs.CL | 2022-10-19 |
 | [NGEP: A Graph-based Event Planning Framework for Story Generation](http://arxiv.org/abs/2210.10602v1) | Chen Tang, Zhihao Zhang, Tyler Loakman, Chenghua Lin, Frank Guerin | cs.CL, cs.AI | 2022-10-19 |
 | [SafeText: A Benchmark for Exploring Physical Safety in Language Models](http://arxiv.org/abs/2210.10045v1) | Sharon Levy, Emily Allaway, Melanie Subbiah, Lydia Chilton, Desmond Patton, Kathleen McKeown, William Yang Wang | cs.CL, cs.AI | 2022-10-18 |

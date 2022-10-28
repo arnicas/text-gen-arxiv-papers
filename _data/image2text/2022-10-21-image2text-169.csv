@@ -1,4 +1,25 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Improving the Factual Correctness of Radiology Report Generation with
+  Semantic Rewards",2022-10-21 18:27:45+00:00,http://arxiv.org/abs/2210.12186v1,"Jean-Benoit Delbrouck, Pierre Chambon, Christian Bluethgen, Emily Tsai, Omar Almusa, Curtis P. Langlotz","cs.CL, cs.AI",image2text,"Neural image-to-text radiology report generation systems offer the potential
+to improve radiology reporting by reducing the repetitive process of report
+drafting and identifying possible medical errors. These systems have achieved
+promising performance as measured by widely used NLG metrics such as BLEU and
+CIDEr. However, the current systems face important limitations. First, they
+present an increased complexity in architecture that offers only marginal
+improvements on NLG metrics. Secondly, these systems that achieve high
+performance on these metrics are not always factually complete or consistent
+due to both inadequate training and evaluation. Recent studies have shown the
+systems can be substantially improved by using new methods encouraging 1) the
+generation of domain entities consistent with the reference and 2) describing
+these entities in inferentially consistent ways. So far, these methods rely on
+weakly-supervised approaches (rule-based) and named entity recognition systems
+that are not specific to the chest X-ray domain. To overcome this limitation,
+we propose a new method, the RadGraph reward, to further improve the factual
+completeness and correctness of generated radiology reports. More precisely, we
+leverage the RadGraph dataset containing annotated chest X-ray reports with
+entities and relations between entities. On two open radiology report datasets,
+our system substantially improves the scores up to 14.2% and 25.3% on metrics
+evaluating the factual correctness and completeness of reports.",2022-10-21
 Image Semantic Relation Generation,2022-10-19 16:15:19+00:00,http://arxiv.org/abs/2210.11253v1,Mingzhe Du,"cs.CV, cs.CL",image2text,"Scene graphs provide structured semantic understanding beyond images. For
 downstream tasks, such as image retrieval, visual question answering, visual
 relationship detection, and even autonomous vehicle technology, scene graphs

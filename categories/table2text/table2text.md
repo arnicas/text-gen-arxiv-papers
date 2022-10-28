@@ -7,10 +7,18 @@ sidebar:
 ---
 
 
-*written on 2022-10-22*
+*written on 2022-10-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Categorical SDEs with Simplex Diffusion](http://arxiv.org/abs/2210.14784v1) | Pierre H. Richemond, Sander Dieleman, Arnaud Doucet | cs.LG | 2022-10-26 |
+| [SentBS: Sentence-level Beam Search for Controllable Summarization](http://arxiv.org/abs/2210.14502v1) | Chenhui Shen, Liying Cheng, Lidong Bing, Yang You, Luo Si | cs.CL | 2022-10-26 |
+| [On the Effectiveness of Automated Metrics for Text Generation Systems](http://arxiv.org/abs/2210.13025v1) | Pius von Däniken, Jan Deriu, Don Tuggener, Mark Cieliebak | cs.CL, cs.AI | 2022-10-24 |
+| [Finding Memo: Extractive Memorization in Constrained Sequence Generation  Tasks](http://arxiv.org/abs/2210.12929v1) | Vikas Raunak, Arul Menezes | cs.CL, cs.AI, cs.LG | 2022-10-24 |
+| [Mapping Process for the Task: Wikidata Statements to Text as Wikipedia  Sentences](http://arxiv.org/abs/2210.12659v1) | Hoang Thang Ta, Alexander Gelbukha, Grigori Sidorov | cs.CL, cs.AI | 2022-10-23 |
+| [Hard Gate Knowledge Distillation -- Leverage Calibration for Robust and  Reliable Language Model](http://arxiv.org/abs/2210.12427v1) | Dongkyu Lee, Zhiliang Tian, Yingxiu Zhao, Ka Chun Cheung, Nevin L. Zhang | cs.CL, cs.AI | 2022-10-22 |
+| [Recurrence Boosts Diversity! Revisiting Recurrent Latent Variable in  Transformer-Based Variational AutoEncoder for Diverse Text Generation](http://arxiv.org/abs/2210.12409v2) | Jinyi Hu, Xiaoyuan Yi, Wenhao Li, Maosong Sun, Xing Xie | cs.CL | 2022-10-22 |
+| [ReasTAP: Injecting Table Reasoning Skills During Pre-training via  Synthetic Reasoning Examples](http://arxiv.org/abs/2210.12374v1) | Yilun Zhao, Linyong Nan, Zhenting Qi, Rui Zhang, Dragomir Radev | cs.CL | 2022-10-22 |
 | [The University of Edinburgh's Submission to the WMT22 Code-Mixing Shared  Task (MixMT)](http://arxiv.org/abs/2210.11309v1) | Faheem Kirefu, Vivek Iyer, Pinzhen Chen, Laurie Burchell | cs.CL | 2022-10-20 |
 | [Image Semantic Relation Generation](http://arxiv.org/abs/2210.11253v1) | Mingzhe Du | cs.CV, cs.CL | 2022-10-19 |
 | [NGEP: A Graph-based Event Planning Framework for Story Generation](http://arxiv.org/abs/2210.10602v1) | Chen Tang, Zhihao Zhang, Tyler Loakman, Chenghua Lin, Frank Guerin | cs.CL, cs.AI | 2022-10-19 |

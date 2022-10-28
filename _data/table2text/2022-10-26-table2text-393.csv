@@ -1,4 +1,130 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Categorical SDEs with Simplex Diffusion,2022-10-26 15:27:43+00:00,http://arxiv.org/abs/2210.14784v1,"Pierre H. Richemond, Sander Dieleman, Arnaud Doucet",cs.LG,table2text,"Diffusion models typically operate in the standard framework of generative
+modelling by producing continuously-valued datapoints. To this end, they rely
+on a progressive Gaussian smoothing of the original data distribution, which
+admits an SDE interpretation involving increments of a standard Brownian
+motion. However, some applications such as text generation or reinforcement
+learning might naturally be better served by diffusing categorical-valued data,
+i.e., lifting the diffusion to a space of probability distributions. To this
+end, this short theoretical note proposes Simplex Diffusion, a means to
+directly diffuse datapoints located on an n-dimensional probability simplex. We
+show how this relates to the Dirichlet distribution on the simplex and how the
+analogous SDE is realized thanks to a multi-dimensional Cox-Ingersoll-Ross
+process (abbreviated as CIR), previously used in economics and mathematical
+finance. Finally, we make remarks as to the numerical implementation of
+trajectories of the CIR process, and discuss some limitations of our approach.",2022-10-26
+SentBS: Sentence-level Beam Search for Controllable Summarization,2022-10-26 06:21:01+00:00,http://arxiv.org/abs/2210.14502v1,"Chenhui Shen, Liying Cheng, Lidong Bing, Yang You, Luo Si",cs.CL,table2text,"A wide range of control perspectives have been explored in controllable text
+generation. Structure-controlled summarization is recently proposed as a useful
+and interesting research direction. However, current structure-controlling
+methods have limited effectiveness in enforcing the desired structure. To
+address this limitation, we propose a sentence-level beam search generation
+method (SentBS), where evaluation is conducted throughout the generation
+process to select suitable sentences for subsequent generations. We experiment
+with different combinations of decoding methods to be used as subcomponents by
+SentBS and evaluate results on the structure-controlled dataset MReD.
+Experiments show that all explored combinations for SentBS can improve the
+agreement between the generated text and the desired structure, with the best
+method significantly reducing the structural discrepancies suffered by the
+existing model, by approximately 68%.",2022-10-26
+On the Effectiveness of Automated Metrics for Text Generation Systems,2022-10-24 08:15:28+00:00,http://arxiv.org/abs/2210.13025v1,"Pius von Däniken, Jan Deriu, Don Tuggener, Mark Cieliebak","cs.CL, cs.AI",table2text,"A major challenge in the field of Text Generation is evaluation because we
+lack a sound theory that can be leveraged to extract guidelines for evaluation
+campaigns. In this work, we propose a first step towards such a theory that
+incorporates different sources of uncertainty, such as imperfect automated
+metrics and insufficiently sized test sets. The theory has practical
+applications, such as determining the number of samples needed to reliably
+distinguish the performance of a set of Text Generation systems in a given
+setting. We showcase the application of the theory on the WMT 21 and
+Spot-The-Bot evaluation data and outline how it can be leveraged to improve the
+evaluation protocol regarding the reliability, robustness, and significance of
+the evaluation outcome.",2022-10-24
+"Finding Memo: Extractive Memorization in Constrained Sequence Generation
+  Tasks",2022-10-24 03:01:52+00:00,http://arxiv.org/abs/2210.12929v1,"Vikas Raunak, Arul Menezes","cs.CL, cs.AI, cs.LG",table2text,"Memorization presents a challenge for several constrained Natural Language
+Generation (NLG) tasks such as Neural Machine Translation (NMT), wherein the
+proclivity of neural models to memorize noisy and atypical samples reacts
+adversely with the noisy (web crawled) datasets. However, previous studies of
+memorization in constrained NLG tasks have only focused on counterfactual
+memorization, linking it to the problem of hallucinations. In this work, we
+propose a new, inexpensive algorithm for extractive memorization (exact
+training data generation under insufficient context) in constrained sequence
+generation tasks and use it to study extractive memorization and its effects in
+NMT. We demonstrate that extractive memorization poses a serious threat to NMT
+reliability by qualitatively and quantitatively characterizing the memorized
+samples as well as the model behavior in their vicinity. Based on empirical
+observations, we develop a simple algorithm which elicits non-memorized
+translations of memorized samples from the same model, for a large fraction of
+such samples. Finally, we show that the proposed algorithm could also be
+leveraged to mitigate memorization in the model through finetuning. We have
+released the code to reproduce our results at
+https://github.com/vyraun/Finding-Memo.",2022-10-24
+"Mapping Process for the Task: Wikidata Statements to Text as Wikipedia
+  Sentences",2022-10-23 08:34:33+00:00,http://arxiv.org/abs/2210.12659v1,"Hoang Thang Ta, Alexander Gelbukha, Grigori Sidorov","cs.CL, cs.AI",table2text,"Acknowledged as one of the most successful online cooperative projects in
+human society, Wikipedia has obtained rapid growth in recent years and desires
+continuously to expand content and disseminate knowledge values for everyone
+globally. The shortage of volunteers brings to Wikipedia many issues, including
+developing content for over 300 languages at the present. Therefore, the
+benefit that machines can automatically generate content to reduce human
+efforts on Wikipedia language projects could be considerable. In this paper, we
+propose our mapping process for the task of converting Wikidata statements to
+natural language text (WS2T) for Wikipedia projects at the sentence level. The
+main step is to organize statements, represented as a group of quadruples and
+triples, and then to map them to corresponding sentences in English Wikipedia.
+We evaluate the output corpus in various aspects: sentence structure analysis,
+noise filtering, and relationships between sentence components based on word
+embedding models. The results are helpful not only for the data-to-text
+generation task but also for other relevant works in the field.",2022-10-23
+"Hard Gate Knowledge Distillation -- Leverage Calibration for Robust and
+  Reliable Language Model",2022-10-22 11:57:10+00:00,http://arxiv.org/abs/2210.12427v1,"Dongkyu Lee, Zhiliang Tian, Yingxiu Zhao, Ka Chun Cheung, Nevin L. Zhang","cs.CL, cs.AI",table2text,"In knowledge distillation, a student model is trained with supervisions from
+both knowledge from a teacher and observations drawn from a training data
+distribution. Knowledge of a teacher is considered a subject that holds
+inter-class relations which send a meaningful supervision to a student; hence,
+much effort has been put to find such knowledge to be distilled. In this paper,
+we explore a question that has been given little attention: ""when to distill
+such knowledge."" The question is answered in our work with the concept of model
+calibration; we view a teacher model not only as a source of knowledge but also
+as a gauge to detect miscalibration of a student. This simple and yet novel
+view leads to a hard gate knowledge distillation scheme that switches between
+learning from a teacher model and training data. We verify the gating mechanism
+in the context of natural language generation at both the token-level and the
+sentence-level. Empirical comparisons with strong baselines show that hard gate
+knowledge distillation not only improves model generalization, but also
+significantly lowers model calibration error.",2022-10-22
+"Recurrence Boosts Diversity! Revisiting Recurrent Latent Variable in
+  Transformer-Based Variational AutoEncoder for Diverse Text Generation",2022-10-22 10:25:35+00:00,http://arxiv.org/abs/2210.12409v2,"Jinyi Hu, Xiaoyuan Yi, Wenhao Li, Maosong Sun, Xing Xie",cs.CL,table2text,"Variational Auto-Encoder (VAE) has been widely adopted in text generation.
+Among many variants, recurrent VAE learns token-wise latent variables with each
+conditioned on the preceding ones, which captures sequential variability better
+in the era of RNN. However, it is unclear how to incorporate such recurrent
+dynamics into the recently dominant Transformer due to its parallelism. In this
+work, we propose TRACE, a Transformer-based recurrent VAE structure. TRACE
+imposes recurrence on segment-wise latent variables with arbitrarily separated
+text segments and constructs the posterior distribution with residual
+parameterization. Besides, we design an acceleration method by approximating
+idempotent matrices, which allows parallelism while maintaining the conditional
+dependence of latent variables. We demonstrate that TRACE could enhance the
+entanglement of each segment and preceding latent variables and deduce a
+non-zero lower bound of the KL term, providing a theoretical guarantee of
+generation diversity. Experiments on two unconditional and one conditional
+generation tasks show that TRACE achieves significantly improved diversity
+while maintaining satisfactory generation quality.",2022-10-22
+"ReasTAP: Injecting Table Reasoning Skills During Pre-training via
+  Synthetic Reasoning Examples",2022-10-22 07:04:02+00:00,http://arxiv.org/abs/2210.12374v1,"Yilun Zhao, Linyong Nan, Zhenting Qi, Rui Zhang, Dragomir Radev",cs.CL,table2text,"Reasoning over tabular data requires both table structure understanding and a
+broad set of table reasoning skills. Current models with table-specific
+architectures and pre-training methods perform well on understanding table
+structures, but they still struggle with tasks that require various table
+reasoning skills. In this work, we develop ReasTAP to show that high-level
+table reasoning skills can be injected into models during pre-training without
+a complex table-specific architecture design. We define 7 table reasoning
+skills, such as numerical operation, temporal comparison, and conjunction. Each
+reasoning skill is associated with one example generator, which synthesizes
+questions over semi-structured tables according to the sampled templates. We
+model the table pre-training task as a sequence generation task and pre-train
+ReasTAP to generate precise answers to the synthetic examples. ReasTAP is
+evaluated on four benchmarks covering three downstream tasks including: 1)
+WikiSQL and WTQ for Table Question Answering; 2) TabFact for Table Fact
+Verification; and 3) LogicNLG for Faithful Table-to-Text Generation.
+Experimental results demonstrate that ReasTAP achieves new state-of-the-art
+performance on all benchmarks and delivers a significant improvement on
+low-resource setting. Our code is publicly available at
+https://github.com/Yale-LILY/ReasTAP.",2022-10-22
 "The University of Edinburgh's Submission to the WMT22 Code-Mixing Shared
   Task (MixMT)",2022-10-20 14:40:10+00:00,http://arxiv.org/abs/2210.11309v1,"Faheem Kirefu, Vivek Iyer, Pinzhen Chen, Laurie Burchell",cs.CL,table2text,"The University of Edinburgh participated in the WMT22 shared task on
 code-mixed translation. This consists of two subtasks: i) generating code-mixed

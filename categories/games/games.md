@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2022-10-22*
+*written on 2022-10-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Are Current Decoding Strategies Capable of Facing the Challenges of  Visual Dialogue?](http://arxiv.org/abs/2210.12997v1) | Amit Kumar Chaudhary, Alex J. Lucassen, Ioanna Tsani, Alberto Testoni | cs.CL, cs.CV | 2022-10-24 |
+| [Towards Pragmatic Production Strategies for Natural Language Generation  Tasks](http://arxiv.org/abs/2210.12828v1) | Mario Giulianelli | cs.CL, cs.AI | 2022-10-23 |
 | [LEATHER: A Framework for Learning to Generate Human-like Text in  Dialogue](http://arxiv.org/abs/2210.07777v1) | Anthony Sicilia, Malihe Alikhani | cs.CL, cs.LG | 2022-10-14 |
 | [Using Large Language Models to Simulate Multiple Humans](http://arxiv.org/abs/2208.10264v3) | Gati Aher, Rosa I. Arriaga, Adam Tauman Kalai | cs.CL, cs.AI, cs.LG | 2022-08-18 |
 | [Mimetic Models: Ethical Implications of AI that Acts Like You](http://arxiv.org/abs/2207.09394v1) | Reid McIlroy-Young, Jon Kleinberg, Siddhartha Sen, Solon Barocas, Ashton Anderson | cs.AI, cs.CY | 2022-07-19 |

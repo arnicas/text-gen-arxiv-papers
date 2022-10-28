@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2022-10-22*
+*written on 2022-10-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Is MultiWOZ a Solved Task? An Interactive TOD Evaluation Framework with  User Simulator](http://arxiv.org/abs/2210.14529v1) | Qinyuan Cheng, Linyang Li, Guofeng Quan, Feng Gao, Xiaofeng Mou, Xipeng Qiu | cs.CL | 2022-10-26 |
+| [Are Current Decoding Strategies Capable of Facing the Challenges of  Visual Dialogue?](http://arxiv.org/abs/2210.12997v1) | Amit Kumar Chaudhary, Alex J. Lucassen, Ioanna Tsani, Alberto Testoni | cs.CL, cs.CV | 2022-10-24 |
 | [Language Detoxification with Attribute-Discriminative Latent Space](http://arxiv.org/abs/2210.10329v1) | Jin Myung Kwak, Minseon Kim, Sung Ju Hwang | cs.CL, cs.AI | 2022-10-19 |
 | [Team Flow at DRC2022: Pipeline System for Travel Destination  Recommendation Task in Spoken Dialogue](http://arxiv.org/abs/2210.09518v1) | Ryu Hirai, Atsumoto Ohashi, Ao Guo, Hideki Shiroma, Xulin Zhou, Yukihiko Tone, Shinya Iizuka, Ryuichiro Higashinaka | cs.CL, cs.AI, cs.RO | 2022-10-18 |
 | [LEATHER: A Framework for Learning to Generate Human-like Text in  Dialogue](http://arxiv.org/abs/2210.07777v1) | Anthony Sicilia, Malihe Alikhani | cs.CL, cs.LG | 2022-10-14 |
