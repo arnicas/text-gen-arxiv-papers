@@ -1,4 +1,19 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Human-Machine Collaboration Approaches to Build a Dialogue Dataset for
+  Hate Speech Countering",2022-11-07 10:37:13+00:00,http://arxiv.org/abs/2211.03433v1,"Helena Bonaldi, Sara Dellantonio, Serra Sinem Tekiroglu, Marco Guerini","cs.CL, cs.CY",dialogue,"Fighting online hate speech is a challenge that is usually addressed using
+Natural Language Processing via automatic detection and removal of hate
+content. Besides this approach, counter narratives have emerged as an effective
+tool employed by NGOs to respond to online hate on social media platforms. For
+this reason, Natural Language Generation is currently being studied as a way to
+automatize counter narrative writing. However, the existing resources necessary
+to train NLG models are limited to 2-turn interactions (a hate speech and a
+counter narrative as response), while in real life, interactions can consist of
+multiple turns. In this paper, we present a hybrid approach for dialogical data
+collection, which combines the intervention of human expert annotators over
+machine generated dialogues obtained using 19 different configurations. The
+result of this work is DIALOCONAN, the first dataset comprising over 3000
+fictitious multi-turn dialogues between a hater and an NGO operator, covering 6
+targets of hate.",2022-11-07
 "Is MultiWOZ a Solved Task? An Interactive TOD Evaluation Framework with
   User Simulator",2022-10-26 07:41:32+00:00,http://arxiv.org/abs/2210.14529v1,"Qinyuan Cheng, Linyang Li, Guofeng Quan, Feng Gao, Xiaofeng Mou, Xipeng Qiu",cs.CL,dialogue,"Task-Oriented Dialogue (TOD) systems are drawing more and more attention in
 recent studies. Current methods focus on constructing pre-trained models or

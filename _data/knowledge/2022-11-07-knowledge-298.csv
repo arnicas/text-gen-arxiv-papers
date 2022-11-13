@@ -1,4 +1,55 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Generative Transformers for Design Concept Generation,2022-11-07 11:29:10+00:00,http://arxiv.org/abs/2211.03468v1,"Qihao Zhu, Jianxi Luo",cs.CL,knowledge,"Generating novel and useful concepts is essential during the early design
+stage to explore a large variety of design opportunities, which usually
+requires advanced design thinking ability and a wide range of knowledge from
+designers. Growing works on computer-aided tools have explored the retrieval of
+knowledge and heuristics from design data. However, they only provide stimuli
+to inspire designers from limited aspects. This study explores the recent
+advance of the natural language generation (NLG) technique in the artificial
+intelligence (AI) field to automate the early-stage design concept generation.
+Specifically, a novel approach utilizing the generative pre-trained transformer
+(GPT) is proposed to leverage the knowledge and reasoning from textual data and
+transform them into new concepts in understandable language. Three concept
+generation tasks are defined to leverage different knowledge and reasoning:
+domain knowledge synthesis, problem-driven synthesis, and analogy-driven
+synthesis. The experiments with both human and data-driven evaluation show good
+performance in generating novel and useful concepts.",2022-11-07
+CLSE: Corpus of Linguistically Significant Entities,2022-11-04 12:56:12+00:00,http://arxiv.org/abs/2211.02423v1,"Aleksandr Chuklin, Justin Zhao, Mihir Kale",cs.CL,knowledge,"One of the biggest challenges of natural language generation (NLG) is the
+proper handling of named entities. Named entities are a common source of
+grammar mistakes such as wrong prepositions, wrong article handling, or
+incorrect entity inflection. Without factoring linguistic representation, such
+errors are often underrepresented when evaluating on a small set of arbitrarily
+picked argument values, or when translating a dataset from a linguistically
+simpler language, like English, to a linguistically complex language, like
+Russian. However, for some applications, broadly precise grammatical
+correctness is critical -- native speakers may find entity-related grammar
+errors silly, jarring, or even offensive.
+  To enable the creation of more linguistically diverse NLG datasets, we
+release a Corpus of Linguistically Significant Entities (CLSE) annotated by
+linguist experts. The corpus includes 34 languages and covers 74 different
+semantic types to support various applications from airline ticketing to video
+games. To demonstrate one possible use of CLSE, we produce an augmented version
+of the Schema-Guided Dialog Dataset, SGD-CLSE. Using the CLSE's entities and a
+small number of human translations, we create a linguistically representative
+NLG evaluation benchmark in three languages: French (high-resource), Marathi
+(low-resource), and Russian (highly inflected language). We establish quality
+baselines for neural, template-based, and hybrid NLG systems and discuss the
+strengths and weaknesses of each approach.",2022-11-04
+Dialect-robust Evaluation of Generated Text,2022-11-02 07:12:23+00:00,http://arxiv.org/abs/2211.00922v1,"Jiao Sun, Thibault Sellam, Elizabeth Clark, Tu Vu, Timothy Dozat, Dan Garrette, Aditya Siddhant, Jacob Eisenstein, Sebastian Gehrmann",cs.CL,knowledge,"Evaluation metrics that are not robust to dialect variation make it
+impossible to tell how well systems perform for many groups of users, and can
+even penalize systems for producing text in lower-resource dialects. However,
+currently, there exists no way to quantify how metrics respond to change in the
+dialect of a generated utterance. We thus formalize dialect robustness and
+dialect awareness as goals for NLG evaluation metrics. We introduce a suite of
+methods and corresponding statistical tests one can use to assess metrics in
+light of the two goals. Applying the suite to current state-of-the-art metrics,
+we demonstrate that they are not dialect-robust and that semantic perturbations
+frequently lead to smaller decreases in a metric than the introduction of
+dialect features. As a first step to overcome this limitation, we propose a
+training schema, NANO, which introduces regional and language information to
+the pretraining process of a metric. We demonstrate that NANO provides a
+size-efficient way for models to improve the dialect robustness while
+simultaneously improving their performance on the standard metric benchmark.",2022-11-02
 "Seq2Seq-SC: End-to-End Semantic Communication Systems with Pre-trained
   Language Model",2022-10-27 07:48:18+00:00,http://arxiv.org/abs/2210.15237v1,"Ju-Hyung Lee, Dong-Ho Lee, Eunsoo Sheen, Thomas Choi, Jay Pujara, Joongheon Kim","eess.SP, cs.CL",knowledge,"While semantic communication is expected to bring unprecedented communication
 efficiency in comparison to classical communication, many challenges must be

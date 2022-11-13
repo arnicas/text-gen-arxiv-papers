@@ -1,4 +1,28 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Generation of Chinese classical poetry based on pre-trained model,2022-11-04 16:05:31+00:00,http://arxiv.org/abs/2211.02541v1,"Ziyao Wang, Lujin Guan, Guanyu Liu","cs.CL, cs.AI, J.5; I.2.7",poetry,"In order to test whether artificial intelligence can create qualified
+classical poetry like humans, the author proposes a study of Chinese classical
+poetry generation based on a pre-trained model. This paper mainly tries to use
+BART and other pre training models, proposes FS2TEXT and RR2TEXT to generate
+metrical poetry text and even specific style poetry text, and solves the
+problem that the user's writing intention gradually reduces the relevance of
+the generated poetry text.
+  In order to test the model's results, the authors selected ancient poets, by
+combining it with BART's poetic model work, developed a set of AI poetry Turing
+problems, it was reviewed by a group of poets and poetry writing researchers.
+There were more than 600 participants, and the final results showed that,
+high-level poetry lovers can't distinguish between AI activity and human
+activity, this indicates that the author's working methods are not
+significantly different from human activities. The model of poetry generation
+studied by the author generalizes works that cannot be distinguished from those
+of advanced scholars.
+  The number of modern Chinese poets has reached 5 million. However, many
+modern Chinese poets lack language ability and skills as a result of their
+childhood learning. However, many modern poets have no creative inspiration,
+and the author's model can help them. They can look at this model when they
+choose words and phrases and they can write works based on the poems they
+already have, and they can write their own poems. The importance of poetry lies
+in the author's thoughts and reflections. It doesn't matter how good AI poetry
+is. The only thing that matters is for people to see and inspire them.",2022-11-04
 Controllable Text Generation for Open-Domain Creativity and Fairness,2022-09-24 22:40:01+00:00,http://arxiv.org/abs/2209.12099v1,Nanyun Peng,"cs.CL, cs.AI",poetry,"Recent advances in large pre-trained language models have demonstrated strong
 results in generating natural languages and significantly improved performances
 for many natural language generation (NLG) applications such as machine

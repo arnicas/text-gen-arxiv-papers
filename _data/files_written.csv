@@ -3,10 +3,10 @@ date,category,md_filename,generated_file,data_file,most_recent,count,delete,prev
 2020-12-29,dialogue,categories/dialogue/_posts/2020-12-29-dialogue.md,categories/dialogue/2020/12/29/dialogue.html,_data/dialogue/2020-12-29-dialogue-100.csv,False,100,False,,categories/dialogue/2020/12/31/dialogue.html
 2020-04-17,knowledge,categories/knowledge/_posts/2020-04-17-knowledge.md,categories/knowledge/2020/04/17/knowledge.html,_data/knowledge/2020-04-17-knowledge-100.csv,False,100,False,,categories/knowledge/2021/01/17/knowledge.html
 2020-09-28,image2text,categories/image2text/_posts/2020-09-28-image2text.md,categories/image2text/2020/09/28/image2text.html,_data/image2text/2020-09-28-image2text-100.csv,False,100,False,,categories/image2text/2021/01/17/image2text.html
-2022-09-24,poetry,categories/poetry/_posts/2022-09-24-poetry.md,categories/poetry/2022/09/24/poetry.html,_data/poetry/2022-09-24-poetry-30.csv,True,30,False,,
-2022-10-26,story,categories/story/_posts/2022-10-26-story.md,categories/story/2022/10/26/story.html,_data/story/2022-10-26-story-100.csv,True,100,False,,
-2022-10-26,table2text,categories/table2text/_posts/2022-10-26-table2text.md,categories/table2text/2022/10/26/table2text.html,_data/table2text/2022-10-26-table2text-393.csv,True,393,False,categories/table2text/2020/07/13/table2text.html,
-2022-10-24,games,categories/games/_posts/2022-10-24-games.md,categories/games/2022/10/24/games.html,_data/games/2022-10-24-games-25.csv,True,25,False,,
-2022-10-26,dialogue,categories/dialogue/_posts/2022-10-26-dialogue.md,categories/dialogue/2022/10/26/dialogue.html,_data/dialogue/2022-10-26-dialogue-116.csv,True,116,False,categories/dialogue/2020/12/29/dialogue.html,
-2022-10-27,knowledge,categories/knowledge/_posts/2022-10-27-knowledge.md,categories/knowledge/2022/10/27/knowledge.html,_data/knowledge/2022-10-27-knowledge-295.csv,True,295,False,categories/knowledge/2020/04/17/knowledge.html,
-2022-10-21,image2text,categories/image2text/_posts/2022-10-21-image2text.md,categories/image2text/2022/10/21/image2text.html,_data/image2text/2022-10-21-image2text-169.csv,True,169,False,categories/image2text/2020/09/28/image2text.html,
+2022-11-09,story,categories/story/_posts/2022-11-09-story.md,categories/story/2022/11/09/story.html,_data/story/2022-11-09-story-103.csv,True,103,False,,
+2022-11-08,table2text,categories/table2text/_posts/2022-11-08-table2text.md,categories/table2text/2022/11/08/table2text.html,_data/table2text/2022-11-08-table2text-401.csv,True,401,False,categories/table2text/2020/07/13/table2text.html,
+2022-11-04,games,categories/games/_posts/2022-11-04-games.md,categories/games/2022/11/04/games.html,_data/games/2022-11-04-games-26.csv,True,26,False,,
+2022-11-07,dialogue,categories/dialogue/_posts/2022-11-07-dialogue.md,categories/dialogue/2022/11/07/dialogue.html,_data/dialogue/2022-11-07-dialogue-117.csv,True,117,False,categories/dialogue/2020/12/29/dialogue.html,
+2022-11-07,knowledge,categories/knowledge/_posts/2022-11-07-knowledge.md,categories/knowledge/2022/11/07/knowledge.html,_data/knowledge/2022-11-07-knowledge-298.csv,True,298,False,categories/knowledge/2020/04/17/knowledge.html,
+2022-11-04,poetry,categories/poetry/_posts/2022-11-04-poetry.md,categories/poetry/2022/11/04/poetry.html,_data/poetry/2022-11-04-poetry-31.csv,True,31,False,,
+2022-11-08,image2text,categories/image2text/_posts/2022-11-08-image2text.md,categories/image2text/2022/11/08/image2text.html,_data/image2text/2022-11-08-image2text-175.csv,True,175,False,categories/image2text/2020/09/28/image2text.html,

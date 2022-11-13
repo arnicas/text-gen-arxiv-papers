@@ -7,10 +7,18 @@ sidebar:
 ---
 
 
-*written on 2022-10-28*
+*written on 2022-11-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Self-conditioned Embedding Diffusion for Text Generation](http://arxiv.org/abs/2211.04236v1) | Robin Strudel, Corentin Tallec, Florent Altché, Yilun Du, Yaroslav Ganin, Arthur Mensch, Will Grathwohl, Nikolay Savinov, Sander Dieleman, Laurent Sifre, Rémi Leblond | cs.CL, cs.LG | 2022-11-08 |
+| [Generative Transformers for Design Concept Generation](http://arxiv.org/abs/2211.03468v1) | Qihao Zhu, Jianxi Luo | cs.CL | 2022-11-07 |
+| [Human-Machine Collaboration Approaches to Build a Dialogue Dataset for  Hate Speech Countering](http://arxiv.org/abs/2211.03433v1) | Helena Bonaldi, Sara Dellantonio, Serra Sinem Tekiroglu, Marco Guerini | cs.CL, cs.CY | 2022-11-07 |
+| [Time-aware Prompting for Text Generation](http://arxiv.org/abs/2211.02162v1) | Shuyang Cao, Lu Wang | cs.CL | 2022-11-03 |
+| [TaTa: A Multilingual Table-to-Text Dataset for African Languages](http://arxiv.org/abs/2211.00142v1) | Sebastian Gehrmann, Sebastian Ruder, Vitaly Nikolaev, Jan A. Botha, Michael Chavinda, Ankur Parikh, Clara Rivera | cs.CL, cs.LG | 2022-10-31 |
+| [DiffusER: Discrete Diffusion via Edit-based Reconstruction](http://arxiv.org/abs/2210.16886v1) | Machel Reid, Vincent J. Hellendoorn, Graham Neubig | cs.CL, cs.LG | 2022-10-30 |
+| [Diverse Parallel Data Synthesis for Cross-Database Adaptation of  Text-to-SQL Parsers](http://arxiv.org/abs/2210.16613v1) | Abhijeet Awasthi, Ashutosh Sathe, Sunita Sarawagi | cs.CL, cs.AI, cs.LG | 2022-10-29 |
+| [Nearest Neighbor Language Models for Stylistic Controllable Generation](http://arxiv.org/abs/2210.15762v1) | Severino Trotta, Lucie Flek, Charles Welch | cs.CL | 2022-10-27 |
 | [Categorical SDEs with Simplex Diffusion](http://arxiv.org/abs/2210.14784v1) | Pierre H. Richemond, Sander Dieleman, Arnaud Doucet | cs.LG | 2022-10-26 |
 | [SentBS: Sentence-level Beam Search for Controllable Summarization](http://arxiv.org/abs/2210.14502v1) | Chenhui Shen, Liying Cheng, Lidong Bing, Yang You, Luo Si | cs.CL | 2022-10-26 |
 | [On the Effectiveness of Automated Metrics for Text Generation Systems](http://arxiv.org/abs/2210.13025v1) | Pius von Däniken, Jan Deriu, Don Tuggener, Mark Cieliebak | cs.CL, cs.AI | 2022-10-24 |

@@ -1,4 +1,105 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Self-conditioned Embedding Diffusion for Text Generation,2022-11-08 13:30:27+00:00,http://arxiv.org/abs/2211.04236v1,"Robin Strudel, Corentin Tallec, Florent Altché, Yilun Du, Yaroslav Ganin, Arthur Mensch, Will Grathwohl, Nikolay Savinov, Sander Dieleman, Laurent Sifre, Rémi Leblond","cs.CL, cs.LG",image2text,"Can continuous diffusion models bring the same performance breakthrough on
+natural language they did for image generation? To circumvent the discrete
+nature of text data, we can simply project tokens in a continuous space of
+embeddings, as is standard in language modeling. We propose Self-conditioned
+Embedding Diffusion, a continuous diffusion mechanism that operates on token
+embeddings and allows to learn flexible and scalable diffusion models for both
+conditional and unconditional text generation. Through qualitative and
+quantitative evaluation, we show that our text diffusion models generate
+samples comparable with those produced by standard autoregressive language
+models - while being in theory more efficient on accelerator hardware at
+inference time. Our work paves the way for scaling up diffusion models for
+text, similarly to autoregressive models, and for improving performance with
+recent refinements to continuous diffusion.",2022-11-08
+Semantic Metadata Extraction from Dense Video Captioning,2022-11-05 22:06:50+00:00,http://arxiv.org/abs/2211.02982v1,"Johannes Scherer, Ansgar Scherp, Deepayan Bhowmik","cs.CV, cs.CL",image2text,"Annotation of multimedia data by humans is time-consuming and costly, while
+reliable automatic generation of semantic metadata is a major challenge. We
+propose a framework to extract semantic metadata from automatically generated
+video captions. As metadata, we consider entities, the entities' properties,
+relations between entities, and the video category. We employ two
+state-of-the-art dense video captioning models with masked transformer (MT) and
+parallel decoding (PVDC) to generate captions for videos of the ActivityNet
+Captions dataset. Our experiments show that it is possible to extract entities,
+their properties, relations between entities, and the video category from the
+generated captions. We observe that the quality of the extracted information is
+mainly influenced by the quality of the event localization in the video as well
+as the performance of the event caption generation.",2022-11-05
+"eDiff-I: Text-to-Image Diffusion Models with an Ensemble of Expert
+  Denoisers",2022-11-02 17:43:04+00:00,http://arxiv.org/abs/2211.01324v3,"Yogesh Balaji, Seungjun Nah, Xun Huang, Arash Vahdat, Jiaming Song, Karsten Kreis, Miika Aittala, Timo Aila, Samuli Laine, Bryan Catanzaro, Tero Karras, Ming-Yu Liu","cs.CV, cs.LG",image2text,"Large-scale diffusion-based generative models have led to breakthroughs in
+text-conditioned high-resolution image synthesis. Starting from random noise,
+such text-to-image diffusion models gradually synthesize images in an iterative
+fashion while conditioning on text prompts. We find that their synthesis
+behavior qualitatively changes throughout this process: Early in sampling,
+generation strongly relies on the text prompt to generate text-aligned content,
+while later, the text conditioning is almost entirely ignored. This suggests
+that sharing model parameters throughout the entire generation process may not
+be ideal. Therefore, in contrast to existing works, we propose to train an
+ensemble of text-to-image diffusion models specialized for different synthesis
+stages. To maintain training efficiency, we initially train a single model,
+which is then split into specialized models that are trained for the specific
+stages of the iterative generation process. Our ensemble of diffusion models,
+called eDiff-I, results in improved text alignment while maintaining the same
+inference computation cost and preserving high visual quality, outperforming
+previous large-scale text-to-image diffusion models on the standard benchmark.
+In addition, we train our model to exploit a variety of embeddings for
+conditioning, including the T5 text, CLIP text, and CLIP image embeddings. We
+show that these different embeddings lead to different behaviors. Notably, the
+CLIP image embedding allows an intuitive way of transferring the style of a
+reference image to the target text-to-image output. Lastly, we show a technique
+that enables eDiff-I's ""paint-with-words"" capability. A user can select the
+word in the input text and paint it in a canvas to control the output, which is
+very handy for crafting the desired image in mind. The project page is
+available at https://deepimagination.cc/eDiff-I/",2022-11-02
+CODEP: Grammatical Seq2Seq Model for General-Purpose Code Generation,2022-11-02 01:40:18+00:00,http://arxiv.org/abs/2211.00818v1,"Yihong Dong, Ge Li","cs.SE, cs.AI",image2text,"General-purpose code generation aims to automatically convert the natural
+language (NL) description to code snippets in a general-purpose programming
+language (GPL) like Python. Intrinsically, code generation is a special type of
+text generation that generates well-formed text, i.e., code. However, existing
+sequence-to-sequence (Seq2Seq) approaches generate the GPL code neglecting the
+grammar rules. To this end, in this paper, we make the first attempt to
+consider grammatical Seq2Seq models for general-purpose code generation and
+propose CODEP, a grammatical Seq2Seq code generation framework equipped with a
+Pushdown automaton (PDA) module. In the training stage, CODEP additionally
+incorporates the state representation and the state prediction task, which
+leverages PDA states to help CODEP comprehend the parsing process of the PDA
+module. In the inference stage, CODEP generates well-formed code with the PDA
+module and the joint prediction of PDA states. Furthermore, the PDA module can
+be directly applied to Seq2Seq models without training to ensure the
+grammatical correctness of the generated code. To evaluate the effectiveness of
+our proposed method, we construct the DPA for the most popular GPL Python and
+conduct extensive experiments on four benchmark datasets. The experimental
+results demonstrate the superiority of CODEP compared to the state-of-the-art
+approaches without pre-training, and the DPA module also achieves significant
+improvements on the pre-trained models.",2022-11-02
+"SSD-LM: Semi-autoregressive Simplex-based Diffusion Language Model for
+  Text Generation and Modular Control",2022-10-31 16:02:00+00:00,http://arxiv.org/abs/2210.17432v1,"Xiaochuang Han, Sachin Kumar, Yulia Tsvetkov","cs.CL, cs.LG",image2text,"Despite the growing success of diffusion models in continuous-valued domains
+(e.g., images), diffusion-based language models on discrete text have yet to
+match autoregressive language models on text generation benchmarks. In this
+work, we present SSD-LM -- a diffusion language model with two key design
+choices. First, SSD-LM is semi-autoregressive, iteratively generating blocks of
+text, allowing for flexible output length at decoding time while enabling local
+bidirectional context updates. Second, it is simplex-based, performing
+diffusion on the natural vocabulary space rather than a learned latent space,
+allowing us to incorporate classifier guidance and modular control without any
+adaptation of off-the-shelf classifiers. We evaluate SSD-LM on unconstrained as
+well as controlled text generation benchmarks, and show that it matches or
+outperforms strong autoregressive GPT-2 baselines across standard quality and
+diversity metrics.",2022-10-31
+Visually-Aware Audio Captioning With Adaptive Audio-Visual Attention,2022-10-28 22:45:41+00:00,http://arxiv.org/abs/2210.16428v1,"Xubo Liu, Qiushi Huang, Xinhao Mei, Haohe Liu, Qiuqiang Kong, Jianyuan Sun, Shengchen Li, Tom Ko, Yu Zhang, Lilian H. Tang, Mark D. Plumbley, Volkan Kılıç, Wenwu Wang","eess.AS, cs.AI, cs.MM, cs.SD",image2text,"Audio captioning is the task of generating captions that describe the content
+of audio clips. In the real world, many objects produce similar sounds. It is
+difficult to identify these auditory ambiguous sound events with access to
+audio information only. How to accurately recognize ambiguous sounds is a major
+challenge for audio captioning systems. In this work, inspired by the
+audio-visual multi-modal perception of human beings, we propose visually-aware
+audio captioning, which makes use of visual information to help the recognition
+of ambiguous sounding objects. Specifically, we introduce an off-the-shelf
+visual encoder to process the video inputs, and incorporate the extracted
+visual features into an audio captioning system. Furthermore, to better exploit
+complementary contexts from redundant audio-visual streams, we propose an
+audio-visual attention mechanism that integrates audio and visual information
+adaptively according to their confidence levels. Experimental results on
+AudioCaps, the largest publicly available audio captioning dataset, show that
+the proposed method achieves significant improvement over a strong baseline
+audio captioning system and is on par with the state-of-the-art result.",2022-10-28
 "Improving the Factual Correctness of Radiology Report Generation with
   Semantic Rewards",2022-10-21 18:27:45+00:00,http://arxiv.org/abs/2210.12186v1,"Jean-Benoit Delbrouck, Pierre Chambon, Christian Bluethgen, Emily Tsai, Omar Almusa, Curtis P. Langlotz","cs.CL, cs.AI",image2text,"Neural image-to-text radiology report generation systems offer the potential
 to improve radiology reporting by reducing the repetitive process of report

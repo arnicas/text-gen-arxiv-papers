@@ -1,4 +1,49 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Creative Writing with an AI-Powered Writing Assistant: Perspectives from
+  Professional Writers",2022-11-09 17:00:56+00:00,http://arxiv.org/abs/2211.05030v1,"Daphne Ippolito, Ann Yuan, Andy Coenen, Sehmon Burnam","cs.HC, cs.CL",story,"Recent developments in natural language generation (NLG) using neural
+language models have brought us closer than ever to the goal of building
+AI-powered creative writing tools. However, most prior work on human-AI
+collaboration in the creative writing domain has evaluated new systems with
+amateur writers, typically in contrived user studies of limited scope. In this
+work, we commissioned 13 professional, published writers from a diverse set of
+creative writing backgrounds to craft stories using Wordcraft, a text editor
+with built-in AI-powered writing assistance tools. Using interviews and
+participant journals, we discuss the potential of NLG to have significant
+impact in the creative writing domain--especially with respect to
+brainstorming, generation of story details, world-building, and research
+assistance. Experienced writers, more so than amateurs, typically have
+well-developed systems and methodologies for writing, as well as distinctive
+voices and target audiences. Our work highlights the challenges in building for
+these writers; NLG technologies struggle to preserve style and authorial voice,
+and they lack deep understanding of story contents. In order for AI-powered
+writing assistants to realize their full potential, it is essential that they
+take into account the diverse goals and expertise of human writers.",2022-11-09
+"Human-Machine Collaboration Approaches to Build a Dialogue Dataset for
+  Hate Speech Countering",2022-11-07 10:37:13+00:00,http://arxiv.org/abs/2211.03433v1,"Helena Bonaldi, Sara Dellantonio, Serra Sinem Tekiroglu, Marco Guerini","cs.CL, cs.CY",story,"Fighting online hate speech is a challenge that is usually addressed using
+Natural Language Processing via automatic detection and removal of hate
+content. Besides this approach, counter narratives have emerged as an effective
+tool employed by NGOs to respond to online hate on social media platforms. For
+this reason, Natural Language Generation is currently being studied as a way to
+automatize counter narrative writing. However, the existing resources necessary
+to train NLG models are limited to 2-turn interactions (a hate speech and a
+counter narrative as response), while in real life, interactions can consist of
+multiple turns. In this paper, we present a hybrid approach for dialogical data
+collection, which combines the intervention of human expert annotators over
+machine generated dialogues obtained using 19 different configurations. The
+result of this work is DIALOCONAN, the first dataset comprising over 3000
+fictitious multi-turn dialogues between a hater and an NGO operator, covering 6
+targets of hate.",2022-11-07
+Towards Inter-character Relationship-driven Story Generation,2022-11-01 18:04:29+00:00,http://arxiv.org/abs/2211.00676v1,"Anvesh Rao Vijjini, Faeze Brahman, Snigdha Chaturvedi",cs.CL,story,"In this paper, we introduce the task of modeling interpersonal relationships
+for story generation. For addressing this task, we propose Relationships as
+Latent Variables for Story Generation, (ReLiSt). ReLiSt generates stories
+sentence by sentence and has two major components - a relationship selector and
+a story continuer. The relationship selector specifies a latent variable to
+pick the relationship to exhibit in the next sentence and the story continuer
+generates the next sentence while expressing the selected relationship in a
+coherent way. Our automatic and human evaluations demonstrate that ReLiSt is
+able to generate stories with relationships that are more faithful to desired
+relationships while maintaining the content quality. The relationship
+assignments to sentences during inference bring interpretability to ReLiSt.",2022-11-01
 "MOCHA: A Multi-Task Training Approach for Coherent Text Generation from
   Cognitive Perspective",2022-10-26 11:55:41+00:00,http://arxiv.org/abs/2210.14650v1,"Zhe Hu, Hou Pong Chan, Lifu Huang",cs.CL,story,"Teaching neural models to generate narrative coherent texts is a critical
 problem. Recent pre-trained language models have achieved promising results,

@@ -1,4 +1,117 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Self-conditioned Embedding Diffusion for Text Generation,2022-11-08 13:30:27+00:00,http://arxiv.org/abs/2211.04236v1,"Robin Strudel, Corentin Tallec, Florent Altché, Yilun Du, Yaroslav Ganin, Arthur Mensch, Will Grathwohl, Nikolay Savinov, Sander Dieleman, Laurent Sifre, Rémi Leblond","cs.CL, cs.LG",table2text,"Can continuous diffusion models bring the same performance breakthrough on
+natural language they did for image generation? To circumvent the discrete
+nature of text data, we can simply project tokens in a continuous space of
+embeddings, as is standard in language modeling. We propose Self-conditioned
+Embedding Diffusion, a continuous diffusion mechanism that operates on token
+embeddings and allows to learn flexible and scalable diffusion models for both
+conditional and unconditional text generation. Through qualitative and
+quantitative evaluation, we show that our text diffusion models generate
+samples comparable with those produced by standard autoregressive language
+models - while being in theory more efficient on accelerator hardware at
+inference time. Our work paves the way for scaling up diffusion models for
+text, similarly to autoregressive models, and for improving performance with
+recent refinements to continuous diffusion.",2022-11-08
+Generative Transformers for Design Concept Generation,2022-11-07 11:29:10+00:00,http://arxiv.org/abs/2211.03468v1,"Qihao Zhu, Jianxi Luo",cs.CL,table2text,"Generating novel and useful concepts is essential during the early design
+stage to explore a large variety of design opportunities, which usually
+requires advanced design thinking ability and a wide range of knowledge from
+designers. Growing works on computer-aided tools have explored the retrieval of
+knowledge and heuristics from design data. However, they only provide stimuli
+to inspire designers from limited aspects. This study explores the recent
+advance of the natural language generation (NLG) technique in the artificial
+intelligence (AI) field to automate the early-stage design concept generation.
+Specifically, a novel approach utilizing the generative pre-trained transformer
+(GPT) is proposed to leverage the knowledge and reasoning from textual data and
+transform them into new concepts in understandable language. Three concept
+generation tasks are defined to leverage different knowledge and reasoning:
+domain knowledge synthesis, problem-driven synthesis, and analogy-driven
+synthesis. The experiments with both human and data-driven evaluation show good
+performance in generating novel and useful concepts.",2022-11-07
+"Human-Machine Collaboration Approaches to Build a Dialogue Dataset for
+  Hate Speech Countering",2022-11-07 10:37:13+00:00,http://arxiv.org/abs/2211.03433v1,"Helena Bonaldi, Sara Dellantonio, Serra Sinem Tekiroglu, Marco Guerini","cs.CL, cs.CY",table2text,"Fighting online hate speech is a challenge that is usually addressed using
+Natural Language Processing via automatic detection and removal of hate
+content. Besides this approach, counter narratives have emerged as an effective
+tool employed by NGOs to respond to online hate on social media platforms. For
+this reason, Natural Language Generation is currently being studied as a way to
+automatize counter narrative writing. However, the existing resources necessary
+to train NLG models are limited to 2-turn interactions (a hate speech and a
+counter narrative as response), while in real life, interactions can consist of
+multiple turns. In this paper, we present a hybrid approach for dialogical data
+collection, which combines the intervention of human expert annotators over
+machine generated dialogues obtained using 19 different configurations. The
+result of this work is DIALOCONAN, the first dataset comprising over 3000
+fictitious multi-turn dialogues between a hater and an NGO operator, covering 6
+targets of hate.",2022-11-07
+Time-aware Prompting for Text Generation,2022-11-03 22:10:25+00:00,http://arxiv.org/abs/2211.02162v1,"Shuyang Cao, Lu Wang",cs.CL,table2text,"In this paper, we study the effects of incorporating timestamps, such as
+document creation dates, into generation systems. Two types of time-aware
+prompts are investigated: (1) textual prompts that encode document timestamps
+in natural language sentences; and (2) linear prompts that convert timestamps
+into continuous vectors. To explore extrapolation to future data points, we
+further introduce a new data-to-text generation dataset, TempWikiBio,
+containing more than 4 millions of chronologically ordered revisions of
+biographical articles from English Wikipedia, each paired with structured
+personal profiles. Through data-to-text generation on TempWikiBio, text-to-text
+generation on the content transfer dataset, and summarization on XSum, we show
+that linear prompts on encoder and textual prompts improve the generation
+quality on all datasets. Despite having less performance drop when testing on
+data drawn from a later time, linear prompts focus more on non-temporal
+information and are less sensitive to the given timestamps, according to human
+evaluations and sensitivity analyses. Meanwhile, textual prompts establish the
+association between the given timestamps and the output dates, yielding more
+factual temporal information in the output.",2022-11-03
+TaTa: A Multilingual Table-to-Text Dataset for African Languages,2022-10-31 21:05:42+00:00,http://arxiv.org/abs/2211.00142v1,"Sebastian Gehrmann, Sebastian Ruder, Vitaly Nikolaev, Jan A. Botha, Michael Chavinda, Ankur Parikh, Clara Rivera","cs.CL, cs.LG",table2text,"Existing data-to-text generation datasets are mostly limited to English. To
+address this lack of data, we create Table-to-Text in African languages (TaTa),
+the first large multilingual table-to-text dataset with a focus on African
+languages. We created TaTa by transcribing figures and accompanying text in
+bilingual reports by the Demographic and Health Surveys Program, followed by
+professional translation to make the dataset fully parallel. TaTa includes
+8,700 examples in nine languages including four African languages (Hausa, Igbo,
+Swahili, and Yor\`ub\'a) and a zero-shot test language (Russian). We
+additionally release screenshots of the original figures for future research on
+multilingual multi-modal approaches. Through an in-depth human evaluation, we
+show that TaTa is challenging for current models and that less than half the
+outputs from an mT5-XXL-based model are understandable and attributable to the
+source data. We further demonstrate that existing metrics perform poorly for
+TaTa and introduce learned metrics that achieve a high correlation with human
+judgments. We release all data and annotations at
+https://github.com/google-research/url-nlp.",2022-10-31
+DiffusER: Discrete Diffusion via Edit-based Reconstruction,2022-10-30 16:55:23+00:00,http://arxiv.org/abs/2210.16886v1,"Machel Reid, Vincent J. Hellendoorn, Graham Neubig","cs.CL, cs.LG",table2text,"In text generation, models that generate text from scratch one token at a
+time are currently the dominant paradigm. Despite being performant, these
+models lack the ability to revise existing text, which limits their usability
+in many practical scenarios. We look to address this, with DiffusER (Diffusion
+via Edit-based Reconstruction), a new edit-based generative model for text
+based on denoising diffusion models -- a class of models that use a Markov
+chain of denoising steps to incrementally generate data. DiffusER is not only a
+strong generative model in general, rivalling autoregressive models on several
+tasks spanning machine translation, summarization, and style transfer; it can
+also perform other varieties of generation that standard autoregressive models
+are not well-suited for. For instance, we demonstrate that DiffusER makes it
+possible for a user to condition generation on a prototype, or an incomplete
+sequence, and continue revising based on previous edit steps.",2022-10-30
+"Diverse Parallel Data Synthesis for Cross-Database Adaptation of
+  Text-to-SQL Parsers",2022-10-29 14:30:53+00:00,http://arxiv.org/abs/2210.16613v1,"Abhijeet Awasthi, Ashutosh Sathe, Sunita Sarawagi","cs.CL, cs.AI, cs.LG",table2text,"Text-to-SQL parsers typically struggle with databases unseen during the train
+time. Adapting parsers to new databases is a challenging problem due to the
+lack of natural language queries in the new schemas. We present ReFill, a
+framework for synthesizing high-quality and textually diverse parallel datasets
+for adapting a Text-to-SQL parser to a target schema. ReFill learns to
+retrieve-and-edit text queries from the existing schemas and transfers them to
+the target schema. We show that retrieving diverse existing text, masking their
+schema-specific tokens, and refilling with tokens relevant to the target
+schema, leads to significantly more diverse text queries than achievable by
+standard SQL-to-Text generation methods. Through experiments spanning multiple
+databases, we demonstrate that fine-tuning parsers on datasets synthesized
+using ReFill consistently outperforms the prior data-augmentation methods.",2022-10-29
+Nearest Neighbor Language Models for Stylistic Controllable Generation,2022-10-27 20:46:12+00:00,http://arxiv.org/abs/2210.15762v1,"Severino Trotta, Lucie Flek, Charles Welch",cs.CL,table2text,"Recent language modeling performance has been greatly improved by the use of
+external memory. This memory encodes the context so that similar contexts can
+be recalled during decoding. This similarity depends on how the model learns to
+encode context, which can be altered to include other attributes, such as
+style. We construct and evaluate an architecture for this purpose, using
+corpora annotated for politeness, formality, and toxicity. Through extensive
+experiments and human evaluation we demonstrate the potential of our method to
+generate text while controlling style. We find that style-specific datastores
+improve generation performance, though results vary greatly across styles, and
+the effect of pretraining data and specific styles should be explored in future
+work.",2022-10-27
 Categorical SDEs with Simplex Diffusion,2022-10-26 15:27:43+00:00,http://arxiv.org/abs/2210.14784v1,"Pierre H. Richemond, Sander Dieleman, Arnaud Doucet",cs.LG,table2text,"Diffusion models typically operate in the standard framework of generative
 modelling by producing continuously-valued datapoints. To this end, they rely
 on a progressive Gaussian smoothing of the original data distribution, which

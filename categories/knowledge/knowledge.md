@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2022-10-28*
+*written on 2022-11-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Generative Transformers for Design Concept Generation](http://arxiv.org/abs/2211.03468v1) | Qihao Zhu, Jianxi Luo | cs.CL | 2022-11-07 |
+| [CLSE: Corpus of Linguistically Significant Entities](http://arxiv.org/abs/2211.02423v1) | Aleksandr Chuklin, Justin Zhao, Mihir Kale | cs.CL | 2022-11-04 |
+| [Dialect-robust Evaluation of Generated Text](http://arxiv.org/abs/2211.00922v1) | Jiao Sun, Thibault Sellam, Elizabeth Clark, Tu Vu, Timothy Dozat, Dan Garrette, Aditya Siddhant, Jacob Eisenstein, Sebastian Gehrmann | cs.CL | 2022-11-02 |
 | [Seq2Seq-SC: End-to-End Semantic Communication Systems with Pre-trained  Language Model](http://arxiv.org/abs/2210.15237v1) | Ju-Hyung Lee, Dong-Ho Lee, Eunsoo Sheen, Thomas Choi, Jay Pujara, Joongheon Kim | eess.SP, cs.CL | 2022-10-27 |
 | [Contrastive Search Is What You Need For Neural Text Generation](http://arxiv.org/abs/2210.14140v1) | Yixuan Su, Nigel Collier | cs.CL | 2022-10-25 |
 | [Mapping Process for the Task: Wikidata Statements to Text as Wikipedia  Sentences](http://arxiv.org/abs/2210.12659v1) | Hoang Thang Ta, Alexander Gelbukha, Grigori Sidorov | cs.CL, cs.AI | 2022-10-23 |
