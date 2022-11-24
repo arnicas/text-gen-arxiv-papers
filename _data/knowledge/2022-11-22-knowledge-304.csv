@@ -1,4 +1,111 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Retrieval-Augmented Multimodal Language Modeling,2022-11-22 20:26:44+00:00,http://arxiv.org/abs/2211.12561v1,"Michihiro Yasunaga, Armen Aghajanyan, Weijia Shi, Rich James, Jure Leskovec, Percy Liang, Mike Lewis, Luke Zettlemoyer, Wen-tau Yih","cs.CV, cs.CL, cs.LG",knowledge,"Recent multimodal models such as DALL-E and CM3 have achieved remarkable
+progress in text-to-image and image-to-text generation. However, these models
+store all learned knowledge (e.g., the appearance of the Eiffel Tower) in the
+model parameters, requiring increasingly larger models and training data to
+capture more knowledge. To integrate knowledge in a more scalable and modular
+way, we propose a retrieval-augmented multimodal model, which enables a base
+multimodal model (generator) to refer to relevant knowledge fetched by a
+retriever from external memory (e.g., multimodal documents on the web).
+Specifically, we implement a retriever using the pretrained CLIP model and a
+generator using the CM3 Transformer architecture, and train this model using
+the LAION dataset. Our resulting model, named Retrieval-Augmented CM3 (RA-CM3),
+is the first multimodal model that can retrieve and generate mixtures of text
+and images. We show that RA-CM3 significantly outperforms baseline multimodal
+models such as DALL-E and CM3 on both image and caption generation tasks (12
+FID and 17 CIDEr improvements on MS-COCO), while requiring much less compute
+for training (<30% of DALL-E). Moreover, we show that RA-CM3 exhibits novel
+capabilities such as knowledge-intensive image generation and multimodal
+in-context learning.",2022-11-22
+"Towards Computationally Verifiable Semantic Grounding for Language
+  Models",2022-11-16 17:35:52+00:00,http://arxiv.org/abs/2211.09070v1,"Chris Alberti, Kuzman Ganchev, Michael Collins, Sebastian Gehrmann, Ciprian Chelba",cs.CL,knowledge,"The paper presents an approach to semantic grounding of language models (LMs)
+that conceptualizes the LM as a conditional model generating text given a
+desired semantic message formalized as a set of entity-relationship triples. It
+embeds the LM in an auto-encoder by feeding its output to a semantic parser
+whose output is in the same representation domain as the input message.
+Compared to a baseline that generates text using greedy search, we demonstrate
+two techniques that improve the fluency and semantic accuracy of the generated
+text: The first technique samples multiple candidate text sequences from which
+the semantic parser chooses. The second trains the language model while keeping
+the semantic parser frozen to improve the semantic accuracy of the
+auto-encoder. We carry out experiments on the English WebNLG 3.0 data set,
+using BLEU to measure the fluency of generated text and standard parsing
+metrics to measure semantic accuracy. We show that our proposed approaches
+significantly improve on the greedy search baseline. Human evaluation
+corroborates the results of the automatic evaluation experiments.",2022-11-16
+kogito: A Commonsense Knowledge Inference Toolkit,2022-11-15 19:04:13+00:00,http://arxiv.org/abs/2211.08451v1,"Mete Ismayilzada, Antoine Bosselut",cs.CL,knowledge,"In this paper, we present kogito, an open-source tool for generating
+commonsense inferences about situations described in text. kogito provides an
+intuitive and extensible interface to interact with natural language generation
+models that can be used for hypothesizing commonsense knowledge inference from
+a textual input. In particular, kogito offers several features for targeted,
+multi-granularity knowledge generation. These include a standardized API for
+training and evaluating knowledge models, and generating and filtering
+inferences from them. We also include helper functions for converting natural
+language texts into a format ingestible by knowledge models - intermediate
+pipeline stages such as knowledge head extraction from text, heuristic and
+model-based knowledge head-relation matching, and an ability to define and use
+custom knowledge relations. We make the code for kogito available at
+https://github.com/epfl-nlp/kogito along with thorough documentation at
+https://kogito.readthedocs.io.",2022-11-15
+A Survey of Knowledge-Enhanced Pre-trained Language Models,2022-11-11 04:29:02+00:00,http://arxiv.org/abs/2211.05994v3,"Linmei Hu, Zeyi Liu, Ziwang Zhao, Lei Hou, Liqiang Nie, Juanzi Li",cs.CL,knowledge,"Pre-trained Language Models (PLMs) which are trained on large text corpus via
+self-supervised learning method, have yielded promising performance on various
+tasks in Natural Language Processing (NLP). However, though PLMs with huge
+parameters can effectively possess rich knowledge learned from massive training
+text and benefit downstream tasks at the fine-tuning stage, they still have
+some limitations such as poor reasoning ability due to the lack of external
+knowledge. Research has been dedicated to incorporating knowledge into PLMs to
+tackle these issues. In this paper, we present a comprehensive review of
+Knowledge-Enhanced Pre-trained Language Models (KE-PLMs) to provide a clear
+insight into this thriving field. We introduce appropriate taxonomies
+respectively for Natural Language Understanding (NLU) and Natural Language
+Generation (NLG) to highlight these two main tasks of NLP. For NLU, we divide
+the types of knowledge into four categories: linguistic knowledge, text
+knowledge, knowledge graph (KG), and rule knowledge. The KE-PLMs for NLG are
+categorized into KG-based and retrieval-based methods. Finally, we point out
+some promising future directions of KE-PLMs.",2022-11-11
+"CCPrompt: Counterfactual Contrastive Prompt-Tuning for Many-Class
+  Classification",2022-11-11 03:45:59+00:00,http://arxiv.org/abs/2211.05987v1,"Yang Li, Canran Xu, Tao Shen, Jing Jiang, Guodong Long",cs.CL,knowledge,"With the success of the prompt-tuning paradigm in Natural Language Processing
+(NLP), various prompt templates have been proposed to further stimulate
+specific knowledge for serving downstream tasks, e.g., machine translation,
+text generation, relation extraction, and so on. Existing prompt templates are
+mainly shared among all training samples with the information of task
+description. However, training samples are quite diverse. The sharing task
+description is unable to stimulate the unique task-related information in each
+training sample, especially for tasks with the finite-label space. To exploit
+the unique task-related information, we imitate the human decision process
+which aims to find the contrastive attributes between the objective factual and
+their potential counterfactuals. Thus, we propose the \textbf{C}ounterfactual
+\textbf{C}ontrastive \textbf{Prompt}-Tuning (CCPrompt) approach for many-class
+classification, e.g., relation classification, topic classification, and entity
+typing. Compared with simple classification tasks, these tasks have more
+complex finite-label spaces and are more rigorous for prompts. First of all, we
+prune the finite label space to construct fact-counterfactual pairs. Then, we
+exploit the contrastive attributes by projecting training instances onto every
+fact-counterfactual pair. We further set up global prototypes corresponding
+with all contrastive attributes for selecting valid contrastive attributes as
+additional tokens in the prompt template. Finally, a simple Siamese
+representation learning is employed to enhance the robustness of the model. We
+conduct experiments on relation classification, topic classification, and
+entity typing tasks in both fully supervised setting and few-shot setting. The
+results indicate that our model outperforms former baselines.",2022-11-11
+"Measuring Reliability of Large Language Models through Semantic
+  Consistency",2022-11-10 20:21:07+00:00,http://arxiv.org/abs/2211.05853v1,"Harsh Raj, Domenic Rosati, Subhabrata Majumdar","cs.CL, cs.AI, cs.CY",knowledge,"While large pretrained language models (PLMs) demonstrate incredible fluency
+and performance on many natural language tasks, recent work has shown that
+well-performing PLMs are very sensitive to what prompts are feed into them.
+Even when prompts are semantically identical, language models may give very
+different answers. When considering safe and trustworthy deployments of PLMs we
+would like their outputs to be consistent under prompts that mean the same
+thing or convey the same intent. While some work has looked into how
+state-of-the-art PLMs address this need, they have been limited to only
+evaluating lexical equality of single- or multi-word answers and do not address
+consistency of generative text sequences. In order to understand consistency of
+PLMs under text generation settings, we develop a measure of semantic
+consistency that allows the comparison of open-ended text outputs. We implement
+several versions of this consistency metric to evaluate the performance of a
+number of PLMs on paraphrased versions of questions in the TruthfulQA dataset,
+we find that our proposed metrics are considerably more consistent than
+traditional metrics embodying lexical consistency, and also correlate with
+human evaluation of output consistency to a higher degree.",2022-11-10
 Generative Transformers for Design Concept Generation,2022-11-07 11:29:10+00:00,http://arxiv.org/abs/2211.03468v1,"Qihao Zhu, Jianxi Luo",cs.CL,knowledge,"Generating novel and useful concepts is essential during the early design
 stage to explore a large variety of design opportunities, which usually
 requires advanced design thinking ability and a wide range of knowledge from

@@ -7,10 +7,16 @@ sidebar:
 ---
 
 
-*written on 2022-11-13*
+*written on 2022-11-24*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Retrieval-Augmented Multimodal Language Modeling](http://arxiv.org/abs/2211.12561v1) | Michihiro Yasunaga, Armen Aghajanyan, Weijia Shi, Rich James, Jure Leskovec, Percy Liang, Mike Lewis, Luke Zettlemoyer, Wen-tau Yih | cs.CV, cs.CL, cs.LG | 2022-11-22 |
+| [Towards Computationally Verifiable Semantic Grounding for Language  Models](http://arxiv.org/abs/2211.09070v1) | Chris Alberti, Kuzman Ganchev, Michael Collins, Sebastian Gehrmann, Ciprian Chelba | cs.CL | 2022-11-16 |
+| [kogito: A Commonsense Knowledge Inference Toolkit](http://arxiv.org/abs/2211.08451v1) | Mete Ismayilzada, Antoine Bosselut | cs.CL | 2022-11-15 |
+| [A Survey of Knowledge-Enhanced Pre-trained Language Models](http://arxiv.org/abs/2211.05994v3) | Linmei Hu, Zeyi Liu, Ziwang Zhao, Lei Hou, Liqiang Nie, Juanzi Li | cs.CL | 2022-11-11 |
+| [CCPrompt: Counterfactual Contrastive Prompt-Tuning for Many-Class  Classification](http://arxiv.org/abs/2211.05987v1) | Yang Li, Canran Xu, Tao Shen, Jing Jiang, Guodong Long | cs.CL | 2022-11-11 |
+| [Measuring Reliability of Large Language Models through Semantic  Consistency](http://arxiv.org/abs/2211.05853v1) | Harsh Raj, Domenic Rosati, Subhabrata Majumdar | cs.CL, cs.AI, cs.CY | 2022-11-10 |
 | [Generative Transformers for Design Concept Generation](http://arxiv.org/abs/2211.03468v1) | Qihao Zhu, Jianxi Luo | cs.CL | 2022-11-07 |
 | [CLSE: Corpus of Linguistically Significant Entities](http://arxiv.org/abs/2211.02423v1) | Aleksandr Chuklin, Justin Zhao, Mihir Kale | cs.CL | 2022-11-04 |
 | [Dialect-robust Evaluation of Generated Text](http://arxiv.org/abs/2211.00922v1) | Jiao Sun, Thibault Sellam, Elizabeth Clark, Tu Vu, Timothy Dozat, Dan Garrette, Aditya Siddhant, Jacob Eisenstein, Sebastian Gehrmann | cs.CL | 2022-11-02 |

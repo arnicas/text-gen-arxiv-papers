@@ -1,4 +1,142 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Retrieval-Augmented Multimodal Language Modeling,2022-11-22 20:26:44+00:00,http://arxiv.org/abs/2211.12561v1,"Michihiro Yasunaga, Armen Aghajanyan, Weijia Shi, Rich James, Jure Leskovec, Percy Liang, Mike Lewis, Luke Zettlemoyer, Wen-tau Yih","cs.CV, cs.CL, cs.LG",table2text,"Recent multimodal models such as DALL-E and CM3 have achieved remarkable
+progress in text-to-image and image-to-text generation. However, these models
+store all learned knowledge (e.g., the appearance of the Eiffel Tower) in the
+model parameters, requiring increasingly larger models and training data to
+capture more knowledge. To integrate knowledge in a more scalable and modular
+way, we propose a retrieval-augmented multimodal model, which enables a base
+multimodal model (generator) to refer to relevant knowledge fetched by a
+retriever from external memory (e.g., multimodal documents on the web).
+Specifically, we implement a retriever using the pretrained CLIP model and a
+generator using the CM3 Transformer architecture, and train this model using
+the LAION dataset. Our resulting model, named Retrieval-Augmented CM3 (RA-CM3),
+is the first multimodal model that can retrieve and generate mixtures of text
+and images. We show that RA-CM3 significantly outperforms baseline multimodal
+models such as DALL-E and CM3 on both image and caption generation tasks (12
+FID and 17 CIDEr improvements on MS-COCO), while requiring much less compute
+for training (<30% of DALL-E). Moreover, we show that RA-CM3 exhibits novel
+capabilities such as knowledge-intensive image generation and multimodal
+in-context learning.",2022-11-22
+"How to Describe Images in a More Funny Way? Towards a Modular Approach
+  to Cross-Modal Sarcasm Generation",2022-11-20 14:38:24+00:00,http://arxiv.org/abs/2211.10992v1,"Jie Ruan, Yue Wu, Xiaojun Wan, Yuesheng Zhu","cs.CV, cs.CL",table2text,"Sarcasm generation has been investigated in previous studies by considering
+it as a text-to-text generation problem, i.e., generating a sarcastic sentence
+for an input sentence. In this paper, we study a new problem of cross-modal
+sarcasm generation (CMSG), i.e., generating a sarcastic description for a given
+image. CMSG is challenging as models need to satisfy the characteristics of
+sarcasm, as well as the correlation between different modalities. In addition,
+there should be some inconsistency between the two modalities, which requires
+imagination. Moreover, high-quality training data is insufficient. To address
+these problems, we take a step toward generating sarcastic descriptions from
+images without paired training data and propose an
+Extraction-Generation-Ranking based Modular method (EGRM) for cross-model
+sarcasm generation. Specifically, EGRM first extracts diverse information from
+an image at different levels and uses the obtained image tags, sentimental
+descriptive caption, and commonsense-based consequence to generate candidate
+sarcastic texts. Then, a comprehensive ranking algorithm, which considers
+image-text relation, sarcasticness, and grammaticality, is proposed to select a
+final text from the candidate texts. Human evaluation at five criteria on a
+total of 1200 generated image-text pairs from eight systems and auxiliary
+automatic evaluation show the superiority of our method.",2022-11-20
+"GENIUS: Sketch-based Language Model Pre-training via Extreme and
+  Selective Masking for Text Generation and Augmentation",2022-11-18 16:39:45+00:00,http://arxiv.org/abs/2211.10330v1,"Biyang Guo, Yeyun Gong, Yelong Shen, Songqiao Han, Hailiang Huang, Nan Duan, Weizhu Chen",cs.CL,table2text,"We introduce GENIUS: a conditional text generation model using sketches as
+input, which can fill in the missing contexts for a given sketch (key
+information consisting of textual spans, phrases, or words, concatenated by
+mask tokens). GENIUS is pre-trained on a large-scale textual corpus with a
+novel reconstruction from sketch objective using an extreme and selective
+masking strategy, enabling it to generate diverse and high-quality texts given
+sketches. Comparison with other competitive conditional language models (CLMs)
+reveals the superiority of GENIUS's text generation quality. We further show
+that GENIUS can be used as a strong and ready-to-use data augmentation tool for
+various natural language processing (NLP) tasks. Most existing textual data
+augmentation methods are either too conservative, by making small changes to
+the original text, or too aggressive, by creating entirely new samples. With
+GENIUS, we propose GeniusAug, which first extracts the target-aware sketches
+from the original training set and then generates new samples based on the
+sketches. Empirical experiments on 6 text classification datasets show that
+GeniusAug significantly improves the models' performance in both
+in-distribution (ID) and out-of-distribution (OOD) settings. We also
+demonstrate the effectiveness of GeniusAug on named entity recognition (NER)
+and machine reading comprehension (MRC) tasks. (Code and models are publicly
+available at https://github.com/microsoft/SCGLab and
+https://github.com/beyondguo/genius)",2022-11-18
+"Towards Computationally Verifiable Semantic Grounding for Language
+  Models",2022-11-16 17:35:52+00:00,http://arxiv.org/abs/2211.09070v1,"Chris Alberti, Kuzman Ganchev, Michael Collins, Sebastian Gehrmann, Ciprian Chelba",cs.CL,table2text,"The paper presents an approach to semantic grounding of language models (LMs)
+that conceptualizes the LM as a conditional model generating text given a
+desired semantic message formalized as a set of entity-relationship triples. It
+embeds the LM in an auto-encoder by feeding its output to a semantic parser
+whose output is in the same representation domain as the input message.
+Compared to a baseline that generates text using greedy search, we demonstrate
+two techniques that improve the fluency and semantic accuracy of the generated
+text: The first technique samples multiple candidate text sequences from which
+the semantic parser chooses. The second trains the language model while keeping
+the semantic parser frozen to improve the semantic accuracy of the
+auto-encoder. We carry out experiments on the English WebNLG 3.0 data set,
+using BLEU to measure the fluency of generated text and standard parsing
+metrics to measure semantic accuracy. We show that our proposed approaches
+significantly improve on the greedy search baseline. Human evaluation
+corroborates the results of the automatic evaluation experiments.",2022-11-16
+Reward Gaming in Conditional Text Generation,2022-11-16 07:10:02+00:00,http://arxiv.org/abs/2211.08714v1,"Richard Yuanzhe Pang, Vishakh Padmakumar, Thibault Sellam, Ankur P. Parikh, He He","cs.CL, cs.AI, cs.LG",table2text,"To align conditional text generation model outputs with desired behaviors,
+there has been an increasing focus on training the model using reinforcement
+learning (RL) with reward functions learned from human annotations. Under this
+framework, we identify three common cases where high rewards are incorrectly
+assigned to undesirable patterns: noise-induced spurious correlation, naturally
+occurring spurious correlation, and covariate shift. We show that even though
+learned metrics achieve high performance on the distribution of the data used
+to train the reward function, the undesirable patterns may be amplified during
+RL training of the text generation model. While there has been discussion about
+reward gaming in the RL or safety community, in this short discussion piece, we
+would like to highlight reward gaming in the NLG community using concrete
+conditional text generation examples and discuss potential fixes and areas for
+future work.",2022-11-16
+"Follow the Wisdom of the Crowd: Effective Text Generation via Minimum
+  Bayes Risk Decoding",2022-11-14 18:57:37+00:00,http://arxiv.org/abs/2211.07634v1,"Mirac Suzgun, Luke Melas-Kyriazi, Dan Jurafsky","cs.CL, cs.LG",table2text,"In open-ended natural-language generation, existing text decoding methods
+typically struggle to produce text which is both diverse and high-quality.
+Greedy and beam search are known to suffer from text degeneration and
+linguistic diversity issues, while temperature, top-k, and nucleus sampling
+often yield diverse but low-quality outputs. In this work, we present crowd
+sampling, a family of decoding methods based on Bayesian risk minimization, to
+address this diversity-quality trade-off. Inspired by the principle of ""the
+wisdom of the crowd,"" crowd sampling seeks to select a candidate from a pool of
+candidates that has the least expected risk (i.e., highest expected reward)
+under a generative model according to a given utility function. Crowd sampling
+can be seen as a generalization of numerous existing methods, including
+majority voting, and in practice, it can be used as a drop-in replacement for
+existing sampling methods. Extensive experiments show that crowd sampling
+delivers improvements of 3-7 ROUGE and BLEU points across a wide range of
+tasks, including summarization, data-to-text, translation, and textual style
+transfer, while achieving new state-of-the-art results on WebNLG and WMT'16.",2022-11-14
+"Evade the Trap of Mediocrity: Promoting Diversity and Novelty in Text
+  Generation via Concentrating Attention",2022-11-14 07:53:16+00:00,http://arxiv.org/abs/2211.07164v1,"Wenhao Li, Xiaoyuan Yi, Jinyi Hu, Maosong Sun, Xing Xie",cs.CL,table2text,"Recently, powerful Transformer architectures have proven superior in
+generating high-quality sentences. Nevertheless, these models tend to produce
+dull high-frequency phrases, severely hurting the diversity and novelty of
+generated text. In this work, we dig into the intrinsic mechanism of this
+problem and found that sparser attention values in Transformer could improve
+diversity. To understand such a phenomenon, we first conduct both empirical and
+theoretical analysis and then attribute it to representation degeneration
+caused by the attentive mixture of the hidden states during training. We term
+this process the Trap of Mediocrity. To escape from such a trap, we introduce a
+novel attention regularization loss to control the sharpness of the attention
+distribution, which is transparent to model structures and can be easily
+implemented within 20 lines of python code. We prove that this method could be
+mathematically regarded as learning a Bayesian approximation of posterior
+attention. Experiments show that our method improved the diversity and novelty
+of the generated text while maintaining comparable quality on a variety of
+conditional and unconditional generation tasks.",2022-11-14
+Controllable Citation Text Generation,2022-11-14 01:54:08+00:00,http://arxiv.org/abs/2211.07066v1,"Nianlong Gu, Richard H. R. Hahnloser",cs.CL,table2text,"The aim of citation generation is usually to automatically generate a
+citation sentence that refers to a chosen paper in the context of a manuscript.
+However, a rigid citation generation process is at odds with an author's desire
+to control the generated text based on certain attributes, such as 1) the
+citation intent of e.g. either introducing background information or comparing
+results; 2) keywords that should appear in the citation text; or 3) specific
+sentences in the cited paper that characterize the citation content. To provide
+these degrees of freedom, we present a controllable citation generation system.
+In data from a large corpus, we first parse the attributes of each citation
+sentence and use these as additional input sources during training of the
+BART-based abstractive summarizer. We further develop an attribute suggestion
+module that infers the citation intent and suggests relevant keywords and
+sentences that users can select to tune the generation. Our framework gives
+users more control over generated citations, outperforming citation generation
+models without attribute awareness in both ROUGE and human evaluations.",2022-11-14
 Self-conditioned Embedding Diffusion for Text Generation,2022-11-08 13:30:27+00:00,http://arxiv.org/abs/2211.04236v1,"Robin Strudel, Corentin Tallec, Florent Altché, Yilun Du, Yaroslav Ganin, Arthur Mensch, Will Grathwohl, Nikolay Savinov, Sander Dieleman, Laurent Sifre, Rémi Leblond","cs.CL, cs.LG",table2text,"Can continuous diffusion models bring the same performance breakthrough on
 natural language they did for image generation? To circumvent the discrete
 nature of text data, we can simply project tokens in a continuous space of

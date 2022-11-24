@@ -7,10 +7,16 @@ sidebar:
 ---
 
 
-*written on 2022-11-13*
+*written on 2022-11-24*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Retrieval-Augmented Multimodal Language Modeling](http://arxiv.org/abs/2211.12561v1) | Michihiro Yasunaga, Armen Aghajanyan, Weijia Shi, Rich James, Jure Leskovec, Percy Liang, Mike Lewis, Luke Zettlemoyer, Wen-tau Yih | cs.CV, cs.CL, cs.LG | 2022-11-22 |
+| [Aligning Source Visual and Target Language Domains for Unpaired Video  Captioning](http://arxiv.org/abs/2211.12148v1) | Fenglin Liu, Xian Wu, Chenyu You, Shen Ge, Yuexian Zou, Xu Sun | cs.CV, cs.LG | 2022-11-22 |
+| [How to Describe Images in a More Funny Way? Towards a Modular Approach  to Cross-Modal Sarcasm Generation](http://arxiv.org/abs/2211.10992v1) | Jie Ruan, Yue Wu, Xiaojun Wan, Yuesheng Zhu | cs.CV, cs.CL | 2022-11-20 |
+| [Feedback is Needed for Retakes: An Explainable Poor Image Notification  Framework for the Visually Impaired](http://arxiv.org/abs/2211.09427v1) | Kazuya Ohata, Shunsuke Kitada, Hitoshi Iyatomi | cs.CV, cs.AI, cs.CL, cs.HC, cs.LG | 2022-11-17 |
+| [PromptCap: Prompt-Guided Task-Aware Image Captioning](http://arxiv.org/abs/2211.09699v1) | Yushi Hu, Hang Hua, Zhengyuan Yang, Weijia Shi, Noah A. Smith, Jiebo Luo | cs.CV, cs.CL | 2022-11-15 |
+| [CCPrompt: Counterfactual Contrastive Prompt-Tuning for Many-Class  Classification](http://arxiv.org/abs/2211.05987v1) | Yang Li, Canran Xu, Tao Shen, Jing Jiang, Guodong Long | cs.CL | 2022-11-11 |
 | [Self-conditioned Embedding Diffusion for Text Generation](http://arxiv.org/abs/2211.04236v1) | Robin Strudel, Corentin Tallec, Florent Altché, Yilun Du, Yaroslav Ganin, Arthur Mensch, Will Grathwohl, Nikolay Savinov, Sander Dieleman, Laurent Sifre, Rémi Leblond | cs.CL, cs.LG | 2022-11-08 |
 | [Semantic Metadata Extraction from Dense Video Captioning](http://arxiv.org/abs/2211.02982v1) | Johannes Scherer, Ansgar Scherp, Deepayan Bhowmik | cs.CV, cs.CL | 2022-11-05 |
 | [eDiff-I: Text-to-Image Diffusion Models with an Ensemble of Expert  Denoisers](http://arxiv.org/abs/2211.01324v3) | Yogesh Balaji, Seungjun Nah, Xun Huang, Arash Vahdat, Jiaming Song, Karsten Kreis, Miika Aittala, Timo Aila, Samuli Laine, Bryan Catanzaro, Tero Karras, Ming-Yu Liu | cs.CV, cs.LG | 2022-11-02 |

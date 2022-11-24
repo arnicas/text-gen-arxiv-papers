@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2022-11-13*
+*written on 2022-11-24*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Reward Gaming in Conditional Text Generation](http://arxiv.org/abs/2211.08714v1) | Richard Yuanzhe Pang, Vishakh Padmakumar, Thibault Sellam, Ankur P. Parikh, He He | cs.CL, cs.AI, cs.LG | 2022-11-16 |
 | [CLSE: Corpus of Linguistically Significant Entities](http://arxiv.org/abs/2211.02423v1) | Aleksandr Chuklin, Justin Zhao, Mihir Kale | cs.CL | 2022-11-04 |
 | [Are Current Decoding Strategies Capable of Facing the Challenges of  Visual Dialogue?](http://arxiv.org/abs/2210.12997v1) | Amit Kumar Chaudhary, Alex J. Lucassen, Ioanna Tsani, Alberto Testoni | cs.CL, cs.CV | 2022-10-24 |
 | [Towards Pragmatic Production Strategies for Natural Language Generation  Tasks](http://arxiv.org/abs/2210.12828v1) | Mario Giulianelli | cs.CL, cs.AI | 2022-10-23 |

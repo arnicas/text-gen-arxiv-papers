@@ -1,4 +1,129 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Retrieval-Augmented Multimodal Language Modeling,2022-11-22 20:26:44+00:00,http://arxiv.org/abs/2211.12561v1,"Michihiro Yasunaga, Armen Aghajanyan, Weijia Shi, Rich James, Jure Leskovec, Percy Liang, Mike Lewis, Luke Zettlemoyer, Wen-tau Yih","cs.CV, cs.CL, cs.LG",image2text,"Recent multimodal models such as DALL-E and CM3 have achieved remarkable
+progress in text-to-image and image-to-text generation. However, these models
+store all learned knowledge (e.g., the appearance of the Eiffel Tower) in the
+model parameters, requiring increasingly larger models and training data to
+capture more knowledge. To integrate knowledge in a more scalable and modular
+way, we propose a retrieval-augmented multimodal model, which enables a base
+multimodal model (generator) to refer to relevant knowledge fetched by a
+retriever from external memory (e.g., multimodal documents on the web).
+Specifically, we implement a retriever using the pretrained CLIP model and a
+generator using the CM3 Transformer architecture, and train this model using
+the LAION dataset. Our resulting model, named Retrieval-Augmented CM3 (RA-CM3),
+is the first multimodal model that can retrieve and generate mixtures of text
+and images. We show that RA-CM3 significantly outperforms baseline multimodal
+models such as DALL-E and CM3 on both image and caption generation tasks (12
+FID and 17 CIDEr improvements on MS-COCO), while requiring much less compute
+for training (<30% of DALL-E). Moreover, we show that RA-CM3 exhibits novel
+capabilities such as knowledge-intensive image generation and multimodal
+in-context learning.",2022-11-22
+"Aligning Source Visual and Target Language Domains for Unpaired Video
+  Captioning",2022-11-22 10:26:26+00:00,http://arxiv.org/abs/2211.12148v1,"Fenglin Liu, Xian Wu, Chenyu You, Shen Ge, Yuexian Zou, Xu Sun","cs.CV, cs.LG",image2text,"Training supervised video captioning model requires coupled video-caption
+pairs. However, for many targeted languages, sufficient paired data are not
+available. To this end, we introduce the unpaired video captioning task aiming
+to train models without coupled video-caption pairs in target language. To
+solve the task, a natural choice is to employ a two-step pipeline system: first
+utilizing video-to-pivot captioning model to generate captions in pivot
+language and then utilizing pivot-to-target translation model to translate the
+pivot captions to the target language. However, in such a pipeline system, 1)
+visual information cannot reach the translation model, generating visual
+irrelevant target captions; 2) the errors in the generated pivot captions will
+be propagated to the translation model, resulting in disfluent target captions.
+To address these problems, we propose the Unpaired Video Captioning with Visual
+Injection system (UVC-VI). UVC-VI first introduces the Visual Injection Module
+(VIM), which aligns source visual and target language domains to inject the
+source visual information into the target language domain. Meanwhile, VIM
+directly connects the encoder of the video-to-pivot model and the decoder of
+the pivot-to-target model, allowing end-to-end inference by completely skipping
+the generation of pivot captions. To enhance the cross-modality injection of
+the VIM, UVC-VI further introduces a pluggable video encoder, i.e., Multimodal
+Collaborative Encoder (MCE). The experiments show that UVC-VI outperforms
+pipeline systems and exceeds several supervised systems. Furthermore, equipping
+existing supervised systems with our MCE can achieve 4% and 7% relative margins
+on the CIDEr scores to current state-of-the-art models on the benchmark MSVD
+and MSR-VTT datasets, respectively.",2022-11-22
+"How to Describe Images in a More Funny Way? Towards a Modular Approach
+  to Cross-Modal Sarcasm Generation",2022-11-20 14:38:24+00:00,http://arxiv.org/abs/2211.10992v1,"Jie Ruan, Yue Wu, Xiaojun Wan, Yuesheng Zhu","cs.CV, cs.CL",image2text,"Sarcasm generation has been investigated in previous studies by considering
+it as a text-to-text generation problem, i.e., generating a sarcastic sentence
+for an input sentence. In this paper, we study a new problem of cross-modal
+sarcasm generation (CMSG), i.e., generating a sarcastic description for a given
+image. CMSG is challenging as models need to satisfy the characteristics of
+sarcasm, as well as the correlation between different modalities. In addition,
+there should be some inconsistency between the two modalities, which requires
+imagination. Moreover, high-quality training data is insufficient. To address
+these problems, we take a step toward generating sarcastic descriptions from
+images without paired training data and propose an
+Extraction-Generation-Ranking based Modular method (EGRM) for cross-model
+sarcasm generation. Specifically, EGRM first extracts diverse information from
+an image at different levels and uses the obtained image tags, sentimental
+descriptive caption, and commonsense-based consequence to generate candidate
+sarcastic texts. Then, a comprehensive ranking algorithm, which considers
+image-text relation, sarcasticness, and grammaticality, is proposed to select a
+final text from the candidate texts. Human evaluation at five criteria on a
+total of 1200 generated image-text pairs from eight systems and auxiliary
+automatic evaluation show the superiority of our method.",2022-11-20
+"Feedback is Needed for Retakes: An Explainable Poor Image Notification
+  Framework for the Visually Impaired",2022-11-17 09:22:28+00:00,http://arxiv.org/abs/2211.09427v1,"Kazuya Ohata, Shunsuke Kitada, Hitoshi Iyatomi","cs.CV, cs.AI, cs.CL, cs.HC, cs.LG",image2text,"We propose a simple yet effective image captioning framework that can
+determine the quality of an image and notify the user of the reasons for any
+flaws in the image. Our framework first determines the quality of images and
+then generates captions using only those images that are determined to be of
+high quality. The user is notified by the flaws feature to retake if image
+quality is low, and this cycle is repeated until the input image is deemed to
+be of high quality. As a component of the framework, we trained and evaluated a
+low-quality image detection model that simultaneously learns difficulty in
+recognizing images and individual flaws, and we demonstrated that our proposal
+can explain the reasons for flaws with a sufficient score. We also evaluated a
+dataset with low-quality images removed by our framework and found improved
+values for all four common metrics (e.g., BLEU-4, METEOR, ROUGE-L, CIDEr),
+confirming an improvement in general-purpose image captioning capability. Our
+framework would assist the visually impaired, who have difficulty judging image
+quality.",2022-11-17
+PromptCap: Prompt-Guided Task-Aware Image Captioning,2022-11-15 19:07:53+00:00,http://arxiv.org/abs/2211.09699v1,"Yushi Hu, Hang Hua, Zhengyuan Yang, Weijia Shi, Noah A. Smith, Jiebo Luo","cs.CV, cs.CL",image2text,"Image captioning aims to describe an image with a natural language sentence,
+allowing powerful language models to understand images. The framework of
+combining image captioning with language models has been successful on various
+vision-language tasks. However, an image contains much more information than a
+single sentence, leading to underspecification of which visual entities should
+be described in the caption sentence. For example, when performing visual
+questioning answering (VQA), generic image captions often miss visual details
+that are essential for the language model to answer correctly. To address this
+challenge, we propose PromptCap, a captioning model that takes a
+natural-language prompt to control the contents of the generated caption. The
+prompt contains a question that the caption should help to answer, and also
+supports taking auxiliary text inputs such as scene text within the image
+itself. To finetune a general image caption model for prompt-guided captioning,
+we propose a pipeline to synthesize and filter training examples with GPT-3 and
+existing VQA datasets. For evaluation, we start with an existing pipeline in
+which a language model is prompted with image captions to carry out VQA. With
+the same language model, a higher QA accuracy shows that our generated captions
+are more relevant to the question prompts. PromptCap outperforms generic
+captions by a large margin on a variety of VQA tasks and achieves the
+state-of-the-art accuracy of 58.8 % on OK-VQA and 58.0 % on A-OKVQA. Zero-shot
+experiments on WebQA show that PromptCap generalizes well to unseen domains.",2022-11-15
+"CCPrompt: Counterfactual Contrastive Prompt-Tuning for Many-Class
+  Classification",2022-11-11 03:45:59+00:00,http://arxiv.org/abs/2211.05987v1,"Yang Li, Canran Xu, Tao Shen, Jing Jiang, Guodong Long",cs.CL,image2text,"With the success of the prompt-tuning paradigm in Natural Language Processing
+(NLP), various prompt templates have been proposed to further stimulate
+specific knowledge for serving downstream tasks, e.g., machine translation,
+text generation, relation extraction, and so on. Existing prompt templates are
+mainly shared among all training samples with the information of task
+description. However, training samples are quite diverse. The sharing task
+description is unable to stimulate the unique task-related information in each
+training sample, especially for tasks with the finite-label space. To exploit
+the unique task-related information, we imitate the human decision process
+which aims to find the contrastive attributes between the objective factual and
+their potential counterfactuals. Thus, we propose the \textbf{C}ounterfactual
+\textbf{C}ontrastive \textbf{Prompt}-Tuning (CCPrompt) approach for many-class
+classification, e.g., relation classification, topic classification, and entity
+typing. Compared with simple classification tasks, these tasks have more
+complex finite-label spaces and are more rigorous for prompts. First of all, we
+prune the finite label space to construct fact-counterfactual pairs. Then, we
+exploit the contrastive attributes by projecting training instances onto every
+fact-counterfactual pair. We further set up global prototypes corresponding
+with all contrastive attributes for selecting valid contrastive attributes as
+additional tokens in the prompt template. Finally, a simple Siamese
+representation learning is employed to enhance the robustness of the model. We
+conduct experiments on relation classification, topic classification, and
+entity typing tasks in both fully supervised setting and few-shot setting. The
+results indicate that our model outperforms former baselines.",2022-11-11
 Self-conditioned Embedding Diffusion for Text Generation,2022-11-08 13:30:27+00:00,http://arxiv.org/abs/2211.04236v1,"Robin Strudel, Corentin Tallec, Florent Altché, Yilun Du, Yaroslav Ganin, Arthur Mensch, Will Grathwohl, Nikolay Savinov, Sander Dieleman, Laurent Sifre, Rémi Leblond","cs.CL, cs.LG",image2text,"Can continuous diffusion models bring the same performance breakthrough on
 natural language they did for image generation? To circumvent the discrete
 nature of text data, we can simply project tokens in a continuous space of
