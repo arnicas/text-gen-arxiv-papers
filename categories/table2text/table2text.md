@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2022-11-24*
+*written on 2022-12-05*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Controlled Language Generation for Language Learning Items](http://arxiv.org/abs/2211.15731v1) | Kevin Stowe, Debanjan Ghosh, Mengxuan Zhao | cs.CL, I.2.7 | 2022-11-28 |
+| [CodeExp: Explanatory Code Document Generation](http://arxiv.org/abs/2211.15395v1) | Haotian Cui, Chenglong Wang, Junjie Huang, Jeevana Priya Inala, Todd Mytkowicz, Bo Wang, Jianfeng Gao, Nan Duan | cs.CL, cs.LG, I.2.2; I.2.7 | 2022-11-25 |
+| [MUSIED: A Benchmark for Event Detection from Multi-Source Heterogeneous  Informal Texts](http://arxiv.org/abs/2211.13896v1) | Xiangyu Xi, Jianwei Lv, Shuaipeng Liu, Wei Ye, Fan Yang, Guanglu Wan | cs.CL | 2022-11-25 |
 | [Retrieval-Augmented Multimodal Language Modeling](http://arxiv.org/abs/2211.12561v1) | Michihiro Yasunaga, Armen Aghajanyan, Weijia Shi, Rich James, Jure Leskovec, Percy Liang, Mike Lewis, Luke Zettlemoyer, Wen-tau Yih | cs.CV, cs.CL, cs.LG | 2022-11-22 |
 | [How to Describe Images in a More Funny Way? Towards a Modular Approach  to Cross-Modal Sarcasm Generation](http://arxiv.org/abs/2211.10992v1) | Jie Ruan, Yue Wu, Xiaojun Wan, Yuesheng Zhu | cs.CV, cs.CL | 2022-11-20 |
 | [GENIUS: Sketch-based Language Model Pre-training via Extreme and  Selective Masking for Text Generation and Augmentation](http://arxiv.org/abs/2211.10330v1) | Biyang Guo, Yeyun Gong, Yelong Shen, Songqiao Han, Hailiang Huang, Nan Duan, Weizhu Chen | cs.CL | 2022-11-18 |

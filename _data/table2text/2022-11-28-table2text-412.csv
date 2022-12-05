@@ -1,4 +1,54 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Controlled Language Generation for Language Learning Items,2022-11-28 19:28:12+00:00,http://arxiv.org/abs/2211.15731v1,"Kevin Stowe, Debanjan Ghosh, Mengxuan Zhao","cs.CL, I.2.7",table2text,"This work aims to employ natural language generation (NLG) to rapidly
+generate items for English language learning applications: this requires both
+language models capable of generating fluent, high-quality English, and to
+control the output of the generation to match the requirements of the relevant
+items. We experiment with deep pretrained models for this task, developing
+novel methods for controlling items for factors relevant in language learning:
+diverse sentences for different proficiency levels and argument structure to
+test grammar. Human evaluation demonstrates high grammatically scores for all
+models (3.4 and above out of 4), and higher length (24%) and complexity (9%)
+over the baseline for the advanced proficiency model. Our results show that we
+can achieve strong performance while adding additional control to ensure
+diverse, tailored content for individual users.",2022-11-28
+CodeExp: Explanatory Code Document Generation,2022-11-25 18:05:44+00:00,http://arxiv.org/abs/2211.15395v1,"Haotian Cui, Chenglong Wang, Junjie Huang, Jeevana Priya Inala, Todd Mytkowicz, Bo Wang, Jianfeng Gao, Nan Duan","cs.CL, cs.LG, I.2.2; I.2.7",table2text,"Developing models that can automatically generate detailed code explanation
+can greatly benefit software maintenance and programming education. However,
+existing code-to-text generation models often produce only high-level summaries
+of code that do not capture implementation-level choices essential for these
+scenarios. To fill in this gap, we propose the code explanation generation
+task. We first conducted a human study to identify the criteria for
+high-quality explanatory docstring for code. Based on that, we collected and
+refined a large-scale code docstring corpus and formulated automatic evaluation
+metrics that best match human assessments. Finally, we present a multi-stage
+fine-tuning strategy and baseline models for the task. Our experiments show
+that (1) our refined training dataset lets models achieve better performance in
+the explanation generation tasks compared to larger unrefined data (15x
+larger), and (2) fine-tuned models can generate well-structured long docstrings
+comparable to human-written ones. We envision our training dataset,
+human-evaluation protocol, recommended metrics, and fine-tuning strategy can
+boost future code explanation research. The code and annotated data are
+available at https://github.com/subercui/CodeExp.",2022-11-25
+"MUSIED: A Benchmark for Event Detection from Multi-Source Heterogeneous
+  Informal Texts",2022-11-25 05:05:29+00:00,http://arxiv.org/abs/2211.13896v1,"Xiangyu Xi, Jianwei Lv, Shuaipeng Liu, Wei Ye, Fan Yang, Guanglu Wan",cs.CL,table2text,"Event detection (ED) identifies and classifies event triggers from
+unstructured texts, serving as a fundamental task for information extraction.
+Despite the remarkable progress achieved in the past several years, most
+research efforts focus on detecting events from formal texts (e.g., news
+articles, Wikipedia documents, financial announcements). Moreover, the texts in
+each dataset are either from a single source or multiple yet relatively
+homogeneous sources. With massive amounts of user-generated text accumulating
+on the Web and inside enterprises, identifying meaningful events in these
+informal texts, usually from multiple heterogeneous sources, has become a
+problem of significant practical value. As a pioneering exploration that
+expands event detection to the scenarios involving informal and heterogeneous
+texts, we propose a new large-scale Chinese event detection dataset based on
+user reviews, text conversations, and phone conversations in a leading
+e-commerce platform for food service. We carefully investigate the proposed
+dataset's textual informality and multi-source heterogeneity characteristics by
+inspecting data samples quantitatively and qualitatively. Extensive experiments
+with state-of-the-art event detection methods verify the unique challenges
+posed by these characteristics, indicating that multi-source informal event
+detection remains an open problem and requires further efforts. Our benchmark
+and code are released at \url{https://github.com/myeclipse/MUSIED}.",2022-11-25
 Retrieval-Augmented Multimodal Language Modeling,2022-11-22 20:26:44+00:00,http://arxiv.org/abs/2211.12561v1,"Michihiro Yasunaga, Armen Aghajanyan, Weijia Shi, Rich James, Jure Leskovec, Percy Liang, Mike Lewis, Luke Zettlemoyer, Wen-tau Yih","cs.CV, cs.CL, cs.LG",table2text,"Recent multimodal models such as DALL-E and CM3 have achieved remarkable
 progress in text-to-image and image-to-text generation. However, these models
 store all learned knowledge (e.g., the appearance of the Eiffel Tower) in the

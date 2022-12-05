@@ -1,4 +1,49 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+3D-TOGO: Towards Text-Guided Cross-Category 3D Object Generation,2022-12-02 11:31:49+00:00,http://arxiv.org/abs/2212.01103v1,"Zutao Jiang, Guangsong Lu, Xiaodan Liang, Jihua Zhu, Wei Zhang, Xiaojun Chang, Hang Xu","cs.CV, cs.AI",image2text,"Text-guided 3D object generation aims to generate 3D objects described by
+user-defined captions, which paves a flexible way to visualize what we
+imagined. Although some works have been devoted to solving this challenging
+task, these works either utilize some explicit 3D representations (e.g., mesh),
+which lack texture and require post-processing for rendering photo-realistic
+views; or require individual time-consuming optimization for every single case.
+Here, we make the first attempt to achieve generic text-guided cross-category
+3D object generation via a new 3D-TOGO model, which integrates a text-to-views
+generation module and a views-to-3D generation module. The text-to-views
+generation module is designed to generate different views of the target 3D
+object given an input caption. prior-guidance, caption-guidance and view
+contrastive learning are proposed for achieving better view-consistency and
+caption similarity. Meanwhile, a pixelNeRF model is adopted for the views-to-3D
+generation module to obtain the implicit 3D neural representation from the
+previously-generated views. Our 3D-TOGO model generates 3D objects in the form
+of the neural radiance field with good texture and requires no time-cost
+optimization for every single caption. Besides, 3D-TOGO can control the
+category, color and shape of generated 3D objects with the input caption.
+Extensive experiments on the largest 3D object dataset (i.e., ABO) are
+conducted to verify that 3D-TOGO can better generate high-quality 3D objects
+according to the input captions across 98 different categories, in terms of
+PSNR, SSIM, LPIPS and CLIP-score, compared with text-NeRF and Dreamfields.",2022-12-02
+"On the Importance of Image Encoding in Automated Chest X-Ray Report
+  Generation",2022-11-24 08:02:52+00:00,http://arxiv.org/abs/2211.13465v1,"Otabek Nazarov, Mohammad Yaqub, Karthik Nandakumar","cs.CV, cs.AI",image2text,"Chest X-ray is one of the most popular medical imaging modalities due to its
+accessibility and effectiveness. However, there is a chronic shortage of
+well-trained radiologists who can interpret these images and diagnose the
+patient's condition. Therefore, automated radiology report generation can be a
+very helpful tool in clinical practice. A typical report generation workflow
+consists of two main steps: (i) encoding the image into a latent space and (ii)
+generating the text of the report based on the latent image embedding. Many
+existing report generation techniques use a standard convolutional neural
+network (CNN) architecture for image encoding followed by a Transformer-based
+decoder for medical text generation. In most cases, CNN and the decoder are
+trained jointly in an end-to-end fashion. In this work, we primarily focus on
+understanding the relative importance of encoder and decoder components.
+Towards this end, we analyze four different image encoding approaches: direct,
+fine-grained, CLIP-based, and Cluster-CLIP-based encodings in conjunction with
+three different decoders on the large-scale MIMIC-CXR dataset. Among these
+encoders, the cluster CLIP visual encoder is a novel approach that aims to
+generate more discriminative and explainable representations. CLIP-based
+encoders produce comparable results to traditional CNN-based encoders in terms
+of NLP metrics, while fine-grained encoding outperforms all other encoders both
+in terms of NLP and clinical accuracy metrics, thereby validating the
+importance of image encoder to effectively extract semantic information. GitHub
+repository: https://github.com/mudabek/encoding-cxr-report-gen",2022-11-24
 Retrieval-Augmented Multimodal Language Modeling,2022-11-22 20:26:44+00:00,http://arxiv.org/abs/2211.12561v1,"Michihiro Yasunaga, Armen Aghajanyan, Weijia Shi, Rich James, Jure Leskovec, Percy Liang, Mike Lewis, Luke Zettlemoyer, Wen-tau Yih","cs.CV, cs.CL, cs.LG",image2text,"Recent multimodal models such as DALL-E and CM3 have achieved remarkable
 progress in text-to-image and image-to-text generation. However, these models
 store all learned knowledge (e.g., the appearance of the Eiffel Tower) in the

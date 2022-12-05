@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2022-11-13*
+*written on 2022-12-05*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [ConvLab-3: A Flexible Dialogue System Toolkit Based on a Unified Data  Format](http://arxiv.org/abs/2211.17148v1) | Qi Zhu, Christian Geishauser, Hsien-chin Lin, Carel van Niekerk, Baolin Peng, Zheng Zhang, Michael Heck, Nurul Lubis, Dazhen Wan, Xiaochen Zhu, Jianfeng Gao, Milica Gašić, Minlie Huang | cs.CL, cs.AI | 2022-11-30 |
+| [MUSIED: A Benchmark for Event Detection from Multi-Source Heterogeneous  Informal Texts](http://arxiv.org/abs/2211.13896v1) | Xiangyu Xi, Jianwei Lv, Shuaipeng Liu, Wei Ye, Fan Yang, Guanglu Wan | cs.CL | 2022-11-25 |
 | [Human-Machine Collaboration Approaches to Build a Dialogue Dataset for  Hate Speech Countering](http://arxiv.org/abs/2211.03433v1) | Helena Bonaldi, Sara Dellantonio, Serra Sinem Tekiroglu, Marco Guerini | cs.CL, cs.CY | 2022-11-07 |
 | [Is MultiWOZ a Solved Task? An Interactive TOD Evaluation Framework with  User Simulator](http://arxiv.org/abs/2210.14529v1) | Qinyuan Cheng, Linyang Li, Guofeng Quan, Feng Gao, Xiaofeng Mou, Xipeng Qiu | cs.CL | 2022-10-26 |
 | [Are Current Decoding Strategies Capable of Facing the Challenges of  Visual Dialogue?](http://arxiv.org/abs/2210.12997v1) | Amit Kumar Chaudhary, Alex J. Lucassen, Ioanna Tsani, Alberto Testoni | cs.CL, cs.CV | 2022-10-24 |

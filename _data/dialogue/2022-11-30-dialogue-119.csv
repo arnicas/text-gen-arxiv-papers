@@ -1,4 +1,40 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"ConvLab-3: A Flexible Dialogue System Toolkit Based on a Unified Data
+  Format",2022-11-30 16:37:42+00:00,http://arxiv.org/abs/2211.17148v1,"Qi Zhu, Christian Geishauser, Hsien-chin Lin, Carel van Niekerk, Baolin Peng, Zheng Zhang, Michael Heck, Nurul Lubis, Dazhen Wan, Xiaochen Zhu, Jianfeng Gao, Milica Gašić, Minlie Huang","cs.CL, cs.AI",dialogue,"Diverse data formats and ontologies of task-oriented dialogue (TOD) datasets
+hinder us from developing general dialogue models that perform well on many
+datasets and studying knowledge transfer between datasets. To address this
+issue, we present ConvLab-3, a flexible dialogue system toolkit based on a
+unified TOD data format. In ConvLab-3, different datasets are transformed into
+one unified format and loaded by models in the same way. As a result, the cost
+of adapting a new model or dataset is significantly reduced. Compared to the
+previous releases of ConvLab (Lee et al., 2019b; Zhu et al., 2020b), ConvLab-3
+allows developing dialogue systems with much more datasets and enhances the
+utility of the reinforcement learning (RL) toolkit for dialogue policies. To
+showcase the use of ConvLab-3 and inspire future work, we present a
+comprehensive study with various settings. We show the benefit of pre-training
+on other datasets for few-shot fine-tuning and RL, and encourage evaluating
+policy with diverse user simulators.",2022-11-30
+"MUSIED: A Benchmark for Event Detection from Multi-Source Heterogeneous
+  Informal Texts",2022-11-25 05:05:29+00:00,http://arxiv.org/abs/2211.13896v1,"Xiangyu Xi, Jianwei Lv, Shuaipeng Liu, Wei Ye, Fan Yang, Guanglu Wan",cs.CL,dialogue,"Event detection (ED) identifies and classifies event triggers from
+unstructured texts, serving as a fundamental task for information extraction.
+Despite the remarkable progress achieved in the past several years, most
+research efforts focus on detecting events from formal texts (e.g., news
+articles, Wikipedia documents, financial announcements). Moreover, the texts in
+each dataset are either from a single source or multiple yet relatively
+homogeneous sources. With massive amounts of user-generated text accumulating
+on the Web and inside enterprises, identifying meaningful events in these
+informal texts, usually from multiple heterogeneous sources, has become a
+problem of significant practical value. As a pioneering exploration that
+expands event detection to the scenarios involving informal and heterogeneous
+texts, we propose a new large-scale Chinese event detection dataset based on
+user reviews, text conversations, and phone conversations in a leading
+e-commerce platform for food service. We carefully investigate the proposed
+dataset's textual informality and multi-source heterogeneity characteristics by
+inspecting data samples quantitatively and qualitatively. Extensive experiments
+with state-of-the-art event detection methods verify the unique challenges
+posed by these characteristics, indicating that multi-source informal event
+detection remains an open problem and requires further efforts. Our benchmark
+and code are released at \url{https://github.com/myeclipse/MUSIED}.",2022-11-25
 "Human-Machine Collaboration Approaches to Build a Dialogue Dataset for
   Hate Speech Countering",2022-11-07 10:37:13+00:00,http://arxiv.org/abs/2211.03433v1,"Helena Bonaldi, Sara Dellantonio, Serra Sinem Tekiroglu, Marco Guerini","cs.CL, cs.CY",dialogue,"Fighting online hate speech is a challenge that is usually addressed using
 Natural Language Processing via automatic detection and removal of hate

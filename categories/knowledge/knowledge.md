@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2022-11-24*
+*written on 2022-12-05*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [What do you MEME? Generating Explanations for Visual Semantic Role  Labelling in Memes](http://arxiv.org/abs/2212.00715v1) | Shivam Sharma, Siddhant Agarwal, Tharun Suresh, Preslav Nakov, Md. Shad Akhtar, Tanmoy Charkraborty | cs.CY, cs.CL | 2022-12-01 |
+| [CliMedBERT: A Pre-trained Language Model for Climate and Health-related  Text](http://arxiv.org/abs/2212.00689v1) | B. Jalalzadeh Fard, S. A. Hasan, J. E. Bell | cs.CL, 68T50, I.2.7 | 2022-12-01 |
+| [On the Importance of Image Encoding in Automated Chest X-Ray Report  Generation](http://arxiv.org/abs/2211.13465v1) | Otabek Nazarov, Mohammad Yaqub, Karthik Nandakumar | cs.CV, cs.AI | 2022-11-24 |
 | [Retrieval-Augmented Multimodal Language Modeling](http://arxiv.org/abs/2211.12561v1) | Michihiro Yasunaga, Armen Aghajanyan, Weijia Shi, Rich James, Jure Leskovec, Percy Liang, Mike Lewis, Luke Zettlemoyer, Wen-tau Yih | cs.CV, cs.CL, cs.LG | 2022-11-22 |
 | [Towards Computationally Verifiable Semantic Grounding for Language  Models](http://arxiv.org/abs/2211.09070v1) | Chris Alberti, Kuzman Ganchev, Michael Collins, Sebastian Gehrmann, Ciprian Chelba | cs.CL | 2022-11-16 |
 | [kogito: A Commonsense Knowledge Inference Toolkit](http://arxiv.org/abs/2211.08451v1) | Mete Ismayilzada, Antoine Bosselut | cs.CL | 2022-11-15 |

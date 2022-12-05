@@ -1,4 +1,65 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"What do you MEME? Generating Explanations for Visual Semantic Role
+  Labelling in Memes",2022-12-01 18:21:36+00:00,http://arxiv.org/abs/2212.00715v1,"Shivam Sharma, Siddhant Agarwal, Tharun Suresh, Preslav Nakov, Md. Shad Akhtar, Tanmoy Charkraborty","cs.CY, cs.CL",knowledge,"Memes are powerful means for effective communication on social media. Their
+effortless amalgamation of viral visuals and compelling messages can have
+far-reaching implications with proper marketing. Previous research on memes has
+primarily focused on characterizing their affective spectrum and detecting
+whether the meme's message insinuates any intended harm, such as hate, offense,
+racism, etc. However, memes often use abstraction, which can be elusive. Here,
+we introduce a novel task - EXCLAIM, generating explanations for visual
+semantic role labeling in memes. To this end, we curate ExHVV, a novel dataset
+that offers natural language explanations of connotative roles for three types
+of entities - heroes, villains, and victims, encompassing 4,680 entities
+present in 3K memes. We also benchmark ExHVV with several strong unimodal and
+multimodal baselines. Moreover, we posit LUMEN, a novel multimodal, multi-task
+learning framework that endeavors to address EXCLAIM optimally by jointly
+learning to predict the correct semantic roles and correspondingly to generate
+suitable natural language explanations. LUMEN distinctly outperforms the best
+baseline across 18 standard natural language generation evaluation metrics. Our
+systematic evaluation and analyses demonstrate that characteristic multimodal
+cues required for adjudicating semantic roles are also helpful for generating
+suitable explanations.",2022-12-01
+"CliMedBERT: A Pre-trained Language Model for Climate and Health-related
+  Text",2022-12-01 17:44:09+00:00,http://arxiv.org/abs/2212.00689v1,"B. Jalalzadeh Fard, S. A. Hasan, J. E. Bell","cs.CL, 68T50, I.2.7",knowledge,"Climate change is threatening human health in unprecedented orders and many
+ways. These threats are expected to grow unless effective and evidence-based
+policies are developed and acted upon to minimize or eliminate them. Attaining
+such a task requires the highest degree of the flow of knowledge from science
+into policy. The multidisciplinary, location-specific, and vastness of
+published science makes it challenging to keep track of novel work in this
+area, as well as making the traditional knowledge synthesis methods inefficient
+in infusing science into policy. To this end, we consider developing multiple
+domain-specific language models (LMs) with different variations from Climate-
+and Health-related information, which can serve as a foundational step toward
+capturing available knowledge to enable solving different tasks, such as
+detecting similarities between climate- and health-related concepts,
+fact-checking, relation extraction, evidence of health effects to policy text
+generation, and more. To our knowledge, this is the first work that proposes
+developing multiple domain-specific language models for the considered domains.
+We will make the developed models, resources, and codebase available for the
+researchers.",2022-12-01
+"On the Importance of Image Encoding in Automated Chest X-Ray Report
+  Generation",2022-11-24 08:02:52+00:00,http://arxiv.org/abs/2211.13465v1,"Otabek Nazarov, Mohammad Yaqub, Karthik Nandakumar","cs.CV, cs.AI",knowledge,"Chest X-ray is one of the most popular medical imaging modalities due to its
+accessibility and effectiveness. However, there is a chronic shortage of
+well-trained radiologists who can interpret these images and diagnose the
+patient's condition. Therefore, automated radiology report generation can be a
+very helpful tool in clinical practice. A typical report generation workflow
+consists of two main steps: (i) encoding the image into a latent space and (ii)
+generating the text of the report based on the latent image embedding. Many
+existing report generation techniques use a standard convolutional neural
+network (CNN) architecture for image encoding followed by a Transformer-based
+decoder for medical text generation. In most cases, CNN and the decoder are
+trained jointly in an end-to-end fashion. In this work, we primarily focus on
+understanding the relative importance of encoder and decoder components.
+Towards this end, we analyze four different image encoding approaches: direct,
+fine-grained, CLIP-based, and Cluster-CLIP-based encodings in conjunction with
+three different decoders on the large-scale MIMIC-CXR dataset. Among these
+encoders, the cluster CLIP visual encoder is a novel approach that aims to
+generate more discriminative and explainable representations. CLIP-based
+encoders produce comparable results to traditional CNN-based encoders in terms
+of NLP metrics, while fine-grained encoding outperforms all other encoders both
+in terms of NLP and clinical accuracy metrics, thereby validating the
+importance of image encoder to effectively extract semantic information. GitHub
+repository: https://github.com/mudabek/encoding-cxr-report-gen",2022-11-24
 Retrieval-Augmented Multimodal Language Modeling,2022-11-22 20:26:44+00:00,http://arxiv.org/abs/2211.12561v1,"Michihiro Yasunaga, Armen Aghajanyan, Weijia Shi, Rich James, Jure Leskovec, Percy Liang, Mike Lewis, Luke Zettlemoyer, Wen-tau Yih","cs.CV, cs.CL, cs.LG",knowledge,"Recent multimodal models such as DALL-E and CM3 have achieved remarkable
 progress in text-to-image and image-to-text generation. However, these models
 store all learned knowledge (e.g., the appearance of the Eiffel Tower) in the
