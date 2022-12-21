@@ -1,0 +1,1674 @@
+title,pubdate,id,authors,categories,search,abstract,displaydate
+Controlled Language Generation for Language Learning Items,2022-11-28 19:28:12+00:00,http://arxiv.org/abs/2211.15731v1,"Kevin Stowe, Debanjan Ghosh, Mengxuan Zhao","cs.CL, I.2.7",table2text,"This work aims to employ natural language generation (NLG) to rapidly
+generate items for English language learning applications: this requires both
+language models capable of generating fluent, high-quality English, and to
+control the output of the generation to match the requirements of the relevant
+items. We experiment with deep pretrained models for this task, developing
+novel methods for controlling items for factors relevant in language learning:
+diverse sentences for different proficiency levels and argument structure to
+test grammar. Human evaluation demonstrates high grammatically scores for all
+models (3.4 and above out of 4), and higher length (24%) and complexity (9%)
+over the baseline for the advanced proficiency model. Our results show that we
+can achieve strong performance while adding additional control to ensure
+diverse, tailored content for individual users.",2022-11-28
+CodeExp: Explanatory Code Document Generation,2022-11-25 18:05:44+00:00,http://arxiv.org/abs/2211.15395v1,"Haotian Cui, Chenglong Wang, Junjie Huang, Jeevana Priya Inala, Todd Mytkowicz, Bo Wang, Jianfeng Gao, Nan Duan","cs.CL, cs.LG, I.2.2; I.2.7",table2text,"Developing models that can automatically generate detailed code explanation
+can greatly benefit software maintenance and programming education. However,
+existing code-to-text generation models often produce only high-level summaries
+of code that do not capture implementation-level choices essential for these
+scenarios. To fill in this gap, we propose the code explanation generation
+task. We first conducted a human study to identify the criteria for
+high-quality explanatory docstring for code. Based on that, we collected and
+refined a large-scale code docstring corpus and formulated automatic evaluation
+metrics that best match human assessments. Finally, we present a multi-stage
+fine-tuning strategy and baseline models for the task. Our experiments show
+that (1) our refined training dataset lets models achieve better performance in
+the explanation generation tasks compared to larger unrefined data (15x
+larger), and (2) fine-tuned models can generate well-structured long docstrings
+comparable to human-written ones. We envision our training dataset,
+human-evaluation protocol, recommended metrics, and fine-tuning strategy can
+boost future code explanation research. The code and annotated data are
+available at https://github.com/subercui/CodeExp.",2022-11-25
+"MUSIED: A Benchmark for Event Detection from Multi-Source Heterogeneous
+  Informal Texts",2022-11-25 05:05:29+00:00,http://arxiv.org/abs/2211.13896v1,"Xiangyu Xi, Jianwei Lv, Shuaipeng Liu, Wei Ye, Fan Yang, Guanglu Wan",cs.CL,table2text,"Event detection (ED) identifies and classifies event triggers from
+unstructured texts, serving as a fundamental task for information extraction.
+Despite the remarkable progress achieved in the past several years, most
+research efforts focus on detecting events from formal texts (e.g., news
+articles, Wikipedia documents, financial announcements). Moreover, the texts in
+each dataset are either from a single source or multiple yet relatively
+homogeneous sources. With massive amounts of user-generated text accumulating
+on the Web and inside enterprises, identifying meaningful events in these
+informal texts, usually from multiple heterogeneous sources, has become a
+problem of significant practical value. As a pioneering exploration that
+expands event detection to the scenarios involving informal and heterogeneous
+texts, we propose a new large-scale Chinese event detection dataset based on
+user reviews, text conversations, and phone conversations in a leading
+e-commerce platform for food service. We carefully investigate the proposed
+dataset's textual informality and multi-source heterogeneity characteristics by
+inspecting data samples quantitatively and qualitatively. Extensive experiments
+with state-of-the-art event detection methods verify the unique challenges
+posed by these characteristics, indicating that multi-source informal event
+detection remains an open problem and requires further efforts. Our benchmark
+and code are released at \url{https://github.com/myeclipse/MUSIED}.",2022-11-25
+Retrieval-Augmented Multimodal Language Modeling,2022-11-22 20:26:44+00:00,http://arxiv.org/abs/2211.12561v1,"Michihiro Yasunaga, Armen Aghajanyan, Weijia Shi, Rich James, Jure Leskovec, Percy Liang, Mike Lewis, Luke Zettlemoyer, Wen-tau Yih","cs.CV, cs.CL, cs.LG",table2text,"Recent multimodal models such as DALL-E and CM3 have achieved remarkable
+progress in text-to-image and image-to-text generation. However, these models
+store all learned knowledge (e.g., the appearance of the Eiffel Tower) in the
+model parameters, requiring increasingly larger models and training data to
+capture more knowledge. To integrate knowledge in a more scalable and modular
+way, we propose a retrieval-augmented multimodal model, which enables a base
+multimodal model (generator) to refer to relevant knowledge fetched by a
+retriever from external memory (e.g., multimodal documents on the web).
+Specifically, we implement a retriever using the pretrained CLIP model and a
+generator using the CM3 Transformer architecture, and train this model using
+the LAION dataset. Our resulting model, named Retrieval-Augmented CM3 (RA-CM3),
+is the first multimodal model that can retrieve and generate mixtures of text
+and images. We show that RA-CM3 significantly outperforms baseline multimodal
+models such as DALL-E and CM3 on both image and caption generation tasks (12
+FID and 17 CIDEr improvements on MS-COCO), while requiring much less compute
+for training (<30% of DALL-E). Moreover, we show that RA-CM3 exhibits novel
+capabilities such as knowledge-intensive image generation and multimodal
+in-context learning.",2022-11-22
+"How to Describe Images in a More Funny Way? Towards a Modular Approach
+  to Cross-Modal Sarcasm Generation",2022-11-20 14:38:24+00:00,http://arxiv.org/abs/2211.10992v1,"Jie Ruan, Yue Wu, Xiaojun Wan, Yuesheng Zhu","cs.CV, cs.CL",table2text,"Sarcasm generation has been investigated in previous studies by considering
+it as a text-to-text generation problem, i.e., generating a sarcastic sentence
+for an input sentence. In this paper, we study a new problem of cross-modal
+sarcasm generation (CMSG), i.e., generating a sarcastic description for a given
+image. CMSG is challenging as models need to satisfy the characteristics of
+sarcasm, as well as the correlation between different modalities. In addition,
+there should be some inconsistency between the two modalities, which requires
+imagination. Moreover, high-quality training data is insufficient. To address
+these problems, we take a step toward generating sarcastic descriptions from
+images without paired training data and propose an
+Extraction-Generation-Ranking based Modular method (EGRM) for cross-model
+sarcasm generation. Specifically, EGRM first extracts diverse information from
+an image at different levels and uses the obtained image tags, sentimental
+descriptive caption, and commonsense-based consequence to generate candidate
+sarcastic texts. Then, a comprehensive ranking algorithm, which considers
+image-text relation, sarcasticness, and grammaticality, is proposed to select a
+final text from the candidate texts. Human evaluation at five criteria on a
+total of 1200 generated image-text pairs from eight systems and auxiliary
+automatic evaluation show the superiority of our method.",2022-11-20
+"GENIUS: Sketch-based Language Model Pre-training via Extreme and
+  Selective Masking for Text Generation and Augmentation",2022-11-18 16:39:45+00:00,http://arxiv.org/abs/2211.10330v1,"Biyang Guo, Yeyun Gong, Yelong Shen, Songqiao Han, Hailiang Huang, Nan Duan, Weizhu Chen",cs.CL,table2text,"We introduce GENIUS: a conditional text generation model using sketches as
+input, which can fill in the missing contexts for a given sketch (key
+information consisting of textual spans, phrases, or words, concatenated by
+mask tokens). GENIUS is pre-trained on a large-scale textual corpus with a
+novel reconstruction from sketch objective using an extreme and selective
+masking strategy, enabling it to generate diverse and high-quality texts given
+sketches. Comparison with other competitive conditional language models (CLMs)
+reveals the superiority of GENIUS's text generation quality. We further show
+that GENIUS can be used as a strong and ready-to-use data augmentation tool for
+various natural language processing (NLP) tasks. Most existing textual data
+augmentation methods are either too conservative, by making small changes to
+the original text, or too aggressive, by creating entirely new samples. With
+GENIUS, we propose GeniusAug, which first extracts the target-aware sketches
+from the original training set and then generates new samples based on the
+sketches. Empirical experiments on 6 text classification datasets show that
+GeniusAug significantly improves the models' performance in both
+in-distribution (ID) and out-of-distribution (OOD) settings. We also
+demonstrate the effectiveness of GeniusAug on named entity recognition (NER)
+and machine reading comprehension (MRC) tasks. (Code and models are publicly
+available at https://github.com/microsoft/SCGLab and
+https://github.com/beyondguo/genius)",2022-11-18
+"Towards Computationally Verifiable Semantic Grounding for Language
+  Models",2022-11-16 17:35:52+00:00,http://arxiv.org/abs/2211.09070v1,"Chris Alberti, Kuzman Ganchev, Michael Collins, Sebastian Gehrmann, Ciprian Chelba",cs.CL,table2text,"The paper presents an approach to semantic grounding of language models (LMs)
+that conceptualizes the LM as a conditional model generating text given a
+desired semantic message formalized as a set of entity-relationship triples. It
+embeds the LM in an auto-encoder by feeding its output to a semantic parser
+whose output is in the same representation domain as the input message.
+Compared to a baseline that generates text using greedy search, we demonstrate
+two techniques that improve the fluency and semantic accuracy of the generated
+text: The first technique samples multiple candidate text sequences from which
+the semantic parser chooses. The second trains the language model while keeping
+the semantic parser frozen to improve the semantic accuracy of the
+auto-encoder. We carry out experiments on the English WebNLG 3.0 data set,
+using BLEU to measure the fluency of generated text and standard parsing
+metrics to measure semantic accuracy. We show that our proposed approaches
+significantly improve on the greedy search baseline. Human evaluation
+corroborates the results of the automatic evaluation experiments.",2022-11-16
+Reward Gaming in Conditional Text Generation,2022-11-16 07:10:02+00:00,http://arxiv.org/abs/2211.08714v1,"Richard Yuanzhe Pang, Vishakh Padmakumar, Thibault Sellam, Ankur P. Parikh, He He","cs.CL, cs.AI, cs.LG",table2text,"To align conditional text generation model outputs with desired behaviors,
+there has been an increasing focus on training the model using reinforcement
+learning (RL) with reward functions learned from human annotations. Under this
+framework, we identify three common cases where high rewards are incorrectly
+assigned to undesirable patterns: noise-induced spurious correlation, naturally
+occurring spurious correlation, and covariate shift. We show that even though
+learned metrics achieve high performance on the distribution of the data used
+to train the reward function, the undesirable patterns may be amplified during
+RL training of the text generation model. While there has been discussion about
+reward gaming in the RL or safety community, in this short discussion piece, we
+would like to highlight reward gaming in the NLG community using concrete
+conditional text generation examples and discuss potential fixes and areas for
+future work.",2022-11-16
+"Follow the Wisdom of the Crowd: Effective Text Generation via Minimum
+  Bayes Risk Decoding",2022-11-14 18:57:37+00:00,http://arxiv.org/abs/2211.07634v1,"Mirac Suzgun, Luke Melas-Kyriazi, Dan Jurafsky","cs.CL, cs.LG",table2text,"In open-ended natural-language generation, existing text decoding methods
+typically struggle to produce text which is both diverse and high-quality.
+Greedy and beam search are known to suffer from text degeneration and
+linguistic diversity issues, while temperature, top-k, and nucleus sampling
+often yield diverse but low-quality outputs. In this work, we present crowd
+sampling, a family of decoding methods based on Bayesian risk minimization, to
+address this diversity-quality trade-off. Inspired by the principle of ""the
+wisdom of the crowd,"" crowd sampling seeks to select a candidate from a pool of
+candidates that has the least expected risk (i.e., highest expected reward)
+under a generative model according to a given utility function. Crowd sampling
+can be seen as a generalization of numerous existing methods, including
+majority voting, and in practice, it can be used as a drop-in replacement for
+existing sampling methods. Extensive experiments show that crowd sampling
+delivers improvements of 3-7 ROUGE and BLEU points across a wide range of
+tasks, including summarization, data-to-text, translation, and textual style
+transfer, while achieving new state-of-the-art results on WebNLG and WMT'16.",2022-11-14
+"Evade the Trap of Mediocrity: Promoting Diversity and Novelty in Text
+  Generation via Concentrating Attention",2022-11-14 07:53:16+00:00,http://arxiv.org/abs/2211.07164v1,"Wenhao Li, Xiaoyuan Yi, Jinyi Hu, Maosong Sun, Xing Xie",cs.CL,table2text,"Recently, powerful Transformer architectures have proven superior in
+generating high-quality sentences. Nevertheless, these models tend to produce
+dull high-frequency phrases, severely hurting the diversity and novelty of
+generated text. In this work, we dig into the intrinsic mechanism of this
+problem and found that sparser attention values in Transformer could improve
+diversity. To understand such a phenomenon, we first conduct both empirical and
+theoretical analysis and then attribute it to representation degeneration
+caused by the attentive mixture of the hidden states during training. We term
+this process the Trap of Mediocrity. To escape from such a trap, we introduce a
+novel attention regularization loss to control the sharpness of the attention
+distribution, which is transparent to model structures and can be easily
+implemented within 20 lines of python code. We prove that this method could be
+mathematically regarded as learning a Bayesian approximation of posterior
+attention. Experiments show that our method improved the diversity and novelty
+of the generated text while maintaining comparable quality on a variety of
+conditional and unconditional generation tasks.",2022-11-14
+Controllable Citation Text Generation,2022-11-14 01:54:08+00:00,http://arxiv.org/abs/2211.07066v1,"Nianlong Gu, Richard H. R. Hahnloser",cs.CL,table2text,"The aim of citation generation is usually to automatically generate a
+citation sentence that refers to a chosen paper in the context of a manuscript.
+However, a rigid citation generation process is at odds with an author's desire
+to control the generated text based on certain attributes, such as 1) the
+citation intent of e.g. either introducing background information or comparing
+results; 2) keywords that should appear in the citation text; or 3) specific
+sentences in the cited paper that characterize the citation content. To provide
+these degrees of freedom, we present a controllable citation generation system.
+In data from a large corpus, we first parse the attributes of each citation
+sentence and use these as additional input sources during training of the
+BART-based abstractive summarizer. We further develop an attribute suggestion
+module that infers the citation intent and suggests relevant keywords and
+sentences that users can select to tune the generation. Our framework gives
+users more control over generated citations, outperforming citation generation
+models without attribute awareness in both ROUGE and human evaluations.",2022-11-14
+Self-conditioned Embedding Diffusion for Text Generation,2022-11-08 13:30:27+00:00,http://arxiv.org/abs/2211.04236v1,"Robin Strudel, Corentin Tallec, Florent Altché, Yilun Du, Yaroslav Ganin, Arthur Mensch, Will Grathwohl, Nikolay Savinov, Sander Dieleman, Laurent Sifre, Rémi Leblond","cs.CL, cs.LG",table2text,"Can continuous diffusion models bring the same performance breakthrough on
+natural language they did for image generation? To circumvent the discrete
+nature of text data, we can simply project tokens in a continuous space of
+embeddings, as is standard in language modeling. We propose Self-conditioned
+Embedding Diffusion, a continuous diffusion mechanism that operates on token
+embeddings and allows to learn flexible and scalable diffusion models for both
+conditional and unconditional text generation. Through qualitative and
+quantitative evaluation, we show that our text diffusion models generate
+samples comparable with those produced by standard autoregressive language
+models - while being in theory more efficient on accelerator hardware at
+inference time. Our work paves the way for scaling up diffusion models for
+text, similarly to autoregressive models, and for improving performance with
+recent refinements to continuous diffusion.",2022-11-08
+Generative Transformers for Design Concept Generation,2022-11-07 11:29:10+00:00,http://arxiv.org/abs/2211.03468v1,"Qihao Zhu, Jianxi Luo",cs.CL,table2text,"Generating novel and useful concepts is essential during the early design
+stage to explore a large variety of design opportunities, which usually
+requires advanced design thinking ability and a wide range of knowledge from
+designers. Growing works on computer-aided tools have explored the retrieval of
+knowledge and heuristics from design data. However, they only provide stimuli
+to inspire designers from limited aspects. This study explores the recent
+advance of the natural language generation (NLG) technique in the artificial
+intelligence (AI) field to automate the early-stage design concept generation.
+Specifically, a novel approach utilizing the generative pre-trained transformer
+(GPT) is proposed to leverage the knowledge and reasoning from textual data and
+transform them into new concepts in understandable language. Three concept
+generation tasks are defined to leverage different knowledge and reasoning:
+domain knowledge synthesis, problem-driven synthesis, and analogy-driven
+synthesis. The experiments with both human and data-driven evaluation show good
+performance in generating novel and useful concepts.",2022-11-07
+"Human-Machine Collaboration Approaches to Build a Dialogue Dataset for
+  Hate Speech Countering",2022-11-07 10:37:13+00:00,http://arxiv.org/abs/2211.03433v1,"Helena Bonaldi, Sara Dellantonio, Serra Sinem Tekiroglu, Marco Guerini","cs.CL, cs.CY",table2text,"Fighting online hate speech is a challenge that is usually addressed using
+Natural Language Processing via automatic detection and removal of hate
+content. Besides this approach, counter narratives have emerged as an effective
+tool employed by NGOs to respond to online hate on social media platforms. For
+this reason, Natural Language Generation is currently being studied as a way to
+automatize counter narrative writing. However, the existing resources necessary
+to train NLG models are limited to 2-turn interactions (a hate speech and a
+counter narrative as response), while in real life, interactions can consist of
+multiple turns. In this paper, we present a hybrid approach for dialogical data
+collection, which combines the intervention of human expert annotators over
+machine generated dialogues obtained using 19 different configurations. The
+result of this work is DIALOCONAN, the first dataset comprising over 3000
+fictitious multi-turn dialogues between a hater and an NGO operator, covering 6
+targets of hate.",2022-11-07
+Time-aware Prompting for Text Generation,2022-11-03 22:10:25+00:00,http://arxiv.org/abs/2211.02162v1,"Shuyang Cao, Lu Wang",cs.CL,table2text,"In this paper, we study the effects of incorporating timestamps, such as
+document creation dates, into generation systems. Two types of time-aware
+prompts are investigated: (1) textual prompts that encode document timestamps
+in natural language sentences; and (2) linear prompts that convert timestamps
+into continuous vectors. To explore extrapolation to future data points, we
+further introduce a new data-to-text generation dataset, TempWikiBio,
+containing more than 4 millions of chronologically ordered revisions of
+biographical articles from English Wikipedia, each paired with structured
+personal profiles. Through data-to-text generation on TempWikiBio, text-to-text
+generation on the content transfer dataset, and summarization on XSum, we show
+that linear prompts on encoder and textual prompts improve the generation
+quality on all datasets. Despite having less performance drop when testing on
+data drawn from a later time, linear prompts focus more on non-temporal
+information and are less sensitive to the given timestamps, according to human
+evaluations and sensitivity analyses. Meanwhile, textual prompts establish the
+association between the given timestamps and the output dates, yielding more
+factual temporal information in the output.",2022-11-03
+TaTa: A Multilingual Table-to-Text Dataset for African Languages,2022-10-31 21:05:42+00:00,http://arxiv.org/abs/2211.00142v1,"Sebastian Gehrmann, Sebastian Ruder, Vitaly Nikolaev, Jan A. Botha, Michael Chavinda, Ankur Parikh, Clara Rivera","cs.CL, cs.LG",table2text,"Existing data-to-text generation datasets are mostly limited to English. To
+address this lack of data, we create Table-to-Text in African languages (TaTa),
+the first large multilingual table-to-text dataset with a focus on African
+languages. We created TaTa by transcribing figures and accompanying text in
+bilingual reports by the Demographic and Health Surveys Program, followed by
+professional translation to make the dataset fully parallel. TaTa includes
+8,700 examples in nine languages including four African languages (Hausa, Igbo,
+Swahili, and Yor\`ub\'a) and a zero-shot test language (Russian). We
+additionally release screenshots of the original figures for future research on
+multilingual multi-modal approaches. Through an in-depth human evaluation, we
+show that TaTa is challenging for current models and that less than half the
+outputs from an mT5-XXL-based model are understandable and attributable to the
+source data. We further demonstrate that existing metrics perform poorly for
+TaTa and introduce learned metrics that achieve a high correlation with human
+judgments. We release all data and annotations at
+https://github.com/google-research/url-nlp.",2022-10-31
+DiffusER: Discrete Diffusion via Edit-based Reconstruction,2022-10-30 16:55:23+00:00,http://arxiv.org/abs/2210.16886v1,"Machel Reid, Vincent J. Hellendoorn, Graham Neubig","cs.CL, cs.LG",table2text,"In text generation, models that generate text from scratch one token at a
+time are currently the dominant paradigm. Despite being performant, these
+models lack the ability to revise existing text, which limits their usability
+in many practical scenarios. We look to address this, with DiffusER (Diffusion
+via Edit-based Reconstruction), a new edit-based generative model for text
+based on denoising diffusion models -- a class of models that use a Markov
+chain of denoising steps to incrementally generate data. DiffusER is not only a
+strong generative model in general, rivalling autoregressive models on several
+tasks spanning machine translation, summarization, and style transfer; it can
+also perform other varieties of generation that standard autoregressive models
+are not well-suited for. For instance, we demonstrate that DiffusER makes it
+possible for a user to condition generation on a prototype, or an incomplete
+sequence, and continue revising based on previous edit steps.",2022-10-30
+"Diverse Parallel Data Synthesis for Cross-Database Adaptation of
+  Text-to-SQL Parsers",2022-10-29 14:30:53+00:00,http://arxiv.org/abs/2210.16613v1,"Abhijeet Awasthi, Ashutosh Sathe, Sunita Sarawagi","cs.CL, cs.AI, cs.LG",table2text,"Text-to-SQL parsers typically struggle with databases unseen during the train
+time. Adapting parsers to new databases is a challenging problem due to the
+lack of natural language queries in the new schemas. We present ReFill, a
+framework for synthesizing high-quality and textually diverse parallel datasets
+for adapting a Text-to-SQL parser to a target schema. ReFill learns to
+retrieve-and-edit text queries from the existing schemas and transfers them to
+the target schema. We show that retrieving diverse existing text, masking their
+schema-specific tokens, and refilling with tokens relevant to the target
+schema, leads to significantly more diverse text queries than achievable by
+standard SQL-to-Text generation methods. Through experiments spanning multiple
+databases, we demonstrate that fine-tuning parsers on datasets synthesized
+using ReFill consistently outperforms the prior data-augmentation methods.",2022-10-29
+Nearest Neighbor Language Models for Stylistic Controllable Generation,2022-10-27 20:46:12+00:00,http://arxiv.org/abs/2210.15762v1,"Severino Trotta, Lucie Flek, Charles Welch",cs.CL,table2text,"Recent language modeling performance has been greatly improved by the use of
+external memory. This memory encodes the context so that similar contexts can
+be recalled during decoding. This similarity depends on how the model learns to
+encode context, which can be altered to include other attributes, such as
+style. We construct and evaluate an architecture for this purpose, using
+corpora annotated for politeness, formality, and toxicity. Through extensive
+experiments and human evaluation we demonstrate the potential of our method to
+generate text while controlling style. We find that style-specific datastores
+improve generation performance, though results vary greatly across styles, and
+the effect of pretraining data and specific styles should be explored in future
+work.",2022-10-27
+Categorical SDEs with Simplex Diffusion,2022-10-26 15:27:43+00:00,http://arxiv.org/abs/2210.14784v1,"Pierre H. Richemond, Sander Dieleman, Arnaud Doucet",cs.LG,table2text,"Diffusion models typically operate in the standard framework of generative
+modelling by producing continuously-valued datapoints. To this end, they rely
+on a progressive Gaussian smoothing of the original data distribution, which
+admits an SDE interpretation involving increments of a standard Brownian
+motion. However, some applications such as text generation or reinforcement
+learning might naturally be better served by diffusing categorical-valued data,
+i.e., lifting the diffusion to a space of probability distributions. To this
+end, this short theoretical note proposes Simplex Diffusion, a means to
+directly diffuse datapoints located on an n-dimensional probability simplex. We
+show how this relates to the Dirichlet distribution on the simplex and how the
+analogous SDE is realized thanks to a multi-dimensional Cox-Ingersoll-Ross
+process (abbreviated as CIR), previously used in economics and mathematical
+finance. Finally, we make remarks as to the numerical implementation of
+trajectories of the CIR process, and discuss some limitations of our approach.",2022-10-26
+SentBS: Sentence-level Beam Search for Controllable Summarization,2022-10-26 06:21:01+00:00,http://arxiv.org/abs/2210.14502v1,"Chenhui Shen, Liying Cheng, Lidong Bing, Yang You, Luo Si",cs.CL,table2text,"A wide range of control perspectives have been explored in controllable text
+generation. Structure-controlled summarization is recently proposed as a useful
+and interesting research direction. However, current structure-controlling
+methods have limited effectiveness in enforcing the desired structure. To
+address this limitation, we propose a sentence-level beam search generation
+method (SentBS), where evaluation is conducted throughout the generation
+process to select suitable sentences for subsequent generations. We experiment
+with different combinations of decoding methods to be used as subcomponents by
+SentBS and evaluate results on the structure-controlled dataset MReD.
+Experiments show that all explored combinations for SentBS can improve the
+agreement between the generated text and the desired structure, with the best
+method significantly reducing the structural discrepancies suffered by the
+existing model, by approximately 68%.",2022-10-26
+On the Effectiveness of Automated Metrics for Text Generation Systems,2022-10-24 08:15:28+00:00,http://arxiv.org/abs/2210.13025v1,"Pius von Däniken, Jan Deriu, Don Tuggener, Mark Cieliebak","cs.CL, cs.AI",table2text,"A major challenge in the field of Text Generation is evaluation because we
+lack a sound theory that can be leveraged to extract guidelines for evaluation
+campaigns. In this work, we propose a first step towards such a theory that
+incorporates different sources of uncertainty, such as imperfect automated
+metrics and insufficiently sized test sets. The theory has practical
+applications, such as determining the number of samples needed to reliably
+distinguish the performance of a set of Text Generation systems in a given
+setting. We showcase the application of the theory on the WMT 21 and
+Spot-The-Bot evaluation data and outline how it can be leveraged to improve the
+evaluation protocol regarding the reliability, robustness, and significance of
+the evaluation outcome.",2022-10-24
+"Finding Memo: Extractive Memorization in Constrained Sequence Generation
+  Tasks",2022-10-24 03:01:52+00:00,http://arxiv.org/abs/2210.12929v1,"Vikas Raunak, Arul Menezes","cs.CL, cs.AI, cs.LG",table2text,"Memorization presents a challenge for several constrained Natural Language
+Generation (NLG) tasks such as Neural Machine Translation (NMT), wherein the
+proclivity of neural models to memorize noisy and atypical samples reacts
+adversely with the noisy (web crawled) datasets. However, previous studies of
+memorization in constrained NLG tasks have only focused on counterfactual
+memorization, linking it to the problem of hallucinations. In this work, we
+propose a new, inexpensive algorithm for extractive memorization (exact
+training data generation under insufficient context) in constrained sequence
+generation tasks and use it to study extractive memorization and its effects in
+NMT. We demonstrate that extractive memorization poses a serious threat to NMT
+reliability by qualitatively and quantitatively characterizing the memorized
+samples as well as the model behavior in their vicinity. Based on empirical
+observations, we develop a simple algorithm which elicits non-memorized
+translations of memorized samples from the same model, for a large fraction of
+such samples. Finally, we show that the proposed algorithm could also be
+leveraged to mitigate memorization in the model through finetuning. We have
+released the code to reproduce our results at
+https://github.com/vyraun/Finding-Memo.",2022-10-24
+"Mapping Process for the Task: Wikidata Statements to Text as Wikipedia
+  Sentences",2022-10-23 08:34:33+00:00,http://arxiv.org/abs/2210.12659v1,"Hoang Thang Ta, Alexander Gelbukha, Grigori Sidorov","cs.CL, cs.AI",table2text,"Acknowledged as one of the most successful online cooperative projects in
+human society, Wikipedia has obtained rapid growth in recent years and desires
+continuously to expand content and disseminate knowledge values for everyone
+globally. The shortage of volunteers brings to Wikipedia many issues, including
+developing content for over 300 languages at the present. Therefore, the
+benefit that machines can automatically generate content to reduce human
+efforts on Wikipedia language projects could be considerable. In this paper, we
+propose our mapping process for the task of converting Wikidata statements to
+natural language text (WS2T) for Wikipedia projects at the sentence level. The
+main step is to organize statements, represented as a group of quadruples and
+triples, and then to map them to corresponding sentences in English Wikipedia.
+We evaluate the output corpus in various aspects: sentence structure analysis,
+noise filtering, and relationships between sentence components based on word
+embedding models. The results are helpful not only for the data-to-text
+generation task but also for other relevant works in the field.",2022-10-23
+"Hard Gate Knowledge Distillation -- Leverage Calibration for Robust and
+  Reliable Language Model",2022-10-22 11:57:10+00:00,http://arxiv.org/abs/2210.12427v1,"Dongkyu Lee, Zhiliang Tian, Yingxiu Zhao, Ka Chun Cheung, Nevin L. Zhang","cs.CL, cs.AI",table2text,"In knowledge distillation, a student model is trained with supervisions from
+both knowledge from a teacher and observations drawn from a training data
+distribution. Knowledge of a teacher is considered a subject that holds
+inter-class relations which send a meaningful supervision to a student; hence,
+much effort has been put to find such knowledge to be distilled. In this paper,
+we explore a question that has been given little attention: ""when to distill
+such knowledge."" The question is answered in our work with the concept of model
+calibration; we view a teacher model not only as a source of knowledge but also
+as a gauge to detect miscalibration of a student. This simple and yet novel
+view leads to a hard gate knowledge distillation scheme that switches between
+learning from a teacher model and training data. We verify the gating mechanism
+in the context of natural language generation at both the token-level and the
+sentence-level. Empirical comparisons with strong baselines show that hard gate
+knowledge distillation not only improves model generalization, but also
+significantly lowers model calibration error.",2022-10-22
+"Recurrence Boosts Diversity! Revisiting Recurrent Latent Variable in
+  Transformer-Based Variational AutoEncoder for Diverse Text Generation",2022-10-22 10:25:35+00:00,http://arxiv.org/abs/2210.12409v2,"Jinyi Hu, Xiaoyuan Yi, Wenhao Li, Maosong Sun, Xing Xie",cs.CL,table2text,"Variational Auto-Encoder (VAE) has been widely adopted in text generation.
+Among many variants, recurrent VAE learns token-wise latent variables with each
+conditioned on the preceding ones, which captures sequential variability better
+in the era of RNN. However, it is unclear how to incorporate such recurrent
+dynamics into the recently dominant Transformer due to its parallelism. In this
+work, we propose TRACE, a Transformer-based recurrent VAE structure. TRACE
+imposes recurrence on segment-wise latent variables with arbitrarily separated
+text segments and constructs the posterior distribution with residual
+parameterization. Besides, we design an acceleration method by approximating
+idempotent matrices, which allows parallelism while maintaining the conditional
+dependence of latent variables. We demonstrate that TRACE could enhance the
+entanglement of each segment and preceding latent variables and deduce a
+non-zero lower bound of the KL term, providing a theoretical guarantee of
+generation diversity. Experiments on two unconditional and one conditional
+generation tasks show that TRACE achieves significantly improved diversity
+while maintaining satisfactory generation quality.",2022-10-22
+"ReasTAP: Injecting Table Reasoning Skills During Pre-training via
+  Synthetic Reasoning Examples",2022-10-22 07:04:02+00:00,http://arxiv.org/abs/2210.12374v1,"Yilun Zhao, Linyong Nan, Zhenting Qi, Rui Zhang, Dragomir Radev",cs.CL,table2text,"Reasoning over tabular data requires both table structure understanding and a
+broad set of table reasoning skills. Current models with table-specific
+architectures and pre-training methods perform well on understanding table
+structures, but they still struggle with tasks that require various table
+reasoning skills. In this work, we develop ReasTAP to show that high-level
+table reasoning skills can be injected into models during pre-training without
+a complex table-specific architecture design. We define 7 table reasoning
+skills, such as numerical operation, temporal comparison, and conjunction. Each
+reasoning skill is associated with one example generator, which synthesizes
+questions over semi-structured tables according to the sampled templates. We
+model the table pre-training task as a sequence generation task and pre-train
+ReasTAP to generate precise answers to the synthetic examples. ReasTAP is
+evaluated on four benchmarks covering three downstream tasks including: 1)
+WikiSQL and WTQ for Table Question Answering; 2) TabFact for Table Fact
+Verification; and 3) LogicNLG for Faithful Table-to-Text Generation.
+Experimental results demonstrate that ReasTAP achieves new state-of-the-art
+performance on all benchmarks and delivers a significant improvement on
+low-resource setting. Our code is publicly available at
+https://github.com/Yale-LILY/ReasTAP.",2022-10-22
+"The University of Edinburgh's Submission to the WMT22 Code-Mixing Shared
+  Task (MixMT)",2022-10-20 14:40:10+00:00,http://arxiv.org/abs/2210.11309v1,"Faheem Kirefu, Vivek Iyer, Pinzhen Chen, Laurie Burchell",cs.CL,table2text,"The University of Edinburgh participated in the WMT22 shared task on
+code-mixed translation. This consists of two subtasks: i) generating code-mixed
+Hindi/English (Hinglish) text generation from parallel Hindi and English
+sentences and ii) machine translation from Hinglish to English. As both
+subtasks are considered low-resource, we focused our efforts on careful data
+generation and curation, especially the use of backtranslation from monolingual
+resources. For subtask 1 we explored the effects of constrained decoding on
+English and transliterated subwords in order to produce Hinglish. For subtask
+2, we investigated different pretraining techniques, namely comparing simple
+initialisation from existing machine translation models and aligned
+augmentation. For both subtasks, we found that our baseline systems worked
+best. Our systems for both subtasks were one of the overall top-performing
+submissions.",2022-10-20
+Image Semantic Relation Generation,2022-10-19 16:15:19+00:00,http://arxiv.org/abs/2210.11253v1,Mingzhe Du,"cs.CV, cs.CL",table2text,"Scene graphs provide structured semantic understanding beyond images. For
+downstream tasks, such as image retrieval, visual question answering, visual
+relationship detection, and even autonomous vehicle technology, scene graphs
+can not only distil complex image information but also correct the bias of
+visual models using semantic-level relations, which has broad application
+prospects. However, the heavy labour cost of constructing graph annotations may
+hinder the application of PSG in practical scenarios. Inspired by the
+observation that people usually identify the subject and object first and then
+determine the relationship between them, we proposed to decouple the scene
+graphs generation task into two sub-tasks: 1) an image segmentation task to
+pick up the qualified objects. 2) a restricted auto-regressive text generation
+task to generate the relation between given objects. Therefore, in this work,
+we introduce image semantic relation generation (ISRG), a simple but effective
+image-to-text model, which achieved 31 points on the OpenPSG dataset and
+outperforms strong baselines respectively by 16 points (ResNet-50) and 5 points
+(CLIP).",2022-10-19
+NGEP: A Graph-based Event Planning Framework for Story Generation,2022-10-19 14:49:27+00:00,http://arxiv.org/abs/2210.10602v1,"Chen Tang, Zhihao Zhang, Tyler Loakman, Chenghua Lin, Frank Guerin","cs.CL, cs.AI",table2text,"To improve the performance of long text generation, recent studies have
+leveraged automatically planned event structures (i.e. storylines) to guide
+story generation. Such prior works mostly employ end-to-end neural generation
+models to predict event sequences for a story. However, such generation models
+struggle to guarantee the narrative coherence of separate events due to the
+hallucination problem, and additionally the generated event sequences are often
+hard to control due to the end-to-end nature of the models. To address these
+challenges, we propose NGEP, an novel event planning framework which generates
+an event sequence by performing inference on an automatically constructed event
+graph and enhances generalisation ability through a neural event advisor. We
+conduct a range of experiments on multiple criteria, and the results
+demonstrate that our graph-based neural framework outperforms the
+state-of-the-art (SOTA) event planning approaches, considering both the
+performance of event sequence generation and the effectiveness on the
+downstream task of story generation.",2022-10-19
+"Attribution and Obfuscation of Neural Text Authorship: A Data Mining
+  Perspective",2022-10-19 11:53:13+00:00,http://arxiv.org/abs/2210.10488v2,"Adaku Uchendu, Thai Le, Dongwon Lee","cs.CL, cs.LG",table2text,"Two interlocking research questions of growing interest and importance in
+privacy research are Authorship Attribution (AA) and Authorship Obfuscation
+(AO). Given an artifact, especially a text t in question, an AA solution aims
+to accurately attribute t to its true author out of many candidate authors
+while an AO solution aims to modify t to hide its true authorship.
+Traditionally, the notion of authorship and its accompanying privacy concern is
+only toward human authors. However, in recent years, due to the explosive
+advancements in Neural Text Generation (NTG) techniques in NLP, capable of
+synthesizing human-quality open-ended texts (so-called ""neural texts""), one has
+to now consider authorships by humans, machines, or their combination. Due to
+the implications and potential threats of neural texts when used maliciously,
+it has become critical to understand the limitations of traditional AA/AO
+solutions and develop novel AA/AO solutions in dealing with neural texts. In
+this survey, therefore, we make a comprehensive review of recent literature on
+the attribution and obfuscation of neural text authorship from a Data Mining
+perspective, and share our view on their limitations and promising research
+directions.",2022-10-19
+"Team Flow at DRC2022: Pipeline System for Travel Destination
+  Recommendation Task in Spoken Dialogue",2022-10-18 01:11:16+00:00,http://arxiv.org/abs/2210.09518v1,"Ryu Hirai, Atsumoto Ohashi, Ao Guo, Hideki Shiroma, Xulin Zhou, Yukihiko Tone, Shinya Iizuka, Ryuichiro Higashinaka","cs.CL, cs.AI, cs.RO",table2text,"To improve the interactive capabilities of a dialogue system, e.g., to adapt
+to different customers, the Dialogue Robot Competition (DRC2022) was held. As
+one of the teams, we built a dialogue system with a pipeline structure
+containing four modules. The natural language understanding (NLU) and natural
+language generation (NLG) modules were GPT-2 based models, and the dialogue
+state tracking (DST) and policy modules were designed on the basis of
+hand-crafted rules. After the preliminary round of the competition, we found
+that the low variation in training examples for the NLU and failed
+recommendation due to the policy used were probably the main reasons for the
+limited performance of the system.",2022-10-18
+Table-To-Text generation and pre-training with TabT5,2022-10-17 15:05:53+00:00,http://arxiv.org/abs/2210.09162v1,"Ewa Andrejczuk, Julian Martin Eisenschlos, Francesco Piccinno, Syrine Krichene, Yasemin Altun","cs.CL, cs.LG",table2text,"Encoder-only transformer models have been successfully applied to different
+table understanding tasks, as in TAPAS (Herzig et al., 2020). A major
+limitation of these architectures is that they are constrained to
+classification-like tasks such as cell selection or entailment detection. We
+present TABT5, an encoder-decoder model that generates natural language text
+based on tables and textual inputs. TABT5 overcomes the encoder-only limitation
+by incorporating a decoder component and leverages the input structure with
+table specific embeddings and pre-training. TABT5 achieves new state-of-the-art
+results on several domains, including spreadsheet formula prediction with a 15%
+increase in sequence accuracy, QA with a 2.5% increase in sequence accuracy and
+data-to-text generation with a 2.5% increase in BLEU.",2022-10-17
+Model Criticism for Long-Form Text Generation,2022-10-16 04:35:58+00:00,http://arxiv.org/abs/2210.08444v1,"Yuntian Deng, Volodymyr Kuleshov, Alexander M. Rush","cs.CL, cs.LG, stat.ML",table2text,"Language models have demonstrated the ability to generate highly fluent text;
+however, it remains unclear whether their output retains coherent high-level
+structure (e.g., story progression). Here, we propose to apply a statistical
+tool, model criticism in latent space, to evaluate the high-level structure of
+the generated text. Model criticism compares the distributions between real and
+generated data in a latent space obtained according to an assumptive generative
+process. Different generative processes identify specific failure modes of the
+underlying model. We perform experiments on three representative aspects of
+high-level discourse -- coherence, coreference, and topicality -- and find that
+transformer-based language models are able to capture topical structures but
+have a harder time maintaining structural coherence or modeling coreference.",2022-10-16
+"LEATHER: A Framework for Learning to Generate Human-like Text in
+  Dialogue",2022-10-14 13:05:11+00:00,http://arxiv.org/abs/2210.07777v1,"Anthony Sicilia, Malihe Alikhani","cs.CL, cs.LG",table2text,"Algorithms for text-generation in dialogue can be misguided. For example, in
+task-oriented settings, reinforcement learning that optimizes only task-success
+can lead to abysmal lexical diversity. We hypothesize this is due to poor
+theoretical understanding of the objectives in text-generation and their
+relation to the learning process (i.e., model training). To this end, we
+propose a new theoretical framework for learning to generate text in dialogue.
+Compared to existing theories of learning, our framework allows for analysis of
+the multi-faceted goals inherent to text-generation. We use our framework to
+develop theoretical guarantees for learners that adapt to unseen data. As an
+example, we apply our theory to study data-shift within a cooperative learning
+algorithm proposed for the GuessWhat?! visual dialogue game. From this insight,
+we propose a new algorithm, and empirically, we demonstrate our proposal
+improves both task-success and human-likeness of the generated text. Finally,
+we show statistics from our theory are empirically predictive of multiple
+qualities of the generated dialogue, suggesting our theory is useful for
+model-selection when human evaluations are not available.",2022-10-14
+Towards a Unified Multi-Dimensional Evaluator for Text Generation,2022-10-13 17:17:03+00:00,http://arxiv.org/abs/2210.07197v1,"Ming Zhong, Yang Liu, Da Yin, Yuning Mao, Yizhu Jiao, Pengfei Liu, Chenguang Zhu, Heng Ji, Jiawei Han",cs.CL,table2text,"Multi-dimensional evaluation is the dominant paradigm for human evaluation in
+Natural Language Generation (NLG), i.e., evaluating the generated text from
+multiple explainable dimensions, such as coherence and fluency. However,
+automatic evaluation in NLG is still dominated by similarity-based metrics, and
+we lack a reliable framework for a more comprehensive evaluation of advanced
+models. In this paper, we propose a unified multi-dimensional evaluator UniEval
+for NLG. We re-frame NLG evaluation as a Boolean Question Answering (QA) task,
+and by guiding the model with different questions, we can use one evaluator to
+evaluate from multiple dimensions. Furthermore, thanks to the unified Boolean
+QA format, we are able to introduce an intermediate learning phase that enables
+UniEval to incorporate external knowledge from multiple related tasks and gain
+further improvement. Experiments on three typical NLG tasks show that UniEval
+correlates substantially better with human judgments than existing metrics.
+Specifically, compared to the top-performing unified evaluators, UniEval
+achieves a 23% higher correlation on text summarization, and over 43% on
+dialogue response generation. Also, UniEval demonstrates a strong zero-shot
+learning ability for unseen evaluation dimensions and tasks. Source code, data
+and all pre-trained evaluators are available on our GitHub repository
+(https://github.com/maszhongming/UniEval).",2022-10-13
+"Scaling Back-Translation with Domain Text Generation for Sign Language
+  Gloss Translation",2022-10-13 14:25:08+00:00,http://arxiv.org/abs/2210.07054v1,"Jinhui Ye, Wenxiang Jiao, Xing Wang, Zhaopeng Tu","cs.CL, cs.AI",table2text,"Sign language gloss translation aims to translate the sign glosses into
+spoken language texts, which is challenging due to the scarcity of labeled
+gloss-text parallel data. Back translation (BT), which generates
+pseudo-parallel data by translating in-domain spoken language texts into sign
+glosses, has been applied to alleviate the data scarcity problem. However, the
+lack of large-scale high-quality domain spoken language text data limits the
+effect of BT. In this paper, to overcome the limitation, we propose a Prompt
+based domain text Generation (PGEN) approach to produce the large-scale
+in-domain spoken language text data. Specifically, PGEN randomly concatenates
+sentences from the original in-domain spoken language text data as prompts to
+induce a pre-trained language model (i.e., GPT-2) to generate spoken language
+texts in a similar style. Experimental results on three benchmarks of sign
+language gloss translation in varied languages demonstrate that BT with spoken
+language texts generated by PGEN significantly outperforms the compared
+methods. In addition, as the scale of spoken language texts generated by PGEN
+increases, the BT technique can achieve further improvements, demonstrating the
+effectiveness of our approach. We release the code and data for facilitating
+future research in this field.",2022-10-13
+Instruction Tuning for Few-Shot Aspect-Based Sentiment Analysis,2022-10-12 23:38:57+00:00,http://arxiv.org/abs/2210.06629v1,"Siddharth Varia, Shuai Wang, Kishaloy Halder, Robert Vacareanu, Miguel Ballesteros, Yassine Benajiba, Neha Anna John, Rishita Anubhai, Smaranda Muresan, Dan Roth",cs.CL,table2text,"Aspect-based Sentiment Analysis (ABSA) is a fine-grained sentiment analysis
+task which involves four elements from user-generated texts: aspect term,
+aspect category, opinion term, and sentiment polarity. Most computational
+approaches focus on some of the ABSA sub-tasks such as tuple (aspect term,
+sentiment polarity) or triplet (aspect term, opinion term, sentiment polarity)
+extraction using either pipeline or joint modeling approaches. Recently,
+generative approaches have been proposed to extract all four elements as (one
+or more) quadruplets from text as a single task. In this work, we take a step
+further and propose a unified framework for solving ABSA, and the associated
+sub-tasks to improve the performance in few-shot scenarios. To this end, we
+fine-tune a T5 model with instructional prompts in a multi-task learning
+fashion covering all the sub-tasks, as well as the entire quadruple prediction
+task. In experiments with multiple benchmark data sets, we show that the
+proposed multi-task prompting approach brings performance boost (by absolute
+$6.75$ F1) in the few-shot learning setting.",2022-10-12
+DATScore: Evaluating Translation with Data Augmented Translations,2022-10-12 20:31:42+00:00,http://arxiv.org/abs/2210.06576v1,"Moussa Kamal Eddine, Guokan Shang, Michalis Vazirgiannis",cs.CL,table2text,"The rapid development of large pretrained language models has revolutionized
+not only the field of Natural Language Generation (NLG) but also its
+evaluation. Inspired by the recent work of BARTScore: a metric leveraging the
+BART language model to evaluate the quality of generated text from various
+aspects, we introduce DATScore. DATScore uses data augmentation techniques to
+improve the evaluation of machine translation. Our main finding is that
+introducing data augmented translations of the source and reference texts is
+greatly helpful in evaluating the quality of the generated translation. We also
+propose two novel score averaging and term weighting strategies to improve the
+original score computing process of BARTScore. Experimental results on WMT show
+that DATScore correlates better with human meta-evaluations than the other
+recent state-of-the-art metrics, especially for low-resource languages.
+Ablation studies demonstrate the value added by our new scoring strategies.
+Moreover, we report in our extended experiments the performance of DATScore on
+3 NLG tasks other than translation.",2022-10-12
+ASDOT: Any-Shot Data-to-Text Generation with Pretrained Language Models,2022-10-09 19:17:43+00:00,http://arxiv.org/abs/2210.04325v2,"Jiannan Xiang, Zhengzhong Liu, Yucheng Zhou, Eric P. Xing, Zhiting Hu",cs.CL,table2text,"Data-to-text generation is challenging due to the great variety of the input
+data in terms of domains (e.g., finance vs sports) or schemata (e.g., diverse
+predicates). Recent end-to-end neural methods thus require substantial training
+examples to learn to disambiguate and describe the data. Yet, real-world
+data-to-text problems often suffer from various data-scarce issues: one may
+have access to only a handful of or no training examples, and/or have to rely
+on examples in a different domain or schema. To fill this gap, we propose
+Any-Shot Data-to-Text (ASDOT), a new approach flexibly applicable to diverse
+settings by making efficient use of any given (or no) examples. ASDOT consists
+of two steps, data disambiguation and sentence fusion, both of which are
+amenable to be solved with off-the-shelf pretrained language models (LMs) with
+optional finetuning. In the data disambiguation stage, we employ the prompted
+GPT-3 model to understand possibly ambiguous triples from the input data and
+convert each into a short sentence with reduced ambiguity. The sentence fusion
+stage then uses an LM like T5 to fuse all the resulting sentences into a
+coherent paragraph as the final description. We evaluate extensively on various
+datasets in different scenarios, including the zero-/few-/full-shot settings,
+and generalization to unseen predicates and out-of-domain data. Experimental
+results show that ASDOT consistently achieves significant improvement over
+baselines, e.g., a 30.81 BLEU gain on the DART dataset under the zero-shot
+setting.",2022-10-09
+"FAST: Improving Controllability for Text Generation with Feedback Aware
+  Self-Training",2022-10-06 19:00:51+00:00,http://arxiv.org/abs/2210.03167v1,"Junyi Chai, Reid Pryzant, Victor Ye Dong, Konstantin Golobokov, Chenguang Zhu, Yi Liu",cs.CL,table2text,"Controllable text generation systems often leverage control codes to direct
+various properties of the output like style and length. Inspired by recent work
+on causal inference for NLP, this paper reveals a previously overlooked flaw in
+these control code-based conditional text generation algorithms. Spurious
+correlations in the training data can lead models to incorrectly rely on parts
+of the input other than the control code for attribute selection, significantly
+undermining downstream generation quality and controllability. We demonstrate
+the severity of this issue with a series of case studies and then propose two
+simple techniques to reduce these correlations in training sets. The first
+technique is based on resampling the data according to an example's propensity
+towards each linguistic attribute (IPS). The second produces multiple
+counterfactual versions of each example and then uses an additional feedback
+mechanism to remove noisy examples (feedback aware self-training, FAST). We
+evaluate on 3 tasks -- news headline, meta review, and search ads generation --
+and demonstrate that FAST can significantly improve the controllability and
+language quality of generated outputs when compared to state-of-the-art
+controllable text generation approaches.",2022-10-06
+A Distributional Lens for Multi-Aspect Controllable Text Generation,2022-10-06 13:08:04+00:00,http://arxiv.org/abs/2210.02889v1,"Yuxuan Gu, Xiaocheng Feng, Sicheng Ma, Lingyuan Zhang, Heng Gong, Bing Qin",cs.CL,table2text,"Multi-aspect controllable text generation is a more challenging and practical
+task than single-aspect control. Existing methods achieve complex multi-aspect
+control by fusing multiple controllers learned from single-aspect, but suffer
+from attribute degeneration caused by the mutual interference of these
+controllers. To address this, we provide observations on attribute fusion from
+a distributional perspective and propose to directly search for the
+intersection areas of multiple attribute distributions as their combination for
+generation. Our method first estimates the attribute space with an autoencoder
+structure. Afterward, we iteratively approach the intersections by jointly
+minimizing distances to points representing different attributes. Finally, we
+map them to attribute-relevant sentences with a prefix-tuning-based decoder.
+Experiments on the three-aspect control task, including sentiment, topic, and
+detoxification aspects, reveal that our method outperforms several strong
+baselines on attribute relevance and text quality and achieves the SOTA.
+Further analysis also supplies some explanatory support for the effectiveness
+of our approach.",2022-10-06
+"Unsupervised Sentence Textual Similarity with Compositional Phrase
+  Semantics",2022-10-05 14:14:04+00:00,http://arxiv.org/abs/2210.02284v1,"Zihao Wang, Jiaheng Dou, Yong Zhang",cs.CL,table2text,"Measuring Sentence Textual Similarity (STS) is a classic task that can be
+applied to many downstream NLP applications such as text generation and
+retrieval. In this paper, we focus on unsupervised STS that works on various
+domains but only requires minimal data and computational resources.
+Theoretically, we propose a light-weighted Expectation-Correction (EC)
+formulation for STS computation. EC formulation unifies unsupervised STS
+approaches including the cosine similarity of Additively Composed (AC) sentence
+embeddings, Optimal Transport (OT), and Tree Kernels (TK). Moreover, we propose
+the Recursive Optimal Transport Similarity (ROTS) algorithm to capture the
+compositional phrase semantics by composing multiple recursive EC formulations.
+ROTS finishes in linear time and is faster than its predecessors. ROTS is
+empirically more effective and scalable than previous approaches. Extensive
+experiments on 29 STS tasks under various settings show the clear advantage of
+ROTS over existing approaches. Detailed ablation studies demonstrate the
+effectiveness of our approaches.",2022-10-05
+CodeDSI: Differentiable Code Search,2022-10-01 17:39:57+00:00,http://arxiv.org/abs/2210.00328v1,"Usama Nadeem, Noah Ziems, Shaoen Wu","cs.SE, cs.IR",table2text,"Reimplementing solutions to previously solved software engineering problems
+is not only inefficient but also introduces inadequate and error-prone code.
+Many existing methods achieve impressive performance on this issue by using
+autoregressive text-generation models trained on code. However, these methods
+are not without their flaws. The generated code from these models can be buggy,
+lack documentation, and introduce vulnerabilities that may go unnoticed by
+developers. An alternative to code generation -- neural code search -- is a
+field of machine learning where a model takes natural language queries as input
+and, in turn, relevant code samples from a database are returned. Due to the
+nature of this pre-existing database, code samples can be documented, tested,
+licensed, and checked for vulnerabilities before being used by developers in
+production. In this work, we present CodeDSI, an end-to-end unified approach to
+code search. CodeDSI is trained to directly map natural language queries to
+their respective code samples, which can be retrieved later. In an effort to
+improve the performance of code search, we have investigated docid
+representation strategies, impact of tokenization on docid structure, and
+dataset sizes on overall code search performance. Our results demonstrate
+CodeDSI strong performance, exceeding conventional robust baselines by 2-6%
+across varying dataset sizes.",2022-10-01
+Calibrating Sequence likelihood Improves Conditional Language Generation,2022-09-30 19:16:16+00:00,http://arxiv.org/abs/2210.00045v1,"Yao Zhao, Misha Khalman, Rishabh Joshi, Shashi Narayan, Mohammad Saleh, Peter J. Liu",cs.CL,table2text,"Conditional language models are predominantly trained with maximum likelihood
+estimation (MLE), giving probability mass to sparsely observed target
+sequences. While MLE trained models assign high probability to plausible
+sequences given the context, the model probabilities often do not accurately
+rank-order generated sequences by quality. This has been empirically observed
+in beam search decoding as output quality degrading with large beam sizes, and
+decoding strategies benefiting from heuristics such as length normalization and
+repetition-blocking. In this work, we introduce sequence likelihood calibration
+(SLiC) where the likelihood of model generated sequences are calibrated to
+better align with reference sequences in the model's latent space. With SLiC,
+decoding heuristics become unnecessary and decoding candidates' quality
+significantly improves regardless of the decoding method. Furthermore, SLiC
+shows no sign of diminishing returns with model scale, and presents alternative
+ways to improve quality with limited training and inference budgets. With SLiC,
+we exceed or match SOTA results on a wide range of generation tasks spanning
+abstractive summarization, question generation, abstractive question answering
+and data-to-text generation, even with modest-sized models.",2022-09-30
+"Co-Writing Screenplays and Theatre Scripts with Language Models: An
+  Evaluation by Industry Professionals",2022-09-29 17:26:22+00:00,http://arxiv.org/abs/2209.14958v1,"Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, Richard Evans","cs.HC, cs.CL",table2text,"Language models are increasingly attracting interest from writers. However,
+such models lack long-range semantic coherence, limiting their usefulness for
+longform creative writing. We address this limitation by applying language
+models hierarchically, in a system we call Dramatron. By building structural
+context via prompt chaining, Dramatron can generate coherent scripts and
+screenplays complete with title, characters, story beats, location
+descriptions, and dialogue. We illustrate Dramatron's usefulness as an
+interactive co-creative system with a user study of 15 theatre and film
+industry professionals. Participants co-wrote theatre scripts and screenplays
+with Dramatron and engaged in open-ended interviews. We report critical
+reflections both from our interviewees and from independent reviewers who
+watched stagings of the works to illustrate how both Dramatron and hierarchical
+text generation could be useful for human-machine co-creativity. Finally, we
+discuss the suitability of Dramatron for co-creativity, ethical considerations
+-- including plagiarism and bias -- and participatory models for the design and
+deployment of such tools.",2022-09-29
+"DR.BENCH: Diagnostic Reasoning Benchmark for Clinical Natural Language
+  Processing",2022-09-29 16:05:53+00:00,http://arxiv.org/abs/2209.14901v1,"Yanjun Gao, Dmitriy Dligach, Timothy Miller, John Caskey, Brihat Sharma, Matthew M Churpek, Majid Afshar","cs.CL, cs.AI",table2text,"The meaningful use of electronic health records (EHR) continues to progress
+in the digital era with clinical decision support systems augmented by
+artificial intelligence. A priority in improving provider experience is to
+overcome information overload and reduce the cognitive burden so fewer medical
+errors and cognitive biases are introduced during patient care. One major type
+of medical error is diagnostic error due to systematic or predictable errors in
+judgment that rely on heuristics. The potential for clinical natural language
+processing (cNLP) to model diagnostic reasoning in humans with forward
+reasoning from data to diagnosis and potentially reduce the cognitive burden
+and medical error has not been investigated. Existing tasks to advance the
+science in cNLP have largely focused on information extraction and named entity
+recognition through classification tasks. We introduce a novel suite of tasks
+coined as Diagnostic Reasoning Benchmarks, DR.BENCH, as a new benchmark for
+developing and evaluating cNLP models with clinical diagnostic reasoning
+ability. The suite includes six tasks from ten publicly available datasets
+addressing clinical text understanding, medical knowledge reasoning, and
+diagnosis generation. DR.BENCH is the first clinical suite of tasks designed to
+be a natural language generation framework to evaluate pre-trained language
+models. Experiments with state-of-the-art pre-trained generative language
+models using large general domain models and models that were continually
+trained on a medical corpus demonstrate opportunities for improvement when
+evaluated in DR. BENCH. We share DR. BENCH as a publicly available GitLab
+repository with a systematic approach to load and evaluate models for the cNLP
+community.",2022-09-29
+Informative Text Generation from Knowledge Triples,2022-09-26 14:35:57+00:00,http://arxiv.org/abs/2209.12733v1,"Zihao Fu, Yijiang River Dong, Lidong Bing, Wai Lam",cs.CL,table2text,"As the development of the encoder-decoder architecture, researchers are able
+to study the text generation tasks with broader types of data. Among them,
+KB-to-text aims at converting a set of knowledge triples into human readable
+sentences. In the original setting, the task assumes that the input triples and
+the text are exactly aligned in the perspective of the embodied
+knowledge/information. In this paper, we extend this setting and explore how to
+facilitate the trained model to generate more informative text, namely,
+containing more information about the triple entities but not conveyed by the
+input triples. To solve this problem, we propose a novel memory augmented
+generator that employs a memory network to memorize the useful knowledge
+learned during the training and utilizes such information together with the
+input triples to generate text in the operational or testing phase. We derive a
+dataset from WebNLG for our new setting and conduct extensive experiments to
+investigate the effectiveness of our model as well as uncover the intrinsic
+characteristics of the setting.",2022-09-26
+Controllable Text Generation for Open-Domain Creativity and Fairness,2022-09-24 22:40:01+00:00,http://arxiv.org/abs/2209.12099v1,Nanyun Peng,"cs.CL, cs.AI",table2text,"Recent advances in large pre-trained language models have demonstrated strong
+results in generating natural languages and significantly improved performances
+for many natural language generation (NLG) applications such as machine
+translation and text summarization. However, when the generation tasks are more
+open-ended and the content is under-specified, existing techniques struggle to
+generate long-term coherent and creative content. Moreover, the models exhibit
+and even amplify social biases that are learned from the training corpora. This
+happens because the generation models are trained to capture the surface
+patterns (i.e. sequences of words), instead of capturing underlying semantics
+and discourse structures, as well as background knowledge including social
+norms. In this paper, I introduce our recent works on controllable text
+generation to enhance the creativity and fairness of language generation
+models. We explore hierarchical generation and constrained decoding, with
+applications to creative language generation including story, poetry, and
+figurative languages, and bias mitigation for generation models.",2022-09-24
+XF2T: Cross-lingual Fact-to-Text Generation for Low-Resource Languages,2022-09-22 18:01:27+00:00,http://arxiv.org/abs/2209.11252v1,"Shivprasad Sagare, Tushar Abhishek, Bhavyajeet Singh, Anubhav Sharma, Manish Gupta, Vasudeva Varma",cs.CL,table2text,"Multiple business scenarios require an automated generation of descriptive
+human-readable text from structured input data. Hence, fact-to-text generation
+systems have been developed for various downstream tasks like generating soccer
+reports, weather and financial reports, medical reports, person biographies,
+etc. Unfortunately, previous work on fact-to-text (F2T) generation has focused
+primarily on English mainly due to the high availability of relevant datasets.
+Only recently, the problem of cross-lingual fact-to-text (XF2T) was proposed
+for generation across multiple languages alongwith a dataset, XALIGN for eight
+languages. However, there has been no rigorous work on the actual XF2T
+generation problem. We extend XALIGN dataset with annotated data for four more
+languages: Punjabi, Malayalam, Assamese and Oriya. We conduct an extensive
+study using popular Transformer-based text generation models on our extended
+multi-lingual dataset, which we call XALIGNV2. Further, we investigate the
+performance of different text generation strategies: multiple variations of
+pretraining, fact-aware embeddings and structure-aware input encoding. Our
+extensive experiments show that a multi-lingual mT5 model which uses fact-aware
+embeddings with structure-aware input encoding leads to best results on average
+across the twelve languages. We make our code, dataset and model publicly
+available, and hope that this will help advance further research in this
+critical area.",2022-09-22
+Selective Token Generation for Few-shot Natural Language Generation,2022-09-17 00:48:52+00:00,http://arxiv.org/abs/2209.08206v1,"Daejin Jo, Taehwan Kwon, Eun-Sol Kim, Sungwoong Kim","cs.CL, cs.LG",table2text,"Natural language modeling with limited training data is a challenging
+problem, and many algorithms make use of large-scale pretrained language models
+(PLMs) for this due to its great generalization ability. Among them, additive
+learning that incorporates a task-specific adapter on top of the fixed
+large-scale PLM has been popularly used in the few-shot setting. However, this
+added adapter is still easy to disregard the knowledge of the PLM especially
+for few-shot natural language generation (NLG) since an entire sequence is
+usually generated by only the newly trained adapter. Therefore, in this work,
+we develop a novel additive learning algorithm based on reinforcement learning
+(RL) that selectively outputs language tokens between the task-general PLM and
+the task-specific adapter during both training and inference. This output token
+selection over the two generators allows the adapter to take into account
+solely the task-relevant parts in sequence generation, and therefore makes it
+more robust to overfitting as well as more stable in RL training. In addition,
+to obtain the complementary adapter from the PLM for each few-shot task, we
+exploit a separate selecting module that is also simultaneously trained using
+RL. Experimental results on various few-shot NLG tasks including question
+answering, data-to-text generation and text summarization demonstrate that the
+proposed selective token generation significantly outperforms the previous
+additive learning algorithms based on the PLMs.",2022-09-17
+"Adaptive Natural Language Generation for Task-oriented Dialogue via
+  Reinforcement Learning",2022-09-16 12:08:57+00:00,http://arxiv.org/abs/2209.07873v1,"Atsumoto Ohashi, Ryuichiro Higashinaka","cs.CL, cs.AI",table2text,"When a natural language generation (NLG) component is implemented in a
+real-world task-oriented dialogue system, it is necessary to generate not only
+natural utterances as learned on training data but also utterances adapted to
+the dialogue environment (e.g., noise from environmental sounds) and the user
+(e.g., users with low levels of understanding ability). Inspired by recent
+advances in reinforcement learning (RL) for language generation tasks, we
+propose ANTOR, a method for Adaptive Natural language generation for
+Task-Oriented dialogue via Reinforcement learning. In ANTOR, a natural language
+understanding (NLU) module, which corresponds to the user's understanding of
+system utterances, is incorporated into the objective function of RL. If the
+NLG's intentions are correctly conveyed to the NLU, which understands a
+system's utterances, the NLG is given a positive reward. We conducted
+experiments on the MultiWOZ dataset, and we confirmed that ANTOR could generate
+adaptive utterances against speech recognition errors and the different
+vocabulary levels of users.",2022-09-16
+"TwHIN-BERT: A Socially-Enriched Pre-trained Language Model for
+  Multilingual Tweet Representations",2022-09-15 19:01:21+00:00,http://arxiv.org/abs/2209.07562v1,"Xinyang Zhang, Yury Malkov, Omar Florez, Serim Park, Brian McWilliams, Jiawei Han, Ahmed El-Kishky",cs.CL,table2text,"We present TwHIN-BERT, a multilingual language model trained on in-domain
+data from the popular social network Twitter. TwHIN-BERT differs from prior
+pre-trained language models as it is trained with not only text-based
+self-supervision, but also with a social objective based on the rich social
+engagements within a Twitter heterogeneous information network (TwHIN). Our
+model is trained on 7 billion tweets covering over 100 distinct languages
+providing a valuable representation to model short, noisy, user-generated text.
+We evaluate our model on a variety of multilingual social recommendation and
+semantic understanding tasks and demonstrate significant metric improvement
+over established pre-trained language models. We will freely open-source
+TwHIN-BERT and our curated hashtag prediction and social engagement benchmark
+datasets to the research community.",2022-09-15
+Distribution Aware Metrics for Conditional Natural Language Generation,2022-09-15 17:58:13+00:00,http://arxiv.org/abs/2209.07518v1,"David M Chan, Yiming Ni, Austin Myers, Sudheendra Vijayanarasimhan, David A Ross, John Canny","cs.CL, cs.AI, cs.CV, cs.LG",table2text,"Traditional automated metrics for evaluating conditional natural language
+generation use pairwise comparisons between a single generated text and the
+best-matching gold-standard ground truth text. When multiple ground truths are
+available, scores are aggregated using an average or max operation across
+references. While this approach works well when diversity in the ground truth
+data (i.e. dispersion of the distribution of conditional texts) can be ascribed
+to noise, such as in automated speech recognition, it does not allow for robust
+evaluation in the case where diversity in the ground truths represents signal
+for the model. In this work we argue that existing metrics are not appropriate
+for domains such as visual description or summarization where ground truths are
+semantically diverse, and where the diversity in those captions captures useful
+additional information about the context. We propose a novel paradigm for
+multi-candidate evaluation of conditional language generation models, and a new
+family of metrics that compare the distributions of reference and
+model-generated caption sets using small sample sets of each. We demonstrate
+the utility of our approach with a case study in visual description: where we
+show that existing models optimize for single-description quality over
+diversity, and gain some insights into how sampling methods and temperature
+impact description quality and diversity.",2022-09-15
+vec2text with Round-Trip Translations,2022-09-14 17:20:18+00:00,http://arxiv.org/abs/2209.06792v1,"Geoffrey Cideron, Sertan Girgin, Anton Raichuk, Olivier Pietquin, Olivier Bachem, Léonard Hussenot","cs.CL, cs.LG",table2text,"We investigate models that can generate arbitrary natural language text (e.g.
+all English sentences) from a bounded, convex and well-behaved control space.
+We call them universal vec2text models. Such models would allow making semantic
+decisions in the vector space (e.g. via reinforcement learning) while the
+natural language generation is handled by the vec2text model. We propose four
+desired properties: universality, diversity, fluency, and semantic structure,
+that such vec2text models should possess and we provide quantitative and
+qualitative methods to assess them. We implement a vec2text model by adding a
+bottleneck to a 250M parameters Transformer model and training it with an
+auto-encoding objective on 400M sentences (10B tokens) extracted from a massive
+web corpus. We propose a simple data augmentation technique based on round-trip
+translations and show in extensive experiments that the resulting vec2text
+model surprisingly leads to vector spaces that fulfill our four desired
+properties and that this model strongly outperforms both standard and denoising
+auto-encoders.",2022-09-14
+LibertyMFD: A Lexicon to Assess the Moral Foundation of Liberty,2022-09-14 16:14:54+00:00,http://arxiv.org/abs/2209.06750v1,"Oscar Araque, Lorenzo Gatti, Kyriaki Kalimeri",cs.CL,table2text,"Quantifying the moral narratives expressed in the user-generated text, news,
+or public discourses is fundamental for understanding individuals' concerns and
+viewpoints and preventing violent protests and social polarisation. The Moral
+Foundation Theory (MFT) was developed to operationalise morality in a
+five-dimensional scale system. Recent developments of the theory urged for the
+introduction of a new foundation, the Liberty Foundation. Being only recently
+added to the theory, there are no available linguistic resources to assess
+whether liberty is present in text corpora. Given its importance to current
+social issues such as the vaccination debate, we propose two data-driven
+approaches, deriving two candidate lexicons generated based on aligned
+documents from online news sources with different worldviews. After extensive
+experimentation, we contribute to the research community a novel lexicon that
+assesses the liberty moral foundation in the way individuals with contrasting
+viewpoints express themselves through written text. The LibertyMFD dictionary
+can be a valuable tool for policymakers to understand diverse viewpoints on
+controversial social issues such as vaccination, abortion, or even uprisings,
+as they happen and on a large scale.",2022-09-14
+"OPAL: Ontology-Aware Pretrained Language Model for End-to-End
+  Task-Oriented Dialogue",2022-09-10 04:38:27+00:00,http://arxiv.org/abs/2209.04595v1,"Zhi Chen, Yuncong Liu, Lu Chen, Su Zhu, Mengyue Wu, Kai Yu",cs.CL,table2text,"This paper presents an ontology-aware pretrained language model (OPAL) for
+end-to-end task-oriented dialogue (TOD). Unlike chit-chat dialogue models,
+task-oriented dialogue models fulfill at least two task-specific modules:
+dialogue state tracker (DST) and response generator (RG). The dialogue state
+consists of the domain-slot-value triples, which are regarded as the user's
+constraints to search the domain-related databases. The large-scale
+task-oriented dialogue data with the annotated structured dialogue state
+usually are inaccessible. It prevents the development of the pretrained
+language model for the task-oriented dialogue. We propose a simple yet
+effective pretraining method to alleviate this problem, which consists of two
+pretraining phases. The first phase is to pretrain on large-scale contextual
+text data, where the structured information of the text is extracted by the
+information extracting tool. To bridge the gap between the pretraining method
+and downstream tasks, we design two pretraining tasks: ontology-like triple
+recovery and next-text generation, which simulates the DST and RG,
+respectively. The second phase is to fine-tune the pretrained model on the TOD
+data. The experimental results show that our proposed method achieves an
+exciting boost and get competitive performance even without any TOD data on
+CamRest676 and MultiWOZ benchmarks.",2022-09-10
+"Layer or Representation Space: What makes BERT-based Evaluation Metrics
+  Robust?",2022-09-06 09:10:54+00:00,http://arxiv.org/abs/2209.02317v2,"Doan Nam Long Vu, Nafise Sadat Moosavi, Steffen Eger",cs.CL,table2text,"The evaluation of recent embedding-based evaluation metrics for text
+generation is primarily based on measuring their correlation with human
+evaluations on standard benchmarks. However, these benchmarks are mostly from
+similar domains to those used for pretraining word embeddings. This raises
+concerns about the (lack of) generalization of embedding-based metrics to new
+and noisy domains that contain a different vocabulary than the pretraining
+data. In this paper, we examine the robustness of BERTScore, one of the most
+popular embedding-based metrics for text generation. We show that (a) an
+embedding-based metric that has the highest correlation with human evaluations
+on a standard benchmark can have the lowest correlation if the amount of input
+noise or unknown tokens increases, (b) taking embeddings from the first layer
+of pretrained models improves the robustness of all metrics, and (c) the
+highest robustness is achieved when using character-level embeddings, instead
+of token-based embeddings, from the first layer of the pretrained model.",2022-09-06
+"Every picture tells a story: Image-grounded controllable stylistic story
+  generation",2022-09-04 15:07:53+00:00,http://arxiv.org/abs/2209.01638v1,"Holy Lovenia, Bryan Wilie, Romain Barraud, Samuel Cahyawijaya, Willy Chung, Pascale Fung",cs.CL,table2text,"Generating a short story out of an image is arduous. Unlike image captioning,
+story generation from an image poses multiple challenges: preserving the story
+coherence, appropriately assessing the quality of the story, steering the
+generated story into a certain style, and addressing the scarcity of
+image-story pair reference datasets limiting supervision during training. In
+this work, we introduce Plug-and-Play Story Teller (PPST) and improve
+image-to-story generation by: 1) alleviating the data scarcity problem by
+incorporating large pre-trained models, namely CLIP and GPT-2, to facilitate a
+fluent image-to-text generation with minimal supervision, and 2) enabling a
+more style-relevant generation by incorporating stylistic adapters to control
+the story generation. We conduct image-to-story generation experiments with
+non-styled, romance-styled, and action-styled PPST approaches and compare our
+generated stories with those of previous work over three aspects, i.e., story
+coherence, image-story relevance, and style fitness, using both automatic and
+human evaluation. The results show that PPST improves story coherence and has
+better image-story relevance, but has yet to be adequately stylistic.",2022-09-04
+Multi-Modal Experience Inspired AI Creation,2022-09-02 11:50:41+00:00,http://arxiv.org/abs/2209.02427v1,"Qian Cao, Xu Chen, Ruihua Song, Hao Jiang, Guang Yang, Zhao Cao",cs.AI,table2text,"AI creation, such as poem or lyrics generation, has attracted increasing
+attention from both industry and academic communities, with many promising
+models proposed in the past few years. Existing methods usually estimate the
+outputs based on single and independent visual or textual information. However,
+in reality, humans usually make creations according to their experiences, which
+may involve different modalities and be sequentially correlated. To model such
+human capabilities, in this paper, we define and solve a novel AI creation
+problem based on human experiences. More specifically, we study how to generate
+texts based on sequential multi-modal information. Compared with the previous
+works, this task is much more difficult because the designed model has to well
+understand and adapt the semantics among different modalities and effectively
+convert them into the output in a sequential manner. To alleviate these
+difficulties, we firstly design a multi-channel sequence-to-sequence
+architecture equipped with a multi-modal attention network. For more effective
+optimization, we then propose a curriculum negative sampling strategy tailored
+for the sequential inputs. To benchmark this problem and demonstrate the
+effectiveness of our model, we manually labeled a new multi-modal experience
+dataset. With this dataset, we conduct extensive experiments by comparing our
+model with a series of representative baselines, where we can demonstrate
+significant improvements in our model based on both automatic and
+human-centered metrics. The code and data are available at:
+\url{https://github.com/Aman-4-Real/MMTG}.",2022-09-02
+A Spanish dataset for Targeted Sentiment Analysis of political headlines,2022-08-30 01:30:30+00:00,http://arxiv.org/abs/2208.13947v1,"Tomás Alves Salgueiro, Emilio Recart Zapata, Damián Furman, Juan Manuel Pérez, Pablo Nicolás Fernández Larrosa",cs.CL,table2text,"Subjective texts have been studied by several works as they can induce
+certain behaviours in their users. Most work focuses on user-generated texts in
+social networks, but some other texts also comprise opinions on certain topics
+and could influence judgement criteria during political decisions. In this
+work, we address the task of Targeted Sentiment Analysis for the domain of news
+headlines, published by the main outlets during the 2019 Argentinean
+Presidential Elections. For this purpose, we present a polarity dataset of
+1,976 headlines mentioning candidates in the 2019 elections at the target
+level. Preliminary experiments with state-of-the-art classification algorithms
+based on pre-trained linguistic models suggest that target information is
+helpful for this task. We make our data and pre-trained models publicly
+available.",2022-08-30
+"StoryTrans: Non-Parallel Story Author-Style Transfer with Discourse
+  Representations and Content Enhancing",2022-08-29 08:47:49+00:00,http://arxiv.org/abs/2208.13423v1,"Xuekai Zhu, Jian Guan, Minlie Huang, Juan Liu",cs.CL,table2text,"Non-parallel text style transfer is an important task in natural language
+generation. However, previous studies concentrate on the token or sentence
+level, such as sentence sentiment and formality transfer, but neglect long
+style transfer at the discourse level. Long texts usually involve more
+complicated author linguistic preferences such as discourse structures than
+sentences. In this paper, we formulate the task of non-parallel story
+author-style transfer, which requires transferring an input story into a
+specified author style while maintaining source semantics. To tackle this
+problem, we propose a generation model, named StoryTrans, which leverages
+discourse representations to capture source content information and transfer
+them to target styles with learnable style embeddings. We use an additional
+training objective to disentangle stylistic features from the learned discourse
+representation to prevent the model from degenerating to an auto-encoder.
+Moreover, to enhance content preservation, we design a mask-and-fill framework
+to explicitly fuse style-specific keywords of source texts into generation.
+Furthermore, we constructed new datasets for this task in Chinese and English,
+respectively. Extensive experiments show that our model outperforms strong
+baselines in overall performance of style transfer and content preservation.",2022-08-29
+Nearest Neighbor Non-autoregressive Text Generation,2022-08-26 08:21:21+00:00,http://arxiv.org/abs/2208.12496v1,"Ayana Niwa, Sho Takase, Naoaki Okazaki",cs.CL,table2text,"Non-autoregressive (NAR) models can generate sentences with less computation
+than autoregressive models but sacrifice generation quality. Previous studies
+addressed this issue through iterative decoding. This study proposes using
+nearest neighbors as the initial state of an NAR decoder and editing them
+iteratively. We present a novel training strategy to learn the edit operations
+on neighbors to improve NAR text generation. Experimental results show that the
+proposed method (NeighborEdit) achieves higher translation quality (1.69 points
+higher than the vanilla Transformer) with fewer decoding iterations
+(one-eighteenth fewer iterations) on the JRC-Acquis En-De dataset, the common
+benchmark dataset for machine translation using nearest neighbors. We also
+confirm the effectiveness of the proposed method on a data-to-text task
+(WikiBio). In addition, the proposed method outperforms an NAR baseline on the
+WMT'14 En-De dataset. We also report analysis on neighbor examples used in the
+proposed method.",2022-08-26
+"GenTUS: Simulating User Behaviour and Language in Task-oriented
+  Dialogues with Generative Transformers",2022-08-23 09:01:17+00:00,http://arxiv.org/abs/2208.10817v1,"Hsien-Chin Lin, Christian Geishauser, Shutong Feng, Nurul Lubis, Carel van Niekerk, Michael Heck, Milica Gašić",cs.CL,table2text,"User simulators (USs) are commonly used to train task-oriented dialogue
+systems (DSs) via reinforcement learning. The interactions often take place on
+semantic level for efficiency, but there is still a gap from semantic actions
+to natural language, which causes a mismatch between training and deployment
+environment. Incorporating a natural language generation (NLG) module with USs
+during training can partly deal with this problem. However, since the policy
+and NLG of USs are optimised separately, these simulated user utterances may
+not be natural enough in a given context. In this work, we propose a generative
+transformer-based user simulator (GenTUS). GenTUS consists of an
+encoder-decoder structure, which means it can optimise both the user policy and
+natural language generation jointly. GenTUS generates both semantic actions and
+natural language utterances, preserving interpretability and enhancing language
+variation. In addition, by representing the inputs and outputs as word
+sequences and by using a large pre-trained language model we can achieve
+generalisability in feature representation. We evaluate GenTUS with automatic
+metrics and human evaluation. Our results show that GenTUS generates more
+natural language and is able to transfer to an unseen ontology in a zero-shot
+fashion. In addition, its behaviour can be further shaped with reinforcement
+learning opening the door to training specialised user simulators.",2022-08-23
+Few-Shot Table-to-Text Generation with Prefix-Controlled Generator,2022-08-23 03:23:26+00:00,http://arxiv.org/abs/2208.10709v1,"Yutao Luo, Menghua Lu, Gongshen Liu, Shilin Wang",cs.CL,table2text,"Neural table-to-text generation approaches are data-hungry, limiting their
+adaptation for low-resource real-world applications. Previous works mostly
+resort to Pre-trained Language Models (PLMs) to generate fluent summaries of a
+table. However, they often contain hallucinated contents due to the
+uncontrolled nature of PLMs. Moreover, the topological differences between
+tables and sequences are rarely studied. Last but not least, fine-tuning on
+PLMs with a handful of instances may lead to over-fitting and catastrophic
+forgetting. To alleviate these problems, we propose a prompt-based approach,
+Prefix-Controlled Generator (i.e., PCG), for few-shot table-to-text generation.
+We prepend a task-specific prefix for a PLM to make the table structure better
+fit the pre-trained input. In addition, we generate an input-specific prefix to
+control the factual contents and word order of the generated text. Both
+automatic and human evaluations on different domains (humans, books and songs)
+of the Wikibio dataset show substantial improvements over baseline approaches.",2022-08-23
+Automatic tagging of knowledge points for K12 math problems,2022-08-21 11:11:30+00:00,http://arxiv.org/abs/2208.09867v1,"Xiaolu Wang, Ziqi Ding, Liangyu Chen",cs.CL,table2text,"Automatic tagging of knowledge points for practice problems is the basis for
+managing question bases and improving the automation and intelligence of
+education. Therefore, it is of great practical significance to study the
+automatic tagging technology for practice problems. However, there are few
+studies on the automatic tagging of knowledge points for math problems. Math
+texts have more complex structures and semantics compared with general texts
+because they contain unique elements such as symbols and formulas. Therefore,
+it is difficult to meet the accuracy requirement of knowledge point prediction
+by directly applying the text classification techniques in general domains. In
+this paper, K12 math problems taken as the research object, the LABS model
+based on label-semantic attention and multi-label smoothing combining textual
+features is proposed to improve the automatic tagging of knowledge points for
+math problems. The model combines the text classification techniques in general
+domains and the unique features of math texts. The results show that the models
+using label-semantic attention or multi-label smoothing perform better on
+precision, recall, and F1-score metrics than the traditional BiLSTM model,
+while the LABS model using both performs best. It can be seen that label
+information can guide the neural networks to extract meaningful information
+from the problem text, which improves the text classification performance of
+the model. Moreover, multi-label smoothing combining textual features can fully
+explore the relationship between text and labels, improve the model's
+prediction ability for new data and improve the model's classification
+accuracy.",2022-08-21
+"Beyond Text Generation: Supporting Writers with Continuous Automatic
+  Text Summaries",2022-08-19 13:09:56+00:00,http://arxiv.org/abs/2208.09323v1,"Hai Dang, Karim Benharrak, Florian Lehmann, Daniel Buschek","cs.HC, cs.CL, H.5.2; I.2.7",table2text,"We propose a text editor to help users plan, structure and reflect on their
+writing process. It provides continuously updated paragraph-wise summaries as
+margin annotations, using automatic text summarization. Summary levels range
+from full text, to selected (central) sentences, down to a collection of
+keywords. To understand how users interact with this system during writing, we
+conducted two user studies (N=4 and N=8) in which people wrote analytic essays
+about a given topic and article. As a key finding, the summaries gave users an
+external perspective on their writing and helped them to revise the content and
+scope of their drafted paragraphs. People further used the tool to quickly gain
+an overview of the text and developed strategies to integrate insights from the
+automated summaries. More broadly, this work explores and highlights the value
+of designing AI tools for writers, with Natural Language Processing (NLP)
+capabilities that go beyond direct text generation and correction.",2022-08-19
+"Coarse-to-Fine: Hierarchical Multi-task Learning for Natural Language
+  Understanding",2022-08-19 02:46:20+00:00,http://arxiv.org/abs/2208.09129v1,"Zhaoye Fei, Yu Tian, Yongkang Wu, Xinyu Zhang, Yutao Zhu, Zheng Liu, Jiawen Wu, Dejiang Kong, Ruofei Lai, Zhao Cao, Zhicheng Dou, Xipeng Qiu",cs.CL,table2text,"Generalized text representations are the foundation of many natural language
+understanding tasks. To fully utilize the different corpus, it is inevitable
+that models need to understand the relevance among them. However, many methods
+ignore the relevance and adopt a single-channel model (a coarse paradigm)
+directly for all tasks, which lacks enough rationality and interpretation. In
+addition, some existing works learn downstream tasks by stitches skill block(a
+fine paradigm), which might cause irrationalresults due to its redundancy and
+noise. Inthis work, we first analyze the task correlation through three
+different perspectives, i.e., data property, manual design, and model-based
+relevance, based on which the similar tasks are grouped together. Then, we
+propose a hierarchical framework with a coarse-to-fine paradigm, with the
+bottom level shared to all the tasks, the mid-level divided to different
+groups, and the top-level assigned to each of the tasks. This allows our model
+to learn basic language properties from all tasks, boost performance on
+relevant tasks, and reduce the negative impact from irrelevant tasks. Our
+experiments on 13 benchmark datasets across five natural language understanding
+tasks demonstrate the superiority of our method.",2022-08-19
+"Performance Optimization for Semantic Communications: An Attention-based
+  Reinforcement Learning Approach",2022-08-17 11:39:16+00:00,http://arxiv.org/abs/2208.08239v1,"Yining Wang, Mingzhe Chen, Tao Luo, Walid Saad, Dusit Niyato, H. Vincent Poor, Shuguang Cui","cs.IT, cs.AI, math.IT",table2text,"In this paper, a semantic communication framework is proposed for textual
+data transmission. In the studied model, a base station (BS) extracts the
+semantic information from textual data, and transmits it to each user. The
+semantic information is modeled by a knowledge graph (KG) that consists of a
+set of semantic triples. After receiving the semantic information, each user
+recovers the original text using a graph-to-text generation model. To measure
+the performance of the considered semantic communication framework, a metric of
+semantic similarity (MSS) that jointly captures the semantic accuracy and
+completeness of the recovered text is proposed. Due to wireless resource
+limitations, the BS may not be able to transmit the entire semantic information
+to each user and satisfy the transmission delay constraint. Hence, the BS must
+select an appropriate resource block for each user as well as determine and
+transmit part of the semantic information to the users. As such, we formulate
+an optimization problem whose goal is to maximize the total MSS by jointly
+optimizing the resource allocation policy and determining the partial semantic
+information to be transmitted. To solve this problem, a
+proximal-policy-optimization-based reinforcement learning (RL) algorithm
+integrated with an attention network is proposed. The proposed algorithm can
+evaluate the importance of each triple in the semantic information using an
+attention network and then, build a relationship between the importance
+distribution of the triples in the semantic information and the total MSS.
+Compared to traditional RL algorithms, the proposed algorithm can dynamically
+adjust its learning rate thus ensuring convergence to a locally optimal
+solution.",2022-08-17
+High Recall Data-to-text Generation with Progressive Edit,2022-08-09 06:22:05+00:00,http://arxiv.org/abs/2208.04558v1,"Choonghan Kim, Gary Geunbae Lee","cs.CL, cs.AI",table2text,"Data-to-text (D2T) generation is the task of generating texts from structured
+inputs. We observed that when the same target sentence was repeated twice,
+Transformer (T5) based model generates an output made up of asymmetric
+sentences from structured inputs. In other words, these sentences were
+different in length and quality. We call this phenomenon ""Asymmetric
+Generation"" and we exploit this in D2T generation. Once asymmetric sentences
+are generated, we add the first part of the output with a no-repeated-target.
+As this goes through progressive edit (ProEdit), the recall increases. Hence,
+this method better covers structured inputs than before editing. ProEdit is a
+simple but effective way to improve performance in D2T generation and it
+achieves the new stateof-the-art result on the ToTTo dataset",2022-08-09
+"Suggestion Lists vs. Continuous Generation: Interaction Design for
+  Writing with Generative Models on Mobile Devices Affect Text Length, Wording
+  and Perceived Authorship",2022-08-01 13:57:11+00:00,http://arxiv.org/abs/2208.00870v1,"Florian Lehmann, Niklas Markert, Hai Dang, Daniel Buschek","cs.HC, cs.AI",table2text,"Neural language models have the potential to support human writing. However,
+questions remain on their integration and influence on writing and output. To
+address this, we designed and compared two user interfaces for writing with AI
+on mobile devices, which manipulate levels of initiative and control: 1)
+Writing with continuously generated text, the AI adds text word-by-word and
+user steers. 2) Writing with suggestions, the AI suggests phrases and user
+selects from a list. In a supervised online study (N=18), participants used
+these prototypes and a baseline without AI. We collected touch interactions,
+ratings on inspiration and authorship, and interview data. With AI suggestions,
+people wrote less actively, yet felt they were the author. Continuously
+generated text reduced this perceived authorship, yet increased editing
+behavior. In both designs, AI increased text length and was perceived to
+influence wording. Our findings add new empirical evidence on the impact of UI
+design decisions on user experience and output with co-creative systems.",2022-08-01
+"LaKo: Knowledge-driven Visual Question Answering via Late
+  Knowledge-to-Text Injection",2022-07-26 13:29:51+00:00,http://arxiv.org/abs/2207.12888v1,"Zhuo Chen, Yufeng Huang, Jiaoyan Chen, Yuxia Geng, Yin Fang, Jeff Pan, Ningyu Zhang, Wen Zhang","cs.CV, cs.AI",table2text,"Visual question answering (VQA) often requires an understanding of visual
+concepts and language semantics, which relies on external knowledge. Most
+existing methods exploit pre-trained language models or/and unstructured text,
+but the knowledge in these resources are often incomplete and noisy. Some
+methods prefer to use knowledge graphs (KGs) which often have intensive
+structured knowledge, but the research is still quite preliminary. In this
+paper, we propose LaKo, a knowledge-driven VQA method via Late
+Knowledge-to-text Injection. To effectively incorporate an external KG, we
+transfer triples into text and propose a late injection mechanism. Finally we
+address VQA as a text generation task with an effective encoder-decoder
+paradigm. In the evaluation with OKVQA datasets, our method achieves
+state-of-the-art results.",2022-07-26
+Innovations in Neural Data-to-text Generation,2022-07-25 23:21:48+00:00,http://arxiv.org/abs/2207.12571v1,"Mandar Sharma, Ajay Gogineni, Naren Ramakrishnan",cs.CL,table2text,"The neural boom that has sparked natural language processing (NLP) research
+through the last decade has similarly led to significant innovations in
+data-to-text generation (DTG). This survey offers a consolidated view into the
+neural DTG paradigm with a structured examination of the approaches, benchmark
+datasets, and evaluation protocols. This survey draws boundaries separating DTG
+from the rest of the natural language generation (NLG) landscape, encompassing
+an up-to-date synthesis of the literature, and highlighting the stages of
+technological adoption from within and outside the greater NLG umbrella. With
+this holistic view, we highlight promising avenues for DTG research that not
+only focus on the design of linguistically capable systems but also systems
+that exhibit fairness and accountability.",2022-07-25
+"Leveraging Natural Supervision for Language Representation Learning and
+  Generation",2022-07-21 17:26:03+00:00,http://arxiv.org/abs/2207.10617v1,Mingda Chen,cs.CL,table2text,"Recent breakthroughs in Natural Language Processing (NLP) have been driven by
+language models trained on a massive amount of plain text. While powerful,
+deriving supervision from textual resources is still an open question. For
+example, language model pretraining often neglects the rich, freely-available
+structures in textual data. In this thesis, we describe three lines of work
+that seek to improve the training and evaluation of neural models using
+naturally-occurring supervision.
+  We first investigate self-supervised training losses to help enhance the
+performance of pretrained language models for various NLP tasks. Specifically,
+we alter the sentence prediction loss to make it better suited to other
+pretraining losses and more challenging to solve. We design an intermediate
+finetuning step that uses self-supervised training to promote models' ability
+in cross-task generalization.
+  Then we describe methods to leverage the structures in Wikipedia and
+paraphrases. In particular, we propose training losses to exploit hyperlinks,
+article structures, and article category graphs for entity-, discourse-,
+entailment-related knowledge. We propose a framework that uses paraphrase pairs
+to disentangle semantics and syntax in sentence representations. We extend the
+framework for a novel generation task that controls the syntax of output text
+with a sentential exemplar.
+  Lastly, we discuss our work on tailoring textual resources for establishing
+challenging evaluation tasks. We introduce three datasets by defining novel
+tasks using various fan-contributed websites, including a long-form
+data-to-text generation dataset, a screenplay summarization dataset, and a
+long-form story generation dataset. These datasets have unique characteristics
+offering challenges to future work in their respective task settings.",2022-07-21
+"Neural Data-to-Text Generation Based on Small Datasets: Comparing the
+  Added Value of Two Semi-Supervised Learning Approaches on Top of a Large
+  Language Model",2022-07-14 11:53:04+00:00,http://arxiv.org/abs/2207.06839v1,"Chris van der Lee, Thiago Castro Ferreira, Chris Emmery, Travis Wiltshire, Emiel Krahmer",cs.CL,table2text,"This study discusses the effect of semi-supervised learning in combination
+with pretrained language models for data-to-text generation. It is not known
+whether semi-supervised learning is still helpful when a large-scale language
+model is also supplemented. This study aims to answer this question by
+comparing a data-to-text system only supplemented with a language model, to two
+data-to-text systems that are additionally enriched by a data augmentation or a
+pseudo-labeling semi-supervised learning approach.
+  Results show that semi-supervised learning results in higher scores on
+diversity metrics. In terms of output quality, extending the training set of a
+data-to-text system with a language model using the pseudo-labeling approach
+did increase text quality scores, but the data augmentation approach yielded
+similar scores to the system without training set extension. These results
+indicate that semi-supervised learning approaches can bolster output quality
+and diversity, even when a language model is also present.",2022-07-14
+"Fuse It More Deeply! A Variational Transformer with Layer-Wise Latent
+  Variable Inference for Text Generation",2022-07-13 11:27:46+00:00,http://arxiv.org/abs/2207.06130v1,"Jinyi Hu, Xiaoyuan Yi, Wenhao Li, Maosong Sun, Xing Xie",cs.CL,table2text,"The past several years have witnessed Variational Auto-Encoder's superiority
+in various text generation tasks. However, due to the sequential nature of the
+text, auto-regressive decoders tend to ignore latent variables and then reduce
+to simple language models, known as the KL vanishing problem, which would
+further deteriorate when VAE is combined with Transformer-based structures. To
+ameliorate this problem, we propose DELLA, a novel variational Transformer
+framework. DELLA learns a series of layer-wise latent variables with each
+inferred from those of lower layers and tightly coupled with the hidden states
+by low-rank tensor product. In this way, DELLA forces these posterior latent
+variables to be fused deeply with the whole computation path and hence
+incorporate more information. We theoretically demonstrate that our method can
+be regarded as entangling latent variables to avoid posterior information
+decrease through layers, enabling DELLA to get higher non-zero KL values even
+without any annealing or thresholding tricks. Experiments on four unconditional
+and three conditional generation tasks show that DELLA could better alleviate
+KL vanishing and improve both quality and diversity compared to several strong
+baselines.",2022-07-13
+Towards Multimodal Vision-Language Models Generating Non-Generic Text,2022-07-09 01:56:35+00:00,http://arxiv.org/abs/2207.04174v1,"Wes Robbins, Zanyar Zohourianshahzadi, Jugal Kalita","cs.CV, cs.AI",table2text,"Vision-language models can assess visual context in an image and generate
+descriptive text. While the generated text may be accurate and syntactically
+correct, it is often overly general. To address this, recent work has used
+optical character recognition to supplement visual information with text
+extracted from an image. In this work, we contend that vision-language models
+can benefit from additional information that can be extracted from an image,
+but are not used by current models. We modify previous multimodal frameworks to
+accept relevant information from any number of auxiliary classifiers. In
+particular, we focus on person names as an additional set of tokens and create
+a novel image-caption dataset to facilitate captioning with person names. The
+dataset, Politicians and Athletes in Captions (PAC), consists of captioned
+images of well-known people in context. By fine-tuning pretrained models with
+this dataset, we demonstrate a model that can naturally integrate facial
+recognition tokens into generated text by training on limited data. For the PAC
+dataset, we provide a discussion on collection and baseline benchmark scores.",2022-07-09
+"TalkToModel: Understanding Machine Learning Models With Open Ended
+  Dialogues",2022-07-08 23:42:56+00:00,http://arxiv.org/abs/2207.04154v1,"Dylan Slack, Satyapriya Krishna, Himabindu Lakkaraju, Sameer Singh","cs.LG, cs.AI, cs.CL",table2text,"Machine Learning (ML) models are increasingly used to make critical decisions
+in real-world applications, yet they have also become more complex, making them
+harder to understand. To this end, several techniques to explain model
+predictions have been proposed. However, practitioners struggle to leverage
+explanations because they often do not know which to use, how to interpret the
+results, and may have insufficient data science experience to obtain
+explanations. In addition, most current works focus on generating one-shot
+explanations and do not allow users to follow up and ask fine-grained questions
+about the explanations, which can be frustrating. In this work, we address
+these challenges by introducing TalkToModel: an open-ended dialogue system for
+understanding machine learning models. Specifically, TalkToModel comprises
+three key components: 1) a natural language interface for engaging in
+dialogues, making understanding ML models highly accessible, 2) a dialogue
+engine that adapts to any tabular model and dataset, interprets natural
+language, maps it to appropriate operations (e.g., feature importance
+explanations, counterfactual explanations, showing model errors), and generates
+text responses, and 3) an execution component that run the operations and
+ensures explanations are accurate. We carried out quantitative and human
+subject evaluations of TalkToModel. We found the system understands user
+questions on novel datasets and models with high accuracy, demonstrating the
+system's capacity to generalize to new situations. In human evaluations, 73% of
+healthcare workers (e.g., doctors and nurses) agreed they would use TalkToModel
+over baseline point-and-click systems, and 84.6% of ML graduate students agreed
+TalkToModel was easier to use.",2022-07-08
+Can Language Models Make Fun? A Case Study in Chinese Comical Crosstalk,2022-07-02 04:30:07+00:00,http://arxiv.org/abs/2207.00735v1,"Benyou Wang, Xiangbo Wu, Xiaokang Liu, Jianquan Li, Prayag Tiwari, Qianqian Xie",cs.CL,table2text,"Language is the principal tool for human communication, in which humor is one
+of the most attractive parts. Producing natural language like humans using
+computers, a.k.a, Natural Language Generation (NLG), has been widely used for
+dialogue systems, chatbots, machine translation, as well as computer-aid
+creation e.g., idea generations, scriptwriting. However, the humor aspect of
+natural language is relatively under-investigated, especially in the age of
+pre-trained language models. In this work, we aim to preliminarily test whether
+NLG can generate humor as humans do. We build a new dataset consisting of
+numerous digitized Chinese Comical Crosstalk scripts (called C$^3$ in short),
+which is for a popular Chinese performing art called `Xiangsheng' since 1800s.
+(For convenience for non-Chinese speakers, we called `crosstalk' for
+`Xiangsheng' in this paper.) We benchmark various generation approaches
+including training-from-scratch Seq2seq, fine-tuned middle-scale PLMs, and
+large-scale PLMs (with and without fine-tuning). Moreover, we also conduct a
+human assessment, showing that 1) large-scale pretraining largely improves
+crosstalk generation quality; and 2) even the scripts generated from the best
+PLM is far from what we expect, with only 65% quality of human-created
+crosstalk. We conclude, humor generation could be largely improved using
+large-scaled PLMs, but it is still in its infancy.
+  The data and benchmarking code is publicly available in
+\url{https://github.com/anonNo2/crosstalk-generation}.",2022-07-02
+"Syntax Controlled Knowledge Graph-to-Text Generation with Order and
+  Semantic Consistency",2022-07-02 02:42:14+00:00,http://arxiv.org/abs/2207.00719v1,"Jin Liu, Chongfeng Fan, Fengyu Zhou, Huijuan Xu",cs.AI,table2text,"The knowledge graph (KG) stores a large amount of structural knowledge, while
+it is not easy for direct human understanding. Knowledge graph-to-text
+(KG-to-text) generation aims to generate easy-to-understand sentences from the
+KG, and at the same time, maintains semantic consistency between generated
+sentences and the KG. Existing KG-to-text generation methods phrase this task
+as a sequence-to-sequence generation task with linearized KG as input and
+consider the consistency issue of the generated texts and KG through a simple
+selection between decoded sentence word and KG node word at each time step.
+However, the linearized KG order is commonly obtained through a heuristic
+search without data-driven optimization. In this paper, we optimize the
+knowledge description order prediction under the order supervision extracted
+from the caption and further enhance the consistency of the generated sentences
+and KG through syntactic and semantic regularization. We incorporate the
+Part-of-Speech (POS) syntactic tags to constrain the positions to copy words
+from the KG and employ a semantic context scoring function to evaluate the
+semantic fitness for each word in its local context when decoding each word in
+the generated sentence. Extensive experiments are conducted on two datasets,
+WebNLG and DART, and achieve state-of-the-art performances.",2022-07-02
+Mapping the Design Space of Human-AI Interaction in Text Summarization,2022-06-29 19:03:25+00:00,http://arxiv.org/abs/2206.14863v1,"Ruijia Cheng, Alison Smith-Renner, Ke Zhang, Joel R. Tetreault, Alejandro Jaimes",cs.HC,table2text,"Automatic text summarization systems commonly involve humans for preparing
+data or evaluating model performance, yet, there lacks a systematic
+understanding of humans' roles, experience, and needs when interacting with or
+being assisted by AI. From a human-centered perspective, we map the design
+opportunities and considerations for human-AI interaction in text summarization
+and broader text generation tasks. We first conducted a systematic literature
+review of 70 papers, developing a taxonomy of five interactions in AI-assisted
+text generation and relevant design dimensions. We designed text summarization
+prototypes for each interaction. We then interviewed 16 users, aided by the
+prototypes, to understand their expectations, experience, and needs regarding
+efficiency, control, and trust with AI in text summarization and propose design
+considerations accordingly.",2022-06-29
+Joint Generator-Ranker Learning for Natural Language Generation,2022-06-28 12:58:30+00:00,http://arxiv.org/abs/2206.13974v1,"Weizhou Shen, Yeyun Gong, Yelong Shen, Song Wang, Xiaojun Quan, Nan Duan, Weizhu Chen",cs.CL,table2text,"Due to exposure bias, most existing natural language generation (NLG) models
+trained by maximizing the likelihood objective predict poor text results during
+the inference stage. In this paper, to tackle this problem, we revisit the
+generate-then-rank framework and propose a joint generator-ranker (JGR)
+training algorithm for text generation tasks. In JGR, the generator model is
+trained by maximizing two objectives: the likelihood of the training corpus and
+the expected reward given by the ranker model. Meanwhile, the ranker model
+takes input samples from the generator model and learns to distinguish good
+samples from the generation pool. The generator and ranker models are
+alternately optimized till convergence. In the empirical study, the proposed
+JGR model achieves new state-of-the-art performance on five public benchmarks
+covering three popular generation tasks: summarization, question generation,
+and response generation. We will make code, data, and models available at
+https://github.com/microsoft/AdvNLG.",2022-06-28
+Megapixel Image Generation with Step-Unrolled Denoising Autoencoders,2022-06-24 15:47:42+00:00,http://arxiv.org/abs/2206.12351v1,"Alex F. McKinney, Chris G. Willcocks","cs.CV, cs.LG",table2text,"An ongoing trend in generative modelling research has been to push sample
+resolutions higher whilst simultaneously reducing computational requirements
+for training and sampling. We aim to push this trend further via the
+combination of techniques - each component representing the current pinnacle of
+efficiency in their respective areas. These include vector-quantized GAN
+(VQ-GAN), a vector-quantization (VQ) model capable of high levels of lossy -
+but perceptually insignificant - compression; hourglass transformers, a highly
+scaleable self-attention model; and step-unrolled denoising autoencoders
+(SUNDAE), a non-autoregressive (NAR) text generative model. Unexpectedly, our
+method highlights weaknesses in the original formulation of hourglass
+transformers when applied to multidimensional data. In light of this, we
+propose modifications to the resampling mechanism, applicable in any task
+applying hierarchical transformers to multidimensional data. Additionally, we
+demonstrate the scalability of SUNDAE to long sequence lengths - four times
+longer than prior work. Our proposed framework scales to high-resolutions
+($1024 \times 1024$) and trains quickly (2-4 days). Crucially, the trained
+model produces diverse and realistic megapixel samples in approximately 2
+seconds on a consumer-grade GPU (GTX 1080Ti). In general, the framework is
+flexible: supporting an arbitrary number of sampling steps, sample-wise
+self-stopping, self-correction capabilities, conditional generation, and a NAR
+formulation that allows for arbitrary inpainting masks. We obtain FID scores of
+10.56 on FFHQ256 - close to the original VQ-GAN in less than half the sampling
+steps - and 21.85 on FFHQ1024 in only 100 sampling steps.",2022-06-24
+MVP: Multi-task Supervised Pre-training for Natural Language Generation,2022-06-24 07:49:47+00:00,http://arxiv.org/abs/2206.12131v1,"Tianyi Tang, Junyi Li, Wayne Xin Zhao, Ji-Rong Wen",cs.CL,table2text,"Pre-trained language models (PLMs) have achieved notable success in natural
+language generation (NLG) tasks. Up to now, most of the PLMs are pre-trained in
+an unsupervised manner using large-scale general corpus. In the meanwhile, an
+increasing number of models pre-trained with less labeled data showcase
+superior performance compared to unsupervised models. Motivated by the success
+of supervised pre-training, we propose Multi-task superVised Pre-training (MVP)
+for natural language generation. For pre-training the text generation model
+MVP, we collect a labeled pre-training corpus from 45 datasets over seven
+generation tasks. For each task, we further pre-train specific soft prompts to
+stimulate the model capacity in performing a specific task. Extensive
+experiments have demonstrated the effectiveness of our supervised pre-training
+in a number of NLG tasks, and our general methods achieve state-of-the-art
+performance on 12 of 17 datasets.",2022-06-24
+"Comparing informativeness of an NLG chatbot vs graphical app in
+  diet-information domain",2022-06-23 07:15:58+00:00,http://arxiv.org/abs/2206.13435v1,"Simone Balloccu, Ehud Reiter","cs.CL, cs.AI",table2text,"Visual representation of data like charts and tables can be challenging to
+understand for readers. Previous work showed that combining visualisations with
+text can improve the communication of insights in static contexts, but little
+is known about interactive ones. In this work we present an NLG chatbot that
+processes natural language queries and provides insights through a combination
+of charts and text. We apply it to nutrition, a domain communication quality is
+critical. Through crowd-sourced evaluation we compare the informativeness of
+our chatbot against traditional, static diet-apps. We find that the
+conversational context significantly improved users' understanding of dietary
+data in various tasks, and that users considered the chatbot as more useful and
+quick to use than traditional apps.",2022-06-23
+GEMv2: Multilingual NLG Benchmarking in a Single Line of Code,2022-06-22 17:52:30+00:00,http://arxiv.org/abs/2206.11249v3,"Sebastian Gehrmann, Abhik Bhattacharjee, Abinaya Mahendiran, Alex Wang, Alexandros Papangelis, Aman Madaan, Angelina McMillan-Major, Anna Shvets, Ashish Upadhyay, Bingsheng Yao, Bryan Wilie, Chandra Bhagavatula, Chaobin You, Craig Thomson, Cristina Garbacea, Dakuo Wang, Daniel Deutsch, Deyi Xiong, Di Jin, Dimitra Gkatzia, Dragomir Radev, Elizabeth Clark, Esin Durmus, Faisal Ladhak, Filip Ginter, Genta Indra Winata, Hendrik Strobelt, Hiroaki Hayashi, Jekaterina Novikova, Jenna Kanerva, Jenny Chim, Jiawei Zhou, Jordan Clive, Joshua Maynez, João Sedoc, Juraj Juraska, Kaustubh Dhole, Khyathi Raghavi Chandu, Laura Perez-Beltrachini, Leonardo F. R. Ribeiro, Lewis Tunstall, Li Zhang, Mahima Pushkarna, Mathias Creutz, Michael White, Mihir Sanjay Kale, Moussa Kamal Eddine, Nico Daheim, Nishant Subramani, Ondrej Dusek, Paul Pu Liang, Pawan Sasanka Ammanamanchi, Qi Zhu, Ratish Puduppully, Reno Kriz, Rifat Shahriyar, Ronald Cardenas, Saad Mahamood, Salomey Osei, Samuel Cahyawijaya, Sanja Štajner, Sebastien Montella, Shailza, Shailza Jolly, Simon Mille, Tahmid Hasan, Tianhao Shen, Tosin Adewumi, Vikas Raunak, Vipul Raheja, Vitaly Nikolaev, Vivian Tsai, Yacine Jernite, Ying Xu, Yisi Sang, Yixin Liu, Yufang Hou","cs.CL, cs.AI, cs.LG",table2text,"Evaluation in machine learning is usually informed by past choices, for
+example which datasets or metrics to use. This standardization enables the
+comparison on equal footing using leaderboards, but the evaluation choices
+become sub-optimal as better alternatives arise. This problem is especially
+pertinent in natural language generation which requires ever-improving suites
+of datasets, metrics, and human evaluation to make definitive claims. To make
+following best model evaluation practices easier, we introduce GEMv2. The new
+version of the Generation, Evaluation, and Metrics Benchmark introduces a
+modular infrastructure for dataset, model, and metric developers to benefit
+from each others work. GEMv2 supports 40 documented datasets in 51 languages.
+Models for all datasets can be evaluated online and our interactive data card
+creation and rendering tools make it easier to add new datasets to the living
+benchmark.",2022-06-22
+"BenchCLAMP: A Benchmark for Evaluating Language Models on Semantic
+  Parsing",2022-06-21 18:34:11+00:00,http://arxiv.org/abs/2206.10668v1,"Subhro Roy, Sam Thomson, Tongfei Chen, Richard Shin, Adam Pauls, Jason Eisner, Benjamin Van Durme",cs.CL,table2text,"We introduce BenchCLAMP, a Benchmark to evaluate Constrained LAnguage Model
+Parsing, which produces semantic outputs based on the analysis of input text
+through constrained decoding of a prompted or fine-tuned language model.
+Developers of pretrained language models currently benchmark on classification,
+span extraction and free-text generation tasks. Semantic parsing is neglected
+in language model evaluation because of the complexity of handling
+task-specific architectures and representations. Recent work has shown that
+generation from a prompted or fine-tuned language model can perform well at
+semantic parsing when the output is constrained to be a valid semantic
+representation. BenchCLAMP includes context-free grammars for six semantic
+parsing datasets with varied output meaning representations, as well as a
+constrained decoding interface to generate outputs covered by these grammars.
+We provide low, medium, and high resource splits for each dataset, allowing
+accurate comparison of various language models under different data regimes.
+Our benchmark supports both prompt-based learning as well as fine-tuning, and
+provides an easy-to-use toolkit for language model developers to evaluate on
+semantic parsing.",2022-06-21
+Prefix Language Models are Unified Modal Learners,2022-06-15 17:49:38+00:00,http://arxiv.org/abs/2206.07699v1,"Shizhe Diao, Wangchunshu Zhou, Xinsong Zhang, Jiawei Wang","cs.CV, cs.CL, cs.LG",table2text,"With the success of vision-language pre-training, we have witnessed the
+state-of-the-art has been pushed on multi-modal understanding and generation.
+However, the current pre-training paradigm is either incapable of targeting all
+modalities at once (e.g., text generation and image generation), or requires
+multi-fold well-designed tasks which significantly limits the scalability. We
+demonstrate that a unified modal model could be learned with a prefix language
+modeling objective upon text and image sequences. Thanks to the simple but
+powerful pre-training paradigm, our proposed model, DaVinci, is simple to
+train, scalable to huge data, and adaptable to a variety of downstream tasks
+across modalities (language / vision / vision+language), types (understanding /
+generation) and settings (e.g., zero-shot, fine-tuning, linear evaluation) with
+a single unified architecture. DaVinci achieves the competitive performance on
+a wide range of 26 understanding / generation tasks, and outperforms previous
+unified vision-language models on most tasks, including ImageNet classification
+(+1.6%), VQAv2 (+1.4%), COCO caption generation (BLEU@4 +1.1%, CIDEr +1.5%) and
+COCO image generation (IS +0.9%, FID -1.0%), at the comparable model and data
+scale. Furthermore, we offer a well-defined benchmark for future research by
+reporting the performance on different scales of the pre-training dataset on a
+heterogeneous and wide distribution coverage. Our results establish new,
+stronger baselines for future comparisons at different data scales and shed
+light on the difficulties of comparing VLP models more generally.",2022-06-15
+A Benchmark for Federated Hetero-Task Learning,2022-06-07 16:43:09+00:00,http://arxiv.org/abs/2206.03436v2,"Liuyi Yao, Dawei Gao, Zhen Wang, Yuexiang Xie, Weirui Kuang, Daoyuan Chen, Haohui Wang, Chenhe Dong, Bolin Ding, Yaliang Li",cs.LG,table2text,"To investigate the heterogeneity in federated learning in real-world
+scenarios, we generalize the classic federated learning to federated
+hetero-task learning, which emphasizes the inconsistency across the
+participants in federated learning in terms of both data distribution and
+learning tasks. We also present B-FHTL, a federated hetero-task learning
+benchmark consisting of simulation dataset, FL protocols and a unified
+evaluation mechanism. B-FHTL dataset contains three well-designed federated
+learning tasks with increasing heterogeneity. Each task simulates the clients
+with different non-IID data and learning tasks. To ensure fair comparison among
+different FL algorithms, B-FHTL builds in a full suite of FL protocols by
+providing high-level APIs to avoid privacy leakage, and presets most common
+evaluation metrics spanning across different learning tasks, such as
+regression, classification, text generation and etc. Furthermore, we compare
+the FL algorithms in fields of federated multi-task learning, federated
+personalization and federated meta learning within B-FHTL, and highlight the
+influence of heterogeneity and difficulties of federated hetero-task learning.
+Our benchmark, including the federated dataset, protocols, the evaluation
+mechanism and the preliminary experiment, is open-sourced at
+https://github.com/alibaba/FederatedScope/tree/master/benchmark/B-FHTL",2022-06-07
+DeepCAVE: An Interactive Analysis Tool for Automated Machine Learning,2022-06-07 12:59:39+00:00,http://arxiv.org/abs/2206.03493v1,"René Sass, Eddie Bergman, André Biedenkapp, Frank Hutter, Marius Lindauer",cs.LG,table2text,"Automated Machine Learning (AutoML) is used more than ever before to support
+users in determining efficient hyperparameters, neural architectures, or even
+full machine learning pipelines. However, users tend to mistrust the
+optimization process and its results due to a lack of transparency, making
+manual tuning still widespread. We introduce DeepCAVE, an interactive framework
+to analyze and monitor state-of-the-art optimization procedures for AutoML
+easily and ad hoc. By aiming for full and accessible transparency, DeepCAVE
+builds a bridge between users and AutoML and contributes to establishing trust.
+Our framework's modular and easy-to-extend nature provides users with
+automatically generated text, tables, and graphic visualizations. We show the
+value of DeepCAVE in an exemplary use-case of outlier detection, in which our
+framework makes it easy to identify problems, compare multiple runs and
+interpret optimization processes. The package is freely available on GitHub
+https://github.com/automl/DeepCAVE.",2022-06-07
+Plot Writing From Pre-Trained Language Models,2022-06-07 05:30:46+00:00,http://arxiv.org/abs/2206.03021v1,"Yiping Jin, Vishakha Kadam, Dittaya Wanvarie",cs.CL,table2text,"Pre-trained language models (PLMs) fail to generate long-form narrative text
+because they do not consider global structure. As a result, the generated texts
+are often incohesive, repetitive, or lack content. Recent work in story
+generation reintroduced explicit content planning in the form of prompts,
+keywords, or semantic frames. Trained on large parallel corpora, these models
+can generate more logical event sequences and thus more contentful stories.
+However, these intermediate representations are often not in natural language
+and cannot be utilized by PLMs without fine-tuning. We propose generating story
+plots using off-the-shelf PLMs while maintaining the benefit of content
+planning to generate cohesive and contentful stories. Our proposed method,
+ScratchPlot, first prompts a PLM to compose a content plan. Then, we generate
+the story's body and ending conditioned on the content plan. Furthermore, we
+take a generate-and-rank approach by using additional PLMs to rank the
+generated (story, ending) pairs. We benchmark our method with various baselines
+and achieved superior results in both human and automatic evaluation.",2022-06-07
+"Curriculum-Based Self-Training Makes Better Few-Shot Learners for
+  Data-to-Text Generation",2022-06-06 16:11:58+00:00,http://arxiv.org/abs/2206.02712v1,"Pei Ke, Haozhe Ji, Zhenyu Yang, Yi Huang, Junlan Feng, Xiaoyan Zhu, Minlie Huang",cs.CL,table2text,"Despite the success of text-to-text pre-trained models in various natural
+language generation (NLG) tasks, the generation performance is largely
+restricted by the number of labeled data in downstream tasks, particularly in
+data-to-text generation tasks. Existing works mostly utilize abundant unlabeled
+structured data to conduct unsupervised pre-training for task adaption, which
+fail to model the complex relationship between source structured data and
+target texts. Thus, we introduce self-training as a better few-shot learner
+than task-adaptive pre-training, which explicitly captures this relationship
+via pseudo-labeled data generated by the pre-trained model. To alleviate the
+side-effect of low-quality pseudo-labeled data during self-training, we propose
+a novel method called Curriculum-Based Self-Training (CBST) to effectively
+leverage unlabeled data in a rearranged order determined by the difficulty of
+text generation. Experimental results show that our method can outperform
+fine-tuning and task-adaptive pre-training methods, and achieve
+state-of-the-art performance in the few-shot setting of data-to-text
+generation.",2022-06-06
+"Learning to Break the Loop: Analyzing and Mitigating Repetitions for
+  Neural Text Generation",2022-06-06 05:51:12+00:00,http://arxiv.org/abs/2206.02369v1,"Jin Xu, Xiaojiang Liu, Jianhao Yan, Deng Cai, Huayang Li, Jian Li",cs.CL,table2text,"While large-scale neural language models, such as GPT2 and BART, have
+achieved impressive results on various text generation tasks, they tend to get
+stuck in undesirable sentence-level loops with maximization-based decoding
+algorithms (\textit{e.g.}, greedy search). This phenomenon is counter-intuitive
+since there are few consecutive sentence-level repetitions in human corpora
+(e.g., 0.02\% in Wikitext-103). To investigate the underlying reasons for
+generating consecutive sentence-level repetitions, we study the relationship
+between the probabilities of the repetitive tokens and their previous
+repetitions in the context. Through our quantitative experiments, we find that
+1) Language models have a preference to repeat the previous sentence; 2) The
+sentence-level repetitions have a \textit{self-reinforcement effect}: the more
+times a sentence is repeated in the context, the higher the probability of
+continuing to generate that sentence; 3) The sentences with higher initial
+probabilities usually have a stronger self-reinforcement effect. Motivated by
+our findings, we propose a simple and effective training method \textbf{DITTO}
+(Pseu\underline{D}o-Repet\underline{IT}ion
+Penaliza\underline{T}i\underline{O}n), where the model learns to penalize
+probabilities of sentence-level repetitions from pseudo repetitive data.
+Although our method is motivated by mitigating repetitions, experiments show
+that DITTO not only mitigates the repetition issue without sacrificing
+perplexity, but also achieves better generation quality. Extensive experiments
+on open-ended text generation (Wikitext-103) and text summarization
+(CNN/DailyMail) demonstrate the generality and effectiveness of our method.",2022-06-06
+"Dict-TTS: Learning to Pronounce with Prior Dictionary Knowledge for
+  Text-to-Speech",2022-06-05 10:50:34+00:00,http://arxiv.org/abs/2206.02147v1,"Ziyue Jiang, Su Zhe, Zhou Zhao, Qian Yang, Yi Ren, Jinglin Liu, Zhenhui Ye","eess.AS, cs.CL, cs.SD",table2text,"Polyphone disambiguation aims to capture accurate pronunciation knowledge
+from natural text sequences for reliable Text-to-speech (TTS) systems. However,
+previous approaches require substantial annotated training data and additional
+efforts from language experts, making it difficult to extend high-quality
+neural TTS systems to out-of-domain daily conversations and countless languages
+worldwide. This paper tackles the polyphone disambiguation problem from a
+concise and novel perspective: we propose Dict-TTS, a semantic-aware generative
+text-to-speech model with an online website dictionary (the existing prior
+information in the natural language). Specifically, we design a
+semantics-to-pronunciation attention (S2PA) module to match the semantic
+patterns between the input text sequence and the prior semantics in the
+dictionary and obtain the corresponding pronunciations; The S2PA module can be
+easily trained with the end-to-end TTS model without any annotated phoneme
+labels. Experimental results in three languages show that our model outperforms
+several strong baseline models in terms of pronunciation accuracy and improves
+the prosody modeling of TTS systems. Further extensive analyses with different
+linguistic encoders demonstrate that each design in Dict-TTS is effective.
+Audio samples are available at \url{https://dicttts.github.io/DictTTS-Demo/}.",2022-06-05
+CoNT: Contrastive Neural Text Generation,2022-05-29 15:18:37+00:00,http://arxiv.org/abs/2205.14690v1,"Chenxin An, Jiangtao Feng, Kai Lv, Lingpeng Kong, Xipeng Qiu, Xuanjing Huang",cs.CL,table2text,"Recently, contrastive learning attracts increasing interests in neural text
+generation as a new solution to alleviate the exposure bias problem. It
+introduces a sequence-level training signal which is crucial to generation
+tasks that always rely on auto-regressive decoding. However, previous methods
+using contrastive learning in neural text generation usually lead to inferior
+performance. In this paper, we analyse the underlying reasons and propose a new
+Contrastive Neural Text generation framework, CoNT. CoNT addresses bottlenecks
+that prevent contrastive learning from being widely adopted in generation tasks
+from three aspects -- the construction of contrastive examples, the choice of
+the contrastive loss, and the strategy in decoding. We validate CoNT on five
+generation tasks with ten benchmarks, including machine translation,
+summarization, code comment generation, data-to-text generation and commonsense
+generation. Experimental results show that CoNT clearly outperforms the
+conventional training framework on all the ten benchmarks with a convincing
+margin. Especially, CoNT surpasses previous the most competitive contrastive
+learning method for text generation, by 1.50 BLEU on machine translation and
+1.77 ROUGE-1 on summarization, respectively. It achieves new state-of-the-art
+on summarization, code comment generation (without external data) and
+data-to-text generation.",2022-05-29
+Controllable Text Generation with Neurally-Decomposed Oracle,2022-05-27 20:17:53+00:00,http://arxiv.org/abs/2205.14219v1,"Tao Meng, Sidi Lu, Nanyun Peng, Kai-Wei Chang",cs.CL,table2text,"We propose a general and efficient framework to control auto-regressive
+generation models with NeurAlly-Decomposed Oracle (NADO). Given a pre-trained
+base language model and a sequence-level boolean oracle function, we propose to
+decompose the oracle function into token-level guidance to steer the base model
+in text generation. Specifically, the token-level guidance is approximated by a
+neural model trained with examples sampled from the base model, demanding no
+additional auxiliary labeled data. We present the closed-form optimal solution
+to incorporate the token-level guidance into the base model for controllable
+generation. We further provide a theoretical analysis of how the approximation
+quality of NADO affects the controllable generation results. Experiments
+conducted on two applications: (1) text generation with lexical constraints and
+(2) machine translation with formality control demonstrate that our framework
+efficiently guides the base model towards the given oracle while maintaining
+high generation quality.",2022-05-27
+Diffusion-LM Improves Controllable Text Generation,2022-05-27 20:12:09+00:00,http://arxiv.org/abs/2205.14217v1,"Xiang Lisa Li, John Thickstun, Ishaan Gulrajani, Percy Liang, Tatsunori B. Hashimoto","cs.CL, cs.AI, cs.LG",table2text,"Controlling the behavior of language models (LMs) without re-training is a
+major open problem in natural language generation. While recent works have
+demonstrated successes on controlling simple sentence attributes (e.g.,
+sentiment), there has been little progress on complex, fine-grained controls
+(e.g., syntactic structure). To address this challenge, we develop a new
+non-autoregressive language model based on continuous diffusions that we call
+Diffusion-LM. Building upon the recent successes of diffusion models in
+continuous domains, Diffusion-LM iteratively denoises a sequence of Gaussian
+vectors into word vectors, yielding a sequence of intermediate latent
+variables. The continuous, hierarchical nature of these intermediate variables
+enables a simple gradient-based algorithm to perform complex, controllable
+generation tasks. We demonstrate successful control of Diffusion-LM for six
+challenging fine-grained control tasks, significantly outperforming prior work.",2022-05-27
+Revisiting Generative Commonsense Reasoning: A Pre-Ordering Approach,2022-05-26 06:36:53+00:00,http://arxiv.org/abs/2205.13183v1,"Chao Zhao, Faeze Brahman, Tenghao Huang, Snigdha Chaturvedi",cs.CL,table2text,"Pre-trained models (PTMs) have lead to great improvements in natural language
+generation (NLG). However, it is still unclear how much commonsense knowledge
+they possess. With the goal of evaluating commonsense knowledge of NLG models,
+recent work has proposed the problem of generative commonsense reasoning, e.g.,
+to compose a logical sentence given a set of unordered concepts. Existing
+approaches to this problem hypothesize that PTMs lack sufficient parametric
+knowledge for this task, which can be overcome by introducing external
+knowledge or task-specific pre-training objectives. Different from this trend,
+we argue that PTM's inherent ability for generative commonsense reasoning is
+underestimated due to the order-agnostic property of its input. In particular,
+we hypothesize that the order of the input concepts can affect the PTM's
+ability to utilize its commonsense knowledge. To this end, we propose a
+pre-ordering approach to elaborately manipulate the order of the given concepts
+before generation. Experiments show that our approach can outperform the more
+sophisticated models that have access to a lot of external data and resources.",2022-05-26
+"Automatic question generation based on sentence structure analysis using
+  machine learning approach",2022-05-25 14:35:29+00:00,http://arxiv.org/abs/2205.12811v1,"Miroslav Blšták, Viera Rozinajová","cs.CL, cs.AI",table2text,"Automatic question generation is one of the most challenging tasks of Natural
+Language Processing. It requires ""bidirectional"" language processing: firstly,
+the system has to understand the input text (Natural Language Understanding)
+and it then has to generate questions also in the form of text (Natural
+Language Generation). In this article, we introduce our framework for
+generating the factual questions from unstructured text in the English
+language. It uses a combination of traditional linguistic approaches based on
+sentence patterns with several machine learning methods. We firstly obtain
+lexical, syntactic and semantic information from an input text and we then
+construct a hierarchical set of patterns for each sentence. The set of features
+is extracted from the patterns and it is then used for automated learning of
+new transformation rules. Our learning process is totally data-driven because
+the transformation rules are obtained from a set of initial sentence-question
+pairs. The advantages of this approach lie in a simple expansion of new
+transformation rules which allows us to generate various types of questions and
+also in the continuous improvement of the system by reinforcement learning. The
+framework also includes a question evaluation module which estimates the
+quality of generated questions. It serves as a filter for selecting the best
+questions and eliminating incorrect ones or duplicates. We have performed
+several experiments to evaluate the correctness of generated questions and we
+have also compared our system with several state-of-the-art systems. Our
+results indicate that the quality of generated questions outperforms the
+state-of-the-art systems and our questions are also comparable to questions
+created by humans. We have also created and published an interface with all
+created datasets and evaluated questions, so it is possible to follow up on our
+work.",2022-05-25
+PLOG: Table-to-Logic Pretraining for Logical Table-to-Text Generation,2022-05-25 11:55:54+00:00,http://arxiv.org/abs/2205.12697v1,"Ao Liu, Haoyu Dong, Naoaki Okazaki, Shi Han, Dongmei Zhang",cs.CL,table2text,"Logical table-to-text generation is a task that involves generating logically
+faithful sentences from tables, which requires models to derive logical level
+facts from table records via logical inference. It raises a new challenge on
+the logical-level content planning of table-to-text models. However, directly
+learning the logical inference knowledge from table-text pairs is very
+difficult for neural models because of the ambiguity of natural language and
+the scarcity of parallel data. Hence even large-scale pre-trained language
+models present low logical fidelity on logical table-to-text. In this work, we
+propose a PLOG (Pretrained Logical Form Generator) framework to improve the
+generation fidelity. Specifically, PLOG is first pretrained on a
+table-to-logic-form generation (table-to-logic) task, then finetuned on
+downstream table-to-text tasks. The formal definition of logical forms enables
+us to collect large amount of accurate logical forms from tables without human
+annotation. In addition, PLOG can learn logical inference from table-logic
+pairs much more definitely than from table-text pairs. To evaluate our model,
+we further collect a controlled logical table-to-text dataset CONTLOG based on
+an existing dataset. On two benchmarks, LOGICNLG and CONTLOG, PLOG outperforms
+strong baselines by a large margin on the logical fidelity, demonstrating the
+effectiveness of table-to-logic pretraining.",2022-05-25

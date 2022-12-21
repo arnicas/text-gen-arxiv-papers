@@ -10,7 +10,7 @@ import time
 import shutil
 
 PICK_PATH = './pickles/'
-FILES_WRITTEN_DATA = "_data/files_written.csv"
+FILES_WRITTEN_DATA = "_data/files_written.jsonl"
 
 today = datetime.today().strftime('%Y-%m-%d')
 
@@ -28,7 +28,7 @@ def write_new_df_data(df, categ, tag=None):
     df.sort_values(by="pubdate", ascending=False, inplace=True)
     df['displaydate'] = df['pubdate'].dt.strftime('%Y-%m-%d')
     date = df.iloc[0]['displaydate']
-    print("writing new data file", date, categ)
+    print("Writing new data file", date, categ)
     if tag:
         filename = f'_data/{categ}/{tag}-' + date + '-' + categ + '-' + str(len(df)) + '.csv'
         df.to_csv(filename, index=None)
@@ -38,33 +38,21 @@ def write_new_df_data(df, categ, tag=None):
     return date, filename
 
 
-def add_to_record_get_prevlink(newdate, categ):
-    df = pd.read_csv("_data/files_written.csv")
-    subset = df[df['category'] == categ]
-    subset.sort_values(by="date", ascending=False)
-    prevlink = subset.iloc[0]['generated_file']
-    generated_file = make_entry_for_md(newdate, categ)
-    md_filename = f"{newdate}-{categ}.md"
-    print('Adding to record file', newdate, categ, md_filename, generated_file)
-    df = df.append({'date': newdate, 'category': categ, 'md_filename': md_filename, 'generated_file': generated_file},
-             ignore_index=True)
-    df.to_csv("_data/files_written.csv", index=None)
-
-
 def make_date_path(date):
     return date.replace('-', '/') + '/'
 
 
-# where the page ends up published by category - add to a data file?
+# where the page ends up published by category
 def make_entry_for_md(date, categ):
+    """ actually creates the html link for a date categ page """
     filepath = 'categories/' + categ + '/' + make_date_path(date) + categ + '.html'
     return filepath
 
 
-def most_recent_data_file(categ, written_df):
+def most_recent_data_file(categ, written_df) -> dict:
     subset = written_df[written_df['category']==categ]
-    row = subset[subset['most_recent']==True]
-    return row
+    row = subset[subset['most_recent']]
+    return row.to_dict(orient="records")
 
 
 def write_table_in_md(df, handle):
@@ -87,10 +75,13 @@ def write_table_in_md(df, handle):
     return
 
 
-def write_table_md(df, date, categ, prevlink, most_recent=False):
-    if type(prevlink) == str:
+def write_table_md(df, date, categ, prevlink, nextlink=None, most_recent=False):
+    if type(prevlink) is str:
         prevlink = "{{site.url}}" + prevlink
-    with open('categories/' + categ + '/_posts/' + date + '-' + categ + '.md', 'w') as handle:
+    if type(nextlink) is str:
+        nextlink = "{{site.url}}" + nextlink
+    md_filename = 'categories/' + categ + '/_posts/' + str(date) + '-' + categ + '.md'
+    with open(md_filename, 'w') as handle:
         handle.write("---\n")
         handle.write('category: ' + categ + '\n')
         handle.write('layout: post\n')
@@ -99,7 +90,9 @@ def write_table_md(df, date, categ, prevlink, most_recent=False):
         handle.write('---\n\n')
         write_table_in_md(df, handle)
         if type(prevlink) == str:
-            handle.write(f'[Previous]({prevlink})\n')
+            handle.write(f'[< Previous]({prevlink})\n')
+        if type(nextlink) == str:
+            handle.write(f'\t\t\t\t[Next >]({nextlink})\n')
     if most_recent:
         # write the main page too
         with open('categories/' + categ + '/' + categ + '.md', 'w') as handle:
@@ -112,8 +105,8 @@ def write_table_md(df, date, categ, prevlink, most_recent=False):
             handle.write('---\n\n')
             write_table_in_md(df, handle)
             if type(prevlink) == str:
-                handle.write(f'[Previous]({prevlink})\n')
-    print("Wrote ", 'categories/' + categ + '/_posts/' + date + '-' + categ + '.md')
+                handle.write(f'[< Previous]({prevlink})\n')
+    print("Wrote ", md_filename)
 
 
 def delete_old_files(files):
@@ -131,20 +124,31 @@ def get_new_data_as_df(arts2, categ):
     print(len(arts2[categ]))
     return create_df_from_new_vals(arts2[categ])
 
+def update_files_written_df(written_df, newrow, prev_datafile):
+    """Adds row and deletes previous related one. """
+    written_df = written_df.append(newrow, ignore_index=True)
+    written_df.loc[written_df['data_file']==prev_datafile, 'delete'] = True # mark to delete
+    written_df = written_df[~written_df['delete']] # could do in one line
+    return written_df
+    
 
-def handle_new_data(categ, written_df, arts2):
+def handle_new_data(categ, written_df, newdata):
+    """
+     The file list of data and pages generated and links is written_df.  The new data is what was scraped.
+     This is specific to a category - we do it for each category of results found.
+     """
     old_record_row = most_recent_data_file(categ, written_df)
-    old_record_row_datafile = old_record_row['data_file'].values[0]
-    old_record_row_mdfile = old_record_row['md_filename'].values[0]
-    old_record_row_gen_file = old_record_row['generated_file'].values[0]
-    old_records = pd.read_csv(old_record_row['data_file'].values[0])
+    old_record_row_datafile = old_record_row['data_file']
+    old_record_row_mdfile = old_record_row['md_filename']
+    old_record_row_gen_file = old_record_row['generated_file']
+    old_records = pd.read_csv(old_record_row['data_file'])
     old_records.sort_values(by="pubdate", ascending=False, inplace=True)
-    newdf = get_new_data_as_df(arts2, categ)
+    newdf = get_new_data_as_df(newdata, categ)
     newdf.sort_values(by="pubdate", ascending=False, inplace=True)
     old_pubdate = old_records.iloc[0]['pubdate']
     maybenew = newdf[newdf['pubdate'] > old_pubdate]
     if len(maybenew) > 0:
-        combo = pd.concat([maybenew, old_records], ignore_index = True)
+        combo = pd.concat([maybenew, old_records], ignore_index=True)
         combo = combo.drop_duplicates(subset=["id"])
         if len(combo) == len(old_records):
             print("nothing to update.")
@@ -152,35 +156,33 @@ def handle_new_data(categ, written_df, arts2):
             print("Update needed, new articles since last date for", categ, len(combo) - len(old_records))
             date, datafile = write_new_df_data(combo, categ)
             count = len(combo)
-            md_filename = f"categories/{categ}/_posts/{date}-{categ}.md"
-            generated_file = make_entry_for_md(date, categ)
-            prev_link = old_record_row['prev_link'].values[0]
+            prev_link = old_record_row['prev_link']
             next_link = None
-            #print("len of written df", len(written_df))
-            newrow = {'date': date, 'category': categ, 'md_filename': md_filename, 
-                      'generated_file': generated_file, 'data_file': datafile, 'most_recent': True, 
-                      'count': count, 'delete': False, 'prev_link': prev_link, 'next_link': next_link}
-            newrowdf = pd.DataFrame(newrow, index=[0])
-            written_df = written_df.append(newrowdf, ignore_index=True)
-            #print("len of written df", len(written_df))
-            written_df.loc[written_df['data_file'] == old_record_row_datafile, 'delete'] = True
-            written_df = written_df[~written_df['delete']]
-            #print("len of written df", len(written_df))
-            write_table_md(combo, date, categ, prev_link, most_recent=True)
+            md_filename = f"categories/{categ}/_posts/{date}-{categ}.md"
+            generated_file = make_entry_for_md(date, categ) # html filename
+            new_row = {'date': date, 'category': categ, 'md_filename': md_filename,
+                'generated_file': generated_file, 'data_file': datafile, 'most_recent': True, 
+                'count': count, 'delete': False, 'prev_link': prev_link, 'next_link': next_link}
+            written_df = update_files_written_df(written_df, new_row, old_record_row_datafile)
+            write_table_md(combo, date, categ, prev_link, nextlink=next_link, most_recent=True) # actually create page
             delete_old_files([old_record_row_datafile, old_record_row_gen_file, old_record_row_mdfile])
     return written_df
 
 
-def write_new_files_after_scrape(arts2):
-    written_df = pd.read_csv("_data/files_written.csv")
-    categs = arts2.keys()
+def write_new_files_after_scrape(newdata):
+    written_df = pd.read_json(FILES_WRITTEN_DATA, orient="records", lines=True)
+    written_df['date'] = written_df['date'].dt.strftime('%Y-%m-%d')
+
+    categs = newdata.keys()
     today = datetime.today().strftime('%Y-%m-%d')
-    shutil.copy('_data/files_written.csv', 'old_files/files_written-backup-' + today + '.csv')
+    shutil.copy(FILES_WRITTEN_DATA, 'old_files/files_written-backup-' + today + '.jsonl')
     for categ in categs:
-        print("looking at category", categ)
-        new_written = handle_new_data(categ, written_df, arts2)
-        new_written.to_csv("_data/files_written.csv", index=None)
-        written_df = pd.read_csv("_data/files_written.csv")
+        print("Looking at category", categ)
+        new_written = handle_new_data(categ, written_df, newdata)
+        new_written.to_json(FILES_WRITTEN_DATA, orient="records", lines=True)
+        written_df = pd.read_json(FILES_WRITTEN_DATA, orient="records", lines=True)
+        written_df['date'] = written_df['date'].dt.strftime('%Y-%m-%d')
+    return
 
 def get_latest_pickle():
     latest = max(Path(PICK_PATH).glob(r'*.p'), key=lambda f: f.stat().st_ctime)

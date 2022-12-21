@@ -1,0 +1,1392 @@
+title,pubdate,id,authors,categories,search,abstract,displaydate
+"RDF-to-Text Generation with Reinforcement Learning Based Graph-augmented
+  Structural Neural Encoders",2021-11-20 08:41:54+00:00,http://arxiv.org/abs/2111.10545v1,"Hanning Gao, Lingfei Wu, Po Hu, Zhihua Wei, Fangli Xu, Bo Long","cs.CL, cs.AI",image2text,"Considering a collection of RDF triples, the RDF-to-text generation task aims
+to generate a text description. Most previous methods solve this task using a
+sequence-to-sequence model or using a graph-based model to encode RDF triples
+and to generate a text sequence. Nevertheless, these approaches fail to clearly
+model the local and global structural information between and within RDF
+triples. Moreover, the previous methods also face the non-negligible problem of
+low faithfulness of the generated text, which seriously affects the overall
+performance of these models. To solve these problems, we propose a model
+combining two new graph-augmented structural neural encoders to jointly learn
+both local and global structural information in the input RDF triples. To
+further improve text faithfulness, we innovatively introduce a reinforcement
+learning (RL) reward based on information extraction (IE). We first extract
+triples from the generated text using a pretrained IE model and regard the
+correct number of the extracted triples as the additional RL reward.
+Experimental results on two benchmark datasets demonstrate that our proposed
+model outperforms the state-of-the-art baselines, and the additional
+reinforcement learning reward does help to improve the faithfulness of the
+generated text.",2021-11-20
+Transparent Human Evaluation for Image Captioning,2021-11-17 07:09:59+00:00,http://arxiv.org/abs/2111.08940v1,"Jungo Kasai, Keisuke Sakaguchi, Lavinia Dunagan, Jacob Morrison, Ronan Le Bras, Yejin Choi, Noah A. Smith","cs.CL, cs.CV",image2text,"We establish a rubric-based human evaluation protocol for image captioning
+models. Our scoring rubrics and their definitions are carefully developed based
+on machine- and human-generated captions on the MSCOCO dataset. Each caption is
+evaluated along two main dimensions in a tradeoff (precision and recall) as
+well as other aspects that measure the text quality (fluency, conciseness, and
+inclusive language). Our evaluations demonstrate several critical problems of
+the current evaluation practice. Human-generated captions show substantially
+higher quality than machine-generated ones, especially in coverage of salient
+information (i.e., recall), while all automatic metrics say the opposite. Our
+rubric-based results reveal that CLIPScore, a recent metric that uses image
+features, better correlates with human judgments than conventional text-only
+metrics because it is more sensitive to recall. We hope that this work will
+promote a more transparent evaluation protocol for image captioning and its
+automatic metrics.",2021-11-17
+Explaining Face Presentation Attack Detection Using Natural Language,2021-11-08 22:55:55+00:00,http://arxiv.org/abs/2111.04862v1,"Hengameh Mirzaalian, Mohamed E. Hussein, Leonidas Spinoulas, Jonathan May, Wael Abd-Almageed","cs.CV, cs.AI, cs.CL, cs.CR",image2text,"A large number of deep neural network based techniques have been developed to
+address the challenging problem of face presentation attack detection (PAD).
+Whereas such techniques' focus has been on improving PAD performance in terms
+of classification accuracy and robustness against unseen attacks and
+environmental conditions, there exists little attention on the explainability
+of PAD predictions. In this paper, we tackle the problem of explaining PAD
+predictions through natural language. Our approach passes feature
+representations of a deep layer of the PAD model to a language model to
+generate text describing the reasoning behind the PAD prediction. Due to the
+limited amount of annotated data in our study, we apply a light-weight LSTM
+network as our natural language generation model. We investigate how the
+quality of the generated explanations is affected by different loss functions,
+including the commonly used word-wise cross entropy loss, a sentence
+discriminative loss, and a sentence semantic loss. We perform our experiments
+using face images from a dataset consisting of 1,105 bona-fide and 924
+presentation attack samples. Our quantitative and qualitative results show the
+effectiveness of our model for generating proper PAD explanations through text
+as well as the power of the sentence-wise losses. To the best of our knowledge,
+this is the first introduction of a joint biometrics-NLP task. Our dataset can
+be obtained through our GitHub page.",2021-11-08
+Machine-in-the-Loop Rewriting for Creative Image Captioning,2021-11-07 22:17:41+00:00,http://arxiv.org/abs/2111.04193v1,"Vishakh Padmakumar, He He",cs.CL,image2text,"Machine-in-the-loop writing aims to enable humans to collaborate with models
+to complete their writing tasks more effectively. Prior work has found that
+providing humans a machine-written draft or sentence-level continuations has
+limited success since the generated text tends to deviate from humans'
+intention. To allow the user to retain control over the content, we train a
+rewriting model that, when prompted, modifies specified spans of text within
+the user's original draft to introduce descriptive and figurative elements
+locally in the text. We evaluate the model on its ability to collaborate with
+humans on the task of creative image captioning. On a user study through Amazon
+Mechanical Turk, our model is rated to be more helpful than a baseline
+infilling language model. In addition, third-party evaluation shows that users
+write more descriptive and figurative captions when collaborating with our
+model compared to completing the task alone.",2021-11-07
+"Exploiting Cross-Modal Prediction and Relation Consistency for
+  Semi-Supervised Image Captioning",2021-10-22 13:14:32+00:00,http://arxiv.org/abs/2110.11767v2,"Yang Yang, Hongchen Wei, Hengshu Zhu, Dianhai Yu, Hui Xiong, Jian Yang","cs.CV, cs.AI",image2text,"The task of image captioning aims to generate captions directly from images
+via the automatically learned cross-modal generator. To build a well-performing
+generator, existing approaches usually need a large number of described images,
+which requires a huge effects on manual labeling. However, in real-world
+applications, a more general scenario is that we only have limited amount of
+described images and a large number of undescribed images. Therefore, a
+resulting challenge is how to effectively combine the undescribed images into
+the learning of cross-modal generator. To solve this problem, we propose a
+novel image captioning method by exploiting the Cross-modal Prediction and
+Relation Consistency (CPRC), which aims to utilize the raw image input to
+constrain the generated sentence in the commonly semantic space. In detail,
+considering that the heterogeneous gap between modalities always leads to the
+supervision difficulty of using the global embedding directly, CPRC turns to
+transform both the raw image and corresponding generated sentence into the
+shared semantic space, and measure the generated sentence from two aspects: 1)
+Prediction consistency. CPRC utilizes the prediction of raw image as soft label
+to distill useful supervision for the generated sentence, rather than employing
+the traditional pseudo labeling; 2) Relation consistency. CPRC develops a novel
+relation consistency between augmented images and corresponding generated
+sentences to retain the important relational knowledge. In result, CPRC
+supervises the generated sentence from both the informativeness and
+representativeness perspectives, and can reasonably use the undescribed images
+to learn a more effective generator under the semi-supervised scenario.",2021-10-22
+SciCap: Generating Captions for Scientific Figures,2021-10-22 07:10:41+00:00,http://arxiv.org/abs/2110.11624v2,"Ting-Yao Hsu, C. Lee Giles, Ting-Hao 'Kenneth' Huang","cs.CL, cs.AI, cs.CV",image2text,"Researchers use figures to communicate rich, complex information in
+scientific papers. The captions of these figures are critical to conveying
+effective messages. However, low-quality figure captions commonly occur in
+scientific articles and may decrease understanding. In this paper, we propose
+an end-to-end neural framework to automatically generate informative,
+high-quality captions for scientific figures. To this end, we introduce SCICAP,
+a large-scale figure-caption dataset based on computer science arXiv papers
+published between 2010 and 2020. After pre-processing - including figure-type
+classification, sub-figure identification, text normalization, and caption text
+selection - SCICAP contained more than two million figures extracted from over
+290,000 papers. We then established baseline models that caption graph plots,
+the dominant (19.2%) figure type. The experimental results showed both
+opportunities and steep challenges of generating captions for scientific
+figures.",2021-10-22
+SciXGen: A Scientific Paper Dataset for Context-Aware Text Generation,2021-10-20 20:37:11+00:00,http://arxiv.org/abs/2110.10774v1,"Hong Chen, Hiroya Takamura, Hideki Nakayama",cs.CL,image2text,"Generating texts in scientific papers requires not only capturing the content
+contained within the given input but also frequently acquiring the external
+information called \textit{context}. We push forward the scientific text
+generation by proposing a new task, namely \textbf{context-aware text
+generation} in the scientific domain, aiming at exploiting the contributions of
+context in generated texts. To this end, we present a novel challenging
+large-scale \textbf{Sci}entific Paper Dataset for Conte\textbf{X}t-Aware Text
+\textbf{Gen}eration (SciXGen), consisting of well-annotated 205,304 papers with
+full references to widely-used objects (e.g., tables, figures, algorithms) in a
+paper. We comprehensively benchmark, using state-of-the-arts, the efficacy of
+our newly constructed SciXGen dataset in generating description and paragraph.
+Our dataset and benchmarks will be made publicly available to hopefully
+facilitate the scientific text generation research.",2021-10-20
+"A Picture is Worth a Thousand Words: A Unified System for Diverse
+  Captions and Rich Images Generation",2021-10-19 06:10:42+00:00,http://arxiv.org/abs/2110.09756v1,"Yupan Huang, Bei Liu, Jianlong Fu, Yutong Lu","cs.CV, cs.CL, cs.MM",image2text,"A creative image-and-text generative AI system mimics humans' extraordinary
+abilities to provide users with diverse and comprehensive caption suggestions,
+as well as rich image creations. In this work, we demonstrate such an AI
+creation system to produce both diverse captions and rich images. When users
+imagine an image and associate it with multiple captions, our system paints a
+rich image to reflect all captions faithfully. Likewise, when users upload an
+image, our system depicts it with multiple diverse captions. We propose a
+unified multi-modal framework to achieve this goal. Specifically, our framework
+jointly models image-and-text representations with a Transformer network, which
+supports rich image creation by accepting multiple captions as input. We
+consider the relations among input captions to encourage diversity in training
+and adopt a non-autoregressive decoding strategy to enable real-time inference.
+Based on these, our system supports both diverse captions and rich images
+generations. Our code is available online.",2021-10-19
+"Unifying Multimodal Transformer for Bi-directional Image and Text
+  Generation",2021-10-19 06:01:24+00:00,http://arxiv.org/abs/2110.09753v1,"Yupan Huang, Hongwei Xue, Bei Liu, Yutong Lu","cs.CV, cs.CL, cs.MM",image2text,"We study the joint learning of image-to-text and text-to-image generations,
+which are naturally bi-directional tasks. Typical existing works design two
+separate task-specific models for each task, which impose expensive design
+efforts. In this work, we propose a unified image-and-text generative framework
+based on a single multimodal model to jointly study the bi-directional tasks.
+We adopt Transformer as our unified architecture for its strong performance and
+task-agnostic design. Specifically, we formulate both tasks as sequence
+generation tasks, where we represent images and text as unified sequences of
+tokens, and the Transformer learns multimodal interactions to generate
+sequences. We further propose two-level granularity feature representations and
+sequence-level training to improve the Transformer-based unified framework.
+Experiments show that our approach significantly improves previous
+Transformer-based model X-LXMERT's FID from 37.0 to 29.9 (lower is better) for
+text-to-image generation, and improves CIDEr-D score from 100.9% to 122.6% for
+fine-tuned image-to-text generation on the MS-COCO dataset. Our code is
+available online.",2021-10-19
+Self-Annotated Training for Controllable Image Captioning,2021-10-16 02:10:23+00:00,http://arxiv.org/abs/2110.08446v1,"Zhangzi Zhu, Tianlei Wang, Hong Qu","cs.AI, cs.CV",image2text,"The Controllable Image Captioning (CIC) task aims to generate captions
+conditioned on designated control signals. In this paper, we improve CIC from
+two aspects: 1) Existing reinforcement training methods are not applicable to
+structure-related CIC models due to the fact that the accuracy-based reward
+focuses mainly on contents rather than semantic structures. The lack of
+reinforcement training prevents the model from generating more accurate and
+controllable sentences. To solve the problem above, we propose a novel
+reinforcement training method for structure-related CIC models: Self-Annotated
+Training (SAT), where a recursive sampling mechanism (RSM) is designed to force
+the input control signal to match the actual output sentence. Extensive
+experiments conducted on MSCOCO show that our SAT method improves C-Transformer
+(XE) on CIDEr-D score from 118.6 to 130.1 in the length-control task and from
+132.2 to 142.7 in the tense-control task, while maintaining more than 99$\%$
+matching accuracy with the control signal. 2) We introduce a new control
+signal: sentence quality. Equipped with it, CIC models are able to generate
+captions of different quality levels as needed. Experiments show that without
+additional information of ground truth captions, models controlled by the
+highest level of sentence quality perform much better in accuracy than baseline
+models.",2021-10-16
+How Well Do You Know Your Audience? Reader-aware Question Generation,2021-10-16 02:10:16+00:00,http://arxiv.org/abs/2110.08445v1,"Ian Stewart, Rada Mihalcea","cs.CL, I.7",image2text,"When writing, a person may need to anticipate questions from their readers,
+but different types of readers may ask very different types of questions. If
+someone is writing for advice about a problem, what question will a domain
+expert ask, and is this different from how a novice might react? In this paper,
+we address the task of reader-aware question generation. We collect a new data
+set of questions and posts from social media, augmented with background
+information about the post readers. Based on predictive analysis and
+descriptive differences, we find that different readers, such as experts and
+novices, consistently ask different types of questions. We next develop several
+text generation models that incorporate different types of reader background,
+including discrete and continuous reader representations based on the readers'
+prior behavior. We demonstrate that reader-aware models can perform on par or
+slightly better than the text-only model in some cases, particularly in cases
+where a post attracts very different questions from readers of different
+groups. Our work has the potential to help writers anticipate the information
+needs of different readers.",2021-10-16
+CLIP-Forge: Towards Zero-Shot Text-to-Shape Generation,2021-10-06 09:55:19+00:00,http://arxiv.org/abs/2110.02624v1,"Aditya Sanghi, Hang Chu, Joseph G. Lambourne, Ye Wang, Chin-Yi Cheng, Marco Fumero","cs.CV, cs.AI, 68T07, I.2.10",image2text,"While recent progress has been made in text-to-image generation,
+text-to-shape generation remains a challenging problem due to the
+unavailability of paired text and shape data at a large scale. We present a
+simple yet effective method for zero-shot text-to-shape generation based on a
+two-stage training process, which only depends on an unlabelled shape dataset
+and a pre-trained image-text network such as CLIP. Our method not only
+demonstrates promising zero-shot generalization, but also avoids expensive
+inference time optimization and can generate multiple shapes for a given text.",2021-10-06
+CIDEr-R: Robust Consensus-based Image Description Evaluation,2021-09-28 13:13:21+00:00,http://arxiv.org/abs/2109.13701v1,"Gabriel Oliveira dos Santos, Esther Luna Colombini, Sandra Avila","cs.CV, cs.CL",image2text,"This paper shows that CIDEr-D, a traditional evaluation metric for image
+description, does not work properly on datasets where the number of words in
+the sentence is significantly greater than those in the MS COCO Captions
+dataset. We also show that CIDEr-D has performance hampered by the lack of
+multiple reference sentences and high variance of sentence length. To bypass
+this problem, we introduce CIDEr-R, which improves CIDEr-D, making it more
+flexible in dealing with datasets with high sentence length variance. We
+demonstrate that CIDEr-R is more accurate and closer to human judgment than
+CIDEr-D; CIDEr-R is more robust regarding the number of available references.
+Our results reveal that using Self-Critical Sequence Training to optimize
+CIDEr-R generates descriptive captions. In contrast, when CIDEr-D is optimized,
+the generated captions' length tends to be similar to the reference length.
+However, the models also repeat several times the same word to increase the
+sentence length.",2021-09-28
+Weakly Supervised Contrastive Learning for Chest X-Ray Report Generation,2021-09-25 00:06:23+00:00,http://arxiv.org/abs/2109.12242v1,"An Yan, Zexue He, Xing Lu, Jiang Du, Eric Chang, Amilcare Gentili, Julian McAuley, Chun-Nan Hsu",cs.CL,image2text,"Radiology report generation aims at generating descriptive text from
+radiology images automatically, which may present an opportunity to improve
+radiology reporting and interpretation. A typical setting consists of training
+encoder-decoder models on image-report pairs with a cross entropy loss, which
+struggles to generate informative sentences for clinical diagnoses since normal
+findings dominate the datasets. To tackle this challenge and encourage more
+clinically-accurate text outputs, we propose a novel weakly supervised
+contrastive loss for medical report generation. Experimental results
+demonstrate that our method benefits from contrasting target reports with
+incorrect but semantically-close ones. It outperforms previous work on both
+clinical correctness and text generation metrics for two public benchmarks.",2021-09-25
+"An animated picture says at least a thousand words: Selecting Gif-based
+  Replies in Multimodal Dialog",2021-09-24 21:48:27+00:00,http://arxiv.org/abs/2109.12212v1,"Xingyao Wang, David Jurgens","cs.CL, cs.CV, cs.CY",image2text,"Online conversations include more than just text. Increasingly, image-based
+responses such as memes and animated gifs serve as culturally recognized and
+often humorous responses in conversation. However, while NLP has broadened to
+multimodal models, conversational dialog systems have largely focused only on
+generating text replies. Here, we introduce a new dataset of 1.56M text-gif
+conversation turns and introduce a new multimodal conversational model Pepe the
+King Prawn for selecting gif-based replies. We demonstrate that our model
+produces relevant and high-quality gif responses and, in a large randomized
+control trial of multiple models replying to real users, we show that our model
+replies with gifs that are significantly better received by the community.",2021-09-24
+Style Control for Schema-Guided Natural Language Generation,2021-09-24 21:47:58+00:00,http://arxiv.org/abs/2109.12211v1,"Alicia Y. Tsai, Shereen Oraby, Vittorio Perera, Jiun-Yu Kao, Yuheng Du, Anjali Narayan-Chen, Tagyoung Chung, Dilek Hakkani-Tur",cs.CL,image2text,"Natural Language Generation (NLG) for task-oriented dialogue systems focuses
+on communicating specific content accurately, fluently, and coherently. While
+these attributes are crucial for a successful dialogue, it is also desirable to
+simultaneously accomplish specific stylistic goals, such as response length,
+point-of-view, descriptiveness, sentiment, formality, and empathy. In this
+work, we focus on stylistic control and evaluation for schema-guided NLG, with
+joint goals of achieving both semantic and stylistic control. We experiment in
+detail with various controlled generation methods for large pretrained language
+models: specifically, conditional training, guided fine-tuning, and guided
+decoding. We discuss their advantages and limitations, and evaluate them with a
+broad range of automatic and human evaluation metrics. Our results show that
+while high style accuracy and semantic correctness are easier to achieve for
+more lexically-defined styles with conditional training, stylistic control is
+also achievable for more semantically complex styles using discriminator-based
+guided decoding methods. The results also suggest that methods that are more
+scalable (with less hyper-parameters tuning) and that disentangle content
+generation and stylistic variations are more effective at achieving semantic
+correctness and style accuracy.",2021-09-24
+"TrOCR: Transformer-based Optical Character Recognition with Pre-trained
+  Models",2021-09-21 16:01:56+00:00,http://arxiv.org/abs/2109.10282v3,"Minghao Li, Tengchao Lv, Lei Cui, Yijuan Lu, Dinei Florencio, Cha Zhang, Zhoujun Li, Furu Wei","cs.CL, cs.CV",image2text,"Text recognition is a long-standing research problem for document
+digitalization. Existing approaches for text recognition are usually built
+based on CNN for image understanding and RNN for char-level text generation. In
+addition, another language model is usually needed to improve the overall
+accuracy as a post-processing step. In this paper, we propose an end-to-end
+text recognition approach with pre-trained image Transformer and text
+Transformer models, namely TrOCR, which leverages the Transformer architecture
+for both image understanding and wordpiece-level text generation. The TrOCR
+model is simple but effective, and can be pre-trained with large-scale
+synthetic data and fine-tuned with human-labeled datasets. Experiments show
+that the TrOCR model outperforms the current state-of-the-art models on both
+printed and handwritten text recognition tasks. The code and models will be
+publicly available at https://aka.ms/TrOCR.",2021-09-21
+PluGeN: Multi-Label Conditional Generation From Pre-Trained Models,2021-09-18 21:02:24+00:00,http://arxiv.org/abs/2109.09011v1,"Maciej Wołczyk, Magdalena Proszewska, Łukasz Maziarka, Maciej Zięba, Patryk Wielopolski, Rafał Kurczab, Marek Śmieja",cs.LG,image2text,"Modern generative models achieve excellent quality in a variety of tasks
+including image or text generation and chemical molecule modeling. However,
+existing methods often lack the essential ability to generate examples with
+requested properties, such as the age of the person in the photo or the weight
+of the generated molecule. Incorporating such additional conditioning factors
+would require rebuilding the entire architecture and optimizing the parameters
+from scratch. Moreover, it is difficult to disentangle selected attributes so
+that to perform edits of only one attribute while leaving the others unchanged.
+To overcome these limitations we propose PluGeN (Plugin Generative Network), a
+simple yet effective generative technique that can be used as a plugin to
+pre-trained generative models. The idea behind our approach is to transform the
+entangled latent representation using a flow-based module into a
+multi-dimensional space where the values of each attribute are modeled as an
+independent one-dimensional distribution. In consequence, PluGeN can generate
+new samples with desired attributes as well as manipulate labeled attributes of
+existing examples. Due to the disentangling of the latent representation, we
+are even able to generate samples with rare or unseen combinations of
+attributes in the dataset, such as a young person with gray hair, men with
+make-up, or women with beards. We combined PluGeN with GAN and VAE models and
+applied it to conditional generation and manipulation of images and chemical
+molecule modeling. Experiments demonstrate that PluGeN preserves the quality of
+backbone models while adding the ability to control the values of labeled
+attributes.",2021-09-18
+"Label-Attention Transformer with Geometrically Coherent Objects for
+  Image Captioning",2021-09-16 08:43:46+00:00,http://arxiv.org/abs/2109.07799v1,"Shikha Dubey, Farrukh Olimov, Muhammad Aasim Rafique, Joonmo Kim, Moongu Jeon","cs.CV, cs.AI",image2text,"Automatic transcription of scene understanding in images and videos is a step
+towards artificial general intelligence. Image captioning is a nomenclature for
+describing meaningful information in an image using computer vision techniques.
+Automated image captioning techniques utilize encoder and decoder architecture,
+where the encoder extracts features from an image and the decoder generates a
+transcript. In this work, we investigate two unexplored ideas for image
+captioning using transformers: First, we demonstrate the enforcement of using
+objects' relevance in the surrounding environment. Second, learning an explicit
+association between labels and language constructs. We propose label-attention
+Transformer with geometrically coherent objects (LATGeO). The proposed
+technique acquires a proposal of geometrically coherent objects using a deep
+neural network (DNN) and generates captions by investigating their
+relationships using a label-attention module. Object coherence is defined using
+the localized ratio of the geometrical properties of the proposals. The
+label-attention module associates the extracted objects classes to the
+available dictionary using self-attention layers. The experimentation results
+show that objects' relevance in surroundings and binding of their visual
+feature with their geometrically localized ratios combined with its associated
+labels help in defining meaningful captions. The proposed framework is tested
+on the MSCOCO dataset, and a thorough evaluation resulting in overall better
+quantitative scores pronounces its superiority.",2021-09-16
+"UniMS: A Unified Framework for Multimodal Summarization with Knowledge
+  Distillation",2021-09-13 09:36:04+00:00,http://arxiv.org/abs/2109.05812v1,"Zhengkun Zhang, Xiaojun Meng, Yasheng Wang, Xin Jiang, Qun Liu, Zhenglu Yang",cs.CL,image2text,"With the rapid increase of multimedia data, a large body of literature has
+emerged to work on multimodal summarization, the majority of which target at
+refining salient information from textual and visual modalities to output a
+pictorial summary with the most relevant images. Existing methods mostly focus
+on either extractive or abstractive summarization and rely on qualified image
+captions to build image references. We are the first to propose a Unified
+framework for Multimodal Summarization grounding on BART, UniMS, that
+integrates extractive and abstractive objectives, as well as selecting the
+image output. Specially, we adopt knowledge distillation from a vision-language
+pretrained model to improve image selection, which avoids any requirement on
+the existence and quality of image captions. Besides, we introduce a visual
+guided decoder to better integrate textual and visual modalities in guiding
+abstractive text generation. Results show that our best model achieves a new
+state-of-the-art result on a large-scale benchmark dataset. The newly involved
+extractive objective as well as the knowledge distillation technique are proven
+to bring a noticeable improvement to the multimodal summarization task.",2021-09-13
+COSMic: A Coherence-Aware Generation Metric for Image Descriptions,2021-09-11 13:43:36+00:00,http://arxiv.org/abs/2109.05281v1,"Mert İnan, Piyush Sharma, Baber Khalid, Radu Soricut, Matthew Stone, Malihe Alikhani","cs.CL, cs.AI, cs.CV, cs.LG",image2text,"Developers of text generation models rely on automated evaluation metrics as
+a stand-in for slow and expensive manual evaluations. However, image captioning
+metrics have struggled to give accurate learned estimates of the semantic and
+pragmatic success of output text. We address this weakness by introducing the
+first discourse-aware learned generation metric for evaluating image
+descriptions. Our approach is inspired by computational theories of discourse
+for capturing information goals using coherence. We present a dataset of
+image$\unicode{x2013}$description pairs annotated with coherence relations. We
+then train a coherence-aware metric on a subset of the Conceptual Captions
+dataset and measure its effectiveness$\unicode{x2014}$its ability to predict
+human ratings of output captions$\unicode{x2014}$on a test set composed of
+out-of-domain images. We demonstrate a higher Kendall Correlation Coefficient
+for our proposed metric with the human judgments for the results of a number of
+state-of-the-art coherence-aware caption generation models when compared to
+several other metrics including recently proposed learned metrics such as
+BLEURT and BERTScore.",2021-09-11
+"Retrieve, Caption, Generate: Visual Grounding for Enhancing Commonsense
+  in Text Generation Models",2021-09-08 19:38:11+00:00,http://arxiv.org/abs/2109.03892v1,"Steven Y. Feng, Kevin Lu, Zhuofu Tao, Malihe Alikhani, Teruko Mitamura, Eduard Hovy, Varun Gangal","cs.CL, cs.AI, cs.LG",image2text,"We investigate the use of multimodal information contained in images as an
+effective method for enhancing the commonsense of Transformer models for text
+generation. We perform experiments using BART and T5 on concept-to-text
+generation, specifically the task of generative commonsense reasoning, or
+CommonGen. We call our approach VisCTG: Visually Grounded Concept-to-Text
+Generation. VisCTG involves captioning images representing appropriate everyday
+scenarios, and using these captions to enrich and steer the generation process.
+Comprehensive evaluation and analysis demonstrate that VisCTG noticeably
+improves model performance while successfully addressing several issues of the
+baseline generations, including poor commonsense, fluency, and specificity.",2021-09-08
+Sequence Level Contrastive Learning for Text Summarization,2021-09-08 08:00:36+00:00,http://arxiv.org/abs/2109.03481v1,"Shusheng Xu, Xingxing Zhang, Yi Wu, Furu Wei",cs.CL,image2text,"Contrastive learning models have achieved great success in unsupervised
+visual representation learning, which maximize the similarities between feature
+representations of different views of the same image, while minimize the
+similarities between feature representations of views of different images. In
+text summarization, the output summary is a shorter form of the input document
+and they have similar meanings. In this paper, we propose a contrastive
+learning model for supervised abstractive text summarization, where we view a
+document, its gold summary and its model generated summaries as different views
+of the same mean representation and maximize the similarities between them
+during training. We improve over a strong sequence-to-sequence text generation
+model (i.e., BART) on three different summarization datasets. Human evaluation
+also shows that our model achieves better faithfulness ratings compared to its
+counterpart without contrastive objectives.",2021-09-08
+Multimodal Conditionality for Natural Language Generation,2021-09-02 22:06:07+00:00,http://arxiv.org/abs/2109.01229v1,"Michael Sollami, Aashish Jain","cs.CL, cs.LG",image2text,"Large scale pretrained language models have demonstrated state-of-the-art
+performance in language understanding tasks. Their application has recently
+expanded into multimodality learning, leading to improved representations
+combining vision and language. However, progress in adapting language models
+towards conditional Natural Language Generation (NLG) has been limited to a
+single modality, generally text. We propose MAnTiS, Multimodal Adaptation for
+Text Synthesis, a general approach for multimodal conditionality in
+transformer-based NLG models. In this method, we pass inputs from each modality
+through modality-specific encoders, project to textual token space, and finally
+join to form a conditionality prefix. We fine-tune the pretrained language
+model and encoders with the conditionality prefix guiding the generation. We
+apply MAnTiS to the task of product description generation, conditioning a
+network on both product images and titles to generate descriptive text. We
+demonstrate that MAnTiS outperforms strong baseline approaches on standard NLG
+scoring metrics. Furthermore, qualitative assessments demonstrate that MAnTiS
+can generate human quality descriptions consistent with given multimodal
+inputs.",2021-09-02
+Goal-driven text descriptions for images,2021-08-28 05:10:38+00:00,http://arxiv.org/abs/2108.12575v1,Ruotian Luo,"cs.CV, cs.CL",image2text,"A big part of achieving Artificial General Intelligence(AGI) is to build a
+machine that can see and listen like humans. Much work has focused on designing
+models for image classification, video classification, object detection, pose
+estimation, speech recognition, etc., and has achieved significant progress in
+recent years thanks to deep learning. However, understanding the world is not
+enough. An AI agent also needs to know how to talk, especially how to
+communicate with a human. While perception (vision, for example) is more common
+across animal species, the use of complicated language is unique to humans and
+is one of the most important aspects of intelligence.
+  In this thesis, we focus on generating textual output given visual input. In
+Chapter 3, we focus on generating the referring expression, a text description
+for an object in the image so that a receiver can infer which object is being
+described. We use a comprehension machine to directly guide the generated
+referring expressions to be more discriminative. In Chapter 4, we introduce a
+method that encourages discriminability in image caption generation. We show
+that more discriminative captioning models generate more descriptive captions.
+In Chapter 5, we study how training objectives and sampling methods affect the
+models' ability to generate diverse captions. We find that a popular captioning
+training strategy will be detrimental to the diversity of generated captions.
+In Chapter 6, we propose a model that can control the length of generated
+captions. By changing the desired length, one can influence the style and
+descriptiveness of the captions. Finally, in Chapter 7, we rank/generate
+informative image tags according to their information utility. The proposed
+method better matches what humans think are the most important tags for the
+images.",2021-08-28
+Automatic Text Evaluation through the Lens of Wasserstein Barycenters,2021-08-27 19:08:52+00:00,http://arxiv.org/abs/2108.12463v2,"Pierre Colombo, Guillaume Staerman, Chloe Clavel, Pablo Piantanida","cs.CL, cs.AI",image2text,"A new metric \texttt{BaryScore} to evaluate text generation based on deep
+contextualized embeddings e.g., BERT, Roberta, ELMo) is introduced. This metric
+is motivated by a new framework relying on optimal transport tools, i.e.,
+Wasserstein distance and barycenter. By modelling the layer output of deep
+contextualized embeddings as a probability distribution rather than by a vector
+embedding; this framework provides a natural way to aggregate the different
+outputs through the Wasserstein space topology. In addition, it provides
+theoretical grounds to our metric and offers an alternative to available
+solutions e.g., MoverScore and BertScore). Numerical evaluation is performed on
+four different tasks: machine translation, summarization, data2text generation
+and image captioning. Our results show that \texttt{BaryScore} outperforms
+other BERT based metrics and exhibits more consistent behaviour in particular
+for text summarization.",2021-08-27
+CGEMs: A Metric Model for Automatic Code Generation using GPT-3,2021-08-23 13:28:57+00:00,http://arxiv.org/abs/2108.10168v1,"Aishwarya Narasimhan, Krishna Prasad Agara Venkatesha Rao, Veena M B",cs.AI,image2text,"Today, AI technology is showing its strengths in almost every industry and
+walks of life. From text generation, text summarization, chatbots, NLP is being
+used widely. One such paradigm is automatic code generation. An AI could be
+generating anything; hence the output space is unconstrained. A self-driving
+car is driven for 100 million miles to validate its safety, but tests cannot be
+written to monitor and cover an unconstrained space. One of the solutions to
+validate AI-generated content is to constrain the problem and convert it from
+abstract to realistic, and this can be accomplished by either validating the
+unconstrained algorithm using theoretical proofs or by using Monte-Carlo
+simulation methods. In this case, we use the latter approach to test/validate a
+statistically significant number of samples. This hypothesis of validating the
+AI-generated code is the main motive of this work and to know if AI-generated
+code is reliable, a metric model CGEMs is proposed. This is an extremely
+challenging task as programs can have different logic with different naming
+conventions, but the metrics must capture the structure and logic of the
+program. This is similar to the importance grammar carries in AI-based text
+generation, Q&A, translations, etc. The various metrics that are garnered in
+this work to support the evaluation of generated code are as follows:
+Compilation, NL description to logic conversion, number of edits needed, some
+of the commonly used static-code metrics and NLP metrics. These metrics are
+applied to 80 codes generated using OpenAI's GPT-3. Post which a Neural network
+is designed for binary classification (acceptable/not acceptable quality of the
+generated code). The inputs to this network are the values of the features
+obtained from the metrics. The model achieves a classification accuracy of
+76.92% and an F1 score of 55.56%. XAI is augmented for model interpretability.",2021-08-23
+Group-based Distinctive Image Captioning with Memory Attention,2021-08-20 12:46:36+00:00,http://arxiv.org/abs/2108.09151v1,"Jiuniu Wang, Wenjia Xu, Qingzhong Wang, Antoni B. Chan","cs.CV, cs.CL, cs.LG",image2text,"Describing images using natural language is widely known as image captioning,
+which has made consistent progress due to the development of computer vision
+and natural language generation techniques. Though conventional captioning
+models achieve high accuracy based on popular metrics, i.e., BLEU, CIDEr, and
+SPICE, the ability of captions to distinguish the target image from other
+similar images is under-explored. To generate distinctive captions, a few
+pioneers employ contrastive learning or re-weighted the ground-truth captions,
+which focuses on one single input image. However, the relationships between
+objects in a similar image group (e.g., items or properties within the same
+album or fine-grained events) are neglected. In this paper, we improve the
+distinctiveness of image captions using a Group-based Distinctive Captioning
+Model (GdisCap), which compares each image with other images in one similar
+group and highlights the uniqueness of each image. In particular, we propose a
+group-based memory attention (GMA) module, which stores object features that
+are unique among the image group (i.e., with low similarity to objects in other
+images). These unique object features are highlighted when generating captions,
+resulting in more distinctive captions. Furthermore, the distinctive words in
+the ground-truth captions are selected to supervise the language decoder and
+GMA. Finally, we propose a new evaluation metric, distinctive word rate
+(DisWordRate) to measure the distinctiveness of captions. Quantitative results
+indicate that the proposed method significantly improves the distinctiveness of
+several baseline models, and achieves the state-of-the-art performance on both
+accuracy and distinctiveness. Results of a user study agree with the
+quantitative evaluation and demonstrate the rationality of the new metric
+DisWordRate.",2021-08-20
+CIGLI: Conditional Image Generation from Language & Image,2021-08-20 00:58:42+00:00,http://arxiv.org/abs/2108.08955v1,"Xiaopeng Lu, Lynnette Ng, Jared Fernandez, Hao Zhu","cs.CV, cs.CL",image2text,"Multi-modal generation has been widely explored in recent years. Current
+research directions involve generating text based on an image or vice versa. In
+this paper, we propose a new task called CIGLI: Conditional Image Generation
+from Language and Image. Instead of generating an image based on text as in
+text-image generation, this task requires the generation of an image from a
+textual description and an image prompt. We designed a new dataset to ensure
+that the text description describes information from both images, and that
+solely analyzing the description is insufficient to generate an image. We then
+propose a novel language-image fusion model which improves the performance over
+two established baseline methods, as evaluated by quantitative (automatic) and
+qualitative (human) evaluations. The code and dataset is available at
+https://github.com/vincentlux/CIGLI.",2021-08-20
+"Table Caption Generation in Scholarly Documents Leveraging Pre-trained
+  Language Models",2021-08-18 12:25:43+00:00,http://arxiv.org/abs/2108.08111v1,"Junjie H. Xu, Kohei Shinden, Makoto P. Kato",cs.CL,image2text,"This paper addresses the problem of generating table captions for scholarly
+documents, which often require additional information outside the table. To
+this end, we propose a method of retrieving relevant sentences from the paper
+body, and feeding the table content as well as the retrieved sentences into
+pre-trained language models (e.g. T5 and GPT-2) for generating table captions.
+The contributions of this paper are: (1) discussion on the challenges in table
+captioning for scholarly documents; (2) development of a dataset DocBank-TB,
+which is publicly available; and (3) comparison of caption generation methods
+for scholarly documents with different strategies to retrieve relevant
+sentences from the paper body. Our experimental results showed that T5 is the
+better generation model for this task, as it outperformed GPT-2 in BLEU and
+METEOR implying that the generated text are clearer and more precise. Moreover,
+inputting relevant sentences matching the row header or whole table is
+effective.",2021-08-18
+"Reusable Templates and Guides For Documenting Datasets and Models for
+  Natural Language Processing and Generation: A Case Study of the HuggingFace
+  and GEM Data and Model Cards",2021-08-16 23:15:09+00:00,http://arxiv.org/abs/2108.07374v1,"Angelina McMillan-Major, Salomey Osei, Juan Diego Rodriguez, Pawan Sasanka Ammanamanchi, Sebastian Gehrmann, Yacine Jernite","cs.DB, cs.CL",image2text,"Developing documentation guidelines and easy-to-use templates for datasets
+and models is a challenging task, especially given the variety of backgrounds,
+skills, and incentives of the people involved in the building of natural
+language processing (NLP) tools. Nevertheless, the adoption of standard
+documentation practices across the field of NLP promotes more accessible and
+detailed descriptions of NLP datasets and models, while supporting researchers
+and developers in reflecting on their work. To help with the standardization of
+documentation, we present two case studies of efforts that aim to develop
+reusable documentation templates -- the HuggingFace data card, a general
+purpose card for datasets in NLP, and the GEM benchmark data and model cards
+with a focus on natural language generation. We describe our process for
+developing these templates, including the identification of relevant
+stakeholder groups, the definition of a set of guiding principles, the use of
+existing templates as our foundation, and iterative revisions based on
+feedback.",2021-08-16
+AutoChart: A Dataset for Chart-to-Text Generation Task,2021-08-16 05:01:46+00:00,http://arxiv.org/abs/2108.06897v1,"Jiawen Zhu, Jinye Ran, Roy Ka-wei Lee, Kenny Choo, Zhi Li","cs.CL, cs.AI, cs.MM",image2text,"The analytical description of charts is an exciting and important research
+area with many applications in academia and industry. Yet, this challenging
+task has received limited attention from the computational linguistics research
+community. This paper proposes \textsf{AutoChart}, a large dataset for the
+analytical description of charts, which aims to encourage more research into
+this important area. Specifically, we offer a novel framework that generates
+the charts and their analytical description automatically. We conducted
+extensive human and machine evaluations on the generated charts and
+descriptions and demonstrate that the generated texts are informative,
+coherent, and relevant to the corresponding charts.",2021-08-16
+"HiTab: A Hierarchical Table Dataset for Question Answering and Natural
+  Language Generation",2021-08-15 10:14:21+00:00,http://arxiv.org/abs/2108.06712v1,"Zhoujun Cheng, Haoyu Dong, Zhiruo Wang, Ran Jia, Jiaqi Guo, Yan Gao, Shi Han, Jian-Guang Lou, Dongmei Zhang","cs.CL, cs.IR",image2text,"Tables are often created with hierarchies, but existing works on table
+reasoning mainly focus on flat tables and neglect hierarchical tables.
+Hierarchical tables challenge existing methods by hierarchical indexing, as
+well as implicit relationships of calculation and semantics. This work presents
+HiTab, a free and open dataset for the research community to study question
+answering (QA) and natural language generation (NLG) over hierarchical tables.
+HiTab is a cross-domain dataset constructed from a wealth of statistical
+reports and Wikipedia pages, and has unique characteristics: (1) nearly all
+tables are hierarchical, and (2) both target sentences for NLG and questions
+for QA are revised from high-quality descriptions in statistical reports that
+are meaningful and diverse. (3) HiTab provides fine-grained annotations on both
+entity and quantity alignment. Targeting hierarchical structure, we devise a
+novel hierarchy-aware logical form for symbolic reasoning over tables, which
+shows high effectiveness. Then given annotations of entity and quantity
+alignment, we propose partially supervised training, which helps models to
+largely reduce spurious predictions in the QA task. In the NLG task, we find
+that entity and quantity alignment also helps NLG models to generate better
+results in a conditional generation setting. Experiment results of
+state-of-the-art baselines suggest that this dataset presents a strong
+challenge and a valuable benchmark for future research.",2021-08-15
+Generating Diverse Descriptions from Semantic Graphs,2021-08-12 11:00:09+00:00,http://arxiv.org/abs/2108.05659v2,"Jiuzhou Han, Daniel Beck, Trevor Cohn",cs.CL,image2text,"Text generation from semantic graphs is traditionally performed with
+deterministic methods, which generate a unique description given an input
+graph. However, the generation problem admits a range of acceptable textual
+outputs, exhibiting lexical, syntactic and semantic variation. To address this
+disconnect, we present two main contributions. First, we propose a stochastic
+graph-to-text model, incorporating a latent variable in an encoder-decoder
+model, and its use in an ensemble. Second, to assess the diversity of the
+generated sentences, we propose a new automatic evaluation metric which jointly
+evaluates output diversity and quality in a multi-reference setting. We
+evaluate the models on WebNLG datasets in English and Russian, and show an
+ensemble of stochastic models produces diverse sets of generated sentences,
+while retaining similar quality to state-of-the-art models.",2021-08-12
+ICECAP: Information Concentrated Entity-aware Image Captioning,2021-08-04 13:27:51+00:00,http://arxiv.org/abs/2108.02050v1,"Anwen Hu, Shizhe Chen, Qin Jin","cs.CV, cs.MM",image2text,"Most current image captioning systems focus on describing general image
+content, and lack background knowledge to deeply understand the image, such as
+exact named entities or concrete events. In this work, we focus on the
+entity-aware news image captioning task which aims to generate informative
+captions by leveraging the associated news articles to provide background
+knowledge about the target image. However, due to the length of news articles,
+previous works only employ news articles at the coarse article or sentence
+level, which are not fine-grained enough to refine relevant events and choose
+named entities accurately. To overcome these limitations, we propose an
+Information Concentrated Entity-aware news image CAPtioning (ICECAP) model,
+which progressively concentrates on relevant textual information within the
+corresponding news article from the sentence level to the word level. Our model
+first creates coarse concentration on relevant sentences using a cross-modality
+retrieval model and then generates captions by further concentrating on
+relevant words within the sentences. Extensive experiments on both BreakingNews
+and GoodNews datasets demonstrate the effectiveness of our proposed method,
+which outperforms other state-of-the-arts. The code of ICECAP is publicly
+available at https://github.com/HAWLYQ/ICECAP.",2021-08-04
+"Exploiting BERT For Multimodal Target Sentiment Classification Through
+  Input Space Translation",2021-08-03 18:02:38+00:00,http://arxiv.org/abs/2108.01682v2,"Zaid Khan, Yun Fu","cs.CL, cs.CV",image2text,"Multimodal target/aspect sentiment classification combines multimodal
+sentiment analysis and aspect/target sentiment classification. The goal of the
+task is to combine vision and language to understand the sentiment towards a
+target entity in a sentence. Twitter is an ideal setting for the task because
+it is inherently multimodal, highly emotional, and affects real world events.
+However, multimodal tweets are short and accompanied by complex, possibly
+irrelevant images. We introduce a two-stream model that translates images in
+input space using an object-aware transformer followed by a single-pass
+non-autoregressive text generation approach. We then leverage the translation
+to construct an auxiliary sentence that provides multimodal information to a
+language model. Our approach increases the amount of text available to the
+language model and distills the object-level information in complex images. We
+achieve state-of-the-art performance on two multimodal Twitter datasets without
+modifying the internals of the language model to accept multimodal data,
+demonstrating the effectiveness of our translation. In addition, we explain a
+failure mode of a popular approach for aspect sentiment analysis when applied
+to tweets. Our code is available at
+\textcolor{blue}{\url{https://github.com/codezakh/exploiting-BERT-thru-translation}}.",2021-08-03
+Logic-Consistency Text Generation from Semantic Parses,2021-08-02 01:12:18+00:00,http://arxiv.org/abs/2108.00577v1,"Chang Shu, Yusen Zhang, Xiangyu Dong, Peng Shi, Tao Yu, Rui Zhang",cs.CL,image2text,"Text generation from semantic parses is to generate textual descriptions for
+formal representation inputs such as logic forms and SQL queries. This is
+challenging due to two reasons: (1) the complex and intensive inner logic with
+the data scarcity constraint, (2) the lack of automatic evaluation metrics for
+logic consistency. To address these two challenges, this paper first proposes
+SNOWBALL, a framework for logic consistent text generation from semantic parses
+that employs an iterative training procedure by recursively augmenting the
+training set with quality control. Second, we propose a novel automatic metric,
+BLEC, for evaluating the logical consistency between the semantic parses and
+generated texts. The experimental results on two benchmark datasets, Logic2Text
+and Spider, demonstrate the SNOWBALL framework enhances the logic consistency
+on both BLEC and human evaluation. Furthermore, our statistical analysis
+reveals that BLEC is more logically consistent with human evaluation than
+general-purpose automatic metrics including BLEU, ROUGE and, BLEURT. Our data
+and code are available at https://github.com/Ciaranshu/relogic.",2021-08-02
+"Robust Learning for Text Classification with Multi-source Noise
+  Simulation and Hard Example Mining",2021-07-15 04:39:22+00:00,http://arxiv.org/abs/2107.07113v1,"Guowei Xu, Wenbiao Ding, Weiping Fu, Zhongqin Wu, Zitao Liu","cs.CL, cs.AI",image2text,"Many real-world applications involve the use of Optical Character Recognition
+(OCR) engines to transform handwritten images into transcripts on which
+downstream Natural Language Processing (NLP) models are applied. In this
+process, OCR engines may introduce errors and inputs to downstream NLP models
+become noisy. Despite that pre-trained models achieve state-of-the-art
+performance in many NLP benchmarks, we prove that they are not robust to noisy
+texts generated by real OCR engines. This greatly limits the application of NLP
+models in real-world scenarios. In order to improve model performance on noisy
+OCR transcripts, it is natural to train the NLP model on labelled noisy texts.
+However, in most cases there are only labelled clean texts. Since there is no
+handwritten pictures corresponding to the text, it is impossible to directly
+use the recognition model to obtain noisy labelled data. Human resources can be
+employed to copy texts and take pictures, but it is extremely expensive
+considering the size of data for model training. Consequently, we are
+interested in making NLP models intrinsically robust to OCR errors in a low
+resource manner. We propose a novel robust training framework which 1) employs
+simple but effective methods to directly simulate natural OCR noises from clean
+texts and 2) iteratively mines the hard examples from a large number of
+simulated samples for optimal performance. 3) To make our model learn
+noise-invariant representations, a stability loss is employed. Experiments on
+three real-world datasets show that the proposed framework boosts the
+robustness of pre-trained models by a large margin. We believe that this work
+can greatly promote the application of NLP models in actual scenarios, although
+the algorithm we use is simple and straightforward. We make our codes and three
+datasets publicly
+available\footnote{https://github.com/tal-ai/Robust-learning-MSSHEM}.",2021-07-15
+From Show to Tell: A Survey on Image Captioning,2021-07-14 18:00:54+00:00,http://arxiv.org/abs/2107.06912v1,"Matteo Stefanini, Marcella Cornia, Lorenzo Baraldi, Silvia Cascianelli, Giuseppe Fiameni, Rita Cucchiara","cs.CV, cs.CL",image2text,"Connecting Vision and Language plays an essential role in Generative
+Intelligence. For this reason, in the last few years, a large research effort
+has been devoted to image captioning, i.e. the task of describing images with
+syntactically and semantically meaningful sentences. Starting from 2015 the
+task has generally been addressed with pipelines composed of a visual encoding
+step and a language model for text generation. During these years, both
+components have evolved considerably through the exploitation of object
+regions, attributes, and relationships and the introduction of multi-modal
+connections, fully-attentive approaches, and BERT-like early-fusion strategies.
+However, regardless of the impressive results obtained, research in image
+captioning has not reached a conclusive answer yet. This work aims at providing
+a comprehensive overview and categorization of image captioning approaches,
+from visual encoding and text generation to training strategies, used datasets,
+and evaluation metrics. In this respect, we quantitatively compare many
+relevant state-of-the-art approaches to identify the most impactful technical
+innovations in image captioning architectures and training strategies.
+Moreover, many variants of the problem and its open challenges are analyzed and
+discussed. The final goal of this work is to serve as a tool for understanding
+the existing state-of-the-art and highlighting the future directions for an
+area of research where Computer Vision and Natural Language Processing can find
+an optimal synergy.",2021-07-14
+"Between Flexibility and Consistency: Joint Generation of Captions and
+  Subtitles",2021-07-13 17:06:04+00:00,http://arxiv.org/abs/2107.06246v1,"Alina Karakanta, Marco Gaido, Matteo Negri, Marco Turchi",cs.CL,image2text,"Speech translation (ST) has lately received growing interest for the
+generation of subtitles without the need for an intermediate source language
+transcription and timing (i.e. captions). However, the joint generation of
+source captions and target subtitles does not only bring potential output
+quality advantages when the two decoding processes inform each other, but it is
+also often required in multilingual scenarios. In this work, we focus on ST
+models which generate consistent captions-subtitles in terms of structure and
+lexical content. We further introduce new metrics for evaluating subtitling
+consistency. Our findings show that joint decoding leads to increased
+performance and consistency between the generated captions and subtitles while
+still allowing for sufficient flexibility to produce subtitles conforming to
+language-specific needs and norms.",2021-07-13
+"Tortured phrases: A dubious writing style emerging in science. Evidence
+  of critical issues affecting established journals",2021-07-12 20:47:08+00:00,http://arxiv.org/abs/2107.06751v1,"Guillaume Cabanac, Cyril Labbé, Alexander Magazinov","cs.DL, cs.CL, cs.CY, cs.IR",image2text,"Probabilistic text generators have been used to produce fake scientific
+papers for more than a decade. Such nonsensical papers are easily detected by
+both human and machine. Now more complex AI-powered generation techniques
+produce texts indistinguishable from that of humans and the generation of
+scientific texts from a few keywords has been documented. Our study introduces
+the concept of tortured phrases: unexpected weird phrases in lieu of
+established ones, such as 'counterfeit consciousness' instead of 'artificial
+intelligence.' We combed the literature for tortured phrases and study one
+reputable journal where these concentrated en masse. Hypothesising the use of
+advanced language models we ran a detector on the abstracts of recent articles
+of this journal and on several control sets. The pairwise comparisons reveal a
+concentration of abstracts flagged as 'synthetic' in the journal. We also
+highlight irregularities in its operation, such as abrupt changes in editorial
+timelines. We substantiate our call for investigation by analysing several
+individual dubious articles, stressing questionable features: tortured writing
+style, citation of non-existent literature, and unacknowledged image reuse.
+Surprisingly, some websites offer to rewrite texts for free, generating
+gobbledegook full of tortured phrases. We believe some authors used rewritten
+texts to pad their manuscripts. We wish to raise the awareness on publications
+containing such questionable AI-generated or rewritten texts that passed (poor)
+peer review. Deception with synthetic texts threatens the integrity of the
+scientific literature.",2021-07-12
+Structured Denoising Diffusion Models in Discrete State-Spaces,2021-07-07 04:11:00+00:00,http://arxiv.org/abs/2107.03006v2,"Jacob Austin, Daniel D. Johnson, Jonathan Ho, Daniel Tarlow, Rianne van den Berg","cs.LG, cs.AI, cs.CL, cs.CV",image2text,"Denoising diffusion probabilistic models (DDPMs) (Ho et al. 2020) have shown
+impressive results on image and waveform generation in continuous state spaces.
+Here, we introduce Discrete Denoising Diffusion Probabilistic Models (D3PMs),
+diffusion-like generative models for discrete data that generalize the
+multinomial diffusion model of Hoogeboom et al. 2021, by going beyond
+corruption processes with uniform transition probabilities. This includes
+corruption with transition matrices that mimic Gaussian kernels in continuous
+space, matrices based on nearest neighbors in embedding space, and matrices
+that introduce absorbing states. The third allows us to draw a connection
+between diffusion models and autoregressive and mask-based generative models.
+We show that the choice of transition matrix is an important design decision
+that leads to improved results in image and text domains. We also introduce a
+new loss function that combines the variational lower bound with an auxiliary
+cross entropy loss. For text, this model class achieves strong results on
+character-level text generation while scaling to large vocabularies on LM1B. On
+the image dataset CIFAR-10, our models approach the sample quality and exceed
+the log-likelihood of the continuous-space DDPM model.",2021-07-07
+"Don't Take It Literally: An Edit-Invariant Sequence Loss for Text
+  Generation",2021-06-29 03:59:21+00:00,http://arxiv.org/abs/2106.15078v1,"Guangyi Liu, Zichao Yang, Tianhua Tao, Xiaodan Liang, Zhen Li, Bowen Zhou, Shuguang Cui, Zhiting Hu","cs.CL, cs.AI",image2text,"Neural text generation models are typically trained by maximizing
+log-likelihood with the sequence cross entropy loss, which encourages an exact
+token-by-token match between a target sequence with a generated sequence. Such
+training objective is sub-optimal when the target sequence not perfect, e.g.,
+when the target sequence is corrupted with noises, or when only weak sequence
+supervision is available. To address this challenge, we propose a novel
+Edit-Invariant Sequence Loss (EISL), which computes the matching loss of a
+target n-gram with all n-grams in the generated sequence. EISL draws
+inspirations from convolutional networks (ConvNets) which are shift-invariant
+to images, hence is robust to the shift of n-grams to tolerate edits in the
+target sequences. Moreover, the computation of EISL is essentially a
+convolution operation with target n-grams as kernels, which is easy to
+implement with existing libraries. To demonstrate the effectiveness of EISL, we
+conduct experiments on three tasks: machine translation with noisy target
+sequences, unsupervised text style transfer, and non-autoregressive machine
+translation. Experimental results show our method significantly outperforms
+cross entropy loss on these three tasks.",2021-06-29
+"UMIC: An Unreferenced Metric for Image Captioning via Contrastive
+  Learning",2021-06-26 13:27:14+00:00,http://arxiv.org/abs/2106.14019v1,"Hwanhee Lee, Seunghyun Yoon, Franck Dernoncourt, Trung Bui, Kyomin Jung","cs.CL, cs.CV",image2text,"Despite the success of various text generation metrics such as BERTScore, it
+is still difficult to evaluate the image captions without enough reference
+captions due to the diversity of the descriptions. In this paper, we introduce
+a new metric UMIC, an Unreferenced Metric for Image Captioning which does not
+require reference captions to evaluate image captions. Based on
+Vision-and-Language BERT, we train UMIC to discriminate negative captions via
+contrastive learning. Also, we observe critical problems of the previous
+benchmark dataset (i.e., human annotations) on image captioning metric, and
+introduce a new collection of human annotations on the generated captions. We
+validate UMIC on four datasets, including our new dataset, and show that UMIC
+has a higher correlation than all previous metrics that require multiple
+references. We release the benchmark dataset and pre-trained models to compute
+the UMIC.",2021-06-26
+"ImaginE: An Imagination-Based Automatic Evaluation Metric for Natural
+  Language Generation",2021-06-10 17:59:52+00:00,http://arxiv.org/abs/2106.05970v1,"Wanrong Zhu, Xin Eric Wang, An Yan, Miguel Eckstein, William Yang Wang","cs.CL, cs.AI, cs.CV",image2text,"Automatic evaluations for natural language generation (NLG) conventionally
+rely on token-level or embedding-level comparisons with the text references.
+This is different from human language processing, for which visual imaginations
+often improve comprehension. In this work, we propose ImaginE, an
+imagination-based automatic evaluation metric for natural language generation.
+With the help of CLIP and DALL-E, two cross-modal models pre-trained on
+large-scale image-text pairs, we automatically generate an image as the
+embodied imagination for the text snippet and compute the imagination
+similarity using contextual embeddings. Experiments spanning several text
+generation tasks demonstrate that adding imagination with our ImaginE displays
+great potential in introducing multi-modal information into NLG evaluation, and
+improves existing automatic metrics' correlations with human similarity
+judgments in many circumstances.",2021-06-10
+"Sketch and Refine: Towards Faithful and Informative Table-to-Text
+  Generation",2021-05-31 08:18:13+00:00,http://arxiv.org/abs/2105.14778v1,"Peng Wang, Junyang Lin, An Yang, Chang Zhou, Yichang Zhang, Jingren Zhou, Hongxia Yang",cs.CL,image2text,"Table-to-text generation refers to generating a descriptive text from a
+key-value table. Traditional autoregressive methods, though can generate text
+with high fluency, suffer from low coverage and poor faithfulness problems. To
+mitigate these problems, we propose a novel Skeleton-based two-stage method
+that combines both Autoregressive and Non-Autoregressive generations (SANA).
+Our approach includes: (1) skeleton generation with an autoregressive pointer
+network to select key tokens from the source table; (2) edit-based
+non-autoregressive generation model to produce texts via iterative insertion
+and deletion operations. By integrating hard constraints from the skeleton, the
+non-autoregressive model improves the generation's coverage over the source
+table and thus enhances its faithfulness. We conduct automatic and human
+evaluations on both WikiPerson and WikiBio datasets. Experimental results
+demonstrate that our method outperforms the previous state-of-the-art methods
+in both automatic and human evaluation, especially on coverage and
+faithfulness. In particular, we achieve PARENT-T recall of 99.47 in WikiPerson,
+improving over the existing best results by more than 10 points.",2021-05-31
+"Dependent Multi-Task Learning with Causal Intervention for Image
+  Captioning",2021-05-18 14:57:33+00:00,http://arxiv.org/abs/2105.08573v1,"Wenqing Chen, Jidong Tian, Caoyun Fan, Hao He, Yaohui Jin","cs.LG, cs.CV, eess.IV",image2text,"Recent work for image captioning mainly followed an extract-then-generate
+paradigm, pre-extracting a sequence of object-based features and then
+formulating image captioning as a single sequence-to-sequence task. Although
+promising, we observed two problems in generated captions: 1) content
+inconsistency where models would generate contradicting facts; 2) not
+informative enough where models would miss parts of important information. From
+a causal perspective, the reason is that models have captured spurious
+statistical correlations between visual features and certain expressions (e.g.,
+visual features of ""long hair"" and ""woman""). In this paper, we propose a
+dependent multi-task learning framework with the causal intervention (DMTCI).
+Firstly, we involve an intermediate task, bag-of-categories generation, before
+the final task, image captioning. The intermediate task would help the model
+better understand the visual features and thus alleviate the content
+inconsistency problem. Secondly, we apply Pearl's do-calculus on the model,
+cutting off the link between the visual features and possible confounders and
+thus letting models focus on the causal visual features. Specifically, the
+high-frequency concept set is considered as the proxy confounders where the
+real confounders are inferred in the continuous space. Finally, we use a
+multi-agent reinforcement learning (MARL) strategy to enable end-to-end
+training and reduce the inter-task error accumulations. The extensive
+experiments show that our model outperforms the baseline models and achieves
+competitive performance with state-of-the-art models.",2021-05-18
+Multi-Modal Image Captioning for the Visually Impaired,2021-05-17 18:35:24+00:00,http://arxiv.org/abs/2105.08106v1,"Hiba Ahsan, Nikita Bhalla, Daivat Bhatt, Kaivankumar Shah",cs.CL,image2text,"One of the ways blind people understand their surroundings is by clicking
+images and relying on descriptions generated by image captioning systems.
+Current work on captioning images for the visually impaired do not use the
+textual data present in the image when generating captions. This problem is
+critical as many visual scenes contain text. Moreover, up to 21% of the
+questions asked by blind people about the images they click pertain to the text
+present in them. In this work, we propose altering AoANet, a state-of-the-art
+image captioning model, to leverage the text detected in the image as an input
+feature. In addition, we use a pointer-generator mechanism to copy the detected
+text to the caption when tokens need to be reproduced accurately. Our model
+outperforms AoANet on the benchmark dataset VizWiz, giving a 35% and 16.2%
+performance improvement on CIDEr and SPICE scores, respectively.",2021-05-17
+Passage Retrieval for Outside-Knowledge Visual Question Answering,2021-05-09 13:27:22+00:00,http://arxiv.org/abs/2105.03938v1,"Chen Qu, Hamed Zamani, Liu Yang, W. Bruce Croft, Erik Learned-Miller",cs.IR,image2text,"In this work, we address multi-modal information needs that contain text
+questions and images by focusing on passage retrieval for outside-knowledge
+visual question answering. This task requires access to outside knowledge,
+which in our case we define to be a large unstructured passage collection. We
+first conduct sparse retrieval with BM25 and study expanding the question with
+object names and image captions. We verify that visual clues play an important
+role and captions tend to be more informative than object names in sparse
+retrieval. We then construct a dual-encoder dense retriever, with the query
+encoder being LXMERT, a multi-modal pre-trained transformer. We further show
+that dense retrieval significantly outperforms sparse retrieval that uses
+object expansion. Moreover, dense retrieval matches the performance of sparse
+retrieval that leverages human-generated captions.",2021-05-09
+"e-ViL: A Dataset and Benchmark for Natural Language Explanations in
+  Vision-Language Tasks",2021-05-08 18:46:33+00:00,http://arxiv.org/abs/2105.03761v1,"Maxime Kayser, Oana-Maria Camburu, Leonard Salewski, Cornelius Emde, Virginie Do, Zeynep Akata, Thomas Lukasiewicz","cs.CV, cs.CL, cs.LG",image2text,"Recently, an increasing number of works have introduced models capable of
+generating natural language explanations (NLEs) for their predictions on
+vision-language (VL) tasks. Such models are appealing because they can provide
+human-friendly and comprehensive explanations. However, there is still a lack
+of unified evaluation approaches for the explanations generated by these
+models. Moreover, there are currently only few datasets of NLEs for VL tasks.
+In this work, we introduce e-ViL, a benchmark for explainable vision-language
+tasks that establishes a unified evaluation framework and provides the first
+comprehensive comparison of existing approaches that generate NLEs for VL
+tasks. e-ViL spans four models and three datasets. Both automatic metrics and
+human evaluation are used to assess model-generated explanations. We also
+introduce e-SNLI-VE, the largest existing VL dataset with NLEs (over 430k
+instances). Finally, we propose a new model that combines UNITER, which learns
+joint embeddings of images and text, and GPT-2, a pre-trained language model
+that is well-suited for text generation. It surpasses the previous
+state-of-the-art by a large margin across all datasets.",2021-05-08
+"Removing Word-Level Spurious Alignment between Images and
+  Pseudo-Captions in Unsupervised Image Captioning",2021-04-28 16:36:52+00:00,http://arxiv.org/abs/2104.13872v1,"Ukyo Honda, Yoshitaka Ushiku, Atsushi Hashimoto, Taro Watanabe, Yuji Matsumoto","cs.CL, cs.CV",image2text,"Unsupervised image captioning is a challenging task that aims at generating
+captions without the supervision of image-sentence pairs, but only with images
+and sentences drawn from different sources and object labels detected from the
+images. In previous work, pseudo-captions, i.e., sentences that contain the
+detected object labels, were assigned to a given image. The focus of the
+previous work was on the alignment of input images and pseudo-captions at the
+sentence level. However, pseudo-captions contain many words that are irrelevant
+to a given image. In this work, we investigate the effect of removing
+mismatched words from image-sentence alignment to determine how they make this
+task difficult. We propose a simple gating mechanism that is trained to align
+image features with only the most reliable words in pseudo-captions: the
+detected object labels. The experimental results show that our proposed method
+outperforms the previous methods without introducing complex sentence-level
+learning objectives. Combined with the sentence-level alignment method of
+previous work, our method further improves its performance. These results
+confirm the importance of careful alignment in word-level details.",2021-04-28
+MusCaps: Generating Captions for Music Audio,2021-04-24 16:34:47+00:00,http://arxiv.org/abs/2104.11984v1,"Ilaria Manco, Emmanouil Benetos, Elio Quinton, Gyorgy Fazekas","cs.SD, cs.CL, cs.LG, eess.AS",image2text,"Content-based music information retrieval has seen rapid progress with the
+adoption of deep learning. Current approaches to high-level music description
+typically make use of classification models, such as in auto-tagging or genre
+and mood classification. In this work, we propose to address music description
+via audio captioning, defined as the task of generating a natural language
+description of music audio content in a human-like manner. To this end, we
+present the first music audio captioning model, MusCaps, consisting of an
+encoder-decoder with temporal attention. Our method combines convolutional and
+recurrent neural network architectures to jointly process audio-text inputs
+through a multimodal encoder and leverages pre-training on audio data to obtain
+representations that effectively capture and summarise musical features in the
+input. Evaluation of the generated captions through automatic metrics shows
+that our method outperforms a baseline designed for non-music audio captioning.
+Through an ablation study, we unveil that this performance boost can be mainly
+attributed to pre-training of the audio encoder, while other design choices -
+modality fusion, decoding strategy and the use of attention - contribute only
+marginally. Our model represents a shift away from classification-based music
+description and combines tasks requiring both auditory and linguistic
+understanding to bridge the semantic gap in music information retrieval.",2021-04-24
+"Imaginative Walks: Generative Random Walk Deviation Loss for Improved
+  Unseen Learning Representation",2021-04-20 04:34:28+00:00,http://arxiv.org/abs/2104.09757v1,"Mohamed Elhoseiny, Divyansh Jha, Kai Yi, Ivan Skorokhodov","cs.CV, cs.AI",image2text,"We propose a novel loss for generative models, dubbed as GRaWD (Generative
+Random Walk Deviation), to improve learning representations of unexplored
+visual spaces. Quality learning representation of unseen classes (or styles) is
+crucial to facilitate novel image generation and better generative
+understanding of unseen visual classes (a.k.a. Zero-Shot Learning, ZSL). By
+generating representations of unseen classes from their semantic descriptions,
+such as attributes or text, Generative ZSL aims at identifying unseen
+categories discriminatively from seen ones. We define GRaWD by constructing a
+dynamic graph, including the seen class/style centers and generated samples in
+the current mini-batch. Our loss starts a random walk probability from each
+center through visual generations produced from hallucinated unseen classes. As
+a deviation signal, we encourage the random walk to eventually land after t
+steps in a feature representation that is hard to classify to any of the seen
+classes. We show that our loss can improve unseen class representation quality
+on four text-based ZSL benchmarks on CUB and NABirds datasets and three
+attribute-based ZSL benchmarks on AWA2, SUN, and aPY datasets. We also study
+our loss's ability to produce meaningful novel visual art generations on
+WikiArt dataset. Our experiments and human studies show that our loss can
+improve StyleGAN1 and StyleGAN2 generation quality, creating novel art that is
+significantly more preferred. Code will be made available.",2021-04-20
+Learning to Reason for Text Generation from Scientific Tables,2021-04-16 18:01:36+00:00,http://arxiv.org/abs/2104.08296v1,"Nafise Sadat Moosavi, Andreas Rücklé, Dan Roth, Iryna Gurevych",cs.CL,image2text,"In this paper, we introduce SciGen, a new challenge dataset for the task of
+reasoning-aware data-to-text generation consisting of tables from scientific
+articles and their corresponding descriptions. Describing scientific tables
+goes beyond the surface realization of the table content and requires reasoning
+over table values. The unique properties of SciGen are that (1) tables mostly
+contain numerical values, and (2) the corresponding descriptions require
+arithmetic reasoning. SciGen is therefore the first dataset that assesses the
+arithmetic reasoning capabilities of generation models on complex input
+structures, i.e., tables from scientific articles. We study the effectiveness
+of state-of-the-art data-to-text generation models on SciGen and evaluate the
+results using common metrics as well as human evaluation. Our results and
+analyses show that (a) while humans like to reason for describing scientific
+tables, the ability of state-of-the-art models is severely limited on this
+task, (b) while adding more training data improves the results, it is not the
+solution for reasoning-aware text generation, and (c) one of the main
+bottlenecks for this task is the lack of proper automatic evaluation metrics.
+The data, code, and annotations for human evaluation will be available at
+https://github.com/UKPLab/SciGen. SciGen opens new avenues for future research
+in reasoning-aware text generation and evaluation.",2021-04-16
+IGA : An Intent-Guided Authoring Assistant,2021-04-14 17:32:21+00:00,http://arxiv.org/abs/2104.07000v1,"Simeng Sun, Wenlong Zhao, Varun Manjunatha, Rajiv Jain, Vlad Morariu, Franck Dernoncourt, Balaji Vasan Srinivasan, Mohit Iyyer",cs.CL,image2text,"While large-scale pretrained language models have significantly improved
+writing assistance functionalities such as autocomplete, more complex and
+controllable writing assistants have yet to be explored. We leverage advances
+in language modeling to build an interactive writing assistant that generates
+and rephrases text according to fine-grained author specifications. Users
+provide input to our Intent-Guided Assistant (IGA) in the form of text
+interspersed with tags that correspond to specific rhetorical directives (e.g.,
+adding description or contrast, or rephrasing a particular sentence). We
+fine-tune a language model on a dataset heuristically-labeled with author
+intent, which allows IGA to fill in these tags with generated text that users
+can subsequently edit to their liking. A series of automatic and crowdsourced
+evaluations confirm the quality of IGA's generated outputs, while a small-scale
+user study demonstrates author preference for IGA over baseline methods in a
+creative writing task. We release our dataset, code, and demo to spur further
+research into AI-assisted writing.",2021-04-14
+"Automatic Generation of Descriptive Titles for Video Clips Using Deep
+  Learning",2021-04-07 18:14:18+00:00,http://arxiv.org/abs/2104.03337v1,"Soheyla Amirian, Khaled Rasheed, Thiab R. Taha, Hamid R. Arabnia","cs.CV, cs.AI, cs.LG",image2text,"Over the last decade, the use of Deep Learning in many applications produced
+results that are comparable to and in some cases surpassing human expert
+performance. The application domains include diagnosing diseases, finance,
+agriculture, search engines, robot vision, and many others. In this paper, we
+are proposing an architecture that utilizes image/video captioning methods and
+Natural Language Processing systems to generate a title and a concise abstract
+for a video. Such a system can potentially be utilized in many application
+domains, including, the cinema industry, video search engines, security
+surveillance, video databases/warehouses, data centers, and others. The
+proposed system functions and operates as followed: it reads a video;
+representative image frames are identified and selected; the image frames are
+captioned; NLP is applied to all generated captions together with text
+summarization; and finally, a title and an abstract are generated for the
+video. All functions are performed automatically. Preliminary results are
+provided in this paper using publicly available datasets. This paper is not
+concerned about the efficiency of the system at the execution time. We hope to
+be able to address execution efficiency issues in our subsequent publications.",2021-04-07
+"On Hallucination and Predictive Uncertainty in Conditional Language
+  Generation",2021-03-28 00:32:27+00:00,http://arxiv.org/abs/2103.15025v1,"Yijun Xiao, William Yang Wang",cs.CL,image2text,"Despite improvements in performances on different natural language generation
+tasks, deep neural models are prone to hallucinating facts that are incorrect
+or nonexistent. Different hypotheses are proposed and examined separately for
+different tasks, but no systematic explanations are available across these
+tasks. In this study, we draw connections between hallucinations and predictive
+uncertainty in conditional language generation. We investigate their
+relationship in both image captioning and data-to-text generation and propose a
+simple extension to beam search to reduce hallucination. Our analysis shows
+that higher predictive uncertainty corresponds to a higher chance of
+hallucination. Epistemic uncertainty is more indicative of hallucination than
+aleatoric or total uncertainties. It helps to achieve better results of trading
+performance in standard metric for less hallucination with the proposed beam
+search variant.",2021-03-28
+Relationship-based Neural Baby Talk,2021-03-08 15:51:24+00:00,http://arxiv.org/abs/2103.04846v1,"Fan Fu, Tingting Xie, Ioannis Patras, Sepehr Jalali","cs.CV, cs.AI",image2text,"Understanding interactions between objects in an image is an important
+element for generating captions. In this paper, we propose a relationship-based
+neural baby talk (R-NBT) model to comprehensively investigate several types of
+pairwise object interactions by encoding each image via three different
+relationship-based graph attention networks (GATs). We study three main
+relationships: \textit{spatial relationships} to explore geometric
+interactions, \textit{semantic relationships} to extract semantic interactions,
+and \textit{implicit relationships} to capture hidden information that could
+not be modelled explicitly as above. We construct three relationship graphs
+with the objects in an image as nodes, and the mutual relationships of pairwise
+objects as edges. By exploring features of neighbouring regions individually
+via GATs, we integrate different types of relationships into visual features of
+each node. Experiments on COCO dataset show that our proposed R-NBT model
+outperforms state-of-the-art models trained on COCO dataset in three image
+caption generation tasks.",2021-03-08
+Controllable and Diverse Text Generation in E-commerce,2021-02-23 05:16:27+00:00,http://arxiv.org/abs/2102.11497v1,"Huajie Shao, Jun Wang, Haohong Lin, Xuezhou Zhang, Aston Zhang, Heng Ji, Tarek Abdelzaher",cs.LG,image2text,"In E-commerce, a key challenge in text generation is to find a good trade-off
+between word diversity and accuracy (relevance) in order to make generated text
+appear more natural and human-like. In order to improve the relevance of
+generated results, conditional text generators were developed that use input
+keywords or attributes to produce the corresponding text. Prior work, however,
+do not finely control the diversity of automatically generated sentences. For
+example, it does not control the order of keywords to put more relevant ones
+first. Moreover, it does not explicitly control the balance between diversity
+and accuracy. To remedy these problems, we propose a fine-grained controllable
+generative model, called~\textit{Apex}, that uses an algorithm borrowed from
+automatic control (namely, a variant of the \textit{proportional, integral, and
+derivative (PID) controller}) to precisely manipulate the diversity/accuracy
+trade-off of generated text. The algorithm is injected into a Conditional
+Variational Autoencoder (CVAE), allowing \textit{Apex} to control both (i) the
+order of keywords in the generated sentences (conditioned on the input keywords
+and their order), and (ii) the trade-off between diversity and accuracy.
+Evaluation results on real-world datasets show that the proposed method
+outperforms existing generative models in terms of diversity and relevance.
+Apex is currently deployed to generate production descriptions and item
+recommendation reasons in Taobao owned by Alibaba, the largest E-commerce
+platform in China. The A/B production test results show that our method
+improves click-through rate (CTR) by 13.17\% compared to the existing method
+for production descriptions. For item recommendation reason, it is able to
+increase CTR by 6.89\% and 1.42\% compared to user reviews and top-K item
+recommendation without reviews, respectively.",2021-02-23
+Progressive Transformer-Based Generation of Radiology Reports,2021-02-19 07:42:13+00:00,http://arxiv.org/abs/2102.09777v1,"Farhad Nooralahzadeh, Nicolas Perez Gonzalez, Thomas Frauenfelder, Koji Fujimoto, Michael Krauthammer",cs.CL,image2text,"Inspired by Curriculum Learning, we propose a consecutive (i.e.
+image-to-text-to-text) generation framework where we divide the problem of
+radiology report generation into two steps. Contrary to generating the full
+radiology report from the image at once, the model generates global concepts
+from the image in the first step and then reforms them into finer and coherent
+texts using transformer-based architecture. We follow the transformer-based
+sequence-to-sequence paradigm at each step. We improve upon the
+state-of-the-art on two benchmark datasets.",2021-02-19
+Annotation Cleaning for the MSR-Video to Text Dataset,2021-02-12 11:14:56+00:00,http://arxiv.org/abs/2102.06448v1,"Haoran Chen, Jianmin Li, Simone Frintrop, Xiaolin Hu","cs.CV, cs.LG, 68T45, 68T50, I.2.10; I.2.7",image2text,"The video captioning task is to describe the video contents with natural
+language by the machine. Many methods have been proposed for solving this task.
+A large dataset called MSR Video to Text (MSR-VTT) is often used as the
+benckmark dataset for testing the performance of the methods. However, we found
+that the human annotations, i.e., the descriptions of video contents in the
+dataset are quite noisy, e.g., there are many duplicate captions and many
+captions contain grammatical problems. These problems may pose difficulties to
+video captioning models for learning. We cleaned the MSR-VTT annotations by
+removing these problems, then tested several typical video captioning models on
+the cleaned dataset. Experimental results showed that data cleaning boosted the
+performances of the models measured by popular quantitative metrics. We
+recruited subjects to evaluate the results of a model trained on the original
+and cleaned datasets. The human behavior experiment demonstrated that trained
+on the cleaned dataset, the model generated captions that were more coherent
+and more relevant to contents of the video clips. The cleaned dataset is
+publicly available.",2021-02-12
+SG2Caps: Revisiting Scene Graphs for Image Captioning,2021-02-09 18:00:53+00:00,http://arxiv.org/abs/2102.04990v1,"Subarna Tripathi, Kien Nguyen, Tanaya Guha, Bang Du, Truong Q. Nguyen","cs.CV, cs.CL",image2text,"The mainstream image captioning models rely on Convolutional Neural Network
+(CNN) image features with an additional attention to salient regions and
+objects to generate captions via recurrent models. Recently, scene graph
+representations of images have been used to augment captioning models so as to
+leverage their structural semantics, such as object entities, relationships and
+attributes. Several studies have noted that naive use of scene graphs from a
+black-box scene graph generator harms image caption-ing performance, and scene
+graph-based captioning mod-els have to incur the overhead of explicit use of
+image features to generate decent captions. Addressing these challenges, we
+propose a framework, SG2Caps, that utilizes only the scene graph labels for
+competitive image caption-ing performance. The basic idea is to close the
+semantic gap between two scene graphs - one derived from the input image and
+the other one from its caption. In order to achieve this, we leverage the
+spatial location of objects and the Human-Object-Interaction (HOI) labels as an
+additional HOI graph. Our framework outperforms existing scene graph-only
+captioning models by a large margin (CIDEr score of 110 vs 71) indicating scene
+graphs as a promising representation for image captioning. Direct utilization
+of the scene graph labels avoids expensive graph convolutions over
+high-dimensional CNN features resulting in 49%fewer trainable parameters.",2021-02-09
+Controlling Hallucinations at Word Level in Data-to-Text Generation,2021-02-04 18:58:28+00:00,http://arxiv.org/abs/2102.02810v1,"Clément Rebuffel, Marco Roberti, Laure Soulier, Geoffrey Scoutheeten, Rossella Cancelliere, Patrick Gallinari","cs.CL, cs.AI, cs.LG, cs.NE, 68T50 (Primary), 68T07 (Secondary), 68T05, I.2.6; I.2.7",image2text,"Data-to-Text Generation (DTG) is a subfield of Natural Language Generation
+aiming at transcribing structured data in natural language descriptions. The
+field has been recently boosted by the use of neural-based generators which
+exhibit on one side great syntactic skills without the need of hand-crafted
+pipelines; on the other side, the quality of the generated text reflects the
+quality of the training data, which in realistic settings only offer
+imperfectly aligned structure-text pairs. Consequently, state-of-art neural
+models include misleading statements - usually called hallucinations - in their
+outputs. The control of this phenomenon is today a major challenge for DTG, and
+is the problem addressed in the paper.
+  Previous work deal with this issue at the instance level: using an alignment
+score for each table-reference pair. In contrast, we propose a finer-grained
+approach, arguing that hallucinations should rather be treated at the word
+level. Specifically, we propose a Multi-Branch Decoder which is able to
+leverage word-level labels to learn the relevant parts of each training
+instance. These labels are obtained following a simple and efficient scoring
+procedure based on co-occurrence analysis and dependency parsing. Extensive
+evaluations, via automated metrics and human judgment on the standard WikiBio
+benchmark, show the accuracy of our alignment labels and the effectiveness of
+the proposed Multi-Branch Decoder. Our model is able to reduce and control
+hallucinations, while keeping fluency and coherence in generated texts. Further
+experiments on a degraded version of ToTTo show that our model could be
+successfully used on very noisy settings.",2021-02-04
+Unifying Vision-and-Language Tasks via Text Generation,2021-02-04 17:59:30+00:00,http://arxiv.org/abs/2102.02779v1,"Jaemin Cho, Jie Lei, Hao Tan, Mohit Bansal","cs.CL, cs.AI, cs.CV, cs.LG",image2text,"Existing methods for vision-and-language learning typically require designing
+task-specific architectures and objectives for each task. For example, a
+multi-label answer classifier for visual question answering, a region scorer
+for referring expression comprehension, and a language decoder for image
+captioning, etc. To alleviate these hassles, in this work, we propose a unified
+framework that learns different tasks in a single architecture with the same
+language modeling objective, i.e., multimodal conditional text generation,
+where our models learn to generate labels in text based on the visual and
+textual inputs. On 7 popular vision-and-language benchmarks, including visual
+question answering, referring expression comprehension, visual commonsense
+reasoning, most of which have been previously modeled as discriminative tasks,
+our generative approach (with a single unified architecture) reaches comparable
+performance to recent task-specific state-of-the-art vision-and-language
+models. Moreover, our generative approach shows better generalization ability
+on answering questions that have rare answers. In addition, we show that our
+framework allows multi-task learning in a single architecture with a single set
+of parameters, which achieves similar performance to separately optimized
+single-task models. Our code will be publicly available at:
+https://github.com/j-min/VL-T5",2021-02-04
+"The GEM Benchmark: Natural Language Generation, its Evaluation and
+  Metrics",2021-02-02 18:42:05+00:00,http://arxiv.org/abs/2102.01672v2,"Sebastian Gehrmann, Tosin Adewumi, Karmanya Aggarwal, Pawan Sasanka Ammanamanchi, Aremu Anuoluwapo, Antoine Bosselut, Khyathi Raghavi Chandu, Miruna Clinciu, Dipanjan Das, Kaustubh D. Dhole, Wanyu Du, Esin Durmus, Ondřej Dušek, Chris Emezue, Varun Gangal, Cristina Garbacea, Tatsunori Hashimoto, Yufang Hou, Yacine Jernite, Harsh Jhamtani, Yangfeng Ji, Shailza Jolly, Dhruv Kumar, Faisal Ladhak, Aman Madaan, Mounica Maddela, Khyati Mahajan, Saad Mahamood, Bodhisattwa Prasad Majumder, Pedro Henrique Martins, Angelina McMillan-Major, Simon Mille, Emiel van Miltenburg, Moin Nadeem, Shashi Narayan, Vitaly Nikolaev, Rubungo Andre Niyongabo, Salomey Osei, Ankur Parikh, Laura Perez-Beltrachini, Niranjan Ramesh Rao, Vikas Raunak, Juan Diego Rodriguez, Sashank Santhanam, João Sedoc, Thibault Sellam, Samira Shaikh, Anastasia Shimorina, Marco Antonio Sobrevilla Cabezudo, Hendrik Strobelt, Nishant Subramani, Wei Xu, Diyi Yang, Akhila Yerukola, Jiawei Zhou","cs.CL, cs.AI, cs.LG",image2text,"We introduce GEM, a living benchmark for natural language Generation (NLG),
+its Evaluation, and Metrics. Measuring progress in NLG relies on a constantly
+evolving ecosystem of automated metrics, datasets, and human evaluation
+standards. However, due to this moving target, new models often still evaluate
+on divergent anglo-centric corpora with well-established, but flawed, metrics.
+This disconnect makes it challenging to identify the limitations of current
+models and opportunities for progress. Addressing this limitation, GEM provides
+an environment in which models can easily be applied to a wide set of corpora
+and evaluation strategies can be tested. Regular updates to the benchmark will
+help NLG research become more multilingual and evolve the challenge alongside
+models.
+  This paper serves as the description of the initial release for which we are
+organizing a shared task at our ACL 2021 Workshop and to which we invite the
+entire NLG community to participate.",2021-02-02
+"Generating images from caption and vice versa via CLIP-Guided Generative
+  Latent Space Search",2021-02-02 18:00:13+00:00,http://arxiv.org/abs/2102.01645v2,"Federico A. Galatolo, Mario G. C. A. Cimino, Gigliola Vaglini","cs.NE, cs.AI, cs.LG",image2text,"In this research work we present GLaSS, a novel zero-shot framework to
+generate an image(or a caption) corresponding to a given caption(or image).
+GLaSS is based on the CLIP neural network which given an image and a
+descriptive caption provides similar embeddings. Differently, GLaSS takes a
+caption (or an image) as an input, and generates the image (or the caption)
+whose CLIP embedding is most similar to the input one. This optimal image (or
+caption) is produced via a generative network after an exploration by a genetic
+algorithm. Promising results are shown, based on the experimentation of the
+image generators BigGAN and StyleGAN2, and of the text generator GPT2.",2021-02-02
+"VX2TEXT: End-to-End Learning of Video-Based Text Generation From
+  Multimodal Inputs",2021-01-28 15:22:36+00:00,http://arxiv.org/abs/2101.12059v2,"Xudong Lin, Gedas Bertasius, Jue Wang, Shih-Fu Chang, Devi Parikh, Lorenzo Torresani","cs.CV, cs.CL",image2text,"We present \textsc{Vx2Text}, a framework for text generation from multimodal
+inputs consisting of video plus text, speech, or audio. In order to leverage
+transformer networks, which have been shown to be effective at modeling
+language, each modality is first converted into a set of language embeddings by
+a learnable tokenizer. This allows our approach to perform multimodal fusion in
+the language space, thus eliminating the need for ad-hoc cross-modal fusion
+modules. To address the non-differentiability of tokenization on continuous
+inputs (e.g., video or audio), we utilize a relaxation scheme that enables
+end-to-end training. Furthermore, unlike prior encoder-only models, our network
+includes an autoregressive decoder to generate open-ended text from the
+multimodal embeddings fused by the language encoder. This renders our approach
+fully generative and makes it directly applicable to different ""video+$x$ to
+text"" problems without the need to design specialized network heads for each
+task. The proposed framework is not only conceptually simple but also
+remarkably effective: experiments demonstrate that our approach based on a
+single architecture outperforms the state-of-the-art on three video-based
+text-generation tasks -- captioning, question answering and audio-visual
+scene-aware dialog.",2021-01-28
+"GUIGAN: Learning to Generate GUI Designs Using Generative Adversarial
+  Networks",2021-01-25 09:42:58+00:00,http://arxiv.org/abs/2101.09978v2,"Tianming Zhao, Chunyang Chen, Yuanning Liu, Xiaodong Zhu","cs.HC, cs.CV, cs.LG, cs.SE",image2text,"Graphical User Interface (GUI) is ubiquitous in almost all modern desktop
+software, mobile applications, and online websites. A good GUI design is
+crucial to the success of the software in the market, but designing a good GUI
+which requires much innovation and creativity is difficult even to well-trained
+designers. Besides, the requirement of the rapid development of GUI design also
+aggravates designers' working load. So, the availability of various automated
+generated GUIs can help enhance the design personalization and specialization
+as they can cater to the taste of different designers. To assist designers, we
+develop a model GUIGAN to automatically generate GUI designs. Different from
+conventional image generation models based on image pixels, our GUIGAN is to
+reuse GUI components collected from existing mobile app GUIs for composing a
+new design that is similar to natural-language generation. Our GUIGAN is based
+on SeqGAN by modeling the GUI component style compatibility and GUI structure.
+The evaluation demonstrates that our model significantly outperforms the best
+of the baseline methods by 30.77% in Frechet Inception distance (FID) and
+12.35% in 1-Nearest Neighbor Accuracy (1-NNA). Through a pilot user study, we
+provide initial evidence of the usefulness of our approach for generating
+acceptable brand new GUI designs.",2021-01-25
+"Towards Understanding How Readers Integrate Charts and Captions: A Case
+  Study with Line Charts",2021-01-20 18:11:35+00:00,http://arxiv.org/abs/2101.08235v1,"Dae Hyun Kim, Vidya Setlur, Maneesh Agrawala",cs.HC,image2text,"Charts often contain visually prominent features that draw attention to
+aspects of the data and include text captions that emphasize aspects of the
+data. Through a crowdsourced study, we explore how readers gather takeaways
+when considering charts and captions together. We first ask participants to
+mark visually prominent regions in a set of line charts. We then generate text
+captions based on the prominent features and ask participants to report their
+takeaways after observing chart-caption pairs. We find that when both the chart
+and caption describe a high-prominence feature, readers treat the doubly
+emphasized high-prominence feature as the takeaway; when the caption describes
+a low-prominence chart feature, readers rely on the chart and report a
+higher-prominence feature as the takeaway. We also find that external
+information that provides context, helps further convey the caption's message
+to the reader. We use these findings to provide guidelines for authoring
+effective chart-caption pairs.",2021-01-20
+Narration Generation for Cartoon Videos,2021-01-17 23:23:09+00:00,http://arxiv.org/abs/2101.06803v1,"Nikos Papasarantopoulos, Shay B. Cohen",cs.CL,image2text,"Research on text generation from multimodal inputs has largely focused on
+static images, and less on video data. In this paper, we propose a new task,
+narration generation, that is complementing videos with narration texts that
+are to be interjected in several places. The narrations are part of the video
+and contribute to the storyline unfolding in it. Moreover, they are
+context-informed, since they include information appropriate for the timeframe
+of video they cover, and also, do not need to include every detail shown in
+input scenes, as a caption would. We collect a new dataset from the animated
+television series Peppa Pig. Furthermore, we formalize the task of narration
+generation as including two separate tasks, timing and content generation, and
+present a set of models on the new task.",2021-01-17
+Zero-shot Learning by Generating Task-specific Adapters,2021-01-02 10:50:23+00:00,http://arxiv.org/abs/2101.00420v1,"Qinyuan Ye, Xiang Ren","cs.CL, cs.LG",image2text,"Pre-trained text-to-text transformers achieve impressive performance across a
+wide range of NLP tasks, and they naturally support zero-shot learning (ZSL) by
+using the task description as prompt in the input. However, this approach has
+potential limitations, as it learns from input-output pairs at instance level,
+instead of learning to solve tasks at task level. Alternatively, applying
+existing ZSL methods to text-to-text transformers is non-trivial due to their
+text generation objective and huge size. To address these issues, we introduce
+Hypter, a framework that improves zero-shot transferability by training a
+hypernetwork to generate task-specific adapters from task descriptions. This
+formulation enables learning at task level, and greatly reduces the number of
+parameters by using light-weight adapters. Experiments on two datasets
+demonstrate Hypter improves upon fine-tuning baselines.",2021-01-02
+Neural Text Generation with Artificial Negative Examples,2020-12-28 07:25:10+00:00,http://arxiv.org/abs/2012.14124v1,"Keisuke Shirai, Kazuma Hashimoto, Akiko Eriguchi, Takashi Ninomiya, Shinsuke Mori","cs.CL, cs.AI",image2text,"Neural text generation models conditioning on given input (e.g. machine
+translation and image captioning) are usually trained by maximum likelihood
+estimation of target text. However, the trained models suffer from various
+types of errors at inference time. In this paper, we propose to suppress an
+arbitrary type of errors by training the text generation model in a
+reinforcement learning framework, where we use a trainable reward function that
+is capable of discriminating between references and sentences containing the
+targeted type of errors. We create such negative examples by artificially
+injecting the targeted errors to the references. In experiments, we focus on
+two error types, repeated and dropped tokens in model-generated text. The
+experimental results show that our method can suppress the generation errors
+and achieve significant improvements on two machine translation and two image
+captioning tasks.",2020-12-28
+Few-Shot Text Generation with Pattern-Exploiting Training,2020-12-22 10:53:07+00:00,http://arxiv.org/abs/2012.11926v1,"Timo Schick, Hinrich Schütze","cs.CL, cs.LG",image2text,"Providing pretrained language models with simple task descriptions or prompts
+in natural language yields impressive few-shot results for a wide range of text
+classification tasks when combined with gradient-based learning from examples.
+In this paper, we show that the underlying idea can also be applied to text
+generation tasks: We adapt Pattern-Exploiting Training (PET), a recently
+proposed few-shot approach, for finetuning generative language models on text
+generation tasks. On several text summarization and headline generation
+datasets, our proposed variant of PET gives consistent improvements over a
+strong baseline in few-shot settings.",2020-12-22
+Fork or Fail: Cycle-Consistent Training with Many-to-One Mappings,2020-12-14 10:59:59+00:00,http://arxiv.org/abs/2012.07412v2,"Qipeng Guo, Zhijing Jin, Ziyu Wang, Xipeng Qiu, Weinan Zhang, Jun Zhu, Zheng Zhang, David Wipf","cs.LG, cs.AI, cs.CL",image2text,"Cycle-consistent training is widely used for jointly learning a forward and
+inverse mapping between two domains of interest without the cumbersome
+requirement of collecting matched pairs within each domain. In this regard, the
+implicit assumption is that there exists (at least approximately) a
+ground-truth bijection such that a given input from either domain can be
+accurately reconstructed from successive application of the respective
+mappings. But in many applications no such bijection can be expected to exist
+and large reconstruction errors can compromise the success of cycle-consistent
+training. As one important instance of this limitation, we consider
+practically-relevant situations where there exists a many-to-one or surjective
+mapping between domains. To address this regime, we develop a conditional
+variational autoencoder (CVAE) approach that can be viewed as converting
+surjective mappings to implicit bijections whereby reconstruction errors in
+both directions can be minimized, and as a natural byproduct, realistic output
+diversity can be obtained in the one-to-many direction. As theoretical
+motivation, we analyze a simplified scenario whereby minima of the proposed
+CVAE-based energy function align with the recovery of ground-truth surjective
+mappings. On the empirical side, we consider a synthetic image dataset with
+known ground-truth, as well as a real-world application involving natural
+language generation from knowledge graphs and vice versa, a prototypical
+surjective case. For the latter, our CVAE pipeline can capture such many-to-one
+mappings during cycle training while promoting textural diversity for
+graph-to-text tasks. Our code is available at github.com/QipengGuo/CycleGT",2020-12-14
+Video Generative Adversarial Networks: A Review,2020-11-04 12:16:05+00:00,http://arxiv.org/abs/2011.02250v1,"Nuha Aldausari, Arcot Sowmya, Nadine Marcus, Gelareh Mohammadi","cs.CV, cs.LG, eess.IV",image2text,"With the increasing interest in the content creation field in multiple
+sectors such as media, education, and entertainment, there is an increasing
+trend in the papers that uses AI algorithms to generate content such as images,
+videos, audio, and text. Generative Adversarial Networks (GANs) in one of the
+promising models that synthesizes data samples that are similar to real data
+samples. While the variations of GANs models, in general, have been covered to
+some extent in several survey papers, to the best of our knowledge, this is
+among the first survey papers that reviews the state-of-the-art video GANs
+models. This paper first categorized GANs review papers into general GANs
+review papers, image GANs review papers, and special field GANs review papers
+such as anomaly detection, medical imaging, or cybersecurity. The paper then
+summarizes the main improvements in GANs frameworks that are not initially
+developed for the video domain but have been adopted in multiple video GANs
+variations. Then, a comprehensive review of video GANs models is provided under
+two main divisions according to the presence or non-presence of a condition.
+The conditional models then further grouped according to the type of condition
+into audio, text, video, and image. The paper is concluded by highlighting the
+main challenges and limitations of the current video GANs models. A
+comprehensive list of datasets, applied loss functions, and evaluation metrics
+is provided in the supplementary material.",2020-11-04
+Personalized Multimodal Feedback Generation in Education,2020-10-31 05:26:49+00:00,http://arxiv.org/abs/2011.00192v1,"Haochen Liu, Zitao Liu, Zhongqin Wu, Jiliang Tang","cs.CL, cs.AI",image2text,"The automatic evaluation for school assignments is an important application
+of AI in the education field. In this work, we focus on the task of
+personalized multimodal feedback generation, which aims to generate
+personalized feedback for various teachers to evaluate students' assignments
+involving multimodal inputs such as images, audios, and texts. This task
+involves the representation and fusion of multimodal information and natural
+language generation, which presents the challenges from three aspects: 1) how
+to encode and integrate multimodal inputs; 2) how to generate feedback specific
+to each modality; and 3) how to realize personalized feedback generation. In
+this paper, we propose a novel Personalized Multimodal Feedback Generation
+Network (PMFGN) armed with a modality gate mechanism and a personalized bias
+mechanism to address these challenges. The extensive experiments on real-world
+K-12 education data show that our model significantly outperforms several
+baselines by generating more accurate and diverse feedback. In addition,
+detailed ablation experiments are conducted to deepen our understanding of the
+proposed framework.",2020-10-31
+Fusion Models for Improved Visual Captioning,2020-10-28 21:55:25+00:00,http://arxiv.org/abs/2010.15251v2,"Marimuthu Kalimuthu, Aditya Mogadala, Marius Mosbach, Dietrich Klakow","cs.CV, cs.AI, cs.CL, cs.LG",image2text,"Visual captioning aims to generate textual descriptions given images or
+videos. Traditionally, image captioning models are trained on human annotated
+datasets such as Flickr30k and MS-COCO, which are limited in size and
+diversity. This limitation hinders the generalization capabilities of these
+models while also rendering them liable to making mistakes. Language models
+can, however, be trained on vast amounts of freely available unlabelled data
+and have recently emerged as successful language encoders and coherent text
+generators. Meanwhile, several unimodal and multimodal fusion techniques have
+been proven to work well for natural language generation and automatic speech
+recognition. Building on these recent developments, and with the aim of
+improving the quality of generated captions, the contribution of our work in
+this paper is two-fold: First, we propose a generic multimodal model fusion
+framework for caption generation as well as emendation where we utilize
+different fusion strategies to integrate a pretrained Auxiliary Language Model
+(AuxLM) within the traditional encoder-decoder visual captioning frameworks.
+Next, we employ the same fusion strategies to integrate a pretrained Masked
+Language Model (MLM), namely BERT, with a visual captioning model, viz. Show,
+Attend, and Tell, for emending both syntactic and semantic errors in captions.
+Our caption emendation experiments on three benchmark image captioning
+datasets, viz. Flickr8k, Flickr30k, and MSCOCO, show improvements over the
+baseline, indicating the usefulness of our proposed multimodal fusion
+strategies. Further, we perform a preliminary qualitative analysis on the
+emended captions and identify error categories based on the type of
+corrections.",2020-10-28
+Safe Handover in Mixed-Initiative Control for Cyber-Physical Systems,2020-10-21 12:59:32+00:00,http://arxiv.org/abs/2010.10967v1,"Frederik Wiehr, Anke Hirsch, Florian Daiber, Antonio Kruger, Alisa Kovtunova, Stefan Borgwardt, Ernie Chang, Vera Demberg, Marcel Steinmetz, Hoffmann Jorg",cs.HC,image2text,"For mixed-initiative control between cyber-physical systems (CPS) and its
+users, it is still an open question how machines can safely hand over control
+to humans. In this work, we propose a concept to provide technological support
+that uses formal methods from AI -- description logic (DL) and automated
+planning -- to predict more reliably when a hand-over is necessary, and to
+increase the advance notice for handovers by planning ahead of runtime. We
+combine this with methods from human-computer interaction (HCI) and natural
+language generation (NLG) to develop solutions for safe and smooth handovers
+and provide an example autonomous driving scenario. A study design is proposed
+with the assessment of qualitative feedback, cognitive load and trust in
+automation.",2020-10-21
+"Improving Factual Completeness and Consistency of Image-to-Text
+  Radiology Report Generation",2020-10-20 05:42:47+00:00,http://arxiv.org/abs/2010.10042v1,"Yasuhide Miura, Yuhao Zhang, Curtis P. Langlotz, Dan Jurafsky",cs.CL,image2text,"Neural image-to-text radiology report generation systems offer the potential
+to accelerate clinical processes by saving radiologists from the repetitive
+labor of drafting radiology reports and preventing medical errors. However,
+existing report generation systems, despite achieving high performances on
+natural language generation metrics such as CIDEr or BLEU, still suffer from
+incomplete and inconsistent generations, rendering these systems unusable in
+practice. In this work, we aim to overcome this problem by proposing two new
+metrics that encourage the factual completeness and consistency of generated
+radiology reports. The first metric, the Exact Entity Match score, evaluates a
+generation by its coverage of radiology domain entities against the references.
+The second metric, the Entailing Entity Match score, augments the first metric
+by introducing a natural language inference model into the entity match process
+to encourage consistent generations that can be entailed from the references.
+To achieve this, we also developed an in-domain NLI model via weak supervision
+to improve its performance on radiology text. We further propose a report
+generation system that optimizes these two new metrics via reinforcement
+learning. On two open radiology report datasets, our system not only achieves
+the best performance on these two metrics compared to baselines, but also leads
+to as much as +2.0 improvement on the F1 score of a clinical finding metric. We
+show via analysis and examples that our system leads to generations that are
+more complete and consistent compared to the baselines.",2020-10-20
+"RiSAWOZ: A Large-Scale Multi-Domain Wizard-of-Oz Dataset with Rich
+  Semantic Annotations for Task-Oriented Dialogue Modeling",2020-10-17 08:18:59+00:00,http://arxiv.org/abs/2010.08738v1,"Jun Quan, Shian Zhang, Qian Cao, Zizhong Li, Deyi Xiong",cs.CL,image2text,"In order to alleviate the shortage of multi-domain data and to capture
+discourse phenomena for task-oriented dialogue modeling, we propose RiSAWOZ, a
+large-scale multi-domain Chinese Wizard-of-Oz dataset with Rich Semantic
+Annotations. RiSAWOZ contains 11.2K human-to-human (H2H) multi-turn
+semantically annotated dialogues, with more than 150K utterances spanning over
+12 domains, which is larger than all previous annotated H2H conversational
+datasets. Both single- and multi-domain dialogues are constructed, accounting
+for 65% and 35%, respectively. Each dialogue is labeled with comprehensive
+dialogue annotations, including dialogue goal in the form of natural language
+description, domain, dialogue states and acts at both the user and system side.
+In addition to traditional dialogue annotations, we especially provide
+linguistic annotations on discourse phenomena, e.g., ellipsis and coreference,
+in dialogues, which are useful for dialogue coreference and ellipsis resolution
+tasks. Apart from the fully annotated dataset, we also present a detailed
+description of the data collection procedure, statistics and analysis of the
+dataset. A series of benchmark models and results are reported, including
+natural language understanding (intent detection & slot filling), dialogue
+state tracking and dialogue context-to-text generation, as well as coreference
+and ellipsis resolution, which facilitate the baseline comparison for future
+research on this corpus.",2020-10-17
+Dissecting the components and factors of Neural Text Generation,2020-10-14 17:54:42+00:00,http://arxiv.org/abs/2010.07279v1,"Khyathi Raghavi Chandu, Alan W Black",cs.CL,image2text,"Neural text generation metamorphosed into several critical natural language
+applications ranging from text completion to free form narrative generation.
+Generating natural language has fundamentally been a human attribute and the
+advent of ubiquitous NLP applications and virtual agents marks the need to
+impart this skill to machines. There has been a colossal research effort in
+various frontiers of neural text generation including machine translation,
+summarization, image captioning, storytelling etc., We believe that this is an
+excellent juncture to retrospect on the directions of the field. Specifically,
+this paper surveys the fundamental factors and components relaying task
+agnostic impacts across various generation tasks such as storytelling,
+summarization, translation etc., In specific, we present an abstraction of the
+imperative techniques with respect to learning paradigms, pretraining, modeling
+approaches, decoding and the key challenges. Thereby, we hope to deliver a
+one-stop destination for researchers in the field to facilitate a perspective
+on where to situate their work and how it impacts other closely related tasks.",2020-10-14
+"Learning Visual-Semantic Embeddings for Reporting Abnormal Findings on
+  Chest X-rays",2020-10-06 04:18:18+00:00,http://arxiv.org/abs/2010.02467v1,"Jianmo Ni, Chun-Nan Hsu, Amilcare Gentili, Julian McAuley","cs.CV, cs.CL",image2text,"Automatic medical image report generation has drawn growing attention due to
+its potential to alleviate radiologists' workload. Existing work on report
+generation often trains encoder-decoder networks to generate complete reports.
+However, such models are affected by data bias (e.g.~label imbalance) and face
+common issues inherent in text generation models (e.g.~repetition). In this
+work, we focus on reporting abnormal findings on radiology images; instead of
+training on complete radiology reports, we propose a method to identify
+abnormal findings from the reports in addition to grouping them with
+unsupervised clustering and minimal rules. We formulate the task as cross-modal
+retrieval and propose Conditional Visual-Semantic Embeddings to align images
+and fine-grained abnormal findings in a joint embedding space. We demonstrate
+that our method is able to retrieve abnormal findings and outperforms existing
+generation models on both clinical correctness and text generation metrics.",2020-10-06
+"Knowledge-Enhanced Personalized Review Generation with Capsule Graph
+  Neural Network",2020-10-04 03:54:40+00:00,http://arxiv.org/abs/2010.01480v1,"Junyi Li, Siqing Li, Wayne Xin Zhao, Gaole He, Zhicheng Wei, Nicholas Jing Yuan, Ji-Rong Wen","cs.CL, cs.AI",image2text,"Personalized review generation (PRG) aims to automatically produce review
+text reflecting user preference, which is a challenging natural language
+generation task. Most of previous studies do not explicitly model factual
+description of products, tending to generate uninformative content. Moreover,
+they mainly focus on word-level generation, but cannot accurately reflect more
+abstractive user preference in multiple aspects. To address the above issues,
+we propose a novel knowledge-enhanced PRG model based on capsule graph neural
+network~(Caps-GNN). We first construct a heterogeneous knowledge graph (HKG)
+for utilizing rich item attributes. We adopt Caps-GNN to learn graph capsules
+for encoding underlying characteristics from the HKG. Our generation process
+contains two major steps, namely aspect sequence generation and sentence
+generation. First, based on graph capsules, we adaptively learn aspect capsules
+for inferring the aspect sequence. Then, conditioned on the inferred aspect
+label, we design a graph-based copy mechanism to generate sentences by
+incorporating related entities or words from HKG. To our knowledge, we are the
+first to utilize knowledge graph for the PRG task. The incorporated KG
+information is able to enhance user preference at both aspect and word levels.
+Extensive experiments on three real-world datasets have demonstrated the
+effectiveness of our model on the PRG task.",2020-10-04
