@@ -1,4 +1,110 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+SeqDiffuSeq: Text Diffusion with Encoder-Decoder Transformers,2022-12-20 15:16:24+00:00,http://arxiv.org/abs/2212.10325v1,"Hongyi Yuan, Zheng Yuan, Chuanqi Tan, Fei Huang, Songfang Huang",cs.CL,image2text,"Diffusion model, a new generative modelling paradigm, has achieved great
+success in image, audio, and video generation. However, considering the
+discrete categorical nature of text, it is not trivial to extend continuous
+diffusion models to natural language, and text diffusion models are less
+studied. Sequence-to-sequence text generation is one of the essential natural
+language processing topics. In this work, we apply diffusion models to approach
+sequence-to-sequence text generation, and explore whether the superiority
+generation performance of diffusion model can transfer to natural language
+domain. We propose SeqDiffuSeq, a text diffusion model for sequence-to-sequence
+generation. SeqDiffuSeq uses an encoder-decoder Transformers architecture to
+model denoising function. In order to improve generation quality, SeqDiffuSeq
+combines the self-conditioning technique and a newly proposed adaptive noise
+schedule technique. The adaptive noise schedule has the difficulty of denoising
+evenly distributed across time steps, and considers exclusive noise schedules
+for tokens at different positional order. Experiment results illustrate the
+good performance on sequence-to-sequence generation in terms of text quality
+and inference time.",2022-12-20
+"One Embedder, Any Task: Instruction-Finetuned Text Embeddings",2022-12-19 18:57:05+00:00,http://arxiv.org/abs/2212.09741v2,"Hongjin Su, Weijia Shi, Jungo Kasai, Yizhong Wang, Yushi Hu, Mari Ostendorf, Wen-tau Yih, Noah A. Smith, Luke Zettlemoyer, Tao Yu",cs.CL,image2text,"We introduce INSTRUCTOR, a new method for computing text embeddings given
+task instructions: every text input is embedded together with instructions
+explaining the use case (e.g., task and domain descriptions). Unlike encoders
+from prior work that are more specialized, INSTRUCTOR is a single embedder that
+can generate text embeddings tailored to different downstream tasks and
+domains, without any further training. We first annotate instructions for 330
+diverse tasks and train INSTRUCTOR on this multitask mixture with a contrastive
+loss. We evaluate INSTRUCTOR on 70 embedding evaluation tasks (66 of which are
+unseen during training), ranging from classification and information retrieval
+to semantic textual similarity and text generation evaluation. INSTRUCTOR,
+while having an order of magnitude fewer parameters than the previous best
+model, achieves state-of-the-art performance, with an average improvement of
+3.4% compared to the previous best results on the 70 diverse datasets. Our
+analysis suggests that INSTRUCTOR is robust to changes in instructions, and
+that instruction finetuning mitigates the challenge of training a single model
+on diverse datasets. Our model, code, and data are available at
+https://instructor-embedding.github.io.",2022-12-19
+"Switching to Discriminative Image Captioning by Relieving a Bottleneck
+  of Reinforcement Learning",2022-12-06 18:55:20+00:00,http://arxiv.org/abs/2212.03230v1,"Ukyo Honda, Taro Watanabe, Yuji Matsumoto","cs.CV, cs.CL",image2text,"Discriminativeness is a desirable feature of image captions: captions should
+describe the characteristic details of input images. However, recent
+high-performing captioning models, which are trained with reinforcement
+learning (RL), tend to generate overly generic captions despite their high
+performance in various other criteria. First, we investigate the cause of the
+unexpectedly low discriminativeness and show that RL has a deeply rooted side
+effect of limiting the output words to high-frequency words. The limited
+vocabulary is a severe bottleneck for discriminativeness as it is difficult for
+a model to describe the details beyond its vocabulary. Then, based on this
+identification of the bottleneck, we drastically recast discriminative image
+captioning as a much simpler task of encouraging low-frequency word generation.
+Hinted by long-tail classification and debiasing methods, we propose methods
+that easily switch off-the-shelf RL models to discriminativeness-aware models
+with only a single-epoch fine-tuning on the part of the parameters. Extensive
+experiments demonstrate that our methods significantly enhance the
+discriminativeness of off-the-shelf RL models and even outperform previous
+discriminativeness-aware methods with much smaller computational costs.
+Detailed analysis and human evaluation also verify that our methods boost the
+discriminativeness without sacrificing the overall quality of captions.",2022-12-06
+Towards Generating Diverse Audio Captions via Adversarial Training,2022-12-05 05:06:19+00:00,http://arxiv.org/abs/2212.02033v1,"Xinhao Mei, Xubo Liu, Jianyuan Sun, Mark D. Plumbley, Wenwu Wang","eess.AS, cs.AI, cs.MM, cs.SD",image2text,"Automated audio captioning is a cross-modal translation task for describing
+the content of audio clips with natural language sentences. This task has
+attracted increasing attention and substantial progress has been made in recent
+years. Captions generated by existing models are generally faithful to the
+content of audio clips, however, these machine-generated captions are often
+deterministic (e.g., generating a fixed caption for a given audio clip), simple
+(e.g., using common words and simple grammar), and generic (e.g., generating
+the same caption for similar audio clips). When people are asked to describe
+the content of an audio clip, different people tend to focus on different sound
+events and describe an audio clip diversely from various aspects using distinct
+words and grammar. We believe that an audio captioning system should have the
+ability to generate diverse captions, either for a fixed audio clip, or across
+similar audio clips. To this end, we propose an adversarial training framework
+based on a conditional generative adversarial network (C-GAN) to improve
+diversity of audio captioning systems. A caption generator and two hybrid
+discriminators compete and are learned jointly, where the caption generator can
+be any standard encoder-decoder captioning model used to generate captions, and
+the hybrid discriminators assess the generated captions from different
+criteria, such as their naturalness and semantics. We conduct experiments on
+the Clotho dataset. The results show that our proposed model can generate
+captions with better diversity as compared to state-of-the-art methods.",2022-12-05
+Grounded Keys-to-Text Generation: Towards Factual Open-Ended Generation,2022-12-04 23:59:41+00:00,http://arxiv.org/abs/2212.01956v1,"Faeze Brahman, Baolin Peng, Michel Galley, Sudha Rao, Bill Dolan, Snigdha Chaturvedi, Jianfeng Gao",cs.CL,image2text,"Large pre-trained language models have recently enabled open-ended generation
+frameworks (e.g., prompt-to-text NLG) to tackle a variety of tasks going beyond
+the traditional data-to-text generation. While this framework is more general,
+it is under-specified and often leads to a lack of controllability restricting
+their real-world usage. We propose a new grounded keys-to-text generation task:
+the task is to generate a factual description about an entity given a set of
+guiding keys, and grounding passages. To address this task, we introduce a new
+dataset, called EntDeGen. Inspired by recent QA-based evaluation measures, we
+propose an automatic metric, MAFE, for factual correctness of generated
+descriptions. Our EntDescriptor model is equipped with strong rankers to fetch
+helpful passages and generate entity descriptions. Experimental result shows a
+good correlation (60.14) between our proposed metric and human judgments of
+factuality. Our rankers significantly improved the factual correctness of
+generated descriptions (15.95% and 34.51% relative gains in recall and
+precision). Finally, our ablation study highlights the benefit of combining
+keys and groundings.",2022-12-04
+"Learning Automata-Based Task Knowledge Representation from Large-Scale
+  Generative Language Models",2022-12-04 22:34:16+00:00,http://arxiv.org/abs/2212.01944v1,"Yunhao Yang, Jean-Raphaël Gaglione, Ufuk Topcu","cs.FL, cs.CL",image2text,"Automata-based representations play an important role in control and planning
+in sequential decision-making, but obtaining high-level task knowledge for
+building automata is often difficult. Although large-scale generative language
+models (GLMs) can help automatically distill task knowledge, the textual
+outputs from GLMs are not directly utilizable in sequential decision-making. We
+resolve this problem by proposing a novel algorithm named GLM2FSA, which
+obtains high-level task knowledge, represented in a finite state automaton
+(FSA), from a given brief description of the task goal. GLM2FSA sends queries
+to a GLM for task knowledge in textual form and then builds a FSA to represent
+the textual knowledge. This algorithm fills the gap between text and
+automata-based representations, and the constructed FSA can be directly
+utilized in sequential decision-making. We provide examples to demonstrate how
+GLM2FSA constructs FSAs to represent knowledge encoded in the texts generated
+by the large-scale GLMs.",2022-12-04
 3D-TOGO: Towards Text-Guided Cross-Category 3D Object Generation,2022-12-02 11:31:49+00:00,http://arxiv.org/abs/2212.01103v1,"Zutao Jiang, Guangsong Lu, Xiaodan Liang, Jihua Zhu, Wei Zhang, Xiaojun Chang, Hang Xu","cs.CV, cs.AI",image2text,"Text-guided 3D object generation aims to generate 3D objects described by
 user-defined captions, which paves a flexible way to visualize what we
 imagined. Although some works have been devoted to solving this challenging

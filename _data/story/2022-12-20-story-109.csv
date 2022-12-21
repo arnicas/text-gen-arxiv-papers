@@ -1,4 +1,84 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Little Red Riding Hood Goes Around the Globe:Crosslingual Story Planning
+  and Generation with Large Language Models",2022-12-20 17:42:16+00:00,http://arxiv.org/abs/2212.10471v1,"Evgeniia Razumovskaia, Joshua Maynez, Annie Louis, Mirella Lapata, Shashi Narayan",cs.CL,story,"We consider the problem of automatically generating stories in multiple
+languages. Compared to prior work in monolingual story generation, crosslingual
+story generation allows for more universal research on story planning. We
+propose to use Prompting Large Language Models with Plans to study which plan
+is optimal for story generation. We consider 4 types of plans and
+systematically analyse how the outputs differ for different planning
+strategies. The study demonstrates that formulating the plans as
+question-answer pairs leads to more coherent generated stories while the plan
+gives more control to the story creators.",2022-12-20
+DOC: Improving Long Story Coherence With Detailed Outline Control,2022-12-20 08:30:58+00:00,http://arxiv.org/abs/2212.10077v1,"Kevin Yang, Dan Klein, Nanyun Peng, Yuandong Tian","cs.CL, cs.AI",story,"We propose the Detailed Outline Control (DOC) framework for improving
+long-range plot coherence when automatically generating
+several-thousand-word-long stories. DOC consists of two complementary
+components: a detailed outliner and a detailed controller. The detailed
+outliner creates a more detailed, hierarchically structured outline, shifting
+creative burden from the main drafting procedure to the planning stage. The
+detailed controller ensures the more detailed outline is still respected during
+generation by controlling story passages to align with outline details. In
+human evaluations of automatically generated stories, DOC substantially
+outperforms a strong Re3 baseline (Yang et al., 2022) on plot coherence (22.5%
+absolute gain), outline relevance (28.2%), and interestingness (20.7%). Humans
+also judged DOC to be much more controllable in an interactive generation
+setting.",2022-12-20
+"Future Sight: Dynamic Story Generation with Large Pretrained Language
+  Models",2022-12-20 01:53:26+00:00,http://arxiv.org/abs/2212.09947v1,"Brian D. Zimmerman, Gaurav Sahu, Olga Vechtomova","cs.CL, cs.AI, cs.LG",story,"Recent advances in deep learning research, such as transformers, have
+bolstered the ability for automated agents to generate creative texts similar
+to those that a human would write. By default, transformer decoders can only
+generate new text with respect to previously generated text. The output
+distribution of candidate tokens at any position is conditioned on previously
+selected tokens using a self-attention mechanism to emulate the property of
+autoregression. This is inherently limiting for tasks such as controllable
+story generation where it may be necessary to condition on future plot events
+when writing a story. In this work, we propose Future Sight, a method for
+finetuning a pretrained generative transformer on the task of future
+conditioning. Transformer decoders are typically pretrained on the task of
+completing a context, one token at a time, by means of self-attention. Future
+Sight additionally enables a decoder to attend to an encoded future plot event.
+This motivates the decoder to expand on the context in a way that logically
+concludes with the provided future. During inference, the future plot event can
+be written by a human author to steer the narrative being generated in a
+certain direction. We evaluate the efficacy of our approach on a story
+generation task with human evaluators.",2022-12-20
+Neural Story Planning,2022-12-16 21:29:41+00:00,http://arxiv.org/abs/2212.08718v1,"Anbang Ye, Christopher Cui, Taiwei Shi, Mark O. Riedl","cs.CL, cs.AI",story,"Automated plot generation is the challenge of generating a sequence of events
+that will be perceived by readers as the plot of a coherent story. Traditional
+symbolic planners plan a story from a goal state and guarantee logical causal
+plot coherence but rely on a library of hand-crafted actions with their
+preconditions and effects. This closed world setting limits the length and
+diversity of what symbolic planners can generate. On the other hand,
+pre-trained neural language models can generate stories with great diversity,
+while being generally incapable of ending a story in a specified manner and can
+have trouble maintaining coherence. In this paper, we present an approach to
+story plot generation that unifies causal planning with neural language models.
+We propose to use commonsense knowledge extracted from large language models to
+recursively expand a story plot in a backward chaining fashion. Specifically,
+our system infers the preconditions for events in the story and then events
+that will cause those conditions to become true. We performed automatic
+evaluation to measure narrative coherence as indicated by the ability to answer
+questions about whether different events in the story are causally related to
+other events. Results indicate that our proposed method produces more coherent
+plotlines than several strong baselines.",2022-12-16
+"Open-world Story Generation with Structured Knowledge Enhancement: A
+  Comprehensive Survey",2022-12-09 02:19:07+00:00,http://arxiv.org/abs/2212.04634v1,"Yuxin Wang, Jieru Lin, Zhiwei Yu, Wei Hu, Börje F. Karlsson","cs.CL, cs.AI",story,"Storytelling and narrative are fundamental to human experience, intertwined
+with our social and cultural engagement. As such, researchers have long
+attempted to create systems that can generate stories automatically. In recent
+years, powered by deep learning and massive data resources, automatic story
+generation has shown significant advances. However, considerable challenges,
+like the need for global coherence in generated stories, still hamper
+generative models from reaching the same storytelling ability as human
+narrators. To tackle these challenges, many studies seek to inject structured
+knowledge into the generation process, which is referred to as structure
+knowledge-enhanced story generation. Incorporating external knowledge can
+enhance the logical coherence among story events, achieve better knowledge
+grounding, and alleviate over-generalization and repetition problems in
+stories. This survey provides the latest and comprehensive review of this
+research field: (i) we present a systematical taxonomy regarding how existing
+methods integrate structured knowledge into story generation; (ii) we summarize
+involved story corpora, structured knowledge datasets, and evaluation metrics;
+(iii) we give multidimensional insights into the challenges of
+knowledge-enhanced story generation and cast light on promising directions for
+future study.",2022-12-09
 An FNet based Auto Encoder for Long Sequence News Story Generation,2022-11-15 16:48:09+00:00,http://arxiv.org/abs/2211.08295v2,"Paul K. Mandal, Rakeshkumar Mahto","cs.CL, cs.AI, cs.LG, 68T07, 68T50, I.2.6; I.2.7",story,"In this paper, we design an auto encoder based off of Google's FNet
 Architecture in order to generate text from a subset of news stories contained
 in Google's C4 dataset. We discuss previous attempts and methods to generate

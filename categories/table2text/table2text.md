@@ -11,6 +11,22 @@ sidebar:
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [SimpleStyle: An Adaptable Style Transfer Approach](http://arxiv.org/abs/2212.10498v1) | Elron Bandel, Yoav Katz, Noam Slonim, Liat Ein-Dor | cs.CL | 2022-12-20 |
+| [CoCo: Coherence-Enhanced Machine-Generated Text Detection Under Data  Limitation With Contrastive Learning](http://arxiv.org/abs/2212.10341v1) | Xiaoming Liu, Zhaohan Zhang, Yichen Wang, Yu Lan, Chao Shen | cs.CL | 2022-12-20 |
+| [Toward Human-Like Evaluation for Natural Language Generation with Error  Analysis](http://arxiv.org/abs/2212.10179v1) | Qingyu Lu, Liang Ding, Liping Xie, Kanjian Zhang, Derek F. Wong, Dacheng Tao | cs.CL | 2022-12-20 |
+| [WeCheck: Strong Factual Consistency Checker via Weakly Supervised  Learning](http://arxiv.org/abs/2212.10057v1) | Wenhao Wu, Wei Li, Xinyan Xiao, Jiachen Liu, Sujian Li, Yajuan Lv | cs.CL | 2022-12-20 |
+| [On the Blind Spots of Model-Based Evaluation Metrics for Text Generation](http://arxiv.org/abs/2212.10020v1) | Tianxing He, Jingyu Zhang, Tianle Wang, Sachin Kumar, Kyunghyun Cho, James Glass, Yulia Tsvetkov | cs.CL | 2022-12-20 |
+| [One Embedder, Any Task: Instruction-Finetuned Text Embeddings](http://arxiv.org/abs/2212.09741v2) | Hongjin Su, Weijia Shi, Jungo Kasai, Yizhong Wang, Yushi Hu, Mari Ostendorf, Wen-tau Yih, Noah A. Smith, Luke Zettlemoyer, Tao Yu | cs.CL | 2022-12-19 |
+| [Difformer: Empowering Diffusion Model on Embedding Space for Text  Generation](http://arxiv.org/abs/2212.09412v1) | Zhujin Gao, Junliang Guo, Xu Tan, Yongxin Zhu, Fang Zhang, Jiang Bian, Linli Xu | cs.CL, cs.AI, cs.LG | 2022-12-19 |
+| [SEScore2: Retrieval Augmented Pretraining for Text Generation Evaluation](http://arxiv.org/abs/2212.09305v1) | Wenda Xu, Xian Qian, Mingxuan Wang, Lei Li, William Yang Wang | cs.CL | 2022-12-19 |
+| [Synthesis and Evaluation of a Domain-specific Large Data Set for  Dungeons & Dragons](http://arxiv.org/abs/2212.09080v1) | Akila Peiris, Nisansa de Silva | cs.CL, cs.LG | 2022-12-18 |
+| [RISE: Leveraging Retrieval Techniques for Summarization Evaluation](http://arxiv.org/abs/2212.08775v1) | David Uthus, Jianmo Ni | cs.CL | 2022-12-17 |
+| [DuNST: Dual Noisy Self Training for Semi-Supervised Controllable Text  Generation](http://arxiv.org/abs/2212.08724v1) | Yuxi Feng, Xiaoyuan Yi, Xiting Wang, Laks V. S. Lakshmanan, Xing Xie | cs.CL | 2022-12-16 |
+| [MURMUR: Modular Multi-Step Reasoning for Semi-Structured Data-to-Text  Generation](http://arxiv.org/abs/2212.08607v1) | Swarnadeep Saha, Xinyan Velocity Yu, Mohit Bansal, Ramakanth Pasunuru, Asli Celikyilmaz | cs.CL, cs.AI, cs.LG | 2022-12-16 |
+| [ERNIE-Code: Beyond English-Centric Cross-lingual Pretraining for  Programming Languages](http://arxiv.org/abs/2212.06742v1) | Yekun Chai, Shuohuan Wang, Chao Pang, Yu Sun, Hao Tian, Hua Wu | cs.CL, cs.LG, cs.PL, cs.SE | 2022-12-13 |
+| [Collaborating Heterogeneous Natural Language Processing Tasks via  Federated Learning](http://arxiv.org/abs/2212.05789v1) | Chenhe Dong, Yuexiang Xie, Bolin Ding, Ying Shen, Yaliang Li | cs.CL | 2022-12-12 |
+| [T5Score: Discriminative Fine-tuning of Generative Evaluation Metrics](http://arxiv.org/abs/2212.05726v1) | Yiwei Qin, Weizhe Yuan, Graham Neubig, Pengfei Liu | cs.CL | 2022-12-12 |
+| [The Role of AI in Drug Discovery: Challenges, Opportunities, and  Strategies](http://arxiv.org/abs/2212.08104v1) | Alexandre Blanco-Gonzalez, Alfonso Cabezon, Alejandro Seco-Gonzalez, Daniel Conde-Torres, Paula Antelo-Riveiro, Angel Pineiro, Rebeca Garcia-Fandino | cs.CL, cs.AI, cs.CY | 2022-12-08 |
 | [Controlled Language Generation for Language Learning Items](http://arxiv.org/abs/2211.15731v1) | Kevin Stowe, Debanjan Ghosh, Mengxuan Zhao | cs.CL, I.2.7 | 2022-11-28 |
 | [CodeExp: Explanatory Code Document Generation](http://arxiv.org/abs/2211.15395v1) | Haotian Cui, Chenglong Wang, Junjie Huang, Jeevana Priya Inala, Todd Mytkowicz, Bo Wang, Jianfeng Gao, Nan Duan | cs.CL, cs.LG, I.2.2; I.2.7 | 2022-11-25 |
 | [MUSIED: A Benchmark for Event Detection from Multi-Source Heterogeneous  Informal Texts](http://arxiv.org/abs/2211.13896v1) | Xiangyu Xi, Jianwei Lv, Shuaipeng Liu, Wei Ye, Fan Yang, Guanglu Wan | cs.CL | 2022-11-25 |

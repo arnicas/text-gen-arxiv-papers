@@ -10,6 +10,18 @@ sidebar:
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Controllable Text Generation with Language Constraints](http://arxiv.org/abs/2212.10466v1) | Howard Chen, Huihan Li, Danqi Chen, Karthik Narasimhan | cs.CL | 2022-12-20 |
+| [CoCo: Coherence-Enhanced Machine-Generated Text Detection Under Data  Limitation With Contrastive Learning](http://arxiv.org/abs/2212.10341v1) | Xiaoming Liu, Zhaohan Zhang, Yichen Wang, Yu Lan, Chao Shen | cs.CL | 2022-12-20 |
+| [One Embedder, Any Task: Instruction-Finetuned Text Embeddings](http://arxiv.org/abs/2212.09741v2) | Hongjin Su, Weijia Shi, Jungo Kasai, Yizhong Wang, Yushi Hu, Mari Ostendorf, Wen-tau Yih, Noah A. Smith, Luke Zettlemoyer, Tao Yu | cs.CL | 2022-12-19 |
+| [Synthesis and Evaluation of a Domain-specific Large Data Set for  Dungeons & Dragons](http://arxiv.org/abs/2212.09080v1) | Akila Peiris, Nisansa de Silva | cs.CL, cs.LG | 2022-12-18 |
+| [Plansformer: Generating Symbolic Plans using Transformers](http://arxiv.org/abs/2212.08681v1) | Vishal Pallagani, Bharath Muppasani, Keerthiram Murugesan, Francesca Rossi, Lior Horesh, Biplav Srivastava, Francesco Fabiano, Andrea Loreggia | cs.AI | 2022-12-16 |
+| [MURMUR: Modular Multi-Step Reasoning for Semi-Structured Data-to-Text  Generation](http://arxiv.org/abs/2212.08607v1) | Swarnadeep Saha, Xinyan Velocity Yu, Mohit Bansal, Ramakanth Pasunuru, Asli Celikyilmaz | cs.CL, cs.AI, cs.LG | 2022-12-16 |
+| [ROSCOE: A Suite of Metrics for Scoring Step-by-Step Reasoning](http://arxiv.org/abs/2212.07919v1) | Olga Golovneva, Moya Chen, Spencer Poff, Martin Corredor, Luke Zettlemoyer, Maryam Fazel-Zarandi, Asli Celikyilmaz | cs.CL, cs.LG | 2022-12-15 |
+| [Collaborating Heterogeneous Natural Language Processing Tasks via  Federated Learning](http://arxiv.org/abs/2212.05789v1) | Chenhe Dong, Yuexiang Xie, Bolin Ding, Ying Shen, Yaliang Li | cs.CL | 2022-12-12 |
+| [Discovering Latent Knowledge in Language Models Without Supervision](http://arxiv.org/abs/2212.03827v1) | Collin Burns, Haotian Ye, Dan Klein, Jacob Steinhardt | cs.CL, cs.AI, cs.LG | 2022-12-07 |
+| [Harnessing Knowledge and Reasoning for Human-Like Natural Language  Generation: A Brief Review](http://arxiv.org/abs/2212.03747v1) | Jiangjie Chen, Yanghua Xiao | cs.CL | 2022-12-07 |
+| [Momentum Decoding: Open-ended Text Generation As Graph Exploration](http://arxiv.org/abs/2212.02175v1) | Tian Lan, Yixuan Su, Shuhang Liu, Heyan Huang, Xian-Ling Mao | cs.CL | 2022-12-05 |
+| [Learning Automata-Based Task Knowledge Representation from Large-Scale  Generative Language Models](http://arxiv.org/abs/2212.01944v1) | Yunhao Yang, Jean-Raphaël Gaglione, Ufuk Topcu | cs.FL, cs.CL | 2022-12-04 |
 | [What do you MEME? Generating Explanations for Visual Semantic Role  Labelling in Memes](http://arxiv.org/abs/2212.00715v1) | Shivam Sharma, Siddhant Agarwal, Tharun Suresh, Preslav Nakov, Md. Shad Akhtar, Tanmoy Charkraborty | cs.CY, cs.CL | 2022-12-01 |
 | [CliMedBERT: A Pre-trained Language Model for Climate and Health-related  Text](http://arxiv.org/abs/2212.00689v1) | B. Jalalzadeh Fard, S. A. Hasan, J. E. Bell | cs.CL, 68T50, I.2.7 | 2022-12-01 |
 | [On the Importance of Image Encoding in Automated Chest X-Ray Report  Generation](http://arxiv.org/abs/2211.13465v1) | Otabek Nazarov, Mohammad Yaqub, Karthik Nandakumar | cs.CV, cs.AI | 2022-11-24 |

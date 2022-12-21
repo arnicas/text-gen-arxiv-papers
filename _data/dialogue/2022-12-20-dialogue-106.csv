@@ -1,4 +1,101 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Enhancing Task Bot Engagement with Synthesized Open-Domain Dialog,2022-12-20 05:51:47+00:00,http://arxiv.org/abs/2212.10008v1,"Miaoran Li, Baolin Peng, Michel Galley, Jianfeng Gao, Zhu Zhang","cs.CL, cs.AI",dialogue,"Many efforts have been made to construct dialog systems for different types
+of conversations, such as task-oriented dialog (TOD) and open-domain dialog
+(ODD). To better mimic human-level conversations that usually fuse various
+dialog modes, it is essential to build a system that can effectively handle
+both TOD and ODD and access different knowledge sources. To address the lack of
+available data for the fused task, we propose a framework for automatically
+generating dialogues that combine knowledge-grounded ODDs and TODs in various
+settings. Additionally, we introduce a unified model PivotBot that is capable
+of appropriately adopting TOD and ODD modes and accessing different knowledge
+sources in order to effectively tackle the fused task. Evaluation results
+demonstrate the superior ability of the proposed model to switch seamlessly
+between TOD and ODD tasks.",2022-12-20
+"Future Sight: Dynamic Story Generation with Large Pretrained Language
+  Models",2022-12-20 01:53:26+00:00,http://arxiv.org/abs/2212.09947v1,"Brian D. Zimmerman, Gaurav Sahu, Olga Vechtomova","cs.CL, cs.AI, cs.LG",dialogue,"Recent advances in deep learning research, such as transformers, have
+bolstered the ability for automated agents to generate creative texts similar
+to those that a human would write. By default, transformer decoders can only
+generate new text with respect to previously generated text. The output
+distribution of candidate tokens at any position is conditioned on previously
+selected tokens using a self-attention mechanism to emulate the property of
+autoregression. This is inherently limiting for tasks such as controllable
+story generation where it may be necessary to condition on future plot events
+when writing a story. In this work, we propose Future Sight, a method for
+finetuning a pretrained generative transformer on the task of future
+conditioning. Transformer decoders are typically pretrained on the task of
+completing a context, one token at a time, by means of self-attention. Future
+Sight additionally enables a decoder to attend to an encoded future plot event.
+This motivates the decoder to expand on the context in a way that logically
+concludes with the provided future. During inference, the future plot event can
+be written by a human author to steer the narrative being generated in a
+certain direction. We evaluate the efficacy of our approach on a story
+generation task with human evaluators.",2022-12-20
+SEScore2: Retrieval Augmented Pretraining for Text Generation Evaluation,2022-12-19 09:02:16+00:00,http://arxiv.org/abs/2212.09305v1,"Wenda Xu, Xian Qian, Mingxuan Wang, Lei Li, William Yang Wang",cs.CL,dialogue,"Is it possible to leverage large scale raw and raw parallel corpora to build
+a general learned metric? Existing learned metrics have gaps to human
+judgements, are model-dependent or are limited to the domains or tasks where
+human ratings are available. In this paper, we propose SEScore2, a model-based
+metric pretrained over million-scale synthetic dataset constructed by our novel
+retrieval augmented data synthesis pipeline. SEScore2 achieves high correlation
+to human judgements without any human rating supervisions. Importantly, our
+unsupervised SEScore2 can outperform supervised metrics, which are trained on
+the News human ratings, at the TED domain. We evaluate SEScore2 over four text
+generation tasks across three languages. SEScore2 outperforms all prior
+unsupervised evaluation metrics in machine translation, speech translation,
+data-to-text and dialogue generation, with average Kendall improvements 0.158.
+SEScore2 even outperforms SOTA supervised BLEURT at data-to-text, dialogue
+generation and overall correlation.",2022-12-19
+ChatGPT: The End of Online Exam Integrity?,2022-12-19 08:15:16+00:00,http://arxiv.org/abs/2212.09292v1,Teo Susnjak,"cs.AI, cs.CL",dialogue,"This study evaluated the ability of ChatGPT, a recently developed artificial
+intelligence (AI) agent, to perform high-level cognitive tasks and produce text
+that is indistinguishable from human-generated text. This capacity raises
+concerns about the potential use of ChatGPT as a tool for academic misconduct
+in online exams. The study found that ChatGPT is capable of exhibiting critical
+thinking skills and generating highly realistic text with minimal input, making
+it a potential threat to the integrity of online exams, particularly in
+tertiary education settings where such exams are becoming more prevalent.
+Returning to invigilated and oral exams could form part of the solution, while
+using advanced proctoring techniques and AI-text output detectors may be
+effective in addressing this issue, they are not likely to be foolproof
+solutions. Further research is needed to fully understand the implications of
+large language models like ChatGPT and to devise strategies for combating the
+risk of cheating using these tools. It is crucial for educators and
+institutions to be aware of the possibility of ChatGPT being used for cheating
+and to investigate measures to address it in order to maintain the fairness and
+validity of online exams for all students.",2022-12-19
+"Rainproof: An Umbrella To Shield Text Generators From
+  Out-Of-Distribution Data",2022-12-18 21:22:28+00:00,http://arxiv.org/abs/2212.09171v1,"Maxime Darrin, Pablo Piantanida, Pierre Colombo",cs.CL,dialogue,"As more and more conversational and translation systems are deployed in
+production, it is essential to implement and to develop effective control
+mechanisms guaranteeing their proper functioning and security. An essential
+component to ensure safe system behavior is out-of-distribution (OOD)
+detection, which aims at detecting whether an input sample is statistically far
+from the training distribution. Although OOD detection is a widely covered
+topic in classification tasks, it has received much less attention in text
+generation. This paper addresses the problem of OOD detection for machine
+translation and dialog generation from an operational perspective. Our
+contributions include: (i) RAINPROOF a Relative informAItioN Projection ODD
+detection framework; and (ii) a more operational evaluation setting for OOD
+detection. Surprisingly, we find that OOD detection is not necessarily aligned
+with task-specific measures. The OOD detector may filter out samples that are
+well processed by the model and keep samples that are not, leading to weaker
+performance. Our results show that RAINPROOF breaks this curse and achieve good
+results in OOD detection while increasing performance.",2022-12-18
+Plansformer: Generating Symbolic Plans using Transformers,2022-12-16 19:06:49+00:00,http://arxiv.org/abs/2212.08681v1,"Vishal Pallagani, Bharath Muppasani, Keerthiram Murugesan, Francesca Rossi, Lior Horesh, Biplav Srivastava, Francesco Fabiano, Andrea Loreggia",cs.AI,dialogue,"Large Language Models (LLMs) have been the subject of active research,
+significantly advancing the field of Natural Language Processing (NLP). From
+BERT to BLOOM, LLMs have surpassed state-of-the-art results in various natural
+language tasks such as question answering, summarization, and text generation.
+Many ongoing efforts focus on understanding LLMs' capabilities, including their
+knowledge of the world, syntax, and semantics. However, extending the textual
+prowess of LLMs to symbolic reasoning has been slow and predominantly focused
+on tackling problems related to the mathematical field. In this paper, we
+explore the use of LLMs for automated planning - a branch of AI concerned with
+the realization of action sequences (plans) to achieve a goal, typically
+executed by intelligent agents, autonomous robots, and unmanned vehicles. We
+introduce Plansformer; an LLM fine-tuned on planning problems and capable of
+generating plans with favorable behavior in terms of correctness and length
+with reduced knowledge-engineering efforts. We also demonstrate the
+adaptability of Plansformer in solving different planning domains with varying
+complexities, owing to the transfer learning abilities of LLMs. For one
+configuration of Plansformer, we achieve ~97% valid plans, out of which ~95%
+are optimal for Towers of Hanoi - a puzzle-solving domain.",2022-12-16
 "ConvLab-3: A Flexible Dialogue System Toolkit Based on a Unified Data
   Format",2022-11-30 16:37:42+00:00,http://arxiv.org/abs/2211.17148v1,"Qi Zhu, Christian Geishauser, Hsien-chin Lin, Carel van Niekerk, Baolin Peng, Zheng Zhang, Michael Heck, Nurul Lubis, Dazhen Wan, Xiaochen Zhu, Jianfeng Gao, Milica Gašić, Minlie Huang","cs.CL, cs.AI",dialogue,"Diverse data formats and ontologies of task-oriented dialogue (TOD) datasets
 hinder us from developing general dialogue models that perform well on many

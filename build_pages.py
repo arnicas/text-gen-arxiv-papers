@@ -52,7 +52,7 @@ def make_entry_for_md(date, categ):
 def most_recent_data_file(categ, written_df) -> dict:
     subset = written_df[written_df['category']==categ]
     row = subset[subset['most_recent']]
-    return row.to_dict(orient="records")
+    return row.to_dict(orient="records")[0]
 
 
 def write_table_in_md(df, handle):
@@ -190,20 +190,20 @@ def get_latest_pickle():
     return str(latest)
 
 def main(pickfile):
-    arts2 = None
+    artsfound = None
     if not pickfile:
         pickfile = get_latest_pickle()
         print("Using latest pickle file", pickfile)
     if '/' not in pickfile:
         pickfile = PICK_PATH + pickfile
     try: 
-        arts2 = pickle.load(open(pickfile, 'rb'))
+        artsfound = pickle.load(open(pickfile, 'rb'))
     except:
         print("error with pickle file name or path?")
         exit()
-    if arts2:
+    if artsfound:
         print("loaded data, processing....")
-        write_new_files_after_scrape(arts2)
+        write_new_files_after_scrape(artsfound)
 
 
 if __name__ == "__main__":

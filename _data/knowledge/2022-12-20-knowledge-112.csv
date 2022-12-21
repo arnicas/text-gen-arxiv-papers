@@ -1,4 +1,210 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Controllable Text Generation with Language Constraints,2022-12-20 17:39:21+00:00,http://arxiv.org/abs/2212.10466v1,"Howard Chen, Huihan Li, Danqi Chen, Karthik Narasimhan",cs.CL,knowledge,"We consider the task of text generation in language models with constraints
+specified in natural language. To this end, we first create a challenging
+benchmark Cognac that provides as input to the model a topic with example text,
+along with a constraint on text to be avoided. Unlike prior work, our benchmark
+contains knowledge-intensive constraints sourced from databases like Wordnet
+and Wikidata, which allows for straightforward evaluation while striking a
+balance between broad attribute-level and narrow lexical-level controls. We
+find that even state-of-the-art language models like GPT-3 fail often on this
+task, and propose a solution to leverage a language model's own internal
+knowledge to guide generation. Our method, called CognacGen, first queries the
+language model to generate guidance terms for a specified topic or constraint,
+and uses the guidance to modify the model's token generation probabilities. We
+propose three forms of guidance (binary verifier, top-k tokens, textual
+example), and employ prefix-tuning approaches to distill the guidance to tackle
+diverse natural language constraints. Through extensive empirical evaluations,
+we demonstrate that CognacGen can successfully generalize to unseen
+instructions and outperform competitive baselines in generating constraint
+conforming text.",2022-12-20
+"CoCo: Coherence-Enhanced Machine-Generated Text Detection Under Data
+  Limitation With Contrastive Learning",2022-12-20 15:26:19+00:00,http://arxiv.org/abs/2212.10341v1,"Xiaoming Liu, Zhaohan Zhang, Yichen Wang, Yu Lan, Chao Shen",cs.CL,knowledge,"Machine-Generated Text (MGT) detection, a task that discriminates MGT from
+Human-Written Text (HWT), plays a crucial role in preventing misuse of text
+generative models, which excel in mimicking human writing style recently.
+Latest proposed detectors usually take coarse text sequence as input and output
+some good results by fine-tune pretrained models with standard cross-entropy
+loss. However, these methods fail to consider the linguistic aspect of text
+(e.g., coherence) and sentence-level structures. Moreover, they lack the
+ability to handle the low-resource problem which could often happen in practice
+considering the enormous amount of textual data online. In this paper, we
+present a coherence-based contrastive learning model named CoCo to detect the
+possible MGT under low-resource scenario. Inspired by the distinctiveness and
+permanence properties of linguistic feature, we represent text as a coherence
+graph to capture its entity consistency, which is further encoded by the
+pretrained model and graph neural network. To tackle the challenges of data
+limitations, we employ a contrastive learning framework and propose an improved
+contrastive loss for making full use of hard negative samples in training
+stage. The experiment results on two public datasets prove our approach
+outperforms the state-of-art methods significantly.",2022-12-20
+"One Embedder, Any Task: Instruction-Finetuned Text Embeddings",2022-12-19 18:57:05+00:00,http://arxiv.org/abs/2212.09741v2,"Hongjin Su, Weijia Shi, Jungo Kasai, Yizhong Wang, Yushi Hu, Mari Ostendorf, Wen-tau Yih, Noah A. Smith, Luke Zettlemoyer, Tao Yu",cs.CL,knowledge,"We introduce INSTRUCTOR, a new method for computing text embeddings given
+task instructions: every text input is embedded together with instructions
+explaining the use case (e.g., task and domain descriptions). Unlike encoders
+from prior work that are more specialized, INSTRUCTOR is a single embedder that
+can generate text embeddings tailored to different downstream tasks and
+domains, without any further training. We first annotate instructions for 330
+diverse tasks and train INSTRUCTOR on this multitask mixture with a contrastive
+loss. We evaluate INSTRUCTOR on 70 embedding evaluation tasks (66 of which are
+unseen during training), ranging from classification and information retrieval
+to semantic textual similarity and text generation evaluation. INSTRUCTOR,
+while having an order of magnitude fewer parameters than the previous best
+model, achieves state-of-the-art performance, with an average improvement of
+3.4% compared to the previous best results on the 70 diverse datasets. Our
+analysis suggests that INSTRUCTOR is robust to changes in instructions, and
+that instruction finetuning mitigates the challenge of training a single model
+on diverse datasets. Our model, code, and data are available at
+https://instructor-embedding.github.io.",2022-12-19
+"Synthesis and Evaluation of a Domain-specific Large Data Set for
+  Dungeons & Dragons",2022-12-18 12:54:45+00:00,http://arxiv.org/abs/2212.09080v1,"Akila Peiris, Nisansa de Silva","cs.CL, cs.LG",knowledge,"This paper introduces the Forgotten Realms Wiki (FRW) data set and domain
+specific natural language generation using FRW along with related analyses.
+Forgotten Realms is the de-facto default setting of the popular open ended
+tabletop fantasy role playing game, Dungeons & Dragons. The data set was
+extracted from the Forgotten Realms Fandom wiki consisting of more than over
+45,200 articles. The FRW data set is constituted of 11 sub-data sets in a
+number of formats: raw plain text, plain text annotated by article title,
+directed link graphs, wiki info-boxes annotated by the wiki article title,
+Poincar\'e embedding of first link graph, multiple Word2Vec and Doc2Vec models
+of the corpus. This is the first data set of this size for the Dungeons &
+Dragons domain. We then present a pairwise similarity comparison benchmark
+which utilizes similarity measures. In addition, we perform D&D domain specific
+natural language generation using the corpus and evaluate the named entity
+classification with respect to the lore of Forgotten Realms.",2022-12-18
+Plansformer: Generating Symbolic Plans using Transformers,2022-12-16 19:06:49+00:00,http://arxiv.org/abs/2212.08681v1,"Vishal Pallagani, Bharath Muppasani, Keerthiram Murugesan, Francesca Rossi, Lior Horesh, Biplav Srivastava, Francesco Fabiano, Andrea Loreggia",cs.AI,knowledge,"Large Language Models (LLMs) have been the subject of active research,
+significantly advancing the field of Natural Language Processing (NLP). From
+BERT to BLOOM, LLMs have surpassed state-of-the-art results in various natural
+language tasks such as question answering, summarization, and text generation.
+Many ongoing efforts focus on understanding LLMs' capabilities, including their
+knowledge of the world, syntax, and semantics. However, extending the textual
+prowess of LLMs to symbolic reasoning has been slow and predominantly focused
+on tackling problems related to the mathematical field. In this paper, we
+explore the use of LLMs for automated planning - a branch of AI concerned with
+the realization of action sequences (plans) to achieve a goal, typically
+executed by intelligent agents, autonomous robots, and unmanned vehicles. We
+introduce Plansformer; an LLM fine-tuned on planning problems and capable of
+generating plans with favorable behavior in terms of correctness and length
+with reduced knowledge-engineering efforts. We also demonstrate the
+adaptability of Plansformer in solving different planning domains with varying
+complexities, owing to the transfer learning abilities of LLMs. For one
+configuration of Plansformer, we achieve ~97% valid plans, out of which ~95%
+are optimal for Towers of Hanoi - a puzzle-solving domain.",2022-12-16
+"MURMUR: Modular Multi-Step Reasoning for Semi-Structured Data-to-Text
+  Generation",2022-12-16 17:36:23+00:00,http://arxiv.org/abs/2212.08607v1,"Swarnadeep Saha, Xinyan Velocity Yu, Mohit Bansal, Ramakanth Pasunuru, Asli Celikyilmaz","cs.CL, cs.AI, cs.LG",knowledge,"Prompting large language models has enabled significant recent progress in
+multi-step reasoning over text. However, when applied to text generation from
+semi-structured data (e.g., graphs or tables), these methods typically suffer
+from low semantic coverage, hallucination, and logical inconsistency. We
+propose MURMUR, a neuro-symbolic modular approach to text generation from
+semi-structured data with multi-step reasoning. MURMUR is a best-first search
+method that generates reasoning paths using: (1) neural and symbolic modules
+with specific linguistic and logical skills, (2) a grammar whose production
+rules define valid compositions of modules, and (3) value functions that assess
+the quality of each reasoning step. We conduct experiments on two diverse
+data-to-text generation tasks like WebNLG and LogicNLG. These tasks differ in
+their data representations (graphs and tables) and span multiple linguistic and
+logical skills. MURMUR obtains significant improvements over recent few-shot
+baselines like direct prompting and chain-of-thought prompting, while also
+achieving comparable performance to fine-tuned GPT-2 on out-of-domain data.
+Moreover, human evaluation shows that MURMUR generates highly faithful and
+correct reasoning paths that lead to 26% more logically consistent summaries on
+LogicNLG, compared to direct prompting.",2022-12-16
+ROSCOE: A Suite of Metrics for Scoring Step-by-Step Reasoning,2022-12-15 15:52:39+00:00,http://arxiv.org/abs/2212.07919v1,"Olga Golovneva, Moya Chen, Spencer Poff, Martin Corredor, Luke Zettlemoyer, Maryam Fazel-Zarandi, Asli Celikyilmaz","cs.CL, cs.LG",knowledge,"Large language models show improved downstream task performance when prompted
+to generate step-by-step reasoning to justify their final answers. These
+reasoning steps greatly improve model interpretability and verification, but
+objectively studying their correctness (independent of the final answer) is
+difficult without reliable methods for automatic evaluation. We simply do not
+know how often the stated reasoning steps actually support the final end task
+predictions. In this work, we present ROSCOE, a suite of interpretable,
+unsupervised automatic scores that improve and extend previous text generation
+evaluation metrics. To evaluate ROSCOE against baseline metrics, we design a
+typology of reasoning errors and collect synthetic and human evaluation scores
+on commonly used reasoning datasets. In contrast with existing metrics, ROSCOE
+can measure semantic consistency, logicality, informativeness, fluency, and
+factuality - among other traits - by leveraging properties of step-by-step
+rationales. We empirically verify the strength of our metrics on five human
+annotated and six programmatically perturbed diagnostics datasets - covering a
+diverse set of tasks that require reasoning skills and show that ROSCOE can
+consistently outperform baseline metrics.",2022-12-15
+"Collaborating Heterogeneous Natural Language Processing Tasks via
+  Federated Learning",2022-12-12 09:27:50+00:00,http://arxiv.org/abs/2212.05789v1,"Chenhe Dong, Yuexiang Xie, Bolin Ding, Ying Shen, Yaliang Li",cs.CL,knowledge,"The increasing privacy concerns on personal private text data promote the
+development of federated learning (FL) in recent years. However, the existing
+studies on applying FL in NLP are not suitable to coordinate participants with
+heterogeneous or private learning objectives. In this study, we further broaden
+the application scope of FL in NLP by proposing an Assign-Then-Contrast
+(denoted as ATC) framework, which enables clients with heterogeneous NLP tasks
+to construct an FL course and learn useful knowledge from each other.
+Specifically, the clients are suggested to first perform local training with
+the unified tasks assigned by the server rather than using their own learning
+objectives, which is called the Assign training stage. After that, in the
+Contrast training stage, clients train with different local learning objectives
+and exchange knowledge with other clients who contribute consistent and useful
+model updates. We conduct extensive experiments on six widely-used datasets
+covering both Natural Language Understanding (NLU) and Natural Language
+Generation (NLG) tasks, and the proposed ATC framework achieves significant
+improvements compared with various baseline methods. The source code is
+available at
+\url{https://github.com/alibaba/FederatedScope/tree/master/federatedscope/nlp/hetero_tasks}.",2022-12-12
+Discovering Latent Knowledge in Language Models Without Supervision,2022-12-07 18:17:56+00:00,http://arxiv.org/abs/2212.03827v1,"Collin Burns, Haotian Ye, Dan Klein, Jacob Steinhardt","cs.CL, cs.AI, cs.LG",knowledge,"Existing techniques for training language models can be misaligned with the
+truth: if we train models with imitation learning, they may reproduce errors
+that humans make; if we train them to generate text that humans rate highly,
+they may output errors that human evaluators can't detect. We propose
+circumventing this issue by directly finding latent knowledge inside the
+internal activations of a language model in a purely unsupervised way.
+Specifically, we introduce a method for accurately answering yes-no questions
+given only unlabeled model activations. It works by finding a direction in
+activation space that satisfies logical consistency properties, such as that a
+statement and its negation have opposite truth values. We show that despite
+using no supervision and no model outputs, our method can recover diverse
+knowledge represented in large language models: across 6 models and 10
+question-answering datasets, it outperforms zero-shot accuracy by 4\% on
+average. We also find that it cuts prompt sensitivity in half and continues to
+maintain high accuracy even when models are prompted to generate incorrect
+answers. Our results provide an initial step toward discovering what language
+models know, distinct from what they say, even when we don't have access to
+explicit ground truth labels.",2022-12-07
+"Harnessing Knowledge and Reasoning for Human-Like Natural Language
+  Generation: A Brief Review",2022-12-07 16:18:19+00:00,http://arxiv.org/abs/2212.03747v1,"Jiangjie Chen, Yanghua Xiao",cs.CL,knowledge,"The rapid development and application of natural language generation (NLG)
+techniques has revolutionized the field of automatic text production. However,
+these techniques are still limited in their ability to produce human-like text
+that is truly reasonable and informative. In this paper, we explore the
+importance of NLG being guided by knowledge, in order to convey human-like
+reasoning through language generation. We propose ten goals for intelligent NLG
+systems to pursue, and briefly review the achievement of NLG techniques guided
+by knowledge and reasoning. We also conclude by envisioning future directions
+and challenges in the pursuit of these goals.",2022-12-07
+Momentum Decoding: Open-ended Text Generation As Graph Exploration,2022-12-05 11:16:47+00:00,http://arxiv.org/abs/2212.02175v1,"Tian Lan, Yixuan Su, Shuhang Liu, Heyan Huang, Xian-Ling Mao",cs.CL,knowledge,"Open-ended text generation with autoregressive language models (LMs) is one
+of the core tasks in natural language processing. However, maximization-based
+decoding methods (e.g., greedy/beam search) often lead to the degeneration
+problem, i.e., the generated text is unnatural and contains undesirable
+repetitions. Existing solutions to this problem either introduce randomness
+prone to incoherence or require a look-ahead mechanism that demands extra
+computational overhead. In this study, we formulate open-ended text generation
+from a new perspective, i.e., we view it as an exploration process within a
+directed graph. Thereby, we understand the phenomenon of degeneration as
+circular loops within the directed graph. Based on our formulation, we propose
+a novel decoding method -- \textit{momentum decoding} -- which encourages the
+LM to \textit{greedily} explore new nodes outside the current graph. Meanwhile,
+it also allows the LM to return to the existing nodes with a momentum
+downgraded by a pre-defined resistance function. We extensively test our
+approach on three benchmarks from different domains through automatic and human
+evaluations. The results show that momentum decoding performs comparably with
+the current state of the art while enjoying notably improved inference speed
+and computation FLOPs. Furthermore, we conduct a detailed analysis to reveal
+the merits and inner workings of our approach. Our codes and other related
+resources are publicly available at
+https://github.com/gmftbyGMFTBY/MomentumDecoding.",2022-12-05
+"Learning Automata-Based Task Knowledge Representation from Large-Scale
+  Generative Language Models",2022-12-04 22:34:16+00:00,http://arxiv.org/abs/2212.01944v1,"Yunhao Yang, Jean-Raphaël Gaglione, Ufuk Topcu","cs.FL, cs.CL",knowledge,"Automata-based representations play an important role in control and planning
+in sequential decision-making, but obtaining high-level task knowledge for
+building automata is often difficult. Although large-scale generative language
+models (GLMs) can help automatically distill task knowledge, the textual
+outputs from GLMs are not directly utilizable in sequential decision-making. We
+resolve this problem by proposing a novel algorithm named GLM2FSA, which
+obtains high-level task knowledge, represented in a finite state automaton
+(FSA), from a given brief description of the task goal. GLM2FSA sends queries
+to a GLM for task knowledge in textual form and then builds a FSA to represent
+the textual knowledge. This algorithm fills the gap between text and
+automata-based representations, and the constructed FSA can be directly
+utilized in sequential decision-making. We provide examples to demonstrate how
+GLM2FSA constructs FSAs to represent knowledge encoded in the texts generated
+by the large-scale GLMs.",2022-12-04
 "What do you MEME? Generating Explanations for Visual Semantic Role
   Labelling in Memes",2022-12-01 18:21:36+00:00,http://arxiv.org/abs/2212.00715v1,"Shivam Sharma, Siddhant Agarwal, Tharun Suresh, Preslav Nakov, Md. Shad Akhtar, Tanmoy Charkraborty","cs.CY, cs.CL",knowledge,"Memes are powerful means for effective communication on social media. Their
 effortless amalgamation of viral visuals and compelling messages can have

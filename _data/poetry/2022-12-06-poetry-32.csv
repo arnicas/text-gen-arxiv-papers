@@ -1,4 +1,13 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Modern French Poetry Generation with RoBERTa and GPT-2,2022-12-06 12:10:14+00:00,http://arxiv.org/abs/2212.02911v1,"Mika Hämäläinen, Khalid Alnajjar, Thierry Poibeau",cs.CL,poetry,"We present a novel neural model for modern poetry generation in French. The
+model consists of two pretrained neural models that are fine-tuned for the poem
+generation task. The encoder of the model is a RoBERTa based one while the
+decoder is based on GPT-2. This way the model can benefit from the superior
+natural language understanding performance of RoBERTa and the good natural
+language generation performance of GPT-2. Our evaluation shows that the model
+can create French poetry successfully. On a 5 point scale, the lowest score of
+3.57 was given by human judges to typicality and emotionality of the output
+poetry while the best score of 3.79 was given to understandability.",2022-12-06
 Generation of Chinese classical poetry based on pre-trained model,2022-11-04 16:05:31+00:00,http://arxiv.org/abs/2211.02541v1,"Ziyao Wang, Lujin Guan, Guanyu Liu","cs.CL, cs.AI, J.5; I.2.7",poetry,"In order to test whether artificial intelligence can create qualified
 classical poetry like humans, the author proposes a study of Chinese classical
 poetry generation based on a pre-trained model. This paper mainly tries to use

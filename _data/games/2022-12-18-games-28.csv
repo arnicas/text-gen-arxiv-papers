@@ -1,4 +1,19 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Synthesis and Evaluation of a Domain-specific Large Data Set for
+  Dungeons & Dragons",2022-12-18 12:54:45+00:00,http://arxiv.org/abs/2212.09080v1,"Akila Peiris, Nisansa de Silva","cs.CL, cs.LG",games,"This paper introduces the Forgotten Realms Wiki (FRW) data set and domain
+specific natural language generation using FRW along with related analyses.
+Forgotten Realms is the de-facto default setting of the popular open ended
+tabletop fantasy role playing game, Dungeons & Dragons. The data set was
+extracted from the Forgotten Realms Fandom wiki consisting of more than over
+45,200 articles. The FRW data set is constituted of 11 sub-data sets in a
+number of formats: raw plain text, plain text annotated by article title,
+directed link graphs, wiki info-boxes annotated by the wiki article title,
+Poincar\'e embedding of first link graph, multiple Word2Vec and Doc2Vec models
+of the corpus. This is the first data set of this size for the Dungeons &
+Dragons domain. We then present a pairwise similarity comparison benchmark
+which utilizes similarity measures. In addition, we perform D&D domain specific
+natural language generation using the corpus and evaluate the named entity
+classification with respect to the lore of Forgotten Realms.",2022-12-18
 Reward Gaming in Conditional Text Generation,2022-11-16 07:10:02+00:00,http://arxiv.org/abs/2211.08714v1,"Richard Yuanzhe Pang, Vishakh Padmakumar, Thibault Sellam, Ankur P. Parikh, He He","cs.CL, cs.AI, cs.LG",games,"To align conditional text generation model outputs with desired behaviors,
 there has been an increasing focus on training the model using reinforcement
 learning (RL) with reward functions learned from human annotations. Under this

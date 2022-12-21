@@ -11,6 +11,7 @@ sidebar:
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Synthesis and Evaluation of a Domain-specific Large Data Set for  Dungeons & Dragons](http://arxiv.org/abs/2212.09080v1) | Akila Peiris, Nisansa de Silva | cs.CL, cs.LG | 2022-12-18 |
 | [Reward Gaming in Conditional Text Generation](http://arxiv.org/abs/2211.08714v1) | Richard Yuanzhe Pang, Vishakh Padmakumar, Thibault Sellam, Ankur P. Parikh, He He | cs.CL, cs.AI, cs.LG | 2022-11-16 |
 | [CLSE: Corpus of Linguistically Significant Entities](http://arxiv.org/abs/2211.02423v1) | Aleksandr Chuklin, Justin Zhao, Mihir Kale | cs.CL | 2022-11-04 |
 | [Are Current Decoding Strategies Capable of Facing the Challenges of  Visual Dialogue?](http://arxiv.org/abs/2210.12997v1) | Amit Kumar Chaudhary, Alex J. Lucassen, Ioanna Tsani, Alberto Testoni | cs.CL, cs.CV | 2022-10-24 |

@@ -1,4 +1,278 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+SimpleStyle: An Adaptable Style Transfer Approach,2022-12-20 18:12:49+00:00,http://arxiv.org/abs/2212.10498v1,"Elron Bandel, Yoav Katz, Noam Slonim, Liat Ein-Dor",cs.CL,table2text,"Attribute Controlled Text Rewriting, also known as text style transfer, has
+received significant attention in the natural language generation community due
+to its crucial role in controllable natural language generation systems. In
+this work we present SimpleStyle a minimalist yet effective approach for
+attribute controlled text rewriting based on a simple mechanism composed of two
+ingredients. controlled denoising and output filtering. Despite the simplicity
+of our approach, which can be succinctly explained with just a few lines of
+code, it is competitive with previous state-of-the-art methods both in
+automatic and in human evaluations. Additionally, we demonstrate the practical
+effectiveness of our system, by applying it to real-world data from social
+networks. Additionally, we introduce a soft masking sampling technique that
+further improves the performance of the system. We also show that feeding the
+output of our system into a text-to-text student model can produce high-quality
+results without the need for additional filtering. Finally, we suggest that our
+method can solve the fundamental missing baseline absence that holding progress
+in the field by offering our protocol as a simple, adaptive and very strong
+baseline for works wish to make incremental advancements in the field of
+attribute controlled text rewriting.",2022-12-20
+"CoCo: Coherence-Enhanced Machine-Generated Text Detection Under Data
+  Limitation With Contrastive Learning",2022-12-20 15:26:19+00:00,http://arxiv.org/abs/2212.10341v1,"Xiaoming Liu, Zhaohan Zhang, Yichen Wang, Yu Lan, Chao Shen",cs.CL,table2text,"Machine-Generated Text (MGT) detection, a task that discriminates MGT from
+Human-Written Text (HWT), plays a crucial role in preventing misuse of text
+generative models, which excel in mimicking human writing style recently.
+Latest proposed detectors usually take coarse text sequence as input and output
+some good results by fine-tune pretrained models with standard cross-entropy
+loss. However, these methods fail to consider the linguistic aspect of text
+(e.g., coherence) and sentence-level structures. Moreover, they lack the
+ability to handle the low-resource problem which could often happen in practice
+considering the enormous amount of textual data online. In this paper, we
+present a coherence-based contrastive learning model named CoCo to detect the
+possible MGT under low-resource scenario. Inspired by the distinctiveness and
+permanence properties of linguistic feature, we represent text as a coherence
+graph to capture its entity consistency, which is further encoded by the
+pretrained model and graph neural network. To tackle the challenges of data
+limitations, we employ a contrastive learning framework and propose an improved
+contrastive loss for making full use of hard negative samples in training
+stage. The experiment results on two public datasets prove our approach
+outperforms the state-of-art methods significantly.",2022-12-20
+"Toward Human-Like Evaluation for Natural Language Generation with Error
+  Analysis",2022-12-20 11:36:22+00:00,http://arxiv.org/abs/2212.10179v1,"Qingyu Lu, Liang Ding, Liping Xie, Kanjian Zhang, Derek F. Wong, Dacheng Tao",cs.CL,table2text,"The state-of-the-art language model-based automatic metrics, e.g. BARTScore,
+benefiting from large-scale contextualized pre-training, have been successfully
+used in a wide range of natural language generation (NLG) tasks, including
+machine translation, text summarization, and data-to-text. Recent studies show
+that considering both major errors (e.g. mistranslated tokens) and minor errors
+(e.g. imperfections in fluency) can produce high-quality human judgments. This
+inspires us to approach the final goal of the evaluation metrics (human-like
+evaluations) by automatic error analysis. To this end, we augment BARTScore by
+incorporating the human-like error analysis strategies, namely BARTScore++,
+where the final score consists of both the evaluations of major errors and
+minor errors. Experimental results show that BARTScore++ can consistently
+improve the performance of vanilla BARTScore and outperform existing
+top-scoring metrics in 20 out of 25 test settings. We hope our technique can
+also be extended to other pre-trained model-based metrics. We will release our
+code and scripts to facilitate the community.",2022-12-20
+"WeCheck: Strong Factual Consistency Checker via Weakly Supervised
+  Learning",2022-12-20 08:04:36+00:00,http://arxiv.org/abs/2212.10057v1,"Wenhao Wu, Wei Li, Xinyan Xiao, Jiachen Liu, Sujian Li, Yajuan Lv",cs.CL,table2text,"A crucial issue of current text generation models is that they often
+uncontrollably generate factually inconsistent text with respective of their
+inputs. Limited by the lack of annotated data, existing works in evaluating
+factual consistency directly transfer the reasoning ability of models trained
+on other data-rich upstream tasks like question answering (QA) and natural
+language inference (NLI) without any further adaptation. As a result, they
+perform poorly on the real generated text and are biased heavily by their
+single-source upstream tasks. To alleviate this problem, we propose a weakly
+supervised framework that aggregates multiple resources to train a precise and
+efficient factual metric, namely WeCheck. WeCheck first utilizes a generative
+model to accurately label a real generated sample by aggregating its weak
+labels, which are inferred from multiple resources. Then, we train the target
+metric model with the weak supervision while taking noises into consideration.
+Comprehensive experiments on a variety of tasks demonstrate the strong
+performance of WeCheck, which achieves a 3.4\% absolute improvement over
+previous state-of-the-art methods on TRUE benchmark on average.",2022-12-20
+On the Blind Spots of Model-Based Evaluation Metrics for Text Generation,2022-12-20 06:24:25+00:00,http://arxiv.org/abs/2212.10020v1,"Tianxing He, Jingyu Zhang, Tianle Wang, Sachin Kumar, Kyunghyun Cho, James Glass, Yulia Tsvetkov",cs.CL,table2text,"In this work, we explore a useful but often neglected methodology for
+robustness analysis of text generation evaluation metrics: stress tests with
+synthetic data. Basically, we design and synthesize a wide range of potential
+errors and check whether they result in a commensurate drop in the metric
+scores. We examine a range of recently proposed evaluation metrics based on
+pretrained language models, for the tasks of open-ended generation,
+translation, and summarization. Our experiments reveal interesting
+insensitivities, biases, or even loopholes in existing metrics. For example, we
+find that BERTScore ignores truncation errors in summarization, and MAUVE
+(built on top of GPT-2) is insensitive to errors at the beginning of
+generations. Further, we investigate the reasons behind these blind spots and
+suggest practical workarounds for a more reliable evaluation of text
+generation.",2022-12-20
+"One Embedder, Any Task: Instruction-Finetuned Text Embeddings",2022-12-19 18:57:05+00:00,http://arxiv.org/abs/2212.09741v2,"Hongjin Su, Weijia Shi, Jungo Kasai, Yizhong Wang, Yushi Hu, Mari Ostendorf, Wen-tau Yih, Noah A. Smith, Luke Zettlemoyer, Tao Yu",cs.CL,table2text,"We introduce INSTRUCTOR, a new method for computing text embeddings given
+task instructions: every text input is embedded together with instructions
+explaining the use case (e.g., task and domain descriptions). Unlike encoders
+from prior work that are more specialized, INSTRUCTOR is a single embedder that
+can generate text embeddings tailored to different downstream tasks and
+domains, without any further training. We first annotate instructions for 330
+diverse tasks and train INSTRUCTOR on this multitask mixture with a contrastive
+loss. We evaluate INSTRUCTOR on 70 embedding evaluation tasks (66 of which are
+unseen during training), ranging from classification and information retrieval
+to semantic textual similarity and text generation evaluation. INSTRUCTOR,
+while having an order of magnitude fewer parameters than the previous best
+model, achieves state-of-the-art performance, with an average improvement of
+3.4% compared to the previous best results on the 70 diverse datasets. Our
+analysis suggests that INSTRUCTOR is robust to changes in instructions, and
+that instruction finetuning mitigates the challenge of training a single model
+on diverse datasets. Our model, code, and data are available at
+https://instructor-embedding.github.io.",2022-12-19
+"Difformer: Empowering Diffusion Model on Embedding Space for Text
+  Generation",2022-12-19 12:44:25+00:00,http://arxiv.org/abs/2212.09412v1,"Zhujin Gao, Junliang Guo, Xu Tan, Yongxin Zhu, Fang Zhang, Jiang Bian, Linli Xu","cs.CL, cs.AI, cs.LG",table2text,"Diffusion models have achieved state-of-the-art synthesis quality on visual
+and audio tasks, and recent works adapt them to textual data by diffusing on
+the embedding space. But the difference between the continuous data space and
+the embedding space raises challenges to the diffusion model, which have not
+been carefully explored. In this paper, we conduct systematic studies and
+analyze the challenges threefold. Firstly, the data distribution is learnable
+for embeddings, which may lead to the collapse of the loss function. Secondly,
+as the norm of embedding varies between popular and rare words, adding the same
+noise scale will lead to sub-optimal results. In addition, we find that noises
+sampled from a standard Gaussian distribution may distract the diffusion
+process. To solve the above challenges, we propose Difformer, a denoising
+diffusion probabilistic model based on Transformer, which consists of three
+techniques including utilizing an anchor loss function, a layer normalization
+module for embeddings, and a norm factor to the Gaussian noise. All techniques
+are complementary to each other and critical to boosting the model performance
+together. Experiments are conducted on benchmark datasets over two seminal text
+generation tasks including machine translation and text summarization. The
+results show that Difformer significantly outperforms the embedding diffusion
+baselines, while achieving competitive results with strong autoregressive
+baselines.",2022-12-19
+SEScore2: Retrieval Augmented Pretraining for Text Generation Evaluation,2022-12-19 09:02:16+00:00,http://arxiv.org/abs/2212.09305v1,"Wenda Xu, Xian Qian, Mingxuan Wang, Lei Li, William Yang Wang",cs.CL,table2text,"Is it possible to leverage large scale raw and raw parallel corpora to build
+a general learned metric? Existing learned metrics have gaps to human
+judgements, are model-dependent or are limited to the domains or tasks where
+human ratings are available. In this paper, we propose SEScore2, a model-based
+metric pretrained over million-scale synthetic dataset constructed by our novel
+retrieval augmented data synthesis pipeline. SEScore2 achieves high correlation
+to human judgements without any human rating supervisions. Importantly, our
+unsupervised SEScore2 can outperform supervised metrics, which are trained on
+the News human ratings, at the TED domain. We evaluate SEScore2 over four text
+generation tasks across three languages. SEScore2 outperforms all prior
+unsupervised evaluation metrics in machine translation, speech translation,
+data-to-text and dialogue generation, with average Kendall improvements 0.158.
+SEScore2 even outperforms SOTA supervised BLEURT at data-to-text, dialogue
+generation and overall correlation.",2022-12-19
+"Synthesis and Evaluation of a Domain-specific Large Data Set for
+  Dungeons & Dragons",2022-12-18 12:54:45+00:00,http://arxiv.org/abs/2212.09080v1,"Akila Peiris, Nisansa de Silva","cs.CL, cs.LG",table2text,"This paper introduces the Forgotten Realms Wiki (FRW) data set and domain
+specific natural language generation using FRW along with related analyses.
+Forgotten Realms is the de-facto default setting of the popular open ended
+tabletop fantasy role playing game, Dungeons & Dragons. The data set was
+extracted from the Forgotten Realms Fandom wiki consisting of more than over
+45,200 articles. The FRW data set is constituted of 11 sub-data sets in a
+number of formats: raw plain text, plain text annotated by article title,
+directed link graphs, wiki info-boxes annotated by the wiki article title,
+Poincar\'e embedding of first link graph, multiple Word2Vec and Doc2Vec models
+of the corpus. This is the first data set of this size for the Dungeons &
+Dragons domain. We then present a pairwise similarity comparison benchmark
+which utilizes similarity measures. In addition, we perform D&D domain specific
+natural language generation using the corpus and evaluate the named entity
+classification with respect to the lore of Forgotten Realms.",2022-12-18
+RISE: Leveraging Retrieval Techniques for Summarization Evaluation,2022-12-17 01:09:22+00:00,http://arxiv.org/abs/2212.08775v1,"David Uthus, Jianmo Ni",cs.CL,table2text,"Evaluating automatically-generated text summaries is a challenging task.
+While there have been many interesting approaches, they still fall short of
+human evaluations. We present RISE, a new approach for evaluating summaries by
+leveraging techniques from information retrieval. RISE is first trained as a
+retrieval task using a dual-encoder retrieval setup, and can then be
+subsequently utilized for evaluating a generated summary given an input
+document, without gold reference summaries. RISE is especially well suited when
+working on new datasets where one may not have reference summaries available
+for evaluation. We conduct comprehensive experiments on the SummEval benchmark
+(Fabbri et al., 2021) and the results show that RISE has higher correlation
+with human evaluations compared to many past approaches to summarization
+evaluation. Furthermore, RISE also demonstrates data-efficiency and
+generalizability across languages.",2022-12-17
+"DuNST: Dual Noisy Self Training for Semi-Supervised Controllable Text
+  Generation",2022-12-16 21:44:34+00:00,http://arxiv.org/abs/2212.08724v1,"Yuxi Feng, Xiaoyuan Yi, Xiting Wang, Laks V. S. Lakshmanan, Xing Xie",cs.CL,table2text,"Self-training (ST) has prospered again in language understanding by
+augmenting the fine-tuning of pre-trained language models when labeled data is
+insufficient. However, it remains challenging to incorporate ST into
+attribute-controllable language generation. Augmented by only self-generated
+pseudo text, generation models over-emphasize exploitation of the previously
+learned space, suffering from a constrained generalization boundary. We revisit
+ST and propose a novel method, DuNST to alleviate this problem. DuNST jointly
+models text generation and classification with a shared Variational AutoEncoder
+and corrupts the generated pseudo text by two kinds of flexible noise to
+disturb the space. In this way, our model could construct and utilize both
+pseudo text from given labels and pseudo labels from available unlabeled text,
+which are gradually refined during the ST process. We theoretically demonstrate
+that DuNST can be regarded as enhancing exploration towards the potential real
+text space, providing a guarantee of improved performance. Experiments on three
+controllable generation tasks show that DuNST could significantly boost control
+accuracy while maintaining comparable generation fluency and diversity against
+several strong baselines.",2022-12-16
+"MURMUR: Modular Multi-Step Reasoning for Semi-Structured Data-to-Text
+  Generation",2022-12-16 17:36:23+00:00,http://arxiv.org/abs/2212.08607v1,"Swarnadeep Saha, Xinyan Velocity Yu, Mohit Bansal, Ramakanth Pasunuru, Asli Celikyilmaz","cs.CL, cs.AI, cs.LG",table2text,"Prompting large language models has enabled significant recent progress in
+multi-step reasoning over text. However, when applied to text generation from
+semi-structured data (e.g., graphs or tables), these methods typically suffer
+from low semantic coverage, hallucination, and logical inconsistency. We
+propose MURMUR, a neuro-symbolic modular approach to text generation from
+semi-structured data with multi-step reasoning. MURMUR is a best-first search
+method that generates reasoning paths using: (1) neural and symbolic modules
+with specific linguistic and logical skills, (2) a grammar whose production
+rules define valid compositions of modules, and (3) value functions that assess
+the quality of each reasoning step. We conduct experiments on two diverse
+data-to-text generation tasks like WebNLG and LogicNLG. These tasks differ in
+their data representations (graphs and tables) and span multiple linguistic and
+logical skills. MURMUR obtains significant improvements over recent few-shot
+baselines like direct prompting and chain-of-thought prompting, while also
+achieving comparable performance to fine-tuned GPT-2 on out-of-domain data.
+Moreover, human evaluation shows that MURMUR generates highly faithful and
+correct reasoning paths that lead to 26% more logically consistent summaries on
+LogicNLG, compared to direct prompting.",2022-12-16
+"ERNIE-Code: Beyond English-Centric Cross-lingual Pretraining for
+  Programming Languages",2022-12-13 17:21:44+00:00,http://arxiv.org/abs/2212.06742v1,"Yekun Chai, Shuohuan Wang, Chao Pang, Yu Sun, Hao Tian, Hua Wu","cs.CL, cs.LG, cs.PL, cs.SE",table2text,"Software engineers working with the same programming language (PL) may speak
+different natural languages (NLs) and vice versa, erecting huge barriers to
+communication and working efficiency. Recent studies have demonstrated the
+effectiveness of generative pre-training in computer programs, yet they are
+always English-centric. In this work, we step towards bridging the gap between
+multilingual NLs and multilingual PLs for large language models (LLMs). We
+release ERNIE-Code, a unified pre-trained language model for 116 NLs and 6 PLs.
+We employ two methods for universal cross-lingual pre-training: span-corruption
+language modeling that learns patterns from monolingual NL or PL; and
+pivot-based translation language modeling that relies on parallel data of many
+NLs and PLs. Extensive results show that ERNIE-Code outperforms previous
+multilingual LLMs for PL or NL across a wide range of end tasks of code
+intelligence, including multilingual code-to-text, text-to-code, code-to-code,
+and text-to-text generation. We further show its advantage of zero-shot
+prompting on multilingual code summarization and text-to-text translation. We
+will make our code and pre-trained models publicly available.",2022-12-13
+"Collaborating Heterogeneous Natural Language Processing Tasks via
+  Federated Learning",2022-12-12 09:27:50+00:00,http://arxiv.org/abs/2212.05789v1,"Chenhe Dong, Yuexiang Xie, Bolin Ding, Ying Shen, Yaliang Li",cs.CL,table2text,"The increasing privacy concerns on personal private text data promote the
+development of federated learning (FL) in recent years. However, the existing
+studies on applying FL in NLP are not suitable to coordinate participants with
+heterogeneous or private learning objectives. In this study, we further broaden
+the application scope of FL in NLP by proposing an Assign-Then-Contrast
+(denoted as ATC) framework, which enables clients with heterogeneous NLP tasks
+to construct an FL course and learn useful knowledge from each other.
+Specifically, the clients are suggested to first perform local training with
+the unified tasks assigned by the server rather than using their own learning
+objectives, which is called the Assign training stage. After that, in the
+Contrast training stage, clients train with different local learning objectives
+and exchange knowledge with other clients who contribute consistent and useful
+model updates. We conduct extensive experiments on six widely-used datasets
+covering both Natural Language Understanding (NLU) and Natural Language
+Generation (NLG) tasks, and the proposed ATC framework achieves significant
+improvements compared with various baseline methods. The source code is
+available at
+\url{https://github.com/alibaba/FederatedScope/tree/master/federatedscope/nlp/hetero_tasks}.",2022-12-12
+T5Score: Discriminative Fine-tuning of Generative Evaluation Metrics,2022-12-12 06:29:04+00:00,http://arxiv.org/abs/2212.05726v1,"Yiwei Qin, Weizhe Yuan, Graham Neubig, Pengfei Liu",cs.CL,table2text,"Modern embedding-based metrics for evaluation of generated text generally
+fall into one of two paradigms: discriminative metrics that are trained to
+directly predict which outputs are of higher quality according to supervised
+human annotations, and generative metrics that are trained to evaluate text
+based on the probabilities of a generative model. Both have their advantages;
+discriminative metrics are able to directly optimize for the problem of
+distinguishing between good and bad outputs, while generative metrics can be
+trained using abundant raw text. In this paper, we present a framework that
+combines the best of both worlds, using both supervised and unsupervised
+signals from whatever data we have available. We operationalize this idea by
+training T5Score, a metric that uses these training signals with mT5 as the
+backbone. We perform an extensive empirical comparison with other existing
+metrics on 5 datasets, 19 languages and 280 systems, demonstrating the utility
+of our method. Experimental results show that: T5Score achieves the best
+performance on all datasets against existing top-scoring metrics at the segment
+level. We release our code and models at https://github.com/qinyiwei/T5Score.",2022-12-12
+"The Role of AI in Drug Discovery: Challenges, Opportunities, and
+  Strategies",2022-12-08 23:23:39+00:00,http://arxiv.org/abs/2212.08104v1,"Alexandre Blanco-Gonzalez, Alfonso Cabezon, Alejandro Seco-Gonzalez, Daniel Conde-Torres, Paula Antelo-Riveiro, Angel Pineiro, Rebeca Garcia-Fandino","cs.CL, cs.AI, cs.CY",table2text,"Artificial intelligence (AI) has the potential to revolutionize the drug
+discovery process, offering improved efficiency, accuracy, and speed. However,
+the successful application of AI is dependent on the availability of
+high-quality data, the addressing of ethical concerns, and the recognition of
+the limitations of AI-based approaches. In this article, the benefits,
+challenges and drawbacks of AI in this field are reviewed, and possible
+strategies and approaches for overcoming the present obstacles are proposed.
+The use of data augmentation, explainable AI, and the integration of AI with
+traditional experimental methods, as well as the potential advantages of AI in
+pharmaceutical research are also discussed. Overall, this review highlights the
+potential of AI in drug discovery and provides insights into the challenges and
+opportunities for realizing its potential in this field.
+  Note from the human-authors: This article was created to test the ability of
+ChatGPT, a chatbot based on the GPT-3.5 language model, to assist human authors
+in writing review articles. The text generated by the AI following our
+instructions (see Supporting Information) was used as a starting point, and its
+ability to automatically generate content was evaluated. After conducting a
+thorough review, human authors practically rewrote the manuscript, striving to
+maintain a balance between the original proposal and scientific criteria. The
+advantages and limitations of using AI for this purpose are discussed in the
+last section.",2022-12-08
 Controlled Language Generation for Language Learning Items,2022-11-28 19:28:12+00:00,http://arxiv.org/abs/2211.15731v1,"Kevin Stowe, Debanjan Ghosh, Mengxuan Zhao","cs.CL, I.2.7",table2text,"This work aims to employ natural language generation (NLG) to rapidly
 generate items for English language learning applications: this requires both
 language models capable of generating fluent, high-quality English, and to
