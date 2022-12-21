@@ -219,4 +219,4 @@ sidebar:
 | [Learning to Encode Evolutionary Knowledge for Automatic Commenting Long  Novels](http://arxiv.org/abs/2004.09974v1) | Canxiang Yan, Jianhao Yan, Yangyin Xu, Cheng Niu, Jie Zhou | cs.CL, cs.LG | 2020-04-21 |
 
 [< Previous]({{site.url}}categories/knowledge/2020/04/17/knowledge.html)
-				[Next >]({{site.url}}categories/knowledge/2022/12/01/knowledge.html)
+[Next >]({{site.url}}categories/knowledge/2022/12/01/knowledge.html)

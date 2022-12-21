@@ -14,7 +14,7 @@ from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
-search_query_story = '%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"NLG"+OR+abs:"generating%20text"OR+abs:"plot%20generation"OR+abs:"story%20generation"%29+AND+%28abs:narrative+OR+abs:story+OR+abs:fiction+OR+abs:plot%29'
+search_query_story = '%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"NLG"+OR+abs:"generating%20text"OR+abs:"plot%20generation"OR+abs:"story%20generation"OR+abs:"generated%20stories"%29+AND+%28abs:narrative+OR+abs:story+OR+abs:fiction+OR+abs:plot%29'
 
 search_query_tables = '%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"NLG"+OR+abs:"generating%20text"%29+AND+%28abs:tables+OR+abs:data+OR+abs:structured+OR+abs:table-to-text%29'
 

@@ -111,4 +111,4 @@ sidebar:
 | [Domain and Language Independent Feature Extraction for Statistical Text  Categorization](http://arxiv.org/abs/cmp-lg/9607003v1) | Thomas Bayer, Ingrid Renz, Michael Stein, Ulrich Kressel | cmp-lg, cs.CL | 1996-07-02 |
 | [Generating Precondition Expressions in Instructional Text](http://arxiv.org/abs/cmp-lg/9405021v1) | Keith Vander Linden | cmp-lg, cs.CL | 1994-05-24 |
 
-				[Next >]({{site.url}}categories/knowledge/2022/02/28/knowledge.html)
+[Next >]({{site.url}}categories/knowledge/2022/02/28/knowledge.html)

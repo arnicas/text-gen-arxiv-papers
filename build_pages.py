@@ -89,13 +89,14 @@ def write_table_md(df, date, categ, prevlink, nextlink=None, most_recent=False):
         handle.write('  nav: contents\n')
         handle.write('---\n\n')
         write_table_in_md(df, handle)
-        if type(prevlink) == str:
+        if type(prevlink) is str:
             handle.write(f'[< Previous]({prevlink})\n')
-        if type(nextlink) == str:
-            handle.write(f'\t\t\t\t[Next >]({nextlink})\n')
+        if type(nextlink) is str:
+            handle.write(f'[Next >]({nextlink})\n')
     if most_recent:
         # write the main page too
-        with open('categories/' + categ + '/' + categ + '.md', 'w') as handle:
+        top_page_md = 'categories/' + categ + '/' + categ + '.md'
+        with open(top_page_md, 'w') as handle:
             handle.write("---\n")
             handle.write('category: ' + categ + '\n')
             handle.write('layout: page\n')
@@ -104,7 +105,7 @@ def write_table_md(df, date, categ, prevlink, nextlink=None, most_recent=False):
             handle.write('  nav: contents\n')
             handle.write('---\n\n')
             write_table_in_md(df, handle)
-            if type(prevlink) == str:
+            if type(prevlink) is str:
                 handle.write(f'[< Previous]({prevlink})\n')
     print("Wrote ", md_filename)
 
