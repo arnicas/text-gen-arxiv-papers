@@ -30,10 +30,10 @@ def write_new_df_data(df, categ, tag=None):
     date = df.iloc[0]['displaydate']
     print("Writing new data file", date, categ)
     if tag:
-        filename = f'_data/{categ}/{tag}-' + date + '-' + categ + '-' + str(len(df)) + '.csv'
+        filename = f"_data/{categ}/{tag}-{date}-{categ}-{str(len(df))}.csv"
         df.to_csv(filename, index=None)
     else:
-        filename = f'_data/{categ}/' + date + '-' + categ + '-' + str(len(df)) + '.csv'
+        filename = f"_data/{categ}/{date}-{categ}-{str(len(df))}.csv"
         df.to_csv(filename, index=None)
     return date, filename
 
@@ -125,9 +125,14 @@ def get_new_data_as_df(arts2, categ):
     print(len(arts2[categ]))
     return create_df_from_new_vals(arts2[categ])
 
+
 def update_files_written_df(written_df, newrow, prev_datafile):
-    """Adds row and deletes previous related one. """
+    """Adds row and deletes previous related one. Fixes old link to the new file. """
     written_df = written_df.append(newrow, ignore_index=True)
+    old_one = written_df.loc[written_df['data_file']==prev_datafile]
+    old_gen_file = old_one['generated_file'][0]
+    new_gen_file = newrow['generated_file']
+    written_df.replace({old_gen_file: new_gen_file}, regex=False, inplace=True)
     written_df.loc[written_df['data_file']==prev_datafile, 'delete'] = True # mark to delete
     written_df = written_df[~written_df['delete']] # could do in one line
     return written_df
