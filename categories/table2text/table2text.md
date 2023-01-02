@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2022-12-21*
+*written on 2023-01-02*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [TegFormer: Topic-to-Essay Generation with Good Topic Coverage and High  Text Coherence](http://arxiv.org/abs/2212.13456v1) | Wang Qi, Rui Liu, Yuan Zuo, Yong Chen, Dell Zhang | cs.CL | 2022-12-27 |
+| [TextBox 2.0: A Text Generation Library with Pre-trained Language Models](http://arxiv.org/abs/2212.13005v1) | Tianyi Tang, Junyi Li, Zhipeng Chen, Yiwen Hu, Zhuohao Yu, Wenxun Dai, Zican Dong, Xiaoxue Cheng, Yuhao Wang, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen | cs.CL | 2022-12-26 |
+| [CORRPUS: Detecting Story Inconsistencies via Codex-Bootstrapped  Neurosymbolic Reasoning](http://arxiv.org/abs/2212.10754v1) | Yijiang River Dong, Lara J. Martin, Chris Callison-Burch | cs.CL | 2022-12-21 |
+| [Tracing and Removing Data Errors in Natural Language Generation Datasets](http://arxiv.org/abs/2212.10722v1) | Faisal Ladhak, Esin Durmus, Tatsunori Hashimoto | cs.CL | 2022-12-21 |
 | [SimpleStyle: An Adaptable Style Transfer Approach](http://arxiv.org/abs/2212.10498v1) | Elron Bandel, Yoav Katz, Noam Slonim, Liat Ein-Dor | cs.CL | 2022-12-20 |
 | [CoCo: Coherence-Enhanced Machine-Generated Text Detection Under Data  Limitation With Contrastive Learning](http://arxiv.org/abs/2212.10341v1) | Xiaoming Liu, Zhaohan Zhang, Yichen Wang, Yu Lan, Chao Shen | cs.CL | 2022-12-20 |
 | [Toward Human-Like Evaluation for Natural Language Generation with Error  Analysis](http://arxiv.org/abs/2212.10179v1) | Qingyu Lu, Liang Ding, Liping Xie, Kanjian Zhang, Derek F. Wong, Dacheng Tao | cs.CL | 2022-12-20 |

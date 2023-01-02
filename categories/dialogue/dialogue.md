@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2022-12-21*
+*written on 2023-01-02*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [TextBox 2.0: A Text Generation Library with Pre-trained Language Models](http://arxiv.org/abs/2212.13005v1) | Tianyi Tang, Junyi Li, Zhipeng Chen, Yiwen Hu, Zhuohao Yu, Wenxun Dai, Zican Dong, Xiaoxue Cheng, Yuhao Wang, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen | cs.CL | 2022-12-26 |
+| [On Realization of Intelligent Decision-Making in the Real World: A  Foundation Decision Model Perspective](http://arxiv.org/abs/2212.12669v1) | Ying Wen, Ziyu Wan, Ming Zhou, Shufang Hou, Zhe Cao, Chenyang Le, Jingxiao Chen, Zheng Tian, Weinan Zhang, Jun Wang | cs.AI, cs.LG | 2022-12-24 |
+| [Ontologically Faithful Generation of Non-Player Character Dialogues](http://arxiv.org/abs/2212.10618v1) | Nathaniel Weir, Ryan Thomas, Randolph D'Amore, Kellie Hill, Benjamin Van Durme, Harsh Jhamtani | cs.CL | 2022-12-20 |
 | [Enhancing Task Bot Engagement with Synthesized Open-Domain Dialog](http://arxiv.org/abs/2212.10008v1) | Miaoran Li, Baolin Peng, Michel Galley, Jianfeng Gao, Zhu Zhang | cs.CL, cs.AI | 2022-12-20 |
 | [Future Sight: Dynamic Story Generation with Large Pretrained Language  Models](http://arxiv.org/abs/2212.09947v1) | Brian D. Zimmerman, Gaurav Sahu, Olga Vechtomova | cs.CL, cs.AI, cs.LG | 2022-12-20 |
 | [SEScore2: Retrieval Augmented Pretraining for Text Generation Evaluation](http://arxiv.org/abs/2212.09305v1) | Wenda Xu, Xian Qian, Mingxuan Wang, Lei Li, William Yang Wang | cs.CL | 2022-12-19 |

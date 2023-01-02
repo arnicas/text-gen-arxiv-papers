@@ -1,4 +1,77 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Noise-aware Learning from Web-crawled Image-Text Data for Image
+  Captioning",2022-12-27 17:33:40+00:00,http://arxiv.org/abs/2212.13563v1,"Wooyoung Kang, Jonghwan Mun, Sungjun Lee, Byungseok Roh","cs.CV, cs.AI",image2text,"Image captioning is one of the straightforward tasks that can take advantage
+of large-scale web-crawled data which provides rich knowledge about the visual
+world for a captioning model. However, since web-crawled data contains
+image-text pairs that are aligned at different levels, the inherent noises
+(e.g., misaligned pairs) make it difficult to learn a precise captioning model.
+While the filtering strategy can effectively remove noisy data, however, it
+leads to a decrease in learnable knowledge and sometimes brings about a new
+problem of data deficiency. To take the best of both worlds, we propose a
+noise-aware learning framework, which learns rich knowledge from the whole
+web-crawled data while being less affected by the noises. This is achieved by
+the proposed quality controllable model, which is learned using alignment
+levels of the image-text pairs as an additional control signal during training.
+The alignment-conditioned training allows the model to generate high-quality
+captions of well-aligned by simply setting the control signal to desired
+alignment level at inference time. Through in-depth analysis, we show that our
+controllable captioning model is effective in handling noise. In addition, with
+two tasks of zero-shot captioning and text-to-image retrieval using generated
+captions (i.e., self-retrieval), we also demonstrate our model can produce
+high-quality captions in terms of descriptiveness and distinctiveness. Code is
+available at \url{https://github.com/kakaobrain/noc}.",2022-12-27
+"On Realization of Intelligent Decision-Making in the Real World: A
+  Foundation Decision Model Perspective",2022-12-24 06:16:45+00:00,http://arxiv.org/abs/2212.12669v1,"Ying Wen, Ziyu Wan, Ming Zhou, Shufang Hou, Zhe Cao, Chenyang Le, Jingxiao Chen, Zheng Tian, Weinan Zhang, Jun Wang","cs.AI, cs.LG",image2text,"Our situated environment is full of uncertainty and highly dynamic, thus
+hindering the widespread adoption of machine-led Intelligent Decision-Making
+(IDM) in real world scenarios. This means IDM should have the capability of
+continuously learning new skills and efficiently generalizing across wider
+applications. IDM benefits from any new approaches and theoretical
+breakthroughs that exhibit Artificial General Intelligence (AGI) breaking the
+barriers between tasks and applications. Recent research has well-examined
+neural architecture, Transformer, as a backbone foundation model and its
+generalization to various tasks, including computer vision, natural language
+processing, and reinforcement learning. We therefore argue that a foundation
+decision model (FDM) can be established by formulating various decision-making
+tasks as a sequence decoding task using the Transformer architecture; this
+would be a promising solution to advance the applications of IDM in more
+complex real world tasks. In this paper, we elaborate on how a foundation
+decision model improves the efficiency and generalization of IDM. We also
+discuss potential applications of a FDM in multi-agent game AI, production
+scheduling, and robotics tasks. Finally, through a case study, we demonstrate
+our realization of the FDM, DigitalBrain (DB1) with 1.2 billion parameters,
+which achieves human-level performance over 453 tasks, including text
+generation, images caption, video games playing, robotic control, and traveling
+salesman problems. As a foundation decision model, DB1 would be a baby step
+towards more autonomous and efficient real world IDM applications.",2022-12-24
+Do DALL-E and Flamingo Understand Each Other?,2022-12-23 10:46:56+00:00,http://arxiv.org/abs/2212.12249v1,"Hang Li, Jindong Gu, Rajat Koner, Sahand Sharifzadeh, Volker Tresp","cs.CV, cs.LG",image2text,"A major goal of multimodal research is to improve machine understanding of
+images and text. Tasks include image captioning, text-to-image generation, and
+vision-language representation learning. So far, research has focused on the
+relationships between images and text. For example, captioning models attempt
+to understand the semantics of images which are then transformed into text. An
+important question is: which annotation reflects best a deep understanding of
+image content? Similarly, given a text, what is the best image that can present
+the semantics of the text? In this work, we argue that the best text or caption
+for a given image is the text which would generate the image which is the most
+similar to that image. Likewise, the best image for a given text is the image
+that results in the caption which is best aligned with the original text. To
+this end, we propose a unified framework that includes both a text-to-image
+generative model and an image-to-text generative model. Extensive experiments
+validate our approach.",2022-12-23
+A survey on text generation using generative adversarial networks,2022-12-20 17:54:08+00:00,http://arxiv.org/abs/2212.11119v1,"Gustavo Henrique de Rosa, João Paulo Papa","cs.CL, cs.AI, cs.LG",image2text,"This work presents a thorough review concerning recent studies and text
+generation advancements using Generative Adversarial Networks. The usage of
+adversarial learning for text generation is promising as it provides
+alternatives to generate the so-called ""natural"" language. Nevertheless,
+adversarial text generation is not a simple task as its foremost architecture,
+the Generative Adversarial Networks, were designed to cope with continuous
+information (image) instead of discrete data (text). Thus, most works are based
+on three possible options, i.e., Gumbel-Softmax differentiation, Reinforcement
+Learning, and modified training objectives. All alternatives are reviewed in
+this survey as they present the most recent approaches for generating text
+using adversarial-based techniques. The selected works were taken from renowned
+databases, such as Science Direct, IEEEXplore, Springer, Association for
+Computing Machinery, and arXiv, whereas each selected work has been critically
+analyzed and assessed to present its objective, methodology, and experimental
+results.",2022-12-20
 SeqDiffuSeq: Text Diffusion with Encoder-Decoder Transformers,2022-12-20 15:16:24+00:00,http://arxiv.org/abs/2212.10325v1,"Hongyi Yuan, Zheng Yuan, Chuanqi Tan, Fei Huang, Songfang Huang",cs.CL,image2text,"Diffusion model, a new generative modelling paradigm, has achieved great
 success in image, audio, and video generation. However, considering the
 discrete categorical nature of text, it is not trivial to extend continuous

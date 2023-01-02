@@ -1,4 +1,27 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"On Realization of Intelligent Decision-Making in the Real World: A
+  Foundation Decision Model Perspective",2022-12-24 06:16:45+00:00,http://arxiv.org/abs/2212.12669v1,"Ying Wen, Ziyu Wan, Ming Zhou, Shufang Hou, Zhe Cao, Chenyang Le, Jingxiao Chen, Zheng Tian, Weinan Zhang, Jun Wang","cs.AI, cs.LG",games,"Our situated environment is full of uncertainty and highly dynamic, thus
+hindering the widespread adoption of machine-led Intelligent Decision-Making
+(IDM) in real world scenarios. This means IDM should have the capability of
+continuously learning new skills and efficiently generalizing across wider
+applications. IDM benefits from any new approaches and theoretical
+breakthroughs that exhibit Artificial General Intelligence (AGI) breaking the
+barriers between tasks and applications. Recent research has well-examined
+neural architecture, Transformer, as a backbone foundation model and its
+generalization to various tasks, including computer vision, natural language
+processing, and reinforcement learning. We therefore argue that a foundation
+decision model (FDM) can be established by formulating various decision-making
+tasks as a sequence decoding task using the Transformer architecture; this
+would be a promising solution to advance the applications of IDM in more
+complex real world tasks. In this paper, we elaborate on how a foundation
+decision model improves the efficiency and generalization of IDM. We also
+discuss potential applications of a FDM in multi-agent game AI, production
+scheduling, and robotics tasks. Finally, through a case study, we demonstrate
+our realization of the FDM, DigitalBrain (DB1) with 1.2 billion parameters,
+which achieves human-level performance over 453 tasks, including text
+generation, images caption, video games playing, robotic control, and traveling
+salesman problems. As a foundation decision model, DB1 would be a baby step
+towards more autonomous and efficient real world IDM applications.",2022-12-24
 "Synthesis and Evaluation of a Domain-specific Large Data Set for
   Dungeons & Dragons",2022-12-18 12:54:45+00:00,http://arxiv.org/abs/2212.09080v1,"Akila Peiris, Nisansa de Silva","cs.CL, cs.LG",games,"This paper introduces the Forgotten Realms Wiki (FRW) data set and domain
 specific natural language generation using FRW along with related analyses.

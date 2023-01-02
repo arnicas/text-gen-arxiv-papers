@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2022-12-21*
+*written on 2023-01-02*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Noise-aware Learning from Web-crawled Image-Text Data for Image  Captioning](http://arxiv.org/abs/2212.13563v1) | Wooyoung Kang, Jonghwan Mun, Sungjun Lee, Byungseok Roh | cs.CV, cs.AI | 2022-12-27 |
+| [On Realization of Intelligent Decision-Making in the Real World: A  Foundation Decision Model Perspective](http://arxiv.org/abs/2212.12669v1) | Ying Wen, Ziyu Wan, Ming Zhou, Shufang Hou, Zhe Cao, Chenyang Le, Jingxiao Chen, Zheng Tian, Weinan Zhang, Jun Wang | cs.AI, cs.LG | 2022-12-24 |
+| [Do DALL-E and Flamingo Understand Each Other?](http://arxiv.org/abs/2212.12249v1) | Hang Li, Jindong Gu, Rajat Koner, Sahand Sharifzadeh, Volker Tresp | cs.CV, cs.LG | 2022-12-23 |
+| [A survey on text generation using generative adversarial networks](http://arxiv.org/abs/2212.11119v1) | Gustavo Henrique de Rosa, João Paulo Papa | cs.CL, cs.AI, cs.LG | 2022-12-20 |
 | [SeqDiffuSeq: Text Diffusion with Encoder-Decoder Transformers](http://arxiv.org/abs/2212.10325v1) | Hongyi Yuan, Zheng Yuan, Chuanqi Tan, Fei Huang, Songfang Huang | cs.CL | 2022-12-20 |
 | [One Embedder, Any Task: Instruction-Finetuned Text Embeddings](http://arxiv.org/abs/2212.09741v2) | Hongjin Su, Weijia Shi, Jungo Kasai, Yizhong Wang, Yushi Hu, Mari Ostendorf, Wen-tau Yih, Noah A. Smith, Luke Zettlemoyer, Tao Yu | cs.CL | 2022-12-19 |
 | [Switching to Discriminative Image Captioning by Relieving a Bottleneck  of Reinforcement Learning](http://arxiv.org/abs/2212.03230v1) | Ukyo Honda, Taro Watanabe, Yuji Matsumoto | cs.CV, cs.CL | 2022-12-06 |

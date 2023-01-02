@@ -130,8 +130,12 @@ def update_files_written_df(written_df, newrow, prev_datafile):
     """Adds row and deletes previous related one. Fixes old link to the new file. """
     written_df = written_df.append(newrow, ignore_index=True)
     old_one = written_df.loc[written_df['data_file']==prev_datafile]
-    old_gen_file = old_one['generated_file'][0]
-    new_gen_file = newrow['generated_file']
+    try:
+        old_gen_file = old_one['generated_file'].values[0]
+    except:
+        print("error with build files:", old_one['generated_file'])
+        exit()
+    new_gen_file = newrow['generated_file'].values[0]
     written_df.replace({old_gen_file: new_gen_file}, regex=False, inplace=True)
     written_df.loc[written_df['data_file']==prev_datafile, 'delete'] = True # mark to delete
     written_df = written_df[~written_df['delete']] # could do in one line

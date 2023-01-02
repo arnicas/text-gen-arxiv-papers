@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2022-12-21*
+*written on 2023-01-02*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [TegFormer: Topic-to-Essay Generation with Good Topic Coverage and High  Text Coherence](http://arxiv.org/abs/2212.13456v1) | Wang Qi, Rui Liu, Yuan Zuo, Yong Chen, Dell Zhang | cs.CL | 2022-12-27 |
+| [Do DALL-E and Flamingo Understand Each Other?](http://arxiv.org/abs/2212.12249v1) | Hang Li, Jindong Gu, Rajat Koner, Sahand Sharifzadeh, Volker Tresp | cs.CV, cs.LG | 2022-12-23 |
+| [Understanding Stereotypes in Language Models: Towards Robust Measurement  and Zero-Shot Debiasing](http://arxiv.org/abs/2212.10678v1) | Justus Mattern, Zhijing Jin, Mrinmaya Sachan, Rada Mihalcea, Bernhard Schölkopf | cs.CL, cs.LG | 2022-12-20 |
 | [Controllable Text Generation with Language Constraints](http://arxiv.org/abs/2212.10466v1) | Howard Chen, Huihan Li, Danqi Chen, Karthik Narasimhan | cs.CL | 2022-12-20 |
 | [CoCo: Coherence-Enhanced Machine-Generated Text Detection Under Data  Limitation With Contrastive Learning](http://arxiv.org/abs/2212.10341v1) | Xiaoming Liu, Zhaohan Zhang, Yichen Wang, Yu Lan, Chao Shen | cs.CL | 2022-12-20 |
 | [One Embedder, Any Task: Instruction-Finetuned Text Embeddings](http://arxiv.org/abs/2212.09741v2) | Hongjin Su, Weijia Shi, Jungo Kasai, Yizhong Wang, Yushi Hu, Mari Ostendorf, Wen-tau Yih, Noah A. Smith, Luke Zettlemoyer, Tao Yu | cs.CL | 2022-12-19 |

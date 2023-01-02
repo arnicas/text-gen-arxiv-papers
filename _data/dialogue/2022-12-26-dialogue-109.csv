@@ -1,4 +1,54 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+TextBox 2.0: A Text Generation Library with Pre-trained Language Models,2022-12-26 03:50:36+00:00,http://arxiv.org/abs/2212.13005v1,"Tianyi Tang, Junyi Li, Zhipeng Chen, Yiwen Hu, Zhuohao Yu, Wenxun Dai, Zican Dong, Xiaoxue Cheng, Yuhao Wang, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen",cs.CL,dialogue,"To facilitate research on text generation, this paper presents a
+comprehensive and unified library, TextBox 2.0, focusing on the use of
+pre-trained language models (PLMs). To be comprehensive, our library covers
+$13$ common text generation tasks and their corresponding $83$ datasets and
+further incorporates $45$ PLMs covering general, translation, Chinese,
+dialogue, controllable, distilled, prompting, and lightweight PLMs. We also
+implement $4$ efficient training strategies and provide $4$ generation
+objectives for pre-training new PLMs from scratch. To be unified, we design the
+interfaces to support the entire research pipeline (from data loading to
+training and evaluation), ensuring that each step can be fulfilled in a unified
+way. Despite the rich functionality, it is easy to use our library, either
+through the friendly Python API or command line. To validate the effectiveness
+of our library, we conduct extensive experiments and exemplify four types of
+research scenarios. The project is released at the link:
+https://github.com/RUCAIBox/TextBox.",2022-12-26
+"On Realization of Intelligent Decision-Making in the Real World: A
+  Foundation Decision Model Perspective",2022-12-24 06:16:45+00:00,http://arxiv.org/abs/2212.12669v1,"Ying Wen, Ziyu Wan, Ming Zhou, Shufang Hou, Zhe Cao, Chenyang Le, Jingxiao Chen, Zheng Tian, Weinan Zhang, Jun Wang","cs.AI, cs.LG",dialogue,"Our situated environment is full of uncertainty and highly dynamic, thus
+hindering the widespread adoption of machine-led Intelligent Decision-Making
+(IDM) in real world scenarios. This means IDM should have the capability of
+continuously learning new skills and efficiently generalizing across wider
+applications. IDM benefits from any new approaches and theoretical
+breakthroughs that exhibit Artificial General Intelligence (AGI) breaking the
+barriers between tasks and applications. Recent research has well-examined
+neural architecture, Transformer, as a backbone foundation model and its
+generalization to various tasks, including computer vision, natural language
+processing, and reinforcement learning. We therefore argue that a foundation
+decision model (FDM) can be established by formulating various decision-making
+tasks as a sequence decoding task using the Transformer architecture; this
+would be a promising solution to advance the applications of IDM in more
+complex real world tasks. In this paper, we elaborate on how a foundation
+decision model improves the efficiency and generalization of IDM. We also
+discuss potential applications of a FDM in multi-agent game AI, production
+scheduling, and robotics tasks. Finally, through a case study, we demonstrate
+our realization of the FDM, DigitalBrain (DB1) with 1.2 billion parameters,
+which achieves human-level performance over 453 tasks, including text
+generation, images caption, video games playing, robotic control, and traveling
+salesman problems. As a foundation decision model, DB1 would be a baby step
+towards more autonomous and efficient real world IDM applications.",2022-12-24
+Ontologically Faithful Generation of Non-Player Character Dialogues,2022-12-20 19:48:10+00:00,http://arxiv.org/abs/2212.10618v1,"Nathaniel Weir, Ryan Thomas, Randolph D'Amore, Kellie Hill, Benjamin Van Durme, Harsh Jhamtani",cs.CL,dialogue,"We introduce a language generation task grounded in a popular video game
+environment. KNUDGE (KNowledge Constrained User-NPC Dialogue GEneration)
+involves generating dialogue trees conditioned on an ontology captured in
+natural language passages providing quest and entity specifications. KNUDGE is
+constructed from side quest dialogues drawn directly from game data of Obsidian
+Entertainment's The Outer Worlds, leading to real-world complexities in
+generation: (1) dialogues are branching trees as opposed to linear chains of
+utterances; (2) utterances must remain faithful to the game lore--character
+personas, backstories, and entity relationships; and (3) a dialogue must
+accurately reveal new quest-related details to the human player. We report
+results for supervised and in-context learning techniques, finding there is
+significant room for future work on creating realistic game-quality dialogues.",2022-12-20
 Enhancing Task Bot Engagement with Synthesized Open-Domain Dialog,2022-12-20 05:51:47+00:00,http://arxiv.org/abs/2212.10008v1,"Miaoran Li, Baolin Peng, Michel Galley, Jianfeng Gao, Zhu Zhang","cs.CL, cs.AI",dialogue,"Many efforts have been made to construct dialog systems for different types
 of conversations, such as task-oriented dialog (TOD) and open-domain dialog
 (ODD). To better mimic human-level conversations that usually fuse various
