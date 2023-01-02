@@ -11,6 +11,7 @@ sidebar:
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [A Comprehensive Gold Standard and Benchmark for Comics Text Detection  and Recognition](http://arxiv.org/abs/2212.14674v1) | Gürkan Soykan, Deniz Yuret, Tevfik Metin Sezgin | cs.CL, cs.AI | 2022-12-27 |
 | [CORRPUS: Detecting Story Inconsistencies via Codex-Bootstrapped  Neurosymbolic Reasoning](http://arxiv.org/abs/2212.10754v1) | Yijiang River Dong, Lara J. Martin, Chris Callison-Burch | cs.CL | 2022-12-21 |
 | [Little Red Riding Hood Goes Around the Globe:Crosslingual Story Planning  and Generation with Large Language Models](http://arxiv.org/abs/2212.10471v1) | Evgeniia Razumovskaia, Joshua Maynez, Annie Louis, Mirella Lapata, Shashi Narayan | cs.CL | 2022-12-20 |
 | [DOC: Improving Long Story Coherence With Detailed Outline Control](http://arxiv.org/abs/2212.10077v1) | Kevin Yang, Dan Klein, Nanyun Peng, Yuandong Tian | cs.CL, cs.AI | 2022-12-20 |

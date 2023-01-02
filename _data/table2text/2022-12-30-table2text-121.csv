@@ -1,4 +1,22 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+MAUVE Scores for Generative Models: Theory and Practice,2022-12-30 07:37:40+00:00,http://arxiv.org/abs/2212.14578v1,"Krishna Pillutla, Lang Liu, John Thickstun, Sean Welleck, Swabha Swayamdipta, Rowan Zellers, Sewoong Oh, Yejin Choi, Zaid Harchaoui","cs.LG, cs.AI, cs.CL",table2text,"Generative AI has matured to a point where large-scale models can generate
+text that seems indistinguishable from human-written text and remarkably
+photorealistic images. Automatically measuring how close the distribution of
+generated data is to the target real data distribution is a key step in
+diagnosing existing models and developing better models. We present MAUVE, a
+family of comparison measures between pairs of distributions such as those
+encountered in the generative modeling of text or images. These scores are
+statistical summaries of divergence frontiers capturing two types of errors in
+generative modeling. We explore four approaches to statistically estimate these
+scores: vector quantization, non-parametric estimation, classifier-based
+estimation, and parametric Gaussian approximations. We provide statistical
+bounds for the vector quantization approach. Empirically, we find that the
+proposed scores paired with a range of $f$-divergences and statistical
+estimation methods can quantify the gaps between the distributions of
+human-written text and those of modern neural language models by correlating
+with human judgments and identifying known properties of the generated texts.
+We conclude the paper by demonstrating its applications to other AI domains and
+discussing practical recommendations.",2022-12-30
 "TegFormer: Topic-to-Essay Generation with Good Topic Coverage and High
   Text Coherence",2022-12-27 11:50:14+00:00,http://arxiv.org/abs/2212.13456v1,"Wang Qi, Rui Liu, Yuan Zuo, Yong Chen, Dell Zhang",cs.CL,table2text,"Creating an essay based on a few given topics is a challenging NLP task.
 Although several effective methods for this problem, topic-to-essay generation,
