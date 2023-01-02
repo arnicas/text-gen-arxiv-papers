@@ -129,16 +129,16 @@ def get_new_data_as_df(arts2, categ):
 def update_files_written_df(written_df, newrow, prev_datafile):
     """Adds row and deletes previous related one. Fixes old link to the new file. """
     written_df = written_df.append(newrow, ignore_index=True)
-    old_one = written_df.loc[written_df['data_file']==prev_datafile]
+    old_one = written_df.loc[written_df['data_file'] == prev_datafile]
     try:
         old_gen_file = old_one['generated_file'].values[0]
     except:
         print("error with build files:", old_one['generated_file'])
         exit()
-    new_gen_file = newrow['generated_file']
+    new_gen_file = newrow['generated_file'] # str already
     print(old_gen_file, new_gen_file)
-    written_df.replace({old_gen_file: new_gen_file}, regex=False, inplace=True)
-    written_df.loc[written_df['data_file']==prev_datafile, 'delete'] = True # mark to delete
+    written_df.replace({old_gen_file: new_gen_file}, regex=False, inplace=True)   # but those rows need to be rewritten
+    written_df.loc[written_df['data_file'] == prev_datafile, 'delete'] = True # mark to delete
     written_df = written_df[~written_df['delete']] # could do in one line
     return written_df
     
@@ -147,6 +147,7 @@ def handle_new_data(categ, written_df, newdata):
     """
      The file list of data and pages generated and links is written_df.  The new data is what was scraped.
      This is specific to a category - we do it for each category of results found.
+     Have to also rewrite the md for the previous page, so the 'next' link points to correct current one.
      """
     old_record_row = most_recent_data_file(categ, written_df)
     old_record_row_datafile = old_record_row['data_file']
@@ -175,10 +176,24 @@ def handle_new_data(categ, written_df, newdata):
                 'generated_file': generated_file, 'data_file': datafile, 'most_recent': True, 
                 'count': count, 'delete': False, 'prev_link': prev_link, 'next_link': next_link}
             written_df = update_files_written_df(written_df, new_row, old_record_row_datafile)
-            write_table_md(combo, date, categ, prev_link, nextlink=next_link, most_recent=True) # actually create page
+            #write_table_md(combo, date, categ, prev_link, nextlink=next_link, most_recent=True) # actually create page
+            write_all_md_files(written_df)
             delete_old_files([old_record_row_datafile, old_record_row_gen_file, old_record_row_mdfile])
     return written_df
 
+
+def write_all_md_files(written_df):
+    for key, vals in written_df.groupby('category'):
+        ecs = vals.sort_values('date').to_dict(orient="records")
+        for rec in recs:
+            row = rec.copy()
+            df = pd.read_csv(row['data_file'])
+            categ = row['category']
+            date = row['date'].strftime('%Y-%m-%d')  # make sure it's a string for filenames
+            prevlink = row['prev_link']
+            nextlink = row['next_link']
+            most_recent = row['most_recent']
+            write_table_md(df, date, categ, prevlink, nextlink=nextlink, most_recent=most_recent)
 
 def write_new_files_after_scrape(newdata):
     written_df = pd.read_json(FILES_WRITTEN_DATA, orient="records", lines=True)
