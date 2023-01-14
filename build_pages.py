@@ -184,12 +184,15 @@ def handle_new_data(categ, written_df, newdata):
 
 def write_all_md_files(written_df):
     for key, vals in written_df.groupby('category'):
-        ecs = vals.sort_values('date').to_dict(orient="records")
+        recs = vals.sort_values('date').to_dict(orient="records")
         for rec in recs:
             row = rec.copy()
             df = pd.read_csv(row['data_file'])
             categ = row['category']
-            date = row['date'].strftime('%Y-%m-%d')  # make sure it's a string for filenames
+            try:
+                date = row['date'].strftime('%Y-%m-%d')  # make sure it's a string for filenames
+            except:
+                date = row['date']
             prevlink = row['prev_link']
             nextlink = row['next_link']
             most_recent = row['most_recent']

@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2023-01-02*
+*written on 2023-01-14*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Universal Multimodal Representation for Language Understanding](http://arxiv.org/abs/2301.03344v1) | Zhuosheng Zhang, Kehai Chen, Rui Wang, Masao Utiyama, Eiichiro Sumita, Zuchao Li, Hai Zhao | cs.CL, cs.AI, cs.CV | 2023-01-09 |
+| [An Image captioning algorithm based on the Hybrid Deep Learning  Technique (CNN+GRU)](http://arxiv.org/abs/2301.02440v1) | Rana Adnan Ahmad, Muhammad Azhar, Hina Sattar | cs.CV, cs.AI | 2023-01-06 |
+| [Towards Table-to-Text Generation with Pretrained Language Model: A Table  Structure Understanding and Text Deliberating Approach](http://arxiv.org/abs/2301.02071v1) | Miao Chen, Xinjiang Lu, Tong Xu, Yanyan Li, Jingbo Zhou, Dejing Dou, Hui Xiong | cs.CL, cs.AI | 2023-01-05 |
+| [eVAE: Evolutionary Variational Autoencoder](http://arxiv.org/abs/2301.00011v1) | Zhangkai Wu, Longbing Cao, Lei Qi | cs.NE, cs.LG | 2023-01-01 |
 | [MAUVE Scores for Generative Models: Theory and Practice](http://arxiv.org/abs/2212.14578v1) | Krishna Pillutla, Lang Liu, John Thickstun, Sean Welleck, Swabha Swayamdipta, Rowan Zellers, Sewoong Oh, Yejin Choi, Zaid Harchaoui | cs.LG, cs.AI, cs.CL | 2022-12-30 |
 | [Noise-aware Learning from Web-crawled Image-Text Data for Image  Captioning](http://arxiv.org/abs/2212.13563v1) | Wooyoung Kang, Jonghwan Mun, Sungjun Lee, Byungseok Roh | cs.CV, cs.AI | 2022-12-27 |
 | [On Realization of Intelligent Decision-Making in the Real World: A  Foundation Decision Model Perspective](http://arxiv.org/abs/2212.12669v1) | Ying Wen, Ziyu Wan, Ming Zhou, Shufang Hou, Zhe Cao, Chenyang Le, Jingxiao Chen, Zheng Tian, Weinan Zhang, Jun Wang | cs.AI, cs.LG | 2022-12-24 |

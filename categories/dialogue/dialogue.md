@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2023-01-02*
+*written on 2023-01-14*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Automatic Generation of German Drama Texts Using Fine Tuned GPT-2 Models](http://arxiv.org/abs/2301.03119v2) | Mariam Bangura, Kristina Barabashova, Anna Karnysheva, Sarah Semczuk, Yifan Wang | cs.CL | 2023-01-08 |
 | [TextBox 2.0: A Text Generation Library with Pre-trained Language Models](http://arxiv.org/abs/2212.13005v1) | Tianyi Tang, Junyi Li, Zhipeng Chen, Yiwen Hu, Zhuohao Yu, Wenxun Dai, Zican Dong, Xiaoxue Cheng, Yuhao Wang, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen | cs.CL | 2022-12-26 |
 | [On Realization of Intelligent Decision-Making in the Real World: A  Foundation Decision Model Perspective](http://arxiv.org/abs/2212.12669v1) | Ying Wen, Ziyu Wan, Ming Zhou, Shufang Hou, Zhe Cao, Chenyang Le, Jingxiao Chen, Zheng Tian, Weinan Zhang, Jun Wang | cs.AI, cs.LG | 2022-12-24 |
 | [Ontologically Faithful Generation of Non-Player Character Dialogues](http://arxiv.org/abs/2212.10618v1) | Nathaniel Weir, Ryan Thomas, Randolph D'Amore, Kellie Hill, Benjamin Van Durme, Harsh Jhamtani | cs.CL | 2022-12-20 |

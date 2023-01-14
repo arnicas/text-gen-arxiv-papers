@@ -1,4 +1,73 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Universal Multimodal Representation for Language Understanding,2023-01-09 13:54:11+00:00,http://arxiv.org/abs/2301.03344v1,"Zhuosheng Zhang, Kehai Chen, Rui Wang, Masao Utiyama, Eiichiro Sumita, Zuchao Li, Hai Zhao","cs.CL, cs.AI, cs.CV",table2text,"Representation learning is the foundation of natural language processing
+(NLP). This work presents new methods to employ visual information as assistant
+signals to general NLP tasks. For each sentence, we first retrieve a flexible
+number of images either from a light topic-image lookup table extracted over
+the existing sentence-image pairs or a shared cross-modal embedding space that
+is pre-trained on out-of-shelf text-image pairs. Then, the text and images are
+encoded by a Transformer encoder and convolutional neural network,
+respectively. The two sequences of representations are further fused by an
+attention layer for the interaction of the two modalities. In this study, the
+retrieval process is controllable and flexible. The universal visual
+representation overcomes the lack of large-scale bilingual sentence-image
+pairs. Our method can be easily applied to text-only tasks without manually
+annotated multimodal parallel corpora. We apply the proposed method to a wide
+range of natural language generation and understanding tasks, including neural
+machine translation, natural language inference, and semantic similarity.
+Experimental results show that our method is generally effective for different
+tasks and languages. Analysis indicates that the visual signals enrich textual
+representations of content words, provide fine-grained grounding information
+about the relationship between concepts and events, and potentially conduce to
+disambiguation.",2023-01-09
+Sequentially Controlled Text Generation,2023-01-05 21:23:51+00:00,http://arxiv.org/abs/2301.02299v1,"Alexander Spangher, Xinyu Hua, Yao Ming, Nanyun Peng","cs.CL, cs.AI, cs.LG",table2text,"While GPT-2 generates sentences that are remarkably human-like, longer
+documents can ramble and do not follow human-like writing structure. We study
+the problem of imposing structure on long-range text. We propose a novel
+controlled text generation task, sequentially controlled text generation, and
+identify a dataset, NewsDiscourse as a starting point for this task. We develop
+a sequential controlled text generation pipeline with generation and editing.
+We test different degrees of structural awareness and show that, in general,
+more structural awareness results in higher control-accuracy, grammaticality,
+coherency and topicality, approaching human-level writing performance.",2023-01-05
+"Towards Table-to-Text Generation with Pretrained Language Model: A Table
+  Structure Understanding and Text Deliberating Approach",2023-01-05 14:03:26+00:00,http://arxiv.org/abs/2301.02071v1,"Miao Chen, Xinjiang Lu, Tong Xu, Yanyan Li, Jingbo Zhou, Dejing Dou, Hui Xiong","cs.CL, cs.AI",table2text,"Although remarkable progress on the neural table-to-text methods has been
+made, the generalization issues hinder the applicability of these models due to
+the limited source tables. Large-scale pretrained language models sound like a
+promising solution to tackle such issues. However, how to effectively bridge
+the gap between the structured table and the text input by fully leveraging
+table information to fuel the pretrained model is still not well explored.
+Besides, another challenge of integrating the deliberation mechanism into the
+text-to-text pretrained model for solving the table-to-text task remains seldom
+studied. In this paper, to implement the table-to-text generation with
+pretrained language model, we propose a table structure understanding and text
+deliberating approach, namely TASD. Specifically, we devise a three-layered
+multi-head attention network to realize the table-structure-aware text
+generation model with the help of the pretrained language model. Furthermore, a
+multi-pass decoder framework is adopted to enhance the capability of polishing
+generated text for table descriptions. The empirical studies, as well as human
+evaluation, on two public datasets, validate that our approach can generate
+faithful and fluent descriptive texts for different types of tables.",2023-01-05
+eVAE: Evolutionary Variational Autoencoder,2023-01-01 23:54:35+00:00,http://arxiv.org/abs/2301.00011v1,"Zhangkai Wu, Longbing Cao, Lei Qi","cs.NE, cs.LG",table2text,"The surrogate loss of variational autoencoders (VAEs) poses various
+challenges to their training, inducing the imbalance between task fitting and
+representation inference. To avert this, the existing strategies for VAEs focus
+on adjusting the tradeoff by introducing hyperparameters, deriving a tighter
+bound under some mild assumptions, or decomposing the loss components per
+certain neural settings. VAEs still suffer from uncertain tradeoff learning.We
+propose a novel evolutionary variational autoencoder (eVAE) building on the
+variational information bottleneck (VIB) theory and integrative evolutionary
+neural learning. eVAE integrates a variational genetic algorithm into VAE with
+variational evolutionary operators including variational mutation, crossover,
+and evolution. Its inner-outer-joint training mechanism synergistically and
+dynamically generates and updates the uncertain tradeoff learning in the
+evidence lower bound (ELBO) without additional constraints. Apart from learning
+a lossy compression and representation of data under the VIB assumption, eVAE
+presents an evolutionary paradigm to tune critical factors of VAEs and deep
+neural networks and addresses the premature convergence and random search
+problem by integrating evolutionary optimization into deep learning.
+Experiments show that eVAE addresses the KL-vanishing problem for text
+generation with low reconstruction loss, generates all disentangled factors
+with sharp images, and improves the image generation quality,respectively. eVAE
+achieves better reconstruction loss, disentanglement, and generation-inference
+balance than its competitors.",2023-01-01
 MAUVE Scores for Generative Models: Theory and Practice,2022-12-30 07:37:40+00:00,http://arxiv.org/abs/2212.14578v1,"Krishna Pillutla, Lang Liu, John Thickstun, Sean Welleck, Swabha Swayamdipta, Rowan Zellers, Sewoong Oh, Yejin Choi, Zaid Harchaoui","cs.LG, cs.AI, cs.CL",table2text,"Generative AI has matured to a point where large-scale models can generate
 text that seems indistinguishable from human-written text and remarkably
 photorealistic images. Automatically measuring how close the distribution of

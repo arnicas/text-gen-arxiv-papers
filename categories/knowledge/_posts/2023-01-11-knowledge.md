@@ -6,10 +6,12 @@ sidebar:
 ---
 
 
-*written on 2023-01-02*
+*written on 2023-01-14*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [A Multi-Modal Geographic Pre-Training Method](http://arxiv.org/abs/2301.04283v1) | Ruixue Ding, Boli Chen, Pengjun Xie, Fei Huang, Xin Li, Qiang Zhang, Yao Xu | cs.CL | 2023-01-11 |
+| [Universal Multimodal Representation for Language Understanding](http://arxiv.org/abs/2301.03344v1) | Zhuosheng Zhang, Kehai Chen, Rui Wang, Masao Utiyama, Eiichiro Sumita, Zuchao Li, Hai Zhao | cs.CL, cs.AI, cs.CV | 2023-01-09 |
 | [TegFormer: Topic-to-Essay Generation with Good Topic Coverage and High  Text Coherence](http://arxiv.org/abs/2212.13456v1) | Wang Qi, Rui Liu, Yuan Zuo, Yong Chen, Dell Zhang | cs.CL | 2022-12-27 |
 | [Do DALL-E and Flamingo Understand Each Other?](http://arxiv.org/abs/2212.12249v1) | Hang Li, Jindong Gu, Rajat Koner, Sahand Sharifzadeh, Volker Tresp | cs.CV, cs.LG | 2022-12-23 |
 | [Understanding Stereotypes in Language Models: Towards Robust Measurement  and Zero-Shot Debiasing](http://arxiv.org/abs/2212.10678v1) | Justus Mattern, Zhijing Jin, Mrinmaya Sachan, Rada Mihalcea, Bernhard Schölkopf | cs.CL, cs.LG | 2022-12-20 |

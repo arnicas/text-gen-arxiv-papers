@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2023-01-02*
+*written on 2023-01-14*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Universal Multimodal Representation for Language Understanding](http://arxiv.org/abs/2301.03344v1) | Zhuosheng Zhang, Kehai Chen, Rui Wang, Masao Utiyama, Eiichiro Sumita, Zuchao Li, Hai Zhao | cs.CL, cs.AI, cs.CV | 2023-01-09 |
+| [Sequentially Controlled Text Generation](http://arxiv.org/abs/2301.02299v1) | Alexander Spangher, Xinyu Hua, Yao Ming, Nanyun Peng | cs.CL, cs.AI, cs.LG | 2023-01-05 |
+| [Towards Table-to-Text Generation with Pretrained Language Model: A Table  Structure Understanding and Text Deliberating Approach](http://arxiv.org/abs/2301.02071v1) | Miao Chen, Xinjiang Lu, Tong Xu, Yanyan Li, Jingbo Zhou, Dejing Dou, Hui Xiong | cs.CL, cs.AI | 2023-01-05 |
+| [eVAE: Evolutionary Variational Autoencoder](http://arxiv.org/abs/2301.00011v1) | Zhangkai Wu, Longbing Cao, Lei Qi | cs.NE, cs.LG | 2023-01-01 |
 | [MAUVE Scores for Generative Models: Theory and Practice](http://arxiv.org/abs/2212.14578v1) | Krishna Pillutla, Lang Liu, John Thickstun, Sean Welleck, Swabha Swayamdipta, Rowan Zellers, Sewoong Oh, Yejin Choi, Zaid Harchaoui | cs.LG, cs.AI, cs.CL | 2022-12-30 |
 | [TegFormer: Topic-to-Essay Generation with Good Topic Coverage and High  Text Coherence](http://arxiv.org/abs/2212.13456v1) | Wang Qi, Rui Liu, Yuan Zuo, Yong Chen, Dell Zhang | cs.CL | 2022-12-27 |
 | [TextBox 2.0: A Text Generation Library with Pre-trained Language Models](http://arxiv.org/abs/2212.13005v1) | Tianyi Tang, Junyi Li, Zhipeng Chen, Yiwen Hu, Zhuohao Yu, Wenxun Dai, Zican Dong, Xiaoxue Cheng, Yuhao Wang, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen | cs.CL | 2022-12-26 |

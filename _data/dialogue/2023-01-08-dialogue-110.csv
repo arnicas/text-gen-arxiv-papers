@@ -1,4 +1,15 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Automatic Generation of German Drama Texts Using Fine Tuned GPT-2 Models,2023-01-08 23:12:46+00:00,http://arxiv.org/abs/2301.03119v2,"Mariam Bangura, Kristina Barabashova, Anna Karnysheva, Sarah Semczuk, Yifan Wang",cs.CL,dialogue,"This study is devoted to the automatic generation of German drama texts. We
+suggest an approach consisting of two key steps: fine-tuning a GPT-2 model (the
+outline model) to generate outlines of scenes based on keywords and fine-tuning
+a second model (the generation model) to generate scenes from the scene
+outline. The input for the neural model comprises two datasets: the German
+Drama Corpus (GerDraCor) and German Text Archive (Deutsches Textarchiv or DTA).
+In order to estimate the effectiveness of the proposed method, our models are
+compared with baseline GPT-2 models. Our models perform well according to
+automatic quantitative evaluation, but, conversely, manual qualitative analysis
+reveals a poor quality of generated texts. This may be due to the quality of
+the dataset or training inputs.",2023-01-08
 TextBox 2.0: A Text Generation Library with Pre-trained Language Models,2022-12-26 03:50:36+00:00,http://arxiv.org/abs/2212.13005v1,"Tianyi Tang, Junyi Li, Zhipeng Chen, Yiwen Hu, Zhuohao Yu, Wenxun Dai, Zican Dong, Xiaoxue Cheng, Yuhao Wang, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen",cs.CL,dialogue,"To facilitate research on text generation, this paper presents a
 comprehensive and unified library, TextBox 2.0, focusing on the use of
 pre-trained language models (PLMs). To be comprehensive, our library covers
