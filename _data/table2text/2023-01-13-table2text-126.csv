@@ -1,4 +1,13 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"UserSimCRS: A User Simulation Toolkit for Evaluating Conversational
+  Recommender Systems",2023-01-13 13:41:20+00:00,http://arxiv.org/abs/2301.05544v2,"Jafar Afzali, Aleksander Mark Drzewiecki, Krisztian Balog, Shuo Zhang",cs.IR,table2text,"We present an extensible user simulation toolkit to facilitate automatic
+evaluation of conversational recommender systems. It builds on an established
+agenda-based approach and extends it with several novel elements, including
+user satisfaction prediction, persona and context modeling, and conditional
+natural language generation. We showcase the toolkit with a pre-existing movie
+recommender system and demonstrate its ability to simulate dialogues that mimic
+real conversations, while requiring only a handful of manually annotated
+dialogues as training data.",2023-01-13
 Universal Multimodal Representation for Language Understanding,2023-01-09 13:54:11+00:00,http://arxiv.org/abs/2301.03344v1,"Zhuosheng Zhang, Kehai Chen, Rui Wang, Masao Utiyama, Eiichiro Sumita, Zuchao Li, Hai Zhao","cs.CL, cs.AI, cs.CV",table2text,"Representation learning is the foundation of natural language processing
 (NLP). This work presents new methods to employ visual information as assistant
 signals to general NLP tasks. For each sentence, we first retrieve a flexible

@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2023-01-14*
+*written on 2023-01-21*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [UserSimCRS: A User Simulation Toolkit for Evaluating Conversational  Recommender Systems](http://arxiv.org/abs/2301.05544v2) | Jafar Afzali, Aleksander Mark Drzewiecki, Krisztian Balog, Shuo Zhang | cs.IR | 2023-01-13 |
 | [Universal Multimodal Representation for Language Understanding](http://arxiv.org/abs/2301.03344v1) | Zhuosheng Zhang, Kehai Chen, Rui Wang, Masao Utiyama, Eiichiro Sumita, Zuchao Li, Hai Zhao | cs.CL, cs.AI, cs.CV | 2023-01-09 |
 | [Sequentially Controlled Text Generation](http://arxiv.org/abs/2301.02299v1) | Alexander Spangher, Xinyu Hua, Yao Ming, Nanyun Peng | cs.CL, cs.AI, cs.LG | 2023-01-05 |
 | [Towards Table-to-Text Generation with Pretrained Language Model: A Table  Structure Understanding and Text Deliberating Approach](http://arxiv.org/abs/2301.02071v1) | Miao Chen, Xinjiang Lu, Tong Xu, Yanyan Li, Jingbo Zhou, Dejing Dou, Hui Xiong | cs.CL, cs.AI | 2023-01-05 |
