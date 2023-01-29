@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2023-01-21*
+*written on 2023-01-29*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability  Curvature](http://arxiv.org/abs/2301.11305v1) | Eric Mitchell, Yoonho Lee, Alexander Khazatsky, Christopher D. Manning, Chelsea Finn | cs.CL, cs.AI | 2023-01-26 |
+| [One Model for All Domains: Collaborative Domain-Prefix Tuning for  Cross-Domain NER](http://arxiv.org/abs/2301.10410v1) | Xiang Chen, Lei Li, Qiaoshuo Fei, Ningyu Zhang, Chuanqi Tan, Yong Jiang, Fei Huang, Huajun Chen | cs.CL, cs.AI, cs.DB, cs.IR, cs.LG | 2023-01-25 |
+| [Semantic-aware Contrastive Learning for Electroencephalography-to-Text  Generation with Curriculum Learning](http://arxiv.org/abs/2301.09237v1) | Xiachong Feng, Xiaocheng Feng, Bing Qin | cs.HC, cs.CL | 2023-01-23 |
+| [Rationalization for Explainable NLP: A Survey](http://arxiv.org/abs/2301.08912v1) | Sai Gurrapu, Ajay Kulkarni, Lifu Huang, Ismini Lourentzou, Laura Freeman, Feras A. Batarseh | cs.CL, cs.LG | 2023-01-21 |
 | [A Multi-Modal Geographic Pre-Training Method](http://arxiv.org/abs/2301.04283v1) | Ruixue Ding, Boli Chen, Pengjun Xie, Fei Huang, Xin Li, Qiang Zhang, Yao Xu | cs.CL | 2023-01-11 |
 | [Universal Multimodal Representation for Language Understanding](http://arxiv.org/abs/2301.03344v1) | Zhuosheng Zhang, Kehai Chen, Rui Wang, Masao Utiyama, Eiichiro Sumita, Zuchao Li, Hai Zhao | cs.CL, cs.AI, cs.CV | 2023-01-09 |
 | [TegFormer: Topic-to-Essay Generation with Good Topic Coverage and High  Text Coherence](http://arxiv.org/abs/2212.13456v1) | Wang Qi, Rui Liu, Yuan Zuo, Yong Chen, Dell Zhang | cs.CL | 2022-12-27 |

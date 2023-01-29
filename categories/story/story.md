@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2023-01-21*
+*written on 2023-01-29*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Can Very Large Pretrained Language Models Learn Storytelling With A Few  Examples?](http://arxiv.org/abs/2301.09790v1) | Zhuohan Xie, Trevor Cohn, Jey Han Lau | cs.CL | 2023-01-24 |
+| [Visual Writing Prompts: Character-Grounded Story Generation with Curated  Image Sequences](http://arxiv.org/abs/2301.08571v1) | Xudong Hong, Asad Sayeed, Khushboo Mehra, Vera Demberg, Bernt Schiele | cs.CL, cs.CV, cs.LG | 2023-01-20 |
 | [Visual Story Generation Based on Emotion and Keywords](http://arxiv.org/abs/2301.02777v1) | Yuetian Chen, Ruohua Li, Bowen Shi, Peiru Liu, Mei Si | cs.AI, cs.CL, cs.LG | 2023-01-07 |
 | [A Comprehensive Gold Standard and Benchmark for Comics Text Detection  and Recognition](http://arxiv.org/abs/2212.14674v1) | Gürkan Soykan, Deniz Yuret, Tevfik Metin Sezgin | cs.CL, cs.AI | 2022-12-27 |
 | [CORRPUS: Detecting Story Inconsistencies via Codex-Bootstrapped  Neurosymbolic Reasoning](http://arxiv.org/abs/2212.10754v1) | Yijiang River Dong, Lara J. Martin, Chris Callison-Burch | cs.CL | 2022-12-21 |

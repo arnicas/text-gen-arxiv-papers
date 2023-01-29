@@ -1,4 +1,33 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Can Very Large Pretrained Language Models Learn Storytelling With A Few
+  Examples?",2023-01-24 02:44:02+00:00,http://arxiv.org/abs/2301.09790v1,"Zhuohan Xie, Trevor Cohn, Jey Han Lau",cs.CL,story,"While pre-trained language models can generate individually fluent sentences
+for automatic story generation, they struggle to generate stories that are
+coherent, sensible and interesting. Current state-of-the-art (SOTA) story
+generation models explore using higher-level features such as plots or
+commonsense knowledge to improve the quality of generated stories. Prompt-based
+learning using very large pre-trained language models (VLPLMs) such as GPT3 has
+demonstrated impressive performance even across various NLP tasks. In this
+paper, we present an extensive study using automatic and human evaluation to
+compare the story generation capability of VLPLMs to those SOTA models in three
+different datasets where stories differ in style, register and length. Our
+results show that VLPLMs generate much higher quality stories than other story
+generation models, and to a certain extent rival human authors, although
+preliminary investigation also reveals that they tend to ``plagiarise'' real
+stories in scenarios that involve world knowledge.",2023-01-24
+"Visual Writing Prompts: Character-Grounded Story Generation with Curated
+  Image Sequences",2023-01-20 13:38:24+00:00,http://arxiv.org/abs/2301.08571v1,"Xudong Hong, Asad Sayeed, Khushboo Mehra, Vera Demberg, Bernt Schiele","cs.CL, cs.CV, cs.LG",story,"Current work on image-based story generation suffers from the fact that the
+existing image sequence collections do not have coherent plots behind them. We
+improve visual story generation by producing a new image-grounded dataset,
+Visual Writing Prompts (VWP). VWP contains almost 2K selected sequences of
+movie shots, each including 5-10 images. The image sequences are aligned with a
+total of 12K stories which were collected via crowdsourcing given the image
+sequences and a set of grounded characters from the corresponding image
+sequence. Our new image sequence collection and filtering process has allowed
+us to obtain stories that are more coherent and have more narrativity compared
+to previous work. We also propose a character-based story generation model
+driven by coherence as a strong baseline. Evaluations show that our generated
+stories are more coherent, visually grounded, and have more narrativity than
+stories generated with the current state-of-the-art model.",2023-01-20
 Visual Story Generation Based on Emotion and Keywords,2023-01-07 03:56:49+00:00,http://arxiv.org/abs/2301.02777v1,"Yuetian Chen, Ruohua Li, Bowen Shi, Peiru Liu, Mei Si","cs.AI, cs.CL, cs.LG",story,"Automated visual story generation aims to produce stories with corresponding
 illustrations that exhibit coherence, progression, and adherence to characters'
 emotional development. This work proposes a story generation pipeline to

@@ -1,4 +1,60 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Explaining Visual Biases as Words by Generating Captions,2023-01-26 13:58:46+00:00,http://arxiv.org/abs/2301.11104v1,"Younghyun Kim, Sangwoo Mo, Minkyu Kim, Kyungmin Lee, Jaeho Lee, Jinwoo Shin","cs.LG, cs.CV",image2text,"We aim to diagnose the potential biases in image classifiers. To this end,
+prior works manually labeled biased attributes or visualized biased features,
+which need high annotation costs or are often ambiguous to interpret. Instead,
+we leverage two types (generative and discriminative) of pre-trained
+vision-language models to describe the visual bias as a word. Specifically, we
+propose bias-to-text (B2T), which generates captions of the mispredicted images
+using a pre-trained captioning model to extract the common keywords that may
+describe visual biases. Then, we categorize the bias type as spurious
+correlation or majority bias by checking if it is specific or agnostic to the
+class, based on the similarity of class-wise mispredicted images and the
+keyword upon a pre-trained vision-language joint embedding space, e.g., CLIP.
+We demonstrate that the proposed simple and intuitive scheme can recover
+well-known gender and background biases, and discover novel ones in real-world
+datasets. Moreover, we utilize B2T to compare the classifiers using different
+architectures or training methods. Finally, we show that one can obtain
+debiased classifiers using the B2T bias keywords and CLIP, in both zero-shot
+and full-shot manners, without using any human annotation on the bias.",2023-01-26
+MTTN: Multi-Pair Text to Text Narratives for Prompt Generation,2023-01-21 06:55:44+00:00,http://arxiv.org/abs/2301.10172v1,"Archan Ghosh, Debgandhar Ghosh, Madhurima Maji, Suchinta Chanda, Kalporup Goswami","cs.CL, cs.LG",image2text,"The explosive popularity of diffusion models[ 1][ 2][ 3 ] has provided a huge
+stage for further development in generative-text modelling. As prompt based
+models are very nuanced, such that a carefully generated prompt can produce
+truely breath taking images, on the contrary producing powerful or even
+meaningful prompt is a hit or a miss. To lavish on this we have introduced a
+large scale derived and synthesized dataset built with on real prompts and
+indexed with popular image-text datasets like MS-COCO[4 ], Flickr[ 5], etc. We
+have also introduced staging for these sentences that sequentially reduce the
+context and increase the complexity, that will further strengthen the output
+because of the complex annotations that are being created. MTTN consists of
+over 2.4M sentences that are divided over 5 stages creating a combination
+amounting to over 12M pairs, along with a vocab size of consisting more than
+300 thousands unique words that creates an abundance of variations. The
+original 2.4M million pairs are broken down in such a manner that it produces a
+true scenario of internet lingo that is used globally thereby heightening the
+robustness of the dataset, and any model trained on it.",2023-01-21
+Regeneration Learning: A Learning Paradigm for Data Generation,2023-01-21 01:33:34+00:00,http://arxiv.org/abs/2301.08846v1,"Xu Tan, Tao Qin, Jiang Bian, Tie-Yan Liu, Yoshua Bengio","cs.LG, cs.AI, cs.CL, cs.CV, eess.AS",image2text,"Machine learning methods for conditional data generation usually build a
+mapping from source conditional data X to target data Y. The target Y (e.g.,
+text, speech, music, image, video) is usually high-dimensional and complex, and
+contains information that does not exist in source data, which hinders
+effective and efficient learning on the source-target mapping. In this paper,
+we present a learning paradigm called regeneration learning for data
+generation, which first generates Y' (an abstraction/representation of Y) from
+X and then generates Y from Y'. During training, Y' is obtained from Y through
+either handcrafted rules or self-supervised learning and is used to learn
+X-->Y' and Y'-->Y. Regeneration learning extends the concept of representation
+learning to data generation tasks, and can be regarded as a counterpart of
+traditional representation learning, since 1) regeneration learning handles the
+abstraction (Y') of the target data Y for data generation while traditional
+representation learning handles the abstraction (X') of source data X for data
+understanding; 2) both the processes of Y'-->Y in regeneration learning and
+X-->X' in representation learning can be learned in a self-supervised way
+(e.g., pre-training); 3) both the mappings from X to Y' in regeneration
+learning and from X' to Y in representation learning are simpler than the
+direct mapping from X to Y. We show that regeneration learning can be a
+widely-used paradigm for data generation (e.g., text generation, speech
+recognition, speech synthesis, music composition, image generation, and video
+generation) and can provide valuable insights into developing data generation
+methods.",2023-01-21
 Universal Multimodal Representation for Language Understanding,2023-01-09 13:54:11+00:00,http://arxiv.org/abs/2301.03344v1,"Zhuosheng Zhang, Kehai Chen, Rui Wang, Masao Utiyama, Eiichiro Sumita, Zuchao Li, Hai Zhao","cs.CL, cs.AI, cs.CV",image2text,"Representation learning is the foundation of natural language processing
 (NLP). This work presents new methods to employ visual information as assistant
 signals to general NLP tasks. For each sentence, we first retrieve a flexible

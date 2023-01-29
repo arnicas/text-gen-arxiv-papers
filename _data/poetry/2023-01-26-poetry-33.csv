@@ -1,4 +1,18 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Message Ritual: A Posthuman Account of Living with Lamp,2023-01-26 05:53:51+00:00,http://arxiv.org/abs/2301.10947v1,"Nina Rajcic, Jon McCormack","cs.HC, cs.AI, cs.NE, I.2; J.5; H.5",poetry,"As we become increasingly entangled with digital technologies, the boundary
+between human and machine is progressively blurring. Adopting a performative,
+posthumanist perspective resolves this ambiguity by proposing that such
+boundaries are not predetermined, rather they are enacted within a certain
+material configuration. Using this approach, dubbed `Entanglement HCI', this
+paper presents \emph{Message Ritual} -- a novel, integrated AI system that
+encourages the re-framing of memory through machine generated poetics. Embodied
+within a domestic table lamp, the system listens in on conversations occurring
+within the home, drawing out key topics and phrases of the day and
+reconstituting them through machine generated poetry, delivered to household
+members via SMS upon waking each morning. Participants across four households
+were asked to live with the lamp over a two week period. We present a
+diffractive analysis exploring how the lamp \emph{becomes with} participants
+and discuss the implications of this method for future HCI research.",2023-01-26
 Modern French Poetry Generation with RoBERTa and GPT-2,2022-12-06 12:10:14+00:00,http://arxiv.org/abs/2212.02911v1,"Mika Hämäläinen, Khalid Alnajjar, Thierry Poibeau",cs.CL,poetry,"We present a novel neural model for modern poetry generation in French. The
 model consists of two pretrained neural models that are fine-tuned for the poem
 generation task. The encoder of the model is a RoBERTa based one while the

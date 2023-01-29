@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2023-01-21*
+*written on 2023-01-29*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [NLP as a Lens for Causal Analysis and Perception Mining to Infer Mental  Health on Social Media](http://arxiv.org/abs/2301.11004v1) | Muskan Garg, Chandni Saxena, Usman Naseem, Bonnie J Dorr | cs.CL | 2023-01-26 |
+| [Distilling Text into Circuits](http://arxiv.org/abs/2301.10595v1) | Vincent Wang-Mascianica, Jonathon Liu, Bob Coecke | cs.CL, cs.AI, cs.LO, math.CT | 2023-01-25 |
 | [UserSimCRS: A User Simulation Toolkit for Evaluating Conversational  Recommender Systems](http://arxiv.org/abs/2301.05544v2) | Jafar Afzali, Aleksander Mark Drzewiecki, Krisztian Balog, Shuo Zhang | cs.IR | 2023-01-13 |
 | [Automatic Generation of German Drama Texts Using Fine Tuned GPT-2 Models](http://arxiv.org/abs/2301.03119v2) | Mariam Bangura, Kristina Barabashova, Anna Karnysheva, Sarah Semczuk, Yifan Wang | cs.CL | 2023-01-08 |
 | [TextBox 2.0: A Text Generation Library with Pre-trained Language Models](http://arxiv.org/abs/2212.13005v1) | Tianyi Tang, Junyi Li, Zhipeng Chen, Yiwen Hu, Zhuohao Yu, Wenxun Dai, Zican Dong, Xiaoxue Cheng, Yuhao Wang, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen | cs.CL | 2022-12-26 |
