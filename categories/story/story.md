@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2023-01-29*
+*written on 2023-02-09*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Nationality Bias in Text Generation](http://arxiv.org/abs/2302.02463v1) | Pranav Narayanan Venkit, Sanjana Gautam, Ruchi Panchanadikar, Ting-Hao, Huang, Shomir Wilson | cs.CL, cs.AI | 2023-02-05 |
 | [Can Very Large Pretrained Language Models Learn Storytelling With A Few  Examples?](http://arxiv.org/abs/2301.09790v1) | Zhuohan Xie, Trevor Cohn, Jey Han Lau | cs.CL | 2023-01-24 |
 | [Visual Writing Prompts: Character-Grounded Story Generation with Curated  Image Sequences](http://arxiv.org/abs/2301.08571v1) | Xudong Hong, Asad Sayeed, Khushboo Mehra, Vera Demberg, Bernt Schiele | cs.CL, cs.CV, cs.LG | 2023-01-20 |
 | [Visual Story Generation Based on Emotion and Keywords](http://arxiv.org/abs/2301.02777v1) | Yuetian Chen, Ruohua Li, Bowen Shi, Peiru Liu, Mei Si | cs.AI, cs.CL, cs.LG | 2023-01-07 |

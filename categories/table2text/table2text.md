@@ -7,10 +7,15 @@ sidebar:
 ---
 
 
-*written on 2023-01-29*
+*written on 2023-02-09*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Auto-Learning: An Adversarial Process of Two Pre-trained Models for  Natural Language Generation](http://arxiv.org/abs/2302.03896v1) | Zhengqing Yuan, Yuelin Lu, Chao Zhang, Huiwen Xue | cs.CL | 2023-02-08 |
+| [What Matters In The Structured Pruning of Generative Language Models?](http://arxiv.org/abs/2302.03773v1) | Michael Santacroce, Zixin Wen, Yelong Shen, Yuanzhi Li | cs.CL, cs.LG | 2023-02-07 |
+| [Unleashing the True Potential of Sequence-to-Sequence Models for  Sequence Tagging and Structure Parsing](http://arxiv.org/abs/2302.02275v1) | Han He, Jinho D. Choi | cs.CL | 2023-02-05 |
+| [Grounding Language Models to Images for Multimodal Generation](http://arxiv.org/abs/2301.13823v1) | Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried | cs.CL, cs.AI, cs.CV, cs.LG | 2023-01-31 |
+| [Semi-Parametric Video-Grounded Text Generation](http://arxiv.org/abs/2301.11507v1) | Sungdong Kim, Jin-Hwa Kim, Jiyoung Lee, Minjoon Seo | cs.CV, cs.CL, cs.LG | 2023-01-27 |
 | [DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability  Curvature](http://arxiv.org/abs/2301.11305v1) | Eric Mitchell, Yoonho Lee, Alexander Khazatsky, Christopher D. Manning, Chelsea Finn | cs.CL, cs.AI | 2023-01-26 |
 | [Distilling Text into Circuits](http://arxiv.org/abs/2301.10595v1) | Vincent Wang-Mascianica, Jonathon Liu, Bob Coecke | cs.CL, cs.AI, cs.LO, math.CT | 2023-01-25 |
 | [One Model for All Domains: Collaborative Domain-Prefix Tuning for  Cross-Domain NER](http://arxiv.org/abs/2301.10410v1) | Xiang Chen, Lei Li, Qiaoshuo Fei, Ningyu Zhang, Chuanqi Tan, Yong Jiang, Fei Huang, Huajun Chen | cs.CL, cs.AI, cs.DB, cs.IR, cs.LG | 2023-01-25 |

@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2023-01-29*
+*written on 2023-02-09*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Controlling Personality Style in Dialogue with Zero-Shot Prompt-Based  Learning](http://arxiv.org/abs/2302.03848v1) | Angela Ramirez, Mamon Alsalihy, Kartik Aggarwal, Cecilia Li, Liren Wu, Marilyn Walker | cs.CL | 2023-02-08 |
+| [Grounding Language Models to Images for Multimodal Generation](http://arxiv.org/abs/2301.13823v1) | Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried | cs.CL, cs.AI, cs.CV, cs.LG | 2023-01-31 |
+| [Response-act Guided Reinforced Dialogue Generation for Mental Health  Counseling](http://arxiv.org/abs/2301.12729v1) | Aseem Srivastava, Ishan Pandey, Md. Shad Akhtar, Tanmoy Chakraborty | cs.CL | 2023-01-30 |
 | [NLP as a Lens for Causal Analysis and Perception Mining to Infer Mental  Health on Social Media](http://arxiv.org/abs/2301.11004v1) | Muskan Garg, Chandni Saxena, Usman Naseem, Bonnie J Dorr | cs.CL | 2023-01-26 |
 | [Distilling Text into Circuits](http://arxiv.org/abs/2301.10595v1) | Vincent Wang-Mascianica, Jonathon Liu, Bob Coecke | cs.CL, cs.AI, cs.LO, math.CT | 2023-01-25 |
 | [UserSimCRS: A User Simulation Toolkit for Evaluating Conversational  Recommender Systems](http://arxiv.org/abs/2301.05544v2) | Jafar Afzali, Aleksander Mark Drzewiecki, Krisztian Balog, Shuo Zhang | cs.IR | 2023-01-13 |

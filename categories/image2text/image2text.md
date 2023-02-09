@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2023-01-29*
+*written on 2023-02-09*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Adversarial Prompting for Black Box Foundation Models](http://arxiv.org/abs/2302.04237v1) | Natalie Maus, Patrick Chao, Eric Wong, Jacob Gardner | cs.LG | 2023-02-08 |
+| [GPTScore: Evaluate as You Desire](http://arxiv.org/abs/2302.04166v1) | Jinlan Fu, See-Kiong Ng, Zhengbao Jiang, Pengfei Liu | cs.CL | 2023-02-08 |
+| [Grounding Language Models to Images for Multimodal Generation](http://arxiv.org/abs/2301.13823v1) | Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried | cs.CL, cs.AI, cs.CV, cs.LG | 2023-01-31 |
+| [Semi-Parametric Video-Grounded Text Generation](http://arxiv.org/abs/2301.11507v1) | Sungdong Kim, Jin-Hwa Kim, Jiyoung Lee, Minjoon Seo | cs.CV, cs.CL, cs.LG | 2023-01-27 |
 | [Explaining Visual Biases as Words by Generating Captions](http://arxiv.org/abs/2301.11104v1) | Younghyun Kim, Sangwoo Mo, Minkyu Kim, Kyungmin Lee, Jaeho Lee, Jinwoo Shin | cs.LG, cs.CV | 2023-01-26 |
 | [MTTN: Multi-Pair Text to Text Narratives for Prompt Generation](http://arxiv.org/abs/2301.10172v1) | Archan Ghosh, Debgandhar Ghosh, Madhurima Maji, Suchinta Chanda, Kalporup Goswami | cs.CL, cs.LG | 2023-01-21 |
 | [Regeneration Learning: A Learning Paradigm for Data Generation](http://arxiv.org/abs/2301.08846v1) | Xu Tan, Tao Qin, Jiang Bian, Tie-Yan Liu, Yoshua Bengio | cs.LG, cs.AI, cs.CL, cs.CV, eess.AS | 2023-01-21 |

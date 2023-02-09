@@ -1,4 +1,30 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Controlling Personality Style in Dialogue with Zero-Shot Prompt-Based
+  Learning",2023-02-08 02:45:21+00:00,http://arxiv.org/abs/2302.03848v1,"Angela Ramirez, Mamon Alsalihy, Kartik Aggarwal, Cecilia Li, Liren Wu, Marilyn Walker",cs.CL,games,"Prompt-based or in-context learning has achieved high zero-shot performance
+on many natural language generation (NLG) tasks. Here we explore the
+performance of prompt-based learning for simultaneously controlling the
+personality and the semantic accuracy of an NLG for task-oriented dialogue. We
+experiment with prompt-based learning on the PERSONAGE restaurant
+recommendation corpus to generate semantically and stylistically-controlled
+text for 5 different Big-5 personality types: agreeable, disagreeable,
+conscientious, unconscientious, and extravert. We test two different classes of
+discrete prompts to generate utterances for a particular personality style: (1)
+prompts that demonstrate generating directly from a meaning representation that
+includes a personality specification; and (2) prompts that rely on first
+converting the meaning representation to a textual pseudo-reference, and then
+using the pseudo-reference in a textual style transfer (TST) prompt. In each
+case, we show that we can vastly improve performance by over-generating outputs
+and ranking them, testing several ranking functions based on automatic metrics
+for semantic accuracy, personality-match, and fluency. We also test whether NLG
+personality demonstrations from the restaurant domain can be used with meaning
+representations for the video game domain to generate personality stylized
+utterances about video games. Our findings show that the TST prompts produces
+the highest semantic accuracy (78.46% for restaurants and 87.6% for video
+games) and personality accuracy (100% for restaurants and 97% for video games).
+Our results on transferring personality style to video game utterances are
+surprisingly good. To our knowledge, there is no previous work testing the
+application of prompt-based learning to simultaneously controlling both style
+and semantic accuracy in NLG.",2023-02-08
 "On Realization of Intelligent Decision-Making in the Real World: A
   Foundation Decision Model Perspective",2022-12-24 06:16:45+00:00,http://arxiv.org/abs/2212.12669v1,"Ying Wen, Ziyu Wan, Ming Zhou, Shufang Hou, Zhe Cao, Chenyang Le, Jingxiao Chen, Zheng Tian, Weinan Zhang, Jun Wang","cs.AI, cs.LG",games,"Our situated environment is full of uncertainty and highly dynamic, thus
 hindering the widespread adoption of machine-led Intelligent Decision-Making

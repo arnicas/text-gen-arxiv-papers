@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2023-01-29*
+*written on 2023-02-09*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Controlling Personality Style in Dialogue with Zero-Shot Prompt-Based  Learning](http://arxiv.org/abs/2302.03848v1) | Angela Ramirez, Mamon Alsalihy, Kartik Aggarwal, Cecilia Li, Liren Wu, Marilyn Walker | cs.CL | 2023-02-08 |
 | [On Realization of Intelligent Decision-Making in the Real World: A  Foundation Decision Model Perspective](http://arxiv.org/abs/2212.12669v1) | Ying Wen, Ziyu Wan, Ming Zhou, Shufang Hou, Zhe Cao, Chenyang Le, Jingxiao Chen, Zheng Tian, Weinan Zhang, Jun Wang | cs.AI, cs.LG | 2022-12-24 |
 | [Synthesis and Evaluation of a Domain-specific Large Data Set for  Dungeons & Dragons](http://arxiv.org/abs/2212.09080v1) | Akila Peiris, Nisansa de Silva | cs.CL, cs.LG | 2022-12-18 |
 | [Reward Gaming in Conditional Text Generation](http://arxiv.org/abs/2211.08714v1) | Richard Yuanzhe Pang, Vishakh Padmakumar, Thibault Sellam, Ankur P. Parikh, He He | cs.CL, cs.AI, cs.LG | 2022-11-16 |

@@ -1,4 +1,57 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Adversarial Prompting for Black Box Foundation Models,2023-02-08 18:07:31+00:00,http://arxiv.org/abs/2302.04237v1,"Natalie Maus, Patrick Chao, Eric Wong, Jacob Gardner",cs.LG,image2text,"Prompting interfaces allow users to quickly adjust the output of generative
+models in both vision and language. However, small changes and design choices
+in the prompt can lead to significant differences in the output. In this work,
+we develop a black-box framework for generating adversarial prompts for
+unstructured image and text generation. These prompts, which can be standalone
+or prepended to benign prompts, induce specific behaviors into the generative
+process, such as generating images of a particular object or biasing the
+frequency of specific letters in the generated text.",2023-02-08
+GPTScore: Evaluate as You Desire,2023-02-08 16:17:29+00:00,http://arxiv.org/abs/2302.04166v1,"Jinlan Fu, See-Kiong Ng, Zhengbao Jiang, Pengfei Liu",cs.CL,image2text,"Generative Artificial Intelligence (AI) has enabled the development of
+sophisticated models that are capable of producing high-caliber text, images,
+and other outputs through the utilization of large pre-trained models.
+Nevertheless, assessing the quality of the generation is an even more arduous
+task than the generation itself, and this issue has not been given adequate
+consideration recently. This paper proposes a novel evaluation framework,
+GPTScore, which utilizes the emergent abilities (e.g., zero-shot instruction)
+from generative pre-trained models to score generated texts. Experimental
+results on four text generation tasks, 22 evaluation aspects, and corresponding
+37 datasets demonstrate that this approach can effectively allow us to achieve
+what one desires to evaluate for texts simply by natural language instructions.
+This nature helps us overcome several long-standing challenges in text
+evaluation--how to achieve customized, multi-faceted evaluation without the
+need for annotated samples. We make our code publicly available at
+https://github.com/jinlanfu/GPTScore.",2023-02-08
+Grounding Language Models to Images for Multimodal Generation,2023-01-31 18:33:44+00:00,http://arxiv.org/abs/2301.13823v1,"Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried","cs.CL, cs.AI, cs.CV, cs.LG",image2text,"We propose an efficient method to ground pretrained text-only language models
+to the visual domain, enabling them to process and generate arbitrarily
+interleaved image-and-text data. Our method leverages the abilities of language
+models learnt from large scale text-only pretraining, such as in-context
+learning and free-form text generation. We keep the language model frozen, and
+finetune input and output linear layers to enable cross-modality interactions.
+This allows our model to process arbitrarily interleaved image-and-text inputs,
+and generate free-form text interleaved with retrieved images. We achieve
+strong zero-shot performance on grounded tasks such as contextual image
+retrieval and multimodal dialogue, and showcase compelling interactive
+abilities. Our approach works with any off-the-shelf language model and paves
+the way towards an effective, general solution for leveraging pretrained
+language models in visually grounded settings.",2023-01-31
+Semi-Parametric Video-Grounded Text Generation,2023-01-27 03:00:43+00:00,http://arxiv.org/abs/2301.11507v1,"Sungdong Kim, Jin-Hwa Kim, Jiyoung Lee, Minjoon Seo","cs.CV, cs.CL, cs.LG",image2text,"Efficient video-language modeling should consider the computational cost
+because of a large, sometimes intractable, number of video frames. Parametric
+approaches such as the attention mechanism may not be ideal since its
+computational cost quadratically increases as the video length increases.
+Rather, previous studies have relied on offline feature extraction or frame
+sampling to represent the video efficiently, focusing on cross-modal modeling
+in short video clips. In this paper, we propose a semi-parametric
+video-grounded text generation model, SeViT, a novel perspective on scalable
+video-language modeling toward long untrimmed videos. Treating a video as an
+external data store, SeViT includes a non-parametric frame retriever to select
+a few query-relevant frames from the data store for a given query and a
+parametric generator to effectively aggregate the frames with the query via
+late fusion methods. Experimental results demonstrate our method has a
+significant advantage in longer videos and causal video understanding.
+Moreover, our model achieves the new state of the art on four video-language
+datasets, iVQA (+4.8), Next-QA (+6.9), and Activitynet-QA (+4.8) in accuracy,
+and MSRVTT-Caption (+3.6) in CIDEr.",2023-01-27
 Explaining Visual Biases as Words by Generating Captions,2023-01-26 13:58:46+00:00,http://arxiv.org/abs/2301.11104v1,"Younghyun Kim, Sangwoo Mo, Minkyu Kim, Kyungmin Lee, Jaeho Lee, Jinwoo Shin","cs.LG, cs.CV",image2text,"We aim to diagnose the potential biases in image classifiers. To this end,
 prior works manually labeled biased attributes or visualized biased features,
 which need high annotation costs or are often ambiguous to interpret. Instead,

@@ -6,10 +6,13 @@ sidebar:
 ---
 
 
-*written on 2023-01-29*
+*written on 2023-02-09*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Auto-Learning: An Adversarial Process of Two Pre-trained Models for  Natural Language Generation](http://arxiv.org/abs/2302.03896v1) | Zhengqing Yuan, Yuelin Lu, Chao Zhang, Huiwen Xue | cs.CL | 2023-02-08 |
+| [Controlling Personality Style in Dialogue with Zero-Shot Prompt-Based  Learning](http://arxiv.org/abs/2302.03848v1) | Angela Ramirez, Mamon Alsalihy, Kartik Aggarwal, Cecilia Li, Liren Wu, Marilyn Walker | cs.CL | 2023-02-08 |
+| [Execution-based Code Generation using Deep Reinforcement Learning](http://arxiv.org/abs/2301.13816v1) | Parshin Shojaee, Aneesh Jain, Sindhu Tipirneni, Chandan K. Reddy | cs.LG, cs.AI, cs.CL, cs.PL | 2023-01-31 |
 | [DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability  Curvature](http://arxiv.org/abs/2301.11305v1) | Eric Mitchell, Yoonho Lee, Alexander Khazatsky, Christopher D. Manning, Chelsea Finn | cs.CL, cs.AI | 2023-01-26 |
 | [One Model for All Domains: Collaborative Domain-Prefix Tuning for  Cross-Domain NER](http://arxiv.org/abs/2301.10410v1) | Xiang Chen, Lei Li, Qiaoshuo Fei, Ningyu Zhang, Chuanqi Tan, Yong Jiang, Fei Huang, Huajun Chen | cs.CL, cs.AI, cs.DB, cs.IR, cs.LG | 2023-01-25 |
 | [Semantic-aware Contrastive Learning for Electroencephalography-to-Text  Generation with Curriculum Learning](http://arxiv.org/abs/2301.09237v1) | Xiachong Feng, Xiaocheng Feng, Bing Qin | cs.HC, cs.CL | 2023-01-23 |

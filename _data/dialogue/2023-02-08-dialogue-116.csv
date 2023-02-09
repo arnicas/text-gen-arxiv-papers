@@ -1,4 +1,70 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Controlling Personality Style in Dialogue with Zero-Shot Prompt-Based
+  Learning",2023-02-08 02:45:21+00:00,http://arxiv.org/abs/2302.03848v1,"Angela Ramirez, Mamon Alsalihy, Kartik Aggarwal, Cecilia Li, Liren Wu, Marilyn Walker",cs.CL,dialogue,"Prompt-based or in-context learning has achieved high zero-shot performance
+on many natural language generation (NLG) tasks. Here we explore the
+performance of prompt-based learning for simultaneously controlling the
+personality and the semantic accuracy of an NLG for task-oriented dialogue. We
+experiment with prompt-based learning on the PERSONAGE restaurant
+recommendation corpus to generate semantically and stylistically-controlled
+text for 5 different Big-5 personality types: agreeable, disagreeable,
+conscientious, unconscientious, and extravert. We test two different classes of
+discrete prompts to generate utterances for a particular personality style: (1)
+prompts that demonstrate generating directly from a meaning representation that
+includes a personality specification; and (2) prompts that rely on first
+converting the meaning representation to a textual pseudo-reference, and then
+using the pseudo-reference in a textual style transfer (TST) prompt. In each
+case, we show that we can vastly improve performance by over-generating outputs
+and ranking them, testing several ranking functions based on automatic metrics
+for semantic accuracy, personality-match, and fluency. We also test whether NLG
+personality demonstrations from the restaurant domain can be used with meaning
+representations for the video game domain to generate personality stylized
+utterances about video games. Our findings show that the TST prompts produces
+the highest semantic accuracy (78.46% for restaurants and 87.6% for video
+games) and personality accuracy (100% for restaurants and 97% for video games).
+Our results on transferring personality style to video game utterances are
+surprisingly good. To our knowledge, there is no previous work testing the
+application of prompt-based learning to simultaneously controlling both style
+and semantic accuracy in NLG.",2023-02-08
+Grounding Language Models to Images for Multimodal Generation,2023-01-31 18:33:44+00:00,http://arxiv.org/abs/2301.13823v1,"Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried","cs.CL, cs.AI, cs.CV, cs.LG",dialogue,"We propose an efficient method to ground pretrained text-only language models
+to the visual domain, enabling them to process and generate arbitrarily
+interleaved image-and-text data. Our method leverages the abilities of language
+models learnt from large scale text-only pretraining, such as in-context
+learning and free-form text generation. We keep the language model frozen, and
+finetune input and output linear layers to enable cross-modality interactions.
+This allows our model to process arbitrarily interleaved image-and-text inputs,
+and generate free-form text interleaved with retrieved images. We achieve
+strong zero-shot performance on grounded tasks such as contextual image
+retrieval and multimodal dialogue, and showcase compelling interactive
+abilities. Our approach works with any off-the-shelf language model and paves
+the way towards an effective, general solution for leveraging pretrained
+language models in visually grounded settings.",2023-01-31
+"Response-act Guided Reinforced Dialogue Generation for Mental Health
+  Counseling",2023-01-30 08:53:35+00:00,http://arxiv.org/abs/2301.12729v1,"Aseem Srivastava, Ishan Pandey, Md. Shad Akhtar, Tanmoy Chakraborty",cs.CL,dialogue,"Virtual Mental Health Assistants (VMHAs) have become a prevalent method for
+receiving mental health counseling in the digital healthcare space. An
+assistive counseling conversation commences with natural open-ended topics to
+familiarize the client with the environment and later converges into more
+fine-grained domain-specific topics. Unlike other conversational systems, which
+are categorized as open-domain or task-oriented systems, VMHAs possess a hybrid
+conversational flow. These counseling bots need to comprehend various aspects
+of the conversation, such as dialogue-acts, intents, etc., to engage the client
+in an effective conversation. Although the surge in digital health research
+highlights applications of many general-purpose response generation systems,
+they are barely suitable in the mental health domain -- the prime reason is the
+lack of understanding in mental health counseling. Moreover, in general,
+dialogue-act guided response generators are either limited to a template-based
+paradigm or lack appropriate semantics. To this end, we propose READER -- a
+REsponse-Act guided reinforced Dialogue genERation model for the mental health
+counseling conversations. READER is built on transformer to jointly predict a
+potential dialogue-act d(t+1) for the next utterance (aka response-act) and to
+generate an appropriate response u(t+1). Through the
+transformer-reinforcement-learning (TRL) with Proximal Policy Optimization
+(PPO), we guide the response generator to abide by d(t+1) and ensure the
+semantic richness of the responses via BERTScore in our reward computation. We
+evaluate READER on HOPE, a benchmark counseling conversation dataset and
+observe that it outperforms several baselines across several evaluation metrics
+-- METEOR, ROUGE, and BERTScore. We also furnish extensive qualitative and
+quantitative analyses on results, including error analysis, human evaluation,
+etc.",2023-01-30
 "NLP as a Lens for Causal Analysis and Perception Mining to Infer Mental
   Health on Social Media",2023-01-26 09:26:01+00:00,http://arxiv.org/abs/2301.11004v1,"Muskan Garg, Chandni Saxena, Usman Naseem, Bonnie J Dorr",cs.CL,dialogue,"Interactions among humans on social media often convey intentions behind
 their actions, yielding a psychological language resource for Mental Health

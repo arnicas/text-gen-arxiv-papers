@@ -1,4 +1,15 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Nationality Bias in Text Generation,2023-02-05 19:15:33+00:00,http://arxiv.org/abs/2302.02463v1,"Pranav Narayanan Venkit, Sanjana Gautam, Ruchi Panchanadikar, Ting-Hao, Huang, Shomir Wilson","cs.CL, cs.AI",story,"Little attention is placed on analyzing nationality bias in language models,
+especially when nationality is highly used as a factor in increasing the
+performance of social NLP models. This paper examines how a text generation
+model, GPT-2, accentuates pre-existing societal biases about country-based
+demonyms. We generate stories using GPT-2 for various nationalities and use
+sensitivity analysis to explore how the number of internet users and the
+country's economic status impacts the sentiment of the stories. To reduce the
+propagation of biases through large language models (LLM), we explore the
+debiasing method of adversarial triggering. Our results show that GPT-2
+demonstrates significant bias against countries with lower internet users, and
+adversarial triggering effectively reduces the same.",2023-02-05
 "Can Very Large Pretrained Language Models Learn Storytelling With A Few
   Examples?",2023-01-24 02:44:02+00:00,http://arxiv.org/abs/2301.09790v1,"Zhuohan Xie, Trevor Cohn, Jey Han Lau",cs.CL,story,"While pre-trained language models can generate individually fluent sentences
 for automatic story generation, they struggle to generate stories that are
