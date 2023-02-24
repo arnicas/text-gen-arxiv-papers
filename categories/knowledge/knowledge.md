@@ -7,10 +7,19 @@ sidebar:
 ---
 
 
-*written on 2023-02-09*
+*written on 2023-02-24*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [How Does In-Context Learning Help Prompt Tuning?](http://arxiv.org/abs/2302.11521v1) | Simeng Sun, Yang Liu, Dan Iter, Chenguang Zhu, Mohit Iyyer | cs.CL | 2023-02-22 |
+| [KILM: Knowledge Injection into Encoder-Decoder Language Models](http://arxiv.org/abs/2302.09170v1) | Yan Xu, Mahdi Namazifar, Devamanyu Hazarika, Aishwarya Padmakumar, Yang Liu, Dilek Hakkani-Tür | cs.CL, cs.AI | 2023-02-17 |
+| [Do We Still Need Clinical Language Models?](http://arxiv.org/abs/2302.08091v1) | Eric Lehman, Evan Hernandez, Diwakar Mahajan, Jonas Wulff, Micah J. Smith, Zachary Ziegler, Daniel Nadler, Peter Szolovits, Alistair Johnson, Emily Alsentzer | cs.CL | 2023-02-16 |
+| [Tree-Based Representation and Generation of Natural and Mathematical  Language](http://arxiv.org/abs/2302.07974v1) | Alexander Scarlatos, Andrew Lan | cs.CL | 2023-02-15 |
+| [Investigating the Effect of Relative Positional Embeddings on  AMR-to-Text Generation with Structural Adapters](http://arxiv.org/abs/2302.05900v1) | Sebastien Montella, Alexis Nasr, Johannes Heinecke, Frederic Bechet, Lina M. Rojas-Barahona | cs.CL | 2023-02-12 |
+| [TextDefense: Adversarial Text Detection based on Word Importance Entropy](http://arxiv.org/abs/2302.05892v1) | Lujia Shen, Xuhong Zhang, Shouling Ji, Yuwen Pu, Chunpeng Ge, Xing Yang, Yanghe Feng | cs.CL, cs.AI, cs.CR | 2023-02-12 |
+| [Re-ViLM: Retrieval-Augmented Visual Language Model for Zero and Few-Shot  Image Captioning](http://arxiv.org/abs/2302.04858v1) | Zhuolin Yang, Wei Ping, Zihan Liu, Vijay Korthikanti, Weili Nie, De-An Huang, Linxi Fan, Zhiding Yu, Shiyi Lan, Bo Li, Ming-Yu Liu, Yuke Zhu, Mohammad Shoeybi, Bryan Catanzaro, Chaowei Xiao, Anima Anandkumar | cs.CV, cs.AI, cs.CL, cs.IR, cs.LG | 2023-02-09 |
+| [Lightweight Transformers for Clinical Natural Language Processing](http://arxiv.org/abs/2302.04725v1) | Omid Rohanian, Mohammadmahdi Nouriborji, Hannah Jauncey, Samaneh Kouchaki, ISARIC Clinical Characterisation Group, Lei Clifton, Laura Merson, David A. Clifton | cs.CL, cs.AI, cs.LG, 68T50, I.2.7 | 2023-02-09 |
+| [Few-Shot Table-to-Text Generation with Prompt Planning and Knowledge  Memorization](http://arxiv.org/abs/2302.04415v1) | Zhixin Guo, Minyxuan Yan, Jiexing Qi, Jianping Zhou, Ziwei He, Zhouhan Lin, Guanjie Zheng, Xinbing Wang | cs.CL, cs.AI | 2023-02-09 |
 | [Auto-Learning: An Adversarial Process of Two Pre-trained Models for  Natural Language Generation](http://arxiv.org/abs/2302.03896v1) | Zhengqing Yuan, Yuelin Lu, Chao Zhang, Huiwen Xue | cs.CL | 2023-02-08 |
 | [Controlling Personality Style in Dialogue with Zero-Shot Prompt-Based  Learning](http://arxiv.org/abs/2302.03848v1) | Angela Ramirez, Mamon Alsalihy, Kartik Aggarwal, Cecilia Li, Liren Wu, Marilyn Walker | cs.CL | 2023-02-08 |
 | [Execution-based Code Generation using Deep Reinforcement Learning](http://arxiv.org/abs/2301.13816v1) | Parshin Shojaee, Aneesh Jain, Sindhu Tipirneni, Chandan K. Reddy | cs.LG, cs.AI, cs.CL, cs.PL | 2023-01-31 |

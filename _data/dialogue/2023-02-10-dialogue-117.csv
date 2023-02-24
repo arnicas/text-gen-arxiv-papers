@@ -1,4 +1,25 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"POSGen: Personalized Opening Sentence Generation for Online Insurance
+  Sales",2023-02-10 01:40:03+00:00,http://arxiv.org/abs/2302.06470v1,"Yu Li, Yi Zhang, Weijia Wu, Zimu Zhou, Qiang Li","cs.CL, Online Insurance Recommendation, Transfer Learning, Data-to-text
+  Generation",dialogue,"The insurance industry is shifting their sales mode from offline to online,
+in expectation to reach massive potential customers in the digitization era.
+Due to the complexity and the nature of insurance products, a cost-effective
+online sales solution is to exploit chatbot AI to raise customers' attention
+and pass those with interests to human agents for further sales. For high
+response and conversion rates of customers, it is crucial for the chatbot to
+initiate a conversation with personalized opening sentences, which are
+generated with user-specific topic selection and ordering. Such personalized
+opening sentence generation is challenging because (i) there are limited
+historical samples for conversation topic recommendation in online insurance
+sales and (ii) existing text generation schemes often fail to support
+customized topic ordering based on user preferences. We design POSGen, a
+personalized opening sentence generation scheme dedicated for online insurance
+sales. It transfers user embeddings learned from auxiliary online user
+behaviours to enhance conversation topic recommendation, and exploits a context
+management unit to arrange the recommended topics in user-specific ordering for
+opening sentence generation. POSGen is deployed on a real-world online
+insurance platform. It achieves 2.33x total insurance premium improvement
+through a two-month global test.",2023-02-10
 "Controlling Personality Style in Dialogue with Zero-Shot Prompt-Based
   Learning",2023-02-08 02:45:21+00:00,http://arxiv.org/abs/2302.03848v1,"Angela Ramirez, Mamon Alsalihy, Kartik Aggarwal, Cecilia Li, Liren Wu, Marilyn Walker",cs.CL,dialogue,"Prompt-based or in-context learning has achieved high zero-shot performance
 on many natural language generation (NLG) tasks. Here we explore the

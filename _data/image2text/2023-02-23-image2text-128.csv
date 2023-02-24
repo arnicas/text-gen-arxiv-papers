@@ -1,4 +1,102 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Improved Training of Mixture-of-Experts Language GANs,2023-02-23 09:25:46+00:00,http://arxiv.org/abs/2302.11875v1,"Yekun Chai, Qiyue Yin, Junge Zhang",cs.CL,image2text,"Despite the dramatic success in image generation, Generative Adversarial
+Networks (GANs) still face great challenges in synthesizing sequences of
+discrete elements, in particular human language. The difficulty in generator
+training arises from the limited representation capacity and uninformative
+learning signals obtained from the discriminator. In this work, we (1) first
+empirically show that the mixture-of-experts approach is able to enhance the
+representation capacity of the generator for language GANs and (2) harness the
+Feature Statistics Alignment (FSA) paradigm to render fine-grained learning
+signals to advance the generator training. Specifically, FSA forces the mean
+statistics of the distribution of fake data to approach that of real samples as
+close as possible in the finite-dimensional feature space. Empirical study on
+synthetic and real benchmarks shows the superior performance in quantitative
+evaluation and demonstrates the effectiveness of our approach to adversarial
+text generation.",2023-02-23
+Improving User Controlled Table-To-Text Generation Robustness,2023-02-20 07:51:15+00:00,http://arxiv.org/abs/2302.09820v1,"Hanxu Hu, Yunqing Liu, Zhongyi Yu, Laura Perez-Beltrachini",cs.CL,image2text,"In this work we study user controlled table-to-text generation where users
+explore the content in a table by selecting cells and reading a natural
+language description thereof automatically produce by a natural language
+generator. Such generation models usually learn from carefully selected cell
+combinations (clean cell selections); however, in practice users may select
+unexpected, redundant, or incoherent cell combinations (noisy cell selections).
+In experiments, we find that models perform well on test sets coming from the
+same distribution as the train data but their performance drops when evaluated
+on realistic noisy user inputs. We propose a fine-tuning regime with additional
+user-simulated noisy cell selections. Models fine-tuned with the proposed
+regime gain 4.85 BLEU points on user noisy test cases and 1.4 on clean test
+cases; and achieve comparable state-of-the-art performance on the ToTTo
+dataset.",2023-02-20
+Large Scale Multi-Lingual Multi-Modal Summarization Dataset,2023-02-13 18:00:23+00:00,http://arxiv.org/abs/2302.06560v1,"Yash Verma, Anubhav Jangra, Raghvendra Kumar, Sriparna Saha","cs.CL, cs.MM",image2text,"Significant developments in techniques such as encoder-decoder models have
+enabled us to represent information comprising multiple modalities. This
+information can further enhance many downstream tasks in the field of
+information retrieval and natural language processing; however, improvements in
+multi-modal techniques and their performance evaluation require large-scale
+multi-modal data which offers sufficient diversity. Multi-lingual modeling for
+a variety of tasks like multi-modal summarization, text generation, and
+translation leverages information derived from high-quality multi-lingual
+annotated data. In this work, we present the current largest multi-lingual
+multi-modal summarization dataset (M3LS), and it consists of over a million
+instances of document-image pairs along with a professionally annotated
+multi-modal summary for each pair. It is derived from news articles published
+by British Broadcasting Corporation(BBC) over a decade and spans 20 languages,
+targeting diversity across five language roots, it is also the largest
+summarization dataset for 13 languages and consists of cross-lingual
+summarization data for 2 languages. We formally define the multi-lingual
+multi-modal summarization task utilizing our dataset and report baseline scores
+from various state-of-the-art summarization techniques in a multi-lingual
+setting. We also compare it with many similar datasets to analyze the
+uniqueness and difficulty of M3LS.",2023-02-13
+Plan-then-Seam: Towards Efficient Table-to-Text Generation,2023-02-10 09:43:15+00:00,http://arxiv.org/abs/2302.05138v1,"Liang Li, Ruiying Geng, Chengyang Fang, Bing Li, Can Ma, Binhua Li, Yongbin Li",cs.CL,image2text,"Table-to-text generation aims at automatically generating text to help people
+conveniently obtain salient information in tables. Recent works explicitly
+decompose the generation process into content planning and surface generation
+stages, employing two autoregressive networks for them respectively. However,
+they are computationally expensive due to the non-parallelizable nature of
+autoregressive decoding and the redundant parameters of two networks. In this
+paper, we propose the first totally non-autoregressive table-to-text model
+(Plan-then-Seam, PTS) that produces its outputs in parallel with one single
+network. PTS firstly writes and calibrates one plan of the content to be
+generated with a novel rethinking pointer predictor, and then takes the plan as
+the context for seaming to decode the description. These two steps share
+parameters and perform iteratively to capture token inter-dependency while
+keeping parallel decoding. Experiments on two public benchmarks show that PTS
+achieves 3.0~5.6 times speedup for inference time, reducing 50% parameters,
+while maintaining as least comparable performance against strong two-stage
+table-to-text competitors.",2023-02-10
+"Re-ViLM: Retrieval-Augmented Visual Language Model for Zero and Few-Shot
+  Image Captioning",2023-02-09 18:57:56+00:00,http://arxiv.org/abs/2302.04858v1,"Zhuolin Yang, Wei Ping, Zihan Liu, Vijay Korthikanti, Weili Nie, De-An Huang, Linxi Fan, Zhiding Yu, Shiyi Lan, Bo Li, Ming-Yu Liu, Yuke Zhu, Mohammad Shoeybi, Bryan Catanzaro, Chaowei Xiao, Anima Anandkumar","cs.CV, cs.AI, cs.CL, cs.IR, cs.LG",image2text,"Augmenting pretrained language models (LMs) with a vision encoder (e.g.,
+Flamingo) has obtained state-of-the-art results in image-to-text generation.
+However, these models store all the knowledge within their parameters, thus
+often requiring enormous model parameters to model the abundant visual concepts
+and very rich textual descriptions. Additionally, they are inefficient in
+incorporating new data, requiring a computational-expensive fine-tuning
+process. In this work, we introduce a Retrieval-augmented Visual Language
+Model, Re-ViLM, built upon the Flamingo, that supports retrieving the relevant
+knowledge from the external database for zero and in-context few-shot
+image-to-text generations. By storing certain knowledge explicitly in the
+external database, our approach reduces the number of model parameters and can
+easily accommodate new data during evaluation by simply updating the database.
+We also construct an interleaved image and text data that facilitates
+in-context few-shot learning capabilities. We demonstrate that Re-ViLM
+significantly boosts performance for image-to-text generation tasks, especially
+for zero-shot and few-shot generation in out-of-domain settings with 4 times
+less parameters compared with baseline methods.",2023-02-09
+"Few-Shot Table-to-Text Generation with Prompt Planning and Knowledge
+  Memorization",2023-02-09 03:04:11+00:00,http://arxiv.org/abs/2302.04415v1,"Zhixin Guo, Minyxuan Yan, Jiexing Qi, Jianping Zhou, Ziwei He, Zhouhan Lin, Guanjie Zheng, Xinbing Wang","cs.CL, cs.AI",image2text,"Pre-trained language models (PLM) have achieved remarkable advancement in
+table-to-text generation tasks. However, the lack of labeled domain-specific
+knowledge and the topology gap between tabular data and text make it difficult
+for PLMs to yield faithful text. Low-resource generation likewise faces unique
+challenges in this domain. Inspired by how humans descript tabular data with
+prior knowledge, we suggest a new framework: PromptMize, which targets
+table-to-text generation under few-shot settings. The design of our framework
+consists of two aspects: a prompt planner and a knowledge adapter. The prompt
+planner aims to generate a prompt signal that provides instance guidance for
+PLMs to bridge the topology gap between tabular data and text. Moreover, the
+knowledge adapter memorizes domain-specific knowledge from the unlabelled
+corpus to supply essential information during generation. Extensive experiments
+and analyses are investigated on three open domain few-shot NLG datasets:
+human, song, and book. Compared with previous state-of-the-art approaches, our
+model achieves remarkable performance in generating quality as judged by human
+and automatic evaluations.",2023-02-09
 Adversarial Prompting for Black Box Foundation Models,2023-02-08 18:07:31+00:00,http://arxiv.org/abs/2302.04237v1,"Natalie Maus, Patrick Chao, Eric Wong, Jacob Gardner",cs.LG,image2text,"Prompting interfaces allow users to quickly adjust the output of generative
 models in both vision and language. However, small changes and design choices
 in the prompt can lead to significant differences in the output. In this work,

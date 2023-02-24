@@ -7,10 +7,16 @@ sidebar:
 ---
 
 
-*written on 2023-02-09*
+*written on 2023-02-24*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Improved Training of Mixture-of-Experts Language GANs](http://arxiv.org/abs/2302.11875v1) | Yekun Chai, Qiyue Yin, Junge Zhang | cs.CL | 2023-02-23 |
+| [Improving User Controlled Table-To-Text Generation Robustness](http://arxiv.org/abs/2302.09820v1) | Hanxu Hu, Yunqing Liu, Zhongyi Yu, Laura Perez-Beltrachini | cs.CL | 2023-02-20 |
+| [Large Scale Multi-Lingual Multi-Modal Summarization Dataset](http://arxiv.org/abs/2302.06560v1) | Yash Verma, Anubhav Jangra, Raghvendra Kumar, Sriparna Saha | cs.CL, cs.MM | 2023-02-13 |
+| [Plan-then-Seam: Towards Efficient Table-to-Text Generation](http://arxiv.org/abs/2302.05138v1) | Liang Li, Ruiying Geng, Chengyang Fang, Bing Li, Can Ma, Binhua Li, Yongbin Li | cs.CL | 2023-02-10 |
+| [Re-ViLM: Retrieval-Augmented Visual Language Model for Zero and Few-Shot  Image Captioning](http://arxiv.org/abs/2302.04858v1) | Zhuolin Yang, Wei Ping, Zihan Liu, Vijay Korthikanti, Weili Nie, De-An Huang, Linxi Fan, Zhiding Yu, Shiyi Lan, Bo Li, Ming-Yu Liu, Yuke Zhu, Mohammad Shoeybi, Bryan Catanzaro, Chaowei Xiao, Anima Anandkumar | cs.CV, cs.AI, cs.CL, cs.IR, cs.LG | 2023-02-09 |
+| [Few-Shot Table-to-Text Generation with Prompt Planning and Knowledge  Memorization](http://arxiv.org/abs/2302.04415v1) | Zhixin Guo, Minyxuan Yan, Jiexing Qi, Jianping Zhou, Ziwei He, Zhouhan Lin, Guanjie Zheng, Xinbing Wang | cs.CL, cs.AI | 2023-02-09 |
 | [Adversarial Prompting for Black Box Foundation Models](http://arxiv.org/abs/2302.04237v1) | Natalie Maus, Patrick Chao, Eric Wong, Jacob Gardner | cs.LG | 2023-02-08 |
 | [GPTScore: Evaluate as You Desire](http://arxiv.org/abs/2302.04166v1) | Jinlan Fu, See-Kiong Ng, Zhengbao Jiang, Pengfei Liu | cs.CL | 2023-02-08 |
 | [Grounding Language Models to Images for Multimodal Generation](http://arxiv.org/abs/2301.13823v1) | Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried | cs.CL, cs.AI, cs.CV, cs.LG | 2023-01-31 |

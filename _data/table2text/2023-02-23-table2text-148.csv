@@ -1,4 +1,188 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Improved Training of Mixture-of-Experts Language GANs,2023-02-23 09:25:46+00:00,http://arxiv.org/abs/2302.11875v1,"Yekun Chai, Qiyue Yin, Junge Zhang",cs.CL,table2text,"Despite the dramatic success in image generation, Generative Adversarial
+Networks (GANs) still face great challenges in synthesizing sequences of
+discrete elements, in particular human language. The difficulty in generator
+training arises from the limited representation capacity and uninformative
+learning signals obtained from the discriminator. In this work, we (1) first
+empirically show that the mixture-of-experts approach is able to enhance the
+representation capacity of the generator for language GANs and (2) harness the
+Feature Statistics Alignment (FSA) paradigm to render fine-grained learning
+signals to advance the generator training. Specifically, FSA forces the mean
+statistics of the distribution of fake data to approach that of real samples as
+close as possible in the finite-dimensional feature space. Empirical study on
+synthetic and real benchmarks shows the superior performance in quantitative
+evaluation and demonstrates the effectiveness of our approach to adversarial
+text generation.",2023-02-23
+Improving User Controlled Table-To-Text Generation Robustness,2023-02-20 07:51:15+00:00,http://arxiv.org/abs/2302.09820v1,"Hanxu Hu, Yunqing Liu, Zhongyi Yu, Laura Perez-Beltrachini",cs.CL,table2text,"In this work we study user controlled table-to-text generation where users
+explore the content in a table by selecting cells and reading a natural
+language description thereof automatically produce by a natural language
+generator. Such generation models usually learn from carefully selected cell
+combinations (clean cell selections); however, in practice users may select
+unexpected, redundant, or incoherent cell combinations (noisy cell selections).
+In experiments, we find that models perform well on test sets coming from the
+same distribution as the train data but their performance drops when evaluated
+on realistic noisy user inputs. We propose a fine-tuning regime with additional
+user-simulated noisy cell selections. Models fine-tuned with the proposed
+regime gain 4.85 BLEU points on user noisy test cases and 1.4 on clean test
+cases; and achieve comparable state-of-the-art performance on the ToTTo
+dataset.",2023-02-20
+Do We Still Need Clinical Language Models?,2023-02-16 05:08:34+00:00,http://arxiv.org/abs/2302.08091v1,"Eric Lehman, Evan Hernandez, Diwakar Mahajan, Jonas Wulff, Micah J. Smith, Zachary Ziegler, Daniel Nadler, Peter Szolovits, Alistair Johnson, Emily Alsentzer",cs.CL,table2text,"Although recent advances in scaling large language models (LLMs) have
+resulted in improvements on many NLP tasks, it remains unclear whether these
+models trained primarily with general web text are the right tool in highly
+specialized, safety critical domains such as clinical text. Recent results have
+suggested that LLMs encode a surprising amount of medical knowledge. This
+raises an important question regarding the utility of smaller domain-specific
+language models. With the success of general-domain LLMs, is there still a need
+for specialized clinical models? To investigate this question, we conduct an
+extensive empirical analysis of 12 language models, ranging from 220M to 175B
+parameters, measuring their performance on 3 different clinical tasks that test
+their ability to parse and reason over electronic health records. As part of
+our experiments, we train T5-Base and T5-Large models from scratch on clinical
+notes from MIMIC III and IV to directly investigate the efficiency of clinical
+tokens. We show that relatively small specialized clinical models substantially
+outperform all in-context learning approaches, even when finetuned on limited
+annotated data. Further, we find that pretraining on clinical tokens allows for
+smaller, more parameter-efficient models that either match or outperform much
+larger language models trained on general text. We release the code and the
+models used under the PhysioNet Credentialed Health Data license and data use
+agreement.",2023-02-16
+"Tree-Based Representation and Generation of Natural and Mathematical
+  Language",2023-02-15 22:38:34+00:00,http://arxiv.org/abs/2302.07974v1,"Alexander Scarlatos, Andrew Lan",cs.CL,table2text,"Mathematical language in scientific communications and educational scenarios
+is important yet relatively understudied compared to natural languages. Recent
+works on mathematical language focus either on representing stand-alone
+mathematical expressions, especially in their natural tree format, or
+mathematical reasoning in pre-trained natural language models. Existing works
+on jointly modeling and generating natural and mathematical languages simply
+treat mathematical expressions as text, without accounting for the rigid
+structural properties of mathematical expressions. In this paper, we propose a
+series of modifications to existing language models to jointly represent and
+generate text and math: representing mathematical expressions as sequences of
+node tokens in their operator tree format, using math symbol and tree position
+embeddings to preserve the semantic and structural properties of mathematical
+expressions, and using a constrained decoding method to generate mathematically
+valid expressions. We ground our modifications in GPT-2, resulting in a model
+MathGPT, and demonstrate that it outperforms baselines on mathematical
+expression generation tasks.",2023-02-15
+"AutoBiasTest: Controllable Sentence Generation for Automated and
+  Open-Ended Social Bias Testing in Language Models",2023-02-14 22:07:57+00:00,http://arxiv.org/abs/2302.07371v1,"Rafal Kocielnik, Shrimai Prabhumoye, Vivian Zhang, R. Michael Alvarez, Anima Anandkumar","cs.CL, cs.CY, 68T50, I.2.7; J.5; K.4.1",table2text,"Social bias in Pretrained Language Models (PLMs) affects text generation and
+other downstream NLP tasks. Existing bias testing methods rely predominantly on
+manual templates or on expensive crowd-sourced data. We propose a novel
+AutoBiasTest method that automatically generates sentences for testing bias in
+PLMs, hence providing a flexible and low-cost alternative. Our approach uses
+another PLM for generation and controls the generation of sentences by
+conditioning on social group and attribute terms. We show that generated
+sentences are natural and similar to human-produced content in terms of word
+length and diversity. We illustrate that larger models used for generation
+produce estimates of social bias with lower variance. We find that our bias
+scores are well correlated with manual templates, but AutoBiasTest highlights
+biases not captured by these templates due to more diverse and realistic test
+sentences. By automating large-scale test sentence generation, we enable better
+estimation of underlying bias distributions",2023-02-14
+Large Scale Multi-Lingual Multi-Modal Summarization Dataset,2023-02-13 18:00:23+00:00,http://arxiv.org/abs/2302.06560v1,"Yash Verma, Anubhav Jangra, Raghvendra Kumar, Sriparna Saha","cs.CL, cs.MM",table2text,"Significant developments in techniques such as encoder-decoder models have
+enabled us to represent information comprising multiple modalities. This
+information can further enhance many downstream tasks in the field of
+information retrieval and natural language processing; however, improvements in
+multi-modal techniques and their performance evaluation require large-scale
+multi-modal data which offers sufficient diversity. Multi-lingual modeling for
+a variety of tasks like multi-modal summarization, text generation, and
+translation leverages information derived from high-quality multi-lingual
+annotated data. In this work, we present the current largest multi-lingual
+multi-modal summarization dataset (M3LS), and it consists of over a million
+instances of document-image pairs along with a professionally annotated
+multi-modal summary for each pair. It is derived from news articles published
+by British Broadcasting Corporation(BBC) over a decade and spans 20 languages,
+targeting diversity across five language roots, it is also the largest
+summarization dataset for 13 languages and consists of cross-lingual
+summarization data for 2 languages. We formally define the multi-lingual
+multi-modal summarization task utilizing our dataset and report baseline scores
+from various state-of-the-art summarization techniques in a multi-lingual
+setting. We also compare it with many similar datasets to analyze the
+uniqueness and difficulty of M3LS.",2023-02-13
+"Combined Location Online Weather Data: Easy-to-use Targeted Weather
+  Analysis for Agriculture",2023-02-13 07:03:53+00:00,http://arxiv.org/abs/2302.06142v1,"Darren Yates, Christopher Blanchard, Allister Clarke, Sabih-Ur Rehman, Md Zahidul Islam, Russell Ford, Rob Walsh","cs.SI, J.2",table2text,"The continuing effects of climate change require farmers and growers to have
+greater understanding of how these changes affect crop production. However,
+while climatic data is generally available to help provide much of that
+understanding, it can often be in a form not easy to digest. The proposed
+Combined Location Online Weather Data (CLOWD) framework is an easy-to-use
+online platform for analysing recent and historical weather data of any
+location within Australia at the click of a map. CLOWD requires no programming
+skills and operates in any HTML5 web browser on PC and mobile devices. It
+enables comparison between current and previous growing seasons over a range of
+environmental parameters, and can create a plain-English PDF report for offline
+use, using natural language generation (NLG). This paper details the platform,
+the design decisions taken and outlines how farmers and growers can use CLOWD
+to better understand current growing conditions. Prototypes of CLOWD are now
+online for PCs and smartphones.",2023-02-13
+"Investigating the Effect of Relative Positional Embeddings on
+  AMR-to-Text Generation with Structural Adapters",2023-02-12 12:43:36+00:00,http://arxiv.org/abs/2302.05900v1,"Sebastien Montella, Alexis Nasr, Johannes Heinecke, Frederic Bechet, Lina M. Rojas-Barahona",cs.CL,table2text,"Text generation from Abstract Meaning Representation (AMR) has substantially
+benefited from the popularized Pretrained Language Models (PLMs). Myriad
+approaches have linearized the input graph as a sequence of tokens to fit the
+PLM tokenization requirements. Nevertheless, this transformation jeopardizes
+the structural integrity of the graph and is therefore detrimental to its
+resulting representation. To overcome this issue, Ribeiro et al. have recently
+proposed StructAdapt, a structure-aware adapter which injects the input graph
+connectivity within PLMs using Graph Neural Networks (GNNs). In this paper, we
+investigate the influence of Relative Position Embeddings (RPE) on AMR-to-Text,
+and, in parallel, we examine the robustness of StructAdapt. Through ablation
+studies, graph attack and link prediction, we reveal that RPE might be
+partially encoding input graphs. We suggest further research regarding the role
+of RPE will provide valuable insights for Graph-to-Text generation.",2023-02-12
+Plan-then-Seam: Towards Efficient Table-to-Text Generation,2023-02-10 09:43:15+00:00,http://arxiv.org/abs/2302.05138v1,"Liang Li, Ruiying Geng, Chengyang Fang, Bing Li, Can Ma, Binhua Li, Yongbin Li",cs.CL,table2text,"Table-to-text generation aims at automatically generating text to help people
+conveniently obtain salient information in tables. Recent works explicitly
+decompose the generation process into content planning and surface generation
+stages, employing two autoregressive networks for them respectively. However,
+they are computationally expensive due to the non-parallelizable nature of
+autoregressive decoding and the redundant parameters of two networks. In this
+paper, we propose the first totally non-autoregressive table-to-text model
+(Plan-then-Seam, PTS) that produces its outputs in parallel with one single
+network. PTS firstly writes and calibrates one plan of the content to be
+generated with a novel rethinking pointer predictor, and then takes the plan as
+the context for seaming to decode the description. These two steps share
+parameters and perform iteratively to capture token inter-dependency while
+keeping parallel decoding. Experiments on two public benchmarks show that PTS
+achieves 3.0~5.6 times speedup for inference time, reducing 50% parameters,
+while maintaining as least comparable performance against strong two-stage
+table-to-text competitors.",2023-02-10
+"Re-ViLM: Retrieval-Augmented Visual Language Model for Zero and Few-Shot
+  Image Captioning",2023-02-09 18:57:56+00:00,http://arxiv.org/abs/2302.04858v1,"Zhuolin Yang, Wei Ping, Zihan Liu, Vijay Korthikanti, Weili Nie, De-An Huang, Linxi Fan, Zhiding Yu, Shiyi Lan, Bo Li, Ming-Yu Liu, Yuke Zhu, Mohammad Shoeybi, Bryan Catanzaro, Chaowei Xiao, Anima Anandkumar","cs.CV, cs.AI, cs.CL, cs.IR, cs.LG",table2text,"Augmenting pretrained language models (LMs) with a vision encoder (e.g.,
+Flamingo) has obtained state-of-the-art results in image-to-text generation.
+However, these models store all the knowledge within their parameters, thus
+often requiring enormous model parameters to model the abundant visual concepts
+and very rich textual descriptions. Additionally, they are inefficient in
+incorporating new data, requiring a computational-expensive fine-tuning
+process. In this work, we introduce a Retrieval-augmented Visual Language
+Model, Re-ViLM, built upon the Flamingo, that supports retrieving the relevant
+knowledge from the external database for zero and in-context few-shot
+image-to-text generations. By storing certain knowledge explicitly in the
+external database, our approach reduces the number of model parameters and can
+easily accommodate new data during evaluation by simply updating the database.
+We also construct an interleaved image and text data that facilitates
+in-context few-shot learning capabilities. We demonstrate that Re-ViLM
+significantly boosts performance for image-to-text generation tasks, especially
+for zero-shot and few-shot generation in out-of-domain settings with 4 times
+less parameters compared with baseline methods.",2023-02-09
+Lightweight Transformers for Clinical Natural Language Processing,2023-02-09 16:07:31+00:00,http://arxiv.org/abs/2302.04725v1,"Omid Rohanian, Mohammadmahdi Nouriborji, Hannah Jauncey, Samaneh Kouchaki, ISARIC Clinical Characterisation Group, Lei Clifton, Laura Merson, David A. Clifton","cs.CL, cs.AI, cs.LG, 68T50, I.2.7",table2text,"Specialised pre-trained language models are becoming more frequent in NLP
+since they can potentially outperform models trained on generic texts. BioBERT
+and BioClinicalBERT are two examples of such models that have shown promise in
+medical NLP tasks. Many of these models are overparametrised and
+resource-intensive, but thanks to techniques like Knowledge Distillation (KD),
+it is possible to create smaller versions that perform almost as well as their
+larger counterparts. In this work, we specifically focus on development of
+compact language models for processing clinical texts (i.e. progress notes,
+discharge summaries etc). We developed a number of efficient lightweight
+clinical transformers using knowledge distillation and continual learning, with
+the number of parameters ranging from 15 million to 65 million. These models
+performed comparably to larger models such as BioBERT and ClinicalBioBERT and
+significantly outperformed other compact models trained on general or
+biomedical data. Our extensive evaluation was done across several standard
+datasets and covered a wide range of clinical text-mining tasks, including
+Natural Language Inference, Relation Extraction, Named Entity Recognition, and
+Sequence Classification. To our knowledge, this is the first comprehensive
+study specifically focused on creating efficient and compact transformers for
+clinical NLP tasks. The models and code used in this study can be found on our
+Huggingface profile at https://huggingface.co/nlpie and Github page at
+https://github.com/nlpie-research/Lightweight-Clinical-Transformers,
+respectively, promoting reproducibility of our results.",2023-02-09
 "Auto-Learning: An Adversarial Process of Two Pre-trained Models for
   Natural Language Generation",2023-02-08 06:09:55+00:00,http://arxiv.org/abs/2302.03896v1,"Zhengqing Yuan, Yuelin Lu, Chao Zhang, Huiwen Xue",cs.CL,table2text,"Pre-trained models have been used in many fields in recent years, ranging
 from natural language understanding to computer vision and natural language

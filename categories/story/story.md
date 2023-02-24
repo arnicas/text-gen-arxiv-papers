@@ -7,10 +7,17 @@ sidebar:
 ---
 
 
-*written on 2023-02-09*
+*written on 2023-02-24*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [A Plot is Worth a Thousand Words: Model Information Stealing Attacks via  Scientific Plots](http://arxiv.org/abs/2302.11982v1) | Boyang Zhang, Xinlei He, Yun Shen, Tianhao Wang, Yang Zhang | cs.CR, cs.LG | 2023-02-23 |
+| [Conveying the Predicted Future to Users: A Case Study of Story Plot  Prediction](http://arxiv.org/abs/2302.09122v1) | Chieh-Yang Huang, Saniya Naphade, Kavya Laalasa Karanam, Ting-Hao 'Kenneth' Huang | cs.CL, cs.HC | 2023-02-17 |
+| [Foundation Models for Natural Language Processing -- Pre-trained  Language Models Integrating Media](http://arxiv.org/abs/2302.08575v1) | Gerhard Paaß, Sven Giesselbach | cs.CL, cs.CV, cs.LG, cs.MM, 68W20, 68W25, I.2.6; I.2.7; I.2.8; I.2.10; I.4.8; I.4.10; I.5.2; I.5.4; I.7.0;
+  J.1; J.3; K.4.1; K.4.2; K.5.0 | 2023-02-16 |
+| [The Stable Entropy Hypothesis and Entropy-Aware Decoding: An Analysis  and Algorithm for Robust Natural Language Generation](http://arxiv.org/abs/2302.06784v1) | Kushal Arora, Timothy J. O'Donnell, Doina Precup, Jason Weston, Jackie C. K. Cheung | cs.CL | 2023-02-14 |
+| ["Nice to meet you!": Expressing Emotions with Movement Gestures and  Textual Content in Automatic Handwriting Robots](http://arxiv.org/abs/2302.05959v1) | Yanheng Li, Lin Luoying, Xinyan Li, Yaxuan Mao, Ray Lc | cs.HC, cs.RO | 2023-02-12 |
+| [Level Generation Through Large Language Models](http://arxiv.org/abs/2302.05817v1) | Graham Todd, Sam Earle, Muhammad Umair Nasir, Michael Cerny Green, Julian Togelius | cs.AI, cs.CL, cs.NE | 2023-02-11 |
 | [Nationality Bias in Text Generation](http://arxiv.org/abs/2302.02463v1) | Pranav Narayanan Venkit, Sanjana Gautam, Ruchi Panchanadikar, Ting-Hao, Huang, Shomir Wilson | cs.CL, cs.AI | 2023-02-05 |
 | [Can Very Large Pretrained Language Models Learn Storytelling With A Few  Examples?](http://arxiv.org/abs/2301.09790v1) | Zhuohan Xie, Trevor Cohn, Jey Han Lau | cs.CL | 2023-01-24 |
 | [Visual Writing Prompts: Character-Grounded Story Generation with Curated  Image Sequences](http://arxiv.org/abs/2301.08571v1) | Xudong Hong, Asad Sayeed, Khushboo Mehra, Vera Demberg, Bernt Schiele | cs.CL, cs.CV, cs.LG | 2023-01-20 |

@@ -1,4 +1,112 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"A Plot is Worth a Thousand Words: Model Information Stealing Attacks via
+  Scientific Plots",2023-02-23 12:57:34+00:00,http://arxiv.org/abs/2302.11982v1,"Boyang Zhang, Xinlei He, Yun Shen, Tianhao Wang, Yang Zhang","cs.CR, cs.LG",story,"Building advanced machine learning (ML) models requires expert knowledge and
+many trials to discover the best architecture and hyperparameter settings.
+Previous work demonstrates that model information can be leveraged to assist
+other attacks, such as membership inference, generating adversarial examples.
+Therefore, such information, e.g., hyperparameters, should be kept
+confidential. It is well known that an adversary can leverage a target ML
+model's output to steal the model's information. In this paper, we discover a
+new side channel for model information stealing attacks, i.e., models'
+scientific plots which are extensively used to demonstrate model performance
+and are easily accessible. Our attack is simple and straightforward. We
+leverage the shadow model training techniques to generate training data for the
+attack model which is essentially an image classifier. Extensive evaluation on
+three benchmark datasets shows that our proposed attack can effectively infer
+the architecture/hyperparameters of image classifiers based on convolutional
+neural network (CNN) given the scientific plot generated from it. We also
+reveal that the attack's success is mainly caused by the shape of the
+scientific plots, and further demonstrate that the attacks are robust in
+various scenarios. Given the simplicity and effectiveness of the attack method,
+our study indicates scientific plots indeed constitute a valid side channel for
+model information stealing attacks. To mitigate the attacks, we propose several
+defense mechanisms that can reduce the original attacks' accuracy while
+maintaining the plot utility. However, such defenses can still be bypassed by
+adaptive attacks.",2023-02-23
+"Conveying the Predicted Future to Users: A Case Study of Story Plot
+  Prediction",2023-02-17 20:10:55+00:00,http://arxiv.org/abs/2302.09122v1,"Chieh-Yang Huang, Saniya Naphade, Kavya Laalasa Karanam, Ting-Hao 'Kenneth' Huang","cs.CL, cs.HC",story,"Creative writing is hard: Novelists struggle with writer's block daily. While
+automatic story generation has advanced recently, it is treated as a ""toy task""
+for advancing artificial intelligence rather than helping people. In this
+paper, we create a system that produces a short description that narrates a
+predicted plot using existing story generation approaches. Our goal is to
+assist writers in crafting a consistent and compelling story arc. We conducted
+experiments on Amazon Mechanical Turk (AMT) to examine the quality of the
+generated story plots in terms of consistency and storiability. The results
+show that short descriptions produced by our frame-enhanced GPT-2 (FGPT-2) were
+rated as the most consistent and storiable among all models; FGPT-2's outputs
+even beat some random story snippets written by humans. Next, we conducted a
+preliminary user study using a story continuation task where AMT workers were
+given access to machine-generated story plots and asked to write a follow-up
+story. FGPT-2 could positively affect the writing process, though people favor
+other baselines more. Our study shed some light on the possibilities of future
+creative writing support systems beyond the scope of completing sentences. Our
+code is available at: https://github.com/appleternity/Story-Plot-Generation.",2023-02-17
+"Foundation Models for Natural Language Processing -- Pre-trained
+  Language Models Integrating Media",2023-02-16 20:42:04+00:00,http://arxiv.org/abs/2302.08575v1,"Gerhard Paaß, Sven Giesselbach","cs.CL, cs.CV, cs.LG, cs.MM, 68W20, 68W25, I.2.6; I.2.7; I.2.8; I.2.10; I.4.8; I.4.10; I.5.2; I.5.4; I.7.0;
+  J.1; J.3; K.4.1; K.4.2; K.5.0",story,"This open access book provides a comprehensive overview of the state of the
+art in research and applications of Foundation Models and is intended for
+readers familiar with basic Natural Language Processing (NLP) concepts. Over
+the recent years, a revolutionary new paradigm has been developed for training
+models for NLP. These models are first pre-trained on large collections of text
+documents to acquire general syntactic knowledge and semantic information.
+Then, they are fine-tuned for specific tasks, which they can often solve with
+superhuman accuracy. When the models are large enough, they can be instructed
+by prompts to solve new tasks without any fine-tuning. Moreover, they can be
+applied to a wide range of different media and problem domains, ranging from
+image and video processing to robot control learning. Because they provide a
+blueprint for solving many tasks in artificial intelligence, they have been
+called Foundation Models. After a brief introduction to basic NLP models the
+main pre-trained language models BERT, GPT and sequence-to-sequence transformer
+are described, as well as the concepts of self-attention and context-sensitive
+embedding. Then, different approaches to improving these models are discussed,
+such as expanding the pre-training criteria, increasing the length of input
+texts, or including extra knowledge. An overview of the best-performing models
+for about twenty application areas is then presented, e.g., question answering,
+translation, story generation, dialog systems, generating images from text,
+etc. For each application area, the strengths and weaknesses of current models
+are discussed, and an outlook on further developments is given. In addition,
+links are provided to freely available program code. A concluding chapter
+summarizes the economic opportunities, mitigation of risks, and potential
+developments of AI.",2023-02-16
+"The Stable Entropy Hypothesis and Entropy-Aware Decoding: An Analysis
+  and Algorithm for Robust Natural Language Generation",2023-02-14 02:02:33+00:00,http://arxiv.org/abs/2302.06784v1,"Kushal Arora, Timothy J. O'Donnell, Doina Precup, Jason Weston, Jackie C. K. Cheung",cs.CL,story,"State-of-the-art language generation models can degenerate when applied to
+open-ended generation problems such as text completion, story generation, or
+dialog modeling. This degeneration usually shows up in the form of incoherence,
+lack of vocabulary diversity, and self-repetition or copying from the context.
+In this paper, we postulate that ``human-like'' generations usually lie in a
+narrow and nearly flat entropy band, and violation of these entropy bounds
+correlates with degenerate behavior. Our experiments show that this stable
+narrow entropy zone exists across models, tasks, and domains and confirm the
+hypothesis that violations of this zone correlate with degeneration. We then
+use this insight to propose an entropy-aware decoding algorithm that respects
+these entropy bounds resulting in less degenerate, more contextual, and
+""human-like"" language generation in open-ended text generation settings.",2023-02-14
+"""Nice to meet you!"": Expressing Emotions with Movement Gestures and
+  Textual Content in Automatic Handwriting Robots",2023-02-12 17:13:25+00:00,http://arxiv.org/abs/2302.05959v1,"Yanheng Li, Lin Luoying, Xinyan Li, Yaxuan Mao, Ray Lc","cs.HC, cs.RO",story,"Text-writing robots have been used in assistive writing and drawing
+applications. However, robots do not convey emotional tones in the writing
+process due to the lack of behaviors humans typically adopt. To examine how
+people interpret designed robotic expressions of emotion through both movements
+and textual output, we used a pen-plotting robot to generate texts by
+performing human-like behaviors like stop-and-go, speed, and pressure
+variation. We examined how people convey emotion in the writing process by
+observing how they wrote in different emotional contexts. We then mapped these
+human expressions during writing to the handwriting robot and measured how well
+other participants understood the robot's affective expression. We found that
+textual output was the strongest determinant of participants' ability to
+perceive the robot's emotions, whereas parameters of gestural movements of the
+robots like speed, fluency, pressure, size, and acceleration could be useful
+for understanding the context of the writing expression.",2023-02-12
+Level Generation Through Large Language Models,2023-02-11 23:34:42+00:00,http://arxiv.org/abs/2302.05817v1,"Graham Todd, Sam Earle, Muhammad Umair Nasir, Michael Cerny Green, Julian Togelius","cs.AI, cs.CL, cs.NE",story,"Large Language Models (LLMs) are powerful tools, capable of leveraging their
+training on natural language to write stories, generate code, and answer
+questions. But can they generate functional video game levels? Game levels,
+with their complex functional constraints and spatial relationships in more
+than one dimension, are very different from the kinds of data an LLM typically
+sees during training. Datasets of game levels are also hard to come by,
+potentially taxing the abilities of these data-hungry models. We investigate
+the use of LLMs to generate levels for the game Sokoban, finding that LLMs are
+indeed capable of doing so, and that their performance scales dramatically with
+dataset size. We also perform preliminary experiments on controlling LLM level
+generators and discuss promising areas for future work.",2023-02-11
 Nationality Bias in Text Generation,2023-02-05 19:15:33+00:00,http://arxiv.org/abs/2302.02463v1,"Pranav Narayanan Venkit, Sanjana Gautam, Ruchi Panchanadikar, Ting-Hao, Huang, Shomir Wilson","cs.CL, cs.AI",story,"Little attention is placed on analyzing nationality bias in language models,
 especially when nationality is highly used as a factor in increasing the
 performance of social NLP models. This paper examines how a text generation

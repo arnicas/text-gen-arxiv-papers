@@ -7,10 +7,21 @@ sidebar:
 ---
 
 
-*written on 2023-02-09*
+*written on 2023-02-24*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Improved Training of Mixture-of-Experts Language GANs](http://arxiv.org/abs/2302.11875v1) | Yekun Chai, Qiyue Yin, Junge Zhang | cs.CL | 2023-02-23 |
+| [Improving User Controlled Table-To-Text Generation Robustness](http://arxiv.org/abs/2302.09820v1) | Hanxu Hu, Yunqing Liu, Zhongyi Yu, Laura Perez-Beltrachini | cs.CL | 2023-02-20 |
+| [Do We Still Need Clinical Language Models?](http://arxiv.org/abs/2302.08091v1) | Eric Lehman, Evan Hernandez, Diwakar Mahajan, Jonas Wulff, Micah J. Smith, Zachary Ziegler, Daniel Nadler, Peter Szolovits, Alistair Johnson, Emily Alsentzer | cs.CL | 2023-02-16 |
+| [Tree-Based Representation and Generation of Natural and Mathematical  Language](http://arxiv.org/abs/2302.07974v1) | Alexander Scarlatos, Andrew Lan | cs.CL | 2023-02-15 |
+| [AutoBiasTest: Controllable Sentence Generation for Automated and  Open-Ended Social Bias Testing in Language Models](http://arxiv.org/abs/2302.07371v1) | Rafal Kocielnik, Shrimai Prabhumoye, Vivian Zhang, R. Michael Alvarez, Anima Anandkumar | cs.CL, cs.CY, 68T50, I.2.7; J.5; K.4.1 | 2023-02-14 |
+| [Large Scale Multi-Lingual Multi-Modal Summarization Dataset](http://arxiv.org/abs/2302.06560v1) | Yash Verma, Anubhav Jangra, Raghvendra Kumar, Sriparna Saha | cs.CL, cs.MM | 2023-02-13 |
+| [Combined Location Online Weather Data: Easy-to-use Targeted Weather  Analysis for Agriculture](http://arxiv.org/abs/2302.06142v1) | Darren Yates, Christopher Blanchard, Allister Clarke, Sabih-Ur Rehman, Md Zahidul Islam, Russell Ford, Rob Walsh | cs.SI, J.2 | 2023-02-13 |
+| [Investigating the Effect of Relative Positional Embeddings on  AMR-to-Text Generation with Structural Adapters](http://arxiv.org/abs/2302.05900v1) | Sebastien Montella, Alexis Nasr, Johannes Heinecke, Frederic Bechet, Lina M. Rojas-Barahona | cs.CL | 2023-02-12 |
+| [Plan-then-Seam: Towards Efficient Table-to-Text Generation](http://arxiv.org/abs/2302.05138v1) | Liang Li, Ruiying Geng, Chengyang Fang, Bing Li, Can Ma, Binhua Li, Yongbin Li | cs.CL | 2023-02-10 |
+| [Re-ViLM: Retrieval-Augmented Visual Language Model for Zero and Few-Shot  Image Captioning](http://arxiv.org/abs/2302.04858v1) | Zhuolin Yang, Wei Ping, Zihan Liu, Vijay Korthikanti, Weili Nie, De-An Huang, Linxi Fan, Zhiding Yu, Shiyi Lan, Bo Li, Ming-Yu Liu, Yuke Zhu, Mohammad Shoeybi, Bryan Catanzaro, Chaowei Xiao, Anima Anandkumar | cs.CV, cs.AI, cs.CL, cs.IR, cs.LG | 2023-02-09 |
+| [Lightweight Transformers for Clinical Natural Language Processing](http://arxiv.org/abs/2302.04725v1) | Omid Rohanian, Mohammadmahdi Nouriborji, Hannah Jauncey, Samaneh Kouchaki, ISARIC Clinical Characterisation Group, Lei Clifton, Laura Merson, David A. Clifton | cs.CL, cs.AI, cs.LG, 68T50, I.2.7 | 2023-02-09 |
 | [Auto-Learning: An Adversarial Process of Two Pre-trained Models for  Natural Language Generation](http://arxiv.org/abs/2302.03896v1) | Zhengqing Yuan, Yuelin Lu, Chao Zhang, Huiwen Xue | cs.CL | 2023-02-08 |
 | [What Matters In The Structured Pruning of Generative Language Models?](http://arxiv.org/abs/2302.03773v1) | Michael Santacroce, Zixin Wen, Yelong Shen, Yuanzhi Li | cs.CL, cs.LG | 2023-02-07 |
 | [Unleashing the True Potential of Sequence-to-Sequence Models for  Sequence Tagging and Structure Parsing](http://arxiv.org/abs/2302.02275v1) | Han He, Jinho D. Choi | cs.CL | 2023-02-05 |
