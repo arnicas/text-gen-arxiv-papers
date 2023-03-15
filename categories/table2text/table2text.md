@@ -7,10 +7,23 @@ sidebar:
 ---
 
 
-*written on 2023-02-24*
+*written on 2023-03-15*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Input-length-shortening and text generation via attention values](http://arxiv.org/abs/2303.07585v1) | Neşet Özkan Tan, Alex Yuxuan Peng, Joshua Bensemann, Qiming Bao, Tim Hartill, Mark Gahegan, Michael Witbrock | cs.CL | 2023-03-14 |
+| [Diffusion Models for Non-autoregressive Text Generation: A Survey](http://arxiv.org/abs/2303.06574v1) | Yifan Li, Kun Zhou, Wayne Xin Zhao, Ji-Rong Wen | cs.CL | 2023-03-12 |
+| [ZeroNLG: Aligning and Autoencoding Domains for Zero-Shot Multimodal and  Multilingual Natural Language Generation](http://arxiv.org/abs/2303.06458v1) | Bang Yang, Fenglin Liu, Yuexian Zou, Xian Wu, Yaowei Wang, David A. Clifton | cs.CL, cs.AI, cs.CV | 2023-03-11 |
+| [Reinforcement Learning-based Counter-Misinformation Response Generation:  A Case Study of COVID-19 Vaccine Misinformation](http://arxiv.org/abs/2303.06433v1) | Bing He, Mustaque Ahamad, Srijan Kumar | cs.SI, cs.LG | 2023-03-11 |
+| [An Overview on Language Models: Recent Developments and Outlook](http://arxiv.org/abs/2303.05759v1) | Chengwei Wei, Yun-Cheng Wang, Bin Wang, C. -C. Jay Kuo | cs.CL | 2023-03-10 |
+| [Is ChatGPT a Good NLG Evaluator? A Preliminary Study](http://arxiv.org/abs/2303.04048v1) | Jiaan Wang, Yunlong Liang, Fandong Meng, Haoxiang Shi, Zhixu Li, Jinan Xu, Jianfeng Qu, Jie Zhou | cs.CL, cs.AI | 2023-03-07 |
+| [Large Language Models as Zero-Shot Human Models for Human-Robot  Interaction](http://arxiv.org/abs/2303.03548v1) | Bowen Zhang, Harold Soh | cs.RO, cs.CL, cs.HC, cs.LG | 2023-03-06 |
+| [DeCap: Decoding CLIP Latents for Zero-Shot Captioning via Text-Only  Training](http://arxiv.org/abs/2303.03032v1) | Wei Li, Linchao Zhu, Longyin Wen, Yi Yang | cs.CV, cs.AI, cs.CL | 2023-03-06 |
+| [UZH_CLyp at SemEval-2023 Task 9: Head-First Fine-Tuning and ChatGPT Data  Generation for Cross-Lingual Learning in Tweet Intimacy Prediction](http://arxiv.org/abs/2303.01194v1) | Andrianos Michail, Stefanos Konstantinou, Simon Clematide | cs.CL, cs.AI, 68T50 | 2023-03-02 |
+| [A Universal Question-Answering Platform for Knowledge Graphs](http://arxiv.org/abs/2303.00595v1) | Reham Omar, Ishika Dhall, Panos Kalnis, Essam Mansour | cs.AI, cs.CL, cs.DB | 2023-03-01 |
+| [TabGenie: A Toolkit for Table-to-Text Generation](http://arxiv.org/abs/2302.14169v1) | Zdeněk Kasner, Ekaterina Garanina, Ondřej Plátek, Ondřej Dušek | cs.CL | 2023-02-27 |
+| [Tailoring Language Generation Models under Total Variation Distance](http://arxiv.org/abs/2302.13344v1) | Haozhe Ji, Pei Ke, Zhipeng Hu, Rongsheng Zhang, Minlie Huang | cs.CL | 2023-02-26 |
+| [Few-Shot Table-to-Text Generation with Prompt-based Adapter](http://arxiv.org/abs/2302.12468v1) | Zhixin Guo, Minyxuan Yan, Jiexing Qi, Jianping Zhou, Ziwei He, Zhouhan Lin, Guanjie Zheng, Xinbing Wang | cs.CL | 2023-02-24 |
 | [Improved Training of Mixture-of-Experts Language GANs](http://arxiv.org/abs/2302.11875v1) | Yekun Chai, Qiyue Yin, Junge Zhang | cs.CL | 2023-02-23 |
 | [Improving User Controlled Table-To-Text Generation Robustness](http://arxiv.org/abs/2302.09820v1) | Hanxu Hu, Yunqing Liu, Zhongyi Yu, Laura Perez-Beltrachini | cs.CL | 2023-02-20 |
 | [Do We Still Need Clinical Language Models?](http://arxiv.org/abs/2302.08091v1) | Eric Lehman, Evan Hernandez, Diwakar Mahajan, Jonas Wulff, Micah J. Smith, Zachary Ziegler, Daniel Nadler, Peter Szolovits, Alistair Johnson, Emily Alsentzer | cs.CL | 2023-02-16 |

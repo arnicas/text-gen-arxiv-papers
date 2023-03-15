@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2023-02-24*
+*written on 2023-03-15*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Reinforcement Learning-based Counter-Misinformation Response Generation:  A Case Study of COVID-19 Vaccine Misinformation](http://arxiv.org/abs/2303.06433v1) | Bing He, Mustaque Ahamad, Srijan Kumar | cs.SI, cs.LG | 2023-03-11 |
 | [POSGen: Personalized Opening Sentence Generation for Online Insurance  Sales](http://arxiv.org/abs/2302.06470v1) | Yu Li, Yi Zhang, Weijia Wu, Zimu Zhou, Qiang Li | cs.CL, Online Insurance Recommendation, Transfer Learning, Data-to-text
   Generation | 2023-02-10 |
 | [Controlling Personality Style in Dialogue with Zero-Shot Prompt-Based  Learning](http://arxiv.org/abs/2302.03848v1) | Angela Ramirez, Mamon Alsalihy, Kartik Aggarwal, Cecilia Li, Liren Wu, Marilyn Walker | cs.CL | 2023-02-08 |

@@ -1,4 +1,125 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Text-to-image Diffusion Model in Generative AI: A Survey,2023-03-14 13:49:54+00:00,http://arxiv.org/abs/2303.07909v1,"Chenshuang Zhang, Chaoning Zhang, Mengchun Zhang, In So Kweon","cs.CV, cs.AI, cs.LG",image2text,"This survey reviews text-to-image diffusion models in the context that
+diffusion models have emerged to be popular for a wide range of generative
+tasks. As a self-contained work, this survey starts with a brief introduction
+of how a basic diffusion model works for image synthesis, followed by how
+condition or guidance improves learning. Based on that, we present a review of
+state-of-the-art methods on text-conditioned image synthesis, i.e.,
+text-to-image. We further summarize applications beyond text-to-image
+generation: text-guided creative generation and text-guided image editing.
+Beyond the progress made so far, we discuss existing challenges and promising
+future directions.",2023-03-14
+Diffusion Models in NLP: A Survey,2023-03-14 01:53:49+00:00,http://arxiv.org/abs/2303.07576v1,"Yuansong Zhu, Yu Zhao","cs.CL, cs.AI",image2text,"Diffusion models have become a powerful family of deep generative models,
+with record-breaking performance in many applications. This paper first gives
+an overview and derivation of the basic theory of diffusion models, then
+reviews the research results of diffusion models in the field of natural
+language processing, from text generation, text-driven image generation and
+other four aspects, and analyzes and summarizes the relevant literature
+materials sorted out, and finally records the experience and feelings of this
+topic literature review research.",2023-03-14
+"ZeroNLG: Aligning and Autoencoding Domains for Zero-Shot Multimodal and
+  Multilingual Natural Language Generation",2023-03-11 17:14:33+00:00,http://arxiv.org/abs/2303.06458v1,"Bang Yang, Fenglin Liu, Yuexian Zou, Xian Wu, Yaowei Wang, David A. Clifton","cs.CL, cs.AI, cs.CV",image2text,"Natural Language Generation (NLG) accepts input data in the form of images,
+videos, or text and generates corresponding natural language text as output.
+Existing NLG methods mainly adopt a supervised approach and rely heavily on
+coupled data-to-text pairs. However, for many targeted scenarios and for
+non-English languages, sufficient quantities of labeled data are often not
+available. To relax the dependency on labeled data of downstream tasks, we
+propose an intuitive and effective zero-shot learning framework, ZeroNLG, which
+can deal with multiple NLG tasks, including image-to-text (image captioning),
+video-to-text (video captioning), and text-to-text (neural machine
+translation), across English, Chinese, German, and French within a unified
+framework. ZeroNLG does not require any labeled downstream pairs for training.
+During training, ZeroNLG (i) projects different domains (across modalities and
+languages) to corresponding coordinates in a shared common latent space; (ii)
+bridges different domains by aligning their corresponding coordinates in this
+space; and (iii) builds an unsupervised multilingual auto-encoder to learn to
+generate text by reconstructing the input text given its coordinate in shared
+latent space. Consequently, during inference, based on the data-to-text
+pipeline, ZeroNLG can generate target sentences across different languages
+given the coordinate of input data in the common space. Within this unified
+framework, given visual (imaging or video) data as input, ZeroNLG can perform
+zero-shot visual captioning; given textual sentences as input, ZeroNLG can
+perform zero-shot machine translation. We present the results of extensive
+experiments on twelve NLG tasks, showing that, without using any labeled
+downstream pairs for training, ZeroNLG generates high-quality and believable
+outputs and significantly outperforms existing zero-shot methods.",2023-03-11
+"Describe me an Aucklet: Generating Grounded Perceptual Category
+  Descriptions",2023-03-07 17:01:25+00:00,http://arxiv.org/abs/2303.04053v2,"Bill Noble, Nikolai Ilinykh",cs.CL,image2text,"Human language users can generate descriptions of perceptual concepts beyond
+instance-level representations and also use such descriptions to learn
+provisional class-level representations. However, the ability of computational
+models to learn and operate with class representations is under-investigated in
+the language-and-vision field. In this paper, we train separate neural networks
+to generate and interpret class-level descriptions. We then use the zero-shot
+classification performance of the interpretation model as a measure of
+communicative success and class-level conceptual grounding. We investigate the
+performance of prototype- and exemplar-based neural representations grounded
+category description. Finally, we show that communicative success reveals
+performance issues in the generation model that are not captured by traditional
+intrinsic NLG evaluation metrics, and argue that these issues can be traced to
+a failure to properly ground language in vision at the class level. We observe
+that the interpretation model performs better with descriptions that are low in
+diversity on the class level, possibly indicating a strong reliance on
+frequently occurring features.",2023-03-07
+"DeCap: Decoding CLIP Latents for Zero-Shot Captioning via Text-Only
+  Training",2023-03-06 11:02:47+00:00,http://arxiv.org/abs/2303.03032v1,"Wei Li, Linchao Zhu, Longyin Wen, Yi Yang","cs.CV, cs.AI, cs.CL",image2text,"Large-scale pre-trained multi-modal models (e.g., CLIP) demonstrate strong
+zero-shot transfer capability in many discriminative tasks. Their adaptation to
+zero-shot image-conditioned text generation tasks has drawn increasing
+interest. Prior arts approach to zero-shot captioning by either utilizing the
+existing large language models (e.g., GPT-2) or pre-training the
+encoder-decoder network in an end-to-end manner. In this work, we propose a
+simple framework, named DeCap, for zero-shot captioning. We introduce a
+lightweight visual-aware language decoder. This decoder is both data-efficient
+and computation-efficient: 1) it only requires the text data for training,
+easing the burden on the collection of paired data. 2) it does not require
+end-to-end training. When trained with text-only data, the decoder takes the
+text embedding extracted from the off-the-shelf CLIP encoder as a prefix
+embedding. The challenge is that the decoder is trained on the text corpus but
+at the inference stage, it needs to generate captions based on visual inputs.
+The modality gap issue is widely observed in multi-modal contrastive models
+that prevents us from directly taking the visual embedding as the prefix
+embedding. We propose a training-free mechanism to reduce the modality gap. We
+project the visual embedding into the CLIP text embedding space, while the
+projected embedding retains the information of the visual input. Taking the
+projected embedding as the prefix embedding, the decoder generates high-quality
+descriptions that match the visual input. The experiments show that DeCap
+outperforms other zero-shot captioning methods and unpaired captioning methods
+on the typical image captioning benchmarks, i.e., MSCOCO and NoCaps.",2023-03-06
+Interactive Text Generation,2023-03-02 01:57:17+00:00,http://arxiv.org/abs/2303.00908v1,"Felix Faltings, Michel Galley, Baolin Peng, Kianté Brantley, Weixin Cai, Yizhe Zhang, Jianfeng Gao, Bill Dolan",cs.CL,image2text,"Users interact with text, image, code, or other editors on a daily basis.
+However, machine learning models are rarely trained in the settings that
+reflect the interactivity between users and their editor. This is
+understandable as training AI models with real users is not only slow and
+costly, but what these models learn may be specific to user interface design
+choices. Unfortunately, this means most of the research on text, code, and
+image generation has focused on non-interactive settings, whereby the model is
+expected to get everything right without accounting for any input from a user
+who may be willing to help.
+  We introduce a new Interactive Text Generation task that allows training
+generation models interactively without the costs of involving real users, by
+using user simulators that provide edits that guide the model towards a given
+target text. We train our interactive models using Imitation Learning, and our
+experiments against competitive non-interactive generation models show that
+models trained interactively are superior to their non-interactive
+counterparts, even when all models are given the same budget of user inputs or
+edits.",2023-03-02
+Few-Shot Table-to-Text Generation with Prompt-based Adapter,2023-02-24 05:48:53+00:00,http://arxiv.org/abs/2302.12468v1,"Zhixin Guo, Minyxuan Yan, Jiexing Qi, Jianping Zhou, Ziwei He, Zhouhan Lin, Guanjie Zheng, Xinbing Wang",cs.CL,image2text,"Pre-trained language models (PLMs) have made remarkable progress in
+table-to-text generation tasks. However, the topological gap between tabular
+data and text and the lack of domain-specific knowledge make it difficult for
+PLMs to produce faithful text, especially in real-world applications with
+limited resources. In this paper, we mitigate the above challenges by
+introducing a novel augmentation method: Prompt-based Adapter (PA), which
+targets table-to-text generation under few-shot conditions. The core insight
+design of the PA is to inject prompt templates for augmenting domain-specific
+knowledge and table-related representations into the model for bridging the
+structural gap between tabular data and descriptions through adapters. Such
+prompt-based knowledge augmentation method brings at least two benefits: (1)
+enables us to fully use the large amounts of unlabelled domain-specific
+knowledge, which can alleviate the PLMs' inherent shortcomings of lacking
+domain knowledge; (2) allows us to design different types of tasks supporting
+the generative challenge. Extensive experiments and analyses are conducted on
+three open-domain few-shot NLG datasets: Humans, Books, and Songs. Compared to
+previous state-of-the-art approaches, our model achieves superior performance
+in terms of both fluency and accuracy as judged by human and automatic
+evaluations.",2023-02-24
 Improved Training of Mixture-of-Experts Language GANs,2023-02-23 09:25:46+00:00,http://arxiv.org/abs/2302.11875v1,"Yekun Chai, Qiyue Yin, Junge Zhang",cs.CL,image2text,"Despite the dramatic success in image generation, Generative Adversarial
 Networks (GANs) still face great challenges in synthesizing sequences of
 discrete elements, in particular human language. The difficulty in generator

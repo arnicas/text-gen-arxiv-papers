@@ -1,4 +1,132 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Input-length-shortening and text generation via attention values,2023-03-14 02:11:24+00:00,http://arxiv.org/abs/2303.07585v1,"Neşet Özkan Tan, Alex Yuxuan Peng, Joshua Bensemann, Qiming Bao, Tim Hartill, Mark Gahegan, Michael Witbrock",cs.CL,knowledge,"Identifying words that impact a task's performance more than others is a
+challenge in natural language processing. Transformers models have recently
+addressed this issue by incorporating an attention mechanism that assigns
+greater attention (i.e., relevance) scores to some words than others. Because
+of the attention mechanism's high computational cost, transformer models
+usually have an input-length limitation caused by hardware constraints. This
+limitation applies to many transformers, including the well-known bidirectional
+encoder representations of the transformer (BERT) model. In this paper, we
+examined BERT's attention assignment mechanism, focusing on two questions: (1)
+How can attention be employed to reduce input length? (2) How can attention be
+used as a control mechanism for conditional text generation? We investigated
+these questions in the context of a text classification task. We discovered
+that BERT's early layers assign more critical attention scores for text
+classification tasks compared to later layers. We demonstrated that the first
+layer's attention sums could be used to filter tokens in a given sequence,
+considerably decreasing the input length while maintaining good test accuracy.
+We also applied filtering, which uses a compute-efficient semantic similarities
+algorithm, and discovered that retaining approximately 6\% of the original
+sequence is sufficient to obtain 86.5\% accuracy. Finally, we showed that we
+could generate data in a stable manner and indistinguishable from the original
+one by only using a small percentage (10\%) of the tokens with high attention
+scores according to BERT's first layer.",2023-03-14
+Transformer-based Planning for Symbolic Regression,2023-03-13 03:29:58+00:00,http://arxiv.org/abs/2303.06833v1,"Parshin Shojaee, Kazem Meidani, Amir Barati Farimani, Chandan K. Reddy","cs.LG, cs.AI",knowledge,"Symbolic regression (SR) is a challenging task in machine learning that
+involves finding a mathematical expression for a function based on its values.
+Recent advancements in SR have demonstrated the efficacy of pretrained
+transformer-based models for generating equations as sequences, which benefit
+from large-scale pretraining on synthetic datasets and offer considerable
+advantages over GP-based methods in terms of inference time. However, these
+models focus on supervised pretraining goals borrowed from text generation and
+ignore equation-specific objectives like accuracy and complexity. To address
+this, we propose TPSR, a Transformer-based Planning strategy for Symbolic
+Regression that incorporates Monte Carlo Tree Search into the transformer
+decoding process. TPSR, as opposed to conventional decoding strategies, allows
+for the integration of non-differentiable feedback, such as fitting accuracy
+and complexity, as external sources of knowledge into the equation generation
+process. Extensive experiments on various datasets show that our approach
+outperforms state-of-the-art methods, enhancing the model's fitting-complexity
+trade-off, extrapolation abilities, and robustness to noise. We also
+demonstrate that the utilization of various caching mechanisms can further
+enhance the efficiency of TPSR.",2023-03-13
+"Large Language Models as Zero-Shot Human Models for Human-Robot
+  Interaction",2023-03-06 23:16:24+00:00,http://arxiv.org/abs/2303.03548v1,"Bowen Zhang, Harold Soh","cs.RO, cs.CL, cs.HC, cs.LG",knowledge,"Human models play a crucial role in human-robot interaction (HRI), enabling
+robots to consider the impact of their actions on people and plan their
+behavior accordingly. However, crafting good human models is challenging;
+capturing context-dependent human behavior requires significant prior knowledge
+and/or large amounts of interaction data, both of which are difficult to
+obtain. In this work, we explore the potential of large-language models (LLMs)
+-- which have consumed vast amounts of human-generated text data -- to act as
+zero-shot human models for HRI. Our experiments on three social datasets yield
+promising results; the LLMs are able to achieve performance comparable to
+purpose-built models. That said, we also discuss current limitations, such as
+sensitivity to prompts and spatial/numerical reasoning mishaps. Based on our
+findings, we demonstrate how LLM-based human models can be integrated into a
+social robot's planning process and applied in HRI scenarios. Specifically, we
+present one case study on a simulated trust-based table-clearing task and
+replicate past results that relied on custom models. Next, we conduct a new
+robot utensil-passing experiment (n = 65) where preliminary results show that
+planning with a LLM-based human model can achieve gains over a basic myopic
+plan. In summary, our results show that LLMs offer a promising (but incomplete)
+approach to human modeling for HRI.",2023-03-06
+A Universal Question-Answering Platform for Knowledge Graphs,2023-03-01 15:35:32+00:00,http://arxiv.org/abs/2303.00595v1,"Reham Omar, Ishika Dhall, Panos Kalnis, Essam Mansour","cs.AI, cs.CL, cs.DB",knowledge,"Knowledge from diverse application domains is organized as knowledge graphs
+(KGs) that are stored in RDF engines accessible in the web via SPARQL
+endpoints. Expressing a well-formed SPARQL query requires information about the
+graph structure and the exact URIs of its components, which is impractical for
+the average user. Question answering (QA) systems assist by translating natural
+language questions to SPARQL. Existing QA systems are typically based on
+application-specific human-curated rules, or require prior information,
+expensive pre-processing and model adaptation for each targeted KG. Therefore,
+they are hard to generalize to a broad set of applications and KGs.
+  In this paper, we propose KGQAn, a universal QA system that does not need to
+be tailored to each target KG. Instead of curated rules, KGQAn introduces a
+novel formalization of question understanding as a text generation problem to
+convert a question into an intermediate abstract representation via a neural
+sequence-to-sequence model. We also develop a just-in-time linker that maps at
+query time the abstract representation to a SPARQL query for a specific KG,
+using only the publicly accessible APIs and the existing indices of the RDF
+store, without requiring any pre-processing. Our experiments with several real
+KGs demonstrate that KGQAn is easily deployed and outperforms by a large margin
+the state-of-the-art in terms of quality of answers and processing time,
+especially for arbitrary KGs, unseen during the training.",2023-03-01
+Inseq: An Interpretability Toolkit for Sequence Generation Models,2023-02-27 16:45:50+00:00,http://arxiv.org/abs/2302.13942v1,"Gabriele Sarti, Nils Feldhus, Ludwig Sickert, Oskar van der Wal","cs.CL, cs.AI, cs.HC, cs.LG",knowledge,"Past work in natural language processing interpretability focused mainly on
+popular classification tasks while largely overlooking generation settings,
+partly due to a lack of dedicated tools. In this work, we introduce Inseq, a
+Python library to democratize access to interpretability analyses of sequence
+generation models. Inseq enables intuitive and optimized extraction of models'
+internal information and feature importance scores for popular decoder-only and
+encoder-decoder Transformers architectures. We showcase its potential by
+adopting it to highlight gender biases in machine translation models and locate
+factual knowledge inside GPT-2. Thanks to its extensible interface supporting
+cutting-edge techniques such as contrastive feature attribution, Inseq can
+drive future advances in explainable natural language generation, centralizing
+good practices and enabling fair and reproducible model evaluations.",2023-02-27
+"Toward Fairness in Text Generation via Mutual Information Minimization
+  based on Importance Sampling",2023-02-25 18:29:02+00:00,http://arxiv.org/abs/2302.13136v1,"Rui Wang, Pengyu Cheng, Ricardo Henao","cs.CL, cs.AI",knowledge,"Pretrained language models (PLMs), such as GPT2, have achieved remarkable
+empirical performance in text generation tasks. However, pretrained on
+large-scale natural language corpora, the generated text from PLMs may exhibit
+social bias against disadvantaged demographic groups. To improve the fairness
+of PLMs in text generation, we propose to minimize the mutual information
+between the semantics in the generated text sentences and their demographic
+polarity, i.e., the demographic group to which the sentence is referring. In
+this way, the mentioning of a demographic group (e.g., male or female) is
+encouraged to be independent from how it is described in the generated text,
+thus effectively alleviating the social bias. Moreover, we propose to
+efficiently estimate the upper bound of the above mutual information via
+importance sampling, leveraging a natural language corpus. We also propose a
+distillation mechanism that preserves the language modeling ability of the PLMs
+after debiasing. Empirical results on real-world benchmarks demonstrate that
+the proposed method yields superior performance in term of both fairness and
+language modeling ability.",2023-02-25
+Few-Shot Table-to-Text Generation with Prompt-based Adapter,2023-02-24 05:48:53+00:00,http://arxiv.org/abs/2302.12468v1,"Zhixin Guo, Minyxuan Yan, Jiexing Qi, Jianping Zhou, Ziwei He, Zhouhan Lin, Guanjie Zheng, Xinbing Wang",cs.CL,knowledge,"Pre-trained language models (PLMs) have made remarkable progress in
+table-to-text generation tasks. However, the topological gap between tabular
+data and text and the lack of domain-specific knowledge make it difficult for
+PLMs to produce faithful text, especially in real-world applications with
+limited resources. In this paper, we mitigate the above challenges by
+introducing a novel augmentation method: Prompt-based Adapter (PA), which
+targets table-to-text generation under few-shot conditions. The core insight
+design of the PA is to inject prompt templates for augmenting domain-specific
+knowledge and table-related representations into the model for bridging the
+structural gap between tabular data and descriptions through adapters. Such
+prompt-based knowledge augmentation method brings at least two benefits: (1)
+enables us to fully use the large amounts of unlabelled domain-specific
+knowledge, which can alleviate the PLMs' inherent shortcomings of lacking
+domain knowledge; (2) allows us to design different types of tasks supporting
+the generative challenge. Extensive experiments and analyses are conducted on
+three open-domain few-shot NLG datasets: Humans, Books, and Songs. Compared to
+previous state-of-the-art approaches, our model achieves superior performance
+in terms of both fluency and accuracy as judged by human and automatic
+evaluations.",2023-02-24
 How Does In-Context Learning Help Prompt Tuning?,2023-02-22 17:45:12+00:00,http://arxiv.org/abs/2302.11521v1,"Simeng Sun, Yang Liu, Dan Iter, Chenguang Zhu, Mohit Iyyer",cs.CL,knowledge,"Fine-tuning large language models is becoming ever more impractical due to
 their rapidly-growing scale. This motivates the use of parameter-efficient
 adaptation methods such as prompt tuning (PT), which adds a small number of

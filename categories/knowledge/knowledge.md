@@ -7,10 +7,17 @@ sidebar:
 ---
 
 
-*written on 2023-02-24*
+*written on 2023-03-15*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Input-length-shortening and text generation via attention values](http://arxiv.org/abs/2303.07585v1) | Neşet Özkan Tan, Alex Yuxuan Peng, Joshua Bensemann, Qiming Bao, Tim Hartill, Mark Gahegan, Michael Witbrock | cs.CL | 2023-03-14 |
+| [Transformer-based Planning for Symbolic Regression](http://arxiv.org/abs/2303.06833v1) | Parshin Shojaee, Kazem Meidani, Amir Barati Farimani, Chandan K. Reddy | cs.LG, cs.AI | 2023-03-13 |
+| [Large Language Models as Zero-Shot Human Models for Human-Robot  Interaction](http://arxiv.org/abs/2303.03548v1) | Bowen Zhang, Harold Soh | cs.RO, cs.CL, cs.HC, cs.LG | 2023-03-06 |
+| [A Universal Question-Answering Platform for Knowledge Graphs](http://arxiv.org/abs/2303.00595v1) | Reham Omar, Ishika Dhall, Panos Kalnis, Essam Mansour | cs.AI, cs.CL, cs.DB | 2023-03-01 |
+| [Inseq: An Interpretability Toolkit for Sequence Generation Models](http://arxiv.org/abs/2302.13942v1) | Gabriele Sarti, Nils Feldhus, Ludwig Sickert, Oskar van der Wal | cs.CL, cs.AI, cs.HC, cs.LG | 2023-02-27 |
+| [Toward Fairness in Text Generation via Mutual Information Minimization  based on Importance Sampling](http://arxiv.org/abs/2302.13136v1) | Rui Wang, Pengyu Cheng, Ricardo Henao | cs.CL, cs.AI | 2023-02-25 |
+| [Few-Shot Table-to-Text Generation with Prompt-based Adapter](http://arxiv.org/abs/2302.12468v1) | Zhixin Guo, Minyxuan Yan, Jiexing Qi, Jianping Zhou, Ziwei He, Zhouhan Lin, Guanjie Zheng, Xinbing Wang | cs.CL | 2023-02-24 |
 | [How Does In-Context Learning Help Prompt Tuning?](http://arxiv.org/abs/2302.11521v1) | Simeng Sun, Yang Liu, Dan Iter, Chenguang Zhu, Mohit Iyyer | cs.CL | 2023-02-22 |
 | [KILM: Knowledge Injection into Encoder-Decoder Language Models](http://arxiv.org/abs/2302.09170v1) | Yan Xu, Mahdi Namazifar, Devamanyu Hazarika, Aishwarya Padmakumar, Yang Liu, Dilek Hakkani-Tür | cs.CL, cs.AI | 2023-02-17 |
 | [Do We Still Need Clinical Language Models?](http://arxiv.org/abs/2302.08091v1) | Eric Lehman, Evan Hernandez, Diwakar Mahajan, Jonas Wulff, Micah J. Smith, Zachary Ziegler, Daniel Nadler, Peter Szolovits, Alistair Johnson, Emily Alsentzer | cs.CL | 2023-02-16 |

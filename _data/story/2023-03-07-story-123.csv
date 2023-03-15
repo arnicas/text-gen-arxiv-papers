@@ -1,4 +1,36 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Is ChatGPT a Good NLG Evaluator? A Preliminary Study,2023-03-07 16:57:20+00:00,http://arxiv.org/abs/2303.04048v1,"Jiaan Wang, Yunlong Liang, Fandong Meng, Haoxiang Shi, Zhixu Li, Jinan Xu, Jianfeng Qu, Jie Zhou","cs.CL, cs.AI",story,"Recently, the emergence of ChatGPT has attracted wide attention from the
+computational linguistics community. Many prior studies have shown that ChatGPT
+achieves remarkable performance on various NLP tasks in terms of automatic
+evaluation metrics. However, the ability of ChatGPT to serve as an evaluation
+metric is still underexplored. Considering assessing the quality of NLG models
+is an arduous task and previous statistical metrics notoriously show their poor
+correlation with human judgments, we wonder whether ChatGPT is a good NLG
+evaluation metric. In this report, we provide a preliminary meta-evaluation on
+ChatGPT to show its reliability as an NLG metric. In detail, we regard ChatGPT
+as a human evaluator and give task-specific (e.g., summarization) and
+aspect-specific (e.g., relevance) instruction to prompt ChatGPT to score the
+generation of NLG models. We conduct experiments on three widely-used NLG
+meta-evaluation datasets (including summarization, story generation and
+data-to-text tasks). Experimental results show that compared with previous
+automatic metrics, ChatGPT achieves state-of-the-art or competitive correlation
+with golden human judgments. We hope our preliminary study could prompt the
+emergence of a general-purposed reliable NLG metric.",2023-03-07
+"LIDA: A Tool for Automatic Generation of Grammar-Agnostic Visualizations
+  and Infographics using Large Language Models",2023-03-06 06:47:22+00:00,http://arxiv.org/abs/2303.02927v1,Victor Dibia,"cs.AI, cs.HC, cs.PL",story,"Systems that support users in the automatic creation of visualizations must
+address several subtasks - understand the semantics of data, enumerate relevant
+visualization goals and generate visualization specifications. In this work, we
+pose visualization generation as a multi-stage generation problem and argue
+that well-orchestrated pipelines based on large language models (LLMs) and
+image generation models (IGMs) are suitable to addressing these tasks. We
+present LIDA, a novel tool for generating grammar-agnostic visualizations and
+infographics. LIDA comprises of 4 modules - A SUMMARIZER that converts data
+into a rich but compact natural language summary, a GOAL EXPLORER that
+enumerates visualization goals given the data, a VISGENERATOR that generates,
+refines, executes and filters visualization code and an INFOGRAPHER module that
+yields data-faithful stylized graphics using IGMs. LIDA provides a python api,
+and a hybrid user interface (direct manipulation and natural language) for
+interactive chart, infographics and data story generation.",2023-03-06
 "A Plot is Worth a Thousand Words: Model Information Stealing Attacks via
   Scientific Plots",2023-02-23 12:57:34+00:00,http://arxiv.org/abs/2302.11982v1,"Boyang Zhang, Xinlei He, Yun Shen, Tianhao Wang, Yang Zhang","cs.CR, cs.LG",story,"Building advanced machine learning (ML) models requires expert knowledge and
 many trials to discover the best architecture and hyperparameter settings.

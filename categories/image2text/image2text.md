@@ -7,10 +7,17 @@ sidebar:
 ---
 
 
-*written on 2023-02-24*
+*written on 2023-03-15*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Text-to-image Diffusion Model in Generative AI: A Survey](http://arxiv.org/abs/2303.07909v1) | Chenshuang Zhang, Chaoning Zhang, Mengchun Zhang, In So Kweon | cs.CV, cs.AI, cs.LG | 2023-03-14 |
+| [Diffusion Models in NLP: A Survey](http://arxiv.org/abs/2303.07576v1) | Yuansong Zhu, Yu Zhao | cs.CL, cs.AI | 2023-03-14 |
+| [ZeroNLG: Aligning and Autoencoding Domains for Zero-Shot Multimodal and  Multilingual Natural Language Generation](http://arxiv.org/abs/2303.06458v1) | Bang Yang, Fenglin Liu, Yuexian Zou, Xian Wu, Yaowei Wang, David A. Clifton | cs.CL, cs.AI, cs.CV | 2023-03-11 |
+| [Describe me an Aucklet: Generating Grounded Perceptual Category  Descriptions](http://arxiv.org/abs/2303.04053v2) | Bill Noble, Nikolai Ilinykh | cs.CL | 2023-03-07 |
+| [DeCap: Decoding CLIP Latents for Zero-Shot Captioning via Text-Only  Training](http://arxiv.org/abs/2303.03032v1) | Wei Li, Linchao Zhu, Longyin Wen, Yi Yang | cs.CV, cs.AI, cs.CL | 2023-03-06 |
+| [Interactive Text Generation](http://arxiv.org/abs/2303.00908v1) | Felix Faltings, Michel Galley, Baolin Peng, Kianté Brantley, Weixin Cai, Yizhe Zhang, Jianfeng Gao, Bill Dolan | cs.CL | 2023-03-02 |
+| [Few-Shot Table-to-Text Generation with Prompt-based Adapter](http://arxiv.org/abs/2302.12468v1) | Zhixin Guo, Minyxuan Yan, Jiexing Qi, Jianping Zhou, Ziwei He, Zhouhan Lin, Guanjie Zheng, Xinbing Wang | cs.CL | 2023-02-24 |
 | [Improved Training of Mixture-of-Experts Language GANs](http://arxiv.org/abs/2302.11875v1) | Yekun Chai, Qiyue Yin, Junge Zhang | cs.CL | 2023-02-23 |
 | [Improving User Controlled Table-To-Text Generation Robustness](http://arxiv.org/abs/2302.09820v1) | Hanxu Hu, Yunqing Liu, Zhongyi Yu, Laura Perez-Beltrachini | cs.CL | 2023-02-20 |
 | [Large Scale Multi-Lingual Multi-Modal Summarization Dataset](http://arxiv.org/abs/2302.06560v1) | Yash Verma, Anubhav Jangra, Raghvendra Kumar, Sriparna Saha | cs.CL, cs.MM | 2023-02-13 |
