@@ -7,10 +7,19 @@ sidebar:
 ---
 
 
-*written on 2023-03-15*
+*written on 2023-03-29*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [GPT is becoming a Turing machine: Here are some ways to program it](http://arxiv.org/abs/2303.14310v1) | Ana Jojic, Zhen Wang, Nebojsa Jojic | cs.CL | 2023-03-25 |
+| [CoBIT: A Contrastive Bi-directional Image-Text Generation Model](http://arxiv.org/abs/2303.13455v1) | Haoxuan You, Mandy Guo, Zhecan Wang, Kai-Wei Chang, Jason Baldridge, Jiahui Yu | cs.CV, cs.CL | 2023-03-23 |
+| [Paraphrasing evades detectors of AI-generated text, but retrieval is an  effective defense](http://arxiv.org/abs/2303.13408v1) | Kalpesh Krishna, Yixiao Song, Marzena Karpinska, John Wieting, Mohit Iyyer | cs.CL, cs.CR, cs.LG | 2023-03-23 |
+| [Compositional Zero-Shot Domain Transfer with Text-to-Text Models](http://arxiv.org/abs/2303.13386v1) | Fangyu Liu, Qianchu Liu, Shruthi Bannur, Fernando Pérez-García, Naoto Usuyama, Sheng Zhang, Tristan Naumann, Aditya Nori, Hoifung Poon, Javier Alvarez-Valle, Ozan Oktay, Stephanie L. Hyland | cs.CL, cs.LG | 2023-03-23 |
+| [JaCoText: A Pretrained Model for Java Code-Text Generation](http://arxiv.org/abs/2303.12869v1) | Jessica López Espejel, Mahaman Sanoussi Yahaya Alassan, Walid Dahhane, El Hassane Ettifouri | cs.CL | 2023-03-22 |
+| [Chinese Intermediate English Learners outdid ChatGPT in deep cohesion:  Evidence from English narrative writing](http://arxiv.org/abs/2303.11812v1) | Tongquan Zhou, Siyi Cao, Siruo Zhou, Yao Zhang, Aijing He | cs.CL | 2023-03-21 |
+| [Code-Switching Text Generation and Injection in Mandarin-English ASR](http://arxiv.org/abs/2303.10949v1) | Haibin Yu, Yuxuan Hu, Yao Qian, Ma Jin, Linquan Liu, Shujie Liu, Yu Shi, Yanmin Qian, Edward Lin, Michael Zeng | eess.AS, cs.CL, cs.SD | 2023-03-20 |
+| [SPDF: Sparse Pre-training and Dense Fine-tuning for Large Language  Models](http://arxiv.org/abs/2303.10464v1) | Vithursan Thangarasa, Abhay Gupta, William Marshall, Tianda Li, Kevin Leong, Dennis DeCoste, Sean Lie, Shreyas Saxena | cs.LG, cs.CL | 2023-03-18 |
+| [HIVE: Harnessing Human Feedback for Instructional Visual Editing](http://arxiv.org/abs/2303.09618v1) | Shu Zhang, Xinyi Yang, Yihao Feng, Can Qin, Chia-Chih Chen, Ning Yu, Zeyuan Chen, Huan Wang, Silvio Savarese, Stefano Ermon, Caiming Xiong, Ran Xu | cs.CV, cs.AI, cs.CL, cs.HC, cs.LG | 2023-03-16 |
 | [Input-length-shortening and text generation via attention values](http://arxiv.org/abs/2303.07585v1) | Neşet Özkan Tan, Alex Yuxuan Peng, Joshua Bensemann, Qiming Bao, Tim Hartill, Mark Gahegan, Michael Witbrock | cs.CL | 2023-03-14 |
 | [Diffusion Models for Non-autoregressive Text Generation: A Survey](http://arxiv.org/abs/2303.06574v1) | Yifan Li, Kun Zhou, Wayne Xin Zhao, Ji-Rong Wen | cs.CL | 2023-03-12 |
 | [ZeroNLG: Aligning and Autoencoding Domains for Zero-Shot Multimodal and  Multilingual Natural Language Generation](http://arxiv.org/abs/2303.06458v1) | Bang Yang, Fenglin Liu, Yuexian Zou, Xian Wu, Yaowei Wang, David A. Clifton | cs.CL, cs.AI, cs.CV | 2023-03-11 |

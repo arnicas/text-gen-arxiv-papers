@@ -1,4 +1,135 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Large Language Models are Diverse Role-Players for Summarization
+  Evaluation",2023-03-27 10:40:59+00:00,http://arxiv.org/abs/2303.15078v2,"Ning Wu, Ming Gong, Linjun Shou, Shining Liang, Daxin Jiang",cs.CL,knowledge,"Text summarization has a wide range of applications in many scenarios. The
+evaluation of the quality of the generated text is a complex problem. A big
+challenge to language evaluation is that there is a clear divergence between
+existing metrics and human evaluation. For example, the quality of a document
+summary can be measured by human annotators from both objective aspects, such
+as grammatical and semantic correctness, as well as subjective dimensions, such
+as comprehensiveness, succinctness, and interestingness. Most of the automatic
+evaluation methods like BLUE/ROUGE may be not able to capture the above
+dimensions well. In this paper, we propose a new evaluation framework based on
+LLMs, which provides a comprehensive evaluation framework by comparing
+generated text and reference text from both objective and subjective aspects.
+First, we propose to model objective and subjective dimensions of generated
+text based on roleplayers prompting mechanism. Furthermore, we introduce a
+context-based prompting mechanism that is able to generate dynamic roleplayer
+profiles based on input context. Finally, we design a multi-roleplayer
+prompting technology based on batch prompting to integrate multiple evaluation
+results into evaluation results. Experimental results on two real datasets for
+summarization show that our model is highly competitive and has a very high
+consistency with human annotators.",2023-03-27
+Paraphrase Detection: Human vs. Machine Content,2023-03-24 13:25:46+00:00,http://arxiv.org/abs/2303.13989v1,"Jonas Becker, Jan Philip Wahle, Terry Ruas, Bela Gipp","cs.CL, cs.AI",knowledge,"The growing prominence of large language models, such as GPT-4 and ChatGPT,
+has led to increased concerns over academic integrity due to the potential for
+machine-generated content and paraphrasing. Although studies have explored the
+detection of human- and machine-paraphrased content, the comparison between
+these types of content remains underexplored. In this paper, we conduct a
+comprehensive analysis of various datasets commonly employed for paraphrase
+detection tasks and evaluate an array of detection methods. Our findings
+highlight the strengths and limitations of different detection methods in terms
+of performance on individual datasets, revealing a lack of suitable
+machine-generated datasets that can be aligned with human expectations. Our
+main finding is that human-authored paraphrases exceed machine-generated ones
+in terms of difficulty, diversity, and similarity implying that automatically
+generated texts are not yet on par with human-level performance. Transformers
+emerged as the most effective method across datasets with TF-IDF excelling on
+semantically diverse corpora. Additionally, we identify four datasets as the
+most diverse and challenging for paraphrase detection.",2023-03-24
+CoBIT: A Contrastive Bi-directional Image-Text Generation Model,2023-03-23 17:24:31+00:00,http://arxiv.org/abs/2303.13455v1,"Haoxuan You, Mandy Guo, Zhecan Wang, Kai-Wei Chang, Jason Baldridge, Jiahui Yu","cs.CV, cs.CL",knowledge,"The field of vision and language has witnessed a proliferation of pre-trained
+foundation models. Most existing methods are independently pre-trained with
+contrastive objective like CLIP, image-to-text generative objective like PaLI,
+or text-to-image generative objective like Parti. However, the three objectives
+can be pre-trained on the same data, image-text pairs, and intuitively they
+complement each other as contrasting provides global alignment capacity and
+generation grants fine-grained understanding. In this work, we present a
+Contrastive Bi-directional Image-Text generation model (CoBIT), which attempts
+to unify the three pre-training objectives in one framework. Specifically,
+CoBIT employs a novel unicoder-decoder structure, consisting of an image
+unicoder, a text unicoder and a cross-modal decoder. The image/text unicoders
+can switch between encoding and decoding in different tasks, enabling
+flexibility and shared knowledge that benefits both image-to-text and
+text-to-image generations. CoBIT achieves superior performance in image
+understanding, image-text understanding (Retrieval, Captioning, VQA, SNLI-VE)
+and text-based content creation, particularly in zero-shot scenarios. For
+instance, 82.7% in zero-shot ImageNet classification, 9.37 FID score in
+zero-shot text-to-image generation and 44.8 CIDEr in zero-shot captioning.",2023-03-23
+"Paraphrasing evades detectors of AI-generated text, but retrieval is an
+  effective defense",2023-03-23 16:29:27+00:00,http://arxiv.org/abs/2303.13408v1,"Kalpesh Krishna, Yixiao Song, Marzena Karpinska, John Wieting, Mohit Iyyer","cs.CL, cs.CR, cs.LG",knowledge,"To detect the deployment of large language models for malicious use cases
+(e.g., fake content creation or academic plagiarism), several approaches have
+recently been proposed for identifying AI-generated text via watermarks or
+statistical irregularities. How robust are these detection algorithms to
+paraphrases of AI-generated text? To stress test these detectors, we first
+train an 11B parameter paraphrase generation model (DIPPER) that can paraphrase
+paragraphs, optionally leveraging surrounding text (e.g., user-written prompts)
+as context. DIPPER also uses scalar knobs to control the amount of lexical
+diversity and reordering in the paraphrases. Paraphrasing text generated by
+three large language models (including GPT3.5-davinci-003) with DIPPER
+successfully evades several detectors, including watermarking, GPTZero,
+DetectGPT, and OpenAI's text classifier. For example, DIPPER drops the
+detection accuracy of DetectGPT from 70.3% to 4.6% (at a constant false
+positive rate of 1%), without appreciably modifying the input semantics. To
+increase the robustness of AI-generated text detection to paraphrase attacks,
+we introduce a simple defense that relies on retrieving semantically-similar
+generations and must be maintained by a language model API provider. Given a
+candidate text, our algorithm searches a database of sequences previously
+generated by the API, looking for sequences that match the candidate text
+within a certain threshold. We empirically verify our defense using a database
+of 15M generations from a fine-tuned T5-XXL model and find that it can detect
+80% to 97% of paraphrased generations across different settings, while only
+classifying 1% of human-written sequences as AI-generated. We will open source
+our code, model and data for future research.",2023-03-23
+Compositional Zero-Shot Domain Transfer with Text-to-Text Models,2023-03-23 15:58:41+00:00,http://arxiv.org/abs/2303.13386v1,"Fangyu Liu, Qianchu Liu, Shruthi Bannur, Fernando Pérez-García, Naoto Usuyama, Sheng Zhang, Tristan Naumann, Aditya Nori, Hoifung Poon, Javier Alvarez-Valle, Ozan Oktay, Stephanie L. Hyland","cs.CL, cs.LG",knowledge,"Label scarcity is a bottleneck for improving task performance in specialised
+domains. We propose a novel compositional transfer learning framework (DoT5 -
+domain compositional zero-shot T5) for zero-shot domain transfer. Without
+access to in-domain labels, DoT5 jointly learns domain knowledge (from MLM of
+unlabelled in-domain free text) and task knowledge (from task training on more
+readily available general-domain data) in a multi-task manner. To improve the
+transferability of task training, we design a strategy named NLGU: we
+simultaneously train NLG for in-domain label-to-data generation which enables
+data augmentation for self-finetuning and NLU for label prediction. We evaluate
+DoT5 on the biomedical domain and the resource-lean subdomain of radiology,
+focusing on NLI, text summarisation and embedding learning. DoT5 demonstrates
+the effectiveness of compositional transfer learning through multi-task
+learning. In particular, DoT5 outperforms the current SOTA in zero-shot
+transfer by over 7 absolute points in accuracy on RadNLI. We validate DoT5 with
+ablations and a case study demonstrating its ability to solve challenging NLI
+examples requiring in-domain expertise.",2023-03-23
+Language Model Behavior: A Comprehensive Survey,2023-03-20 23:54:26+00:00,http://arxiv.org/abs/2303.11504v1,"Tyler A. Chang, Benjamin K. Bergen",cs.CL,knowledge,"Transformer language models have received widespread public attention, yet
+their generated text is often surprising even to NLP researchers. In this
+survey, we discuss over 250 recent studies of English language model behavior
+before task-specific fine-tuning. Language models possess basic capabilities in
+syntax, semantics, pragmatics, world knowledge, and reasoning, but these
+capabilities are sensitive to specific inputs and surface features. Despite
+dramatic increases in generated text quality as models scale to hundreds of
+billions of parameters, the models are still prone to unfactual responses,
+commonsense errors, memorized text, and social biases. Many of these weaknesses
+can be framed as over-generalizations or under-generalizations of learned
+patterns in text. We synthesize recent results to highlight what is currently
+known about what large language models can and cannot do.",2023-03-20
+"SPDF: Sparse Pre-training and Dense Fine-tuning for Large Language
+  Models",2023-03-18 17:56:01+00:00,http://arxiv.org/abs/2303.10464v1,"Vithursan Thangarasa, Abhay Gupta, William Marshall, Tianda Li, Kevin Leong, Dennis DeCoste, Sean Lie, Shreyas Saxena","cs.LG, cs.CL",knowledge,"The pre-training and fine-tuning paradigm has contributed to a number of
+breakthroughs in Natural Language Processing (NLP). Instead of directly
+training on a downstream task, language models are first pre-trained on large
+datasets with cross-domain knowledge (e.g., Pile, MassiveText, etc.) and then
+fine-tuned on task-specific data (e.g., natural language generation, text
+summarization, etc.). Scaling the model and dataset size has helped improve the
+performance of LLMs, but unfortunately, this also leads to highly prohibitive
+computational costs. Pre-training LLMs often require orders of magnitude more
+FLOPs than fine-tuning and the model capacity often remains the same between
+the two phases. To achieve training efficiency w.r.t training FLOPs, we propose
+to decouple the model capacity between the two phases and introduce Sparse
+Pre-training and Dense Fine-tuning (SPDF). In this work, we show the benefits
+of using unstructured weight sparsity to train only a subset of weights during
+pre-training (Sparse Pre-training) and then recover the representational
+capacity by allowing the zeroed weights to learn (Dense Fine-tuning). We
+demonstrate that we can induce up to 75% sparsity into a 1.3B parameter GPT-3
+XL model resulting in a 2.5x reduction in pre-training FLOPs, without a
+significant loss in accuracy on the downstream tasks relative to the dense
+baseline. By rigorously evaluating multiple downstream tasks, we also establish
+a relationship between sparsity, task complexity, and dataset size. Our work
+presents a promising direction to train large GPT models at a fraction of the
+training FLOPs using weight sparsity while retaining the benefits of
+pre-trained textual representations for downstream tasks.",2023-03-18
 Input-length-shortening and text generation via attention values,2023-03-14 02:11:24+00:00,http://arxiv.org/abs/2303.07585v1,"Neşet Özkan Tan, Alex Yuxuan Peng, Joshua Bensemann, Qiming Bao, Tim Hartill, Mark Gahegan, Michael Witbrock",cs.CL,knowledge,"Identifying words that impact a task's performance more than others is a
 challenge in natural language processing. Transformers models have recently
 addressed this issue by incorporating an attention mechanism that assigns

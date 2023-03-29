@@ -1,4 +1,65 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Generate labeled training data using Prompt Programming and GPT-3. An
+  example of Big Five Personality Classification",2023-03-22 03:12:40+00:00,http://arxiv.org/abs/2303.12279v1,Eason Chen,"cs.HC, cs.AI",dialogue,"We generated 25000 conversations labeled with Big Five Personality traits
+using prompt programming at GPT-3. Then we train Big Five classification models
+with these data and evaluate them with 2500 data from generated dialogues and
+real conversational datasets labeled in Big Five by human annotators. The
+results indicated that this approach is promising for creating effective
+training data. We then compare the performance by different training approaches
+and models. Our results suggest that using Adapter-Transformers and transfer
+learning from pre-trained RoBERTa sentiment analysis model will perform best
+with the generated data. Our best model obtained an accuracy of 0.71 in
+generated data and 0.65 in real datasets. Finally, we discuss this approach's
+potential limitations and confidence metric.",2023-03-22
+cTBL: Augmenting Large Language Models for Conversational Tables,2023-03-21 17:04:44+00:00,http://arxiv.org/abs/2303.12024v2,"Anirudh S Sundar, Larry Heck","cs.CL, cs.AI",dialogue,"An open challenge in multimodal conversational AI requires augmenting large
+language models with information from textual and non-textual sources for
+multi-turn dialogue. To address this problem, this paper introduces
+Conversational Tables (cTBL), a three-step encoder-decoder approach to retrieve
+tabular information and generate dialogue responses grounded on the retrieved
+information. cTBL uses Transformer encoder embeddings for Dense Table Retrieval
+and obtains up to 5% relative improvement in Top-1 and Top-3 accuracy over
+sparse retrieval on the HyrbiDialogue dataset. Additionally, cTBL performs
+tabular knowledge retrieval using both encoder and decoder models, resulting in
+up to 46% relative improvement in ROUGE scores and better human evaluation for
+response generation on HyrbiDialogue.",2023-03-21
+Code-Switching Text Generation and Injection in Mandarin-English ASR,2023-03-20 09:13:27+00:00,http://arxiv.org/abs/2303.10949v1,"Haibin Yu, Yuxuan Hu, Yao Qian, Ma Jin, Linquan Liu, Shujie Liu, Yu Shi, Yanmin Qian, Edward Lin, Michael Zeng","eess.AS, cs.CL, cs.SD",dialogue,"Code-switching speech refers to a means of expression by mixing two or more
+languages within a single utterance. Automatic Speech Recognition (ASR) with
+End-to-End (E2E) modeling for such speech can be a challenging task due to the
+lack of data. In this study, we investigate text generation and injection for
+improving the performance of an industry commonly-used streaming model,
+Transformer-Transducer (T-T), in Mandarin-English code-switching speech
+recognition. We first propose a strategy to generate code-switching text data
+and then investigate injecting generated text into T-T model explicitly by
+Text-To-Speech (TTS) conversion or implicitly by tying speech and text latent
+spaces. Experimental results on the T-T model trained with a dataset containing
+1,800 hours of real Mandarin-English code-switched speech show that our
+approaches to inject generated code-switching text significantly boost the
+performance of T-T models, i.e., 16% relative Token-based Error Rate (TER)
+reduction averaged on three evaluation sets, and the approach of tying speech
+and text latent spaces is superior to that of TTS conversion on the evaluation
+set which contains more homogeneous data with the training set.",2023-03-20
+Can AI-Generated Text be Reliably Detected?,2023-03-17 17:53:19+00:00,http://arxiv.org/abs/2303.11156v1,"Vinu Sankar Sadasivan, Aounon Kumar, Sriram Balasubramanian, Wenxiao Wang, Soheil Feizi","cs.CL, cs.AI, cs.LG",dialogue,"The rapid progress of Large Language Models (LLMs) has made them capable of
+performing astonishingly well on various tasks including document completion
+and question answering. The unregulated use of these models, however, can
+potentially lead to malicious consequences such as plagiarism, generating fake
+news, spamming, etc. Therefore, reliable detection of AI-generated text can be
+critical to ensure the responsible use of LLMs. Recent works attempt to tackle
+this problem either using certain model signatures present in the generated
+text outputs or by applying watermarking techniques that imprint specific
+patterns onto them. In this paper, both empirically and theoretically, we show
+that these detectors are not reliable in practical scenarios. Empirically, we
+show that paraphrasing attacks, where a light paraphraser is applied on top of
+the generative text model, can break a whole range of detectors, including the
+ones using the watermarking schemes as well as neural network-based detectors
+and zero-shot classifiers. We then provide a theoretical impossibility result
+indicating that for a sufficiently good language model, even the best-possible
+detector can only perform marginally better than a random classifier. Finally,
+we show that even LLMs protected by watermarking schemes can be vulnerable
+against spoofing attacks where adversarial humans can infer hidden watermarking
+signatures and add them to their generated text to be detected as text
+generated by the LLMs, potentially causing reputational damages to their
+developers. We believe these results can open an honest conversation in the
+community regarding the ethical and reliable use of AI-generated text.",2023-03-17
 "Reinforcement Learning-based Counter-Misinformation Response Generation:
   A Case Study of COVID-19 Vaccine Misinformation",2023-03-11 15:55:01+00:00,http://arxiv.org/abs/2303.06433v1,"Bing He, Mustaque Ahamad, Srijan Kumar","cs.SI, cs.LG",dialogue,"The spread of online misinformation threatens public health, democracy, and
 the broader society. While professional fact-checkers form the first line of

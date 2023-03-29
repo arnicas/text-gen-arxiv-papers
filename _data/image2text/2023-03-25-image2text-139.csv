@@ -1,4 +1,76 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+GPT is becoming a Turing machine: Here are some ways to program it,2023-03-25 00:43:41+00:00,http://arxiv.org/abs/2303.14310v1,"Ana Jojic, Zhen Wang, Nebojsa Jojic",cs.CL,image2text,"We demonstrate that, through appropriate prompting, GPT-3 family of models
+can be triggered to perform iterative behaviours necessary to execute (rather
+than just write or recall) programs that involve loops, including several
+popular algorithms found in computer science curricula or software developer
+interviews. We trigger execution and description of Iterations by Regimenting
+Self-Attention (IRSA) in one (or a combination) of three ways: 1) Using strong
+repetitive structure in an example of an execution path of a target program for
+one particular input, 2) Prompting with fragments of execution paths, and 3)
+Explicitly forbidding (skipping) self-attention to parts of the generated text.
+On a dynamic program execution, IRSA leads to larger accuracy gains than
+replacing the model with the much more powerful GPT-4. IRSA has promising
+applications in education, as the prompts and responses resemble student
+assignments in data structures and algorithms classes. Our findings hold
+implications for evaluating LLMs, which typically target the in-context
+learning: We show that prompts that may not even cover one full task example
+can trigger algorithmic behaviour, allowing solving problems previously thought
+of as hard for LLMs, such as logical puzzles. Consequently, prompt design plays
+an even more critical role in LLM performance than previously recognized.",2023-03-25
+CoBIT: A Contrastive Bi-directional Image-Text Generation Model,2023-03-23 17:24:31+00:00,http://arxiv.org/abs/2303.13455v1,"Haoxuan You, Mandy Guo, Zhecan Wang, Kai-Wei Chang, Jason Baldridge, Jiahui Yu","cs.CV, cs.CL",image2text,"The field of vision and language has witnessed a proliferation of pre-trained
+foundation models. Most existing methods are independently pre-trained with
+contrastive objective like CLIP, image-to-text generative objective like PaLI,
+or text-to-image generative objective like Parti. However, the three objectives
+can be pre-trained on the same data, image-text pairs, and intuitively they
+complement each other as contrasting provides global alignment capacity and
+generation grants fine-grained understanding. In this work, we present a
+Contrastive Bi-directional Image-Text generation model (CoBIT), which attempts
+to unify the three pre-training objectives in one framework. Specifically,
+CoBIT employs a novel unicoder-decoder structure, consisting of an image
+unicoder, a text unicoder and a cross-modal decoder. The image/text unicoders
+can switch between encoding and decoding in different tasks, enabling
+flexibility and shared knowledge that benefits both image-to-text and
+text-to-image generations. CoBIT achieves superior performance in image
+understanding, image-text understanding (Retrieval, Captioning, VQA, SNLI-VE)
+and text-based content creation, particularly in zero-shot scenarios. For
+instance, 82.7% in zero-shot ImageNet classification, 9.37 FID score in
+zero-shot text-to-image generation and 44.8 CIDEr in zero-shot captioning.",2023-03-23
+Open-Vocabulary Object Detection using Pseudo Caption Labels,2023-03-23 05:10:22+00:00,http://arxiv.org/abs/2303.13040v1,"Han-Cheol Cho, Won Young Jhoo, Wooyoung Kang, Byungseok Roh","cs.CV, cs.AI",image2text,"Recent open-vocabulary detection methods aim to detect novel objects by
+distilling knowledge from vision-language models (VLMs) trained on a vast
+amount of image-text pairs. To improve the effectiveness of these methods,
+researchers have utilized datasets with a large vocabulary that contains a
+large number of object classes, under the assumption that such data will enable
+models to extract comprehensive knowledge on the relationships between various
+objects and better generalize to unseen object classes. In this study, we argue
+that more fine-grained labels are necessary to extract richer knowledge about
+novel objects, including object attributes and relationships, in addition to
+their names. To address this challenge, we propose a simple and effective
+method named Pseudo Caption Labeling (PCL), which utilizes an image captioning
+model to generate captions that describe object instances from diverse
+perspectives. The resulting pseudo caption labels offer dense samples for
+knowledge distillation. On the LVIS benchmark, our best model trained on the
+de-duplicated VisualGenome dataset achieves an AP of 34.5 and an APr of 30.6,
+comparable to the state-of-the-art performance. PCL's simplicity and
+flexibility are other notable features, as it is a straightforward
+pre-processing technique that can be used with any image captioning model
+without imposing any restrictions on model architecture or training process.",2023-03-23
+HIVE: Harnessing Human Feedback for Instructional Visual Editing,2023-03-16 19:47:41+00:00,http://arxiv.org/abs/2303.09618v1,"Shu Zhang, Xinyi Yang, Yihao Feng, Can Qin, Chia-Chih Chen, Ning Yu, Zeyuan Chen, Huan Wang, Silvio Savarese, Stefano Ermon, Caiming Xiong, Ran Xu","cs.CV, cs.AI, cs.CL, cs.HC, cs.LG",image2text,"Incorporating human feedback has been shown to be crucial to align text
+generated by large language models to human preferences. We hypothesize that
+state-of-the-art instructional image editing models, where outputs are
+generated based on an input image and an editing instruction, could similarly
+benefit from human feedback, as their outputs may not adhere to the correct
+instructions and preferences of users. In this paper, we present a novel
+framework to harness human feedback for instructional visual editing (HIVE).
+Specifically, we collect human feedback on the edited images and learn a reward
+function to capture the underlying user preferences. We then introduce scalable
+diffusion model fine-tuning methods that can incorporate human preferences
+based on the estimated reward. Besides, to mitigate the bias brought by the
+limitation of data, we contribute a new 1M training dataset, a 3.6K reward
+dataset for rewards learning, and a 1K evaluation dataset to boost the
+performance of instructional image editing. We conduct extensive empirical
+experiments quantitatively and qualitatively, showing that HIVE is favored over
+previous state-of-the-art instructional image editing approaches by a large
+margin.",2023-03-16
 Text-to-image Diffusion Model in Generative AI: A Survey,2023-03-14 13:49:54+00:00,http://arxiv.org/abs/2303.07909v1,"Chenshuang Zhang, Chaoning Zhang, Mengchun Zhang, In So Kweon","cs.CV, cs.AI, cs.LG",image2text,"This survey reviews text-to-image diffusion models in the context that
 diffusion models have emerged to be popular for a wide range of generative
 tasks. As a self-contained work, this survey starts with a brief introduction

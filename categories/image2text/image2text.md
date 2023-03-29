@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2023-03-15*
+*written on 2023-03-29*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [GPT is becoming a Turing machine: Here are some ways to program it](http://arxiv.org/abs/2303.14310v1) | Ana Jojic, Zhen Wang, Nebojsa Jojic | cs.CL | 2023-03-25 |
+| [CoBIT: A Contrastive Bi-directional Image-Text Generation Model](http://arxiv.org/abs/2303.13455v1) | Haoxuan You, Mandy Guo, Zhecan Wang, Kai-Wei Chang, Jason Baldridge, Jiahui Yu | cs.CV, cs.CL | 2023-03-23 |
+| [Open-Vocabulary Object Detection using Pseudo Caption Labels](http://arxiv.org/abs/2303.13040v1) | Han-Cheol Cho, Won Young Jhoo, Wooyoung Kang, Byungseok Roh | cs.CV, cs.AI | 2023-03-23 |
+| [HIVE: Harnessing Human Feedback for Instructional Visual Editing](http://arxiv.org/abs/2303.09618v1) | Shu Zhang, Xinyi Yang, Yihao Feng, Can Qin, Chia-Chih Chen, Ning Yu, Zeyuan Chen, Huan Wang, Silvio Savarese, Stefano Ermon, Caiming Xiong, Ran Xu | cs.CV, cs.AI, cs.CL, cs.HC, cs.LG | 2023-03-16 |
 | [Text-to-image Diffusion Model in Generative AI: A Survey](http://arxiv.org/abs/2303.07909v1) | Chenshuang Zhang, Chaoning Zhang, Mengchun Zhang, In So Kweon | cs.CV, cs.AI, cs.LG | 2023-03-14 |
 | [Diffusion Models in NLP: A Survey](http://arxiv.org/abs/2303.07576v1) | Yuansong Zhu, Yu Zhao | cs.CL, cs.AI | 2023-03-14 |
 | [ZeroNLG: Aligning and Autoencoding Domains for Zero-Shot Multimodal and  Multilingual Natural Language Generation](http://arxiv.org/abs/2303.06458v1) | Bang Yang, Fenglin Liu, Yuexian Zou, Xian Wu, Yaowei Wang, David A. Clifton | cs.CL, cs.AI, cs.CV | 2023-03-11 |

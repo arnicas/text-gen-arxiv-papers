@@ -6,10 +6,17 @@ sidebar:
 ---
 
 
-*written on 2023-03-15*
+*written on 2023-03-29*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Large Language Models are Diverse Role-Players for Summarization  Evaluation](http://arxiv.org/abs/2303.15078v2) | Ning Wu, Ming Gong, Linjun Shou, Shining Liang, Daxin Jiang | cs.CL | 2023-03-27 |
+| [Paraphrase Detection: Human vs. Machine Content](http://arxiv.org/abs/2303.13989v1) | Jonas Becker, Jan Philip Wahle, Terry Ruas, Bela Gipp | cs.CL, cs.AI | 2023-03-24 |
+| [CoBIT: A Contrastive Bi-directional Image-Text Generation Model](http://arxiv.org/abs/2303.13455v1) | Haoxuan You, Mandy Guo, Zhecan Wang, Kai-Wei Chang, Jason Baldridge, Jiahui Yu | cs.CV, cs.CL | 2023-03-23 |
+| [Paraphrasing evades detectors of AI-generated text, but retrieval is an  effective defense](http://arxiv.org/abs/2303.13408v1) | Kalpesh Krishna, Yixiao Song, Marzena Karpinska, John Wieting, Mohit Iyyer | cs.CL, cs.CR, cs.LG | 2023-03-23 |
+| [Compositional Zero-Shot Domain Transfer with Text-to-Text Models](http://arxiv.org/abs/2303.13386v1) | Fangyu Liu, Qianchu Liu, Shruthi Bannur, Fernando Pérez-García, Naoto Usuyama, Sheng Zhang, Tristan Naumann, Aditya Nori, Hoifung Poon, Javier Alvarez-Valle, Ozan Oktay, Stephanie L. Hyland | cs.CL, cs.LG | 2023-03-23 |
+| [Language Model Behavior: A Comprehensive Survey](http://arxiv.org/abs/2303.11504v1) | Tyler A. Chang, Benjamin K. Bergen | cs.CL | 2023-03-20 |
+| [SPDF: Sparse Pre-training and Dense Fine-tuning for Large Language  Models](http://arxiv.org/abs/2303.10464v1) | Vithursan Thangarasa, Abhay Gupta, William Marshall, Tianda Li, Kevin Leong, Dennis DeCoste, Sean Lie, Shreyas Saxena | cs.LG, cs.CL | 2023-03-18 |
 | [Input-length-shortening and text generation via attention values](http://arxiv.org/abs/2303.07585v1) | Neşet Özkan Tan, Alex Yuxuan Peng, Joshua Bensemann, Qiming Bao, Tim Hartill, Mark Gahegan, Michael Witbrock | cs.CL | 2023-03-14 |
 | [Transformer-based Planning for Symbolic Regression](http://arxiv.org/abs/2303.06833v1) | Parshin Shojaee, Kazem Meidani, Amir Barati Farimani, Chandan K. Reddy | cs.LG, cs.AI | 2023-03-13 |
 | [Large Language Models as Zero-Shot Human Models for Human-Robot  Interaction](http://arxiv.org/abs/2303.03548v1) | Bowen Zhang, Harold Soh | cs.RO, cs.CL, cs.HC, cs.LG | 2023-03-06 |
