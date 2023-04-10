@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2023-03-29*
+*written on 2023-04-10*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Rolling the Dice: Imagining Generative AI as a Dungeons & Dragons  Storytelling Companion](http://arxiv.org/abs/2304.01860v1) | Jose Ma. Santiago III, Richard Lance Parayno, Jordan Aiko Deja, Briane Paul V. Samson | cs.HC, I.2.7 | 2023-04-04 |
+| [Detecting and Grounding Important Characters in Visual Stories](http://arxiv.org/abs/2303.17647v1) | Danyang Liu, Frank Keller | cs.CL, cs.CV | 2023-03-30 |
 | [Chinese Intermediate English Learners outdid ChatGPT in deep cohesion:  Evidence from English narrative writing](http://arxiv.org/abs/2303.11812v1) | Tongquan Zhou, Siyi Cao, Siruo Zhou, Yao Zhang, Aijing He | cs.CL | 2023-03-21 |
 | [DeltaScore: Evaluating Story Generation with Differentiating  Perturbations](http://arxiv.org/abs/2303.08991v1) | Zhuohan Xie, Miao Li, Trevor Cohn, Jey Han Lau | cs.CL | 2023-03-15 |
 | [Is ChatGPT a Good NLG Evaluator? A Preliminary Study](http://arxiv.org/abs/2303.04048v1) | Jiaan Wang, Yunlong Liang, Fandong Meng, Haoxiang Shi, Zhixu Li, Jinan Xu, Jianfeng Qu, Jie Zhou | cs.CL, cs.AI | 2023-03-07 |

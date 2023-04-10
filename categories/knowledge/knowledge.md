@@ -7,10 +7,15 @@ sidebar:
 ---
 
 
-*written on 2023-03-29*
+*written on 2023-04-10*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [To ChatGPT, or not to ChatGPT: That is the question!](http://arxiv.org/abs/2304.01487v2) | Alessandro Pegoraro, Kavita Kumari, Hossein Fereidooni, Ahmad-Reza Sadeghi | cs.LG, cs.AI, cs.CL | 2023-04-04 |
+| [Measuring and Manipulating Knowledge Representations in Language Models](http://arxiv.org/abs/2304.00740v1) | Evan Hernandez, Belinda Z. Li, Jacob Andreas | cs.CL | 2023-04-03 |
+| [Assessing Language Model Deployment with Risk Cards](http://arxiv.org/abs/2303.18190v1) | Leon Derczynski, Hannah Rose Kirk, Vidhisha Balachandran, Sachin Kumar, Yulia Tsvetkov, M. R. Leiser, Saif Mohammad | cs.CL | 2023-03-31 |
+| [ChatGPT or academic scientist? Distinguishing authorship with over 99%  accuracy using off-the-shelf machine learning tools](http://arxiv.org/abs/2303.16352v1) | Heather Desaire, Aleesa E. Chua, Madeline Isom, Romana Jarosova, David Hua | cs.LG, cs.CL | 2023-03-28 |
+| [On Codex Prompt Engineering for OCL Generation: An Empirical Study](http://arxiv.org/abs/2303.16244v1) | Seif Abukhalaf, Mohammad Hamdaqa, Foutse Khomh | cs.SE, cs.AI | 2023-03-28 |
 | [Large Language Models are Diverse Role-Players for Summarization  Evaluation](http://arxiv.org/abs/2303.15078v2) | Ning Wu, Ming Gong, Linjun Shou, Shining Liang, Daxin Jiang | cs.CL | 2023-03-27 |
 | [Paraphrase Detection: Human vs. Machine Content](http://arxiv.org/abs/2303.13989v1) | Jonas Becker, Jan Philip Wahle, Terry Ruas, Bela Gipp | cs.CL, cs.AI | 2023-03-24 |
 | [CoBIT: A Contrastive Bi-directional Image-Text Generation Model](http://arxiv.org/abs/2303.13455v1) | Haoxuan You, Mandy Guo, Zhecan Wang, Kai-Wei Chang, Jason Baldridge, Jiahui Yu | cs.CV, cs.CL | 2023-03-23 |

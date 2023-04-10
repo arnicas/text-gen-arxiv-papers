@@ -1,4 +1,36 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Rolling the Dice: Imagining Generative AI as a Dungeons & Dragons
+  Storytelling Companion",2023-04-04 15:09:00+00:00,http://arxiv.org/abs/2304.01860v1,"Jose Ma. Santiago III, Richard Lance Parayno, Jordan Aiko Deja, Briane Paul V. Samson","cs.HC, I.2.7",story,"AI Advancements have augmented casual writing and story generation, but their
+usage poses challenges in collaborative storytelling. In role-playing games
+such as Dungeons & Dragons (D&D), composing prompts using generative AI
+requires a technical understanding to generate ideal results, which is
+difficult for novices. Thus, emergent narratives organically developed based on
+player actions and decisions have yet to be fully utilized. This paper
+envisions the use of generative AI in transforming storytelling into an
+interactive drama using dynamic and immersive narratives. First, we describe
+scenarios where narratives are created and character conversations are designed
+within an overarching fantasy disposition. Then, we recommend design guidelines
+to help create tools using generative AI in interactive storytelling. Lastly,
+we raise questions on its potential impact on player immersion and cognitive
+load. Our contributions may be expanded within the broader interactive
+storytelling domain, such as speech-conversational AI and persona-driven
+chatbots.",2023-04-04
+Detecting and Grounding Important Characters in Visual Stories,2023-03-30 18:24:06+00:00,http://arxiv.org/abs/2303.17647v1,"Danyang Liu, Frank Keller","cs.CL, cs.CV",story,"Characters are essential to the plot of any story. Establishing the
+characters before writing a story can improve the clarity of the plot and the
+overall flow of the narrative. However, previous work on visual storytelling
+tends to focus on detecting objects in images and discovering relationships
+between them. In this approach, characters are not distinguished from other
+objects when they are fed into the generation pipeline. The result is a
+coherent sequence of events rather than a character-centric story. In order to
+address this limitation, we introduce the VIST-Character dataset, which
+provides rich character-centric annotations, including visual and textual
+co-reference chains and importance ratings for characters. Based on this
+dataset, we propose two new tasks: important character detection and character
+grounding in visual stories. For both tasks, we develop simple, unsupervised
+models based on distributional similarity and pre-trained vision-and-language
+models. Our new dataset, together with these models, can serve as the
+foundation for subsequent work on analysing and generating stories from a
+character-centric perspective.",2023-03-30
 "Chinese Intermediate English Learners outdid ChatGPT in deep cohesion:
   Evidence from English narrative writing",2023-03-21 12:55:54+00:00,http://arxiv.org/abs/2303.11812v1,"Tongquan Zhou, Siyi Cao, Siruo Zhou, Yao Zhang, Aijing He",cs.CL,story,"ChatGPT is a publicly available chatbot that can quickly generate texts on
 given topics, but it is unknown whether the chatbot is really superior to human

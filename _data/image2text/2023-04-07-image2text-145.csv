@@ -1,4 +1,107 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Opinion Mining from YouTube Captions Using ChatGPT: A Case Study of
+  Street Interviews Polling the 2023 Turkish Elections",2023-04-07 01:25:22+00:00,http://arxiv.org/abs/2304.03434v1,"Tuğrulcan Elmas, İlker Gül","cs.SI, cs.CY",image2text,"Opinion mining plays a critical role in understanding public sentiment and
+preferences, particularly in the context of political elections. Traditional
+polling methods, while useful, can be expensive and less scalable. Social media
+offers an alternative source of data for opinion mining but presents challenges
+such as noise, biases, and platform limitations in data collection. In this
+paper, we propose a novel approach for opinion mining, utilizing YouTube's
+auto-generated captions from public interviews as a data source, specifically
+focusing on the 2023 Turkish elections as a case study. We introduce an opinion
+mining framework using ChatGPT to mass-annotate voting intentions and
+motivations that represent the stance and frames prior to the election. We
+report that ChatGPT can predict the preferred candidate with 97\% accuracy and
+identify the correct voting motivation out of 13 possible choices with 71\%
+accuracy based on the data collected from 325 interviews. We conclude by
+discussing the robustness of our approach, accounting for factors such as
+captions quality, interview length, and channels. This new method will offer a
+less noisy and cost-effective alternative for opinion mining using social media
+data.",2023-04-07
+DITTO-NeRF: Diffusion-based Iterative Text To Omni-directional 3D Model,2023-04-06 02:27:22+00:00,http://arxiv.org/abs/2304.02827v1,"Hoigi Seo, Hayeon Kim, Gwanghyun Kim, Se Young Chun","cs.CV, cs.AI",image2text,"The increasing demand for high-quality 3D content creation has motivated the
+development of automated methods for creating 3D object models from a single
+image and/or from a text prompt. However, the reconstructed 3D objects using
+state-of-the-art image-to-3D methods still exhibit low correspondence to the
+given image and low multi-view consistency. Recent state-of-the-art text-to-3D
+methods are also limited, yielding 3D samples with low diversity per prompt
+with long synthesis time. To address these challenges, we propose DITTO-NeRF, a
+novel pipeline to generate a high-quality 3D NeRF model from a text prompt or a
+single image. Our DITTO-NeRF consists of constructing high-quality partial 3D
+object for limited in-boundary (IB) angles using the given or text-generated 2D
+image from the frontal view and then iteratively reconstructing the remaining
+3D NeRF using inpainting latent diffusion model. We propose progressive 3D
+object reconstruction schemes in terms of scales (low to high resolution),
+angles (IB angles initially to outer-boundary (OB) later), and masks (object to
+background boundary) in our DITTO-NeRF so that high-quality information on IB
+can be propagated into OB. Our DITTO-NeRF outperforms state-of-the-art methods
+in terms of fidelity and diversity qualitatively and quantitatively with much
+faster training times than prior arts on image/text-to-3D such as DreamFusion,
+and NeuralLift-360.",2023-04-06
+"Scalable and Accurate Self-supervised Multimodal Representation Learning
+  without Aligned Video and Text Data",2023-04-04 19:11:05+00:00,http://arxiv.org/abs/2304.02080v1,"Vladislav Lialin, Stephen Rawls, David Chan, Shalini Ghosh, Anna Rumshisky, Wael Hamza","cs.CV, cs.CL",image2text,"Scaling up weakly-supervised datasets has shown to be highly effective in the
+image-text domain and has contributed to most of the recent state-of-the-art
+computer vision and multimodal neural networks. However, existing large-scale
+video-text datasets and mining techniques suffer from several limitations, such
+as the scarcity of aligned data, the lack of diversity in the data, and the
+difficulty of collecting aligned data. Currently popular video-text data mining
+approach via automatic speech recognition (ASR) used in HowTo100M provides
+low-quality captions that often do not refer to the video content. Other mining
+approaches do not provide proper language descriptions (video tags) and are
+biased toward short clips (alt text). In this work, we show how recent advances
+in image captioning allow us to pre-train high-quality video models without any
+parallel video-text data. We pre-train several video captioning models that are
+based on an OPT language model and a TimeSformer visual backbone. We fine-tune
+these networks on several video captioning datasets. First, we demonstrate that
+image captioning pseudolabels work better for pre-training than the existing
+HowTo100M ASR captions. Second, we show that pre-training on both images and
+videos produces a significantly better network (+4 CIDER on MSR-VTT) than
+pre-training on a single modality. Our methods are complementary to the
+existing pre-training or data mining approaches and can be used in a variety of
+settings. Given the efficacy of the pseudolabeling method, we are planning to
+publicly release the generated captions.",2023-04-04
+Cross-Domain Image Captioning with Discriminative Finetuning,2023-04-04 09:33:16+00:00,http://arxiv.org/abs/2304.01662v1,"Roberto Dessì, Michele Bevilacqua, Eleonora Gualdoni, Nathanael Carraz Rakotonirina, Francesca Franzon, Marco Baroni","cs.CV, cs.AI, cs.CL",image2text,"Neural captioners are typically trained to mimic human-generated references
+without optimizing for any specific communication goal, leading to problems
+such as the generation of vague captions. In this paper, we show that
+fine-tuning an out-of-the-box neural captioner with a self-supervised
+discriminative communication objective helps to recover a plain, visually
+descriptive language that is more informative about image contents. Given a
+target image, the system must learn to produce a description that enables an
+out-of-the-box text-conditioned image retriever to identify such image among a
+set of candidates. We experiment with the popular ClipCap captioner, also
+replicating the main results with BLIP. In terms of similarity to ground-truth
+human descriptions, the captions emerging from discriminative finetuning lag
+slightly behind those generated by the non-finetuned model, when the latter is
+trained and tested on the same caption dataset. However, when the model is used
+without further tuning to generate captions for out-of-domain datasets, our
+discriminatively-finetuned captioner generates descriptions that resemble human
+references more than those produced by the same captioner without finetuning.
+We further show that, on the Conceptual Captions dataset, discriminatively
+finetuned captions are more helpful than either vanilla ClipCap captions or
+ground-truth captions for human annotators tasked with an image discrimination
+task.",2023-04-04
+Can AI Put Gamma-Ray Astrophysicists Out of a Job?,2023-03-31 07:29:47+00:00,http://arxiv.org/abs/2303.17853v2,"Samuel T. Spencer, Vikas Joshi, Alison M. W. Mitchell","physics.pop-ph, astro-ph.HE, cs.CL",image2text,"In what will likely be a litany of generative-model-themed arXiv submissions
+celebrating April the 1st, we evaluate the capacity of state-of-the-art
+transformer models to create a paper detailing the detection of a Pulsar Wind
+Nebula with a non-existent Imaging Atmospheric Cherenkov Telescope (IACT)
+Array. We do this to evaluate the ability of such models to interpret
+astronomical observations and sources based on language information alone, and
+to assess potential means by which fraudulently generated scientific papers
+could be identified during peer review (given that reliable generative model
+watermarking has yet to be deployed for these tools). We conclude that our jobs
+as astronomers are safe for the time being. From this point on, prompts given
+to ChatGPT and Stable Diffusion are shown in orange, text generated by ChatGPT
+is shown in black, whereas analysis by the (human) authors is in blue.",2023-03-31
+Prefix tuning for automated audio captioning,2023-03-30 16:01:28+00:00,http://arxiv.org/abs/2303.17489v2,"Minkyu Kim, Kim Sung-Bin, Tae-Hyun Oh","eess.AS, cs.MM, cs.SD",image2text,"Audio captioning aims to generate text descriptions from environmental
+sounds. One challenge of audio captioning is the difficulty of the
+generalization due to the lack of audio-text paired training data. In this
+work, we propose a simple yet effective method of dealing with small-scaled
+datasets by leveraging a pre-trained language model. We keep the language model
+frozen to maintain the expressivity for text generation, and we only learn to
+extract global and temporal features from the input audio. To bridge a modality
+gap between the audio features and the language model, we employ mapping
+networks that translate audio features to the continuous vectors the language
+model can understand, called prefixes. We evaluate our proposed method on the
+Clotho and AudioCaps dataset and show our method outperforms prior arts in
+diverse experimental settings.",2023-03-30
 GPT is becoming a Turing machine: Here are some ways to program it,2023-03-25 00:43:41+00:00,http://arxiv.org/abs/2303.14310v1,"Ana Jojic, Zhen Wang, Nebojsa Jojic",cs.CL,image2text,"We demonstrate that, through appropriate prompting, GPT-3 family of models
 can be triggered to perform iterative behaviours necessary to execute (rather
 than just write or recall) programs that involve loops, including several

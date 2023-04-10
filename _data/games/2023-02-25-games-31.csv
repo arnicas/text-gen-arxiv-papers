@@ -1,4 +1,18 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+On pitfalls (and advantages) of sophisticated large language models,2023-02-25 11:14:39+00:00,http://arxiv.org/abs/2303.17511v1,Anna Strasser,"cs.CY, cs.AI, cs.CL",games,"Natural language processing based on large language models (LLMs) is a
+booming field of AI research. After neural networks have proven to outperform
+humans in games and practical domains based on pattern recognition, we might
+stand now at a road junction where artificial entities might eventually enter
+the realm of human communication. However, this comes with serious risks. Due
+to the inherent limitations regarding the reliability of neural networks,
+overreliance on LLMs can have disruptive consequences. Since it will be
+increasingly difficult to distinguish between human-written and
+machine-generated text, one is confronted with new ethical challenges. This
+begins with the no longer undoubtedly verifiable human authorship and continues
+with various types of fraud, such as a new form of plagiarism. This also
+concerns the violation of privacy rights, the possibility of circulating
+counterfeits of humans, and, last but not least, it makes a massive spread of
+misinformation possible.",2023-02-25
 "Controlling Personality Style in Dialogue with Zero-Shot Prompt-Based
   Learning",2023-02-08 02:45:21+00:00,http://arxiv.org/abs/2302.03848v1,"Angela Ramirez, Mamon Alsalihy, Kartik Aggarwal, Cecilia Li, Liren Wu, Marilyn Walker",cs.CL,games,"Prompt-based or in-context learning has achieved high zero-shot performance
 on many natural language generation (NLG) tasks. Here we explore the

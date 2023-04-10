@@ -7,10 +7,17 @@ sidebar:
 ---
 
 
-*written on 2023-03-29*
+*written on 2023-04-10*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Beyond Privacy: Navigating the Opportunities and Challenges of Synthetic  Data](http://arxiv.org/abs/2304.03722v1) | Boris van Breugel, Mihaela van der Schaar | cs.LG | 2023-04-07 |
+| [Measuring and Manipulating Knowledge Representations in Language Models](http://arxiv.org/abs/2304.00740v1) | Evan Hernandez, Belinda Z. Li, Jacob Andreas | cs.CL | 2023-04-03 |
+| [Decoding the End-to-end Writing Trajectory in Scholarly Manuscripts](http://arxiv.org/abs/2304.00121v1) | Ryan Koo, Anna Martin, Linghe Wang, Dongyeop Kang | cs.CL, cs.HC | 2023-03-31 |
+| [Assessing Language Model Deployment with Risk Cards](http://arxiv.org/abs/2303.18190v1) | Leon Derczynski, Hannah Rose Kirk, Vidhisha Balachandran, Sachin Kumar, Yulia Tsvetkov, M. R. Leiser, Saif Mohammad | cs.CL | 2023-03-31 |
+| [Prefix tuning for automated audio captioning](http://arxiv.org/abs/2303.17489v2) | Minkyu Kim, Kim Sung-Bin, Tae-Hyun Oh | eess.AS, cs.MM, cs.SD | 2023-03-30 |
+| [Humans in Humans Out: On GPT Converging Toward Common Sense in both  Success and Failure](http://arxiv.org/abs/2303.17276v1) | Philipp Koralus, Vincent Wang-Maścianica | cs.AI, cs.CL, cs.HC, cs.LG, 00, 68, I.2.0; I.2.6 | 2023-03-30 |
+| [Foundation Models and Fair Use](http://arxiv.org/abs/2303.15715v1) | Peter Henderson, Xuechen Li, Dan Jurafsky, Tatsunori Hashimoto, Mark A. Lemley, Percy Liang | cs.CY, cs.AI, cs.LG | 2023-03-28 |
 | [GPT is becoming a Turing machine: Here are some ways to program it](http://arxiv.org/abs/2303.14310v1) | Ana Jojic, Zhen Wang, Nebojsa Jojic | cs.CL | 2023-03-25 |
 | [CoBIT: A Contrastive Bi-directional Image-Text Generation Model](http://arxiv.org/abs/2303.13455v1) | Haoxuan You, Mandy Guo, Zhecan Wang, Kai-Wei Chang, Jason Baldridge, Jiahui Yu | cs.CV, cs.CL | 2023-03-23 |
 | [Paraphrasing evades detectors of AI-generated text, but retrieval is an  effective defense](http://arxiv.org/abs/2303.13408v1) | Kalpesh Krishna, Yixiao Song, Marzena Karpinska, John Wieting, Mohit Iyyer | cs.CL, cs.CR, cs.LG | 2023-03-23 |
