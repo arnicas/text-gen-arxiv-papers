@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2023-04-10*
+*written on 2023-04-26*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Which Factors Predict the Chat Experience of a Natural Language  Generation Dialogue Service?](http://arxiv.org/abs/2304.10785v1) | Eason Chen | cs.CL, cs.HC | 2023-04-21 |
+| [An In-depth Investigation of User Response Simulation for Conversational  Search](http://arxiv.org/abs/2304.07944v1) | Zhenduo Wang, Zhichao Xu, Qingyao Ai, Vivek Srikumar | cs.IR | 2023-04-17 |
+| [Emergent autonomous scientific research capabilities of large language  models](http://arxiv.org/abs/2304.05332v1) | Daniil A. Boiko, Robert MacKnight, Gabe Gomes | physics.chem-ph, cs.CL | 2023-04-11 |
 | [Pragmatically Appropriate Diversity for Dialogue Evaluation](http://arxiv.org/abs/2304.02812v1) | Katherine Stasaski, Marti A. Hearst | cs.CL | 2023-04-06 |
 | [Dialog-to-Actions: Building Task-Oriented Dialogue System via  Action-Level Generation](http://arxiv.org/abs/2304.00884v1) | Yuncheng Hua, Xiangyu Xi, Zheng Jiang, Guanwei Zhang, Chaobo Sun, Guanglu Wan, Wei Ye | cs.CL | 2023-04-03 |
 | [PK-Chat: Pointer Network Guided Knowledge Driven Generative Dialogue  Model](http://arxiv.org/abs/2304.00592v1) | Cheng Deng, Bo Tong, Luoyi Fu, Jiaxin Ding, Dexing Cao, Xinbing Wang, Chenghu Zhou | cs.CL, I.2.7; F.4.1 | 2023-04-02 |

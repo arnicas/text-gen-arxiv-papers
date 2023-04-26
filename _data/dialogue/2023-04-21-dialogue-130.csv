@@ -1,4 +1,58 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Which Factors Predict the Chat Experience of a Natural Language
+  Generation Dialogue Service?",2023-04-21 07:29:07+00:00,http://arxiv.org/abs/2304.10785v1,Eason Chen,"cs.CL, cs.HC",dialogue,"In this paper, we proposed a conceptual model to predict the chat experience
+in a natural language generation dialog system. We evaluated the model with 120
+participants with Partial Least Squares Structural Equation Modeling (PLS-SEM)
+and obtained an R-square (R2) with 0.541. The model considers various factors,
+including the prompts used for generation; coherence, sentiment, and similarity
+in the conversation; and users' perceived dialog agents' favorability. We then
+further explore the effectiveness of the subset of our proposed model. The
+results showed that users' favorability and coherence, sentiment, and
+similarity in the dialogue are positive predictors of users' chat experience.
+Moreover, we found users may prefer dialog agents with characteristics of
+Extroversion, Openness, Conscientiousness, Agreeableness, and Non-Neuroticism.
+Through our research, an adaptive dialog system might use collected data to
+infer factors in our model, predict the chat experience for users through these
+factors, and optimize it by adjusting prompts.",2023-04-21
+"An In-depth Investigation of User Response Simulation for Conversational
+  Search",2023-04-17 01:55:40+00:00,http://arxiv.org/abs/2304.07944v1,"Zhenduo Wang, Zhichao Xu, Qingyao Ai, Vivek Srikumar",cs.IR,dialogue,"Conversational search has seen increased recent attention in both the IR and
+NLP communities. It seeks to clarify and solve a user's search need through
+multi-turn natural language interactions. However, most existing systems are
+trained and demonstrated with recorded or artificial conversation logs.
+Eventually, conversational search systems should be trained, evaluated, and
+deployed in an open-ended setting with unseen conversation trajectories. A key
+challenge is that training and evaluating such systems both require a
+human-in-the-loop, which is expensive and does not scale. One strategy for this
+is to simulate users, thereby reducing the scaling costs. However, current user
+simulators are either limited to only respond to yes-no questions from the
+conversational search system, or unable to produce high quality responses in
+general.
+  In this paper, we show that current state-of-the-art user simulation system
+could be significantly improved by replacing it with a smaller but advanced
+natural language generation model. But rather than merely reporting this new
+state-of-the-art, we present an in-depth investigation of the task of
+simulating user response for conversational search. Our goal is to supplement
+existing works with an insightful hand-analysis of what challenges are still
+unsolved by the advanced model, as well as to propose our solutions for them.
+The challenges we identified include (1) dataset noise, (2) a blind spot that
+is difficult for existing models to learn, and (3) a specific type of
+misevaluation in the standard empirical setup. Except for the dataset noise
+issue, we propose solutions to cover the training blind spot and to avoid the
+misevaluation. Our proposed solutions lead to further improvements. Our best
+system improves the previous state-of-the-art significantly.",2023-04-17
+"Emergent autonomous scientific research capabilities of large language
+  models",2023-04-11 16:50:17+00:00,http://arxiv.org/abs/2304.05332v1,"Daniil A. Boiko, Robert MacKnight, Gabe Gomes","physics.chem-ph, cs.CL",dialogue,"Transformer-based large language models are rapidly advancing in the field of
+machine learning research, with applications spanning natural language,
+biology, chemistry, and computer programming. Extreme scaling and reinforcement
+learning from human feedback have significantly improved the quality of
+generated text, enabling these models to perform various tasks and reason about
+their choices. In this paper, we present an Intelligent Agent system that
+combines multiple large language models for autonomous design, planning, and
+execution of scientific experiments. We showcase the Agent's scientific
+research capabilities with three distinct examples, with the most complex being
+the successful performance of catalyzed cross-coupling reactions. Finally, we
+discuss the safety implications of such systems and propose measures to prevent
+their misuse.",2023-04-11
 Pragmatically Appropriate Diversity for Dialogue Evaluation,2023-04-06 01:24:18+00:00,http://arxiv.org/abs/2304.02812v1,"Katherine Stasaski, Marti A. Hearst",cs.CL,dialogue,"Linguistic pragmatics state that a conversation's underlying speech acts can
 constrain the type of response which is appropriate at each turn in the
 conversation. When generating dialogue responses, neural dialogue agents

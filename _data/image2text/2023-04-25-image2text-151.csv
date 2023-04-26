@@ -1,4 +1,120 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+RenderDiffusion: Text Generation as Image Generation,2023-04-25 02:14:44+00:00,http://arxiv.org/abs/2304.12519v1,"Junyi Li, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen","cs.CL, cs.CV, cs.LG",image2text,"Diffusion models have become a new generative paradigm for text generation.
+Considering the discrete categorical nature of text, in this paper, we propose
+\textsc{RenderDiffusion}, a novel diffusion approach for text generation via
+text-guided image generation. Our key idea is to render the target text as a
+\emph{glyph image} containing visual language content. In this way, conditional
+text generation can be cast as a glyph image generation task, and it is then
+natural to apply continuous diffusion models to discrete texts. Specially, we
+utilize a cascaded architecture (\ie a base and a super-resolution diffusion
+model) to generate high-fidelity glyph images, conditioned on the input text.
+Furthermore, we design a text grounding module to transform and refine the
+visual language content from generated glyph images into the final texts. In
+experiments over four conditional text generation tasks and two classes of
+metrics (\ie quality and diversity), \textsc{RenderDiffusion} can achieve
+comparable or even better results than several baselines, including pretrained
+language models. Our model also makes significant improvements compared to the
+recent diffusion model.",2023-04-25
+Token Imbalance Adaptation for Radiology Report Generation,2023-04-18 23:09:36+00:00,http://arxiv.org/abs/2304.09185v1,"Yuexin Wu, I-Chan Huang, Xiaolei Huang","cs.CL, cs.AI",image2text,"Imbalanced token distributions naturally exist in text documents, leading
+neural language models to overfit on frequent tokens. The token imbalance may
+dampen the robustness of radiology report generators, as complex medical terms
+appear less frequently but reflect more medical information. In this study, we
+demonstrate how current state-of-the-art models fail to generate infrequent
+tokens on two standard benchmark datasets (IU X-RAY and MIMIC-CXR) of radiology
+report generation. % However, no prior study has proposed methods to adapt
+infrequent tokens for text generators feeding with medical images. To solve the
+challenge, we propose the \textbf{T}oken \textbf{Im}balance Adapt\textbf{er}
+(\textit{TIMER}), aiming to improve generation robustness on infrequent tokens.
+The model automatically leverages token imbalance by an unlikelihood loss and
+dynamically optimizes generation processes to augment infrequent tokens. We
+compare our approach with multiple state-of-the-art methods on the two
+benchmarks. Experiments demonstrate the effectiveness of our approach in
+enhancing model robustness overall and infrequent tokens. Our ablation analysis
+shows that our reinforcement learning method has a major effect in adapting
+token imbalance for radiology report generation.",2023-04-18
+"VALOR: Vision-Audio-Language Omni-Perception Pretraining Model and
+  Dataset",2023-04-17 15:08:15+00:00,http://arxiv.org/abs/2304.08345v1,"Sihan Chen, Xingjian He, Longteng Guo, Xinxin Zhu, Weining Wang, Jinhui Tang, Jing Liu","cs.LG, cs.CL, cs.CV, cs.MM, eess.AS",image2text,"In this paper, we propose a Vision-Audio-Language Omni-peRception pretraining
+model (VALOR) for multi-modal understanding and generation. Different from
+widely-studied vision-language pretraining models, VALOR jointly models
+relationships of vision, audio and language in an end-to-end manner. It
+contains three separate encoders for single modality representations, and a
+decoder for multimodal conditional text generation. We design two pretext tasks
+to pretrain VALOR model, including Multimodal Grouping Alignment (MGA) and
+Multimodal Grouping Captioning (MGC). MGA projects vision, language and audio
+to the same common space, building vision-language, audio-language and
+audiovisual-language alignment simultaneously. MGC learns how to generate text
+tokens in conditions of vision, audio or their both. To promote
+vision-audio-language pretraining research, we construct a large-scale
+high-quality tri-modality dataset named VALOR-1M, which contains 1M audiable
+videos with human annotated audiovisual captions. Extensive experiments show
+that VALOR can learn strong multimodal correlations and be generalized to
+various downstream tasks (e.g., retrieval, captioning and question answering),
+with different input modalities (e.g., vision-language, audio-language and
+audiovisual-language). VALOR achieves new state-of-the-art performances on
+series of public cross-modality benchmarks. Code and data are available at
+project page https://casia-iva-group.github.io/projects/VALOR.",2023-04-17
+Improving Diffusion Models for Scene Text Editing with Dual Encoders,2023-04-12 02:08:34+00:00,http://arxiv.org/abs/2304.05568v1,"Jiabao Ji, Guanhua Zhang, Zhaowen Wang, Bairu Hou, Zhifei Zhang, Brian Price, Shiyu Chang","cs.CV, cs.AI",image2text,"Scene text editing is a challenging task that involves modifying or inserting
+specified texts in an image while maintaining its natural and realistic
+appearance. Most previous approaches to this task rely on style-transfer models
+that crop out text regions and feed them into image transfer models, such as
+GANs. However, these methods are limited in their ability to change text style
+and are unable to insert texts into images. Recent advances in diffusion models
+have shown promise in overcoming these limitations with text-conditional image
+editing. However, our empirical analysis reveals that state-of-the-art
+diffusion models struggle with rendering correct text and controlling text
+style. To address these problems, we propose DIFFSTE to improve pre-trained
+diffusion models with a dual encoder design, which includes a character encoder
+for better text legibility and an instruction encoder for better style control.
+An instruction tuning framework is introduced to train our model to learn the
+mapping from the text instruction to the corresponding image with either the
+specified style or the style of the surrounding texts in the background. Such a
+training method further brings our method the zero-shot generalization ability
+to the following three scenarios: generating text with unseen font variation,
+e.g., italic and bold, mixing different fonts to construct a new font, and
+using more relaxed forms of natural language as the instructions to guide the
+generation task. We evaluate our approach on five datasets and demonstrate its
+superior performance in terms of text correctness, image naturalness, and style
+controllability. Our code is publicly available.
+https://github.com/UCSB-NLP-Chang/DiffSTE",2023-04-12
+"ImageCaptioner$^2$: Image Captioner for Image Captioning Bias
+  Amplification Assessment",2023-04-10 21:40:46+00:00,http://arxiv.org/abs/2304.04874v1,"Eslam Mohamed Bakr, Pengzhan Sun, Li Erran Li, Mohamed Elhoseiny","cs.CV, cs.AI, cs.LG",image2text,"Most pre-trained learning systems are known to suffer from bias, which
+typically emerges from the data, the model, or both. Measuring and quantifying
+bias and its sources is a challenging task and has been extensively studied in
+image captioning. Despite the significant effort in this direction, we observed
+that existing metrics lack consistency in the inclusion of the visual signal.
+In this paper, we introduce a new bias assessment metric, dubbed
+$ImageCaptioner^2$, for image captioning. Instead of measuring the absolute
+bias in the model or the data, $ImageCaptioner^2$ pay more attention to the
+bias introduced by the model w.r.t the data bias, termed bias amplification.
+Unlike the existing methods, which only evaluate the image captioning
+algorithms based on the generated captions only, $ImageCaptioner^2$
+incorporates the image while measuring the bias. In addition, we design a
+formulation for measuring the bias of generated captions as prompt-based image
+captioning instead of using language classifiers. Finally, we apply our
+$ImageCaptioner^2$ metric across 11 different image captioning architectures on
+three different datasets, i.e., MS-COCO caption dataset, Artemis V1, and
+Artemis V2, and on three different protected attributes, i.e., gender, race,
+and emotions. Consequently, we verify the effectiveness of our
+$ImageCaptioner^2$ metric by proposing AnonymousBench, which is a novel human
+evaluation paradigm for bias metrics. Our metric shows significant superiority
+over the recent bias metric; LIC, in terms of human alignment, where the
+correlation scores are 80% and 54% for our metric and LIC, respectively. The
+code is available at https://eslambakr.github.io/imagecaptioner2.github.io/.",2023-04-10
+Video ChatCaptioner: Towards Enriched Spatiotemporal Descriptions,2023-04-09 12:46:18+00:00,http://arxiv.org/abs/2304.04227v2,"Jun Chen, Deyao Zhu, Kilichbek Haydarov, Xiang Li, Mohamed Elhoseiny","cs.CV, cs.AI",image2text,"Video captioning aims to convey dynamic scenes from videos using natural
+language, facilitating the understanding of spatiotemporal information within
+our environment. Although there have been recent advances, generating detailed
+and enriched video descriptions continues to be a substantial challenge. In
+this work, we introduce Video ChatCaptioner, an innovative approach for
+creating more comprehensive spatiotemporal video descriptions. Our method
+employs a ChatGPT model as a controller, specifically designed to select frames
+for posing video content-driven questions. Subsequently, a robust algorithm is
+utilized to answer these visual queries. This question-answer framework
+effectively uncovers intricate video details and shows promise as a method for
+enhancing video content. Following multiple conversational rounds, ChatGPT can
+summarize enriched video content based on previous conversations. We
+qualitatively demonstrate that our Video ChatCaptioner can generate captions
+containing more visual details about the videos. The code is publicly available
+at https://github.com/Vision-CAIR/ChatCaptioner",2023-04-09
 "Opinion Mining from YouTube Captions Using ChatGPT: A Case Study of
   Street Interviews Polling the 2023 Turkish Elections",2023-04-07 01:25:22+00:00,http://arxiv.org/abs/2304.03434v1,"Tuğrulcan Elmas, İlker Gül","cs.SI, cs.CY",image2text,"Opinion mining plays a critical role in understanding public sentiment and
 preferences, particularly in the context of political elections. Traditional

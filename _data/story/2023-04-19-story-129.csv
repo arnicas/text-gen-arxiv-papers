@@ -1,4 +1,36 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Controlling keywords and their positions in text generation,2023-04-19 09:11:45+00:00,http://arxiv.org/abs/2304.09516v1,"Yuichi Sasazawa, Terufumi Morishita, Hiroaki Ozaki, Osamu Imaichi, Yasuhiro Sogawa",cs.CL,story,"One of the challenges in text generation is to control generation as intended
+by a user. Previous studies have proposed to specify the keywords that should
+be included in the generated text. However, this is insufficient to generate
+text which reflect the user intent. For example, placing the important keyword
+beginning of the text would helps attract the reader's attention, but existing
+methods do not enable such flexible control. In this paper, we tackle a novel
+task of controlling not only keywords but also the position of each keyword in
+the text generation. To this end, we show that a method using special tokens
+can control the relative position of keywords. Experimental results on
+summarization and story generation tasks show that the proposed method can
+control keywords and their positions. We also demonstrate that controlling the
+keyword positions can generate summary texts that are closer to the user's
+intent than baseline. We release our code.",2023-04-19
+"LongForm: Optimizing Instruction Tuning for Long Text Generation with
+  Corpus Extraction",2023-04-17 17:36:35+00:00,http://arxiv.org/abs/2304.08460v1,"Abdullatif Köksal, Timo Schick, Anna Korhonen, Hinrich Schütze","cs.CL, cs.AI, cs.LG",story,"Instruction tuning enables language models to generalize more effectively and
+better follow user intent. However, obtaining instruction data can be costly
+and challenging. Prior works employ methods such as expensive human annotation,
+crowd-sourced datasets with alignment issues, or generating noisy examples via
+LLMs. We introduce the LongForm dataset, which is created by leveraging English
+corpus examples with augmented instructions. We select a diverse set of
+human-written documents from existing corpora such as C4 and Wikipedia and
+generate instructions for the given documents via LLMs. This approach provides
+a cheaper and cleaner instruction-tuning dataset and one suitable for long text
+generation. We finetune T5, OPT, and LLaMA models on our dataset and show that
+even smaller LongForm models have good generalization capabilities for text
+generation. Our models outperform 10x larger language models without
+instruction tuning on various tasks such as story/recipe generation and
+long-form question answering. Moreover, LongForm models outperform prior
+instruction-tuned models such as FLAN-T5 and Alpaca by a large margin. Finally,
+our models can effectively follow and answer multilingual instructions; we
+demonstrate this for news generation. We publicly release our data and models:
+https://github.com/akoksal/LongForm.",2023-04-17
 "Rolling the Dice: Imagining Generative AI as a Dungeons & Dragons
   Storytelling Companion",2023-04-04 15:09:00+00:00,http://arxiv.org/abs/2304.01860v1,"Jose Ma. Santiago III, Richard Lance Parayno, Jordan Aiko Deja, Briane Paul V. Samson","cs.HC, I.2.7",story,"AI Advancements have augmented casual writing and story generation, but their
 usage poses challenges in collaborative storytelling. In role-playing games

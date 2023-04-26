@@ -1,4 +1,233 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Evaluating Inter-Bilingual Semantic Parsing for Indian Languages,2023-04-25 17:24:32+00:00,http://arxiv.org/abs/2304.13005v1,"Divyanshu Aggarwal, Vivek Gupta, Anoop Kunchukuttan",cs.CL,table2text,"Despite significant progress in Natural Language Generation for Indian
+languages (IndicNLP), there is a lack of datasets around complex structured
+tasks such as semantic parsing. One reason for this imminent gap is the
+complexity of the logical form, which makes English to multilingual translation
+difficult. The process involves alignment of logical forms, intents and slots
+with translated unstructured utterance. To address this, we propose an
+Inter-bilingual Seq2seq Semantic parsing dataset IE-SEMPARSE for 11 distinct
+Indian languages. We highlight the proposed task's practicality, and evaluate
+existing multilingual seq2seq models across several train-test strategies. Our
+experiment reveals a high correlation across performance of original
+multilingual semantic parsing datasets (such as mTOP, multilingual TOP and
+multiATIS++) and our proposed IE-SEMPARSE suite.",2023-04-25
+"Which Factors Predict the Chat Experience of a Natural Language
+  Generation Dialogue Service?",2023-04-21 07:29:07+00:00,http://arxiv.org/abs/2304.10785v1,Eason Chen,"cs.CL, cs.HC",table2text,"In this paper, we proposed a conceptual model to predict the chat experience
+in a natural language generation dialog system. We evaluated the model with 120
+participants with Partial Least Squares Structural Equation Modeling (PLS-SEM)
+and obtained an R-square (R2) with 0.541. The model considers various factors,
+including the prompts used for generation; coherence, sentiment, and similarity
+in the conversation; and users' perceived dialog agents' favorability. We then
+further explore the effectiveness of the subset of our proposed model. The
+results showed that users' favorability and coherence, sentiment, and
+similarity in the dialogue are positive predictors of users' chat experience.
+Moreover, we found users may prefer dialog agents with characteristics of
+Extroversion, Openness, Conscientiousness, Agreeableness, and Non-Neuroticism.
+Through our research, an adaptive dialog system might use collected data to
+infer factors in our model, predict the chat experience for users through these
+factors, and optimize it by adjusting prompts.",2023-04-21
+"Multi-aspect Repetition Suppression and Content Moderation of Large
+  Language Models",2023-04-20 19:17:49+00:00,http://arxiv.org/abs/2304.10611v1,"Minghui Zhang, Alex Sokolov, Weixin Cai, Si-Qing Chen","cs.CL, cs.LG",table2text,"Natural language generation is one of the most impactful fields in NLP, and
+recent years have witnessed its evolution brought about by large language
+models (LLMs). As the key instrument for writing assistance applications, they
+are generally prone to replicating or extending offensive content provided in
+the input. In low-resource data regime, they can also lead to repetitive
+outputs (Holtzman et al., 2019) [1]. Usually, offensive content and repetitions
+are mitigated with post-hoc methods, including n-gram level blocklists, top-k
+and nucleus sampling. In this paper, we introduce a combination of exact and
+non-exact repetition suppression using token and sequence level unlikelihood
+loss, repetition penalty during training, inference, and post-processing
+respectively. We further explore multi-level unlikelihood loss to the extent
+that it endows the model with abilities to avoid generating offensive words and
+phrases from the beginning. Finally, with comprehensive experiments, we
+demonstrate that our proposed methods work exceptionally in controlling the
+repetition and content quality of LLM outputs.",2023-04-20
+GPT-NER: Named Entity Recognition via Large Language Models,2023-04-20 16:17:26+00:00,http://arxiv.org/abs/2304.10428v1,"Shuhe Wang, Xiaofei Sun, Xiaoya Li, Rongbin Ouyang, Fei Wu, Tianwei Zhang, Jiwei Li, Guoyin Wang",cs.CL,table2text,"Despite the fact that large-scale Language Models (LLM) have achieved SOTA
+performances on a variety of NLP tasks, its performance on NER is still
+significantly below supervised baselines. This is due to the gap between the
+two tasks the NER and LLMs: the former is a sequence labeling task in nature
+while the latter is a text-generation model.
+  In this paper, we propose GPT-NER to resolve this issue. GPT-NER bridges the
+gap by transforming the sequence labeling task to a generation task that can be
+easily adapted by LLMs e.g., the task of finding location entities in the input
+text ""Columbus is a city"" is transformed to generate the text sequence
+""@@Columbus## is a city"", where special tokens @@## marks the entity to
+extract. To efficiently address the ""hallucination"" issue of LLMs, where LLMs
+have a strong inclination to over-confidently label NULL inputs as entities, we
+propose a self-verification strategy by prompting LLMs to ask itself whether
+the extracted entities belong to a labeled entity tag.
+  We conduct experiments on five widely adopted NER datasets, and GPT-NER
+achieves comparable performances to fully supervised baselines, which is the
+first time as far as we are concerned. More importantly, we find that GPT-NER
+exhibits a greater ability in the low-resource and few-shot setups, when the
+amount of training data is extremely scarce, GPT-NER performs significantly
+better than supervised models. This demonstrates the capabilities of GPT-NER in
+real-world NER applications where the number of labeled examples is limited.",2023-04-20
+"Towards Zero-Shot Personalized Table-to-Text Generation with Contrastive
+  Persona Distillation",2023-04-18 11:32:33+00:00,http://arxiv.org/abs/2304.08911v1,"Haolan Zhan, Xuming Lin, Shaobo Cui, Zhongzhou Zhao, Wei Zhou, Haiqing Chen",cs.CL,table2text,"Existing neural methods have shown great potentials towards generating
+informative text from structured tabular data as well as maintaining high
+content fidelity. However, few of them shed light on generating personalized
+expressions, which often requires well-aligned persona-table-text datasets that
+are difficult to obtain. To overcome these obstacles, we explore personalized
+table-to-text generation under a zero-shot setting, by assuming no well-aligned
+persona-table-text triples are required during training. To this end, we
+firstly collect a set of unpaired persona information and then propose a
+semi-supervised approach with contrastive persona distillation (S2P-CPD) to
+generate personalized context. Specifically, tabular data and persona
+information are firstly represented as latent variables separately. Then, we
+devise a latent space fusion technique to distill persona information into the
+table representation. Besides, a contrastive-based discriminator is employed to
+guarantee the style consistency between the generated context and its
+corresponding persona. Experimental results on two benchmarks demonstrate
+S2P-CPD's ability on keeping both content fidelity and personalized
+expressions.",2023-04-18
+"LongForm: Optimizing Instruction Tuning for Long Text Generation with
+  Corpus Extraction",2023-04-17 17:36:35+00:00,http://arxiv.org/abs/2304.08460v1,"Abdullatif Köksal, Timo Schick, Anna Korhonen, Hinrich Schütze","cs.CL, cs.AI, cs.LG",table2text,"Instruction tuning enables language models to generalize more effectively and
+better follow user intent. However, obtaining instruction data can be costly
+and challenging. Prior works employ methods such as expensive human annotation,
+crowd-sourced datasets with alignment issues, or generating noisy examples via
+LLMs. We introduce the LongForm dataset, which is created by leveraging English
+corpus examples with augmented instructions. We select a diverse set of
+human-written documents from existing corpora such as C4 and Wikipedia and
+generate instructions for the given documents via LLMs. This approach provides
+a cheaper and cleaner instruction-tuning dataset and one suitable for long text
+generation. We finetune T5, OPT, and LLaMA models on our dataset and show that
+even smaller LongForm models have good generalization capabilities for text
+generation. Our models outperform 10x larger language models without
+instruction tuning on various tasks such as story/recipe generation and
+long-form question answering. Moreover, LongForm models outperform prior
+instruction-tuned models such as FLAN-T5 and Alpaca by a large margin. Finally,
+our models can effectively follow and answer multilingual instructions; we
+demonstrate this for news generation. We publicly release our data and models:
+https://github.com/akoksal/LongForm.",2023-04-17
+"VALOR: Vision-Audio-Language Omni-Perception Pretraining Model and
+  Dataset",2023-04-17 15:08:15+00:00,http://arxiv.org/abs/2304.08345v1,"Sihan Chen, Xingjian He, Longteng Guo, Xinxin Zhu, Weining Wang, Jinhui Tang, Jing Liu","cs.LG, cs.CL, cs.CV, cs.MM, eess.AS",table2text,"In this paper, we propose a Vision-Audio-Language Omni-peRception pretraining
+model (VALOR) for multi-modal understanding and generation. Different from
+widely-studied vision-language pretraining models, VALOR jointly models
+relationships of vision, audio and language in an end-to-end manner. It
+contains three separate encoders for single modality representations, and a
+decoder for multimodal conditional text generation. We design two pretext tasks
+to pretrain VALOR model, including Multimodal Grouping Alignment (MGA) and
+Multimodal Grouping Captioning (MGC). MGA projects vision, language and audio
+to the same common space, building vision-language, audio-language and
+audiovisual-language alignment simultaneously. MGC learns how to generate text
+tokens in conditions of vision, audio or their both. To promote
+vision-audio-language pretraining research, we construct a large-scale
+high-quality tri-modality dataset named VALOR-1M, which contains 1M audiable
+videos with human annotated audiovisual captions. Extensive experiments show
+that VALOR can learn strong multimodal correlations and be generalized to
+various downstream tasks (e.g., retrieval, captioning and question answering),
+with different input modalities (e.g., vision-language, audio-language and
+audiovisual-language). VALOR achieves new state-of-the-art performances on
+series of public cross-modality benchmarks. Code and data are available at
+project page https://casia-iva-group.github.io/projects/VALOR.",2023-04-17
+"VISAR: A Human-AI Argumentative Writing Assistant with Visual
+  Programming and Rapid Draft Prototyping",2023-04-16 15:29:03+00:00,http://arxiv.org/abs/2304.07810v1,"Zheng Zhang, Jie Gao, Ranjodh Singh Dhaliwal, Toby Jia-Jun Li","cs.HC, cs.AI, cs.CL, cs.LG",table2text,"In argumentative writing, writers must brainstorm hierarchical writing goals,
+ensure the persuasiveness of their arguments, and revise and organize their
+plans through drafting. Recent advances in large language models (LLMs) have
+made interactive text generation through a chat interface (e.g., ChatGPT)
+possible. However, this approach often neglects implicit writing context and
+user intent, lacks support for user control and autonomy, and provides limited
+assistance for sensemaking and revising writing plans. To address these
+challenges, we introduce VISAR, an AI-enabled writing assistant system designed
+to help writers brainstorm and revise hierarchical goals within their writing
+context, organize argument structures through synchronized text editing and
+visual programming, and enhance persuasiveness with argumentation spark
+recommendations. VISAR allows users to explore, experiment with, and validate
+their writing plans using automatic draft prototyping. A controlled lab study
+confirmed the usability and effectiveness of VISAR in facilitating the
+argumentative writing planning process.",2023-04-16
+"ArguGPT: evaluating, understanding and identifying argumentative essays
+  generated by GPT models",2023-04-16 01:50:26+00:00,http://arxiv.org/abs/2304.07666v1,"Yikang Liu, Ziyin Zhang, Wanyang Zhang, Shisen Yue, Xiaojing Zhao, Xinyuan Cheng, Yiwen Zhang, Hai Hu",cs.CL,table2text,"AI generated content (AIGC) presents considerable challenge to educators
+around the world. Instructors need to be able to detect such text generated by
+large language models, either with the naked eye or with the help of some
+tools. There is also growing need to understand the lexical, syntactic and
+stylistic features of AIGC. To address these challenges in English language
+teaching, we first present ArguGPT, a balanced corpus of 4,038 argumentative
+essays generated by 7 GPT models in response to essay prompts from three
+sources: (1) in-class or homework exercises, (2) TOEFL and (3) GRE writing
+tasks. Machine-generated texts are paired with roughly equal number of
+human-written essays with three score levels matched in essay prompts. We then
+hire English instructors to distinguish machine essays from human ones. Results
+show that when first exposed to machine-generated essays, the instructors only
+have an accuracy of 61% in detecting them. But the number rises to 67% after
+one round of minimal self-training. Next, we perform linguistic analyses of
+these essays, which show that machines produce sentences with more complex
+syntactic structures while human essays tend to be lexically more complex.
+Finally, we test existing AIGC detectors and build our own detectors using SVMs
+and RoBERTa. Results suggest that a RoBERTa fine-tuned with the training set of
+ArguGPT achieves above 90% accuracy in both essay- and sentence-level
+classification. To the best of our knowledge, this is the first comprehensive
+analysis of argumentative essays produced by generative large language models.
+Machine-authored essays in ArguGPT and our models will be made publicly
+available at https://github.com/huhailinguist/ArguGPT",2023-04-16
+"ChatGPT Beyond English: Towards a Comprehensive Evaluation of Large
+  Language Models in Multilingual Learning",2023-04-12 05:08:52+00:00,http://arxiv.org/abs/2304.05613v1,"Viet Dac Lai, Nghia Trung Ngo, Amir Pouran Ben Veyseh, Hieu Man, Franck Dernoncourt, Trung Bui, Thien Huu Nguyen","cs.CL, cs.AI",table2text,"Over the last few years, large language models (LLMs) have emerged as the
+most important breakthroughs in natural language processing (NLP) that
+fundamentally transform research and developments in the field. ChatGPT
+represents one of the most exciting LLM systems developed recently to showcase
+impressive skills for language generation and highly attract public attention.
+Among various exciting applications discovered for ChatGPT in English, the
+model can process and generate texts for multiple languages due to its
+multilingual training data. Given the broad adoption of ChatGPT for English in
+different problems and areas, a natural question is whether ChatGPT can also be
+applied effectively for other languages or it is necessary to develop more
+language-specific technologies. The answer to this question requires a thorough
+evaluation of ChatGPT over multiple tasks with diverse languages and large
+datasets (i.e., beyond reported anecdotes), which is still missing or limited
+in current research. Our work aims to fill this gap for the evaluation of
+ChatGPT and similar LLMs to provide more comprehensive information for
+multilingual NLP applications. While this work will be an ongoing effort to
+include additional experiments in the future, our current paper evaluates
+ChatGPT on 7 different tasks, covering 37 diverse languages with high, medium,
+low, and extremely low resources. We also focus on the zero-shot learning
+setting for ChatGPT to improve reproducibility and better simulate the
+interactions of general users. Compared to the performance of previous models,
+our extensive experimental results demonstrate a worse performance of ChatGPT
+for different NLP tasks and languages, calling for further research to develop
+better models and understanding for multilingual learning.",2023-04-12
+Automated Reading Passage Generation with OpenAI's Large Language Model,2023-04-10 14:30:39+00:00,http://arxiv.org/abs/2304.04616v1,"Ummugul Bezirhan, Matthias von Davier","cs.CL, cs.AI",table2text,"The widespread usage of computer-based assessments and individualized
+learning platforms has resulted in an increased demand for the rapid production
+of high-quality items. Automated item generation (AIG), the process of using
+item models to generate new items with the help of computer technology, was
+proposed to reduce reliance on human subject experts at each step of the
+process. AIG has been used in test development for some time. Still, the use of
+machine learning algorithms has introduced the potential to improve the
+efficiency and effectiveness of the process greatly. The approach presented in
+this paper utilizes OpenAI's latest transformer-based language model, GPT-3, to
+generate reading passages. Existing reading passages were used in carefully
+engineered prompts to ensure the AI-generated text has similar content and
+structure to a fourth-grade reading passage. For each prompt, we generated
+multiple passages, the final passage was selected according to the Lexile score
+agreement with the original passage. In the final round, the selected passage
+went through a simple revision by a human editor to ensure the text was free of
+any grammatical and factual errors. All AI-generated passages, along with
+original passages were evaluated by human judges according to their coherence,
+appropriateness to fourth graders, and readability.",2023-04-10
+"Decoder-Only or Encoder-Decoder? Interpreting Language Model as a
+  Regularized Encoder-Decoder",2023-04-08 15:44:29+00:00,http://arxiv.org/abs/2304.04052v1,"Zihao Fu, Wai Lam, Qian Yu, Anthony Man-Cho So, Shengding Hu, Zhiyuan Liu, Nigel Collier","cs.CL, cs.AI, cs.LG",table2text,"The sequence-to-sequence (seq2seq) task aims at generating the target
+sequence based on the given input source sequence. Traditionally, most of the
+seq2seq task is resolved by the Encoder-Decoder framework which requires an
+encoder to encode the source sequence and a decoder to generate the target
+text. Recently, a bunch of new approaches have emerged that apply decoder-only
+language models directly to the seq2seq task. Despite the significant
+advancements in applying language models to the seq2seq task, there is still a
+lack of thorough analysis on the effectiveness of the decoder-only language
+model architecture. This paper aims to address this gap by conducting a
+detailed comparison between the encoder-decoder architecture and the
+decoder-only language model framework through the analysis of a regularized
+encoder-decoder structure. This structure is designed to replicate all
+behaviors in the classical decoder-only language model but has an encoder and a
+decoder making it easier to be compared with the classical encoder-decoder
+structure. Based on the analysis, we unveil the attention degeneration problem
+in the language model, namely, as the generation step number grows, less and
+less attention is focused on the source sequence. To give a quantitative
+understanding of this problem, we conduct a theoretical sensitivity analysis of
+the attention output with respect to the source input. Grounded on our
+analysis, we propose a novel partial attention language model to solve the
+attention degeneration problem. Experimental results on machine translation,
+summarization, and data-to-text generation tasks support our analysis and
+demonstrate the effectiveness of our proposed model.",2023-04-08
 "Beyond Privacy: Navigating the Opportunities and Challenges of Synthetic
   Data",2023-04-07 16:38:40+00:00,http://arxiv.org/abs/2304.03722v1,"Boris van Breugel, Mihaela van der Schaar",cs.LG,table2text,"Generating synthetic data through generative models is gaining interest in
 the ML community and beyond. In the past, synthetic data was often regarded as

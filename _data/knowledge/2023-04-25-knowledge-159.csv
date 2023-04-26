@@ -1,4 +1,123 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Evaluating Inter-Bilingual Semantic Parsing for Indian Languages,2023-04-25 17:24:32+00:00,http://arxiv.org/abs/2304.13005v1,"Divyanshu Aggarwal, Vivek Gupta, Anoop Kunchukuttan",cs.CL,knowledge,"Despite significant progress in Natural Language Generation for Indian
+languages (IndicNLP), there is a lack of datasets around complex structured
+tasks such as semantic parsing. One reason for this imminent gap is the
+complexity of the logical form, which makes English to multilingual translation
+difficult. The process involves alignment of logical forms, intents and slots
+with translated unstructured utterance. To address this, we propose an
+Inter-bilingual Seq2seq Semantic parsing dataset IE-SEMPARSE for 11 distinct
+Indian languages. We highlight the proposed task's practicality, and evaluate
+existing multilingual seq2seq models across several train-test strategies. Our
+experiment reveals a high correlation across performance of original
+multilingual semantic parsing datasets (such as mTOP, multilingual TOP and
+multiATIS++) and our proposed IE-SEMPARSE suite.",2023-04-25
+Divide and Prompt: Chain of Thought Prompting for Text-to-SQL,2023-04-23 06:52:35+00:00,http://arxiv.org/abs/2304.11556v1,"Xiping Liu, Zhao Tan","cs.CL, cs.AI",knowledge,"Chain-of-thought (CoT) prompting combined with large language models (LLMs)
+have achieved encouraging results on complex reasoning tasks. Text-to-SQL is a
+critical semantic parsing task that converts natural language questions into
+SQL statements, involving a complex reasoning process. However, there is little
+work about using CoT prompting to activate LLM's reasoning capabilities on
+Text-to-SQL tasks. In this work, we propose a new paradigm for prompting
+Text-to-SQL tasks, called Divide-and-Prompt, which first divides the task into
+subtasks, and then approach each subtask through CoT. We present 3
+prompting-based methods to enhance the Text-to-SQL ability of LLMs. Experiments
+show that these prompts guide LLMs to generate Text-to-SQL with higher
+execution accuracy.",2023-04-23
+Translationese Reduction using Abstract Meaning Representation,2023-04-23 00:04:14+00:00,http://arxiv.org/abs/2304.11501v1,"Shira Wein, Nathan Schneider",cs.CL,knowledge,"Translated texts or utterances bear several hallmarks distinct from texts
+originating in the language. This phenomenon, known as translationese, is
+well-documented, and when found in training or test sets can affect model
+performance. Still, work to mitigate the effect of translationese in human
+translated text is understudied. We hypothesize that Abstract Meaning
+Representation (AMR), a semantic representation which abstracts away from the
+surface form, can be used as an interlingua to reduce the amount of
+translationese in translated texts. By parsing English translations into an AMR
+graph and then generating text from that AMR, we obtain texts that more closely
+resemble non-translationese by macro-level measures. We show that across four
+metrics, and qualitatively, using AMR as an interlingua enables the reduction
+of translationese and we compare our results to two additional approaches: one
+based on round-trip machine translation and one based on syntactically
+controlled generation.",2023-04-23
+"GeneGPT: Augmenting Large Language Models with Domain Tools for Improved
+  Access to Biomedical Information",2023-04-19 13:53:19+00:00,http://arxiv.org/abs/2304.09667v2,"Qiao Jin, Yifan Yang, Qingyu Chen, Zhiyong Lu","cs.CL, cs.AI, q-bio.GN",knowledge,"While large language models (LLMs) have been successfully applied to various
+tasks, they still face challenges with hallucinations and generating erroneous
+content. Augmenting LLMs with domain-specific tools such as database utilities
+has the potential to facilitate more precise and straightforward access to
+specialized knowledge. In this paper, we present GeneGPT, a novel method for
+teaching LLMs to use the Web Application Programming Interfaces (APIs) of the
+National Center for Biotechnology Information (NCBI) and answer genomics
+questions. Specifically, we prompt Codex (code-davinci-002) to solve the
+GeneTuring tests with few-shot URL requests of NCBI API calls as demonstrations
+for in-context learning. During inference, we stop the decoding once a call
+request is detected and make the API call with the generated URL. We then
+append the raw execution results returned by NCBI APIs to the generated texts
+and continue the generation until the answer is found or another API call is
+detected. Our preliminary results show that GeneGPT achieves state-of-the-art
+results on three out of four one-shot tasks and four out of five zero-shot
+tasks in the GeneTuring dataset. Overall, GeneGPT achieves a macro-average
+score of 0.76, which is much higher than retrieval-augmented LLMs such as the
+New Bing (0.44), biomedical LLMs such as BioMedLM (0.08) and BioGPT (0.04), as
+well as other LLMs such as GPT-3 (0.16) and ChatGPT (0.12).",2023-04-19
+"ArguGPT: evaluating, understanding and identifying argumentative essays
+  generated by GPT models",2023-04-16 01:50:26+00:00,http://arxiv.org/abs/2304.07666v1,"Yikang Liu, Ziyin Zhang, Wanyang Zhang, Shisen Yue, Xiaojing Zhao, Xinyuan Cheng, Yiwen Zhang, Hai Hu",cs.CL,knowledge,"AI generated content (AIGC) presents considerable challenge to educators
+around the world. Instructors need to be able to detect such text generated by
+large language models, either with the naked eye or with the help of some
+tools. There is also growing need to understand the lexical, syntactic and
+stylistic features of AIGC. To address these challenges in English language
+teaching, we first present ArguGPT, a balanced corpus of 4,038 argumentative
+essays generated by 7 GPT models in response to essay prompts from three
+sources: (1) in-class or homework exercises, (2) TOEFL and (3) GRE writing
+tasks. Machine-generated texts are paired with roughly equal number of
+human-written essays with three score levels matched in essay prompts. We then
+hire English instructors to distinguish machine essays from human ones. Results
+show that when first exposed to machine-generated essays, the instructors only
+have an accuracy of 61% in detecting them. But the number rises to 67% after
+one round of minimal self-training. Next, we perform linguistic analyses of
+these essays, which show that machines produce sentences with more complex
+syntactic structures while human essays tend to be lexically more complex.
+Finally, we test existing AIGC detectors and build our own detectors using SVMs
+and RoBERTa. Results suggest that a RoBERTa fine-tuned with the training set of
+ArguGPT achieves above 90% accuracy in both essay- and sentence-level
+classification. To the best of our knowledge, this is the first comprehensive
+analysis of argumentative essays produced by generative large language models.
+Machine-authored essays in ArguGPT and our models will be made publicly
+available at https://github.com/huhailinguist/ArguGPT",2023-04-16
+"Shall We Pretrain Autoregressive Language Models with Retrieval? A
+  Comprehensive Study",2023-04-13 18:04:19+00:00,http://arxiv.org/abs/2304.06762v1,"Boxin Wang, Wei Ping, Peng Xu, Lawrence McAfee, Zihan Liu, Mohammad Shoeybi, Yi Dong, Oleksii Kuchaiev, Bo Li, Chaowei Xiao, Anima Anandkumar, Bryan Catanzaro","cs.CL, cs.AI, cs.IR, cs.LG",knowledge,"Large decoder-only language models (LMs) can be largely improved in terms of
+perplexity by retrieval (e.g., RETRO), but its impact on text generation
+quality and downstream task accuracy is unclear. Thus, it is still an open
+question: shall we pretrain large autoregressive LMs with retrieval? To answer
+it, we perform a comprehensive study on a scalable pre-trained
+retrieval-augmented LM (i.e., RETRO) compared with standard GPT and
+retrieval-augmented GPT incorporated at fine-tuning or inference stages. We
+first provide the recipe to reproduce RETRO up to 9.5B parameters while
+retrieving a text corpus with 330B tokens. Based on that, we have the following
+novel findings: i) RETRO outperforms GPT on text generation with much less
+degeneration (i.e., repetition), moderately higher factual accuracy, and
+slightly lower toxicity with a nontoxic retrieval database. ii) On the LM
+Evaluation Harness benchmark, RETRO largely outperforms GPT on
+knowledge-intensive tasks, but is on par with GPT on other tasks. Furthermore,
+we introduce a simple variant of the model, RETRO++, which largely improves
+open-domain QA results of original RETRO (e.g., EM score +8.6 on Natural
+Question) and significantly outperforms retrieval-augmented GPT across
+different model sizes. Our findings highlight the promising direction of
+pretraining autoregressive LMs with retrieval as future foundation models. We
+release our implementation at: https://github.com/NVIDIA/Megatron-LM#retro",2023-04-13
+Training Large Language Models Efficiently with Sparsity and Dataflow,2023-04-11 21:37:13+00:00,http://arxiv.org/abs/2304.05511v1,"Venkat Srinivasan, Darshan Gandhi, Urmish Thakker, Raghu Prabhakar",cs.LG,knowledge,"Large foundation language models have shown their versatility in being able
+to be adapted to perform a wide variety of downstream tasks, such as text
+generation, sentiment analysis, semantic search etc. However, training such
+large foundational models is a non-trivial exercise that requires a significant
+amount of compute power and expertise from machine learning and systems
+experts. As models get larger, these demands are only increasing. Sparsity is a
+promising technique to relieve the compute requirements for training. However,
+sparsity introduces new challenges in training the sparse model to the same
+quality as the dense counterparts. Furthermore, sparsity drops the operation
+intensity and introduces irregular memory access patterns that makes it
+challenging to efficiently utilize compute resources. This paper demonstrates
+an end-to-end training flow on a large language model - 13 billion GPT - using
+sparsity and dataflow. The dataflow execution model and architecture enables
+efficient on-chip irregular memory accesses as well as native kernel fusion and
+pipelined parallelism that helps recover device utilization. We show that we
+can successfully train GPT 13B to the same quality as the dense GPT 13B model,
+while achieving an end-end speedup of 4.5x over dense A100 baseline.",2023-04-11
 "To ChatGPT, or not to ChatGPT: That is the question!",2023-04-04 03:04:28+00:00,http://arxiv.org/abs/2304.01487v2,"Alessandro Pegoraro, Kavita Kumari, Hossein Fereidooni, Ahmad-Reza Sadeghi","cs.LG, cs.AI, cs.CL",knowledge,"ChatGPT has become a global sensation. As ChatGPT and other Large Language
 Models (LLMs) emerge, concerns of misusing them in various ways increase, such
 as disseminating fake news, plagiarism, manipulating public opinion, cheating,
