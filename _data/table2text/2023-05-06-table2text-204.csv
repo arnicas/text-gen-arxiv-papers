@@ -1,4 +1,278 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Diffusion-NAT: Self-Prompting Discrete Diffusion for Non-Autoregressive
+  Text Generation",2023-05-06 13:20:31+00:00,http://arxiv.org/abs/2305.04044v1,"Kun Zhou, Yifan Li, Wayne Xin Zhao, Ji-Rong Wen",cs.CL,table2text,"Recently, continuous diffusion models (CDM) have been introduced into
+non-autoregressive (NAR) text-to-text generation. However, the discrete nature
+of text increases the difficulty of CDM to generate coherent and fluent texts,
+and also causes the incompatibility problem between CDM and advanced NLP
+techniques, especially the popular pre-trained language models~(PLMs). To solve
+it, we propose Diffusion-NAT, which introduces discrete diffusion models~(DDM)
+into NAR text-to-text generation and integrates BART to improve the
+performance. By revising the decoding process of BART and the typical settings
+of DDM, we unify the inference process of BART and the denoising process of DDM
+into the same NAR masked tokens recovering task. In this way, DDM can rely on
+BART to perform denoising, which can benefit from both the rich pre-learned
+knowledge of BART and the iterative refining paradigm of DDM. Besides, we also
+propose the iterative self-prompting strategy to further improve the generation
+quality. Experimental results on 7 datasets show that our approach can
+outperform competitive NAR methods, and even surpass autoregressive methods.
+Our code and data will be publicly released.",2023-05-06
+Stylized Data-to-Text Generation: A Case Study in the E-Commerce Domain,2023-05-05 03:02:41+00:00,http://arxiv.org/abs/2305.03256v1,"Liqiang Jing, Xuemeng Song, Xuming Lin, Zhongzhou Zhao, Wei Zhou, Liqiang Nie",cs.CL,table2text,"Existing data-to-text generation efforts mainly focus on generating a
+coherent text from non-linguistic input data, such as tables and
+attribute-value pairs, but overlook that different application scenarios may
+require texts of different styles. Inspired by this, we define a new task,
+namely stylized data-to-text generation, whose aim is to generate coherent text
+for the given non-linguistic data according to a specific style. This task is
+non-trivial, due to three challenges: the logic of the generated text,
+unstructured style reference, and biased training samples. To address these
+challenges, we propose a novel stylized data-to-text generation model, named
+StyleD2T, comprising three components: logic planning-enhanced data embedding,
+mask-based style embedding, and unbiased stylized text generation. In the first
+component, we introduce a graph-guided logic planner for attribute organization
+to ensure the logic of generated text. In the second component, we devise
+feature-level mask-based style embedding to extract the essential style signal
+from the given unstructured style reference. In the last one, pseudo triplet
+augmentation is utilized to achieve unbiased text generation, and a
+multi-condition based confidence assignment function is designed to ensure the
+quality of pseudo samples. Extensive experiments on a newly collected dataset
+from Taobao have been conducted, and the results show the superiority of our
+model over existing methods.",2023-05-05
+VideoOFA: Two-Stage Pre-Training for Video-to-Text Generation,2023-05-04 23:27:21+00:00,http://arxiv.org/abs/2305.03204v1,"Xilun Chen, Lili Yu, Wenhan Xiong, Barlas Oğuz, Yashar Mehdad, Wen-tau Yih","cs.CV, cs.CL",table2text,"We propose a new two-stage pre-training framework for video-to-text
+generation tasks such as video captioning and video question answering: A
+generative encoder-decoder model is first jointly pre-trained on massive
+image-text data to learn fundamental vision-language concepts, and then adapted
+to video data in an intermediate video-text pre-training stage to learn
+video-specific skills such as spatio-temporal reasoning. As a result, our
+VideoOFA model achieves new state-of-the-art performance on four Video
+Captioning benchmarks, beating prior art by an average of 9.7 points in CIDEr
+score. It also outperforms existing models on two open-ended Video Question
+Answering datasets, showcasing its generalization capability as a universal
+video-to-text model.",2023-05-04
+"Can LLM Already Serve as A Database Interface? A BIg Bench for
+  Large-Scale Database Grounded Text-to-SQLs",2023-05-04 19:02:29+00:00,http://arxiv.org/abs/2305.03111v1,"Jinyang Li, Binyuan Hui, Ge Qu, Binhua Li, Jiaxi Yang, Bowen Li, Bailin Wang, Bowen Qin, Rongyu Cao, Ruiying Geng, Nan Huo, Chenhao Ma, Kevin C. C. Chang, Fei Huang, Reynold Cheng, Yongbin Li",cs.CL,table2text,"Text-to-SQL parsing, which aims at converting natural language instructions
+into executable SQLs, has gained increasing attention in recent years. In
+particular, Codex and ChatGPT have shown impressive results in this task.
+However, most of the prevalent benchmarks, i.e., Spider, and WikiSQL, focus on
+database schema with few rows of database contents leaving the gap between
+academic study and real-world applications. To mitigate this gap, we present
+Bird, a big benchmark for large-scale database grounded in text-to-SQL tasks,
+containing 12,751 pairs of text-to-SQL data and 95 databases with a total size
+of 33.4 GB, spanning 37 professional domains. Our emphasis on database values
+highlights the new challenges of dirty database contents, external knowledge
+between NL questions and database contents, and SQL efficiency, particularly in
+the context of massive databases. To solve these problems, text-to-SQL models
+must feature database value comprehension in addition to semantic parsing. The
+experimental results demonstrate the significance of database values in
+generating accurate text-to-SQLs for big databases. Furthermore, even the most
+effective text-to-SQL models, i.e. ChatGPT, only achieves 40.08% in execution
+accuracy, which is still far from the human result of 92.96%, proving that
+challenges still stand. Besides, we also provide an efficiency analysis to
+offer insights into generating text-to-efficient-SQLs that are beneficial to
+industries. We believe that BIRD will contribute to advancing real-world
+applications of text-to-SQL research. The leaderboard and source code are
+available: https://bird-bench.github.io/.",2023-05-04
+"How to Choose Pretrained Handwriting Recognition Models for Single
+  Writer Fine-Tuning",2023-05-04 07:00:28+00:00,http://arxiv.org/abs/2305.02593v1,"Vittorio Pippi, Silvia Cascianelli, Christopher Kermorvant, Rita Cucchiara","cs.CV, cs.DL",table2text,"Recent advancements in Deep Learning-based Handwritten Text Recognition (HTR)
+have led to models with remarkable performance on both modern and historical
+manuscripts in large benchmark datasets. Nonetheless, those models struggle to
+obtain the same performance when applied to manuscripts with peculiar
+characteristics, such as language, paper support, ink, and author handwriting.
+This issue is very relevant for valuable but small collections of documents
+preserved in historical archives, for which obtaining sufficient annotated
+training data is costly or, in some cases, unfeasible. To overcome this
+challenge, a possible solution is to pretrain HTR models on large datasets and
+then fine-tune them on small single-author collections. In this paper, we take
+into account large, real benchmark datasets and synthetic ones obtained with a
+styled Handwritten Text Generation model. Through extensive experimental
+analysis, also considering the amount of fine-tuning lines, we give a
+quantitative indication of the most relevant characteristics of such data for
+obtaining an HTR model able to effectively transcribe manuscripts in small
+collections with as little as five real fine-tuning lines.",2023-05-04
+"Governance of the AI, by the AI, and for the AI",2023-05-04 03:29:07+00:00,http://arxiv.org/abs/2305.03719v1,"Andrew W. Torrance, Bill Tomlinson","cs.CY, cs.AI",table2text,"Over the past half century, there have been several false dawns during which
+the ""arrival"" of world-changing artificial intelligence (AI) has been heralded.
+Tempting fate, the authors believe the age of AI has, indeed, finally arrived.
+Powerful image generators, such as DALL-E2 and Midjourney have suddenly allowed
+anyone with access the ability easily to create rich and complex art. In a
+similar vein, text generators, such as GPT3.5 (including ChatGPT) and BLOOM,
+allow users to compose detailed written descriptions of many topics of
+interest. And, it is even possible now for a person without extensive expertise
+in writing software to use AI to generate code capable of myriad applications.
+While AI will continue to evolve and improve, probably at a rapid rate, the
+current state of AI is already ushering in profound changes to many different
+sectors of society. Every new technology challenges the ability of humanity to
+govern it wisely. However, governance is usually viewed as both possible and
+necessary due to the disruption new technology often poses to social
+structures, industries, the environment, and other important human concerns. In
+this article, we offer an analysis of a range of interactions between AI and
+governance, with the hope that wise decisions may be made that maximize
+benefits and minimize costs. The article addresses two main aspects of this
+relationship: the governance of AI by humanity, and the governance of humanity
+by AI. The approach we have taken is itself informed by AI, as this article was
+written collaboratively by the authors and ChatGPT.",2023-05-04
+Task-Optimized Adapters for an End-to-End Task-Oriented Dialogue System,2023-05-04 00:17:49+00:00,http://arxiv.org/abs/2305.02468v1,"Namo Bang, Jeehyun Lee, Myoung-Wan Koo",cs.CL,table2text,"Task-Oriented Dialogue (TOD) systems are designed to carry out specific tasks
+by tracking dialogue states and generating appropriate responses to help users
+achieve defined goals. Recently, end-to-end dialogue models pre-trained based
+on large datasets have shown promising performance in the conversational
+system. However, they share the same parameters to train tasks of the dialogue
+system (NLU, DST, NLG), so debugging each task is challenging. Also, they
+require a lot of effort to fine-tune large parameters to create a task-oriented
+chatbot, making it difficult for non-experts to handle. Therefore, we intend to
+train relatively lightweight and fast models compared to PLM. In this paper, we
+propose an End-to-end TOD system with Task-Optimized Adapters which learn
+independently per task, adding only small number of parameters after fixed
+layers of pre-trained network. We also enhance the performance of the DST and
+NLG modules through reinforcement learning, overcoming the learning curve that
+has lacked at the adapter learning and enabling the natural and consistent
+response generation that is appropriate for the goal. Our method is a
+model-agnostic approach and does not require prompt-tuning as only input data
+without a prompt. As results of the experiment, our method shows competitive
+performance on the MultiWOZ benchmark compared to the existing end-to-end
+models. In particular, we attain state-of-the-art performance on the DST task
+of 2.2 dataset.",2023-05-04
+"A Systematic Study of Knowledge Distillation for Natural Language
+  Generation with Pseudo-Target Training",2023-05-03 10:49:38+00:00,http://arxiv.org/abs/2305.02031v1,"Nitay Calderon, Subhabrata Mukherjee, Roi Reichart, Amir Kantor","cs.CL, cs.AI",table2text,"Modern Natural Language Generation (NLG) models come with massive
+computational and storage requirements. In this work, we study the potential of
+compressing them, which is crucial for real-world applications serving millions
+of users. We focus on Knowledge Distillation (KD) techniques, in which a small
+student model learns to imitate a large teacher model, allowing to transfer
+knowledge from the teacher to the student. In contrast to much of the previous
+work, our goal is to optimize the model for a specific NLG task and a specific
+dataset. Typically, in real-world applications, in addition to labeled data
+there is abundant unlabeled task-specific data, which is crucial for attaining
+high compression rates via KD. In this work, we conduct a systematic study of
+task-specific KD techniques for various NLG tasks under realistic assumptions.
+We discuss the special characteristics of NLG distillation and particularly the
+exposure bias problem. Following, we derive a family of Pseudo-Target (PT)
+augmentation methods, substantially extending prior work on sequence-level KD.
+We propose the Joint-Teaching method for NLG distillation, which applies
+word-level KD to multiple PTs generated by both the teacher and the student.
+Our study provides practical model design observations and demonstrates the
+effectiveness of PT training for task-specific KD in NLG.",2023-05-03
+Towards Summarizing Multiple Documents with Hierarchical Relationships,2023-05-02 15:18:18+00:00,http://arxiv.org/abs/2305.01498v1,"Miao Li, Eduard Hovy, Jey Han Lau","cs.CL, cs.AI",table2text,"Most existing multi-document summarization (MDS) datasets lack
+human-generated and genuine (i.e., not synthetic) summaries or source documents
+with explicit inter-document relationships that a summary must capture. To
+enhance the capabilities of MDS systems we present PeerSum, a novel dataset for
+generating meta-reviews of scientific papers, where the meta-reviews are highly
+abstractive and genuine summaries of reviews and corresponding discussions.
+These source documents have rich inter-document relationships of an explicit
+hierarchical structure with cross-references and often feature conflicts. As
+there is a scarcity of research that incorporates hierarchical relationships
+into MDS systems through attention manipulation on pre-trained language models,
+we additionally present Rammer (Relationship-aware Multi-task Meta-review
+Generator), a meta-review generation model that uses sparse attention based on
+the hierarchical relationships and a multi-task objective that predicts several
+metadata features in addition to the standard text generation objective. Our
+experimental results show that PeerSum is a challenging dataset, and Rammer
+outperforms other strong baseline MDS models under various evaluation metrics.",2023-05-02
+"Bridging the Gap: A Survey on Integrating (Human) Feedback for Natural
+  Language Generation",2023-05-01 17:36:06+00:00,http://arxiv.org/abs/2305.00955v1,"Patrick Fernandes, Aman Madaan, Emmy Liu, António Farinhas, Pedro Henrique Martins, Amanda Bertsch, José G. C. de Souza, Shuyan Zhou, Tongshuang Wu, Graham Neubig, André F. T. Martins","cs.CL, cs.AI, cs.LG",table2text,"Many recent advances in natural language generation have been fueled by
+training large language models on internet-scale data. However, this paradigm
+can lead to models that generate toxic, inaccurate, and unhelpful content, and
+automatic evaluation metrics often fail to identify these behaviors. As models
+become more capable, human feedback is an invaluable signal for evaluating and
+improving models. This survey aims to provide an overview of the recent
+research that has leveraged human feedback to improve natural language
+generation. First, we introduce an encompassing formalization of feedback, and
+identify and organize existing research into a taxonomy following this
+formalization. Next, we discuss how feedback can be described by its format and
+objective, and cover the two approaches proposed to use feedback (either for
+training or decoding): directly using the feedback or training feedback models.
+We also discuss existing datasets for human-feedback data collection, and
+concerns surrounding feedback collection. Finally, we provide an overview of
+the nascent field of AI feedback, which exploits large language models to make
+judgments based on a set of principles and minimize the need for human
+intervention.",2023-05-01
+"A Comprehensive AI Policy Education Framework for University Teaching
+  and Learning",2023-04-29 15:35:39+00:00,http://arxiv.org/abs/2305.00280v1,Cecilia Ka Yuk Chan,"cs.CY, cs.AI",table2text,"This study aims to develop an AI education policy for higher education by
+examining the perceptions and implications of text generative AI technologies.
+Data was collected from 457 students and 180 teachers and staff across various
+disciplines in Hong Kong universities, using both quantitative and qualitative
+research methods. Based on the findings, the study proposes an AI Ecological
+Education Policy Framework to address the multifaceted implications of AI
+integration in university teaching and learning. This framework is organized
+into three dimensions: Pedagogical, Governance, and Operational. The
+Pedagogical dimension concentrates on using AI to improve teaching and learning
+outcomes, while the Governance dimension tackles issues related to privacy,
+security, and accountability. The Operational dimension addresses matters
+concerning infrastructure and training. The framework fosters a nuanced
+understanding of the implications of AI integration in academic settings,
+ensuring that stakeholders are aware of their responsibilities and can take
+appropriate actions accordingly.",2023-04-29
+"CONSCENDI: A Contrastive and Scenario-Guided Distillation Approach to
+  Guardrail Models for Virtual Assistants",2023-04-27 17:39:11+00:00,http://arxiv.org/abs/2304.14364v1,"Albert Yu Sun, Varun Nair, Elliot Schumacher, Anitha Kannan","cs.CL, cs.AI, cs.LG",table2text,"A wave of new task-based virtual assistants has been fueled by increasingly
+powerful large language models, such as GPT-4. These conversational agents can
+be customized to serve customer-specific use cases, but ensuring that
+agent-generated text conforms to designer-specified rules included in prompt
+instructions alone is challenging. Therefore, chatbot designers often use
+another model, called a guardrail model, to verify that the agent output aligns
+with their rules and constraints. We explore using a distillation approach to
+guardrail models to monitor the output of the first model using training data
+from GPT-4. We find two crucial steps to our CONSCENDI process:
+scenario-augmented generation and contrastive training examples. When
+generating conversational data, we generate a set of rule-breaking scenarios,
+which enumerate a diverse set of high-level ways a rule can be violated. This
+scenario-guided approach produces a diverse training set of rule-violating
+conversations, and it provides chatbot designers greater control over the
+classification process. We also prompt GPT-4 to also generate contrastive
+examples by altering conversations with violations into acceptable
+conversations. This set of borderline, contrastive examples enables the
+distilled model to learn finer-grained distinctions between what is acceptable
+and what is not. We find that CONSCENDI results in guardrail models that
+improve over baselines.",2023-04-27
+Controlled Text Generation with Natural Language Instructions,2023-04-27 15:56:34+00:00,http://arxiv.org/abs/2304.14293v1,"Wangchunshu Zhou, Yuchen Eleanor Jiang, Ethan Wilcox, Ryan Cotterell, Mrinmaya Sachan","cs.CL, cs.AI, cs.LG",table2text,"Large language models generate fluent texts and can follow natural language
+instructions to solve a wide range of tasks without task-specific training.
+Nevertheless, it is notoriously difficult to control their generation to
+satisfy the various constraints required by different applications. In this
+work, we present InstructCTG, a controlled text generation framework that
+incorporates different constraints by conditioning on natural language
+descriptions and demonstrations of the constraints. In particular, we first
+extract the underlying constraints of natural texts through a combination of
+off-the-shelf NLP tools and simple heuristics. We then verbalize the
+constraints into natural language instructions to form weakly supervised
+training data. By prepending natural language descriptions of the constraints
+and a few demonstrations, we fine-tune a pre-trained language model to
+incorporate various types of constraints. Compared to existing search-based or
+score-based methods, InstructCTG is more flexible to different constraint types
+and has a much smaller impact on the generation quality and speed because it
+does not modify the decoding procedure. Additionally, InstructCTG allows the
+model to adapt to new constraints without re-training through the use of
+few-shot task generalization and in-context learning abilities of
+instruction-tuned language models.",2023-04-27
+"SweCTRL-Mini: a data-transparent Transformer-based large language model
+  for controllable text generation in Swedish",2023-04-27 07:32:37+00:00,http://arxiv.org/abs/2304.13994v1,"Dmytro Kalpakchi, Johan Boye",cs.CL,table2text,"We present SweCTRL-Mini, a large Swedish language model that can be used for
+inference and fine-tuning on a single consumer-grade GPU. The model is based on
+the CTRL architecture by Keskar, McCann, Varshney, Xiong, and Socher (2019),
+which means that users of the SweCTRL-Mini model can control the genre of the
+generated text by inserting special tokens in the generation prompts.
+SweCTRL-Mini is trained on a subset of the Swedish part of the mC4 corpus and a
+set of Swedish novels. In this article, we provide (1) a detailed account of
+the utilized training data and text pre-processing steps, to the extent that it
+is possible to check whether a specific phrase/source was a part of the
+training data, and (2) an evaluation of the model on both discriminative tasks,
+using automatic evaluation methods, and generative tasks, using human referees.
+We also compare the generative capabilities of the model with those of GPT-3.
+SweCTRL-Mini is fully open and available for download.",2023-04-27
+Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond,2023-04-26 17:52:30+00:00,http://arxiv.org/abs/2304.13712v2,"Jingfeng Yang, Hongye Jin, Ruixiang Tang, Xiaotian Han, Qizhang Feng, Haoming Jiang, Bing Yin, Xia Hu","cs.CL, cs.AI, cs.LG",table2text,"This paper presents a comprehensive and practical guide for practitioners and
+end-users working with Large Language Models (LLMs) in their downstream natural
+language processing (NLP) tasks. We provide discussions and insights into the
+usage of LLMs from the perspectives of models, data, and downstream tasks.
+Firstly, we offer an introduction and brief summary of current GPT- and
+BERT-style LLMs. Then, we discuss the influence of pre-training data, training
+data, and test data. Most importantly, we provide a detailed discussion about
+the use and non-use cases of large language models for various natural language
+processing tasks, such as knowledge-intensive tasks, traditional natural
+language understanding tasks, natural language generation tasks, emergent
+abilities, and considerations for specific tasks.We present various use cases
+and non-use cases to illustrate the practical applications and limitations of
+LLMs in real-world scenarios. We also try to understand the importance of data
+and the specific challenges associated with each NLP task. Furthermore, we
+explore the impact of spurious biases on LLMs and delve into other essential
+considerations, such as efficiency, cost, and latency, to ensure a
+comprehensive understanding of deploying LLMs in practice. This comprehensive
+guide aims to provide researchers and practitioners with valuable insights and
+best practices for working with LLMs, thereby enabling the successful
+implementation of these models in a wide range of NLP tasks. A curated list of
+practical guide resources of LLMs, regularly updated, can be found at
+\url{https://github.com/Mooler0410/LLMsPracticalGuide}.",2023-04-26
 Evaluating Inter-Bilingual Semantic Parsing for Indian Languages,2023-04-25 17:24:32+00:00,http://arxiv.org/abs/2304.13005v1,"Divyanshu Aggarwal, Vivek Gupta, Anoop Kunchukuttan",cs.CL,table2text,"Despite significant progress in Natural Language Generation for Indian
 languages (IndicNLP), there is a lack of datasets around complex structured
 tasks such as semantic parsing. One reason for this imminent gap is the

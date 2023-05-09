@@ -7,10 +7,17 @@ sidebar:
 ---
 
 
-*written on 2023-04-26*
+*written on 2023-05-09*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [UIT-OpenViIC: A Novel Benchmark for Evaluating Image Captioning in  Vietnamese](http://arxiv.org/abs/2305.04166v1) | Doanh C. Bui, Nghia Hieu Nguyen, Khang Nguyen | cs.CV, cs.CL | 2023-05-07 |
+| [Simulating H.P. Lovecraft horror literature with the ChatGPT large  language model](http://arxiv.org/abs/2305.03429v1) | Eduardo C. Garrido-Merchán, José Luis Arroyo-Barrigüete, Roberto Gozalo-Brihuela | cs.CL | 2023-05-05 |
+| [VideoOFA: Two-Stage Pre-Training for Video-to-Text Generation](http://arxiv.org/abs/2305.03204v1) | Xilun Chen, Lili Yu, Wenhan Xiong, Barlas Oğuz, Yashar Mehdad, Wen-tau Yih | cs.CV, cs.CL | 2023-05-04 |
+| [Image Captioners Sometimes Tell More Than Images They See](http://arxiv.org/abs/2305.02932v1) | Honori Udo, Takafumi Koshinaka | cs.CV, cs.MM | 2023-05-04 |
+| [Governance of the AI, by the AI, and for the AI](http://arxiv.org/abs/2305.03719v1) | Andrew W. Torrance, Bill Tomlinson | cs.CY, cs.AI | 2023-05-04 |
+| [Controlled Text Generation with Natural Language Instructions](http://arxiv.org/abs/2304.14293v1) | Wangchunshu Zhou, Yuchen Eleanor Jiang, Ethan Wilcox, Ryan Cotterell, Mrinmaya Sachan | cs.CL, cs.AI, cs.LG | 2023-04-27 |
+| [From Association to Generation: Text-only Captioning by Unsupervised  Cross-modal Mapping](http://arxiv.org/abs/2304.13273v3) | Junyang Wang, Ming Yan, Yi Zhang, Jitao Sang | cs.CV, cs.CL, cs.LG | 2023-04-26 |
 | [RenderDiffusion: Text Generation as Image Generation](http://arxiv.org/abs/2304.12519v1) | Junyi Li, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen | cs.CL, cs.CV, cs.LG | 2023-04-25 |
 | [Token Imbalance Adaptation for Radiology Report Generation](http://arxiv.org/abs/2304.09185v1) | Yuexin Wu, I-Chan Huang, Xiaolei Huang | cs.CL, cs.AI | 2023-04-18 |
 | [VALOR: Vision-Audio-Language Omni-Perception Pretraining Model and  Dataset](http://arxiv.org/abs/2304.08345v1) | Sihan Chen, Xingjian He, Longteng Guo, Xinxin Zhu, Weining Wang, Jinhui Tang, Jing Liu | cs.LG, cs.CL, cs.CV, cs.MM, eess.AS | 2023-04-17 |

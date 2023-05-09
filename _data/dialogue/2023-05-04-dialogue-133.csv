@@ -1,4 +1,64 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Task-Optimized Adapters for an End-to-End Task-Oriented Dialogue System,2023-05-04 00:17:49+00:00,http://arxiv.org/abs/2305.02468v1,"Namo Bang, Jeehyun Lee, Myoung-Wan Koo",cs.CL,dialogue,"Task-Oriented Dialogue (TOD) systems are designed to carry out specific tasks
+by tracking dialogue states and generating appropriate responses to help users
+achieve defined goals. Recently, end-to-end dialogue models pre-trained based
+on large datasets have shown promising performance in the conversational
+system. However, they share the same parameters to train tasks of the dialogue
+system (NLU, DST, NLG), so debugging each task is challenging. Also, they
+require a lot of effort to fine-tune large parameters to create a task-oriented
+chatbot, making it difficult for non-experts to handle. Therefore, we intend to
+train relatively lightweight and fast models compared to PLM. In this paper, we
+propose an End-to-end TOD system with Task-Optimized Adapters which learn
+independently per task, adding only small number of parameters after fixed
+layers of pre-trained network. We also enhance the performance of the DST and
+NLG modules through reinforcement learning, overcoming the learning curve that
+has lacked at the adapter learning and enabling the natural and consistent
+response generation that is appropriate for the goal. Our method is a
+model-agnostic approach and does not require prompt-tuning as only input data
+without a prompt. As results of the experiment, our method shows competitive
+performance on the MultiWOZ benchmark compared to the existing end-to-end
+models. In particular, we attain state-of-the-art performance on the DST task
+of 2.2 dataset.",2023-05-04
+Lift Yourself Up: Retrieval-augmented Text Generation with Self Memory,2023-05-03 21:40:54+00:00,http://arxiv.org/abs/2305.02437v1,"Xin Cheng, Di Luo, Xiuying Chen, Lemao Liu, Dongyan Zhao, Rui Yan","cs.CL, cs.AI",dialogue,"With direct access to human-written reference as memory, retrieval-augmented
+generation has achieved much progress in a wide range of text generation tasks.
+Since better memory would typically prompt better generation~(we define this as
+primal problem), previous works mainly focus on how to retrieve better memory.
+However, one fundamental limitation exists for current literature: the memory
+is retrieved from a fixed corpus and is bounded by the quality of the corpus.
+Due to the finite retrieval space, bounded memory would greatly limit the
+potential of the memory-augmented generation model. In this paper, by exploring
+the duality of the primal problem: better generation also prompts better
+memory, we propose a framework called Selfmem, which iteratively adopts a
+retrieval-augmented generator itself to generate an unbounded memory pool and
+uses a memory selector to pick one generated memory for the next generation
+round. By combining the primal and dual problem, a retrieval-augmented
+generation model could lift itself up with its own output in the infinite
+generation space. To verify our framework, we conduct extensive experiments
+across various text generation scenarios including neural machine translation,
+abstractive summarization and dialogue generation over seven datasets and
+achieve state-of-the-art results in JRC-Acquis(four directions), XSum(50.3
+ROUGE-1) and BigPatent(62.9 ROUGE-1).",2023-05-03
+"CONSCENDI: A Contrastive and Scenario-Guided Distillation Approach to
+  Guardrail Models for Virtual Assistants",2023-04-27 17:39:11+00:00,http://arxiv.org/abs/2304.14364v1,"Albert Yu Sun, Varun Nair, Elliot Schumacher, Anitha Kannan","cs.CL, cs.AI, cs.LG",dialogue,"A wave of new task-based virtual assistants has been fueled by increasingly
+powerful large language models, such as GPT-4. These conversational agents can
+be customized to serve customer-specific use cases, but ensuring that
+agent-generated text conforms to designer-specified rules included in prompt
+instructions alone is challenging. Therefore, chatbot designers often use
+another model, called a guardrail model, to verify that the agent output aligns
+with their rules and constraints. We explore using a distillation approach to
+guardrail models to monitor the output of the first model using training data
+from GPT-4. We find two crucial steps to our CONSCENDI process:
+scenario-augmented generation and contrastive training examples. When
+generating conversational data, we generate a set of rule-breaking scenarios,
+which enumerate a diverse set of high-level ways a rule can be violated. This
+scenario-guided approach produces a diverse training set of rule-violating
+conversations, and it provides chatbot designers greater control over the
+classification process. We also prompt GPT-4 to also generate contrastive
+examples by altering conversations with violations into acceptable
+conversations. This set of borderline, contrastive examples enables the
+distilled model to learn finer-grained distinctions between what is acceptable
+and what is not. We find that CONSCENDI results in guardrail models that
+improve over baselines.",2023-04-27
 "Which Factors Predict the Chat Experience of a Natural Language
   Generation Dialogue Service?",2023-04-21 07:29:07+00:00,http://arxiv.org/abs/2304.10785v1,Eason Chen,"cs.CL, cs.HC",dialogue,"In this paper, we proposed a conceptual model to predict the chat experience
 in a natural language generation dialog system. We evaluated the model with 120

@@ -6,10 +6,17 @@ sidebar:
 ---
 
 
-*written on 2023-04-26*
+*written on 2023-05-09*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Diffusion-NAT: Self-Prompting Discrete Diffusion for Non-Autoregressive  Text Generation](http://arxiv.org/abs/2305.04044v1) | Kun Zhou, Yifan Li, Wayne Xin Zhao, Ji-Rong Wen | cs.CL | 2023-05-06 |
+| [Expository Text Generation: Imitate, Retrieve, Paraphrase](http://arxiv.org/abs/2305.03276v1) | Nishant Balepur, Jie Huang, Kevin Chen-Chuan Chang | cs.CL | 2023-05-05 |
+| [Stylized Data-to-Text Generation: A Case Study in the E-Commerce Domain](http://arxiv.org/abs/2305.03256v1) | Liqiang Jing, Xuemeng Song, Xuming Lin, Zhongzhou Zhao, Wei Zhou, Liqiang Nie | cs.CL | 2023-05-05 |
+| [Can LLM Already Serve as A Database Interface? A BIg Bench for  Large-Scale Database Grounded Text-to-SQLs](http://arxiv.org/abs/2305.03111v1) | Jinyang Li, Binyuan Hui, Ge Qu, Binhua Li, Jiaxi Yang, Bowen Li, Bailin Wang, Bowen Qin, Rongyu Cao, Ruiying Geng, Nan Huo, Chenhao Ma, Kevin C. C. Chang, Fei Huang, Reynold Cheng, Yongbin Li | cs.CL | 2023-05-04 |
+| [A Systematic Study of Knowledge Distillation for Natural Language  Generation with Pseudo-Target Training](http://arxiv.org/abs/2305.02031v1) | Nitay Calderon, Subhabrata Mukherjee, Roi Reichart, Amir Kantor | cs.CL, cs.AI | 2023-05-03 |
+| [The Benefits of Bad Advice: Autocontrastive Decoding across Model Layers](http://arxiv.org/abs/2305.01628v1) | Ariel Gera, Roni Friedman, Ofir Arviv, Chulaka Gunasekara, Benjamin Sznajder, Noam Slonim, Eyal Shnarch | cs.CL, cs.LG | 2023-05-02 |
+| [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](http://arxiv.org/abs/2304.13712v2) | Jingfeng Yang, Hongye Jin, Ruixiang Tang, Xiaotian Han, Qizhang Feng, Haoming Jiang, Bing Yin, Xia Hu | cs.CL, cs.AI, cs.LG | 2023-04-26 |
 | [Evaluating Inter-Bilingual Semantic Parsing for Indian Languages](http://arxiv.org/abs/2304.13005v1) | Divyanshu Aggarwal, Vivek Gupta, Anoop Kunchukuttan | cs.CL | 2023-04-25 |
 | [Divide and Prompt: Chain of Thought Prompting for Text-to-SQL](http://arxiv.org/abs/2304.11556v1) | Xiping Liu, Zhao Tan | cs.CL, cs.AI | 2023-04-23 |
 | [Translationese Reduction using Abstract Meaning Representation](http://arxiv.org/abs/2304.11501v1) | Shira Wein, Nathan Schneider | cs.CL | 2023-04-23 |
