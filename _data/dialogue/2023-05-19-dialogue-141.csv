@@ -1,4 +1,148 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"DiffuSIA: A Spiral Interaction Architecture for Encoder-Decoder Text
+  Diffusion",2023-05-19 08:30:11+00:00,http://arxiv.org/abs/2305.11517v1,"Chao-Hong Tan, Jia-Chen Gu, Zhen-Hua Ling","cs.CL, cs.AI",dialogue,"Diffusion models have emerged as the new state-of-the-art family of deep
+generative models, and their promising potentials for text generation have
+recently attracted increasing attention. Existing studies mostly adopt a single
+encoder architecture with partially noising processes for conditional text
+generation, but its degree of flexibility for conditional modeling is limited.
+In fact, the encoder-decoder architecture is naturally more flexible for its
+detachable encoder and decoder modules, which is extensible to multilingual and
+multimodal generation tasks for conditions and target texts. However, the
+encoding process of conditional texts lacks the understanding of target texts.
+To this end, a spiral interaction architecture for encoder-decoder text
+diffusion (DiffuSIA) is proposed. Concretely, the conditional information from
+encoder is designed to be captured by the diffusion decoder, while the target
+information from decoder is designed to be captured by the conditional encoder.
+These two types of information flow run through multilayer interaction spirally
+for deep fusion and understanding. DiffuSIA is evaluated on four text
+generation tasks, including paraphrase, text simplification, question
+generation, and open-domain dialogue generation. Experimental results show that
+DiffuSIA achieves competitive performance among previous methods on all four
+tasks, demonstrating the effectiveness and generalization ability of the
+proposed method.",2023-05-19
+TELeR: A General Taxonomy of LLM Prompts for Benchmarking Complex Tasks,2023-05-19 04:59:34+00:00,http://arxiv.org/abs/2305.11430v1,"Shubhra Kanti Karmaker Santu, Dongji Feng","cs.AI, cs.CL, cs.IR, cs.LG, I.2.7",dialogue,"While LLMs have shown great success in understanding and generating text in
+traditional conversational settings, their potential for performing ill-defined
+complex tasks is largely under-studied. Indeed, we are yet to conduct
+comprehensive benchmarking studies with multiple LLMs that are exclusively
+focused on a complex task. However, conducting such benchmarking studies is
+challenging because of the large variations in LLMs' performance when different
+prompt types/styles are used and different degrees of detail are provided in
+the prompts. To address this issue, the paper proposes a general taxonomy that
+can be used to design prompts with specific properties in order to perform a
+wide range of complex tasks. This taxonomy will allow future benchmarking
+studies to report the specific categories of prompts used as part of the study,
+enabling meaningful comparisons across different studies. Also, by establishing
+a common standard through this taxonomy, researchers will be able to draw more
+accurate conclusions about LLMs' performance on a specific complex task.",2023-05-19
+"CHBias: Bias Evaluation and Mitigation of Chinese Conversational
+  Language Models",2023-05-18 18:58:30+00:00,http://arxiv.org/abs/2305.11262v1,"Jiaxu Zhao, Meng Fang, Zijing Shi, Yitong Li, Ling Chen, Mykola Pechenizkiy",cs.CL,dialogue,"\textit{\textbf{\textcolor{red}{Warning}:} This paper contains content that
+may be offensive or upsetting.} Pretrained conversational agents have been
+exposed to safety issues, exhibiting a range of stereotypical human biases such
+as gender bias. However, there are still limited bias categories in current
+research, and most of them only focus on English. In this paper, we introduce a
+new Chinese dataset, CHBias, for bias evaluation and mitigation of Chinese
+conversational language models. Apart from those previous well-explored bias
+categories, CHBias includes under-explored bias categories, such as ageism and
+appearance biases, which received less attention. We evaluate two popular
+pretrained Chinese conversational models, CDial-GPT and EVA2.0, using CHBias.
+Furthermore, to mitigate different biases, we apply several debiasing methods
+to the Chinese pretrained models. Experimental results show that these Chinese
+pretrained models are potentially risky for generating texts that contain
+social biases, and debiasing methods using the proposed dataset can make
+response generation less biased while preserving the models' conversational
+capabilities.",2023-05-18
+Boosting Event Extraction with Denoised Structure-to-Text Augmentation,2023-05-16 16:52:07+00:00,http://arxiv.org/abs/2305.09598v1,"bo wang, Heyan Huang, Xiaochi Wei, Ge Shi, Xiao Liu, Chong Feng, Tong Zhou, Shuaiqiang Wang, Dawei Yin",cs.CL,dialogue,"Event extraction aims to recognize pre-defined event triggers and arguments
+from texts, which suffer from the lack of high-quality annotations. In most NLP
+applications, involving a large scale of synthetic training data is a practical
+and effective approach to alleviate the problem of data scarcity. However, when
+applying to the task of event extraction, recent data augmentation methods
+often neglect the problem of grammatical incorrectness, structure misalignment,
+and semantic drifting, leading to unsatisfactory performances. In order to
+solve these problems, we propose a denoised structure-to-text augmentation
+framework for event extraction DAEE, which generates additional training data
+through the knowledge-based structure-to-text generation model and selects the
+effective subset from the generated data iteratively with a deep reinforcement
+learning agent. Experimental results on several datasets demonstrate that the
+proposed method generates more diverse text representations for event
+extraction and achieves comparable results with the state-of-the-art.",2023-05-16
+"Helping the Helper: Supporting Peer Counselors via AI-Empowered Practice
+  and Feedback",2023-05-15 19:48:59+00:00,http://arxiv.org/abs/2305.08982v1,"Shang-Ling Hsu, Raj Sanjay Shah, Prathik Senthil, Zahra Ashktorab, Casey Dugan, Werner Geyer, Diyi Yang","cs.HC, cs.CL",dialogue,"Millions of users come to online peer counseling platforms to seek support on
+diverse topics ranging from relationship stress to anxiety. However, studies
+show that online peer support groups are not always as effective as expected
+largely due to users' negative experiences with unhelpful counselors. Peer
+counselors are key to the success of online peer counseling platforms, but most
+of them often do not have systematic ways to receive guidelines or supervision.
+In this work, we introduce CARE: an interactive AI-based tool to empower peer
+counselors through automatic suggestion generation. During the practical
+training stage, CARE helps diagnose which specific counseling strategies are
+most suitable in the given context and provides tailored example responses as
+suggestions. Counselors can choose to select, modify, or ignore any suggestion
+before replying to the support seeker. Building upon the Motivational
+Interviewing framework, CARE utilizes large-scale counseling conversation data
+together with advanced natural language generation techniques to achieve these
+functionalities. We demonstrate the efficacy of CARE by performing both
+quantitative evaluations and qualitative user studies through simulated chats
+and semi-structured interviews. We also find that CARE especially helps novice
+counselors respond better in challenging situations.",2023-05-15
+"NLG Evaluation Metrics Beyond Correlation Analysis: An Empirical Metric
+  Preference Checklist",2023-05-15 11:51:55+00:00,http://arxiv.org/abs/2305.08566v3,"Iftitahu Ni'mah, Meng Fang, Vlado Menkovski, Mykola Pechenizkiy",cs.CL,dialogue,"In this study, we analyze NLG automatic metrics based on whether human
+evaluation aspect is used as context or objective to compute the metrics: (i)
+Task-agnostic and (ii) Human-aligned. Task-agnostic metrics, such as
+Perplexity, BLEU, BERTScore, are cost-effective and highly adaptable to diverse
+NLG tasks, yet they have a weak correlation with human. Human-aligned metrics
+(CTC, CtrlEval, UniEval) improves correlation level by incorporating desirable
+human-like qualities as training objective. However, their effectiveness at
+discerning system-level performance and quality of system outputs remain
+unclear.
+  We present metric preference checklist as a framework to assess the
+discriminative power of automatic metrics in three NLG tasks: Text
+Summarization, Dialogue Response Generation, and Controlled Generation. We show
+that multi-aspect human-aligned metric (UniEval) is not necessarily dominant
+over single-aspect human-aligned metrics (CTC, CtrlEval) and task-agnostic
+metrics (BLEU, BERTScore), particularly when a disagreement between human
+evaluation aspects is present. We also show particular use cases in which
+automatic metrics provide a better guidance than human on discriminating
+system-level performance. Our proposed framework provides access: (i) for
+verifying whether automatic metrics are faithful to human preference,
+regardless their correlation level to human; and (ii) for scrutinizing the
+strengths and limitations of NLG systems, which are often obscured by a
+standard averaging method of evaluation scores.",2023-05-15
+"ProKnow: Process Knowledge for Safety Constrained and Explainable
+  Question Generation for Mental Health Diagnostic Assistance",2023-05-13 21:31:02+00:00,http://arxiv.org/abs/2305.08010v1,"Kaushik Roy, Manas Gaur, Misagh Soltani, Vipula Rawte, Ashwin Kalyan, Amit Sheth",cs.CL,dialogue,"Current Virtual Mental Health Assistants (VMHAs) provide counseling and
+suggestive care. They refrain from patient diagnostic assistance because they
+lack training in safety-constrained and specialized clinical process knowledge.
+In this work, we define Proknow as an ordered set of information that maps to
+evidence-based guidelines or categories of conceptual understanding to experts
+in a domain. We also introduce a new dataset of diagnostic conversations guided
+by safety constraints and Proknow that healthcare professionals use. We develop
+a method for natural language question generation (NLG) that collects
+diagnostic information from the patient interactively. We demonstrate the
+limitations of using state-of-the-art large-scale language models (LMs) on this
+dataset. Our algorithm models the process knowledge through explicitly modeling
+safety, knowledge capture, and explainability. LMs augmented with ProKnow
+guided method generated 89% safer questions in the depression and anxiety
+domain. The Explainability of the generated question is assessed by computing
+similarity with concepts in depression and anxiety knowledge bases. Overall,
+irrespective of the type of LMs augmented with our ProKnow, we achieved an
+average 82% improvement over simple pre-trained LMs on safety, explainability,
+and process-guided question generation. We qualitatively and quantitatively
+evaluate the efficacy of the proposed ProKnow-guided methods by introducing
+three new evaluation metrics for safety, explainability, and process knowledge
+adherence.",2023-05-13
+"Dialogue Planning via Brownian Bridge Stochastic Process for
+  Goal-directed Proactive Dialogue",2023-05-09 09:28:23+00:00,http://arxiv.org/abs/2305.05290v1,"Jian Wang, Dongding Lin, Wenjie Li","cs.CL, cs.LG",dialogue,"Goal-directed dialogue systems aim to proactively reach a pre-determined
+target through multi-turn conversations. The key to achieving this task lies in
+planning dialogue paths that smoothly and coherently direct conversations
+towards the target. However, this is a challenging and under-explored task. In
+this work, we propose a coherent dialogue planning approach that uses a
+stochastic process to model the temporal dynamics of dialogue paths. We define
+a latent space that captures the coherence of goal-directed behavior using a
+Brownian bridge process, which allows us to incorporate user feedback flexibly
+in dialogue planning. Based on the derived latent trajectories, we generate
+dialogue paths explicitly using pre-trained language models. We finally employ
+these paths as natural language prompts to guide dialogue generation. Our
+experiments show that our approach generates more coherent utterances and
+achieves the goal with a higher success rate.",2023-05-09
 Task-Optimized Adapters for an End-to-End Task-Oriented Dialogue System,2023-05-04 00:17:49+00:00,http://arxiv.org/abs/2305.02468v1,"Namo Bang, Jeehyun Lee, Myoung-Wan Koo",cs.CL,dialogue,"Task-Oriented Dialogue (TOD) systems are designed to carry out specific tasks
 by tracking dialogue states and generating appropriate responses to help users
 achieve defined goals. Recently, end-to-end dialogue models pre-trained based

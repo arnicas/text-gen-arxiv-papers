@@ -1,4 +1,37 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Creative Data Generation: A Review Focusing on Text and Poetry,2023-05-15 09:50:15+00:00,http://arxiv.org/abs/2305.08493v1,"Mohamad Elzohbi, Richard Zhao",cs.CL,poetry,"The rapid advancement in machine learning has led to a surge in automatic
+data generation, making it increasingly challenging to differentiate between
+naturally or human-generated data and machine-generated data. Despite these
+advancements, the generation of creative data remains a challenge. This paper
+aims to investigate and comprehend the essence of creativity, both in general
+and within the context of natural language generation. We review various
+approaches to creative writing devices and tasks, with a specific focus on the
+generation of poetry. We aim to shed light on the challenges and opportunities
+in the field of creative data generation.",2023-05-15
+Unsupervised Melody-Guided Lyrics Generation,2023-05-12 20:57:20+00:00,http://arxiv.org/abs/2305.07760v1,"Yufei Tian, Anjali Narayan-Chen, Shereen Oraby, Alessandra Cervone, Gunnar Sigurdsson, Chenyang Tao, Wenbo Zhao, Tagyoung Chung, Jing Huang, Nanyun Peng","cs.AI, cs.CL, cs.MM",poetry,"Automatic song writing is a topic of significant practical interest. However,
+its research is largely hindered by the lack of training data due to copyright
+concerns and challenged by its creative nature. Most noticeably, prior works
+often fall short of modeling the cross-modal correlation between melody and
+lyrics due to limited parallel data, hence generating lyrics that are less
+singable. Existing works also lack effective mechanisms for content control, a
+much desired feature for democratizing song creation for people with limited
+music background. In this work, we propose to generate pleasantly listenable
+lyrics without training on melody-lyric aligned data. Instead, we design a
+hierarchical lyric generation framework that disentangles training (based
+purely on text) from inference (melody-guided text generation). At inference
+time, we leverage the crucial alignments between melody and lyrics and compile
+the given melody into constraints to guide the generation process. Evaluation
+results show that our model can generate high-quality lyrics that are more
+singable, intelligible, coherent, and in rhyme than strong baselines including
+those supervised on parallel data.",2023-05-12
+Bits of Grass: Does GPT already know how to write like Whitman?,2023-05-10 09:02:34+00:00,http://arxiv.org/abs/2305.11064v1,"Piotr Sawicki, Marek Grzes, Fabricio Goes, Dan Brown, Max Peeperkorn, Aisha Khatun",cs.CL,poetry,"This study examines the ability of GPT-3.5, GPT-3.5-turbo (ChatGPT) and GPT-4
+models to generate poems in the style of specific authors using zero-shot and
+many-shot prompts (which use the maximum context length of 8192 tokens). We
+assess the performance of models that are not fine-tuned for generating poetry
+in the style of specific authors, via automated evaluation. Our findings
+indicate that without fine-tuning, even when provided with the maximum number
+of 17 poem examples (8192 tokens) in the prompt, these models do not generate
+poetry in the desired style.",2023-05-10
 Message Ritual: A Posthuman Account of Living with Lamp,2023-01-26 05:53:51+00:00,http://arxiv.org/abs/2301.10947v1,"Nina Rajcic, Jon McCormack","cs.HC, cs.AI, cs.NE, I.2; J.5; H.5",poetry,"As we become increasingly entangled with digital technologies, the boundary
 between human and machine is progressively blurring. Adopting a performative,
 posthumanist perspective resolves this ambiguity by proposing that such

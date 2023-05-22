@@ -1,4 +1,249 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+STOAT: Structured Data to Analytical Text With Controls,2023-05-19 17:03:09+00:00,http://arxiv.org/abs/2305.11826v1,"Deepanway Ghosal, Preksha Nema, Aravindan Raghuveer","cs.CL, cs.AI",knowledge,"Recent language models have made tremendous progress in the structured data
+to text generation task. However, these models still give sub-optimal
+performance where logical inference is required to generate the descriptions.
+In this work, we specifically focus on analytical text generation from
+structured data such as tables. Building on the taxonomy proposed in (Gupta et
+al., 2020) we focus on controllable table to text generation for the following
+reasoning categories: numerical reasoning, commonsense reasoning, temporal
+reasoning, table knowledge, and entity knowledge. We propose STOAT model, which
+is table and reasoning aware, with vector-quantization to infuse the given
+reasoning categories in the output. We observe that our model provides 10.19%,
+1.13% improvement on the PARENT metric in iToTTo and Infotabs for the
+analytical sentence task. We also found that our model generates 15.3% more
+faithful and analytical descriptions as compared to the baseline models in
+human evaluation. We curate and release two reasoning category annotated
+table-to-interesting text generation datasets based on the ToTTo (Parikh et
+al., 2020) and InfoTabs datasets (Gupta et al.,2020).",2023-05-19
+"Generating Visual Spatial Description via Holistic 3D Scene
+  Understanding",2023-05-19 15:53:56+00:00,http://arxiv.org/abs/2305.11768v1,"Yu Zhao, Hao Fei, Wei Ji, Jianguo Wei, Meishan Zhang, Min Zhang, Tat-Seng Chua","cs.CV, cs.CL",knowledge,"Visual spatial description (VSD) aims to generate texts that describe the
+spatial relations of the given objects within images. Existing VSD work merely
+models the 2D geometrical vision features, thus inevitably falling prey to the
+problem of skewed spatial understanding of target objects. In this work, we
+investigate the incorporation of 3D scene features for VSD. With an external 3D
+scene extractor, we obtain the 3D objects and scene features for input images,
+based on which we construct a target object-centered 3D spatial scene graph
+(Go3D-S2G), such that we model the spatial semantics of target objects within
+the holistic 3D scenes. Besides, we propose a scene subgraph selecting
+mechanism, sampling topologically-diverse subgraphs from Go3D-S2G, where the
+diverse local structure features are navigated to yield spatially-diversified
+text generation. Experimental results on two VSD datasets demonstrate that our
+framework outperforms the baselines significantly, especially improving on the
+cases with complex visual spatial relations. Meanwhile, our method can produce
+more spatially-diversified generation. Code is available at
+https://github.com/zhaoyucs/VSD.",2023-05-19
+"What Comes Next? Evaluating Uncertainty in Neural Text Generators
+  Against Human Production Variability",2023-05-19 14:41:55+00:00,http://arxiv.org/abs/2305.11707v1,"Mario Giulianelli, Joris Baan, Wilker Aziz, Raquel Fernández, Barbara Plank","cs.CL, cs.AI, cs.LG",knowledge,"In Natural Language Generation (NLG) tasks, for any input, multiple
+communicative goals are plausible, and any goal can be put into words, or
+produced, in multiple ways. We characterise the extent to which human
+production varies lexically, syntactically, and semantically across four NLG
+tasks, connecting human production variability to aleatoric or data
+uncertainty. We then inspect the space of output strings shaped by a generation
+system's predicted probability distribution and decoding algorithm to probe its
+uncertainty. For each test input, we measure the generator's calibration to
+human production variability. Following this instance-level approach, we
+analyse NLG models and decoding strategies, demonstrating that probing a
+generator with multiple samples and, when possible, multiple references,
+provides the level of detail necessary to gain understanding of a model's
+representation of uncertainty.",2023-05-19
+"Cross-modality Data Augmentation for End-to-End Sign Language
+  Translation",2023-05-18 16:34:18+00:00,http://arxiv.org/abs/2305.11096v1,"Jinhui Ye, Wenxiang Jiao, Xing Wang, Zhaopeng Tu, Hui Xiong",cs.CL,knowledge,"End-to-end sign language translation (SLT) aims to convert sign language
+videos into spoken language texts directly without intermediate
+representations. It has been a challenging task due to the modality gap between
+sign videos and texts and the data scarcity of labeled data. To tackle these
+challenges, we propose a novel Cross-modality Data Augmentation (XmDA)
+framework to transfer the powerful gloss-to-text translation capabilities to
+end-to-end sign language translation (i.e. video-to-text) by exploiting pseudo
+gloss-text pairs from the sign gloss translation model. Specifically, XmDA
+consists of two key components, namely, cross-modality mix-up and
+cross-modality knowledge distillation. The former explicitly encourages the
+alignment between sign video features and gloss embeddings to bridge the
+modality gap. The latter utilizes the generation knowledge from gloss-to-text
+teacher models to guide the spoken language text generation. Experimental
+results on two widely used SLT datasets, i.e., PHOENIX-2014T and CSL-Daily,
+demonstrate that the proposed XmDA framework significantly and consistently
+outperforms the baseline models. Extensive analyses confirm our claim that XmDA
+enhances spoken language text generation by reducing the representation
+distance between videos and texts, as well as improving the processing of
+low-frequency words and long sentences.",2023-05-18
+What You See is What You Read? Improving Text-Image Alignment Evaluation,2023-05-17 17:43:38+00:00,http://arxiv.org/abs/2305.10400v1,"Michal Yarom, Yonatan Bitton, Soravit Changpinyo, Roee Aharoni, Jonathan Herzig, Oran Lang, Eran Ofek, Idan Szpektor","cs.CL, cs.CV",knowledge,"Automatically determining whether a text and a corresponding image are
+semantically aligned is a significant challenge for vision-language models,
+with applications in generative text-to-image and image-to-text tasks. In this
+work, we study methods for automatic text-image alignment evaluation. We first
+introduce SeeTRUE: a comprehensive evaluation set, spanning multiple datasets
+from both text-to-image and image-to-text generation tasks, with human
+judgements for whether a given text-image pair is semantically aligned. We then
+describe two automatic methods to determine alignment: the first involving a
+pipeline based on question generation and visual question answering models, and
+the second employing an end-to-end classification approach by finetuning
+multimodal pretrained models. Both methods surpass prior approaches in various
+text-image alignment tasks, with significant improvements in challenging cases
+that involve complex composition or unnatural images. Finally, we demonstrate
+how our approaches can localize specific misalignments between an image and a
+given text, and how they can be used to automatically re-rank candidates in
+text-to-image generation.",2023-05-17
+Boosting Event Extraction with Denoised Structure-to-Text Augmentation,2023-05-16 16:52:07+00:00,http://arxiv.org/abs/2305.09598v1,"bo wang, Heyan Huang, Xiaochi Wei, Ge Shi, Xiao Liu, Chong Feng, Tong Zhou, Shuaiqiang Wang, Dawei Yin",cs.CL,knowledge,"Event extraction aims to recognize pre-defined event triggers and arguments
+from texts, which suffer from the lack of high-quality annotations. In most NLP
+applications, involving a large scale of synthetic training data is a practical
+and effective approach to alleviate the problem of data scarcity. However, when
+applying to the task of event extraction, recent data augmentation methods
+often neglect the problem of grammatical incorrectness, structure misalignment,
+and semantic drifting, leading to unsatisfactory performances. In order to
+solve these problems, we propose a denoised structure-to-text augmentation
+framework for event extraction DAEE, which generates additional training data
+through the knowledge-based structure-to-text generation model and selects the
+effective subset from the generated data iteratively with a deep reinforcement
+learning agent. Experimental results on several datasets demonstrate that the
+proposed method generates more diverse text representations for event
+extraction and achieves comparable results with the state-of-the-art.",2023-05-16
+Watermarking Text Generated by Black-Box Language Models,2023-05-14 07:37:33+00:00,http://arxiv.org/abs/2305.08883v1,"Xi Yang, Kejiang Chen, Weiming Zhang, Chang Liu, Yuang Qi, Jie Zhang, Han Fang, Nenghai Yu","cs.CL, cs.AI",knowledge,"LLMs now exhibit human-like skills in various fields, leading to worries
+about misuse. Thus, detecting generated text is crucial. However, passive
+detection methods are stuck in domain specificity and limited adversarial
+robustness. To achieve reliable detection, a watermark-based method was
+proposed for white-box LLMs, allowing them to embed watermarks during text
+generation. The method involves randomly dividing the model vocabulary to
+obtain a special list and adjusting the probability distribution to promote the
+selection of words in the list. A detection algorithm aware of the list can
+identify the watermarked text. However, this method is not applicable in many
+real-world scenarios where only black-box language models are available. For
+instance, third-parties that develop API-based vertical applications cannot
+watermark text themselves because API providers only supply generated text and
+withhold probability distributions to shield their commercial interests. To
+allow third-parties to autonomously inject watermarks into generated text, we
+develop a watermarking framework for black-box language model usage scenarios.
+Specifically, we first define a binary encoding function to compute a random
+binary encoding corresponding to a word. The encodings computed for
+non-watermarked text conform to a Bernoulli distribution, wherein the
+probability of a word representing bit-1 being approximately 0.5. To inject a
+watermark, we alter the distribution by selectively replacing words
+representing bit-0 with context-based synonyms that represent bit-1. A
+statistical test is then used to identify the watermark. Experiments
+demonstrate the effectiveness of our method on both Chinese and English
+datasets. Furthermore, results under re-translation, polishing, word deletion,
+and synonym substitution attacks reveal that it is arduous to remove the
+watermark without compromising the original semantics.",2023-05-14
+"ProKnow: Process Knowledge for Safety Constrained and Explainable
+  Question Generation for Mental Health Diagnostic Assistance",2023-05-13 21:31:02+00:00,http://arxiv.org/abs/2305.08010v1,"Kaushik Roy, Manas Gaur, Misagh Soltani, Vipula Rawte, Ashwin Kalyan, Amit Sheth",cs.CL,knowledge,"Current Virtual Mental Health Assistants (VMHAs) provide counseling and
+suggestive care. They refrain from patient diagnostic assistance because they
+lack training in safety-constrained and specialized clinical process knowledge.
+In this work, we define Proknow as an ordered set of information that maps to
+evidence-based guidelines or categories of conceptual understanding to experts
+in a domain. We also introduce a new dataset of diagnostic conversations guided
+by safety constraints and Proknow that healthcare professionals use. We develop
+a method for natural language question generation (NLG) that collects
+diagnostic information from the patient interactively. We demonstrate the
+limitations of using state-of-the-art large-scale language models (LMs) on this
+dataset. Our algorithm models the process knowledge through explicitly modeling
+safety, knowledge capture, and explainability. LMs augmented with ProKnow
+guided method generated 89% safer questions in the depression and anxiety
+domain. The Explainability of the generated question is assessed by computing
+similarity with concepts in depression and anxiety knowledge bases. Overall,
+irrespective of the type of LMs augmented with our ProKnow, we achieved an
+average 82% improvement over simple pre-trained LMs on safety, explainability,
+and process-guided question generation. We qualitatively and quantitatively
+evaluate the efficacy of the proposed ProKnow-guided methods by introducing
+three new evaluation metrics for safety, explainability, and process knowledge
+adherence.",2023-05-13
+"Autocorrelations Decay in Texts and Applicability Limits of Language
+  Models",2023-05-11 07:23:01+00:00,http://arxiv.org/abs/2305.06615v1,"Nikolay Mikhaylovskiy, Ilya Churilov","cs.CL, I.2.7",knowledge,"We show that the laws of autocorrelations decay in texts are closely related
+to applicability limits of language models. Using distributional semantics we
+empirically demonstrate that autocorrelations of words in texts decay according
+to a power law. We show that distributional semantics provides coherent
+autocorrelations decay exponents for texts translated to multiple languages.
+The autocorrelations decay in generated texts is quantitatively and often
+qualitatively different from the literary texts. We conclude that language
+models exhibiting Markov behavior, including large autoregressive language
+models, may have limitations when applied to long texts, whether analysis or
+generation.",2023-05-11
+Long-Tailed Question Answering in an Open World,2023-05-11 04:28:58+00:00,http://arxiv.org/abs/2305.06557v1,"Yi Dai, Hao Lang, Yinhe Zheng, Fei Huang, Yongbin Li","cs.CL, cs.AI, cs.LG",knowledge,"Real-world data often have an open long-tailed distribution, and building a
+unified QA model supporting various tasks is vital for practical QA
+applications. However, it is non-trivial to extend previous QA approaches since
+they either require access to seen tasks of adequate samples or do not
+explicitly model samples from unseen tasks. In this paper, we define Open
+Long-Tailed QA (OLTQA) as learning from long-tailed distributed data and
+optimizing performance over seen and unseen QA tasks. We propose an OLTQA model
+that encourages knowledge sharing between head, tail and unseen tasks, and
+explicitly mines knowledge from a large pre-trained language model (LM).
+Specifically, we organize our model through a pool of fine-grained components
+and dynamically combine these components for an input to facilitate knowledge
+sharing. A retrieve-then-rerank frame is further introduced to select
+in-context examples, which guild the LM to generate text that express knowledge
+for QA tasks. Moreover, a two-stage training approach is introduced to
+pre-train the framework by knowledge distillation (KD) from the LM and then
+jointly train the frame and a QA model through an adaptive mutual KD method. On
+a large-scale OLTQA dataset we curate from 43 existing QA datasets, our model
+consistently outperforms the state-of-the-art. We release the code and data at
+\url{https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/oltqa}.",2023-05-11
+"Are ChatGPT and GPT-4 General-Purpose Solvers for Financial Text
+  Analytics? An Examination on Several Typical Tasks",2023-05-10 03:13:54+00:00,http://arxiv.org/abs/2305.05862v1,"Xianzhi Li, Xiaodan Zhu, Zhiqiang Ma, Xiaomo Liu, Sameena Shah","cs.CL, cs.AI",knowledge,"The most recent large language models such as ChatGPT and GPT-4 have garnered
+significant attention, as they are capable of generating high-quality responses
+to human input. Despite the extensive testing of ChatGPT and GPT-4 on generic
+text corpora, showcasing their impressive capabilities, a study focusing on
+financial corpora has not been conducted. In this study, we aim to bridge this
+gap by examining the potential of ChatGPT and GPT-4 as a solver for typical
+financial text analytic problems in the zero-shot or few-shot setting.
+Specifically, we assess their capabilities on four representative tasks over
+five distinct financial textual datasets. The preliminary study shows that
+ChatGPT and GPT-4 struggle on tasks such as financial named entity recognition
+(NER) and sentiment analysis, where domain-specific knowledge is required,
+while they excel in numerical reasoning tasks. We report both the strengths and
+limitations of the current versions of ChatGPT and GPT-4, comparing them to the
+state-of-the-art finetuned models as well as pretrained domain-specific
+generative models. Our experiments provide qualitative studies, through which
+we hope to help understand the capability of the existing models and facilitate
+further improvements.",2023-05-10
+Vārta: A Large-Scale Headline-Generation Dataset for Indic Languages,2023-05-10 03:07:17+00:00,http://arxiv.org/abs/2305.05858v1,"Rahul Aralikatte, Ziling Cheng, Sumanth Doddapaneni, Jackie Chi Kit Cheung",cs.CL,knowledge,"We present V\=arta, a large-scale multilingual dataset for headline
+generation in Indic languages. This dataset includes 41.8 million news articles
+in 14 different Indic languages (and English), which come from a variety of
+high-quality sources. To the best of our knowledge, this is the largest
+collection of curated articles for Indic languages currently available. We use
+the data collected in a series of experiments to answer important questions
+related to Indic NLP and multilinguality research in general. We show that the
+dataset is challenging even for state-of-the-art abstractive models and that
+they perform only slightly better than extractive baselines. Owing to its size,
+we also show that the dataset can be used to pretrain strong language models
+that outperform competitive baselines in both NLU and NLG benchmarks.",2023-05-10
+"Vision-Language Models in Remote Sensing: Current Progress and Future
+  Trends",2023-05-09 19:17:07+00:00,http://arxiv.org/abs/2305.05726v1,"Congcong Wen, Yuan Hu, Xiang Li, Zhenghang Yuan, Xiao Xiang Zhu","cs.CV, cs.AI",knowledge,"The remarkable achievements of ChatGPT and GPT-4 have sparked a wave of
+interest and research in the field of large language models for Artificial
+General Intelligence (AGI). These models provide us with intelligent solutions
+that are more similar to human thinking, enabling us to use general artificial
+intelligence to solve problems in various applications. However, in the field
+of remote sensing, the scientific literature on the implementation of AGI
+remains relatively scant. Existing AI-related research primarily focuses on
+visual understanding tasks while neglecting the semantic understanding of the
+objects and their relationships. This is where vision-language models excel, as
+they enable reasoning about images and their associated textual descriptions,
+allowing for a deeper understanding of the underlying semantics.
+Vision-language models can go beyond recognizing the objects in an image and
+can infer the relationships between them, as well as generate natural language
+descriptions of the image. This makes them better suited for tasks that require
+both visual and textual understanding, such as image captioning, text-based
+image retrieval, and visual question answering. This paper provides a
+comprehensive review of the research on vision-language models in remote
+sensing, summarizing the latest progress, highlighting the current challenges,
+and identifying potential research opportunities. Specifically, we review the
+application of vision-language models in several mainstream remote sensing
+tasks, including image captioning, text-based image generation, text-based
+image retrieval, visual question answering, scene classification, semantic
+segmentation, and object detection. For each task, we briefly describe the task
+background and review some representative works. Finally, we summarize the
+limitations of existing work and provide some possible directions for future
+development.",2023-05-09
+"Dreams Are More ""Predictable'' Than You Think",2023-05-08 21:24:12+00:00,http://arxiv.org/abs/2305.05054v1,Lorenzo Bertolini,cs.CL,knowledge,"A consistent body of evidence suggests that dream reports significantly vary
+from other types of textual transcripts with respect to semantic content.
+Furthermore, it appears to be a widespread belief in the dream/sleep research
+community that dream reports constitute rather ``unique'' strings of text. This
+might be a notable issue for the growing amount of approaches using natural
+language processing (NLP) tools to automatically analyse dream reports, as they
+largely rely on neural models trained on non-dream corpora scraped from the
+web. In this work, I will adopt state-of-the-art (SotA) large language models
+(LLMs), to study if and how dream reports deviate from other human-generated
+text strings, such as Wikipedia. Results show that, taken as a whole, DreamBank
+does not deviate from Wikipedia. Moreover, on average, single dream reports are
+significantly more predictable than Wikipedia articles. Preliminary evidence
+suggests that word count, gender, and visual impairment can significantly shape
+how predictable a dream report can appear to the model.",2023-05-08
 "Diffusion-NAT: Self-Prompting Discrete Diffusion for Non-Autoregressive
   Text Generation",2023-05-06 13:20:31+00:00,http://arxiv.org/abs/2305.04044v1,"Kun Zhou, Yifan Li, Wayne Xin Zhao, Ji-Rong Wen",cs.CL,knowledge,"Recently, continuous diffusion models (CDM) have been introduced into
 non-autoregressive (NAR) text-to-text generation. However, the discrete nature

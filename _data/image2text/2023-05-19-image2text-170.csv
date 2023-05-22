@@ -1,4 +1,223 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+STOAT: Structured Data to Analytical Text With Controls,2023-05-19 17:03:09+00:00,http://arxiv.org/abs/2305.11826v1,"Deepanway Ghosal, Preksha Nema, Aravindan Raghuveer","cs.CL, cs.AI",image2text,"Recent language models have made tremendous progress in the structured data
+to text generation task. However, these models still give sub-optimal
+performance where logical inference is required to generate the descriptions.
+In this work, we specifically focus on analytical text generation from
+structured data such as tables. Building on the taxonomy proposed in (Gupta et
+al., 2020) we focus on controllable table to text generation for the following
+reasoning categories: numerical reasoning, commonsense reasoning, temporal
+reasoning, table knowledge, and entity knowledge. We propose STOAT model, which
+is table and reasoning aware, with vector-quantization to infuse the given
+reasoning categories in the output. We observe that our model provides 10.19%,
+1.13% improvement on the PARENT metric in iToTTo and Infotabs for the
+analytical sentence task. We also found that our model generates 15.3% more
+faithful and analytical descriptions as compared to the baseline models in
+human evaluation. We curate and release two reasoning category annotated
+table-to-interesting text generation datasets based on the ToTTo (Parikh et
+al., 2020) and InfoTabs datasets (Gupta et al.,2020).",2023-05-19
+"Generating Visual Spatial Description via Holistic 3D Scene
+  Understanding",2023-05-19 15:53:56+00:00,http://arxiv.org/abs/2305.11768v1,"Yu Zhao, Hao Fei, Wei Ji, Jianguo Wei, Meishan Zhang, Min Zhang, Tat-Seng Chua","cs.CV, cs.CL",image2text,"Visual spatial description (VSD) aims to generate texts that describe the
+spatial relations of the given objects within images. Existing VSD work merely
+models the 2D geometrical vision features, thus inevitably falling prey to the
+problem of skewed spatial understanding of target objects. In this work, we
+investigate the incorporation of 3D scene features for VSD. With an external 3D
+scene extractor, we obtain the 3D objects and scene features for input images,
+based on which we construct a target object-centered 3D spatial scene graph
+(Go3D-S2G), such that we model the spatial semantics of target objects within
+the holistic 3D scenes. Besides, we propose a scene subgraph selecting
+mechanism, sampling topologically-diverse subgraphs from Go3D-S2G, where the
+diverse local structure features are navigated to yield spatially-diversified
+text generation. Experimental results on two VSD datasets demonstrate that our
+framework outperforms the baselines significantly, especially improving on the
+cases with complex visual spatial relations. Meanwhile, our method can produce
+more spatially-diversified generation. Code is available at
+https://github.com/zhaoyucs/VSD.",2023-05-19
+Brain Captioning: Decoding human brain activity into images and text,2023-05-19 09:57:19+00:00,http://arxiv.org/abs/2305.11560v1,"Matteo Ferrante, Furkan Ozcelik, Tommaso Boccato, Rufin VanRullen, Nicola Toschi","cs.CV, cs.AI",image2text,"Every day, the human brain processes an immense volume of visual information,
+relying on intricate neural mechanisms to perceive and interpret these stimuli.
+Recent breakthroughs in functional magnetic resonance imaging (fMRI) have
+enabled scientists to extract visual information from human brain activity
+patterns. In this study, we present an innovative method for decoding brain
+activity into meaningful images and captions, with a specific focus on brain
+captioning due to its enhanced flexibility as compared to brain decoding into
+images. Our approach takes advantage of cutting-edge image captioning models
+and incorporates a unique image reconstruction pipeline that utilizes latent
+diffusion models and depth estimation. We utilized the Natural Scenes Dataset,
+a comprehensive fMRI dataset from eight subjects who viewed images from the
+COCO dataset. We employed the Generative Image-to-text Transformer (GIT) as our
+backbone for captioning and propose a new image reconstruction pipeline based
+on latent diffusion models. The method involves training regularized linear
+regression models between brain activity and extracted features. Additionally,
+we incorporated depth maps from the ControlNet model to further guide the
+reconstruction process. We evaluate our methods using quantitative metrics for
+both generated captions and images. Our brain captioning approach outperforms
+existing methods, while our image reconstruction pipeline generates plausible
+images with improved spatial relationships. In conclusion, we demonstrate
+significant progress in brain decoding, showcasing the enormous potential of
+integrating vision and language to better understand human cognition. Our
+approach provides a flexible platform for future research, with potential
+applications in various fields, including neural art, style transfer, and
+portable devices.",2023-05-19
+"Collaborative Generative AI: Integrating GPT-k for Efficient Editing in
+  Text-to-Image Generation",2023-05-18 21:53:58+00:00,http://arxiv.org/abs/2305.11317v1,"Wanrong Zhu, Xinyi Wang, Yujie Lu, Tsu-Jui Fu, Xin Eric Wang, Miguel Eckstein, William Yang Wang",cs.CL,image2text,"The field of text-to-image (T2I) generation has garnered significant
+attention both within the research community and among everyday users. Despite
+the advancements of T2I models, a common issue encountered by users is the need
+for repetitive editing of input prompts in order to receive a satisfactory
+image, which is time-consuming and labor-intensive. Given the demonstrated text
+generation power of large-scale language models, such as GPT-k, we investigate
+the potential of utilizing such models to improve the prompt editing process
+for T2I generation. We conduct a series of experiments to compare the common
+edits made by humans and GPT-k, evaluate the performance of GPT-k in prompting
+T2I, and examine factors that may influence this process. We found that GPT-k
+models focus more on inserting modifiers while humans tend to replace words and
+phrases, which includes changes to the subject matter. Experimental results
+show that GPT-k are more effective in adjusting modifiers rather than
+predicting spontaneous changes in the primary subject matters. Adopting the
+edit suggested by GPT-k models may reduce the percentage of remaining edits by
+20-30%.",2023-05-18
+AIwriting: Relations Between Image Generation and Digital Writing,2023-05-18 09:23:05+00:00,http://arxiv.org/abs/2305.10834v1,"Scott Rettberg, Talan Memmott, Jill Walker Rettberg, Jason Nelson, Patrick Lichty","cs.AI, cs.CL, cs.HC, cs.MM, J.5",image2text,"During 2022, both transformer-based AI text generation sys-tems such as GPT-3
+and AI text-to-image generation systems such as DALL-E 2 and Stable Diffusion
+made exponential leaps forward and are unquestionably altering the fields of
+digital art and electronic literature. In this panel a group of electronic
+literature authors and theorists consider new oppor-tunities for human
+creativity presented by these systems and present new works have produced
+during the past year that specifically address these systems as environments
+for literary expressions that are translated through iterative interlocutive
+processes into visual representations. The premise that binds these
+presentations is that these systems and the works gener-ated must be considered
+from a literary perspective, as they originate in human writing. In works
+ranging from a visual memoir of the personal experience of a health crisis, to
+interac-tive web comics, to architectures based on abstract poetic language, to
+political satire, four artists explore the capabili-ties of these writing
+environments for new genres of literary artist practice, while a digital
+culture theorist considers the origins and effects of the particular training
+datasets of human language and images on which these new hybrid forms are
+based.",2023-05-18
+"ReGen: Zero-Shot Text Classification via Training Data Generation with
+  Progressive Dense Retrieval",2023-05-18 04:30:09+00:00,http://arxiv.org/abs/2305.10703v1,"Yue Yu, Yuchen Zhuang, Rongzhi Zhang, Yu Meng, Jiaming Shen, Chao Zhang","cs.CL, cs.IR, cs.LG",image2text,"With the development of large language models (LLMs), zero-shot learning has
+attracted much attention for various NLP tasks. Different from prior works that
+generate training data with billion-scale natural language generation (NLG)
+models, we propose a retrieval-enhanced framework to create training data from
+a general-domain unlabeled corpus. To realize this, we first conduct
+contrastive pretraining to learn an unsupervised dense retriever for extracting
+the most relevant documents using class-descriptive verbalizers. We then
+further propose two simple strategies, namely Verbalizer Augmentation with
+Demonstrations and Self-consistency Guided Filtering to improve the topic
+coverage of the dataset while removing noisy examples. Experiments on nine
+datasets demonstrate that REGEN achieves 4.3% gain over the strongest baselines
+and saves around 70% of the time compared to baselines using large NLG models.
+Besides, REGEN can be naturally integrated with recently proposed large
+language models to boost performance.",2023-05-18
+What You See is What You Read? Improving Text-Image Alignment Evaluation,2023-05-17 17:43:38+00:00,http://arxiv.org/abs/2305.10400v1,"Michal Yarom, Yonatan Bitton, Soravit Changpinyo, Roee Aharoni, Jonathan Herzig, Oran Lang, Eran Ofek, Idan Szpektor","cs.CL, cs.CV",image2text,"Automatically determining whether a text and a corresponding image are
+semantically aligned is a significant challenge for vision-language models,
+with applications in generative text-to-image and image-to-text tasks. In this
+work, we study methods for automatic text-image alignment evaluation. We first
+introduce SeeTRUE: a comprehensive evaluation set, spanning multiple datasets
+from both text-to-image and image-to-text generation tasks, with human
+judgements for whether a given text-image pair is semantically aligned. We then
+describe two automatic methods to determine alignment: the first involving a
+pipeline based on question generation and visual question answering models, and
+the second employing an end-to-end classification approach by finetuning
+multimodal pretrained models. Both methods surpass prior approaches in various
+text-image alignment tasks, with significant improvements in challenging cases
+that involve complex composition or unnatural images. Finally, we demonstrate
+how our approaches can localize specific misalignments between an image and a
+given text, and how they can be used to automatically re-rank candidates in
+text-to-image generation.",2023-05-17
+Equivariant Few-Shot Learning from Pretrained Models,2023-05-17 02:20:34+00:00,http://arxiv.org/abs/2305.09900v1,"Sourya Basu, Pulkit Katdare, Prasanna Sattigeri, Vijil Chenthamarakshan, Katherine Driggs-Campbell, Payel Das, Lav R. Varshney","cs.LG, cs.AI, cs.CL, cs.CV",image2text,"Efficient transfer learning algorithms are key to the success of foundation
+models on diverse downstream tasks even with limited data. Recent works of
+\cite{basu2022equi} and \cite{kaba2022equivariance} propose group averaging
+(\textit{equitune}) and optimization-based methods, respectively, over features
+from group-transformed inputs to obtain equivariant outputs from
+non-equivariant neural networks. While \cite{kaba2022equivariance} are only
+concerned with training from scratch, we find that equitune performs poorly on
+equivariant zero-shot tasks despite good finetuning results. We hypothesize
+that this is because pretrained models provide better quality features for
+certain transformations than others and simply averaging them is deleterious.
+Hence, we propose $\lambda$-\textit{equitune} that averages the features using
+\textit{importance weights}, $\lambda$s. These weights are learned directly
+from the data using a small neural network, leading to excellent zero-shot and
+finetuned results that outperform equitune. Further, we prove that
+$\lambda$-equitune is equivariant and a universal approximator of equivariant
+functions. Additionally, we show that the method of \cite{kaba2022equivariance}
+used with appropriate loss functions, which we call \textit{equizero}, also
+gives excellent zero-shot and finetuned performance. Both equitune and equizero
+are special cases of $\lambda$-equitune. To show the simplicity and generality
+of our method, we validate on a wide range of diverse applications and models
+such as 1) image classification using CLIP, 2) deep Q-learning, 3) fairness in
+natural language generation (NLG), 4) compositional generalization in
+languages, and 5) image classification using pretrained CNNs such as Resnet and
+Alexnet.",2023-05-17
+AR-Diffusion: Auto-Regressive Diffusion Model for Text Generation,2023-05-16 15:10:22+00:00,http://arxiv.org/abs/2305.09515v2,"Tong Wu, Zhihao Fan, Xiao Liu, Yeyun Gong, Yelong Shen, Jian Jiao, Hai-Tao Zheng, Juntao Li, Zhongyu Wei, Jian Guo, Nan Duan, Weizhu Chen",cs.CL,image2text,"Diffusion models have gained significant attention in the realm of image
+generation due to their exceptional performance. Their success has been
+recently expanded to text generation via generating all tokens within a
+sequence concurrently. However, natural language exhibits a far more pronounced
+sequential dependency in comparison to images, and the majority of existing
+language models are trained with a left-to-right auto-regressive approach. To
+account for the inherent sequential characteristic of natural language, we
+introduce Auto-Regressive Diffusion (AR-Diffusion). AR-Diffusion ensures that
+the generation of tokens on the right depends on the generated ones on the
+left, a mechanism achieved through employing a dynamic number of denoising
+steps that vary based on token position. This results in tokens on the left
+undergoing fewer denoising steps than those on the right, thereby enabling them
+to generate earlier and subsequently influence the generation of tokens on the
+right. In a series of experiments on various text generation tasks, including
+text summarization, machine translation, and common sense generation,
+AR-Diffusion clearly demonstrated its superiority over existing diffusion
+language models and that it can be $100\times\sim600\times$ faster when
+achieving comparable results. Our code is available at
+https://github.com/microsoft/ProphetNet/tree/master/AR-diffusion.",2023-05-16
+Generative AI: Implications and Applications for Education,2023-05-12 16:52:38+00:00,http://arxiv.org/abs/2305.07605v2,"Anastasia Olga, Tzirides, Akash Saini, Gabriela Zapata, Duane Searsmith, Bill Cope, Mary Kalantzis, Vania Castro, Theodora Kourkoulou, John Jones, Rodrigo Abrantes da Silva, Jen Whiting, Nikoleta Polyxeni Kastania","cs.CY, cs.AI",image2text,"The launch of ChatGPT in November 2022 precipitated a panic among some
+educators while prompting qualified enthusiasm from others. Under the umbrella
+term Generative AI, ChatGPT is an example of a range of technologies for the
+delivery of computer-generated text, image, and other digitized media. This
+paper examines the implications for education of one generative AI technology,
+chatbots responding from large language models, or C-LLM. It reports on an
+application of a C-LLM to AI review and assessment of complex student work. In
+a concluding discussion, the paper explores the intrinsic limits of generative
+AI, bound as it is to language corpora and their textual representation through
+binary notation. Within these limits, we suggest the range of emerging and
+potential applications of Generative AI in education.",2023-05-12
+Two-in-One: A Model Hijacking Attack Against Text Generation Models,2023-05-12 12:13:27+00:00,http://arxiv.org/abs/2305.07406v1,"Wai Man Si, Michael Backes, Yang Zhang, Ahmed Salem","cs.CR, cs.CL, cs.LG",image2text,"Machine learning has progressed significantly in various applications ranging
+from face recognition to text generation. However, its success has been
+accompanied by different attacks. Recently a new attack has been proposed which
+raises both accountability and parasitic computing risks, namely the model
+hijacking attack. Nevertheless, this attack has only focused on image
+classification tasks. In this work, we broaden the scope of this attack to
+include text generation and classification models, hence showing its broader
+applicability. More concretely, we propose a new model hijacking attack, Ditto,
+that can hijack different text classification tasks into multiple generation
+ones, e.g., language translation, text summarization, and language modeling. We
+use a range of text benchmark datasets such as SST-2, TweetEval, AGnews, QNLI,
+and IMDB to evaluate the performance of our attacks. Our results show that by
+using Ditto, an adversary can successfully hijack text generation models
+without jeopardizing their utility.",2023-05-12
+"Vision-Language Models in Remote Sensing: Current Progress and Future
+  Trends",2023-05-09 19:17:07+00:00,http://arxiv.org/abs/2305.05726v1,"Congcong Wen, Yuan Hu, Xiang Li, Zhenghang Yuan, Xiao Xiang Zhu","cs.CV, cs.AI",image2text,"The remarkable achievements of ChatGPT and GPT-4 have sparked a wave of
+interest and research in the field of large language models for Artificial
+General Intelligence (AGI). These models provide us with intelligent solutions
+that are more similar to human thinking, enabling us to use general artificial
+intelligence to solve problems in various applications. However, in the field
+of remote sensing, the scientific literature on the implementation of AGI
+remains relatively scant. Existing AI-related research primarily focuses on
+visual understanding tasks while neglecting the semantic understanding of the
+objects and their relationships. This is where vision-language models excel, as
+they enable reasoning about images and their associated textual descriptions,
+allowing for a deeper understanding of the underlying semantics.
+Vision-language models can go beyond recognizing the objects in an image and
+can infer the relationships between them, as well as generate natural language
+descriptions of the image. This makes them better suited for tasks that require
+both visual and textual understanding, such as image captioning, text-based
+image retrieval, and visual question answering. This paper provides a
+comprehensive review of the research on vision-language models in remote
+sensing, summarizing the latest progress, highlighting the current challenges,
+and identifying potential research opportunities. Specifically, we review the
+application of vision-language models in several mainstream remote sensing
+tasks, including image captioning, text-based image generation, text-based
+image retrieval, visual question answering, scene classification, semantic
+segmentation, and object detection. For each task, we briefly describe the task
+background and review some representative works. Finally, we summarize the
+limitations of existing work and provide some possible directions for future
+development.",2023-05-09
 "UIT-OpenViIC: A Novel Benchmark for Evaluating Image Captioning in
   Vietnamese",2023-05-07 02:48:47+00:00,http://arxiv.org/abs/2305.04166v1,"Doanh C. Bui, Nghia Hieu Nguyen, Khang Nguyen","cs.CV, cs.CL",image2text,"Image Captioning is one of the vision-language tasks that still interest the
 research community worldwide in the 2020s. MS-COCO Caption benchmark is

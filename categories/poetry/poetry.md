@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2023-05-09*
+*written on 2023-05-22*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Creative Data Generation: A Review Focusing on Text and Poetry](http://arxiv.org/abs/2305.08493v1) | Mohamad Elzohbi, Richard Zhao | cs.CL | 2023-05-15 |
+| [Unsupervised Melody-Guided Lyrics Generation](http://arxiv.org/abs/2305.07760v1) | Yufei Tian, Anjali Narayan-Chen, Shereen Oraby, Alessandra Cervone, Gunnar Sigurdsson, Chenyang Tao, Wenbo Zhao, Tagyoung Chung, Jing Huang, Nanyun Peng | cs.AI, cs.CL, cs.MM | 2023-05-12 |
+| [Bits of Grass: Does GPT already know how to write like Whitman?](http://arxiv.org/abs/2305.11064v1) | Piotr Sawicki, Marek Grzes, Fabricio Goes, Dan Brown, Max Peeperkorn, Aisha Khatun | cs.CL | 2023-05-10 |
 | [Message Ritual: A Posthuman Account of Living with Lamp](http://arxiv.org/abs/2301.10947v1) | Nina Rajcic, Jon McCormack | cs.HC, cs.AI, cs.NE, I.2; J.5; H.5 | 2023-01-26 |
 | [Modern French Poetry Generation with RoBERTa and GPT-2](http://arxiv.org/abs/2212.02911v1) | Mika Hämäläinen, Khalid Alnajjar, Thierry Poibeau | cs.CL | 2022-12-06 |
 | [Generation of Chinese classical poetry based on pre-trained model](http://arxiv.org/abs/2211.02541v1) | Ziyao Wang, Lujin Guan, Guanyu Liu | cs.CL, cs.AI, J.5; I.2.7 | 2022-11-04 |

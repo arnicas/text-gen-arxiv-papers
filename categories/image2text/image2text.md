@@ -7,10 +7,22 @@ sidebar:
 ---
 
 
-*written on 2023-05-09*
+*written on 2023-05-22*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [STOAT: Structured Data to Analytical Text With Controls](http://arxiv.org/abs/2305.11826v1) | Deepanway Ghosal, Preksha Nema, Aravindan Raghuveer | cs.CL, cs.AI | 2023-05-19 |
+| [Generating Visual Spatial Description via Holistic 3D Scene  Understanding](http://arxiv.org/abs/2305.11768v1) | Yu Zhao, Hao Fei, Wei Ji, Jianguo Wei, Meishan Zhang, Min Zhang, Tat-Seng Chua | cs.CV, cs.CL | 2023-05-19 |
+| [Brain Captioning: Decoding human brain activity into images and text](http://arxiv.org/abs/2305.11560v1) | Matteo Ferrante, Furkan Ozcelik, Tommaso Boccato, Rufin VanRullen, Nicola Toschi | cs.CV, cs.AI | 2023-05-19 |
+| [Collaborative Generative AI: Integrating GPT-k for Efficient Editing in  Text-to-Image Generation](http://arxiv.org/abs/2305.11317v1) | Wanrong Zhu, Xinyi Wang, Yujie Lu, Tsu-Jui Fu, Xin Eric Wang, Miguel Eckstein, William Yang Wang | cs.CL | 2023-05-18 |
+| [AIwriting: Relations Between Image Generation and Digital Writing](http://arxiv.org/abs/2305.10834v1) | Scott Rettberg, Talan Memmott, Jill Walker Rettberg, Jason Nelson, Patrick Lichty | cs.AI, cs.CL, cs.HC, cs.MM, J.5 | 2023-05-18 |
+| [ReGen: Zero-Shot Text Classification via Training Data Generation with  Progressive Dense Retrieval](http://arxiv.org/abs/2305.10703v1) | Yue Yu, Yuchen Zhuang, Rongzhi Zhang, Yu Meng, Jiaming Shen, Chao Zhang | cs.CL, cs.IR, cs.LG | 2023-05-18 |
+| [What You See is What You Read? Improving Text-Image Alignment Evaluation](http://arxiv.org/abs/2305.10400v1) | Michal Yarom, Yonatan Bitton, Soravit Changpinyo, Roee Aharoni, Jonathan Herzig, Oran Lang, Eran Ofek, Idan Szpektor | cs.CL, cs.CV | 2023-05-17 |
+| [Equivariant Few-Shot Learning from Pretrained Models](http://arxiv.org/abs/2305.09900v1) | Sourya Basu, Pulkit Katdare, Prasanna Sattigeri, Vijil Chenthamarakshan, Katherine Driggs-Campbell, Payel Das, Lav R. Varshney | cs.LG, cs.AI, cs.CL, cs.CV | 2023-05-17 |
+| [AR-Diffusion: Auto-Regressive Diffusion Model for Text Generation](http://arxiv.org/abs/2305.09515v2) | Tong Wu, Zhihao Fan, Xiao Liu, Yeyun Gong, Yelong Shen, Jian Jiao, Hai-Tao Zheng, Juntao Li, Zhongyu Wei, Jian Guo, Nan Duan, Weizhu Chen | cs.CL | 2023-05-16 |
+| [Generative AI: Implications and Applications for Education](http://arxiv.org/abs/2305.07605v2) | Anastasia Olga, Tzirides, Akash Saini, Gabriela Zapata, Duane Searsmith, Bill Cope, Mary Kalantzis, Vania Castro, Theodora Kourkoulou, John Jones, Rodrigo Abrantes da Silva, Jen Whiting, Nikoleta Polyxeni Kastania | cs.CY, cs.AI | 2023-05-12 |
+| [Two-in-One: A Model Hijacking Attack Against Text Generation Models](http://arxiv.org/abs/2305.07406v1) | Wai Man Si, Michael Backes, Yang Zhang, Ahmed Salem | cs.CR, cs.CL, cs.LG | 2023-05-12 |
+| [Vision-Language Models in Remote Sensing: Current Progress and Future  Trends](http://arxiv.org/abs/2305.05726v1) | Congcong Wen, Yuan Hu, Xiang Li, Zhenghang Yuan, Xiao Xiang Zhu | cs.CV, cs.AI | 2023-05-09 |
 | [UIT-OpenViIC: A Novel Benchmark for Evaluating Image Captioning in  Vietnamese](http://arxiv.org/abs/2305.04166v1) | Doanh C. Bui, Nghia Hieu Nguyen, Khang Nguyen | cs.CV, cs.CL | 2023-05-07 |
 | [Simulating H.P. Lovecraft horror literature with the ChatGPT large  language model](http://arxiv.org/abs/2305.03429v1) | Eduardo C. Garrido-Merchán, José Luis Arroyo-Barrigüete, Roberto Gozalo-Brihuela | cs.CL | 2023-05-05 |
 | [VideoOFA: Two-Stage Pre-Training for Video-to-Text Generation](http://arxiv.org/abs/2305.03204v1) | Xilun Chen, Lili Yu, Wenhan Xiong, Barlas Oğuz, Yashar Mehdad, Wen-tau Yih | cs.CV, cs.CL | 2023-05-04 |

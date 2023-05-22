@@ -1,4 +1,222 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+STOAT: Structured Data to Analytical Text With Controls,2023-05-19 17:03:09+00:00,http://arxiv.org/abs/2305.11826v1,"Deepanway Ghosal, Preksha Nema, Aravindan Raghuveer","cs.CL, cs.AI",table2text,"Recent language models have made tremendous progress in the structured data
+to text generation task. However, these models still give sub-optimal
+performance where logical inference is required to generate the descriptions.
+In this work, we specifically focus on analytical text generation from
+structured data such as tables. Building on the taxonomy proposed in (Gupta et
+al., 2020) we focus on controllable table to text generation for the following
+reasoning categories: numerical reasoning, commonsense reasoning, temporal
+reasoning, table knowledge, and entity knowledge. We propose STOAT model, which
+is table and reasoning aware, with vector-quantization to infuse the given
+reasoning categories in the output. We observe that our model provides 10.19%,
+1.13% improvement on the PARENT metric in iToTTo and Infotabs for the
+analytical sentence task. We also found that our model generates 15.3% more
+faithful and analytical descriptions as compared to the baseline models in
+human evaluation. We curate and release two reasoning category annotated
+table-to-interesting text generation datasets based on the ToTTo (Parikh et
+al., 2020) and InfoTabs datasets (Gupta et al.,2020).",2023-05-19
+"Generating Visual Spatial Description via Holistic 3D Scene
+  Understanding",2023-05-19 15:53:56+00:00,http://arxiv.org/abs/2305.11768v1,"Yu Zhao, Hao Fei, Wei Ji, Jianguo Wei, Meishan Zhang, Min Zhang, Tat-Seng Chua","cs.CV, cs.CL",table2text,"Visual spatial description (VSD) aims to generate texts that describe the
+spatial relations of the given objects within images. Existing VSD work merely
+models the 2D geometrical vision features, thus inevitably falling prey to the
+problem of skewed spatial understanding of target objects. In this work, we
+investigate the incorporation of 3D scene features for VSD. With an external 3D
+scene extractor, we obtain the 3D objects and scene features for input images,
+based on which we construct a target object-centered 3D spatial scene graph
+(Go3D-S2G), such that we model the spatial semantics of target objects within
+the holistic 3D scenes. Besides, we propose a scene subgraph selecting
+mechanism, sampling topologically-diverse subgraphs from Go3D-S2G, where the
+diverse local structure features are navigated to yield spatially-diversified
+text generation. Experimental results on two VSD datasets demonstrate that our
+framework outperforms the baselines significantly, especially improving on the
+cases with complex visual spatial relations. Meanwhile, our method can produce
+more spatially-diversified generation. Code is available at
+https://github.com/zhaoyucs/VSD.",2023-05-19
+"What Comes Next? Evaluating Uncertainty in Neural Text Generators
+  Against Human Production Variability",2023-05-19 14:41:55+00:00,http://arxiv.org/abs/2305.11707v1,"Mario Giulianelli, Joris Baan, Wilker Aziz, Raquel Fernández, Barbara Plank","cs.CL, cs.AI, cs.LG",table2text,"In Natural Language Generation (NLG) tasks, for any input, multiple
+communicative goals are plausible, and any goal can be put into words, or
+produced, in multiple ways. We characterise the extent to which human
+production varies lexically, syntactically, and semantically across four NLG
+tasks, connecting human production variability to aleatoric or data
+uncertainty. We then inspect the space of output strings shaped by a generation
+system's predicted probability distribution and decoding algorithm to probe its
+uncertainty. For each test input, we measure the generator's calibration to
+human production variability. Following this instance-level approach, we
+analyse NLG models and decoding strategies, demonstrating that probing a
+generator with multiple samples and, when possible, multiple references,
+provides the level of detail necessary to gain understanding of a model's
+representation of uncertainty.",2023-05-19
+Exploiting Biased Models to De-bias Text: A Gender-Fair Rewriting Model,2023-05-18 17:35:28+00:00,http://arxiv.org/abs/2305.11140v1,"Chantal Amrhein, Florian Schottmann, Rico Sennrich, Samuel Läubli","cs.CL, I.2.7",table2text,"Natural language generation models reproduce and often amplify the biases
+present in their training data. Previous research explored using
+sequence-to-sequence rewriting models to transform biased model outputs (or
+original texts) into more gender-fair language by creating pseudo training data
+through linguistic rules. However, this approach is not practical for languages
+with more complex morphology than English. We hypothesise that creating
+training data in the reverse direction, i.e. starting from gender-fair text, is
+easier for morphologically complex languages and show that it matches the
+performance of state-of-the-art rewriting models for English. To eliminate the
+rule-based nature of data creation, we instead propose using machine
+translation models to create gender-biased text from real gender-fair text via
+round-trip translation. Our approach allows us to train a rewriting model for
+German without the need for elaborate handcrafted rules. The outputs of this
+model increased gender-fairness as shown in a human evaluation study.",2023-05-18
+"Cross-modality Data Augmentation for End-to-End Sign Language
+  Translation",2023-05-18 16:34:18+00:00,http://arxiv.org/abs/2305.11096v1,"Jinhui Ye, Wenxiang Jiao, Xing Wang, Zhaopeng Tu, Hui Xiong",cs.CL,table2text,"End-to-end sign language translation (SLT) aims to convert sign language
+videos into spoken language texts directly without intermediate
+representations. It has been a challenging task due to the modality gap between
+sign videos and texts and the data scarcity of labeled data. To tackle these
+challenges, we propose a novel Cross-modality Data Augmentation (XmDA)
+framework to transfer the powerful gloss-to-text translation capabilities to
+end-to-end sign language translation (i.e. video-to-text) by exploiting pseudo
+gloss-text pairs from the sign gloss translation model. Specifically, XmDA
+consists of two key components, namely, cross-modality mix-up and
+cross-modality knowledge distillation. The former explicitly encourages the
+alignment between sign video features and gloss embeddings to bridge the
+modality gap. The latter utilizes the generation knowledge from gloss-to-text
+teacher models to guide the spoken language text generation. Experimental
+results on two widely used SLT datasets, i.e., PHOENIX-2014T and CSL-Daily,
+demonstrate that the proposed XmDA framework significantly and consistently
+outperforms the baseline models. Extensive analyses confirm our claim that XmDA
+enhances spoken language text generation by reducing the representation
+distance between videos and texts, as well as improving the processing of
+low-frequency words and long sentences.",2023-05-18
+"ReGen: Zero-Shot Text Classification via Training Data Generation with
+  Progressive Dense Retrieval",2023-05-18 04:30:09+00:00,http://arxiv.org/abs/2305.10703v1,"Yue Yu, Yuchen Zhuang, Rongzhi Zhang, Yu Meng, Jiaming Shen, Chao Zhang","cs.CL, cs.IR, cs.LG",table2text,"With the development of large language models (LLMs), zero-shot learning has
+attracted much attention for various NLP tasks. Different from prior works that
+generate training data with billion-scale natural language generation (NLG)
+models, we propose a retrieval-enhanced framework to create training data from
+a general-domain unlabeled corpus. To realize this, we first conduct
+contrastive pretraining to learn an unsupervised dense retriever for extracting
+the most relevant documents using class-descriptive verbalizers. We then
+further propose two simple strategies, namely Verbalizer Augmentation with
+Demonstrations and Self-consistency Guided Filtering to improve the topic
+coverage of the dataset while removing noisy examples. Experiments on nine
+datasets demonstrate that REGEN achieves 4.3% gain over the strongest baselines
+and saves around 70% of the time compared to baselines using large NLG models.
+Besides, REGEN can be naturally integrated with recently proposed large
+language models to boost performance.",2023-05-18
+Equivariant Few-Shot Learning from Pretrained Models,2023-05-17 02:20:34+00:00,http://arxiv.org/abs/2305.09900v1,"Sourya Basu, Pulkit Katdare, Prasanna Sattigeri, Vijil Chenthamarakshan, Katherine Driggs-Campbell, Payel Das, Lav R. Varshney","cs.LG, cs.AI, cs.CL, cs.CV",table2text,"Efficient transfer learning algorithms are key to the success of foundation
+models on diverse downstream tasks even with limited data. Recent works of
+\cite{basu2022equi} and \cite{kaba2022equivariance} propose group averaging
+(\textit{equitune}) and optimization-based methods, respectively, over features
+from group-transformed inputs to obtain equivariant outputs from
+non-equivariant neural networks. While \cite{kaba2022equivariance} are only
+concerned with training from scratch, we find that equitune performs poorly on
+equivariant zero-shot tasks despite good finetuning results. We hypothesize
+that this is because pretrained models provide better quality features for
+certain transformations than others and simply averaging them is deleterious.
+Hence, we propose $\lambda$-\textit{equitune} that averages the features using
+\textit{importance weights}, $\lambda$s. These weights are learned directly
+from the data using a small neural network, leading to excellent zero-shot and
+finetuned results that outperform equitune. Further, we prove that
+$\lambda$-equitune is equivariant and a universal approximator of equivariant
+functions. Additionally, we show that the method of \cite{kaba2022equivariance}
+used with appropriate loss functions, which we call \textit{equizero}, also
+gives excellent zero-shot and finetuned performance. Both equitune and equizero
+are special cases of $\lambda$-equitune. To show the simplicity and generality
+of our method, we validate on a wide range of diverse applications and models
+such as 1) image classification using CLIP, 2) deep Q-learning, 3) fairness in
+natural language generation (NLG), 4) compositional generalization in
+languages, and 5) image classification using pretrained CNNs such as Resnet and
+Alexnet.",2023-05-17
+"Smaller Language Models are Better Black-box Machine-Generated Text
+  Detectors",2023-05-17 00:09:08+00:00,http://arxiv.org/abs/2305.09859v1,"Fatemehsadat Mireshghallah, Justus Mattern, Sicun Gao, Reza Shokri, Taylor Berg-Kirkpatrick","cs.CL, cs.LG",table2text,"With the advent of fluent generative language models that can produce
+convincing utterances very similar to those written by humans, distinguishing
+whether a piece of text is machine-generated or human-written becomes more
+challenging and more important, as such models could be used to spread
+misinformation, fake news, fake reviews and to mimic certain authors and
+figures. To this end, there have been a slew of methods proposed to detect
+machine-generated text. Most of these methods need access to the logits of the
+target model or need the ability to sample from the target. One such black-box
+detection method relies on the observation that generated text is locally
+optimal under the likelihood function of the generator, while human-written
+text is not. We find that overall, smaller and partially-trained models are
+better universal text detectors: they can more precisely detect text generated
+from both small and larger models. Interestingly, we find that whether the
+detector and generator were trained on the same data is not critically
+important to the detection success. For instance the OPT-125M model has an AUC
+of 0.81 in detecting ChatGPT generations, whereas a larger model from the GPT
+family, GPTJ-6B, has AUC of 0.45.",2023-05-17
+Boosting Event Extraction with Denoised Structure-to-Text Augmentation,2023-05-16 16:52:07+00:00,http://arxiv.org/abs/2305.09598v1,"bo wang, Heyan Huang, Xiaochi Wei, Ge Shi, Xiao Liu, Chong Feng, Tong Zhou, Shuaiqiang Wang, Dawei Yin",cs.CL,table2text,"Event extraction aims to recognize pre-defined event triggers and arguments
+from texts, which suffer from the lack of high-quality annotations. In most NLP
+applications, involving a large scale of synthetic training data is a practical
+and effective approach to alleviate the problem of data scarcity. However, when
+applying to the task of event extraction, recent data augmentation methods
+often neglect the problem of grammatical incorrectness, structure misalignment,
+and semantic drifting, leading to unsatisfactory performances. In order to
+solve these problems, we propose a denoised structure-to-text augmentation
+framework for event extraction DAEE, which generates additional training data
+through the knowledge-based structure-to-text generation model and selects the
+effective subset from the generated data iteratively with a deep reinforcement
+learning agent. Experimental results on several datasets demonstrate that the
+proposed method generates more diverse text representations for event
+extraction and achieves comparable results with the state-of-the-art.",2023-05-16
+"Helping the Helper: Supporting Peer Counselors via AI-Empowered Practice
+  and Feedback",2023-05-15 19:48:59+00:00,http://arxiv.org/abs/2305.08982v1,"Shang-Ling Hsu, Raj Sanjay Shah, Prathik Senthil, Zahra Ashktorab, Casey Dugan, Werner Geyer, Diyi Yang","cs.HC, cs.CL",table2text,"Millions of users come to online peer counseling platforms to seek support on
+diverse topics ranging from relationship stress to anxiety. However, studies
+show that online peer support groups are not always as effective as expected
+largely due to users' negative experiences with unhelpful counselors. Peer
+counselors are key to the success of online peer counseling platforms, but most
+of them often do not have systematic ways to receive guidelines or supervision.
+In this work, we introduce CARE: an interactive AI-based tool to empower peer
+counselors through automatic suggestion generation. During the practical
+training stage, CARE helps diagnose which specific counseling strategies are
+most suitable in the given context and provides tailored example responses as
+suggestions. Counselors can choose to select, modify, or ignore any suggestion
+before replying to the support seeker. Building upon the Motivational
+Interviewing framework, CARE utilizes large-scale counseling conversation data
+together with advanced natural language generation techniques to achieve these
+functionalities. We demonstrate the efficacy of CARE by performing both
+quantitative evaluations and qualitative user studies through simulated chats
+and semi-structured interviews. We also find that CARE especially helps novice
+counselors respond better in challenging situations.",2023-05-15
+Creative Data Generation: A Review Focusing on Text and Poetry,2023-05-15 09:50:15+00:00,http://arxiv.org/abs/2305.08493v1,"Mohamad Elzohbi, Richard Zhao",cs.CL,table2text,"The rapid advancement in machine learning has led to a surge in automatic
+data generation, making it increasingly challenging to differentiate between
+naturally or human-generated data and machine-generated data. Despite these
+advancements, the generation of creative data remains a challenge. This paper
+aims to investigate and comprehend the essence of creativity, both in general
+and within the context of natural language generation. We review various
+approaches to creative writing devices and tasks, with a specific focus on the
+generation of poetry. We aim to shed light on the challenges and opportunities
+in the field of creative data generation.",2023-05-15
+"Taxi1500: A Multilingual Dataset for Text Classification in 1500
+  Languages",2023-05-15 09:43:32+00:00,http://arxiv.org/abs/2305.08487v1,"Chunlan Ma, Ayyoob ImaniGooghari, Haotian Ye, Ehsaneddin Asgari, Hinrich Schütze",cs.CL,table2text,"While natural language processing tools have been developed extensively for
+some of the world's languages, a significant portion of the world's over 7000
+languages are still neglected. One reason for this is that evaluation datasets
+do not yet cover a wide range of languages, including low-resource and
+endangered ones. We aim to address this issue by creating a text classification
+dataset encompassing a large number of languages, many of which currently have
+little to no annotated data available. We leverage parallel translations of the
+Bible to construct such a dataset by first developing applicable topics and
+employing a crowdsourcing tool to collect annotated data. By annotating the
+English side of the data and projecting the labels onto other languages through
+aligned verses, we generate text classification datasets for more than 1500
+languages. We extensively benchmark several existing multilingual language
+models using our dataset. To facilitate the advancement of research in this
+area, we will release our dataset and code.",2023-05-15
+"MatSci-NLP: Evaluating Scientific Language Models on Materials Science
+  Language Tasks Using Text-to-Schema Modeling",2023-05-14 22:01:24+00:00,http://arxiv.org/abs/2305.08264v1,"Yu Song, Santiago Miret, Bang Liu","cs.CL, cond-mat.mtrl-sci, cs.AI",table2text,"We present MatSci-NLP, a natural language benchmark for evaluating the
+performance of natural language processing (NLP) models on materials science
+text. We construct the benchmark from publicly available materials science text
+data to encompass seven different NLP tasks, including conventional NLP tasks
+like named entity recognition and relation classification, as well as NLP tasks
+specific to materials science, such as synthesis action retrieval which relates
+to creating synthesis procedures for materials. We study various BERT-based
+models pretrained on different scientific text corpora on MatSci-NLP to
+understand the impact of pretraining strategies on understanding materials
+science text. Given the scarcity of high-quality annotated data in the
+materials science domain, we perform our fine-tuning experiments with limited
+training data to encourage the generalize across MatSci-NLP tasks. Our
+experiments in this low-resource training setting show that language models
+pretrained on scientific text outperform BERT trained on general text. MatBERT,
+a model pretrained specifically on materials science journals, generally
+performs best for most tasks. Moreover, we propose a unified text-to-schema for
+multitask learning on \benchmark and compare its performance with traditional
+fine-tuning methods. In our analysis of different training methods, we find
+that our proposed text-to-schema methods inspired by question-answering
+consistently outperform single and multitask NLP fine-tuning methods. The code
+and datasets are publicly available at
+\url{https://github.com/BangLab-UdeM-Mila/NLP4MatSci-ACL23}.",2023-05-14
 "Diffusion-NAT: Self-Prompting Discrete Diffusion for Non-Autoregressive
   Text Generation",2023-05-06 13:20:31+00:00,http://arxiv.org/abs/2305.04044v1,"Kun Zhou, Yifan Li, Wayne Xin Zhao, Ji-Rong Wen",cs.CL,table2text,"Recently, continuous diffusion models (CDM) have been introduced into
 non-autoregressive (NAR) text-to-text generation. However, the discrete nature
