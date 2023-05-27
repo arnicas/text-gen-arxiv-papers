@@ -1,4 +1,20 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"ByteSized32: A Corpus and Challenge Task for Generating Task-Specific
+  World Models Expressed as Text Games",2023-05-24 08:31:30+00:00,http://arxiv.org/abs/2305.14879v1,"Ruoyao Wang, Graham Todd, Eric Yuan, Ziang Xiao, Marc-Alexandre Côté, Peter Jansen","cs.CL, cs.AI",games,"In this work we examine the ability of language models to generate explicit
+world models of scientific and common-sense reasoning tasks by framing this as
+a problem of generating text-based games. To support this, we introduce
+ByteSized32, a corpus of 32 highly-templated text games written in Python
+totaling 24k lines of code, each centered around a particular task, and paired
+with a set of 16 unseen text game specifications for evaluation. We propose a
+suite of automatic and manual metrics for assessing simulation validity,
+compliance with task specifications, playability, winnability, and alignment
+with the physical world. In a single-shot evaluation of GPT-4 on this
+simulation-as-code-generation task, we find it capable of producing runnable
+games in 27% of cases, highlighting the difficulty of this challenge task. We
+discuss areas of future improvement, including GPT-4's apparent capacity to
+perform well at simulating near canonical task solutions, with performance
+dropping off as simulations include distractors or deviate from canonical
+solutions in the action space.",2023-05-24
 "FIREBALL: A Dataset of Dungeons and Dragons Actual-Play with Structured
   Game State Information",2023-05-02 15:36:10+00:00,http://arxiv.org/abs/2305.01528v1,"Andrew Zhu, Karmanya Aggarwal, Alexander Feng, Lara J. Martin, Chris Callison-Burch","cs.CL, cs.AI",games,"Dungeons & Dragons (D&D) is a tabletop roleplaying game with complex natural
 language interactions between players and hidden state information. Recent work

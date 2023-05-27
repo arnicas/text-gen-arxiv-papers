@@ -7,10 +7,22 @@ sidebar:
 ---
 
 
-*written on 2023-05-22*
+*written on 2023-05-27*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Response Generation in Longitudinal Dialogues: Which Knowledge  Representation Helps?](http://arxiv.org/abs/2305.15908v1) | Seyed Mahed Mousavi, Simone Caldarella, Giuseppe Riccardi | cs.CL | 2023-05-25 |
+| [Self-contradictory Hallucinations of Large Language Models: Evaluation,  Detection and Mitigation](http://arxiv.org/abs/2305.15852v1) | Niels Mündler, Jingxuan He, Slobodan Jenko, Martin Vechev | cs.CL, cs.AI, cs.LG | 2023-05-25 |
+| [Peek Across: Improving Multi-Document Modeling via Cross-Document  Question-Answering](http://arxiv.org/abs/2305.15387v1) | Avi Caciularu, Matthew E. Peters, Jacob Goldberger, Ido Dagan, Arman Cohan | cs.CL, cs.AI | 2023-05-24 |
+| [Not All Metrics Are Guilty: Improving NLG Evaluation with LLM  Paraphrasing](http://arxiv.org/abs/2305.15067v1) | Tianyi Tang, Hongyuan Lu, Yuchen Eleanor Jiang, Haoyang Huang, Dongdong Zhang, Wayne Xin Zhao, Furu Wei | cs.CL | 2023-05-24 |
+| [The ACL OCL Corpus: advancing Open science in Computational Linguistics](http://arxiv.org/abs/2305.14996v1) | Shaurya Rohatgi, Yanxia Qin, Benjamin Aw, Niranjana Unnithan, Min-Yen Kan | cs.CL, cs.DL | 2023-05-24 |
+| [Trusting Your Evidence: Hallucinate Less with Context-aware Decoding](http://arxiv.org/abs/2305.14739v1) | Weijia Shi, Xiaochuang Han, Mike Lewis, Yulia Tsvetkov, Luke Zettlemoyer, Scott Wen-tau Yih | cs.CL | 2023-05-24 |
+| [Diffusion Models in NLP: A Survey](http://arxiv.org/abs/2305.14671v1) | Hao Zou, Zae Myung Kim, Dongyeop Kang | cs.CL | 2023-05-24 |
+| [Enhancing Generation through Summarization Duality and Explicit Outline  Control](http://arxiv.org/abs/2305.14459v1) | Yunzhe Li, Qian Chen, Weixiang Yan, Wen Wang, Qinglin Zhang, Hari Sundaram | cs.CL, cs.AI | 2023-05-23 |
+| [INSTRUCTSCORE: Towards Explainable Text Generation Evaluation with  Automatic Feedback](http://arxiv.org/abs/2305.14282v1) | Wenda Xu, Danqing Wang, Liangming Pan, Zhenqiao Song, Markus Freitag, William Yang Wang, Lei Li | cs.CL, cs.AI | 2023-05-23 |
+| [FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long  Form Text Generation](http://arxiv.org/abs/2305.14251v1) | Sewon Min, Kalpesh Krishna, Xinxi Lyu, Mike Lewis, Wen-tau Yih, Pang Wei Koh, Mohit Iyyer, Luke Zettlemoyer, Hannaneh Hajishirzi | cs.CL, cs.AI, cs.LG | 2023-05-23 |
+| [Evaluating Factual Consistency of Texts with Semantic Role Labeling](http://arxiv.org/abs/2305.13309v1) | Jing Fan, Dennis Aumiller, Michael Gertz | cs.CL | 2023-05-22 |
+| [GEST: the Graph of Events in Space and Time as a Common Representation  between Vision and Language](http://arxiv.org/abs/2305.12940v1) | Mihai Masala, Nicolae Cudlenco, Traian Rebedea, Marius Leordeanu | cs.CL | 2023-05-22 |
 | [STOAT: Structured Data to Analytical Text With Controls](http://arxiv.org/abs/2305.11826v1) | Deepanway Ghosal, Preksha Nema, Aravindan Raghuveer | cs.CL, cs.AI | 2023-05-19 |
 | [Generating Visual Spatial Description via Holistic 3D Scene  Understanding](http://arxiv.org/abs/2305.11768v1) | Yu Zhao, Hao Fei, Wei Ji, Jianguo Wei, Meishan Zhang, Min Zhang, Tat-Seng Chua | cs.CV, cs.CL | 2023-05-19 |
 | [What Comes Next? Evaluating Uncertainty in Neural Text Generators  Against Human Production Variability](http://arxiv.org/abs/2305.11707v1) | Mario Giulianelli, Joris Baan, Wilker Aziz, Raquel Fernández, Barbara Plank | cs.CL, cs.AI, cs.LG | 2023-05-19 |

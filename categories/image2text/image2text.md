@@ -7,10 +7,15 @@ sidebar:
 ---
 
 
-*written on 2023-05-22*
+*written on 2023-05-27*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Not All Metrics Are Guilty: Improving NLG Evaluation with LLM  Paraphrasing](http://arxiv.org/abs/2305.15067v1) | Tianyi Tang, Hongyuan Lu, Yuchen Eleanor Jiang, Haoyang Huang, Dongdong Zhang, Wayne Xin Zhao, Furu Wei | cs.CL | 2023-05-24 |
+| [I Spy a Metaphor: Large Language Models and Diffusion Models Co-Create  Visual Metaphors](http://arxiv.org/abs/2305.14724v1) | Tuhin Chakrabarty, Arkadiy Saakyan, Olivia Winn, Artemis Panagopoulou, Yue Yang, Marianna Apidianaki, Smaranda Muresan | cs.CL, cs.AI, cs.CV, cs.HC | 2023-05-24 |
+| [Gender Biases in Automatic Evaluation Metrics: A Case Study on Image  Captioning](http://arxiv.org/abs/2305.14711v1) | Haoyi Qiu, Zi-Yi Dou, Tianlu Wang, Asli Celikyilmaz, Nanyun Peng | cs.CL | 2023-05-24 |
+| [Process-To-Text: A Framework for the Quantitative Description of  Processes in Natural Language](http://arxiv.org/abs/2305.14044v1) | Yago Fontenla-Seco, Alberto Bugarín-Diz, Manuel Lama | cs.CL | 2023-05-23 |
+| [VNHSGE: VietNamese High School Graduation Examination Dataset for Large  Language Models](http://arxiv.org/abs/2305.12199v1) | Dao Xuan-Quy, Le Ngoc-Bich, Vo The-Duy, Phan Xuan-Dung, Ngo Bac-Bien, Nguyen Van-Tien, Nguyen Thi-My-Thanh, Nguyen Hong-Phuoc | cs.CL | 2023-05-20 |
 | [STOAT: Structured Data to Analytical Text With Controls](http://arxiv.org/abs/2305.11826v1) | Deepanway Ghosal, Preksha Nema, Aravindan Raghuveer | cs.CL, cs.AI | 2023-05-19 |
 | [Generating Visual Spatial Description via Holistic 3D Scene  Understanding](http://arxiv.org/abs/2305.11768v1) | Yu Zhao, Hao Fei, Wei Ji, Jianguo Wei, Meishan Zhang, Min Zhang, Tat-Seng Chua | cs.CV, cs.CL | 2023-05-19 |
 | [Brain Captioning: Decoding human brain activity into images and text](http://arxiv.org/abs/2305.11560v1) | Matteo Ferrante, Furkan Ozcelik, Tommaso Boccato, Rufin VanRullen, Nicola Toschi | cs.CV, cs.AI | 2023-05-19 |

@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2023-05-22*
+*written on 2023-05-27*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [ByteSized32: A Corpus and Challenge Task for Generating Task-Specific  World Models Expressed as Text Games](http://arxiv.org/abs/2305.14879v1) | Ruoyao Wang, Graham Todd, Eric Yuan, Ziang Xiao, Marc-Alexandre Côté, Peter Jansen | cs.CL, cs.AI | 2023-05-24 |
 | [FIREBALL: A Dataset of Dungeons and Dragons Actual-Play with Structured  Game State Information](http://arxiv.org/abs/2305.01528v1) | Andrew Zhu, Karmanya Aggarwal, Alexander Feng, Lara J. Martin, Chris Callison-Burch | cs.CL, cs.AI | 2023-05-02 |
 | [On pitfalls (and advantages) of sophisticated large language models](http://arxiv.org/abs/2303.17511v1) | Anna Strasser | cs.CY, cs.AI, cs.CL | 2023-02-25 |
 | [Controlling Personality Style in Dialogue with Zero-Shot Prompt-Based  Learning](http://arxiv.org/abs/2302.03848v1) | Angela Ramirez, Mamon Alsalihy, Kartik Aggarwal, Cecilia Li, Liren Wu, Marilyn Walker | cs.CL | 2023-02-08 |

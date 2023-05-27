@@ -1,4 +1,263 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+RewriteLM: An Instruction-Tuned Large Language Model for Text Rewriting,2023-05-25 03:26:26+00:00,http://arxiv.org/abs/2305.15685v1,"Lei Shu, Liangchen Luo, Jayakumar Hoskere, Yun Zhu, Canoee Liu, Simon Tong, Jindong Chen, Lei Meng","cs.CL, cs.AI",table2text,"Large Language Models (LLMs) have demonstrated impressive zero-shot
+capabilities in long-form text generation tasks expressed through natural
+language instructions. However, user expectations for long-form text rewriting
+is high, and unintended rewrites (''hallucinations'') produced by the model can
+negatively impact its overall performance. Existing evaluation benchmarks
+primarily focus on limited rewriting styles and sentence-level rewriting rather
+than long-form open-ended rewriting.We introduce OpenRewriteEval, a novel
+benchmark that covers a wide variety of rewriting types expressed through
+natural language instructions. It is specifically designed to facilitate the
+evaluation of open-ended rewriting of long-form texts. In addition, we propose
+a strong baseline model, RewriteLM, an instruction-tuned large language model
+for long-form text rewriting. We develop new strategies that facilitate the
+generation of diverse instructions and preference data with minimal human
+intervention. We conduct empirical experiments and demonstrate that our model
+outperforms the current state-of-the-art LLMs in text rewriting. Specifically,
+it excels in preserving the essential content and meaning of the source text,
+minimizing the generation of ''hallucinated'' content, while showcasing the
+ability to generate rewrites with diverse wording and structures.",2023-05-25
+"Balancing Effect of Training Dataset Distribution of Multiple Styles for
+  Multi-Style Text Transfer",2023-05-24 21:36:15+00:00,http://arxiv.org/abs/2305.15582v1,"Debarati Das, David Ma, Dongyeop Kang",cs.CL,table2text,"Text style transfer is an exciting task within the field of natural language
+generation that is often plagued by the need for high-quality paired datasets.
+Furthermore, training a model for multi-attribute text style transfer requires
+datasets with sufficient support across all combinations of the considered
+stylistic attributes, adding to the challenges of training a style transfer
+model. This paper explores the impact of training data input diversity on the
+quality of the generated text from the multi-style transfer model. We construct
+a pseudo-parallel dataset by devising heuristics to adjust the style
+distribution in the training samples. We balance our training dataset using
+marginal and joint distributions to train our style transfer models. We observe
+that a balanced dataset produces more effective control effects over multiple
+styles than an imbalanced or skewed one. Through quantitative analysis, we
+explore the impact of multiple style distributions in training data on
+style-transferred output. These findings will better inform the design of
+style-transfer datasets.",2023-05-24
+"Peek Across: Improving Multi-Document Modeling via Cross-Document
+  Question-Answering",2023-05-24 17:48:40+00:00,http://arxiv.org/abs/2305.15387v1,"Avi Caciularu, Matthew E. Peters, Jacob Goldberger, Ido Dagan, Arman Cohan","cs.CL, cs.AI",table2text,"The integration of multi-document pre-training objectives into language
+models has resulted in remarkable improvements in multi-document downstream
+tasks. In this work, we propose extending this idea by pre-training a generic
+multi-document model from a novel cross-document question answering
+pre-training objective. To that end, given a set (or cluster) of
+topically-related documents, we systematically generate semantically-oriented
+questions from a salient sentence in one document and challenge the model,
+during pre-training, to answer these questions while ""peeking"" into other
+topically-related documents. In a similar manner, the model is also challenged
+to recover the sentence from which the question was generated, again while
+leveraging cross-document information. This novel multi-document QA formulation
+directs the model to better recover cross-text informational relations, and
+introduces a natural augmentation that artificially increases the pre-training
+data. Further, unlike prior multi-document models that focus on either
+classification or summarization tasks, our pre-training objective formulation
+enables the model to perform tasks that involve both short text generation
+(e.g., QA) and long text generation (e.g., summarization). Following this
+scheme, we pre-train our model -- termed QAmden -- and evaluate its performance
+across several multi-document tasks, including multi-document QA,
+summarization, and query-focused summarization, yielding improvements of up to
+7%, and significantly outperforms zero-shot GPT-3.5 and GPT-4.",2023-05-24
+"Not All Metrics Are Guilty: Improving NLG Evaluation with LLM
+  Paraphrasing",2023-05-24 11:53:29+00:00,http://arxiv.org/abs/2305.15067v1,"Tianyi Tang, Hongyuan Lu, Yuchen Eleanor Jiang, Haoyang Huang, Dongdong Zhang, Wayne Xin Zhao, Furu Wei",cs.CL,table2text,"Most research about natural language generation (NLG) relies on evaluation
+benchmarks with limited references for a sample, which may result in poor
+correlations with human judgements. The underlying reason is that one semantic
+meaning can actually be expressed in different forms, and the evaluation with a
+single or few references may not accurately reflect the quality of the model's
+hypotheses. To address this issue, this paper presents a novel method, named
+Para-Ref, to enhance existing evaluation benchmarks by enriching the number of
+references. We leverage large language models (LLMs) to paraphrase a single
+reference into multiple high-quality ones in diverse expressions. Experimental
+results on representative NLG tasks of machine translation, text summarization,
+and image caption demonstrate that our method can effectively improve the
+correlation with human evaluation for sixteen automatic evaluation metrics by
++7.82% in ratio. We release the code and data at
+https://github.com/RUCAIBox/Para-Ref.",2023-05-24
+Ghostbuster: Detecting Text Ghostwritten by Large Language Models,2023-05-24 11:37:10+00:00,http://arxiv.org/abs/2305.15047v1,"Vivek Verma, Eve Fleisig, Nicholas Tomlin, Dan Klein","cs.CL, cs.AI",table2text,"We introduce Ghostbuster, a state-of-the-art system for detecting
+AI-generated text. Our method works by passing documents through a series of
+weaker language models and running a structured search over possible
+combinations of their features, then training a classifier on the selected
+features to determine if the target document was AI-generated. Crucially,
+Ghostbuster does not require access to token probabilities from the target
+model, making it useful for detecting text generated by black-box models or
+unknown model versions. In conjunction with our model, we release three new
+datasets of human and AI-generated text as detection benchmarks that cover
+multiple domains (student essays, creative fiction, and news) and task setups:
+document-level detection, author identification, and a challenge task of
+paragraph-level detection. Ghostbuster averages 99.1 F1 across all three
+datasets on document-level detection, outperforming previous approaches such as
+GPTZero and DetectGPT by up to 32.7 F1.",2023-05-24
+Active Learning for Natural Language Generation,2023-05-24 11:27:53+00:00,http://arxiv.org/abs/2305.15040v1,"Yotam Perlitz, Ariel Gera, Michal Shmueli-Scheuer, Dafna Sheinwald, Noam Slonim, Liat Ein-Dor",cs.CL,table2text,"The field of text generation suffers from a severe shortage of labeled data
+due to the extremely expensive and time consuming process involved in manual
+annotation. A natural approach for coping with this problem is active learning
+(AL), a well-known machine learning technique for improving annotation
+efficiency by selectively choosing the most informative examples to label.
+However, while AL has been well-researched in the context of text
+classification, its application to text generation remained largely unexplored.
+In this paper, we present a first systematic study of active learning for text
+generation, considering a diverse set of tasks and multiple leading AL
+strategies. Our results indicate that existing AL strategies, despite their
+success in classification, are largely ineffective for the text generation
+scenario, and fail to consistently surpass the baseline of random example
+selection. We highlight some notable differences between the classification and
+generation scenarios, and analyze the selection behaviors of existing AL
+strategies. Our findings motivate exploring novel approaches for applying AL to
+NLG tasks.",2023-05-24
+LLMDet: A Large Language Models Detection Tool,2023-05-24 10:45:16+00:00,http://arxiv.org/abs/2305.15004v1,"Kangxi Wu, Liang Pang, Huawei Shen, Xueqi Cheng, Tat-Seng Chua",cs.CL,table2text,"With the advancement of generative language models, the generated text has
+come remarkably close to high-quality human-authored text in terms of fluency
+and diversity. This calls for a highly practical detection tool that can
+identify the source of text, preferably pinpointing the language model it
+originates from. However, existing detection tools typically require access to
+language models and can only differentiate between machine-generated and
+human-authored text, failing to meet the requirements of rapid detection and
+text tracing. Therefore, in this paper, we propose an efficient, secure, and
+scalable detection tool called LLMDet, which calculates the proxy perplexity of
+text by utilizing the prior information of the model's next-token
+probabilities, obtained through pre-training. Subsequently, we use the
+self-watermarking information of the model, as measured by proxy perplexity, to
+detect the source of the text. We found that our method demonstrates impressive
+detection performance while ensuring speed and security, particularly achieving
+a recognition accuracy of 97.97\% for human-authored text. Furthermore, our
+detection tool also shows promising results in identifying the large language
+model (e.g., GPT-2, OPT, LLaMA, Vicuna...) responsible for the text. We release
+the code and processed data at \url{https://github.com/TrustedLLM/LLMDet}.",2023-05-24
+The ACL OCL Corpus: advancing Open science in Computational Linguistics,2023-05-24 10:35:56+00:00,http://arxiv.org/abs/2305.14996v1,"Shaurya Rohatgi, Yanxia Qin, Benjamin Aw, Niranjana Unnithan, Min-Yen Kan","cs.CL, cs.DL",table2text,"We present a scholarly corpus from the ACL Anthology to assist Open
+scientific research in the Computational Linguistics domain, named as ACL OCL.
+Compared with previous ARC and AAN versions, ACL OCL includes structured
+full-texts with logical sections, references to figures, and links to a large
+knowledge resource (semantic scholar). ACL OCL contains 74k scientific papers,
+together with 210k figures extracted up to September 2022. To observe the
+development in the computational linguistics domain, we detect the topics of
+all OCL papers with a supervised neural model. We observe ''Syntax: Tagging,
+Chunking and Parsing'' topic is significantly shrinking and ''Natural Language
+Generation'' is resurging. Our dataset is open and available to download from
+HuggingFace in https://huggingface.co/datasets/ACL-OCL/ACL-OCL-Corpus.",2023-05-24
+"Large Language Models are Effective Table-to-Text Generators,
+  Evaluators, and Feedback Providers",2023-05-24 10:22:30+00:00,http://arxiv.org/abs/2305.14987v1,"Yilun Zhao, Haowei Zhang, Shengyun Si, Linyong Nan, Xiangru Tang, Arman Cohan",cs.CL,table2text,"Large language models (LLMs) have shown remarkable ability on controllable
+text generation. However, the potential of LLMs in generating text from
+structured tables remains largely under-explored. In this paper, we study the
+capabilities of LLMs for table-to-text generation tasks, particularly aiming to
+investigate their performance in generating natural language statements that
+can be logically entailed by a provided table. First, we investigate how LLMs
+compare to state-of-the-art table-to-text fine-tuned models, and demonstrate
+that LLMs can generate statements with higher faithfulness compared with
+previous state-of-the-art fine-tuned models. Given this finding, we next
+explore whether LLMs can serve as faithfulness-level automated evaluation
+metrics. Through human evaluation, we show that evaluation metrics adopted from
+LLMs correlates better with human judgments compared with existing
+faithfulness-level metrics. Finally, we demonstrate that LLMs using
+chain-of-thought prompting can generate high-fidelity natural language feedback
+for other table-to-text models' generations, provide insights for future work
+regarding the distillation of text generation capabilities from LLMs to smaller
+models.",2023-05-24
+Universal Self-adaptive Prompting,2023-05-24 09:09:48+00:00,http://arxiv.org/abs/2305.14926v1,"Xingchen Wan, Ruoxi Sun, Hootan Nakhost, Hanjun Dai, Julian Martin Eisenschlos, Sercan O. Arik, Tomas Pfister","cs.CL, cs.AI, cs.LG",table2text,"A hallmark of modern large language models (LLMs) is their impressive general
+zero-shot and few-shot abilities, often elicited through prompt-based and/or
+in-context learning. However, while highly coveted and being the most general,
+zero-shot performances in LLMs are still typically weaker due to the lack of
+guidance and the difficulty of applying existing automatic prompt design
+methods in general tasks when ground-truth labels are unavailable. In this
+study, we address this by presenting Universal Self-adaptive Prompting (USP),
+an automatic prompt design approach specifically tailored for zero-shot
+learning (while compatible with few-shot). Requiring only a small amount of
+unlabeled data & an inference-only LLM, USP is highly versatile: to achieve
+universal prompting, USP categorizes a possible NLP task into one of the three
+possible task types, and then uses a corresponding selector to select the most
+suitable queries & zero-shot model-generated responses as
+pseudo-demonstrations, thereby generalizing ICL to the zero-shot setup in a
+fully automated way. We evaluate zero-shot USP with two PaLM models, and
+demonstrate performances that are considerably stronger than standard zero-shot
+baselines and are comparable to or even superior than few-shot baselines across
+more than 20 natural language understanding (NLU) and natural language
+generation (NLG) tasks.",2023-05-24
+Faithful Low-Resource Data-to-Text Generation through Cycle Training,2023-05-24 06:44:42+00:00,http://arxiv.org/abs/2305.14793v1,"Zhuoer Wang, Marcus Collins, Nikhita Vedula, Simone Filice, Shervin Malmasi, Oleg Rokhlenko",cs.CL,table2text,"Methods to generate text from structured data have advanced significantly in
+recent years, primarily due to fine-tuning of pre-trained language models on
+large datasets. However, such models can fail to produce output faithful to the
+input data, particularly on out-of-domain data. Sufficient annotated data is
+often not available for specific domains, leading us to seek an unsupervised
+approach to improve the faithfulness of output text. Since the problem is
+fundamentally one of consistency between the representations of the structured
+data and text, we evaluate the effectiveness of cycle training in this work.
+Cycle training uses two models which are inverses of each other: one that
+generates text from structured data, and one which generates the structured
+data from natural language text. We show that cycle training, when initialized
+with a small amount of supervised data (100 samples in our case), achieves
+nearly the same performance as fully supervised approaches for the data-to-text
+generation task on the WebNLG, E2E, WTQ, and WSQL datasets. We perform
+extensive empirical analysis with automated evaluation metrics and a newly
+designed human evaluation schema to reveal different cycle training strategies'
+effectiveness of reducing various types of generation errors. Our code is
+publicly available at https://github.com/Edillower/CycleNLG.",2023-05-24
+In-Context Demonstration Selection with Cross Entropy Difference,2023-05-24 05:04:00+00:00,http://arxiv.org/abs/2305.14726v1,"Dan Iter, Reid Pryzant, Ruochen Xu, Shuohang Wang, Yang Liu, Yichong Xu, Chenguang Zhu","cs.CL, cs.AI",table2text,"Large language models (LLMs) can use in-context demonstrations to improve
+performance on zero-shot tasks. However, selecting the best in-context examples
+is challenging because model performance can vary widely depending on the
+selected examples. We present a cross-entropy difference (CED) method for
+selecting in-context demonstrations. Our method is based on the observation
+that the effectiveness of in-context demonstrations negatively correlates with
+the perplexity of the test example by a language model that was finetuned on
+that demonstration. We utilize parameter efficient finetuning to train small
+models on training data that are used for computing the cross-entropy
+difference between a test example and every candidate in-context demonstration.
+This metric is used to rank and select in-context demonstrations independently
+for each test input. We evaluate our method on a mix-domain dataset that
+combines 8 benchmarks, representing 4 text generation tasks, showing that CED
+for in-context demonstration selection can improve performance for a variety of
+LLMs.",2023-05-24
+Diffusion Models in NLP: A Survey,2023-05-24 03:25:32+00:00,http://arxiv.org/abs/2305.14671v1,"Hao Zou, Zae Myung Kim, Dongyeop Kang",cs.CL,table2text,"This survey paper provides a comprehensive review of the use of diffusion
+models in natural language processing (NLP). Diffusion models are a class of
+mathematical models that aim to capture the diffusion of information or signals
+across a network or manifold. In NLP, diffusion models have been used in a
+variety of applications, such as natural language generation, sentiment
+analysis, topic modeling, and machine translation. This paper discusses the
+different formulations of diffusion models used in NLP, their strengths and
+limitations, and their applications. We also perform a thorough comparison
+between diffusion models and alternative generative models, specifically
+highlighting the autoregressive (AR) models, while also examining how diverse
+architectures incorporate the Transformer in conjunction with diffusion models.
+Compared to AR models, diffusion models have significant advantages for
+parallel generation, text interpolation, token-level controls such as syntactic
+structures and semantic contents, and robustness. Exploring further
+permutations of integrating Transformers into diffusion models would be a
+valuable pursuit. Also, the development of multimodal diffusion models and
+large-scale diffusion language models with notable capabilities for few-shot
+learning would be important directions for the future advance of diffusion
+models in NLP.",2023-05-24
+QTSumm: A New Benchmark for Query-Focused Table Summarization,2023-05-23 17:43:51+00:00,http://arxiv.org/abs/2305.14303v1,"Yilun Zhao, Zhenting Qi, Linyong Nan, Boyu Mi, Yixin Liu, Weijin Zou, Simeng Han, Xiangru Tang, Yumo Xu, Arman Cohan, Dragomir Radev",cs.CL,table2text,"People primarily consult tables to conduct data analysis or answer specific
+questions. Text generation systems that can provide accurate table summaries
+tailored to users' information needs can facilitate more efficient access to
+relevant data insights. However, existing table-to-text generation studies
+primarily focus on converting tabular data into coherent statements, rather
+than addressing information-seeking purposes. In this paper, we define a new
+query-focused table summarization task, where text generation models have to
+perform human-like reasoning and analysis over the given table to generate a
+tailored summary, and we introduce a new benchmark named QTSumm for this task.
+QTSumm consists of 5,625 human-annotated query-summary pairs over 2,437 tables
+on diverse topics. Moreover, we investigate state-of-the-art models (i.e., text
+generation, table-to-text generation, and large language models) on the QTSumm
+dataset. Experimental results and manual analysis reveal that our benchmark
+presents significant challenges in table-to-text generation for future
+research.",2023-05-23
+"INSTRUCTSCORE: Towards Explainable Text Generation Evaluation with
+  Automatic Feedback",2023-05-23 17:27:22+00:00,http://arxiv.org/abs/2305.14282v1,"Wenda Xu, Danqing Wang, Liangming Pan, Zhenqiao Song, Markus Freitag, William Yang Wang, Lei Li","cs.CL, cs.AI",table2text,"The field of automatic evaluation of text generation made tremendous progress
+in the last few years. In particular, since the advent of neural metrics, like
+COMET, BLEURT, and SEScore2, the newest generation of metrics show a high
+correlation with human judgment. Unfortunately, quality scores generated with
+neural metrics are not interpretable, and it is unclear which part of the
+generation output is criticized by the metrics. To address this limitation, we
+present INSTRUCTSCORE, an open-source, explainable evaluation metric for text
+generation. By harnessing both explicit human instruction and the implicit
+knowledge of GPT4, we fine-tune a LLAMA model to create an evaluative metric
+that can produce a diagnostic report aligned with human judgment. We evaluate
+INSTRUCTSCORE on the WMT22 Zh-En translation task, where our 7B model surpasses
+other LLM-based baselines, including those based on 175B GPT3. Impressively,
+our INSTRUCTSCORE, even without direct supervision from human-rated data,
+achieves performance levels on par with state-of-the-art metrics like COMET22,
+which was fine-tuned on human ratings.",2023-05-23
+"Process-To-Text: A Framework for the Quantitative Description of
+  Processes in Natural Language",2023-05-23 13:14:34+00:00,http://arxiv.org/abs/2305.14044v1,"Yago Fontenla-Seco, Alberto Bugarín-Diz, Manuel Lama",cs.CL,table2text,"In this paper we present the Process-To-Text (P2T) framework for the
+automatic generation of textual descriptive explanations of processes. P2T
+integrates three AI paradigms: process mining for extracting temporal and
+structural information from a process, fuzzy linguistic protoforms for
+modelling uncertain terms, and natural language generation for building the
+explanations. A real use-case in the cardiology domain is presented, showing
+the potential of P2T for providing natural language explanations addressed to
+specialists.",2023-05-23
 STOAT: Structured Data to Analytical Text With Controls,2023-05-19 17:03:09+00:00,http://arxiv.org/abs/2305.11826v1,"Deepanway Ghosal, Preksha Nema, Aravindan Raghuveer","cs.CL, cs.AI",table2text,"Recent language models have made tremendous progress in the structured data
 to text generation task. However, these models still give sub-optimal
 performance where logical inference is required to generate the descriptions.

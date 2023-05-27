@@ -1,4 +1,85 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Not All Metrics Are Guilty: Improving NLG Evaluation with LLM
+  Paraphrasing",2023-05-24 11:53:29+00:00,http://arxiv.org/abs/2305.15067v1,"Tianyi Tang, Hongyuan Lu, Yuchen Eleanor Jiang, Haoyang Huang, Dongdong Zhang, Wayne Xin Zhao, Furu Wei",cs.CL,image2text,"Most research about natural language generation (NLG) relies on evaluation
+benchmarks with limited references for a sample, which may result in poor
+correlations with human judgements. The underlying reason is that one semantic
+meaning can actually be expressed in different forms, and the evaluation with a
+single or few references may not accurately reflect the quality of the model's
+hypotheses. To address this issue, this paper presents a novel method, named
+Para-Ref, to enhance existing evaluation benchmarks by enriching the number of
+references. We leverage large language models (LLMs) to paraphrase a single
+reference into multiple high-quality ones in diverse expressions. Experimental
+results on representative NLG tasks of machine translation, text summarization,
+and image caption demonstrate that our method can effectively improve the
+correlation with human evaluation for sixteen automatic evaluation metrics by
++7.82% in ratio. We release the code and data at
+https://github.com/RUCAIBox/Para-Ref.",2023-05-24
+"I Spy a Metaphor: Large Language Models and Diffusion Models Co-Create
+  Visual Metaphors",2023-05-24 05:01:10+00:00,http://arxiv.org/abs/2305.14724v1,"Tuhin Chakrabarty, Arkadiy Saakyan, Olivia Winn, Artemis Panagopoulou, Yue Yang, Marianna Apidianaki, Smaranda Muresan","cs.CL, cs.AI, cs.CV, cs.HC",image2text,"Visual metaphors are powerful rhetorical devices used to persuade or
+communicate creative ideas through images. Similar to linguistic metaphors,
+they convey meaning implicitly through symbolism and juxtaposition of the
+symbols. We propose a new task of generating visual metaphors from linguistic
+metaphors. This is a challenging task for diffusion-based text-to-image models,
+such as DALL$\cdot$E 2, since it requires the ability to model implicit meaning
+and compositionality. We propose to solve the task through the collaboration
+between Large Language Models (LLMs) and Diffusion Models: Instruct GPT-3
+(davinci-002) with Chain-of-Thought prompting generates text that represents a
+visual elaboration of the linguistic metaphor containing the implicit meaning
+and relevant objects, which is then used as input to the diffusion-based
+text-to-image models.Using a human-AI collaboration framework, where humans
+interact both with the LLM and the top-performing diffusion model, we create a
+high-quality dataset containing 6,476 visual metaphors for 1,540 linguistic
+metaphors and their associated visual elaborations. Evaluation by professional
+illustrators shows the promise of LLM-Diffusion Model collaboration for this
+task.To evaluate the utility of our Human-AI collaboration framework and the
+quality of our dataset, we perform both an intrinsic human-based evaluation and
+an extrinsic evaluation using visual entailment as a downstream task.",2023-05-24
+"Gender Biases in Automatic Evaluation Metrics: A Case Study on Image
+  Captioning",2023-05-24 04:27:40+00:00,http://arxiv.org/abs/2305.14711v1,"Haoyi Qiu, Zi-Yi Dou, Tianlu Wang, Asli Celikyilmaz, Nanyun Peng",cs.CL,image2text,"Pretrained model-based evaluation metrics have demonstrated strong
+performance with high correlations with human judgments in various natural
+language generation tasks such as image captioning. Despite the impressive
+results, their impact on fairness is under-explored -- it is widely
+acknowledged that pretrained models can encode societal biases, and utilizing
+them for evaluation purposes may inadvertently manifest and potentially amplify
+biases. In this paper, we conduct a systematic study in gender biases of
+model-based evaluation metrics with a focus on image captioning tasks.
+Specifically, we first identify and quantify gender biases in different
+evaluation metrics regarding profession, activity, and object concepts. Then,
+we demonstrate the negative consequences of using these biased metrics, such as
+favoring biased generation models in deployment and propagating the biases to
+generation models through reinforcement learning. We also present a simple but
+effective alternative to reduce gender biases by combining n-gram
+matching-based and pretrained model-based evaluation metrics.",2023-05-24
+"Process-To-Text: A Framework for the Quantitative Description of
+  Processes in Natural Language",2023-05-23 13:14:34+00:00,http://arxiv.org/abs/2305.14044v1,"Yago Fontenla-Seco, Alberto Bugarín-Diz, Manuel Lama",cs.CL,image2text,"In this paper we present the Process-To-Text (P2T) framework for the
+automatic generation of textual descriptive explanations of processes. P2T
+integrates three AI paradigms: process mining for extracting temporal and
+structural information from a process, fuzzy linguistic protoforms for
+modelling uncertain terms, and natural language generation for building the
+explanations. A real use-case in the cardiology domain is presented, showing
+the potential of P2T for providing natural language explanations addressed to
+specialists.",2023-05-23
+"VNHSGE: VietNamese High School Graduation Examination Dataset for Large
+  Language Models",2023-05-20 14:13:08+00:00,http://arxiv.org/abs/2305.12199v1,"Dao Xuan-Quy, Le Ngoc-Bich, Vo The-Duy, Phan Xuan-Dung, Ngo Bac-Bien, Nguyen Van-Tien, Nguyen Thi-My-Thanh, Nguyen Hong-Phuoc",cs.CL,image2text,"The VNHSGE (VietNamese High School Graduation Examination) dataset, developed
+exclusively for evaluating large language models (LLMs), is introduced in this
+article. The dataset, which covers nine subjects, was generated from the
+Vietnamese National High School Graduation Examination and comparable tests.
+300 literary essays have been included, and there are over 19,000
+multiple-choice questions on a range of topics. The dataset assesses LLMs in
+multitasking situations such as question answering, text generation, reading
+comprehension, visual question answering, and more by including both textual
+data and accompanying images. Using ChatGPT and BingChat, we evaluated LLMs on
+the VNHSGE dataset and contrasted their performance with that of Vietnamese
+students to see how well they performed. The results show that ChatGPT and
+BingChat both perform at a human level in a number of areas, including
+literature, English, history, geography, and civics education. They still have
+space to grow, though, especially in the areas of mathematics, physics,
+chemistry, and biology. The VNHSGE dataset seeks to provide an adequate
+benchmark for assessing the abilities of LLMs with its wide-ranging coverage
+and variety of activities. We intend to promote future developments in the
+creation of LLMs by making this dataset available to the scientific community,
+especially in resolving LLMs' limits in disciplines involving mathematics and
+the natural sciences.",2023-05-20
 STOAT: Structured Data to Analytical Text With Controls,2023-05-19 17:03:09+00:00,http://arxiv.org/abs/2305.11826v1,"Deepanway Ghosal, Preksha Nema, Aravindan Raghuveer","cs.CL, cs.AI",image2text,"Recent language models have made tremendous progress in the structured data
 to text generation task. However, these models still give sub-optimal
 performance where logical inference is required to generate the descriptions.

@@ -1,4 +1,128 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Response Generation in Longitudinal Dialogues: Which Knowledge
+  Representation Helps?",2023-05-25 10:13:53+00:00,http://arxiv.org/abs/2305.15908v1,"Seyed Mahed Mousavi, Simone Caldarella, Giuseppe Riccardi",cs.CL,dialogue,"Longitudinal Dialogues (LD) are the most challenging type of conversation for
+human-machine dialogue systems. LDs include the recollections of events,
+personal thoughts, and emotions specific to each individual in a sparse
+sequence of dialogue sessions. Dialogue systems designed for LDs should
+uniquely interact with the users over multiple sessions and long periods of
+time (e.g. weeks), and engage them in personal dialogues to elaborate on their
+feelings, thoughts, and real-life events. In this paper, we study the task of
+response generation in LDs. We evaluate whether general-purpose Pre-trained
+Language Models (PLM) are appropriate for this purpose. We fine-tune two PLMs,
+GePpeTto (GPT-2) and iT5, using a dataset of LDs. We experiment with different
+representations of the personal knowledge extracted from LDs for grounded
+response generation, including the graph representation of the mentioned events
+and participants. We evaluate the performance of the models via automatic
+metrics and the contribution of the knowledge via the Integrated Gradients
+technique. We categorize the natural language generation errors via human
+evaluations of contextualization, appropriateness and engagement of the user.",2023-05-25
+MERGE: Fast Private Text Generation,2023-05-25 06:27:19+00:00,http://arxiv.org/abs/2305.15769v1,"Zi Liang, Pinghui Wang, Ruofei Zhang, Nuo Xu, Shuo Zhang","cs.CL, cs.AI",dialogue,"Recent years have seen increasing concerns about the private inference of NLP
+services and Transformer models. However, existing two-party privacy-preserving
+methods solely consider NLU scenarios, while the private inference of text
+generation such as translation, dialogue, and code completion remains unsolved.
+Besides, while migrated to NLG models, existing privacy-preserving methods
+perform poorly in terms of inference speed, and suffer from the convergence
+problem during the training stage. To address these issues, we propose MERGE, a
+fast private text generation framework for Transformer-based language models.
+Specifically, MERGE reuse the output hidden state as the word embedding to
+bypass the embedding computation, and reorganize the linear operations in the
+Transformer module to accelerate the forward procedure. Based on these two
+optimizations, extensive experiments show that MERGE can achieve a 26.5x
+speedup under the sequence length 512, and reduce 80\% communication bytes,
+with an up to 10x speedup to existing state-of-art models.",2023-05-25
+Revisiting Sentence Union Generation as a Testbed for Text Consolidation,2023-05-24 22:34:01+00:00,http://arxiv.org/abs/2305.15605v1,"Eran Hirsch, Valentina Pyatkin, Ruben Wolhandler, Avi Caciularu, Asi Shefer, Ido Dagan",cs.CL,dialogue,"Tasks involving text generation based on multiple input texts, such as
+multi-document summarization, long-form question answering and contemporary
+dialogue applications, challenge models for their ability to properly
+consolidate partly-overlapping multi-text information. However, these tasks
+entangle the consolidation phase with the often subjective and ill-defined
+content selection requirement, impeding proper assessment of models'
+consolidation capabilities. In this paper, we suggest revisiting the sentence
+union generation task as an effective well-defined testbed for assessing text
+consolidation capabilities, decoupling the consolidation challenge from
+subjective content selection. To support research on this task, we present
+refined annotation methodology and tools for crowdsourcing sentence union,
+create the largest union dataset to date and provide an analysis of its rich
+coverage of various consolidation aspects. We then propose a comprehensive
+evaluation protocol for union generation, including both human and automatic
+evaluation. Finally, as baselines, we evaluate state-of-the-art language models
+on the task, along with a detailed analysis of their capacity to address
+multi-text consolidation challenges and their limitations.",2023-05-24
+"RefGPT: Reference -> Truthful & Customized Dialogues Generation by GPTs
+  and for GPTs",2023-05-24 10:30:42+00:00,http://arxiv.org/abs/2305.14994v2,"Dongjie Yang, Ruifeng Yuan, YuanTao Fan, YiFei Yang, Zili Wang, Shusen Wang, Hai Zhao",cs.CL,dialogue,"General chat models, like ChatGPT, have attained impressive capability to
+resolve a wide range of NLP tasks by tuning Large Language Models (LLMs) with
+high-quality instruction data. However, collecting human-written high-quality
+data, especially multi-turn dialogues, is expensive and unattainable for most
+people. Though previous studies have used powerful LLMs to generate the
+dialogues automatically, but they all suffer from generating untruthful
+dialogues because of the LLMs hallucination. Therefore, we propose a method
+called RefGPT to generate enormous truthful and customized dialogues without
+worrying about factual errors caused by the model hallucination. RefGPT solves
+the model hallucination in dialogue generation by restricting the LLMs to
+leverage the given reference instead of reciting their own knowledge to
+generate dialogues. Additionally, RefGPT adds detailed controls on every
+utterances to enable highly customization capability, which previous studies
+have ignored. On the basis of RefGPT, we also propose two high-quality dialogue
+datasets generated by GPT-4, namely RefGPT-Fact and RefGPT-Code. RefGPT-Fact is
+100k multi-turn dialogue datasets based on factual knowledge and RefGPT-Code is
+76k multi-turn dialogue dataset covering a wide range of coding scenarios. Our
+code and datasets are released in https://github.com/ziliwangnlp/RefGPT",2023-05-24
+Dolphin: A Challenging and Diverse Benchmark for Arabic NLG,2023-05-24 10:24:10+00:00,http://arxiv.org/abs/2305.14989v1,"El Moatez Billah Nagoudi, Ahmed El-Shangiti, AbdelRahim Elmadany, Muhammad Abdul-Mageed",cs.CL,dialogue,"We present Dolphin, a novel benchmark that addresses the need for an
+evaluation framework for the wide collection of Arabic languages and varieties.
+The proposed benchmark encompasses a broad range of 13 different NLG tasks,
+including text summarization, machine translation, question answering, and
+dialogue generation, among others. Dolphin comprises a substantial corpus of 40
+diverse and representative public datasets across 50 test splits, carefully
+curated to reflect real-world scenarios and the linguistic richness of Arabic.
+It sets a new standard for evaluating the performance and generalization
+capabilities of Arabic and multilingual models, promising to enable researchers
+to push the boundaries of current methodologies. We provide an extensive
+analysis of Dolphin, highlighting its diversity and identifying gaps in current
+Arabic NLG research. We also evaluate several Arabic and multilingual models on
+our benchmark, allowing us to set strong baselines against which researchers
+can compare.",2023-05-24
+"In-Context Impersonation Reveals Large Language Models' Strengths and
+  Biases",2023-05-24 09:13:15+00:00,http://arxiv.org/abs/2305.14930v1,"Leonard Salewski, Stephan Alaniz, Isabel Rio-Torto, Eric Schulz, Zeynep Akata","cs.AI, cs.CL, cs.LG",dialogue,"In everyday conversations, humans can take on different roles and adapt their
+vocabulary to their chosen roles. We explore whether LLMs can take on, that is
+impersonate, different roles when they generate text in-context. We ask LLMs to
+assume different personas before solving vision and language tasks. We do this
+by prefixing the prompt with a persona that is associated either with a social
+identity or domain expertise. In a multi-armed bandit task, we find that LLMs
+pretending to be children of different ages recover human-like developmental
+stages of exploration. In a language-based reasoning task, we find that LLMs
+impersonating domain experts perform better than LLMs impersonating non-domain
+experts. Finally, we test whether LLMs' impersonations are complementary to
+visual information when describing different categories. We find that
+impersonation can improve performance: an LLM prompted to be a bird expert
+describes birds better than one prompted to be a car expert. However,
+impersonation can also uncover LLMs' biases: an LLM prompted to be a man
+describes cars better than one prompted to be a woman. These findings
+demonstrate that LLMs are capable of taking on diverse roles and that this
+in-context impersonation can be used to uncover their hidden strengths and
+biases.",2023-05-24
+"Unraveling ChatGPT: A Critical Analysis of AI-Generated Goal-Oriented
+  Dialogues and Annotations",2023-05-23 22:31:01+00:00,http://arxiv.org/abs/2305.14556v1,"Tiziano Labruna, Sofia Brenna, Andrea Zaninello, Bernardo Magnini","cs.CL, cs.AI",dialogue,"Large pre-trained language models have exhibited unprecedented capabilities
+in producing high-quality text via prompting techniques. This fact introduces
+new possibilities for data collection and annotation, particularly in
+situations where such data is scarce, complex to gather, expensive, or even
+sensitive. In this paper, we explore the potential of these models to generate
+and annotate goal-oriented dialogues, and conduct an in-depth analysis to
+evaluate their quality. Our experiments employ ChatGPT, and encompass three
+categories of goal-oriented dialogues (task-oriented, collaborative, and
+explanatory), two generation modes (interactive and one-shot), and two
+languages (English and Italian). Based on extensive human-based evaluations, we
+demonstrate that the quality of generated dialogues and annotations is on par
+with those generated by humans.",2023-05-23
+Reducing Sensitivity on Speaker Names for Text Generation from Dialogues,2023-05-23 08:53:33+00:00,http://arxiv.org/abs/2305.13833v1,"Qi Jia, Haifeng Tang, Kenny Q. Zhu",cs.CL,dialogue,"Changing speaker names consistently throughout a dialogue should not affect
+its meaning and corresponding outputs for text generation from dialogues.
+However, pre-trained language models, serving as the backbone for
+dialogue-processing tasks, have shown to be sensitive to nuances. This may
+result in unfairness in real-world applications. No comprehensive analysis of
+this problem has been done in the past. In this work, we propose to
+quantitatively measure a model's sensitivity on speaker names, and
+comprehensively evaluate a number of known methods for reducing speaker name
+sensitivity, including a novel approach of our own. Extensive experiments on
+multiple datasets provide a benchmark for this problem and show the favorable
+performance of our approach in sensitivity reduction and quality of generation.",2023-05-23
 "DiffuSIA: A Spiral Interaction Architecture for Encoder-Decoder Text
   Diffusion",2023-05-19 08:30:11+00:00,http://arxiv.org/abs/2305.11517v1,"Chao-Hong Tan, Jia-Chen Gu, Zhen-Hua Ling","cs.CL, cs.AI",dialogue,"Diffusion models have emerged as the new state-of-the-art family of deep
 generative models, and their promising potentials for text generation have
