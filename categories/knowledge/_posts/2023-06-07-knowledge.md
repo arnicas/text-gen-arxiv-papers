@@ -6,10 +6,23 @@ sidebar:
 ---
 
 
-*written on 2023-05-27*
+*written on 2023-06-10*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Absformer: Transformer-based Model for Unsupervised Multi-Document  Abstractive Summarization](http://arxiv.org/abs/2306.04787v1) | Mohamed Trabelsi, Huseyin Uzunalioglu | cs.CL, cs.LG | 2023-06-07 |
+| [Injecting knowledge into language generation: a case study in  auto-charting after-visit care instructions from medical dialogue](http://arxiv.org/abs/2306.03652v1) | Maksim Eremeev, Ilya Valmianski, Xavier Amatriain, Anitha Kannan | cs.CL | 2023-06-06 |
+| [PLANNER: Generating Diversified Paragraph via Latent Language Diffusion  Model](http://arxiv.org/abs/2306.02531v1) | Yizhe Zhang, Jiatao Gu, Zhuofeng Wu, Shuangfei Zhai, Josh Susskind, Navdeep Jaitly | cs.CL | 2023-06-05 |
+| [Adaptive and Personalized Exercise Generation for Online Language  Learning](http://arxiv.org/abs/2306.02457v1) | Peng Cui, Mrinmaya Sachan | cs.CL, cs.AI | 2023-06-04 |
+| [Commonsense Knowledge Transfer for Pre-trained Language Models](http://arxiv.org/abs/2306.02388v1) | Wangchunshu Zhou, Ronan Le Bras, Yejin Choi | cs.CL, cs.AI, cs.LG | 2023-06-04 |
+| [Modular Transformers: Compressing Transformers into Modularized Layers  for Flexible Efficient Inference](http://arxiv.org/abs/2306.02379v1) | Wangchunshu Zhou, Ronan Le Bras, Yejin Choi | cs.CL, cs.LG | 2023-06-04 |
+| [FlexRound: Learnable Rounding based on Element-wise Division for  Post-Training Quantization](http://arxiv.org/abs/2306.00317v1) | Jung Hyun Lee, Jeonghoon Kim, Se Jung Kwon, Dongsoo Lee | cs.LG, cs.AI | 2023-06-01 |
+| [An Invariant Learning Characterization of Controlled Text Generation](http://arxiv.org/abs/2306.00198v1) | Carolina Zheng, Claudia Shi, Keyon Vafa, Amir Feder, David M. Blei | cs.CL, cs.LG | 2023-05-31 |
+| [Pre-Trained Language-Meaning Models for Multilingual Parsing and  Generation](http://arxiv.org/abs/2306.00124v1) | Chunliu Wang, Huiyuan Lai, Malvina Nissim, Johan Bos | cs.CL | 2023-05-31 |
+| [Scalable Learning of Latent Language Structure With Logical Offline  Cycle Consistency](http://arxiv.org/abs/2305.20018v1) | Maxwell Crouse, Ramon Astudillo, Tahira Naseem, Subhajit Chaudhury, Pavan Kapanipathi, Salim Roukos, Alexander Gray | cs.CL, cs.AI | 2023-05-31 |
+| [Fine-grained Text Style Transfer with Diffusion-Based Language Models](http://arxiv.org/abs/2305.19512v1) | Yiwei Lyu, Tiange Luo, Jiacheng Shi, Todd C. Hollon, Honglak Lee | cs.CL, cs.AI, cs.LG | 2023-05-31 |
+| [ScoNe: Benchmarking Negation Reasoning in Language Models With  Fine-Tuning and In-Context Learning](http://arxiv.org/abs/2305.19426v1) | Jingyuan Selena She, Christopher Potts, Samuel R. Bowman, Atticus Geiger | cs.CL, cs.LG | 2023-05-30 |
+| [Generating with Confidence: Uncertainty Quantification for Black-box  Large Language Models](http://arxiv.org/abs/2305.19187v1) | Zhen Lin, Shubhendu Trivedi, Jimeng Sun | cs.CL, cs.LG, stat.ML | 2023-05-30 |
 | [Response Generation in Longitudinal Dialogues: Which Knowledge  Representation Helps?](http://arxiv.org/abs/2305.15908v1) | Seyed Mahed Mousavi, Simone Caldarella, Giuseppe Riccardi | cs.CL | 2023-05-25 |
 | [Self-contradictory Hallucinations of Large Language Models: Evaluation,  Detection and Mitigation](http://arxiv.org/abs/2305.15852v1) | Niels Mündler, Jingxuan He, Slobodan Jenko, Martin Vechev | cs.CL, cs.AI, cs.LG | 2023-05-25 |
 | [Peek Across: Improving Multi-Document Modeling via Cross-Document  Question-Answering](http://arxiv.org/abs/2305.15387v1) | Avi Caciularu, Matthew E. Peters, Jacob Goldberger, Ido Dagan, Arman Cohan | cs.CL, cs.AI | 2023-05-24 |

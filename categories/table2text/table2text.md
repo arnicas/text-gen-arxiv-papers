@@ -7,10 +7,19 @@ sidebar:
 ---
 
 
-*written on 2023-05-27*
+*written on 2023-06-10*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [SequenceMatch: Imitation Learning for Autoregressive Sequence Modelling  with Backtracking](http://arxiv.org/abs/2306.05426v1) | Chris Cundy, Stefano Ermon | cs.LG, cs.AI | 2023-06-08 |
+| [Increasing Diversity While Maintaining Accuracy: Text Data Generation  with Large Language Models and Human Interventions](http://arxiv.org/abs/2306.04140v1) | John Joon Young Chung, Ece Kamar, Saleema Amershi | cs.CL | 2023-06-07 |
+| [Structured Voronoi Sampling](http://arxiv.org/abs/2306.03061v1) | Afra Amini, Li Du, Ryan Cotterell | cs.CL, cs.AI | 2023-06-05 |
+| [Adaptive and Personalized Exercise Generation for Online Language  Learning](http://arxiv.org/abs/2306.02457v1) | Peng Cui, Mrinmaya Sachan | cs.CL, cs.AI | 2023-06-04 |
+| [Exposing Bias in Online Communities through Large-Scale Language Models](http://arxiv.org/abs/2306.02294v1) | Celine Wald, Lukas Pfahler | cs.CL, cs.CY, cs.LG | 2023-06-04 |
+| [Exploring semantic information in disease: Simple Data Augmentation  Techniques for Chinese Disease Normalization](http://arxiv.org/abs/2306.01931v1) | Wenqian Cui, Shaohui Liu, Xiangling Fu, Xien Liu, Ji Wu | cs.CL, cs.AI | 2023-06-02 |
+| [Fine-Grained Human Feedback Gives Better Rewards for Language Model  Training](http://arxiv.org/abs/2306.01693v1) | Zeqiu Wu, Yushi Hu, Weijia Shi, Nouha Dziri, Alane Suhr, Prithviraj Ammanabrolu, Noah A. Smith, Mari Ostendorf, Hannaneh Hajishirzi | cs.CL | 2023-06-02 |
+| [Preference-grounded Token-level Guidance for Language Model Fine-tuning](http://arxiv.org/abs/2306.00398v1) | Shentao Yang, Shujian Zhang, Congying Xia, Yihao Feng, Caiming Xiong, Mingyuan Zhou | cs.CL | 2023-06-01 |
+| [Learning to Imagine: Visually-Augmented Natural Language Generation](http://arxiv.org/abs/2305.16944v2) | Tianyi Tang, Yushuo Chen, Yifan Du, Junyi Li, Wayne Xin Zhao, Ji-Rong Wen | cs.CL | 2023-05-26 |
 | [RewriteLM: An Instruction-Tuned Large Language Model for Text Rewriting](http://arxiv.org/abs/2305.15685v1) | Lei Shu, Liangchen Luo, Jayakumar Hoskere, Yun Zhu, Canoee Liu, Simon Tong, Jindong Chen, Lei Meng | cs.CL, cs.AI | 2023-05-25 |
 | [Balancing Effect of Training Dataset Distribution of Multiple Styles for  Multi-Style Text Transfer](http://arxiv.org/abs/2305.15582v1) | Debarati Das, David Ma, Dongyeop Kang | cs.CL | 2023-05-24 |
 | [Peek Across: Improving Multi-Document Modeling via Cross-Document  Question-Answering](http://arxiv.org/abs/2305.15387v1) | Avi Caciularu, Matthew E. Peters, Jacob Goldberger, Ido Dagan, Arman Cohan | cs.CL, cs.AI | 2023-05-24 |

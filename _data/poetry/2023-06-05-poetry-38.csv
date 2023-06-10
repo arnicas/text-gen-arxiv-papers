@@ -1,4 +1,42 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Identifying the style by a qualified reader on a short fragment of
+  generated poetry",2023-06-05 10:55:15+00:00,http://arxiv.org/abs/2306.02771v1,Boris Orekhov,"cs.CL, cs.AI, cs.LG",poetry,"Style is an important concept in today's challenges in natural language
+generating. After the success in the field of image style transfer, the task of
+text style transfer became actual and attractive. Researchers are also
+interested in the tasks of style reproducing in generation of the poetic text.
+Evaluation of style reproducing in natural poetry generation remains a problem.
+I used 3 character-based LSTM-models to work with style reproducing assessment.
+All three models were trained on the corpus of texts by famous Russian-speaking
+poets. Samples were shown to the assessors and 4 answer options were offered,
+the style of which poet this sample reproduces. In addition, the assessors were
+asked how well they were familiar with the work of the poet they had named.
+Students studying history of literature were the assessors, 94 answers were
+received. It has appeared that accuracy of definition of style increases if the
+assessor can quote the poet by heart. Each model showed at least 0.7
+macro-average accuracy. The experiment showed that it is better to involve a
+professional rather than a naive reader in the evaluation of style in the tasks
+of poetry generation, while lstm models are good at reproducing the style of
+Russian poets even on a limited training corpus.",2023-06-05
+Unsupervised Melody-to-Lyric Generation,2023-05-30 17:20:25+00:00,http://arxiv.org/abs/2305.19228v1,"Yufei Tian, Anjali Narayan-Chen, Shereen Oraby, Alessandra Cervone, Gunnar Sigurdsson, Chenyang Tao, Wenbo Zhao, Tagyoung Chung, Jing Huang, Nanyun Peng","cs.CL, cs.AI, cs.SD, eess.AS",poetry,"Automatic melody-to-lyric generation is a task in which song lyrics are
+generated to go with a given melody. It is of significant practical interest
+and more challenging than unconstrained lyric generation as the music imposes
+additional constraints onto the lyrics. The training data is limited as most
+songs are copyrighted, resulting in models that underfit the complicated
+cross-modal relationship between melody and lyrics. In this work, we propose a
+method for generating high-quality lyrics without training on any aligned
+melody-lyric data. Specifically, we design a hierarchical lyric generation
+framework that first generates a song outline and second the complete lyrics.
+The framework enables disentanglement of training (based purely on text) from
+inference (melody-guided text generation) to circumvent the shortage of
+parallel data.
+  We leverage the segmentation and rhythm alignment between melody and lyrics
+to compile the given melody into decoding constraints as guidance during
+inference. The two-step hierarchical design also enables content control via
+the lyric outline, a much-desired feature for democratizing collaborative song
+creation. Experimental results show that our model can generate high-quality
+lyrics that are more on-topic, singable, intelligible, and coherent than strong
+baselines, for example SongMASS, a SOTA model trained on a parallel dataset,
+with a 24% relative overall quality improvement based on human ratings. O",2023-05-30
 Creative Data Generation: A Review Focusing on Text and Poetry,2023-05-15 09:50:15+00:00,http://arxiv.org/abs/2305.08493v1,"Mohamad Elzohbi, Richard Zhao",cs.CL,poetry,"The rapid advancement in machine learning has led to a surge in automatic
 data generation, making it increasingly challenging to differentiate between
 naturally or human-generated data and machine-generated data. Despite these

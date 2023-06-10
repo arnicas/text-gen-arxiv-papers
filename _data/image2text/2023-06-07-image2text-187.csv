@@ -1,4 +1,208 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Generative Text-Guided 3D Vision-Language Pretraining for Unified
+  Medical Image Segmentation",2023-06-07 22:20:51+00:00,http://arxiv.org/abs/2306.04811v1,"Yinda Chen, Che Liu, Wei Huang, Sibo Cheng, Rossella Arcucci, Zhiwei Xiong","cs.CV, cs.AI",image2text,"Vision-Language Pretraining (VLP) has demonstrated remarkable capabilities in
+learning visual representations from textual descriptions of images without
+annotations. Yet, effective VLP demands large-scale image-text pairs, a
+resource that suffers scarcity in the medical domain. Moreover, conventional
+VLP is limited to 2D images while medical images encompass diverse modalities,
+often in 3D, making the learning process more challenging. To address these
+challenges, we present Generative Text-Guided 3D Vision-Language Pretraining
+for Unified Medical Image Segmentation (GTGM), a framework that extends of VLP
+to 3D medical images without relying on paired textual descriptions.
+Specifically, GTGM utilizes large language models (LLM) to generate
+medical-style text from 3D medical images. This synthetic text is then used to
+supervise 3D visual representation learning. Furthermore, a negative-free
+contrastive learning objective strategy is introduced to cultivate consistent
+visual representations between augmented 3D medical image patches, which
+effectively mitigates the biases associated with strict positive-negative
+sample pairings. We evaluate GTGM on three imaging modalities - Computed
+Tomography (CT), Magnetic Resonance Imaging (MRI), and electron microscopy (EM)
+over 13 datasets. GTGM's superior performance across various medical image
+segmentation tasks underscores its effectiveness and versatility, by enabling
+VLP extension into 3D medical imagery while bypassing the need for paired text.",2023-06-07
+On the Difference of BERT-style and CLIP-style Text Encoders,2023-06-06 13:41:09+00:00,http://arxiv.org/abs/2306.03678v1,"Zhihong Chen, Guiming Hardy Chen, Shizhe Diao, Xiang Wan, Benyou Wang",cs.CL,image2text,"Masked language modeling (MLM) has been one of the most popular pretraining
+recipes in natural language processing, e.g., BERT, one of the representative
+models. Recently, contrastive language-image pretraining (CLIP) has also
+attracted attention, especially its vision models that achieve excellent
+performance on a broad range of vision tasks. However, few studies are
+dedicated to studying the text encoders learned by CLIP. In this paper, we
+analyze the difference between BERT-style and CLIP-style text encoders from
+three experiments: (i) general text understanding, (ii) vision-centric text
+understanding, and (iii) text-to-image generation. Experimental analyses show
+that although CLIP-style text encoders underperform BERT-style ones for general
+text understanding tasks, they are equipped with a unique ability, i.e.,
+synesthesia, for the cross-modal association, which is more similar to the
+senses of humans.",2023-06-06
+Putting Humans in the Image Captioning Loop,2023-06-06 07:50:46+00:00,http://arxiv.org/abs/2306.03476v1,"Aliki Anagnostopoulou, Mareike Hartmann, Daniel Sonntag","cs.CL, cs.CV",image2text,"Image Captioning (IC) models can highly benefit from human feedback in the
+training process, especially in cases where data is limited. We present
+work-in-progress on adapting an IC system to integrate human feedback, with the
+goal to make it easily adaptable to user-specific data. Our approach builds on
+a base IC model pre-trained on the MS COCO dataset, which generates captions
+for unseen images. The user will then be able to offer feedback on the image
+and the generated/predicted caption, which will be augmented to create
+additional training instances for the adaptation of the model. The additional
+instances are integrated into the model using step-wise updates, and a sparse
+memory replay component is used to avoid catastrophic forgetting. We hope that
+this approach, while leading to improved results, will also result in
+customizable IC models.",2023-06-06
+"Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video
+  Understanding",2023-06-05 13:17:27+00:00,http://arxiv.org/abs/2306.02858v2,"Hang Zhang, Xin Li, Lidong Bing","cs.CL, cs.CV, cs.SD, eess.AS",image2text,"We present Video-LLaMA, a multi-modal framework that empowers Large Language
+Models (LLMs) with the capability of understanding both visual and auditory
+content in the video. Video-LLaMA bootstraps cross-modal training from the
+frozen pre-trained visual & audio encoders and the frozen LLMs. Unlike previous
+vision-LLMs that focus on static image comprehensions such as MiniGPT-4 and
+LLaVA, Video-LLaMA mainly tackles two challenges in video understanding: (1)
+capturing the temporal changes in visual scenes, (2) integrating audio-visual
+signals. To counter the first challenge, we propose a Video Q-former to
+assemble the pre-trained image encoder into our video encoder and introduce a
+video-to-text generation task to learn video-language correspondence. For the
+second challenge, we leverage ImageBind, a universal embedding model aligning
+multiple modalities as the pre-trained audio encoder, and introduce an Audio
+Q-former on top of ImageBind to learn reasonable auditory query embeddings for
+the LLM module. To align the output of both visual & audio encoders with LLM's
+embedding space, we train Video-LLaMA on massive video/image-caption pairs as
+well as visual-instruction-tuning datasets of moderate amount but higher
+quality. We found Video-LLaMA showcases the ability to perceive and comprehend
+video content, generating meaningful responses that are grounded in the visual
+and auditory information presented in the videos. This highlights the potential
+of Video-LLaMA as a promising prototype for audio-visual AI assistants.",2023-06-05
+"Identifying the style by a qualified reader on a short fragment of
+  generated poetry",2023-06-05 10:55:15+00:00,http://arxiv.org/abs/2306.02771v1,Boris Orekhov,"cs.CL, cs.AI, cs.LG",image2text,"Style is an important concept in today's challenges in natural language
+generating. After the success in the field of image style transfer, the task of
+text style transfer became actual and attractive. Researchers are also
+interested in the tasks of style reproducing in generation of the poetic text.
+Evaluation of style reproducing in natural poetry generation remains a problem.
+I used 3 character-based LSTM-models to work with style reproducing assessment.
+All three models were trained on the corpus of texts by famous Russian-speaking
+poets. Samples were shown to the assessors and 4 answer options were offered,
+the style of which poet this sample reproduces. In addition, the assessors were
+asked how well they were familiar with the work of the poet they had named.
+Students studying history of literature were the assessors, 94 answers were
+received. It has appeared that accuracy of definition of style increases if the
+assessor can quote the poet by heart. Each model showed at least 0.7
+macro-average accuracy. The experiment showed that it is better to involve a
+professional rather than a naive reader in the evaluation of style in the tasks
+of poetry generation, while lstm models are good at reproducing the style of
+Russian poets even on a limited training corpus.",2023-06-05
+Multilingual Conceptual Coverage in Text-to-Image Models,2023-06-02 17:59:09+00:00,http://arxiv.org/abs/2306.01735v1,"Michael Saxon, William Yang Wang","cs.CL, cs.AI, cs.CV, eess.IV",image2text,"We propose ""Conceptual Coverage Across Languages"" (CoCo-CroLa), a technique
+for benchmarking the degree to which any generative text-to-image system
+provides multilingual parity to its training language in terms of tangible
+nouns. For each model we can assess ""conceptual coverage"" of a given target
+language relative to a source language by comparing the population of images
+generated for a series of tangible nouns in the source language to the
+population of images generated for each noun under translation in the target
+language. This technique allows us to estimate how well-suited a model is to a
+target language as well as identify model-specific weaknesses, spurious
+correlations, and biases without a-priori assumptions. We demonstrate how it
+can be used to benchmark T2I models in terms of multilinguality, and how
+despite its simplicity it is a good proxy for impressive generalization.",2023-06-02
+"FlexRound: Learnable Rounding based on Element-wise Division for
+  Post-Training Quantization",2023-06-01 03:31:12+00:00,http://arxiv.org/abs/2306.00317v1,"Jung Hyun Lee, Jeonghoon Kim, Se Jung Kwon, Dongsoo Lee","cs.LG, cs.AI",image2text,"Post-training quantization (PTQ) has been gaining popularity for the
+deployment of deep neural networks on resource-limited devices since unlike
+quantization-aware training, neither a full training dataset nor end-to-end
+training is required at all. As PTQ schemes based on reconstructing each layer
+or block output turn out to be effective to enhance quantized model
+performance, recent works have developed algorithms to devise and learn a new
+weight-rounding scheme so as to better reconstruct each layer or block output.
+In this work, we propose a simple yet effective new weight-rounding mechanism
+for PTQ, coined FlexRound, based on element-wise division instead of typical
+element-wise addition such that FlexRound enables jointly learning a common
+quantization grid size as well as a different scale for each pre-trained
+weight. Thanks to the reciprocal rule of derivatives induced by element-wise
+division, FlexRound is inherently able to exploit pre-trained weights when
+updating their corresponding scales, and thus, flexibly quantize pre-trained
+weights depending on their magnitudes. We empirically validate the efficacy of
+FlexRound on a wide range of models and tasks. To the best of our knowledge,
+our work is the first to carry out comprehensive experiments on not only image
+classification and natural language understanding but also natural language
+generation, assuming a per-tensor uniform PTQ setting. Moreover, we
+demonstrate, for the first time, that large language models can be efficiently
+quantized, with only a negligible impact on performance compared to
+half-precision baselines, achieved by reconstructing the output in a
+block-by-block manner.",2023-06-01
+"CapText: Large Language Model-based Caption Generation From Image
+  Context and Description",2023-06-01 02:40:44+00:00,http://arxiv.org/abs/2306.00301v2,"Shinjini Ghosh, Sagnik Anupam","cs.LG, cs.CL",image2text,"While deep-learning models have been shown to perform well on image-to-text
+datasets, it is difficult to use them in practice for captioning images. This
+is because captions traditionally tend to be context-dependent and offer
+complementary information about an image, while models tend to produce
+descriptions that describe the visual features of the image. Prior research in
+caption generation has explored the use of models that generate captions when
+provided with the images alongside their respective descriptions or contexts.
+We propose and evaluate a new approach, which leverages existing large language
+models to generate captions from textual descriptions and context alone,
+without ever processing the image directly. We demonstrate that after
+fine-tuning, our approach outperforms current state-of-the-art image-text
+alignment models like OSCAR-VinVL on this task on the CIDEr metric.",2023-06-01
+"LMCap: Few-shot Multilingual Image Captioning by Retrieval Augmented
+  Language Model Prompting",2023-05-31 13:03:17+00:00,http://arxiv.org/abs/2305.19821v1,"Rita Ramos, Bruno Martins, Desmond Elliott","cs.CL, cs.CV",image2text,"Multilingual image captioning has recently been tackled by training with
+large-scale machine translated data, which is an expensive, noisy, and
+time-consuming process. Without requiring any multilingual caption data, we
+propose LMCap, an image-blind few-shot multilingual captioning model that works
+by prompting a language model with retrieved captions. Specifically, instead of
+following the standard encoder-decoder paradigm, given an image, LMCap first
+retrieves the captions of similar images using a multilingual CLIP encoder.
+These captions are then combined into a prompt for an XGLM decoder, in order to
+generate captions in the desired language. In other words, the generation model
+does not directly process the image, instead processing retrieved captions.
+Experiments on the XM3600 dataset of geographically diverse images show that
+our model is competitive with fully-supervised multilingual captioning models,
+without requiring any supervised training on any captioning data.",2023-05-31
+"Boosting Text-to-Image Diffusion Models with Fine-Grained Semantic
+  Rewards",2023-05-31 06:59:21+00:00,http://arxiv.org/abs/2305.19599v2,"Guian Fang, Zutao Jiang, Jianhua Han, Guansong Lu, Hang Xu, Xiaodan Liang","cs.CV, cs.AI",image2text,"Recent advances in text-to-image diffusion models have achieved remarkable
+success in generating high-quality, realistic images from given text prompts.
+However, previous methods fail to perform accurate modality alignment between
+text concepts and generated images due to the lack of fine-level semantic
+guidance that successfully diagnoses the modality discrepancy. In this paper,
+we propose FineRewards to improve the alignment between text and images in
+text-to-image diffusion models by introducing two new fine-grained semantic
+rewards: the caption reward and the Semantic Segment Anything (SAM) reward.
+From the global semantic view, the caption reward generates a corresponding
+detailed caption that depicts all important contents in the synthetic image via
+a BLIP-2 model and then calculates the reward score by measuring the similarity
+between the generated caption and the given prompt. From the local semantic
+view, the SAM reward segments the generated images into local parts with
+category labels, and scores the segmented parts by measuring the likelihood of
+each category appearing in the prompted scene via a large language model, i.e.,
+Vicuna-7B. Additionally, we adopt an assemble reward-ranked learning strategy
+to enable the integration of multiple reward functions to jointly guide the
+model training. Adapting results of text-to-image models on the MS-COCO
+benchmark show that the proposed semantic reward outperforms other baseline
+reward functions with a considerable margin on both visual quality and semantic
+similarity with the input prompt. Moreover, by adopting the assemble
+reward-ranked learning strategy, we further demonstrate that model performance
+is further improved when adapting under the unifying of the proposed semantic
+reward with the current image rewards.",2023-05-31
+Fine-grained Text Style Transfer with Diffusion-Based Language Models,2023-05-31 02:51:26+00:00,http://arxiv.org/abs/2305.19512v1,"Yiwei Lyu, Tiange Luo, Jiacheng Shi, Todd C. Hollon, Honglak Lee","cs.CL, cs.AI, cs.LG",image2text,"Diffusion probabilistic models have shown great success in generating
+high-quality images controllably, and researchers have tried to utilize this
+controllability into text generation domain. Previous works on diffusion-based
+language models have shown that they can be trained without external knowledge
+(such as pre-trained weights) and still achieve stable performance and
+controllability. In this paper, we trained a diffusion-based model on StylePTB
+dataset, the standard benchmark for fine-grained text style transfers. The
+tasks in StylePTB requires much more refined control over the output text
+compared to tasks evaluated in previous works, and our model was able to
+achieve state-of-the-art performance on StylePTB on both individual and
+compositional transfers. Moreover, our model, trained on limited data from
+StylePTB without external knowledge, outperforms previous works that utilized
+pretrained weights, embeddings, and external grammar parsers, and this may
+indicate that diffusion-based language models have great potential under
+low-resource settings.",2023-05-31
+Learning to Imagine: Visually-Augmented Natural Language Generation,2023-05-26 13:59:45+00:00,http://arxiv.org/abs/2305.16944v2,"Tianyi Tang, Yushuo Chen, Yifan Du, Junyi Li, Wayne Xin Zhao, Ji-Rong Wen",cs.CL,image2text,"People often imagine relevant scenes to aid in the writing process. In this
+work, we aim to utilize visual information for composition in the same manner
+as humans. We propose a method, LIVE, that makes pre-trained language models
+(PLMs) Learn to Imagine for Visuallyaugmented natural language gEneration.
+First, we imagine the scene based on the text: we use a diffusion model to
+synthesize high-quality images conditioned on the input texts. Second, we use
+CLIP to determine whether the text can evoke the imagination in a posterior
+way. Finally, our imagination is dynamic, and we conduct synthesis for each
+sentence rather than generate only one image for an entire paragraph.
+Technically, we propose a novel plug-and-play fusion layer to obtain
+visually-augmented representations for each text. Our vision-text fusion layer
+is compatible with Transformerbased architecture. We have conducted extensive
+experiments on four generation tasks using BART and T5, and the automatic
+results and human evaluation demonstrate the effectiveness of our proposed
+method. We will release the code, model, and data at the link:
+https://github.com/RUCAIBox/LIVE.",2023-05-26
 "Not All Metrics Are Guilty: Improving NLG Evaluation with LLM
   Paraphrasing",2023-05-24 11:53:29+00:00,http://arxiv.org/abs/2305.15067v1,"Tianyi Tang, Hongyuan Lu, Yuchen Eleanor Jiang, Haoyang Huang, Dongdong Zhang, Wayne Xin Zhao, Furu Wei",cs.CL,image2text,"Most research about natural language generation (NLG) relies on evaluation
 benchmarks with limited references for a sample, which may result in poor

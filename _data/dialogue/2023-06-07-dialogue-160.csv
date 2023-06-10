@@ -1,4 +1,201 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"IUTEAM1 at MEDIQA-Chat 2023: Is simple fine tuning effective for
+  multilayer summarization of clinical conversations?",2023-06-07 10:47:33+00:00,http://arxiv.org/abs/2306.04328v1,Dhananjay Srivastava,cs.CL,dialogue,"Clinical conversation summarization has become an important application of
+Natural language Processing. In this work, we intend to analyze summarization
+model ensembling approaches, that can be utilized to improve the overall
+accuracy of the generated medical report called chart note. The work starts
+with a single summarization model creating the baseline. Then leads to an
+ensemble of summarization models trained on a separate section of the chart
+note. This leads to the final approach of passing the generated results to
+another summarization model in a multi-layer/stage fashion for better coherency
+of the generated text. Our results indicate that although an ensemble of models
+specialized in each section produces better results, the multi-layer/stage
+approach does not improve accuracy. The code for the above paper is available
+at https://github.com/dhananjay-srivastava/MEDIQA-Chat-2023-iuteam1.git",2023-06-07
+"Correction of Errors in Preference Ratings from Automated Metrics for
+  Text Generation",2023-06-06 17:09:29+00:00,http://arxiv.org/abs/2306.03866v1,"Jan Deriu, Pius von Däniken, Don Tuggener, Mark Cieliebak","cs.CL, cs.AI",dialogue,"A major challenge in the field of Text Generation is evaluation: Human
+evaluations are cost-intensive, and automated metrics often display
+considerable disagreement with human judgments. In this paper, we propose a
+statistical model of Text Generation evaluation that accounts for the
+error-proneness of automated metrics when used to generate preference rankings
+between system outputs. We show that existing automated metrics are generally
+over-confident in assigning significant differences between systems in this
+setting. However, our model enables an efficient combination of human and
+automated ratings to remedy the error-proneness of the automated metrics. We
+show that using this combination, we only require about 50% of the human
+annotations typically used in evaluations to arrive at robust and statistically
+significant results while yielding the same evaluation outcome as the pure
+human evaluation in 95% of cases. We showcase the benefits of approach for
+three text generation tasks: dialogue systems, machine translation, and text
+summarization.",2023-06-06
+"Injecting knowledge into language generation: a case study in
+  auto-charting after-visit care instructions from medical dialogue",2023-06-06 13:13:27+00:00,http://arxiv.org/abs/2306.03652v1,"Maksim Eremeev, Ilya Valmianski, Xavier Amatriain, Anitha Kannan",cs.CL,dialogue,"Factual correctness is often the limiting factor in practical applications of
+natural language generation in high-stakes domains such as healthcare. An
+essential requirement for maintaining factuality is the ability to deal with
+rare tokens. This paper focuses on rare tokens that appear in both the source
+and the reference sequences, and which, when missed during generation, decrease
+the factual correctness of the output text. For high-stake domains that are
+also knowledge-rich, we show how to use knowledge to (a) identify which rare
+tokens that appear in both source and reference are important and (b) uplift
+their conditional probability. We introduce the ``utilization rate'' that
+encodes knowledge and serves as a regularizer by maximizing the marginal
+probability of selected tokens. We present a study in a knowledge-rich domain
+of healthcare, where we tackle the problem of generating after-visit care
+instructions based on patient-doctor dialogues. We verify that, in our dataset,
+specific medical concepts with high utilization rates are underestimated by
+conventionally trained sequence-to-sequence models. We observe that correcting
+this with our approach to knowledge injection reduces the uncertainty of the
+model as well as improves factuality and coherence without negatively impacting
+fluency.",2023-06-06
+"Diverse and Faithful Knowledge-Grounded Dialogue Generation via
+  Sequential Posterior Inference",2023-06-01 21:23:13+00:00,http://arxiv.org/abs/2306.01153v1,"Yan Xu, Deqian Kong, Dehong Xu, Ziwei Ji, Bo Pang, Pascale Fung, Ying Nian Wu",cs.CL,dialogue,"The capability to generate responses with diversity and faithfulness using
+factual knowledge is paramount for creating a human-like, trustworthy dialogue
+system. Common strategies either adopt a two-step paradigm, which optimizes
+knowledge selection and response generation separately, and may overlook the
+inherent correlation between these two tasks, or leverage conditional
+variational method to jointly optimize knowledge selection and response
+generation by employing an inference network. In this paper, we present an
+end-to-end learning framework, termed Sequential Posterior Inference (SPI),
+capable of selecting knowledge and generating dialogues by approximately
+sampling from the posterior distribution. Unlike other methods, SPI does not
+require the inference network or assume a simple geometry of the posterior
+distribution. This straightforward and intuitive inference procedure of SPI
+directly queries the response generation model, allowing for accurate knowledge
+selection and generation of faithful responses. In addition to modeling
+contributions, our experimental results on two common dialogue datasets (Wizard
+of Wikipedia and Holl-E) demonstrate that SPI outperforms previous strong
+baselines according to both automatic and human evaluation metrics.",2023-06-01
+"Deliberate then Generate: Enhanced Prompting Framework for Text
+  Generation",2023-05-31 13:23:04+00:00,http://arxiv.org/abs/2305.19835v1,"Bei Li, Rui Wang, Junliang Guo, Kaitao Song, Xu Tan, Hany Hassan, Arul Menezes, Tong Xiao, Jiang Bian, JingBo Zhu","cs.CL, cs.AI",dialogue,"Large language models (LLMs) have shown remarkable success across a wide
+range of natural language generation tasks, where proper prompt designs make
+great impacts. While existing prompting methods are normally restricted to
+providing correct information, in this paper, we encourage the model to
+deliberate by proposing a novel Deliberate then Generate (DTG) prompting
+framework, which consists of error detection instructions and candidates that
+may contain errors. DTG is a simple yet effective technique that can be applied
+to various text generation tasks with minimal modifications. We conduct
+extensive experiments on 20+ datasets across 7 text generation tasks, including
+summarization, translation, dialogue, and more. We show that DTG consistently
+outperforms existing prompting methods and achieves state-of-the-art
+performance on multiple text generation tasks. We also provide in-depth
+analyses to reveal the underlying mechanisms of DTG, which may inspire future
+research on prompting for LLMs.",2023-05-31
+"Knowledge Graph-Augmented Language Models for Knowledge-Grounded
+  Dialogue Generation",2023-05-30 08:36:45+00:00,http://arxiv.org/abs/2305.18846v1,"Minki Kang, Jin Myung Kwak, Jinheon Baek, Sung Ju Hwang","cs.CL, cs.AI, cs.LG",dialogue,"Language models have achieved impressive performances on dialogue generation
+tasks. However, when generating responses for a conversation that requires
+factual knowledge, they are far from perfect, due to an absence of mechanisms
+to retrieve, encode, and reflect the knowledge in the generated responses. Some
+knowledge-grounded dialogue generation methods tackle this problem by
+leveraging facts from Knowledge Graphs (KGs); however, they do not guarantee
+that the model utilizes a relevant piece of knowledge from the KG. To overcome
+this limitation, we propose SUbgraph Retrieval-augmented GEneration (SURGE), a
+framework for generating context-relevant and knowledge-grounded dialogues with
+the KG. Specifically, our SURGE framework first retrieves the relevant subgraph
+from the KG, and then enforces consistency across facts by perturbing their
+word embeddings conditioned by the retrieved subgraph. Then, we utilize
+contrastive learning to ensure that the generated texts have high similarity to
+the retrieved subgraphs. We validate our SURGE framework on OpendialKG and
+KOMODIS datasets, showing that it generates high-quality dialogues that
+faithfully reflect the knowledge from KG.",2023-05-30
+Perceived Trustworthiness of Natural Language Generators,2023-05-29 16:09:58+00:00,http://arxiv.org/abs/2305.18176v1,"Beatriz Cabrero-Daniel, Andrea Sanagustín Cabrero","cs.HC, cs.AI, cs.CL",dialogue,"Natural Language Generation tools, such as chatbots that can generate
+human-like conversational text, are becoming more common both for personal and
+professional use. However, there are concerns about their trustworthiness and
+ethical implications. The paper addresses the problem of understanding how
+different users (e.g., linguists, engineers) perceive and adopt these tools and
+their perception of machine-generated text quality. It also discusses the
+perceived advantages and limitations of Natural Language Generation tools, as
+well as users' beliefs on governance strategies. The main findings of this
+study include the impact of users' field and level of expertise on the
+perceived trust and adoption of Natural Language Generation tools, the users'
+assessment of the accuracy, fluency, and potential biases of machine-generated
+text in comparison to human-written text, and an analysis of the advantages and
+ethical risks associated with these tools as identified by the participants.
+Moreover, this paper discusses the potential implications of these findings for
+enhancing the AI development process. The paper sheds light on how different
+user characteristics shape their beliefs on the quality and overall
+trustworthiness of machine-generated text. Furthermore, it examines the
+benefits and risks of these tools from the perspectives of different users.",2023-05-29
+"GripRank: Bridging the Gap between Retrieval and Generation via the
+  Generative Knowledge Improved Passage Ranking",2023-05-29 15:15:53+00:00,http://arxiv.org/abs/2305.18144v1,"Jiaqi Bai, Hongcheng Guo, Jiaheng Liu, Jian Yang, Xinnian Liang, Zhao Yan, Zhoujun Li","cs.CL, cs.AI",dialogue,"Retrieval-enhanced text generation, which aims to leverage passages retrieved
+from a large passage corpus for delivering a proper answer given the input
+query, has shown remarkable progress on knowledge-intensive language tasks such
+as open-domain question answering and knowledge-enhanced dialogue generation.
+However, the retrieved passages are not ideal for guiding answer generation
+because of the discrepancy between retrieval and generation, i.e., the
+candidate passages are all treated equally during the retrieval procedure
+without considering their potential to generate the proper answers. This
+discrepancy makes a passage retriever deliver a sub-optimal collection of
+candidate passages to generate answers. In this paper, we propose the
+GeneRative Knowledge Improved Passage Ranking (GripRank) approach, addressing
+the above challenge by distilling knowledge from a generative passage estimator
+(GPE) to a passage ranker, where the GPE is a generative language model used to
+measure how likely the candidate passages can generate the proper answer. We
+realize the distillation procedure by teaching the passage ranker learning to
+rank the passages ordered by the GPE. Furthermore, we improve the distillation
+quality by devising a curriculum knowledge distillation mechanism, which allows
+the knowledge provided by the GPE can be progressively distilled to the ranker
+through an easy-to-hard curriculum, enabling the passage ranker to correctly
+recognize the provenance of the answer from many plausible candidates. We
+conduct extensive experiments on four datasets across three knowledge-intensive
+language tasks. Experimental results show advantages over the state-of-the-art
+methods for both passage ranking and answer generation on the KILT benchmark.",2023-05-29
+"A Unified Framework for Slot based Response Generation in a Multimodal
+  Dialogue System",2023-05-27 10:06:03+00:00,http://arxiv.org/abs/2305.17433v1,"Mauajama Firdaus, Avinash Madasu, Asif Ekbal","cs.CV, cs.CL",dialogue,"Natural Language Understanding (NLU) and Natural Language Generation (NLG)
+are the two critical components of every conversational system that handles the
+task of understanding the user by capturing the necessary information in the
+form of slots and generating an appropriate response in accordance with the
+extracted information. Recently, dialogue systems integrated with complementary
+information such as images, audio, or video have gained immense popularity. In
+this work, we propose an end-to-end framework with the capability to extract
+necessary slot values from the utterance and generate a coherent response,
+thereby assisting the user to achieve their desired goals in a multimodal
+dialogue system having both textual and visual information. The task of
+extracting the necessary information is dependent not only on the text but also
+on the visual cues present in the dialogue. Similarly, for the generation, the
+previous dialog context comprising multimodal information is significant for
+providing coherent and informative responses. We employ a multimodal
+hierarchical encoder using pre-trained DialoGPT and also exploit the knowledge
+base (Kb) to provide a stronger context for both the tasks. Finally, we design
+a slot attention mechanism to focus on the necessary information in a given
+utterance. Lastly, a decoder generates the corresponding response for the given
+dialogue context and the extracted slot values. Experimental results on the
+Multimodal Dialogue Dataset (MMD) show that the proposed framework outperforms
+the baselines approaches in both the tasks. The code is available at
+https://github.com/avinashsai/slot-gpt.",2023-05-27
+Generating Images with Multimodal Language Models,2023-05-26 19:22:03+00:00,http://arxiv.org/abs/2305.17216v1,"Jing Yu Koh, Daniel Fried, Ruslan Salakhutdinov","cs.CL, cs.CV, cs.LG",dialogue,"We propose a method to fuse frozen text-only large language models (LLMs)
+with pre-trained image encoder and decoder models, by mapping between their
+embedding spaces. Our model demonstrates a wide suite of multimodal
+capabilities: image retrieval, novel image generation, and multimodal dialogue.
+Ours is the first approach capable of conditioning on arbitrarily interleaved
+image and text inputs to generate coherent image (and text) outputs. To achieve
+strong performance on image generation, we propose an efficient mapping network
+to ground the LLM to an off-the-shelf text-to-image generation model. This
+mapping network translates hidden representations of text into the embedding
+space of the visual models, enabling us to leverage the strong text
+representations of the LLM for visual outputs. Our approach outperforms
+baseline generation models on tasks with longer and more complex language. In
+addition to novel image generation, our model is also capable of image
+retrieval from a prespecified dataset, and decides whether to retrieve or
+generate at inference time. This is done with a learnt decision module which
+conditions on the hidden representations of the LLM. Our model exhibits a wider
+range of capabilities compared to prior multimodal language models. It can
+process image-and-text inputs, and produce retrieved images, generated images,
+and generated text -- outperforming non-LLM based generation models across
+several text-to-image tasks that measure context dependence.",2023-05-26
+"Distinguishing Human Generated Text From ChatGPT Generated Text Using
+  Machine Learning",2023-05-26 09:27:43+00:00,http://arxiv.org/abs/2306.01761v1,"Niful Islam, Debopom Sutradhar, Humaira Noor, Jarin Tasnim Raya, Monowara Tabassum Maisha, Dewan Md Farid","cs.CL, cs.AI, cs.LG",dialogue,"ChatGPT is a conversational artificial intelligence that is a member of the
+generative pre-trained transformer of the large language model family. This
+text generative model was fine-tuned by both supervised learning and
+reinforcement learning so that it can produce text documents that seem to be
+written by natural intelligence. Although there are numerous advantages of this
+generative model, it comes with some reasonable concerns as well. This paper
+presents a machine learning-based solution that can identify the ChatGPT
+delivered text from the human written text along with the comparative analysis
+of a total of 11 machine learning and deep learning algorithms in the
+classification process. We have tested the proposed model on a Kaggle dataset
+consisting of 10,000 texts out of which 5,204 texts were written by humans and
+collected from news and social media. On the corpus generated by GPT-3.5, the
+proposed algorithm presents an accuracy of 77%.",2023-05-26
 "Response Generation in Longitudinal Dialogues: Which Knowledge
   Representation Helps?",2023-05-25 10:13:53+00:00,http://arxiv.org/abs/2305.15908v1,"Seyed Mahed Mousavi, Simone Caldarella, Giuseppe Riccardi",cs.CL,dialogue,"Longitudinal Dialogues (LD) are the most challenging type of conversation for
 human-machine dialogue systems. LDs include the recollections of events,

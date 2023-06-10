@@ -1,4 +1,237 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Absformer: Transformer-based Model for Unsupervised Multi-Document
+  Abstractive Summarization",2023-06-07 21:18:23+00:00,http://arxiv.org/abs/2306.04787v1,"Mohamed Trabelsi, Huseyin Uzunalioglu","cs.CL, cs.LG",knowledge,"Multi-document summarization (MDS) refers to the task of summarizing the text
+in multiple documents into a concise summary. The generated summary can save
+the time of reading many documents by providing the important content in the
+form of a few sentences. Abstractive MDS aims to generate a coherent and fluent
+summary for multiple documents using natural language generation techniques. In
+this paper, we consider the unsupervised abstractive MDS setting where there
+are only documents with no groundtruh summaries provided, and we propose
+Absformer, a new Transformer-based method for unsupervised abstractive summary
+generation. Our method consists of a first step where we pretrain a
+Transformer-based encoder using the masked language modeling (MLM) objective as
+the pretraining task in order to cluster the documents into semantically
+similar groups; and a second step where we train a Transformer-based decoder to
+generate abstractive summaries for the clusters of documents. To our knowledge,
+we are the first to successfully incorporate a Transformer-based model to solve
+the unsupervised abstractive MDS task. We evaluate our approach using three
+real-world datasets from different domains, and we demonstrate both substantial
+improvements in terms of evaluation metrics over state-of-the-art
+abstractive-based methods, and generalization to datasets from different
+domains.",2023-06-07
+"Injecting knowledge into language generation: a case study in
+  auto-charting after-visit care instructions from medical dialogue",2023-06-06 13:13:27+00:00,http://arxiv.org/abs/2306.03652v1,"Maksim Eremeev, Ilya Valmianski, Xavier Amatriain, Anitha Kannan",cs.CL,knowledge,"Factual correctness is often the limiting factor in practical applications of
+natural language generation in high-stakes domains such as healthcare. An
+essential requirement for maintaining factuality is the ability to deal with
+rare tokens. This paper focuses on rare tokens that appear in both the source
+and the reference sequences, and which, when missed during generation, decrease
+the factual correctness of the output text. For high-stake domains that are
+also knowledge-rich, we show how to use knowledge to (a) identify which rare
+tokens that appear in both source and reference are important and (b) uplift
+their conditional probability. We introduce the ``utilization rate'' that
+encodes knowledge and serves as a regularizer by maximizing the marginal
+probability of selected tokens. We present a study in a knowledge-rich domain
+of healthcare, where we tackle the problem of generating after-visit care
+instructions based on patient-doctor dialogues. We verify that, in our dataset,
+specific medical concepts with high utilization rates are underestimated by
+conventionally trained sequence-to-sequence models. We observe that correcting
+this with our approach to knowledge injection reduces the uncertainty of the
+model as well as improves factuality and coherence without negatively impacting
+fluency.",2023-06-06
+"PLANNER: Generating Diversified Paragraph via Latent Language Diffusion
+  Model",2023-06-05 01:36:39+00:00,http://arxiv.org/abs/2306.02531v1,"Yizhe Zhang, Jiatao Gu, Zhuofeng Wu, Shuangfei Zhai, Josh Susskind, Navdeep Jaitly",cs.CL,knowledge,"Autoregressive models for text sometimes generate repetitive and low-quality
+output because errors accumulate during the steps of generation. This issue is
+often attributed to exposure bias - the difference between how a model is
+trained, and how it is used during inference. Denoising diffusion models
+provide an alternative approach in which a model can revisit and revise its
+output. However, they can be computationally expensive and prior efforts on
+text have led to models that produce less fluent output compared to
+autoregressive models, especially for longer text and paragraphs. In this
+paper, we propose PLANNER, a model that combines latent semantic diffusion with
+autoregressive generation, to generate fluent text while exercising global
+control over paragraphs. The model achieves this by combining an autoregressive
+""decoding"" module with a ""planning"" module that uses latent diffusion to
+generate semantic paragraph embeddings in a coarse-to-fine manner. The proposed
+method is evaluated on various conditional generation tasks, and results on
+semantic generation, text completion and summarization show its effectiveness
+in generating high-quality long-form text in an efficient manner.",2023-06-05
+"Adaptive and Personalized Exercise Generation for Online Language
+  Learning",2023-06-04 20:18:40+00:00,http://arxiv.org/abs/2306.02457v1,"Peng Cui, Mrinmaya Sachan","cs.CL, cs.AI",knowledge,"Adaptive learning aims to provide customized educational activities (e.g.,
+exercises) to address individual learning needs. However, manual construction
+and delivery of such activities is a laborious process. Thus, in this paper, we
+study a novel task of adaptive and personalized exercise generation for online
+language learning. To this end, we combine a knowledge tracing model that
+estimates each student's evolving knowledge states from their learning history
+and a controlled text generation model that generates exercise sentences based
+on the student's current estimated knowledge state and instructor requirements
+of desired properties (e.g., domain knowledge and difficulty). We train and
+evaluate our model on real-world learner interaction data from Duolingo and
+demonstrate that LMs guided by student states can generate superior exercises.
+Then, we discuss the potential use of our model in educational applications
+using various simulations. These simulations show that our model can adapt to
+students' individual abilities and can facilitate their learning efficiency by
+personalizing learning sequences.",2023-06-04
+Commonsense Knowledge Transfer for Pre-trained Language Models,2023-06-04 15:44:51+00:00,http://arxiv.org/abs/2306.02388v1,"Wangchunshu Zhou, Ronan Le Bras, Yejin Choi","cs.CL, cs.AI, cs.LG",knowledge,"Despite serving as the foundation models for a wide range of NLP benchmarks,
+pre-trained language models have shown limited capabilities of acquiring
+implicit commonsense knowledge from self-supervision alone, compared to
+learning linguistic and factual knowledge that appear more explicitly in the
+surface patterns in text. In this work, we introduce commonsense knowledge
+transfer, a framework to transfer the commonsense knowledge stored in a neural
+commonsense knowledge model to a general-purpose pre-trained language model. It
+first exploits general texts to form queries for extracting commonsense
+knowledge from the neural commonsense knowledge model and then refines the
+language model with two self-supervised objectives: commonsense mask infilling
+and commonsense relation prediction, which align human language with the
+underlying commonsense knowledge. Empirical results show that our approach
+consistently improves the model's performance on downstream tasks that require
+commonsense reasoning. Moreover, we find that the improvement is more
+significant in the few-shot setting. This suggests that our approach helps
+language models better transfer to downstream tasks without extensive
+supervision by injecting commonsense knowledge into their parameters.",2023-06-04
+"Modular Transformers: Compressing Transformers into Modularized Layers
+  for Flexible Efficient Inference",2023-06-04 15:26:28+00:00,http://arxiv.org/abs/2306.02379v1,"Wangchunshu Zhou, Ronan Le Bras, Yejin Choi","cs.CL, cs.LG",knowledge,"Pre-trained Transformer models like T5 and BART have advanced the state of
+the art on a wide range of text generation tasks. Compressing these models into
+smaller ones has become critically important for practical use. Common neural
+network compression techniques such as knowledge distillation or quantization
+are limited to static compression where the compression ratio is fixed. In this
+paper, we introduce Modular Transformers, a modularized encoder-decoder
+framework for flexible sequence-to-sequence model compression. Modular
+Transformers train modularized layers that have the same function of two or
+more consecutive layers in the original model via module replacing and
+knowledge distillation. After training, the modularized layers can be flexibly
+assembled into sequence-to-sequence models that meet different
+performance-efficiency trade-offs. Experimental results show that after a
+single training phase, by simply varying the assembling strategy, Modular
+Transformers can achieve flexible compression ratios from 1.1x to 6x with
+little to moderate relative performance drop.",2023-06-04
+"FlexRound: Learnable Rounding based on Element-wise Division for
+  Post-Training Quantization",2023-06-01 03:31:12+00:00,http://arxiv.org/abs/2306.00317v1,"Jung Hyun Lee, Jeonghoon Kim, Se Jung Kwon, Dongsoo Lee","cs.LG, cs.AI",knowledge,"Post-training quantization (PTQ) has been gaining popularity for the
+deployment of deep neural networks on resource-limited devices since unlike
+quantization-aware training, neither a full training dataset nor end-to-end
+training is required at all. As PTQ schemes based on reconstructing each layer
+or block output turn out to be effective to enhance quantized model
+performance, recent works have developed algorithms to devise and learn a new
+weight-rounding scheme so as to better reconstruct each layer or block output.
+In this work, we propose a simple yet effective new weight-rounding mechanism
+for PTQ, coined FlexRound, based on element-wise division instead of typical
+element-wise addition such that FlexRound enables jointly learning a common
+quantization grid size as well as a different scale for each pre-trained
+weight. Thanks to the reciprocal rule of derivatives induced by element-wise
+division, FlexRound is inherently able to exploit pre-trained weights when
+updating their corresponding scales, and thus, flexibly quantize pre-trained
+weights depending on their magnitudes. We empirically validate the efficacy of
+FlexRound on a wide range of models and tasks. To the best of our knowledge,
+our work is the first to carry out comprehensive experiments on not only image
+classification and natural language understanding but also natural language
+generation, assuming a per-tensor uniform PTQ setting. Moreover, we
+demonstrate, for the first time, that large language models can be efficiently
+quantized, with only a negligible impact on performance compared to
+half-precision baselines, achieved by reconstructing the output in a
+block-by-block manner.",2023-06-01
+An Invariant Learning Characterization of Controlled Text Generation,2023-05-31 21:35:08+00:00,http://arxiv.org/abs/2306.00198v1,"Carolina Zheng, Claudia Shi, Keyon Vafa, Amir Feder, David M. Blei","cs.CL, cs.LG",knowledge,"Controlled generation refers to the problem of creating text that contains
+stylistic or semantic attributes of interest. Many approaches reduce this
+problem to training a predictor of the desired attribute. For example,
+researchers hoping to deploy a large language model to produce non-toxic
+content may use a toxicity classifier to filter generated text. In practice,
+the generated text to classify, which is determined by user prompts, may come
+from a wide range of distributions. In this paper, we show that the performance
+of controlled generation may be poor if the distributions of text in response
+to user prompts differ from the distribution the predictor was trained on. To
+address this problem, we cast controlled generation under distribution shift as
+an invariant learning problem: the most effective predictor should be invariant
+across multiple text environments. We then discuss a natural solution that
+arises from this characterization and propose heuristics for selecting natural
+environments. We study this characterization and the proposed method
+empirically using both synthetic and real data. Experiments demonstrate both
+the challenge of distribution shift in controlled generation and the potential
+of invariance methods in this setting.",2023-05-31
+"Pre-Trained Language-Meaning Models for Multilingual Parsing and
+  Generation",2023-05-31 19:00:33+00:00,http://arxiv.org/abs/2306.00124v1,"Chunliu Wang, Huiyuan Lai, Malvina Nissim, Johan Bos",cs.CL,knowledge,"Pre-trained language models (PLMs) have achieved great success in NLP and
+have recently been used for tasks in computational semantics. However, these
+tasks do not fully benefit from PLMs since meaning representations are not
+explicitly included in the pre-training stage. We introduce multilingual
+pre-trained language-meaning models based on Discourse Representation
+Structures (DRSs), including meaning representations besides natural language
+texts in the same model, and design a new strategy to reduce the gap between
+the pre-training and fine-tuning objectives. Since DRSs are language neutral,
+cross-lingual transfer learning is adopted to further improve the performance
+of non-English tasks. Automatic evaluation results show that our approach
+achieves the best performance on both the multilingual DRS parsing and
+DRS-to-text generation tasks. Correlation analysis between automatic metrics
+and human judgements on the generation task further validates the effectiveness
+of our model. Human inspection reveals that out-of-vocabulary tokens are the
+main cause of erroneous results.",2023-05-31
+"Scalable Learning of Latent Language Structure With Logical Offline
+  Cycle Consistency",2023-05-31 16:47:20+00:00,http://arxiv.org/abs/2305.20018v1,"Maxwell Crouse, Ramon Astudillo, Tahira Naseem, Subhajit Chaudhury, Pavan Kapanipathi, Salim Roukos, Alexander Gray","cs.CL, cs.AI",knowledge,"We introduce Logical Offline Cycle Consistency Optimization (LOCCO), a
+scalable, semi-supervised method for training a neural semantic parser.
+Conceptually, LOCCO can be viewed as a form of self-learning where the semantic
+parser being trained is used to generate annotations for unlabeled text that
+are then used as new supervision. To increase the quality of annotations, our
+method utilizes a count-based prior over valid formal meaning representations
+and a cycle-consistency score produced by a neural text generation model as
+additional signals. Both the prior and semantic parser are updated in an
+alternate fashion from full passes over the training data, which can be seen as
+approximating the marginalization of latent structures through stochastic
+variational inference. The use of a count-based prior, frozen text generation
+model, and offline annotation process yields an approach with negligible
+complexity and latency increases as compared to conventional self-learning. As
+an added bonus, the annotations produced by LOCCO can be trivially repurposed
+to train a neural text generation model. We demonstrate the utility of LOCCO on
+the well-known WebNLG benchmark where we obtain an improvement of 2 points
+against a self-learning parser under equivalent conditions, an improvement of
+1.3 points against the previous state-of-the-art parser, and competitive text
+generation performance in terms of BLEU score.",2023-05-31
+Fine-grained Text Style Transfer with Diffusion-Based Language Models,2023-05-31 02:51:26+00:00,http://arxiv.org/abs/2305.19512v1,"Yiwei Lyu, Tiange Luo, Jiacheng Shi, Todd C. Hollon, Honglak Lee","cs.CL, cs.AI, cs.LG",knowledge,"Diffusion probabilistic models have shown great success in generating
+high-quality images controllably, and researchers have tried to utilize this
+controllability into text generation domain. Previous works on diffusion-based
+language models have shown that they can be trained without external knowledge
+(such as pre-trained weights) and still achieve stable performance and
+controllability. In this paper, we trained a diffusion-based model on StylePTB
+dataset, the standard benchmark for fine-grained text style transfers. The
+tasks in StylePTB requires much more refined control over the output text
+compared to tasks evaluated in previous works, and our model was able to
+achieve state-of-the-art performance on StylePTB on both individual and
+compositional transfers. Moreover, our model, trained on limited data from
+StylePTB without external knowledge, outperforms previous works that utilized
+pretrained weights, embeddings, and external grammar parsers, and this may
+indicate that diffusion-based language models have great potential under
+low-resource settings.",2023-05-31
+"ScoNe: Benchmarking Negation Reasoning in Language Models With
+  Fine-Tuning and In-Context Learning",2023-05-30 21:43:11+00:00,http://arxiv.org/abs/2305.19426v1,"Jingyuan Selena She, Christopher Potts, Samuel R. Bowman, Atticus Geiger","cs.CL, cs.LG",knowledge,"A number of recent benchmarks seek to assess how well models handle natural
+language negation. However, these benchmarks lack the controlled example
+paradigms that would allow us to infer whether a model had learned how negation
+morphemes semantically scope. To fill these analytical gaps, we present the
+Scoped Negation NLI (ScoNe-NLI) benchmark, which contains contrast sets of six
+examples with up to two negations where either zero, one, or both negative
+morphemes affect the NLI label. We use ScoNe-NLI to assess fine-tuning and
+in-context learning strategies. We find that RoBERTa and DeBERTa models solve
+ScoNe-NLI after many shot fine-tuning. For in-context learning, we test
+InstructGPT models and find that most prompt strategies are not successful,
+including those using step-by-step reasoning. To better understand this result,
+we extend ScoNe with ScoNe-NLG, a sentence completion test set that embeds
+negation reasoning in short narratives. Here, InstructGPT is successful, which
+reveals the model can correctly reason about negation, but struggles to do so
+on prompt-adapted NLI examples outside of its core pretraining regime.",2023-05-30
+"Generating with Confidence: Uncertainty Quantification for Black-box
+  Large Language Models",2023-05-30 16:31:26+00:00,http://arxiv.org/abs/2305.19187v1,"Zhen Lin, Shubhendu Trivedi, Jimeng Sun","cs.CL, cs.LG, stat.ML",knowledge,"Large language models (LLMs) specializing in natural language generation
+(NLG) have recently started exhibiting promising capabilities across a variety
+of domains. However, gauging the trustworthiness of responses generated by LLMs
+remains an open challenge, with limited research on uncertainty quantification
+for NLG. Furthermore, existing literature typically assumes white-box access to
+language models, which is becoming unrealistic either due to the closed-source
+nature of the latest LLMs or due to computational constraints. In this work, we
+investigate uncertainty quantification in NLG for $\textit{black-box}$ LLMs. We
+first differentiate two closely-related notions: $\textit{uncertainty}$, which
+depends only on the input, and $\textit{confidence}$, which additionally
+depends on the generated response. We then propose and compare several
+confidence/uncertainty metrics, applying them to $\textit{selective NLG}$,
+where unreliable results could either be ignored or yielded for further
+assessment. Our findings on several popular LLMs and datasets reveal that a
+simple yet effective metric for the average semantic dispersion can be a
+reliable predictor of the quality of LLM responses. This study can provide
+valuable insights for practitioners on uncertainty management when adopting
+LLMs. The code to replicate all our experiments is available at
+https://github.com/zlin7/UQ-NLG.",2023-05-30
 "Response Generation in Longitudinal Dialogues: Which Knowledge
   Representation Helps?",2023-05-25 10:13:53+00:00,http://arxiv.org/abs/2305.15908v1,"Seyed Mahed Mousavi, Simone Caldarella, Giuseppe Riccardi",cs.CL,knowledge,"Longitudinal Dialogues (LD) are the most challenging type of conversation for
 human-machine dialogue systems. LDs include the recollections of events,

@@ -7,10 +7,21 @@ sidebar:
 ---
 
 
-*written on 2023-05-27*
+*written on 2023-06-10*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [IUTEAM1 at MEDIQA-Chat 2023: Is simple fine tuning effective for  multilayer summarization of clinical conversations?](http://arxiv.org/abs/2306.04328v1) | Dhananjay Srivastava | cs.CL | 2023-06-07 |
+| [Correction of Errors in Preference Ratings from Automated Metrics for  Text Generation](http://arxiv.org/abs/2306.03866v1) | Jan Deriu, Pius von Däniken, Don Tuggener, Mark Cieliebak | cs.CL, cs.AI | 2023-06-06 |
+| [Injecting knowledge into language generation: a case study in  auto-charting after-visit care instructions from medical dialogue](http://arxiv.org/abs/2306.03652v1) | Maksim Eremeev, Ilya Valmianski, Xavier Amatriain, Anitha Kannan | cs.CL | 2023-06-06 |
+| [Diverse and Faithful Knowledge-Grounded Dialogue Generation via  Sequential Posterior Inference](http://arxiv.org/abs/2306.01153v1) | Yan Xu, Deqian Kong, Dehong Xu, Ziwei Ji, Bo Pang, Pascale Fung, Ying Nian Wu | cs.CL | 2023-06-01 |
+| [Deliberate then Generate: Enhanced Prompting Framework for Text  Generation](http://arxiv.org/abs/2305.19835v1) | Bei Li, Rui Wang, Junliang Guo, Kaitao Song, Xu Tan, Hany Hassan, Arul Menezes, Tong Xiao, Jiang Bian, JingBo Zhu | cs.CL, cs.AI | 2023-05-31 |
+| [Knowledge Graph-Augmented Language Models for Knowledge-Grounded  Dialogue Generation](http://arxiv.org/abs/2305.18846v1) | Minki Kang, Jin Myung Kwak, Jinheon Baek, Sung Ju Hwang | cs.CL, cs.AI, cs.LG | 2023-05-30 |
+| [Perceived Trustworthiness of Natural Language Generators](http://arxiv.org/abs/2305.18176v1) | Beatriz Cabrero-Daniel, Andrea Sanagustín Cabrero | cs.HC, cs.AI, cs.CL | 2023-05-29 |
+| [GripRank: Bridging the Gap between Retrieval and Generation via the  Generative Knowledge Improved Passage Ranking](http://arxiv.org/abs/2305.18144v1) | Jiaqi Bai, Hongcheng Guo, Jiaheng Liu, Jian Yang, Xinnian Liang, Zhao Yan, Zhoujun Li | cs.CL, cs.AI | 2023-05-29 |
+| [A Unified Framework for Slot based Response Generation in a Multimodal  Dialogue System](http://arxiv.org/abs/2305.17433v1) | Mauajama Firdaus, Avinash Madasu, Asif Ekbal | cs.CV, cs.CL | 2023-05-27 |
+| [Generating Images with Multimodal Language Models](http://arxiv.org/abs/2305.17216v1) | Jing Yu Koh, Daniel Fried, Ruslan Salakhutdinov | cs.CL, cs.CV, cs.LG | 2023-05-26 |
+| [Distinguishing Human Generated Text From ChatGPT Generated Text Using  Machine Learning](http://arxiv.org/abs/2306.01761v1) | Niful Islam, Debopom Sutradhar, Humaira Noor, Jarin Tasnim Raya, Monowara Tabassum Maisha, Dewan Md Farid | cs.CL, cs.AI, cs.LG | 2023-05-26 |
 | [Response Generation in Longitudinal Dialogues: Which Knowledge  Representation Helps?](http://arxiv.org/abs/2305.15908v1) | Seyed Mahed Mousavi, Simone Caldarella, Giuseppe Riccardi | cs.CL | 2023-05-25 |
 | [MERGE: Fast Private Text Generation](http://arxiv.org/abs/2305.15769v1) | Zi Liang, Pinghui Wang, Ruofei Zhang, Nuo Xu, Shuo Zhang | cs.CL, cs.AI | 2023-05-25 |
 | [Revisiting Sentence Union Generation as a Testbed for Text Consolidation](http://arxiv.org/abs/2305.15605v1) | Eran Hirsch, Valentina Pyatkin, Ruben Wolhandler, Avi Caciularu, Asi Shefer, Ido Dagan | cs.CL | 2023-05-24 |
