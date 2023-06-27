@@ -1,4 +1,19 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"PoetryDiffusion: Towards Joint Semantic and Metrical Manipulation in
+  Poetry Generation",2023-06-14 11:57:31+00:00,http://arxiv.org/abs/2306.08456v1,"Zhiyuan Hu, Chumin Liu, Yue Feng, Bryan Hooi",cs.CL,poetry,"Poetry generation is a typical and popular task in natural language
+generation. While prior works have shown success in controlling either semantic
+or metrical aspects of poetry generation, there are still challenges in
+addressing both perspectives simultaneously. In this paper, we employ the
+Diffusion model to generate poetry in Sonnet and SongCi in Chinese for the
+first time to tackle such challenges. Different from autoregressive generation,
+our PoetryDiffusion model, based on Diffusion model, generates the complete
+sentence or poetry by taking into account the whole sentence information,
+resulting in improved semantic expression. Additionally, we incorporate a novel
+metrical controller to manipulate and evaluate metrics (format and rhythm). The
+denoising process in PoetryDiffusion allows for gradual enhancement of
+semantics and flexible integration of the metrical controller. Experimental
+results on two datasets demonstrate that our model outperforms existing models
+in terms of semantic, metrical and overall performance.",2023-06-14
 "Identifying the style by a qualified reader on a short fragment of
   generated poetry",2023-06-05 10:55:15+00:00,http://arxiv.org/abs/2306.02771v1,Boris Orekhov,"cs.CL, cs.AI, cs.LG",poetry,"Style is an important concept in today's challenges in natural language
 generating. After the success in the field of image style transfer, the task of

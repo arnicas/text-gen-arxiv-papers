@@ -1,4 +1,189 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Knowledge Graph-Augmented Korean Generative Commonsense Reasoning,2023-06-26 07:23:47+00:00,http://arxiv.org/abs/2306.14470v1,"Dahyun Jung, Jaehyung Seo, Jaewook Lee, Chanjun Park, Heuiseok Lim","cs.CL, cs.AI",table2text,"Generative commonsense reasoning refers to the task of generating acceptable
+and logical assumptions about everyday situations based on commonsense
+understanding. By utilizing an existing dataset such as Korean CommonGen,
+language generation models can learn commonsense reasoning specific to the
+Korean language. However, language models often fail to consider the
+relationships between concepts and the deep knowledge inherent to concepts. To
+address these limitations, we propose a method to utilize the Korean knowledge
+graph data for text generation. Our experimental result shows that the proposed
+method can enhance the efficiency of Korean commonsense inference, thereby
+underlining the significance of employing supplementary data.",2023-06-26
+AudioPaLM: A Large Language Model That Can Speak and Listen,2023-06-22 14:37:54+00:00,http://arxiv.org/abs/2306.12925v1,"Paul K. Rubenstein, Chulayuth Asawaroengchai, Duc Dung Nguyen, Ankur Bapna, Zalán Borsos, Félix de Chaumont Quitry, Peter Chen, Dalia El Badawy, Wei Han, Eugene Kharitonov, Hannah Muckenhirn, Dirk Padfield, James Qin, Danny Rozenberg, Tara Sainath, Johan Schalkwyk, Matt Sharifi, Michelle Tadmor Ramanovich, Marco Tagliasacchi, Alexandru Tudor, Mihajlo Velimirović, Damien Vincent, Jiahui Yu, Yongqiang Wang, Vicky Zayats, Neil Zeghidour, Yu Zhang, Zhishuai Zhang, Lukas Zilka, Christian Frank","cs.CL, cs.AI, cs.SD, eess.AS, stat.ML",table2text,"We introduce AudioPaLM, a large language model for speech understanding and
+generation. AudioPaLM fuses text-based and speech-based language models, PaLM-2
+[Anil et al., 2023] and AudioLM [Borsos et al., 2022], into a unified
+multimodal architecture that can process and generate text and speech with
+applications including speech recognition and speech-to-speech translation.
+AudioPaLM inherits the capability to preserve paralinguistic information such
+as speaker identity and intonation from AudioLM and the linguistic knowledge
+present only in text large language models such as PaLM-2. We demonstrate that
+initializing AudioPaLM with the weights of a text-only large language model
+improves speech processing, successfully leveraging the larger quantity of text
+training data used in pretraining to assist with the speech tasks. The
+resulting model significantly outperforms existing systems for speech
+translation tasks and has the ability to perform zero-shot speech-to-text
+translation for many languages for which input/target language combinations
+were not seen in training. AudioPaLM also demonstrates features of audio
+language models, such as transferring a voice across languages based on a short
+spoken prompt. We release examples of our method at
+https://google-research.github.io/seanet/audiopalm/examples",2023-06-22
+Open-Domain Text Evaluation via Meta Distribution Modeling,2023-06-20 20:37:54+00:00,http://arxiv.org/abs/2306.11879v1,"Sidi Lu, Asli Celikyilmaz, Tianlu Wang, Nanyun Peng",cs.CL,table2text,"Recent advances in open-domain text generation models powered by large
+pre-trained language models (LLMs) have achieved remarkable performance.
+However, evaluating and controlling these models for desired attributes remains
+a challenge, as traditional reference-based metrics such as BLEU, ROUGE, and
+METEOR are insufficient for open-ended generation tasks. Similarly, while
+trainable discriminator-based evaluation metrics show promise, obtaining
+high-quality training data is a non-trivial task. In this paper, we introduce a
+novel approach to evaluate open-domain generation - the Meta-Distribution
+Methods (MDM). Drawing on the correlation between the rising parameter counts
+and the improving performance of LLMs, MDM creates a mapping from the contrast
+of two probabilistic distributions -- one known to be superior to the other --
+to quality measures, which can be viewed as a distribution of distributions
+i.e. Meta-Distribution. We investigate MDM for open-domain text generation
+evaluation under two paradigms: 1) \emph{Generative} MDM, which leverages the
+Meta-Distribution Methods to generate in-domain negative samples for training
+discriminator-based metrics; 2) \emph{Discriminative} MDM, which directly uses
+distribution discrepancies between two language models for evaluation. Our
+experiments on multi-turn dialogue and factuality in abstractive summarization
+demonstrate that MDMs correlate better with human judgment than existing
+automatic evaluation metrics on both tasks, highlighting the strong performance
+and generalizability of such methods.",2023-06-20
+"ChatGPT is not Enough: Enhancing Large Language Models with Knowledge
+  Graphs for Fact-aware Language Modeling",2023-06-20 12:21:06+00:00,http://arxiv.org/abs/2306.11489v1,"Linyao Yang, Hongyang Chen, Zhao Li, Xiao Ding, Xindong Wu","cs.CL, cs.AI",table2text,"Recently, ChatGPT, a representative large language model (LLM), has gained
+considerable attention due to its powerful emergent abilities. Some researchers
+suggest that LLMs could potentially replace structured knowledge bases like
+knowledge graphs (KGs) and function as parameterized knowledge bases. However,
+while LLMs are proficient at learning probabilistic language patterns based on
+large corpus and engaging in conversations with humans, they, like previous
+smaller pre-trained language models (PLMs), still have difficulty in recalling
+facts while generating knowledge-grounded contents. To overcome these
+limitations, researchers have proposed enhancing data-driven PLMs with
+knowledge-based KGs to incorporate explicit factual knowledge into PLMs, thus
+improving their performance to generate texts requiring factual knowledge and
+providing more informed responses to user queries. This paper reviews the
+studies on enhancing PLMs with KGs, detailing existing knowledge graph enhanced
+pre-trained language models (KGPLMs) as well as their applications. Inspired by
+existing studies on KGPLM, this paper proposes to enhance LLMs with KGs by
+developing knowledge graph-enhanced large language models (KGLLMs). KGLLM
+provides a solution to enhance LLMs' factual reasoning ability, opening up new
+avenues for LLM research.",2023-06-20
+Explicit Syntactic Guidance for Neural Text Generation,2023-06-20 12:16:31+00:00,http://arxiv.org/abs/2306.11485v2,"Yafu Li, Leyang Cui, Jianhao Yan, Yongjing Yin, Wei Bi, Shuming Shi, Yue Zhang",cs.CL,table2text,"Most existing text generation models follow the sequence-to-sequence
+paradigm. Generative Grammar suggests that humans generate natural language
+texts by learning language grammar. We propose a syntax-guided generation
+schema, which generates the sequence guided by a constituency parse tree in a
+top-down direction. The decoding process can be decomposed into two parts: (1)
+predicting the infilling texts for each constituent in the lexicalized syntax
+context given the source sentence; (2) mapping and expanding each constituent
+to construct the next-level syntax context. Accordingly, we propose a
+structural beam search method to find possible syntax structures
+hierarchically. Experiments on paraphrase generation and machine translation
+show that the proposed method outperforms autoregressive baselines, while also
+demonstrating effectiveness in terms of interpretability, controllability, and
+diversity.",2023-06-20
+"Semi-supervised Relation Extraction via Data Augmentation and
+  Consistency-training",2023-06-16 19:45:42+00:00,http://arxiv.org/abs/2306.10153v1,Komal K. Teru,"cs.CL, cs.IR",table2text,"Due to the semantic complexity of the Relation extraction (RE) task,
+obtaining high-quality human labelled data is an expensive and noisy process.
+To improve the sample efficiency of the models, semi-supervised learning (SSL)
+methods aim to leverage unlabelled data in addition to learning from limited
+labelled data points. Recently, strong data augmentation combined with
+consistency-based semi-supervised learning methods have advanced the state of
+the art in several SSL tasks. However, adapting these methods to the RE task
+has been challenging due to the difficulty of data augmentation for RE. In this
+work, we leverage the recent advances in controlled text generation to perform
+high quality data augmentation for the RE task. We further introduce small but
+significant changes to model architecture that allows for generation of more
+training data by interpolating different data points in their latent space.
+These data augmentations along with consistency training result in very
+competitive results for semi-supervised relation extraction on four benchmark
+datasets.",2023-06-16
+"Building blocks for complex tasks: Robust generative event extraction
+  for radiology reports under domain shifts",2023-06-15 23:16:58+00:00,http://arxiv.org/abs/2306.09544v1,"Sitong Zhou, Meliha Yetisgen, Mari Ostendorf",cs.CL,table2text,"This paper explores methods for extracting information from radiology reports
+that generalize across exam modalities to reduce requirements for annotated
+data. We demonstrate that multi-pass T5-based text-to-text generative models
+exhibit better generalization across exam modalities compared to approaches
+that employ BERT-based task-specific classification layers. We then develop
+methods that reduce the inference cost of the model, making large-scale corpus
+processing more feasible for clinical applications. Specifically, we introduce
+a generative technique that decomposes complex tasks into smaller subtask
+blocks, which improves a single-pass model when combined with multitask
+training. In addition, we leverage target-domain contexts during inference to
+enhance domain adaptation, enabling use of smaller models. Analyses offer
+insights into the benefits of different cost reduction strategies.",2023-06-15
+"Opportunities and Challenges for ChatGPT and Large Language Models in
+  Biomedicine and Health",2023-06-15 20:19:08+00:00,http://arxiv.org/abs/2306.10070v1,"Shubo Tian, Qiao Jin, Lana Yeganova, Po-Ting Lai, Qingqing Zhu, Xiuying Chen, Yifan Yang, Qingyu Chen, Won Kim, Donald C. Comeau, Rezarta Islamaj, Aadit Kapoor, Xin Gao, Zhiyong Lu","cs.CY, cs.AI, cs.CL, q-bio.QM",table2text,"ChatGPT has drawn considerable attention from both the general public and
+domain experts with its remarkable text generation capabilities. This has
+subsequently led to the emergence of diverse applications in the field of
+biomedicine and health. In this work, we examine the diverse applications of
+large language models (LLMs), such as ChatGPT, in biomedicine and health.
+Specifically we explore the areas of biomedical information retrieval, question
+answering, medical text summarization, information extraction, and medical
+education, and investigate whether LLMs possess the transformative power to
+revolutionize these tasks or whether the distinct complexities of biomedical
+domain presents unique challenges. Following an extensive literature survey, we
+find that significant advances have been made in the field of text generation
+tasks, surpassing the previous state-of-the-art methods. For other
+applications, the advances have been modest. Overall, LLMs have not yet
+revolutionized the biomedicine, but recent rapid progress indicates that such
+methods hold great potential to provide valuable means for accelerating
+discovery and improving health. We also find that the use of LLMs, like
+ChatGPT, in the fields of biomedicine and health entails various risks and
+challenges, including fabricated information in its generated responses, as
+well as legal and privacy concerns associated with sensitive patient data. We
+believe this first-of-its-kind survey can provide a comprehensive overview to
+biomedical researchers and healthcare practitioners on the opportunities and
+challenges associated with using ChatGPT and other LLMs for transforming
+biomedicine and health.",2023-06-15
+DiffuDetox: A Mixed Diffusion Model for Text Detoxification,2023-06-14 13:41:23+00:00,http://arxiv.org/abs/2306.08505v1,"Griffin Floto, Mohammad Mahdi Abdollah Pour, Parsa Farinneya, Zhenwei Tang, Ali Pesaranghader, Manasa Bharadwaj, Scott Sanner","cs.CL, cs.LG",table2text,"Text detoxification is a conditional text generation task aiming to remove
+offensive content from toxic text. It is highly useful for online forums and
+social media, where offensive content is frequently encountered. Intuitively,
+there are diverse ways to detoxify sentences while preserving their meanings,
+and we can select from detoxified sentences before displaying text to users.
+Conditional diffusion models are particularly suitable for this task given
+their demonstrated higher generative diversity than existing conditional text
+generation models based on language models. Nonetheless, text fluency declines
+when they are trained with insufficient data, which is the case for this task.
+In this work, we propose DiffuDetox, a mixed conditional and unconditional
+diffusion model for text detoxification. The conditional model takes toxic text
+as the condition and reduces its toxicity, yielding a diverse set of detoxified
+sentences. The unconditional model is trained to recover the input text, which
+allows the introduction of additional fluent text for training and thus ensures
+text fluency. Extensive experimental results and in-depth analysis demonstrate
+the effectiveness of our proposed DiffuDetox.",2023-06-14
+Unifying Large Language Models and Knowledge Graphs: A Roadmap,2023-06-14 07:15:26+00:00,http://arxiv.org/abs/2306.08302v2,"Shirui Pan, Linhao Luo, Yufei Wang, Chen Chen, Jiapu Wang, Xindong Wu","cs.CL, cs.AI",table2text,"Large language models (LLMs), such as ChatGPT and GPT4, are making new waves
+in the field of natural language processing and artificial intelligence, due to
+their emergent ability and generalizability. However, LLMs are black-box
+models, which often fall short of capturing and accessing factual knowledge. In
+contrast, Knowledge Graphs (KGs), Wikipedia and Huapu for example, are
+structured knowledge models that explicitly store rich factual knowledge. KGs
+can enhance LLMs by providing external knowledge for inference and
+interpretability. Meanwhile, KGs are difficult to construct and evolving by
+nature, which challenges the existing methods in KGs to generate new facts and
+represent unseen knowledge. Therefore, it is complementary to unify LLMs and
+KGs together and simultaneously leverage their advantages. In this article, we
+present a forward-looking roadmap for the unification of LLMs and KGs. Our
+roadmap consists of three general frameworks, namely, 1) KG-enhanced LLMs,
+which incorporate KGs during the pre-training and inference phases of LLMs, or
+for the purpose of enhancing understanding of the knowledge learned by LLMs; 2)
+LLM-augmented KGs, that leverage LLMs for different KG tasks such as embedding,
+completion, construction, graph-to-text generation, and question answering; and
+3) Synergized LLMs + KGs, in which LLMs and KGs play equal roles and work in a
+mutually beneficial way to enhance both LLMs and KGs for bidirectional
+reasoning driven by both data and knowledge. We review and summarize existing
+efforts within these three frameworks in our roadmap and pinpoint their future
+research directions.",2023-06-14
+"Large Language Models Sometimes Generate Purely Negatively-Reinforced
+  Text",2023-06-13 06:40:37+00:00,http://arxiv.org/abs/2306.07567v2,Fabien Roger,"cs.LG, cs.CL",table2text,"When using adversarial training, it is common practice to train against the
+most egregious failures. However, this might imply using examples with
+sensitive information (such as leaked passwords or security vulnerabilities) as
+training data. One might assume that language models trained with gradient
+descent never generate text snippets which were only present in examples
+associated with the lowest possible reward. In this paper, we show that this
+assumption is wrong: in some situations, large language models do learn from
+such negatively-reinforced examples. We present a specific training setup that
+enables Pythia-160M to guess passwords 13% more often than it would by guessing
+randomly, despite only showing it these passwords on examples where the model
+is incentivized to not output these passwords. Our code is available at
+www.github.com/FabienRoger/Learning-From-Negative-Examples",2023-06-13
 "SequenceMatch: Imitation Learning for Autoregressive Sequence Modelling
   with Backtracking",2023-06-08 17:59:58+00:00,http://arxiv.org/abs/2306.05426v1,"Chris Cundy, Stefano Ermon","cs.LG, cs.AI",table2text,"In many domains, autoregressive models can achieve low log-likelihood on the
 task of predicting the next observation. However, this maximum-likelihood (MLE)

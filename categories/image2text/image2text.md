@@ -7,10 +7,17 @@ sidebar:
 ---
 
 
-*written on 2023-06-10*
+*written on 2023-06-27*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [FunQA: Towards Surprising Video Comprehension](http://arxiv.org/abs/2306.14899v1) | Binzhu Xie, Sicheng Zhang, Zitang Zhou, Bo Li, Yuanhan Zhang, Jack Hessel, Jingkang Yang, Ziwei Liu | cs.CV, cs.AI, cs.CL, cs.MM | 2023-06-26 |
+| [Learning Descriptive Image Captioning via Semipermeable Maximum  Likelihood Estimation](http://arxiv.org/abs/2306.13460v1) | Zihao Yue, Anwen Hu, Liang Zhang, Qin Jin | cs.CL | 2023-06-23 |
+| [Improving Image Captioning Descriptiveness by Ranking and LLM-based  Fusion](http://arxiv.org/abs/2306.11593v1) | Simone Bianco, Luigi Celona, Marco Donzella, Paolo Napoletano | cs.CV, cs.AI, cs.CL, cs.DB, cs.LG | 2023-06-20 |
+| [Energy-Based Cross Attention for Bayesian Context Update in  Text-to-Image Diffusion Models](http://arxiv.org/abs/2306.09869v2) | Geon Yeong Park, Jeongsol Kim, Beomsu Kim, Sang Wan Lee, Jong Chul Ye | cs.CV, cs.AI, cs.CL, cs.LG | 2023-06-16 |
+| [Human Preference Score v2: A Solid Benchmark for Evaluating Human  Preferences of Text-to-Image Synthesis](http://arxiv.org/abs/2306.09341v1) | Xiaoshi Wu, Yiming Hao, Keqiang Sun, Yixiong Chen, Feng Zhu, Rui Zhao, Hongsheng Li | cs.CV, cs.AI, cs.DB | 2023-06-15 |
+| [GBSD: Generative Bokeh with Stage Diffusion](http://arxiv.org/abs/2306.08251v1) | Jieren Deng, Xin Zhou, Hao Tian, Zhihong Pan, Derek Aguiar | cs.CV, cs.AI | 2023-06-14 |
+| [I See Dead People: Gray-Box Adversarial Attack on Image-To-Text Models](http://arxiv.org/abs/2306.07591v1) | Raz Lapid, Moshe Sipper | cs.CV, cs.NE | 2023-06-13 |
 | [Generative Text-Guided 3D Vision-Language Pretraining for Unified  Medical Image Segmentation](http://arxiv.org/abs/2306.04811v1) | Yinda Chen, Che Liu, Wei Huang, Sibo Cheng, Rossella Arcucci, Zhiwei Xiong | cs.CV, cs.AI | 2023-06-07 |
 | [On the Difference of BERT-style and CLIP-style Text Encoders](http://arxiv.org/abs/2306.03678v1) | Zhihong Chen, Guiming Hardy Chen, Shizhe Diao, Xiang Wan, Benyou Wang | cs.CL | 2023-06-06 |
 | [Putting Humans in the Image Captioning Loop](http://arxiv.org/abs/2306.03476v1) | Aliki Anagnostopoulou, Mareike Hartmann, Daniel Sonntag | cs.CL, cs.CV | 2023-06-06 |

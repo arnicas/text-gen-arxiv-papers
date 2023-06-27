@@ -1,4 +1,248 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Knowledge Graph-Augmented Korean Generative Commonsense Reasoning,2023-06-26 07:23:47+00:00,http://arxiv.org/abs/2306.14470v1,"Dahyun Jung, Jaehyung Seo, Jaewook Lee, Chanjun Park, Heuiseok Lim","cs.CL, cs.AI",knowledge,"Generative commonsense reasoning refers to the task of generating acceptable
+and logical assumptions about everyday situations based on commonsense
+understanding. By utilizing an existing dataset such as Korean CommonGen,
+language generation models can learn commonsense reasoning specific to the
+Korean language. However, language models often fail to consider the
+relationships between concepts and the deep knowledge inherent to concepts. To
+address these limitations, we propose a method to utilize the Korean knowledge
+graph data for text generation. Our experimental result shows that the proposed
+method can enhance the efficiency of Korean commonsense inference, thereby
+underlining the significance of employing supplementary data.",2023-06-26
+Long-range Language Modeling with Self-retrieval,2023-06-23 10:18:02+00:00,http://arxiv.org/abs/2306.13421v1,"Ohad Rubin, Jonathan Berant",cs.CL,knowledge,"Retrieval-augmented language models (LMs) have received much attention
+recently. However, typically the retriever is not trained jointly as a native
+component of the LM, but added to an already-pretrained LM, which limits the
+ability of the LM and the retriever to adapt to one another. In this work, we
+propose the Retrieval-Pretrained Transformer (RPT), an architecture and
+training procedure for jointly training a retrieval-augmented LM from scratch
+for the task of modeling long texts. Given a recently generated text chunk in a
+long document, the LM computes query representations, which are then used to
+retrieve earlier chunks in the document, located potentially tens of thousands
+of tokens before. Information from retrieved chunks is fused into the LM
+representations to predict the next target chunk. We train the retriever
+component with a semantic objective, where the goal is to retrieve chunks that
+increase the probability of the next chunk, according to a reference LM. We
+evaluate RPT on four long-range language modeling tasks, spanning books, code,
+and mathematical writing, and demonstrate that RPT improves retrieval quality
+and subsequently perplexity across the board compared to strong baselines.",2023-06-23
+AudioPaLM: A Large Language Model That Can Speak and Listen,2023-06-22 14:37:54+00:00,http://arxiv.org/abs/2306.12925v1,"Paul K. Rubenstein, Chulayuth Asawaroengchai, Duc Dung Nguyen, Ankur Bapna, Zalán Borsos, Félix de Chaumont Quitry, Peter Chen, Dalia El Badawy, Wei Han, Eugene Kharitonov, Hannah Muckenhirn, Dirk Padfield, James Qin, Danny Rozenberg, Tara Sainath, Johan Schalkwyk, Matt Sharifi, Michelle Tadmor Ramanovich, Marco Tagliasacchi, Alexandru Tudor, Mihajlo Velimirović, Damien Vincent, Jiahui Yu, Yongqiang Wang, Vicky Zayats, Neil Zeghidour, Yu Zhang, Zhishuai Zhang, Lukas Zilka, Christian Frank","cs.CL, cs.AI, cs.SD, eess.AS, stat.ML",knowledge,"We introduce AudioPaLM, a large language model for speech understanding and
+generation. AudioPaLM fuses text-based and speech-based language models, PaLM-2
+[Anil et al., 2023] and AudioLM [Borsos et al., 2022], into a unified
+multimodal architecture that can process and generate text and speech with
+applications including speech recognition and speech-to-speech translation.
+AudioPaLM inherits the capability to preserve paralinguistic information such
+as speaker identity and intonation from AudioLM and the linguistic knowledge
+present only in text large language models such as PaLM-2. We demonstrate that
+initializing AudioPaLM with the weights of a text-only large language model
+improves speech processing, successfully leveraging the larger quantity of text
+training data used in pretraining to assist with the speech tasks. The
+resulting model significantly outperforms existing systems for speech
+translation tasks and has the ability to perform zero-shot speech-to-text
+translation for many languages for which input/target language combinations
+were not seen in training. AudioPaLM also demonstrates features of audio
+language models, such as transferring a voice across languages based on a short
+spoken prompt. We release examples of our method at
+https://google-research.github.io/seanet/audiopalm/examples",2023-06-22
+Learning to Generate Better Than Your LLM,2023-06-20 18:19:17+00:00,http://arxiv.org/abs/2306.11816v1,"Jonathan D. Chang, Kiante Brantley, Rajkumar Ramamurthy, Dipendra Misra, Wen Sun","cs.LG, cs.AI, cs.CL",knowledge,"Reinforcement learning (RL) has emerged as a powerful paradigm for
+fine-tuning Large Language Models (LLMs) for conditional text generation. In
+particular, recent LLMs such as ChatGPT and GPT-4 can engage in fluent
+conversations with users by incorporating RL and feedback from humans. Inspired
+by learning-to-search algorithms and capitalizing on key properties of text
+generation, we seek to investigate reinforcement learning algorithms beyond
+general purpose algorithms such as Proximal policy optimization (PPO). In
+particular, we extend RL algorithms to allow them to interact with a dynamic
+black-box guide LLM such as GPT-3 and propose RL with guided feedback (RLGF), a
+suite of RL algorithms for LLM fine-tuning. We experiment on the IMDB positive
+review and CommonGen text generation task from the GRUE benchmark. We show that
+our RL algorithms achieve higher performance than supervised learning (SL) and
+default PPO baselines, demonstrating the benefit of interaction with the guide
+LLM. On CommonGen, we not only outperform our SL baselines but also improve
+beyond PPO across a variety of lexical and semantic metrics beyond the one we
+optimized for. Notably, on the IMDB dataset, we show that our GPT-2 based
+policy outperforms the zero-shot GPT-3 oracle, indicating that our algorithms
+can learn from a powerful, black-box GPT-3 oracle with a simpler, cheaper, and
+publicly available GPT-2 model while gaining performance.",2023-06-20
+"ChatGPT is not Enough: Enhancing Large Language Models with Knowledge
+  Graphs for Fact-aware Language Modeling",2023-06-20 12:21:06+00:00,http://arxiv.org/abs/2306.11489v1,"Linyao Yang, Hongyang Chen, Zhao Li, Xiao Ding, Xindong Wu","cs.CL, cs.AI",knowledge,"Recently, ChatGPT, a representative large language model (LLM), has gained
+considerable attention due to its powerful emergent abilities. Some researchers
+suggest that LLMs could potentially replace structured knowledge bases like
+knowledge graphs (KGs) and function as parameterized knowledge bases. However,
+while LLMs are proficient at learning probabilistic language patterns based on
+large corpus and engaging in conversations with humans, they, like previous
+smaller pre-trained language models (PLMs), still have difficulty in recalling
+facts while generating knowledge-grounded contents. To overcome these
+limitations, researchers have proposed enhancing data-driven PLMs with
+knowledge-based KGs to incorporate explicit factual knowledge into PLMs, thus
+improving their performance to generate texts requiring factual knowledge and
+providing more informed responses to user queries. This paper reviews the
+studies on enhancing PLMs with KGs, detailing existing knowledge graph enhanced
+pre-trained language models (KGPLMs) as well as their applications. Inspired by
+existing studies on KGPLM, this paper proposes to enhance LLMs with KGs by
+developing knowledge graph-enhanced large language models (KGLLMs). KGLLM
+provides a solution to enhance LLMs' factual reasoning ability, opening up new
+avenues for LLM research.",2023-06-20
+"FutureTOD: Teaching Future Knowledge to Pre-trained Language Model for
+  Task-Oriented Dialogue",2023-06-17 10:40:07+00:00,http://arxiv.org/abs/2306.10315v1,"Weihao Zeng, Keqing He, Yejie Wang, Chen Zeng, Jingang Wang, Yunsen Xian, Weiran Xu",cs.CL,knowledge,"Pre-trained language models based on general text enable huge success in the
+NLP scenario. But the intrinsical difference of linguistic patterns between
+general text and task-oriented dialogues makes existing pre-trained language
+models less useful in practice. Current dialogue pre-training methods rely on a
+contrastive framework and face the challenges of both selecting true positives
+and hard negatives. In this paper, we propose a novel dialogue pre-training
+model, FutureTOD, which distills future knowledge to the representation of the
+previous dialogue context using a self-training framework. Our intuition is
+that a good dialogue representation both learns local context information and
+predicts future information. Extensive experiments on diverse downstream
+dialogue tasks demonstrate the effectiveness of our model, especially the
+generalization, robustness, and learning discriminative dialogue
+representations capabilities.",2023-06-17
+"Semi-supervised Relation Extraction via Data Augmentation and
+  Consistency-training",2023-06-16 19:45:42+00:00,http://arxiv.org/abs/2306.10153v1,Komal K. Teru,"cs.CL, cs.IR",knowledge,"Due to the semantic complexity of the Relation extraction (RE) task,
+obtaining high-quality human labelled data is an expensive and noisy process.
+To improve the sample efficiency of the models, semi-supervised learning (SSL)
+methods aim to leverage unlabelled data in addition to learning from limited
+labelled data points. Recently, strong data augmentation combined with
+consistency-based semi-supervised learning methods have advanced the state of
+the art in several SSL tasks. However, adapting these methods to the RE task
+has been challenging due to the difficulty of data augmentation for RE. In this
+work, we leverage the recent advances in controlled text generation to perform
+high quality data augmentation for the RE task. We further introduce small but
+significant changes to model architecture that allows for generation of more
+training data by interpolating different data points in their latent space.
+These data augmentations along with consistency training result in very
+competitive results for semi-supervised relation extraction on four benchmark
+datasets.",2023-06-16
+"Energy-Based Cross Attention for Bayesian Context Update in
+  Text-to-Image Diffusion Models",2023-06-16 14:30:41+00:00,http://arxiv.org/abs/2306.09869v2,"Geon Yeong Park, Jeongsol Kim, Beomsu Kim, Sang Wan Lee, Jong Chul Ye","cs.CV, cs.AI, cs.CL, cs.LG",knowledge,"Despite the remarkable performance of text-to-image diffusion models in image
+generation tasks, recent studies have raised the issue that generated images
+sometimes cannot capture the intended semantic contents of the text prompts,
+which phenomenon is often called semantic misalignment. To address this, here
+we present a novel energy-based model (EBM) framework. Specifically, we first
+formulate EBMs of latent image representations and text embeddings in each
+cross-attention layer of the denoising autoencoder. Then, we obtain the
+gradient of the log posterior of context vectors, which can be updated and
+transferred to the subsequent cross-attention layer, thereby implicitly
+minimizing a nested hierarchy of energy functions. Our latent EBMs further
+allow zero-shot compositional generation as a linear combination of
+cross-attention outputs from different contexts. Using extensive experiments,
+we demonstrate that the proposed method is highly effective in handling various
+image generation tasks, including multi-concept generation, text-guided image
+inpainting, and real and synthetic image editing.",2023-06-16
+Neural models for Factual Inconsistency Classification with Explanations,2023-06-15 06:06:50+00:00,http://arxiv.org/abs/2306.08872v1,"Tathagata Raha, Mukund Choudhary, Abhinav Menon, Harshit Gupta, KV Aditya Srivatsa, Manish Gupta, Vasudeva Varma","cs.CL, cs.AI",knowledge,"Factual consistency is one of the most important requirements when editing
+high quality documents. It is extremely important for automatic text generation
+systems like summarization, question answering, dialog modeling, and language
+modeling. Still, automated factual inconsistency detection is rather
+under-studied. Existing work has focused on (a) finding fake news keeping a
+knowledge base in context, or (b) detecting broad contradiction (as part of
+natural language inference literature). However, there has been no work on
+detecting and explaining types of factual inconsistencies in text, without any
+knowledge base in context. In this paper, we leverage existing work in
+linguistics to formally define five types of factual inconsistencies. Based on
+this categorization, we contribute a novel dataset, FICLE (Factual
+Inconsistency CLassification with Explanation), with ~8K samples where each
+sample consists of two sentences (claim and context) annotated with type and
+span of inconsistency. When the inconsistency relates to an entity type, it is
+labeled as well at two levels (coarse and fine-grained). Further, we leverage
+this dataset to train a pipeline of four neural models to predict inconsistency
+type with explanations, given a (claim, context) sentence pair. Explanations
+include inconsistent claim fact triple, inconsistent context span, inconsistent
+claim component, coarse and fine-grained inconsistent entity types. The
+proposed system first predicts inconsistent spans from claim and context; and
+then uses them to predict inconsistency types and inconsistent entity types
+(when inconsistency is due to entities). We experiment with multiple
+Transformer-based natural language classification as well as generative models,
+and find that DeBERTa performs the best. Our proposed methods provide a
+weighted F1 of ~87% for inconsistency type classification across the five
+classes.",2023-06-15
+Knowledge Distillation of Large Language Models,2023-06-14 14:44:03+00:00,http://arxiv.org/abs/2306.08543v1,"Yuxian Gu, Li Dong, Furu Wei, Minlie Huang","cs.CL, cs.AI",knowledge,"Knowledge Distillation (KD) is a promising technique for reducing the high
+computational demand of large language models (LLMs). However, previous KD
+methods are primarily applied to white-box classification models or training
+small models to imitate black-box model APIs like ChatGPT. How to effectively
+distill the knowledge from white-box generative LLMs is still under-explored,
+which becomes more and more important with the prosperity of LLMs. In this
+work, we propose MiniLLM that distills smaller language models from generative
+larger language models. We first replace the forward Kullback-Leibler
+divergence (KLD) objective in the standard KD approaches with reverse KLD,
+which is more suitable for KD on generative language models, to prevent the
+student model from overestimating the low-probability regions of the teacher
+distribution. Then, we derive an effective optimization approach to learn this
+objective. Extensive experiments in the instruction-following setting show that
+the MiniLLM models generate more precise responses with the higher overall
+quality, lower exposure bias, better calibration, and higher long-text
+generation performance. Our method is also scalable for different model
+families with 120M to 13B parameters. We will release our code and model
+checkpoints at https://aka.ms/MiniLLM.",2023-06-14
+"PoetryDiffusion: Towards Joint Semantic and Metrical Manipulation in
+  Poetry Generation",2023-06-14 11:57:31+00:00,http://arxiv.org/abs/2306.08456v1,"Zhiyuan Hu, Chumin Liu, Yue Feng, Bryan Hooi",cs.CL,knowledge,"Poetry generation is a typical and popular task in natural language
+generation. While prior works have shown success in controlling either semantic
+or metrical aspects of poetry generation, there are still challenges in
+addressing both perspectives simultaneously. In this paper, we employ the
+Diffusion model to generate poetry in Sonnet and SongCi in Chinese for the
+first time to tackle such challenges. Different from autoregressive generation,
+our PoetryDiffusion model, based on Diffusion model, generates the complete
+sentence or poetry by taking into account the whole sentence information,
+resulting in improved semantic expression. Additionally, we incorporate a novel
+metrical controller to manipulate and evaluate metrics (format and rhythm). The
+denoising process in PoetryDiffusion allows for gradual enhancement of
+semantics and flexible integration of the metrical controller. Experimental
+results on two datasets demonstrate that our model outperforms existing models
+in terms of semantic, metrical and overall performance.",2023-06-14
+Unifying Large Language Models and Knowledge Graphs: A Roadmap,2023-06-14 07:15:26+00:00,http://arxiv.org/abs/2306.08302v2,"Shirui Pan, Linhao Luo, Yufei Wang, Chen Chen, Jiapu Wang, Xindong Wu","cs.CL, cs.AI",knowledge,"Large language models (LLMs), such as ChatGPT and GPT4, are making new waves
+in the field of natural language processing and artificial intelligence, due to
+their emergent ability and generalizability. However, LLMs are black-box
+models, which often fall short of capturing and accessing factual knowledge. In
+contrast, Knowledge Graphs (KGs), Wikipedia and Huapu for example, are
+structured knowledge models that explicitly store rich factual knowledge. KGs
+can enhance LLMs by providing external knowledge for inference and
+interpretability. Meanwhile, KGs are difficult to construct and evolving by
+nature, which challenges the existing methods in KGs to generate new facts and
+represent unseen knowledge. Therefore, it is complementary to unify LLMs and
+KGs together and simultaneously leverage their advantages. In this article, we
+present a forward-looking roadmap for the unification of LLMs and KGs. Our
+roadmap consists of three general frameworks, namely, 1) KG-enhanced LLMs,
+which incorporate KGs during the pre-training and inference phases of LLMs, or
+for the purpose of enhancing understanding of the knowledge learned by LLMs; 2)
+LLM-augmented KGs, that leverage LLMs for different KG tasks such as embedding,
+completion, construction, graph-to-text generation, and question answering; and
+3) Synergized LLMs + KGs, in which LLMs and KGs play equal roles and work in a
+mutually beneficial way to enhance both LLMs and KGs for bidirectional
+reasoning driven by both data and knowledge. We review and summarize existing
+efforts within these three frameworks in our roadmap and pinpoint their future
+research directions.",2023-06-14
+GBSD: Generative Bokeh with Stage Diffusion,2023-06-14 05:34:02+00:00,http://arxiv.org/abs/2306.08251v1,"Jieren Deng, Xin Zhou, Hao Tian, Zhihong Pan, Derek Aguiar","cs.CV, cs.AI",knowledge,"The bokeh effect is an artistic technique that blurs out-of-focus areas in a
+photograph and has gained interest due to recent developments in text-to-image
+synthesis and the ubiquity of smart-phone cameras and photo-sharing apps. Prior
+work on rendering bokeh effects have focused on post hoc image manipulation to
+produce similar blurring effects in existing photographs using classical
+computer graphics or neural rendering techniques, but have either depth
+discontinuity artifacts or are restricted to reproducing bokeh effects that are
+present in the training data. More recent diffusion based models can synthesize
+images with an artistic style, but either require the generation of
+high-dimensional masks, expensive fine-tuning, or affect global image
+characteristics. In this paper, we present GBSD, the first generative
+text-to-image model that synthesizes photorealistic images with a bokeh style.
+Motivated by how image synthesis occurs progressively in diffusion models, our
+approach combines latent diffusion models with a 2-stage conditioning algorithm
+to render bokeh effects on semantically defined objects. Since we can focus the
+effect on objects, this semantic bokeh effect is more versatile than classical
+rendering techniques. We evaluate GBSD both quantitatively and qualitatively
+and demonstrate its ability to be applied in both text-to-image and
+image-to-image settings.",2023-06-14
+"Question Decomposition Tree for Answering Complex Questions over
+  Knowledge Bases",2023-06-13 07:44:29+00:00,http://arxiv.org/abs/2306.07597v1,"Xiang Huang, Sitao Cheng, Yiheng Shu, Yuheng Bao, Yuzhong Qu",cs.CL,knowledge,"Knowledge base question answering (KBQA) has attracted a lot of interest in
+recent years, especially for complex questions which require multiple facts to
+answer. Question decomposition is a promising way to answer complex questions.
+Existing decomposition methods split the question into sub-questions according
+to a single compositionality type, which is not sufficient for questions
+involving multiple compositionality types. In this paper, we propose Question
+Decomposition Tree (QDT) to represent the structure of complex questions.
+Inspired by recent advances in natural language generation (NLG), we present a
+two-staged method called Clue-Decipher to generate QDT. It can leverage the
+strong ability of NLG model and simultaneously preserve the original questions.
+To verify that QDT can enhance KBQA task, we design a decomposition-based KBQA
+system called QDTQA. Extensive experiments show that QDTQA outperforms previous
+state-of-the-art methods on ComplexWebQuestions dataset. Besides, our
+decomposition method improves an existing KBQA system by 12% and sets a new
+state-of-the-art on LC-QuAD 1.0.",2023-06-13
 "Absformer: Transformer-based Model for Unsupervised Multi-Document
   Abstractive Summarization",2023-06-07 21:18:23+00:00,http://arxiv.org/abs/2306.04787v1,"Mohamed Trabelsi, Huseyin Uzunalioglu","cs.CL, cs.LG",knowledge,"Multi-document summarization (MDS) refers to the task of summarizing the text
 in multiple documents into a concise summary. The generated summary can save

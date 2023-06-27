@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2023-06-10*
+*written on 2023-06-27*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [PoetryDiffusion: Towards Joint Semantic and Metrical Manipulation in  Poetry Generation](http://arxiv.org/abs/2306.08456v1) | Zhiyuan Hu, Chumin Liu, Yue Feng, Bryan Hooi | cs.CL | 2023-06-14 |
 | [Identifying the style by a qualified reader on a short fragment of  generated poetry](http://arxiv.org/abs/2306.02771v1) | Boris Orekhov | cs.CL, cs.AI, cs.LG | 2023-06-05 |
 | [Unsupervised Melody-to-Lyric Generation](http://arxiv.org/abs/2305.19228v1) | Yufei Tian, Anjali Narayan-Chen, Shereen Oraby, Alessandra Cervone, Gunnar Sigurdsson, Chenyang Tao, Wenbo Zhao, Tagyoung Chung, Jing Huang, Nanyun Peng | cs.CL, cs.AI, cs.SD, eess.AS | 2023-05-30 |
 | [Creative Data Generation: A Review Focusing on Text and Poetry](http://arxiv.org/abs/2305.08493v1) | Mohamad Elzohbi, Richard Zhao | cs.CL | 2023-05-15 |

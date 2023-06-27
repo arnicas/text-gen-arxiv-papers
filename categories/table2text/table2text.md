@@ -7,10 +7,21 @@ sidebar:
 ---
 
 
-*written on 2023-06-10*
+*written on 2023-06-27*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Knowledge Graph-Augmented Korean Generative Commonsense Reasoning](http://arxiv.org/abs/2306.14470v1) | Dahyun Jung, Jaehyung Seo, Jaewook Lee, Chanjun Park, Heuiseok Lim | cs.CL, cs.AI | 2023-06-26 |
+| [AudioPaLM: A Large Language Model That Can Speak and Listen](http://arxiv.org/abs/2306.12925v1) | Paul K. Rubenstein, Chulayuth Asawaroengchai, Duc Dung Nguyen, Ankur Bapna, Zalán Borsos, Félix de Chaumont Quitry, Peter Chen, Dalia El Badawy, Wei Han, Eugene Kharitonov, Hannah Muckenhirn, Dirk Padfield, James Qin, Danny Rozenberg, Tara Sainath, Johan Schalkwyk, Matt Sharifi, Michelle Tadmor Ramanovich, Marco Tagliasacchi, Alexandru Tudor, Mihajlo Velimirović, Damien Vincent, Jiahui Yu, Yongqiang Wang, Vicky Zayats, Neil Zeghidour, Yu Zhang, Zhishuai Zhang, Lukas Zilka, Christian Frank | cs.CL, cs.AI, cs.SD, eess.AS, stat.ML | 2023-06-22 |
+| [Open-Domain Text Evaluation via Meta Distribution Modeling](http://arxiv.org/abs/2306.11879v1) | Sidi Lu, Asli Celikyilmaz, Tianlu Wang, Nanyun Peng | cs.CL | 2023-06-20 |
+| [ChatGPT is not Enough: Enhancing Large Language Models with Knowledge  Graphs for Fact-aware Language Modeling](http://arxiv.org/abs/2306.11489v1) | Linyao Yang, Hongyang Chen, Zhao Li, Xiao Ding, Xindong Wu | cs.CL, cs.AI | 2023-06-20 |
+| [Explicit Syntactic Guidance for Neural Text Generation](http://arxiv.org/abs/2306.11485v2) | Yafu Li, Leyang Cui, Jianhao Yan, Yongjing Yin, Wei Bi, Shuming Shi, Yue Zhang | cs.CL | 2023-06-20 |
+| [Semi-supervised Relation Extraction via Data Augmentation and  Consistency-training](http://arxiv.org/abs/2306.10153v1) | Komal K. Teru | cs.CL, cs.IR | 2023-06-16 |
+| [Building blocks for complex tasks: Robust generative event extraction  for radiology reports under domain shifts](http://arxiv.org/abs/2306.09544v1) | Sitong Zhou, Meliha Yetisgen, Mari Ostendorf | cs.CL | 2023-06-15 |
+| [Opportunities and Challenges for ChatGPT and Large Language Models in  Biomedicine and Health](http://arxiv.org/abs/2306.10070v1) | Shubo Tian, Qiao Jin, Lana Yeganova, Po-Ting Lai, Qingqing Zhu, Xiuying Chen, Yifan Yang, Qingyu Chen, Won Kim, Donald C. Comeau, Rezarta Islamaj, Aadit Kapoor, Xin Gao, Zhiyong Lu | cs.CY, cs.AI, cs.CL, q-bio.QM | 2023-06-15 |
+| [DiffuDetox: A Mixed Diffusion Model for Text Detoxification](http://arxiv.org/abs/2306.08505v1) | Griffin Floto, Mohammad Mahdi Abdollah Pour, Parsa Farinneya, Zhenwei Tang, Ali Pesaranghader, Manasa Bharadwaj, Scott Sanner | cs.CL, cs.LG | 2023-06-14 |
+| [Unifying Large Language Models and Knowledge Graphs: A Roadmap](http://arxiv.org/abs/2306.08302v2) | Shirui Pan, Linhao Luo, Yufei Wang, Chen Chen, Jiapu Wang, Xindong Wu | cs.CL, cs.AI | 2023-06-14 |
+| [Large Language Models Sometimes Generate Purely Negatively-Reinforced  Text](http://arxiv.org/abs/2306.07567v2) | Fabien Roger | cs.LG, cs.CL | 2023-06-13 |
 | [SequenceMatch: Imitation Learning for Autoregressive Sequence Modelling  with Backtracking](http://arxiv.org/abs/2306.05426v1) | Chris Cundy, Stefano Ermon | cs.LG, cs.AI | 2023-06-08 |
 | [Increasing Diversity While Maintaining Accuracy: Text Data Generation  with Large Language Models and Human Interventions](http://arxiv.org/abs/2306.04140v1) | John Joon Young Chung, Ece Kamar, Saleema Amershi | cs.CL | 2023-06-07 |
 | [Structured Voronoi Sampling](http://arxiv.org/abs/2306.03061v1) | Afra Amini, Li Du, Ryan Cotterell | cs.CL, cs.AI | 2023-06-05 |

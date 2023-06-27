@@ -6,10 +6,24 @@ sidebar:
 ---
 
 
-*written on 2023-06-10*
+*written on 2023-06-27*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Knowledge Graph-Augmented Korean Generative Commonsense Reasoning](http://arxiv.org/abs/2306.14470v1) | Dahyun Jung, Jaehyung Seo, Jaewook Lee, Chanjun Park, Heuiseok Lim | cs.CL, cs.AI | 2023-06-26 |
+| [Long-range Language Modeling with Self-retrieval](http://arxiv.org/abs/2306.13421v1) | Ohad Rubin, Jonathan Berant | cs.CL | 2023-06-23 |
+| [AudioPaLM: A Large Language Model That Can Speak and Listen](http://arxiv.org/abs/2306.12925v1) | Paul K. Rubenstein, Chulayuth Asawaroengchai, Duc Dung Nguyen, Ankur Bapna, Zalán Borsos, Félix de Chaumont Quitry, Peter Chen, Dalia El Badawy, Wei Han, Eugene Kharitonov, Hannah Muckenhirn, Dirk Padfield, James Qin, Danny Rozenberg, Tara Sainath, Johan Schalkwyk, Matt Sharifi, Michelle Tadmor Ramanovich, Marco Tagliasacchi, Alexandru Tudor, Mihajlo Velimirović, Damien Vincent, Jiahui Yu, Yongqiang Wang, Vicky Zayats, Neil Zeghidour, Yu Zhang, Zhishuai Zhang, Lukas Zilka, Christian Frank | cs.CL, cs.AI, cs.SD, eess.AS, stat.ML | 2023-06-22 |
+| [Learning to Generate Better Than Your LLM](http://arxiv.org/abs/2306.11816v1) | Jonathan D. Chang, Kiante Brantley, Rajkumar Ramamurthy, Dipendra Misra, Wen Sun | cs.LG, cs.AI, cs.CL | 2023-06-20 |
+| [ChatGPT is not Enough: Enhancing Large Language Models with Knowledge  Graphs for Fact-aware Language Modeling](http://arxiv.org/abs/2306.11489v1) | Linyao Yang, Hongyang Chen, Zhao Li, Xiao Ding, Xindong Wu | cs.CL, cs.AI | 2023-06-20 |
+| [FutureTOD: Teaching Future Knowledge to Pre-trained Language Model for  Task-Oriented Dialogue](http://arxiv.org/abs/2306.10315v1) | Weihao Zeng, Keqing He, Yejie Wang, Chen Zeng, Jingang Wang, Yunsen Xian, Weiran Xu | cs.CL | 2023-06-17 |
+| [Semi-supervised Relation Extraction via Data Augmentation and  Consistency-training](http://arxiv.org/abs/2306.10153v1) | Komal K. Teru | cs.CL, cs.IR | 2023-06-16 |
+| [Energy-Based Cross Attention for Bayesian Context Update in  Text-to-Image Diffusion Models](http://arxiv.org/abs/2306.09869v2) | Geon Yeong Park, Jeongsol Kim, Beomsu Kim, Sang Wan Lee, Jong Chul Ye | cs.CV, cs.AI, cs.CL, cs.LG | 2023-06-16 |
+| [Neural models for Factual Inconsistency Classification with Explanations](http://arxiv.org/abs/2306.08872v1) | Tathagata Raha, Mukund Choudhary, Abhinav Menon, Harshit Gupta, KV Aditya Srivatsa, Manish Gupta, Vasudeva Varma | cs.CL, cs.AI | 2023-06-15 |
+| [Knowledge Distillation of Large Language Models](http://arxiv.org/abs/2306.08543v1) | Yuxian Gu, Li Dong, Furu Wei, Minlie Huang | cs.CL, cs.AI | 2023-06-14 |
+| [PoetryDiffusion: Towards Joint Semantic and Metrical Manipulation in  Poetry Generation](http://arxiv.org/abs/2306.08456v1) | Zhiyuan Hu, Chumin Liu, Yue Feng, Bryan Hooi | cs.CL | 2023-06-14 |
+| [Unifying Large Language Models and Knowledge Graphs: A Roadmap](http://arxiv.org/abs/2306.08302v2) | Shirui Pan, Linhao Luo, Yufei Wang, Chen Chen, Jiapu Wang, Xindong Wu | cs.CL, cs.AI | 2023-06-14 |
+| [GBSD: Generative Bokeh with Stage Diffusion](http://arxiv.org/abs/2306.08251v1) | Jieren Deng, Xin Zhou, Hao Tian, Zhihong Pan, Derek Aguiar | cs.CV, cs.AI | 2023-06-14 |
+| [Question Decomposition Tree for Answering Complex Questions over  Knowledge Bases](http://arxiv.org/abs/2306.07597v1) | Xiang Huang, Sitao Cheng, Yiheng Shu, Yuheng Bao, Yuzhong Qu | cs.CL | 2023-06-13 |
 | [Absformer: Transformer-based Model for Unsupervised Multi-Document  Abstractive Summarization](http://arxiv.org/abs/2306.04787v1) | Mohamed Trabelsi, Huseyin Uzunalioglu | cs.CL, cs.LG | 2023-06-07 |
 | [Injecting knowledge into language generation: a case study in  auto-charting after-visit care instructions from medical dialogue](http://arxiv.org/abs/2306.03652v1) | Maksim Eremeev, Ilya Valmianski, Xavier Amatriain, Anitha Kannan | cs.CL | 2023-06-06 |
 | [PLANNER: Generating Diversified Paragraph via Latent Language Diffusion  Model](http://arxiv.org/abs/2306.02531v1) | Yizhe Zhang, Jiatao Gu, Zhuofeng Wu, Shuangfei Zhai, Josh Susskind, Navdeep Jaitly | cs.CL | 2023-06-05 |

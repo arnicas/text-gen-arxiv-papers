@@ -1,4 +1,107 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Open-Domain Text Evaluation via Meta Distribution Modeling,2023-06-20 20:37:54+00:00,http://arxiv.org/abs/2306.11879v1,"Sidi Lu, Asli Celikyilmaz, Tianlu Wang, Nanyun Peng",cs.CL,dialogue,"Recent advances in open-domain text generation models powered by large
+pre-trained language models (LLMs) have achieved remarkable performance.
+However, evaluating and controlling these models for desired attributes remains
+a challenge, as traditional reference-based metrics such as BLEU, ROUGE, and
+METEOR are insufficient for open-ended generation tasks. Similarly, while
+trainable discriminator-based evaluation metrics show promise, obtaining
+high-quality training data is a non-trivial task. In this paper, we introduce a
+novel approach to evaluate open-domain generation - the Meta-Distribution
+Methods (MDM). Drawing on the correlation between the rising parameter counts
+and the improving performance of LLMs, MDM creates a mapping from the contrast
+of two probabilistic distributions -- one known to be superior to the other --
+to quality measures, which can be viewed as a distribution of distributions
+i.e. Meta-Distribution. We investigate MDM for open-domain text generation
+evaluation under two paradigms: 1) \emph{Generative} MDM, which leverages the
+Meta-Distribution Methods to generate in-domain negative samples for training
+discriminator-based metrics; 2) \emph{Discriminative} MDM, which directly uses
+distribution discrepancies between two language models for evaluation. Our
+experiments on multi-turn dialogue and factuality in abstractive summarization
+demonstrate that MDMs correlate better with human judgment than existing
+automatic evaluation metrics on both tasks, highlighting the strong performance
+and generalizability of such methods.",2023-06-20
+Learning to Generate Better Than Your LLM,2023-06-20 18:19:17+00:00,http://arxiv.org/abs/2306.11816v1,"Jonathan D. Chang, Kiante Brantley, Rajkumar Ramamurthy, Dipendra Misra, Wen Sun","cs.LG, cs.AI, cs.CL",dialogue,"Reinforcement learning (RL) has emerged as a powerful paradigm for
+fine-tuning Large Language Models (LLMs) for conditional text generation. In
+particular, recent LLMs such as ChatGPT and GPT-4 can engage in fluent
+conversations with users by incorporating RL and feedback from humans. Inspired
+by learning-to-search algorithms and capitalizing on key properties of text
+generation, we seek to investigate reinforcement learning algorithms beyond
+general purpose algorithms such as Proximal policy optimization (PPO). In
+particular, we extend RL algorithms to allow them to interact with a dynamic
+black-box guide LLM such as GPT-3 and propose RL with guided feedback (RLGF), a
+suite of RL algorithms for LLM fine-tuning. We experiment on the IMDB positive
+review and CommonGen text generation task from the GRUE benchmark. We show that
+our RL algorithms achieve higher performance than supervised learning (SL) and
+default PPO baselines, demonstrating the benefit of interaction with the guide
+LLM. On CommonGen, we not only outperform our SL baselines but also improve
+beyond PPO across a variety of lexical and semantic metrics beyond the one we
+optimized for. Notably, on the IMDB dataset, we show that our GPT-2 based
+policy outperforms the zero-shot GPT-3 oracle, indicating that our algorithms
+can learn from a powerful, black-box GPT-3 oracle with a simpler, cheaper, and
+publicly available GPT-2 model while gaining performance.",2023-06-20
+"ChatGPT is not Enough: Enhancing Large Language Models with Knowledge
+  Graphs for Fact-aware Language Modeling",2023-06-20 12:21:06+00:00,http://arxiv.org/abs/2306.11489v1,"Linyao Yang, Hongyang Chen, Zhao Li, Xiao Ding, Xindong Wu","cs.CL, cs.AI",dialogue,"Recently, ChatGPT, a representative large language model (LLM), has gained
+considerable attention due to its powerful emergent abilities. Some researchers
+suggest that LLMs could potentially replace structured knowledge bases like
+knowledge graphs (KGs) and function as parameterized knowledge bases. However,
+while LLMs are proficient at learning probabilistic language patterns based on
+large corpus and engaging in conversations with humans, they, like previous
+smaller pre-trained language models (PLMs), still have difficulty in recalling
+facts while generating knowledge-grounded contents. To overcome these
+limitations, researchers have proposed enhancing data-driven PLMs with
+knowledge-based KGs to incorporate explicit factual knowledge into PLMs, thus
+improving their performance to generate texts requiring factual knowledge and
+providing more informed responses to user queries. This paper reviews the
+studies on enhancing PLMs with KGs, detailing existing knowledge graph enhanced
+pre-trained language models (KGPLMs) as well as their applications. Inspired by
+existing studies on KGPLM, this paper proposes to enhance LLMs with KGs by
+developing knowledge graph-enhanced large language models (KGLLMs). KGLLM
+provides a solution to enhance LLMs' factual reasoning ability, opening up new
+avenues for LLM research.",2023-06-20
+"FutureTOD: Teaching Future Knowledge to Pre-trained Language Model for
+  Task-Oriented Dialogue",2023-06-17 10:40:07+00:00,http://arxiv.org/abs/2306.10315v1,"Weihao Zeng, Keqing He, Yejie Wang, Chen Zeng, Jingang Wang, Yunsen Xian, Weiran Xu",cs.CL,dialogue,"Pre-trained language models based on general text enable huge success in the
+NLP scenario. But the intrinsical difference of linguistic patterns between
+general text and task-oriented dialogues makes existing pre-trained language
+models less useful in practice. Current dialogue pre-training methods rely on a
+contrastive framework and face the challenges of both selecting true positives
+and hard negatives. In this paper, we propose a novel dialogue pre-training
+model, FutureTOD, which distills future knowledge to the representation of the
+previous dialogue context using a self-training framework. Our intuition is
+that a good dialogue representation both learns local context information and
+predicts future information. Extensive experiments on diverse downstream
+dialogue tasks demonstrate the effectiveness of our model, especially the
+generalization, robustness, and learning discriminative dialogue
+representations capabilities.",2023-06-17
+On the N-gram Approximation of Pre-trained Language Models,2023-06-12 06:42:08+00:00,http://arxiv.org/abs/2306.06892v1,"Aravind Krishnan, Jesujoba Alabi, Dietrich Klakow",cs.CL,dialogue,"Large pre-trained language models (PLMs) have shown remarkable performance
+across various natural language understanding (NLU) tasks, particularly in
+low-resource settings. Nevertheless, their potential in Automatic Speech
+Recognition (ASR) remains largely unexplored. This study investigates the
+potential usage of PLMs for language modelling in ASR. We compare the
+application of large-scale text sampling and probability conversion for
+approximating GPT-2 into an n-gram model. Furthermore, we introduce a
+vocabulary-restricted decoding method for random sampling, and evaluate the
+effects of domain difficulty and data size on the usability of generated text.
+Our findings across eight domain-specific corpora support the use of
+sampling-based approximation and show that interpolating with a large sampled
+corpus improves test perplexity over a baseline trigram by 15%. Our
+vocabulary-restricted decoding method pushes this improvement further by 5% in
+domain-specific settings.",2023-06-12
+Emotion and Sentiment Guided Paraphrasing,2023-06-08 20:59:40+00:00,http://arxiv.org/abs/2306.05556v1,"Justin J. Xie, Ameeta Agrawal","cs.CL, cs.LG",dialogue,"Paraphrase generation, a.k.a. paraphrasing, is a common and important task in
+natural language processing. Emotional paraphrasing, which changes the emotion
+embodied in a piece of text while preserving its meaning, has many potential
+applications, including moderating online dialogues and preventing
+cyberbullying. We introduce a new task of fine-grained emotional paraphrasing
+along emotion gradients, that is, altering the emotional intensities of the
+paraphrases in fine-grained settings following smooth variations in affective
+dimensions while preserving the meaning of the original text. We reconstruct
+several widely used paraphrasing datasets by augmenting the input and target
+texts with their fine-grained emotion labels. Then, we propose a framework for
+emotion and sentiment guided paraphrasing by leveraging pre-trained language
+models for conditioned text generation. Extensive evaluation of the fine-tuned
+models suggests that including fine-grained emotion labels in the paraphrase
+task significantly improves the likelihood of obtaining high-quality
+paraphrases that reflect the desired emotions while achieving consistently
+better scores in paraphrase metrics such as BLEU, ROUGE, and METEOR.",2023-06-08
 "IUTEAM1 at MEDIQA-Chat 2023: Is simple fine tuning effective for
   multilayer summarization of clinical conversations?",2023-06-07 10:47:33+00:00,http://arxiv.org/abs/2306.04328v1,Dhananjay Srivastava,cs.CL,dialogue,"Clinical conversation summarization has become an important application of
 Natural language Processing. In this work, we intend to analyze summarization
