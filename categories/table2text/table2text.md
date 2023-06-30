@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2023-06-27*
+*written on 2023-06-30*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Benchmarking Large Language Model Capabilities for Conditional  Generation](http://arxiv.org/abs/2306.16793v1) | Joshua Maynez, Priyanka Agrawal, Sebastian Gehrmann | cs.CL | 2023-06-29 |
+| [Joint Level Generation and Translation Using Gameplay Videos](http://arxiv.org/abs/2306.16662v1) | Negar Mirgati, Matthew Guzdial | cs.CV, cs.LG | 2023-06-29 |
+| [You Can Generate It Again: Data-to-text Generation with Verification and  Correction Prompting](http://arxiv.org/abs/2306.15933v1) | Xuan Ren, Lingqiao Liu | cs.CL, cs.AI, cs.LG | 2023-06-28 |
 | [Knowledge Graph-Augmented Korean Generative Commonsense Reasoning](http://arxiv.org/abs/2306.14470v1) | Dahyun Jung, Jaehyung Seo, Jaewook Lee, Chanjun Park, Heuiseok Lim | cs.CL, cs.AI | 2023-06-26 |
 | [AudioPaLM: A Large Language Model That Can Speak and Listen](http://arxiv.org/abs/2306.12925v1) | Paul K. Rubenstein, Chulayuth Asawaroengchai, Duc Dung Nguyen, Ankur Bapna, Zalán Borsos, Félix de Chaumont Quitry, Peter Chen, Dalia El Badawy, Wei Han, Eugene Kharitonov, Hannah Muckenhirn, Dirk Padfield, James Qin, Danny Rozenberg, Tara Sainath, Johan Schalkwyk, Matt Sharifi, Michelle Tadmor Ramanovich, Marco Tagliasacchi, Alexandru Tudor, Mihajlo Velimirović, Damien Vincent, Jiahui Yu, Yongqiang Wang, Vicky Zayats, Neil Zeghidour, Yu Zhang, Zhishuai Zhang, Lukas Zilka, Christian Frank | cs.CL, cs.AI, cs.SD, eess.AS, stat.ML | 2023-06-22 |
 | [Open-Domain Text Evaluation via Meta Distribution Modeling](http://arxiv.org/abs/2306.11879v1) | Sidi Lu, Asli Celikyilmaz, Tianlu Wang, Nanyun Peng | cs.CL | 2023-06-20 |

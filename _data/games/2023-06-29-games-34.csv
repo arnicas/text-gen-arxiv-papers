@@ -1,4 +1,20 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Joint Level Generation and Translation Using Gameplay Videos,2023-06-29 03:46:44+00:00,http://arxiv.org/abs/2306.16662v1,"Negar Mirgati, Matthew Guzdial","cs.CV, cs.LG",games,"Procedural Content Generation via Machine Learning (PCGML) faces a
+significant hurdle that sets it apart from other fields, such as image or text
+generation, which is limited annotated data. Many existing methods for
+procedural level generation via machine learning require a secondary
+representation besides level images. However, the current methods for obtaining
+such representations are laborious and time-consuming, which contributes to
+this problem. In this work, we aim to address this problem by utilizing
+gameplay videos of two human-annotated games to develop a novel multi-tail
+framework that learns to perform simultaneous level translation and generation.
+The translation tail of our framework can convert gameplay video frames to an
+equivalent secondary representation, while its generation tail can produce
+novel level segments. Evaluation results and comparisons between our framework
+and baselines suggest that combining the level generation and translation tasks
+can lead to an overall improved performance regarding both tasks. This
+represents a possible solution to limited annotated level data, and we
+demonstrate the potential for future versions to generalize to unseen games.",2023-06-29
 "ByteSized32: A Corpus and Challenge Task for Generating Task-Specific
   World Models Expressed as Text Games",2023-05-24 08:31:30+00:00,http://arxiv.org/abs/2305.14879v1,"Ruoyao Wang, Graham Todd, Eric Yuan, Ziang Xiao, Marc-Alexandre Côté, Peter Jansen","cs.CL, cs.AI",games,"In this work we examine the ability of language models to generate explicit
 world models of scientific and common-sense reasoning tasks by framing this as

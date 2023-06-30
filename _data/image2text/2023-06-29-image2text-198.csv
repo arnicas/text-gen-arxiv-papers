@@ -1,4 +1,72 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Concept-Oriented Deep Learning with Large Language Models,2023-06-29 16:47:11+00:00,http://arxiv.org/abs/2306.17089v1,Daniel T. Chang,"cs.LG, cs.CL",image2text,"Large Language Models (LLMs) have been successfully used in many
+natural-language tasks and applications including text generation and AI
+chatbots. They also are a promising new technology for concept-oriented deep
+learning (CODL). However, the prerequisite is that LLMs understand concepts and
+ensure conceptual consistency. We discuss these in this paper, as well as major
+uses of LLMs for CODL including concept extraction from text, concept graph
+extraction from text, and concept learning. Human knowledge consists of both
+symbolic (conceptual) knowledge and embodied (sensory) knowledge. Text-only
+LLMs, however, can represent only symbolic (conceptual) knowledge. Multimodal
+LLMs, on the other hand, are capable of representing the full range (conceptual
+and sensory) of human knowledge. We discuss conceptual understanding in
+visual-language LLMs, the most important multimodal LLMs, and major uses of
+them for CODL including concept extraction from image, concept graph extraction
+from image, and concept learning. While uses of LLMs for CODL are valuable
+standalone, they are particularly valuable as part of LLM applications such as
+AI chatbots.",2023-06-29
+Joint Level Generation and Translation Using Gameplay Videos,2023-06-29 03:46:44+00:00,http://arxiv.org/abs/2306.16662v1,"Negar Mirgati, Matthew Guzdial","cs.CV, cs.LG",image2text,"Procedural Content Generation via Machine Learning (PCGML) faces a
+significant hurdle that sets it apart from other fields, such as image or text
+generation, which is limited annotated data. Many existing methods for
+procedural level generation via machine learning require a secondary
+representation besides level images. However, the current methods for obtaining
+such representations are laborious and time-consuming, which contributes to
+this problem. In this work, we aim to address this problem by utilizing
+gameplay videos of two human-annotated games to develop a novel multi-tail
+framework that learns to perform simultaneous level translation and generation.
+The translation tail of our framework can convert gameplay video frames to an
+equivalent secondary representation, while its generation tail can produce
+novel level segments. Evaluation results and comparisons between our framework
+and baselines suggest that combining the level generation and translation tasks
+can lead to an overall improved performance regarding both tasks. This
+represents a possible solution to limited annotated level data, and we
+demonstrate the potential for future versions to generalize to unseen games.",2023-06-29
+"ZeroGen: Zero-shot Multimodal Controllable Text Generation with Multiple
+  Oracles",2023-06-29 03:22:43+00:00,http://arxiv.org/abs/2306.16649v1,"Haoqin Tu, Bowen Yang, Xianfeng Zhao",cs.CL,image2text,"Automatically generating textual content with desired attributes is an
+ambitious task that people have pursued long. Existing works have made a series
+of progress in incorporating unimodal controls into language models (LMs),
+whereas how to generate controllable sentences with multimodal signals and high
+efficiency remains an open question. To tackle the puzzle, we propose a new
+paradigm of zero-shot controllable text generation with multimodal signals
+(\textsc{ZeroGen}). Specifically, \textsc{ZeroGen} leverages controls of text
+and image successively from token-level to sentence-level and maps them into a
+unified probability space at decoding, which customizes the LM outputs by
+weighted addition without extra training. To achieve better inter-modal
+trade-offs, we further introduce an effective dynamic weighting mechanism to
+regulate all control weights. Moreover, we conduct substantial experiments to
+probe the relationship of being in-depth or in-width between signals from
+distinct modalities. Encouraging empirical results on three downstream tasks
+show that \textsc{ZeroGen} not only outperforms its counterparts on captioning
+tasks by a large margin but also shows great potential in multimodal news
+generation with a higher degree of control. Our code will be released at
+https://github.com/ImKeTT/ZeroGen.",2023-06-29
+"You Can Generate It Again: Data-to-text Generation with Verification and
+  Correction Prompting",2023-06-28 05:34:25+00:00,http://arxiv.org/abs/2306.15933v1,"Xuan Ren, Lingqiao Liu","cs.CL, cs.AI, cs.LG",image2text,"Despite significant advancements in existing models, generating text
+descriptions from structured data input, known as data-to-text generation,
+remains a challenging task. In this paper, we propose a novel approach that
+goes beyond traditional one-shot generation methods by introducing a multi-step
+process consisting of generation, verification, and correction stages. Our
+approach, VCP(Verification and Correction Prompting), begins with the model
+generating an initial output. We then proceed to verify the correctness of
+different aspects of the generated text. The observations from the verification
+step are converted into a specialized error-indication prompt, which instructs
+the model to regenerate the output while considering the identified errors. To
+enhance the model's correction ability, we have developed a carefully designed
+training procedure. This procedure enables the model to incorporate feedback
+from the error-indication prompt, resulting in improved output generation.
+Through experimental results, we demonstrate that our approach effectively
+reduces slot error rates while maintaining the overall quality of the generated
+text.",2023-06-28
 FunQA: Towards Surprising Video Comprehension,2023-06-26 17:59:55+00:00,http://arxiv.org/abs/2306.14899v1,"Binzhu Xie, Sicheng Zhang, Zitang Zhou, Bo Li, Yuanhan Zhang, Jack Hessel, Jingkang Yang, Ziwei Liu","cs.CV, cs.AI, cs.CL, cs.MM",image2text,"Surprising videos, e.g., funny clips, creative performances, or visual
 illusions, attract significant attention. Enjoyment of these videos is not
 simply a response to visual stimuli; rather, it hinges on the human capacity to

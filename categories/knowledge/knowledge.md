@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2023-06-27*
+*written on 2023-06-30*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Concept-Oriented Deep Learning with Large Language Models](http://arxiv.org/abs/2306.17089v1) | Daniel T. Chang | cs.LG, cs.CL | 2023-06-29 |
+| [Most Language Models can be Poets too: An AI Writing Assistant and  Constrained Text Generation Studio](http://arxiv.org/abs/2306.15926v1) | Allen Roush, Sanjay Basu, Akshay Moorthy, Dmitry Dubovoy | cs.CL, cs.AI, cs.LG | 2023-06-28 |
 | [Knowledge Graph-Augmented Korean Generative Commonsense Reasoning](http://arxiv.org/abs/2306.14470v1) | Dahyun Jung, Jaehyung Seo, Jaewook Lee, Chanjun Park, Heuiseok Lim | cs.CL, cs.AI | 2023-06-26 |
 | [Long-range Language Modeling with Self-retrieval](http://arxiv.org/abs/2306.13421v1) | Ohad Rubin, Jonathan Berant | cs.CL | 2023-06-23 |
 | [AudioPaLM: A Large Language Model That Can Speak and Listen](http://arxiv.org/abs/2306.12925v1) | Paul K. Rubenstein, Chulayuth Asawaroengchai, Duc Dung Nguyen, Ankur Bapna, Zalán Borsos, Félix de Chaumont Quitry, Peter Chen, Dalia El Badawy, Wei Han, Eugene Kharitonov, Hannah Muckenhirn, Dirk Padfield, James Qin, Danny Rozenberg, Tara Sainath, Johan Schalkwyk, Matt Sharifi, Michelle Tadmor Ramanovich, Marco Tagliasacchi, Alexandru Tudor, Mihajlo Velimirović, Damien Vincent, Jiahui Yu, Yongqiang Wang, Vicky Zayats, Neil Zeghidour, Yu Zhang, Zhishuai Zhang, Lukas Zilka, Christian Frank | cs.CL, cs.AI, cs.SD, eess.AS, stat.ML | 2023-06-22 |
