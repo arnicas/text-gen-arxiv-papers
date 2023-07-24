@@ -7,10 +7,24 @@ sidebar:
 ---
 
 
-*written on 2023-06-30*
+*written on 2023-07-24*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [OxfordTVG-HIC: Can Machine Make Humorous Captions from Images?](http://arxiv.org/abs/2307.11636v1) | Runjia Li, Shuyang Sun, Mohamed Elhoseiny, Philip Torr | cs.CV, cs.CL | 2023-07-21 |
+| [Jina Embeddings: A Novel Set of High-Performance Sentence Embedding  Models](http://arxiv.org/abs/2307.11224v1) | Michael Günther, Louis Milliken, Jonathan Geuter, Georgios Mastrapas, Bo Wang, Han Xiao | cs.CL, cs.AI, cs.IR, cs.LG, 68T50, H.3.1; H.3.3; I.2.7; I.5.4 | 2023-07-20 |
+| [Generative Language Models on Nucleotide Sequences of Human Genes](http://arxiv.org/abs/2307.10634v1) | Musa Nuri Ihtiyar, Arzucan Ozgur | q-bio.GN, cs.CL, cs.LG | 2023-07-20 |
+| [On the Origin of LLMs: An Evolutionary Tree and Graph for 15,821 Large  Language Models](http://arxiv.org/abs/2307.09793v1) | Sarah Gao, Andrew Kean Gao | cs.DL, cs.CL, I.2.1; H.5.0 | 2023-07-19 |
+| [Unveiling Gender Bias in Terms of Profession Across LLMs: Analyzing and  Addressing Sociological Implications](http://arxiv.org/abs/2307.09162v1) | Vishesh Thakur | cs.CL | 2023-07-18 |
+| [Large Language Models Perform Diagnostic Reasoning](http://arxiv.org/abs/2307.08922v1) | Cheng-Kuang Wu, Wei-Lin Chen, Hsin-Hsi Chen | cs.CL | 2023-07-18 |
+| [COLLIE: Systematic Construction of Constrained Text Generation Tasks](http://arxiv.org/abs/2307.08689v1) | Shunyu Yao, Howard Chen, Austin W. Hanjie, Runzhe Yang, Karthik Narasimhan | cs.CL, cs.AI, cs.LG | 2023-07-17 |
+| [A Dialogue System for Assessing Activities of Daily Living: Improving  Consistency with Grounded Knowledge](http://arxiv.org/abs/2307.07544v1) | Zhecheng Sheng, Raymond Finzel, Michael Lucke, Sheena Dufresne, Maria Gini, Serguei Pakhomov | cs.CL, cs.AI | 2023-07-15 |
+| [Using Large Language Models for Zero-Shot Natural Language Generation  from Knowledge Graphs](http://arxiv.org/abs/2307.07312v1) | Agnes Axelsson, Gabriel Skantze | cs.CL, 68T50, I.2.7; I.2.4 | 2023-07-14 |
+| [Reading Radiology Imaging Like The Radiologist](http://arxiv.org/abs/2307.05921v3) | Yuhao Wang | cs.CV, cs.AI | 2023-07-12 |
+| [SkipDecode: Autoregressive Skip Decoding with Batching and Caching for  Efficient LLM Inference](http://arxiv.org/abs/2307.02628v1) | Luciano Del Corro, Allie Del Giorno, Sahaj Agarwal, Bin Yu, Ahmed Awadallah, Subhabrata Mukherjee | cs.CL | 2023-07-05 |
+| [A ChatGPT Aided Explainable Framework for Zero-Shot Medical Image  Diagnosis](http://arxiv.org/abs/2307.01981v1) | Jiaxiang Liu, Tianxiang Hu, Yan Zhang, Xiaotang Gai, Yang Feng, Zuozhu Liu | eess.IV, cs.CV, cs.LG | 2023-07-05 |
+| [Knowledge-Aware Audio-Grounded Generative Slot Filling for Limited  Annotated Data](http://arxiv.org/abs/2307.01764v1) | Guangzhi Sun, Chao Zhang, Ivan Vulić, Paweł Budzianowski, Philip C. Woodland | cs.CL | 2023-07-04 |
+| [PatternGPT :A Pattern-Driven Framework for Large Language Model Text  Generation](http://arxiv.org/abs/2307.00470v4) | Le Xiao, Xin Shan | cs.CL, cs.AI | 2023-07-02 |
 | [Concept-Oriented Deep Learning with Large Language Models](http://arxiv.org/abs/2306.17089v1) | Daniel T. Chang | cs.LG, cs.CL | 2023-06-29 |
 | [Most Language Models can be Poets too: An AI Writing Assistant and  Constrained Text Generation Studio](http://arxiv.org/abs/2306.15926v1) | Allen Roush, Sanjay Basu, Akshay Moorthy, Dmitry Dubovoy | cs.CL, cs.AI, cs.LG | 2023-06-28 |
 | [Knowledge Graph-Augmented Korean Generative Commonsense Reasoning](http://arxiv.org/abs/2306.14470v1) | Dahyun Jung, Jaehyung Seo, Jaewook Lee, Chanjun Park, Heuiseok Lim | cs.CL, cs.AI | 2023-06-26 |

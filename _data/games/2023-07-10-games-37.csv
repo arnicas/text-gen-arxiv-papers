@@ -1,4 +1,57 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Learning to Generate Equitable Text in Dialogue from Biased Training
+  Data",2023-07-10 01:44:13+00:00,http://arxiv.org/abs/2307.04303v1,"Anthony Sicilia, Malihe Alikhani","cs.CL, cs.AI",games,"The ingrained principles of fairness in a dialogue system's decision-making
+process and generated responses are crucial for user engagement, satisfaction,
+and task achievement. Absence of equitable and inclusive principles can hinder
+the formation of common ground, which in turn negatively impacts the overall
+performance of the system. For example, misusing pronouns in a user interaction
+may cause ambiguity about the intended subject. Yet, there is no comprehensive
+study of equitable text generation in dialogue. Aptly, in this work, we use
+theories of computational learning to study this problem. We provide formal
+definitions of equity in text generation, and further, prove formal connections
+between learning human-likeness and learning equity: algorithms for improving
+equity ultimately reduce to algorithms for improving human-likeness (on
+augmented data). With this insight, we also formulate reasonable conditions
+under which text generation algorithms can learn to generate equitable text
+without any modifications to the biased training data on which they learn. To
+exemplify our theory in practice, we look at a group of algorithms for the
+GuessWhat?! visual dialogue game and, using this example, test our theory
+empirically. Our theory accurately predicts relative-performance of multiple
+algorithms in generating equitable text as measured by both human and automated
+evaluation.",2023-07-10
+Designing Mixed-Initiative Video Games,2023-07-08 01:45:25+00:00,http://arxiv.org/abs/2307.03877v1,Daijin Yang,"cs.HC, cs.AI, J.5",games,"The development of Artificial Intelligence (AI) enables humans to co-create
+content with machines. The unexpectedness of AI-generated content can bring
+inspiration and entertainment to users. However, the co-creation interactions
+are always designed for content creators and have poor accessibility. To
+explore gamification of mixed-initiative co-creation and make human-AI
+interactions accessible and fun for players, I prototyped Snake Story, a
+mixed-initiative game where players can select AI-generated texts to write a
+story of a snake by playing a ""Snake"" like game. A controlled experiment was
+conducted to investigate the dynamics of player-AI interactions with and
+without the game component in the designed interface. As a result of a study
+with 11 players (n=11), I found that players utilized different strategies when
+playing with the two versions, game mechanics significantly affected the output
+stories, players' creative process, as well as role perceptions, and players
+with different backgrounds showed different preferences for the two versions.
+Based on these results, I further discussed considerations for mixed-initiative
+game design. This work aims to inspire the design of engaging co-creation
+experiences.",2023-07-08
+"Dynamic Observation Policies in Observation Cost-Sensitive Reinforcement
+  Learning",2023-07-05 19:48:03+00:00,http://arxiv.org/abs/2307.02620v1,"Colin Bellinger, Mark Crowley, Isaac Tamblyn","cs.LG, cs.AI, 68T01, I.2.0",games,"Reinforcement learning (RL) has been shown to learn sophisticated control
+policies for complex tasks including games, robotics, heating and cooling
+systems and text generation. The action-perception cycle in RL, however,
+generally assumes that a measurement of the state of the environment is
+available at each time step without a cost. In applications such as deep-sea
+and planetary robot exploration, materials design and medicine, however, there
+can be a high cost associated with measuring, or even approximating, the state
+of the environment. In this paper, we survey the recently growing literature
+that adopts the perspective that an RL agent might not need, or even want, a
+costly measurement at each time step. Within this context, we propose the Deep
+Dynamic Multi-Step Observationless Agent (DMSOA), contrast it with the
+literature and empirically evaluate it on OpenAI gym and Atari Pong
+environments. Our results, show that DMSOA learns a better policy with fewer
+decision steps and measurements than the considered alternative from the
+literature.",2023-07-05
 Joint Level Generation and Translation Using Gameplay Videos,2023-06-29 03:46:44+00:00,http://arxiv.org/abs/2306.16662v1,"Negar Mirgati, Matthew Guzdial","cs.CV, cs.LG",games,"Procedural Content Generation via Machine Learning (PCGML) faces a
 significant hurdle that sets it apart from other fields, such as image or text
 generation, which is limited annotated data. Many existing methods for

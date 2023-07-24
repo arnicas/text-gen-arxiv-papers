@@ -1,4 +1,230 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Enhancing CLIP with GPT-4: Harnessing Visual Descriptions as Prompts,2023-07-21 15:49:59+00:00,http://arxiv.org/abs/2307.11661v1,"Mayug Maniparambil, Chris Vorster, Derek Molloy, Noel Murphy, Kevin McGuinness, Noel E. O'Connor","cs.CV, cs.AI, cs.CL, cs.LG",image2text,"Contrastive pretrained large Vision-Language Models (VLMs) like CLIP have
+revolutionized visual representation learning by providing good performance on
+downstream datasets. VLMs are 0-shot adapted to a downstream dataset by
+designing prompts that are relevant to the dataset. Such prompt engineering
+makes use of domain expertise and a validation dataset. Meanwhile, recent
+developments in generative pretrained models like GPT-4 mean they can be used
+as advanced internet search tools. They can also be manipulated to provide
+visual information in any structure. In this work, we show that GPT-4 can be
+used to generate text that is visually descriptive and how this can be used to
+adapt CLIP to downstream tasks. We show considerable improvements in 0-shot
+transfer accuracy on specialized fine-grained datasets like EuroSAT (~7%), DTD
+(~7%), SUN397 (~4.6%), and CUB (~3.3%) when compared to CLIP's default prompt.
+We also design a simple few-shot adapter that learns to choose the best
+possible sentences to construct generalizable classifiers that outperform the
+recently proposed CoCoOP by ~2% on average and by over 4% on 4 specialized
+fine-grained datasets. We will release the code, prompts, and auxiliary text
+dataset upon acceptance.",2023-07-21
+OxfordTVG-HIC: Can Machine Make Humorous Captions from Images?,2023-07-21 14:58:44+00:00,http://arxiv.org/abs/2307.11636v1,"Runjia Li, Shuyang Sun, Mohamed Elhoseiny, Philip Torr","cs.CV, cs.CL",image2text,"This paper presents OxfordTVG-HIC (Humorous Image Captions), a large-scale
+dataset for humour generation and understanding. Humour is an abstract,
+subjective, and context-dependent cognitive construct involving several
+cognitive factors, making it a challenging task to generate and interpret.
+Hence, humour generation and understanding can serve as a new task for
+evaluating the ability of deep-learning methods to process abstract and
+subjective information. Due to the scarcity of data, humour-related generation
+tasks such as captioning remain under-explored. To address this gap,
+OxfordTVG-HIC offers approximately 2.9M image-text pairs with humour scores to
+train a generalizable humour captioning model. Contrary to existing captioning
+datasets, OxfordTVG-HIC features a wide range of emotional and semantic
+diversity resulting in out-of-context examples that are particularly conducive
+to generating humour. Moreover, OxfordTVG-HIC is curated devoid of offensive
+content. We also show how OxfordTVG-HIC can be leveraged for evaluating the
+humour of a generated text. Through explainability analysis of the trained
+models, we identify the visual and linguistic cues influential for evoking
+humour prediction (and generation). We observe qualitatively that these cues
+are aligned with the benign violation theory of humour in cognitive psychology.",2023-07-21
+"Generating Image-Specific Text Improves Fine-grained Image
+  Classification",2023-07-21 02:47:18+00:00,http://arxiv.org/abs/2307.11315v1,"Emily Mu, Kathleen M. Lewis, Adrian V. Dalca, John Guttag","cs.CV, cs.CL",image2text,"Recent vision-language models outperform vision-only models on many image
+classification tasks. However, because of the absence of paired text/image
+descriptions, it remains difficult to fine-tune these models for fine-grained
+image classification. In this work, we propose a method, GIST, for generating
+image-specific fine-grained text descriptions from image-only datasets, and
+show that these text descriptions can be used to improve classification. Key
+parts of our method include 1. prompting a pretrained large language model with
+domain-specific prompts to generate diverse fine-grained text descriptions for
+each class and 2. using a pretrained vision-language model to match each image
+to label-preserving text descriptions that capture relevant visual features in
+the image. We demonstrate the utility of GIST by fine-tuning vision-language
+models on the image-and-generated-text pairs to learn an aligned
+vision-language representation space for improved classification. We evaluate
+our learned representation space in full-shot and few-shot scenarios across
+four diverse fine-grained classification datasets, each from a different
+domain. Our method achieves an average improvement of $4.1\%$ in accuracy over
+CLIP linear probes and an average of $1.1\%$ improvement in accuracy over the
+previous state-of-the-art image-text classification method on the full-shot
+datasets. Our method achieves similar improvements across few-shot regimes.
+Code is available at https://github.com/emu1729/GIST.",2023-07-21
+"FigCaps-HF: A Figure-to-Caption Generative Framework and Benchmark with
+  Human Feedback",2023-07-20 13:40:22+00:00,http://arxiv.org/abs/2307.10867v1,"Ashish Singh, Prateek Agarwal, Zixuan Huang, Arpita Singh, Tong Yu, Sungchul Kim, Victor Bursztyn, Nikos Vlassis, Ryan A. Rossi","cs.CL, cs.CV, cs.LG",image2text,"Captions are crucial for understanding scientific visualizations and
+documents. Existing captioning methods for scientific figures rely on
+figure-caption pairs extracted from documents for training, many of which fall
+short with respect to metrics like helpfulness, explainability, and
+visual-descriptiveness [15] leading to generated captions being misaligned with
+reader preferences. To enable the generation of high-quality figure captions,
+we introduce FigCaps-HF a new framework for figure-caption generation that can
+incorporate domain expert feedback in generating captions optimized for reader
+preferences. Our framework comprises of 1) an automatic method for evaluating
+quality of figure-caption pairs, 2) a novel reinforcement learning with human
+feedback (RLHF) method to optimize a generative figure-to-caption model for
+reader preferences. We demonstrate the effectiveness of our simple learning
+framework by improving performance over standard fine-tuning across different
+types of models. In particular, when using BLIP as the base model, our RLHF
+framework achieves a mean gain of 35.7%, 16.9%, and 9% in ROUGE, BLEU, and
+Meteor, respectively. Finally, we release a large-scale benchmark dataset with
+human feedback on figure-caption pairs to enable further evaluation and
+development of RLHF techniques for this problem.",2023-07-20
+Improving Multimodal Datasets with Image Captioning,2023-07-19 17:47:12+00:00,http://arxiv.org/abs/2307.10350v1,"Thao Nguyen, Samir Yitzhak Gadre, Gabriel Ilharco, Sewoong Oh, Ludwig Schmidt","cs.LG, cs.CV",image2text,"Massive web datasets play a key role in the success of large vision-language
+models like CLIP and Flamingo. However, the raw web data is noisy, and existing
+filtering methods to reduce noise often come at the expense of data diversity.
+Our work focuses on caption quality as one major source of noise, and studies
+how generated captions can increase the utility of web-scraped datapoints with
+nondescript text. Through exploring different mixing strategies for raw and
+generated captions, we outperform the best filtering method proposed by the
+DataComp benchmark by 2% on ImageNet and 4% on average across 38 tasks, given a
+candidate pool of 128M image-text pairs. Our best approach is also 2x better at
+Flickr and MS-COCO retrieval. We then analyze what makes synthetic captions an
+effective source of text supervision. In experimenting with different image
+captioning models, we also demonstrate that the performance of a model on
+standard image captioning benchmarks (e.g., NoCaps CIDEr) is not a reliable
+indicator of the utility of the captions it generates for multimodal training.
+Finally, our experiments with using generated captions at DataComp's large
+scale (1.28B image-text pairs) offer insights into the limitations of synthetic
+text, as well as the importance of image curation with increasing training data
+quantity.",2023-07-19
+"PromptMagician: Interactive Prompt Engineering for Text-to-Image
+  Creation",2023-07-18 07:46:25+00:00,http://arxiv.org/abs/2307.09036v1,"Yingchaojie Feng, Xingbo Wang, Kam Kwai Wong, Sijia Wang, Yuhong Lu, Minfeng Zhu, Baicheng Wang, Wei Chen","cs.AI, cs.HC",image2text,"Generative text-to-image models have gained great popularity among the public
+for their powerful capability to generate high-quality images based on natural
+language prompts. However, developing effective prompts for desired images can
+be challenging due to the complexity and ambiguity of natural language. This
+research proposes PromptMagician, a visual analysis system that helps users
+explore the image results and refine the input prompts. The backbone of our
+system is a prompt recommendation model that takes user prompts as input,
+retrieves similar prompt-image pairs from DiffusionDB, and identifies special
+(important and relevant) prompt keywords. To facilitate interactive prompt
+refinement, PromptMagician introduces a multi-level visualization for the
+cross-modal embedding of the retrieved images and recommended keywords, and
+supports users in specifying multiple criteria for personalized exploration.
+Two usage scenarios, a user study, and expert interviews demonstrate the
+effectiveness and usability of our system, suggesting it facilitates prompt
+engineering and improves the creativity support of the generative text-to-image
+model.",2023-07-18
+Reading Radiology Imaging Like The Radiologist,2023-07-12 05:36:47+00:00,http://arxiv.org/abs/2307.05921v3,Yuhao Wang,"cs.CV, cs.AI",image2text,"Automated radiology report generation aims to generate radiology reports that
+contain rich, fine-grained descriptions of radiology imaging. Compared with
+image captioning in the natural image domain, medical images are very similar
+to each other, with only minor differences in the occurrence of diseases. Given
+the importance of these minor differences in the radiology report, it is
+crucial to encourage the model to focus more on the subtle regions of disease
+occurrence. Secondly, the problem of visual and textual data biases is serious.
+Not only do normal cases make up the majority of the dataset, but sentences
+describing areas with pathological changes also constitute only a small part of
+the paragraph. Lastly, generating medical image reports involves the challenge
+of long text generation, which requires more expertise and empirical training
+in medical knowledge. As a result, the difficulty of generating such reports is
+increased. To address these challenges, we propose a disease-oriented retrieval
+framework that utilizes similar reports as prior knowledge references. We
+design a factual consistency captioning generator to generate more accurate and
+factually consistent disease descriptions. Our framework can find most similar
+reports for a given disease from the CXR database by retrieving a
+disease-oriented mask consisting of the position and morphological
+characteristics. By referencing the disease-oriented similar report and the
+visual features, the factual consistency model can generate a more accurate
+radiology report.",2023-07-12
+"Empirical Analysis of a Segmentation Foundation Model in Prostate
+  Imaging",2023-07-06 20:00:52+00:00,http://arxiv.org/abs/2307.03266v1,"Heejong Kim, Victor Ion Butoi, Adrian V. Dalca, Mert R. Sabuncu","eess.IV, cs.CV, cs.LG",image2text,"Most state-of-the-art techniques for medical image segmentation rely on
+deep-learning models. These models, however, are often trained on
+narrowly-defined tasks in a supervised fashion, which requires expensive
+labeled datasets. Recent advances in several machine learning domains, such as
+natural language generation have demonstrated the feasibility and utility of
+building foundation models that can be customized for various downstream tasks
+with little to no labeled data. This likely represents a paradigm shift for
+medical imaging, where we expect that foundation models may shape the future of
+the field. In this paper, we consider a recently developed foundation model for
+medical image segmentation, UniverSeg. We conduct an empirical evaluation study
+in the context of prostate imaging and compare it against the conventional
+approach of training a task-specific segmentation model. Our results and
+discussion highlight several important factors that will likely be important in
+the development and adoption of foundation models for medical image
+segmentation.",2023-07-06
+Vision Language Transformers: A Survey,2023-07-06 19:08:56+00:00,http://arxiv.org/abs/2307.03254v1,"Clayton Fields, Casey Kennington","cs.CV, cs.AI, cs.CL, cs.LG",image2text,"Vision language tasks, such as answering questions about or generating
+captions that describe an image, are difficult tasks for computers to perform.
+A relatively recent body of research has adapted the pretrained transformer
+architecture introduced in \citet{vaswani2017attention} to vision language
+modeling. Transformer models have greatly improved performance and versatility
+over previous vision language models. They do so by pretraining models on a
+large generic datasets and transferring their learning to new tasks with minor
+changes in architecture and parameter values. This type of transfer learning
+has become the standard modeling practice in both natural language processing
+and computer vision. Vision language transformers offer the promise of
+producing similar advancements in tasks which require both vision and language.
+In this paper, we provide a broad synthesis of the currently available research
+on vision language transformer models and offer some analysis of their
+strengths, limitations and some open questions that remain.",2023-07-06
+Zero-Shot Dense Video Captioning by Jointly Optimizing Text and Moment,2023-07-05 23:01:26+00:00,http://arxiv.org/abs/2307.02682v2,"Yongrae Jo, Seongyun Lee, Aiden SJ Lee, Hyunji Lee, Hanseok Oh, Minjoon Seo","cs.CV, cs.CL",image2text,"Dense video captioning, a task of localizing meaningful moments and
+generating relevant captions for videos, often requires a large, expensive
+corpus of annotated video segments paired with text. In an effort to minimize
+the annotation cost, we propose ZeroTA, a novel method for dense video
+captioning in a zero-shot manner. Our method does not require any videos or
+annotations for training; instead, it localizes and describes events within
+each input video at test time by optimizing solely on the input. This is
+accomplished by introducing a soft moment mask that represents a temporal
+segment in the video and jointly optimizing it with the prefix parameters of a
+language model. This joint optimization aligns a frozen language generation
+model (i.e., GPT-2) with a frozen vision-language contrastive model (i.e.,
+CLIP) by maximizing the matching score between the generated text and a moment
+within the video. We also introduce a pairwise temporal IoU loss to let a set
+of soft moment masks capture multiple distinct events within the video. Our
+method effectively discovers diverse significant events within the video, with
+the resulting captions appropriately describing these events. The empirical
+results demonstrate that ZeroTA surpasses zero-shot baselines and even
+outperforms the state-of-the-art few-shot method on the widely-used benchmark
+ActivityNet Captions. Moreover, our method shows greater robustness compared to
+supervised methods when evaluated in out-of-domain scenarios. This research
+provides insight into the potential of aligning widely-used models, such as
+language generation models and vision-language models, to unlock a new
+capability: understanding temporal aspects of videos.",2023-07-05
+"A ChatGPT Aided Explainable Framework for Zero-Shot Medical Image
+  Diagnosis",2023-07-05 01:45:19+00:00,http://arxiv.org/abs/2307.01981v1,"Jiaxiang Liu, Tianxiang Hu, Yan Zhang, Xiaotang Gai, Yang Feng, Zuozhu Liu","eess.IV, cs.CV, cs.LG",image2text,"Zero-shot medical image classification is a critical process in real-world
+scenarios where we have limited access to all possible diseases or large-scale
+annotated data. It involves computing similarity scores between a query medical
+image and possible disease categories to determine the diagnostic result.
+Recent advances in pretrained vision-language models (VLMs) such as CLIP have
+shown great performance for zero-shot natural image recognition and exhibit
+benefits in medical applications. However, an explainable zero-shot medical
+image recognition framework with promising performance is yet under
+development. In this paper, we propose a novel CLIP-based zero-shot medical
+image classification framework supplemented with ChatGPT for explainable
+diagnosis, mimicking the diagnostic process performed by human experts. The key
+idea is to query large language models (LLMs) with category names to
+automatically generate additional cues and knowledge, such as disease symptoms
+or descriptions other than a single category name, to help provide more
+accurate and explainable diagnosis in CLIP. We further design specific prompts
+to enhance the quality of generated texts by ChatGPT that describe visual
+medical features. Extensive results on one private dataset and four public
+datasets along with detailed analysis demonstrate the effectiveness and
+explainability of our training-free zero-shot diagnosis pipeline, corroborating
+the great potential of VLMs and LLMs for medical applications.",2023-07-05
+"More for Less: Compact Convolutional Transformers Enable Robust Medical
+  Image Classification with Limited Data",2023-07-01 03:31:30+00:00,http://arxiv.org/abs/2307.00213v1,Andrew Kean Gao,"cs.CV, cs.LG, I.4.9, I.2.10",image2text,"Transformers are very powerful tools for a variety of tasks across domains,
+from text generation to image captioning. However, transformers require
+substantial amounts of training data, which is often a challenge in biomedical
+settings, where high quality labeled data can be challenging or expensive to
+obtain. This study investigates the efficacy of Compact Convolutional
+Transformers (CCT) for robust medical image classification with limited data,
+addressing a key issue faced by conventional Vision Transformers - their
+requirement for large datasets. A hybrid of transformers and convolutional
+layers, CCTs demonstrate high accuracy on modestly sized datasets. We employed
+a benchmark dataset of peripheral blood cell images of eight distinct cell
+types, each represented by approximately 2,000 low-resolution (28x28x3 pixel)
+samples. Despite the dataset size being smaller than those typically used with
+Vision Transformers, we achieved a commendable classification accuracy of
+92.49% and a micro-average ROC AUC of 0.9935. The CCT also learned quickly,
+exceeding 80% validation accuracy after five epochs. Analysis of per-class
+precision, recall, F1, and ROC showed that performance was strong across cell
+types. Our findings underscore the robustness of CCTs, indicating their
+potential as a solution to data scarcity issues prevalent in biomedical
+imaging. We substantiate the applicability of CCTs in data-constrained areas
+and encourage further work on CCTs.",2023-07-01
 Concept-Oriented Deep Learning with Large Language Models,2023-06-29 16:47:11+00:00,http://arxiv.org/abs/2306.17089v1,Daniel T. Chang,"cs.LG, cs.CL",image2text,"Large Language Models (LLMs) have been successfully used in many
 natural-language tasks and applications including text generation and AI
 chatbots. They also are a promising new technology for concept-oriented deep

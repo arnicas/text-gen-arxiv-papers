@@ -1,4 +1,204 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"A Dialogue System for Assessing Activities of Daily Living: Improving
+  Consistency with Grounded Knowledge",2023-07-15 22:41:59+00:00,http://arxiv.org/abs/2307.07544v1,"Zhecheng Sheng, Raymond Finzel, Michael Lucke, Sheena Dufresne, Maria Gini, Serguei Pakhomov","cs.CL, cs.AI",dialogue,"In healthcare, the ability to care for oneself is reflected in the
+""Activities of Daily Living (ADL),"" which serve as a measure of functional
+ability (functioning). A lack of functioning may lead to poor living conditions
+requiring personal care and assistance. To accurately identify those in need of
+support, assistance programs continuously evaluate participants' functioning
+across various domains. However, the assessment process may encounter
+consistency issues when multiple assessors with varying levels of expertise are
+involved. Novice assessors, in particular, may lack the necessary preparation
+for real-world interactions with participants. To address this issue, we
+developed a dialogue system that simulates interactions between assessors and
+individuals of varying functioning in a natural and reproducible way. The
+dialogue system consists of two major modules, one for natural language
+understanding (NLU) and one for natural language generation (NLG),
+respectively. In order to generate responses consistent with the underlying
+knowledge base, the dialogue system requires both an understanding of the
+user's query and of biographical details of an individual being simulated. To
+fulfill this requirement, we experimented with query classification and
+generated responses based on those biographical details using some recently
+released InstructGPT-like models.",2023-07-15
+Zero-shot NLG evaluation through Pairware Comparisons with LLMs,2023-07-15 22:02:12+00:00,http://arxiv.org/abs/2307.07889v1,"Adian Liusie, Potsawee Manakul, Mark J. F. Gales",cs.CL,dialogue,"Evaluating Natural Language Generation (NLG) outputs is crucial but laborious
+and expensive. While various automatic NLG assessment methods have been
+proposed, they often are quite task-specific and have to be engineered with a
+particular domain and attribute in mind. In this work, we propose a robust
+zero-shot approach to NLG evaluation using pairwise comparative judgment with
+open-source Large Language Models (LLMs). The motivation for this approach is
+that even as humans, it is easier to determine which of two options are better,
+than it is to independently objectively score each option. We use this insight
+and leverage the emergent abilities of LLMs, where we probe FlanT5 to determine
+which of two candidate responses is better, rather than assigning absolute
+scores. Our results demonstrate that comparative assessment is a more effective
+approach than absolute scoring, enabling smaller open-source LLMs to achieve
+comparable performance to larger public access APIs. We evaluate systems on
+both summary evaluation and dialogue response generation, and show that
+opensource LLMs can lead to good correlations with human scores for a range of
+different attributes.",2023-07-15
+"DIALGEN: Collaborative Human-LM Generated Dialogues for Improved
+  Understanding of Human-Human Conversations",2023-07-13 20:02:50+00:00,http://arxiv.org/abs/2307.07047v1,"Bo-Ru Lu, Nikita Haduong, Chia-Hsuan Lee, Zeqiu Wu, Hao Cheng, Paul Koester, Jean Utke, Tao Yu, Noah A. Smith, Mari Ostendorf",cs.CL,dialogue,"Applications that could benefit from automatic understanding of human-human
+conversations often come with challenges associated with private information in
+real-world data such as call center or clinical conversations. Working with
+protected data also increases costs of annotation, which limits technology
+development. To address these challenges, we propose DIALGEN, a
+human-in-the-loop semi-automated dialogue generation framework. DIALGEN uses a
+language model (ChatGPT) that can follow schema and style specifications to
+produce fluent conversational text, generating a complex conversation through
+iteratively generating subdialogues and using human feedback to correct
+inconsistencies or redirect the flow. In experiments on structured
+summarization of agent-client information gathering calls, framed as dialogue
+state tracking, we show that DIALGEN data enables significant improvement in
+model performance.",2023-07-13
+"DecompEval: Evaluating Generated Texts as Unsupervised Decomposed
+  Question Answering",2023-07-13 16:16:51+00:00,http://arxiv.org/abs/2307.06869v1,"Pei Ke, Fei Huang, Fei Mi, Yasheng Wang, Qun Liu, Xiaoyan Zhu, Minlie Huang","cs.CL, cs.AI",dialogue,"Existing evaluation metrics for natural language generation (NLG) tasks face
+the challenges on generalization ability and interpretability. Specifically,
+most of the well-performed metrics are required to train on evaluation datasets
+of specific NLG tasks and evaluation dimensions, which may cause over-fitting
+to task-specific datasets. Furthermore, existing metrics only provide an
+evaluation score for each dimension without revealing the evidence to interpret
+how this score is obtained. To deal with these challenges, we propose a simple
+yet effective metric called DecompEval. This metric formulates NLG evaluation
+as an instruction-style question answering task and utilizes instruction-tuned
+pre-trained language models (PLMs) without training on evaluation datasets,
+aiming to enhance the generalization ability. To make the evaluation process
+more interpretable, we decompose our devised instruction-style question about
+the quality of generated texts into the subquestions that measure the quality
+of each sentence. The subquestions with their answers generated by PLMs are
+then recomposed as evidence to obtain the evaluation result. Experimental
+results show that DecompEval achieves state-of-the-art performance in untrained
+metrics for evaluating text summarization and dialogue generation, which also
+exhibits strong dimension-level / task-level generalization ability and
+interpretability.",2023-07-13
+"Learning to Generate Equitable Text in Dialogue from Biased Training
+  Data",2023-07-10 01:44:13+00:00,http://arxiv.org/abs/2307.04303v1,"Anthony Sicilia, Malihe Alikhani","cs.CL, cs.AI",dialogue,"The ingrained principles of fairness in a dialogue system's decision-making
+process and generated responses are crucial for user engagement, satisfaction,
+and task achievement. Absence of equitable and inclusive principles can hinder
+the formation of common ground, which in turn negatively impacts the overall
+performance of the system. For example, misusing pronouns in a user interaction
+may cause ambiguity about the intended subject. Yet, there is no comprehensive
+study of equitable text generation in dialogue. Aptly, in this work, we use
+theories of computational learning to study this problem. We provide formal
+definitions of equity in text generation, and further, prove formal connections
+between learning human-likeness and learning equity: algorithms for improving
+equity ultimately reduce to algorithms for improving human-likeness (on
+augmented data). With this insight, we also formulate reasonable conditions
+under which text generation algorithms can learn to generate equitable text
+without any modifications to the biased training data on which they learn. To
+exemplify our theory in practice, we look at a group of algorithms for the
+GuessWhat?! visual dialogue game and, using this example, test our theory
+empirically. Our theory accurately predicts relative-performance of multiple
+algorithms in generating equitable text as measured by both human and automated
+evaluation.",2023-07-10
+"Opening up ChatGPT: Tracking openness, transparency, and accountability
+  in instruction-tuned text generators",2023-07-08 07:08:20+00:00,http://arxiv.org/abs/2307.05532v1,"Andreas Liesenfeld, Alianda Lopez, Mark Dingemanse",cs.CL,dialogue,"Large language models that exhibit instruction-following behaviour represent
+one of the biggest recent upheavals in conversational interfaces, a trend in
+large part fuelled by the release of OpenAI's ChatGPT, a proprietary large
+language model for text generation fine-tuned through reinforcement learning
+from human feedback (LLM+RLHF). We review the risks of relying on proprietary
+software and survey the first crop of open-source projects of comparable
+architecture and functionality. The main contribution of this paper is to show
+that openness is differentiated, and to offer scientific documentation of
+degrees of openness in this fast-moving field. We evaluate projects in terms of
+openness of code, training data, model weights, RLHF data, licensing,
+scientific documentation, and access methods. We find that while there is a
+fast-growing list of projects billing themselves as 'open source', many inherit
+undocumented data of dubious legality, few share the all-important
+instruction-tuning (a key site where human annotation labour is involved), and
+careful scientific documentation is exceedingly rare. Degrees of openness are
+relevant to fairness and accountability at all points, from data collection and
+curation to model architecture, and from training and fine-tuning to release
+and deployment.",2023-07-08
+"Dynamic Observation Policies in Observation Cost-Sensitive Reinforcement
+  Learning",2023-07-05 19:48:03+00:00,http://arxiv.org/abs/2307.02620v1,"Colin Bellinger, Mark Crowley, Isaac Tamblyn","cs.LG, cs.AI, 68T01, I.2.0",dialogue,"Reinforcement learning (RL) has been shown to learn sophisticated control
+policies for complex tasks including games, robotics, heating and cooling
+systems and text generation. The action-perception cycle in RL, however,
+generally assumes that a measurement of the state of the environment is
+available at each time step without a cost. In applications such as deep-sea
+and planetary robot exploration, materials design and medicine, however, there
+can be a high cost associated with measuring, or even approximating, the state
+of the environment. In this paper, we survey the recently growing literature
+that adopts the perspective that an RL agent might not need, or even want, a
+costly measurement at each time step. Within this context, we propose the Deep
+Dynamic Multi-Step Observationless Agent (DMSOA), contrast it with the
+literature and empirically evaluate it on OpenAI gym and Atari Pong
+environments. Our results, show that DMSOA learns a better policy with fewer
+decision steps and measurements than the considered alternative from the
+literature.",2023-07-05
+"Knowledge-Aware Audio-Grounded Generative Slot Filling for Limited
+  Annotated Data",2023-07-04 15:05:42+00:00,http://arxiv.org/abs/2307.01764v1,"Guangzhi Sun, Chao Zhang, Ivan Vulić, Paweł Budzianowski, Philip C. Woodland",cs.CL,dialogue,"Manually annotating fine-grained slot-value labels for task-oriented dialogue
+(ToD) systems is an expensive and time-consuming endeavour. This motivates
+research into slot-filling methods that operate with limited amounts of
+labelled data. Moreover, the majority of current work on ToD is based solely on
+text as the input modality, neglecting the additional challenges of imperfect
+automatic speech recognition (ASR) when working with spoken language. In this
+work, we propose a Knowledge-Aware Audio-Grounded generative slot-filling
+framework, termed KA2G, that focuses on few-shot and zero-shot slot filling for
+ToD with speech input. KA2G achieves robust and data-efficient slot filling for
+speech-based ToD by 1) framing it as a text generation task, 2) grounding text
+generation additionally in the audio modality, and 3) conditioning on available
+external knowledge (e.g. a predefined list of possible slot values). We show
+that combining both modalities within the KA2G framework improves the
+robustness against ASR errors. Further, the knowledge-aware slot-value
+generator in KA2G, implemented via a pointer generator mechanism, particularly
+benefits few-shot and zero-shot learning. Experiments, conducted on the
+standard speech-based single-turn SLURP dataset and a multi-turn dataset
+extracted from a commercial ToD system, display strong and consistent gains
+over prior work, especially in few-shot and zero-shot setups.",2023-07-04
+Knowledge Graph for NLG in the context of conversational agents,2023-07-04 08:03:33+00:00,http://arxiv.org/abs/2307.01548v1,"Hussam Ghanem, Massinissa Atmani, Christophe Cruz",cs.AI,dialogue,"The use of knowledge graphs (KGs) enhances the accuracy and comprehensiveness
+of the responses provided by a conversational agent. While generating answers
+during conversations consists in generating text from these KGs, it is still
+regarded as a challenging task that has gained significant attention in recent
+years. In this document, we provide a review of different architectures used
+for knowledge graph-to-text generation including: Graph Neural Networks, the
+Graph Transformer, and linearization with seq2seq models. We discuss the
+advantages and limitations of each architecture and conclude that the choice of
+architecture will depend on the specific requirements of the task at hand. We
+also highlight the importance of considering constraints such as execution time
+and model validity, particularly in the context of conversational agents. Based
+on these constraints and the availability of labeled data for the domains of
+DAVI, we choose to use seq2seq Transformer-based models (PLMs) for the
+Knowledge Graph-to-Text Generation task. We aim to refine benchmark datasets of
+kg-to-text generation on PLMs and to explore the emotional and multilingual
+dimensions in our future work. Overall, this review provides insights into the
+different approaches for knowledge graph-to-text generation and outlines future
+directions for research in this area.",2023-07-04
+"PatternGPT :A Pattern-Driven Framework for Large Language Model Text
+  Generation",2023-07-02 04:32:41+00:00,http://arxiv.org/abs/2307.00470v4,"Le Xiao, Xin Shan","cs.CL, cs.AI",dialogue,"Large language models(LLMS)have shown excellent text generation capabilities,
+capable of generating fluent human-like responses for many downstream tasks.
+However, applying large language models to real-world critical tasks remains
+challenging due to their susceptibility to hallucinations and inability to
+directly use external knowledge. To cope with the above challenges, this paper
+proposes PatternGPT, a pattern-driven text generation framework for Large
+Language Models. Firstly, the framework utilizes the extraction capability of
+Large Language Models to generate rich and diversified structured and
+formalized patterns, which facilitates the introduction of external knowledge
+to do the computation, and then draws on the idea of federated learning to use
+multiple agents to achieve the sharing in order to obtain more diversified
+patterns, and finally uses judgment criteria and optimization algorithm to
+search for high-quality patterns to guide the generation of models. Finally,
+external knowledge such as judgment criteria and optimization algorithms are
+used to search for high-quality patterns, and the searched patterns are used to
+guide model generation. This framework has the advantages of generating
+diversified patterns, protecting data privacy, combining external knowledge,
+and improving the quality of generation, which provides an effective method to
+optimize the text generation capability of large language models, and make it
+better applied to the field of intelligent dialogue and content generation.",2023-07-02
+Personality Traits in Large Language Models,2023-07-01 00:58:51+00:00,http://arxiv.org/abs/2307.00184v1,"Mustafa Safdari, Greg Serapio-García, Clément Crepy, Stephen Fitz, Peter Romero, Luning Sun, Marwa Abdulhai, Aleksandra Faust, Maja Matarić","cs.CL, cs.AI, cs.CY, cs.HC, 68T35, I.2.7",dialogue,"The advent of large language models (LLMs) has revolutionized natural
+language processing, enabling the generation of coherent and contextually
+relevant text. As LLMs increasingly power conversational agents, the
+synthesized personality embedded in these models by virtue of their training on
+large amounts of human-generated data draws attention. Since personality is an
+important factor determining the effectiveness of communication, we present a
+comprehensive method for administering validated psychometric tests and
+quantifying, analyzing, and shaping personality traits exhibited in text
+generated from widely-used LLMs. We find that: 1) personality simulated in the
+outputs of some LLMs (under specific prompting configurations) is reliable and
+valid; 2) evidence of reliability and validity of LLM-simulated personality is
+stronger for larger and instruction fine-tuned models; and 3) personality in
+LLM outputs can be shaped along desired dimensions to mimic specific
+personality profiles. We also discuss potential applications and ethical
+implications of our measurement and shaping framework, especially regarding
+responsible use of LLMs.",2023-07-01
 Open-Domain Text Evaluation via Meta Distribution Modeling,2023-06-20 20:37:54+00:00,http://arxiv.org/abs/2306.11879v1,"Sidi Lu, Asli Celikyilmaz, Tianlu Wang, Nanyun Peng",cs.CL,dialogue,"Recent advances in open-domain text generation models powered by large
 pre-trained language models (LLMs) have achieved remarkable performance.
 However, evaluating and controlling these models for desired attributes remains

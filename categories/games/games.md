@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2023-06-30*
+*written on 2023-07-24*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Learning to Generate Equitable Text in Dialogue from Biased Training  Data](http://arxiv.org/abs/2307.04303v1) | Anthony Sicilia, Malihe Alikhani | cs.CL, cs.AI | 2023-07-10 |
+| [Designing Mixed-Initiative Video Games](http://arxiv.org/abs/2307.03877v1) | Daijin Yang | cs.HC, cs.AI, J.5 | 2023-07-08 |
+| [Dynamic Observation Policies in Observation Cost-Sensitive Reinforcement  Learning](http://arxiv.org/abs/2307.02620v1) | Colin Bellinger, Mark Crowley, Isaac Tamblyn | cs.LG, cs.AI, 68T01, I.2.0 | 2023-07-05 |
 | [Joint Level Generation and Translation Using Gameplay Videos](http://arxiv.org/abs/2306.16662v1) | Negar Mirgati, Matthew Guzdial | cs.CV, cs.LG | 2023-06-29 |
 | [ByteSized32: A Corpus and Challenge Task for Generating Task-Specific  World Models Expressed as Text Games](http://arxiv.org/abs/2305.14879v1) | Ruoyao Wang, Graham Todd, Eric Yuan, Ziang Xiao, Marc-Alexandre Côté, Peter Jansen | cs.CL, cs.AI | 2023-05-24 |
 | [FIREBALL: A Dataset of Dungeons and Dragons Actual-Play with Structured  Game State Information](http://arxiv.org/abs/2305.01528v1) | Andrew Zhu, Karmanya Aggarwal, Alexander Feng, Lara J. Martin, Chris Callison-Burch | cs.CL, cs.AI | 2023-05-02 |

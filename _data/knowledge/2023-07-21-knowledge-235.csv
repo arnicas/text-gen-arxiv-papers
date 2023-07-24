@@ -1,4 +1,263 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+OxfordTVG-HIC: Can Machine Make Humorous Captions from Images?,2023-07-21 14:58:44+00:00,http://arxiv.org/abs/2307.11636v1,"Runjia Li, Shuyang Sun, Mohamed Elhoseiny, Philip Torr","cs.CV, cs.CL",knowledge,"This paper presents OxfordTVG-HIC (Humorous Image Captions), a large-scale
+dataset for humour generation and understanding. Humour is an abstract,
+subjective, and context-dependent cognitive construct involving several
+cognitive factors, making it a challenging task to generate and interpret.
+Hence, humour generation and understanding can serve as a new task for
+evaluating the ability of deep-learning methods to process abstract and
+subjective information. Due to the scarcity of data, humour-related generation
+tasks such as captioning remain under-explored. To address this gap,
+OxfordTVG-HIC offers approximately 2.9M image-text pairs with humour scores to
+train a generalizable humour captioning model. Contrary to existing captioning
+datasets, OxfordTVG-HIC features a wide range of emotional and semantic
+diversity resulting in out-of-context examples that are particularly conducive
+to generating humour. Moreover, OxfordTVG-HIC is curated devoid of offensive
+content. We also show how OxfordTVG-HIC can be leveraged for evaluating the
+humour of a generated text. Through explainability analysis of the trained
+models, we identify the visual and linguistic cues influential for evoking
+humour prediction (and generation). We observe qualitatively that these cues
+are aligned with the benign violation theory of humour in cognitive psychology.",2023-07-21
+"Jina Embeddings: A Novel Set of High-Performance Sentence Embedding
+  Models",2023-07-20 20:37:24+00:00,http://arxiv.org/abs/2307.11224v1,"Michael Günther, Louis Milliken, Jonathan Geuter, Georgios Mastrapas, Bo Wang, Han Xiao","cs.CL, cs.AI, cs.IR, cs.LG, 68T50, H.3.1; H.3.3; I.2.7; I.5.4",knowledge,"Jina Embeddings constitutes a set of high-performance sentence embedding
+models adept at translating various textual inputs into numerical
+representations, thereby capturing the semantic essence of the text. While
+these models are not exclusively designed for text generation, they excel in
+applications such as dense retrieval and semantic textual similarity. This
+paper details the development of Jina Embeddings, starting with the creation of
+a high-quality pairwise and triplet dataset. It underlines the crucial role of
+data cleaning in dataset preparation, gives in-depth insights into the model
+training process, and concludes with a comprehensive performance evaluation
+using the Massive Textual Embedding Benchmark (MTEB).",2023-07-20
+Generative Language Models on Nucleotide Sequences of Human Genes,2023-07-20 06:59:02+00:00,http://arxiv.org/abs/2307.10634v1,"Musa Nuri Ihtiyar, Arzucan Ozgur","q-bio.GN, cs.CL, cs.LG",knowledge,"Language models, primarily transformer-based ones, obtained colossal success
+in NLP. To be more precise, studies like BERT in NLU and works such as GPT-3
+for NLG are very crucial. DNA sequences are very close to natural language in
+terms of structure, so if the DNA-related bioinformatics domain is concerned,
+discriminative models, like DNABert, exist. Yet, the generative side of the
+coin is mainly unexplored to the best of our knowledge. Consequently, we
+focused on developing an autoregressive generative language model like GPT-3
+for DNA sequences. Because working with whole DNA sequences is challenging
+without substantial computational resources, we decided to carry out our study
+on a smaller scale, focusing on nucleotide sequences of human genes, unique
+parts in DNA with specific functionalities, instead of the whole DNA. This
+decision did not change the problem structure a lot due to the fact that both
+DNA and genes can be seen as 1D sequences consisting of four different
+nucleotides without losing much information and making too much simplification.
+First of all, we systematically examined an almost entirely unexplored problem
+and observed that RNNs performed the best while simple techniques like N-grams
+were also promising. Another beneficial point was learning how to work with
+generative models on languages we do not understand, unlike natural language.
+How essential using real-life tasks beyond the classical metrics such as
+perplexity is observed. Furthermore, checking whether the data-hungry nature of
+these models can be changed through selecting a language with minimal
+vocabulary size, four owing to four different types of nucleotides, is
+examined. The reason for reviewing this was that choosing such a language might
+make the problem easier. However, what we observed in this study was it did not
+provide that much of a change in the amount of data needed.",2023-07-20
+"On the Origin of LLMs: An Evolutionary Tree and Graph for 15,821 Large
+  Language Models",2023-07-19 07:17:43+00:00,http://arxiv.org/abs/2307.09793v1,"Sarah Gao, Andrew Kean Gao","cs.DL, cs.CL, I.2.1; H.5.0",knowledge,"Since late 2022, Large Language Models (LLMs) have become very prominent with
+LLMs like ChatGPT and Bard receiving millions of users. Hundreds of new LLMs
+are announced each week, many of which are deposited to Hugging Face, a
+repository of machine learning models and datasets. To date, nearly 16,000 Text
+Generation models have been uploaded to the site. Given the huge influx of
+LLMs, it is of interest to know which LLM backbones, settings, training
+methods, and families are popular or trending. However, there is no
+comprehensive index of LLMs available. We take advantage of the relatively
+systematic nomenclature of Hugging Face LLMs to perform hierarchical clustering
+and identify communities amongst LLMs using n-grams and term frequency-inverse
+document frequency. Our methods successfully identify families of LLMs and
+accurately cluster LLMs into meaningful subgroups. We present a public web
+application to navigate and explore Constellation, our atlas of 15,821 LLMs.
+Constellation rapidly generates a variety of visualizations, namely
+dendrograms, graphs, word clouds, and scatter plots. Constellation is available
+at the following link: https://constellation.sites.stanford.edu/.",2023-07-19
+"Unveiling Gender Bias in Terms of Profession Across LLMs: Analyzing and
+  Addressing Sociological Implications",2023-07-18 11:38:45+00:00,http://arxiv.org/abs/2307.09162v1,Vishesh Thakur,cs.CL,knowledge,"Gender bias in artificial intelligence (AI) and natural language processing
+has garnered significant attention due to its potential impact on societal
+perceptions and biases. This research paper aims to analyze gender bias in
+Large Language Models (LLMs) with a focus on multiple comparisons between GPT-2
+and GPT-3.5, some prominent language models, to better understand its
+implications. Through a comprehensive literature review, the study examines
+existing research on gender bias in AI language models and identifies gaps in
+the current knowledge. The methodology involves collecting and preprocessing
+data from GPT-2 and GPT-3.5, and employing in-depth quantitative analysis
+techniques to evaluate gender bias in the generated text. The findings shed
+light on gendered word associations, language usage, and biased narratives
+present in the outputs of these Large Language Models. The discussion explores
+the ethical implications of gender bias and its potential consequences on
+social perceptions and marginalized communities. Additionally, the paper
+presents strategies for reducing gender bias in LLMs, including algorithmic
+approaches and data augmentation techniques. The research highlights the
+importance of interdisciplinary collaborations and the role of sociological
+studies in mitigating gender bias in AI models. By addressing these issues, we
+can pave the way for more inclusive and unbiased AI systems that have a
+positive impact on society.",2023-07-18
+Large Language Models Perform Diagnostic Reasoning,2023-07-18 01:43:00+00:00,http://arxiv.org/abs/2307.08922v1,"Cheng-Kuang Wu, Wei-Lin Chen, Hsin-Hsi Chen",cs.CL,knowledge,"We explore the extension of chain-of-thought (CoT) prompting to medical
+reasoning for the task of automatic diagnosis. Motivated by doctors' underlying
+reasoning process, we present Diagnostic-Reasoning CoT (DR-CoT). Empirical
+results demonstrate that by simply prompting large language models trained only
+on general text corpus with two DR-CoT exemplars, the diagnostic accuracy
+improves by 15% comparing to standard prompting. Moreover, the gap reaches a
+pronounced 18% in out-domain settings. Our findings suggest expert-knowledge
+reasoning in large language models can be elicited through proper promptings.",2023-07-18
+COLLIE: Systematic Construction of Constrained Text Generation Tasks,2023-07-17 17:48:51+00:00,http://arxiv.org/abs/2307.08689v1,"Shunyu Yao, Howard Chen, Austin W. Hanjie, Runzhe Yang, Karthik Narasimhan","cs.CL, cs.AI, cs.LG",knowledge,"Text generation under constraints have seen increasing interests in natural
+language processing, especially with the rapidly improving capabilities of
+large language models. However, existing benchmarks for constrained generation
+usually focus on fixed constraint types (e.g.,generate a sentence containing
+certain words) that have proved to be easy for state-of-the-art models like
+GPT-4. We present COLLIE, a grammar-based framework that allows the
+specification of rich, compositional constraints with diverse generation levels
+(word, sentence, paragraph, passage) and modeling challenges (e.g.,language
+understanding, logical reasoning, counting, semantic planning). We also develop
+tools for automatic extraction of task instances given a constraint structure
+and a raw text corpus. Using COLLIE, we compile the COLLIE-v1 dataset with 2080
+instances comprising 13 constraint structures. We perform systematic
+experiments across five state-of-the-art instruction-tuned language models and
+analyze their performances to reveal shortcomings. COLLIE is designed to be
+extensible and lightweight, and we hope the community finds it useful to
+develop more complex constraints and evaluations in the future.",2023-07-17
+"A Dialogue System for Assessing Activities of Daily Living: Improving
+  Consistency with Grounded Knowledge",2023-07-15 22:41:59+00:00,http://arxiv.org/abs/2307.07544v1,"Zhecheng Sheng, Raymond Finzel, Michael Lucke, Sheena Dufresne, Maria Gini, Serguei Pakhomov","cs.CL, cs.AI",knowledge,"In healthcare, the ability to care for oneself is reflected in the
+""Activities of Daily Living (ADL),"" which serve as a measure of functional
+ability (functioning). A lack of functioning may lead to poor living conditions
+requiring personal care and assistance. To accurately identify those in need of
+support, assistance programs continuously evaluate participants' functioning
+across various domains. However, the assessment process may encounter
+consistency issues when multiple assessors with varying levels of expertise are
+involved. Novice assessors, in particular, may lack the necessary preparation
+for real-world interactions with participants. To address this issue, we
+developed a dialogue system that simulates interactions between assessors and
+individuals of varying functioning in a natural and reproducible way. The
+dialogue system consists of two major modules, one for natural language
+understanding (NLU) and one for natural language generation (NLG),
+respectively. In order to generate responses consistent with the underlying
+knowledge base, the dialogue system requires both an understanding of the
+user's query and of biographical details of an individual being simulated. To
+fulfill this requirement, we experimented with query classification and
+generated responses based on those biographical details using some recently
+released InstructGPT-like models.",2023-07-15
+"Using Large Language Models for Zero-Shot Natural Language Generation
+  from Knowledge Graphs",2023-07-14 12:45:03+00:00,http://arxiv.org/abs/2307.07312v1,"Agnes Axelsson, Gabriel Skantze","cs.CL, 68T50, I.2.7; I.2.4",knowledge,"In any system that uses structured knowledge graph (KG) data as its
+underlying knowledge representation, KG-to-text generation is a useful tool for
+turning parts of the graph data into text that can be understood by humans.
+Recent work has shown that models that make use of pretraining on large amounts
+of text data can perform well on the KG-to-text task even with relatively small
+sets of training data on the specific graph-to-text task. In this paper, we
+build on this concept by using large language models to perform zero-shot
+generation based on nothing but the model's understanding of the triple
+structure from what it can read. We show that ChatGPT achieves near
+state-of-the-art performance on some measures of the WebNLG 2020 challenge, but
+falls behind on others. Additionally, we compare factual, counter-factual and
+fictional statements, and show that there is a significant connection between
+what the LLM already knows about the data it is parsing and the quality of the
+output text.",2023-07-14
+Reading Radiology Imaging Like The Radiologist,2023-07-12 05:36:47+00:00,http://arxiv.org/abs/2307.05921v3,Yuhao Wang,"cs.CV, cs.AI",knowledge,"Automated radiology report generation aims to generate radiology reports that
+contain rich, fine-grained descriptions of radiology imaging. Compared with
+image captioning in the natural image domain, medical images are very similar
+to each other, with only minor differences in the occurrence of diseases. Given
+the importance of these minor differences in the radiology report, it is
+crucial to encourage the model to focus more on the subtle regions of disease
+occurrence. Secondly, the problem of visual and textual data biases is serious.
+Not only do normal cases make up the majority of the dataset, but sentences
+describing areas with pathological changes also constitute only a small part of
+the paragraph. Lastly, generating medical image reports involves the challenge
+of long text generation, which requires more expertise and empirical training
+in medical knowledge. As a result, the difficulty of generating such reports is
+increased. To address these challenges, we propose a disease-oriented retrieval
+framework that utilizes similar reports as prior knowledge references. We
+design a factual consistency captioning generator to generate more accurate and
+factually consistent disease descriptions. Our framework can find most similar
+reports for a given disease from the CXR database by retrieving a
+disease-oriented mask consisting of the position and morphological
+characteristics. By referencing the disease-oriented similar report and the
+visual features, the factual consistency model can generate a more accurate
+radiology report.",2023-07-12
+"SkipDecode: Autoregressive Skip Decoding with Batching and Caching for
+  Efficient LLM Inference",2023-07-05 19:59:09+00:00,http://arxiv.org/abs/2307.02628v1,"Luciano Del Corro, Allie Del Giorno, Sahaj Agarwal, Bin Yu, Ahmed Awadallah, Subhabrata Mukherjee",cs.CL,knowledge,"Autoregressive large language models (LLMs) have made remarkable progress in
+various natural language generation tasks. However, they incur high computation
+cost and latency resulting from the autoregressive token-by-token generation.
+To address this issue, several approaches have been proposed to reduce
+computational cost using early-exit strategies. These strategies enable faster
+text generation using reduced computation without applying the full computation
+graph to each token. While existing token-level early exit methods show
+promising results for online inference, they cannot be readily applied for
+batch inferencing and Key-Value caching. This is because they have to wait
+until the last token in a batch exits before they can stop computing. This
+severely limits the practical application of such techniques. In this paper, we
+propose a simple and effective token-level early exit method, SkipDecode,
+designed to work seamlessly with batch inferencing and KV caching. It overcomes
+prior constraints by setting up a singular exit point for every token in a
+batch at each sequence position. It also guarantees a monotonic decrease in
+exit points, thereby eliminating the need to recompute KV Caches for preceding
+tokens. Rather than terminating computation prematurely as in prior works, our
+approach bypasses lower to middle layers, devoting most of the computational
+resources to upper layers, allowing later tokens to benefit from the compute
+expenditure by earlier tokens. Our experimental results show that SkipDecode
+can obtain 2x to 5x inference speedups with negligible regression across a
+variety of tasks. This is achieved using OPT models of 1.3 billion and 6.7
+billion parameters, all the while being directly compatible with batching and
+KV caching optimization techniques.",2023-07-05
+"A ChatGPT Aided Explainable Framework for Zero-Shot Medical Image
+  Diagnosis",2023-07-05 01:45:19+00:00,http://arxiv.org/abs/2307.01981v1,"Jiaxiang Liu, Tianxiang Hu, Yan Zhang, Xiaotang Gai, Yang Feng, Zuozhu Liu","eess.IV, cs.CV, cs.LG",knowledge,"Zero-shot medical image classification is a critical process in real-world
+scenarios where we have limited access to all possible diseases or large-scale
+annotated data. It involves computing similarity scores between a query medical
+image and possible disease categories to determine the diagnostic result.
+Recent advances in pretrained vision-language models (VLMs) such as CLIP have
+shown great performance for zero-shot natural image recognition and exhibit
+benefits in medical applications. However, an explainable zero-shot medical
+image recognition framework with promising performance is yet under
+development. In this paper, we propose a novel CLIP-based zero-shot medical
+image classification framework supplemented with ChatGPT for explainable
+diagnosis, mimicking the diagnostic process performed by human experts. The key
+idea is to query large language models (LLMs) with category names to
+automatically generate additional cues and knowledge, such as disease symptoms
+or descriptions other than a single category name, to help provide more
+accurate and explainable diagnosis in CLIP. We further design specific prompts
+to enhance the quality of generated texts by ChatGPT that describe visual
+medical features. Extensive results on one private dataset and four public
+datasets along with detailed analysis demonstrate the effectiveness and
+explainability of our training-free zero-shot diagnosis pipeline, corroborating
+the great potential of VLMs and LLMs for medical applications.",2023-07-05
+"Knowledge-Aware Audio-Grounded Generative Slot Filling for Limited
+  Annotated Data",2023-07-04 15:05:42+00:00,http://arxiv.org/abs/2307.01764v1,"Guangzhi Sun, Chao Zhang, Ivan Vulić, Paweł Budzianowski, Philip C. Woodland",cs.CL,knowledge,"Manually annotating fine-grained slot-value labels for task-oriented dialogue
+(ToD) systems is an expensive and time-consuming endeavour. This motivates
+research into slot-filling methods that operate with limited amounts of
+labelled data. Moreover, the majority of current work on ToD is based solely on
+text as the input modality, neglecting the additional challenges of imperfect
+automatic speech recognition (ASR) when working with spoken language. In this
+work, we propose a Knowledge-Aware Audio-Grounded generative slot-filling
+framework, termed KA2G, that focuses on few-shot and zero-shot slot filling for
+ToD with speech input. KA2G achieves robust and data-efficient slot filling for
+speech-based ToD by 1) framing it as a text generation task, 2) grounding text
+generation additionally in the audio modality, and 3) conditioning on available
+external knowledge (e.g. a predefined list of possible slot values). We show
+that combining both modalities within the KA2G framework improves the
+robustness against ASR errors. Further, the knowledge-aware slot-value
+generator in KA2G, implemented via a pointer generator mechanism, particularly
+benefits few-shot and zero-shot learning. Experiments, conducted on the
+standard speech-based single-turn SLURP dataset and a multi-turn dataset
+extracted from a commercial ToD system, display strong and consistent gains
+over prior work, especially in few-shot and zero-shot setups.",2023-07-04
+"PatternGPT :A Pattern-Driven Framework for Large Language Model Text
+  Generation",2023-07-02 04:32:41+00:00,http://arxiv.org/abs/2307.00470v4,"Le Xiao, Xin Shan","cs.CL, cs.AI",knowledge,"Large language models(LLMS)have shown excellent text generation capabilities,
+capable of generating fluent human-like responses for many downstream tasks.
+However, applying large language models to real-world critical tasks remains
+challenging due to their susceptibility to hallucinations and inability to
+directly use external knowledge. To cope with the above challenges, this paper
+proposes PatternGPT, a pattern-driven text generation framework for Large
+Language Models. Firstly, the framework utilizes the extraction capability of
+Large Language Models to generate rich and diversified structured and
+formalized patterns, which facilitates the introduction of external knowledge
+to do the computation, and then draws on the idea of federated learning to use
+multiple agents to achieve the sharing in order to obtain more diversified
+patterns, and finally uses judgment criteria and optimization algorithm to
+search for high-quality patterns to guide the generation of models. Finally,
+external knowledge such as judgment criteria and optimization algorithms are
+used to search for high-quality patterns, and the searched patterns are used to
+guide model generation. This framework has the advantages of generating
+diversified patterns, protecting data privacy, combining external knowledge,
+and improving the quality of generation, which provides an effective method to
+optimize the text generation capability of large language models, and make it
+better applied to the field of intelligent dialogue and content generation.",2023-07-02
 Concept-Oriented Deep Learning with Large Language Models,2023-06-29 16:47:11+00:00,http://arxiv.org/abs/2306.17089v1,Daniel T. Chang,"cs.LG, cs.CL",knowledge,"Large Language Models (LLMs) have been successfully used in many
 natural-language tasks and applications including text generation and AI
 chatbots. They also are a promising new technology for concept-oriented deep
