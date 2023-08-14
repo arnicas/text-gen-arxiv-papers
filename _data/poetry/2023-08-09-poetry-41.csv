@@ -1,4 +1,40 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Sudowoodo: a Chinese Lyric Imitation System with Source Lyrics,2023-08-09 02:12:04+00:00,http://arxiv.org/abs/2308.04665v1,"Yongzhu Chang, Rongsheng Zhang, Lin Jiang, Qihang Chen, Le Zhang, Jiashu Pu",cs.CL,poetry,"Lyrics generation is a well-known application in natural language generation
+research, with several previous studies focusing on generating accurate lyrics
+using precise control such as keywords, rhymes, etc. However, lyrics imitation,
+which involves writing new lyrics by imitating the style and content of the
+source lyrics, remains a challenging task due to the lack of a parallel corpus.
+In this paper, we introduce \textbf{\textit{Sudowoodo}}, a Chinese lyrics
+imitation system that can generate new lyrics based on the text of source
+lyrics. To address the issue of lacking a parallel training corpus for lyrics
+imitation, we propose a novel framework to construct a parallel corpus based on
+a keyword-based lyrics model from source lyrics. Then the pairs \textit{(new
+lyrics, source lyrics)} are used to train the lyrics imitation model. During
+the inference process, we utilize a post-processing module to filter and rank
+the generated lyrics, selecting the highest-quality ones. We incorporated audio
+information and aligned the lyrics with the audio to form the songs as a bonus.
+The human evaluation results show that our framework can perform better lyric
+imitation. Meanwhile, the \textit{Sudowoodo} system and demo video of the
+system is available at
+\href{https://Sudowoodo.apps-hp.danlu.netease.com/}{Sudowoodo} and
+\href{https://youtu.be/u5BBT_j1L5M}{https://youtu.be/u5BBT\_j1L5M}.",2023-08-09
+"The Imitation Game: Detecting Human and AI-Generated Texts in the Era of
+  Large Language Models",2023-07-22 21:00:14+00:00,http://arxiv.org/abs/2307.12166v1,"Kadhim Hayawi, Sakib Shahriar, Sujith Samuel Mathew","cs.CL, cs.AI",poetry,"The potential of artificial intelligence (AI)-based large language models
+(LLMs) holds considerable promise in revolutionizing education, research, and
+practice. However, distinguishing between human-written and AI-generated text
+has become a significant task. This paper presents a comparative study,
+introducing a novel dataset of human-written and LLM-generated texts in
+different genres: essays, stories, poetry, and Python code. We employ several
+machine learning models to classify the texts. Results demonstrate the efficacy
+of these models in discerning between human and AI-generated text, despite the
+dataset's limited sample size. However, the task becomes more challenging when
+classifying GPT-generated text, particularly in story writing. The results
+indicate that the models exhibit superior performance in binary classification
+tasks, such as distinguishing human-generated text from a specific LLM,
+compared to the more complex multiclass tasks that involve discerning among
+human-generated and multiple LLMs. Our findings provide insightful implications
+for AI text detection while our dataset paves the way for future research in
+this evolving area.",2023-07-22
 "PoetryDiffusion: Towards Joint Semantic and Metrical Manipulation in
   Poetry Generation",2023-06-14 11:57:31+00:00,http://arxiv.org/abs/2306.08456v1,"Zhiyuan Hu, Chumin Liu, Yue Feng, Bryan Hooi",cs.CL,poetry,"Poetry generation is a typical and popular task in natural language
 generation. While prior works have shown success in controlling either semantic

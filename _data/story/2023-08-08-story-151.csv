@@ -1,4 +1,87 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"DataTales: Investigating the use of Large Language Models for Authoring
+  Data-Driven Articles",2023-08-08 06:21:58+00:00,http://arxiv.org/abs/2308.04076v1,"Nicole Sultanum, Arjun Srinivasan","cs.HC, cs.CL",story,"Authoring data-driven articles is a complex process requiring authors to not
+only analyze data for insights but also craft a cohesive narrative that
+effectively communicates the insights. Text generation capabilities of
+contemporary large language models (LLMs) present an opportunity to assist the
+authoring of data-driven articles and expedite the writing process. In this
+work, we investigate the feasibility and perceived value of leveraging LLMs to
+support authors of data-driven articles. We designed a prototype system,
+DataTales, that leverages a LLM to generate textual narratives accompanying a
+given chart. Using DataTales as a design probe, we conducted a qualitative
+study with 11 professionals to evaluate the concept, from which we distilled
+affordances and opportunities to further integrate LLMs as valuable data-driven
+article authoring assistants.",2023-08-08
+"Storyfier: Exploring Vocabulary Learning Support with Text Generation
+  Models",2023-08-07 18:25:00+00:00,http://arxiv.org/abs/2308.03864v1,"Zhenhui Peng, Xingbo Wang, Qiushi Han, Junkai Zhu, Xiaojuan Ma, Huamin Qu","cs.HC, cs.CL",story,"Vocabulary learning support tools have widely exploited existing materials,
+e.g., stories or video clips, as contexts to help users memorize each target
+word. However, these tools could not provide a coherent context for any target
+words of learners' interests, and they seldom help practice word usage. In this
+paper, we work with teachers and students to iteratively develop Storyfier,
+which leverages text generation models to enable learners to read a generated
+story that covers any target words, conduct a story cloze test, and use these
+words to write a new story with adaptive AI assistance. Our within-subjects
+study (N=28) shows that learners generally favor the generated stories for
+connecting target words and writing assistance for easing their learning
+workload. However, in the read-cloze-write learning sessions, participants
+using Storyfier perform worse in recalling and using target words than learning
+with a baseline tool without our AI features. We discuss insights into
+supporting learning tasks with generative models.",2023-08-07
+"""Kurosawa"": A Script Writer's Assistant",2023-08-06 14:09:02+00:00,http://arxiv.org/abs/2308.03122v1,"Prerak Gandhi, Vishal Pramanik, Pushpak Bhattacharyya",cs.CL,story,"Storytelling is the lifeline of the entertainment industry -- movies, TV
+shows, and stand-up comedies, all need stories. A good and gripping script is
+the lifeline of storytelling and demands creativity and resource investment.
+Good scriptwriters are rare to find and often work under severe time pressure.
+Consequently, entertainment media are actively looking for automation. In this
+paper, we present an AI-based script-writing workbench called KUROSAWA which
+addresses the tasks of plot generation and script generation. Plot generation
+aims to generate a coherent and creative plot (600-800 words) given a prompt
+(15-40 words). Script generation, on the other hand, generates a scene (200-500
+words) in a screenplay format from a brief description (15-40 words). Kurosawa
+needs data to train. We use a 4-act structure of storytelling to annotate the
+plot dataset manually. We create a dataset of 1000 manually annotated plots and
+their corresponding prompts/storylines and a gold-standard dataset of 1000
+scenes with four main elements -- scene headings, action lines, dialogues, and
+character names -- tagged individually. We fine-tune GPT-3 with the above
+datasets to generate plots and scenes. These plots and scenes are first
+evaluated and then used by the scriptwriters of a large and famous media
+platform ErosNow. We release the annotated datasets and the models trained on
+these datasets as a working benchmark for automatic movie plot and script
+generation.",2023-08-06
+Ambient Adventures: Teaching ChatGPT on Developing Complex Stories,2023-08-03 12:52:49+00:00,http://arxiv.org/abs/2308.01734v1,"Zexin Chen, Eric Zhou, Kenneth Eaton, Xiangyu Peng, Mark Riedl","cs.CL, cs.HC",story,"Imaginative play is an area of creativity that could allow robots to engage
+with the world around them in a much more personified way. Imaginary play can
+be seen as taking real objects and locations and using them as imaginary
+objects and locations in virtual scenarios. We adopted the story generation
+capability of large language models (LLMs) to obtain the stories used for
+imaginary play with human-written prompts. Those generated stories will be
+simplified and mapped into action sequences that can guide the agent in
+imaginary play. To evaluate whether the agent can successfully finish the
+imaginary play, we also designed a text adventure game to simulate a house as
+the playground for the agent to interact.",2023-08-03
+Trustworthiness of Children Stories Generated by Large Language Models,2023-07-25 22:55:51+00:00,http://arxiv.org/abs/2308.00073v1,"Prabin Bhandari, Hannah Marie Brennan",cs.CL,story,"Large Language Models (LLMs) have shown a tremendous capacity for generating
+literary text. However, their effectiveness in generating children's stories
+has yet to be thoroughly examined. In this study, we evaluate the
+trustworthiness of children's stories generated by LLMs using various measures,
+and we compare and contrast our results with both old and new children's
+stories to better assess their significance. Our findings suggest that LLMs
+still struggle to generate children's stories at the level of quality and
+nuance found in actual stories",2023-07-25
+"The Imitation Game: Detecting Human and AI-Generated Texts in the Era of
+  Large Language Models",2023-07-22 21:00:14+00:00,http://arxiv.org/abs/2307.12166v1,"Kadhim Hayawi, Sakib Shahriar, Sujith Samuel Mathew","cs.CL, cs.AI",story,"The potential of artificial intelligence (AI)-based large language models
+(LLMs) holds considerable promise in revolutionizing education, research, and
+practice. However, distinguishing between human-written and AI-generated text
+has become a significant task. This paper presents a comparative study,
+introducing a novel dataset of human-written and LLM-generated texts in
+different genres: essays, stories, poetry, and Python code. We employ several
+machine learning models to classify the texts. Results demonstrate the efficacy
+of these models in discerning between human and AI-generated text, despite the
+dataset's limited sample size. However, the task becomes more challenging when
+classifying GPT-generated text, particularly in story writing. The results
+indicate that the models exhibit superior performance in binary classification
+tasks, such as distinguishing human-generated text from a specific LLM,
+compared to the more complex multiclass tasks that involve discerning among
+human-generated and multiple LLMs. Our findings provide insightful implications
+for AI text detection while our dataset paves the way for future research in
+this evolving area.",2023-07-22
 "On the Origin of LLMs: An Evolutionary Tree and Graph for 15,821 Large
   Language Models",2023-07-19 07:17:43+00:00,http://arxiv.org/abs/2307.09793v1,"Sarah Gao, Andrew Kean Gao","cs.DL, cs.CL, I.2.1; H.5.0",story,"Since late 2022, Large Language Models (LLMs) have become very prominent with
 LLMs like ChatGPT and Bard receiving millions of users. Hundreds of new LLMs

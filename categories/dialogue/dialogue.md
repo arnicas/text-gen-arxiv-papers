@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2023-07-24*
+*written on 2023-08-14*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Dataflow Dialogue Generation](http://arxiv.org/abs/2308.02323v1) | Joram Meron, Victor Guimarães | cs.CL | 2023-08-04 |
+| [Controllable Generation of Dialogue Acts for Dialogue Systems via  Few-Shot Response Generation and Ranking](http://arxiv.org/abs/2307.14440v1) | Angela Ramirez, Karik Agarwal, Juraj Juraska, Utkarsh Garg, Marilyn A. Walker | cs.CL | 2023-07-26 |
+| [Adversarial Conversational Shaping for Intelligent Agents](http://arxiv.org/abs/2307.11785v1) | Piotr Tarasiewicz, Sultan Kenjeyev, Ilana Sebag, Shehab Alshehabi | cs.CL, cs.LG | 2023-07-20 |
 | [A Dialogue System for Assessing Activities of Daily Living: Improving  Consistency with Grounded Knowledge](http://arxiv.org/abs/2307.07544v1) | Zhecheng Sheng, Raymond Finzel, Michael Lucke, Sheena Dufresne, Maria Gini, Serguei Pakhomov | cs.CL, cs.AI | 2023-07-15 |
 | [Zero-shot NLG evaluation through Pairware Comparisons with LLMs](http://arxiv.org/abs/2307.07889v1) | Adian Liusie, Potsawee Manakul, Mark J. F. Gales | cs.CL | 2023-07-15 |
 | [DIALGEN: Collaborative Human-LM Generated Dialogues for Improved  Understanding of Human-Human Conversations](http://arxiv.org/abs/2307.07047v1) | Bo-Ru Lu, Nikita Haduong, Chia-Hsuan Lee, Zeqiu Wu, Hao Cheng, Paul Koester, Jean Utke, Tao Yu, Noah A. Smith, Mari Ostendorf | cs.CL | 2023-07-13 |

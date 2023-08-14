@@ -1,4 +1,173 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Generative Forests,2023-08-07 14:58:53+00:00,http://arxiv.org/abs/2308.03648v1,"Richard Nock, Mathieu Guillame-Bert","cs.LG, I.2.6",image2text,"Tabular data represents one of the most prevalent form of data. When it comes
+to data generation, many approaches would learn a density for the data
+generation process, but would not necessarily end up with a sampler, even less
+so being exact with respect to the underlying density. A second issue is on
+models: while complex modeling based on neural nets thrives in image or text
+generation (etc.), less is known for powerful generative models on tabular
+data. A third problem is the visible chasm on tabular data between training
+algorithms for supervised learning with remarkable properties (e.g. boosting),
+and a comparative lack of guarantees when it comes to data generation. In this
+paper, we tackle the three problems, introducing new tree-based generative
+models convenient for density modeling and tabular data generation that improve
+on modeling capabilities of recent proposals, and a training algorithm which
+simplifies the training setting of previous approaches and displays
+boosting-compliant convergence. This algorithm has the convenient property to
+rely on a supervised training scheme that can be implemented by a few tweaks to
+the most popular induction scheme for decision tree induction with two classes.
+Experiments are provided on missing data imputation and comparing generated
+data to real data, displaying the quality of the results obtained by our
+approach, in particular against state of the art.",2023-08-07
+FAST: Font-Agnostic Scene Text Editing,2023-08-05 15:54:06+00:00,http://arxiv.org/abs/2308.02905v1,"Alloy Das, Prasun Roy, Saumik Bhattacharya, Subhankar Ghosh, Umapada Pal, Michael Blumenstein","cs.CV, cs.MM",image2text,"Scene Text Editing (STE) is a challenging research problem, and it aims to
+modify existing texts in an image while preserving the background and the font
+style of the original text of the image. Due to its various real-life
+applications, researchers have explored several approaches toward STE in recent
+years. However, most of the existing STE methods show inferior editing
+performance because of (1) complex image backgrounds, (2) various font styles,
+and (3) varying word lengths within the text. To address such inferior editing
+performance issues, in this paper, we propose a novel font-agnostic scene text
+editing framework, named FAST, for simultaneously generating text in arbitrary
+styles and locations while preserving a natural and realistic appearance
+through combined mask generation and style transfer. The proposed approach
+differs from the existing methods as they directly modify all image pixels.
+Instead, the proposed method has introduced a filtering mechanism to remove
+background distractions, allowing the network to focus solely on the text
+regions where editing is required. Additionally, a text-style transfer module
+has been designed to mitigate the challenges posed by varying word lengths.
+Extensive experiments and ablations have been conducted, and the results
+demonstrate that the proposed method outperforms the existing methods both
+qualitatively and quantitatively.",2023-08-05
+Guiding Image Captioning Models Toward More Specific Captions,2023-07-31 14:00:12+00:00,http://arxiv.org/abs/2307.16686v1,"Simon Kornblith, Lala Li, Zirui Wang, Thao Nguyen","cs.CV, cs.LG",image2text,"Image captioning is conventionally formulated as the task of generating
+captions for images that match the distribution of reference image-caption
+pairs. However, reference captions in standard captioning datasets are short
+and may not uniquely identify the images they describe. These problems are
+further exacerbated when models are trained directly on image-alt text pairs
+collected from the internet. In this work, we show that it is possible to
+generate more specific captions with minimal changes to the training process.
+We implement classifier-free guidance for an autoregressive captioning model by
+fine-tuning it to estimate both conditional and unconditional distributions
+over captions. The guidance scale applied at decoding controls a trade-off
+between maximizing $p(\mathrm{caption}|\mathrm{image})$ and
+$p(\mathrm{image}|\mathrm{caption})$. Compared to standard greedy decoding,
+decoding with a guidance scale of 2 substantially improves reference-free
+metrics such as CLIPScore (0.808 vs. 0.775) and caption$\to$image retrieval
+performance in the CLIP embedding space (recall@1 44.6% vs. 26.5%), but worsens
+standard reference-based captioning metrics (e.g., CIDEr 78.6 vs 126.1). We
+further explore the use of language models to guide the decoding process,
+obtaining small improvements over the Pareto frontier of reference-free vs.
+reference-based captioning metrics that arises from classifier-free guidance,
+and substantially improving the quality of captions generated from a model
+trained only on minimally curated web data.",2023-07-31
+"Transferable Decoding with Visual Entities for Zero-Shot Image
+  Captioning",2023-07-31 09:47:06+00:00,http://arxiv.org/abs/2307.16525v1,"Junjie Fei, Teng Wang, Jinrui Zhang, Zhenyu He, Chengjie Wang, Feng Zheng","cs.CV, cs.CL",image2text,"Image-to-text generation aims to describe images using natural language.
+Recently, zero-shot image captioning based on pre-trained vision-language
+models (VLMs) and large language models (LLMs) has made significant progress.
+However, we have observed and empirically demonstrated that these methods are
+susceptible to modality bias induced by LLMs and tend to generate descriptions
+containing objects (entities) that do not actually exist in the image but
+frequently appear during training (i.e., object hallucination). In this paper,
+we propose ViECap, a transferable decoding model that leverages entity-aware
+decoding to generate descriptions in both seen and unseen scenarios. ViECap
+incorporates entity-aware hard prompts to guide LLMs' attention toward the
+visual entities present in the image, enabling coherent caption generation
+across diverse scenes. With entity-aware hard prompts, ViECap is capable of
+maintaining performance when transferring from in-domain to out-of-domain
+scenarios. Extensive experiments demonstrate that ViECap sets a new
+state-of-the-art cross-domain (transferable) captioning and performs
+competitively in-domain captioning compared to previous VLMs-based zero-shot
+methods. Our code is available at: https://github.com/FeiElysia/ViECap",2023-07-31
+"Visual Captioning at Will: Describing Images and Videos Guided by a Few
+  Stylized Sentences",2023-07-31 04:26:01+00:00,http://arxiv.org/abs/2307.16399v1,"Dingyi Yang, Hongyu Chen, Xinglin Hou, Tiezheng Ge, Yuning Jiang, Qin Jin","cs.MM, cs.CV",image2text,"Stylized visual captioning aims to generate image or video descriptions with
+specific styles, making them more attractive and emotionally appropriate. One
+major challenge with this task is the lack of paired stylized captions for
+visual content, so most existing works focus on unsupervised methods that do
+not rely on parallel datasets. However, these approaches still require training
+with sufficient examples that have style labels, and the generated captions are
+limited to predefined styles. To address these limitations, we explore the
+problem of Few-Shot Stylized Visual Captioning, which aims to generate captions
+in any desired style, using only a few examples as guidance during inference,
+without requiring further training. We propose a framework called FS-StyleCap
+for this task, which utilizes a conditional encoder-decoder language model and
+a visual projection module. Our two-step training scheme proceeds as follows:
+first, we train a style extractor to generate style representations on an
+unlabeled text-only corpus. Then, we freeze the extractor and enable our
+decoder to generate stylized descriptions based on the extracted style vector
+and projected visual content vectors. During inference, our model can generate
+desired stylized captions by deriving the style representation from
+user-supplied examples. Our automatic evaluation results for few-shot
+sentimental visual captioning outperform state-of-the-art approaches and are
+comparable to models that are fully trained on labeled style corpora. Human
+evaluations further confirm our model s ability to handle multiple styles.",2023-07-31
+"Learning Multi-modal Representations by Watching Hundreds of Surgical
+  Video Lectures",2023-07-27 22:38:12+00:00,http://arxiv.org/abs/2307.15220v1,"Kun Yuan, Vinkle Srivastav, Tong Yu, Joel Lavanchy, Pietro Mascagni, Nassir Navab, Nicolas Padoy","cs.CV, cs.AI",image2text,"Recent advancements in surgical computer vision applications have been driven
+by fully-supervised methods, primarily using only visual data. These methods
+rely on manually annotated surgical videos to predict a fixed set of object
+categories, limiting their generalizability to unseen surgical procedures and
+downstream tasks. In this work, we put forward the idea that the surgical video
+lectures available through open surgical e-learning platforms can provide
+effective supervisory signals for multi-modal representation learning without
+relying on manual annotations. We address the surgery-specific linguistic
+challenges present in surgical video lectures by employing multiple
+complementary automatic speech recognition systems to generate text
+transcriptions. We then present a novel method, SurgVLP - Surgical Vision
+Language Pre-training, for multi-modal representation learning. SurgVLP
+constructs a new contrastive learning objective to align video clip embeddings
+with the corresponding multiple text embeddings by bringing them together
+within a joint latent space. To effectively show the representation capability
+of the learned joint latent space, we introduce several vision-and-language
+tasks for surgery, such as text-based video retrieval, temporal activity
+grounding, and video captioning, as benchmarks for evaluation. We further
+demonstrate that without using any labeled ground truth, our approach can be
+employed for traditional vision-only surgical downstream tasks, such as
+surgical tool, phase, and triplet recognition. The code will be made available
+at https://github.com/CAMMA-public/SurgVLP",2023-07-27
+"A Transformer-based Approach for Arabic Offline Handwritten Text
+  Recognition",2023-07-27 17:51:52+00:00,http://arxiv.org/abs/2307.15045v1,"Saleh Momeni, Bagher BabaAli","cs.CV, cs.LG",image2text,"Handwriting recognition is a challenging and critical problem in the fields
+of pattern recognition and machine learning, with applications spanning a wide
+range of domains. In this paper, we focus on the specific issue of recognizing
+offline Arabic handwritten text. Existing approaches typically utilize a
+combination of convolutional neural networks for image feature extraction and
+recurrent neural networks for temporal modeling, with connectionist temporal
+classification used for text generation. However, these methods suffer from a
+lack of parallelization due to the sequential nature of recurrent neural
+networks. Furthermore, these models cannot account for linguistic rules,
+necessitating the use of an external language model in the post-processing
+stage to boost accuracy. To overcome these issues, we introduce two alternative
+architectures, namely the Transformer Transducer and the standard
+sequence-to-sequence Transformer, and compare their performance in terms of
+accuracy and speed. Our approach can model language dependencies and relies
+only on the attention mechanism, thereby making it more parallelizable and less
+complex. We employ pre-trained Transformers for both image understanding and
+language modeling. Our evaluation on the Arabic KHATT dataset demonstrates that
+our proposed method outperforms the current state-of-the-art approaches for
+recognizing offline Arabic handwritten text.",2023-07-27
+Evaluating Generative Models for Graph-to-Text Generation,2023-07-27 09:03:05+00:00,http://arxiv.org/abs/2307.14712v1,"Shuzhou Yuan, Michael Färber","cs.CL, cs.AI",image2text,"Large language models (LLMs) have been widely employed for graph-to-text
+generation tasks. However, the process of finetuning LLMs requires significant
+training resources and annotation work. In this paper, we explore the
+capability of generative models to generate descriptive text from graph data in
+a zero-shot setting. Specifically, we evaluate GPT-3 and ChatGPT on two
+graph-to-text datasets and compare their performance with that of finetuned LLM
+models such as T5 and BART. Our results demonstrate that generative models are
+capable of generating fluent and coherent text, achieving BLEU scores of 10.57
+and 11.08 for the AGENDA and WebNLG datasets, respectively. However, our error
+analysis reveals that generative models still struggle with understanding the
+semantic relations between entities, and they also tend to generate text with
+hallucinations or irrelevant information. As a part of error analysis, we
+utilize BERT to detect machine-generated text and achieve high macro-F1 scores.
+We have made the text generated by generative models publicly available.",2023-07-27
+XDLM: Cross-lingual Diffusion Language Model for Machine Translation,2023-07-25 15:08:34+00:00,http://arxiv.org/abs/2307.13560v2,"Linyao Chen, Aosong Feng, Boming Yang, Zihui Li",cs.CL,image2text,"Recently, diffusion models have excelled in image generation tasks and have
+also been applied to neural language processing (NLP) for controllable text
+generation. However, the application of diffusion models in a cross-lingual
+setting is less unexplored. Additionally, while pretraining with diffusion
+models has been studied within a single language, the potential of
+cross-lingual pretraining remains understudied. To address these gaps, we
+propose XDLM, a novel Cross-lingual diffusion model for machine translation,
+consisting of pretraining and fine-tuning stages. In the pretraining stage, we
+propose TLDM, a new training objective for mastering the mapping between
+different languages; in the fine-tuning stage, we build up the translation
+system based on the pretrained model. We evaluate the result on several machine
+translation benchmarks and outperformed both diffusion and Transformer
+baselines.",2023-07-25
 Enhancing CLIP with GPT-4: Harnessing Visual Descriptions as Prompts,2023-07-21 15:49:59+00:00,http://arxiv.org/abs/2307.11661v1,"Mayug Maniparambil, Chris Vorster, Derek Molloy, Noel Murphy, Kevin McGuinness, Noel E. O'Connor","cs.CV, cs.AI, cs.CL, cs.LG",image2text,"Contrastive pretrained large Vision-Language Models (VLMs) like CLIP have
 revolutionized visual representation learning by providing good performance on
 downstream datasets. VLMs are 0-shot adapted to a downstream dataset by

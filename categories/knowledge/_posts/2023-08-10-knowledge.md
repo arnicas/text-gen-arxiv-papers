@@ -6,10 +6,18 @@ sidebar:
 ---
 
 
-*written on 2023-07-24*
+*written on 2023-08-14*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Classification of Human- and AI-Generated Texts: Investigating Features  for ChatGPT](http://arxiv.org/abs/2308.05341v1) | Lorenz Mindner, Tim Schlippe, Kristina Schaaff | cs.CL, cs.AI | 2023-08-10 |
+| [Few-Shot Data-to-Text Generation via Unified Representation and  Multi-Source Learning](http://arxiv.org/abs/2308.05317v1) | Alexander Hanbo Li, Mingyue Shang, Evangelia Spiliopoulou, Jie Ma, Patrick Ng, Zhiguo Wang, Bonan Min, William Wang, Kathleen McKeown, Vittorio Castelli, Dan Roth, Bing Xiang | cs.CL | 2023-08-10 |
+| [Boosting Chinese ASR Error Correction with Dynamic Error Scaling  Mechanism](http://arxiv.org/abs/2308.03423v1) | Jiaxin Fan, Yong Zhang, Hanzhang Li, Jianzong Wang, Zhitao Li, Sheng Ouyang, Ning Cheng, Jing Xiao | cs.CL, cs.AI | 2023-08-07 |
+| [Evaluating Generative Models for Graph-to-Text Generation](http://arxiv.org/abs/2307.14712v1) | Shuzhou Yuan, Michael Färber | cs.CL, cs.AI | 2023-07-27 |
+| [Controllable Generation of Dialogue Acts for Dialogue Systems via  Few-Shot Response Generation and Ranking](http://arxiv.org/abs/2307.14440v1) | Angela Ramirez, Karik Agarwal, Juraj Juraska, Utkarsh Garg, Marilyn A. Walker | cs.CL | 2023-07-26 |
+| [Watermarking Conditional Text Generation for AI Detection: Unveiling  Challenges and a Semantic-Aware Watermark Remedy](http://arxiv.org/abs/2307.13808v1) | Yu Fu, Deyi Xiong, Yue Dong | cs.CL, cs.CR | 2023-07-25 |
+| [FacTool: Factuality Detection in Generative AI -- A Tool Augmented  Framework for Multi-Task and Multi-Domain Scenarios](http://arxiv.org/abs/2307.13528v2) | I-Chun Chern, Steffi Chern, Shiqi Chen, Weizhe Yuan, Kehua Feng, Chunting Zhou, Junxian He, Graham Neubig, Pengfei Liu | cs.CL, cs.AI | 2023-07-25 |
+| [Why Is Prompt Tuning for Vision-Language Models Robust to Noisy Labels?](http://arxiv.org/abs/2307.11978v1) | Cheng-En Wu, Yu Tian, Haichao Yu, Heng Wang, Pedro Morgado, Yu Hen Hu, Linjie Yang | cs.CV, cs.AI, cs.LG | 2023-07-22 |
 | [OxfordTVG-HIC: Can Machine Make Humorous Captions from Images?](http://arxiv.org/abs/2307.11636v1) | Runjia Li, Shuyang Sun, Mohamed Elhoseiny, Philip Torr | cs.CV, cs.CL | 2023-07-21 |
 | [Jina Embeddings: A Novel Set of High-Performance Sentence Embedding  Models](http://arxiv.org/abs/2307.11224v1) | Michael Günther, Louis Milliken, Jonathan Geuter, Georgios Mastrapas, Bo Wang, Han Xiao | cs.CL, cs.AI, cs.IR, cs.LG, 68T50, H.3.1; H.3.3; I.2.7; I.5.4 | 2023-07-20 |
 | [Generative Language Models on Nucleotide Sequences of Human Genes](http://arxiv.org/abs/2307.10634v1) | Musa Nuri Ihtiyar, Arzucan Ozgur | q-bio.GN, cs.CL, cs.LG | 2023-07-20 |

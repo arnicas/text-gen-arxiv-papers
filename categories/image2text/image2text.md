@@ -7,10 +7,19 @@ sidebar:
 ---
 
 
-*written on 2023-07-24*
+*written on 2023-08-14*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Generative Forests](http://arxiv.org/abs/2308.03648v1) | Richard Nock, Mathieu Guillame-Bert | cs.LG, I.2.6 | 2023-08-07 |
+| [FAST: Font-Agnostic Scene Text Editing](http://arxiv.org/abs/2308.02905v1) | Alloy Das, Prasun Roy, Saumik Bhattacharya, Subhankar Ghosh, Umapada Pal, Michael Blumenstein | cs.CV, cs.MM | 2023-08-05 |
+| [Guiding Image Captioning Models Toward More Specific Captions](http://arxiv.org/abs/2307.16686v1) | Simon Kornblith, Lala Li, Zirui Wang, Thao Nguyen | cs.CV, cs.LG | 2023-07-31 |
+| [Transferable Decoding with Visual Entities for Zero-Shot Image  Captioning](http://arxiv.org/abs/2307.16525v1) | Junjie Fei, Teng Wang, Jinrui Zhang, Zhenyu He, Chengjie Wang, Feng Zheng | cs.CV, cs.CL | 2023-07-31 |
+| [Visual Captioning at Will: Describing Images and Videos Guided by a Few  Stylized Sentences](http://arxiv.org/abs/2307.16399v1) | Dingyi Yang, Hongyu Chen, Xinglin Hou, Tiezheng Ge, Yuning Jiang, Qin Jin | cs.MM, cs.CV | 2023-07-31 |
+| [Learning Multi-modal Representations by Watching Hundreds of Surgical  Video Lectures](http://arxiv.org/abs/2307.15220v1) | Kun Yuan, Vinkle Srivastav, Tong Yu, Joel Lavanchy, Pietro Mascagni, Nassir Navab, Nicolas Padoy | cs.CV, cs.AI | 2023-07-27 |
+| [A Transformer-based Approach for Arabic Offline Handwritten Text  Recognition](http://arxiv.org/abs/2307.15045v1) | Saleh Momeni, Bagher BabaAli | cs.CV, cs.LG | 2023-07-27 |
+| [Evaluating Generative Models for Graph-to-Text Generation](http://arxiv.org/abs/2307.14712v1) | Shuzhou Yuan, Michael Färber | cs.CL, cs.AI | 2023-07-27 |
+| [XDLM: Cross-lingual Diffusion Language Model for Machine Translation](http://arxiv.org/abs/2307.13560v2) | Linyao Chen, Aosong Feng, Boming Yang, Zihui Li | cs.CL | 2023-07-25 |
 | [Enhancing CLIP with GPT-4: Harnessing Visual Descriptions as Prompts](http://arxiv.org/abs/2307.11661v1) | Mayug Maniparambil, Chris Vorster, Derek Molloy, Noel Murphy, Kevin McGuinness, Noel E. O'Connor | cs.CV, cs.AI, cs.CL, cs.LG | 2023-07-21 |
 | [OxfordTVG-HIC: Can Machine Make Humorous Captions from Images?](http://arxiv.org/abs/2307.11636v1) | Runjia Li, Shuyang Sun, Mohamed Elhoseiny, Philip Torr | cs.CV, cs.CL | 2023-07-21 |
 | [Generating Image-Specific Text Improves Fine-grained Image  Classification](http://arxiv.org/abs/2307.11315v1) | Emily Mu, Kathleen M. Lewis, Adrian V. Dalca, John Guttag | cs.CV, cs.CL | 2023-07-21 |
