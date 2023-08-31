@@ -7,10 +7,20 @@ sidebar:
 ---
 
 
-*written on 2023-08-14*
+*written on 2023-08-31*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Towards Vision-Language Mechanistic Interpretability: A Causal Tracing  Tool for BLIP](http://arxiv.org/abs/2308.14179v1) | Vedant Palit, Rohan Pandey, Aryaman Arora, Paul Pu Liang | cs.CL, cs.AI, cs.CV | 2023-08-27 |
+| [GeoExplainer: A Visual Analytics Framework for Spatial Modeling  Contextualization and Report Generation](http://arxiv.org/abs/2308.13588v1) | Fan Lei, Yuxin Ma, Stewart Fotheringham, Elizabeth Mack, Ziqi Li, Mehak Sachdeva, Sarah Bardin, Ross Maciejewski | cs.HC, cs.LG | 2023-08-25 |
+| [Manipulating Embeddings of Stable Diffusion Prompts](http://arxiv.org/abs/2308.12059v1) | Niklas Deckers, Julia Peters, Martin Potthast | cs.CV, cs.LG | 2023-08-23 |
+| [CgT-GAN: CLIP-guided Text GAN for Image Captioning](http://arxiv.org/abs/2308.12045v1) | Jiarui Yu, Haoran Li, Yanbin Hao, Bin Zhu, Tong Xu, Xiangnan He | cs.CV, cs.AI, cs.CL, cs.MM | 2023-08-23 |
+| [Ceci n'est pas une pomme: Adversarial Illusions in Multi-Modal  Embeddings](http://arxiv.org/abs/2308.11804v1) | Eugene Bagdasaryan, Vitaly Shmatikov | cs.CR, cs.AI, cs.LG | 2023-08-22 |
+| [Music Understanding LLaMA: Advancing Text-to-Music Generation with  Question Answering and Captioning](http://arxiv.org/abs/2308.11276v1) | Shansong Liu, Atin Sakkeer Hussain, Chenshuo Sun, Ying Shan | cs.SD, cs.AI, cs.CL, cs.MM, eess.AS | 2023-08-22 |
+| [Random Word Data Augmentation with CLIP for Zero-Shot Anomaly Detection](http://arxiv.org/abs/2308.11119v1) | Masato Tamura | cs.CV, cs.LG | 2023-08-22 |
+| [VL-PET: Vision-and-Language Parameter-Efficient Tuning via Granularity  Control](http://arxiv.org/abs/2308.09804v1) | Zi-Yuan Hu, Yanyang Li, Michael R. Lyu, Liwei Wang | cs.CV, cs.AI, cs.CL, cs.LG | 2023-08-18 |
+| [Can Knowledge Graphs Simplify Text?](http://arxiv.org/abs/2308.06975v2) | Anthony Colas, Haodi Ma, Xuanli He, Yang Bai, Daisy Zhe Wang | cs.CL | 2023-08-14 |
+| [Mirror Diffusion Models](http://arxiv.org/abs/2308.06342v2) | Jaesung Tae | cs.LG | 2023-08-11 |
 | [Generative Forests](http://arxiv.org/abs/2308.03648v1) | Richard Nock, Mathieu Guillame-Bert | cs.LG, I.2.6 | 2023-08-07 |
 | [FAST: Font-Agnostic Scene Text Editing](http://arxiv.org/abs/2308.02905v1) | Alloy Das, Prasun Roy, Saumik Bhattacharya, Subhankar Ghosh, Umapada Pal, Michael Blumenstein | cs.CV, cs.MM | 2023-08-05 |
 | [Guiding Image Captioning Models Toward More Specific Captions](http://arxiv.org/abs/2307.16686v1) | Simon Kornblith, Lala Li, Zirui Wang, Thao Nguyen | cs.CV, cs.LG | 2023-07-31 |

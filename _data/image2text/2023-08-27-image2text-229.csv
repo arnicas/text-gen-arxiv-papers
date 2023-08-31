@@ -1,4 +1,180 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Towards Vision-Language Mechanistic Interpretability: A Causal Tracing
+  Tool for BLIP",2023-08-27 18:46:47+00:00,http://arxiv.org/abs/2308.14179v1,"Vedant Palit, Rohan Pandey, Aryaman Arora, Paul Pu Liang","cs.CL, cs.AI, cs.CV",image2text,"Mechanistic interpretability seeks to understand the neural mechanisms that
+enable specific behaviors in Large Language Models (LLMs) by leveraging
+causality-based methods. While these approaches have identified neural circuits
+that copy spans of text, capture factual knowledge, and more, they remain
+unusable for multimodal models since adapting these tools to the
+vision-language domain requires considerable architectural changes. In this
+work, we adapt a unimodal causal tracing tool to BLIP to enable the study of
+the neural mechanisms underlying image-conditioned text generation. We
+demonstrate our approach on a visual question answering dataset, highlighting
+the causal relevance of later layer representations for all tokens.
+Furthermore, we release our BLIP causal tracing tool as open source to enable
+further experimentation in vision-language mechanistic interpretability by the
+community. Our code is available at
+https://github.com/vedantpalit/Towards-Vision-Language-Mechanistic-Interpretability.",2023-08-27
+"GeoExplainer: A Visual Analytics Framework for Spatial Modeling
+  Contextualization and Report Generation",2023-08-25 16:55:33+00:00,http://arxiv.org/abs/2308.13588v1,"Fan Lei, Yuxin Ma, Stewart Fotheringham, Elizabeth Mack, Ziqi Li, Mehak Sachdeva, Sarah Bardin, Ross Maciejewski","cs.HC, cs.LG",image2text,"Geographic regression models of various descriptions are often applied to
+identify patterns and anomalies in the determinants of spatially distributed
+observations. These types of analyses focus on answering why questions about
+underlying spatial phenomena, e.g., why is crime higher in this locale, why do
+children in one school district outperform those in another, etc.? Answers to
+these questions require explanations of the model structure, the choice of
+parameters, and contextualization of the findings with respect to their
+geographic context. This is particularly true for local forms of regression
+models which are focused on the role of locational context in determining human
+behavior. In this paper, we present GeoExplainer, a visual analytics framework
+designed to support analysts in creating explanative documentation that
+summarizes and contextualizes their spatial analyses. As analysts create their
+spatial models, our framework flags potential issues with model parameter
+selections, utilizes template-based text generation to summarize model outputs,
+and links with external knowledge repositories to provide annotations that help
+to explain the model results. As analysts explore the model results, all
+visualizations and annotations can be captured in an interactive report
+generation widget. We demonstrate our framework using a case study modeling the
+determinants of voting in the 2016 US Presidential Election.",2023-08-25
+Manipulating Embeddings of Stable Diffusion Prompts,2023-08-23 10:59:41+00:00,http://arxiv.org/abs/2308.12059v1,"Niklas Deckers, Julia Peters, Martin Potthast","cs.CV, cs.LG",image2text,"Generative text-to-image models such as Stable Diffusion allow users to
+generate images based on a textual description, the prompt. Changing the prompt
+is still the primary means for the user to change a generated image as desired.
+However, changing the image by reformulating the prompt remains a difficult
+process of trial and error, which has led to the emergence of prompt
+engineering as a new field of research. We propose and analyze methods to
+change the embedding of a prompt directly instead of the prompt text. It allows
+for more fine-grained and targeted control that takes into account user
+intentions. Our approach treats the generative text-to-image model as a
+continuous function and passes gradients between the image space and the prompt
+embedding space. By addressing different user interaction problems, we can
+apply this idea in three scenarios: (1) Optimization of a metric defined in
+image space that could measure, for example, image style. (2) Assistance of
+users in creative tasks by enabling them to navigate the image space along a
+selection of directions of ""near"" prompt embeddings. (3) Changing the embedding
+of the prompt to include information that the user has seen in a particular
+seed but finds difficult to describe in the prompt. Our experiments demonstrate
+the feasibility of the described methods.",2023-08-23
+CgT-GAN: CLIP-guided Text GAN for Image Captioning,2023-08-23 10:25:37+00:00,http://arxiv.org/abs/2308.12045v1,"Jiarui Yu, Haoran Li, Yanbin Hao, Bin Zhu, Tong Xu, Xiangnan He","cs.CV, cs.AI, cs.CL, cs.MM",image2text,"The large-scale visual-language pre-trained model, Contrastive Language-Image
+Pre-training (CLIP), has significantly improved image captioning for scenarios
+without human-annotated image-caption pairs. Recent advanced CLIP-based image
+captioning without human annotations follows a text-only training paradigm,
+i.e., reconstructing text from shared embedding space. Nevertheless, these
+approaches are limited by the training/inference gap or huge storage
+requirements for text embeddings. Given that it is trivial to obtain images in
+the real world, we propose CLIP-guided text GAN (CgT-GAN), which incorporates
+images into the training process to enable the model to ""see"" real visual
+modality. Particularly, we use adversarial training to teach CgT-GAN to mimic
+the phrases of an external text corpus and CLIP-based reward to provide
+semantic guidance. The caption generator is jointly rewarded based on the
+caption naturalness to human language calculated from the GAN's discriminator
+and the semantic guidance reward computed by the CLIP-based reward module. In
+addition to the cosine similarity as the semantic guidance reward (i.e.,
+CLIP-cos), we further introduce a novel semantic guidance reward called
+CLIP-agg, which aligns the generated caption with a weighted text embedding by
+attentively aggregating the entire corpus. Experimental results on three
+subtasks (ZS-IC, In-UIC and Cross-UIC) show that CgT-GAN outperforms
+state-of-the-art methods significantly across all metrics. Code is available at
+https://github.com/Lihr747/CgtGAN.",2023-08-23
+"Ceci n'est pas une pomme: Adversarial Illusions in Multi-Modal
+  Embeddings",2023-08-22 21:57:22+00:00,http://arxiv.org/abs/2308.11804v1,"Eugene Bagdasaryan, Vitaly Shmatikov","cs.CR, cs.AI, cs.LG",image2text,"Multi-modal encoders map images, sounds, texts, videos, etc. into a single
+embedding space, aligning representations across modalities (e.g., associate an
+image of a dog with a barking sound). We show that multi-modal embeddings can
+be vulnerable to an attack we call ""adversarial illusions."" Given an input in
+any modality, an adversary can perturb it so as to make its embedding close to
+that of an arbitrary, adversary-chosen input in another modality. Illusions
+thus enable the adversary to align any image with any text, any text with any
+sound, etc.
+  Adversarial illusions exploit proximity in the embedding space and are thus
+agnostic to downstream tasks. Using ImageBind embeddings, we demonstrate how
+adversarially aligned inputs, generated without knowledge of specific
+downstream tasks, mislead image generation, text generation, and zero-shot
+classification.",2023-08-22
+"Music Understanding LLaMA: Advancing Text-to-Music Generation with
+  Question Answering and Captioning",2023-08-22 08:43:33+00:00,http://arxiv.org/abs/2308.11276v1,"Shansong Liu, Atin Sakkeer Hussain, Chenshuo Sun, Ying Shan","cs.SD, cs.AI, cs.CL, cs.MM, eess.AS",image2text,"Text-to-music generation (T2M-Gen) faces a major obstacle due to the scarcity
+of large-scale publicly available music datasets with natural language
+captions. To address this, we propose the Music Understanding LLaMA (MU-LLaMA),
+capable of answering music-related questions and generating captions for music
+files. Our model utilizes audio representations from a pretrained MERT model to
+extract music features. However, obtaining a suitable dataset for training the
+MU-LLaMA model remains challenging, as existing publicly accessible audio
+question answering datasets lack the necessary depth for open-ended music
+question answering. To fill this gap, we present a methodology for generating
+question-answer pairs from existing audio captioning datasets and introduce the
+MusicQA Dataset designed for answering open-ended music-related questions. The
+experiments demonstrate that the proposed MU-LLaMA model, trained on our
+designed MusicQA dataset, achieves outstanding performance in both music
+question answering and music caption generation across various metrics,
+outperforming current state-of-the-art (SOTA) models in both fields and
+offering a promising advancement in the T2M-Gen research field.",2023-08-22
+Random Word Data Augmentation with CLIP for Zero-Shot Anomaly Detection,2023-08-22 01:55:03+00:00,http://arxiv.org/abs/2308.11119v1,Masato Tamura,"cs.CV, cs.LG",image2text,"This paper presents a novel method that leverages a visual-language model,
+CLIP, as a data source for zero-shot anomaly detection. Tremendous efforts have
+been put towards developing anomaly detectors due to their potential industrial
+applications. Considering the difficulty in acquiring various anomalous samples
+for training, most existing methods train models with only normal samples and
+measure discrepancies from the distribution of normal samples during inference,
+which requires training a model for each object category. The problem of this
+inefficient training requirement has been tackled by designing a CLIP-based
+anomaly detector that applies prompt-guided classification to each part of an
+image in a sliding window manner. However, the method still suffers from the
+labor of careful prompt ensembling with known object categories. To overcome
+the issues above, we propose leveraging CLIP as a data source for training. Our
+method generates text embeddings with the text encoder in CLIP with typical
+prompts that include words of normal and anomaly. In addition to these words,
+we insert several randomly generated words into prompts, which enables the
+encoder to generate a diverse set of normal and anomalous samples. Using the
+generated embeddings as training data, a feed-forward neural network learns to
+extract features of normal and anomaly from CLIP's embeddings, and as a result,
+a category-agnostic anomaly detector can be obtained without any training
+images. Experimental results demonstrate that our method achieves
+state-of-the-art performance without laborious prompt ensembling in zero-shot
+setups.",2023-08-22
+"VL-PET: Vision-and-Language Parameter-Efficient Tuning via Granularity
+  Control",2023-08-18 20:18:30+00:00,http://arxiv.org/abs/2308.09804v1,"Zi-Yuan Hu, Yanyang Li, Michael R. Lyu, Liwei Wang","cs.CV, cs.AI, cs.CL, cs.LG",image2text,"As the model size of pre-trained language models (PLMs) grows rapidly, full
+fine-tuning becomes prohibitively expensive for model training and storage. In
+vision-and-language (VL), parameter-efficient tuning (PET) techniques are
+proposed to integrate modular modifications (e.g., Adapter and LoRA) into
+encoder-decoder PLMs. By tuning a small set of trainable parameters, these
+techniques perform on par with full fine-tuning. However, excessive modular
+modifications and neglecting the functionality gap between the encoders and
+decoders can lead to performance degradation, while existing PET techniques
+(e.g., VL-Adapter) overlook these critical issues. In this paper, we propose a
+Vision-and-Language Parameter-Efficient Tuning (VL-PET) framework to impose
+effective control over modular modifications via a novel granularity-controlled
+mechanism. Considering different granularity-controlled matrices generated by
+this mechanism, a variety of model-agnostic VL-PET modules can be instantiated
+from our framework for better efficiency and effectiveness trade-offs. We
+further propose lightweight PET module designs to enhance VL alignment and
+modeling for the encoders and maintain text generation for the decoders.
+Extensive experiments conducted on four image-text tasks and four video-text
+tasks demonstrate the efficiency, effectiveness and transferability of our
+VL-PET framework. In particular, our VL-PET-large with lightweight PET module
+designs significantly outperforms VL-Adapter by 2.92% (3.41%) and LoRA by 3.37%
+(7.03%) with BART-base (T5-base) on image-text tasks. Furthermore, we validate
+the enhanced effect of employing our VL-PET designs on existing PET techniques,
+enabling them to achieve significant performance improvements. Our code is
+available at https://github.com/HenryHZY/VL-PET.",2023-08-18
+Can Knowledge Graphs Simplify Text?,2023-08-14 07:20:49+00:00,http://arxiv.org/abs/2308.06975v2,"Anthony Colas, Haodi Ma, Xuanli He, Yang Bai, Daisy Zhe Wang",cs.CL,image2text,"Knowledge Graph (KG)-to-Text Generation has seen recent improvements in
+generating fluent and informative sentences which describe a given KG. As KGs
+are widespread across multiple domains and contain important entity-relation
+information, and as text simplification aims to reduce the complexity of a text
+while preserving the meaning of the original text, we propose KGSimple, a novel
+approach to unsupervised text simplification which infuses KG-established
+techniques in order to construct a simplified KG path and generate a concise
+text which preserves the original input's meaning. Through an iterative and
+sampling KG-first approach, our model is capable of simplifying text when
+starting from a KG by learning to keep important information while harnessing
+KG-to-text generation to output fluent and descriptive sentences. We evaluate
+various settings of the KGSimple model on currently-available KG-to-text
+datasets, demonstrating its effectiveness compared to unsupervised text
+simplification models which start with a given complex text. Our code is
+available on GitHub.",2023-08-14
+Mirror Diffusion Models,2023-08-11 18:31:54+00:00,http://arxiv.org/abs/2308.06342v2,Jaesung Tae,cs.LG,image2text,"Diffusion models have successfully been applied to generative tasks in
+various continuous domains. However, applying diffusion to discrete categorical
+data remains a non-trivial task. Moreover, generation in continuous domains
+often requires clipping in practice, which motivates the need for a theoretical
+framework for adapting diffusion to constrained domains. Inspired by the mirror
+Langevin algorithm for the constrained sampling problem, in this theoretical
+report we propose Mirror Diffusion Models (MDMs). We demonstrate MDMs in the
+context of simplex diffusion and propose natural extensions to popular domains
+such as image and text generation.",2023-08-11
 Generative Forests,2023-08-07 14:58:53+00:00,http://arxiv.org/abs/2308.03648v1,"Richard Nock, Mathieu Guillame-Bert","cs.LG, I.2.6",image2text,"Tabular data represents one of the most prevalent form of data. When it comes
 to data generation, many approaches would learn a density for the data
 generation process, but would not necessarily end up with a sampler, even less

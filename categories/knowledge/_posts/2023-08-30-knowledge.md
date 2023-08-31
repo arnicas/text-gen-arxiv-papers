@@ -6,10 +6,18 @@ sidebar:
 ---
 
 
-*written on 2023-08-14*
+*written on 2023-08-31*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Optimizing Factual Accuracy in Text Generation through Dynamic Knowledge  Selection](http://arxiv.org/abs/2308.15711v1) | Hongjin Qian, Zhicheng Dou, Jiejun Tan, Haonan Chen, Haoqi Gu, Ruofei Lai, Xinyu Zhang, Zhao Cao, Ji-Rong Wen | cs.CL, cs.AI | 2023-08-30 |
+| [Towards Vision-Language Mechanistic Interpretability: A Causal Tracing  Tool for BLIP](http://arxiv.org/abs/2308.14179v1) | Vedant Palit, Rohan Pandey, Aryaman Arora, Paul Pu Liang | cs.CL, cs.AI, cs.CV | 2023-08-27 |
+| [Planning with Logical Graph-based Language Model for Instruction  Generation](http://arxiv.org/abs/2308.13782v1) | Fan Zhang, Kebing Jin, Hankz Hankui Zhuo | cs.CL, cs.AI | 2023-08-26 |
+| [GeoExplainer: A Visual Analytics Framework for Spatial Modeling  Contextualization and Report Generation](http://arxiv.org/abs/2308.13588v1) | Fan Lei, Yuxin Ma, Stewart Fotheringham, Elizabeth Mack, Ziqi Li, Mehak Sachdeva, Sarah Bardin, Ross Maciejewski | cs.HC, cs.LG | 2023-08-25 |
+| [ARTIST: ARTificial Intelligence for Simplified Text](http://arxiv.org/abs/2308.13458v1) | Lorenzo Corti, Jie Yang | cs.CL | 2023-08-25 |
+| [Ceci n'est pas une pomme: Adversarial Illusions in Multi-Modal  Embeddings](http://arxiv.org/abs/2308.11804v1) | Eugene Bagdasaryan, Vitaly Shmatikov | cs.CR, cs.AI, cs.LG | 2023-08-22 |
+| [Semantic Consistency for Assuring Reliability of Large Language Models](http://arxiv.org/abs/2308.09138v1) | Harsh Raj, Vipul Gupta, Domenic Rosati, Subhabrata Majumdar | cs.CL, cs.AI, cs.CY | 2023-08-17 |
+| [Can Knowledge Graphs Simplify Text?](http://arxiv.org/abs/2308.06975v2) | Anthony Colas, Haodi Ma, Xuanli He, Yang Bai, Daisy Zhe Wang | cs.CL | 2023-08-14 |
 | [Classification of Human- and AI-Generated Texts: Investigating Features  for ChatGPT](http://arxiv.org/abs/2308.05341v1) | Lorenz Mindner, Tim Schlippe, Kristina Schaaff | cs.CL, cs.AI | 2023-08-10 |
 | [Few-Shot Data-to-Text Generation via Unified Representation and  Multi-Source Learning](http://arxiv.org/abs/2308.05317v1) | Alexander Hanbo Li, Mingyue Shang, Evangelia Spiliopoulou, Jie Ma, Patrick Ng, Zhiguo Wang, Bonan Min, William Wang, Kathleen McKeown, Vittorio Castelli, Dan Roth, Bing Xiang | cs.CL | 2023-08-10 |
 | [Boosting Chinese ASR Error Correction with Dynamic Error Scaling  Mechanism](http://arxiv.org/abs/2308.03423v1) | Jiaxin Fan, Yong Zhang, Hanzhang Li, Jianzong Wang, Zhitao Li, Sheng Ouyang, Ning Cheng, Jing Xiao | cs.CL, cs.AI | 2023-08-07 |

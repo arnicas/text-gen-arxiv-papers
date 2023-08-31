@@ -1,4 +1,58 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Out of the Cage: How Stochastic Parrots Win in Cyber Security
+  Environments",2023-08-23 12:11:27+00:00,http://arxiv.org/abs/2308.12086v2,"Maria Rigaki, Ondřej Lukáš, Carlos A. Catania, Sebastian Garcia","cs.CR, cs.AI, cs.CL",dialogue,"Large Language Models (LLMs) have gained widespread popularity across diverse
+domains involving text generation, summarization, and various natural language
+processing tasks. Despite their inherent limitations, LLM-based designs have
+shown promising capabilities in planning and navigating open-world scenarios.
+This paper introduces a novel application of pre-trained LLMs as agents within
+cybersecurity network environments, focusing on their utility for sequential
+decision-making processes.
+  We present an approach wherein pre-trained LLMs are leveraged as attacking
+agents in two reinforcement learning environments. Our proposed agents
+demonstrate similar or better performance against state-of-the-art agents
+trained for thousands of episodes in most scenarios and configurations. In
+addition, the best LLM agents perform similarly to human testers of the
+environment without any additional training process. This design highlights the
+potential of LLMs to efficiently address complex decision-making tasks within
+cybersecurity.
+  Furthermore, we introduce a new network security environment named
+NetSecGame. The environment is designed to eventually support complex
+multi-agent scenarios within the network security domain. The proposed
+environment mimics real network attacks and is designed to be highly modular
+and adaptable for various scenarios.",2023-08-23
+"Enhancing Performance on Seen and Unseen Dialogue Scenarios using
+  Retrieval-Augmented End-to-End Task-Oriented System",2023-08-16 06:52:10+00:00,http://arxiv.org/abs/2308.08169v1,"Jianguo Zhang, Stephen Roller, Kun Qian, Zhiwei Liu, Rui Meng, Shelby Heinecke, Huan Wang, Silvio Savarese, Caiming Xiong","cs.CL, cs.AI",dialogue,"End-to-end task-oriented dialogue (TOD) systems have achieved promising
+performance by leveraging sophisticated natural language understanding and
+natural language generation capabilities of pre-trained models. This work
+enables the TOD systems with more flexibility through a simple cache. The cache
+provides the flexibility to dynamically update the TOD systems and handle both
+existing and unseen dialogue scenarios. Towards this end, we first fine-tune a
+retrieval module to effectively retrieve the most relevant information entries
+from the cache. We then train end-to-end TOD models that can refer to and
+ground on both dialogue history and retrieved information during TOD
+generation. The cache is straightforward to construct, and the backbone models
+of TOD systems are compatible with existing pre-trained generative models.
+Extensive experiments demonstrate the superior performance of our framework,
+with a notable improvement in non-empty joint goal accuracy by 6.7% compared to
+strong baselines.",2023-08-16
+ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate,2023-08-14 15:13:04+00:00,http://arxiv.org/abs/2308.07201v1,"Chi-Min Chan, Weize Chen, Yusheng Su, Jianxuan Yu, Wei Xue, Shanghang Zhang, Jie Fu, Zhiyuan Liu",cs.CL,dialogue,"Text evaluation has historically posed significant challenges, often
+demanding substantial labor and time cost. With the emergence of large language
+models (LLMs), researchers have explored LLMs' potential as alternatives for
+human evaluation. While these single-agent-based approaches show promise,
+experimental results suggest that further advancements are needed to bridge the
+gap between their current effectiveness and human-level evaluation quality.
+Recognizing that best practices of human evaluation processes often involve
+multiple human annotators collaborating in the evaluation, we resort to a
+multi-agent debate framework, moving beyond single-agent prompting strategies.
+The multi-agent-based approach enables a group of LLMs to synergize with an
+array of intelligent counterparts, harnessing their distinct capabilities and
+expertise to enhance efficiency and effectiveness in handling intricate tasks.
+In this paper, we construct a multi-agent referee team called ChatEval to
+autonomously discuss and evaluate the quality of generated responses from
+different models on open-ended questions and traditional natural language
+generation (NLG) tasks. Our analysis shows that ChatEval transcends mere
+textual scoring, offering a human-mimicking evaluation process for reliable
+assessments. Our code is available at https://github.com/chanchimin/ChatEval.",2023-08-14
 Dataflow Dialogue Generation,2023-08-04 13:40:54+00:00,http://arxiv.org/abs/2308.02323v1,"Joram Meron, Victor Guimarães",cs.CL,dialogue,"We demonstrate task-oriented dialogue generation within the dataflow dialogue
 paradigm. We show an example of agenda driven dialogue generation for the
 MultiWOZ domain, and an example of generation without an agenda for the

@@ -1,4 +1,141 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Optimizing Factual Accuracy in Text Generation through Dynamic Knowledge
+  Selection",2023-08-30 02:22:40+00:00,http://arxiv.org/abs/2308.15711v1,"Hongjin Qian, Zhicheng Dou, Jiejun Tan, Haonan Chen, Haoqi Gu, Ruofei Lai, Xinyu Zhang, Zhao Cao, Ji-Rong Wen","cs.CL, cs.AI",knowledge,"Language models (LMs) have revolutionized the way we interact with
+information, but they often generate nonfactual text, raising concerns about
+their reliability. Previous methods use external knowledge as references for
+text generation to enhance factuality but often struggle with the knowledge
+mix-up(e.g., entity mismatch) of irrelevant references. Besides,as the length
+of the output text grows, the randomness of sampling can escalate,
+detrimentally impacting the factual accuracy of the generated text. In this
+paper, we present DKGen, which divide the text generation process into an
+iterative process. In each iteration, DKGen takes the input query, the
+previously generated text and a subset of the reference passages as input to
+generate short text. During the process, the subset is dynamically selected
+from the full passage set based on their relevance to the previously generated
+text and the query, largely eliminating the irrelevant references from input.
+To further enhance DKGen's ability to correctly use these external knowledge,
+DKGen distills the relevance order of reference passages to the cross-attention
+distribution of decoder. We train and evaluate DKGen on a large-scale benchmark
+dataset. Experiment results show that DKGen outperforms all baseline models.",2023-08-30
+"Towards Vision-Language Mechanistic Interpretability: A Causal Tracing
+  Tool for BLIP",2023-08-27 18:46:47+00:00,http://arxiv.org/abs/2308.14179v1,"Vedant Palit, Rohan Pandey, Aryaman Arora, Paul Pu Liang","cs.CL, cs.AI, cs.CV",knowledge,"Mechanistic interpretability seeks to understand the neural mechanisms that
+enable specific behaviors in Large Language Models (LLMs) by leveraging
+causality-based methods. While these approaches have identified neural circuits
+that copy spans of text, capture factual knowledge, and more, they remain
+unusable for multimodal models since adapting these tools to the
+vision-language domain requires considerable architectural changes. In this
+work, we adapt a unimodal causal tracing tool to BLIP to enable the study of
+the neural mechanisms underlying image-conditioned text generation. We
+demonstrate our approach on a visual question answering dataset, highlighting
+the causal relevance of later layer representations for all tokens.
+Furthermore, we release our BLIP causal tracing tool as open source to enable
+further experimentation in vision-language mechanistic interpretability by the
+community. Our code is available at
+https://github.com/vedantpalit/Towards-Vision-Language-Mechanistic-Interpretability.",2023-08-27
+"Planning with Logical Graph-based Language Model for Instruction
+  Generation",2023-08-26 06:28:14+00:00,http://arxiv.org/abs/2308.13782v1,"Fan Zhang, Kebing Jin, Hankz Hankui Zhuo","cs.CL, cs.AI",knowledge,"Despite the superior performance of large language models to generate natural
+language texts, it is hard to generate texts with correct logic according to a
+given task, due to the difficulties for neural models to capture implied rules
+from free-form texts. In this paper, we propose a novel graph-based language
+model, Logical-GLM, to infuse logic into language models for more valid text
+generation and interpretability. Specifically, we first capture information
+from natural language instructions and construct logical bayes graphs that
+generally describe domains. Next, we generate logical skeletons to guide
+language model training, infusing domain knowledge into language models.
+Finally, we alternately optimize the searching policy of graphs and language
+models until convergence. The experimental results show that Logical-GLM is
+both effective and efficient compared with traditional language models, despite
+using smaller-scale training data and fewer parameters. Our approach can
+generate instructional texts with more correct logic owing to the internalized
+domain knowledge. Moreover, the usage of logical graphs reflects the inner
+mechanism of the language models, which improves the interpretability of
+black-box models.",2023-08-26
+"GeoExplainer: A Visual Analytics Framework for Spatial Modeling
+  Contextualization and Report Generation",2023-08-25 16:55:33+00:00,http://arxiv.org/abs/2308.13588v1,"Fan Lei, Yuxin Ma, Stewart Fotheringham, Elizabeth Mack, Ziqi Li, Mehak Sachdeva, Sarah Bardin, Ross Maciejewski","cs.HC, cs.LG",knowledge,"Geographic regression models of various descriptions are often applied to
+identify patterns and anomalies in the determinants of spatially distributed
+observations. These types of analyses focus on answering why questions about
+underlying spatial phenomena, e.g., why is crime higher in this locale, why do
+children in one school district outperform those in another, etc.? Answers to
+these questions require explanations of the model structure, the choice of
+parameters, and contextualization of the findings with respect to their
+geographic context. This is particularly true for local forms of regression
+models which are focused on the role of locational context in determining human
+behavior. In this paper, we present GeoExplainer, a visual analytics framework
+designed to support analysts in creating explanative documentation that
+summarizes and contextualizes their spatial analyses. As analysts create their
+spatial models, our framework flags potential issues with model parameter
+selections, utilizes template-based text generation to summarize model outputs,
+and links with external knowledge repositories to provide annotations that help
+to explain the model results. As analysts explore the model results, all
+visualizations and annotations can be captured in an interactive report
+generation widget. We demonstrate our framework using a case study modeling the
+determinants of voting in the 2016 US Presidential Election.",2023-08-25
+ARTIST: ARTificial Intelligence for Simplified Text,2023-08-25 16:06:06+00:00,http://arxiv.org/abs/2308.13458v1,"Lorenzo Corti, Jie Yang",cs.CL,knowledge,"Complex text is a major barrier for many citizens when accessing public
+information and knowledge. While often done manually, Text Simplification is a
+key Natural Language Processing task that aims for reducing the linguistic
+complexity of a text while preserving the original meaning. Recent advances in
+Generative Artificial Intelligence (AI) have enabled automatic text
+simplification both on the lexical and syntactical levels. However, as
+applications often focus on English, little is understood about the
+effectiveness of Generative AI techniques on low-resource languages such as
+Dutch. For this reason, we carry out empirical studies to understand the
+benefits and limitations of applying generative technologies for text
+simplification and provide the following outcomes: 1) the design and
+implementation for a configurable text simplification pipeline that
+orchestrates state-of-the-art generative text simplification models, domain and
+reader adaptation, and visualisation modules; 2) insights and lessons learned,
+showing the strengths of automatic text simplification while exposing the
+challenges in handling cultural and commonsense knowledge. These outcomes
+represent a first step in the exploration of Dutch text simplification and shed
+light on future endeavours both for research and practice.",2023-08-25
+"Ceci n'est pas une pomme: Adversarial Illusions in Multi-Modal
+  Embeddings",2023-08-22 21:57:22+00:00,http://arxiv.org/abs/2308.11804v1,"Eugene Bagdasaryan, Vitaly Shmatikov","cs.CR, cs.AI, cs.LG",knowledge,"Multi-modal encoders map images, sounds, texts, videos, etc. into a single
+embedding space, aligning representations across modalities (e.g., associate an
+image of a dog with a barking sound). We show that multi-modal embeddings can
+be vulnerable to an attack we call ""adversarial illusions."" Given an input in
+any modality, an adversary can perturb it so as to make its embedding close to
+that of an arbitrary, adversary-chosen input in another modality. Illusions
+thus enable the adversary to align any image with any text, any text with any
+sound, etc.
+  Adversarial illusions exploit proximity in the embedding space and are thus
+agnostic to downstream tasks. Using ImageBind embeddings, we demonstrate how
+adversarially aligned inputs, generated without knowledge of specific
+downstream tasks, mislead image generation, text generation, and zero-shot
+classification.",2023-08-22
+Semantic Consistency for Assuring Reliability of Large Language Models,2023-08-17 18:11:33+00:00,http://arxiv.org/abs/2308.09138v1,"Harsh Raj, Vipul Gupta, Domenic Rosati, Subhabrata Majumdar","cs.CL, cs.AI, cs.CY",knowledge,"Large Language Models (LLMs) exhibit remarkable fluency and competence across
+various natural language tasks. However, recent research has highlighted their
+sensitivity to variations in input prompts. To deploy LLMs in a safe and
+reliable manner, it is crucial for their outputs to be consistent when prompted
+with expressions that carry the same meaning or intent. While some existing
+work has explored how state-of-the-art LLMs address this issue, their
+evaluations have been confined to assessing lexical equality of single- or
+multi-word answers, overlooking the consistency of generative text sequences.
+For a more comprehensive understanding of the consistency of LLMs in open-ended
+text generation scenarios, we introduce a general measure of semantic
+consistency, and formulate multiple versions of this metric to evaluate the
+performance of various LLMs. Our proposal demonstrates significantly higher
+consistency and stronger correlation with human evaluations of output
+consistency than traditional metrics based on lexical consistency. Finally, we
+propose a novel prompting strategy, called Ask-to-Choose (A2C), to enhance
+semantic consistency. When evaluated for closed-book question answering based
+on answer variations from the TruthfulQA benchmark, A2C increases accuracy
+metrics for pretrained and finetuned LLMs by up to 47%, and semantic
+consistency metrics for instruction-tuned models by up to 7-fold.",2023-08-17
+Can Knowledge Graphs Simplify Text?,2023-08-14 07:20:49+00:00,http://arxiv.org/abs/2308.06975v2,"Anthony Colas, Haodi Ma, Xuanli He, Yang Bai, Daisy Zhe Wang",cs.CL,knowledge,"Knowledge Graph (KG)-to-Text Generation has seen recent improvements in
+generating fluent and informative sentences which describe a given KG. As KGs
+are widespread across multiple domains and contain important entity-relation
+information, and as text simplification aims to reduce the complexity of a text
+while preserving the meaning of the original text, we propose KGSimple, a novel
+approach to unsupervised text simplification which infuses KG-established
+techniques in order to construct a simplified KG path and generate a concise
+text which preserves the original input's meaning. Through an iterative and
+sampling KG-first approach, our model is capable of simplifying text when
+starting from a KG by learning to keep important information while harnessing
+KG-to-text generation to output fluent and descriptive sentences. We evaluate
+various settings of the KGSimple model on currently-available KG-to-text
+datasets, demonstrating its effectiveness compared to unsupervised text
+simplification models which start with a given complex text. Our code is
+available on GitHub.",2023-08-14
 "Classification of Human- and AI-Generated Texts: Investigating Features
   for ChatGPT",2023-08-10 05:09:42+00:00,http://arxiv.org/abs/2308.05341v1,"Lorenz Mindner, Tim Schlippe, Kristina Schaaff","cs.CL, cs.AI",knowledge,"Recently, generative AIs like ChatGPT have become available to the wide
 public. These tools can for instance be used by students to generate essays or
