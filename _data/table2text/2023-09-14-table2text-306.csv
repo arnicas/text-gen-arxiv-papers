@@ -1,4 +1,300 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"CATfOOD: Counterfactual Augmented Training for Improving Out-of-Domain
+  Performance and Calibration",2023-09-14 16:16:40+00:00,http://arxiv.org/abs/2309.07822v1,"Rachneet Sachdeva, Martin Tutek, Iryna Gurevych",cs.CL,table2text,"In recent years, large language models (LLMs) have shown remarkable
+capabilities at scale, particularly at generating text conditioned on a prompt.
+In our work, we investigate the use of LLMs to augment training data of small
+language models~(SLMs) with automatically generated counterfactual~(CF)
+instances -- i.e. minimally altered inputs -- in order to improve
+out-of-domain~(OOD) performance of SLMs in the extractive question
+answering~(QA) setup. We show that, across various LLM generators, such data
+augmentation consistently enhances OOD performance and improves model
+calibration for both confidence-based and rationale-augmented calibrator
+models. Furthermore, these performance improvements correlate with higher
+diversity of CF instances in terms of their surface form and semantic content.
+Finally, we show that CF augmented models which are easier to calibrate also
+exhibit much lower entropy when assigning importance, indicating that
+rationale-augmented calibrators prefer concise explanations.",2023-09-14
+Semantic reconstruction of continuous language from MEG signals,2023-09-14 13:19:53+00:00,http://arxiv.org/abs/2309.07701v1,"Bo Wang, Xiran Xu, Longxiang Zhang, Boda Xiao, Xihong Wu, Jing Chen","cs.HC, eess.SP, q-bio.NC",table2text,"Decoding language from neural signals holds considerable theoretical and
+practical importance. Previous research has indicated the feasibility of
+decoding text or speech from invasive neural signals. However, when using
+non-invasive neural signals, significant challenges are encountered due to
+their low quality. In this study, we proposed a data-driven approach for
+decoding semantic of language from Magnetoencephalography (MEG) signals
+recorded while subjects were listening to continuous speech. First, a
+multi-subject decoding model was trained using contrastive learning to
+reconstruct continuous word embeddings from MEG data. Subsequently, a beam
+search algorithm was adopted to generate text sequences based on the
+reconstructed word embeddings. Given a candidate sentence in the beam, a
+language model was used to predict the subsequent words. The word embeddings of
+the subsequent words were correlated with the reconstructed word embedding.
+These correlations were then used as a measure of the probability for the next
+word. The results showed that the proposed continuous word embedding model can
+effectively leverage both subject-specific and subject-shared information.
+Additionally, the decoded text exhibited significant similarity to the target
+text, with an average BERTScore of 0.816, a score comparable to that in the
+previous fMRI study.",2023-09-14
+Auto-Regressive Next-Token Predictors are Universal Learners,2023-09-13 14:15:03+00:00,http://arxiv.org/abs/2309.06979v1,Eran Malach,"cs.LG, cs.CL",table2text,"Large language models display remarkable capabilities in logical and
+mathematical reasoning, allowing them to solve complex tasks. Interestingly,
+these abilities emerge in networks trained on the simple task of next-token
+prediction. In this work, we present a theoretical framework for studying
+auto-regressive next-token predictors. We demonstrate that even simple models
+such as linear next-token predictors, trained on Chain-of-Thought (CoT) data,
+can approximate any function efficiently computed by a Turing machine. We
+introduce a new complexity measure -- length complexity -- which measures the
+number of intermediate tokens in a CoT sequence required to approximate some
+target function, and analyze the interplay between length complexity and other
+notions of complexity. Finally, we show experimentally that simple next-token
+predictors, such as linear networks and shallow Multi-Layer Perceptrons (MLPs),
+display non-trivial performance on text generation and arithmetic tasks. Our
+results demonstrate that the power of language models can be attributed, to a
+great extent, to the auto-regressive next-token training scheme, and not
+necessarily to a particular choice of architecture.",2023-09-13
+Scaled Prompt-Tuning for Few-Shot Natural Language Generation,2023-09-13 07:12:31+00:00,http://arxiv.org/abs/2309.06759v1,"Ting Hu, Christoph Meinel, Haojin Yang",cs.CL,table2text,"The increasingly Large Language Models (LLMs) demonstrate stronger language
+understanding and generation capabilities, while the memory demand and
+computation cost of fine-tuning LLMs on downstream tasks are non-negligible.
+Besides, fine-tuning generally requires a certain amount of data from
+individual tasks whilst data collection cost is another issue to consider in
+real-world applications. In this work, we focus on Parameter-Efficient
+Fine-Tuning (PEFT) methods for few-shot Natural Language Generation (NLG),
+which freeze most parameters in LLMs and tune a small subset of parameters in
+few-shot cases so that memory footprint, training cost, and labeling cost are
+reduced while maintaining or even improving the performance. We propose a
+Scaled Prompt-Tuning (SPT) method which surpasses conventional PT with better
+performance and generalization ability but without an obvious increase in
+training cost. Further study on intermediate SPT suggests the superior
+transferability of SPT in few-shot scenarios, providing a recipe for
+data-deficient and computation-limited circumstances. Moreover, a comprehensive
+comparison of existing PEFT methods reveals that certain approaches exhibiting
+decent performance with modest training cost such as Prefix-Tuning in prior
+study could struggle in few-shot NLG tasks, especially on challenging datasets.",2023-09-13
+"Text Encoders Lack Knowledge: Leveraging Generative LLMs for
+  Domain-Specific Semantic Textual Similarity",2023-09-12 19:32:45+00:00,http://arxiv.org/abs/2309.06541v1,"Joseph Gatto, Omar Sharif, Parker Seegmiller, Philip Bohlman, Sarah Masud Preum",cs.CL,table2text,"Amidst the sharp rise in the evaluation of large language models (LLMs) on
+various tasks, we find that semantic textual similarity (STS) has been
+under-explored. In this study, we show that STS can be cast as a text
+generation problem while maintaining strong performance on multiple STS
+benchmarks. Additionally, we show generative LLMs significantly outperform
+existing encoder-based STS models when characterizing the semantic similarity
+between two texts with complex semantic relationships dependent on world
+knowledge. We validate this claim by evaluating both generative LLMs and
+existing encoder-based STS models on three newly collected STS challenge sets
+which require world knowledge in the domains of Health, Politics, and Sports.
+All newly collected data is sourced from social media content posted after May
+2023 to ensure the performance of closed-source models like ChatGPT cannot be
+credited to memorization. Our results show that, on average, generative LLMs
+outperform the best encoder-only baselines by an average of 22.3% on STS tasks
+requiring world knowledge. Our results suggest generative language models with
+STS-specific prompting strategies achieve state-of-the-art performance in
+complex, domain-specific STS tasks.",2023-09-12
+"Neural Latent Geometry Search: Product Manifold Inference via
+  Gromov-Hausdorff-Informed Bayesian Optimization",2023-09-09 14:29:22+00:00,http://arxiv.org/abs/2309.04810v1,"Haitz Saez de Ocariz Borde, Alvaro Arroyo, Ismael Morales, Ingmar Posner, Xiaowen Dong","cs.LG, stat.ML",table2text,"Recent research indicates that the performance of machine learning models can
+be improved by aligning the geometry of the latent space with the underlying
+data structure. Rather than relying solely on Euclidean space, researchers have
+proposed using hyperbolic and spherical spaces with constant curvature, or
+combinations thereof, to better model the latent space and enhance model
+performance. However, little attention has been given to the problem of
+automatically identifying the optimal latent geometry for the downstream task.
+We mathematically define this novel formulation and coin it as neural latent
+geometry search (NLGS). More specifically, we introduce a principled method
+that searches for a latent geometry composed of a product of constant curvature
+model spaces with minimal query evaluations. To accomplish this, we propose a
+novel notion of distance between candidate latent geometries based on the
+Gromov-Hausdorff distance from metric geometry. In order to compute the
+Gromov-Hausdorff distance, we introduce a mapping function that enables the
+comparison of different manifolds by embedding them in a common
+high-dimensional ambient space. Finally, we design a graph search space based
+on the calculated distances between candidate manifolds and use Bayesian
+optimization to search for the optimal latent geometry in a query-efficient
+manner. This is a general method which can be applied to search for the optimal
+latent geometry for a variety of models and downstream tasks. Extensive
+experiments on synthetic and real-world datasets confirm the efficacy of our
+method in identifying the optimal latent geometry for multiple machine learning
+problems.",2023-09-09
+"EPA: Easy Prompt Augmentation on Large Language Models via Multiple
+  Sources and Multiple Targets",2023-09-09 09:03:50+00:00,http://arxiv.org/abs/2309.04725v1,"Hongyuan Lu, Wai Lam",cs.CL,table2text,"Large language models (LLMs) have shown promising performance on various NLP
+tasks via task prompting. And their performance can be further improved by
+appending task demonstrations to the head of the prompt. And usually, a better
+performance can be achieved with more demonstrations. However, asking the users
+to write the demonstrations can be cumbersome. As a simple yet cost-effective
+workaround, this paper proposes a novel method called EPA (\textbf{E}asy
+\textbf{P}rompt \textbf{A}ugmentation)\footnote{While this paper considers
+augmenting prompts via demonstrations, we name it EPA as the name EDA is
+already taken by a well-known NLP method \citep{wei-zou-2019-eda}.} that
+effectively minimizes user efforts in writing demonstrations while improving
+the model performance at the same time. EPA achieves these goals by
+automatically augmenting the demonstrations with multiple sources/targets,
+where each of them paraphrases each other. This is well motivated as augmenting
+data via paraphrasing effectively improves neural language models. EPA thus
+employs paraphrasing as an augmentation method for in-context learning.
+Extensive experiments indicate that EPA effectively improves both NLU and NLG
+tasks, covering from natural language inference to machine translation in
+translating tens of languages.\footnote{Code and data will be released upon
+publication.}",2023-09-09
+ConDA: Contrastive Domain Adaptation for AI-generated Text Detection,2023-09-07 19:51:30+00:00,http://arxiv.org/abs/2309.03992v1,"Amrita Bhattacharjee, Tharindu Kumarage, Raha Moraffah, Huan Liu","cs.CL, cs.AI, cs.LG",table2text,"Large language models (LLMs) are increasingly being used for generating text
+in a variety of use cases, including journalistic news articles. Given the
+potential malicious nature in which these LLMs can be used to generate
+disinformation at scale, it is important to build effective detectors for such
+AI-generated text. Given the surge in development of new LLMs, acquiring
+labeled training data for supervised detectors is a bottleneck. However, there
+might be plenty of unlabeled text data available, without information on which
+generator it came from. In this work we tackle this data problem, in detecting
+AI-generated news text, and frame the problem as an unsupervised domain
+adaptation task. Here the domains are the different text generators, i.e. LLMs,
+and we assume we have access to only the labeled source data and unlabeled
+target data. We develop a Contrastive Domain Adaptation framework, called
+ConDA, that blends standard domain adaptation techniques with the
+representation power of contrastive learning to learn domain invariant
+representations that are effective for the final unsupervised detection task.
+Our experiments demonstrate the effectiveness of our framework, resulting in
+average performance gains of 31.7% from the best performing baselines, and
+within 0.8% margin of a fully supervised detector. All our code and data is
+available at https://github.com/AmritaBh/ConDA-gen-text-detection.",2023-09-07
+"Parameter Efficient Audio Captioning With Faithful Guidance Using
+  Audio-text Shared Latent Representation",2023-09-06 19:42:52+00:00,http://arxiv.org/abs/2309.03340v1,"Arvind Krishna Sridhar, Yinyi Guo, Erik Visser, Rehana Mahfuz","cs.CL, cs.MM, cs.SD",table2text,"There has been significant research on developing pretrained transformer
+architectures for multimodal-to-text generation tasks. Albeit performance
+improvements, such models are frequently overparameterized, hence suffer from
+hallucination and large memory footprint making them challenging to deploy on
+edge devices. In this paper, we address both these issues for the application
+of automated audio captioning. First, we propose a data augmentation technique
+for generating hallucinated audio captions and show that similarity based on an
+audio-text shared latent space is suitable for detecting hallucination. Then,
+we propose a parameter efficient inference time faithful decoding algorithm
+that enables smaller audio captioning models with performance equivalent to
+larger models trained with more data. During the beam decoding step, the
+smaller model utilizes an audio-text shared latent representation to
+semantically align the generated text with corresponding input audio. Faithful
+guidance is introduced into the beam probability by incorporating the cosine
+similarity between latent representation projections of greedy rolled out
+intermediate beams and audio clip. We show the efficacy of our algorithm on
+benchmark datasets and evaluate the proposed scheme against baselines using
+conventional audio captioning and semantic similarity metrics while
+illustrating tradeoffs between performance and complexity.",2023-09-06
+Persona-aware Generative Model for Code-mixed Language,2023-09-06 11:20:41+00:00,http://arxiv.org/abs/2309.02915v1,"Ayan Sengupta, Md Shad Akhtar, Tanmoy Chakraborty","cs.CL, cs.LG",table2text,"Code-mixing and script-mixing are prevalent across online social networks and
+multilingual societies. However, a user's preference toward code-mixing depends
+on the socioeconomic status, demographics of the user, and the local context,
+which existing generative models mostly ignore while generating code-mixed
+texts. In this work, we make a pioneering attempt to develop a persona-aware
+generative model to generate texts resembling real-life code-mixed texts of
+individuals. We propose a Persona-aware Generative Model for Code-mixed
+Generation, PARADOX, a novel Transformer-based encoder-decoder model that
+encodes an utterance conditioned on a user's persona and generates code-mixed
+texts without monolingual reference data. We propose an alignment module that
+re-calibrates the generated sequence to resemble real-life code-mixed texts.
+PARADOX generates code-mixed texts that are semantically more meaningful and
+linguistically more valid. To evaluate the personification capabilities of
+PARADOX, we propose four new metrics -- CM BLEU, CM Rouge-1, CM Rouge-L and CM
+KS. On average, PARADOX achieves 1.6 points better CM BLEU, 47% better
+perplexity and 32% better semantic coherence than the non-persona-based
+counterparts.",2023-09-06
+"Scaling Autoregressive Multi-Modal Models: Pretraining and Instruction
+  Tuning",2023-09-05 21:27:27+00:00,http://arxiv.org/abs/2309.02591v1,"Lili Yu, Bowen Shi, Ramakanth Pasunuru, Benjamin Muller, Olga Golovneva, Tianlu Wang, Arun Babu, Binh Tang, Brian Karrer, Shelly Sheynin, Candace Ross, Adam Polyak, Russell Howes, Vasu Sharma, Puxin Xu, Hovhannes Tamoyan, Oron Ashual, Uriel Singer, Shang-Wen Li, Susan Zhang, Richard James, Gargi Ghosh, Yaniv Taigman, Maryam Fazel-Zarandi, Asli Celikyilmaz, Luke Zettlemoyer, Armen Aghajanyan","cs.LG, cs.CL, cs.CV",table2text,"We present CM3Leon (pronounced ""Chameleon""), a retrieval-augmented,
+token-based, decoder-only multi-modal language model capable of generating and
+infilling both text and images. CM3Leon uses the CM3 multi-modal architecture
+but additionally shows the extreme benefits of scaling up and tuning on more
+diverse instruction-style data. It is the first multi-modal model trained with
+a recipe adapted from text-only language models, including a large-scale
+retrieval-augmented pre-training stage and a second multi-task supervised
+fine-tuning (SFT) stage. It is also a general-purpose model that can do both
+text-to-image and image-to-text generation, allowing us to introduce
+self-contained contrastive decoding methods that produce high-quality outputs.
+Extensive experiments demonstrate that this recipe is highly effective for
+multi-modal models. CM3Leon achieves state-of-the-art performance in
+text-to-image generation with 5x less training compute than comparable methods
+(zero-shot MS-COCO FID of 4.88). After SFT, CM3Leon can also demonstrate
+unprecedented levels of controllability in tasks ranging from language-guided
+image editing to image-controlled generation and segmentation.",2023-09-05
+PromptTTS 2: Describing and Generating Voices with Text Prompt,2023-09-05 14:45:27+00:00,http://arxiv.org/abs/2309.02285v1,"Yichong Leng, Zhifang Guo, Kai Shen, Xu Tan, Zeqian Ju, Yanqing Liu, Yufei Liu, Dongchao Yang, Leying Zhang, Kaitao Song, Lei He, Xiang-Yang Li, Sheng Zhao, Tao Qin, Jiang Bian","eess.AS, cs.CL, cs.LG, cs.SD",table2text,"Speech conveys more information than just text, as the same word can be
+uttered in various voices to convey diverse information. Compared to
+traditional text-to-speech (TTS) methods relying on speech prompts (reference
+speech) for voice variability, using text prompts (descriptions) is more
+user-friendly since speech prompts can be hard to find or may not exist at all.
+TTS approaches based on the text prompt face two challenges: 1) the one-to-many
+problem, where not all details about voice variability can be described in the
+text prompt, and 2) the limited availability of text prompt datasets, where
+vendors and large cost of data labeling are required to write text prompt for
+speech. In this work, we introduce PromptTTS 2 to address these challenges with
+a variation network to provide variability information of voice not captured by
+text prompts, and a prompt generation pipeline to utilize the large language
+models (LLM) to compose high quality text prompts. Specifically, the variation
+network predicts the representation extracted from the reference speech (which
+contains full information about voice) based on the text prompt representation.
+For the prompt generation pipeline, it generates text prompts for speech with a
+speech understanding model to recognize voice attributes (e.g., gender, speed)
+from speech and a large language model to formulate text prompt based on the
+recognition results. Experiments on a large-scale (44K hours) speech dataset
+demonstrate that compared to the previous works, PromptTTS 2 generates voices
+more consistent with text prompts and supports the sampling of diverse voice
+variability, thereby offering users more choices on voice generation.
+Additionally, the prompt generation pipeline produces high-quality prompts,
+eliminating the large labeling cost. The demo page of PromptTTS 2 is available
+online\footnote{https://speechresearch.github.io/prompttts2}.",2023-09-05
+"Studying the impacts of pre-training using ChatGPT-generated text on
+  downstream tasks",2023-09-02 12:56:15+00:00,http://arxiv.org/abs/2309.05668v1,Sarthak Anand,"cs.CL, cs.AI",table2text,"In recent times, significant advancements have been witnessed in the field of
+language models, particularly with the emergence of Large Language Models
+(LLMs) that are trained on vast amounts of data extracted from internet
+archives. These LLMs, such as ChatGPT, have become widely accessible, allowing
+users to generate text for various purposes including articles, essays, jokes,
+and poetry. Given that LLMs are trained on a diverse range of text sources,
+encompassing platforms like Reddit and Twitter, it is foreseeable that future
+training datasets will also incorporate text generated by previous iterations
+of the models themselves. In light of this development, our research aims to
+investigate the influence of artificial text in the pre-training phase of
+language models. Specifically, we conducted a comparative analysis between a
+language model, RoBERTa, pre-trained using CNN/DailyMail news articles, and
+ChatGPT, which employed the same articles for its training and evaluated their
+performance on three downstream tasks as well as their potential gender bias,
+using sentiment analysis as a metric. Through a series of experiments, we
+demonstrate that the utilization of artificial text during pre-training does
+not have a significant impact on either the performance of the models in
+downstream tasks or their gender bias. In conclusion, our findings suggest that
+the inclusion of text generated by LLMs in their own pre-training process does
+not yield substantial effects on the subsequent performance of the models in
+downstream tasks or their potential gender bias.",2023-09-02
+"BLSP: Bootstrapping Language-Speech Pre-training via Behavior Alignment
+  of Continuation Writing",2023-09-02 11:46:05+00:00,http://arxiv.org/abs/2309.00916v1,"Chen Wang, Minpeng Liao, Zhongqiang Huang, Jinliang Lu, Junhong Wu, Yuchen Liu, Chengqing Zong, Jiajun Zhang","cs.CL, cs.SD, eess.AS",table2text,"The emergence of large language models (LLMs) has sparked significant
+interest in extending their remarkable language capabilities to speech.
+However, modality alignment between speech and text still remains an open
+problem. Current solutions can be categorized into two strategies. One is a
+cascaded approach where outputs (tokens or states) of a separately trained
+speech recognition system are used as inputs for LLMs, which limits their
+potential in modeling alignment between speech and text. The other is an
+end-to-end approach that relies on speech instruction data, which is very
+difficult to collect in large quantities. In this paper, we address these
+issues and propose the BLSP approach that Bootstraps Language-Speech
+Pre-training via behavior alignment of continuation writing. We achieve this by
+learning a lightweight modality adapter between a frozen speech encoder and an
+LLM, ensuring that the LLM exhibits the same generation behavior regardless of
+the modality of input: a speech segment or its transcript. The training process
+can be divided into two steps. The first step prompts an LLM to generate texts
+with speech transcripts as prefixes, obtaining text continuations. In the
+second step, these continuations are used as supervised signals to train the
+modality adapter in an end-to-end manner. We demonstrate that this
+straightforward process can extend the capabilities of LLMs to speech, enabling
+speech recognition, speech translation, spoken language understanding, and
+speech conversation, even in zero-shot cross-lingual scenarios.",2023-09-02
+Bias and Fairness in Large Language Models: A Survey,2023-09-02 00:32:55+00:00,http://arxiv.org/abs/2309.00770v1,"Isabel O. Gallegos, Ryan A. Rossi, Joe Barrow, Md Mehrab Tanjim, Sungchul Kim, Franck Dernoncourt, Tong Yu, Ruiyi Zhang, Nesreen K. Ahmed","cs.CL, cs.AI, cs.CY, cs.LG",table2text,"Rapid advancements of large language models (LLMs) have enabled the
+processing, understanding, and generation of human-like text, with increasing
+integration into systems that touch our social sphere. Despite this success,
+these models can learn, perpetuate, and amplify harmful social biases. In this
+paper, we present a comprehensive survey of bias evaluation and mitigation
+techniques for LLMs. We first consolidate, formalize, and expand notions of
+social bias and fairness in natural language processing, defining distinct
+facets of harm and introducing several desiderata to operationalize fairness
+for LLMs. We then unify the literature by proposing three intuitive taxonomies,
+two for bias evaluation, namely metrics and datasets, and one for mitigation.
+Our first taxonomy of metrics for bias evaluation disambiguates the
+relationship between metrics and evaluation datasets, and organizes metrics by
+the different levels at which they operate in a model: embeddings,
+probabilities, and generated text. Our second taxonomy of datasets for bias
+evaluation categorizes datasets by their structure as counterfactual inputs or
+prompts, and identifies the targeted harms and social groups; we also release a
+consolidation of publicly-available datasets for improved access. Our third
+taxonomy of techniques for bias mitigation classifies methods by their
+intervention during pre-processing, in-training, intra-processing, and
+post-processing, with granular subcategories that elucidate research trends.
+Finally, we identify open problems and challenges for future work. Synthesizing
+a wide range of recent research, we aim to provide a clear guide of the
+existing literature that empowers researchers and practitioners to better
+understand and prevent the propagation of bias in LLMs.",2023-09-02
 Reinforcement Learning for Generative AI: A Survey,2023-08-28 06:15:14+00:00,http://arxiv.org/abs/2308.14328v2,"Yuanjiang Cao, Quan Z. Sheng, Julian McAuley, Lina Yao","cs.LG, cs.AI",table2text,"Deep Generative AI has been a long-standing essential topic in the machine
 learning community, which can impact a number of application areas like text
 generation and computer vision. The major paradigm to train a generative model

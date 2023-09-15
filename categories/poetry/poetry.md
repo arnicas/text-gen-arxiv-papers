@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2023-08-31*
+*written on 2023-09-15*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Studying the impacts of pre-training using ChatGPT-generated text on  downstream tasks](http://arxiv.org/abs/2309.05668v1) | Sarthak Anand | cs.CL, cs.AI | 2023-09-02 |
 | [Sudowoodo: a Chinese Lyric Imitation System with Source Lyrics](http://arxiv.org/abs/2308.04665v1) | Yongzhu Chang, Rongsheng Zhang, Lin Jiang, Qihang Chen, Le Zhang, Jiashu Pu | cs.CL | 2023-08-09 |
 | [The Imitation Game: Detecting Human and AI-Generated Texts in the Era of  Large Language Models](http://arxiv.org/abs/2307.12166v1) | Kadhim Hayawi, Sakib Shahriar, Sujith Samuel Mathew | cs.CL, cs.AI | 2023-07-22 |
 | [PoetryDiffusion: Towards Joint Semantic and Metrical Manipulation in  Poetry Generation](http://arxiv.org/abs/2306.08456v1) | Zhiyuan Hu, Chumin Liu, Yue Feng, Bryan Hooi | cs.CL | 2023-06-14 |

@@ -1,4 +1,125 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Prefix-diffusion: A Lightweight Diffusion Model for Diverse Image
+  Captioning",2023-09-10 08:55:24+00:00,http://arxiv.org/abs/2309.04965v1,"Guisheng Liu, Yi Li, Zhengcong Fei, Haiyan Fu, Xiangyang Luo, Yanqing Guo","cs.CV, cs.AI, cs.CL",image2text,"While impressive performance has been achieved in image captioning, the
+limited diversity of the generated captions and the large parameter scale
+remain major barriers to the real-word application of these systems. In this
+work, we propose a lightweight image captioning network in combination with
+continuous diffusion, called Prefix-diffusion. To achieve diversity, we design
+an efficient method that injects prefix image embeddings into the denoising
+process of the diffusion model. In order to reduce trainable parameters, we
+employ a pre-trained model to extract image features and further design an
+extra mapping network. Prefix-diffusion is able to generate diverse captions
+with relatively less parameters, while maintaining the fluency and relevance of
+the captions benefiting from the generative capabilities of the diffusion
+model. Our work paves the way for scaling up diffusion models for image
+captioning, and achieves promising performance compared with recent approaches.",2023-09-10
+Zero-Shot Audio Captioning via Audibility Guidance,2023-09-07 17:45:58+00:00,http://arxiv.org/abs/2309.03884v1,"Tal Shaharabany, Ariel Shaulov, Lior Wolf","cs.SD, cs.CL, eess.AS",image2text,"The task of audio captioning is similar in essence to tasks such as image and
+video captioning. However, it has received much less attention. We propose
+three desiderata for captioning audio -- (i) fluency of the generated text,
+(ii) faithfulness of the generated text to the input audio, and the somewhat
+related (iii) audibility, which is the quality of being able to be perceived
+based only on audio. Our method is a zero-shot method, i.e., we do not learn to
+perform captioning. Instead, captioning occurs as an inference process that
+involves three networks that correspond to the three desired qualities: (i) A
+Large Language Model, in our case, for reasons of convenience, GPT-2, (ii) A
+model that provides a matching score between an audio file and a text, for
+which we use a multimodal matching network called ImageBind, and (iii) A text
+classifier, trained using a dataset we collected automatically by instructing
+GPT-4 with prompts designed to direct the generation of both audible and
+inaudible sentences. We present our results on the AudioCap dataset,
+demonstrating that audibility guidance significantly enhances performance
+compared to the baseline, which lacks this objective.",2023-09-07
+"Parameter Efficient Audio Captioning With Faithful Guidance Using
+  Audio-text Shared Latent Representation",2023-09-06 19:42:52+00:00,http://arxiv.org/abs/2309.03340v1,"Arvind Krishna Sridhar, Yinyi Guo, Erik Visser, Rehana Mahfuz","cs.CL, cs.MM, cs.SD",image2text,"There has been significant research on developing pretrained transformer
+architectures for multimodal-to-text generation tasks. Albeit performance
+improvements, such models are frequently overparameterized, hence suffer from
+hallucination and large memory footprint making them challenging to deploy on
+edge devices. In this paper, we address both these issues for the application
+of automated audio captioning. First, we propose a data augmentation technique
+for generating hallucinated audio captions and show that similarity based on an
+audio-text shared latent space is suitable for detecting hallucination. Then,
+we propose a parameter efficient inference time faithful decoding algorithm
+that enables smaller audio captioning models with performance equivalent to
+larger models trained with more data. During the beam decoding step, the
+smaller model utilizes an audio-text shared latent representation to
+semantically align the generated text with corresponding input audio. Faithful
+guidance is introduced into the beam probability by incorporating the cosine
+similarity between latent representation projections of greedy rolled out
+intermediate beams and audio clip. We show the efficacy of our algorithm on
+benchmark datasets and evaluate the proposed scheme against baselines using
+conventional audio captioning and semantic similarity metrics while
+illustrating tradeoffs between performance and complexity.",2023-09-06
+"Generative AI-aided Joint Training-free Secure Semantic Communications
+  via Multi-modal Prompts",2023-09-05 23:24:56+00:00,http://arxiv.org/abs/2309.02616v1,"Hongyang Du, Guangyuan Liu, Dusit Niyato, Jiayi Zhang, Jiawen Kang, Zehui Xiong, Bo Ai, Dong In Kim","eess.IV, cs.LG, cs.NI",image2text,"Semantic communication (SemCom) holds promise for reducing network resource
+consumption while achieving the communications goal. However, the computational
+overheads in jointly training semantic encoders and decoders-and the subsequent
+deployment in network devices-are overlooked. Recent advances in Generative
+artificial intelligence (GAI) offer a potential solution. The robust learning
+abilities of GAI models indicate that semantic decoders can reconstruct source
+messages using a limited amount of semantic information, e.g., prompts, without
+joint training with the semantic encoder. A notable challenge, however, is the
+instability introduced by GAI's diverse generation ability. This instability,
+evident in outputs like text-generated images, limits the direct application of
+GAI in scenarios demanding accurate message recovery, such as face image
+transmission. To solve the above problems, this paper proposes a GAI-aided
+SemCom system with multi-model prompts for accurate content decoding. Moreover,
+in response to security concerns, we introduce the application of covert
+communications aided by a friendly jammer. The system jointly optimizes the
+diffusion step, jamming, and transmitting power with the aid of the generative
+diffusion models, enabling successful and secure transmission of the source
+messages.",2023-09-05
+"Scaling Autoregressive Multi-Modal Models: Pretraining and Instruction
+  Tuning",2023-09-05 21:27:27+00:00,http://arxiv.org/abs/2309.02591v1,"Lili Yu, Bowen Shi, Ramakanth Pasunuru, Benjamin Muller, Olga Golovneva, Tianlu Wang, Arun Babu, Binh Tang, Brian Karrer, Shelly Sheynin, Candace Ross, Adam Polyak, Russell Howes, Vasu Sharma, Puxin Xu, Hovhannes Tamoyan, Oron Ashual, Uriel Singer, Shang-Wen Li, Susan Zhang, Richard James, Gargi Ghosh, Yaniv Taigman, Maryam Fazel-Zarandi, Asli Celikyilmaz, Luke Zettlemoyer, Armen Aghajanyan","cs.LG, cs.CL, cs.CV",image2text,"We present CM3Leon (pronounced ""Chameleon""), a retrieval-augmented,
+token-based, decoder-only multi-modal language model capable of generating and
+infilling both text and images. CM3Leon uses the CM3 multi-modal architecture
+but additionally shows the extreme benefits of scaling up and tuning on more
+diverse instruction-style data. It is the first multi-modal model trained with
+a recipe adapted from text-only language models, including a large-scale
+retrieval-augmented pre-training stage and a second multi-task supervised
+fine-tuning (SFT) stage. It is also a general-purpose model that can do both
+text-to-image and image-to-text generation, allowing us to introduce
+self-contained contrastive decoding methods that produce high-quality outputs.
+Extensive experiments demonstrate that this recipe is highly effective for
+multi-modal models. CM3Leon achieves state-of-the-art performance in
+text-to-image generation with 5x less training compute than comparable methods
+(zero-shot MS-COCO FID of 4.88). After SFT, CM3Leon can also demonstrate
+unprecedented levels of controllability in tasks ranging from language-guided
+image editing to image-controlled generation and segmentation.",2023-09-05
+"Breaking Barriers to Creative Expression: Co-Designing and Implementing
+  an Accessible Text-to-Image Interface",2023-09-05 17:31:10+00:00,http://arxiv.org/abs/2309.02402v1,"Atieh Taheri, Mohammad Izadi, Gururaj Shriram, Negar Rostamzadeh, Shaun Kane","cs.HC, J.5; J.6; I.2.7",image2text,"Text-to-image generation models have grown in popularity due to their ability
+to produce high-quality images from a text prompt. One use for this technology
+is to enable the creation of more accessible art creation software. In this
+paper, we document the development of an alternative user interface that
+reduces the typing effort needed to enter image prompts by providing
+suggestions from a large language model, developed through iterative design and
+testing within the project team. The results of this testing demonstrate how
+generative text models can support the accessibility of text-to-image models,
+enabling users with a range of abilities to create visual art.",2023-09-05
+PromptTTS 2: Describing and Generating Voices with Text Prompt,2023-09-05 14:45:27+00:00,http://arxiv.org/abs/2309.02285v1,"Yichong Leng, Zhifang Guo, Kai Shen, Xu Tan, Zeqian Ju, Yanqing Liu, Yufei Liu, Dongchao Yang, Leying Zhang, Kaitao Song, Lei He, Xiang-Yang Li, Sheng Zhao, Tao Qin, Jiang Bian","eess.AS, cs.CL, cs.LG, cs.SD",image2text,"Speech conveys more information than just text, as the same word can be
+uttered in various voices to convey diverse information. Compared to
+traditional text-to-speech (TTS) methods relying on speech prompts (reference
+speech) for voice variability, using text prompts (descriptions) is more
+user-friendly since speech prompts can be hard to find or may not exist at all.
+TTS approaches based on the text prompt face two challenges: 1) the one-to-many
+problem, where not all details about voice variability can be described in the
+text prompt, and 2) the limited availability of text prompt datasets, where
+vendors and large cost of data labeling are required to write text prompt for
+speech. In this work, we introduce PromptTTS 2 to address these challenges with
+a variation network to provide variability information of voice not captured by
+text prompts, and a prompt generation pipeline to utilize the large language
+models (LLM) to compose high quality text prompts. Specifically, the variation
+network predicts the representation extracted from the reference speech (which
+contains full information about voice) based on the text prompt representation.
+For the prompt generation pipeline, it generates text prompts for speech with a
+speech understanding model to recognize voice attributes (e.g., gender, speed)
+from speech and a large language model to formulate text prompt based on the
+recognition results. Experiments on a large-scale (44K hours) speech dataset
+demonstrate that compared to the previous works, PromptTTS 2 generates voices
+more consistent with text prompts and supports the sampling of diverse voice
+variability, thereby offering users more choices on voice generation.
+Additionally, the prompt generation pipeline produces high-quality prompts,
+eliminating the large labeling cost. The demo page of PromptTTS 2 is available
+online\footnote{https://speechresearch.github.io/prompttts2}.",2023-09-05
 "Towards Vision-Language Mechanistic Interpretability: A Causal Tracing
   Tool for BLIP",2023-08-27 18:46:47+00:00,http://arxiv.org/abs/2308.14179v1,"Vedant Palit, Rohan Pandey, Aryaman Arora, Paul Pu Liang","cs.CL, cs.AI, cs.CV",image2text,"Mechanistic interpretability seeks to understand the neural mechanisms that
 enable specific behaviors in Large Language Models (LLMs) by leveraging

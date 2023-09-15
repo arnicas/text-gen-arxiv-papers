@@ -1,4 +1,205 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"CATfOOD: Counterfactual Augmented Training for Improving Out-of-Domain
+  Performance and Calibration",2023-09-14 16:16:40+00:00,http://arxiv.org/abs/2309.07822v1,"Rachneet Sachdeva, Martin Tutek, Iryna Gurevych",cs.CL,knowledge,"In recent years, large language models (LLMs) have shown remarkable
+capabilities at scale, particularly at generating text conditioned on a prompt.
+In our work, we investigate the use of LLMs to augment training data of small
+language models~(SLMs) with automatically generated counterfactual~(CF)
+instances -- i.e. minimally altered inputs -- in order to improve
+out-of-domain~(OOD) performance of SLMs in the extractive question
+answering~(QA) setup. We show that, across various LLM generators, such data
+augmentation consistently enhances OOD performance and improves model
+calibration for both confidence-based and rationale-augmented calibrator
+models. Furthermore, these performance improvements correlate with higher
+diversity of CF instances in terms of their surface form and semantic content.
+Finally, we show that CF augmented models which are easier to calibrate also
+exhibit much lower entropy when assigning importance, indicating that
+rationale-augmented calibrators prefer concise explanations.",2023-09-14
+Semantic reconstruction of continuous language from MEG signals,2023-09-14 13:19:53+00:00,http://arxiv.org/abs/2309.07701v1,"Bo Wang, Xiran Xu, Longxiang Zhang, Boda Xiao, Xihong Wu, Jing Chen","cs.HC, eess.SP, q-bio.NC",knowledge,"Decoding language from neural signals holds considerable theoretical and
+practical importance. Previous research has indicated the feasibility of
+decoding text or speech from invasive neural signals. However, when using
+non-invasive neural signals, significant challenges are encountered due to
+their low quality. In this study, we proposed a data-driven approach for
+decoding semantic of language from Magnetoencephalography (MEG) signals
+recorded while subjects were listening to continuous speech. First, a
+multi-subject decoding model was trained using contrastive learning to
+reconstruct continuous word embeddings from MEG data. Subsequently, a beam
+search algorithm was adopted to generate text sequences based on the
+reconstructed word embeddings. Given a candidate sentence in the beam, a
+language model was used to predict the subsequent words. The word embeddings of
+the subsequent words were correlated with the reconstructed word embedding.
+These correlations were then used as a measure of the probability for the next
+word. The results showed that the proposed continuous word embedding model can
+effectively leverage both subject-specific and subject-shared information.
+Additionally, the decoded text exhibited significant similarity to the target
+text, with an average BERTScore of 0.816, a score comparable to that in the
+previous fMRI study.",2023-09-14
+"Text Encoders Lack Knowledge: Leveraging Generative LLMs for
+  Domain-Specific Semantic Textual Similarity",2023-09-12 19:32:45+00:00,http://arxiv.org/abs/2309.06541v1,"Joseph Gatto, Omar Sharif, Parker Seegmiller, Philip Bohlman, Sarah Masud Preum",cs.CL,knowledge,"Amidst the sharp rise in the evaluation of large language models (LLMs) on
+various tasks, we find that semantic textual similarity (STS) has been
+under-explored. In this study, we show that STS can be cast as a text
+generation problem while maintaining strong performance on multiple STS
+benchmarks. Additionally, we show generative LLMs significantly outperform
+existing encoder-based STS models when characterizing the semantic similarity
+between two texts with complex semantic relationships dependent on world
+knowledge. We validate this claim by evaluating both generative LLMs and
+existing encoder-based STS models on three newly collected STS challenge sets
+which require world knowledge in the domains of Health, Politics, and Sports.
+All newly collected data is sourced from social media content posted after May
+2023 to ensure the performance of closed-source models like ChatGPT cannot be
+credited to memorization. Our results show that, on average, generative LLMs
+outperform the best encoder-only baselines by an average of 22.3% on STS tasks
+requiring world knowledge. Our results suggest generative language models with
+STS-specific prompting strategies achieve state-of-the-art performance in
+complex, domain-specific STS tasks.",2023-09-12
+"Unveiling the potential of large language models in generating semantic
+  and cross-language clones",2023-09-12 17:40:49+00:00,http://arxiv.org/abs/2309.06424v1,"Palash R. Roy, Ajmain I. Alam, Farouq Al-omari, Banani Roy, Chanchal K. Roy, Kevin A. Schneider","cs.SE, cs.AI, cs.LG",knowledge,"Semantic and Cross-language code clone generation may be useful for code
+reuse, code comprehension, refactoring and benchmarking. OpenAI's GPT model has
+potential in such clone generation as GPT is used for text generation. When
+developers copy/paste codes from Stack Overflow (SO) or within a system, there
+might be inconsistent changes leading to unexpected behaviours. Similarly, if
+someone possesses a code snippet in a particular programming language but seeks
+equivalent functionality in a different language, a semantic cross-language
+code clone generation approach could provide valuable assistance. In this
+study, using SemanticCloneBench as a vehicle, we evaluated how well the GPT-3
+model could help generate semantic and cross-language clone variants for a
+given fragment.We have comprised a diverse set of code fragments and assessed
+GPT-3s performance in generating code variants.Through extensive
+experimentation and analysis, where 9 judges spent 158 hours to validate, we
+investigate the model's ability to produce accurate and semantically correct
+variants. Our findings shed light on GPT-3's strengths in code generation,
+offering insights into the potential applications and challenges of using
+advanced language models in software development. Our quantitative analysis
+yields compelling results. In the realm of semantic clones, GPT-3 attains an
+impressive accuracy of 62.14% and 0.55 BLEU score, achieved through few-shot
+prompt engineering. Furthermore, the model shines in transcending linguistic
+confines, boasting an exceptional 91.25% accuracy in generating cross-language
+clones",2023-09-12
+"BHASA: A Holistic Southeast Asian Linguistic and Cultural Evaluation
+  Suite for Large Language Models",2023-09-12 09:31:25+00:00,http://arxiv.org/abs/2309.06085v1,"Wei Qi Leong, Jian Gang Ngui, Yosephine Susanto, Hamsawardhini Rengarajan, Kengatharaiyer Sarveswaran, William Chandra Tjhi",cs.CL,knowledge,"The rapid development of Large Language Models (LLMs) and the emergence of
+novel abilities with scale have necessitated the construction of holistic,
+diverse and challenging benchmarks such as HELM and BIG-bench. However, at the
+moment, most of these benchmarks focus only on performance in English and
+evaluations that include Southeast Asian (SEA) languages are few in number. We
+therefore propose BHASA, a holistic linguistic and cultural evaluation suite
+for LLMs in SEA languages. It comprises three components: (1) a NLP benchmark
+covering eight tasks across Natural Language Understanding (NLU), Generation
+(NLG) and Reasoning (NLR) tasks, (2) LINDSEA, a linguistic diagnostic toolkit
+that spans the gamut of linguistic phenomena including syntax, semantics and
+pragmatics, and (3) a cultural diagnostics dataset that probes for both
+cultural representation and sensitivity. For this preliminary effort, we
+implement the NLP benchmark only for Indonesian, Vietnamese, Thai and Tamil,
+and we only include Indonesian and Tamil for LINDSEA and the cultural
+diagnostics dataset. As GPT-4 is purportedly one of the best-performing
+multilingual LLMs at the moment, we use it as a yardstick to gauge the
+capabilities of LLMs in the context of SEA languages. Our initial experiments
+on GPT-4 with BHASA find it lacking in various aspects of linguistic
+capabilities, cultural representation and sensitivity in the targeted SEA
+languages. BHASA is a work in progress and will continue to be improved and
+expanded in the future.",2023-09-12
+"Neural Latent Geometry Search: Product Manifold Inference via
+  Gromov-Hausdorff-Informed Bayesian Optimization",2023-09-09 14:29:22+00:00,http://arxiv.org/abs/2309.04810v1,"Haitz Saez de Ocariz Borde, Alvaro Arroyo, Ismael Morales, Ingmar Posner, Xiaowen Dong","cs.LG, stat.ML",knowledge,"Recent research indicates that the performance of machine learning models can
+be improved by aligning the geometry of the latent space with the underlying
+data structure. Rather than relying solely on Euclidean space, researchers have
+proposed using hyperbolic and spherical spaces with constant curvature, or
+combinations thereof, to better model the latent space and enhance model
+performance. However, little attention has been given to the problem of
+automatically identifying the optimal latent geometry for the downstream task.
+We mathematically define this novel formulation and coin it as neural latent
+geometry search (NLGS). More specifically, we introduce a principled method
+that searches for a latent geometry composed of a product of constant curvature
+model spaces with minimal query evaluations. To accomplish this, we propose a
+novel notion of distance between candidate latent geometries based on the
+Gromov-Hausdorff distance from metric geometry. In order to compute the
+Gromov-Hausdorff distance, we introduce a mapping function that enables the
+comparison of different manifolds by embedding them in a common
+high-dimensional ambient space. Finally, we design a graph search space based
+on the calculated distances between candidate manifolds and use Bayesian
+optimization to search for the optimal latent geometry in a query-efficient
+manner. This is a general method which can be applied to search for the optimal
+latent geometry for a variety of models and downstream tasks. Extensive
+experiments on synthetic and real-world datasets confirm the efficacy of our
+method in identifying the optimal latent geometry for multiple machine learning
+problems.",2023-09-09
+"Parameter Efficient Audio Captioning With Faithful Guidance Using
+  Audio-text Shared Latent Representation",2023-09-06 19:42:52+00:00,http://arxiv.org/abs/2309.03340v1,"Arvind Krishna Sridhar, Yinyi Guo, Erik Visser, Rehana Mahfuz","cs.CL, cs.MM, cs.SD",knowledge,"There has been significant research on developing pretrained transformer
+architectures for multimodal-to-text generation tasks. Albeit performance
+improvements, such models are frequently overparameterized, hence suffer from
+hallucination and large memory footprint making them challenging to deploy on
+edge devices. In this paper, we address both these issues for the application
+of automated audio captioning. First, we propose a data augmentation technique
+for generating hallucinated audio captions and show that similarity based on an
+audio-text shared latent space is suitable for detecting hallucination. Then,
+we propose a parameter efficient inference time faithful decoding algorithm
+that enables smaller audio captioning models with performance equivalent to
+larger models trained with more data. During the beam decoding step, the
+smaller model utilizes an audio-text shared latent representation to
+semantically align the generated text with corresponding input audio. Faithful
+guidance is introduced into the beam probability by incorporating the cosine
+similarity between latent representation projections of greedy rolled out
+intermediate beams and audio clip. We show the efficacy of our algorithm on
+benchmark datasets and evaluate the proposed scheme against baselines using
+conventional audio captioning and semantic similarity metrics while
+illustrating tradeoffs between performance and complexity.",2023-09-06
+Synthetic Text Generation using Hypergraph Representations,2023-09-06 14:14:37+00:00,http://arxiv.org/abs/2309.06550v1,"Natraj Raman, Sameena Shah","cs.CL, cs.AI",knowledge,"Generating synthetic variants of a document is often posed as text-to-text
+transformation. We propose an alternate LLM based method that first decomposes
+a document into semantic frames and then generates text using this interim
+sparse format. The frames are modeled using a hypergraph, which allows
+perturbing the frame contents in a principled manner. Specifically, new
+hyperedges are mined through topological analysis and complex polyadic
+relationships including hierarchy and temporal dynamics are accommodated. We
+show that our solution generates documents that are diverse, coherent and vary
+in style, sentiment, format, composition and facts.",2023-09-06
+Persona-aware Generative Model for Code-mixed Language,2023-09-06 11:20:41+00:00,http://arxiv.org/abs/2309.02915v1,"Ayan Sengupta, Md Shad Akhtar, Tanmoy Chakraborty","cs.CL, cs.LG",knowledge,"Code-mixing and script-mixing are prevalent across online social networks and
+multilingual societies. However, a user's preference toward code-mixing depends
+on the socioeconomic status, demographics of the user, and the local context,
+which existing generative models mostly ignore while generating code-mixed
+texts. In this work, we make a pioneering attempt to develop a persona-aware
+generative model to generate texts resembling real-life code-mixed texts of
+individuals. We propose a Persona-aware Generative Model for Code-mixed
+Generation, PARADOX, a novel Transformer-based encoder-decoder model that
+encodes an utterance conditioned on a user's persona and generates code-mixed
+texts without monolingual reference data. We propose an alignment module that
+re-calibrates the generated sequence to resemble real-life code-mixed texts.
+PARADOX generates code-mixed texts that are semantically more meaningful and
+linguistically more valid. To evaluate the personification capabilities of
+PARADOX, we propose four new metrics -- CM BLEU, CM Rouge-1, CM Rouge-L and CM
+KS. On average, PARADOX achieves 1.6 points better CM BLEU, 47% better
+perplexity and 32% better semantic coherence than the non-persona-based
+counterparts.",2023-09-06
+HC3 Plus: A Semantic-Invariant Human ChatGPT Comparison Corpus,2023-09-06 05:33:57+00:00,http://arxiv.org/abs/2309.02731v1,"Zhenpeng Su, Xing Wu, Wei Zhou, Guangyuan Ma, Songlin Hu","cs.CL, cs.AI",knowledge,"ChatGPT has gained significant interest due to its impressive performance,
+but people are increasingly concerned about its potential risks, particularly
+around the detection of AI-generated content (AIGC), which is often difficult
+for untrained humans to identify. Current datasets utilized for detecting
+ChatGPT-generated text primarily center around question-answering, yet they
+tend to disregard tasks that possess semantic-invariant properties, such as
+summarization, translation, and paraphrasing. Our primary studies demonstrate
+that detecting model-generated text on semantic-invariant tasks is more
+difficult. To fill this gap, we introduce a more extensive and comprehensive
+dataset that considers more types of tasks than previous work, including
+semantic-invariant tasks. In addition, the model after a large number of task
+instruction fine-tuning shows a strong powerful performance. Owing to its
+previous success, we further instruct fine-tuning Tk-instruct and built a more
+powerful detection system. Experimental results show that our proposed detector
+outperforms the previous state-of-the-art RoBERTa-based detector.",2023-09-06
+"Generative AI-aided Joint Training-free Secure Semantic Communications
+  via Multi-modal Prompts",2023-09-05 23:24:56+00:00,http://arxiv.org/abs/2309.02616v1,"Hongyang Du, Guangyuan Liu, Dusit Niyato, Jiayi Zhang, Jiawen Kang, Zehui Xiong, Bo Ai, Dong In Kim","eess.IV, cs.LG, cs.NI",knowledge,"Semantic communication (SemCom) holds promise for reducing network resource
+consumption while achieving the communications goal. However, the computational
+overheads in jointly training semantic encoders and decoders-and the subsequent
+deployment in network devices-are overlooked. Recent advances in Generative
+artificial intelligence (GAI) offer a potential solution. The robust learning
+abilities of GAI models indicate that semantic decoders can reconstruct source
+messages using a limited amount of semantic information, e.g., prompts, without
+joint training with the semantic encoder. A notable challenge, however, is the
+instability introduced by GAI's diverse generation ability. This instability,
+evident in outputs like text-generated images, limits the direct application of
+GAI in scenarios demanding accurate message recovery, such as face image
+transmission. To solve the above problems, this paper proposes a GAI-aided
+SemCom system with multi-model prompts for accurate content decoding. Moreover,
+in response to security concerns, we introduce the application of covert
+communications aided by a friendly jammer. The system jointly optimizes the
+diffusion step, jamming, and transmitting power with the aid of the generative
+diffusion models, enabling successful and secure transmission of the source
+messages.",2023-09-05
 "Optimizing Factual Accuracy in Text Generation through Dynamic Knowledge
   Selection",2023-08-30 02:22:40+00:00,http://arxiv.org/abs/2308.15711v1,"Hongjin Qian, Zhicheng Dou, Jiejun Tan, Haonan Chen, Haoqi Gu, Ruofei Lai, Xinyu Zhang, Zhao Cao, Ji-Rong Wen","cs.CL, cs.AI",knowledge,"Language models (LMs) have revolutionized the way we interact with
 information, but they often generate nonfactual text, raising concerns about

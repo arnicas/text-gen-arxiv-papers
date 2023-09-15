@@ -7,10 +7,21 @@ sidebar:
 ---
 
 
-*written on 2023-08-31*
+*written on 2023-09-15*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [CATfOOD: Counterfactual Augmented Training for Improving Out-of-Domain  Performance and Calibration](http://arxiv.org/abs/2309.07822v1) | Rachneet Sachdeva, Martin Tutek, Iryna Gurevych | cs.CL | 2023-09-14 |
+| [Semantic reconstruction of continuous language from MEG signals](http://arxiv.org/abs/2309.07701v1) | Bo Wang, Xiran Xu, Longxiang Zhang, Boda Xiao, Xihong Wu, Jing Chen | cs.HC, eess.SP, q-bio.NC | 2023-09-14 |
+| [Text Encoders Lack Knowledge: Leveraging Generative LLMs for  Domain-Specific Semantic Textual Similarity](http://arxiv.org/abs/2309.06541v1) | Joseph Gatto, Omar Sharif, Parker Seegmiller, Philip Bohlman, Sarah Masud Preum | cs.CL | 2023-09-12 |
+| [Unveiling the potential of large language models in generating semantic  and cross-language clones](http://arxiv.org/abs/2309.06424v1) | Palash R. Roy, Ajmain I. Alam, Farouq Al-omari, Banani Roy, Chanchal K. Roy, Kevin A. Schneider | cs.SE, cs.AI, cs.LG | 2023-09-12 |
+| [BHASA: A Holistic Southeast Asian Linguistic and Cultural Evaluation  Suite for Large Language Models](http://arxiv.org/abs/2309.06085v1) | Wei Qi Leong, Jian Gang Ngui, Yosephine Susanto, Hamsawardhini Rengarajan, Kengatharaiyer Sarveswaran, William Chandra Tjhi | cs.CL | 2023-09-12 |
+| [Neural Latent Geometry Search: Product Manifold Inference via  Gromov-Hausdorff-Informed Bayesian Optimization](http://arxiv.org/abs/2309.04810v1) | Haitz Saez de Ocariz Borde, Alvaro Arroyo, Ismael Morales, Ingmar Posner, Xiaowen Dong | cs.LG, stat.ML | 2023-09-09 |
+| [Parameter Efficient Audio Captioning With Faithful Guidance Using  Audio-text Shared Latent Representation](http://arxiv.org/abs/2309.03340v1) | Arvind Krishna Sridhar, Yinyi Guo, Erik Visser, Rehana Mahfuz | cs.CL, cs.MM, cs.SD | 2023-09-06 |
+| [Synthetic Text Generation using Hypergraph Representations](http://arxiv.org/abs/2309.06550v1) | Natraj Raman, Sameena Shah | cs.CL, cs.AI | 2023-09-06 |
+| [Persona-aware Generative Model for Code-mixed Language](http://arxiv.org/abs/2309.02915v1) | Ayan Sengupta, Md Shad Akhtar, Tanmoy Chakraborty | cs.CL, cs.LG | 2023-09-06 |
+| [HC3 Plus: A Semantic-Invariant Human ChatGPT Comparison Corpus](http://arxiv.org/abs/2309.02731v1) | Zhenpeng Su, Xing Wu, Wei Zhou, Guangyuan Ma, Songlin Hu | cs.CL, cs.AI | 2023-09-06 |
+| [Generative AI-aided Joint Training-free Secure Semantic Communications  via Multi-modal Prompts](http://arxiv.org/abs/2309.02616v1) | Hongyang Du, Guangyuan Liu, Dusit Niyato, Jiayi Zhang, Jiawen Kang, Zehui Xiong, Bo Ai, Dong In Kim | eess.IV, cs.LG, cs.NI | 2023-09-05 |
 | [Optimizing Factual Accuracy in Text Generation through Dynamic Knowledge  Selection](http://arxiv.org/abs/2308.15711v1) | Hongjin Qian, Zhicheng Dou, Jiejun Tan, Haonan Chen, Haoqi Gu, Ruofei Lai, Xinyu Zhang, Zhao Cao, Ji-Rong Wen | cs.CL, cs.AI | 2023-08-30 |
 | [Towards Vision-Language Mechanistic Interpretability: A Causal Tracing  Tool for BLIP](http://arxiv.org/abs/2308.14179v1) | Vedant Palit, Rohan Pandey, Aryaman Arora, Paul Pu Liang | cs.CL, cs.AI, cs.CV | 2023-08-27 |
 | [Planning with Logical Graph-based Language Model for Instruction  Generation](http://arxiv.org/abs/2308.13782v1) | Fan Zhang, Kebing Jin, Hankz Hankui Zhuo | cs.CL, cs.AI | 2023-08-26 |

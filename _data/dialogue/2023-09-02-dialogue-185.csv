@@ -1,4 +1,49 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"BLSP: Bootstrapping Language-Speech Pre-training via Behavior Alignment
+  of Continuation Writing",2023-09-02 11:46:05+00:00,http://arxiv.org/abs/2309.00916v1,"Chen Wang, Minpeng Liao, Zhongqiang Huang, Jinliang Lu, Junhong Wu, Yuchen Liu, Chengqing Zong, Jiajun Zhang","cs.CL, cs.SD, eess.AS",dialogue,"The emergence of large language models (LLMs) has sparked significant
+interest in extending their remarkable language capabilities to speech.
+However, modality alignment between speech and text still remains an open
+problem. Current solutions can be categorized into two strategies. One is a
+cascaded approach where outputs (tokens or states) of a separately trained
+speech recognition system are used as inputs for LLMs, which limits their
+potential in modeling alignment between speech and text. The other is an
+end-to-end approach that relies on speech instruction data, which is very
+difficult to collect in large quantities. In this paper, we address these
+issues and propose the BLSP approach that Bootstraps Language-Speech
+Pre-training via behavior alignment of continuation writing. We achieve this by
+learning a lightweight modality adapter between a frozen speech encoder and an
+LLM, ensuring that the LLM exhibits the same generation behavior regardless of
+the modality of input: a speech segment or its transcript. The training process
+can be divided into two steps. The first step prompts an LLM to generate texts
+with speech transcripts as prefixes, obtaining text continuations. In the
+second step, these continuations are used as supervised signals to train the
+modality adapter in an end-to-end manner. We demonstrate that this
+straightforward process can extend the capabilities of LLMs to speech, enabling
+speech recognition, speech translation, spoken language understanding, and
+speech conversation, even in zero-shot cross-lingual scenarios.",2023-09-02
+"Sparkles: Unlocking Chats Across Multiple Images for Multimodal
+  Instruction-Following Models",2023-08-31 05:15:27+00:00,http://arxiv.org/abs/2308.16463v1,"Yupan Huang, Zaiqiao Meng, Fangyu Liu, Yixuan Su, Nigel Collier, Yutong Lu","cs.CV, cs.CL",dialogue,"Large language models exhibit enhanced zero-shot performance on various tasks
+when fine-tuned with instruction-following data. Multimodal
+instruction-following models extend these capabilities by integrating both text
+and images. However, existing models such as MiniGPT-4 face challenges in
+maintaining dialogue coherence in scenarios involving multiple images. A
+primary reason is the lack of a specialized dataset for this critical
+application. To bridge these gaps, we present SparklesChat, a multimodal
+instruction-following model for open-ended dialogues across multiple images. To
+support the training, we introduce SparklesDialogue, the first
+machine-generated dialogue dataset tailored for word-level interleaved
+multi-image and text interactions. Furthermore, we construct SparklesEval, a
+GPT-assisted benchmark for quantitatively assessing a model's conversational
+competence across multiple images and dialogue turns. Our experiments validate
+the effectiveness of SparklesChat in understanding and reasoning across
+multiple images and dialogue turns. Specifically, SparklesChat outperformed
+MiniGPT-4 on established vision-and-language benchmarks, including the BISON
+binary image selection task and the NLVR2 visual reasoning task. Moreover,
+SparklesChat scored 8.56 out of 10 on SparklesEval, substantially exceeding
+MiniGPT-4's score of 3.91 and nearing GPT-4's score of 9.26. Qualitative
+evaluations further demonstrate SparklesChat's generality in handling
+real-world applications. All resources will be available at
+https://github.com/HYPJUDY/Sparkles.",2023-08-31
 "Out of the Cage: How Stochastic Parrots Win in Cyber Security
   Environments",2023-08-23 12:11:27+00:00,http://arxiv.org/abs/2308.12086v2,"Maria Rigaki, Ondřej Lukáš, Carlos A. Catania, Sebastian Garcia","cs.CR, cs.AI, cs.CL",dialogue,"Large Language Models (LLMs) have gained widespread popularity across diverse
 domains involving text generation, summarization, and various natural language

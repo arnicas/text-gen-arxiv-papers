@@ -7,10 +7,17 @@ sidebar:
 ---
 
 
-*written on 2023-08-31*
+*written on 2023-09-15*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Prefix-diffusion: A Lightweight Diffusion Model for Diverse Image  Captioning](http://arxiv.org/abs/2309.04965v1) | Guisheng Liu, Yi Li, Zhengcong Fei, Haiyan Fu, Xiangyang Luo, Yanqing Guo | cs.CV, cs.AI, cs.CL | 2023-09-10 |
+| [Zero-Shot Audio Captioning via Audibility Guidance](http://arxiv.org/abs/2309.03884v1) | Tal Shaharabany, Ariel Shaulov, Lior Wolf | cs.SD, cs.CL, eess.AS | 2023-09-07 |
+| [Parameter Efficient Audio Captioning With Faithful Guidance Using  Audio-text Shared Latent Representation](http://arxiv.org/abs/2309.03340v1) | Arvind Krishna Sridhar, Yinyi Guo, Erik Visser, Rehana Mahfuz | cs.CL, cs.MM, cs.SD | 2023-09-06 |
+| [Generative AI-aided Joint Training-free Secure Semantic Communications  via Multi-modal Prompts](http://arxiv.org/abs/2309.02616v1) | Hongyang Du, Guangyuan Liu, Dusit Niyato, Jiayi Zhang, Jiawen Kang, Zehui Xiong, Bo Ai, Dong In Kim | eess.IV, cs.LG, cs.NI | 2023-09-05 |
+| [Scaling Autoregressive Multi-Modal Models: Pretraining and Instruction  Tuning](http://arxiv.org/abs/2309.02591v1) | Lili Yu, Bowen Shi, Ramakanth Pasunuru, Benjamin Muller, Olga Golovneva, Tianlu Wang, Arun Babu, Binh Tang, Brian Karrer, Shelly Sheynin, Candace Ross, Adam Polyak, Russell Howes, Vasu Sharma, Puxin Xu, Hovhannes Tamoyan, Oron Ashual, Uriel Singer, Shang-Wen Li, Susan Zhang, Richard James, Gargi Ghosh, Yaniv Taigman, Maryam Fazel-Zarandi, Asli Celikyilmaz, Luke Zettlemoyer, Armen Aghajanyan | cs.LG, cs.CL, cs.CV | 2023-09-05 |
+| [Breaking Barriers to Creative Expression: Co-Designing and Implementing  an Accessible Text-to-Image Interface](http://arxiv.org/abs/2309.02402v1) | Atieh Taheri, Mohammad Izadi, Gururaj Shriram, Negar Rostamzadeh, Shaun Kane | cs.HC, J.5; J.6; I.2.7 | 2023-09-05 |
+| [PromptTTS 2: Describing and Generating Voices with Text Prompt](http://arxiv.org/abs/2309.02285v1) | Yichong Leng, Zhifang Guo, Kai Shen, Xu Tan, Zeqian Ju, Yanqing Liu, Yufei Liu, Dongchao Yang, Leying Zhang, Kaitao Song, Lei He, Xiang-Yang Li, Sheng Zhao, Tao Qin, Jiang Bian | eess.AS, cs.CL, cs.LG, cs.SD | 2023-09-05 |
 | [Towards Vision-Language Mechanistic Interpretability: A Causal Tracing  Tool for BLIP](http://arxiv.org/abs/2308.14179v1) | Vedant Palit, Rohan Pandey, Aryaman Arora, Paul Pu Liang | cs.CL, cs.AI, cs.CV | 2023-08-27 |
 | [GeoExplainer: A Visual Analytics Framework for Spatial Modeling  Contextualization and Report Generation](http://arxiv.org/abs/2308.13588v1) | Fan Lei, Yuxin Ma, Stewart Fotheringham, Elizabeth Mack, Ziqi Li, Mehak Sachdeva, Sarah Bardin, Ross Maciejewski | cs.HC, cs.LG | 2023-08-25 |
 | [Manipulating Embeddings of Stable Diffusion Prompts](http://arxiv.org/abs/2308.12059v1) | Niklas Deckers, Julia Peters, Martin Potthast | cs.CV, cs.LG | 2023-08-23 |
