@@ -1,4 +1,17 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Specializing Small Language Models towards Complex Style Transfer via
+  Latent Attribute Pre-Training",2023-09-19 21:01:40+00:00,http://arxiv.org/abs/2309.10929v1,"Ruiqi Xu, Yongfeng Huang, Xin Chen, Lin Zhang",cs.CL,games,"In this work, we introduce the concept of complex text style transfer tasks,
+and constructed complex text datasets based on two widely applicable scenarios.
+Our dataset is the first large-scale data set of its kind, with 700 rephrased
+sentences and 1,000 sentences from the game Genshin Impact. While large
+language models (LLM) have shown promise in complex text style transfer, they
+have drawbacks such as data privacy concerns, network instability, and high
+deployment costs. To address these issues, we explore the effectiveness of
+small models (less than T5-3B) with implicit style pre-training through
+contrastive learning. We also propose a method for automated evaluation of text
+generation quality based on alignment with human evaluations using ChatGPT.
+Finally, we compare our approach with existing methods and show that our model
+achieves state-of-art performances of few-shot text style transfer models.",2023-09-19
 "Learning to Generate Equitable Text in Dialogue from Biased Training
   Data",2023-07-10 01:44:13+00:00,http://arxiv.org/abs/2307.04303v1,"Anthony Sicilia, Malihe Alikhani","cs.CL, cs.AI",games,"The ingrained principles of fairness in a dialogue system's decision-making
 process and generated responses are crucial for user engagement, satisfaction,

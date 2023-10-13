@@ -1,4 +1,162 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"GraphextQA: A Benchmark for Evaluating Graph-Enhanced Large Language
+  Models",2023-10-12 16:46:58+00:00,http://arxiv.org/abs/2310.08487v1,"Yuanchun Shen, Ruotong Liao, Zhen Han, Yunpu Ma, Volker Tresp",cs.CL,knowledge,"While multi-modal models have successfully integrated information from image,
+video, and audio modalities, integrating graph modality into large language
+models (LLMs) remains unexplored. This discrepancy largely stems from the
+inherent divergence between structured graph data and unstructured text data.
+Incorporating graph knowledge provides a reliable source of information,
+enabling potential solutions to address issues in text generation, e.g.,
+hallucination, and lack of domain knowledge. To evaluate the integration of
+graph knowledge into language models, a dedicated dataset is needed. However,
+there is currently no benchmark dataset specifically designed for multimodal
+graph-language models. To address this gap, we propose GraphextQA, a question
+answering dataset with paired subgraphs, retrieved from Wikidata, to facilitate
+the evaluation and future development of graph-language models. Additionally,
+we introduce a baseline model called CrossGNN, which conditions answer
+generation on the paired graphs by cross-attending question-aware graph
+features at decoding. The proposed dataset is designed to evaluate
+graph-language models' ability to understand graphs and make use of it for
+answer generation. We perform experiments with language-only models and the
+proposed graph-language model to validate the usefulness of the paired graphs
+and to demonstrate the difficulty of the task.",2023-10-12
+DistillSpec: Improving Speculative Decoding via Knowledge Distillation,2023-10-12 16:21:04+00:00,http://arxiv.org/abs/2310.08461v1,"Yongchao Zhou, Kaifeng Lyu, Ankit Singh Rawat, Aditya Krishna Menon, Afshin Rostamizadeh, Sanjiv Kumar, Jean-François Kagy, Rishabh Agarwal","cs.CL, cs.AI, cs.LG",knowledge,"Speculative decoding (SD) accelerates large language model inference by
+employing a faster draft model for generating multiple tokens, which are then
+verified in parallel by the larger target model, resulting in the text
+generated according to the target model distribution. However, identifying a
+compact draft model that is well-aligned with the target model is challenging.
+To tackle this issue, we propose DistillSpec that uses knowledge distillation
+to better align the draft model with the target model, before applying SD.
+DistillSpec makes two key design choices, which we demonstrate via systematic
+study to be crucial to improving the draft and target alignment: utilizing
+on-policy data generation from the draft model, and tailoring the divergence
+function to the task and decoding strategy. Notably, DistillSpec yields
+impressive 10 - 45% speedups over standard SD on a range of standard
+benchmarks, using both greedy and non-greedy sampling. Furthermore, we combine
+DistillSpec with lossy SD to achieve fine-grained control over the latency vs.
+task performance trade-off. Finally, in practical scenarios with models of
+varying sizes, first using distillation to boost the performance of the target
+model and then applying DistillSpec to train a well-aligned draft model can
+reduce decoding latency by 6-10x with minimal performance drop, compared to
+standard decoding without distillation.",2023-10-12
+"CP-KGC: Constrained-Prompt Knowledge Graph Completion with Large
+  Language Models",2023-10-12 12:31:23+00:00,http://arxiv.org/abs/2310.08279v1,"Rui Yang, Li Fang, Yi Zhou","cs.CL, cs.AI",knowledge,"Knowledge graph completion (KGC) aims to utilize existing knowledge to deduce
+and infer missing connections within knowledge graphs. Text-based approaches,
+like SimKGC, have outperformed graph embedding methods, showcasing the promise
+of inductive KGC. However, the efficacy of text-based methods hinges on the
+quality of entity textual descriptions. In this paper, we identify the key
+issue of whether large language models (LLMs) can generate effective text. To
+mitigate hallucination in LLM-generated text in this paper, we introduce a
+constraint-based prompt that utilizes the entity and its textual description as
+contextual constraints to enhance data quality. Our Constrained-Prompt
+Knowledge Graph Completion (CP-KGC) method demonstrates effective inference
+under low resource computing conditions and surpasses prior results on the
+WN18RR and FB15K237 datasets. This showcases the integration of LLMs in KGC
+tasks and provides new directions for future research.",2023-10-12
+"Ziya-VL: Bilingual Large Vision-Language Model via Multi-Task
+  Instruction Tuning",2023-10-12 09:39:17+00:00,http://arxiv.org/abs/2310.08166v1,"Junyu Lu, Dixiang Zhang, Xiaojun Wu, Xinyu Gao, Ruyi Gan, Jiaxing Zhang, Yan Song, Pingjian Zhang",cs.CL,knowledge,"Recent advancements enlarge the capabilities of large language models (LLMs)
+in zero-shot image-to-text generation and understanding by integrating
+multi-modal inputs. However, such success is typically limited to English
+scenarios due to the lack of large-scale and high-quality non-English
+multi-modal resources, making it extremely difficult to establish competitive
+counterparts in other languages. In this paper, we introduce the Ziya-VL
+series, a set of bilingual large-scale vision-language models (LVLMs) designed
+to incorporate visual semantics into LLM for multi-modal dialogue. Composed of
+Ziya-VL-Base and Ziya-VL-Chat, our models adopt the Querying Transformer from
+BLIP-2, further exploring the assistance of optimization schemes such as
+instruction tuning, multi-stage training and low-rank adaptation module for
+visual-language alignment. In addition, we stimulate the understanding ability
+of GPT-4 in multi-modal scenarios, translating our gathered English image-text
+datasets into Chinese and generating instruction-response through the
+in-context learning method. The experiment results demonstrate that compared to
+the existing LVLMs, Ziya-VL achieves competitive performance across a wide
+range of English-only tasks including zero-shot image-text retrieval, image
+captioning, and visual question answering. The evaluation leaderboard accessed
+by GPT-4 also indicates that our models possess satisfactory image-text
+understanding and generation capabilities in Chinese multi-modal scenario
+dialogues. Code, demo and models are available at
+~\url{https://huggingface.co/IDEA-CCNL/Ziya-BLIP2-14B-Visual-v1}.",2023-10-12
+Multimodal Graph Learning for Generative Tasks,2023-10-11 13:25:03+00:00,http://arxiv.org/abs/2310.07478v2,"Minji Yoon, Jing Yu Koh, Bryan Hooi, Ruslan Salakhutdinov",cs.AI,knowledge,"Multimodal learning combines multiple data modalities, broadening the types
+and complexity of data our models can utilize: for example, from plain text to
+image-caption pairs. Most multimodal learning algorithms focus on modeling
+simple one-to-one pairs of data from two modalities, such as image-caption
+pairs, or audio-text pairs. However, in most real-world settings, entities of
+different modalities interact with each other in more complex and multifaceted
+ways, going beyond one-to-one mappings. We propose to represent these complex
+relationships as graphs, allowing us to capture data with any number of
+modalities, and with complex relationships between modalities that can flexibly
+vary from one sample to another. Toward this goal, we propose Multimodal Graph
+Learning (MMGL), a general and systematic framework for capturing information
+from multiple multimodal neighbors with relational structures among them. In
+particular, we focus on MMGL for generative tasks, building upon pretrained
+Language Models (LMs), aiming to augment their text generation with multimodal
+neighbor contexts. We study three research questions raised by MMGL: (1) how
+can we infuse multiple neighbor information into the pretrained LMs, while
+avoiding scalability issues? (2) how can we infuse the graph structure
+information among multimodal neighbors into the LMs? and (3) how can we
+finetune the pretrained LMs to learn from the neighbor context in a
+parameter-efficient manner? We conduct extensive experiments to answer these
+three questions on MMGL and analyze the empirical results to pave the way for
+future MMGL research.",2023-10-11
+"MatChat: A Large Language Model and Application Service Platform for
+  Materials Science",2023-10-11 05:11:46+00:00,http://arxiv.org/abs/2310.07197v1,"Ziyi Chen, Fankai Xie, Meng Wan, Yang Yuan, Miao Liu, Zongguo Wang, Sheng Meng, Yangang Wang","cond-mat.mtrl-sci, cs.AI",knowledge,"The prediction of chemical synthesis pathways plays a pivotal role in
+materials science research. Challenges, such as the complexity of synthesis
+pathways and the lack of comprehensive datasets, currently hinder our ability
+to predict these chemical processes accurately. However, recent advancements in
+generative artificial intelligence (GAI), including automated text generation
+and question-answering systems, coupled with fine-tuning techniques, have
+facilitated the deployment of large-scale AI models tailored to specific
+domains. In this study, we harness the power of the LLaMA2-7B model and enhance
+it through a learning process that incorporates 13,878 pieces of structured
+material knowledge data. This specialized AI model, named MatChat, focuses on
+predicting inorganic material synthesis pathways. MatChat exhibits remarkable
+proficiency in generating and reasoning with knowledge in materials science.
+Although MatChat requires further refinement to meet the diverse material
+design needs, this research undeniably highlights its impressive reasoning
+capabilities and innovative potential in the field of materials science.
+MatChat is now accessible online and open for use, with both the model and its
+application framework available as open source. This study establishes a robust
+foundation for collaborative innovation in the integration of generative AI in
+materials science.",2023-10-11
+"The Temporal Structure of Language Processing in the Human Brain
+  Corresponds to The Layered Hierarchy of Deep Language Models",2023-10-11 01:03:42+00:00,http://arxiv.org/abs/2310.07106v1,"Ariel Goldstein, Eric Ham, Mariano Schain, Samuel Nastase, Zaid Zada, Avigail Dabush, Bobbi Aubrey, Harshvardhan Gazula, Amir Feder, Werner K Doyle, Sasha Devore, Patricia Dugan, Daniel Friedman, Roi Reichart, Michael Brenner, Avinatan Hassidim, Orrin Devinsky, Adeen Flinker, Omer Levy, Uri Hasson","cs.CL, cs.AI, cs.LG, q-bio.NC",knowledge,"Deep Language Models (DLMs) provide a novel computational paradigm for
+understanding the mechanisms of natural language processing in the human brain.
+Unlike traditional psycholinguistic models, DLMs use layered sequences of
+continuous numerical vectors to represent words and context, allowing a
+plethora of emerging applications such as human-like text generation. In this
+paper we show evidence that the layered hierarchy of DLMs may be used to model
+the temporal dynamics of language comprehension in the brain by demonstrating a
+strong correlation between DLM layer depth and the time at which layers are
+most predictive of the human brain. Our ability to temporally resolve
+individual layers benefits from our use of electrocorticography (ECoG) data,
+which has a much higher temporal resolution than noninvasive methods like fMRI.
+Using ECoG, we record neural activity from participants listening to a
+30-minute narrative while also feeding the same narrative to a high-performing
+DLM (GPT2-XL). We then extract contextual embeddings from the different layers
+of the DLM and use linear encoding models to predict neural activity. We first
+focus on the Inferior Frontal Gyrus (IFG, or Broca's area) and then extend our
+model to track the increasing temporal receptive window along the linguistic
+processing hierarchy from auditory to syntactic and semantic areas. Our results
+reveal a connection between human language processing and DLMs, with the DLM's
+layer-by-layer accumulation of contextual information mirroring the timing of
+neural activity in high-order language areas.",2023-10-11
+A Semantic Invariant Robust Watermark for Large Language Models,2023-10-10 06:49:43+00:00,http://arxiv.org/abs/2310.06356v1,"Aiwei Liu, Leyi Pan, Xuming Hu, Shiao Meng, Lijie Wen","cs.CR, cs.CL, 68T50, I.2.7",knowledge,"Watermark algorithms for large language models (LLMs) have achieved extremely
+high accuracy in detecting text generated by LLMs. Such algorithms typically
+involve adding extra watermark logits to the LLM's logits at each generation
+step. However, prior algorithms face a trade-off between attack robustness and
+security robustness. This is because the watermark logits for a token are
+determined by a certain number of preceding tokens; a small number leads to low
+security robustness, while a large number results in insufficient attack
+robustness. In this work, we propose a semantic invariant watermarking method
+for LLMs that provides both attack robustness and security robustness. The
+watermark logits in our work are determined by the semantics of all preceding
+tokens. Specifically, we utilize another embedding LLM to generate semantic
+embeddings for all preceding tokens, and then these semantic embeddings are
+transformed into the watermark logits through our trained watermark model.
+Subsequent analyses and experiments demonstrated the attack robustness of our
+method in semantically invariant settings: synonym substitution and text
+paraphrasing settings. Finally, we also show that our watermark possesses
+adequate security robustness. Our code and data are available at
+https://github.com/THU-BPM/Robust_Watermark.",2023-10-10
 "CATfOOD: Counterfactual Augmented Training for Improving Out-of-Domain
   Performance and Calibration",2023-09-14 16:16:40+00:00,http://arxiv.org/abs/2309.07822v1,"Rachneet Sachdeva, Martin Tutek, Iryna Gurevych",cs.CL,knowledge,"In recent years, large language models (LLMs) have shown remarkable
 capabilities at scale, particularly at generating text conditioned on a prompt.

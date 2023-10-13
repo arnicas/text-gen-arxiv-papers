@@ -7,10 +7,18 @@ sidebar:
 ---
 
 
-*written on 2023-09-15*
+*written on 2023-10-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Ziya-VL: Bilingual Large Vision-Language Model via Multi-Task  Instruction Tuning](http://arxiv.org/abs/2310.08166v1) | Junyu Lu, Dixiang Zhang, Xiaojun Wu, Xinyu Gao, Ruyi Gan, Jiaxing Zhang, Yan Song, Pingjian Zhang | cs.CL | 2023-10-12 |
+| [Harnessing Large Language Models' Empathetic Response Generation  Capabilities for Online Mental Health Counselling Support](http://arxiv.org/abs/2310.08017v1) | Siyuan Brandon Loh, Aravind Sesagiri Raamkumar | cs.CL, I.2 | 2023-10-12 |
+| [Dobby: A Conversational Service Robot Driven by GPT-4](http://arxiv.org/abs/2310.06303v1) | Carson Stark, Bohkyung Chun, Casey Charleston, Varsha Ravi, Luis Pabon, Surya Sunkari, Tarun Mohan, Peter Stone, Justin Hart | cs.RO, cs.AI | 2023-10-10 |
+| [Aligning Language Models with Human Preferences via a Bayesian Approach](http://arxiv.org/abs/2310.05782v1) | Jiashuo Wang, Haozhao Wang, Shichao Sun, Wenjie Li | cs.CL | 2023-10-09 |
+| [Improving the Reliability of Large Language Models by Leveraging  Uncertainty-Aware In-Context Learning](http://arxiv.org/abs/2310.04782v1) | Yuchen Yang, Houqiang Li, Yanfeng Wang, Yu Wang | cs.CL | 2023-10-07 |
+| [Controlling Topic-Focus Articulation in Meaning-to-Text Generation using  Graph Neural Networks](http://arxiv.org/abs/2310.02053v1) | Chunliu Wang, Rik van Noord, Johan Bos | cs.CL | 2023-10-03 |
+| [Curriculum-Driven Edubot: A Framework for Developing Language Learning  Chatbots Through Synthesizing Conversational Data](http://arxiv.org/abs/2309.16804v1) | Yu Li, Shang Qu, Jili Shen, Shangchao Min, Zhou Yu | cs.CL | 2023-09-28 |
+| [When Automated Assessment Meets Automated Content Generation: Examining  Text Quality in the Era of GPTs](http://arxiv.org/abs/2309.14488v1) | Marialena Bevilacqua, Kezia Oketch, Ruiyang Qin, Will Stamey, Xinyuan Zhang, Yi Gan, Kai Yang, Ahmed Abbasi | cs.CL, cs.AI | 2023-09-25 |
 | [BLSP: Bootstrapping Language-Speech Pre-training via Behavior Alignment  of Continuation Writing](http://arxiv.org/abs/2309.00916v1) | Chen Wang, Minpeng Liao, Zhongqiang Huang, Jinliang Lu, Junhong Wu, Yuchen Liu, Chengqing Zong, Jiajun Zhang | cs.CL, cs.SD, eess.AS | 2023-09-02 |
 | [Sparkles: Unlocking Chats Across Multiple Images for Multimodal  Instruction-Following Models](http://arxiv.org/abs/2308.16463v1) | Yupan Huang, Zaiqiao Meng, Fangyu Liu, Yixuan Su, Nigel Collier, Yutong Lu | cs.CV, cs.CL | 2023-08-31 |
 | [Out of the Cage: How Stochastic Parrots Win in Cyber Security  Environments](http://arxiv.org/abs/2308.12086v2) | Maria Rigaki, Ondřej Lukáš, Carlos A. Catania, Sebastian Garcia | cs.CR, cs.AI, cs.CL | 2023-08-23 |

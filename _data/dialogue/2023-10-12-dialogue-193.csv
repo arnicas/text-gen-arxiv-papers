@@ -1,4 +1,161 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Ziya-VL: Bilingual Large Vision-Language Model via Multi-Task
+  Instruction Tuning",2023-10-12 09:39:17+00:00,http://arxiv.org/abs/2310.08166v1,"Junyu Lu, Dixiang Zhang, Xiaojun Wu, Xinyu Gao, Ruyi Gan, Jiaxing Zhang, Yan Song, Pingjian Zhang",cs.CL,dialogue,"Recent advancements enlarge the capabilities of large language models (LLMs)
+in zero-shot image-to-text generation and understanding by integrating
+multi-modal inputs. However, such success is typically limited to English
+scenarios due to the lack of large-scale and high-quality non-English
+multi-modal resources, making it extremely difficult to establish competitive
+counterparts in other languages. In this paper, we introduce the Ziya-VL
+series, a set of bilingual large-scale vision-language models (LVLMs) designed
+to incorporate visual semantics into LLM for multi-modal dialogue. Composed of
+Ziya-VL-Base and Ziya-VL-Chat, our models adopt the Querying Transformer from
+BLIP-2, further exploring the assistance of optimization schemes such as
+instruction tuning, multi-stage training and low-rank adaptation module for
+visual-language alignment. In addition, we stimulate the understanding ability
+of GPT-4 in multi-modal scenarios, translating our gathered English image-text
+datasets into Chinese and generating instruction-response through the
+in-context learning method. The experiment results demonstrate that compared to
+the existing LVLMs, Ziya-VL achieves competitive performance across a wide
+range of English-only tasks including zero-shot image-text retrieval, image
+captioning, and visual question answering. The evaluation leaderboard accessed
+by GPT-4 also indicates that our models possess satisfactory image-text
+understanding and generation capabilities in Chinese multi-modal scenario
+dialogues. Code, demo and models are available at
+~\url{https://huggingface.co/IDEA-CCNL/Ziya-BLIP2-14B-Visual-v1}.",2023-10-12
+"Harnessing Large Language Models' Empathetic Response Generation
+  Capabilities for Online Mental Health Counselling Support",2023-10-12 03:33:06+00:00,http://arxiv.org/abs/2310.08017v1,"Siyuan Brandon Loh, Aravind Sesagiri Raamkumar","cs.CL, I.2",dialogue,"Large Language Models (LLMs) have demonstrated remarkable performance across
+various information-seeking and reasoning tasks. These computational systems
+drive state-of-the-art dialogue systems, such as ChatGPT and Bard. They also
+carry substantial promise in meeting the growing demands of mental health care,
+albeit relatively unexplored. As such, this study sought to examine LLMs'
+capability to generate empathetic responses in conversations that emulate those
+in a mental health counselling setting. We selected five LLMs: version 3.5 and
+version 4 of the Generative Pre-training (GPT), Vicuna FastChat-T5, Pathways
+Language Model (PaLM) version 2, and Falcon-7B-Instruct. Based on a simple
+instructional prompt, these models responded to utterances derived from the
+EmpatheticDialogues (ED) dataset. Using three empathy-related metrics, we
+compared their responses to those from traditional response generation dialogue
+systems, which were fine-tuned on the ED dataset, along with human-generated
+responses. Notably, we discovered that responses from the LLMs were remarkably
+more empathetic in most scenarios. We position our findings in light of
+catapulting advancements in creating empathetic conversational systems.",2023-10-12
+Dobby: A Conversational Service Robot Driven by GPT-4,2023-10-10 04:34:00+00:00,http://arxiv.org/abs/2310.06303v1,"Carson Stark, Bohkyung Chun, Casey Charleston, Varsha Ravi, Luis Pabon, Surya Sunkari, Tarun Mohan, Peter Stone, Justin Hart","cs.RO, cs.AI",dialogue,"This work introduces a robotics platform which embeds a conversational AI
+agent in an embodied system for natural language understanding and intelligent
+decision-making for service tasks; integrating task planning and human-like
+conversation. The agent is derived from a large language model, which has
+learned from a vast corpus of general knowledge. In addition to generating
+dialogue, this agent can interface with the physical world by invoking commands
+on the robot; seamlessly merging communication and behavior. This system is
+demonstrated in a free-form tour-guide scenario, in an HRI study combining
+robots with and without conversational AI capabilities. Performance is measured
+along five dimensions: overall effectiveness, exploration abilities,
+scrutinization abilities, receptiveness to personification, and adaptability.",2023-10-10
+Aligning Language Models with Human Preferences via a Bayesian Approach,2023-10-09 15:15:05+00:00,http://arxiv.org/abs/2310.05782v1,"Jiashuo Wang, Haozhao Wang, Shichao Sun, Wenjie Li",cs.CL,dialogue,"In the quest to advance human-centric natural language generation (NLG)
+systems, ensuring alignment between NLG models and human preferences is
+crucial. For this alignment, current popular methods leverage a reinforcement
+learning (RL) approach with a reward model trained on feedback from humans.
+However, inherent disagreements due to the subjective nature of human
+preferences pose a significant challenge for training the reward model,
+resulting in a deterioration of the NLG performance. To tackle this issue,
+previous approaches typically rely on majority voting or averaging to
+consolidate multiple inconsistent preferences into a merged one. Although
+straightforward to understand and execute, such methods suffer from an
+inability to capture the nuanced degrees of disaggregation among humans and may
+only represent a specialized subset of individuals, thereby lacking the ability
+to quantitatively disclose the universality of human preferences. To address
+this challenge, this paper proposes a novel approach, which employs a Bayesian
+framework to account for the distribution of disagreements among human
+preferences as training a preference model, and names it as d-PM. Besides,
+considering the RL strategy's inefficient and complex training process over the
+training efficiency, we further propose utilizing the contrastive learning
+strategy to train the NLG model with the preference scores derived from the
+d-PM model. Extensive experiments on two human-centric NLG tasks, i.e.,
+emotional support conversation and integrity ""Rule-of-Thumb"" generation, show
+that our method consistently exceeds previous SOTA models in both automatic and
+human evaluations.",2023-10-09
+"Improving the Reliability of Large Language Models by Leveraging
+  Uncertainty-Aware In-Context Learning",2023-10-07 12:06:53+00:00,http://arxiv.org/abs/2310.04782v1,"Yuchen Yang, Houqiang Li, Yanfeng Wang, Yu Wang",cs.CL,dialogue,"In recent years, large-scale language models (LLMs) have gained attention for
+their impressive text generation capabilities. However, these models often face
+the challenge of ""hallucination,"" which undermines their reliability. In this
+study, we introduce an uncertainty-aware in-context learning framework to
+empower the model to enhance or reject its output in response to uncertainty.
+Human-defined methods for estimating uncertainty typically assume that
+""uncertainty is lower when the model's response is correct compared to when it
+is incorrect."" However, setting a precise threshold to distinguish correctness
+is challenging. Therefore, we introduce uncertainty information as an
+intermediary variable that implicitly influences the model's behavior. Our
+innovative uncertainty-aware in-context learning framework involves fine-tuning
+the LLM using a calibration dataset. Our aim is to improve the model's
+responses by filtering out answers with high uncertainty while considering the
+model's knowledge limitations. We evaluate the model's knowledge by examining
+multiple responses to the same question for the presence of a correct answer.
+When the model lacks relevant knowledge, the response should indicate that the
+question cannot be answered. Conversely, when the model has relevant knowledge,
+the response should provide the correct answer. Extensive experiments confirm
+the effectiveness of our framework, leading to two key findings. First, the
+logit output values of the LLM partly reflect inherent uncertainty. Second, our
+model autonomously recognizes uncertainty, resulting in improved responses.",2023-10-07
+"Controlling Topic-Focus Articulation in Meaning-to-Text Generation using
+  Graph Neural Networks",2023-10-03 13:51:01+00:00,http://arxiv.org/abs/2310.02053v1,"Chunliu Wang, Rik van Noord, Johan Bos",cs.CL,dialogue,"A bare meaning representation can be expressed in various ways using natural
+language, depending on how the information is structured on the surface level.
+We are interested in finding ways to control topic-focus articulation when
+generating text from meaning. We focus on distinguishing active and passive
+voice for sentences with transitive verbs. The idea is to add pragmatic
+information such as topic to the meaning representation, thereby forcing either
+active or passive voice when given to a natural language generation system. We
+use graph neural models because there is no explicit information about word
+order in a meaning represented by a graph. We try three different methods for
+topic-focus articulation (TFA) employing graph neural models for a
+meaning-to-text generation task. We propose a novel encoding strategy about
+node aggregation in graph neural models, which instead of traditional encoding
+by aggregating adjacent node information, learns node representations by using
+depth-first search. The results show our approach can get competitive
+performance with state-of-art graph models on general text generation, and lead
+to significant improvements on the task of active-passive conversion compared
+to traditional adjacency-based aggregation strategies. Different types of TFA
+can have a huge impact on the performance of the graph models.",2023-10-03
+"Curriculum-Driven Edubot: A Framework for Developing Language Learning
+  Chatbots Through Synthesizing Conversational Data",2023-09-28 19:14:18+00:00,http://arxiv.org/abs/2309.16804v1,"Yu Li, Shang Qu, Jili Shen, Shangchao Min, Zhou Yu",cs.CL,dialogue,"Chatbots have become popular in educational settings, revolutionizing how
+students interact with material and how teachers teach. We present
+Curriculum-Driven EduBot, a framework for developing a chatbot that combines
+the interactive features of chatbots with the systematic material of English
+textbooks to assist students in enhancing their conversational skills. We begin
+by extracting pertinent topics from textbooks and then using large language
+models to generate dialogues related to these topics. We then fine-tune an
+open-source LLM using our generated conversational data to create our
+curriculum-driven chatbot. User studies demonstrate that our chatbot
+outperforms ChatGPT in leading curriculum-based dialogues and adapting its
+dialogue to match the user's English proficiency level. By combining
+traditional textbook methodologies with conversational AI, our approach offers
+learners an interactive tool that aligns with their curriculum and provides
+user-tailored conversation practice. This facilitates meaningful student-bot
+dialogues and enriches the overall learning experience within the curriculum's
+pedagogical framework.",2023-09-28
+"When Automated Assessment Meets Automated Content Generation: Examining
+  Text Quality in the Era of GPTs",2023-09-25 19:32:18+00:00,http://arxiv.org/abs/2309.14488v1,"Marialena Bevilacqua, Kezia Oketch, Ruiyang Qin, Will Stamey, Xinyuan Zhang, Yi Gan, Kai Yang, Ahmed Abbasi","cs.CL, cs.AI",dialogue,"The use of machine learning (ML) models to assess and score textual data has
+become increasingly pervasive in an array of contexts including natural
+language processing, information retrieval, search and recommendation, and
+credibility assessment of online content. A significant disruption at the
+intersection of ML and text are text-generating large-language models such as
+generative pre-trained transformers (GPTs). We empirically assess the
+differences in how ML-based scoring models trained on human content assess the
+quality of content generated by humans versus GPTs. To do so, we propose an
+analysis framework that encompasses essay scoring ML-models, human and
+ML-generated essays, and a statistical model that parsimoniously considers the
+impact of type of respondent, prompt genre, and the ML model used for
+assessment model. A rich testbed is utilized that encompasses 18,460
+human-generated and GPT-based essays. Results of our benchmark analysis reveal
+that transformer pretrained language models (PLMs) more accurately score human
+essay quality as compared to CNN/RNN and feature-based ML methods.
+Interestingly, we find that the transformer PLMs tend to score GPT-generated
+text 10-15\% higher on average, relative to human-authored documents.
+Conversely, traditional deep learning and feature-based ML models score human
+text considerably higher. Further analysis reveals that although the
+transformer PLMs are exclusively fine-tuned on human text, they more
+prominently attend to certain tokens appearing only in GPT-generated text,
+possibly due to familiarity/overlap in pre-training. Our framework and results
+have implications for text classification settings where automated scoring of
+text is likely to be disrupted by generative AI.",2023-09-25
 "BLSP: Bootstrapping Language-Speech Pre-training via Behavior Alignment
   of Continuation Writing",2023-09-02 11:46:05+00:00,http://arxiv.org/abs/2309.00916v1,"Chen Wang, Minpeng Liao, Zhongqiang Huang, Jinliang Lu, Junhong Wu, Yuchen Liu, Chengqing Zong, Jiajun Zhang","cs.CL, cs.SD, eess.AS",dialogue,"The emergence of large language models (LLMs) has sparked significant
 interest in extending their remarkable language capabilities to speech.

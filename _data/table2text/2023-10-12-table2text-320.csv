@@ -1,4 +1,255 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"GraphextQA: A Benchmark for Evaluating Graph-Enhanced Large Language
+  Models",2023-10-12 16:46:58+00:00,http://arxiv.org/abs/2310.08487v1,"Yuanchun Shen, Ruotong Liao, Zhen Han, Yunpu Ma, Volker Tresp",cs.CL,table2text,"While multi-modal models have successfully integrated information from image,
+video, and audio modalities, integrating graph modality into large language
+models (LLMs) remains unexplored. This discrepancy largely stems from the
+inherent divergence between structured graph data and unstructured text data.
+Incorporating graph knowledge provides a reliable source of information,
+enabling potential solutions to address issues in text generation, e.g.,
+hallucination, and lack of domain knowledge. To evaluate the integration of
+graph knowledge into language models, a dedicated dataset is needed. However,
+there is currently no benchmark dataset specifically designed for multimodal
+graph-language models. To address this gap, we propose GraphextQA, a question
+answering dataset with paired subgraphs, retrieved from Wikidata, to facilitate
+the evaluation and future development of graph-language models. Additionally,
+we introduce a baseline model called CrossGNN, which conditions answer
+generation on the paired graphs by cross-attending question-aware graph
+features at decoding. The proposed dataset is designed to evaluate
+graph-language models' ability to understand graphs and make use of it for
+answer generation. We perform experiments with language-only models and the
+proposed graph-language model to validate the usefulness of the paired graphs
+and to demonstrate the difficulty of the task.",2023-10-12
+DistillSpec: Improving Speculative Decoding via Knowledge Distillation,2023-10-12 16:21:04+00:00,http://arxiv.org/abs/2310.08461v1,"Yongchao Zhou, Kaifeng Lyu, Ankit Singh Rawat, Aditya Krishna Menon, Afshin Rostamizadeh, Sanjiv Kumar, Jean-François Kagy, Rishabh Agarwal","cs.CL, cs.AI, cs.LG",table2text,"Speculative decoding (SD) accelerates large language model inference by
+employing a faster draft model for generating multiple tokens, which are then
+verified in parallel by the larger target model, resulting in the text
+generated according to the target model distribution. However, identifying a
+compact draft model that is well-aligned with the target model is challenging.
+To tackle this issue, we propose DistillSpec that uses knowledge distillation
+to better align the draft model with the target model, before applying SD.
+DistillSpec makes two key design choices, which we demonstrate via systematic
+study to be crucial to improving the draft and target alignment: utilizing
+on-policy data generation from the draft model, and tailoring the divergence
+function to the task and decoding strategy. Notably, DistillSpec yields
+impressive 10 - 45% speedups over standard SD on a range of standard
+benchmarks, using both greedy and non-greedy sampling. Furthermore, we combine
+DistillSpec with lossy SD to achieve fine-grained control over the latency vs.
+task performance trade-off. Finally, in practical scenarios with models of
+varying sizes, first using distillation to boost the performance of the target
+model and then applying DistillSpec to train a well-aligned draft model can
+reduce decoding latency by 6-10x with minimal performance drop, compared to
+standard decoding without distillation.",2023-10-12
+"CP-KGC: Constrained-Prompt Knowledge Graph Completion with Large
+  Language Models",2023-10-12 12:31:23+00:00,http://arxiv.org/abs/2310.08279v1,"Rui Yang, Li Fang, Yi Zhou","cs.CL, cs.AI",table2text,"Knowledge graph completion (KGC) aims to utilize existing knowledge to deduce
+and infer missing connections within knowledge graphs. Text-based approaches,
+like SimKGC, have outperformed graph embedding methods, showcasing the promise
+of inductive KGC. However, the efficacy of text-based methods hinges on the
+quality of entity textual descriptions. In this paper, we identify the key
+issue of whether large language models (LLMs) can generate effective text. To
+mitigate hallucination in LLM-generated text in this paper, we introduce a
+constraint-based prompt that utilizes the entity and its textual description as
+contextual constraints to enhance data quality. Our Constrained-Prompt
+Knowledge Graph Completion (CP-KGC) method demonstrates effective inference
+under low resource computing conditions and surpasses prior results on the
+WN18RR and FB15K237 datasets. This showcases the integration of LLMs in KGC
+tasks and provides new directions for future research.",2023-10-12
+"Goodtriever: Adaptive Toxicity Mitigation with Retrieval-augmented
+  Models",2023-10-11 15:30:35+00:00,http://arxiv.org/abs/2310.07589v1,"Luiza Pozzobon, Beyza Ermis, Patrick Lewis, Sara Hooker",cs.AI,table2text,"Considerable effort has been dedicated to mitigating toxicity, but existing
+methods often require drastic modifications to model parameters or the use of
+computationally intensive auxiliary models. Furthermore, previous approaches
+have often neglected the crucial factor of language's evolving nature over
+time. In this work, we present a comprehensive perspective on toxicity
+mitigation that takes into account its changing nature. We introduce
+Goodtriever, a flexible methodology that matches the current state-of-the-art
+toxicity mitigation while achieving 43% relative latency reduction during
+inference and being more computationally efficient. By incorporating a
+retrieval-based approach at decoding time, Goodtriever enables
+toxicity-controlled text generation. Our research advocates for an increased
+focus on adaptable mitigation techniques, which better reflect the data drift
+models face when deployed in the wild. Code and data are available at
+https://github.com/for-ai/goodtriever.",2023-10-11
+Multimodal Graph Learning for Generative Tasks,2023-10-11 13:25:03+00:00,http://arxiv.org/abs/2310.07478v2,"Minji Yoon, Jing Yu Koh, Bryan Hooi, Ruslan Salakhutdinov",cs.AI,table2text,"Multimodal learning combines multiple data modalities, broadening the types
+and complexity of data our models can utilize: for example, from plain text to
+image-caption pairs. Most multimodal learning algorithms focus on modeling
+simple one-to-one pairs of data from two modalities, such as image-caption
+pairs, or audio-text pairs. However, in most real-world settings, entities of
+different modalities interact with each other in more complex and multifaceted
+ways, going beyond one-to-one mappings. We propose to represent these complex
+relationships as graphs, allowing us to capture data with any number of
+modalities, and with complex relationships between modalities that can flexibly
+vary from one sample to another. Toward this goal, we propose Multimodal Graph
+Learning (MMGL), a general and systematic framework for capturing information
+from multiple multimodal neighbors with relational structures among them. In
+particular, we focus on MMGL for generative tasks, building upon pretrained
+Language Models (LMs), aiming to augment their text generation with multimodal
+neighbor contexts. We study three research questions raised by MMGL: (1) how
+can we infuse multiple neighbor information into the pretrained LMs, while
+avoiding scalability issues? (2) how can we infuse the graph structure
+information among multimodal neighbors into the LMs? and (3) how can we
+finetune the pretrained LMs to learn from the neighbor context in a
+parameter-efficient manner? We conduct extensive experiments to answer these
+three questions on MMGL and analyze the empirical results to pave the way for
+future MMGL research.",2023-10-11
+"MatChat: A Large Language Model and Application Service Platform for
+  Materials Science",2023-10-11 05:11:46+00:00,http://arxiv.org/abs/2310.07197v1,"Ziyi Chen, Fankai Xie, Meng Wan, Yang Yuan, Miao Liu, Zongguo Wang, Sheng Meng, Yangang Wang","cond-mat.mtrl-sci, cs.AI",table2text,"The prediction of chemical synthesis pathways plays a pivotal role in
+materials science research. Challenges, such as the complexity of synthesis
+pathways and the lack of comprehensive datasets, currently hinder our ability
+to predict these chemical processes accurately. However, recent advancements in
+generative artificial intelligence (GAI), including automated text generation
+and question-answering systems, coupled with fine-tuning techniques, have
+facilitated the deployment of large-scale AI models tailored to specific
+domains. In this study, we harness the power of the LLaMA2-7B model and enhance
+it through a learning process that incorporates 13,878 pieces of structured
+material knowledge data. This specialized AI model, named MatChat, focuses on
+predicting inorganic material synthesis pathways. MatChat exhibits remarkable
+proficiency in generating and reasoning with knowledge in materials science.
+Although MatChat requires further refinement to meet the diverse material
+design needs, this research undeniably highlights its impressive reasoning
+capabilities and innovative potential in the field of materials science.
+MatChat is now accessible online and open for use, with both the model and its
+application framework available as open source. This study establishes a robust
+foundation for collaborative innovation in the integration of generative AI in
+materials science.",2023-10-11
+"The Temporal Structure of Language Processing in the Human Brain
+  Corresponds to The Layered Hierarchy of Deep Language Models",2023-10-11 01:03:42+00:00,http://arxiv.org/abs/2310.07106v1,"Ariel Goldstein, Eric Ham, Mariano Schain, Samuel Nastase, Zaid Zada, Avigail Dabush, Bobbi Aubrey, Harshvardhan Gazula, Amir Feder, Werner K Doyle, Sasha Devore, Patricia Dugan, Daniel Friedman, Roi Reichart, Michael Brenner, Avinatan Hassidim, Orrin Devinsky, Adeen Flinker, Omer Levy, Uri Hasson","cs.CL, cs.AI, cs.LG, q-bio.NC",table2text,"Deep Language Models (DLMs) provide a novel computational paradigm for
+understanding the mechanisms of natural language processing in the human brain.
+Unlike traditional psycholinguistic models, DLMs use layered sequences of
+continuous numerical vectors to represent words and context, allowing a
+plethora of emerging applications such as human-like text generation. In this
+paper we show evidence that the layered hierarchy of DLMs may be used to model
+the temporal dynamics of language comprehension in the brain by demonstrating a
+strong correlation between DLM layer depth and the time at which layers are
+most predictive of the human brain. Our ability to temporally resolve
+individual layers benefits from our use of electrocorticography (ECoG) data,
+which has a much higher temporal resolution than noninvasive methods like fMRI.
+Using ECoG, we record neural activity from participants listening to a
+30-minute narrative while also feeding the same narrative to a high-performing
+DLM (GPT2-XL). We then extract contextual embeddings from the different layers
+of the DLM and use linear encoding models to predict neural activity. We first
+focus on the Inferior Frontal Gyrus (IFG, or Broca's area) and then extend our
+model to track the increasing temporal receptive window along the linguistic
+processing hierarchy from auditory to syntactic and semantic areas. Our results
+reveal a connection between human language processing and DLMs, with the DLM's
+layer-by-layer accumulation of contextual information mirroring the timing of
+neural activity in high-order language areas.",2023-10-11
+A Semantic Invariant Robust Watermark for Large Language Models,2023-10-10 06:49:43+00:00,http://arxiv.org/abs/2310.06356v1,"Aiwei Liu, Leyi Pan, Xuming Hu, Shiao Meng, Lijie Wen","cs.CR, cs.CL, 68T50, I.2.7",table2text,"Watermark algorithms for large language models (LLMs) have achieved extremely
+high accuracy in detecting text generated by LLMs. Such algorithms typically
+involve adding extra watermark logits to the LLM's logits at each generation
+step. However, prior algorithms face a trade-off between attack robustness and
+security robustness. This is because the watermark logits for a token are
+determined by a certain number of preceding tokens; a small number leads to low
+security robustness, while a large number results in insufficient attack
+robustness. In this work, we propose a semantic invariant watermarking method
+for LLMs that provides both attack robustness and security robustness. The
+watermark logits in our work are determined by the semantics of all preceding
+tokens. Specifically, we utilize another embedding LLM to generate semantic
+embeddings for all preceding tokens, and then these semantic embeddings are
+transformed into the watermark logits through our trained watermark model.
+Subsequent analyses and experiments demonstrated the attack robustness of our
+method in semantically invariant settings: synonym substitution and text
+paraphrasing settings. Finally, we also show that our watermark possesses
+adequate security robustness. Our code and data are available at
+https://github.com/THU-BPM/Robust_Watermark.",2023-10-10
+"Generative quantum machine learning via denoising diffusion
+  probabilistic models",2023-10-09 17:03:08+00:00,http://arxiv.org/abs/2310.05866v1,"Bingzhi Zhang, Peng Xu, Xiaohui Chen, Quntao Zhuang","quant-ph, cs.AI, cs.LG",table2text,"Deep generative models are key-enabling technology to computer vision, text
+generation and large language models. Denoising diffusion probabilistic models
+(DDPMs) have recently gained much attention due to their ability to generate
+diverse and high-quality samples in many computer vision tasks, as well as to
+incorporate flexible model architectures and relatively simple training scheme.
+Quantum generative models, empowered by entanglement and superposition, have
+brought new insight to learning classical and quantum data. Inspired by the
+classical counterpart, we propose the quantum denoising diffusion probabilistic
+models (QuDDPM) to enable efficiently trainable generative learning of quantum
+data. QuDDPM adopts sufficient layers of circuits to guarantee expressivity,
+while introduces multiple intermediate training tasks as interpolation between
+the target distribution and noise to avoid barren plateau and guarantee
+efficient training. We demonstrate QuDDPM's capability in learning correlated
+quantum noise model and learning topological structure of nontrivial
+distribution of quantum data.",2023-10-09
+"RAUCG: Retrieval-Augmented Unsupervised Counter Narrative Generation for
+  Hate Speech",2023-10-09 12:01:26+00:00,http://arxiv.org/abs/2310.05650v1,"Shuyu Jiang, Wenyi Tang, Xingshu Chen, Rui Tanga, Haizhou Wang, Wenxian Wang",cs.CL,table2text,"The Counter Narrative (CN) is a promising approach to combat online hate
+speech (HS) without infringing on freedom of speech. In recent years, there has
+been a growing interest in automatically generating CNs using natural language
+generation techniques. However, current automatic CN generation methods mainly
+rely on expert-authored datasets for training, which are time-consuming and
+labor-intensive to acquire. Furthermore, these methods cannot directly obtain
+and extend counter-knowledge from external statistics, facts, or examples. To
+address these limitations, we propose Retrieval-Augmented Unsupervised Counter
+Narrative Generation (RAUCG) to automatically expand external counter-knowledge
+and map it into CNs in an unsupervised paradigm. Specifically, we first
+introduce an SSF retrieval method to retrieve counter-knowledge from the
+multiple perspectives of stance consistency, semantic overlap rate, and fitness
+for HS. Then we design an energy-based decoding mechanism by quantizing
+knowledge injection, countering and fluency constraints into differentiable
+functions, to enable the model to build mappings from counter-knowledge to CNs
+without expert-authored CN data. Lastly, we comprehensively evaluate model
+performance in terms of language quality, toxicity, persuasiveness, relevance,
+and success rate of countering HS, etc. Experimental results show that RAUCG
+outperforms strong baselines on all metrics and exhibits stronger
+generalization capabilities, achieving significant improvements of +2.0% in
+relevance and +4.5% in success rate of countering metrics. Moreover, RAUCG
+enabled GPT2 to outperform T0 in all metrics, despite the latter being
+approximately eight times larger than the former. Warning: This paper may
+contain offensive or upsetting content!",2023-10-09
+On the Zero-Shot Generalization of Machine-Generated Text Detectors,2023-10-08 13:49:51+00:00,http://arxiv.org/abs/2310.05165v1,"Xiao Pu, Jingyu Zhang, Xiaochuang Han, Yulia Tsvetkov, Tianxing He",cs.CL,table2text,"The rampant proliferation of large language models, fluent enough to generate
+text indistinguishable from human-written language, gives unprecedented
+importance to the detection of machine-generated text. This work is motivated
+by an important research question: How will the detectors of machine-generated
+text perform on outputs of a new generator, that the detectors were not trained
+on? We begin by collecting generation data from a wide range of LLMs, and train
+neural detectors on data from each generator and test its performance on
+held-out generators. While none of the detectors can generalize to all
+generators, we observe a consistent and interesting pattern that the detectors
+trained on data from a medium-size LLM can zero-shot generalize to the larger
+version. As a concrete application, we demonstrate that robust detectors can be
+built on an ensemble of training data from medium-sized models.",2023-10-08
+Learning Personalized Story Evaluation,2023-10-05 04:15:48+00:00,http://arxiv.org/abs/2310.03304v3,"Danqing Wang, Kevin Yang, Hanlin Zhu, Xiaomeng Yang, Andrew Cohen, Lei Li, Yuandong Tian",cs.CL,table2text,"While large language models (LLMs) have shown impressive results for more
+objective tasks such as QA and retrieval, it remains nontrivial to evaluate
+their performance on open-ended text generation for reasons including (1) data
+contamination; (2) multi-dimensional evaluation criteria; and (3)
+subjectiveness stemming from reviewers' personal preferences. To address such
+issues, we propose to model personalization in an uncontaminated open-ended
+generation assessment. We create two new datasets Per-MPST and Per-DOC for
+personalized story evaluation, by re-purposing existing datasets with proper
+anonymization and new personalized labels. We further develop a personalized
+story evaluation model PERSE to infer reviewer preferences and provide a
+personalized evaluation. Specifically, given a few exemplary reviews from a
+particular reviewer, PERSE predicts either a detailed review or fine-grained
+comparison in several aspects (such as interestingness and surprise) for that
+reviewer on a new text input. Experimental results show that PERSE outperforms
+GPT-4 by 15.8% on Kendall correlation of story ratings, and by 13.7% on
+pairwise preference prediction accuracy. Both datasets and code will be
+released.",2023-10-05
+LPML: LLM-Prompting Markup Language for Mathematical Reasoning,2023-09-21 02:46:20+00:00,http://arxiv.org/abs/2309.13078v2,"Ryutaro Yamauchi, Sho Sonoda, Akiyoshi Sannai, Wataru Kumagai","cs.AI, cs.LG, cs.PL",table2text,"In utilizing large language models (LLMs) for mathematical reasoning,
+addressing the errors in the reasoning and calculation present in the generated
+text by LLMs is a crucial challenge. In this paper, we propose a novel
+framework that integrates the Chain-of-Thought (CoT) method with an external
+tool (Python REPL). We discovered that by prompting LLMs to generate structured
+text in XML-like markup language, we could seamlessly integrate CoT and the
+external tool and control the undesired behaviors of LLMs. With our approach,
+LLMs can utilize Python computation to rectify errors within CoT. We applied
+our method to ChatGPT (GPT-3.5) to solve challenging mathematical problems and
+demonstrated that combining CoT and Python REPL through the markup language
+enhances the reasoning capability of LLMs. Our approach enables LLMs to write
+the markup language and perform advanced mathematical reasoning using only
+zero-shot prompting.",2023-09-21
+"MBR and QE Finetuning: Training-time Distillation of the Best and Most
+  Expensive Decoding Methods",2023-09-19 23:39:07+00:00,http://arxiv.org/abs/2309.10966v5,"Mara Finkelstein, Subhajit Naskar, Mehdi Mirzazadeh, Apurva Shah, Markus Freitag",cs.CL,table2text,"Recent research in decoding methods for Natural Language Generation (NLG)
+tasks has shown that MAP decoding is not optimal, because model probabilities
+do not always align with human preferences. Stronger decoding methods,
+including Quality Estimation (QE) reranking and Minimum Bayes' Risk (MBR)
+decoding, have since been proposed to mitigate the model-perplexity-vs-quality
+mismatch. While these decoding methods achieve state-of-the-art performance,
+they are prohibitively expensive to compute. In this work, we propose MBR
+finetuning and QE finetuning which distill the quality gains from these
+decoding methods at training time, while using an efficient decoding algorithm
+at inference time. Using the canonical NLG task of Neural Machine Translation
+(NMT), we show that even with self-training, these finetuning methods
+significantly outperform the base model. Moreover, when using an external LLM
+as a teacher model, these finetuning methods outperform finetuning on
+human-generated references. These findings suggest new ways to leverage
+monolingual data to achieve improvements in model quality that are on par with,
+or even exceed, improvements from human-curated data, while maintaining maximum
+efficiency during decoding.",2023-09-19
 "CATfOOD: Counterfactual Augmented Training for Improving Out-of-Domain
   Performance and Calibration",2023-09-14 16:16:40+00:00,http://arxiv.org/abs/2309.07822v1,"Rachneet Sachdeva, Martin Tutek, Iryna Gurevych",cs.CL,table2text,"In recent years, large language models (LLMs) have shown remarkable
 capabilities at scale, particularly at generating text conditioned on a prompt.

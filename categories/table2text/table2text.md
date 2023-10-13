@@ -7,10 +7,24 @@ sidebar:
 ---
 
 
-*written on 2023-09-15*
+*written on 2023-10-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [GraphextQA: A Benchmark for Evaluating Graph-Enhanced Large Language  Models](http://arxiv.org/abs/2310.08487v1) | Yuanchun Shen, Ruotong Liao, Zhen Han, Yunpu Ma, Volker Tresp | cs.CL | 2023-10-12 |
+| [DistillSpec: Improving Speculative Decoding via Knowledge Distillation](http://arxiv.org/abs/2310.08461v1) | Yongchao Zhou, Kaifeng Lyu, Ankit Singh Rawat, Aditya Krishna Menon, Afshin Rostamizadeh, Sanjiv Kumar, Jean-François Kagy, Rishabh Agarwal | cs.CL, cs.AI, cs.LG | 2023-10-12 |
+| [CP-KGC: Constrained-Prompt Knowledge Graph Completion with Large  Language Models](http://arxiv.org/abs/2310.08279v1) | Rui Yang, Li Fang, Yi Zhou | cs.CL, cs.AI | 2023-10-12 |
+| [Goodtriever: Adaptive Toxicity Mitigation with Retrieval-augmented  Models](http://arxiv.org/abs/2310.07589v1) | Luiza Pozzobon, Beyza Ermis, Patrick Lewis, Sara Hooker | cs.AI | 2023-10-11 |
+| [Multimodal Graph Learning for Generative Tasks](http://arxiv.org/abs/2310.07478v2) | Minji Yoon, Jing Yu Koh, Bryan Hooi, Ruslan Salakhutdinov | cs.AI | 2023-10-11 |
+| [MatChat: A Large Language Model and Application Service Platform for  Materials Science](http://arxiv.org/abs/2310.07197v1) | Ziyi Chen, Fankai Xie, Meng Wan, Yang Yuan, Miao Liu, Zongguo Wang, Sheng Meng, Yangang Wang | cond-mat.mtrl-sci, cs.AI | 2023-10-11 |
+| [The Temporal Structure of Language Processing in the Human Brain  Corresponds to The Layered Hierarchy of Deep Language Models](http://arxiv.org/abs/2310.07106v1) | Ariel Goldstein, Eric Ham, Mariano Schain, Samuel Nastase, Zaid Zada, Avigail Dabush, Bobbi Aubrey, Harshvardhan Gazula, Amir Feder, Werner K Doyle, Sasha Devore, Patricia Dugan, Daniel Friedman, Roi Reichart, Michael Brenner, Avinatan Hassidim, Orrin Devinsky, Adeen Flinker, Omer Levy, Uri Hasson | cs.CL, cs.AI, cs.LG, q-bio.NC | 2023-10-11 |
+| [A Semantic Invariant Robust Watermark for Large Language Models](http://arxiv.org/abs/2310.06356v1) | Aiwei Liu, Leyi Pan, Xuming Hu, Shiao Meng, Lijie Wen | cs.CR, cs.CL, 68T50, I.2.7 | 2023-10-10 |
+| [Generative quantum machine learning via denoising diffusion  probabilistic models](http://arxiv.org/abs/2310.05866v1) | Bingzhi Zhang, Peng Xu, Xiaohui Chen, Quntao Zhuang | quant-ph, cs.AI, cs.LG | 2023-10-09 |
+| [RAUCG: Retrieval-Augmented Unsupervised Counter Narrative Generation for  Hate Speech](http://arxiv.org/abs/2310.05650v1) | Shuyu Jiang, Wenyi Tang, Xingshu Chen, Rui Tanga, Haizhou Wang, Wenxian Wang | cs.CL | 2023-10-09 |
+| [On the Zero-Shot Generalization of Machine-Generated Text Detectors](http://arxiv.org/abs/2310.05165v1) | Xiao Pu, Jingyu Zhang, Xiaochuang Han, Yulia Tsvetkov, Tianxing He | cs.CL | 2023-10-08 |
+| [Learning Personalized Story Evaluation](http://arxiv.org/abs/2310.03304v3) | Danqing Wang, Kevin Yang, Hanlin Zhu, Xiaomeng Yang, Andrew Cohen, Lei Li, Yuandong Tian | cs.CL | 2023-10-05 |
+| [LPML: LLM-Prompting Markup Language for Mathematical Reasoning](http://arxiv.org/abs/2309.13078v2) | Ryutaro Yamauchi, Sho Sonoda, Akiyoshi Sannai, Wataru Kumagai | cs.AI, cs.LG, cs.PL | 2023-09-21 |
+| [MBR and QE Finetuning: Training-time Distillation of the Best and Most  Expensive Decoding Methods](http://arxiv.org/abs/2309.10966v5) | Mara Finkelstein, Subhajit Naskar, Mehdi Mirzazadeh, Apurva Shah, Markus Freitag | cs.CL | 2023-09-19 |
 | [CATfOOD: Counterfactual Augmented Training for Improving Out-of-Domain  Performance and Calibration](http://arxiv.org/abs/2309.07822v1) | Rachneet Sachdeva, Martin Tutek, Iryna Gurevych | cs.CL | 2023-09-14 |
 | [Semantic reconstruction of continuous language from MEG signals](http://arxiv.org/abs/2309.07701v1) | Bo Wang, Xiran Xu, Longxiang Zhang, Boda Xiao, Xihong Wu, Jing Chen | cs.HC, eess.SP, q-bio.NC | 2023-09-14 |
 | [Auto-Regressive Next-Token Predictors are Universal Learners](http://arxiv.org/abs/2309.06979v1) | Eran Malach | cs.LG, cs.CL | 2023-09-13 |

@@ -1,4 +1,124 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"GraphextQA: A Benchmark for Evaluating Graph-Enhanced Large Language
+  Models",2023-10-12 16:46:58+00:00,http://arxiv.org/abs/2310.08487v1,"Yuanchun Shen, Ruotong Liao, Zhen Han, Yunpu Ma, Volker Tresp",cs.CL,image2text,"While multi-modal models have successfully integrated information from image,
+video, and audio modalities, integrating graph modality into large language
+models (LLMs) remains unexplored. This discrepancy largely stems from the
+inherent divergence between structured graph data and unstructured text data.
+Incorporating graph knowledge provides a reliable source of information,
+enabling potential solutions to address issues in text generation, e.g.,
+hallucination, and lack of domain knowledge. To evaluate the integration of
+graph knowledge into language models, a dedicated dataset is needed. However,
+there is currently no benchmark dataset specifically designed for multimodal
+graph-language models. To address this gap, we propose GraphextQA, a question
+answering dataset with paired subgraphs, retrieved from Wikidata, to facilitate
+the evaluation and future development of graph-language models. Additionally,
+we introduce a baseline model called CrossGNN, which conditions answer
+generation on the paired graphs by cross-attending question-aware graph
+features at decoding. The proposed dataset is designed to evaluate
+graph-language models' ability to understand graphs and make use of it for
+answer generation. We perform experiments with language-only models and the
+proposed graph-language model to validate the usefulness of the paired graphs
+and to demonstrate the difficulty of the task.",2023-10-12
+"CP-KGC: Constrained-Prompt Knowledge Graph Completion with Large
+  Language Models",2023-10-12 12:31:23+00:00,http://arxiv.org/abs/2310.08279v1,"Rui Yang, Li Fang, Yi Zhou","cs.CL, cs.AI",image2text,"Knowledge graph completion (KGC) aims to utilize existing knowledge to deduce
+and infer missing connections within knowledge graphs. Text-based approaches,
+like SimKGC, have outperformed graph embedding methods, showcasing the promise
+of inductive KGC. However, the efficacy of text-based methods hinges on the
+quality of entity textual descriptions. In this paper, we identify the key
+issue of whether large language models (LLMs) can generate effective text. To
+mitigate hallucination in LLM-generated text in this paper, we introduce a
+constraint-based prompt that utilizes the entity and its textual description as
+contextual constraints to enhance data quality. Our Constrained-Prompt
+Knowledge Graph Completion (CP-KGC) method demonstrates effective inference
+under low resource computing conditions and surpasses prior results on the
+WN18RR and FB15K237 datasets. This showcases the integration of LLMs in KGC
+tasks and provides new directions for future research.",2023-10-12
+"Ziya-VL: Bilingual Large Vision-Language Model via Multi-Task
+  Instruction Tuning",2023-10-12 09:39:17+00:00,http://arxiv.org/abs/2310.08166v1,"Junyu Lu, Dixiang Zhang, Xiaojun Wu, Xinyu Gao, Ruyi Gan, Jiaxing Zhang, Yan Song, Pingjian Zhang",cs.CL,image2text,"Recent advancements enlarge the capabilities of large language models (LLMs)
+in zero-shot image-to-text generation and understanding by integrating
+multi-modal inputs. However, such success is typically limited to English
+scenarios due to the lack of large-scale and high-quality non-English
+multi-modal resources, making it extremely difficult to establish competitive
+counterparts in other languages. In this paper, we introduce the Ziya-VL
+series, a set of bilingual large-scale vision-language models (LVLMs) designed
+to incorporate visual semantics into LLM for multi-modal dialogue. Composed of
+Ziya-VL-Base and Ziya-VL-Chat, our models adopt the Querying Transformer from
+BLIP-2, further exploring the assistance of optimization schemes such as
+instruction tuning, multi-stage training and low-rank adaptation module for
+visual-language alignment. In addition, we stimulate the understanding ability
+of GPT-4 in multi-modal scenarios, translating our gathered English image-text
+datasets into Chinese and generating instruction-response through the
+in-context learning method. The experiment results demonstrate that compared to
+the existing LVLMs, Ziya-VL achieves competitive performance across a wide
+range of English-only tasks including zero-shot image-text retrieval, image
+captioning, and visual question answering. The evaluation leaderboard accessed
+by GPT-4 also indicates that our models possess satisfactory image-text
+understanding and generation capabilities in Chinese multi-modal scenario
+dialogues. Code, demo and models are available at
+~\url{https://huggingface.co/IDEA-CCNL/Ziya-BLIP2-14B-Visual-v1}.",2023-10-12
+Multimodal Graph Learning for Generative Tasks,2023-10-11 13:25:03+00:00,http://arxiv.org/abs/2310.07478v2,"Minji Yoon, Jing Yu Koh, Bryan Hooi, Ruslan Salakhutdinov",cs.AI,image2text,"Multimodal learning combines multiple data modalities, broadening the types
+and complexity of data our models can utilize: for example, from plain text to
+image-caption pairs. Most multimodal learning algorithms focus on modeling
+simple one-to-one pairs of data from two modalities, such as image-caption
+pairs, or audio-text pairs. However, in most real-world settings, entities of
+different modalities interact with each other in more complex and multifaceted
+ways, going beyond one-to-one mappings. We propose to represent these complex
+relationships as graphs, allowing us to capture data with any number of
+modalities, and with complex relationships between modalities that can flexibly
+vary from one sample to another. Toward this goal, we propose Multimodal Graph
+Learning (MMGL), a general and systematic framework for capturing information
+from multiple multimodal neighbors with relational structures among them. In
+particular, we focus on MMGL for generative tasks, building upon pretrained
+Language Models (LMs), aiming to augment their text generation with multimodal
+neighbor contexts. We study three research questions raised by MMGL: (1) how
+can we infuse multiple neighbor information into the pretrained LMs, while
+avoiding scalability issues? (2) how can we infuse the graph structure
+information among multimodal neighbors into the LMs? and (3) how can we
+finetune the pretrained LMs to learn from the neighbor context in a
+parameter-efficient manner? We conduct extensive experiments to answer these
+three questions on MMGL and analyze the empirical results to pave the way for
+future MMGL research.",2023-10-11
+Video-CSR: Complex Video Digest Creation for Visual-Language Models,2023-10-08 08:02:43+00:00,http://arxiv.org/abs/2310.05060v1,"Tingkai Liu, Yunzhe Tao, Haogeng Liu, Qihang Fan, Ding Zhou, Huaibo Huang, Ran He, Hongxia Yang","cs.CV, cs.AI",image2text,"We present a novel task and human annotated dataset for evaluating the
+ability for visual-language models to generate captions and summaries for
+real-world video clips, which we call Video-CSR (Captioning, Summarization and
+Retrieval). The dataset contains 4.8K YouTube video clips of 20-60 seconds in
+duration and covers a wide range of topics and interests. Each video clip
+corresponds to 5 independently annotated captions (1 sentence) and summaries
+(3-10 sentences). Given any video selected from the dataset and its
+corresponding ASR information, we evaluate visual-language models on either
+caption or summary generation that is grounded in both the visual and auditory
+content of the video. Additionally, models are also evaluated on caption- and
+summary-based retrieval tasks, where the summary-based retrieval task requires
+the identification of a target video given excerpts of a corresponding summary.
+Given the novel nature of the paragraph-length video summarization task, we
+perform extensive comparative analyses of different existing evaluation metrics
+and their alignment with human preferences. Finally, we propose a foundation
+model with competitive generation and retrieval capabilities that serves as a
+baseline for the Video-CSR task. We aim for Video-CSR to serve as a useful
+evaluation set in the age of large language models and complex multi-modal
+tasks.",2023-10-08
+"InstructProtein: Aligning Human and Protein Language via Knowledge
+  Instruction",2023-10-05 02:45:39+00:00,http://arxiv.org/abs/2310.03269v1,"Zeyuan Wang, Qiang Zhang, Keyan Ding, Ming Qin, Xiang Zhuang, Xiaotong Li, Huajun Chen","q-bio.BM, cs.CL",image2text,"Large Language Models (LLMs) have revolutionized the field of natural
+language processing, but they fall short in comprehending biological sequences
+such as proteins. To address this challenge, we propose InstructProtein, an
+innovative LLM that possesses bidirectional generation capabilities in both
+human and protein languages: (i) taking a protein sequence as input to predict
+its textual function description and (ii) using natural language to prompt
+protein sequence generation. To achieve this, we first pre-train an LLM on both
+protein and natural language corpora, enabling it to comprehend individual
+languages. Then supervised instruction tuning is employed to facilitate the
+alignment of these two distinct languages. Herein, we introduce a knowledge
+graph-based instruction generation framework to construct a high-quality
+instruction dataset, addressing annotation imbalance and instruction deficits
+in existing protein-text corpus. In particular, the instructions inherit the
+structural relations between proteins and function annotations in knowledge
+graphs, which empowers our model to engage in the causal modeling of protein
+functions, akin to the chain-of-thought processes in natural languages.
+Extensive experiments on bidirectional protein-text generation tasks show that
+InstructProtein outperforms state-of-the-art LLMs by large margins. Moreover,
+InstructProtein serves as a pioneering step towards text-based protein function
+prediction and sequence design, effectively bridging the gap between protein
+and human language understanding.",2023-10-05
 "Prefix-diffusion: A Lightweight Diffusion Model for Diverse Image
   Captioning",2023-09-10 08:55:24+00:00,http://arxiv.org/abs/2309.04965v1,"Guisheng Liu, Yi Li, Zhengcong Fei, Haiyan Fu, Xiangyang Luo, Yanqing Guo","cs.CV, cs.AI, cs.CL",image2text,"While impressive performance has been achieved in image captioning, the
 limited diversity of the generated captions and the large parameter scale

@@ -1,4 +1,209 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"EIPE-text: Evaluation-Guided Iterative Plan Extraction for Long-Form
+  Narrative Text Generation",2023-10-12 10:21:37+00:00,http://arxiv.org/abs/2310.08185v1,"Wang You, Wenshan Wu, Yaobo Liang, Shaoguang Mao, Chenfei Wu, Maosong Cao, Yuzhe Cai, Yiduo Guo, Yan Xia, Furu Wei, Nan Duan","cs.CL, cs.AI",story,"Plan-and-Write is a common hierarchical approach in long-form narrative text
+generation, which first creates a plan to guide the narrative writing.
+Following this approach, several studies rely on simply prompting large
+language models for planning, which often yields suboptimal results. In this
+paper, we propose a new framework called Evaluation-guided Iterative Plan
+Extraction for long-form narrative text generation (EIPE-text), which extracts
+plans from the corpus of narratives and utilizes the extracted plans to
+construct a better planner. EIPE-text has three stages: plan extraction,
+learning, and inference. In the plan extraction stage, it iteratively extracts
+and improves plans from the narrative corpus and constructs a plan corpus. We
+propose a question answer (QA) based evaluation mechanism to automatically
+evaluate the plans and generate detailed plan refinement instructions to guide
+the iterative improvement. In the learning stage, we build a better planner by
+fine-tuning with the plan corpus or in-context learning with examples in the
+plan corpus. Finally, we leverage a hierarchical approach to generate long-form
+narratives. We evaluate the effectiveness of EIPE-text in the domains of novels
+and storytelling. Both GPT-4-based evaluations and human evaluations
+demonstrate that our method can generate more coherent and relevant long-form
+narratives. Our code will be released in the future.",2023-10-12
+"The Temporal Structure of Language Processing in the Human Brain
+  Corresponds to The Layered Hierarchy of Deep Language Models",2023-10-11 01:03:42+00:00,http://arxiv.org/abs/2310.07106v1,"Ariel Goldstein, Eric Ham, Mariano Schain, Samuel Nastase, Zaid Zada, Avigail Dabush, Bobbi Aubrey, Harshvardhan Gazula, Amir Feder, Werner K Doyle, Sasha Devore, Patricia Dugan, Daniel Friedman, Roi Reichart, Michael Brenner, Avinatan Hassidim, Orrin Devinsky, Adeen Flinker, Omer Levy, Uri Hasson","cs.CL, cs.AI, cs.LG, q-bio.NC",story,"Deep Language Models (DLMs) provide a novel computational paradigm for
+understanding the mechanisms of natural language processing in the human brain.
+Unlike traditional psycholinguistic models, DLMs use layered sequences of
+continuous numerical vectors to represent words and context, allowing a
+plethora of emerging applications such as human-like text generation. In this
+paper we show evidence that the layered hierarchy of DLMs may be used to model
+the temporal dynamics of language comprehension in the brain by demonstrating a
+strong correlation between DLM layer depth and the time at which layers are
+most predictive of the human brain. Our ability to temporally resolve
+individual layers benefits from our use of electrocorticography (ECoG) data,
+which has a much higher temporal resolution than noninvasive methods like fMRI.
+Using ECoG, we record neural activity from participants listening to a
+30-minute narrative while also feeding the same narrative to a high-performing
+DLM (GPT2-XL). We then extract contextual embeddings from the different layers
+of the DLM and use linear encoding models to predict neural activity. We first
+focus on the Inferior Frontal Gyrus (IFG, or Broca's area) and then extend our
+model to track the increasing temporal receptive window along the linguistic
+processing hierarchy from auditory to syntactic and semantic areas. Our results
+reveal a connection between human language processing and DLMs, with the DLM's
+layer-by-layer accumulation of contextual information mirroring the timing of
+neural activity in high-order language areas.",2023-10-11
+"RAUCG: Retrieval-Augmented Unsupervised Counter Narrative Generation for
+  Hate Speech",2023-10-09 12:01:26+00:00,http://arxiv.org/abs/2310.05650v1,"Shuyu Jiang, Wenyi Tang, Xingshu Chen, Rui Tanga, Haizhou Wang, Wenxian Wang",cs.CL,story,"The Counter Narrative (CN) is a promising approach to combat online hate
+speech (HS) without infringing on freedom of speech. In recent years, there has
+been a growing interest in automatically generating CNs using natural language
+generation techniques. However, current automatic CN generation methods mainly
+rely on expert-authored datasets for training, which are time-consuming and
+labor-intensive to acquire. Furthermore, these methods cannot directly obtain
+and extend counter-knowledge from external statistics, facts, or examples. To
+address these limitations, we propose Retrieval-Augmented Unsupervised Counter
+Narrative Generation (RAUCG) to automatically expand external counter-knowledge
+and map it into CNs in an unsupervised paradigm. Specifically, we first
+introduce an SSF retrieval method to retrieve counter-knowledge from the
+multiple perspectives of stance consistency, semantic overlap rate, and fitness
+for HS. Then we design an energy-based decoding mechanism by quantizing
+knowledge injection, countering and fluency constraints into differentiable
+functions, to enable the model to build mappings from counter-knowledge to CNs
+without expert-authored CN data. Lastly, we comprehensively evaluate model
+performance in terms of language quality, toxicity, persuasiveness, relevance,
+and success rate of countering HS, etc. Experimental results show that RAUCG
+outperforms strong baselines on all metrics and exhibits stronger
+generalization capabilities, achieving significant improvements of +2.0% in
+relevance and +4.5% in success rate of countering metrics. Moreover, RAUCG
+enabled GPT2 to outperform T0 in all metrics, despite the latter being
+approximately eight times larger than the former. Warning: This paper may
+contain offensive or upsetting content!",2023-10-09
+"GROVE: A Retrieval-augmented Complex Story Generation Framework with A
+  Forest of Evidence",2023-10-09 03:55:55+00:00,http://arxiv.org/abs/2310.05388v1,"Zhihua Wen, Zhiliang Tian, Wei Wu, Yuxin Yang, Yanqi Shi, Zhen Huang, Dongsheng Li",cs.CL,story,"Conditional story generation is significant in human-machine interaction,
+particularly in producing stories with complex plots. While Large language
+models (LLMs) perform well on multiple NLP tasks, including story generation,
+it is challenging to generate stories with both complex and creative plots.
+Existing methods often rely on detailed prompts to guide LLMs to meet target
+conditions, which inadvertently restrict the creative potential of the
+generated stories. We argue that leveraging information from exemplary
+human-written stories facilitates generating more diverse plotlines. Delving
+deeper into story details helps build complex and credible plots. In this
+paper, we propose a retrieval-au\textbf{G}mented sto\textbf{R}y generation
+framework with a f\textbf{O}rest of e\textbf{V}id\textbf{E}nce (GROVE) to
+enhance stories' complexity. We build a retrieval repository for target
+conditions to produce few-shot examples to prompt LLMs. Additionally, we design
+an ``asking-why'' prompting scheme that extracts a forest of evidence,
+providing compensation for the ambiguities that may occur in the generated
+story. This iterative process uncovers underlying story backgrounds. Finally,
+we select the most fitting chains of evidence from the evidence forest and
+integrate them into the generated story, thereby enhancing the narrative's
+complexity and credibility. Experimental results and numerous examples verify
+the effectiveness of our method.",2023-10-09
+Visual Storytelling with Question-Answer Plans,2023-10-08 21:45:34+00:00,http://arxiv.org/abs/2310.05295v1,"Danyang Liu, Mirella Lapata, Frank Keller",cs.CL,story,"Visual storytelling aims to generate compelling narratives from image
+sequences. Existing models often focus on enhancing the representation of the
+image sequence, e.g., with external knowledge sources or advanced graph
+structures. Despite recent progress, the stories are often repetitive,
+illogical, and lacking in detail. To mitigate these issues, we present a novel
+framework which integrates visual representations with pretrained language
+models and planning. Our model translates the image sequence into a visual
+prefix, a sequence of continuous embeddings which language models can
+interpret. It also leverages a sequence of question-answer pairs as a blueprint
+plan for selecting salient visual concepts and determining how they should be
+assembled into a narrative. Automatic and human evaluation on the VIST
+benchmark (Huang et al., 2016) demonstrates that blueprint-based models
+generate stories that are more coherent, interesting, and natural compared to
+competitive baselines and state-of-the-art systems.",2023-10-08
+"Envisioning Narrative Intelligence: A Creative Visual Storytelling
+  Anthology",2023-10-06 18:47:20+00:00,http://arxiv.org/abs/2310.04529v1,"Brett A. Halperin, Stephanie M. Lukin","cs.CL, J.5",story,"In this paper, we collect an anthology of 100 visual stories from authors who
+participated in our systematic creative process of improvised story-building
+based on image sequences. Following close reading and thematic analysis of our
+anthology, we present five themes that characterize the variations found in
+this creative visual storytelling process: (1) Narrating What is in Vision vs.
+Envisioning; (2) Dynamically Characterizing Entities/Objects; (3) Sensing
+Experiential Information About the Scenery; (4) Modulating the Mood; (5)
+Encoding Narrative Biases. In understanding the varied ways that people derive
+stories from images, we offer considerations for collecting story-driven
+training data to inform automatic story generation. In correspondence with each
+theme, we envision narrative intelligence criteria for computational visual
+storytelling as: creative, reliable, expressive, grounded, and responsible.
+From these criteria, we discuss how to foreground creative expression, account
+for biases, and operate in the bounds of visual storyworlds.",2023-10-06
+Automatic and Human-AI Interactive Text Generation,2023-10-05 20:26:15+00:00,http://arxiv.org/abs/2310.03878v1,"Yao Dou, Philippe Laban, Claire Gardent, Wei Xu",cs.CL,story,"In this tutorial, we focus on text-to-text generation, a class of natural
+language generation (NLG) tasks, that takes a piece of text as input and then
+generates a revision that is improved according to some specific criteria
+(e.g., readability or linguistic styles), while largely retaining the original
+meaning and the length of the text. This includes many useful applications,
+such as text simplification, paraphrase generation, style transfer, etc. In
+contrast to text summarization and open-ended text completion (e.g., story),
+the text-to-text generation tasks we discuss in this tutorial are more
+constrained in terms of semantic consistency and targeted language styles. This
+level of control makes these tasks ideal testbeds for studying the ability of
+models to generate text that is both semantically adequate and stylistically
+appropriate. Moreover, these tasks are interesting from a technical standpoint,
+as they require complex combinations of lexical and syntactical
+transformations, stylistic control, and adherence to factual knowledge, -- all
+at once. With a special focus on text simplification and revision, this
+tutorial aims to provide an overview of the state-of-the-art natural language
+generation research from four major aspects -- Data, Models, Human-AI
+Collaboration, and Evaluation -- and to discuss and showcase a few significant
+and recent advances: (1) the use of non-retrogressive approaches; (2) the shift
+from fine-tuning to prompting with large language models; (3) the development
+of new learnable metric and fine-grained human evaluation framework; (4) a
+growing body of studies and datasets on non-English languages; (5) the rise of
+HCI+NLP+Accessibility interdisciplinary research to create real-world writing
+assistant systems.",2023-10-05
+Learning Personalized Story Evaluation,2023-10-05 04:15:48+00:00,http://arxiv.org/abs/2310.03304v3,"Danqing Wang, Kevin Yang, Hanlin Zhu, Xiaomeng Yang, Andrew Cohen, Lei Li, Yuandong Tian",cs.CL,story,"While large language models (LLMs) have shown impressive results for more
+objective tasks such as QA and retrieval, it remains nontrivial to evaluate
+their performance on open-ended text generation for reasons including (1) data
+contamination; (2) multi-dimensional evaluation criteria; and (3)
+subjectiveness stemming from reviewers' personal preferences. To address such
+issues, we propose to model personalization in an uncontaminated open-ended
+generation assessment. We create two new datasets Per-MPST and Per-DOC for
+personalized story evaluation, by re-purposing existing datasets with proper
+anonymization and new personalized labels. We further develop a personalized
+story evaluation model PERSE to infer reviewer preferences and provide a
+personalized evaluation. Specifically, given a few exemplary reviews from a
+particular reviewer, PERSE predicts either a detailed review or fine-grained
+comparison in several aspects (such as interestingness and surprise) for that
+reviewer on a new text input. Experimental results show that PERSE outperforms
+GPT-4 by 15.8% on Kendall correlation of story ratings, and by 13.7% on
+pairwise preference prediction accuracy. Both datasets and code will be
+released.",2023-10-05
+"Art or Artifice? Large Language Models and the False Promise of
+  Creativity",2023-09-25 22:02:46+00:00,http://arxiv.org/abs/2309.14556v1,"Tuhin Chakrabarty, Philippe Laban, Divyansh Agarwal, Smaranda Muresan, Chien-Sheng Wu","cs.CL, cs.AI, cs.HC",story,"Researchers have argued that large language models (LLMs) exhibit
+high-quality writing capabilities from blogs to stories. However, evaluating
+objectively the creativity of a piece of writing is challenging. Inspired by
+the Torrance Test of Creative Thinking (TTCT), which measures creativity as a
+process, we use the Consensual Assessment Technique [3] and propose the
+Torrance Test of Creative Writing (TTCW) to evaluate creativity as a product.
+TTCW consists of 14 binary tests organized into the original dimensions of
+Fluency, Flexibility, Originality, and Elaboration. We recruit 10 creative
+writers and implement a human assessment of 48 stories written either by
+professional authors or LLMs using TTCW. Our analysis shows that LLM-generated
+stories pass 3-10X less TTCW tests than stories written by professionals. In
+addition, we explore the use of LLMs as assessors to automate the TTCW
+evaluation, revealing that none of the LLMs positively correlate with the
+expert assessments.",2023-09-25
+"What is a Fair Diffusion Model? Designing Generative Text-To-Image
+  Models to Incorporate Various Worldviews",2023-09-18 17:04:04+00:00,http://arxiv.org/abs/2309.09944v1,"Zoe De Simone, Angie Boggust, Arvind Satyanarayan, Ashia Wilson","cs.LG, cs.AI, cs.CV, cs.CY",story,"Generative text-to-image (GTI) models produce high-quality images from short
+textual descriptions and are widely used in academic and creative domains.
+However, GTI models frequently amplify biases from their training data, often
+producing prejudiced or stereotypical images. Yet, current bias mitigation
+strategies are limited and primarily focus on enforcing gender parity across
+occupations. To enhance GTI bias mitigation, we introduce DiffusionWorldViewer,
+a tool to analyze and manipulate GTI models' attitudes, values, stories, and
+expectations of the world that impact its generated images. Through an
+interactive interface deployed as a web-based GUI and Jupyter Notebook plugin,
+DiffusionWorldViewer categorizes existing demographics of GTI-generated images
+and provides interactive methods to align image demographics with user
+worldviews. In a study with 13 GTI users, we find that DiffusionWorldViewer
+allows users to represent their varied viewpoints about what GTI outputs are
+fair and, in doing so, challenges current notions of fairness that assume a
+universal worldview.",2023-09-18
+"Causal-Story: Local Causal Attention Utilizing Parameter-Efficient
+  Tuning For Visual Story Synthesis",2023-09-18 08:06:06+00:00,http://arxiv.org/abs/2309.09553v3,"Tianyi Song, Jiuxin Cao, Kun Wang, Bo Liu, Xiaofeng Zhang","cs.CV, cs.AI, cs.MM",story,"The excellent text-to-image synthesis capability of diffusion models has
+driven progress in synthesizing coherent visual stories. The current
+state-of-the-art method combines the features of historical captions,
+historical frames, and the current captions as conditions for generating the
+current frame. However, this method treats each historical frame and caption as
+the same contribution. It connects them in order with equal weights, ignoring
+that not all historical conditions are associated with the generation of the
+current frame. To address this issue, we propose Causal-Story. This model
+incorporates a local causal attention mechanism that considers the causal
+relationship between previous captions, frames, and current captions. By
+assigning weights based on this relationship, Causal-Story generates the
+current frame, thereby improving the global consistency of story generation. We
+evaluated our model on the PororoSV and FlintstonesSV datasets and obtained
+state-of-the-art FID scores, and the generated frames also demonstrate better
+storytelling in visuals.",2023-09-18
 1.5 million materials narratives generated by chatbots,2023-08-25 22:00:53+00:00,http://arxiv.org/abs/2308.13687v1,"Yang Jeong Park, Sung Eun Jerng, Jin-Sung Park, Choah Kwon, Chia-Wei Hsu, Zhichu Ren, Sungroh Yoon, Ju Li","cond-mat.mtrl-sci, cs.CL",story,"The advent of artificial intelligence (AI) has enabled a comprehensive
 exploration of materials for various applications. However, AI models often
 prioritize frequently encountered materials in the scientific literature,
