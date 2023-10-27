@@ -1,4 +1,127 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Fidelity-Enriched Contrastive Search: Reconciling the
+  Faithfulness-Diversity Trade-Off in Text Generation",2023-10-23 14:27:45+00:00,http://arxiv.org/abs/2310.14981v1,"Wei-Lin Chen, Cheng-Kuang Wu, Hsin-Hsi Chen, Chung-Chi Chen",cs.CL,dialogue,"In this paper, we address the hallucination problem commonly found in natural
+language generation tasks. Language models often generate fluent and convincing
+content but can lack consistency with the provided source, resulting in
+potential inaccuracies. We propose a new decoding method called
+Fidelity-Enriched Contrastive Search (FECS), which augments the contrastive
+search framework with context-aware regularization terms. FECS promotes tokens
+that are semantically similar to the provided source while penalizing
+repetitiveness in the generated text. We demonstrate its effectiveness across
+two tasks prone to hallucination: abstractive summarization and dialogue
+generation. Results show that FECS consistently enhances faithfulness across
+various language model sizes while maintaining output diversity comparable to
+well-performing decoding algorithms.",2023-10-23
+"NormDial: A Comparable Bilingual Synthetic Dialog Dataset for Modeling
+  Social Norm Adherence and Violation",2023-10-23 04:38:34+00:00,http://arxiv.org/abs/2310.14563v2,"Oliver Li, Mallika Subramanian, Arkadiy Saakyan, Sky CH-Wang, Smaranda Muresan","cs.CL, cs.CY",dialogue,"Social norms fundamentally shape interpersonal communication. We present
+NormDial, a high-quality dyadic dialogue dataset with turn-by-turn annotations
+of social norm adherences and violations for Chinese and American cultures.
+Introducing the task of social norm observance detection, our dataset is
+synthetically generated in both Chinese and English using a human-in-the-loop
+pipeline by prompting large language models with a small collection of
+expert-annotated social norms. We show that our generated dialogues are of high
+quality through human evaluation and further evaluate the performance of
+existing large language models on this task. Our findings point towards new
+directions for understanding the nuances of social norms as they manifest in
+conversational contexts that span across languages and cultures.",2023-10-23
+"Information Value: Measuring Utterance Predictability as Distance from
+  Plausible Alternatives",2023-10-20 17:25:36+00:00,http://arxiv.org/abs/2310.13676v1,"Mario Giulianelli, Sarenne Wallbridge, Raquel Fernández",cs.CL,dialogue,"We present information value, a measure which quantifies the predictability
+of an utterance relative to a set of plausible alternatives. We introduce a
+method to obtain interpretable estimates of information value using neural text
+generators, and exploit their psychometric predictive power to investigate the
+dimensions of predictability that drive human comprehension behaviour.
+Information value is a stronger predictor of utterance acceptability in written
+and spoken dialogue than aggregates of token-level surprisal and it is
+complementary to surprisal for predicting eye-tracked reading times.",2023-10-20
+BotChat: Evaluating LLMs' Capabilities of Having Multi-Turn Dialogues,2023-10-20 16:53:51+00:00,http://arxiv.org/abs/2310.13650v1,"Haodong Duan, Jueqi Wei, Chonghua Wang, Hongwei Liu, Yixiao Fang, Songyang Zhang, Dahua Lin, Kai Chen",cs.CL,dialogue,"Interacting with human via high-quality multi-turn dialogues is a key feature
+of large language models (LLMs). However, human-based evaluation of such
+capability involves intensive manual labor. This report provides a preliminary
+evaluation of existing large language models for human-style multi-turn
+chatting, through an LLM-based approach. We start from real-world human
+dialogues and keep the very first utterances as the ChatSEED. Then we prompt
+LLMs to generate a full multi-turn dialogue (tens of utterances) based on the
+ChatSEED, utterance by utterance. Finally, we adopt state-of-the-art LLMs
+(GPT-4, \etc) as the judge to evaluate the generated dialogues. With different
+evaluation protocols, we come to substantially identical conclusions. We find
+that GPT-4 can generate human-style multi-turn dialogues with impressive
+quality, significantly outperforms its counterparts. It's difficult for a
+discriminator to distinguish between GPT-4 generated dialogues and human
+dialogues. In contrast, other LLMs struggle to generate multi-turn dialogues of
+satisfactory quality due to poor instruction-following capability, tendency to
+generate lengthy utterances, or limited general capability. All data and codes
+will be provided in https://github.com/open-compass/BotChat/ and we hope they
+can serve as a valuable resource for evaluating multi-turn chatting
+capabilities of LLMs.",2023-10-20
+"DialogueLLM: Context and Emotion Knowledge-Tuned LLaMA Models for
+  Emotion Recognition in Conversations",2023-10-17 16:15:34+00:00,http://arxiv.org/abs/2310.11374v1,"Yazhou Zhang, Mengyao Wang, Prayag Tiwari, Qiuchi Li, Benyou Wang, Jing Qin",cs.CL,dialogue,"Large language models (LLMs) and their variants have shown extraordinary
+efficacy across numerous downstream natural language processing (NLP) tasks,
+which has presented a new vision for the development of NLP. Despite their
+remarkable performance in natural language generating (NLG), LLMs lack a
+distinct focus on the emotion understanding domain. As a result, using LLMs for
+emotion recognition may lead to suboptimal and inadequate precision. Another
+limitation of LLMs is that they are typical trained without leveraging
+multi-modal information. To overcome these limitations, we propose DialogueLLM,
+a context and emotion knowledge tuned LLM that is obtained by fine-tuning LLaMA
+models with 13,638 multi-modal (i.e., texts and videos) emotional dialogues.
+The visual information is considered as the supplementary knowledge to
+construct high-quality instructions. We offer a comprehensive evaluation of our
+proposed model on three benchmarking emotion recognition in conversations (ERC)
+datasets and compare the results against the SOTA baselines and other SOTA
+LLMs. Additionally, DialogueLLM-7B can be easily trained using LoRA on a 40GB
+A100 GPU in 5 hours, facilitating reproducibility for other researchers.",2023-10-17
+"BiLL-VTG: Bridging Large Language Models and Lightweight Visual Tools
+  for Video-based Texts Generation",2023-10-16 17:05:56+00:00,http://arxiv.org/abs/2310.10586v1,"Ji Qi, Kaixuan Ji, Jifan Yu, Duokang Wang, Bin Xu, Lei Hou, Juanzi Li","cs.CV, cs.CL",dialogue,"Building models that generate textual responses to user instructions for
+videos is a practical and challenging topic, as it requires both vision
+understanding and knowledge reasoning. Compared to language and image
+modalities, training efficiency remains a serious problem as existing studies
+train models on massive sparse videos aligned with brief descriptions. In this
+paper, we introduce BiLL-VTG, a fast adaptive framework that leverages large
+language models (LLMs) to reasoning on videos based on essential lightweight
+visual tools. Specifically, we reveal the key to response specific instructions
+is the concentration on relevant video events, and utilize two visual tools of
+structured scene graph generation and descriptive image caption generation to
+gather and represent the events information. Thus, a LLM equipped with world
+knowledge is adopted as the reasoning agent to achieve the response by
+performing multiple reasoning steps on specified video events.To address the
+difficulty of specifying events from agent, we further propose an
+Instruction-oriented Video Events Recognition (InsOVER) algorithm based on the
+efficient Hungarian matching to localize corresponding video events using
+linguistic instructions, enabling LLMs to interact with long videos. Extensive
+experiments on two typical video-based texts generations tasks show that our
+tuning-free framework outperforms the pre-trained models including
+Flamingo-80B, to achieve the state-of-the-art performance.",2023-10-16
+Character-LLM: A Trainable Agent for Role-Playing,2023-10-16 07:58:56+00:00,http://arxiv.org/abs/2310.10158v1,"Yunfan Shao, Linyang Li, Junqi Dai, Xipeng Qiu","cs.CL, cs.AI",dialogue,"Large language models (LLMs) can be used to serve as agents to simulate human
+behaviors, given the powerful ability to understand human instructions and
+provide high-quality generated texts. Such ability stimulates us to wonder
+whether LLMs can simulate a person in a higher form than simple human
+behaviors. Therefore, we aim to train an agent with the profile, experience,
+and emotional states of a specific person instead of using limited prompts to
+instruct ChatGPT API. In this work, we introduce Character-LLM that teach LLMs
+to act as specific people such as Beethoven, Queen Cleopatra, Julius Caesar,
+etc. Our method focuses on editing profiles as experiences of a certain
+character and training models to be personal simulacra with these experiences.
+To assess the effectiveness of our approach, we build a test playground that
+interviews trained agents and evaluates whether the agents \textit{memorize}
+their characters and experiences. Experimental results show interesting
+observations that help build future simulacra of humankind.",2023-10-16
+"KCTS: Knowledge-Constrained Tree Search Decoding with Token-Level
+  Hallucination Detection",2023-10-13 12:12:34+00:00,http://arxiv.org/abs/2310.09044v1,"Sehyun Choi, Tianqing Fang, Zhaowei Wang, Yangqiu Song","cs.CL, cs.AI, cs.LG",dialogue,"Large Language Models (LLMs) have demonstrated remarkable human-level natural
+language generation capabilities. However, their potential to generate
+misinformation, often called the hallucination problem, poses a significant
+risk to their deployment. A common approach to address this issue is to
+retrieve relevant knowledge and fine-tune the LLM with the knowledge in its
+input. Unfortunately, this method incurs high training costs and may cause
+catastrophic forgetting for multi-tasking models. To overcome these
+limitations, we propose a knowledge-constrained decoding method called KCTS
+(Knowledge-Constrained Tree Search), which guides a frozen LM to generate text
+aligned with the reference knowledge at each decoding step using a knowledge
+classifier score and MCTS (Monte-Carlo Tree Search). To adapt the
+sequence-level knowledge classifier to token-level guidance, we also propose a
+novel token-level hallucination detection method called RIPA (Reward Inflection
+Point Approximation). Our empirical results on knowledge-grounded dialogue and
+abstractive summarization demonstrate the strength of KCTS as a plug-and-play,
+model-agnostic decoding method that can effectively reduce hallucinations in
+natural language generation.",2023-10-13
 "Ziya-VL: Bilingual Large Vision-Language Model via Multi-Task
   Instruction Tuning",2023-10-12 09:39:17+00:00,http://arxiv.org/abs/2310.08166v1,"Junyu Lu, Dixiang Zhang, Xiaojun Wu, Xinyu Gao, Ruyi Gan, Jiaxing Zhang, Yan Song, Pingjian Zhang",cs.CL,dialogue,"Recent advancements enlarge the capabilities of large language models (LLMs)
 in zero-shot image-to-text generation and understanding by integrating

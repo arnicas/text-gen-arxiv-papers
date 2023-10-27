@@ -6,10 +6,21 @@ sidebar:
 ---
 
 
-*written on 2023-10-13*
+*written on 2023-10-27*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Automatic Logical Forms improve fidelity in Table-to-Text generation](http://arxiv.org/abs/2310.17279v1) | Iñigo Alonso, Eneko Agirre | cs.CL | 2023-10-26 |
+| [Knowledge Editing for Large Language Models: A Survey](http://arxiv.org/abs/2310.16218v2) | Song Wang, Yaochen Zhu, Haochen Liu, Zaiyi Zheng, Chen Chen, Jundong Li | cs.CL, cs.AI | 2023-10-24 |
+| [Woodpecker: Hallucination Correction for Multimodal Large Language  Models](http://arxiv.org/abs/2310.16045v1) | Shukang Yin, Chaoyou Fu, Sirui Zhao, Tong Xu, Hao Wang, Dianbo Sui, Yunhang Shen, Ke Li, Xing Sun, Enhong Chen | cs.CV, cs.AI, cs.CL, cs.LG | 2023-10-24 |
+| [Enhancing Biomedical Lay Summarisation with External Knowledge Graphs](http://arxiv.org/abs/2310.15702v1) | Tomas Goldsack, Zhihao Zhang, Chen Tang, Carolina Scarton, Chenghua Lin | cs.CL | 2023-10-24 |
+| [Let the Pretrained Language Models "Imagine" for Short Texts Topic  Modeling](http://arxiv.org/abs/2310.15420v1) | Pritom Saha Akash, Jie Huang, Kevin Chen-Chuan Chang | cs.CL | 2023-10-24 |
+| [Towards Possibilities & Impossibilities of AI-generated Text Detection:  A Survey](http://arxiv.org/abs/2310.15264v1) | Soumya Suvra Ghosal, Souradip Chakraborty, Jonas Geiping, Furong Huang, Dinesh Manocha, Amrit Singh Bedi | cs.CL, cs.AI | 2023-10-23 |
+| [Fidelity-Enriched Contrastive Search: Reconciling the  Faithfulness-Diversity Trade-Off in Text Generation](http://arxiv.org/abs/2310.14981v1) | Wei-Lin Chen, Cheng-Kuang Wu, Hsin-Hsi Chen, Chung-Chi Chen | cs.CL | 2023-10-23 |
+| [HateRephrase: Zero- and Few-Shot Reduction of Hate Intensity in Online  Posts using Large Language Models](http://arxiv.org/abs/2310.13985v1) | Vibhor Agarwal, Yu Chen, Nishanth Sastry | cs.CL | 2023-10-21 |
+| [Automatic Unit Test Data Generation and Actor-Critic Reinforcement  Learning for Code Synthesis](http://arxiv.org/abs/2310.13669v1) | Philip John Gorinski, Matthieu Zimmer, Gerasimos Lampouras, Derrick Goh Xin Deik, Ignacio Iacobacci | cs.LG, cs.AI, cs.CL, cs.PL | 2023-10-20 |
+| [Knowledge-Augmented Language Model Verification](http://arxiv.org/abs/2310.12836v1) | Jinheon Baek, Soyeong Jeong, Minki Kang, Jong C. Park, Sung Ju Hwang | cs.CL, cs.LG | 2023-10-19 |
+| [MolCA: Molecular Graph-Language Modeling with Cross-Modal Projector and  Uni-Modal Adapter](http://arxiv.org/abs/2310.12798v1) | Zhiyuan Liu, Sihang Li, Yanchen Luo, Hao Fei, Yixin Cao, Kenji Kawaguchi, Xiang Wang, Tat-Seng Chua | cs.CL, cs.MM | 2023-10-19 |
 | [GraphextQA: A Benchmark for Evaluating Graph-Enhanced Large Language  Models](http://arxiv.org/abs/2310.08487v1) | Yuanchun Shen, Ruotong Liao, Zhen Han, Yunpu Ma, Volker Tresp | cs.CL | 2023-10-12 |
 | [DistillSpec: Improving Speculative Decoding via Knowledge Distillation](http://arxiv.org/abs/2310.08461v1) | Yongchao Zhou, Kaifeng Lyu, Ankit Singh Rawat, Aditya Krishna Menon, Afshin Rostamizadeh, Sanjiv Kumar, Jean-François Kagy, Rishabh Agarwal | cs.CL, cs.AI, cs.LG | 2023-10-12 |
 | [CP-KGC: Constrained-Prompt Knowledge Graph Completion with Large  Language Models](http://arxiv.org/abs/2310.08279v1) | Rui Yang, Li Fang, Yi Zhou | cs.CL, cs.AI | 2023-10-12 |

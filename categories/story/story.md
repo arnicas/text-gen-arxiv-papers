@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2023-10-13*
+*written on 2023-10-27*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Branch-Solve-Merge Improves Large Language Model Evaluation and  Generation](http://arxiv.org/abs/2310.15123v1) | Swarnadeep Saha, Omer Levy, Asli Celikyilmaz, Mohit Bansal, Jason Weston, Xian Li | cs.CL, cs.AI, cs.LG | 2023-10-23 |
+| [Affective and Dynamic Beam Search for Story Generation](http://arxiv.org/abs/2310.15079v1) | Tenghao Huang, Ehsan Qasemi, Bangzheng Li, He Wang, Faeze Brahman, Muhao Chen, Snigdha Chaturvedi | cs.CL | 2023-10-23 |
+| [Experimental Narratives: A Comparison of Human Crowdsourced Storytelling  and AI Storytelling](http://arxiv.org/abs/2310.12902v1) | Nina Begus | cs.CL, cs.AI | 2023-10-19 |
+| [End-to-end Story Plot Generator](http://arxiv.org/abs/2310.08796v1) | Hanlin Zhu, Andrew Cohen, Danqing Wang, Kevin Yang, Xiaomeng Yang, Jiantao Jiao, Yuandong Tian | cs.CL | 2023-10-13 |
 | [EIPE-text: Evaluation-Guided Iterative Plan Extraction for Long-Form  Narrative Text Generation](http://arxiv.org/abs/2310.08185v1) | Wang You, Wenshan Wu, Yaobo Liang, Shaoguang Mao, Chenfei Wu, Maosong Cao, Yuzhe Cai, Yiduo Guo, Yan Xia, Furu Wei, Nan Duan | cs.CL, cs.AI | 2023-10-12 |
 | [The Temporal Structure of Language Processing in the Human Brain  Corresponds to The Layered Hierarchy of Deep Language Models](http://arxiv.org/abs/2310.07106v1) | Ariel Goldstein, Eric Ham, Mariano Schain, Samuel Nastase, Zaid Zada, Avigail Dabush, Bobbi Aubrey, Harshvardhan Gazula, Amir Feder, Werner K Doyle, Sasha Devore, Patricia Dugan, Daniel Friedman, Roi Reichart, Michael Brenner, Avinatan Hassidim, Orrin Devinsky, Adeen Flinker, Omer Levy, Uri Hasson | cs.CL, cs.AI, cs.LG, q-bio.NC | 2023-10-11 |
 | [RAUCG: Retrieval-Augmented Unsupervised Counter Narrative Generation for  Hate Speech](http://arxiv.org/abs/2310.05650v1) | Shuyu Jiang, Wenyi Tang, Xingshu Chen, Rui Tanga, Haizhou Wang, Wenxian Wang | cs.CL | 2023-10-09 |

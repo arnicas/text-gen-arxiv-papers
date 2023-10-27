@@ -1,4 +1,24 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+The Consensus Game: Language Model Generation via Equilibrium Search,2023-10-13 14:27:21+00:00,http://arxiv.org/abs/2310.09139v1,"Athul Paul Jacob, Yikang Shen, Gabriele Farina, Jacob Andreas","cs.GT, cs.AI, cs.CL, cs.LG",games,"When applied to question answering and other text generation tasks, language
+models (LMs) may be queried generatively (by sampling answers from their output
+distribution) or discriminatively (by using them to score or rank a set of
+candidate outputs). These procedures sometimes yield very different
+predictions. How do we reconcile mutually incompatible scoring procedures to
+obtain coherent LM predictions? We introduce a new, a training-free,
+game-theoretic procedure for language model decoding. Our approach casts
+language model decoding as a regularized imperfect-information sequential
+signaling game - which we term the CONSENSUS GAME - in which a GENERATOR seeks
+to communicate an abstract correctness parameter using natural language
+sentences to a DISCRIMINATOR. We develop computational procedures for finding
+approximate equilibria of this game, resulting in a decoding algorithm we call
+EQUILIBRIUM-RANKING. Applied to a large number of tasks (including reading
+comprehension, commonsense reasoning, mathematical problem-solving, and
+dialog), EQUILIBRIUM-RANKING consistently, and sometimes substantially,
+improves performance over existing LM decoding procedures - on multiple
+benchmarks, we observe that applying EQUILIBRIUM-RANKING to LLaMA-7B
+outperforms the much larger LLaMA-65B and PaLM-540B models. These results
+highlight the promise of game-theoretic tools for addressing fundamental
+challenges of truthfulness and consistency in LMs.",2023-10-13
 "Specializing Small Language Models towards Complex Style Transfer via
   Latent Attribute Pre-Training",2023-09-19 21:01:40+00:00,http://arxiv.org/abs/2309.10929v1,"Ruiqi Xu, Yongfeng Huang, Xin Chen, Lin Zhang",cs.CL,games,"In this work, we introduce the concept of complex text style transfer tasks,
 and constructed complex text datasets based on two widely applicable scenarios.

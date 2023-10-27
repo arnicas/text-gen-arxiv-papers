@@ -7,10 +7,24 @@ sidebar:
 ---
 
 
-*written on 2023-10-13*
+*written on 2023-10-27*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [An Ensemble Method Based on the Combination of Transformers with  Convolutional Neural Networks to Detect Artificially Generated Text](http://arxiv.org/abs/2310.17312v1) | Vijini Liyanage, Davide Buscaldi | cs.CL | 2023-10-26 |
+| [Automatic Logical Forms improve fidelity in Table-to-Text generation](http://arxiv.org/abs/2310.17279v1) | Iñigo Alonso, Eneko Agirre | cs.CL | 2023-10-26 |
+| [Beyond MLE: Convex Learning for Text Generation](http://arxiv.org/abs/2310.17217v1) | Chenze Shao, Zhengrui Ma, Min Zhang, Yang Feng | cs.CL, cs.AI, cs.LG | 2023-10-26 |
+| [Critic-Driven Decoding for Mitigating Hallucinations in Data-to-text  Generation](http://arxiv.org/abs/2310.16964v1) | Mateusz Lango, Ondřej Dušek | cs.CL, I.2.7 | 2023-10-25 |
+| [A Comprehensive Evaluation of Constrained Text Generation for Large  Language Models](http://arxiv.org/abs/2310.16343v1) | Xiang Chen, Xiaojun Wan | cs.CL | 2023-10-25 |
+| [Octopus: A Multitask Model and Toolkit for Arabic Natural Language  Generation](http://arxiv.org/abs/2310.16127v1) | AbdelRahim Elmadany, El Moatez Billah Nagoudi, Muhammad Abdul-Mageed | cs.CL | 2023-10-24 |
+| [Woodpecker: Hallucination Correction for Multimodal Large Language  Models](http://arxiv.org/abs/2310.16045v1) | Shukang Yin, Chaoyou Fu, Sirui Zhao, Tong Xu, Hao Wang, Dianbo Sui, Yunhang Shen, Ke Li, Xing Sun, Enhong Chen | cs.CV, cs.AI, cs.CL, cs.LG | 2023-10-24 |
+| [Let the Pretrained Language Models "Imagine" for Short Texts Topic  Modeling](http://arxiv.org/abs/2310.15420v1) | Pritom Saha Akash, Jie Huang, Kevin Chen-Chuan Chang | cs.CL | 2023-10-24 |
+| [Data Augmentation Techniques for Machine Translation of Code-Switched  Texts: A Comparative Study](http://arxiv.org/abs/2310.15262v1) | Injy Hamed, Nizar Habash, Ngoc Thang Vu | cs.CL | 2023-10-23 |
+| [Statistical Depth for Ranking and Characterizing Transformer-Based Text  Embeddings](http://arxiv.org/abs/2310.15010v1) | Parker Seegmiller, Sarah Masud Preum | cs.CL | 2023-10-23 |
+| [Did the Neurons Read your Book? Document-level Membership Inference for  Large Language Models](http://arxiv.org/abs/2310.15007v1) | Matthieu Meeus, Shubham Jain, Marek Rei, Yves-Alexandre de Montjoye | cs.CL, cs.CR, cs.LG | 2023-10-23 |
+| [A Survey on LLM-generated Text Detection: Necessity, Methods, and Future  Directions](http://arxiv.org/abs/2310.14724v2) | Junchao Wu, Shu Yang, Runzhe Zhan, Yulin Yuan, Derek F. Wong, Lidia S. Chao | cs.CL, cs.AI | 2023-10-23 |
+| [Text generation for dataset augmentation in security classification  tasks](http://arxiv.org/abs/2310.14429v1) | Alexander P. Welsh, Matthew Edwards | cs.CR, cs.CL | 2023-10-22 |
+| [Towards Understanding Sycophancy in Language Models](http://arxiv.org/abs/2310.13548v2) | Mrinank Sharma, Meg Tong, Tomasz Korbak, David Duvenaud, Amanda Askell, Samuel R. Bowman, Newton Cheng, Esin Durmus, Zac Hatfield-Dodds, Scott R. Johnston, Shauna Kravec, Timothy Maxwell, Sam McCandlish, Kamal Ndousse, Oliver Rausch, Nicholas Schiefer, Da Yan, Miranda Zhang, Ethan Perez | cs.CL, cs.AI, cs.LG, stat.ML, I.2.6 | 2023-10-20 |
 | [GraphextQA: A Benchmark for Evaluating Graph-Enhanced Large Language  Models](http://arxiv.org/abs/2310.08487v1) | Yuanchun Shen, Ruotong Liao, Zhen Han, Yunpu Ma, Volker Tresp | cs.CL | 2023-10-12 |
 | [DistillSpec: Improving Speculative Decoding via Knowledge Distillation](http://arxiv.org/abs/2310.08461v1) | Yongchao Zhou, Kaifeng Lyu, Ankit Singh Rawat, Aditya Krishna Menon, Afshin Rostamizadeh, Sanjiv Kumar, Jean-François Kagy, Rishabh Agarwal | cs.CL, cs.AI, cs.LG | 2023-10-12 |
 | [CP-KGC: Constrained-Prompt Knowledge Graph Completion with Large  Language Models](http://arxiv.org/abs/2310.08279v1) | Rui Yang, Li Fang, Yi Zhou | cs.CL, cs.AI | 2023-10-12 |

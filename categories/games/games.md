@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2023-10-13*
+*written on 2023-10-27*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [The Consensus Game: Language Model Generation via Equilibrium Search](http://arxiv.org/abs/2310.09139v1) | Athul Paul Jacob, Yikang Shen, Gabriele Farina, Jacob Andreas | cs.GT, cs.AI, cs.CL, cs.LG | 2023-10-13 |
 | [Specializing Small Language Models towards Complex Style Transfer via  Latent Attribute Pre-Training](http://arxiv.org/abs/2309.10929v1) | Ruiqi Xu, Yongfeng Huang, Xin Chen, Lin Zhang | cs.CL | 2023-09-19 |
 | [Learning to Generate Equitable Text in Dialogue from Biased Training  Data](http://arxiv.org/abs/2307.04303v1) | Anthony Sicilia, Malihe Alikhani | cs.CL, cs.AI | 2023-07-10 |
 | [Designing Mixed-Initiative Video Games](http://arxiv.org/abs/2307.03877v1) | Daijin Yang | cs.HC, cs.AI, J.5 | 2023-07-08 |

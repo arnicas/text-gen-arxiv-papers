@@ -1,4 +1,211 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Automatic Logical Forms improve fidelity in Table-to-Text generation,2023-10-26 10:00:24+00:00,http://arxiv.org/abs/2310.17279v1,"Iñigo Alonso, Eneko Agirre",cs.CL,knowledge,"Table-to-text systems generate natural language statements from structured
+data like tables. While end-to-end techniques suffer from low factual
+correctness (fidelity), a previous study reported gains when using manual
+logical forms (LF) that represent the selected content and the semantics of the
+target text. Given the manual step, it was not clear whether automatic LFs
+would be effective, or whether the improvement came from content selection
+alone. We present TlT which, given a table and a selection of the content,
+first produces LFs and then the textual statement. We show for the first time
+that automatic LFs improve quality, with an increase in fidelity of 30 points
+over a comparable system not using LFs. Our experiments allow to quantify the
+remaining challenges for high factual correctness, with automatic selection of
+content coming first, followed by better Logic-to-Text generation and, to a
+lesser extent, better Table-to-Logic parsing.",2023-10-26
+Knowledge Editing for Large Language Models: A Survey,2023-10-24 22:18:13+00:00,http://arxiv.org/abs/2310.16218v2,"Song Wang, Yaochen Zhu, Haochen Liu, Zaiyi Zheng, Chen Chen, Jundong Li","cs.CL, cs.AI",knowledge,"Large language models (LLMs) have recently transformed both the academic and
+industrial landscapes due to their remarkable capacity to understand, analyze,
+and generate texts based on their vast knowledge and reasoning ability.
+Nevertheless, one major drawback of LLMs is their substantial computational
+cost for pre-training due to their unprecedented amounts of parameters. The
+disadvantage is exacerbated when new knowledge frequently needs to be
+introduced into the pre-trained model. Therefore, it is imperative to develop
+effective and efficient techniques to update pre-trained LLMs. Traditional
+methods encode new knowledge in pre-trained LLMs through direct fine-tuning.
+However, naively re-training LLMs can be computationally intensive and risks
+degenerating valuable pre-trained knowledge irrelevant to the update in the
+model. Recently, Knowledge-based Model Editing (KME) has attracted increasing
+attention, which aims to precisely modify the LLMs to incorporate specific
+knowledge, without negatively influencing other irrelevant knowledge. In this
+survey, we aim to provide a comprehensive and in-depth overview of recent
+advances in the field of KME. We first introduce a general formulation of KME
+to encompass different KME strategies. Afterward, we provide an innovative
+taxonomy of KME techniques based on how the new knowledge is introduced into
+pre-trained LLMs, and investigate existing KME strategies while analyzing key
+insights, advantages, and limitations of methods from each category. Moreover,
+representative metrics, datasets, and applications of KME are introduced
+accordingly. Finally, we provide an in-depth analysis regarding the
+practicality and remaining challenges of KME and suggest promising research
+directions for further advancement in this field.",2023-10-24
+"Woodpecker: Hallucination Correction for Multimodal Large Language
+  Models",2023-10-24 17:58:07+00:00,http://arxiv.org/abs/2310.16045v1,"Shukang Yin, Chaoyou Fu, Sirui Zhao, Tong Xu, Hao Wang, Dianbo Sui, Yunhang Shen, Ke Li, Xing Sun, Enhong Chen","cs.CV, cs.AI, cs.CL, cs.LG",knowledge,"Hallucination is a big shadow hanging over the rapidly evolving Multimodal
+Large Language Models (MLLMs), referring to the phenomenon that the generated
+text is inconsistent with the image content. In order to mitigate
+hallucinations, existing studies mainly resort to an instruction-tuning manner
+that requires retraining the models with specific data. In this paper, we pave
+a different way, introducing a training-free method named Woodpecker. Like a
+woodpecker heals trees, it picks out and corrects hallucinations from the
+generated text. Concretely, Woodpecker consists of five stages: key concept
+extraction, question formulation, visual knowledge validation, visual claim
+generation, and hallucination correction. Implemented in a post-remedy manner,
+Woodpecker can easily serve different MLLMs, while being interpretable by
+accessing intermediate outputs of the five stages. We evaluate Woodpecker both
+quantitatively and qualitatively and show the huge potential of this new
+paradigm. On the POPE benchmark, our method obtains a 30.66%/24.33% improvement
+in accuracy over the baseline MiniGPT-4/mPLUG-Owl. The source code is released
+at https://github.com/BradyFU/Woodpecker.",2023-10-24
+Enhancing Biomedical Lay Summarisation with External Knowledge Graphs,2023-10-24 10:25:21+00:00,http://arxiv.org/abs/2310.15702v1,"Tomas Goldsack, Zhihao Zhang, Chen Tang, Carolina Scarton, Chenghua Lin",cs.CL,knowledge,"Previous approaches for automatic lay summarisation are exclusively reliant
+on the source article that, given it is written for a technical audience (e.g.,
+researchers), is unlikely to explicitly define all technical concepts or state
+all of the background information that is relevant for a lay audience. We
+address this issue by augmenting eLife, an existing biomedical lay
+summarisation dataset, with article-specific knowledge graphs, each containing
+detailed information on relevant biomedical concepts. Using both automatic and
+human evaluations, we systematically investigate the effectiveness of three
+different approaches for incorporating knowledge graphs within lay
+summarisation models, with each method targeting a distinct area of the
+encoder-decoder model architecture. Our results confirm that integrating
+graph-based domain knowledge can significantly benefit lay summarisation by
+substantially increasing the readability of generated text and improving the
+explanation of technical concepts.",2023-10-24
+"Let the Pretrained Language Models ""Imagine"" for Short Texts Topic
+  Modeling",2023-10-24 00:23:30+00:00,http://arxiv.org/abs/2310.15420v1,"Pritom Saha Akash, Jie Huang, Kevin Chen-Chuan Chang",cs.CL,knowledge,"Topic models are one of the compelling methods for discovering latent
+semantics in a document collection. However, it assumes that a document has
+sufficient co-occurrence information to be effective. However, in short texts,
+co-occurrence information is minimal, which results in feature sparsity in
+document representation. Therefore, existing topic models (probabilistic or
+neural) mostly fail to mine patterns from them to generate coherent topics. In
+this paper, we take a new approach to short-text topic modeling to address the
+data-sparsity issue by extending short text into longer sequences using
+existing pre-trained language models (PLMs). Besides, we provide a simple
+solution extending a neural topic model to reduce the effect of noisy
+out-of-topics text generation from PLMs. We observe that our model can
+substantially improve the performance of short-text topic modeling. Extensive
+experiments on multiple real-world datasets under extreme data sparsity
+scenarios show that our models can generate high-quality topics outperforming
+state-of-the-art models.",2023-10-24
+"Towards Possibilities & Impossibilities of AI-generated Text Detection:
+  A Survey",2023-10-23 18:11:32+00:00,http://arxiv.org/abs/2310.15264v1,"Soumya Suvra Ghosal, Souradip Chakraborty, Jonas Geiping, Furong Huang, Dinesh Manocha, Amrit Singh Bedi","cs.CL, cs.AI",knowledge,"Large Language Models (LLMs) have revolutionized the domain of natural
+language processing (NLP) with remarkable capabilities of generating human-like
+text responses. However, despite these advancements, several works in the
+existing literature have raised serious concerns about the potential misuse of
+LLMs such as spreading misinformation, generating fake news, plagiarism in
+academia, and contaminating the web. To address these concerns, a consensus
+among the research community is to develop algorithmic solutions to detect
+AI-generated text. The basic idea is that whenever we can tell if the given
+text is either written by a human or an AI, we can utilize this information to
+address the above-mentioned concerns. To that end, a plethora of detection
+frameworks have been proposed, highlighting the possibilities of AI-generated
+text detection. But in parallel to the development of detection frameworks,
+researchers have also concentrated on designing strategies to elude detection,
+i.e., focusing on the impossibilities of AI-generated text detection. This is a
+crucial step in order to make sure the detection frameworks are robust enough
+and it is not too easy to fool a detector. Despite the huge interest and the
+flurry of research in this domain, the community currently lacks a
+comprehensive analysis of recent developments. In this survey, we aim to
+provide a concise categorization and overview of current work encompassing both
+the prospects and the limitations of AI-generated text detection. To enrich the
+collective knowledge, we engage in an exhaustive discussion on critical and
+challenging open questions related to ongoing research on AI-generated text
+detection.",2023-10-23
+"Fidelity-Enriched Contrastive Search: Reconciling the
+  Faithfulness-Diversity Trade-Off in Text Generation",2023-10-23 14:27:45+00:00,http://arxiv.org/abs/2310.14981v1,"Wei-Lin Chen, Cheng-Kuang Wu, Hsin-Hsi Chen, Chung-Chi Chen",cs.CL,knowledge,"In this paper, we address the hallucination problem commonly found in natural
+language generation tasks. Language models often generate fluent and convincing
+content but can lack consistency with the provided source, resulting in
+potential inaccuracies. We propose a new decoding method called
+Fidelity-Enriched Contrastive Search (FECS), which augments the contrastive
+search framework with context-aware regularization terms. FECS promotes tokens
+that are semantically similar to the provided source while penalizing
+repetitiveness in the generated text. We demonstrate its effectiveness across
+two tasks prone to hallucination: abstractive summarization and dialogue
+generation. Results show that FECS consistently enhances faithfulness across
+various language model sizes while maintaining output diversity comparable to
+well-performing decoding algorithms.",2023-10-23
+"HateRephrase: Zero- and Few-Shot Reduction of Hate Intensity in Online
+  Posts using Large Language Models",2023-10-21 12:18:29+00:00,http://arxiv.org/abs/2310.13985v1,"Vibhor Agarwal, Yu Chen, Nishanth Sastry",cs.CL,knowledge,"Hate speech has become pervasive in today's digital age. Although there has
+been considerable research to detect hate speech or generate counter speech to
+combat hateful views, these approaches still cannot completely eliminate the
+potential harmful societal consequences of hate speech -- hate speech, even
+when detected, can often not be taken down or is often not taken down enough;
+and hate speech unfortunately spreads quickly, often much faster than any
+generated counter speech.
+  This paper investigates a relatively new yet simple and effective approach of
+suggesting a rephrasing of potential hate speech content even before the post
+is made. We show that Large Language Models (LLMs) perform well on this task,
+outperforming state-of-the-art baselines such as BART-Detox. We develop 4
+different prompts based on task description, hate definition, few-shot
+demonstrations and chain-of-thoughts for comprehensive experiments and conduct
+experiments on open-source LLMs such as LLaMA-1, LLaMA-2 chat, Vicuna as well
+as OpenAI's GPT-3.5. We propose various evaluation metrics to measure the
+efficacy of the generated text and ensure the generated text has reduced hate
+intensity without drastically changing the semantic meaning of the original
+text.
+  We find that LLMs with a few-shot demonstrations prompt work the best in
+generating acceptable hate-rephrased text with semantic meaning similar to the
+original text. Overall, we find that GPT-3.5 outperforms the baseline and
+open-source models for all the different kinds of prompts. We also perform
+human evaluations and interestingly, find that the rephrasings generated by
+GPT-3.5 outperform even the human-generated ground-truth rephrasings in the
+dataset. We also conduct detailed ablation studies to investigate why LLMs work
+satisfactorily on this task and conduct a failure analysis to understand the
+gaps.",2023-10-21
+"Automatic Unit Test Data Generation and Actor-Critic Reinforcement
+  Learning for Code Synthesis",2023-10-20 17:13:16+00:00,http://arxiv.org/abs/2310.13669v1,"Philip John Gorinski, Matthieu Zimmer, Gerasimos Lampouras, Derrick Goh Xin Deik, Ignacio Iacobacci","cs.LG, cs.AI, cs.CL, cs.PL",knowledge,"The advent of large pre-trained language models in the domain of Code
+Synthesis has shown remarkable performance on various benchmarks, treating the
+problem of Code Generation in a fashion similar to Natural Language Generation,
+trained with a Language Modelling (LM) objective. In addition, the property of
+programming language code being precisely evaluable with respect to its
+semantics -- through the use of Unit Tests to check its functional correctness
+-- lends itself to using Reinforcement Learning (RL) as a further training
+paradigm. Previous work has shown that RL can be applied as such to improve
+models' coding capabilities; however, such RL-based methods rely on a reward
+signal based on defined Unit Tests, which are much harder to obtain compared to
+the huge crawled code datasets used in LM objectives. In this work, we present
+a novel approach to automatically obtain data consisting of function signatures
+and associated Unit Tests, suitable for RL training of Code Synthesis models.
+We also introduce a straightforward, simple yet effective Actor-Critic RL
+training scheme and show that it, in conjunction with automatically generated
+training data, leads to improvement of a pre-trained code language model's
+performance by up to 9.9% improvement over the original underlying code
+synthesis LM, and up to 4.3% over RL-based models trained with standard PPO or
+CodeRL.",2023-10-20
+Knowledge-Augmented Language Model Verification,2023-10-19 15:40:00+00:00,http://arxiv.org/abs/2310.12836v1,"Jinheon Baek, Soyeong Jeong, Minki Kang, Jong C. Park, Sung Ju Hwang","cs.CL, cs.LG",knowledge,"Recent Language Models (LMs) have shown impressive capabilities in generating
+texts with the knowledge internalized in parameters. Yet, LMs often generate
+the factually incorrect responses to the given queries, since their knowledge
+may be inaccurate, incomplete, and outdated. To address this problem, previous
+works propose to augment LMs with the knowledge retrieved from an external
+knowledge source. However, such approaches often show suboptimal text
+generation performance due to two reasons: 1) the model may fail to retrieve
+the knowledge relevant to the given query, or 2) the model may not faithfully
+reflect the retrieved knowledge in the generated text. To overcome these, we
+propose to verify the output and the knowledge of the knowledge-augmented LMs
+with a separate verifier, which is a small LM that is trained to detect those
+two types of errors through instruction-finetuning. Then, when the verifier
+recognizes an error, we can rectify it by either retrieving new knowledge or
+generating new text. Further, we use an ensemble of the outputs from different
+instructions with a single verifier to enhance the reliability of the
+verification processes. We validate the effectiveness of the proposed
+verification steps on multiple question answering benchmarks, whose results
+show that the proposed verifier effectively identifies retrieval and generation
+errors, allowing LMs to provide more factually correct outputs. Our code is
+available at https://github.com/JinheonBaek/KALMV.",2023-10-19
+"MolCA: Molecular Graph-Language Modeling with Cross-Modal Projector and
+  Uni-Modal Adapter",2023-10-19 14:52:58+00:00,http://arxiv.org/abs/2310.12798v1,"Zhiyuan Liu, Sihang Li, Yanchen Luo, Hao Fei, Yixin Cao, Kenji Kawaguchi, Xiang Wang, Tat-Seng Chua","cs.CL, cs.MM",knowledge,"Language Models (LMs) have demonstrated impressive molecule understanding
+ability on various 1D text-related tasks. However, they inherently lack 2D
+graph perception - a critical ability of human professionals in comprehending
+molecules' topological structures. To bridge this gap, we propose MolCA:
+Molecular Graph-Language Modeling with Cross-Modal Projector and Uni-Modal
+Adapter. MolCA enables an LM (e.g., Galactica) to understand both text- and
+graph-based molecular contents via the cross-modal projector. Specifically, the
+cross-modal projector is implemented as a Q-Former to connect a graph encoder's
+representation space and an LM's text space. Further, MolCA employs a uni-modal
+adapter (i.e., LoRA) for the LM's efficient adaptation to downstream tasks.
+Unlike previous studies that couple an LM with a graph encoder via cross-modal
+contrastive learning, MolCA retains the LM's ability of open-ended text
+generation and augments it with 2D graph information. To showcase its
+effectiveness, we extensively benchmark MolCA on tasks of molecule captioning,
+IUPAC name prediction, and molecule-text retrieval, on which MolCA
+significantly outperforms the baselines. Our codes and checkpoints can be found
+at https://github.com/acharkq/MolCA.",2023-10-19
 "GraphextQA: A Benchmark for Evaluating Graph-Enhanced Large Language
   Models",2023-10-12 16:46:58+00:00,http://arxiv.org/abs/2310.08487v1,"Yuanchun Shen, Ruotong Liao, Zhen Han, Yunpu Ma, Volker Tresp",cs.CL,knowledge,"While multi-modal models have successfully integrated information from image,
 video, and audio modalities, integrating graph modality into large language
