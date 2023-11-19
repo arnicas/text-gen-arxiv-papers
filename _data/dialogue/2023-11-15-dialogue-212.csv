@@ -1,4 +1,219 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+GRIM: GRaph-based Interactive narrative visualization for gaMes,2023-11-15 18:55:45+00:00,http://arxiv.org/abs/2311.09213v1,"Jorge Leandro, Sudha Rao, Michael Xu, Weijia Xu, Nebosja Jojic, Chris Brockett, Bill Dolan",cs.CL,dialogue,"Dialogue-based Role Playing Games (RPGs) require powerful storytelling. The
+narratives of these may take years to write and typically involve a large
+creative team. In this work, we demonstrate the potential of large generative
+text models to assist this process. \textbf{GRIM}, a prototype
+\textbf{GR}aph-based \textbf{I}nteractive narrative visualization system for
+ga\textbf{M}es, generates a rich narrative graph with branching storylines that
+match a high-level narrative description and constraints provided by the
+designer. Game designers can interactively edit the graph by automatically
+generating new sub-graphs that fit the edits within the original narrative and
+constraints. We illustrate the use of \textbf{GRIM} in conjunction with GPT-4,
+generating branching narratives for four well-known stories with different
+contextual constraints.",2023-11-15
+"X-Eval: Generalizable Multi-aspect Text Evaluation via Augmented
+  Instruction Tuning with Auxiliary Evaluation Aspects",2023-11-15 09:01:55+00:00,http://arxiv.org/abs/2311.08788v1,"Minqian Liu, Ying Shen, Zhiyang Xu, Yixin Cao, Eunah Cho, Vaibhav Kumar, Reza Ghanadan, Lifu Huang","cs.CL, cs.AI, cs.LG",dialogue,"Natural Language Generation (NLG) typically involves evaluating the generated
+text in various aspects (e.g., consistency and naturalness) to obtain a
+comprehensive assessment. However, multi-aspect evaluation remains challenging
+as it may require the evaluator to generalize to any given evaluation aspect
+even if it's absent during training. In this paper, we introduce X-Eval, a
+two-stage instruction tuning framework to evaluate the text in both seen and
+unseen aspects customized by end users. X-Eval consists of two learning stages:
+the vanilla instruction tuning stage that improves the model's ability to
+follow evaluation instructions, and an enhanced instruction tuning stage that
+exploits the connections between fine-grained evaluation aspects to better
+assess text quality. To support the training of X-Eval, we collect
+AspectInstruct, the first instruction tuning dataset tailored for multi-aspect
+NLG evaluation spanning 27 diverse evaluation aspects with 65 tasks. To enhance
+task diversity, we devise an augmentation strategy that converts human rating
+annotations into diverse forms of NLG evaluation tasks, including scoring,
+comparison, ranking, and Boolean question answering. Extensive experiments
+across three essential categories of NLG tasks: dialogue generation,
+summarization, and data-to-text coupled with 21 aspects in meta-evaluation,
+demonstrate that our X-Eval enables even a lightweight language model to
+achieve a comparable if not higher correlation with human judgments compared to
+the state-of-the-art NLG evaluators, such as GPT-4.",2023-11-15
+Workflow-Guided Response Generation for Task-Oriented Dialogue,2023-11-14 16:44:33+00:00,http://arxiv.org/abs/2311.08300v1,"Do June Min, Paloma Sodhi, Ramya Ramakrishnan","cs.CL, cs.AI",dialogue,"Task-oriented dialogue (TOD) systems aim to achieve specific goals through
+interactive dialogue. Such tasks usually involve following specific workflows,
+i.e. executing a sequence of actions in a particular order. While prior work
+has focused on supervised learning methods to condition on past actions, they
+do not explicitly optimize for compliance to a desired workflow. In this paper,
+we propose a novel framework based on reinforcement learning (RL) to generate
+dialogue responses that are aligned with a given workflow. Our framework
+consists of ComplianceScorer, a metric designed to evaluate how well a
+generated response executes the specified action, combined with an RL
+opimization process that utilizes an interactive sampling technique. We
+evaluate our approach on two TOD datasets, Action-Based Conversations Dataset
+(ABCD) (Chen et al., 2021a) and MultiWOZ 2.2 (Zang et al., 2020) on a range of
+automated and human evaluation metrics. Our findings indicate that our RL-based
+framework outperforms baselines and is effective at enerating responses that
+both comply with the intended workflows while being expressed in a natural and
+fluent manner.",2023-11-14
+Measuring Entrainment in Spontaneous Code-switched Speech,2023-11-13 19:41:34+00:00,http://arxiv.org/abs/2311.07703v1,"Debasmita Bhattacharya, Siying Ding, Alayna Nguyen, Julia Hirschberg","cs.CL, cs.SD, eess.AS",dialogue,"It is well-known that interlocutors who entrain to one another have more
+successful conversations than those who do not. Previous research has shown
+that interlocutors entrain on linguistic features in both written and spoken
+monolingual domains. More recent work on code-switched communication has also
+shown preliminary evidence of entrainment on certain aspects of code-switching
+(CSW). However, such studies of entrainment in code-switched domains have been
+extremely few and restricted to human-machine textual interactions. Our work
+studies code-switched spontaneous speech between humans by answering the
+following questions: 1) Do patterns of written and spoken entrainment in
+monolingual settings generalize to code-switched settings? 2) Do patterns of
+entrainment on code-switching in generated text generalize to spontaneous
+code-switched speech? We find evidence of affirmative answers to both of these
+questions, with important implications for the potentially ""universal"" nature
+of entrainment as a communication phenomenon, and potential applications in
+inclusive and interactive speech technology.",2023-11-13
+"TencentLLMEval: A Hierarchical Evaluation of Real-World Capabilities for
+  Human-Aligned LLMs",2023-11-09 13:58:59+00:00,http://arxiv.org/abs/2311.05374v1,"Shuyi Xie, Wenlin Yao, Yong Dai, Shaobo Wang, Donlin Zhou, Lifeng Jin, Xinhua Feng, Pengzhi Wei, Yujie Lin, Zhichao Hu, Dong Yu, Zhengyou Zhang, Jing Nie, Yuhong Liu","cs.CL, cs.AI",dialogue,"Large language models (LLMs) have shown impressive capabilities across
+various natural language tasks. However, evaluating their alignment with human
+preferences remains a challenge. To this end, we propose a comprehensive human
+evaluation framework to assess LLMs' proficiency in following instructions on
+diverse real-world tasks. We construct a hierarchical task tree encompassing 7
+major areas covering over 200 categories and over 800 tasks, which covers
+diverse capabilities such as question answering, reasoning, multiturn dialogue,
+and text generation, to evaluate LLMs in a comprehensive and in-depth manner.
+We also design detailed evaluation standards and processes to facilitate
+consistent, unbiased judgments from human evaluators. A test set of over 3,000
+instances is released, spanning different difficulty levels and knowledge
+domains. Our work provides a standardized methodology to evaluate human
+alignment in LLMs for both English and Chinese. We also analyze the feasibility
+of automating parts of evaluation with a strong LLM (GPT-4). Our framework
+supports a thorough assessment of LLMs as they are integrated into real-world
+applications. We have made publicly available the task tree, TencentLLMEval
+dataset, and evaluation methodology which have been demonstrated as effective
+in assessing the performance of Tencent Hunyuan LLMs. By doing so, we aim to
+facilitate the benchmarking of advances in the development of safe and
+human-aligned LLMs.",2023-11-09
+"Multitask Multimodal Prompted Training for Interactive Embodied Task
+  Completion",2023-11-07 15:27:52+00:00,http://arxiv.org/abs/2311.04067v1,"Georgios Pantazopoulos, Malvina Nikandrou, Amit Parekh, Bhathiya Hemanthage, Arash Eshghi, Ioannis Konstas, Verena Rieser, Oliver Lemon, Alessandro Suglia","cs.LG, cs.AI, cs.CV",dialogue,"Interactive and embodied tasks pose at least two fundamental challenges to
+existing Vision & Language (VL) models, including 1) grounding language in
+trajectories of actions and observations, and 2) referential disambiguation. To
+tackle these challenges, we propose an Embodied MultiModal Agent (EMMA): a
+unified encoder-decoder model that reasons over images and trajectories, and
+casts action prediction as multimodal text generation. By unifying all tasks as
+text generation, EMMA learns a language of actions which facilitates transfer
+across tasks. Different to previous modular approaches with independently
+trained components, we use a single multitask model where each task contributes
+to goal completion. EMMA performs on par with similar models on several VL
+benchmarks and sets a new state-of-the-art performance (36.81% success rate) on
+the Dialog-guided Task Completion (DTC), a benchmark to evaluate dialog-guided
+agents in the Alexa Arena",2023-11-07
+"LitCab: Lightweight Calibration of Language Models on Outputs of Varied
+  Lengths",2023-10-30 00:30:34+00:00,http://arxiv.org/abs/2310.19208v1,"Xin Liu, Muhammad Khalifa, Lu Wang",cs.CL,dialogue,"A model is considered well-calibrated when its probability estimate aligns
+with the actual likelihood of the output being correct. Calibrating language
+models (LMs) is crucial, as it plays a vital role in detecting and mitigating
+hallucinations, a common issue of LMs, as well as building more trustworthy
+models. Yet, popular neural model calibration techniques are not well-suited
+for LMs due to their lack of flexibility in discerning answer correctness and
+their high computational costs. For instance, post-processing methods like
+temperature scaling are often unable to reorder the candidate generations.
+Moreover, training-based methods require finetuning the entire model, which is
+impractical due to the increasing sizes of modern LMs. In this paper, we
+present LitCab, a lightweight calibration mechanism consisting of a single
+linear layer taking the input text representation and manipulateing the LM
+output logits. LitCab improves model calibration by only adding < 2% of the
+original model parameters. For evaluation, we construct CaT, a benchmark
+consisting of 7 text generation tasks, covering responses ranging from short
+phrases to paragraphs. We test LitCab with Llama2-7B, where it improves
+calibration across all tasks, by reducing the average ECE score by 20%. We
+further conduct a comprehensive evaluation with 7 popular open-sourced LMs from
+GPT and LLaMA families, yielding the following key findings: (1) Larger models
+within the same family exhibit better calibration on tasks with short
+generation tasks, but not necessarily for longer ones. (2) GPT-family models
+show superior calibration compared to LLaMA, Llama2 and Vicuna models despite
+having much fewer parameters. (3) Finetuning pretrained model (e.g., LLaMA)
+with samples of limited purpose (e.g., conversations) may lead to worse
+calibration, highlighting the importance of finetuning setups for calibrating
+LMs.",2023-10-30
+"Sequence-Level Certainty Reduces Hallucination In Knowledge-Grounded
+  Dialogue Generation",2023-10-28 19:42:28+00:00,http://arxiv.org/abs/2310.18794v1,"Yixin Wan, Fanyou Wu, Weijie Xu, Srinivasan H. Sengamedu","cs.CL, cs.AI",dialogue,"Model hallucination has been a crucial interest of research in Natural
+Language Generation (NLG). In this work, we propose sequence-level certainty as
+a common theme over hallucination in NLG, and explore the correlation between
+sequence-level certainty and the level of hallucination in model responses. We
+categorize sequence-level certainty into two aspects: probabilistic certainty
+and semantic certainty, and reveal through experiments on Knowledge-Grounded
+Dialogue Generation (KGDG) task that both a higher level of probabilistic
+certainty and a higher level of semantic certainty in model responses are
+significantly correlated with a lower level of hallucination. What's more, we
+provide theoretical proof and analysis to show that semantic certainty is a
+good estimator of probabilistic certainty, and therefore has the potential as
+an alternative to probability-based certainty estimation in black-box
+scenarios. Based on the observation on the relationship between certainty and
+hallucination, we further propose Certainty-based Response Ranking (CRR), a
+decoding-time method for mitigating hallucination in NLG. Based on our
+categorization of sequence-level certainty, we propose 2 types of CRR approach:
+Probabilistic CRR (P-CRR) and Semantic CRR (S-CRR). P-CRR ranks individually
+sampled model responses using their arithmetic mean log-probability of the
+entire sequence. S-CRR approaches certainty estimation from meaning-space, and
+ranks a number of model response candidates based on their semantic certainty
+level, which is estimated by the entailment-based Agreement Score (AS). Through
+extensive experiments across 3 KGDG datasets, 3 decoding methods, and on 4
+different models, we validate the effectiveness of our 2 proposed CRR methods
+to reduce model hallucination.",2023-10-28
+"INA: An Integrative Approach for Enhancing Negotiation Strategies with
+  Reward-Based Dialogue System",2023-10-27 15:31:16+00:00,http://arxiv.org/abs/2310.18207v1,"Zishan Ahmad, Suman Saurabh, Vaishakh Sreekanth Menon, Asif Ekbal, Roshni Ramnani, Anutosh Maitra",cs.CL,dialogue,"In this paper, we propose a novel negotiation dialogue agent designed for the
+online marketplace. Our agent is integrative in nature i.e, it possesses the
+capability to negotiate on price as well as other factors, such as the addition
+or removal of items from a deal bundle, thereby offering a more flexible and
+comprehensive negotiation experience. We create a new dataset called
+Integrative Negotiation Dataset (IND) to enable this functionality. For this
+dataset creation, we introduce a new semi-automated data creation method, which
+combines defining negotiation intents, actions, and intent-action simulation
+between users and the agent to generate potential dialogue flows. Finally, the
+prompting of GPT-J, a state-of-the-art language model, is done to generate
+dialogues for a given intent, with a human-in-the-loop process for post-editing
+and refining minor errors to ensure high data quality. We employ a set of novel
+rewards, specifically tailored for the negotiation task to train our
+Negotiation Agent, termed as the Integrative Negotiation Agent (INA). These
+rewards incentivize the chatbot to learn effective negotiation strategies that
+can adapt to various contextual requirements and price proposals. By leveraging
+the IND, we train our model and conduct experiments to evaluate the
+effectiveness of our reward-based dialogue system for negotiation. Our results
+demonstrate that the proposed approach and reward system significantly enhance
+the agent's negotiation capabilities. The INA successfully engages in
+integrative negotiations, displaying the ability to dynamically adjust prices
+and negotiate the inclusion or exclusion of items in a bundle deal",2023-10-27
+"Chat GPT Integrated with Voice Assistant as Learning Oral Chat-based
+  Constructive Communication to Improve Communicative Competence for EFL
+  earners",2023-10-27 14:29:36+00:00,http://arxiv.org/abs/2311.00718v1,Wei Zhou,cs.HC,dialogue,"Chat GPT belongs to the category of Generative Pre-trained Transformer (GPT)
+language models, which have received specialized training to produce text based
+on natural language inputs. Its purpose is to imitate human-like conversation
+and can be implemented in multiple applications, such as chatbots, virtual
+assistants, and language translation systems, starting with an introduction to
+the new trends and differences between artificial intelligence, machine
+learning, and artificial neural networks, and highlighting the rigorous
+language logic and powerful text generation capabilities of Chat GPT. This
+paper delves into how advances in artificial intelligence will shape e-learning
+in the coming decades, particularly in terms of Chat- GPT's ability to improve
+learners' Communicative Competence when English is a second language. The
+combination of new trends in artificial intelligence, mainly in the particular
+case of English as a second language, and, at the academic level, chatbot
+technology, will be the next step in the replacement of the human academic
+community by virtual assistants, apparently until a certain point. Despite the
+controversy, this very innovative solution will be able to bridge the gap
+between technology and education. Moreover, such innovative practices
+facilitate communication by enabling its inclusion in various applications,
+including virtual assistants, chatbots, and language education. Keyword: Chat
+GPT, artificial intelligence, Communicative Competence, Communicative Language
+Teaching (CLT)",2023-10-27
+"""Honey, Tell Me What's Wrong"", Global Explanation of Textual
+  Discriminative Models through Cooperative Generation",2023-10-27 11:26:27+00:00,http://arxiv.org/abs/2310.18063v1,"Antoine Chaffin, Julien Delaunay","cs.CL, cs.LG, I.2.7",dialogue,"The ubiquity of complex machine learning has raised the importance of
+model-agnostic explanation algorithms. These methods create artificial
+instances by slightly perturbing real instances, capturing shifts in model
+decisions. However, such methods rely on initial data and only provide
+explanations of the decision for these. To tackle these problems, we propose
+Therapy, the first global and model-agnostic explanation method adapted to text
+which requires no input dataset. Therapy generates texts following the
+distribution learned by a classifier through cooperative generation. Because it
+does not rely on initial samples, it allows to generate explanations even when
+data is absent (e.g., for confidentiality reasons). Moreover, conversely to
+existing methods that combine multiple local explanations into a global one,
+Therapy offers a global overview of the model behavior on the input space. Our
+experiments show that although using no input data to generate samples, Therapy
+provides insightful information about features used by the classifier that is
+competitive with the ones from methods relying on input samples and outperforms
+them when input samples are not specific to the studied model.",2023-10-27
 "Fidelity-Enriched Contrastive Search: Reconciling the
   Faithfulness-Diversity Trade-Off in Text Generation",2023-10-23 14:27:45+00:00,http://arxiv.org/abs/2310.14981v1,"Wei-Lin Chen, Cheng-Kuang Wu, Hsin-Hsi Chen, Chung-Chi Chen",cs.CL,dialogue,"In this paper, we address the hallucination problem commonly found in natural
 language generation tasks. Language models often generate fluent and convincing

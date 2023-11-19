@@ -1,4 +1,125 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Think While You Write: Hypothesis Verification Promotes Faithful
+  Knowledge-to-Text Generation",2023-11-16 00:13:19+00:00,http://arxiv.org/abs/2311.09467v1,"Yifu Qiu, Varun Embar, Shay B. Cohen, Benjamin Han","cs.CL, cs.AI",image2text,"Neural knowledge-to-text generation models often struggle to faithfully
+generate descriptions for the input facts: they may produce hallucinations that
+contradict the given facts, or describe facts not present in the input. To
+reduce hallucinations, we propose a novel decoding method, TWEAK (Think While
+Effectively Articulating Knowledge). TWEAK treats the generated sequences at
+each decoding step and its future sequences as hypotheses, and ranks each
+generation candidate based on how well their corresponding hypotheses support
+the input facts using a Hypothesis Verification Model (HVM). We first
+demonstrate the effectiveness of TWEAK by using a Natural Language Inference
+(NLI) model as the HVM and report improved faithfulness with minimal impact on
+the quality. We then replace the NLI model with our task-specific HVM trained
+with a first-of-a-kind dataset, FATE (Fact-Aligned Textual Entailment), which
+pairs input facts with their faithful and hallucinated descriptions with the
+hallucinated spans marked. The new HVM improves the faithfulness and the
+quality further and runs faster. Overall the best TWEAK variants improve on
+average 2.22/7.17 points on faithfulness measured by FactKB over WebNLG and
+TekGen/GenWiki, respectively, with only 0.14/0.32 points degradation on quality
+measured by BERTScore over the same datasets. Since TWEAK is a decoding-only
+approach, it can be integrated with any neural generative model without
+retraining.",2023-11-16
+GRIM: GRaph-based Interactive narrative visualization for gaMes,2023-11-15 18:55:45+00:00,http://arxiv.org/abs/2311.09213v1,"Jorge Leandro, Sudha Rao, Michael Xu, Weijia Xu, Nebosja Jojic, Chris Brockett, Bill Dolan",cs.CL,image2text,"Dialogue-based Role Playing Games (RPGs) require powerful storytelling. The
+narratives of these may take years to write and typically involve a large
+creative team. In this work, we demonstrate the potential of large generative
+text models to assist this process. \textbf{GRIM}, a prototype
+\textbf{GR}aph-based \textbf{I}nteractive narrative visualization system for
+ga\textbf{M}es, generates a rich narrative graph with branching storylines that
+match a high-level narrative description and constraints provided by the
+designer. Game designers can interactively edit the graph by automatically
+generating new sub-graphs that fit the edits within the original narrative and
+constraints. We illustrate the use of \textbf{GRIM} in conjunction with GPT-4,
+generating branching narratives for four well-known stories with different
+contextual constraints.",2023-11-15
+"Zero-shot audio captioning with audio-language model guidance and audio
+  context keywords",2023-11-14 18:55:48+00:00,http://arxiv.org/abs/2311.08396v1,"Leonard Salewski, Stefan Fauth, A. Sophia Koepke, Zeynep Akata","eess.AS, cs.AI, cs.CL, cs.SD",image2text,"Zero-shot audio captioning aims at automatically generating descriptive
+textual captions for audio content without prior training for this task.
+Different from speech recognition which translates audio content that contains
+spoken language into text, audio captioning is commonly concerned with ambient
+sounds, or sounds produced by a human performing an action. Inspired by
+zero-shot image captioning methods, we propose ZerAuCap, a novel framework for
+summarising such general audio signals in a text caption without requiring
+task-specific training. In particular, our framework exploits a pre-trained
+large language model (LLM) for generating the text which is guided by a
+pre-trained audio-language model to produce captions that describe the audio
+content. Additionally, we use audio context keywords that prompt the language
+model to generate text that is broadly relevant to sounds. Our proposed
+framework achieves state-of-the-art results in zero-shot audio captioning on
+the AudioCaps and Clotho datasets. Our code is available at
+https://github.com/ExplainableML/ZerAuCap.",2023-11-14
+"Multitask Multimodal Prompted Training for Interactive Embodied Task
+  Completion",2023-11-07 15:27:52+00:00,http://arxiv.org/abs/2311.04067v1,"Georgios Pantazopoulos, Malvina Nikandrou, Amit Parekh, Bhathiya Hemanthage, Arash Eshghi, Ioannis Konstas, Verena Rieser, Oliver Lemon, Alessandro Suglia","cs.LG, cs.AI, cs.CV",image2text,"Interactive and embodied tasks pose at least two fundamental challenges to
+existing Vision & Language (VL) models, including 1) grounding language in
+trajectories of actions and observations, and 2) referential disambiguation. To
+tackle these challenges, we propose an Embodied MultiModal Agent (EMMA): a
+unified encoder-decoder model that reasons over images and trajectories, and
+casts action prediction as multimodal text generation. By unifying all tasks as
+text generation, EMMA learns a language of actions which facilitates transfer
+across tasks. Different to previous modular approaches with independently
+trained components, we use a single multitask model where each task contributes
+to goal completion. EMMA performs on par with similar models on several VL
+benchmarks and sets a new state-of-the-art performance (36.81% success rate) on
+the Dialog-guided Task Completion (DTC), a benchmark to evaluate dialog-guided
+agents in the Alexa Arena",2023-11-07
+Grounded Intuition of GPT-Vision's Abilities with Scientific Images,2023-11-03 17:53:43+00:00,http://arxiv.org/abs/2311.02069v1,"Alyssa Hwang, Andrew Head, Chris Callison-Burch",cs.CL,image2text,"GPT-Vision has impressed us on a range of vision-language tasks, but it comes
+with the familiar new challenge: we have little idea of its capabilities and
+limitations. In our study, we formalize a process that many have instinctively
+been trying already to develop ""grounded intuition"" of this new model. Inspired
+by the recent movement away from benchmarking in favor of example-driven
+qualitative evaluation, we draw upon grounded theory and thematic analysis in
+social science and human-computer interaction to establish a rigorous framework
+for qualitative evaluation in natural language processing. We use our technique
+to examine alt text generation for scientific figures, finding that GPT-Vision
+is particularly sensitive to prompting, counterfactual text in images, and
+relative spatial relationships. Our method and analysis aim to help researchers
+ramp up their own grounded intuitions of new models while exposing how
+GPT-Vision can be applied to make information more accessible.",2023-11-03
+"Multimodal Foundation Models for Zero-shot Animal Species Recognition in
+  Camera Trap Images",2023-11-02 08:32:00+00:00,http://arxiv.org/abs/2311.01064v1,"Zalan Fabian, Zhongqi Miao, Chunyuan Li, Yuanhan Zhang, Ziwei Liu, Andrés Hernández, Andrés Montes-Rojas, Rafael Escucha, Laura Siabatto, Andrés Link, Pablo Arbeláez, Rahul Dodhia, Juan Lavista Ferres","cs.CV, cs.LG",image2text,"Due to deteriorating environmental conditions and increasing human activity,
+conservation efforts directed towards wildlife is crucial. Motion-activated
+camera traps constitute an efficient tool for tracking and monitoring wildlife
+populations across the globe. Supervised learning techniques have been
+successfully deployed to analyze such imagery, however training such techniques
+requires annotations from experts. Reducing the reliance on costly labelled
+data therefore has immense potential in developing large-scale wildlife
+tracking solutions with markedly less human labor. In this work we propose
+WildMatch, a novel zero-shot species classification framework that leverages
+multimodal foundation models. In particular, we instruction tune
+vision-language models to generate detailed visual descriptions of camera trap
+images using similar terminology to experts. Then, we match the generated
+caption to an external knowledge base of descriptions in order to determine the
+species in a zero-shot manner. We investigate techniques to build instruction
+tuning datasets for detailed animal description generation and propose a novel
+knowledge augmentation technique to enhance caption quality. We demonstrate the
+performance of WildMatch on a new camera trap dataset collected in the
+Magdalena Medio region of Colombia.",2023-11-02
+"Sam-Guided Enhanced Fine-Grained Encoding with Mixed Semantic Learning
+  for Medical Image Captioning",2023-11-02 05:44:13+00:00,http://arxiv.org/abs/2311.01004v1,"Gaoang Wang, Zhenyu Zhang, Benlu Wang, Weijie Liang, Yizhi Li, Xuechen Guo, Guanhong Wang, Shiyan Li","cs.CV, cs.AI",image2text,"With the development of multimodality and large language models, the deep
+learning-based technique for medical image captioning holds the potential to
+offer valuable diagnostic recommendations. However, current generic text and
+image pre-trained models do not yield satisfactory results when it comes to
+describing intricate details within medical images. In this paper, we present a
+novel medical image captioning method guided by the segment anything model
+(SAM) to enable enhanced encoding with both general and detailed feature
+extraction. In addition, our approach employs a distinctive pre-training
+strategy with mixed semantic learning to simultaneously capture both the
+overall information and finer details within medical images. We demonstrate the
+effectiveness of this approach, as it outperforms the pre-trained BLIP2 model
+on various evaluation metrics for generating descriptions of medical images.",2023-11-02
+"Form follows Function: Text-to-Text Conditional Graph Generation based
+  on Functional Requirements",2023-11-01 11:12:02+00:00,http://arxiv.org/abs/2311.00444v1,"Peter A. Zachares, Vahan Hovhannisyan, Alan Mosca, Yarin Gal",cs.LG,image2text,"This work focuses on the novel problem setting of generating graphs
+conditioned on a description of the graph's functional requirements in a
+downstream task. We pose the problem as a text-to-text generation problem and
+focus on the approach of fine-tuning a pretrained large language model (LLM) to
+generate graphs. We propose an inductive bias which incorporates information
+about the structure of the graph into the LLM's generation process by
+incorporating message passing layers into an LLM's architecture. To evaluate
+our proposed method, we design a novel set of experiments using publicly
+available and widely studied molecule and knowledge graph data sets. Results
+suggest our proposed approach generates graphs which more closely meet the
+requested functional requirements, outperforming baselines developed on similar
+tasks by a statistically significant margin.",2023-11-01
 "Woodpecker: Hallucination Correction for Multimodal Large Language
   Models",2023-10-24 17:58:07+00:00,http://arxiv.org/abs/2310.16045v1,"Shukang Yin, Chaoyou Fu, Sirui Zhao, Tong Xu, Hao Wang, Dianbo Sui, Yunhang Shen, Ke Li, Xing Sun, Enhong Chen","cs.CV, cs.AI, cs.CL, cs.LG",image2text,"Hallucination is a big shadow hanging over the rapidly evolving Multimodal
 Large Language Models (MLLMs), referring to the phenomenon that the generated

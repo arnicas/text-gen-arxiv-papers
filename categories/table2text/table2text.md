@@ -7,10 +7,22 @@ sidebar:
 ---
 
 
-*written on 2023-10-27*
+*written on 2023-11-19*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Generative AI for Hate Speech Detection: Evaluation and Findings](http://arxiv.org/abs/2311.09993v1) | Sagi Pendzel, Tomer Wullach, Amir Adler, Einat Minkov | cs.CL, cs.AI | 2023-11-16 |
+| [The Curious Decline of Linguistic Diversity: Training Language Models on  Synthetic Text](http://arxiv.org/abs/2311.09807v1) | Yanzhu Guo, Guokan Shang, Michalis Vazirgiannis, Chloé Clavel | cs.CL | 2023-11-16 |
+| [Aligning Neural Machine Translation Models: Human Feedback in Training  and Inference](http://arxiv.org/abs/2311.09132v1) | Miguel Moura Ramos, Patrick Fernandes, António Farinhas, André F. T. Martins | cs.CL | 2023-11-15 |
+| [HELLaMA: LLaMA-based Table to Text Generation by Highlighting the  Important Evidence](http://arxiv.org/abs/2311.08896v1) | Junyi Bian, Xiaolei Qin, Wuhe Zou, Mengzuo Huang, Weidong Zhang | cs.CL | 2023-11-15 |
+| [MAP's not dead yet: Uncovering true language model modes by conditioning  away degeneracy](http://arxiv.org/abs/2311.08817v1) | Davis Yoshida, Kartik Goyal, Kevin Gimpel | cs.CL, cs.AI, cs.LG | 2023-11-15 |
+| [X-Eval: Generalizable Multi-aspect Text Evaluation via Augmented  Instruction Tuning with Auxiliary Evaluation Aspects](http://arxiv.org/abs/2311.08788v1) | Minqian Liu, Ying Shen, Zhiyang Xu, Yixin Cao, Eunah Cho, Vaibhav Kumar, Reza Ghanadan, Lifu Huang | cs.CL, cs.AI, cs.LG | 2023-11-15 |
+| [TSST: A Benchmark and Evaluation Models for Text Speech-Style Transfer](http://arxiv.org/abs/2311.08389v1) | Huashan Sun, Yixiao Wu, Yinghao Li, Jiawei Li, Yizhe Yang, Yang Gao | cs.CL, cs.AI, I.2.7 | 2023-11-14 |
+| [Artificial Text Boundary Detection with Topological Data Analysis and  Sliding Window Techniques](http://arxiv.org/abs/2311.08349v1) | Laida Kushnareva, Tatiana Gaintseva, German Magai, Serguei Barannikov, Dmitry Abulkhanov, Kristian Kuznetsov, Irina Piontkovskaya, Sergey Nikolenko | cs.CL | 2023-11-14 |
+| [Learning Globally Optimized Language Structure via Adversarial Training](http://arxiv.org/abs/2311.06771v1) | Xuwang Yin | cs.CL, cs.AI | 2023-11-12 |
+| [Synthetic Speaking Children -- Why We Need Them and How to Make Them](http://arxiv.org/abs/2311.06307v1) | Muhammad Ali Farooq, Dan Bigioi, Rishabh Jain, Wang Yao, Mariam Yiwere, Peter Corcoran | cs.HC, cs.AI, cs.SD, eess.AS | 2023-11-08 |
+| [Aspects of human memory and Large Language Models](http://arxiv.org/abs/2311.03839v2) | Romuald A. Janik | cs.CL, cs.AI, cs.LG, q-bio.NC | 2023-11-07 |
+| [A Simple yet Efficient Ensemble Approach for AI-generated Text Detection](http://arxiv.org/abs/2311.03084v2) | Harika Abburi, Kalyani Roy, Michael Suesserman, Nirmala Pudota, Balaji Veeramani, Edward Bowen, Sanmitra Bhattacharya | cs.CL, cs.AI | 2023-11-06 |
 | [An Ensemble Method Based on the Combination of Transformers with  Convolutional Neural Networks to Detect Artificially Generated Text](http://arxiv.org/abs/2310.17312v1) | Vijini Liyanage, Davide Buscaldi | cs.CL | 2023-10-26 |
 | [Automatic Logical Forms improve fidelity in Table-to-Text generation](http://arxiv.org/abs/2310.17279v1) | Iñigo Alonso, Eneko Agirre | cs.CL | 2023-10-26 |
 | [Beyond MLE: Convex Learning for Text Generation](http://arxiv.org/abs/2310.17217v1) | Chenze Shao, Zhengrui Ma, Min Zhang, Yang Feng | cs.CL, cs.AI, cs.LG | 2023-10-26 |

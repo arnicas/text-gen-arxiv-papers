@@ -6,10 +6,24 @@ sidebar:
 ---
 
 
-*written on 2023-10-27*
+*written on 2023-11-19*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [An Attention-Based Denoising Framework for Personality Detection in  Social Media Texts](http://arxiv.org/abs/2311.09945v1) | Qirui Tang, Wenkang Jiang, Yihua Du, Lei Lin | cs.CY, cs.CL | 2023-11-16 |
+| [X-Mark: Towards Lossless Watermarking Through Lexical Redundancy](http://arxiv.org/abs/2311.09832v1) | Liang Chen, Yatao Bian, Yang Deng, Shuaiyi Li, Bingzhe Wu, Peilin Zhao, Kam-fai Wong | cs.CL | 2023-11-16 |
+| [The Curious Decline of Linguistic Diversity: Training Language Models on  Synthetic Text](http://arxiv.org/abs/2311.09807v1) | Yanzhu Guo, Guokan Shang, Michalis Vazirgiannis, Chloé Clavel | cs.CL | 2023-11-16 |
+| [Improving the Generation Quality of Watermarked Large Language Models  via Word Importance Scoring](http://arxiv.org/abs/2311.09668v1) | Yuhang Li, Yihan Wang, Zhouxing Shi, Cho-Jui Hsieh | cs.CL, cs.CR, cs.LG | 2023-11-16 |
+| [Think While You Write: Hypothesis Verification Promotes Faithful  Knowledge-to-Text Generation](http://arxiv.org/abs/2311.09467v1) | Yifu Qiu, Varun Embar, Shay B. Cohen, Benjamin Han | cs.CL, cs.AI | 2023-11-16 |
+| [GRIM: GRaph-based Interactive narrative visualization for gaMes](http://arxiv.org/abs/2311.09213v1) | Jorge Leandro, Sudha Rao, Michael Xu, Weijia Xu, Nebosja Jojic, Chris Brockett, Bill Dolan | cs.CL | 2023-11-15 |
+| [REST: Retrieval-Based Speculative Decoding](http://arxiv.org/abs/2311.08252v1) | Zhenyu He, Zexuan Zhong, Tianle Cai, Jason D Lee, Di He | cs.CL, cs.AI, cs.IR, cs.LG | 2023-11-14 |
+| [RECALL: A Benchmark for LLMs Robustness against External Counterfactual  Knowledge](http://arxiv.org/abs/2311.08147v1) | Yi Liu, Lianzhe Huang, Shicheng Li, Sishuo Chen, Hao Zhou, Fandong Meng, Jie Zhou, Xu Sun | cs.CL, cs.AI | 2023-11-14 |
+| [Insights into Classifying and Mitigating LLMs' Hallucinations](http://arxiv.org/abs/2311.08117v1) | Alessandro Bruno, Pier Luigi Mazzeo, Aladine Chetouani, Marouane Tliba, Mohamed Amine Kerkouri | cs.CL | 2023-11-14 |
+| [LLatrieval: LLM-Verified Retrieval for Verifiable Generation](http://arxiv.org/abs/2311.07838v1) | Xiaonan Li, Changtai Zhu, Linyang Li, Zhangyue Yin, Tianxiang Sun, Xipeng Qiu | cs.CL, cs.AI, cs.IR | 2023-11-14 |
+| [AuthentiGPT: Detecting Machine-Generated Text via Black-Box Language  Models Denoising](http://arxiv.org/abs/2311.07700v1) | Zhen Guo, Shangdi Yu | cs.CL, cs.AI, cs.LG | 2023-11-13 |
+| [Controlled Text Generation for Black-box Language Models via Score-based  Progressive Editor](http://arxiv.org/abs/2311.07430v1) | Sangwon Yu, Changmin Lee, Hojin Lee, Sungroh Yoon | cs.CL | 2023-11-13 |
+| [TencentLLMEval: A Hierarchical Evaluation of Real-World Capabilities for  Human-Aligned LLMs](http://arxiv.org/abs/2311.05374v1) | Shuyi Xie, Wenlin Yao, Yong Dai, Shaobo Wang, Donlin Zhou, Lifeng Jin, Xinhua Feng, Pengzhi Wei, Yujie Lin, Zhichao Hu, Dong Yu, Zhengyou Zhang, Jing Nie, Yuhong Liu | cs.CL, cs.AI | 2023-11-09 |
+| [Aspects of human memory and Large Language Models](http://arxiv.org/abs/2311.03839v2) | Romuald A. Janik | cs.CL, cs.AI, cs.LG, q-bio.NC | 2023-11-07 |
 | [Automatic Logical Forms improve fidelity in Table-to-Text generation](http://arxiv.org/abs/2310.17279v1) | Iñigo Alonso, Eneko Agirre | cs.CL | 2023-10-26 |
 | [Knowledge Editing for Large Language Models: A Survey](http://arxiv.org/abs/2310.16218v2) | Song Wang, Yaochen Zhu, Haochen Liu, Zaiyi Zheng, Chen Chen, Jundong Li | cs.CL, cs.AI | 2023-10-24 |
 | [Woodpecker: Hallucination Correction for Multimodal Large Language  Models](http://arxiv.org/abs/2310.16045v1) | Shukang Yin, Chaoyou Fu, Sirui Zhao, Tong Xu, Hao Wang, Dianbo Sui, Yunhang Shen, Ke Li, Xing Sun, Enhong Chen | cs.CV, cs.AI, cs.CL, cs.LG | 2023-10-24 |

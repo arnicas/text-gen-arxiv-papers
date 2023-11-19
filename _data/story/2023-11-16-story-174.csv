@@ -1,4 +1,86 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Event Causality Is Key to Computational Story Understanding,2023-11-16 07:59:12+00:00,http://arxiv.org/abs/2311.09648v1,"Yidan Sun, Qin Chao, Boyang Li",cs.CL,story,"Psychological research suggests the central role of event causality in human
+story understanding. Further, event causality has been heavily utilized in
+symbolic story generation. However, few machine learning systems for story
+understanding employ event causality, partially due to the lack of reliable
+methods for identifying open-world causal event relations. Leveraging recent
+progress in large language models (LLMs), we present the first method for event
+causality identification that leads to material improvements in computational
+story understanding. We design specific prompts for extracting event causal
+relations from GPT. Against human-annotated event causal relations in the
+GLUCOSE dataset, our technique performs on par with supervised models, while
+being easily generalizable to stories of different types and lengths. The
+extracted causal relations lead to 5.7\% improvements on story quality
+evaluation and 8.7\% on story video-text alignment. Our findings indicate
+enormous untapped potential for event causality in computational story
+understanding.",2023-11-16
+GRIM: GRaph-based Interactive narrative visualization for gaMes,2023-11-15 18:55:45+00:00,http://arxiv.org/abs/2311.09213v1,"Jorge Leandro, Sudha Rao, Michael Xu, Weijia Xu, Nebosja Jojic, Chris Brockett, Bill Dolan",cs.CL,story,"Dialogue-based Role Playing Games (RPGs) require powerful storytelling. The
+narratives of these may take years to write and typically involve a large
+creative team. In this work, we demonstrate the potential of large generative
+text models to assist this process. \textbf{GRIM}, a prototype
+\textbf{GR}aph-based \textbf{I}nteractive narrative visualization system for
+ga\textbf{M}es, generates a rich narrative graph with branching storylines that
+match a high-level narrative description and constraints provided by the
+designer. Game designers can interactively edit the graph by automatically
+generating new sub-graphs that fit the edits within the original narrative and
+constraints. We illustrate the use of \textbf{GRIM} in conjunction with GPT-4,
+generating branching narratives for four well-known stories with different
+contextual constraints.",2023-11-15
+Improving Pacing in Long-Form Story Planning,2023-11-08 04:58:29+00:00,http://arxiv.org/abs/2311.04459v1,"Yichen Wang, Kevin Yang, Xiaoming Liu, Dan Klein","cs.CL, cs.AI",story,"Existing LLM-based systems for writing long-form stories or story outlines
+frequently suffer from unnatural pacing, whether glossing over important events
+or over-elaborating on insignificant details, resulting in a jarring experience
+for the reader. We propose a CONCrete Outline ConTrol (CONCOCT) system to
+improve pacing when automatically generating story outlines. We first train a
+concreteness evaluator to judge which of two events is more concrete
+(low-level-detailed). This evaluator can then be used to control pacing in
+hierarchical outline generation; in this work, we explore a vaguest-first
+expansion procedure that aims for uniform pacing. We further use the evaluator
+to filter new outline items based on predicted concreteness. Compared to a
+baseline hierarchical outline generator, humans judge CONCOCT's pacing to be
+more consistent over 57% of the time across multiple outline lengths; the gains
+also translate to downstream stories. All code, data, and models are
+open-sourced.",2023-11-08
+Aspects of human memory and Large Language Models,2023-11-07 09:39:12+00:00,http://arxiv.org/abs/2311.03839v2,Romuald A. Janik,"cs.CL, cs.AI, cs.LG, q-bio.NC",story,"Large Language Models (LLMs) are huge artificial neural networks which
+primarily serve to generate text, but also provide a very sophisticated
+probabilistic model of language use. Since generating a semantically consistent
+text requires a form of effective memory, we investigate the memory properties
+of LLMs and find surprising similarities with key characteristics of human
+memory. We argue that the human-like memory properties of the Large Language
+Model do not follow automatically from the LLM architecture but are rather
+learned from the statistics of the training textual data. These results
+strongly suggest that the biological features of human memory leave an imprint
+on the way that we structure our textual narratives.",2023-11-07
+On the Automatic Generation and Simplification of Children's Stories,2023-10-27 21:31:34+00:00,http://arxiv.org/abs/2310.18502v1,"Maria Valentini, Jennifer Weber, Jesus Salcido, Téa Wright, Eliana Colunga, Katharina Kann",cs.CL,story,"With recent advances in large language models (LLMs), the concept of
+automatically generating children's educational materials has become
+increasingly realistic. Working toward the goal of age-appropriate simplicity
+in generated educational texts, we first examine the ability of several popular
+LLMs to generate stories with properly adjusted lexical and readability levels.
+We find that, in spite of the growing capabilities of LLMs, they do not yet
+possess the ability to limit their vocabulary to levels appropriate for younger
+age groups. As a second experiment, we explore the ability of state-of-the-art
+lexical simplification models to generalize to the domain of children's stories
+and, thus, create an efficient pipeline for their automatic generation. In
+order to test these models, we develop a dataset of child-directed lexical
+simplification instances, with examples taken from the LLM-generated stories in
+our first experiment. We find that, while the strongest-performing current
+lexical simplification models do not perform as well on material designed for
+children due to their reliance on large language models behind the scenes, some
+models that still achieve fairly strong results on general data can mimic or
+even improve their performance on children-directed data with proper
+fine-tuning, which we conduct using our newly created child-directed
+simplification dataset.",2023-10-27
+GROOViST: A Metric for Grounding Objects in Visual Storytelling,2023-10-26 20:27:16+00:00,http://arxiv.org/abs/2310.17770v1,"Aditya K Surikuchi, Sandro Pezzelle, Raquel Fernández","cs.AI, cs.CL, cs.CV, cs.LG",story,"A proper evaluation of stories generated for a sequence of images -- the task
+commonly referred to as visual storytelling -- must consider multiple aspects,
+such as coherence, grammatical correctness, and visual grounding. In this work,
+we focus on evaluating the degree of grounding, that is, the extent to which a
+story is about the entities shown in the images. We analyze current metrics,
+both designed for this purpose and for general vision-text alignment. Given
+their observed shortcomings, we propose a novel evaluation tool, GROOViST, that
+accounts for cross-modal dependencies, temporal misalignments (the fact that
+the order in which entities appear in the story and the image sequence may not
+match), and human intuitions on visual grounding. An additional advantage of
+GROOViST is its modular design, where the contribution of each component can be
+assessed and interpreted individually.",2023-10-26
 "Branch-Solve-Merge Improves Large Language Model Evaluation and
   Generation",2023-10-23 17:29:48+00:00,http://arxiv.org/abs/2310.15123v1,"Swarnadeep Saha, Omer Levy, Asli Celikyilmaz, Mohit Bansal, Jason Weston, Xian Li","cs.CL, cs.AI, cs.LG",story,"Large Language Models (LLMs) are frequently used for multi-faceted language
 generation and evaluation tasks that involve satisfying intricate user

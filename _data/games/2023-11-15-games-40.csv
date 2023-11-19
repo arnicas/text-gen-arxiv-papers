@@ -1,4 +1,16 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+GRIM: GRaph-based Interactive narrative visualization for gaMes,2023-11-15 18:55:45+00:00,http://arxiv.org/abs/2311.09213v1,"Jorge Leandro, Sudha Rao, Michael Xu, Weijia Xu, Nebosja Jojic, Chris Brockett, Bill Dolan",cs.CL,games,"Dialogue-based Role Playing Games (RPGs) require powerful storytelling. The
+narratives of these may take years to write and typically involve a large
+creative team. In this work, we demonstrate the potential of large generative
+text models to assist this process. \textbf{GRIM}, a prototype
+\textbf{GR}aph-based \textbf{I}nteractive narrative visualization system for
+ga\textbf{M}es, generates a rich narrative graph with branching storylines that
+match a high-level narrative description and constraints provided by the
+designer. Game designers can interactively edit the graph by automatically
+generating new sub-graphs that fit the edits within the original narrative and
+constraints. We illustrate the use of \textbf{GRIM} in conjunction with GPT-4,
+generating branching narratives for four well-known stories with different
+contextual constraints.",2023-11-15
 The Consensus Game: Language Model Generation via Equilibrium Search,2023-10-13 14:27:21+00:00,http://arxiv.org/abs/2310.09139v1,"Athul Paul Jacob, Yikang Shen, Gabriele Farina, Jacob Andreas","cs.GT, cs.AI, cs.CL, cs.LG",games,"When applied to question answering and other text generation tasks, language
 models (LMs) may be queried generatively (by sampling answers from their output
 distribution) or discriminatively (by using them to score or rank a set of

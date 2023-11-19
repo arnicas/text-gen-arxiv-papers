@@ -7,10 +7,16 @@ sidebar:
 ---
 
 
-*written on 2023-10-27*
+*written on 2023-11-19*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Event Causality Is Key to Computational Story Understanding](http://arxiv.org/abs/2311.09648v1) | Yidan Sun, Qin Chao, Boyang Li | cs.CL | 2023-11-16 |
+| [GRIM: GRaph-based Interactive narrative visualization for gaMes](http://arxiv.org/abs/2311.09213v1) | Jorge Leandro, Sudha Rao, Michael Xu, Weijia Xu, Nebosja Jojic, Chris Brockett, Bill Dolan | cs.CL | 2023-11-15 |
+| [Improving Pacing in Long-Form Story Planning](http://arxiv.org/abs/2311.04459v1) | Yichen Wang, Kevin Yang, Xiaoming Liu, Dan Klein | cs.CL, cs.AI | 2023-11-08 |
+| [Aspects of human memory and Large Language Models](http://arxiv.org/abs/2311.03839v2) | Romuald A. Janik | cs.CL, cs.AI, cs.LG, q-bio.NC | 2023-11-07 |
+| [On the Automatic Generation and Simplification of Children's Stories](http://arxiv.org/abs/2310.18502v1) | Maria Valentini, Jennifer Weber, Jesus Salcido, Téa Wright, Eliana Colunga, Katharina Kann | cs.CL | 2023-10-27 |
+| [GROOViST: A Metric for Grounding Objects in Visual Storytelling](http://arxiv.org/abs/2310.17770v1) | Aditya K Surikuchi, Sandro Pezzelle, Raquel Fernández | cs.AI, cs.CL, cs.CV, cs.LG | 2023-10-26 |
 | [Branch-Solve-Merge Improves Large Language Model Evaluation and  Generation](http://arxiv.org/abs/2310.15123v1) | Swarnadeep Saha, Omer Levy, Asli Celikyilmaz, Mohit Bansal, Jason Weston, Xian Li | cs.CL, cs.AI, cs.LG | 2023-10-23 |
 | [Affective and Dynamic Beam Search for Story Generation](http://arxiv.org/abs/2310.15079v1) | Tenghao Huang, Ehsan Qasemi, Bangzheng Li, He Wang, Faeze Brahman, Muhao Chen, Snigdha Chaturvedi | cs.CL | 2023-10-23 |
 | [Experimental Narratives: A Comparison of Human Crowdsourced Storytelling  and AI Storytelling](http://arxiv.org/abs/2310.12902v1) | Nina Begus | cs.CL, cs.AI | 2023-10-19 |
