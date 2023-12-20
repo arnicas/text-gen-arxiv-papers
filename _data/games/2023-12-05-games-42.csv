@@ -1,4 +1,48 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Prompt Optimization via Adversarial In-Context Learning,2023-12-05 09:44:45+00:00,http://arxiv.org/abs/2312.02614v1,"Xuan Long Do, Yiran Zhao, Hannah Brown, Yuxi Xie, James Xu Zhao, Nancy F. Chen, Kenji Kawaguchi, Michael Qizhe Xie, Junxian He","cs.LG, cs.CL",games,"We propose a new method, Adversarial In-Context Learning (adv-ICL), to
+optimize prompt for in-context learning (ICL) by employing one LLM as a
+generator, another as a discriminator, and a third as a prompt modifier. As in
+traditional adversarial learning, adv-ICL is implemented as a two-player game
+between the generator and discriminator, where the generator tries to generate
+realistic enough output to fool the discriminator. In each round, given an
+input prefixed by task instructions and several exemplars, the generator
+produces an output. The discriminator is then tasked with classifying the
+generator input-output pair as model-generated or real data. Based on the
+discriminator loss, the prompt modifier proposes possible edits to the
+generator and discriminator prompts, and the edits that most improve the
+adversarial loss are selected. We show that adv-ICL results in significant
+improvements over state-of-the-art prompt optimization techniques for both open
+and closed-source models on 11 generation and classification tasks including
+summarization, arithmetic reasoning, machine translation, data-to-text
+generation, and the MMLU and big-bench hard benchmarks. In addition, because
+our method uses pre-trained models and updates only prompts rather than model
+parameters, it is computationally efficient, easy to extend to any LLM and
+task, and effective in low-resource settings.",2023-12-05
+"LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language
+  Models",2023-11-30 03:59:31+00:00,http://arxiv.org/abs/2311.18232v1,"Marwa Abdulhai, Isadora White, Charlie Snell, Charles Sun, Joey Hong, Yuexiang Zhai, Kelvin Xu, Sergey Levine","cs.CL, cs.AI, cs.LG",games,"Large language models (LLMs) provide excellent text-generation capabilities,
+but standard prompting and generation methods generally do not lead to
+intentional or goal-directed agents and might necessitate considerable prompt
+tuning. This becomes particularly apparent in multi-turn conversations: even
+the best current LLMs rarely ask clarifying questions, engage in explicit
+information gathering, or take actions now that lead to better decisions after
+multiple turns. Reinforcement learning has the potential to leverage the
+powerful modeling capabilities of LLMs, as well as their internal
+representation of textual interactions, to create capable goal-directed
+language agents. This can enable intentional and temporally extended
+interactions, such as with humans, through coordinated persuasion and carefully
+crafted questions, or in goal-directed play through text games to bring about
+desired final outcomes. However, enabling this requires the community to
+develop stable and reliable reinforcement learning algorithms that can
+effectively train LLMs. Developing such algorithms requires tasks that can
+gauge progress on algorithm design, provide accessible and reproducible
+evaluations for multi-turn interactions, and cover a range of task properties
+and challenges in improving reinforcement learning algorithms. Our paper
+introduces the LMRL-Gym benchmark for evaluating multi-turn RL for LLMs,
+together with an open-source research framework containing a basic toolkit for
+getting started on multi-turn RL with offline value-based and policy-based RL
+methods. Our benchmark consists of 8 different language tasks, which require
+multiple rounds of language interaction and cover a range of tasks in
+open-ended dialogue and text games.",2023-11-30
 GRIM: GRaph-based Interactive narrative visualization for gaMes,2023-11-15 18:55:45+00:00,http://arxiv.org/abs/2311.09213v1,"Jorge Leandro, Sudha Rao, Michael Xu, Weijia Xu, Nebosja Jojic, Chris Brockett, Bill Dolan",cs.CL,games,"Dialogue-based Role Playing Games (RPGs) require powerful storytelling. The
 narratives of these may take years to write and typically involve a large
 creative team. In this work, we demonstrate the potential of large generative

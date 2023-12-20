@@ -1,4 +1,174 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"External Knowledge Augmented Polyphone Disambiguation Using Large
+  Language Model",2023-12-19 08:00:10+00:00,http://arxiv.org/abs/2312.11920v1,Chen Li,cs.CL,dialogue,"One of the key issues in Mandarin Chinese text-to-speech (TTS) systems is
+polyphone disambiguation when doing grapheme-to-phoneme (G2P) conversion. In
+this paper, we introduce a novel method to solve the problem as a generation
+task. Following the trending research of large language models (LLM) and prompt
+learning, the proposed method consists of three modules. Retrieval module
+incorporates external knowledge which is a multi-level semantic dictionary of
+Chinese polyphonic characters to format the sentence into a prompt. Generation
+module adopts the decoder-only Transformer architecture to induce the target
+text. Postprocess module corrects the generated text into a valid result if
+needed. Experimental results show that our method outperforms the existing
+methods on a public dataset called CPP. We also empirically study the impacts
+of different templates of the prompt, different sizes of training data, and
+whether to incorporate external knowledge.",2023-12-19
+A Survey of Text Watermarking in the Era of Large Language Models,2023-12-13 06:11:42+00:00,http://arxiv.org/abs/2312.07913v2,"Aiwei Liu, Leyi Pan, Yijian Lu, Jingjing Li, Xuming Hu, Lijie Wen, Irwin King, Philip S. Yu","cs.CL, 68T50, I.2.7",dialogue,"In recent years, significant advancements have been made in the text
+generation capabilities of Large Language Models (LLMs), demonstrating
+exceptional performance in downstream tasks such as abstract summarization,
+dialogue generation, and data-to-text conversion. However, their generative
+abilities also pose risks such as the rapid spread of fake news, infringement
+of datasets/LLM copyrights, and challenges to academic integrity. Text
+watermarking technology emerges as a potential solution. By embedding invisible
+yet detectable patterns in generated texts, it helps in tracking and verifying
+text origins, thus preventing misuse and piracy.
+  This survey aims to comprehensively summarize current text watermarking
+technologies, covering three main aspects: (1) an overview and comparison of
+different text watermarking techniques; (2) evaluation methods for text
+watermarking algorithms, including their success rate, impact on text quality,
+robustness, and unforgeability; (3) potential applications of text watermarking
+technologies. This survey aims to help researchers thoroughly understanding the
+text watermarking technologies, thereby fostering further development.",2023-12-13
+"NLEBench+NorGLM: A Comprehensive Empirical Analysis and Benchmark
+  Dataset for Generative Language Models in Norwegian",2023-12-03 08:09:45+00:00,http://arxiv.org/abs/2312.01314v1,"Peng Liu, Lemei Zhang, Terje Nissen Farup, Even W. Lauvrak, Jon Espen Ingvaldsen, Simen Eide, Jon Atle Gulla, Zhirong Yang",cs.CL,dialogue,"Recent advancements in Generative Language Models (GLMs) have transformed
+Natural Language Processing (NLP) by showcasing the effectiveness of the
+""pre-train, prompt, and predict"" paradigm in utilizing pre-trained GLM
+knowledge for diverse applications. Despite their potential, these capabilities
+lack adequate quantitative characterization due to the absence of comprehensive
+benchmarks, particularly for low-resource languages. Existing low-resource
+benchmarks focus on discriminative language models like BERT, neglecting the
+evaluation of generative language models. Moreover, current benchmarks often
+overlook measuring generalization performance across multiple tasks, a crucial
+metric for GLMs.
+  To bridge these gaps, we introduce NLEBench, a comprehensive benchmark
+tailored for evaluating natural language generation capabilities in Norwegian,
+a low-resource language. We use Norwegian as a case study to explore whether
+current GLMs and benchmarks in mainstream languages like English can reveal the
+unique characteristics of underrepresented languages. NLEBench encompasses a
+suite of real-world NLP tasks ranging from news storytelling, summarization,
+open-domain conversation, natural language understanding, instruction
+fine-tuning, toxicity and bias evaluation, to self-curated Chain-of-Thought
+investigation. It features two high-quality, human-annotated datasets: an
+instruction dataset covering traditional Norwegian cultures, idioms, slang, and
+special expressions, and a document-grounded multi-label dataset for topic
+classification, question answering, and summarization. This paper also
+introduces foundational Norwegian Generative Language Models (NorGLMs)
+developed with diverse parameter scales and Transformer-based architectures.
+Systematic evaluations on the proposed benchmark suite provide insights into
+the capabilities and scalability of NorGLMs across various downstream tasks.",2023-12-03
+"CritiqueLLM: Scaling LLM-as-Critic for Effective and Explainable
+  Evaluation of Large Language Model Generation",2023-11-30 16:52:42+00:00,http://arxiv.org/abs/2311.18702v1,"Pei Ke, Bosi Wen, Zhuoer Feng, Xiao Liu, Xuanyu Lei, Jiale Cheng, Shengyuan Wang, Aohan Zeng, Yuxiao Dong, Hongning Wang, Jie Tang, Minlie Huang","cs.CL, cs.AI",dialogue,"Since the natural language processing (NLP) community started to make large
+language models (LLMs), such as GPT-4, act as a critic to evaluate the quality
+of generated texts, most of them only train a critique generation model of a
+specific scale on specific datasets. We argue that a comprehensive
+investigation on the key factor of LLM-based evaluation models, such as scaling
+properties, is lacking, so that it is still inconclusive whether these models
+have potential to replace GPT-4's evaluation in practical scenarios. In this
+paper, we propose a new critique generation model called CritiqueLLM, which
+includes a dialogue-based prompting method for high-quality referenced /
+reference-free evaluation data. Experimental results show that our model can
+achieve comparable evaluation performance to GPT-4 especially in system-level
+correlations, and even outperform GPT-4 in 3 out of 8 tasks in a challenging
+reference-free setting. We conduct detailed analysis to show promising scaling
+properties of our model in the quality of generated critiques. We also
+demonstrate that our generated critiques can act as scalable feedback to
+directly improve the generation quality of LLMs.",2023-11-30
+"LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language
+  Models",2023-11-30 03:59:31+00:00,http://arxiv.org/abs/2311.18232v1,"Marwa Abdulhai, Isadora White, Charlie Snell, Charles Sun, Joey Hong, Yuexiang Zhai, Kelvin Xu, Sergey Levine","cs.CL, cs.AI, cs.LG",dialogue,"Large language models (LLMs) provide excellent text-generation capabilities,
+but standard prompting and generation methods generally do not lead to
+intentional or goal-directed agents and might necessitate considerable prompt
+tuning. This becomes particularly apparent in multi-turn conversations: even
+the best current LLMs rarely ask clarifying questions, engage in explicit
+information gathering, or take actions now that lead to better decisions after
+multiple turns. Reinforcement learning has the potential to leverage the
+powerful modeling capabilities of LLMs, as well as their internal
+representation of textual interactions, to create capable goal-directed
+language agents. This can enable intentional and temporally extended
+interactions, such as with humans, through coordinated persuasion and carefully
+crafted questions, or in goal-directed play through text games to bring about
+desired final outcomes. However, enabling this requires the community to
+develop stable and reliable reinforcement learning algorithms that can
+effectively train LLMs. Developing such algorithms requires tasks that can
+gauge progress on algorithm design, provide accessible and reproducible
+evaluations for multi-turn interactions, and cover a range of task properties
+and challenges in improving reinforcement learning algorithms. Our paper
+introduces the LMRL-Gym benchmark for evaluating multi-turn RL for LLMs,
+together with an open-source research framework containing a basic toolkit for
+getting started on multi-turn RL with offline value-based and policy-based RL
+methods. Our benchmark consists of 8 different language tasks, which require
+multiple rounds of language interaction and cover a range of tasks in
+open-ended dialogue and text games.",2023-11-30
+"CMed-GPT: Prompt Tuning for Entity-Aware Chinese Medical Dialogue
+  Generation",2023-11-24 15:10:56+00:00,http://arxiv.org/abs/2311.14539v1,"Zhijie Qu, Juan Li, Zerui Ma, Jianqiang Li","cs.CL, cs.AI",dialogue,"Medical dialogue generation relies on natural language generation techniques
+to enable online medical consultations. Recently, the widespread adoption of
+large-scale models in the field of natural language processing has facilitated
+rapid advancements in this technology. Existing medical dialogue models are
+mostly based on BERT and pre-trained on English corpora, but there is a lack of
+high-performing models on the task of Chinese medical dialogue generation. To
+solve the above problem, this paper proposes CMed-GPT, which is the GPT
+pre-training language model based on Chinese medical domain text. The model is
+available in two versions, namely, base and large, with corresponding
+perplexity values of 8.64 and 8.01. Additionally, we incorporate lexical and
+entity embeddings into the dialogue text in a uniform manner to meet the
+requirements of downstream dialogue generation tasks. By applying both
+fine-tuning and p-tuning to CMed-GPT, we lowered the PPL from 8.44 to 7.35.
+This study not only confirms the exceptional performance of the CMed-GPT model
+in generating Chinese biomedical text but also highlights the advantages of
+p-tuning over traditional fine-tuning with prefix prompts. Furthermore, we
+validate the significance of incorporating external information in medical
+dialogue generation, which enhances the quality of dialogue generation.",2023-11-24
+"Evaluation Metrics of Language Generation Models for Synthetic Traffic
+  Generation Tasks",2023-11-21 11:26:26+00:00,http://arxiv.org/abs/2311.12534v1,"Simone Filice, Jason Ingyu Choi, Giuseppe Castellucci, Eugene Agichtein, Oleg Rokhlenko",cs.CL,dialogue,"Many Natural Language Generation (NLG) tasks aim to generate a single output
+text given an input prompt. Other settings require the generation of multiple
+texts, e.g., for Synthetic Traffic Generation (STG). This generation task is
+crucial for training and evaluating QA systems as well as conversational
+agents, where the goal is to generate multiple questions or utterances
+resembling the linguistic variability of real users. In this paper, we show
+that common NLG metrics, like BLEU, are not suitable for evaluating STG. We
+propose and evaluate several metrics designed to compare the generated traffic
+to the distribution of real user texts. We validate our metrics with an
+automatic procedure to verify whether they capture different types of quality
+issues of generated data; we also run human annotations to verify the
+correlation with human judgements. Experiments on three tasks, i.e., Shopping
+Utterance Generation, Product Question Generation and Query Auto Completion,
+demonstrate that our metrics are effective for evaluating STG tasks, and
+improve the agreement with human judgement up to 20% with respect to common NLG
+metrics. We believe these findings can pave the way towards better solutions
+for estimating the representativeness of synthetic text data.",2023-11-21
+"LLMs as Visual Explainers: Advancing Image Classification with Evolving
+  Visual Descriptions",2023-11-20 16:37:45+00:00,http://arxiv.org/abs/2311.11904v1,"Songhao Han, Le Zhuo, Yue Liao, Si Liu","cs.CV, cs.CL, cs.LG",dialogue,"Vision-language models (VLMs) offer a promising paradigm for image
+classification by comparing the similarity between images and class embeddings.
+A critical challenge lies in crafting precise textual representations for class
+names. While previous studies have leveraged recent advancements in large
+language models (LLMs) to enhance these descriptors, their outputs often suffer
+from ambiguity and inaccuracy. We identify two primary causes: 1) The prevalent
+reliance on textual interactions with LLMs, leading to a mismatch between the
+generated text and the visual content in VLMs' latent space - a phenomenon we
+term the ""explain without seeing"" dilemma. 2) The oversight of the inter-class
+relationships, resulting in descriptors that fail to differentiate similar
+classes effectively. To address these issues, we propose a novel image
+classification framework combining VLMs with LLMs, named Iterative Optimization
+with Visual Feedback. In particular, our method develops an LLM-based agent,
+employing an evolutionary optimization strategy to refine class descriptors.
+Crucially, we incorporate visual feedback from VLM classification metrics,
+thereby guiding the optimization process with concrete visual data. Our method
+leads to improving accuracy on a wide range of image classification benchmarks,
+with 3.47\% average gains over state-of-the-art methods. We also highlight the
+resulting descriptions serve as explainable and robust features that can
+consistently improve the performance across various backbone models.",2023-11-20
+Can Language Model Moderators Improve the Health of Online Discourse?,2023-11-16 11:14:22+00:00,http://arxiv.org/abs/2311.10781v1,"Hyundong Cho, Shuai Liu, Taiwei Shi, Darpan Jain, Basem Rizk, Yuyang Huang, Zixun Lu, Nuan Wen, Jonathan Gratch, Emilio Ferrara, Jonathan May","cs.CL, cs.AI",dialogue,"Human moderation of online conversation is essential to maintaining civility
+and focus in a dialogue, but is challenging to scale and harmful to moderators.
+The inclusion of sophisticated natural language generation modules as a force
+multiplier aid moderators is a tantalizing prospect, but adequate evaluation
+approaches have so far been elusive. In this paper, we establish a systematic
+definition of conversational moderation effectiveness through a
+multidisciplinary lens that incorporates insights from social science. We then
+propose a comprehensive evaluation framework that uses this definition to asses
+models' moderation capabilities independently of human intervention. With our
+framework, we conduct the first known study of conversational dialogue models
+as moderators, finding that appropriately prompted models can provide specific
+and fair feedback on toxic behavior but struggle to influence users to increase
+their levels of respect and cooperation.",2023-11-16
 GRIM: GRaph-based Interactive narrative visualization for gaMes,2023-11-15 18:55:45+00:00,http://arxiv.org/abs/2311.09213v1,"Jorge Leandro, Sudha Rao, Michael Xu, Weijia Xu, Nebosja Jojic, Chris Brockett, Bill Dolan",cs.CL,dialogue,"Dialogue-based Role Playing Games (RPGs) require powerful storytelling. The
 narratives of these may take years to write and typically involve a large
 creative team. In this work, we demonstrate the potential of large generative

@@ -1,4 +1,138 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Continuous Diffusion for Mixed-Type Tabular Data,2023-12-16 12:21:03+00:00,http://arxiv.org/abs/2312.10431v1,"Markus Mueller, Kathrin Gruber, Dennis Fok","cs.LG, stat.ML",image2text,"Score-based generative models (or diffusion models for short) have proven
+successful across many domains in generating text and image data. However, the
+consideration of mixed-type tabular data with this model family has fallen
+short so far. Existing research mainly combines different diffusion processes
+without explicitly accounting for the feature heterogeneity inherent to tabular
+data. In this paper, we combine score matching and score interpolation to
+ensure a common type of continuous noise distribution that affects both
+continuous and categorical features alike. Further, we investigate the impact
+of distinct noise schedules per feature or per data type. We allow for
+adaptive, learnable noise schedules to ensure optimally allocated model
+capacity and balanced generative capability. Results show that our model
+consistently outperforms state-of-the-art benchmark models and that accounting
+for heterogeneity within the noise schedule design boosts the sample quality.",2023-12-16
+"Do LVLMs Understand Charts? Analyzing and Correcting Factual Errors in
+  Chart Captioning",2023-12-15 19:16:21+00:00,http://arxiv.org/abs/2312.10160v1,"Kung-Hsiang Huang, Mingyang Zhou, Hou Pong Chan, Yi R. Fung, Zhenhailong Wang, Lingyu Zhang, Shih-Fu Chang, Heng Ji",cs.CL,image2text,"Recent advancements in large vision-language models (LVLMs) have led to
+significant progress in generating natural language descriptions for visual
+content and thus enhancing various applications. One issue with these powerful
+models is that they sometimes produce texts that are factually inconsistent
+with the visual input. While there has been some effort to mitigate such
+inconsistencies in natural image captioning, the factuality of generated
+captions for structured document images, such as charts, has not received as
+much scrutiny, posing a potential threat to information reliability in critical
+applications. This work delves into the factuality aspect by introducing a
+comprehensive typology of factual errors in generated chart captions. A
+large-scale human annotation effort provides insight into the error patterns
+and frequencies in captions crafted by various chart captioning models,
+ultimately forming the foundation of a novel dataset, CHOCOLATE. Our analysis
+reveals that even state-of-the-art models, including GPT-4V, frequently produce
+captions laced with factual inaccuracies. In response to this challenge, we
+establish the new task of Chart Caption Factual Error Correction and introduce
+CHARTVE, a model for visual entailment that outperforms proprietary and
+open-source LVLMs in evaluating factual consistency. Furthermore, we propose
+C2TFEC, an interpretable two-stage framework that excels at correcting factual
+errors. This work inaugurates a new domain in factual error correction for
+chart captions, presenting a novel evaluation mechanism, and demonstrating an
+effective approach to ensuring the factuality of generated chart captions.",2023-12-15
+Fast Sampling via De-randomization for Discrete Diffusion Models,2023-12-14 18:14:11+00:00,http://arxiv.org/abs/2312.09193v1,"Zixiang Chen, Huizhuo Yuan, Yongqian Li, Yiwen Kou, Junkai Zhang, Quanquan Gu","cs.LG, cs.AI, stat.ML",image2text,"Diffusion models have emerged as powerful tools for high-quality data
+generation, such as image generation. Despite its success in continuous spaces,
+discrete diffusion models, which apply to domains such as texts and natural
+languages, remain under-studied and often suffer from slow generation speed. In
+this paper, we propose a novel de-randomized diffusion process, which leads to
+an accelerated algorithm for discrete diffusion models. Our technique
+significantly reduces the number of function evaluations (i.e., calls to the
+neural network), making the sampling process much faster. Furthermore, we
+introduce a continuous-time (i.e., infinite-step) sampling algorithm that can
+provide even better sample qualities than its discrete-time (finite-step)
+counterpart. Extensive experiments on natural language generation and machine
+translation tasks demonstrate the superior performance of our method in terms
+of both generation speed and sample quality over existing methods for discrete
+diffusion models.",2023-12-14
+ToViLaG: Your Visual-Language Generative Model is Also An Evildoer,2023-12-13 08:25:07+00:00,http://arxiv.org/abs/2312.11523v1,"Xinpeng Wang, Xiaoyuan Yi, Han Jiang, Shanlin Zhou, Zhihua Wei, Xing Xie","cs.CL, cs.AI",image2text,"Warning: this paper includes model outputs showing offensive content. Recent
+large-scale Visual-Language Generative Models (VLGMs) have achieved
+unprecedented improvement in multimodal image/text generation. However, these
+models might also generate toxic content, e.g., offensive text and pornography
+images, raising significant ethical risks. Despite exhaustive studies on toxic
+degeneration of language models, this problem remains largely unexplored within
+the context of visual-language generation. This work delves into the propensity
+for toxicity generation and susceptibility to toxic data across various VLGMs.
+For this purpose, we built ToViLaG, a dataset comprising 32K
+co-toxic/mono-toxic text-image pairs and 1K innocuous but evocative text that
+tends to stimulate toxicity. Furthermore, we propose WInToRe, a novel toxicity
+metric tailored to visual-language generation, which theoretically reflects
+different aspects of toxicity considering both input and output. On such a
+basis, we benchmarked the toxicity of a diverse spectrum of VLGMs and
+discovered that some models do more evil than expected while some are more
+vulnerable to infection, underscoring the necessity of VLGMs detoxification.
+Therefore, we develop an innovative bottleneck-based detoxification method. Our
+method could reduce toxicity while maintaining comparable generation quality,
+providing a promising initial solution to this line of research.",2023-12-13
+Multimodal Sentiment Analysis: Perceived vs Induced Sentiments,2023-12-12 07:24:02+00:00,http://arxiv.org/abs/2312.07627v1,"Aditi Aggarwal, Deepika Varshney, Saurabh Patel","cs.CV, cs.LG, cs.SI",image2text,"Social media has created a global network where people can easily access and
+exchange vast information. This information gives rise to a variety of
+opinions, reflecting both positive and negative viewpoints. GIFs stand out as a
+multimedia format offering a visually engaging way for users to communicate. In
+this research, we propose a multimodal framework that integrates visual and
+textual features to predict the GIF sentiment. It also incorporates attributes
+including face emotion detection and OCR generated captions to capture the
+semantic aspects of the GIF. The developed classifier achieves an accuracy of
+82.7% on Twitter GIFs, which is an improvement over state-of-the-art models.
+Moreover, we have based our research on the ReactionGIF dataset, analysing the
+variance in sentiment perceived by the author and sentiment induced in the
+reader",2023-12-12
+Adaptive Compression of the Latent Space in Variational Autoencoders,2023-12-11 10:35:31+00:00,http://arxiv.org/abs/2312.06280v1,"Gabriela Sejnova, Michal Vavrecka, Karla Stepanova","cs.LG, cs.AI",image2text,"Variational Autoencoders (VAEs) are powerful generative models that have been
+widely used in various fields, including image and text generation. However,
+one of the known challenges in using VAEs is the model's sensitivity to its
+hyperparameters, such as the latent space size. This paper presents a simple
+extension of VAEs for automatically determining the optimal latent space size
+during the training process by gradually decreasing the latent size through
+neuron removal and observing the model performance. The proposed method is
+compared to traditional hyperparameter grid search and is shown to be
+significantly faster while still achieving the best optimal dimensionality on
+four image datasets. Furthermore, we show that the final performance of our
+method is comparable to training on the optimal latent size from scratch, and
+might thus serve as a convenient substitute.",2023-12-11
+"Identifying and Mitigating Model Failures through Few-shot CLIP-aided
+  Diffusion Generation",2023-12-09 04:43:49+00:00,http://arxiv.org/abs/2312.05464v1,"Atoosa Chegini, Soheil Feizi","cs.CV, cs.LG",image2text,"Deep learning models can encounter unexpected failures, especially when
+dealing with challenging sub-populations. One common reason for these failures
+is the occurrence of objects in backgrounds that are rarely seen during
+training. To gain a better understanding of these failure modes,
+human-interpretable descriptions are crucial for further analysis and
+improvement which is expensive. In this study, we propose an end-to-end
+framework that utilizes the capabilities of large language models (ChatGPT) and
+vision-language deep models (CLIP) to generate text descriptions of failure
+modes associated with spurious correlations (e.g. rarely seen backgrounds)
+without human-in-the-loop intervention. These descriptions can be used to
+generate synthetic data using generative models, such as diffusion models. The
+model can now use this generated data to learn from its weaknesses and enhance
+its performance on backgrounds that are uncommon for each class of data. Our
+approach serves as a broad solution, promising progress in comprehending model
+failure modes and strengthening deep learning models across a wide range of
+failure scenarios (e.g. bacckgrounds, colors) automatically in a few-shot
+manner. Our experiments have shown remarkable \textbf{improvements in accuracy
+($\sim \textbf{21%}$)} on hard sub-populations (particularly for wrong
+background association) across $40$ different models, such as ResNets,
+EfficientNets, DenseNets, Vision Transformer (ViT), SwAVs, MoCos, DINOs, and
+CLIPs on various datasets such as ImageNet-1000, CIFAR-10, and CIFAR-100.",2023-12-09
+"Forcing Generative Models to Degenerate Ones: The Power of Data
+  Poisoning Attacks",2023-12-07 23:26:06+00:00,http://arxiv.org/abs/2312.04748v1,"Shuli Jiang, Swanand Ravindra Kadhe, Yi Zhou, Ling Cai, Nathalie Baracaldo","cs.CR, cs.AI, cs.CL",image2text,"Growing applications of large language models (LLMs) trained by a third party
+raise serious concerns on the security vulnerability of LLMs.It has been
+demonstrated that malicious actors can covertly exploit these vulnerabilities
+in LLMs through poisoning attacks aimed at generating undesirable outputs.
+While poisoning attacks have received significant attention in the image domain
+(e.g., object detection), and classification tasks, their implications for
+generative models, particularly in the realm of natural language generation
+(NLG) tasks, remain poorly understood. To bridge this gap, we perform a
+comprehensive exploration of various poisoning techniques to assess their
+effectiveness across a range of generative tasks. Furthermore, we introduce a
+range of metrics designed to quantify the success and stealthiness of poisoning
+attacks specifically tailored to NLG tasks. Through extensive experiments on
+multiple NLG tasks, LLMs and datasets, we show that it is possible to
+successfully poison an LLM during the fine-tuning stage using as little as 1\%
+of the total tuning data samples. Our paper presents the first systematic
+approach to comprehend poisoning attacks targeting NLG tasks considering a wide
+range of triggers and attack settings. We hope our findings will assist the AI
+security community in devising appropriate defenses against such threats.",2023-12-07
 "Think While You Write: Hypothesis Verification Promotes Faithful
   Knowledge-to-Text Generation",2023-11-16 00:13:19+00:00,http://arxiv.org/abs/2311.09467v1,"Yifu Qiu, Varun Embar, Shay B. Cohen, Benjamin Han","cs.CL, cs.AI",image2text,"Neural knowledge-to-text generation models often struggle to faithfully
 generate descriptions for the input facts: they may produce hallucinations that

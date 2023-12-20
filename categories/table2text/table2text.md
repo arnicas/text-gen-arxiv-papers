@@ -7,10 +7,23 @@ sidebar:
 ---
 
 
-*written on 2023-11-19*
+*written on 2023-12-20*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Instruct-SCTG: Guiding Sequential Controlled Text Generation through  Instructions](http://arxiv.org/abs/2312.12299v1) | Yinhong Liu, Yixuan Su, Ehsan Shareghi, Nigel Collier | cs.CL, cs.AI | 2023-12-19 |
+| [External Knowledge Augmented Polyphone Disambiguation Using Large  Language Model](http://arxiv.org/abs/2312.11920v1) | Chen Li | cs.CL | 2023-12-19 |
+| [Compositional Generalization for Multi-label Text Classification: A  Data-Augmentation Approach](http://arxiv.org/abs/2312.11276v2) | Yuyang Chai, Zhuang Li, Jiahui Liu, Lei Chen, Fei Li, Donghong Ji, Chong Teng | cs.CL | 2023-12-18 |
+| [Deep dive into language traits of AI-generated Abstracts](http://arxiv.org/abs/2312.10617v1) | Vikas Kumar, Amisha Bharti, Devanshu Verma, Vasudha Bhatnagar | cs.CL, cs.LG | 2023-12-17 |
+| [A Soft Contrastive Learning-based Prompt Model for Few-shot Sentiment  Analysis](http://arxiv.org/abs/2312.10479v1) | Jingyi Zhou, Jie Zhou, Jiabao Zhao, Siyin Wang, Haijun Shan, Gui Tao, Qi Zhang, Xuanjing Huang | cs.CL | 2023-12-16 |
+| [Continuous Diffusion for Mixed-Type Tabular Data](http://arxiv.org/abs/2312.10431v1) | Markus Mueller, Kathrin Gruber, Dennis Fok | cs.LG, stat.ML | 2023-12-16 |
+| [GSQA: An End-to-End Model for Generative Spoken Question Answering](http://arxiv.org/abs/2312.09781v1) | Min-Han Shih, Ho-Lam Chung, Yu-Chi Pai, Ming-Hao Hsu, Guan-Ting Lin, Shang-Wen Li, Hung-yi Lee | cs.CL, cs.AI | 2023-12-15 |
+| [Fast Sampling via De-randomization for Discrete Diffusion Models](http://arxiv.org/abs/2312.09193v1) | Zixiang Chen, Huizhuo Yuan, Yongqian Li, Yiwen Kou, Junkai Zhang, Quanquan Gu | cs.LG, cs.AI, stat.ML | 2023-12-14 |
+| [ToViLaG: Your Visual-Language Generative Model is Also An Evildoer](http://arxiv.org/abs/2312.11523v1) | Xinpeng Wang, Xiaoyuan Yi, Han Jiang, Shanlin Zhou, Zhihua Wei, Xing Xie | cs.CL, cs.AI | 2023-12-13 |
+| [A Survey of Text Watermarking in the Era of Large Language Models](http://arxiv.org/abs/2312.07913v2) | Aiwei Liu, Leyi Pan, Yijian Lu, Jingjing Li, Xuming Hu, Lijie Wen, Irwin King, Philip S. Yu | cs.CL, 68T50, I.2.7 | 2023-12-13 |
+| [On Diverse Preferences for Large Language Model Alignment](http://arxiv.org/abs/2312.07401v1) | Dun Zeng, Yong Dai, Pengyu Cheng, Tianhao Hu, Wanshun Chen, Nan Du, Zenglin Xu | cs.AI | 2023-12-12 |
+| [Multilingual large language models leak human stereotypes across  language boundaries](http://arxiv.org/abs/2312.07141v1) | Yang Trista Cao, Anna Sotnikova, Jieyu Zhao, Linda X. Zou, Rachel Rudinger, Hal Daume III | cs.CL | 2023-12-12 |
+| [Astrocyte-Enabled Advancements in Spiking Neural Networks for Large  Language Modeling](http://arxiv.org/abs/2312.07625v1) | Guobin Shen, Dongcheng Zhao, Yiting Dong, Yang Li, Jindong Li, Yi Zeng | cs.NE, cs.AI | 2023-12-12 |
 | [Generative AI for Hate Speech Detection: Evaluation and Findings](http://arxiv.org/abs/2311.09993v1) | Sagi Pendzel, Tomer Wullach, Amir Adler, Einat Minkov | cs.CL, cs.AI | 2023-11-16 |
 | [The Curious Decline of Linguistic Diversity: Training Language Models on  Synthetic Text](http://arxiv.org/abs/2311.09807v1) | Yanzhu Guo, Guokan Shang, Michalis Vazirgiannis, Chloé Clavel | cs.CL | 2023-11-16 |
 | [Aligning Neural Machine Translation Models: Human Feedback in Training  and Inference](http://arxiv.org/abs/2311.09132v1) | Miguel Moura Ramos, Patrick Fernandes, António Farinhas, André F. T. Martins | cs.CL | 2023-11-15 |

@@ -7,10 +7,20 @@ sidebar:
 ---
 
 
-*written on 2023-11-19*
+*written on 2023-12-20*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Can ChatGPT be Your Personal Medical Assistant?](http://arxiv.org/abs/2312.12006v1) | Md. Rafiul Biswas, Ashhadul Islam, Zubair Shah, Wajdi Zaghouani, Samir Brahim Belhaouari | cs.CL, cs.SI | 2023-12-19 |
+| [External Knowledge Augmented Polyphone Disambiguation Using Large  Language Model](http://arxiv.org/abs/2312.11920v1) | Chen Li | cs.CL | 2023-12-19 |
+| [Deep dive into language traits of AI-generated Abstracts](http://arxiv.org/abs/2312.10617v1) | Vikas Kumar, Amisha Bharti, Devanshu Verma, Vasudha Bhatnagar | cs.CL, cs.LG | 2023-12-17 |
+| [A Soft Contrastive Learning-based Prompt Model for Few-shot Sentiment  Analysis](http://arxiv.org/abs/2312.10479v1) | Jingyi Zhou, Jie Zhou, Jiabao Zhao, Siyin Wang, Haijun Shan, Gui Tao, Qi Zhang, Xuanjing Huang | cs.CL | 2023-12-16 |
+| [CoAScore: Chain-of-Aspects Prompting for NLG Evaluation](http://arxiv.org/abs/2312.10355v1) | Peiyuan Gong, Jiaxin Mao | cs.CL | 2023-12-16 |
+| [GSQA: An End-to-End Model for Generative Spoken Question Answering](http://arxiv.org/abs/2312.09781v1) | Min-Han Shih, Ho-Lam Chung, Yu-Chi Pai, Ming-Hao Hsu, Guan-Ting Lin, Shang-Wen Li, Hung-yi Lee | cs.CL, cs.AI | 2023-12-15 |
+| [Extending Context Window of Large Language Models via Semantic  Compression](http://arxiv.org/abs/2312.09571v1) | Weizhi Fei, Xueyan Niu, Pingyi Zhou, Lu Hou, Bo Bai, Lei Deng, Wei Han | cs.CL, cs.IT, math.IT | 2023-12-15 |
+| [Towards Verifiable Text Generation with Evolving Memory and  Self-Reflection](http://arxiv.org/abs/2312.09075v1) | Hao Sun, Hengyi Cai, Bo Wang, Yingyan Hou, Xiaochi Wei, Shuaiqiang Wang, Yan Zhang, Dawei Yin | cs.CL | 2023-12-14 |
+| [Towards Optimal Statistical Watermarking](http://arxiv.org/abs/2312.07930v1) | Baihe Huang, Banghua Zhu, Hanlin Zhu, Jason D. Lee, Jiantao Jiao, Michael I. Jordan | cs.LG, cs.CL, cs.CR, cs.IT, math.IT, stat.ML | 2023-12-13 |
+| [Leveraging Generative Language Models for Weakly Supervised Sentence  Component Analysis in Video-Language Joint Learning](http://arxiv.org/abs/2312.06699v1) | Zaber Ibn Abdul Hakim, Najibul Haque Sarker, Rahul Pratap Singh, Bishmoy Paul, Ali Dabouei, Min Xu | cs.CV, cs.LG | 2023-12-10 |
 | [An Attention-Based Denoising Framework for Personality Detection in  Social Media Texts](http://arxiv.org/abs/2311.09945v1) | Qirui Tang, Wenkang Jiang, Yihua Du, Lei Lin | cs.CY, cs.CL | 2023-11-16 |
 | [X-Mark: Towards Lossless Watermarking Through Lexical Redundancy](http://arxiv.org/abs/2311.09832v1) | Liang Chen, Yatao Bian, Yang Deng, Shuaiyi Li, Bingzhe Wu, Peilin Zhao, Kam-fai Wong | cs.CL | 2023-11-16 |
 | [The Curious Decline of Linguistic Diversity: Training Language Models on  Synthetic Text](http://arxiv.org/abs/2311.09807v1) | Yanzhu Guo, Guokan Shang, Michalis Vazirgiannis, Chloé Clavel | cs.CL | 2023-11-16 |
