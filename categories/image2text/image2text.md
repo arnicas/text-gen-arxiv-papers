@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2023-12-20*
+*written on 2023-12-31*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Zur Darstellung eines mehrstufigen Prototypbegriffs in der  multilingualen automatischen Sprachgenerierung: vom Korpus über word  embeddings bis hin zum automatischen Wörterbuch](http://arxiv.org/abs/2312.16311v1) | María José Domínguez Vázquez | cs.CL | 2023-12-26 |
+| [Diffusion-EXR: Controllable Review Generation for Explainable  Recommendation via Diffusion Models](http://arxiv.org/abs/2312.15490v1) | Ling Li, Shaohua Li, Winda Marantika, Alex C. Kot, Huijing Zhan | cs.IR, cs.AI | 2023-12-24 |
 | [Continuous Diffusion for Mixed-Type Tabular Data](http://arxiv.org/abs/2312.10431v1) | Markus Mueller, Kathrin Gruber, Dennis Fok | cs.LG, stat.ML | 2023-12-16 |
 | [Do LVLMs Understand Charts? Analyzing and Correcting Factual Errors in  Chart Captioning](http://arxiv.org/abs/2312.10160v1) | Kung-Hsiang Huang, Mingyang Zhou, Hou Pong Chan, Yi R. Fung, Zhenhailong Wang, Lingyu Zhang, Shih-Fu Chang, Heng Ji | cs.CL | 2023-12-15 |
 | [Fast Sampling via De-randomization for Discrete Diffusion Models](http://arxiv.org/abs/2312.09193v1) | Zixiang Chen, Huizhuo Yuan, Yongqian Li, Yiwen Kou, Junkai Zhang, Quanquan Gu | cs.LG, cs.AI, stat.ML | 2023-12-14 |

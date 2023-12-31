@@ -7,10 +7,15 @@ sidebar:
 ---
 
 
-*written on 2023-12-20*
+*written on 2023-12-31*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Automating Knowledge Acquisition for Content-Centric Cognitive Agents  Using LLMs](http://arxiv.org/abs/2312.16378v1) | Sanjay Oruganti, Sergei Nirenburg, Jesse English, Marjorie McShane | cs.CL, cs.AI | 2023-12-27 |
+| [A Comprehensive Analysis of the Effectiveness of Large Language Models  as Automatic Dialogue Evaluators](http://arxiv.org/abs/2312.15407v1) | Chen Zhang, Luis Fernando D'Haro, Yiming Chen, Malu Zhang, Haizhou Li | cs.CL | 2023-12-24 |
+| [Paralinguistics-Enhanced Large Language Modeling of Spoken Dialogue](http://arxiv.org/abs/2312.15316v1) | Guan-Ting Lin, Prashanth Gurunath Shivakumar, Ankur Gandhe, Chao-Han Huck Yang, Yile Gu, Shalini Ghosh, Andreas Stolcke, Hung-yi Lee, Ivan Bulyko | cs.CL, eess.AS | 2023-12-23 |
+| [Team Irisapu Project Description for DRC2023](http://arxiv.org/abs/2312.13765v1) | Reon Ohashi, Shinjitsu Agatsuma, Kazuya Tsubokura, Yurie Iribe | cs.RO, cs.AI | 2023-12-21 |
+| [InfoVisDial: An Informative Visual Dialogue Dataset by Bridging Large  Multimodal and Language Models](http://arxiv.org/abs/2312.13503v1) | Bingbing Wen, Zhengyuan Yang, Jianfeng Wang, Zhe Gan, Bill Howe, Lijuan Wang | cs.CV, cs.AI | 2023-12-21 |
 | [External Knowledge Augmented Polyphone Disambiguation Using Large  Language Model](http://arxiv.org/abs/2312.11920v1) | Chen Li | cs.CL | 2023-12-19 |
 | [A Survey of Text Watermarking in the Era of Large Language Models](http://arxiv.org/abs/2312.07913v2) | Aiwei Liu, Leyi Pan, Yijian Lu, Jingjing Li, Xuming Hu, Lijie Wen, Irwin King, Philip S. Yu | cs.CL, 68T50, I.2.7 | 2023-12-13 |
 | [NLEBench+NorGLM: A Comprehensive Empirical Analysis and Benchmark  Dataset for Generative Language Models in Norwegian](http://arxiv.org/abs/2312.01314v1) | Peng Liu, Lemei Zhang, Terje Nissen Farup, Even W. Lauvrak, Jon Espen Ingvaldsen, Simen Eide, Jon Atle Gulla, Zhirong Yang | cs.CL | 2023-12-03 |

@@ -1,4 +1,44 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Zur Darstellung eines mehrstufigen Prototypbegriffs in der
+  multilingualen automatischen Sprachgenerierung: vom Korpus über word
+  embeddings bis hin zum automatischen Wörterbuch",2023-12-26 19:39:25+00:00,http://arxiv.org/abs/2312.16311v1,María José Domínguez Vázquez,cs.CL,image2text,"The multilingual dictionary of noun valency Portlex is considered to be the
+trigger for the creation of the automatic language generators Xera and
+Combinatoria, whose development and use is presented in this paper. Both
+prototypes are used for the automatic generation of nominal phrases with their
+mono- and bi-argumental valence slots, which could be used, among others, as
+dictionary examples or as integrated components of future autonomous
+E-Learning-Tools. As samples for new types of automatic valency dictionaries
+including user interaction, we consider the language generators as we know them
+today. In the specific methodological procedure for the development of the
+language generators, the syntactic-semantic description of the noun slots turns
+out to be the main focus from a syntagmatic and paradigmatic point of view.
+Along with factors such as representativeness, grammatical correctness,
+semantic coherence, frequency and the variety of lexical candidates, as well as
+semantic classes and argument structures, which are fixed components of both
+resources, a concept of a multi-sided prototype stands out. The combined
+application of this prototype concept as well as of word embeddings together
+with techniques from the field of automatic natural language processing and
+generation (NLP and NLG) opens up a new way for the future development of
+automatically generated plurilingual valency dictionaries. All things
+considered, the paper depicts the language generators both from the point of
+view of their development as well as from that of the users. The focus lies on
+the role of the prototype concept within the development of the resources.",2023-12-26
+"Diffusion-EXR: Controllable Review Generation for Explainable
+  Recommendation via Diffusion Models",2023-12-24 14:23:15+00:00,http://arxiv.org/abs/2312.15490v1,"Ling Li, Shaohua Li, Winda Marantika, Alex C. Kot, Huijing Zhan","cs.IR, cs.AI",image2text,"Denoising Diffusion Probabilistic Model (DDPM) has shown great competence in
+image and audio generation tasks. However, there exist few attempts to employ
+DDPM in the text generation, especially review generation under recommendation
+systems. Fueled by the predicted reviews explainability that justifies
+recommendations could assist users better understand the recommended items and
+increase the transparency of recommendation system, we propose a Diffusion
+Model-based Review Generation towards EXplainable Recommendation named
+Diffusion-EXR. Diffusion-EXR corrupts the sequence of review embeddings by
+incrementally introducing varied levels of Gaussian noise to the sequence of
+word embeddings and learns to reconstruct the original word representations in
+the reverse process. The nature of DDPM enables our lightweight Transformer
+backbone to perform excellently in the recommendation review generation task.
+Extensive experimental results have demonstrated that Diffusion-EXR can achieve
+state-of-the-art review generation for recommendation on two publicly available
+benchmark datasets.",2023-12-24
 Continuous Diffusion for Mixed-Type Tabular Data,2023-12-16 12:21:03+00:00,http://arxiv.org/abs/2312.10431v1,"Markus Mueller, Kathrin Gruber, Dennis Fok","cs.LG, stat.ML",image2text,"Score-based generative models (or diffusion models for short) have proven
 successful across many domains in generating text and image data. However, the
 consideration of mixed-type tabular data with this model family has fallen

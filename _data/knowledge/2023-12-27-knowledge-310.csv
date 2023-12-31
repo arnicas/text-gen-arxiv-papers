@@ -1,4 +1,88 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Automating Knowledge Acquisition for Content-Centric Cognitive Agents
+  Using LLMs",2023-12-27 02:31:51+00:00,http://arxiv.org/abs/2312.16378v1,"Sanjay Oruganti, Sergei Nirenburg, Jesse English, Marjorie McShane","cs.CL, cs.AI",knowledge,"The paper describes a system that uses large language model (LLM) technology
+to support the automatic learning of new entries in an intelligent agent's
+semantic lexicon. The process is bootstrapped by an existing non-toy lexicon
+and a natural language generator that converts formal, ontologically-grounded
+representations of meaning into natural language sentences. The learning method
+involves a sequence of LLM requests and includes an automatic quality control
+step. To date, this learning method has been applied to learning multiword
+expressions whose meanings are equivalent to those of transitive verbs in the
+agent's lexicon. The experiment demonstrates the benefits of a hybrid learning
+architecture that integrates knowledge-based methods and resources with both
+traditional data analytics and LLMs.",2023-12-27
+"Zur Darstellung eines mehrstufigen Prototypbegriffs in der
+  multilingualen automatischen Sprachgenerierung: vom Korpus über word
+  embeddings bis hin zum automatischen Wörterbuch",2023-12-26 19:39:25+00:00,http://arxiv.org/abs/2312.16311v1,María José Domínguez Vázquez,cs.CL,knowledge,"The multilingual dictionary of noun valency Portlex is considered to be the
+trigger for the creation of the automatic language generators Xera and
+Combinatoria, whose development and use is presented in this paper. Both
+prototypes are used for the automatic generation of nominal phrases with their
+mono- and bi-argumental valence slots, which could be used, among others, as
+dictionary examples or as integrated components of future autonomous
+E-Learning-Tools. As samples for new types of automatic valency dictionaries
+including user interaction, we consider the language generators as we know them
+today. In the specific methodological procedure for the development of the
+language generators, the syntactic-semantic description of the noun slots turns
+out to be the main focus from a syntagmatic and paradigmatic point of view.
+Along with factors such as representativeness, grammatical correctness,
+semantic coherence, frequency and the variety of lexical candidates, as well as
+semantic classes and argument structures, which are fixed components of both
+resources, a concept of a multi-sided prototype stands out. The combined
+application of this prototype concept as well as of word embeddings together
+with techniques from the field of automatic natural language processing and
+generation (NLP and NLG) opens up a new way for the future development of
+automatically generated plurilingual valency dictionaries. All things
+considered, the paper depicts the language generators both from the point of
+view of their development as well as from that of the users. The focus lies on
+the role of the prototype concept within the development of the resources.",2023-12-26
+Making Large Language Models A Better Foundation For Dense Retrieval,2023-12-24 15:10:35+00:00,http://arxiv.org/abs/2312.15503v1,"Chaofan Li, Zheng Liu, Shitao Xiao, Yingxia Shao",cs.CL,knowledge,"Dense retrieval needs to learn discriminative text embeddings to represent
+the semantic relationship between query and document. It may benefit from the
+using of large language models (LLMs), given LLMs' strong capability on
+semantic understanding. However, the LLMs are pre-trained by text generation
+tasks, whose working pattern is completely different from representing texts as
+embeddings. As a result, it is imperative to study how to adapt LLMs properly
+so that they can be effectively initialized as the backbone encoder for dense
+retrieval.
+  In this paper, we propose a novel approach, called LLaRA (LLM adapted for
+dense RetrievAl), which works as a post-hoc adaptation of LLM for the dense
+retrieval application. LLaRA consists of two pretext tasks: EBAE
+(Embedding-Based Auto-Encoding) and EBAR (Embedding-Based Auto-Regression),
+where the text embeddings from LLM are used to reconstruct the tokens for the
+input sentence and predict the tokens for the next sentence, respectively.
+LLaRA turns out to be simple, lightweight, and highly effective. It is applied
+to adapt LLaMA-2-7B (base) on the Wikipedia corpus, where it substantially
+improves the model's fine-tuned performances on a variety of dense retrieval
+benchmarks, like MSMARCO and BEIR. Our model and code will be made publicly
+available at BGE repository.",2023-12-24
+Exploiting Novel GPT-4 APIs,2023-12-21 21:22:41+00:00,http://arxiv.org/abs/2312.14302v1,"Kellin Pelrine, Mohammad Taufeeque, Michał Zając, Euan McLean, Adam Gleave","cs.CR, cs.AI, cs.CL, cs.LG, I.2.7",knowledge,"Language model attacks typically assume one of two extreme threat models:
+full white-box access to model weights, or black-box access limited to a text
+generation API. However, real-world APIs are often more flexible than just text
+generation: these APIs expose ``gray-box'' access leading to new threat
+vectors. To explore this, we red-team three new functionalities exposed in the
+GPT-4 APIs: fine-tuning, function calling and knowledge retrieval. We find that
+fine-tuning a model on as few as 15 harmful examples or 100 benign examples can
+remove core safeguards from GPT-4, enabling a range of harmful outputs.
+Furthermore, we find that GPT-4 Assistants readily divulge the function call
+schema and can be made to execute arbitrary function calls. Finally, we find
+that knowledge retrieval can be hijacked by injecting instructions into
+retrieval documents. These vulnerabilities highlight that any additions to the
+functionality exposed by an API can create new vulnerabilities.",2023-12-21
+"LlaMaVAE: Guiding Large Language Model Generation via Continuous Latent
+  Sentence Spaces",2023-12-20 17:25:23+00:00,http://arxiv.org/abs/2312.13208v1,"Yingji Zhang, Danilo S. Carvalho, Ian Pratt-Hartmann, André Freitas",cs.CL,knowledge,"Deep generative neural networks, such as Variational AutoEncoders (VAEs),
+offer an opportunity to better understand and control language models from the
+perspective of sentence-level latent spaces. To combine the controllability of
+VAE latent spaces with the state-of-the-art performance of recent large
+language models (LLMs), we present in this work LlaMaVAE, which combines
+expressive encoder and decoder models (sentenceT5 and LlaMA) with a VAE
+architecture, aiming to provide better text generation control to LLMs. In
+addition, to conditionally guide the VAE generation, we investigate a new
+approach based on flow-based invertible neural networks (INNs) named Invertible
+CVAE. Experimental results reveal that LlaMaVAE can outperform the previous
+state-of-the-art VAE language model, Optimus, across various tasks, including
+language modelling, semantic textual similarity and definition modelling.
+Qualitative analysis on interpolation and traversal experiments also indicates
+an increased degree of semantic clustering and geometric consistency, which
+enables better generation control.",2023-12-20
 Can ChatGPT be Your Personal Medical Assistant?,2023-12-19 09:54:27+00:00,http://arxiv.org/abs/2312.12006v1,"Md. Rafiul Biswas, Ashhadul Islam, Zubair Shah, Wajdi Zaghouani, Samir Brahim Belhaouari","cs.CL, cs.SI",knowledge,"The advanced large language model (LLM) ChatGPT has shown its potential in
 different domains and remains unbeaten due to its characteristics compared to
 other LLMs. This study aims to evaluate the potential of using a fine-tuned

@@ -1,4 +1,90 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Automating Knowledge Acquisition for Content-Centric Cognitive Agents
+  Using LLMs",2023-12-27 02:31:51+00:00,http://arxiv.org/abs/2312.16378v1,"Sanjay Oruganti, Sergei Nirenburg, Jesse English, Marjorie McShane","cs.CL, cs.AI",table2text,"The paper describes a system that uses large language model (LLM) technology
+to support the automatic learning of new entries in an intelligent agent's
+semantic lexicon. The process is bootstrapped by an existing non-toy lexicon
+and a natural language generator that converts formal, ontologically-grounded
+representations of meaning into natural language sentences. The learning method
+involves a sequence of LLM requests and includes an automatic quality control
+step. To date, this learning method has been applied to learning multiword
+expressions whose meanings are equivalent to those of transitive verbs in the
+agent's lexicon. The experiment demonstrates the benefits of a hybrid learning
+architecture that integrates knowledge-based methods and resources with both
+traditional data analytics and LLMs.",2023-12-27
+"Zur Darstellung eines mehrstufigen Prototypbegriffs in der
+  multilingualen automatischen Sprachgenerierung: vom Korpus über word
+  embeddings bis hin zum automatischen Wörterbuch",2023-12-26 19:39:25+00:00,http://arxiv.org/abs/2312.16311v1,María José Domínguez Vázquez,cs.CL,table2text,"The multilingual dictionary of noun valency Portlex is considered to be the
+trigger for the creation of the automatic language generators Xera and
+Combinatoria, whose development and use is presented in this paper. Both
+prototypes are used for the automatic generation of nominal phrases with their
+mono- and bi-argumental valence slots, which could be used, among others, as
+dictionary examples or as integrated components of future autonomous
+E-Learning-Tools. As samples for new types of automatic valency dictionaries
+including user interaction, we consider the language generators as we know them
+today. In the specific methodological procedure for the development of the
+language generators, the syntactic-semantic description of the noun slots turns
+out to be the main focus from a syntagmatic and paradigmatic point of view.
+Along with factors such as representativeness, grammatical correctness,
+semantic coherence, frequency and the variety of lexical candidates, as well as
+semantic classes and argument structures, which are fixed components of both
+resources, a concept of a multi-sided prototype stands out. The combined
+application of this prototype concept as well as of word embeddings together
+with techniques from the field of automatic natural language processing and
+generation (NLP and NLG) opens up a new way for the future development of
+automatically generated plurilingual valency dictionaries. All things
+considered, the paper depicts the language generators both from the point of
+view of their development as well as from that of the users. The focus lies on
+the role of the prototype concept within the development of the resources.",2023-12-26
+PersianLLaMA: Towards Building First Persian Large Language Model,2023-12-25 12:48:55+00:00,http://arxiv.org/abs/2312.15713v1,"Mohammad Amin Abbasi, Arash Ghafouri, Mahdi Firouzmandi, Hassan Naderi, Behrouz Minaei Bidgoli","cs.CL, cs.AI",table2text,"Despite the widespread use of the Persian language by millions globally,
+limited efforts have been made in natural language processing for this
+language. The use of large language models as effective tools in various
+natural language processing tasks typically requires extensive textual data and
+robust hardware resources. Consequently, the scarcity of Persian textual data
+and the unavailability of powerful hardware resources have hindered the
+development of large language models for Persian. This paper introduces the
+first large Persian language model, named PersianLLaMA, trained on a collection
+of Persian texts and datasets. This foundational model comes in two versions,
+with 7 and 13 billion parameters, trained on formal and colloquial Persian
+texts using two different approaches. PersianLLaMA has been evaluated for
+natural language generation tasks based on the latest evaluation methods,
+namely using larger language models, and for natural language understanding
+tasks based on automated machine metrics. The results indicate that
+PersianLLaMA significantly outperforms its competitors in both understanding
+and generating Persian text. PersianLLaMA marks an important step in the
+development of Persian natural language processing and can be a valuable
+resource for the Persian-speaking community. This large language model can be
+used for various natural language processing tasks, especially text generation
+like chatbots, question-answering, machine translation, and text summarization",2023-12-25
+"Balancing the Style-Content Trade-Off in Sentiment Transfer Using
+  Polarity-Aware Denoising",2023-12-22 14:06:54+00:00,http://arxiv.org/abs/2312.14708v1,"Sourabrata Mukherjee, Zdeněk Kasner, Ondřej Dušek",cs.CL,table2text,"Text sentiment transfer aims to flip the sentiment polarity of a sentence
+(positive to negative or vice versa) while preserving its sentiment-independent
+content. Although current models show good results at changing the sentiment,
+content preservation in transferred sentences is insufficient. In this paper,
+we present a sentiment transfer model based on polarity-aware denoising, which
+accurately controls the sentiment attributes in generated text, preserving the
+content to a great extent and helping to balance the style-content trade-off.
+Our proposed model is structured around two key stages in the sentiment
+transfer process: better representation learning using a shared encoder and
+sentiment-controlled generation using separate sentiment-specific decoders.
+Empirical results show that our methods outperforms state-of-the-art baselines
+in terms of content preservation while staying competitive in terms of style
+transfer accuracy and fluency.",2023-12-22
+Assaying on the Robustness of Zero-Shot Machine-Generated Text Detectors,2023-12-20 10:53:53+00:00,http://arxiv.org/abs/2312.12918v2,"Yi-Fan Zhang, Zhang Zhang, Liang Wang, Tieniu Tan, Rong Jin",cs.CL,table2text,"To combat the potential misuse of Natural Language Generation (NLG)
+technology, a variety of algorithms have been developed for the detection of
+AI-generated texts. Traditionally, this task is treated as a binary
+classification problem. Although supervised learning has demonstrated promising
+results, acquiring labeled data for detection purposes poses real-world
+challenges and the risk of overfitting. In an effort to address these issues,
+we delve into the realm of zero-shot machine-generated text detection. Existing
+zero-shot detectors, typically designed for specific tasks or topics, often
+assume uniform testing scenarios, limiting their practicality. In our research,
+we explore various advanced Large Language Models (LLMs) and their specialized
+variants, contributing to this field in several ways. In empirical studies, we
+uncover a significant correlation between topics and detection performance.
+Secondly, we delve into the influence of topic shifts on zero-shot detectors.
+These investigations shed light on the adaptability and robustness of these
+detection methods across diverse topics. The code is available at
+\url{https://github.com/yfzhang114/robustness-detection}.",2023-12-20
 "Instruct-SCTG: Guiding Sequential Controlled Text Generation through
   Instructions",2023-12-19 16:20:49+00:00,http://arxiv.org/abs/2312.12299v1,"Yinhong Liu, Yixuan Su, Ehsan Shareghi, Nigel Collier","cs.CL, cs.AI",table2text,"Instruction-tuned large language models have shown remarkable performance in
 aligning generated text with user intentions across various tasks. However,

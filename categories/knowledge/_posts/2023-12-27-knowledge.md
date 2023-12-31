@@ -6,10 +6,15 @@ sidebar:
 ---
 
 
-*written on 2023-12-20*
+*written on 2023-12-31*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Automating Knowledge Acquisition for Content-Centric Cognitive Agents  Using LLMs](http://arxiv.org/abs/2312.16378v1) | Sanjay Oruganti, Sergei Nirenburg, Jesse English, Marjorie McShane | cs.CL, cs.AI | 2023-12-27 |
+| [Zur Darstellung eines mehrstufigen Prototypbegriffs in der  multilingualen automatischen Sprachgenerierung: vom Korpus über word  embeddings bis hin zum automatischen Wörterbuch](http://arxiv.org/abs/2312.16311v1) | María José Domínguez Vázquez | cs.CL | 2023-12-26 |
+| [Making Large Language Models A Better Foundation For Dense Retrieval](http://arxiv.org/abs/2312.15503v1) | Chaofan Li, Zheng Liu, Shitao Xiao, Yingxia Shao | cs.CL | 2023-12-24 |
+| [Exploiting Novel GPT-4 APIs](http://arxiv.org/abs/2312.14302v1) | Kellin Pelrine, Mohammad Taufeeque, Michał Zając, Euan McLean, Adam Gleave | cs.CR, cs.AI, cs.CL, cs.LG, I.2.7 | 2023-12-21 |
+| [LlaMaVAE: Guiding Large Language Model Generation via Continuous Latent  Sentence Spaces](http://arxiv.org/abs/2312.13208v1) | Yingji Zhang, Danilo S. Carvalho, Ian Pratt-Hartmann, André Freitas | cs.CL | 2023-12-20 |
 | [Can ChatGPT be Your Personal Medical Assistant?](http://arxiv.org/abs/2312.12006v1) | Md. Rafiul Biswas, Ashhadul Islam, Zubair Shah, Wajdi Zaghouani, Samir Brahim Belhaouari | cs.CL, cs.SI | 2023-12-19 |
 | [External Knowledge Augmented Polyphone Disambiguation Using Large  Language Model](http://arxiv.org/abs/2312.11920v1) | Chen Li | cs.CL | 2023-12-19 |
 | [Deep dive into language traits of AI-generated Abstracts](http://arxiv.org/abs/2312.10617v1) | Vikas Kumar, Amisha Bharti, Devanshu Verma, Vasudha Bhatnagar | cs.CL, cs.LG | 2023-12-17 |

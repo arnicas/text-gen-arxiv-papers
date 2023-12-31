@@ -1,4 +1,90 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Automating Knowledge Acquisition for Content-Centric Cognitive Agents
+  Using LLMs",2023-12-27 02:31:51+00:00,http://arxiv.org/abs/2312.16378v1,"Sanjay Oruganti, Sergei Nirenburg, Jesse English, Marjorie McShane","cs.CL, cs.AI",dialogue,"The paper describes a system that uses large language model (LLM) technology
+to support the automatic learning of new entries in an intelligent agent's
+semantic lexicon. The process is bootstrapped by an existing non-toy lexicon
+and a natural language generator that converts formal, ontologically-grounded
+representations of meaning into natural language sentences. The learning method
+involves a sequence of LLM requests and includes an automatic quality control
+step. To date, this learning method has been applied to learning multiword
+expressions whose meanings are equivalent to those of transitive verbs in the
+agent's lexicon. The experiment demonstrates the benefits of a hybrid learning
+architecture that integrates knowledge-based methods and resources with both
+traditional data analytics and LLMs.",2023-12-27
+"A Comprehensive Analysis of the Effectiveness of Large Language Models
+  as Automatic Dialogue Evaluators",2023-12-24 04:50:57+00:00,http://arxiv.org/abs/2312.15407v1,"Chen Zhang, Luis Fernando D'Haro, Yiming Chen, Malu Zhang, Haizhou Li",cs.CL,dialogue,"Automatic evaluation is an integral aspect of dialogue system research. The
+traditional reference-based NLG metrics are generally found to be unsuitable
+for dialogue assessment. Consequently, recent studies have suggested various
+unique, reference-free neural metrics that better align with human evaluations.
+Notably among them, large language models (LLMs), particularly the
+instruction-tuned variants like ChatGPT, are shown to be promising substitutes
+for human judges. Yet, existing works on utilizing LLMs for automatic dialogue
+evaluation are limited in their scope in terms of the number of meta-evaluation
+datasets, mode of evaluation, coverage of LLMs, etc. Hence, it remains
+inconclusive how effective these LLMs are. To this end, we conduct a
+comprehensive study on the application of LLMs for automatic dialogue
+evaluation. Specifically, we analyze the multi-dimensional evaluation
+capability of 30 recently emerged LLMs at both turn and dialogue levels, using
+a comprehensive set of 12 meta-evaluation datasets. Additionally, we probe the
+robustness of the LLMs in handling various adversarial perturbations at both
+turn and dialogue levels. Finally, we explore how model-level and
+dimension-level ensembles impact the evaluation performance. All resources are
+available at https://github.com/e0397123/comp-analysis.",2023-12-24
+Paralinguistics-Enhanced Large Language Modeling of Spoken Dialogue,2023-12-23 18:14:56+00:00,http://arxiv.org/abs/2312.15316v1,"Guan-Ting Lin, Prashanth Gurunath Shivakumar, Ankur Gandhe, Chao-Han Huck Yang, Yile Gu, Shalini Ghosh, Andreas Stolcke, Hung-yi Lee, Ivan Bulyko","cs.CL, eess.AS",dialogue,"Large Language Models (LLMs) have demonstrated superior abilities in tasks
+such as chatting, reasoning, and question-answering. However, standard LLMs may
+ignore crucial paralinguistic information, such as sentiment, emotion, and
+speaking style, which are essential for achieving natural, human-like spoken
+conversation, especially when such information is conveyed by acoustic cues. We
+therefore propose Paralinguistics-enhanced Generative Pretrained Transformer
+(ParalinGPT), an LLM utilizes text and speech modality to better model the
+linguistic content and paralinguistic attribute of spoken response. The model
+takes the conversational context of text, speech embeddings, and paralinguistic
+attributes as input prompts within a serialized multitasking multi-modal
+framework. Specifically, our framework serializes tasks in the order of current
+paralinguistic attribute prediction, response paralinguistic attribute
+prediction, and response text generation with autoregressive conditioning. We
+utilize the Switchboard-1 corpus, including its sentiment labels to be the
+paralinguistic attribute, as our spoken dialogue dataset. Experimental results
+indicate the proposed serialized multitasking method outperforms typical
+sequence classification techniques on current and response sentiment
+classification. Furthermore, leveraging conversational context and speech
+embeddings significantly improves both response text generation and sentiment
+prediction. Our proposed framework achieves relative improvements of 6.7%,
+12.0%, and 3.5% in current sentiment accuracy, response sentiment accuracy, and
+response text BLEU score, respectively.",2023-12-23
+Team Irisapu Project Description for DRC2023,2023-12-21 11:44:13+00:00,http://arxiv.org/abs/2312.13765v1,"Reon Ohashi, Shinjitsu Agatsuma, Kazuya Tsubokura, Yurie Iribe","cs.RO, cs.AI",dialogue,"This paper describes the dialog robot system designed by Team Irisapu for the
+preliminary round of the Dialogue Robot Competition 2023 (DRC2023). In order to
+generate dialogue responses flexibly while adhering to predetermined scenarios,
+we attempted to generate dialogue response sentences using OpenAI's GPT-3. We
+aimed to create a system that can appropriately respond to users by dividing
+the dialogue scenario into five sub-scenarios, and creating prompts for each
+sub-scenario. Also, we incorporated a recovery strategy that can handle
+dialogue breakdowns flexibly. Our research group has been working on research
+related to dialogue breakdown detection, and we incorporated our findings to
+date in this competition. As a result of the preliminary round, a bug in our
+system affected the outcome and we were not able to achieve a satisfactory
+result. However, in the evaluation category of ""reliability of provided
+information"", we ranked third among all teams.",2023-12-21
+"InfoVisDial: An Informative Visual Dialogue Dataset by Bridging Large
+  Multimodal and Language Models",2023-12-21 00:44:45+00:00,http://arxiv.org/abs/2312.13503v1,"Bingbing Wen, Zhengyuan Yang, Jianfeng Wang, Zhe Gan, Bill Howe, Lijuan Wang","cs.CV, cs.AI",dialogue,"In this paper, we build a visual dialogue dataset, named InfoVisDial, which
+provides rich informative answers in each round even with external knowledge
+related to the visual content. Different from existing datasets where the
+answer is compact and short, InfoVisDial contains long free-form answers with
+rich information in each round of dialogue. For effective data collection, the
+key idea is to bridge the large-scale multimodal model (e.g., GIT) and the
+language models (e.g., GPT-3). GIT can describe the image content even with
+scene text, while GPT-3 can generate informative dialogue based on the image
+description and appropriate prompting techniques. With such automatic pipeline,
+we can readily generate informative visual dialogue data at scale. Then, we ask
+human annotators to rate the generated dialogues to filter the low-quality
+conversations.Human analyses show that InfoVisDial covers informative and
+diverse dialogue topics: $54.4\%$ of the dialogue rounds are related to image
+scene texts, and $36.7\%$ require external knowledge. Each round's answer is
+also long and open-ended: $87.3\%$ of answers are unique with an average length
+of $8.9$, compared with $27.37\%$ and $2.9$ in VisDial. Last, we propose a
+strong baseline by adapting the GIT model for the visual dialogue task and
+fine-tune the model on InfoVisDial. Hopefully, our work can motivate more
+effort on this direction.",2023-12-21
 "External Knowledge Augmented Polyphone Disambiguation Using Large
   Language Model",2023-12-19 08:00:10+00:00,http://arxiv.org/abs/2312.11920v1,Chen Li,cs.CL,dialogue,"One of the key issues in Mandarin Chinese text-to-speech (TTS) systems is
 polyphone disambiguation when doing grapheme-to-phoneme (G2P) conversion. In
