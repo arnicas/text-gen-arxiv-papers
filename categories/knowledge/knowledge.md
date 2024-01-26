@@ -7,10 +7,22 @@ sidebar:
 ---
 
 
-*written on 2023-12-31*
+*written on 2024-01-26*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Adaptive Text Watermark for Large Language Models](http://arxiv.org/abs/2401.13927v1) | Yepeng Liu, Yuheng Bu | cs.CL | 2024-01-25 |
+| [Consistency Guided Knowledge Retrieval and Denoising in LLMs for  Zero-shot Document-level Relation Triplet Extraction](http://arxiv.org/abs/2401.13598v1) | Qi Sun, Kun Huang, Xiaocui Yang, Rong Tong, Kun Zhang, Soujanya Poria | cs.CL | 2024-01-24 |
+| [Fine-grained Contract NER using instruction based model](http://arxiv.org/abs/2401.13545v1) | Hiranmai Sri Adibhatla, Pavan Baswani, Manish Shrivastava | cs.IR | 2024-01-24 |
+| [MF-AED-AEC: Speech Emotion Recognition by Leveraging Multimodal Fusion,  ASR Error Detection, and ASR Error Correction](http://arxiv.org/abs/2401.13260v1) | Jiajun He, Xiaohan Shi, Xingfeng Li, Tomoki Toda | cs.CL, cs.MM, cs.SD, eess.AS | 2024-01-24 |
+| [IndiText Boost: Text Augmentation for Low Resource India Languages](http://arxiv.org/abs/2401.13085v1) | Onkar Litake, Niraj Yagnik, Shreyas Labhsetwar | cs.CL, cs.AI, cs.LG | 2024-01-23 |
+| [Unsupervised Learning of Graph from Recipes](http://arxiv.org/abs/2401.12088v1) | Aissatou Diallo, Antonis Bikakis, Luke Dickens, Anthony Hunter, Rob Miller | cs.CL | 2024-01-22 |
+| [With Greater Text Comes Greater Necessity: Inference-Time Training Helps  Long Text Generation](http://arxiv.org/abs/2401.11504v1) | Y. Wang, D. Ma, D. Cai | cs.CL, cs.AI | 2024-01-21 |
+| [Large Language Models for Scientific Information Extraction: An  Empirical Study for Virology](http://arxiv.org/abs/2401.10040v1) | Mahsa Shamsabadi, Jennifer D'Souza, Sören Auer | cs.CL, cs.AI, cs.DL, cs.IT, math.IT | 2024-01-18 |
+| [Evolutionary Computation in the Era of Large Language Model: Survey and  Roadmap](http://arxiv.org/abs/2401.10034v1) | Xingyu Wu, Sheng-hao Wu, Jibin Wu, Liang Feng, Kay Chen Tan | cs.NE, cs.AI, cs.CL | 2024-01-18 |
+| [Contrastive Perplexity for Controlled Generation: An Application in  Detoxifying Large Language Models](http://arxiv.org/abs/2401.08491v2) | Tassilo Klein, Moin Nabi | cs.CL, cs.LG | 2024-01-16 |
+| [LLMs for Test Input Generation for Semantic Caches](http://arxiv.org/abs/2401.08138v1) | Zafaryab Rasool, Scott Barnett, David Willie, Stefanus Kurniawan, Sherwin Balugo, Srikanth Thudumu, Mohamed Abdelrazek | cs.SE, cs.AI | 2024-01-16 |
+| [Leveraging External Knowledge Resources to Enable Domain-Specific  Comprehension](http://arxiv.org/abs/2401.07977v1) | Saptarshi Sengupta, Connor Heaton, Prasenjit Mitra, Soumalya Sarkar | cs.CL | 2024-01-15 |
 | [Automating Knowledge Acquisition for Content-Centric Cognitive Agents  Using LLMs](http://arxiv.org/abs/2312.16378v1) | Sanjay Oruganti, Sergei Nirenburg, Jesse English, Marjorie McShane | cs.CL, cs.AI | 2023-12-27 |
 | [Zur Darstellung eines mehrstufigen Prototypbegriffs in der  multilingualen automatischen Sprachgenerierung: vom Korpus über word  embeddings bis hin zum automatischen Wörterbuch](http://arxiv.org/abs/2312.16311v1) | María José Domínguez Vázquez | cs.CL | 2023-12-26 |
 | [Making Large Language Models A Better Foundation For Dense Retrieval](http://arxiv.org/abs/2312.15503v1) | Chaofan Li, Zheng Liu, Shitao Xiao, Yingxia Shao | cs.CL | 2023-12-24 |

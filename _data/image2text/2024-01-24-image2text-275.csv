@@ -1,4 +1,95 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Towards Explainable Harmful Meme Detection through Multimodal Debate
+  between Large Language Models",2024-01-24 08:37:16+00:00,http://arxiv.org/abs/2401.13298v1,"Hongzhan Lin, Ziyang Luo, Wei Gao, Jing Ma, Bo Wang, Ruichao Yang","cs.CL, cs.AI",image2text,"The age of social media is flooded with Internet memes, necessitating a clear
+grasp and effective identification of harmful ones. This task presents a
+significant challenge due to the implicit meaning embedded in memes, which is
+not explicitly conveyed through the surface text and image. However, existing
+harmful meme detection methods do not present readable explanations that unveil
+such implicit meaning to support their detection decisions. In this paper, we
+propose an explainable approach to detect harmful memes, achieved through
+reasoning over conflicting rationales from both harmless and harmful positions.
+Specifically, inspired by the powerful capacity of Large Language Models (LLMs)
+on text generation and reasoning, we first elicit multimodal debate between
+LLMs to generate the explanations derived from the contradictory arguments.
+Then we propose to fine-tune a small language model as the debate judge for
+harmfulness inference, to facilitate multimodal fusion between the harmfulness
+rationales and the intrinsic multimodal information within memes. In this way,
+our model is empowered to perform dialectical reasoning over intricate and
+implicit harm-indicative patterns, utilizing multimodal explanations
+originating from both harmless and harmful arguments. Extensive experiments on
+three public meme datasets demonstrate that our harmful meme detection approach
+achieves much better performance than state-of-the-art methods and exhibits a
+superior capacity for explaining the meme harmfulness of the model predictions.",2024-01-24
+"Large Language Models for Scientific Information Extraction: An
+  Empirical Study for Virology",2024-01-18 15:04:55+00:00,http://arxiv.org/abs/2401.10040v1,"Mahsa Shamsabadi, Jennifer D'Souza, Sören Auer","cs.CL, cs.AI, cs.DL, cs.IT, math.IT",image2text,"In this paper, we champion the use of structured and semantic content
+representation of discourse-based scholarly communication, inspired by tools
+like Wikipedia infoboxes or structured Amazon product descriptions. These
+representations provide users with a concise overview, aiding scientists in
+navigating the dense academic landscape. Our novel automated approach leverages
+the robust text generation capabilities of LLMs to produce structured scholarly
+contribution summaries, offering both a practical solution and insights into
+LLMs' emergent abilities.
+  For LLMs, the prime focus is on improving their general intelligence as
+conversational agents. We argue that these models can also be applied
+effectively in information extraction (IE), specifically in complex IE tasks
+within terse domains like Science. This paradigm shift replaces the traditional
+modular, pipelined machine learning approach with a simpler objective expressed
+through instructions. Our results show that finetuned FLAN-T5 with 1000x fewer
+parameters than the state-of-the-art GPT-davinci is competitive for the task.",2024-01-18
+Textual Summarisation of Large Sets: Towards a General Approach,2024-01-17 08:16:05+00:00,http://arxiv.org/abs/2401.09041v1,"Kittipitch Kuptavanich, Ehud Reiter, Kees Van Deemter, Advaith Siddharthan",cs.CL,image2text,"We are developing techniques to generate summary descriptions of sets of
+objects. In this paper, we present and evaluate a rule-based NLG technique for
+summarising sets of bibliographical references in academic papers. This extends
+our previous work on summarising sets of consumer products and shows how our
+model generalises across these two very different domains.",2024-01-17
+Jewelry Recognition via Encoder-Decoder Models,2024-01-15 23:10:50+00:00,http://arxiv.org/abs/2401.08003v1,"José M. Alcalde-Llergo, Enrique Yeguas-Bolívar, Andrea Zingoni, Alejandro Fuerte-Jurado","cs.CV, cs.AI",image2text,"Jewelry recognition is a complex task due to the different styles and designs
+of accessories. Precise descriptions of the various accessories is something
+that today can only be achieved by experts in the field of jewelry. In this
+work, we propose an approach for jewelry recognition using computer vision
+techniques and image captioning, trying to simulate this expert human behavior
+of analyzing accessories. The proposed methodology consist on using different
+image captioning models to detect the jewels from an image and generate a
+natural language description of the accessory. Then, this description is also
+utilized to classify the accessories at different levels of detail. The
+generated caption includes details such as the type of jewel, color, material,
+and design. To demonstrate the effectiveness of the proposed method in
+accurately recognizing different types of jewels, a dataset consisting of
+images of accessories belonging to jewelry stores in C\'ordoba (Spain) has been
+created. After testing the different image captioning architectures designed,
+the final model achieves a captioning accuracy of 95\%. The proposed
+methodology has the potential to be used in various applications such as
+jewelry e-commerce, inventory management or automatic jewels recognition to
+analyze people's tastes and social status.",2024-01-15
+DRLC: Reinforcement Learning with Dense Rewards from LLM Critic,2024-01-14 22:05:11+00:00,http://arxiv.org/abs/2401.07382v1,"Meng Cao, Lei Shu, Lei Yu, Yun Zhu, Nevan Wichers, Yinxiao Liu, Lei Meng","cs.CL, cs.AI",image2text,"Reinforcement learning (RL) can align language models with non-differentiable
+reward signals, such as human preferences. However, a major challenge arises
+from the sparsity of these reward signals - typically, there is only one reward
+for the entire generation. This sparsity of rewards can lead to inefficient and
+unstable learning. In this paper, we introduce a novel framework leveraging the
+critique ability of LLMs to produce dense rewards throughout the learning
+process. Our approach incorporates a critic language model alongside the policy
+model. This critic is prompted with the task description, question, policy
+model's output, and environment's reward signal as input, and provides token or
+span-level dense rewards that reflect the quality of each segment of the
+output. We assess our approach on three text generation tasks: sentiment
+control, language model detoxification, and summarization. Experimental results
+show that incorporating artificial dense rewards in training yields consistent
+performance gains over the PPO baseline with holistic rewards. Furthermore, in
+a setting where the same model serves as both policy and critic, we demonstrate
+that ""self-critique"" rewards also boost learning efficiency.",2024-01-14
+"PizzaCommonSense: Learning to Model Commonsense Reasoning about
+  Intermediate Steps in Cooking Recipes",2024-01-12 23:33:01+00:00,http://arxiv.org/abs/2401.06930v1,"Aissatou Diallo, Antonis Bikakis, Luke Dickens, Anthony Hunter, Rob Miller",cs.CL,image2text,"Decoding the core of procedural texts, exemplified by cooking recipes, is
+crucial for intelligent reasoning and instruction automation. Procedural texts
+can be comprehensively defined as a sequential chain of steps to accomplish a
+task employing resources. From a cooking perspective, these instructions can be
+interpreted as a series of modifications to a food preparation, which initially
+comprises a set of ingredients. These changes involve transformations of
+comestible resources. For a model to effectively reason about cooking recipes,
+it must accurately discern and understand the inputs and outputs of
+intermediate steps within the recipe. Aiming to address this, we present a new
+corpus of cooking recipes enriched with descriptions of intermediate steps of
+the recipes that explicate the input and output for each step. We discuss the
+data collection process, investigate and provide baseline models based on T5
+and GPT-3.5. This work presents a challenging task and insight into commonsense
+reasoning and procedural text generation.",2024-01-12
 "Zur Darstellung eines mehrstufigen Prototypbegriffs in der
   multilingualen automatischen Sprachgenerierung: vom Korpus über word
   embeddings bis hin zum automatischen Wörterbuch",2023-12-26 19:39:25+00:00,http://arxiv.org/abs/2312.16311v1,María José Domínguez Vázquez,cs.CL,image2text,"The multilingual dictionary of noun valency Portlex is considered to be the
