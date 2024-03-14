@@ -7,10 +7,22 @@ sidebar:
 ---
 
 
-*written on 2024-01-26*
+*written on 2024-03-14*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [MAP-Elites with Transverse Assessment for Multimodal Problems in  Creative Domains](http://arxiv.org/abs/2403.07182v1) | Marvin Zammit, Antonios Liapis, Georgios N. Yannakakis | cs.NE | 2024-03-11 |
+| [MP2D: An Automated Topic Shift Dialogue Generation Framework Leveraging  Knowledge Graphs](http://arxiv.org/abs/2403.05814v1) | Yerin Hwang, Yongil Kim, Yunah Jang, Jeesoo Bang, Hyunkyung Bae, Kyomin Jung | cs.CL, cs.AI | 2024-03-09 |
+| [Emotional Manipulation Through Prompt Engineering Amplifies  Disinformation Generation in AI Large Language Models](http://arxiv.org/abs/2403.03550v1) | Rasita Vinay, Giovanni Spitale, Nikola Biller-Andorno, Federico Germani | cs.AI, cs.CY, cs.HC | 2024-03-06 |
+| [BootTOD: Bootstrap Task-oriented Dialogue Representations by Aligning  Diverse Responses](http://arxiv.org/abs/2403.01163v1) | Weihao Zeng, Keqing He, Yejie Wang, Dayuan Fu, Weiran Xu | cs.CL | 2024-03-02 |
+| [Gender Bias in Large Language Models across Multiple Languages](http://arxiv.org/abs/2403.00277v1) | Jinman Zhao, Yitian Ding, Chen Jia, Yining Wang, Zifan Qian | cs.CL | 2024-03-01 |
+| [Do LLMs Implicitly Determine the Suitable Text Difficulty for Users?](http://arxiv.org/abs/2402.14453v1) | Seiji Gobara, Hidetaka Kamigaito, Taro Watanabe | cs.CL | 2024-02-22 |
+| [CHATATC: Large Language Model-Driven Conversational Agents for  Supporting Strategic Air Traffic Flow Management](http://arxiv.org/abs/2402.14850v1) | Sinan Abdulhak, Wayne Hubbard, Karthik Gopalakrishnan, Max Z. Li | cs.CL, cs.AI | 2024-02-20 |
+| [Neural paraphrasing by automatically crawled and aligned sentence pairs](http://arxiv.org/abs/2402.10558v1) | Achille Globo, Antonio Trevisi, Andrea Zugarini, Leonardo Rigutini, Marco Maggini, Stefano Melacci | cs.CL | 2024-02-16 |
+| [AbuseGPT: Abuse of Generative AI ChatBots to Create Smishing Campaigns](http://arxiv.org/abs/2402.09728v1) | Ashfak Md Shibli, Mir Mehedi A. Pritom, Maanak Gupta | cs.CR, cs.AI | 2024-02-15 |
+| [Measuring and Controlling Persona Drift in Language Model Dialogs](http://arxiv.org/abs/2402.10962v1) | Kenneth Li, Tianle Liu, Naomi Bashkansky, David Bau, Fernanda Viégas, Hanspeter Pfister, Martin Wattenberg | cs.CL, cs.AI, cs.LG | 2024-02-13 |
+| [Can LLMs Produce Faithful Explanations For Fact-checking? Towards  Faithful Explainable Fact-Checking via Multi-Agent Debate](http://arxiv.org/abs/2402.07401v1) | Kyungha Kim, Sangyun Lee, Kung-Hsiang Huang, Hou Pong Chan, Manling Li, Heng Ji | cs.CL | 2024-02-12 |
+| [GLaM: Fine-Tuning Large Language Models for Domain Knowledge Graph  Alignment via Neighborhood Partitioning and Generative Subgraph Encoding](http://arxiv.org/abs/2402.06764v2) | Stefan Dernbach, Khushbu Agarwal, Alejandro Zuniga, Michael Henry, Sutanay Choudhury | cs.AI | 2024-02-09 |
 | [Parameter-Efficient Conversational Recommender System as a Language  Processing Task](http://arxiv.org/abs/2401.14194v1) | Mathieu Ravaut, Hao Zhang, Lu Xu, Aixin Sun, Yong Liu | cs.CL | 2024-01-25 |
 | [Large Language Models for Scientific Information Extraction: An  Empirical Study for Virology](http://arxiv.org/abs/2401.10040v1) | Mahsa Shamsabadi, Jennifer D'Souza, Sören Auer | cs.CL, cs.AI, cs.DL, cs.IT, math.IT | 2024-01-18 |
 | [PersonalityChat: Conversation Distillation for Personalized Dialog  Modeling with Facts and Traits](http://arxiv.org/abs/2401.07363v1) | Ehsan Lotfi, Maxime De Bruyn, Jeska Buhmann, Walter Daelemans | cs.CL | 2024-01-14 |

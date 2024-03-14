@@ -7,10 +7,27 @@ sidebar:
 ---
 
 
-*written on 2024-01-26*
+*written on 2024-03-14*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Truth-Aware Context Selection: Mitigating the Hallucinations of Large  Language Models Being Misled by Untruthful Contexts](http://arxiv.org/abs/2403.07556v1) | Tian Yu, Shaolei Zhang, Yang Feng | cs.CL | 2024-03-12 |
+| [Complex Reasoning over Logical Queries on Commonsense Knowledge Graphs](http://arxiv.org/abs/2403.07398v1) | Tianqing Fang, Zeming Chen, Yangqiu Song, Antoine Bosselut | cs.CL, cs.AI | 2024-03-12 |
+| [Premonition: Using Generative Models to Preempt Future Data Changes in  Continual Learning](http://arxiv.org/abs/2403.07356v1) | Mark D. McDonnell, Dong Gong, Ehsan Abbasnejad, Anton van den Hengel | cs.CV, cs.LG | 2024-03-12 |
+| [Monitoring AI-Modified Content at Scale: A Case Study on the Impact of  ChatGPT on AI Conference Peer Reviews](http://arxiv.org/abs/2403.07183v1) | Weixin Liang, Zachary Izzo, Yaohui Zhang, Haley Lepp, Hancheng Cao, Xuandong Zhao, Lingjiao Chen, Haotian Ye, Sheng Liu, Zhi Huang, Daniel A. McFarland, James Y. Zou | cs.CL, cs.AI, cs.LG, cs.SI, I.2.7 | 2024-03-11 |
+| [One Category One Prompt: Dataset Distillation using Diffusion Models](http://arxiv.org/abs/2403.07142v1) | Ali Abbasi, Ashkan Shahbazi, Hamed Pirsiavash, Soheil Kolouri | cs.CV, cs.CL, cs.LG | 2024-03-11 |
+| [Narrating Causal Graphs with Large Language Models](http://arxiv.org/abs/2403.07118v1) | Atharva Phatak, Vijay K. Mago, Ameeta Agrawal, Aravind Inbasekaran, Philippe J. Giabbanelli | cs.CL | 2024-03-11 |
+| [Evolving Knowledge Distillation with Large Language Models and Active  Learning](http://arxiv.org/abs/2403.06414v1) | Chengyuan Liu, Yangyang Kang, Fubang Zhao, Kun Kuang, Zhuoren Jiang, Changlong Sun, Fei Wu | cs.CL | 2024-03-11 |
+| [Know Your Audience: The benefits and pitfalls of generating plain  language summaries beyond the "general" audience](http://arxiv.org/abs/2403.04979v1) | Tal August, Kyle Lo, Noah A. Smith, Katharina Reinecke | cs.HC | 2024-03-08 |
+| [KnowledgeVIS: Interpreting Language Models by Comparing  Fill-in-the-Blank Prompts](http://arxiv.org/abs/2403.04758v1) | Adam Coscia, Alex Endert | cs.HC, cs.AI, cs.CY, cs.LG | 2024-03-07 |
+| [Fact-Checking the Output of Large Language Models via Token-Level  Uncertainty Quantification](http://arxiv.org/abs/2403.04696v1) | Ekaterina Fadeeva, Aleksandr Rubashevskii, Artem Shelmanov, Sergey Petrakov, Haonan Li, Hamdy Mubarak, Evgenii Tsymbalov, Gleb Kuzmin, Alexander Panchenko, Timothy Baldwin, Preslav Nakov, Maxim Panov | cs.CL, cs.AI, cs.LG | 2024-03-07 |
+| [Enhancing Court View Generation with Knowledge Injection and Guidance](http://arxiv.org/abs/2403.04366v1) | Ang Li, Yiquan Wu, Yifei Liu, Fei Wu, Ming Cai, Kun Kuang | cs.AI | 2024-03-07 |
+| [Advancing Biomedical Text Mining with Community Challenges](http://arxiv.org/abs/2403.04261v1) | Hui Zong, Rongrong Wu, Jiaxue Cha, Erman Wu, Jiakun Li, Liang Tao, Zuofeng Li, Buzhou Tang, Bairong Shen | cs.AI, cs.CL, cs.LG | 2024-03-07 |
+| [Quantifying Contamination in Evaluating Code Generation Capabilities of  Language Models](http://arxiv.org/abs/2403.04811v1) | Martin Riddell, Ansong Ni, Arman Cohan | cs.SE, cs.CL, cs.LG | 2024-03-06 |
+| [DECIDER: A Rule-Controllable Decoding Strategy for Language Generation  by Imitating Dual-System Cognitive Theory](http://arxiv.org/abs/2403.01954v1) | Chen Xu, Tian Lan, Changlong Yu, Wei Wang, Jun Gao, Yu Ji, Qunxi Dong, Kun Qian, Piji Li, Wei Bi, Bin Hu | cs.CL, cs.AI, cs.LO | 2024-03-04 |
+| [Direct Alignment of Draft Model for Speculative Decoding with  Chat-Fine-Tuned LLMs](http://arxiv.org/abs/2403.00858v3) | Raghavv Goel, Mukul Gagrani, Wonseok Jeon, Junyoung Park, Mingu Lee, Christopher Lott | cs.LG, cs.AI, cs.CL | 2024-02-29 |
+| [Token-Specific Watermarking with Enhanced Detectability and Semantic  Coherence for Large Language Models](http://arxiv.org/abs/2402.18059v2) | Mingjia Huo, Sai Ashish Somayajula, Youwei Liang, Ruisi Zhang, Farinaz Koushanfar, Pengtao Xie | cs.LG, cs.CL, cs.CR | 2024-02-28 |
+| [CounterCurate: Enhancing Physical and Semantic Visio-Linguistic  Compositional Reasoning via Counterfactual Examples](http://arxiv.org/abs/2402.13254v2) | Jianrui Zhang, Mu Cai, Tengyang Xie, Yong Jae Lee | cs.CV, cs.AI, cs.CL, cs.LG | 2024-02-20 |
 | [Adaptive Text Watermark for Large Language Models](http://arxiv.org/abs/2401.13927v1) | Yepeng Liu, Yuheng Bu | cs.CL | 2024-01-25 |
 | [Consistency Guided Knowledge Retrieval and Denoising in LLMs for  Zero-shot Document-level Relation Triplet Extraction](http://arxiv.org/abs/2401.13598v1) | Qi Sun, Kun Huang, Xiaocui Yang, Rong Tong, Kun Zhang, Soujanya Poria | cs.CL | 2024-01-24 |
 | [Fine-grained Contract NER using instruction based model](http://arxiv.org/abs/2401.13545v1) | Hiranmai Sri Adibhatla, Pavan Baswani, Manish Shrivastava | cs.IR | 2024-01-24 |

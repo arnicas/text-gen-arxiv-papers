@@ -7,10 +7,22 @@ sidebar:
 ---
 
 
-*written on 2024-01-26*
+*written on 2024-03-14*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Unfamiliar Finetuning Examples Control How Language Models Hallucinate](http://arxiv.org/abs/2403.05612v1) | Katie Kang, Eric Wallace, Claire Tomlin, Aviral Kumar, Sergey Levine | cs.LG, cs.AI, cs.CL | 2024-03-08 |
+| [SARD: A Human-AI Collaborative Story Generation](http://arxiv.org/abs/2403.01575v1) | Ahmed Y. Radwan, Khaled M. Alasmari, Omar A. Abdulbagi, Emad A. Alghamdi | cs.HC, cs.AI | 2024-03-03 |
+| [Improving Open-Ended Text Generation via Adaptive Decoding](http://arxiv.org/abs/2402.18223v1) | Wenhong Zhu, Hongkun Hao, Zhiwei He, Yiming Ai, Rui Wang | cs.CL | 2024-02-28 |
+| [Creating Suspenseful Stories: Iterative Planning with Large Language  Models](http://arxiv.org/abs/2402.17119v1) | Kaige Xie, Mark Riedl | cs.CL | 2024-02-27 |
+| [Leveraging Large Language Models for Learning Complex Legal Concepts  through Storytelling](http://arxiv.org/abs/2402.17019v1) | Hang Jiang, Xiajie Zhang, Robert Mahari, Daniel Kessler, Eric Ma, Tal August, Irene Li, Alex 'Sandy' Pentland, Yoon Kim, Jad Kabbara, Deb Roy | cs.CL, cs.HC | 2024-02-26 |
+| [Bias in Language Models: Beyond Trick Tests and Toward RUTEd Evaluation](http://arxiv.org/abs/2402.12649v1) | Kristian Lum, Jacy Reese Anthis, Chirag Nagpal, Alexander D'Amour | cs.CL, stat.AP | 2024-02-20 |
+| [Neural paraphrasing by automatically crawled and aligned sentence pairs](http://arxiv.org/abs/2402.10558v1) | Achille Globo, Antonio Trevisi, Andrea Zugarini, Leonardo Rigutini, Marco Maggini, Stefano Melacci | cs.CL | 2024-02-16 |
+| [Examining Gender and Racial Bias in Large Vision-Language Models Using a  Novel Dataset of Parallel Images](http://arxiv.org/abs/2402.05779v1) | Kathleen C. Fraser, Svetlana Kiritchenko | cs.CY, cs.CL, cs.CV | 2024-02-08 |
+| [SWAG: Storytelling With Action Guidance](http://arxiv.org/abs/2402.03483v1) | Zeeshan Patel, Karim El-Refai, Jonathan Pei, Tianle Li | cs.CL, cs.AI | 2024-02-05 |
+| [Shadowcast: Stealthy Data Poisoning Attacks Against Vision-Language  Models](http://arxiv.org/abs/2402.06659v1) | Yuancheng Xu, Jiarui Yao, Manli Shu, Yanchao Sun, Zichu Wu, Ning Yu, Tom Goldstein, Furong Huang | cs.CR, cs.AI, cs.LG | 2024-02-05 |
+| [Towards scalable robotic intervention of children with Autism Spectrum  Disorder using LLMs](http://arxiv.org/abs/2402.00260v1) | Ruchik Mishra, Karla Conn Welch | cs.RO, cs.AI | 2024-02-01 |
+| [The Detection and Understanding of Fictional Discourse](http://arxiv.org/abs/2401.16678v1) | Andrew Piper, Haiqi Zhou | cs.CL, cs.LG | 2024-01-30 |
 | [Exploring Automatic Text Simplification of German Narrative Documents](http://arxiv.org/abs/2312.09907v1) | Thorben Schomacker, Tillmann Dönicke, Marina Tropmann-Frick | cs.CL, cs.AI | 2023-12-15 |
 | [DiffuVST: Narrating Fictional Scenes with Global-History-Guided  Denoising Models](http://arxiv.org/abs/2312.07066v1) | Shengguang Wu, Mei Yuan, Qi Su | cs.CL, cs.CV | 2023-12-12 |
 | [Assessing LLMs for Moral Value Pluralism](http://arxiv.org/abs/2312.10075v1) | Noam Benkler, Drisana Mosaphir, Scott Friedman, Andrew Smart, Sonja Schmer-Galunder | cs.CL, cs.AI | 2023-12-08 |

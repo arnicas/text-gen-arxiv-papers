@@ -1,4 +1,260 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"SemEval-2024 Shared Task 6: SHROOM, a Shared-task on Hallucinations and
+  Related Observable Overgeneration Mistakes",2024-03-12 15:06:22+00:00,http://arxiv.org/abs/2403.07726v1,"Timothee Mickus, Elaine Zosa, Raúl Vázquez, Teemu Vahtola, Jörg Tiedemann, Vincent Segonne, Alessandro Raganato, Marianna Apidianaki",cs.CL,table2text,"This paper presents the results of the SHROOM, a shared task focused on
+detecting hallucinations: outputs from natural language generation (NLG)
+systems that are fluent, yet inaccurate. Such cases of overgeneration put in
+jeopardy many NLG applications, where correctness is often mission-critical.
+The shared task was conducted with a newly constructed dataset of 4000 model
+outputs labeled by 5 annotators each, spanning 3 NLP tasks: machine
+translation, paraphrase generation and definition modeling.
+  The shared task was tackled by a total of 58 different users grouped in 42
+teams, out of which 27 elected to write a system description paper;
+collectively, they submitted over 300 prediction sets on both tracks of the
+shared task. We observe a number of key trends in how this approach was tackled
+-- many participants rely on a handful of model, and often rely either on
+synthetic data for fine-tuning or zero-shot prompting strategies. While a
+majority of the teams did outperform our proposed baseline system, the
+performances of top-scoring systems are still consistent with a random handling
+of the more challenging items.",2024-03-12
+"generAItor: Tree-in-the-Loop Text Generation for Language Model
+  Explainability and Adaptation",2024-03-12 13:09:15+00:00,http://arxiv.org/abs/2403.07627v1,"Thilo Spinner, Rebecca Kehlbeck, Rita Sevastjanova, Tobias Stähle, Daniel A. Keim, Oliver Deussen, Mennatallah El-Assady","cs.HC, cs.LG, I.2.7; H.5.2",table2text,"Large language models (LLMs) are widely deployed in various downstream tasks,
+e.g., auto-completion, aided writing, or chat-based text generation. However,
+the considered output candidates of the underlying search algorithm are
+under-explored and under-explained. We tackle this shortcoming by proposing a
+tree-in-the-loop approach, where a visual representation of the beam search
+tree is the central component for analyzing, explaining, and adapting the
+generated outputs. To support these tasks, we present generAItor, a visual
+analytics technique, augmenting the central beam search tree with various
+task-specific widgets, providing targeted visualizations and interaction
+possibilities. Our approach allows interactions on multiple levels and offers
+an iterative pipeline that encompasses generating, exploring, and comparing
+output candidates, as well as fine-tuning the model based on adapted data. Our
+case study shows that our tool generates new insights in gender bias analysis
+beyond state-of-the-art template-based methods. Additionally, we demonstrate
+the applicability of our approach in a qualitative user study. Finally, we
+quantitatively evaluate the adaptability of the model to few samples, as
+occurring in text-generation use cases.",2024-03-12
+"Triples-to-isiXhosa (T2X): Addressing the Challenges of Low-Resource
+  Agglutinative Data-to-Text Generation",2024-03-12 11:53:27+00:00,http://arxiv.org/abs/2403.07567v1,"Francois Meyer, Jan Buys",cs.CL,table2text,"Most data-to-text datasets are for English, so the difficulties of modelling
+data-to-text for low-resource languages are largely unexplored. In this paper
+we tackle data-to-text for isiXhosa, which is low-resource and agglutinative.
+We introduce Triples-to-isiXhosa (T2X), a new dataset based on a subset of
+WebNLG, which presents a new linguistic context that shifts modelling demands
+to subword-driven techniques. We also develop an evaluation framework for T2X
+that measures how accurately generated text describes the data. This enables
+future users of T2X to go beyond surface-level metrics in evaluation. On the
+modelling side we explore two classes of methods - dedicated data-to-text
+models trained from scratch and pretrained language models (PLMs). We propose a
+new dedicated architecture aimed at agglutinative data-to-text, the Subword
+Segmental Pointer Generator (SSPG). It jointly learns to segment words and copy
+entities, and outperforms existing dedicated models for 2 agglutinative
+languages (isiXhosa and Finnish). We investigate pretrained solutions for T2X,
+which reveals that standard PLMs come up short. Fine-tuning machine translation
+models emerges as the best method overall. These findings underscore the
+distinct challenge presented by T2X: neither well-established data-to-text
+architectures nor customary pretrained methodologies prove optimal. We conclude
+with a qualitative analysis of generation errors and an ablation study.",2024-03-12
+"Matrix-Transformation Based Low-Rank Adaptation (MTLoRA): A
+  Brain-Inspired Method for Parameter-Efficient Fine-Tuning",2024-03-12 09:32:25+00:00,http://arxiv.org/abs/2403.07440v1,"Yao Liang, Yuwei Wang, Yi Zeng","cs.CL, cs.AI",table2text,"Fine-tuning techniques based on Large Pretrained Language Models (LPLMs) have
+been proven to significantly enhance model performance on a variety of
+downstream tasks and effectively control the output behaviors of LPLMs. Recent
+studies have proposed numerous methods for fine-tuning a small number of
+parameters based on open-source LPLMs, reducing the demand for computational
+and storage resources. Among these, reparameterization fine-tuning methods
+represented by LoRA (Low-Rank Adaptation) have gained popularity. We find that
+although these methods perform well in many aspects, there is still
+considerable room for improvement in terms of complex task adaptability,
+performance, stability, and algorithm complexity. In response to this, inspired
+by the idea that the functions of the brain are shaped by its geometric
+structure, this paper integrates this idea into LoRA technology and proposes a
+new matrix transformation-based reparameterization method for efficient
+fine-tuning, named Matrix-Transformation based Low-Rank Adaptation (MTLoRA).
+MTLoRA aims to dynamically alter its spatial geometric structure by applying a
+transformation-matrix T to perform linear transformations, such as rotation,
+scaling, and translation, on the task-specific parameter matrix, generating new
+matrix feature patterns (eigenvectors) to mimic the fundamental influence of
+complex geometric structure feature patterns in the brain on functions, thereby
+enhancing the model's performance in downstream tasks. In Natural Language
+Understanding (NLU) tasks, it is evaluated using the GLUE benchmark test, and
+the results reveal that MTLoRA achieves an overall performance increase of
+about 1.0% across eight tasks; in Natural Language Generation (NLG) tasks,
+MTLoRA improves performance by an average of 0.95% and 0.31% in the DART and
+WebNLG tasks, respectively.",2024-03-12
+Complex Reasoning over Logical Queries on Commonsense Knowledge Graphs,2024-03-12 08:13:52+00:00,http://arxiv.org/abs/2403.07398v1,"Tianqing Fang, Zeming Chen, Yangqiu Song, Antoine Bosselut","cs.CL, cs.AI",table2text,"Event commonsense reasoning requires the ability to reason about the
+relationship between events, as well as infer implicit context underlying that
+relationship. However, data scarcity makes it challenging for language models
+to learn to generate commonsense inferences for contexts and questions
+involving interactions between complex events. To address this demand, we
+present COM2 (COMplex COMmonsense), a new dataset created by sampling multi-hop
+logical queries (e.g., the joint effect or cause of both event A and B, or the
+effect of the effect of event C) from an existing commonsense knowledge graph
+(CSKG), and verbalizing them using handcrafted rules and large language models
+into multiple-choice and text generation questions. Our experiments show that
+language models trained on COM2 exhibit significant improvements in complex
+reasoning ability, resulting in enhanced zero-shot performance in both
+in-domain and out-of-domain tasks for question answering and generative
+commonsense reasoning, without expensive human annotations.",2024-03-12
+"Premonition: Using Generative Models to Preempt Future Data Changes in
+  Continual Learning",2024-03-12 06:29:54+00:00,http://arxiv.org/abs/2403.07356v1,"Mark D. McDonnell, Dong Gong, Ehsan Abbasnejad, Anton van den Hengel","cs.CV, cs.LG",table2text,"Continual learning requires a model to adapt to ongoing changes in the data
+distribution, and often to the set of tasks to be performed. It is rare,
+however, that the data and task changes are completely unpredictable. Given a
+description of an overarching goal or data theme, which we call a realm, humans
+can often guess what concepts are associated with it. We show here that the
+combination of a large language model and an image generation model can
+similarly provide useful premonitions as to how a continual learning challenge
+might develop over time. We use the large language model to generate text
+descriptions of semantically related classes that might potentially appear in
+the data stream in future. These descriptions are then rendered using Stable
+Diffusion to generate new labelled image samples. The resulting synthetic
+dataset is employed for supervised pre-training, but is discarded prior to
+commencing continual learning, along with the pre-training classification head.
+We find that the backbone of our pre-trained networks can learn representations
+useful for the downstream continual learning problem, thus becoming a valuable
+input to any existing continual learning method. Although there are
+complexities arising from the domain gap between real and synthetic images, we
+show that pre-training models in this manner improves multiple Class Incremenal
+Learning (CIL) methods on fine-grained image classification benchmarks.
+Supporting code can be found at https://github.com/cl-premonition/premonition.",2024-03-12
+One Category One Prompt: Dataset Distillation using Diffusion Models,2024-03-11 20:23:59+00:00,http://arxiv.org/abs/2403.07142v1,"Ali Abbasi, Ashkan Shahbazi, Hamed Pirsiavash, Soheil Kolouri","cs.CV, cs.CL, cs.LG",table2text,"The extensive amounts of data required for training deep neural networks pose
+significant challenges on storage and transmission fronts. Dataset distillation
+has emerged as a promising technique to condense the information of massive
+datasets into a much smaller yet representative set of synthetic samples.
+However, traditional dataset distillation approaches often struggle to scale
+effectively with high-resolution images and more complex architectures due to
+the limitations in bi-level optimization. Recently, several works have proposed
+exploiting knowledge distillation with decoupled optimization schemes to scale
+up dataset distillation. Although these methods effectively address the
+scalability issue, they rely on extensive image augmentations requiring the
+storage of soft labels for augmented images. In this paper, we introduce
+Dataset Distillation using Diffusion Models (D3M) as a novel paradigm for
+dataset distillation, leveraging recent advancements in generative
+text-to-image foundation models. Our approach utilizes textual inversion, a
+technique for fine-tuning text-to-image generative models, to create concise
+and informative representations for large datasets. By employing these learned
+text prompts, we can efficiently store and infer new samples for introducing
+data variability within a fixed memory budget. We show the effectiveness of our
+method through extensive experiments across various computer vision benchmark
+datasets with different memory budgets.",2024-03-11
+Narrating Causal Graphs with Large Language Models,2024-03-11 19:19:59+00:00,http://arxiv.org/abs/2403.07118v1,"Atharva Phatak, Vijay K. Mago, Ameeta Agrawal, Aravind Inbasekaran, Philippe J. Giabbanelli",cs.CL,table2text,"The use of generative AI to create text descriptions from graphs has mostly
+focused on knowledge graphs, which connect concepts using facts. In this work
+we explore the capability of large pretrained language models to generate text
+from causal graphs, where salient concepts are represented as nodes and
+causality is represented via directed, typed edges. The causal reasoning
+encoded in these graphs can support applications as diverse as healthcare or
+marketing. Using two publicly available causal graph datasets, we empirically
+investigate the performance of four GPT-3 models under various settings. Our
+results indicate that while causal text descriptions improve with training
+data, compared to fact-based graphs, they are harder to generate under
+zero-shot settings. Results further suggest that users of generative AI can
+deploy future applications faster since similar performances are obtained when
+training a model with only a few examples as compared to fine-tuning via a
+large curated dataset.",2024-03-11
+LSTM-Based Text Generation: A Study on Historical Datasets,2024-03-11 18:25:01+00:00,http://arxiv.org/abs/2403.07087v1,"Mustafa Abbas Hussein Hussein, Serkan Savaş","cs.CL, cs.AI",table2text,"This paper presents an exploration of Long Short-Term Memory (LSTM) networks
+in the realm of text generation, focusing on the utilization of historical
+datasets for Shakespeare and Nietzsche. LSTMs, known for their effectiveness in
+handling sequential data, are applied here to model complex language patterns
+and structures inherent in historical texts. The study demonstrates that
+LSTM-based models, when trained on historical datasets, can not only generate
+text that is linguistically rich and contextually relevant but also provide
+insights into the evolution of language patterns over time. The finding
+presents models that are highly accurate and efficient in predicting text from
+works of Nietzsche, with low loss values and a training time of 100 iterations.
+The accuracy of the model is 0.9521, indicating high accuracy. The loss of the
+model is 0.2518, indicating its effectiveness. The accuracy of the model in
+predicting text from the work of Shakespeare is 0.9125, indicating a low error
+rate. The training time of the model is 100, mirroring the efficiency of the
+Nietzsche dataset. This efficiency demonstrates the effectiveness of the model
+design and training methodology, especially when handling complex literary
+texts. This research contributes to the field of natural language processing by
+showcasing the versatility of LSTM networks in text generation and offering a
+pathway for future explorations in historical linguistics and beyond.",2024-03-11
+"Evolving Knowledge Distillation with Large Language Models and Active
+  Learning",2024-03-11 03:55:24+00:00,http://arxiv.org/abs/2403.06414v1,"Chengyuan Liu, Yangyang Kang, Fubang Zhao, Kun Kuang, Zhuoren Jiang, Changlong Sun, Fei Wu",cs.CL,table2text,"Large language models (LLMs) have demonstrated remarkable capabilities across
+various NLP tasks. However, their computational costs are prohibitively high.
+To address this issue, previous research has attempted to distill the knowledge
+of LLMs into smaller models by generating annotated data. Nonetheless, these
+works have mainly focused on the direct use of LLMs for text generation and
+labeling, without fully exploring their potential to comprehend the target task
+and acquire valuable knowledge. In this paper, we propose EvoKD: Evolving
+Knowledge Distillation, which leverages the concept of active learning to
+interactively enhance the process of data generation using large language
+models, simultaneously improving the task capabilities of small domain model
+(student model). Different from previous work, we actively analyze the student
+model's weaknesses, and then synthesize labeled samples based on the analysis.
+In addition, we provide iterative feedback to the LLMs regarding the student
+model's performance to continuously construct diversified and challenging
+samples. Experiments and analysis on different NLP tasks, namely, text
+classification and named entity recognition show the effectiveness of EvoKD.",2024-03-11
+"Defending Against Unforeseen Failure Modes with Latent Adversarial
+  Training",2024-03-08 04:22:48+00:00,http://arxiv.org/abs/2403.05030v1,"Stephen Casper, Lennart Schulze, Oam Patel, Dylan Hadfield-Menell","cs.CR, cs.AI, cs.LG",table2text,"AI systems sometimes exhibit harmful unintended behaviors post-deployment.
+This is often despite extensive diagnostics and debugging by developers.
+Minimizing risks from models is challenging because the attack surface is so
+large. It is not tractable to exhaustively search for inputs that may cause a
+model to fail. Red-teaming and adversarial training (AT) are commonly used to
+make AI systems more robust. However, they have not been sufficient to avoid
+many real-world failure modes that differ from the ones adversarially trained
+on. In this work, we utilize latent adversarial training (LAT) to defend
+against vulnerabilities without generating inputs that elicit them. LAT
+leverages the compressed, abstract, and structured latent representations of
+concepts that the network actually uses for prediction. We use LAT to remove
+trojans and defend against held-out classes of adversarial attacks. We show in
+image classification, text classification, and text generation tasks that LAT
+usually improves both robustness and performance on clean data relative to AT.
+This suggests that LAT can be a promising tool for defending against failure
+modes that are not explicitly identified by developers.",2024-03-08
+"Direct Alignment of Draft Model for Speculative Decoding with
+  Chat-Fine-Tuned LLMs",2024-02-29 19:55:06+00:00,http://arxiv.org/abs/2403.00858v3,"Raghavv Goel, Mukul Gagrani, Wonseok Jeon, Junyoung Park, Mingu Lee, Christopher Lott","cs.LG, cs.AI, cs.CL",table2text,"Text generation with Large Language Models (LLMs) is known to be memory bound
+due to the combination of their auto-regressive nature, huge parameter counts,
+and limited memory bandwidths, often resulting in low token rates. Speculative
+decoding has been proposed as a solution for LLM inference acceleration.
+However, since draft models are often unavailable in the modern open-source LLM
+families, e.g., for Llama 2 7B, training a high-quality draft model is required
+to enable inference acceleration via speculative decoding. In this paper, we
+propose a simple draft model training framework for direct alignment to
+chat-capable target models. With the proposed framework, we train Llama 2 Chat
+Drafter 115M, a draft model for Llama 2 Chat 7B or larger, with only 1.64\% of
+the original size. Our training framework only consists of pretraining,
+distillation dataset generation, and finetuning with knowledge distillation,
+with no additional alignment procedure. For the finetuning step, we use
+instruction-response pairs generated by target model for distillation in
+plausible data distribution, and propose a new Total Variation Distance++
+(TVD++) loss that incorporates variance reduction techniques inspired from the
+policy gradient method in reinforcement learning. Our empirical results show
+that Llama 2 Chat Drafter 115M with speculative decoding achieves up to 2.3
+block efficiency and 2.4$\times$ speed-up relative to autoregressive decoding
+on various tasks with no further task-specific fine-tuning.",2024-02-29
+"CounterCurate: Enhancing Physical and Semantic Visio-Linguistic
+  Compositional Reasoning via Counterfactual Examples",2024-02-20 18:59:55+00:00,http://arxiv.org/abs/2402.13254v2,"Jianrui Zhang, Mu Cai, Tengyang Xie, Yong Jae Lee","cs.CV, cs.AI, cs.CL, cs.LG",table2text,"We propose CounterCurate, a framework to comprehensively improve the
+visio-linguistic compositional reasoning capability for both contrastive and
+generative multimodal models. In particular, we identify two critical
+under-explored problems: the neglect of the physically grounded reasoning
+(counting and position understanding) and the potential of using highly capable
+text and image generation models for semantic counterfactual fine-tuning. Our
+work pioneers an approach that addresses these gaps. We first spotlight the
+near-chance performance of multimodal models like CLIP and LLaVA in physically
+grounded compositional reasoning. We then apply simple data augmentation using
+grounded image generation model GLIGEN to generate fine-tuning data, resulting
+in significant performance improvements: +33% and +37% for CLIP and LLaVA,
+respectively, on our newly curated Flickr30k-Positions benchmark. Moreover, we
+exploit the capabilities of high-performing text generation and image
+generation models, specifically GPT-4V and DALLE-3, to curate challenging
+semantic counterfactuals, thereby further enhancing compositional reasoning
+capabilities on benchmarks such as SugarCrepe, where CounterCurate outperforms
+GPT-4V.",2024-02-20
+"RomanSetu: Efficiently unlocking multilingual capabilities of Large
+  Language Models models via Romanization",2024-01-25 16:11:41+00:00,http://arxiv.org/abs/2401.14280v2,"Jaavid Aktar Husain, Raj Dabre, Aswanth Kumar, Jay Gala, Thanmay Jayakumar, Ratish Puduppully, Anoop Kunchukuttan","cs.CL, cs.AI",table2text,"This study addresses the challenge of extending Large Language Models (LLMs)
+to non-English languages using non-Roman scripts. We propose an approach that
+utilizes the romanized form of text as an interface for LLMs, hypothesizing
+that its frequent informal use and shared tokens with English enhance
+cross-lingual alignment. Our approach involves the continual pretraining of an
+English LLM like Llama 2 on romanized text of non-English, non-Roman script
+languages, followed by instruction tuning on romanized data. The results
+indicate that romanized text not only reduces token fertility by 2x-4x but also
+matches or outperforms native script representation across various NLU, NLG,
+and MT tasks. Moreover, the embeddings computed on romanized text exhibit
+closer alignment with their English translations than those from the native
+script. Our approach presents a promising direction for leveraging the power of
+English LLMs in languages traditionally underrepresented in NLP.",2024-01-25
 "Consistency Guided Knowledge Retrieval and Denoising in LLMs for
   Zero-shot Document-level Relation Triplet Extraction",2024-01-24 17:04:28+00:00,http://arxiv.org/abs/2401.13598v1,"Qi Sun, Kun Huang, Xiaocui Yang, Rong Tong, Kun Zhang, Soujanya Poria",cs.CL,table2text,"Document-level Relation Triplet Extraction (DocRTE) is a fundamental task in
 information systems that aims to simultaneously extract entities with semantic

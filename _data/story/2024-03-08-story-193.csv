@@ -1,4 +1,186 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Unfamiliar Finetuning Examples Control How Language Models Hallucinate,2024-03-08 18:28:13+00:00,http://arxiv.org/abs/2403.05612v1,"Katie Kang, Eric Wallace, Claire Tomlin, Aviral Kumar, Sergey Levine","cs.LG, cs.AI, cs.CL",story,"Large language models (LLMs) have a tendency to generate plausible-sounding
+yet factually incorrect responses, especially when queried on unfamiliar
+concepts. In this work, we explore the underlying mechanisms that govern how
+finetuned LLMs hallucinate. Our investigation reveals an interesting pattern:
+as inputs become more unfamiliar, LLM outputs tend to default towards a
+``hedged'' prediction, whose form is determined by how the unfamiliar examples
+in the finetuning data are supervised. Thus, by strategically modifying these
+examples' supervision, we can control LLM predictions for unfamiliar inputs
+(e.g., teach them to say ``I don't know''). Based on these principles, we
+develop an RL approach that more reliably mitigates hallucinations for
+long-form generation tasks, by tackling the challenges presented by reward
+model hallucinations. We validate our findings with a series of controlled
+experiments in multiple-choice QA on MMLU, as well as long-form biography and
+book/movie plot generation tasks.",2024-03-08
+SARD: A Human-AI Collaborative Story Generation,2024-03-03 17:48:42+00:00,http://arxiv.org/abs/2403.01575v1,"Ahmed Y. Radwan, Khaled M. Alasmari, Omar A. Abdulbagi, Emad A. Alghamdi","cs.HC, cs.AI",story,"Generative artificial intelligence (GenAI) has ushered in a new era for
+storytellers, providing a powerful tool to ignite creativity and explore
+uncharted narrative territories. As technology continues to advance, the
+synergy between human creativity and AI-generated content holds the potential
+to redefine the landscape of storytelling. In this work, we propose SARD, a
+drag-and-drop visual interface for generating a multi-chapter story using large
+language models. Our evaluation of the usability of SARD and its creativity
+support shows that while node-based visualization of the narrative may help
+writers build a mental model, it exerts unnecessary mental overhead to the
+writer and becomes a source of distraction as the story becomes more
+elaborated. We also found that AI generates stories that are less lexically
+diverse, irrespective of the complexity of the story. We identified some
+patterns and limitations of our tool that can guide the development of future
+human-AI co-writing tools.",2024-03-03
+Improving Open-Ended Text Generation via Adaptive Decoding,2024-02-28 10:38:21+00:00,http://arxiv.org/abs/2402.18223v1,"Wenhong Zhu, Hongkun Hao, Zhiwei He, Yiming Ai, Rui Wang",cs.CL,story,"Current language models decode text token by token according to probabilistic
+distribution, and determining the appropriate candidates for the next token is
+crucial to ensure generation quality. This study introduces adaptive decoding,
+a mechanism that empowers the language models to ascertain a sensible candidate
+set during the generation process dynamically. Specifically, we introduce an
+entropy-based metric called confidence and conceptualize determining the
+optimal candidate set as a confidence-increasing process. The rationality of
+including a token in the candidate set is assessed by leveraging the increment
+of confidence, enabling the model to determine the most suitable candidate set
+adaptively. The experimental results reveal that our method achieves higher
+MAUVE and diversity in story generation tasks and maintains certain coherence,
+underscoring its superiority over existing algorithms. The code is available at
+https://github.com/zwhong714/adaptive_decoding.",2024-02-28
+"Creating Suspenseful Stories: Iterative Planning with Large Language
+  Models",2024-02-27 01:25:52+00:00,http://arxiv.org/abs/2402.17119v1,"Kaige Xie, Mark Riedl",cs.CL,story,"Automated story generation has been one of the long-standing challenges in
+NLP. Among all dimensions of stories, suspense is very common in human-written
+stories but relatively under-explored in AI-generated stories. While recent
+advances in large language models (LLMs) have greatly promoted language
+generation in general, state-of-the-art LLMs are still unreliable when it comes
+to suspenseful story generation. We propose a novel iterative-prompting-based
+planning method that is grounded in two theoretical foundations of story
+suspense from cognitive psychology and narratology. This theory-grounded method
+works in a fully zero-shot manner and does not rely on any supervised story
+corpora. To the best of our knowledge, this paper is the first attempt at
+suspenseful story generation with LLMs. Extensive human evaluations of the
+generated suspenseful stories demonstrate the effectiveness of our method.",2024-02-27
+"Leveraging Large Language Models for Learning Complex Legal Concepts
+  through Storytelling",2024-02-26 20:56:06+00:00,http://arxiv.org/abs/2402.17019v1,"Hang Jiang, Xiajie Zhang, Robert Mahari, Daniel Kessler, Eric Ma, Tal August, Irene Li, Alex 'Sandy' Pentland, Yoon Kim, Jad Kabbara, Deb Roy","cs.CL, cs.HC",story,"Making legal knowledge accessible to non-experts is crucial for enhancing
+general legal literacy and encouraging civic participation in democracy.
+However, legal documents are often challenging to understand for people without
+legal backgrounds. In this paper, we present a novel application of large
+language models (LLMs) in legal education to help non-experts learn intricate
+legal concepts through storytelling, an effective pedagogical tool in conveying
+complex and abstract concepts. We also introduce a new dataset LegalStories,
+which consists of 295 complex legal doctrines, each accompanied by a story and
+a set of multiple-choice questions generated by LLMs. To construct the dataset,
+we experiment with various LLMs to generate legal stories explaining these
+concepts. Furthermore, we use an expert-in-the-loop method to iteratively
+design multiple-choice questions. Then, we evaluate the effectiveness of
+storytelling with LLMs through an RCT experiment with legal novices on 10
+samples from the dataset. We find that LLM-generated stories enhance
+comprehension of legal concepts and interest in law among non-native speakers
+compared to only definitions. Moreover, stories consistently help participants
+relate legal concepts to their lives. Finally, we find that learning with
+stories shows a higher retention rate for non-native speakers in the follow-up
+assessment. Our work has strong implications for using LLMs in promoting
+teaching and learning in the legal field and beyond.",2024-02-26
+Bias in Language Models: Beyond Trick Tests and Toward RUTEd Evaluation,2024-02-20 01:49:15+00:00,http://arxiv.org/abs/2402.12649v1,"Kristian Lum, Jacy Reese Anthis, Chirag Nagpal, Alexander D'Amour","cs.CL, stat.AP",story,"Bias benchmarks are a popular method for studying the negative impacts of
+bias in LLMs, yet there has been little empirical investigation of whether
+these benchmarks are actually indicative of how real world harm may manifest in
+the real world. In this work, we study the correspondence between such
+decontextualized ""trick tests"" and evaluations that are more grounded in
+Realistic Use and Tangible {Effects (i.e. RUTEd evaluations). We explore this
+correlation in the context of gender-occupation bias--a popular genre of bias
+evaluation. We compare three de-contextualized evaluations adapted from the
+current literature to three analogous RUTEd evaluations applied to long-form
+content generation. We conduct each evaluation for seven instruction-tuned
+LLMs. For the RUTEd evaluations, we conduct repeated trials of three text
+generation tasks: children's bedtime stories, user personas, and English
+language learning exercises. We found no correspondence between trick tests and
+RUTEd evaluations. Specifically, selecting the least biased model based on the
+de-contextualized results coincides with selecting the model with the best
+performance on RUTEd evaluations only as often as random chance. We conclude
+that evaluations that are not based in realistic use are likely insufficient to
+mitigate and assess bias and real-world harms.",2024-02-20
+Neural paraphrasing by automatically crawled and aligned sentence pairs,2024-02-16 10:40:38+00:00,http://arxiv.org/abs/2402.10558v1,"Achille Globo, Antonio Trevisi, Andrea Zugarini, Leonardo Rigutini, Marco Maggini, Stefano Melacci",cs.CL,story,"Paraphrasing is the task of re-writing an input text using other words,
+without altering the meaning of the original content. Conversational systems
+can exploit automatic paraphrasing to make the conversation more natural, e.g.,
+talking about a certain topic using different paraphrases in different time
+instants. Recently, the task of automatically generating paraphrases has been
+approached in the context of Natural Language Generation (NLG). While many
+existing systems simply consist in rule-based models, the recent success of the
+Deep Neural Networks in several NLG tasks naturally suggests the possibility of
+exploiting such networks for generating paraphrases. However, the main obstacle
+toward neural-network-based paraphrasing is the lack of large datasets with
+aligned pairs of sentences and paraphrases, that are needed to efficiently
+train the neural models. In this paper we present a method for the automatic
+generation of large aligned corpora, that is based on the assumption that news
+and blog websites talk about the same events using different narrative styles.
+We propose a similarity search procedure with linguistic constraints that,
+given a reference sentence, is able to locate the most similar candidate
+paraphrases out from millions of indexed sentences. The data generation process
+is evaluated in the case of the Italian language, performing experiments using
+pointer-based deep neural architectures.",2024-02-16
+"Examining Gender and Racial Bias in Large Vision-Language Models Using a
+  Novel Dataset of Parallel Images",2024-02-08 16:11:23+00:00,http://arxiv.org/abs/2402.05779v1,"Kathleen C. Fraser, Svetlana Kiritchenko","cs.CY, cs.CL, cs.CV",story,"Following on recent advances in large language models (LLMs) and subsequent
+chat models, a new wave of large vision-language models (LVLMs) has emerged.
+Such models can incorporate images as input in addition to text, and perform
+tasks such as visual question answering, image captioning, story generation,
+etc. Here, we examine potential gender and racial biases in such systems, based
+on the perceived characteristics of the people in the input images. To
+accomplish this, we present a new dataset PAIRS (PArallel Images for eveRyday
+Scenarios). The PAIRS dataset contains sets of AI-generated images of people,
+such that the images are highly similar in terms of background and visual
+content, but differ along the dimensions of gender (man, woman) and race
+(Black, white). By querying the LVLMs with such images, we observe significant
+differences in the responses according to the perceived gender or race of the
+person depicted.",2024-02-08
+SWAG: Storytelling With Action Guidance,2024-02-05 19:55:06+00:00,http://arxiv.org/abs/2402.03483v1,"Zeeshan Patel, Karim El-Refai, Jonathan Pei, Tianle Li","cs.CL, cs.AI",story,"Automated long-form story generation typically employs long-context large
+language models (LLMs) for one-shot creation, which can produce cohesive but
+not necessarily engaging content. We introduce Storytelling With Action
+Guidance (SWAG), a novel approach to storytelling with LLMs. Our approach
+reduces story writing to a search problem through a two-model feedback loop:
+one LLM generates story content, and another auxiliary LLM is used to choose
+the next best ""action"" to steer the story's future direction. Our results show
+that SWAG can substantially outperform previous end-to-end story generation
+techniques when evaluated by GPT-4 and through human evaluation, and our SWAG
+pipeline using only open-source models surpasses GPT-3.5-Turbo.",2024-02-05
+"Shadowcast: Stealthy Data Poisoning Attacks Against Vision-Language
+  Models",2024-02-05 18:55:53+00:00,http://arxiv.org/abs/2402.06659v1,"Yuancheng Xu, Jiarui Yao, Manli Shu, Yanchao Sun, Zichu Wu, Ning Yu, Tom Goldstein, Furong Huang","cs.CR, cs.AI, cs.LG",story,"Vision-Language Models (VLMs) excel in generating textual responses from
+visual inputs, yet their versatility raises significant security concerns. This
+study takes the first step in exposing VLMs' susceptibility to data poisoning
+attacks that can manipulate responses to innocuous, everyday prompts. We
+introduce Shadowcast, a stealthy data poisoning attack method where poison
+samples are visually indistinguishable from benign images with matching texts.
+Shadowcast demonstrates effectiveness in two attack types. The first is Label
+Attack, tricking VLMs into misidentifying class labels, such as confusing
+Donald Trump for Joe Biden. The second is Persuasion Attack, which leverages
+VLMs' text generation capabilities to craft narratives, such as portraying junk
+food as health food, through persuasive and seemingly rational descriptions. We
+show that Shadowcast are highly effective in achieving attacker's intentions
+using as few as 50 poison samples. Moreover, these poison samples remain
+effective across various prompts and are transferable across different VLM
+architectures in the black-box setting. This work reveals how poisoned VLMs can
+generate convincing yet deceptive misinformation and underscores the importance
+of data quality for responsible deployments of VLMs. Our code is available at:
+https://github.com/umd-huang-lab/VLM-Poisoning.",2024-02-05
+"Towards scalable robotic intervention of children with Autism Spectrum
+  Disorder using LLMs",2024-02-01 01:09:00+00:00,http://arxiv.org/abs/2402.00260v1,"Ruchik Mishra, Karla Conn Welch","cs.RO, cs.AI",story,"In this paper, we propose a social robot capable of verbally interacting with
+children with Autism Spectrum Disorder (ASD). This communication is meant to
+teach perspective-taking using text generated using a Large Language Model
+(LLM) pipeline. The social robot NAO acts as a stimulator (verbally describes a
+social situation and asks a question), prompter (presents three options to
+choose from), and reinforcer (praises when the answer is correct). For the role
+of the stimulator, the social situation, questions, and options are generated
+using our LLM pipeline. We compare two approaches: GPT-2 + BART and GPT-2 +
+GPT-2, where the first GPT-2 common between the pipelines is used for
+unsupervised social situation generation. We use the SOCIALIQA dataset to
+fine-tune all of our LLM pipelines. We found that the GPT-2 + BART pipeline had
+a better BERTscore for generating the questions and the options by combining
+their individual loss functions. This observation was also consistent with the
+human evaluations. Lastly, the unsupervised generation of social situations was
+visualized using T-SNE plots, and the entire pipeline was evaluated for
+appropriateness for children with ASD by human experts.",2024-02-01
+The Detection and Understanding of Fictional Discourse,2024-01-30 01:57:17+00:00,http://arxiv.org/abs/2401.16678v1,"Andrew Piper, Haiqi Zhou","cs.CL, cs.LG",story,"In this paper, we present a variety of classification experiments related to
+the task of fictional discourse detection. We utilize a diverse array of
+datasets, including contemporary professionally published fiction, historical
+fiction from the Hathi Trust, fanfiction, stories from Reddit, folk tales,
+GPT-generated stories, and anglophone world literature. Additionally, we
+introduce a new feature set of word ""supersenses"" that facilitate the goal of
+semantic generalization. The detection of fictional discourse can help enrich
+our knowledge of large cultural heritage archives and assist with the process
+of understanding the distinctive qualities of fictional storytelling more
+broadly.",2024-01-30
 Exploring Automatic Text Simplification of German Narrative Documents,2023-12-15 16:10:44+00:00,http://arxiv.org/abs/2312.09907v1,"Thorben Schomacker, Tillmann Dönicke, Marina Tropmann-Frick","cs.CL, cs.AI",story,"In this paper, we apply transformer-based Natural Language Generation (NLG)
 techniques to the problem of text simplification. Currently, there are only a
 few German datasets available for text simplification, even fewer with larger

@@ -1,4 +1,39 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"MAP-Elites with Transverse Assessment for Multimodal Problems in
+  Creative Domains",2024-03-11 21:50:22+00:00,http://arxiv.org/abs/2403.07182v1,"Marvin Zammit, Antonios Liapis, Georgios N. Yannakakis",cs.NE,games,"The recent advances in language-based generative models have paved the way
+for the orchestration of multiple generators of different artefact types (text,
+image, audio, etc.) into one system. Presently, many open-source pre-trained
+models combine text with other modalities, thus enabling shared vector
+embeddings to be compared across different generators. Within this context we
+propose a novel approach to handle multimodal creative tasks using Quality
+Diversity evolution. Our contribution is a variation of the MAP-Elites
+algorithm, MAP-Elites with Transverse Assessment (MEliTA), which is tailored
+for multimodal creative tasks and leverages deep learned models that assess
+coherence across modalities. MEliTA decouples the artefacts' modalities and
+promotes cross-pollination between elites. As a test bed for this algorithm, we
+generate text descriptions and cover images for a hypothetical video game and
+assign each artefact a unique modality-specific behavioural characteristic.
+Results indicate that MEliTA can improve text-to-image mappings within the
+solution space, compared to a baseline MAP-Elites algorithm that strictly
+treats each image-text pair as one solution. Our approach represents a
+significant step forward in multimodal bottom-up orchestration and lays the
+groundwork for more complex systems coordinating multimodal creative agents in
+the future.",2024-03-11
+SyntaxShap: Syntax-aware Explainability Method for Text Generation,2024-02-14 15:45:56+00:00,http://arxiv.org/abs/2402.09259v1,"Kenza Amara, Rita Sevastjanova, Mennatallah El-Assady","cs.CL, cs.AI",games,"To harness the power of large language models in safety-critical domains we
+need to ensure the explainability of their predictions. However, despite the
+significant attention to model interpretability, there remains an unexplored
+domain in explaining sequence-to-sequence tasks using methods tailored for
+textual data. This paper introduces SyntaxShap, a local, model-agnostic
+explainability method for text generation that takes into consideration the
+syntax in the text data. The presented work extends Shapley values to account
+for parsing-based syntactic dependencies. Taking a game theoric approach,
+SyntaxShap only considers coalitions constraint by the dependency tree. We
+adopt a model-based evaluation to compare SyntaxShap and its weighted form to
+state-of-the-art explainability methods adapted to text generation tasks, using
+diverse metrics including faithfulness, complexity, coherency, and semantic
+alignment of the explanations to the model. We show that our syntax-aware
+method produces explanations that help build more faithful, coherent, and
+interpretable explanations for predictions by autoregressive models.",2024-02-14
 Prompt Optimization via Adversarial In-Context Learning,2023-12-05 09:44:45+00:00,http://arxiv.org/abs/2312.02614v1,"Xuan Long Do, Yiran Zhao, Hannah Brown, Yuxi Xie, James Xu Zhao, Nancy F. Chen, Kenji Kawaguchi, Michael Qizhe Xie, Junxian He","cs.LG, cs.CL",games,"We propose a new method, Adversarial In-Context Learning (adv-ICL), to
 optimize prompt for in-context learning (ICL) by employing one LLM as a
 generator, another as a discriminator, and a third as a prompt modifier. As in

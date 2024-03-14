@@ -1,4 +1,190 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"SemEval-2024 Shared Task 6: SHROOM, a Shared-task on Hallucinations and
+  Related Observable Overgeneration Mistakes",2024-03-12 15:06:22+00:00,http://arxiv.org/abs/2403.07726v1,"Timothee Mickus, Elaine Zosa, Raúl Vázquez, Teemu Vahtola, Jörg Tiedemann, Vincent Segonne, Alessandro Raganato, Marianna Apidianaki",cs.CL,image2text,"This paper presents the results of the SHROOM, a shared task focused on
+detecting hallucinations: outputs from natural language generation (NLG)
+systems that are fluent, yet inaccurate. Such cases of overgeneration put in
+jeopardy many NLG applications, where correctness is often mission-critical.
+The shared task was conducted with a newly constructed dataset of 4000 model
+outputs labeled by 5 annotators each, spanning 3 NLP tasks: machine
+translation, paraphrase generation and definition modeling.
+  The shared task was tackled by a total of 58 different users grouped in 42
+teams, out of which 27 elected to write a system description paper;
+collectively, they submitted over 300 prediction sets on both tracks of the
+shared task. We observe a number of key trends in how this approach was tackled
+-- many participants rely on a handful of model, and often rely either on
+synthetic data for fine-tuning or zero-shot prompting strategies. While a
+majority of the teams did outperform our proposed baseline system, the
+performances of top-scoring systems are still consistent with a random handling
+of the more challenging items.",2024-03-12
+"Premonition: Using Generative Models to Preempt Future Data Changes in
+  Continual Learning",2024-03-12 06:29:54+00:00,http://arxiv.org/abs/2403.07356v1,"Mark D. McDonnell, Dong Gong, Ehsan Abbasnejad, Anton van den Hengel","cs.CV, cs.LG",image2text,"Continual learning requires a model to adapt to ongoing changes in the data
+distribution, and often to the set of tasks to be performed. It is rare,
+however, that the data and task changes are completely unpredictable. Given a
+description of an overarching goal or data theme, which we call a realm, humans
+can often guess what concepts are associated with it. We show here that the
+combination of a large language model and an image generation model can
+similarly provide useful premonitions as to how a continual learning challenge
+might develop over time. We use the large language model to generate text
+descriptions of semantically related classes that might potentially appear in
+the data stream in future. These descriptions are then rendered using Stable
+Diffusion to generate new labelled image samples. The resulting synthetic
+dataset is employed for supervised pre-training, but is discarded prior to
+commencing continual learning, along with the pre-training classification head.
+We find that the backbone of our pre-trained networks can learn representations
+useful for the downstream continual learning problem, thus becoming a valuable
+input to any existing continual learning method. Although there are
+complexities arising from the domain gap between real and synthetic images, we
+show that pre-training models in this manner improves multiple Class Incremenal
+Learning (CIL) methods on fine-grained image classification benchmarks.
+Supporting code can be found at https://github.com/cl-premonition/premonition.",2024-03-12
+"MAP-Elites with Transverse Assessment for Multimodal Problems in
+  Creative Domains",2024-03-11 21:50:22+00:00,http://arxiv.org/abs/2403.07182v1,"Marvin Zammit, Antonios Liapis, Georgios N. Yannakakis",cs.NE,image2text,"The recent advances in language-based generative models have paved the way
+for the orchestration of multiple generators of different artefact types (text,
+image, audio, etc.) into one system. Presently, many open-source pre-trained
+models combine text with other modalities, thus enabling shared vector
+embeddings to be compared across different generators. Within this context we
+propose a novel approach to handle multimodal creative tasks using Quality
+Diversity evolution. Our contribution is a variation of the MAP-Elites
+algorithm, MAP-Elites with Transverse Assessment (MEliTA), which is tailored
+for multimodal creative tasks and leverages deep learned models that assess
+coherence across modalities. MEliTA decouples the artefacts' modalities and
+promotes cross-pollination between elites. As a test bed for this algorithm, we
+generate text descriptions and cover images for a hypothetical video game and
+assign each artefact a unique modality-specific behavioural characteristic.
+Results indicate that MEliTA can improve text-to-image mappings within the
+solution space, compared to a baseline MAP-Elites algorithm that strictly
+treats each image-text pair as one solution. Our approach represents a
+significant step forward in multimodal bottom-up orchestration and lays the
+groundwork for more complex systems coordinating multimodal creative agents in
+the future.",2024-03-11
+One Category One Prompt: Dataset Distillation using Diffusion Models,2024-03-11 20:23:59+00:00,http://arxiv.org/abs/2403.07142v1,"Ali Abbasi, Ashkan Shahbazi, Hamed Pirsiavash, Soheil Kolouri","cs.CV, cs.CL, cs.LG",image2text,"The extensive amounts of data required for training deep neural networks pose
+significant challenges on storage and transmission fronts. Dataset distillation
+has emerged as a promising technique to condense the information of massive
+datasets into a much smaller yet representative set of synthetic samples.
+However, traditional dataset distillation approaches often struggle to scale
+effectively with high-resolution images and more complex architectures due to
+the limitations in bi-level optimization. Recently, several works have proposed
+exploiting knowledge distillation with decoupled optimization schemes to scale
+up dataset distillation. Although these methods effectively address the
+scalability issue, they rely on extensive image augmentations requiring the
+storage of soft labels for augmented images. In this paper, we introduce
+Dataset Distillation using Diffusion Models (D3M) as a novel paradigm for
+dataset distillation, leveraging recent advancements in generative
+text-to-image foundation models. Our approach utilizes textual inversion, a
+technique for fine-tuning text-to-image generative models, to create concise
+and informative representations for large datasets. By employing these learned
+text prompts, we can efficiently store and infer new samples for introducing
+data variability within a fixed memory budget. We show the effectiveness of our
+method through extensive experiments across various computer vision benchmark
+datasets with different memory budgets.",2024-03-11
+Narrating Causal Graphs with Large Language Models,2024-03-11 19:19:59+00:00,http://arxiv.org/abs/2403.07118v1,"Atharva Phatak, Vijay K. Mago, Ameeta Agrawal, Aravind Inbasekaran, Philippe J. Giabbanelli",cs.CL,image2text,"The use of generative AI to create text descriptions from graphs has mostly
+focused on knowledge graphs, which connect concepts using facts. In this work
+we explore the capability of large pretrained language models to generate text
+from causal graphs, where salient concepts are represented as nodes and
+causality is represented via directed, typed edges. The causal reasoning
+encoded in these graphs can support applications as diverse as healthcare or
+marketing. Using two publicly available causal graph datasets, we empirically
+investigate the performance of four GPT-3 models under various settings. Our
+results indicate that while causal text descriptions improve with training
+data, compared to fact-based graphs, they are harder to generate under
+zero-shot settings. Results further suggest that users of generative AI can
+deploy future applications faster since similar performances are obtained when
+training a model with only a few examples as compared to fine-tuning via a
+large curated dataset.",2024-03-11
+"Enhancing Image Caption Generation Using Reinforcement Learning with
+  Human Feedback",2024-03-11 13:57:05+00:00,http://arxiv.org/abs/2403.06735v1,"Adarsh N L, Arun P V, Aravindh N L","cs.CV, cs.AI",image2text,"Research on generative models to produce human-aligned / human-preferred
+outputs has seen significant recent contributions. Between text and
+image-generative models, we narrowed our focus to text-based generative models,
+particularly to produce captions for images that align with human preferences.
+In this research, we explored a potential method to amplify the performance of
+the Deep Neural Network Model to generate captions that are preferred by
+humans. This was achieved by integrating Supervised Learning and Reinforcement
+Learning with Human Feedback (RLHF) using the Flickr8k dataset. Also, a novel
+loss function that is capable of optimizing the model based on human feedback
+is introduced. In this paper, we provide a concise sketch of our approach and
+results, hoping to contribute to the ongoing advances in the field of
+human-aligned generative AI models.",2024-03-11
+"Defending Against Unforeseen Failure Modes with Latent Adversarial
+  Training",2024-03-08 04:22:48+00:00,http://arxiv.org/abs/2403.05030v1,"Stephen Casper, Lennart Schulze, Oam Patel, Dylan Hadfield-Menell","cs.CR, cs.AI, cs.LG",image2text,"AI systems sometimes exhibit harmful unintended behaviors post-deployment.
+This is often despite extensive diagnostics and debugging by developers.
+Minimizing risks from models is challenging because the attack surface is so
+large. It is not tractable to exhaustively search for inputs that may cause a
+model to fail. Red-teaming and adversarial training (AT) are commonly used to
+make AI systems more robust. However, they have not been sufficient to avoid
+many real-world failure modes that differ from the ones adversarially trained
+on. In this work, we utilize latent adversarial training (LAT) to defend
+against vulnerabilities without generating inputs that elicit them. LAT
+leverages the compressed, abstract, and structured latent representations of
+concepts that the network actually uses for prediction. We use LAT to remove
+trojans and defend against held-out classes of adversarial attacks. We show in
+image classification, text classification, and text generation tasks that LAT
+usually improves both robustness and performance on clean data relative to AT.
+This suggests that LAT can be a promising tool for defending against failure
+modes that are not explicitly identified by developers.",2024-03-08
+Enhancing Court View Generation with Knowledge Injection and Guidance,2024-03-07 09:51:11+00:00,http://arxiv.org/abs/2403.04366v1,"Ang Li, Yiquan Wu, Yifei Liu, Fei Wu, Ming Cai, Kun Kuang",cs.AI,image2text,"Court View Generation (CVG) is a challenging task in the field of Legal
+Artificial Intelligence (LegalAI), which aims to generate court views based on
+the plaintiff claims and the fact descriptions. While Pretrained Language
+Models (PLMs) have showcased their prowess in natural language generation,
+their application to the complex, knowledge-intensive domain of CVG often
+reveals inherent limitations. In this paper, we present a novel approach, named
+Knowledge Injection and Guidance (KIG), designed to bolster CVG using PLMs. To
+efficiently incorporate domain knowledge during the training stage, we
+introduce a knowledge-injected prompt encoder for prompt tuning, thereby
+reducing computational overhead. Moreover, to further enhance the model's
+ability to utilize domain knowledge, we employ a generating navigator, which
+dynamically guides the text generation process in the inference stage without
+altering the model's architecture, making it readily transferable.
+Comprehensive experiments on real-world data demonstrate the effectiveness of
+our approach compared to several established baselines, especially in the
+responsivity of claims, where it outperforms the best baseline by 11.87%.",2024-03-07
+"Neural Image Compression with Text-guided Encoding for both Pixel-level
+  and Perceptual Fidelity",2024-03-05 13:15:01+00:00,http://arxiv.org/abs/2403.02944v1,"Hagyeong Lee, Minkyu Kim, Jun-Hyuk Kim, Seungeon Kim, Dokwan Oh, Jaeho Lee","cs.CV, cs.LG",image2text,"Recent advances in text-guided image compression have shown great potential
+to enhance the perceptual quality of reconstructed images. These methods,
+however, tend to have significantly degraded pixel-wise fidelity, limiting
+their practicality. To fill this gap, we develop a new text-guided image
+compression algorithm that achieves both high perceptual and pixel-wise
+fidelity. In particular, we propose a compression framework that leverages text
+information mainly by text-adaptive encoding and training with joint image-text
+loss. By doing so, we avoid decoding based on text-guided generative models --
+known for high generative diversity -- and effectively utilize the semantic
+information of text at a global level. Experimental results on various datasets
+show that our method can achieve high pixel-level and perceptual quality, with
+either human- or machine-generated captions. In particular, our method
+outperforms all baselines in terms of LPIPS, with some room for even more
+improvements when we use more carefully generated captions.",2024-03-05
+"Bespoke Non-Stationary Solvers for Fast Sampling of Diffusion and Flow
+  Models",2024-03-02 22:27:44+00:00,http://arxiv.org/abs/2403.01329v1,"Neta Shaul, Uriel Singer, Ricky T. Q. Chen, Matthew Le, Ali Thabet, Albert Pumarola, Yaron Lipman","cs.LG, cs.AI, cs.CV",image2text,"This paper introduces Bespoke Non-Stationary (BNS) Solvers, a solver
+distillation approach to improve sample efficiency of Diffusion and Flow
+models. BNS solvers are based on a family of non-stationary solvers that
+provably subsumes existing numerical ODE solvers and consequently demonstrate
+considerable improvement in sample approximation (PSNR) over these baselines.
+Compared to model distillation, BNS solvers benefit from a tiny parameter space
+($<$200 parameters), fast optimization (two orders of magnitude faster),
+maintain diversity of samples, and in contrast to previous solver distillation
+approaches nearly close the gap from standard distillation methods such as
+Progressive Distillation in the low-medium NFE regime. For example, BNS solver
+achieves 45 PSNR / 1.76 FID using 16 NFE in class-conditional ImageNet-64. We
+experimented with BNS solvers for conditional image generation, text-to-image
+generation, and text-2-audio generation showing significant improvement in
+sample approximation (PSNR) in all.",2024-03-02
+"CounterCurate: Enhancing Physical and Semantic Visio-Linguistic
+  Compositional Reasoning via Counterfactual Examples",2024-02-20 18:59:55+00:00,http://arxiv.org/abs/2402.13254v2,"Jianrui Zhang, Mu Cai, Tengyang Xie, Yong Jae Lee","cs.CV, cs.AI, cs.CL, cs.LG",image2text,"We propose CounterCurate, a framework to comprehensively improve the
+visio-linguistic compositional reasoning capability for both contrastive and
+generative multimodal models. In particular, we identify two critical
+under-explored problems: the neglect of the physically grounded reasoning
+(counting and position understanding) and the potential of using highly capable
+text and image generation models for semantic counterfactual fine-tuning. Our
+work pioneers an approach that addresses these gaps. We first spotlight the
+near-chance performance of multimodal models like CLIP and LLaVA in physically
+grounded compositional reasoning. We then apply simple data augmentation using
+grounded image generation model GLIGEN to generate fine-tuning data, resulting
+in significant performance improvements: +33% and +37% for CLIP and LLaVA,
+respectively, on our newly curated Flickr30k-Positions benchmark. Moreover, we
+exploit the capabilities of high-performing text generation and image
+generation models, specifically GPT-4V and DALLE-3, to curate challenging
+semantic counterfactuals, thereby further enhancing compositional reasoning
+capabilities on benchmarks such as SugarCrepe, where CounterCurate outperforms
+GPT-4V.",2024-02-20
 "Towards Explainable Harmful Meme Detection through Multimodal Debate
   between Large Language Models",2024-01-24 08:37:16+00:00,http://arxiv.org/abs/2401.13298v1,"Hongzhan Lin, Ziyang Luo, Wei Gao, Jing Ma, Bo Wang, Ruichao Yang","cs.CL, cs.AI",image2text,"The age of social media is flooded with Internet memes, necessitating a clear
 grasp and effective identification of harmful ones. This task presents a
