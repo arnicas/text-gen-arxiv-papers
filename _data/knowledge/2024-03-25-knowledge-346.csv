@@ -1,4 +1,128 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+ToXCL: A Unified Framework for Toxic Speech Detection and Explanation,2024-03-25 12:21:38+00:00,http://arxiv.org/abs/2403.16685v1,"Nhat M. Hoang, Xuan Long Do, Duc Anh Do, Duc Anh Vu, Luu Anh Tuan","cs.CL, cs.CY",knowledge,"The proliferation of online toxic speech is a pertinent problem posing
+threats to demographic groups. While explicit toxic speech contains offensive
+lexical signals, implicit one consists of coded or indirect language.
+Therefore, it is crucial for models not only to detect implicit toxic speech
+but also to explain its toxicity. This draws a unique need for unified
+frameworks that can effectively detect and explain implicit toxic speech. Prior
+works mainly formulated the task of toxic speech detection and explanation as a
+text generation problem. Nonetheless, models trained using this strategy can be
+prone to suffer from the consequent error propagation problem. Moreover, our
+experiments reveal that the detection results of such models are much lower
+than those that focus only on the detection task. To bridge these gaps, we
+introduce ToXCL, a unified framework for the detection and explanation of
+implicit toxic speech. Our model consists of three modules: a (i) Target Group
+Generator to generate the targeted demographic group(s) of a given post; an
+(ii) Encoder-Decoder Model in which the encoder focuses on detecting implicit
+toxic speech and is boosted by a (iii) Teacher Classifier via knowledge
+distillation, and the decoder generates the necessary explanation. ToXCL
+achieves new state-of-the-art effectiveness, and outperforms baselines
+significantly.",2024-03-25
+"Evidence-Driven Retrieval Augmented Response Generation for Online
+  Misinformation",2024-03-22 05:05:45+00:00,http://arxiv.org/abs/2403.14952v1,"Zhenrui Yue, Huimin Zeng, Yimeng Lu, Lanyu Shang, Yang Zhang, Dong Wang","cs.CL, cs.AI",knowledge,"The proliferation of online misinformation has posed significant threats to
+public interest. While numerous online users actively participate in the combat
+against misinformation, many of such responses can be characterized by the lack
+of politeness and supporting facts. As a solution, text generation approaches
+are proposed to automatically produce counter-misinformation responses.
+Nevertheless, existing methods are often trained end-to-end without leveraging
+external knowledge, resulting in subpar text quality and excessively repetitive
+responses. In this paper, we propose retrieval augmented response generation
+for online misinformation (RARG), which collects supporting evidence from
+scientific sources and generates counter-misinformation responses based on the
+evidences. In particular, our RARG consists of two stages: (1) evidence
+collection, where we design a retrieval pipeline to retrieve and rerank
+evidence documents using a database comprising over 1M academic articles; (2)
+response generation, in which we align large language models (LLMs) to generate
+evidence-based responses via reinforcement learning from human feedback (RLHF).
+We propose a reward function to maximize the utilization of the retrieved
+evidence while maintaining the quality of the generated text, which yields
+polite and factual responses that clearly refutes misinformation. To
+demonstrate the effectiveness of our method, we study the case of COVID-19 and
+perform extensive experiments with both in- and cross-domain datasets, where
+RARG consistently outperforms baselines by generating high-quality
+counter-misinformation responses.",2024-03-22
+A Closer Look at Claim Decomposition,2024-03-18 16:03:45+00:00,http://arxiv.org/abs/2403.11903v1,"Miriam Wanner, Seth Ebner, Zhengping Jiang, Mark Dredze, Benjamin Van Durme",cs.CL,knowledge,"As generated text becomes more commonplace, it is increasingly important to
+evaluate how well-supported such text is by external knowledge sources. Many
+approaches for evaluating textual support rely on some method for decomposing
+text into its individual subclaims which are scored against a trusted
+reference. We investigate how various methods of claim decomposition --
+especially LLM-based methods -- affect the result of an evaluation approach
+such as the recently proposed FActScore, finding that it is sensitive to the
+decomposition method used. This sensitivity arises because such metrics
+attribute overall textual support to the model that generated the text even
+though error can also come from the metric's decomposition step. To measure
+decomposition quality, we introduce an adaptation of FActScore, which we call
+DecompScore. We then propose an LLM-based approach to generating decompositions
+inspired by Bertrand Russell's theory of logical atomism and neo-Davidsonian
+semantics and demonstrate its improved decomposition quality over previous
+methods.",2024-03-18
+"GPT-4 as Evaluator: Evaluating Large Language Models on Pest Management
+  in Agriculture",2024-03-18 15:08:01+00:00,http://arxiv.org/abs/2403.11858v1,"Shanglong Yang, Zhipeng Yuan, Shunbao Li, Ruoling Peng, Kang Liu, Po Yang",cs.CL,knowledge,"In the rapidly evolving field of artificial intelligence (AI), the
+application of large language models (LLMs) in agriculture, particularly in
+pest management, remains nascent. We aimed to prove the feasibility by
+evaluating the content of the pest management advice generated by LLMs,
+including the Generative Pre-trained Transformer (GPT) series from OpenAI and
+the FLAN series from Google. Considering the context-specific properties of
+agricultural advice, automatically measuring or quantifying the quality of text
+generated by LLMs becomes a significant challenge. We proposed an innovative
+approach, using GPT-4 as an evaluator, to score the generated content on
+Coherence, Logical Consistency, Fluency, Relevance, Comprehensibility, and
+Exhaustiveness. Additionally, we integrated an expert system based on crop
+threshold data as a baseline to obtain scores for Factual Accuracy on whether
+pests found in crop fields should take management action. Each model's score
+was weighted by percentage to obtain a final score. The results showed that
+GPT-3.4 and GPT-4 outperform the FLAN models in most evaluation categories.
+Furthermore, the use of instruction-based prompting containing domain-specific
+knowledge proved the feasibility of LLMs as an effective tool in agriculture,
+with an accuracy rate of 72%, demonstrating LLMs' effectiveness in providing
+pest management suggestions.",2024-03-18
+Embedded Named Entity Recognition using Probing Classifiers,2024-03-18 12:58:16+00:00,http://arxiv.org/abs/2403.11747v1,"Nicholas Popovič, Michael Färber",cs.CL,knowledge,"Extracting semantic information from generated text is a useful tool for
+applications such as automated fact checking or retrieval augmented generation.
+Currently, this requires either separate models during inference, which
+increases computational cost, or destructive fine-tuning of the language model.
+Instead, we propose directly embedding information extraction capabilities into
+pre-trained language models using probing classifiers, enabling efficient
+simultaneous text generation and information extraction. For this, we introduce
+an approach called EMBER and show that it enables named entity recognition in
+decoder-only language models without fine-tuning them and while incurring
+minimal additional computational cost at inference time. Specifically, our
+experiments using GPT-2 show that EMBER maintains high token generation rates
+during streaming text generation, with only a negligible decrease in speed of
+around 1% compared to a 43.64% slowdown measured for a baseline using a
+separate NER model. Code and data are available at
+https://github.com/nicpopovic/EMBER.",2024-03-18
+"Reinforcement Learning with Token-level Feedback for Controllable Text
+  Generation",2024-03-18 08:18:37+00:00,http://arxiv.org/abs/2403.11558v1,"Wendi Li, Wei Wei, Kaihe Xu, Wenfeng Xie, Dangyang Chen, Yu Cheng","cs.CL, cs.AI",knowledge,"To meet the requirements of real-world applications, it is essential to
+control generations of large language models (LLMs). Prior research has tried
+to introduce reinforcement learning (RL) into controllable text generation
+while most existing methods suffer from overfitting issues (finetuning-based
+methods) or semantic collapse (post-processing methods). However, current RL
+methods are generally guided by coarse-grained (sentence/paragraph-level)
+feedback, which may lead to suboptimal performance owing to semantic twists or
+progressions within sentences. To tackle that, we propose a novel reinforcement
+learning algorithm named TOLE which formulates TOken-LEvel rewards for
+controllable text generation, and employs a ""first-quantize-then-noise""
+paradigm to enhance the robustness of the RL algorithm.Furthermore, TOLE can be
+flexibly extended to multiple constraints with little computational expense.
+Experimental results show that our algorithm can achieve superior performance
+on both single-attribute and multi-attribute control tasks. We have released
+our codes at https://github.com/WindyLee0822/CTG",2024-03-18
+"ProSwitch: Knowledge-Guided Language Model Fine-Tuning to Generate
+  Professional and Non-Professional Styled Text",2024-03-14 06:49:16+00:00,http://arxiv.org/abs/2403.09131v2,"Chang Zong, Yuyan Chen, Weiming Lu, Jian Shao, Yueting Zhuang","cs.CL, cs.AI, 68T50, I.2.7",knowledge,"Large Language Models (LLMs) have demonstrated efficacy in various linguistic
+applications, including text summarization and controlled text generation.
+However, studies into their capacity of switching between styles via
+fine-tuning remain underexplored. This study concentrates on textual
+professionalism and introduces a novel methodology, named ProSwitch, which
+equips a language model with the ability to produce both professional and
+non-professional responses through knowledge-guided instruction tuning.
+ProSwitch unfolds across three phases: data preparation for gathering domain
+knowledge and training corpus; instruction tuning for optimizing language
+models with multiple levels of instruction formats; and comprehensive
+evaluation for assessing the professionalism discrimination and reference-based
+quality of generated text. Comparative analysis of ProSwitch against both
+general and specialized language models reveals that our approach outperforms
+baselines in switching between professional and non-professional text
+generation.",2024-03-14
 "Truth-Aware Context Selection: Mitigating the Hallucinations of Large
   Language Models Being Misled by Untruthful Contexts",2024-03-12 11:40:44+00:00,http://arxiv.org/abs/2403.07556v1,"Tian Yu, Shaolei Zhang, Yang Feng",cs.CL,knowledge,"Although large language models (LLMs) have demonstrated impressive text
 generation capabilities, they are easily misled by the untruthful context

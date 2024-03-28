@@ -6,10 +6,17 @@ sidebar:
 ---
 
 
-*written on 2024-03-14*
+*written on 2024-03-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [ToXCL: A Unified Framework for Toxic Speech Detection and Explanation](http://arxiv.org/abs/2403.16685v1) | Nhat M. Hoang, Xuan Long Do, Duc Anh Do, Duc Anh Vu, Luu Anh Tuan | cs.CL, cs.CY | 2024-03-25 |
+| [Evidence-Driven Retrieval Augmented Response Generation for Online  Misinformation](http://arxiv.org/abs/2403.14952v1) | Zhenrui Yue, Huimin Zeng, Yimeng Lu, Lanyu Shang, Yang Zhang, Dong Wang | cs.CL, cs.AI | 2024-03-22 |
+| [A Closer Look at Claim Decomposition](http://arxiv.org/abs/2403.11903v1) | Miriam Wanner, Seth Ebner, Zhengping Jiang, Mark Dredze, Benjamin Van Durme | cs.CL | 2024-03-18 |
+| [GPT-4 as Evaluator: Evaluating Large Language Models on Pest Management  in Agriculture](http://arxiv.org/abs/2403.11858v1) | Shanglong Yang, Zhipeng Yuan, Shunbao Li, Ruoling Peng, Kang Liu, Po Yang | cs.CL | 2024-03-18 |
+| [Embedded Named Entity Recognition using Probing Classifiers](http://arxiv.org/abs/2403.11747v1) | Nicholas Popovič, Michael Färber | cs.CL | 2024-03-18 |
+| [Reinforcement Learning with Token-level Feedback for Controllable Text  Generation](http://arxiv.org/abs/2403.11558v1) | Wendi Li, Wei Wei, Kaihe Xu, Wenfeng Xie, Dangyang Chen, Yu Cheng | cs.CL, cs.AI | 2024-03-18 |
+| [ProSwitch: Knowledge-Guided Language Model Fine-Tuning to Generate  Professional and Non-Professional Styled Text](http://arxiv.org/abs/2403.09131v2) | Chang Zong, Yuyan Chen, Weiming Lu, Jian Shao, Yueting Zhuang | cs.CL, cs.AI, 68T50, I.2.7 | 2024-03-14 |
 | [Truth-Aware Context Selection: Mitigating the Hallucinations of Large  Language Models Being Misled by Untruthful Contexts](http://arxiv.org/abs/2403.07556v1) | Tian Yu, Shaolei Zhang, Yang Feng | cs.CL | 2024-03-12 |
 | [Complex Reasoning over Logical Queries on Commonsense Knowledge Graphs](http://arxiv.org/abs/2403.07398v1) | Tianqing Fang, Zeming Chen, Yangqiu Song, Antoine Bosselut | cs.CL, cs.AI | 2024-03-12 |
 | [Premonition: Using Generative Models to Preempt Future Data Changes in  Continual Learning](http://arxiv.org/abs/2403.07356v1) | Mark D. McDonnell, Dong Gong, Ehsan Abbasnejad, Anton van den Hengel | cs.CV, cs.LG | 2024-03-12 |

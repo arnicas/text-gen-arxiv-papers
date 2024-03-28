@@ -7,10 +7,15 @@ sidebar:
 ---
 
 
-*written on 2024-03-14*
+*written on 2024-03-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Outcome-Constrained Large Language Models for Countering Hate Speech](http://arxiv.org/abs/2403.17146v1) | Lingzi Hong, Pengcheng Luo, Eduardo Blanco, Xiaoying Song | cs.CL | 2024-03-25 |
+| [Grammatical vs Spelling Error Correction: An Investigation into the  Responsiveness of Transformer-based Language Models using BART and MarianMT](http://arxiv.org/abs/2403.16655v1) | Rohit Raju, Peeta Basa Pati, SA Gandheesh, Gayatri Sanjana Sannala, Suriya KS | cs.CL | 2024-03-25 |
+| [Mapping LLM Security Landscapes: A Comprehensive Stakeholder Risk  Assessment Proposal](http://arxiv.org/abs/2403.13309v1) | Rahul Pankajakshan, Sumitra Biswal, Yuvaraj Govindarajulu, Gilad Gressel | cs.CR, cs.AI | 2024-03-20 |
+| [ConvSDG: Session Data Generation for Conversational Search](http://arxiv.org/abs/2403.11335v1) | Fengran Mo, Bole Yi, Kelong Mao, Chen Qu, Kaiyu Huang, Jian-Yun Nie | cs.IR, cs.CL | 2024-03-17 |
+| [Keyformer: KV Cache Reduction through Key Tokens Selection for Efficient  Generative Inference](http://arxiv.org/abs/2403.09054v1) | Muhammad Adnan, Akhil Arunkumar, Gaurav Jain, Prashant J. Nair, Ilya Soloveychik, Purushotham Kamath | cs.LG, cs.AI, cs.AR, cs.CL, 68U35, I.2.7; C.0 | 2024-03-14 |
 | [MAP-Elites with Transverse Assessment for Multimodal Problems in  Creative Domains](http://arxiv.org/abs/2403.07182v1) | Marvin Zammit, Antonios Liapis, Georgios N. Yannakakis | cs.NE | 2024-03-11 |
 | [MP2D: An Automated Topic Shift Dialogue Generation Framework Leveraging  Knowledge Graphs](http://arxiv.org/abs/2403.05814v1) | Yerin Hwang, Yongil Kim, Yunah Jang, Jeesoo Bang, Hyunkyung Bae, Kyomin Jung | cs.CL, cs.AI | 2024-03-09 |
 | [Emotional Manipulation Through Prompt Engineering Amplifies  Disinformation Generation in AI Large Language Models](http://arxiv.org/abs/2403.03550v1) | Rasita Vinay, Giovanni Spitale, Nikola Biller-Andorno, Federico Germani | cs.AI, cs.CY, cs.HC | 2024-03-06 |

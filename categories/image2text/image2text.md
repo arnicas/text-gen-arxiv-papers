@@ -7,10 +7,20 @@ sidebar:
 ---
 
 
-*written on 2024-03-14*
+*written on 2024-03-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Semi-Supervised Image Captioning Considering Wasserstein Graph Matching](http://arxiv.org/abs/2403.17995v1) | Yang Yang | cs.CV, cs.AI, cs.LG | 2024-03-26 |
+| [The Solution for the ICCV 2023 1st Scientific Figure Captioning  Challenge](http://arxiv.org/abs/2403.17342v1) | Dian Chao, Xin Song, Shupeng Zhong, Boyuan Wang, Xiangyu Wu, Chen Zhu, Yang Yang | cs.CV, cs.AI | 2024-03-26 |
+| [UrbanVLP: A Multi-Granularity Vision-Language Pre-Trained Foundation  Model for Urban Indicator Prediction](http://arxiv.org/abs/2403.16831v1) | Xixuan Hao, Wei Chen, Yibo Yan, Siru Zhong, Kun Wang, Qingsong Wen, Yuxuan Liang | cs.CV, cs.AI | 2024-03-25 |
+| [Grammatical vs Spelling Error Correction: An Investigation into the  Responsiveness of Transformer-based Language Models using BART and MarianMT](http://arxiv.org/abs/2403.16655v1) | Rohit Raju, Peeta Basa Pati, SA Gandheesh, Gayatri Sanjana Sannala, Suriya KS | cs.CL | 2024-03-25 |
+| [Visually Guided Generative Text-Layout Pre-training for Document  Intelligence](http://arxiv.org/abs/2403.16516v2) | Zhiming Mao, Haoli Bai, Lu Hou, Jiansheng Wei, Xin Jiang, Qun Liu, Kam-Fai Wong | cs.CL, cs.CV | 2024-03-25 |
+| [Refining Text-to-Image Generation: Towards Accurate Training-Free  Glyph-Enhanced Image Generation](http://arxiv.org/abs/2403.16422v1) | Sanyam Lakhanpal, Shivang Chopra, Vinija Jain, Aman Chadha, Man Luo | cs.CV, cs.AI | 2024-03-25 |
+| [Dia-LLaMA: Towards Large Language Model-driven CT Report Generation](http://arxiv.org/abs/2403.16386v1) | Zhixuan Chen, Luyang Luo, Yequan Bie, Hao Chen | cs.CV, cs.AI | 2024-03-25 |
+| [Exploiting Semantic Reconstruction to Mitigate Hallucinations in  Vision-Language Models](http://arxiv.org/abs/2403.16167v2) | Minchan Kim, Minyeong Kim, Junik Bae, Suhwan Choi, Sungkyung Kim, Buru Chang | cs.CV, cs.CL | 2024-03-24 |
+| [Cognitive resilience: Unraveling the proficiency of image-captioning  models to interpret masked visual content](http://arxiv.org/abs/2403.15876v1) | Zhicheng Du, Zhaotian Xie, Huazhang Ying, Likun Zhang, Peiwu Qin | cs.CV, cs.AI | 2024-03-23 |
+| [InstaSynth: Opportunities and Challenges in Generating Synthetic  Instagram Data with ChatGPT for Sponsored Content Detection](http://arxiv.org/abs/2403.15214v1) | Thales Bertaglia, Lily Heisig, Rishabh Kaushal, Adriana Iamnitchi | cs.CY, cs.CL, cs.SI | 2024-03-22 |
 | [SemEval-2024 Shared Task 6: SHROOM, a Shared-task on Hallucinations and  Related Observable Overgeneration Mistakes](http://arxiv.org/abs/2403.07726v1) | Timothee Mickus, Elaine Zosa, Raúl Vázquez, Teemu Vahtola, Jörg Tiedemann, Vincent Segonne, Alessandro Raganato, Marianna Apidianaki | cs.CL | 2024-03-12 |
 | [Premonition: Using Generative Models to Preempt Future Data Changes in  Continual Learning](http://arxiv.org/abs/2403.07356v1) | Mark D. McDonnell, Dong Gong, Ehsan Abbasnejad, Anton van den Hengel | cs.CV, cs.LG | 2024-03-12 |
 | [MAP-Elites with Transverse Assessment for Multimodal Problems in  Creative Domains](http://arxiv.org/abs/2403.07182v1) | Marvin Zammit, Antonios Liapis, Georgios N. Yannakakis | cs.NE | 2024-03-11 |

@@ -1,4 +1,57 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"SciNews: From Scholarly Complexities to Public Narratives -- A Dataset
+  for Scientific News Report Generation",2024-03-26 14:54:48+00:00,http://arxiv.org/abs/2403.17768v1,"Dongqi Pu, Yifan Wang, Jia Loy, Vera Demberg","cs.CL, cs.AI, cs.LG",story,"Scientific news reports serve as a bridge, adeptly translating complex
+research articles into reports that resonate with the broader public. The
+automated generation of such narratives enhances the accessibility of scholarly
+insights. In this paper, we present a new corpus to facilitate this paradigm
+development. Our corpus comprises a parallel compilation of academic
+publications and their corresponding scientific news reports across nine
+disciplines. To demonstrate the utility and reliability of our dataset, we
+conduct an extensive analysis, highlighting the divergences in readability and
+brevity between scientific news narratives and academic manuscripts. We
+benchmark our dataset employing state-of-the-art text generation models. The
+evaluation process involves both automatic and human evaluation, which lays the
+groundwork for future explorations into the automated generation of scientific
+news reports. The dataset and code related to this work are available at
+https://dongqi.me/projects/SciNews.",2024-03-26
+Protected group bias and stereotypes in Large Language Models,2024-03-21 00:21:38+00:00,http://arxiv.org/abs/2403.14727v1,"Hadas Kotek, David Q. Sun, Zidi Xiu, Margit Bowler, Christopher Klein","cs.CY, cs.CL, cs.LG",story,"As modern Large Language Models (LLMs) shatter many state-of-the-art
+benchmarks in a variety of domains, this paper investigates their behavior in
+the domains of ethics and fairness, focusing on protected group bias. We
+conduct a two-part study: first, we solicit sentence continuations describing
+the occupations of individuals from different protected groups, including
+gender, sexuality, religion, and race. Second, we have the model generate
+stories about individuals who hold different types of occupations. We collect
+>10k sentence completions made by a publicly available LLM, which we subject to
+human annotation. We find bias across minoritized groups, but in particular in
+the domains of gender and sexuality, as well as Western bias, in model
+generations. The model not only reflects societal biases, but appears to
+amplify them. The model is additionally overly cautious in replies to queries
+relating to minoritized groups, providing responses that strongly emphasize
+diversity and equity to an extent that other group characteristics are
+overshadowed. This suggests that artificially constraining potentially harmful
+outputs may itself lead to harm, and should be applied in a careful and
+controlled manner.",2024-03-21
+Caveat Lector: Large Language Models in Legal Practice,2024-03-14 08:19:41+00:00,http://arxiv.org/abs/2403.09163v1,Eliza Mik,"cs.CL, cs.CY",story,"The current fascination with large language models, or LLMs, derives from the
+fact that many users lack the expertise to evaluate the quality of the
+generated text. LLMs may therefore appear more capable than they actually are.
+The dangerous combination of fluency and superficial plausibility leads to the
+temptation to trust the generated text and creates the risk of overreliance.
+Who would not trust perfect legalese? Relying recent findings in both technical
+and legal scholarship, this Article counterbalances the overly optimistic
+predictions as to the role of LLMs in legal practice. Integrating LLMs into
+legal workstreams without a better comprehension of their limitations, will
+create inefficiencies if not outright risks. Notwithstanding their
+unprecedented ability to generate text, LLMs do not understand text. Without
+the ability to understand meaning, LLMs will remain unable to use language, to
+acquire knowledge and to perform complex reasoning tasks. Trained to model
+language on the basis of stochastic word predictions, LLMs cannot distinguish
+fact from fiction. Their knowledge of the law is limited to word strings
+memorized in their parameters. It is also incomplete and largely incorrect.
+LLMs operate at the level of word distributions, not at the level of verified
+facts. The resulting propensity to hallucinate, to produce statements that are
+incorrect but appear helpful and relevant, is alarming in high-risk areas like
+legal services. At present, lawyers should beware of relying on text generated
+by LLMs.",2024-03-14
 Unfamiliar Finetuning Examples Control How Language Models Hallucinate,2024-03-08 18:28:13+00:00,http://arxiv.org/abs/2403.05612v1,"Katie Kang, Eric Wallace, Claire Tomlin, Aviral Kumar, Sergey Levine","cs.LG, cs.AI, cs.CL",story,"Large language models (LLMs) have a tendency to generate plausible-sounding
 yet factually incorrect responses, especially when queried on unfamiliar
 concepts. In this work, we explore the underlying mechanisms that govern how

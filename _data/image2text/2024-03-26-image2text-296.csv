@@ -1,4 +1,186 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Semi-Supervised Image Captioning Considering Wasserstein Graph Matching,2024-03-26 14:47:05+00:00,http://arxiv.org/abs/2403.17995v1,Yang Yang,"cs.CV, cs.AI, cs.LG",image2text,"Image captioning can automatically generate captions for the given images,
+and the key challenge is to learn a mapping function from visual features to
+natural language features. Existing approaches are mostly supervised ones,
+i.e., each image has a corresponding sentence in the training set. However,
+considering that describing images always requires a huge of manpower, we
+usually have limited amount of described images (i.e., image-text pairs) and a
+large number of undescribed images in real-world applications. Thereby, a
+dilemma is the ""Semi-Supervised Image Captioning"". To solve this problem, we
+propose a novel Semi-Supervised Image Captioning method considering Wasserstein
+Graph Matching (SSIC-WGM), which turns to adopt the raw image inputs to
+supervise the generated sentences. Different from traditional single modal
+semi-supervised methods, the difficulty of semi-supervised cross-modal learning
+lies in constructing intermediately comparable information among heterogeneous
+modalities. In this paper, SSIC-WGM adopts the successful scene graphs as
+intermediate information, and constrains the generated sentences from two
+aspects: 1) inter-modal consistency. SSIC-WGM constructs the scene graphs of
+the raw image and generated sentence respectively, then employs the wasserstein
+distance to better measure the similarity between region embeddings of
+different graphs. 2) intra-modal consistency. SSIC-WGM takes the data
+augmentation techniques for the raw images, then constrains the consistency
+among augmented images and generated sentences. Consequently, SSIC-WGM combines
+the cross-modal pseudo supervision and structure invariant measure for
+efficiently using the undescribed images, and learns more reasonable mapping
+function.",2024-03-26
+"The Solution for the ICCV 2023 1st Scientific Figure Captioning
+  Challenge",2024-03-26 03:03:50+00:00,http://arxiv.org/abs/2403.17342v1,"Dian Chao, Xin Song, Shupeng Zhong, Boyuan Wang, Xiangyu Wu, Chen Zhu, Yang Yang","cs.CV, cs.AI",image2text,"In this paper, we propose a solution for improving the quality of captions
+generated for figures in papers. We adopt the approach of summarizing the
+textual content in the paper to generate image captions. Throughout our study,
+we encounter discrepancies in the OCR information provided in the official
+dataset. To rectify this, we employ the PaddleOCR toolkit to extract OCR
+information from all images. Moreover, we observe that certain textual content
+in the official paper pertains to images that are not relevant for captioning,
+thereby introducing noise during caption generation. To mitigate this issue, we
+leverage LLaMA to extract image-specific information by querying the textual
+content based on image mentions, effectively filtering out extraneous
+information. Additionally, we recognize a discrepancy between the primary use
+of maximum likelihood estimation during text generation and the evaluation
+metrics such as ROUGE employed to assess the quality of generated captions. To
+bridge this gap, we integrate the BRIO model framework, enabling a more
+coherent alignment between the generation and evaluation processes. Our
+approach ranked first in the final test with a score of 4.49.",2024-03-26
+"UrbanVLP: A Multi-Granularity Vision-Language Pre-Trained Foundation
+  Model for Urban Indicator Prediction",2024-03-25 14:57:18+00:00,http://arxiv.org/abs/2403.16831v1,"Xixuan Hao, Wei Chen, Yibo Yan, Siru Zhong, Kun Wang, Qingsong Wen, Yuxuan Liang","cs.CV, cs.AI",image2text,"Urban indicator prediction aims to infer socio-economic metrics in diverse
+urban landscapes using data-driven methods. However, prevalent pre-trained
+models, particularly those reliant on satellite imagery, face dual challenges.
+Firstly, concentrating solely on macro-level patterns from satellite data may
+introduce bias, lacking nuanced details at micro levels, such as architectural
+details at a place. Secondly, the lack of interpretability in pre-trained
+models limits their utility in providing transparent evidence for urban
+planning. In response to these issues, we devise a novel Vision-Language
+Pre-Trained Model (UrbanVLP) in this paper. Our UrbanVLP seamlessly integrates
+multi-granularity information from both macro (satellite) and micro
+(street-view) levels, overcoming the limitations of prior pre-trained models.
+Moreover, it introduces automatic text generation and calibration, elevating
+interpretability in downstream applications by producing high-quality text
+descriptions of urban imagery. Rigorous experiments conducted across six
+socio-economic tasks underscore UrbanVLP's superior performance. We also deploy
+a web platform to verify its practicality.",2024-03-25
+"Grammatical vs Spelling Error Correction: An Investigation into the
+  Responsiveness of Transformer-based Language Models using BART and MarianMT",2024-03-25 11:45:21+00:00,http://arxiv.org/abs/2403.16655v1,"Rohit Raju, Peeta Basa Pati, SA Gandheesh, Gayatri Sanjana Sannala, Suriya KS",cs.CL,image2text,"Text continues to remain a relevant form of representation for information.
+Text documents are created either in digital native platforms or through the
+conversion of other media files such as images and speech. While the digital
+native text is invariably obtained through physical or virtual keyboards,
+technologies such as OCR and speech recognition are utilized to transform the
+images and speech signals into text content. All these variety of mechanisms of
+text generation also introduce errors into the captured text.
+  This project aims at analyzing different kinds of error that occurs in text
+documents. The work employs two of the advanced deep neural network-based
+language models, namely, BART and MarianMT, to rectify the anomalies present in
+the text. Transfer learning of these models with available dataset is performed
+to finetune their capacity for error correction. A comparative study is
+conducted to investigate the effectiveness of these models in handling each of
+the defined error categories. It is observed that while both models can bring
+down the erroneous sentences by 20+%, BART can handle spelling errors far
+better (24.6%) than grammatical errors (8.8%).",2024-03-25
+"Visually Guided Generative Text-Layout Pre-training for Document
+  Intelligence",2024-03-25 08:00:43+00:00,http://arxiv.org/abs/2403.16516v2,"Zhiming Mao, Haoli Bai, Lu Hou, Jiansheng Wei, Xin Jiang, Qun Liu, Kam-Fai Wong","cs.CL, cs.CV",image2text,"Prior study shows that pre-training techniques can boost the performance of
+visual document understanding (VDU), which typically requires models to gain
+abilities to perceive and reason both document texts and layouts (e.g.,
+locations of texts and table-cells). To this end, we propose visually guided
+generative text-layout pre-training, named ViTLP. Given a document image, the
+model optimizes hierarchical language and layout modeling objectives to
+generate the interleaved text and layout sequence. In addition, to address the
+limitation of processing long documents by Transformers, we introduce a
+straightforward yet effective multi-segment generative pre-training scheme,
+facilitating ViTLP to process word-intensive documents of any length. ViTLP can
+function as a native OCR model to localize and recognize texts of document
+images. Besides, ViTLP can be effectively applied to various downstream VDU
+tasks. Extensive experiments show that ViTLP achieves competitive performance
+over existing baselines on benchmark VDU tasks, including information
+extraction, document classification, and document question answering.",2024-03-25
+"Refining Text-to-Image Generation: Towards Accurate Training-Free
+  Glyph-Enhanced Image Generation",2024-03-25 04:54:49+00:00,http://arxiv.org/abs/2403.16422v1,"Sanyam Lakhanpal, Shivang Chopra, Vinija Jain, Aman Chadha, Man Luo","cs.CV, cs.AI",image2text,"Over the past few years, Text-to-Image (T2I) generation approaches based on
+diffusion models have gained significant attention. However, vanilla diffusion
+models often suffer from spelling inaccuracies in the text displayed within the
+generated images. The capability to generate visual text is crucial, offering
+both academic interest and a wide range of practical applications. To produce
+accurate visual text images, state-of-the-art techniques adopt a
+glyph-controlled image generation approach, consisting of a text layout
+generator followed by an image generator that is conditioned on the generated
+text layout. Nevertheless, our study reveals that these models still face three
+primary challenges, prompting us to develop a testbed to facilitate future
+research. We introduce a benchmark, LenCom-Eval, specifically designed for
+testing models' capability in generating images with Lengthy and Complex visual
+text. Subsequently, we introduce a training-free framework to enhance the
+two-stage generation approaches. We examine the effectiveness of our approach
+on both LenCom-Eval and MARIO-Eval benchmarks and demonstrate notable
+improvements across a range of evaluation metrics, including CLIPScore, OCR
+precision, recall, F1 score, accuracy, and edit distance scores. For instance,
+our proposed framework improves the backbone model, TextDiffuser, by more than
+23\% and 13.5\% in terms of OCR word F1 on LenCom-Eval and MARIO-Eval,
+respectively. Our work makes a unique contribution to the field by focusing on
+generating images with long and rare text sequences, a niche previously
+unexplored by existing literature",2024-03-25
+Dia-LLaMA: Towards Large Language Model-driven CT Report Generation,2024-03-25 03:02:51+00:00,http://arxiv.org/abs/2403.16386v1,"Zhixuan Chen, Luyang Luo, Yequan Bie, Hao Chen","cs.CV, cs.AI",image2text,"Medical report generation has achieved remarkable advancements yet has still
+been faced with several challenges. First, the inherent imbalance in the
+distribution of normal and abnormal cases may lead models to exhibit a biased
+focus on normal samples, resulting in unreliable diagnoses. Second, the
+frequent occurrence of common template sentences in the reports may overwhelm
+the critical abnormal information. Moreover, existing works focus on 2D chest
+X-rays, leaving CT report generation underexplored due to the high-dimensional
+nature of CT images and the limited availability of CT-report pairs. Recently,
+LLM has shown a great ability to generate reliable answers with appropriate
+prompts, which shed light on addressing the aforementioned challenges. In this
+paper, we propose Dia-LLaMA, a framework to adapt the LLaMA2-7B for CT report
+generation by incorporating diagnostic information as guidance prompts.
+Considering the high dimension of CT, we leverage a pre-trained ViT3D with
+perceiver to extract the visual information. To tailor the LLM for report
+generation and emphasize abnormality, we extract additional diagnostic
+information by referring to a disease prototype memory bank, which is updated
+during training to capture common disease representations. Furthermore, we
+introduce disease-aware attention to enable the model to adjust attention for
+different diseases. Experiments on the chest CT dataset demonstrated that our
+proposed method outperformed previous methods and achieved state-of-the-art on
+both clinical efficacy performance and natural language generation metrics. The
+code will be made publically available.",2024-03-25
+"Exploiting Semantic Reconstruction to Mitigate Hallucinations in
+  Vision-Language Models",2024-03-24 14:21:06+00:00,http://arxiv.org/abs/2403.16167v2,"Minchan Kim, Minyeong Kim, Junik Bae, Suhwan Choi, Sungkyung Kim, Buru Chang","cs.CV, cs.CL",image2text,"Hallucinations in vision-language models pose a significant challenge to
+their reliability, particularly in the generation of long captions. Current
+methods fall short of accurately identifying and mitigating these
+hallucinations. To address this issue, we introduce ESREAL, a novel
+unsupervised learning framework designed to suppress the generation of
+hallucinations through accurate localization and penalization of hallucinated
+tokens. Initially, ESREAL creates a reconstructed image based on the generated
+caption and aligns its corresponding regions with those of the original image.
+This semantic reconstruction aids in identifying both the presence and type of
+token-level hallucinations within the generated caption. Subsequently, ESREAL
+computes token-level hallucination scores by assessing the semantic similarity
+of aligned regions based on the type of hallucination. Finally, ESREAL employs
+a proximal policy optimization algorithm, where it selectively penalizes
+hallucinated tokens according to their token-level hallucination scores. Our
+framework notably reduces hallucinations in LLaVA, InstructBLIP, and mPLUG-Owl2
+by 32.81%, 27.08%, and 7.46% on the CHAIR metric. This improvement is achieved
+solely through signals derived from the image itself, without the need for any
+image-text pairs.",2024-03-24
+"Cognitive resilience: Unraveling the proficiency of image-captioning
+  models to interpret masked visual content",2024-03-23 15:53:00+00:00,http://arxiv.org/abs/2403.15876v1,"Zhicheng Du, Zhaotian Xie, Huazhang Ying, Likun Zhang, Peiwu Qin","cs.CV, cs.AI",image2text,"This study explores the ability of Image Captioning (IC) models to decode
+masked visual content sourced from diverse datasets. Our findings reveal the IC
+model's capability to generate captions from masked images, closely resembling
+the original content. Notably, even in the presence of masks, the model adeptly
+crafts descriptive textual information that goes beyond what is observable in
+the original image-generated captions. While the decoding performance of the IC
+model experiences a decline with an increase in the masked region's area, the
+model still performs well when important regions of the image are not masked at
+high coverage.",2024-03-23
+"InstaSynth: Opportunities and Challenges in Generating Synthetic
+  Instagram Data with ChatGPT for Sponsored Content Detection",2024-03-22 13:58:42+00:00,http://arxiv.org/abs/2403.15214v1,"Thales Bertaglia, Lily Heisig, Rishabh Kaushal, Adriana Iamnitchi","cs.CY, cs.CL, cs.SI",image2text,"Large Language Models (LLMs) raise concerns about lowering the cost of
+generating texts that could be used for unethical or illegal purposes,
+especially on social media. This paper investigates the promise of such models
+to help enforce legal requirements related to the disclosure of sponsored
+content online. We investigate the use of LLMs for generating synthetic
+Instagram captions with two objectives: The first objective (fidelity) is to
+produce realistic synthetic datasets. For this, we implement content-level and
+network-level metrics to assess whether synthetic captions are realistic. The
+second objective (utility) is to create synthetic data that is useful for
+sponsored content detection. For this, we evaluate the effectiveness of the
+generated synthetic data for training classifiers to identify undisclosed
+advertisements on Instagram. Our investigations show that the objectives of
+fidelity and utility may conflict and that prompt engineering is a useful but
+insufficient strategy. Additionally, we find that while individual synthetic
+posts may appear realistic, collectively they lack diversity, topic
+connectivity, and realistic user interaction patterns.",2024-03-22
 "SemEval-2024 Shared Task 6: SHROOM, a Shared-task on Hallucinations and
   Related Observable Overgeneration Mistakes",2024-03-12 15:06:22+00:00,http://arxiv.org/abs/2403.07726v1,"Timothee Mickus, Elaine Zosa, Raúl Vázquez, Teemu Vahtola, Jörg Tiedemann, Vincent Segonne, Alessandro Raganato, Marianna Apidianaki",cs.CL,image2text,"This paper presents the results of the SHROOM, a shared task focused on
 detecting hallucinations: outputs from natural language generation (NLG)

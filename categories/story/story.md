@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2024-03-14*
+*written on 2024-03-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [SciNews: From Scholarly Complexities to Public Narratives -- A Dataset  for Scientific News Report Generation](http://arxiv.org/abs/2403.17768v1) | Dongqi Pu, Yifan Wang, Jia Loy, Vera Demberg | cs.CL, cs.AI, cs.LG | 2024-03-26 |
+| [Protected group bias and stereotypes in Large Language Models](http://arxiv.org/abs/2403.14727v1) | Hadas Kotek, David Q. Sun, Zidi Xiu, Margit Bowler, Christopher Klein | cs.CY, cs.CL, cs.LG | 2024-03-21 |
+| [Caveat Lector: Large Language Models in Legal Practice](http://arxiv.org/abs/2403.09163v1) | Eliza Mik | cs.CL, cs.CY | 2024-03-14 |
 | [Unfamiliar Finetuning Examples Control How Language Models Hallucinate](http://arxiv.org/abs/2403.05612v1) | Katie Kang, Eric Wallace, Claire Tomlin, Aviral Kumar, Sergey Levine | cs.LG, cs.AI, cs.CL | 2024-03-08 |
 | [SARD: A Human-AI Collaborative Story Generation](http://arxiv.org/abs/2403.01575v1) | Ahmed Y. Radwan, Khaled M. Alasmari, Omar A. Abdulbagi, Emad A. Alghamdi | cs.HC, cs.AI | 2024-03-03 |
 | [Improving Open-Ended Text Generation via Adaptive Decoding](http://arxiv.org/abs/2402.18223v1) | Wenhong Zhu, Hongkun Hao, Zhiwei He, Yiming Ai, Rui Wang | cs.CL | 2024-02-28 |
