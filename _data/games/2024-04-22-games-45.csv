@@ -1,4 +1,23 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"How Well Can LLMs Echo Us? Evaluating AI Chatbots' Role-Play Ability
+  with ECHO",2024-04-22 08:00:51+00:00,http://arxiv.org/abs/2404.13957v1,"Man Tik Ng, Hui Tung Tse, Jen-tse Huang, Jingjing Li, Wenxuan Wang, Michael R. Lyu",cs.CL,games,"The role-play ability of Large Language Models (LLMs) has emerged as a
+popular research direction. However, existing studies focus on imitating
+well-known public figures or fictional characters, overlooking the potential
+for simulating ordinary individuals. Such an oversight limits the potential for
+advancements in digital human clones and non-player characters in video games.
+To bridge this gap, we introduce ECHO, an evaluative framework inspired by the
+Turing test. This framework engages the acquaintances of the target individuals
+to distinguish between human and machine-generated responses. Notably, our
+framework focuses on emulating average individuals rather than historical or
+fictional figures, presenting a unique advantage to apply the Turing Test. We
+evaluated three role-playing LLMs using ECHO, with GPT-3.5 and GPT-4 serving as
+foundational models, alongside the online application GPTs from OpenAI. Our
+results demonstrate that GPT-4 more effectively deceives human evaluators, and
+GPTs achieves a leading success rate of 48.3%. Furthermore, we investigated
+whether LLMs could discern between human-generated and machine-generated texts.
+While GPT-4 can identify differences, it could not determine which texts were
+human-produced. Our code and results of reproducing the role-playing LLMs are
+made publicly available via https://github.com/CUHK-ARISE/ECHO.",2024-04-22
 "MAP-Elites with Transverse Assessment for Multimodal Problems in
   Creative Domains",2024-03-11 21:50:22+00:00,http://arxiv.org/abs/2403.07182v1,"Marvin Zammit, Antonios Liapis, Georgios N. Yannakakis",cs.NE,games,"The recent advances in language-based generative models have paved the way
 for the orchestration of multiple generators of different artefact types (text,

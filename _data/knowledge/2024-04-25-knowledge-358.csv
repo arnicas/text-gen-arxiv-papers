@@ -1,4 +1,240 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Evaluating Consistency and Reasoning Capabilities of Large Language
+  Models",2024-04-25 10:03:14+00:00,http://arxiv.org/abs/2404.16478v1,"Yash Saxena, Sarthak Chopra, Arunendra Mani Tripathi","cs.CL, cs.AI",knowledge,"Large Language Models (LLMs) are extensively used today across various
+sectors, including academia, research, business, and finance, for tasks such as
+text generation, summarization, and translation. Despite their widespread
+adoption, these models often produce incorrect and misleading information,
+exhibiting a tendency to hallucinate. This behavior can be attributed to
+several factors, with consistency and reasoning capabilities being significant
+contributors. LLMs frequently lack the ability to generate explanations and
+engage in coherent reasoning, leading to inaccurate responses. Moreover, they
+exhibit inconsistencies in their outputs. This paper aims to evaluate and
+compare the consistency and reasoning capabilities of both public and
+proprietary LLMs. The experiments utilize the Boolq dataset as the ground
+truth, comprising questions, answers, and corresponding explanations. Queries
+from the dataset are presented as prompts to the LLMs, and the generated
+responses are evaluated against the ground truth answers. Additionally,
+explanations are generated to assess the models' reasoning abilities.
+Consistency is evaluated by repeatedly presenting the same query to the models
+and observing for variations in their responses. For measuring reasoning
+capabilities, the generated explanations are compared to the ground truth
+explanations using metrics such as BERT, BLEU, and F-1 scores. The findings
+reveal that proprietary models generally outperform public models in terms of
+both consistency and reasoning capabilities. However, even when presented with
+basic general knowledge questions, none of the models achieved a score of 90\%
+in both consistency and reasoning. This study underscores the direct
+correlation between consistency and reasoning abilities in LLMs and highlights
+the inherent reasoning challenges present in current language models.",2024-04-25
+"Semantic Routing for Enhanced Performance of LLM-Assisted Intent-Based
+  5G Core Network Management and Orchestration",2024-04-24 13:34:20+00:00,http://arxiv.org/abs/2404.15869v1,"Dimitrios Michael Manias, Ali Chouman, Abdallah Shami","cs.NI, cs.AI",knowledge,"Large language models (LLMs) are rapidly emerging in Artificial Intelligence
+(AI) applications, especially in the fields of natural language processing and
+generative AI. Not limited to text generation applications, these models
+inherently possess the opportunity to leverage prompt engineering, where the
+inputs of such models can be appropriately structured to articulate a model's
+purpose explicitly. A prominent example of this is intent-based networking, an
+emerging approach for automating and maintaining network operations and
+management. This paper presents semantic routing to achieve enhanced
+performance in LLM-assisted intent-based management and orchestration of 5G
+core networks. This work establishes an end-to-end intent extraction framework
+and presents a diverse dataset of sample user intents accompanied by a thorough
+analysis of the effects of encoders and quantization on overall system
+performance. The results show that using a semantic router improves the
+accuracy and efficiency of the LLM deployment compared to stand-alone LLMs with
+prompting architectures.",2024-04-24
+"Visual Delta Generator with Large Multi-modal Models for Semi-supervised
+  Composed Image Retrieval",2024-04-23 21:00:22+00:00,http://arxiv.org/abs/2404.15516v1,"Young Kyun Jang, Donghyun Kim, Zihang Meng, Dat Huynh, Ser-Nam Lim","cs.CV, cs.AI",knowledge,"Composed Image Retrieval (CIR) is a task that retrieves images similar to a
+query, based on a provided textual modification. Current techniques rely on
+supervised learning for CIR models using labeled triplets of the reference
+image, text, target image. These specific triplets are not as commonly
+available as simple image-text pairs, limiting the widespread use of CIR and
+its scalability. On the other hand, zero-shot CIR can be relatively easily
+trained with image-caption pairs without considering the image-to-image
+relation, but this approach tends to yield lower accuracy. We propose a new
+semi-supervised CIR approach where we search for a reference and its related
+target images in auxiliary data and learn our large language model-based Visual
+Delta Generator (VDG) to generate text describing the visual difference (i.e.,
+visual delta) between the two. VDG, equipped with fluent language knowledge and
+being model agnostic, can generate pseudo triplets to boost the performance of
+CIR models. Our approach significantly improves the existing supervised
+learning approaches and achieves state-of-the-art results on the CIR
+benchmarks.",2024-04-23
+"LLM-Personalize: Aligning LLM Planners with Human Preferences via
+  Reinforced Self-Training for Housekeeping Robots",2024-04-22 15:35:33+00:00,http://arxiv.org/abs/2404.14285v1,"Dongge Han, Trevor McInroe, Adam Jelley, Stefano V. Albrecht, Peter Bell, Amos Storkey","cs.RO, cs.AI",knowledge,"Large language models (LLMs) have shown significant potential for robotics
+applications, particularly task planning, by harnessing their language
+comprehension and text generation capabilities. However, in applications such
+as household robotics, a critical gap remains in the personalization of these
+models to individual user preferences. We introduce LLM-Personalize, a novel
+framework with an optimization pipeline designed to personalize LLM planners
+for household robotics. Our LLM-Personalize framework features an LLM planner
+that performs iterative planning in multi-room, partially-observable household
+scenarios, making use of a scene graph constructed with local observations. The
+generated plan consists of a sequence of high-level actions which are
+subsequently executed by a controller. Central to our approach is the
+optimization pipeline, which combines imitation learning and iterative
+self-training to personalize the LLM planner. In particular, the imitation
+learning phase performs initial LLM alignment from demonstrations, and
+bootstraps the model to facilitate effective iterative self-training, which
+further explores and aligns the model to user preferences. We evaluate
+LLM-Personalize on Housekeep, a challenging simulated real-world 3D benchmark
+for household rearrangements, and show that LLM-Personalize achieves more than
+a 30 percent increase in success rate over existing LLM planners, showcasing
+significantly improved alignment with human preferences. Project page:
+https://donggehan.github.io/projectllmpersonalize/.",2024-04-22
+Context-Enhanced Language Models for Generating Multi-Paper Citations,2024-04-22 04:30:36+00:00,http://arxiv.org/abs/2404.13865v1,"Avinash Anand, Kritarth Prasad, Ujjwal Goel, Mohit Gupta, Naman Lal, Astha Verma, Rajiv Ratn Shah",cs.CL,knowledge,"Citation text plays a pivotal role in elucidating the connection between
+scientific documents, demanding an in-depth comprehension of the cited paper.
+Constructing citations is often time-consuming, requiring researchers to delve
+into extensive literature and grapple with articulating relevant content. To
+address this challenge, the field of citation text generation (CTG) has
+emerged. However, while earlier methods have primarily centered on creating
+single-sentence citations, practical scenarios frequently necessitate citing
+multiple papers within a single paragraph. To bridge this gap, we propose a
+method that leverages Large Language Models (LLMs) to generate multi-citation
+sentences. Our approach involves a single source paper and a collection of
+target papers, culminating in a coherent paragraph containing multi-sentence
+citation text. Furthermore, we introduce a curated dataset named MCG-S2ORC,
+composed of English-language academic research papers in Computer Science,
+showcasing multiple citation instances. In our experiments, we evaluate three
+LLMs LLaMA, Alpaca, and Vicuna to ascertain the most effective model for this
+endeavor. Additionally, we exhibit enhanced performance by integrating
+knowledge graphs from target papers into the prompts for generating citation
+text. This research underscores the potential of harnessing LLMs for citation
+generation, opening a compelling avenue for exploring the intricate connections
+between scientific documents.",2024-04-22
+Filtered Direct Preference Optimization,2024-04-22 03:05:19+00:00,http://arxiv.org/abs/2404.13846v2,"Tetsuro Morimura, Mitsuki Sakamoto, Yuu Jinnai, Kenshi Abe, Kaito Ariu","cs.LG, cs.AI, cs.CL",knowledge,"Reinforcement learning from human feedback (RLHF) plays a crucial role in
+aligning language models with human preferences. While the significance of
+dataset quality is generally recognized, explicit investigations into its
+impact within the RLHF framework, to our knowledge, have been limited. This
+paper addresses the issue of text quality within the preference dataset by
+focusing on Direct Preference Optimization (DPO), an increasingly adopted
+reward-model-free RLHF method. We confirm that text quality significantly
+influences the performance of models optimized with DPO more than those
+optimized with reward-model-based RLHF. Building on this new insight, we
+propose an extension of DPO, termed filtered direct preference optimization
+(fDPO). fDPO uses a trained reward model to monitor the quality of texts within
+the preference dataset during DPO training. Samples of lower quality are
+discarded based on comparisons with texts generated by the model being
+optimized, resulting in a more accurate dataset. Experimental results
+demonstrate that fDPO enhances the final model performance. Our code is
+available at https://github.com/CyberAgentAILab/filtered-dpo.",2024-04-22
+"Parameter Efficient Diverse Paraphrase Generation Using Sequence-Level
+  Knowledge Distillation",2024-04-19 02:59:09+00:00,http://arxiv.org/abs/2404.12596v1,"Lasal Jayawardena, Prasan Yapa","cs.CL, cs.AI, cs.LG",knowledge,"Over the past year, the field of Natural Language Generation (NLG) has
+experienced an exponential surge, largely due to the introduction of Large
+Language Models (LLMs). These models have exhibited the most effective
+performance in a range of domains within the Natural Language Processing and
+Generation domains. However, their application in domain-specific tasks, such
+as paraphrasing, presents significant challenges. The extensive number of
+parameters makes them difficult to operate on commercial hardware, and they
+require substantial time for inference, leading to high costs in a production
+setting. In this study, we tackle these obstacles by employing LLMs to develop
+three distinct models for the paraphrasing field, applying a method referred to
+as sequence-level knowledge distillation. These distilled models are capable of
+maintaining the quality of paraphrases generated by the LLM. They demonstrate
+faster inference times and the ability to generate diverse paraphrases of
+comparable quality. A notable characteristic of these models is their ability
+to exhibit syntactic diversity while also preserving lexical diversity,
+features previously uncommon due to existing data quality issues in datasets
+and not typically observed in neural-based approaches. Human evaluation of our
+models shows that there is only a 4% drop in performance compared to the LLM
+teacher model used in the distillation process, despite being 1000 times
+smaller. This research provides a significant contribution to the NLG field,
+offering a more efficient and cost-effective solution for paraphrasing tasks.",2024-04-19
+"Incubating Text Classifiers Following User Instruction with Nothing but
+  LLM",2024-04-16 19:53:35+00:00,http://arxiv.org/abs/2404.10877v1,"Letian Peng, Jingbo Shang",cs.CL,knowledge,"In this paper, we aim to generate text classification data given arbitrary
+class definitions (i.e., user instruction), so one can train a small text
+classifier without any human annotation or raw corpus. Compared with pioneer
+attempts, our proposed Incubator is the first framework that can handle
+complicated and even mutually dependent classes (e.g., ""TED Talk given by
+Educator"" and ""Other""). Specifically, Incubator is an LLM firstly tuned on the
+instruction-to-data mappings that we obtained from classification datasets and
+descriptions on HuggingFace together with in-context augmentation by GPT-4. We
+then refine Incubator by learning on the cluster centers of semantic textual
+embeddings to emphasize the uniformity and semantic diversity in generations.
+We compare Incubator on various classification tasks with strong baselines such
+as direct LLM-based inference and training data generation by prompt
+engineering. Experiments show Incubator is able to (1) perform well on
+traditional benchmarks, (2) take label dependency and user preference into
+consideration, and (3) enable logical text mining by incubating multiple
+classifiers.",2024-04-16
+"LaDiC: Are Diffusion Models Really Inferior to Autoregressive
+  Counterparts for Image-to-Text Generation?",2024-04-16 17:47:16+00:00,http://arxiv.org/abs/2404.10763v1,"Yuchi Wang, Shuhuai Ren, Rundong Gao, Linli Yao, Qingyan Guo, Kaikai An, Jianhong Bai, Xu Sun","cs.AI, cs.CL, cs.CV",knowledge,"Diffusion models have exhibited remarkable capabilities in text-to-image
+generation. However, their performance in image-to-text generation,
+specifically image captioning, has lagged behind Auto-Regressive (AR) models,
+casting doubt on their applicability for such tasks. In this work, we revisit
+diffusion models, highlighting their capacity for holistic context modeling and
+parallel decoding. With these benefits, diffusion models can alleviate the
+inherent limitations of AR methods, including their slow inference speed, error
+propagation, and unidirectional constraints. Furthermore, we identify the prior
+underperformance of diffusion models stemming from the absence of an effective
+latent space for image-text alignment, and the discrepancy between continuous
+diffusion processes and discrete textual data. In response, we introduce a
+novel architecture, LaDiC, which utilizes a split BERT to create a dedicated
+latent space for captions and integrates a regularization module to manage
+varying text lengths. Our framework also includes a diffuser for semantic
+image-to-text conversion and a Back&Refine technique to enhance token
+interactivity during inference. LaDiC achieves state-of-the-art performance for
+diffusion-based methods on the MS COCO dataset with 38.2 BLEU@4 and 126.2
+CIDEr, demonstrating exceptional performance without pre-training or ancillary
+modules. This indicates strong competitiveness with AR models, revealing the
+previously untapped potential of diffusion models in image-to-text generation.",2024-04-16
+Generative Text Steganography with Large Language Model,2024-04-16 02:19:28+00:00,http://arxiv.org/abs/2404.10229v1,"Jiaxuan Wu, Zhengxian Wu, Yiming Xue, Juan Wen, Wanli Peng",cs.CL,knowledge,"Recent advances in large language models (LLMs) have blurred the boundary of
+high-quality text generation between humans and machines, which is favorable
+for generative text steganography. While, current advanced steganographic
+mapping is not suitable for LLMs since most users are restricted to accessing
+only the black-box API or user interface of the LLMs, thereby lacking access to
+the training vocabulary and its sampling probabilities. In this paper, we
+explore a black-box generative text steganographic method based on the user
+interfaces of large language models, which is called LLM-Stega. The main goal
+of LLM-Stega is that the secure covert communication between Alice (sender) and
+Bob (receiver) is conducted by using the user interfaces of LLMs. Specifically,
+We first construct a keyword set and design a new encrypted steganographic
+mapping to embed secret messages. Furthermore, to guarantee accurate extraction
+of secret messages and rich semantics of generated stego texts, an optimization
+mechanism based on reject sampling is proposed. Comprehensive experiments
+demonstrate that the proposed LLM-Stega outperforms current state-of-the-art
+methods.",2024-04-16
+"Gaining More Insight into Neural Semantic Parsing with Challenging
+  Benchmarks",2024-04-12 09:48:58+00:00,http://arxiv.org/abs/2404.08354v2,"Xiao Zhang, Chunliu Wang, Rik van Noord, Johan Bos",cs.CL,knowledge,"The Parallel Meaning Bank (PMB) serves as a corpus for semantic processing
+with a focus on semantic parsing and text generation. Currently, we witness an
+excellent performance of neural parsers and generators on the PMB. This might
+suggest that such semantic processing tasks have by and large been solved. We
+argue that this is not the case and that performance scores from the past on
+the PMB are inflated by non-optimal data splits and test sets that are too
+easy. In response, we introduce several changes. First, instead of the prior
+random split, we propose a more systematic splitting approach to improve the
+reliability of the standard test data. Second, except for the standard test
+set, we also propose two challenge sets: one with longer texts including
+discourse structure, and one that addresses compositional generalization. We
+evaluate five neural models for semantic parsing and meaning-to-text
+generation. Our results show that model performance declines (in some cases
+dramatically) on the challenge sets, revealing the limitations of neural models
+when confronting such challenges.",2024-04-12
+"Adapting LLMs for Efficient Context Processing through Soft Prompt
+  Compression",2024-04-07 15:44:20+00:00,http://arxiv.org/abs/2404.04997v2,"Cangqing Wang, Yutian Yang, Ruisi Li, Dan Sun, Ruicong Cai, Yuzhu Zhang, Chengqian Fu, Lillian Floyd","cs.LG, cs.AI, cs.CL",knowledge,"The rapid advancement of Large Language Models (LLMs) has inaugurated a
+transformative epoch in natural language processing, fostering unprecedented
+proficiency in text generation, comprehension, and contextual scrutiny.
+Nevertheless, effectively handling extensive contexts, crucial for myriad
+applications, poses a formidable obstacle owing to the intrinsic constraints of
+the models' context window sizes and the computational burdens entailed by
+their operations. This investigation presents an innovative framework that
+strategically tailors LLMs for streamlined context processing by harnessing the
+synergies among natural language summarization, soft prompt compression, and
+augmented utility preservation mechanisms. Our methodology, dubbed
+SoftPromptComp, amalgamates natural language prompts extracted from
+summarization methodologies with dynamically generated soft prompts to forge a
+concise yet semantically robust depiction of protracted contexts. This
+depiction undergoes further refinement via a weighting mechanism optimizing
+information retention and utility for subsequent tasks. We substantiate that
+our framework markedly diminishes computational overhead and enhances LLMs'
+efficacy across various benchmarks, while upholding or even augmenting the
+caliber of the produced content. By amalgamating soft prompt compression with
+sophisticated summarization, SoftPromptComp confronts the dual challenges of
+managing lengthy contexts and ensuring model scalability. Our findings point
+towards a propitious trajectory for augmenting LLMs' applicability and
+efficiency, rendering them more versatile and pragmatic for real-world
+applications. This research enriches the ongoing discourse on optimizing
+language models, providing insights into the potency of soft prompts and
+summarization techniques as pivotal instruments for the forthcoming generation
+of NLP solutions.",2024-04-07
 ToXCL: A Unified Framework for Toxic Speech Detection and Explanation,2024-03-25 12:21:38+00:00,http://arxiv.org/abs/2403.16685v1,"Nhat M. Hoang, Xuan Long Do, Duc Anh Do, Duc Anh Vu, Luu Anh Tuan","cs.CL, cs.CY",knowledge,"The proliferation of online toxic speech is a pertinent problem posing
 threats to demographic groups. While explicit toxic speech contains offensive
 lexical signals, implicit one consists of coded or indirect language.

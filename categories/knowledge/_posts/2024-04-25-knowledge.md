@@ -6,10 +6,22 @@ sidebar:
 ---
 
 
-*written on 2024-03-28*
+*written on 2024-04-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Evaluating Consistency and Reasoning Capabilities of Large Language  Models](http://arxiv.org/abs/2404.16478v1) | Yash Saxena, Sarthak Chopra, Arunendra Mani Tripathi | cs.CL, cs.AI | 2024-04-25 |
+| [Semantic Routing for Enhanced Performance of LLM-Assisted Intent-Based  5G Core Network Management and Orchestration](http://arxiv.org/abs/2404.15869v1) | Dimitrios Michael Manias, Ali Chouman, Abdallah Shami | cs.NI, cs.AI | 2024-04-24 |
+| [Visual Delta Generator with Large Multi-modal Models for Semi-supervised  Composed Image Retrieval](http://arxiv.org/abs/2404.15516v1) | Young Kyun Jang, Donghyun Kim, Zihang Meng, Dat Huynh, Ser-Nam Lim | cs.CV, cs.AI | 2024-04-23 |
+| [LLM-Personalize: Aligning LLM Planners with Human Preferences via  Reinforced Self-Training for Housekeeping Robots](http://arxiv.org/abs/2404.14285v1) | Dongge Han, Trevor McInroe, Adam Jelley, Stefano V. Albrecht, Peter Bell, Amos Storkey | cs.RO, cs.AI | 2024-04-22 |
+| [Context-Enhanced Language Models for Generating Multi-Paper Citations](http://arxiv.org/abs/2404.13865v1) | Avinash Anand, Kritarth Prasad, Ujjwal Goel, Mohit Gupta, Naman Lal, Astha Verma, Rajiv Ratn Shah | cs.CL | 2024-04-22 |
+| [Filtered Direct Preference Optimization](http://arxiv.org/abs/2404.13846v2) | Tetsuro Morimura, Mitsuki Sakamoto, Yuu Jinnai, Kenshi Abe, Kaito Ariu | cs.LG, cs.AI, cs.CL | 2024-04-22 |
+| [Parameter Efficient Diverse Paraphrase Generation Using Sequence-Level  Knowledge Distillation](http://arxiv.org/abs/2404.12596v1) | Lasal Jayawardena, Prasan Yapa | cs.CL, cs.AI, cs.LG | 2024-04-19 |
+| [Incubating Text Classifiers Following User Instruction with Nothing but  LLM](http://arxiv.org/abs/2404.10877v1) | Letian Peng, Jingbo Shang | cs.CL | 2024-04-16 |
+| [LaDiC: Are Diffusion Models Really Inferior to Autoregressive  Counterparts for Image-to-Text Generation?](http://arxiv.org/abs/2404.10763v1) | Yuchi Wang, Shuhuai Ren, Rundong Gao, Linli Yao, Qingyan Guo, Kaikai An, Jianhong Bai, Xu Sun | cs.AI, cs.CL, cs.CV | 2024-04-16 |
+| [Generative Text Steganography with Large Language Model](http://arxiv.org/abs/2404.10229v1) | Jiaxuan Wu, Zhengxian Wu, Yiming Xue, Juan Wen, Wanli Peng | cs.CL | 2024-04-16 |
+| [Gaining More Insight into Neural Semantic Parsing with Challenging  Benchmarks](http://arxiv.org/abs/2404.08354v2) | Xiao Zhang, Chunliu Wang, Rik van Noord, Johan Bos | cs.CL | 2024-04-12 |
+| [Adapting LLMs for Efficient Context Processing through Soft Prompt  Compression](http://arxiv.org/abs/2404.04997v2) | Cangqing Wang, Yutian Yang, Ruisi Li, Dan Sun, Ruicong Cai, Yuzhu Zhang, Chengqian Fu, Lillian Floyd | cs.LG, cs.AI, cs.CL | 2024-04-07 |
 | [ToXCL: A Unified Framework for Toxic Speech Detection and Explanation](http://arxiv.org/abs/2403.16685v1) | Nhat M. Hoang, Xuan Long Do, Duc Anh Do, Duc Anh Vu, Luu Anh Tuan | cs.CL, cs.CY | 2024-03-25 |
 | [Evidence-Driven Retrieval Augmented Response Generation for Online  Misinformation](http://arxiv.org/abs/2403.14952v1) | Zhenrui Yue, Huimin Zeng, Yimeng Lu, Lanyu Shang, Yang Zhang, Dong Wang | cs.CL, cs.AI | 2024-03-22 |
 | [A Closer Look at Claim Decomposition](http://arxiv.org/abs/2403.11903v1) | Miriam Wanner, Seth Ebner, Zhengping Jiang, Mark Dredze, Benjamin Van Durme | cs.CL | 2024-03-18 |

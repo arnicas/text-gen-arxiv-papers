@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2024-03-28*
+*written on 2024-04-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [How Well Can LLMs Echo Us? Evaluating AI Chatbots' Role-Play Ability  with ECHO](http://arxiv.org/abs/2404.13957v1) | Man Tik Ng, Hui Tung Tse, Jen-tse Huang, Jingjing Li, Wenxuan Wang, Michael R. Lyu | cs.CL | 2024-04-22 |
 | [MAP-Elites with Transverse Assessment for Multimodal Problems in  Creative Domains](http://arxiv.org/abs/2403.07182v1) | Marvin Zammit, Antonios Liapis, Georgios N. Yannakakis | cs.NE | 2024-03-11 |
 | [SyntaxShap: Syntax-aware Explainability Method for Text Generation](http://arxiv.org/abs/2402.09259v1) | Kenza Amara, Rita Sevastjanova, Mennatallah El-Assady | cs.CL, cs.AI | 2024-02-14 |
 | [Prompt Optimization via Adversarial In-Context Learning](http://arxiv.org/abs/2312.02614v1) | Xuan Long Do, Yiran Zhao, Hannah Brown, Yuxi Xie, James Xu Zhao, Nancy F. Chen, Kenji Kawaguchi, Michael Qizhe Xie, Junxian He | cs.LG, cs.CL | 2023-12-05 |

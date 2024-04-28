@@ -1,4 +1,174 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Effective Unsupervised Constrained Text Generation based on Perturbed
+  Masking",2024-04-24 13:42:26+00:00,http://arxiv.org/abs/2404.15877v1,"Yingwen Fu, Wenjie Ou, Zhou Yu, Yue Lin",cs.CL,table2text,"Unsupervised constrained text generation aims to generate text under a given
+set of constraints without any supervised data. Current state-of-the-art
+methods stochastically sample edit positions and actions, which may cause
+unnecessary search steps. In this paper, we propose PMCTG to improve
+effectiveness by searching for the best edit position and action in each step.
+Specifically, PMCTG extends perturbed masking technique to effectively search
+for the most incongruent token to edit. Then it introduces four multi-aspect
+scoring functions to select edit action to further reduce search difficulty.
+Since PMCTG does not require supervised data, it could be applied to different
+generation tasks. We show that under the unsupervised setting, PMCTG achieves
+new state-of-the-art results in two representative tasks, namely
+keywords-to-sentence generation and paraphrasing.",2024-04-24
+"Semantic Routing for Enhanced Performance of LLM-Assisted Intent-Based
+  5G Core Network Management and Orchestration",2024-04-24 13:34:20+00:00,http://arxiv.org/abs/2404.15869v1,"Dimitrios Michael Manias, Ali Chouman, Abdallah Shami","cs.NI, cs.AI",table2text,"Large language models (LLMs) are rapidly emerging in Artificial Intelligence
+(AI) applications, especially in the fields of natural language processing and
+generative AI. Not limited to text generation applications, these models
+inherently possess the opportunity to leverage prompt engineering, where the
+inputs of such models can be appropriately structured to articulate a model's
+purpose explicitly. A prominent example of this is intent-based networking, an
+emerging approach for automating and maintaining network operations and
+management. This paper presents semantic routing to achieve enhanced
+performance in LLM-assisted intent-based management and orchestration of 5G
+core networks. This work establishes an end-to-end intent extraction framework
+and presents a diverse dataset of sample user intents accompanied by a thorough
+analysis of the effects of encoders and quantization on overall system
+performance. The results show that using a semantic router improves the
+accuracy and efficiency of the LLM deployment compared to stand-alone LLMs with
+prompting architectures.",2024-04-24
+"Visual Delta Generator with Large Multi-modal Models for Semi-supervised
+  Composed Image Retrieval",2024-04-23 21:00:22+00:00,http://arxiv.org/abs/2404.15516v1,"Young Kyun Jang, Donghyun Kim, Zihang Meng, Dat Huynh, Ser-Nam Lim","cs.CV, cs.AI",table2text,"Composed Image Retrieval (CIR) is a task that retrieves images similar to a
+query, based on a provided textual modification. Current techniques rely on
+supervised learning for CIR models using labeled triplets of the reference
+image, text, target image. These specific triplets are not as commonly
+available as simple image-text pairs, limiting the widespread use of CIR and
+its scalability. On the other hand, zero-shot CIR can be relatively easily
+trained with image-caption pairs without considering the image-to-image
+relation, but this approach tends to yield lower accuracy. We propose a new
+semi-supervised CIR approach where we search for a reference and its related
+target images in auxiliary data and learn our large language model-based Visual
+Delta Generator (VDG) to generate text describing the visual difference (i.e.,
+visual delta) between the two. VDG, equipped with fluent language knowledge and
+being model agnostic, can generate pseudo triplets to boost the performance of
+CIR models. Our approach significantly improves the existing supervised
+learning approaches and achieves state-of-the-art results on the CIR
+benchmarks.",2024-04-23
+Identifying Fairness Issues in Automatically Generated Testing Content,2024-04-23 14:56:15+00:00,http://arxiv.org/abs/2404.15104v1,"Kevin Stowe, Benny Longwill, Alyssa Francis, Tatsuya Aoyama, Debanjan Ghosh, Swapna Somasundaran","cs.CL, I.2.7",table2text,"Natural language generation tools are powerful and effective for generating
+content. However, language models are known to display bias and fairness
+issues, making them impractical to deploy for many use cases. We here focus on
+how fairness issues impact automatically generated test content, which can have
+stringent requirements to ensure the test measures only what it was intended to
+measure. Specifically, we identify test content that is focused on particular
+domains and experiences that only reflect a certain demographic or that are
+potentially emotionally upsetting; both of which could inadvertently impact a
+test-taker's score. This kind of content doesn't reflect typical biases out of
+context, making it challenging even for modern models that contain safeguards.
+We build a dataset of 621 generated texts annotated for fairness and explore a
+variety of methods for classification: fine-tuning, topic-based classification,
+and prompting, including few-shot and self-correcting prompts. We find that
+combining prompt self-correction and few-shot learning performs best, yielding
+an F1 score of .791 on our held-out test set, while much smaller BERT- and
+topic-based models have competitive performance on out-of-domain data.",2024-04-23
+"Navigating the Path of Writing: Outline-guided Text Generation with
+  Large Language Models",2024-04-22 06:57:43+00:00,http://arxiv.org/abs/2404.13919v1,"Yukyung Lee, Soonwon Ka, Bokyung Son, Pilsung Kang, Jaewook Kang","cs.CL, cs.AI, cs.HC",table2text,"Large Language Models (LLMs) have significantly impacted the writing process,
+enabling collaborative content creation and enhancing productivity. However,
+generating high-quality, user-aligned text remains challenging. In this paper,
+we propose Writing Path, a framework that uses explicit outlines to guide LLMs
+in generating goal-oriented, high-quality pieces of writing. Our approach draws
+inspiration from structured writing planning and reasoning paths, focusing on
+capturing and reflecting user intentions throughout the writing process. We
+construct a diverse dataset from unstructured blog posts to benchmark writing
+performance and introduce a comprehensive evaluation framework assessing the
+quality of outlines and generated texts. Our evaluations with GPT-3.5-turbo,
+GPT-4, and HyperCLOVA X demonstrate that the Writing Path approach
+significantly enhances text quality according to both LLMs and human
+evaluations. This study highlights the potential of integrating
+writing-specific techniques into LLMs to enhance their ability to meet the
+diverse writing needs of users.",2024-04-22
+"Parameter Efficient Diverse Paraphrase Generation Using Sequence-Level
+  Knowledge Distillation",2024-04-19 02:59:09+00:00,http://arxiv.org/abs/2404.12596v1,"Lasal Jayawardena, Prasan Yapa","cs.CL, cs.AI, cs.LG",table2text,"Over the past year, the field of Natural Language Generation (NLG) has
+experienced an exponential surge, largely due to the introduction of Large
+Language Models (LLMs). These models have exhibited the most effective
+performance in a range of domains within the Natural Language Processing and
+Generation domains. However, their application in domain-specific tasks, such
+as paraphrasing, presents significant challenges. The extensive number of
+parameters makes them difficult to operate on commercial hardware, and they
+require substantial time for inference, leading to high costs in a production
+setting. In this study, we tackle these obstacles by employing LLMs to develop
+three distinct models for the paraphrasing field, applying a method referred to
+as sequence-level knowledge distillation. These distilled models are capable of
+maintaining the quality of paraphrases generated by the LLM. They demonstrate
+faster inference times and the ability to generate diverse paraphrases of
+comparable quality. A notable characteristic of these models is their ability
+to exhibit syntactic diversity while also preserving lexical diversity,
+features previously uncommon due to existing data quality issues in datasets
+and not typically observed in neural-based approaches. Human evaluation of our
+models shows that there is only a 4% drop in performance compared to the LLM
+teacher model used in the distillation process, despite being 1000 times
+smaller. This research provides a significant contribution to the NLG field,
+offering a more efficient and cost-effective solution for paraphrasing tasks.",2024-04-19
+Sampling-based Pseudo-Likelihood for Membership Inference Attacks,2024-04-17 11:12:59+00:00,http://arxiv.org/abs/2404.11262v1,"Masahiro Kaneko, Youmi Ma, Yuki Wata, Naoaki Okazaki",cs.CL,table2text,"Large Language Models (LLMs) are trained on large-scale web data, which makes
+it difficult to grasp the contribution of each text. This poses the risk of
+leaking inappropriate data such as benchmarks, personal information, and
+copyrighted texts in the training data. Membership Inference Attacks (MIA),
+which determine whether a given text is included in the model's training data,
+have been attracting attention. Previous studies of MIAs revealed that
+likelihood-based classification is effective for detecting leaks in LLMs.
+However, the existing methods cannot be applied to some proprietary models like
+ChatGPT or Claude 3 because the likelihood is unavailable to the user. In this
+study, we propose a Sampling-based Pseudo-Likelihood (\textbf{SPL}) method for
+MIA (\textbf{SaMIA}) that calculates SPL using only the text generated by an
+LLM to detect leaks. The SaMIA treats the target text as the reference text and
+multiple outputs from the LLM as text samples, calculates the degree of
+$n$-gram match as SPL, and determines the membership of the text in the
+training data. Even without likelihoods, SaMIA performed on par with existing
+likelihood-based methods.",2024-04-17
+"Incubating Text Classifiers Following User Instruction with Nothing but
+  LLM",2024-04-16 19:53:35+00:00,http://arxiv.org/abs/2404.10877v1,"Letian Peng, Jingbo Shang",cs.CL,table2text,"In this paper, we aim to generate text classification data given arbitrary
+class definitions (i.e., user instruction), so one can train a small text
+classifier without any human annotation or raw corpus. Compared with pioneer
+attempts, our proposed Incubator is the first framework that can handle
+complicated and even mutually dependent classes (e.g., ""TED Talk given by
+Educator"" and ""Other""). Specifically, Incubator is an LLM firstly tuned on the
+instruction-to-data mappings that we obtained from classification datasets and
+descriptions on HuggingFace together with in-context augmentation by GPT-4. We
+then refine Incubator by learning on the cluster centers of semantic textual
+embeddings to emphasize the uniformity and semantic diversity in generations.
+We compare Incubator on various classification tasks with strong baselines such
+as direct LLM-based inference and training data generation by prompt
+engineering. Experiments show Incubator is able to (1) perform well on
+traditional benchmarks, (2) take label dependency and user preference into
+consideration, and (3) enable logical text mining by incubating multiple
+classifiers.",2024-04-16
+"LaDiC: Are Diffusion Models Really Inferior to Autoregressive
+  Counterparts for Image-to-Text Generation?",2024-04-16 17:47:16+00:00,http://arxiv.org/abs/2404.10763v1,"Yuchi Wang, Shuhuai Ren, Rundong Gao, Linli Yao, Qingyan Guo, Kaikai An, Jianhong Bai, Xu Sun","cs.AI, cs.CL, cs.CV",table2text,"Diffusion models have exhibited remarkable capabilities in text-to-image
+generation. However, their performance in image-to-text generation,
+specifically image captioning, has lagged behind Auto-Regressive (AR) models,
+casting doubt on their applicability for such tasks. In this work, we revisit
+diffusion models, highlighting their capacity for holistic context modeling and
+parallel decoding. With these benefits, diffusion models can alleviate the
+inherent limitations of AR methods, including their slow inference speed, error
+propagation, and unidirectional constraints. Furthermore, we identify the prior
+underperformance of diffusion models stemming from the absence of an effective
+latent space for image-text alignment, and the discrepancy between continuous
+diffusion processes and discrete textual data. In response, we introduce a
+novel architecture, LaDiC, which utilizes a split BERT to create a dedicated
+latent space for captions and integrates a regularization module to manage
+varying text lengths. Our framework also includes a diffuser for semantic
+image-to-text conversion and a Back&Refine technique to enhance token
+interactivity during inference. LaDiC achieves state-of-the-art performance for
+diffusion-based methods on the MS COCO dataset with 38.2 BLEU@4 and 126.2
+CIDEr, demonstrating exceptional performance without pre-training or ancillary
+modules. This indicates strong competitiveness with AR models, revealing the
+previously untapped potential of diffusion models in image-to-text generation.",2024-04-16
+"Gaining More Insight into Neural Semantic Parsing with Challenging
+  Benchmarks",2024-04-12 09:48:58+00:00,http://arxiv.org/abs/2404.08354v2,"Xiao Zhang, Chunliu Wang, Rik van Noord, Johan Bos",cs.CL,table2text,"The Parallel Meaning Bank (PMB) serves as a corpus for semantic processing
+with a focus on semantic parsing and text generation. Currently, we witness an
+excellent performance of neural parsers and generators on the PMB. This might
+suggest that such semantic processing tasks have by and large been solved. We
+argue that this is not the case and that performance scores from the past on
+the PMB are inflated by non-optimal data splits and test sets that are too
+easy. In response, we introduce several changes. First, instead of the prior
+random split, we propose a more systematic splitting approach to improve the
+reliability of the standard test data. Second, except for the standard test
+set, we also propose two challenge sets: one with longer texts including
+discourse structure, and one that addresses compositional generalization. We
+evaluate five neural models for semantic parsing and meaning-to-text
+generation. Our results show that model performance declines (in some cases
+dramatically) on the challenge sets, revealing the limitations of neural models
+when confronting such challenges.",2024-04-12
 Language Models for Text Classification: Is In-Context Learning Enough?,2024-03-26 12:47:39+00:00,http://arxiv.org/abs/2403.17661v1,"Aleksandra Edwards, Jose Camacho-Collados","cs.CL, cs.AI",table2text,"Recent foundational language models have shown state-of-the-art performance
 in many NLP tasks in zero- and few-shot settings. An advantage of these models
 over more standard approaches based on fine-tuning is the ability to understand

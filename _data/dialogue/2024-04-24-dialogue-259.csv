@@ -1,4 +1,174 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Online Personalizing White-box LLMs Generation with Neural Bandits,2024-04-24 18:13:12+00:00,http://arxiv.org/abs/2404.16115v1,"Zekai Chen, Weeden Daniel, Po-yu Chen, Francois Buet-Golfouse","cs.CL, cs.AI, cs.LG",dialogue,"The advent of personalized content generation by LLMs presents a novel
+challenge: how to efficiently adapt text to meet individual preferences without
+the unsustainable demand of creating a unique model for each user. This study
+introduces an innovative online method that employs neural bandit algorithms to
+dynamically optimize soft instruction embeddings based on user feedback,
+enhancing the personalization of open-ended text generation by white-box LLMs.
+Through rigorous experimentation on various tasks, we demonstrate significant
+performance improvements over baseline strategies. NeuralTS, in particular,
+leads to substantial enhancements in personalized news headline generation,
+achieving up to a 62.9% improvement in terms of best ROUGE scores and up to
+2.76% increase in LLM-agent evaluation against the baseline.",2024-04-24
+"Wiki-LLaVA: Hierarchical Retrieval-Augmented Generation for Multimodal
+  LLMs",2024-04-23 18:00:09+00:00,http://arxiv.org/abs/2404.15406v1,"Davide Caffagni, Federico Cocchi, Nicholas Moratelli, Sara Sarto, Marcella Cornia, Lorenzo Baraldi, Rita Cucchiara","cs.CV, cs.AI, cs.CL, cs.MM",dialogue,"Multimodal LLMs are the natural evolution of LLMs, and enlarge their
+capabilities so as to work beyond the pure textual modality. As research is
+being carried out to design novel architectures and vision-and-language
+adapters, in this paper we concentrate on endowing such models with the
+capability of answering questions that require external knowledge. Our
+approach, termed Wiki-LLaVA, aims at integrating an external knowledge source
+of multimodal documents, which is accessed through a hierarchical retrieval
+pipeline. Relevant passages, using this approach, are retrieved from the
+external knowledge source and employed as additional context for the LLM,
+augmenting the effectiveness and precision of generated dialogues. We conduct
+extensive experiments on datasets tailored for visual question answering with
+external data and demonstrate the appropriateness of our approach.",2024-04-23
+"Can We Catch the Elephant? The Evolvement of Hallucination Evaluation on
+  Natural Language Generation: A Survey",2024-04-18 09:52:18+00:00,http://arxiv.org/abs/2404.12041v1,"Siya Qi, Yulan He, Zheng Yuan","cs.CL, cs.AI",dialogue,"Hallucination in Natural Language Generation (NLG) is like the elephant in
+the room, obvious but often overlooked until recent achievements significantly
+improved the fluency and grammatical accuracy of generated text. For Large
+Language Models (LLMs), hallucinations can happen in various downstream tasks
+and casual conversations, which need accurate assessment to enhance reliability
+and safety. However, current studies on hallucination evaluation vary greatly,
+and people still find it difficult to sort out and select the most appropriate
+evaluation methods. Moreover, as NLP research gradually shifts to the domain of
+LLMs, it brings new challenges to this direction. This paper provides a
+comprehensive survey on the evolvement of hallucination evaluation methods,
+aiming to address three key aspects: 1) Diverse definitions and granularity of
+facts; 2) The categories of automatic evaluators and their applicability; 3)
+Unresolved issues and future directions.",2024-04-18
+"LaDiC: Are Diffusion Models Really Inferior to Autoregressive
+  Counterparts for Image-to-Text Generation?",2024-04-16 17:47:16+00:00,http://arxiv.org/abs/2404.10763v1,"Yuchi Wang, Shuhuai Ren, Rundong Gao, Linli Yao, Qingyan Guo, Kaikai An, Jianhong Bai, Xu Sun","cs.AI, cs.CL, cs.CV",dialogue,"Diffusion models have exhibited remarkable capabilities in text-to-image
+generation. However, their performance in image-to-text generation,
+specifically image captioning, has lagged behind Auto-Regressive (AR) models,
+casting doubt on their applicability for such tasks. In this work, we revisit
+diffusion models, highlighting their capacity for holistic context modeling and
+parallel decoding. With these benefits, diffusion models can alleviate the
+inherent limitations of AR methods, including their slow inference speed, error
+propagation, and unidirectional constraints. Furthermore, we identify the prior
+underperformance of diffusion models stemming from the absence of an effective
+latent space for image-text alignment, and the discrepancy between continuous
+diffusion processes and discrete textual data. In response, we introduce a
+novel architecture, LaDiC, which utilizes a split BERT to create a dedicated
+latent space for captions and integrates a regularization module to manage
+varying text lengths. Our framework also includes a diffuser for semantic
+image-to-text conversion and a Back&Refine technique to enhance token
+interactivity during inference. LaDiC achieves state-of-the-art performance for
+diffusion-based methods on the MS COCO dataset with 38.2 BLEU@4 and 126.2
+CIDEr, demonstrating exceptional performance without pre-training or ancillary
+modules. This indicates strong competitiveness with AR models, revealing the
+previously untapped potential of diffusion models in image-to-text generation.",2024-04-16
+"White Men Lead, Black Women Help: Uncovering Gender, Racial, and
+  Intersectional Bias in Language Agency",2024-04-16 12:27:54+00:00,http://arxiv.org/abs/2404.10508v1,"Yixin Wan, Kai-Wei Chang","cs.CL, cs.AI, cs.CY",dialogue,"Social biases can manifest in language agency. For instance, White
+individuals and men are often described as ""agentic"" and achievement-oriented,
+whereas Black individuals and women are frequently described as ""communal"" and
+as assisting roles. This study establishes agency as an important aspect of
+studying social biases in both human-written and Large Language Model
+(LLM)-generated texts. To accurately measure ""language agency"" at sentence
+level, we propose a Language Agency Classification dataset to train reliable
+agency classifiers. We then use an agency classifier to reveal notable language
+agency biases in 6 datasets of human- or LLM-written texts, including
+biographies, professor reviews, and reference letters. While most prior NLP
+research on agency biases focused on single dimensions, we comprehensively
+explore language agency biases in gender, race, and intersectional identities.
+We observe that (1) language agency biases in human-written texts align with
+real-world social observations; (2) LLM-generated texts demonstrate remarkably
+higher levels of language agency bias than human-written texts; and (3)
+critical biases in language agency target people of minority groups -- for
+instance, languages used to describe Black females exhibit the lowest level of
+agency across datasets. Our findings reveal intricate social biases in human-
+and LLM-written texts through the lens of language agency, warning against
+using LLM generations in social contexts without scrutiny.",2024-04-16
+Towards Enhancing Health Coaching Dialogue in Low-Resource Settings,2024-04-13 03:23:15+00:00,http://arxiv.org/abs/2404.08888v1,"Yue Zhou, Barbara Di Eugenio, Brian Ziebart, Lisa Sharp, Bing Liu, Ben Gerber, Nikolaos Agadakos, Shweta Yadav","cs.CL, cs.LG",dialogue,"Health coaching helps patients identify and accomplish lifestyle-related
+goals, effectively improving the control of chronic diseases and mitigating
+mental health conditions. However, health coaching is cost-prohibitive due to
+its highly personalized and labor-intensive nature. In this paper, we propose
+to build a dialogue system that converses with the patients, helps them create
+and accomplish specific goals, and can address their emotions with empathy.
+However, building such a system is challenging since real-world health coaching
+datasets are limited and empathy is subtle. Thus, we propose a modularized
+health coaching dialogue system with simplified NLU and NLG frameworks combined
+with mechanism-conditioned empathetic response generation. Through automatic
+and human evaluation, we show that our system generates more empathetic,
+fluent, and coherent responses and outperforms the state-of-the-art in NLU
+tasks while requiring less annotation. We view our approach as a key step
+towards building automated and more accessible health coaching systems.",2024-04-13
+Audio Dialogues: Dialogues dataset for audio and music understanding,2024-04-11 10:08:34+00:00,http://arxiv.org/abs/2404.07616v1,"Arushi Goel, Zhifeng Kong, Rafael Valle, Bryan Catanzaro","cs.CL, cs.SD, eess.AS",dialogue,"Existing datasets for audio understanding primarily focus on single-turn
+interactions (i.e. audio captioning, audio question answering) for describing
+audio in natural language, thus limiting understanding audio via interactive
+dialogue. To address this gap, we introduce Audio Dialogues: a multi-turn
+dialogue dataset containing 163.8k samples for general audio sounds and music.
+In addition to dialogues, Audio Dialogues also has question-answer pairs to
+understand and compare multiple input audios together. Audio Dialogues
+leverages a prompting-based approach and caption annotations from existing
+datasets to generate multi-turn dialogues using a Large Language Model (LLM).
+We evaluate existing audio-augmented large language models on our proposed
+dataset to demonstrate the complexity and applicability of Audio Dialogues. Our
+code for generating the dataset will be made publicly available. Detailed
+prompts and generated dialogues can be found on the demo website
+https://audiodialogues.github.io/.",2024-04-11
+"Control-DAG: Constrained Decoding for Non-Autoregressive Directed
+  Acyclic T5 using Weighted Finite State Automata",2024-04-10 09:28:14+00:00,http://arxiv.org/abs/2404.06854v1,"Jinghong Chen, Weizhe Lin, Jingbiao Mei, Bill Byrne","cs.CL, I.2",dialogue,"The Directed Acyclic Transformer is a fast non-autoregressive (NAR) model
+that performs well in Neural Machine Translation. Two issues prevent its
+application to general Natural Language Generation (NLG) tasks: frequent
+Out-Of-Vocabulary (OOV) errors and the inability to faithfully generate entity
+names. We introduce Control-DAG, a constrained decoding algorithm for our
+Directed Acyclic T5 (DA-T5) model which offers lexical, vocabulary and length
+control. We show that Control-DAG significantly enhances DA-T5 on the Schema
+Guided Dialogue and the DART datasets, establishing strong NAR results for
+Task-Oriented Dialogue and Data-to-Text NLG.",2024-04-10
+"CoVoMix: Advancing Zero-Shot Speech Generation for Human-like
+  Multi-talker Conversations",2024-04-10 02:32:58+00:00,http://arxiv.org/abs/2404.06690v1,"Leying Zhang, Yao Qian, Long Zhou, Shujie Liu, Dongmei Wang, Xiaofei Wang, Midia Yousefi, Yanmin Qian, Jinyu Li, Lei He, Sheng Zhao, Michael Zeng","eess.AS, cs.AI, cs.CL, cs.LG, cs.SD",dialogue,"Recent advancements in zero-shot text-to-speech (TTS) modeling have led to
+significant strides in generating high-fidelity and diverse speech. However,
+dialogue generation, along with achieving human-like naturalness in speech,
+continues to be a challenge in the field. In this paper, we introduce CoVoMix:
+Conversational Voice Mixture Generation, a novel model for zero-shot,
+human-like, multi-speaker, multi-round dialogue speech generation. CoVoMix is
+capable of first converting dialogue text into multiple streams of discrete
+tokens, with each token stream representing semantic information for individual
+talkers. These token streams are then fed into a flow-matching based acoustic
+model to generate mixed mel-spectrograms. Finally, the speech waveforms are
+produced using a HiFi-GAN model. Furthermore, we devise a comprehensive set of
+metrics for measuring the effectiveness of dialogue modeling and generation.
+Our experimental results show that CoVoMix can generate dialogues that are not
+only human-like in their naturalness and coherence but also involve multiple
+talkers engaging in multiple rounds of conversation. These dialogues, generated
+within a single channel, are characterized by seamless speech transitions,
+including overlapping speech, and appropriate paralinguistic behaviors such as
+laughter. Audio samples are available at https://aka.ms/covomix.",2024-04-10
+Pitfalls of Conversational LLMs on News Debiasing,2024-04-09 17:42:59+00:00,http://arxiv.org/abs/2404.06488v1,"Ipek Baris Schlicht, Defne Altiok, Maryanne Taouk, Lucie Flek","cs.CL, cs.AI",dialogue,"This paper addresses debiasing in news editing and evaluates the
+effectiveness of conversational Large Language Models in this task. We designed
+an evaluation checklist tailored to news editors' perspectives, obtained
+generated texts from three popular conversational models using a subset of a
+publicly available dataset in media bias, and evaluated the texts according to
+the designed checklist. Furthermore, we examined the models as evaluator for
+checking the quality of debiased model outputs. Our findings indicate that none
+of the LLMs are perfect in debiasing. Notably, some models, including ChatGPT,
+introduced unnecessary changes that may impact the author's style and create
+misinformation. Lastly, we show that the models do not perform as proficiently
+as domain experts in evaluating the quality of debiased outputs.",2024-04-09
+"MATEval: A Multi-Agent Discussion Framework for Advancing Open-Ended
+  Text Evaluation",2024-03-28 10:41:47+00:00,http://arxiv.org/abs/2403.19305v2,"Yu Li, Shenyu Zhang, Rui Wu, Xiutian Huang, Yongrui Chen, Wenhao Xu, Guilin Qi, Dehai Min","cs.CL, cs.AI",dialogue,"Recent advancements in generative Large Language Models(LLMs) have been
+remarkable, however, the quality of the text generated by these models often
+reveals persistent issues. Evaluating the quality of text generated by these
+models, especially in open-ended text, has consistently presented a significant
+challenge. Addressing this, recent work has explored the possibility of using
+LLMs as evaluators. While using a single LLM as an evaluation agent shows
+potential, it is filled with significant uncertainty and instability. To
+address these issues, we propose the MATEval: A ""Multi-Agent Text Evaluation
+framework"" where all agents are played by LLMs like GPT-4. The MATEval
+framework emulates human collaborative discussion methods, integrating multiple
+agents' interactions to evaluate open-ended text. Our framework incorporates
+self-reflection and Chain-of-Thought (CoT) strategies, along with feedback
+mechanisms, enhancing the depth and breadth of the evaluation process and
+guiding discussions towards consensus, while the framework generates
+comprehensive evaluation reports, including error localization, error types and
+scoring. Experimental results show that our framework outperforms existing
+open-ended text evaluation methods and achieves the highest correlation with
+human evaluation, which confirms the effectiveness and advancement of our
+framework in addressing the uncertainties and instabilities in evaluating
+LLMs-generated text. Furthermore, our framework significantly improves the
+efficiency of text evaluation and model iteration in industrial scenarios.",2024-03-28
 Outcome-Constrained Large Language Models for Countering Hate Speech,2024-03-25 19:44:06+00:00,http://arxiv.org/abs/2403.17146v1,"Lingzi Hong, Pengcheng Luo, Eduardo Blanco, Xiaoying Song",cs.CL,dialogue,"Counterspeech that challenges or responds to hate speech has been seen as an
 alternative to mitigate the negative impact of hate speech and foster
 productive online communications. Research endeavors have been directed to

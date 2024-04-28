@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2024-03-28*
+*written on 2024-04-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [MUGC: Machine Generated versus User Generated Content Detection](http://arxiv.org/abs/2403.19725v1) | Yaqi Xie, Anjali Rawal, Yujing Cen, Dixuan Zhao, Sunil K Narang, Shanu Sushmita | cs.CL, cs.AI, cs.LG | 2024-03-28 |
 | [CharPoet: A Chinese Classical Poetry Generation System Based on  Token-free LLM](http://arxiv.org/abs/2401.03512v3) | Chengyue Yu, Lei Zang, Jiaotuan Wang, Chenyi Zhuang, Jinjie Gu | cs.CL, cs.AI, cs.LG | 2024-01-07 |
 | [TPPoet: Transformer-Based Persian Poem Generation using Minimal Data and  Advanced Decoding Techniques](http://arxiv.org/abs/2312.02125v2) | Amir Panahandeh, Hanie Asemi, Esmaeil Nourani | cs.CL, cs.AI, cs.LG | 2023-12-04 |
 | [Inspo: Writing Stories with a Flock of AIs and Humans](http://arxiv.org/abs/2311.16521v1) | Chieh-Yang Huang, Sanjana Gautam, Shannon McClellan Brooks, Ya-Fang Lin, Ting-Hao 'Kenneth' Huang | cs.HC | 2023-11-28 |

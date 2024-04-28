@@ -1,4 +1,57 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"How Well Can LLMs Echo Us? Evaluating AI Chatbots' Role-Play Ability
+  with ECHO",2024-04-22 08:00:51+00:00,http://arxiv.org/abs/2404.13957v1,"Man Tik Ng, Hui Tung Tse, Jen-tse Huang, Jingjing Li, Wenxuan Wang, Michael R. Lyu",cs.CL,story,"The role-play ability of Large Language Models (LLMs) has emerged as a
+popular research direction. However, existing studies focus on imitating
+well-known public figures or fictional characters, overlooking the potential
+for simulating ordinary individuals. Such an oversight limits the potential for
+advancements in digital human clones and non-player characters in video games.
+To bridge this gap, we introduce ECHO, an evaluative framework inspired by the
+Turing test. This framework engages the acquaintances of the target individuals
+to distinguish between human and machine-generated responses. Notably, our
+framework focuses on emulating average individuals rather than historical or
+fictional figures, presenting a unique advantage to apply the Turing Test. We
+evaluated three role-playing LLMs using ECHO, with GPT-3.5 and GPT-4 serving as
+foundational models, alongside the online application GPTs from OpenAI. Our
+results demonstrate that GPT-4 more effectively deceives human evaluators, and
+GPTs achieves a leading success rate of 48.3%. Furthermore, we investigated
+whether LLMs could discern between human-generated and machine-generated texts.
+While GPT-4 can identify differences, it could not determine which texts were
+human-produced. Our code and results of reproducing the role-playing LLMs are
+made publicly available via https://github.com/CUHK-ARISE/ECHO.",2024-04-22
+Contextual Chart Generation for Cyber Deception,2024-04-07 07:56:14+00:00,http://arxiv.org/abs/2404.04854v1,"David D. Nguyen, David Liebowitz, Surya Nepal, Salil S. Kanhere, Sharif Abuadbba","cs.LG, cs.AI, cs.CR",story,"Honeyfiles are security assets designed to attract and detect intruders on
+compromised systems. Honeyfiles are a type of honeypot that mimic real,
+sensitive documents, creating the illusion of the presence of valuable data.
+Interaction with a honeyfile reveals the presence of an intruder, and can
+provide insights into their goals and intentions. Their practical use, however,
+is limited by the time, cost and effort associated with manually creating
+realistic content. The introduction of large language models has made
+high-quality text generation accessible, but honeyfiles contain a variety of
+content including charts, tables and images. This content needs to be plausible
+and realistic, as well as semantically consistent both within honeyfiles and
+with the real documents they mimic, to successfully deceive an intruder.
+  In this paper, we focus on an important component of the honeyfile content
+generation problem: document charts. Charts are ubiquitous in corporate
+documents and are commonly used to communicate quantitative and scientific
+data. Existing image generation models, such as DALL-E, are rather prone to
+generating charts with incomprehensible text and unconvincing data. We take a
+multi-modal approach to this problem by combining two purpose-built generative
+models: a multitask Transformer and a specialized multi-head autoencoder. The
+Transformer generates realistic captions and plot text, while the autoencoder
+generates the underlying tabular data for the plot.
+  To advance the field of automated honeyplot generation, we also release a new
+document-chart dataset and propose a novel metric Keyword Semantic Matching
+(KSM). This metric measures the semantic consistency between keywords of a
+corpus and a smaller bag of words. Extensive experiments demonstrate excellent
+performance against multiple large language models, including ChatGPT and GPT4.",2024-04-07
+Returning to the Start: Generating Narratives with Related Endpoints,2024-03-31 23:48:50+00:00,http://arxiv.org/abs/2404.00829v1,"Anneliese Brei, Chao Zhao, Snigdha Chaturvedi",cs.CL,story,"Human writers often bookend their writing with ending sentences that relate
+back to the beginning sentences in order to compose a satisfying narrative that
+""closes the loop."" Motivated by this observation, we propose RENarGen, a
+controllable story-generation paradigm that generates narratives by ensuring
+the first and last sentences are related and then infilling the middle
+sentences. Our contributions include an initial exploration of how various
+methods of bookending from Narratology affect language modeling for stories.
+Automatic and human evaluations indicate RENarGen produces better stories with
+more narrative closure than current autoregressive models.",2024-03-31
 "SciNews: From Scholarly Complexities to Public Narratives -- A Dataset
   for Scientific News Report Generation",2024-03-26 14:54:48+00:00,http://arxiv.org/abs/2403.17768v1,"Dongqi Pu, Yifan Wang, Jia Loy, Vera Demberg","cs.CL, cs.AI, cs.LG",story,"Scientific news reports serve as a bridge, adeptly translating complex
 research articles into reports that resonate with the broader public. The

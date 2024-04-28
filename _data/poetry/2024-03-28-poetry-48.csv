@@ -1,4 +1,25 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+MUGC: Machine Generated versus User Generated Content Detection,2024-03-28 07:33:53+00:00,http://arxiv.org/abs/2403.19725v1,"Yaqi Xie, Anjali Rawal, Yujing Cen, Dixuan Zhao, Sunil K Narang, Shanu Sushmita","cs.CL, cs.AI, cs.LG",poetry,"As advanced modern systems like deep neural networks (DNNs) and generative AI
+continue to enhance their capabilities in producing convincing and realistic
+content, the need to distinguish between user-generated and machine generated
+content is becoming increasingly evident. In this research, we undertake a
+comparative evaluation of eight traditional machine-learning algorithms to
+distinguish between machine-generated and human-generated data across three
+diverse datasets: Poems, Abstracts, and Essays. Our results indicate that
+traditional methods demonstrate a high level of accuracy in identifying
+machine-generated data, reflecting the documented effectiveness of popular
+pre-trained models like RoBERT. We note that machine-generated texts tend to be
+shorter and exhibit less word variety compared to human-generated content.
+While specific domain-related keywords commonly utilized by humans, albeit
+disregarded by current LLMs (Large Language Models), may contribute to this
+high detection accuracy, we show that deeper word representations like word2vec
+can capture subtle semantic variances. Furthermore, readability, bias, moral,
+and affect comparisons reveal a discernible contrast between machine-generated
+and human generated content. There are variations in expression styles and
+potentially underlying biases in the data sources (human and
+machine-generated). This study provides valuable insights into the advancing
+capacities and challenges associated with machine-generated content across
+various domains.",2024-03-28
 "CharPoet: A Chinese Classical Poetry Generation System Based on
   Token-free LLM",2024-01-07 15:00:36+00:00,http://arxiv.org/abs/2401.03512v3,"Chengyue Yu, Lei Zang, Jiaotuan Wang, Chenyi Zhuang, Jinjie Gu","cs.CL, cs.AI, cs.LG",poetry,"Automatic Chinese classical poetry generation has attracted much research
 interest, but achieving effective control over format and content
