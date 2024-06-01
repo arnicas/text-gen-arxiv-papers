@@ -1,4 +1,224 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Who Writes the Review, Human or AI?",2024-05-30 17:38:44+00:00,http://arxiv.org/abs/2405.20285v1,"Panagiotis C. Theocharopoulos, Spiros V. Georgakopoulos, Sotiris K. Tasoulis, Vassilis P. Plagianakos",cs.CL,knowledge,"With the increasing use of Artificial Intelligence in Natural Language
+Processing, concerns have been raised regarding the detection of AI-generated
+text in various domains. This study aims to investigate this issue by proposing
+a methodology to accurately distinguish AI-generated and human-written book
+reviews. Our approach utilizes transfer learning, enabling the model to
+identify generated text across different topics while improving its ability to
+detect variations in writing style and vocabulary. To evaluate the
+effectiveness of the proposed methodology, we developed a dataset consisting of
+real book reviews and AI-generated reviews using the recently proposed Vicuna
+open-source language model. The experimental results demonstrate that it is
+feasible to detect the original source of text, achieving an accuracy rate of
+96.86%. Our efforts are oriented toward the exploration of the capabilities and
+limitations of Large Language Models in the context of text identification.
+Expanding our knowledge in these aspects will be valuable for effectively
+navigating similar models in the future and ensuring the integrity and
+authenticity of human-generated content.",2024-05-30
+"Kernel Language Entropy: Fine-grained Uncertainty Quantification for
+  LLMs from Semantic Similarities",2024-05-30 12:42:05+00:00,http://arxiv.org/abs/2405.20003v1,"Alexander Nikitin, Jannik Kossen, Yarin Gal, Pekka Marttinen","cs.LG, cs.AI, cs.CL",knowledge,"Uncertainty quantification in Large Language Models (LLMs) is crucial for
+applications where safety and reliability are important. In particular,
+uncertainty can be used to improve the trustworthiness of LLMs by detecting
+factually incorrect model responses, commonly called hallucinations.
+Critically, one should seek to capture the model's semantic uncertainty, i.e.,
+the uncertainty over the meanings of LLM outputs, rather than uncertainty over
+lexical or syntactic variations that do not affect answer correctness. To
+address this problem, we propose Kernel Language Entropy (KLE), a novel method
+for uncertainty estimation in white- and black-box LLMs. KLE defines positive
+semidefinite unit trace kernels to encode the semantic similarities of LLM
+outputs and quantifies uncertainty using the von Neumann entropy. It considers
+pairwise semantic dependencies between answers (or semantic clusters),
+providing more fine-grained uncertainty estimates than previous methods based
+on hard clustering of answers. We theoretically prove that KLE generalizes the
+previous state-of-the-art method called semantic entropy and empirically
+demonstrate that it improves uncertainty quantification performance across
+multiple natural language generation datasets and LLM architectures.",2024-05-30
+Large Language Model Watermark Stealing With Mixed Integer Programming,2024-05-30 04:11:17+00:00,http://arxiv.org/abs/2405.19677v1,"Zhaoxi Zhang, Xiaomei Zhang, Yanjun Zhang, Leo Yu Zhang, Chao Chen, Shengshan Hu, Asif Gill, Shirui Pan","cs.CR, cs.AI",knowledge,"The Large Language Model (LLM) watermark is a newly emerging technique that
+shows promise in addressing concerns surrounding LLM copyright, monitoring
+AI-generated text, and preventing its misuse. The LLM watermark scheme commonly
+includes generating secret keys to partition the vocabulary into green and red
+lists, applying a perturbation to the logits of tokens in the green list to
+increase their sampling likelihood, thus facilitating watermark detection to
+identify AI-generated text if the proportion of green tokens exceeds a
+threshold. However, recent research indicates that watermarking methods using
+numerous keys are susceptible to removal attacks, such as token editing,
+synonym substitution, and paraphrasing, with robustness declining as the number
+of keys increases. Therefore, the state-of-the-art watermark schemes that
+employ fewer or single keys have been demonstrated to be more robust against
+text editing and paraphrasing. In this paper, we propose a novel green list
+stealing attack against the state-of-the-art LLM watermark scheme and
+systematically examine its vulnerability to this attack. We formalize the
+attack as a mixed integer programming problem with constraints. We evaluate our
+attack under a comprehensive threat model, including an extreme scenario where
+the attacker has no prior knowledge, lacks access to the watermark detector
+API, and possesses no information about the LLM's parameter settings or
+watermark injection/detection scheme. Extensive experiments on LLMs, such as
+OPT and LLaMA, demonstrate that our attack can successfully steal the green
+list and remove the watermark across all settings.",2024-05-30
+"WRDScore: New Metric for Evaluation of Natural Language Generation
+  Models",2024-05-29 16:00:46+00:00,http://arxiv.org/abs/2405.19220v1,Ravil Mussabayev,"cs.CL, cs.AI",knowledge,"The problem of natural language generation, and, more specifically, method
+name prediction, faces significant difficulties when proposed models need to be
+evaluated on test data. Such a metric would need to consider the versatility
+with which a single method can be named, with respect to both semantics and
+syntax. Measuring the direct overlap between the predicted and reference (true)
+sequences will not be able to capture these subtleties. Other existing
+embedding based metrics either do not measure precision and recall or impose
+strict unrealistic assumptions on both sequences. To address these issues, we
+propose a new metric that, on the one hand, is very simple and lightweight,
+and, on the other hand, is able to calculate precision and recall without
+resorting to any assumptions while obtaining good performance with respect to
+the human judgement.",2024-05-29
+"MetaToken: Detecting Hallucination in Image Descriptions by Meta
+  Classification",2024-05-29 15:28:42+00:00,http://arxiv.org/abs/2405.19186v1,"Laura Fieback, Jakob Spiegelberg, Hanno Gottschalk","cs.CV, cs.CL, cs.LG, I.4",knowledge,"Large Vision Language Models (LVLMs) have shown remarkable capabilities in
+multimodal tasks like visual question answering or image captioning. However,
+inconsistencies between the visual information and the generated text, a
+phenomenon referred to as hallucinations, remain an unsolved problem with
+regard to the trustworthiness of LVLMs. To address this problem, recent works
+proposed to incorporate computationally costly Large (Vision) Language Models
+in order to detect hallucinations on a sentence- or subsentence-level. In this
+work, we introduce MetaToken, a lightweight binary classifier to detect
+hallucinations on the token-level at negligible cost. Based on a statistical
+analysis, we reveal key factors of hallucinations in LVLMs which have been
+overseen in previous works. MetaToken can be applied to any open-source LVLM
+without any knowledge about ground truth data providing a reliable detection of
+hallucinations. We evaluate our method on four state-of-the-art LVLMs
+demonstrating the effectiveness of our approach.",2024-05-29
+Alt4Blind: A User Interface to Simplify Charts Alt-Text Creation,2024-05-29 14:19:57+00:00,http://arxiv.org/abs/2405.19111v1,"Omar Moured, Shahid Ali Farooqui, Karin Muller, Sharifeh Fadaeijouybari, Thorsten Schwarz, Mohammed Javed, Rainer Stiefelhagen","cs.CV, cs.HC",knowledge,"Alternative Texts (Alt-Text) for chart images are essential for making
+graphics accessible to people with blindness and visual impairments.
+Traditionally, Alt-Text is manually written by authors but often encounters
+issues such as oversimplification or complication. Recent trends have seen the
+use of AI for Alt-Text generation. However, existing models are susceptible to
+producing inaccurate or misleading information. We address this challenge by
+retrieving high-quality alt-texts from similar chart images, serving as a
+reference for the user when creating alt-texts. Our three contributions are as
+follows: (1) we introduce a new benchmark comprising 5,000 real images with
+semantically labeled high-quality Alt-Texts, collected from Human Computer
+Interaction venues. (2) We developed a deep learning-based model to rank and
+retrieve similar chart images that share the same visual and textual semantics.
+(3) We designed a user interface (UI) to facilitate the alt-text creation
+process. Our preliminary interviews and investigations highlight the usability
+of our UI. For the dataset and further details, please refer to our project
+page: https://moured.github.io/alt4blind/.",2024-05-29
+"LMO-DP: Optimizing the Randomization Mechanism for Differentially
+  Private Fine-Tuning (Large) Language Models",2024-05-29 05:32:50+00:00,http://arxiv.org/abs/2405.18776v1,"Qin Yang, Meisam Mohammad, Han Wang, Ali Payani, Ashish Kundu, Kai Shu, Yan Yan, Yuan Hong","cs.CR, cs.CL, cs.LG",knowledge,"Differentially Private Stochastic Gradient Descent (DP-SGD) and its variants
+have been proposed to ensure rigorous privacy for fine-tuning large-scale
+pre-trained language models. However, they rely heavily on the Gaussian
+mechanism, which may overly perturb the gradients and degrade the accuracy,
+especially in stronger privacy regimes (e.g., the privacy budget $\epsilon <
+3$). To address such limitations, we propose a novel Language Model-based
+Optimal Differential Privacy (LMO-DP) mechanism, which takes the first step to
+enable the tight composition of accurately fine-tuning (large) language models
+with a sub-optimal DP mechanism, even in strong privacy regimes (e.g., $0.1\leq
+\epsilon<3$). Furthermore, we propose a novel offline optimal noise search
+method to efficiently derive the sub-optimal DP that significantly reduces the
+noise magnitude. For instance, fine-tuning RoBERTa-large (with 300M parameters)
+on the SST-2 dataset can achieve an accuracy of 92.20% (given $\epsilon=0.3$,
+$\delta=10^{-10}$) by drastically outperforming the Gaussian mechanism (e.g.,
+$\sim 50\%$ for small $\epsilon$ and $\delta$). We also draw similar findings
+on the text generation tasks on GPT-2. Finally, to our best knowledge, LMO-DP
+is also the first solution to accurately fine-tune Llama-2 with strong
+differential privacy guarantees. The code will be released soon and available
+upon request.",2024-05-29
+Augmenting Textual Generation via Topology Aware Retrieval,2024-05-27 19:02:18+00:00,http://arxiv.org/abs/2405.17602v1,"Yu Wang, Nedim Lipka, Ruiyi Zhang, Alexa Siu, Yuying Zhao, Bo Ni, Xin Wang, Ryan Rossi, Tyler Derr",cs.IR,knowledge,"Despite the impressive advancements of Large Language Models (LLMs) in
+generating text, they are often limited by the knowledge contained in the input
+and prone to producing inaccurate or hallucinated content. To tackle these
+issues, Retrieval-augmented Generation (RAG) is employed as an effective
+strategy to enhance the available knowledge base and anchor the responses in
+reality by pulling additional texts from external databases. In real-world
+applications, texts are often linked through entities within a graph, such as
+citations in academic papers or comments in social networks. This paper
+exploits these topological relationships to guide the retrieval process in RAG.
+Specifically, we explore two kinds of topological connections: proximity-based,
+focusing on closely connected nodes, and role-based, which looks at nodes
+sharing similar subgraph structures. Our empirical research confirms their
+relevance to text relationships, leading us to develop a Topology-aware
+Retrieval-augmented Generation framework. This framework includes a retrieval
+module that selects texts based on their topological relationships and an
+aggregation module that integrates these texts into prompts to stimulate LLMs
+for text generation. We have curated established text-attributed networks and
+conducted comprehensive experiments to validate the effectiveness of this
+framework, demonstrating its potential to enhance RAG with topological
+awareness.",2024-05-27
+A Library for Automatic Natural Language Generation of Spanish Texts,2024-05-27 15:44:06+00:00,http://arxiv.org/abs/2405.17280v1,"Silvia García-Méndez, Milagros Fernández-Gavilanes, Enrique Costa-Montenegro, Jonathan Juncal-Martínez, F. Javier González-Castaño",cs.CL,knowledge,"In this article we present a novel system for natural language generation
+(NLG) of Spanish sentences from a minimum set of meaningful words (such as
+nouns, verbs and adjectives) which, unlike other state-of-the-art solutions,
+performs the NLG task in a fully automatic way, exploiting both knowledge-based
+and statistical approaches. Relying on its linguistic knowledge of vocabulary
+and grammar, the system is able to generate complete, coherent and correctly
+spelled sentences from the main word sets presented by the user. The system,
+which was designed to be integrable, portable and efficient, can be easily
+adapted to other languages by design and can feasibly be integrated in a wide
+range of digital devices. During its development we also created a
+supplementary lexicon for Spanish, aLexiS, with wide coverage and high
+precision, as well as syntactic trees from a freely available definite-clause
+grammar. The resulting NLG library has been evaluated both automatically and
+manually (annotation). The system can potentially be used in different
+application domains such as augmentative communication and automatic generation
+of administrative reports or news.",2024-05-27
+On the Noise Robustness of In-Context Learning for Text Generation,2024-05-27 15:22:58+00:00,http://arxiv.org/abs/2405.17264v1,"Hongfu Gao, Feipeng Zhang, Wenyu Jiang, Jun Shu, Feng Zheng, Hongxin Wei","cs.CL, cs.LG",knowledge,"Large language models (LLMs) have shown impressive performance on downstream
+tasks by in-context learning (ICL), which heavily relies on the quality of
+demonstrations selected from a large set of annotated examples. Recent works
+claim that in-context learning is robust to noisy demonstrations in text
+classification. In this work, we show that, on text generation tasks, noisy
+annotations significantly hurt the performance of in-context learning. To
+circumvent the issue, we propose a simple and effective approach called Local
+Perplexity Ranking (LPR), which replaces the ""noisy"" candidates with their
+nearest neighbors that are more likely to be clean. Our method is motivated by
+analyzing the perplexity deviation caused by noisy labels and decomposing
+perplexity into inherent perplexity and matching perplexity. Our key idea
+behind LPR is thus to decouple the matching perplexity by performing the
+ranking among the neighbors in semantic space. Our approach can prevent the
+selected demonstrations from including mismatched input-label pairs while
+preserving the effectiveness of the original selection methods. Extensive
+experiments demonstrate the effectiveness of LPR, improving the EM score by up
+to 18.75 on common benchmarks with noisy annotations.",2024-05-27
+"ECG Semantic Integrator (ESI): A Foundation ECG Model Pretrained with
+  LLM-Enhanced Cardiological Text",2024-05-26 06:45:39+00:00,http://arxiv.org/abs/2405.19366v1,"Han Yu, Peikun Guo, Akane Sano","eess.SP, cs.AI",knowledge,"The utilization of deep learning on electrocardiogram (ECG) analysis has
+brought the advanced accuracy and efficiency of cardiac healthcare diagnostics.
+By leveraging the capabilities of deep learning in semantic understanding,
+especially in feature extraction and representation learning, this study
+introduces a new multimodal contrastive pretaining framework that aims to
+improve the quality and robustness of learned representations of 12-lead ECG
+signals. Our framework comprises two key components, including Cardio Query
+Assistant (CQA) and ECG Semantics Integrator(ESI). CQA integrates a
+retrieval-augmented generation (RAG) pipeline to leverage large language models
+(LLMs) and external medical knowledge to generate detailed textual descriptions
+of ECGs. The generated text is enriched with information about demographics and
+waveform patterns. ESI integrates both contrastive and captioning loss to
+pretrain ECG encoders for enhanced representations. We validate our approach
+through various downstream tasks, including arrhythmia detection and ECG-based
+subject identification. Our experimental results demonstrate substantial
+improvements over strong baselines in these tasks. These baselines encompass
+supervised and self-supervised learning methods, as well as prior multimodal
+pretraining approaches.",2024-05-26
+Certifiably Robust RAG against Retrieval Corruption,2024-05-24 13:44:25+00:00,http://arxiv.org/abs/2405.15556v1,"Chong Xiang, Tong Wu, Zexuan Zhong, David Wagner, Danqi Chen, Prateek Mittal","cs.LG, cs.CL, cs.CR",knowledge,"Retrieval-augmented generation (RAG) has been shown vulnerable to retrieval
+corruption attacks: an attacker can inject malicious passages into retrieval
+results to induce inaccurate responses. In this paper, we propose RobustRAG as
+the first defense framework against retrieval corruption attacks. The key
+insight of RobustRAG is an isolate-then-aggregate strategy: we get LLM
+responses from each passage in isolation and then securely aggregate these
+isolated responses. To instantiate RobustRAG, we design keyword-based and
+decoding-based algorithms for securely aggregating unstructured text responses.
+Notably, RobustRAG can achieve certifiable robustness: we can formally prove
+and certify that, for certain queries, RobustRAG can always return accurate
+responses, even when the attacker has full knowledge of our defense and can
+arbitrarily inject a small number of malicious passages. We evaluate RobustRAG
+on open-domain QA and long-form text generation datasets and demonstrate its
+effectiveness and generalizability across various tasks and datasets.",2024-05-24
+Linearly Controlled Language Generation with Performative Guarantees,2024-05-24 11:30:44+00:00,http://arxiv.org/abs/2405.15454v1,"Emily Cheng, Marco Baroni, Carmen Amo Alonso","cs.CL, cs.SY, eess.SY",knowledge,"The increasing prevalence of Large Language Models (LMs) in critical
+applications highlights the need for controlled language generation strategies
+that are not only computationally efficient but that also enjoy performance
+guarantees. To achieve this, we use a common model of concept semantics as
+linearly represented in an LM's latent space. In particular, we take the view
+that natural language generation traces a trajectory in this continuous
+semantic space, realized by the language model's hidden activations. This view
+permits a control-theoretic treatment of text generation in latent space, in
+which we propose a lightweight, gradient-free intervention that dynamically
+steers trajectories away from regions corresponding to undesired meanings.
+Crucially, we show that this intervention, which we compute in closed form, is
+guaranteed (in probability) to steer the output into the allowed region.
+Finally, we demonstrate on a toxicity avoidance objective that the intervention
+steers language away from undesired content while maintaining text quality.",2024-05-24
 "Evaluating Consistency and Reasoning Capabilities of Large Language
   Models",2024-04-25 10:03:14+00:00,http://arxiv.org/abs/2404.16478v1,"Yash Saxena, Sarthak Chopra, Arunendra Mani Tripathi","cs.CL, cs.AI",knowledge,"Large Language Models (LLMs) are extensively used today across various
 sectors, including academia, research, business, and finance, for tasks such as

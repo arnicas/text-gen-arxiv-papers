@@ -7,10 +7,18 @@ sidebar:
 ---
 
 
-*written on 2024-04-28*
+*written on 2024-06-01*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Text Generation: A Systematic Literature Review of Tasks, Evaluation,  and Challenges](http://arxiv.org/abs/2405.15604v1) | Jonas Becker, Jan Philip Wahle, Bela Gipp, Terry Ruas | cs.CL, A.1; I.2.7 | 2024-05-24 |
+| [Improving Language Models Trained with Translated Data via Continual  Pre-Training and Dictionary Learning Analysis](http://arxiv.org/abs/2405.14277v1) | Sabri Boughorbel, MD Rizwan Parvez, Majd Hawasly | cs.CL | 2024-05-23 |
+| [Synchronized Video Storytelling: Generating Video Narrations with  Structured Storyline](http://arxiv.org/abs/2405.14040v1) | Dingyi Yang, Chunru Zhan, Ziheng Wang, Biao Wang, Tiezheng Ge, Bo Zheng, Qin Jin | cs.MM | 2024-05-22 |
+| [Narrative Review of Support for Emotional Expressions in Virtual  Reality: Psychophysiology of speech-to-text interfaces](http://arxiv.org/abs/2405.13924v1) | Sunday David Ubur, Denis Gracanin | cs.HC | 2024-05-22 |
+| [Exploration of Masked and Causal Language Modelling for Text Generation](http://arxiv.org/abs/2405.12630v1) | Nicolo Micheletti, Samuel Belkadi, Lifeng Han, Goran Nenadic | cs.CL, cs.AI | 2024-05-21 |
+| [StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character  Simulation via Narrative Planning](http://arxiv.org/abs/2405.13042v1) | Yi Wang, Qian Zhou, David Ledo | cs.HC, cs.AI | 2024-05-17 |
+| [Multigenre AI-powered Story Composition](http://arxiv.org/abs/2405.06685v1) | Edirlei Soares de Lima, Margot M. E. Neggers, Antonio L. Furtado | cs.CL | 2024-05-06 |
+| [The Psychosocial Impacts of Generative AI Harms](http://arxiv.org/abs/2405.01740v1) | Faye-Marie Vassel, Evan Shieh, Cassidy R. Sugimoto, Thema Monroe-White | cs.CL | 2024-05-02 |
 | [How Well Can LLMs Echo Us? Evaluating AI Chatbots' Role-Play Ability  with ECHO](http://arxiv.org/abs/2404.13957v1) | Man Tik Ng, Hui Tung Tse, Jen-tse Huang, Jingjing Li, Wenxuan Wang, Michael R. Lyu | cs.CL | 2024-04-22 |
 | [Contextual Chart Generation for Cyber Deception](http://arxiv.org/abs/2404.04854v1) | David D. Nguyen, David Liebowitz, Surya Nepal, Salil S. Kanhere, Sharif Abuadbba | cs.LG, cs.AI, cs.CR | 2024-04-07 |
 | [Returning to the Start: Generating Narratives with Related Endpoints](http://arxiv.org/abs/2404.00829v1) | Anneliese Brei, Chao Zhao, Snigdha Chaturvedi | cs.CL | 2024-03-31 |

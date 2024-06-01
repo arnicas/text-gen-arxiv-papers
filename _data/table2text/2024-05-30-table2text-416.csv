@@ -1,4 +1,144 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Evaluating Large Language Model Biases in Persona-Steered Generation,2024-05-30 17:06:03+00:00,http://arxiv.org/abs/2405.20253v1,"Andy Liu, Mona Diab, Daniel Fried",cs.CL,table2text,"The task of persona-steered text generation requires large language models
+(LLMs) to generate text that reflects the distribution of views that an
+individual fitting a persona could have. People have multifaceted personas, but
+prior work on bias in LLM-generated opinions has only explored multiple-choice
+settings or one-dimensional personas. We define an incongruous persona as a
+persona with multiple traits where one trait makes its other traits less likely
+in human survey data, e.g. political liberals who support increased military
+spending. We find that LLMs are 9.7% less steerable towards incongruous
+personas than congruous ones, sometimes generating the stereotypical stance
+associated with its demographic rather than the target stance. Models that we
+evaluate that are fine-tuned with Reinforcement Learning from Human Feedback
+(RLHF) are more steerable, especially towards stances associated with political
+liberals and women, but present significantly less diverse views of personas.
+We also find variance in LLM steerability that cannot be predicted from
+multiple-choice opinion evaluation. Our results show the importance of
+evaluating models in open-ended text generation, as it can surface new LLM
+opinion biases. Moreover, such a setup can shed light on our ability to steer
+models toward a richer and more diverse range of viewpoints.",2024-05-30
+Context Injection Attacks on Large Language Models,2024-05-30 16:36:47+00:00,http://arxiv.org/abs/2405.20234v1,"Cheng'an Wei, Kai Chen, Yue Zhao, Yujia Gong, Lu Xiang, Shenchen Zhu",cs.AI,table2text,"Large Language Models (LLMs) such as ChatGPT and Llama-2 have become
+prevalent in real-world applications, exhibiting impressive text generation
+performance. LLMs are fundamentally developed from a scenario where the input
+data remains static and lacks a clear structure. To behave interactively over
+time, LLM-based chat systems must integrate additional contextual information
+(i.e., chat history) into their inputs, following a pre-defined structure. This
+paper identifies how such integration can expose LLMs to misleading context
+from untrusted sources and fail to differentiate between system and user
+inputs, allowing users to inject context. We present a systematic methodology
+for conducting context injection attacks aimed at eliciting disallowed
+responses by introducing fabricated context. This could lead to illegal
+actions, inappropriate content, or technology misuse. Our context fabrication
+strategies, acceptance elicitation and word anonymization, effectively create
+misleading contexts that can be structured with attacker-customized prompt
+templates, achieving injection through malicious user messages. Comprehensive
+evaluations on real-world LLMs such as ChatGPT and Llama-2 confirm the efficacy
+of the proposed attack with success rates reaching 97%. We also discuss
+potential countermeasures that can be adopted for attack detection and
+developing more secure models. Our findings provide insights into the
+challenges associated with the real-world deployment of LLMs for interactive
+and structured data scenarios.",2024-05-30
+"Multi-Aspect Controllable Text Generation with Disentangled
+  Counterfactual Augmentation",2024-05-30 11:25:42+00:00,http://arxiv.org/abs/2405.19958v1,"Yi Liu, Xiangyu Liu, Xiangrong Zhu, Wei Hu","cs.CL, cs.AI",table2text,"Multi-aspect controllable text generation aims to control the generated texts
+in attributes from multiple aspects (e.g., ""positive"" from sentiment and
+""sport"" from topic). For ease of obtaining training samples, existing works
+neglect attribute correlations formed by the intertwining of different
+attributes. Particularly, the stereotype formed by imbalanced attribute
+correlations significantly affects multi-aspect control. In this paper, we
+propose MAGIC, a new multi-aspect controllable text generation method with
+disentangled counterfactual augmentation. We alleviate the issue of imbalanced
+attribute correlations during training using counterfactual feature vectors in
+the attribute latent space by disentanglement. During inference, we enhance
+attribute correlations by target-guided counterfactual augmentation to further
+improve multi-aspect control. Experiments show that MAGIC outperforms
+state-of-the-art baselines in both imbalanced and balanced attribute
+correlation scenarios. Our source code and data are available at
+https://github.com/nju-websoft/MAGIC.",2024-05-30
+"WRDScore: New Metric for Evaluation of Natural Language Generation
+  Models",2024-05-29 16:00:46+00:00,http://arxiv.org/abs/2405.19220v1,Ravil Mussabayev,"cs.CL, cs.AI",table2text,"The problem of natural language generation, and, more specifically, method
+name prediction, faces significant difficulties when proposed models need to be
+evaluated on test data. Such a metric would need to consider the versatility
+with which a single method can be named, with respect to both semantics and
+syntax. Measuring the direct overlap between the predicted and reference (true)
+sequences will not be able to capture these subtleties. Other existing
+embedding based metrics either do not measure precision and recall or impose
+strict unrealistic assumptions on both sequences. To address these issues, we
+propose a new metric that, on the one hand, is very simple and lightweight,
+and, on the other hand, is able to calculate precision and recall without
+resorting to any assumptions while obtaining good performance with respect to
+the human judgement.",2024-05-29
+"MetaToken: Detecting Hallucination in Image Descriptions by Meta
+  Classification",2024-05-29 15:28:42+00:00,http://arxiv.org/abs/2405.19186v1,"Laura Fieback, Jakob Spiegelberg, Hanno Gottschalk","cs.CV, cs.CL, cs.LG, I.4",table2text,"Large Vision Language Models (LVLMs) have shown remarkable capabilities in
+multimodal tasks like visual question answering or image captioning. However,
+inconsistencies between the visual information and the generated text, a
+phenomenon referred to as hallucinations, remain an unsolved problem with
+regard to the trustworthiness of LVLMs. To address this problem, recent works
+proposed to incorporate computationally costly Large (Vision) Language Models
+in order to detect hallucinations on a sentence- or subsentence-level. In this
+work, we introduce MetaToken, a lightweight binary classifier to detect
+hallucinations on the token-level at negligible cost. Based on a statistical
+analysis, we reveal key factors of hallucinations in LVLMs which have been
+overseen in previous works. MetaToken can be applied to any open-source LVLM
+without any knowledge about ground truth data providing a reliable detection of
+hallucinations. We evaluate our method on four state-of-the-art LVLMs
+demonstrating the effectiveness of our approach.",2024-05-29
+Zipper: A Multi-Tower Decoder Architecture for Fusing Modalities,2024-05-29 00:23:55+00:00,http://arxiv.org/abs/2405.18669v1,"Vicky Zayats, Peter Chen, Melissa Merrari, Dirk Padfield","cs.LG, cs.AI, cs.CL, eess.AS",table2text,"Integrating multiple generative foundation models, especially those trained
+on different modalities, into something greater than the sum of its parts poses
+significant challenges. Two key hurdles are the availability of aligned data
+(concepts that contain similar meaning but is expressed differently in
+different modalities), and effectively leveraging unimodal representations in
+cross-domain generative tasks, without compromising their original unimodal
+capabilities.
+  We propose Zipper, a multi-tower decoder architecture that addresses these
+concerns by using cross-attention to flexibly compose multimodal generative
+models from independently pre-trained unimodal decoders. In our experiments
+fusing speech and text modalities, we show the proposed architecture performs
+very competitively in scenarios with limited aligned text-speech data. We also
+showcase the flexibility of our model to selectively maintain unimodal (e.g.,
+text-to-text generation) generation performance by freezing the corresponding
+modal tower (e.g. text). In cross-modal tasks such as automatic speech
+recognition (ASR) where the output modality is text, we show that freezing the
+text backbone results in negligible performance degradation. In cross-modal
+tasks such as text-to-speech generation (TTS) where the output modality is
+speech, we show that using a pre-trained speech backbone results in superior
+performance to the baseline.",2024-05-29
+Augmenting Textual Generation via Topology Aware Retrieval,2024-05-27 19:02:18+00:00,http://arxiv.org/abs/2405.17602v1,"Yu Wang, Nedim Lipka, Ruiyi Zhang, Alexa Siu, Yuying Zhao, Bo Ni, Xin Wang, Ryan Rossi, Tyler Derr",cs.IR,table2text,"Despite the impressive advancements of Large Language Models (LLMs) in
+generating text, they are often limited by the knowledge contained in the input
+and prone to producing inaccurate or hallucinated content. To tackle these
+issues, Retrieval-augmented Generation (RAG) is employed as an effective
+strategy to enhance the available knowledge base and anchor the responses in
+reality by pulling additional texts from external databases. In real-world
+applications, texts are often linked through entities within a graph, such as
+citations in academic papers or comments in social networks. This paper
+exploits these topological relationships to guide the retrieval process in RAG.
+Specifically, we explore two kinds of topological connections: proximity-based,
+focusing on closely connected nodes, and role-based, which looks at nodes
+sharing similar subgraph structures. Our empirical research confirms their
+relevance to text relationships, leading us to develop a Topology-aware
+Retrieval-augmented Generation framework. This framework includes a retrieval
+module that selects texts based on their topological relationships and an
+aggregation module that integrates these texts into prompts to stimulate LLMs
+for text generation. We have curated established text-attributed networks and
+conducted comprehensive experiments to validate the effectiveness of this
+framework, demonstrating its potential to enhance RAG with topological
+awareness.",2024-05-27
+"Uncovering LLM-Generated Code: A Zero-Shot Synthetic Code Detector via
+  Code Rewriting",2024-05-25 08:57:28+00:00,http://arxiv.org/abs/2405.16133v2,"Tong Ye, Yangkai Du, Tengfei Ma, Lingfei Wu, Xuhong Zhang, Shouling Ji, Wenhai Wang","cs.SE, cs.AI",table2text,"Large Language Models (LLMs) have exhibited remarkable proficiency in
+generating code. However, the misuse of LLM-generated (Synthetic) code has
+prompted concerns within both educational and industrial domains, highlighting
+the imperative need for the development of synthetic code detectors. Existing
+methods for detecting LLM-generated content are primarily tailored for general
+text and often struggle with code content due to the distinct grammatical
+structure of programming languages and massive ""low-entropy"" tokens. Building
+upon this, our work proposes a novel zero-shot synthetic code detector based on
+the similarity between the code and its rewritten variants. Our method relies
+on the intuition that the differences between the LLM-rewritten and original
+codes tend to be smaller when the original code is synthetic. We utilize
+self-supervised contrastive learning to train a code similarity model and
+assess our approach on two synthetic code detection benchmarks. Our results
+demonstrate a notable enhancement over existing synthetic content detectors
+designed for general texts, with an improvement of 20.5% in the APPS benchmark
+and 29.1% in the MBPP benchmark.",2024-05-25
 "Effective Unsupervised Constrained Text Generation based on Perturbed
   Masking",2024-04-24 13:42:26+00:00,http://arxiv.org/abs/2404.15877v1,"Yingwen Fu, Wenjie Ou, Zhou Yu, Yue Lin",cs.CL,table2text,"Unsupervised constrained text generation aims to generate text under a given
 set of constraints without any supervised data. Current state-of-the-art

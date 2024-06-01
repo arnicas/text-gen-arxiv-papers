@@ -7,10 +7,18 @@ sidebar:
 ---
 
 
-*written on 2024-04-28*
+*written on 2024-06-01*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Evaluating Large Language Model Biases in Persona-Steered Generation](http://arxiv.org/abs/2405.20253v1) | Andy Liu, Mona Diab, Daniel Fried | cs.CL | 2024-05-30 |
+| [Context Injection Attacks on Large Language Models](http://arxiv.org/abs/2405.20234v1) | Cheng'an Wei, Kai Chen, Yue Zhao, Yujia Gong, Lu Xiang, Shenchen Zhu | cs.AI | 2024-05-30 |
+| [Multi-Aspect Controllable Text Generation with Disentangled  Counterfactual Augmentation](http://arxiv.org/abs/2405.19958v1) | Yi Liu, Xiangyu Liu, Xiangrong Zhu, Wei Hu | cs.CL, cs.AI | 2024-05-30 |
+| [WRDScore: New Metric for Evaluation of Natural Language Generation  Models](http://arxiv.org/abs/2405.19220v1) | Ravil Mussabayev | cs.CL, cs.AI | 2024-05-29 |
+| [MetaToken: Detecting Hallucination in Image Descriptions by Meta  Classification](http://arxiv.org/abs/2405.19186v1) | Laura Fieback, Jakob Spiegelberg, Hanno Gottschalk | cs.CV, cs.CL, cs.LG, I.4 | 2024-05-29 |
+| [Zipper: A Multi-Tower Decoder Architecture for Fusing Modalities](http://arxiv.org/abs/2405.18669v1) | Vicky Zayats, Peter Chen, Melissa Merrari, Dirk Padfield | cs.LG, cs.AI, cs.CL, eess.AS | 2024-05-29 |
+| [Augmenting Textual Generation via Topology Aware Retrieval](http://arxiv.org/abs/2405.17602v1) | Yu Wang, Nedim Lipka, Ruiyi Zhang, Alexa Siu, Yuying Zhao, Bo Ni, Xin Wang, Ryan Rossi, Tyler Derr | cs.IR | 2024-05-27 |
+| [Uncovering LLM-Generated Code: A Zero-Shot Synthetic Code Detector via  Code Rewriting](http://arxiv.org/abs/2405.16133v2) | Tong Ye, Yangkai Du, Tengfei Ma, Lingfei Wu, Xuhong Zhang, Shouling Ji, Wenhai Wang | cs.SE, cs.AI | 2024-05-25 |
 | [Effective Unsupervised Constrained Text Generation based on Perturbed  Masking](http://arxiv.org/abs/2404.15877v1) | Yingwen Fu, Wenjie Ou, Zhou Yu, Yue Lin | cs.CL | 2024-04-24 |
 | [Semantic Routing for Enhanced Performance of LLM-Assisted Intent-Based  5G Core Network Management and Orchestration](http://arxiv.org/abs/2404.15869v1) | Dimitrios Michael Manias, Ali Chouman, Abdallah Shami | cs.NI, cs.AI | 2024-04-24 |
 | [Visual Delta Generator with Large Multi-modal Models for Semi-supervised  Composed Image Retrieval](http://arxiv.org/abs/2404.15516v1) | Young Kyun Jang, Donghyun Kim, Zihang Meng, Dat Huynh, Ser-Nam Lim | cs.CV, cs.AI | 2024-04-23 |

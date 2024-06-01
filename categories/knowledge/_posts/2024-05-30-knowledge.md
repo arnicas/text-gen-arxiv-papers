@@ -6,10 +6,23 @@ sidebar:
 ---
 
 
-*written on 2024-04-28*
+*written on 2024-06-01*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Who Writes the Review, Human or AI?](http://arxiv.org/abs/2405.20285v1) | Panagiotis C. Theocharopoulos, Spiros V. Georgakopoulos, Sotiris K. Tasoulis, Vassilis P. Plagianakos | cs.CL | 2024-05-30 |
+| [Kernel Language Entropy: Fine-grained Uncertainty Quantification for  LLMs from Semantic Similarities](http://arxiv.org/abs/2405.20003v1) | Alexander Nikitin, Jannik Kossen, Yarin Gal, Pekka Marttinen | cs.LG, cs.AI, cs.CL | 2024-05-30 |
+| [Large Language Model Watermark Stealing With Mixed Integer Programming](http://arxiv.org/abs/2405.19677v1) | Zhaoxi Zhang, Xiaomei Zhang, Yanjun Zhang, Leo Yu Zhang, Chao Chen, Shengshan Hu, Asif Gill, Shirui Pan | cs.CR, cs.AI | 2024-05-30 |
+| [WRDScore: New Metric for Evaluation of Natural Language Generation  Models](http://arxiv.org/abs/2405.19220v1) | Ravil Mussabayev | cs.CL, cs.AI | 2024-05-29 |
+| [MetaToken: Detecting Hallucination in Image Descriptions by Meta  Classification](http://arxiv.org/abs/2405.19186v1) | Laura Fieback, Jakob Spiegelberg, Hanno Gottschalk | cs.CV, cs.CL, cs.LG, I.4 | 2024-05-29 |
+| [Alt4Blind: A User Interface to Simplify Charts Alt-Text Creation](http://arxiv.org/abs/2405.19111v1) | Omar Moured, Shahid Ali Farooqui, Karin Muller, Sharifeh Fadaeijouybari, Thorsten Schwarz, Mohammed Javed, Rainer Stiefelhagen | cs.CV, cs.HC | 2024-05-29 |
+| [LMO-DP: Optimizing the Randomization Mechanism for Differentially  Private Fine-Tuning (Large) Language Models](http://arxiv.org/abs/2405.18776v1) | Qin Yang, Meisam Mohammad, Han Wang, Ali Payani, Ashish Kundu, Kai Shu, Yan Yan, Yuan Hong | cs.CR, cs.CL, cs.LG | 2024-05-29 |
+| [Augmenting Textual Generation via Topology Aware Retrieval](http://arxiv.org/abs/2405.17602v1) | Yu Wang, Nedim Lipka, Ruiyi Zhang, Alexa Siu, Yuying Zhao, Bo Ni, Xin Wang, Ryan Rossi, Tyler Derr | cs.IR | 2024-05-27 |
+| [A Library for Automatic Natural Language Generation of Spanish Texts](http://arxiv.org/abs/2405.17280v1) | Silvia García-Méndez, Milagros Fernández-Gavilanes, Enrique Costa-Montenegro, Jonathan Juncal-Martínez, F. Javier González-Castaño | cs.CL | 2024-05-27 |
+| [On the Noise Robustness of In-Context Learning for Text Generation](http://arxiv.org/abs/2405.17264v1) | Hongfu Gao, Feipeng Zhang, Wenyu Jiang, Jun Shu, Feng Zheng, Hongxin Wei | cs.CL, cs.LG | 2024-05-27 |
+| [ECG Semantic Integrator (ESI): A Foundation ECG Model Pretrained with  LLM-Enhanced Cardiological Text](http://arxiv.org/abs/2405.19366v1) | Han Yu, Peikun Guo, Akane Sano | eess.SP, cs.AI | 2024-05-26 |
+| [Certifiably Robust RAG against Retrieval Corruption](http://arxiv.org/abs/2405.15556v1) | Chong Xiang, Tong Wu, Zexuan Zhong, David Wagner, Danqi Chen, Prateek Mittal | cs.LG, cs.CL, cs.CR | 2024-05-24 |
+| [Linearly Controlled Language Generation with Performative Guarantees](http://arxiv.org/abs/2405.15454v1) | Emily Cheng, Marco Baroni, Carmen Amo Alonso | cs.CL, cs.SY, eess.SY | 2024-05-24 |
 | [Evaluating Consistency and Reasoning Capabilities of Large Language  Models](http://arxiv.org/abs/2404.16478v1) | Yash Saxena, Sarthak Chopra, Arunendra Mani Tripathi | cs.CL, cs.AI | 2024-04-25 |
 | [Semantic Routing for Enhanced Performance of LLM-Assisted Intent-Based  5G Core Network Management and Orchestration](http://arxiv.org/abs/2404.15869v1) | Dimitrios Michael Manias, Ali Chouman, Abdallah Shami | cs.NI, cs.AI | 2024-04-24 |
 | [Visual Delta Generator with Large Multi-modal Models for Semi-supervised  Composed Image Retrieval](http://arxiv.org/abs/2404.15516v1) | Young Kyun Jang, Donghyun Kim, Zihang Meng, Dat Huynh, Ser-Nam Lim | cs.CV, cs.AI | 2024-04-23 |

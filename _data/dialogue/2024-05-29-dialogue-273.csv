@@ -1,4 +1,272 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+A Full-duplex Speech Dialogue Scheme Based On Large Language Models,2024-05-29 20:05:46+00:00,http://arxiv.org/abs/2405.19487v1,"Peng Wang, Songshuo Lu, Yaohua Tang, Sijie Yan, Yuanjun Xiong, Wei Xia",cs.CL,dialogue,"We present a generative dialogue system capable of operating in a full-duplex
+manner, allowing for seamless interaction. It is based on a large language
+model (LLM) carefully aligned to be aware of a perception module, a motor
+function module, and the concept of a simple finite state machine (called
+neural FSM) with two states. The perception and motor function modules operate
+simultaneously, allowing the system to simultaneously speak and listen to the
+user. The LLM generates textual tokens for inquiry responses and makes
+autonomous decisions to start responding to, wait for, or interrupt the user by
+emitting control tokens to the neural FSM. All these tasks of the LLM are
+carried out as next token prediction on a serialized view of the dialogue in
+real-time. In automatic quality evaluations simulating real-life interaction,
+the proposed system reduces the average conversation response latency by more
+than 3 folds compared with LLM-based half-duplex dialogue systems while
+responding within less than 500 milliseconds in more than 50% of evaluated
+interactions. Running a LLM with only 8 billion parameters, our system exhibits
+a 8% higher interruption precision rate than the best available commercial LLM
+for voice-based dialogue.",2024-05-29
+"Automatic detection of cognitive impairment in elderly people using an
+  entertainment chatbot with Natural Language Processing capabilities",2024-05-28 19:17:48+00:00,http://arxiv.org/abs/2405.18542v1,"Francisco de Arriba-Pérez, Silvia García-Méndez, Francisco J. González-Castaño, Enrique Costa-Montenegro","cs.AI, cs.CL, cs.HC, cs.LG",dialogue,"Previous researchers have proposed intelligent systems for therapeutic
+monitoring of cognitive impairments. However, most existing practical
+approaches for this purpose are based on manual tests. This raises issues such
+as excessive caretaking effort and the white-coat effect. To avoid these
+issues, we present an intelligent conversational system for entertaining
+elderly people with news of their interest that monitors cognitive impairment
+transparently. Automatic chatbot dialogue stages allow assessing content
+description skills and detecting cognitive impairment with Machine Learning
+algorithms. We create these dialogue flows automatically from updated news
+items using Natural Language Generation techniques. The system also infers the
+gold standard of the answers to the questions, so it can assess cognitive
+capabilities automatically by comparing these answers with the user responses.
+It employs a similarity metric with values in [0, 1], in increasing level of
+similarity. To evaluate the performance and usability of our approach, we have
+conducted field tests with a test group of 30 elderly people in the earliest
+stages of dementia, under the supervision of gerontologists. In the
+experiments, we have analysed the effect of stress and concentration in these
+users. Those without cognitive impairment performed up to five times better. In
+particular, the similarity metric varied between 0.03, for stressed and
+unfocused participants, and 0.36, for relaxed and focused users. Finally, we
+developed a Machine Learning algorithm based on textual analysis features for
+automatic cognitive impairment detection, which attained accuracy, F-measure
+and recall levels above 80%. We have thus validated the automatic approach to
+detect cognitive impairment in elderly people based on entertainment content.",2024-05-28
+"Unveiling the Achilles' Heel of NLG Evaluators: A Unified Adversarial
+  Framework Driven by Large Language Models",2024-05-23 14:48:15+00:00,http://arxiv.org/abs/2405.14646v1,"Yiming Chen, Chen Zhang, Danqing Luo, Luis Fernando D'Haro, Robby T. Tan, Haizhou Li",cs.CL,dialogue,"The automatic evaluation of natural language generation (NLG) systems
+presents a long-lasting challenge. Recent studies have highlighted various
+neural metrics that align well with human evaluations. Yet, the robustness of
+these evaluators against adversarial perturbations remains largely
+under-explored due to the unique challenges in obtaining adversarial data for
+different NLG evaluation tasks. To address the problem, we introduce AdvEval, a
+novel black-box adversarial framework against NLG evaluators. AdvEval is
+specially tailored to generate data that yield strong disagreements between
+human and victim evaluators. Specifically, inspired by the recent success of
+large language models (LLMs) in text generation and evaluation, we adopt strong
+LLMs as both the data generator and gold evaluator. Adversarial data are
+automatically optimized with feedback from the gold and victim evaluator. We
+conduct experiments on 12 victim evaluators and 11 NLG datasets, spanning tasks
+including dialogue, summarization, and question evaluation. The results show
+that AdvEval can lead to significant performance degradation of various victim
+metrics, thereby validating its efficacy.",2024-05-23
+"Large Language Models (LLMs) Assisted Wireless Network Deployment in
+  Urban Settings",2024-05-22 05:19:51+00:00,http://arxiv.org/abs/2405.13356v1,"Nurullah Sevim, Mostafa Ibrahim, Sabit Ekin",cs.AI,dialogue,"The advent of Large Language Models (LLMs) has revolutionized language
+understanding and human-like text generation, drawing interest from many other
+fields with this question in mind: What else are the LLMs capable of? Despite
+their widespread adoption, ongoing research continues to explore new ways to
+integrate LLMs into diverse systems.
+  This paper explores new techniques to harness the power of LLMs for 6G (6th
+Generation) wireless communication technologies, a domain where automation and
+intelligent systems are pivotal. The inherent adaptability of LLMs to
+domain-specific tasks positions them as prime candidates for enhancing wireless
+systems in the 6G landscape.
+  We introduce a novel Reinforcement Learning (RL) based framework that
+leverages LLMs for network deployment in wireless communications. Our approach
+involves training an RL agent, utilizing LLMs as its core, in an urban setting
+to maximize coverage. The agent's objective is to navigate the complexities of
+urban environments and identify the network parameters for optimal area
+coverage. Additionally, we integrate LLMs with Convolutional Neural Networks
+(CNNs) to capitalize on their strengths while mitigating their limitations. The
+Deep Deterministic Policy Gradient (DDPG) algorithm is employed for training
+purposes. The results suggest that LLM-assisted models can outperform CNN-based
+models in some cases while performing at least as well in others.",2024-05-22
+ProtT3: Protein-to-Text Generation for Text-based Protein Understanding,2024-05-21 08:06:13+00:00,http://arxiv.org/abs/2405.12564v1,"Zhiyuan Liu, An Zhang, Hao Fei, Enzhi Zhang, Xiang Wang, Kenji Kawaguchi, Tat-Seng Chua","q-bio.QM, cs.CL, cs.MM",dialogue,"Language Models (LMs) excel in understanding textual descriptions of
+proteins, as evident in biomedical question-answering tasks. However, their
+capability falters with raw protein data, such as amino acid sequences, due to
+a deficit in pretraining on such data. Conversely, Protein Language Models
+(PLMs) can understand and convert protein data into high-quality
+representations, but struggle to process texts. To address their limitations,
+we introduce ProtT3, a framework for Protein-to-Text Generation for Text-based
+Protein Understanding. ProtT3 empowers an LM to understand protein sequences of
+amino acids by incorporating a PLM as its protein understanding module,
+enabling effective protein-to-text generation. This collaboration between PLM
+and LM is facilitated by a cross-modal projector (i.e., Q-Former) that bridges
+the modality gap between the PLM's representation space and the LM's input
+space. Unlike previous studies focusing on protein property prediction and
+protein-text retrieval, we delve into the largely unexplored field of
+protein-to-text generation. To facilitate comprehensive benchmarks and promote
+future research, we establish quantitative evaluations for protein-text
+modeling tasks, including protein captioning, protein question-answering, and
+protein-text retrieval. Our experiments show that ProtT3 substantially
+surpasses current baselines, with ablation studies further highlighting the
+efficacy of its core components. Our code is available at
+https://github.com/acharkq/ProtT3.",2024-05-21
+SirLLM: Streaming Infinite Retentive LLM,2024-05-21 06:37:03+00:00,http://arxiv.org/abs/2405.12528v1,"Yao Yao, Zuchao Li, Hai Zhao",cs.CL,dialogue,"As Large Language Models (LLMs) become increasingly prevalent in various
+domains, their ability to process inputs of any length and maintain a degree of
+memory becomes essential. However, the one-off input of overly long texts is
+limited, as studies have shown that when input lengths exceed the LLMs'
+pre-trained text length, there is a dramatic decline in text generation
+capabilities. Moreover, simply extending the length of pre-training texts is
+impractical due to the difficulty in obtaining long text data and the
+substantial memory consumption costs this would entail for LLMs. Recent efforts
+have employed streaming inputs to alleviate the pressure of excessively long
+text inputs, but this approach can significantly impair the model's long-term
+memory capabilities.
+  Motivated by this challenge, we introduce Streaming Infinite Retentive LLM
+(SirLLM), which allows LLMs to maintain longer memory during infinite-length
+dialogues without the need for fine-tuning. SirLLM utilizes the Token Entropy
+metric and a memory decay mechanism to filter key phrases, endowing LLMs with
+both long-lasting and flexible memory. We designed three distinct tasks and
+constructed three datasets to measure the effectiveness of SirLLM from various
+angles: (1) DailyDialog; (2) Grocery Shopping; (3) Rock-Paper-Scissors. Our
+experimental results robustly demonstrate that SirLLM can achieve stable and
+significant improvements across different LLMs and tasks, compellingly proving
+its effectiveness. When having a coversation, ""A sir could forget himself,"" but
+SirLLM never does! Our code is publicly available at
+https://github.com/Zoeyyao27/SirLLM",2024-05-21
+"Leveraging Diverse Data Generation for Adaptable Zero-Shot Dialogue
+  State Tracking",2024-05-21 03:04:14+00:00,http://arxiv.org/abs/2405.12468v1,"James D. Finch, Boxin Zhao, Jinho D. Choi",cs.CL,dialogue,"This work demonstrates that substantial gains in zero-shot dialogue state
+tracking (DST) accuracy can be achieved by increasing the diversity of training
+data using synthetic data generation techniques. Current DST training resources
+are severely limited in the number of application domains and slot types they
+cover due to the high costs of data collection, resulting in limited
+adaptability to new domains. The presented work overcomes this challenge using
+a novel, fully automatic data generation approach to create synthetic zero-shot
+DST training resources. Unlike previous approaches for generating DST data, the
+presented approach generates entirely new application domains to generate
+dialogues, complete with silver dialogue state annotations and slot
+descriptions. This approach is used to create the D0T dataset for training
+zero-shot DST models, which covers an unprecedented 1,000+ domains. Experiments
+performed on the MultiWOZ benchmark indicate that training models on diverse
+synthetic data yields a performance improvement of +6.7% Joint Goal Accuracy,
+achieving results competitive with much larger models.",2024-05-21
+"Enhancing Dialogue State Tracking Models through LLM-backed User-Agents
+  Simulation",2024-05-17 07:00:05+00:00,http://arxiv.org/abs/2405.13037v1,"Cheng Niu, Xingguang Wang, Xuxin Cheng, Juntong Song, Tong Zhang","cs.CL, cs.AI",dialogue,"Dialogue State Tracking (DST) is designed to monitor the evolving dialogue
+state in the conversations and plays a pivotal role in developing task-oriented
+dialogue systems. However, obtaining the annotated data for the DST task is
+usually a costly endeavor. In this paper, we focus on employing LLMs to
+generate dialogue data to reduce dialogue collection and annotation costs.
+Specifically, GPT-4 is used to simulate the user and agent interaction,
+generating thousands of dialogues annotated with DST labels. Then a two-stage
+fine-tuning on LLaMA 2 is performed on the generated data and the real data for
+the DST prediction. Experimental results on two public DST benchmarks show that
+with the generated dialogue data, our model performs better than the baseline
+trained solely on real data. In addition, our approach is also capable of
+adapting to the dynamic demands in real-world scenarios, generating dialogues
+in new domains swiftly. After replacing dialogue segments in any domain with
+the corresponding generated ones, the model achieves comparable performance to
+the model trained on real data.",2024-05-17
+"A Systematic Evaluation of Large Language Models for Natural Language
+  Generation Tasks",2024-05-16 16:56:54+00:00,http://arxiv.org/abs/2405.10251v1,"Xuanfan Ni, Piji Li",cs.CL,dialogue,"Recent efforts have evaluated large language models (LLMs) in areas such as
+commonsense reasoning, mathematical reasoning, and code generation. However, to
+the best of our knowledge, no work has specifically investigated the
+performance of LLMs in natural language generation (NLG) tasks, a pivotal
+criterion for determining model excellence. Thus, this paper conducts a
+comprehensive evaluation of well-known and high-performing LLMs, namely
+ChatGPT, ChatGLM, T5-based models, LLaMA-based models, and Pythia-based models,
+in the context of NLG tasks. We select English and Chinese datasets
+encompassing Dialogue Generation and Text Summarization. Moreover, we propose a
+common evaluation setting that incorporates input templates and post-processing
+strategies. Our study reports both automatic results, accompanied by a detailed
+analysis.",2024-05-16
+"Distilling Implicit Multimodal Knowledge into LLMs for Zero-Resource
+  Dialogue Generation",2024-05-16 14:21:33+00:00,http://arxiv.org/abs/2405.10121v1,"Bo Zhang, Hui Ma, Jian Ding, Jian Wang, Bo Xu, Hongfei Lin","cs.CL, cs.MM",dialogue,"Integrating multimodal knowledge into large language models (LLMs) represents
+a significant advancement in dialogue generation capabilities. However, the
+effective incorporation of such knowledge in zero-resource scenarios remains a
+substantial challenge due to the scarcity of diverse, high-quality dialogue
+datasets. To address this, we propose the Visual Implicit Knowledge
+Distillation Framework (VIKDF), an innovative approach aimed at enhancing LLMs
+for enriched dialogue generation in zero-resource contexts by leveraging
+implicit multimodal knowledge. VIKDF comprises two main stages: knowledge
+distillation, using an Implicit Query Transformer to extract and encode visual
+implicit knowledge from image-text pairs into knowledge vectors; and knowledge
+integration, employing a novel Bidirectional Variational Information Fusion
+technique to seamlessly integrate these distilled vectors into LLMs. This
+enables the LLMs to generate dialogues that are not only coherent and engaging
+but also exhibit a deep understanding of the context through implicit
+multimodal cues, effectively overcoming the limitations of zero-resource
+scenarios. Our extensive experimentation across two dialogue datasets shows
+that VIKDF outperforms existing state-of-the-art models in generating
+high-quality dialogues. The code will be publicly available following
+acceptance.",2024-05-16
+DEBATE: Devil's Advocate-Based Assessment and Text Evaluation,2024-05-16 09:41:12+00:00,http://arxiv.org/abs/2405.09935v2,"Alex Kim, Keonwoo Kim, Sangwon Yoon","cs.CL, cs.AI",dialogue,"As natural language generation (NLG) models have become prevalent,
+systematically assessing the quality of machine-generated texts has become
+increasingly important. Recent studies introduce LLM-based evaluators that
+operate as reference-free metrics, demonstrating their capability to adeptly
+handle novel tasks. However, these models generally rely on a single-agent
+approach, which, we argue, introduces an inherent limit to their performance.
+This is because there exist biases in LLM agent's responses, including
+preferences for certain text structure or content. In this work, we propose
+DEBATE, an NLG evaluation framework based on multi-agent scoring system
+augmented with a concept of Devil's Advocate. Within the framework, one agent
+is instructed to criticize other agents' arguments, potentially resolving the
+bias in LLM agent's answers. DEBATE substantially outperforms the previous
+state-of-the-art methods in two meta-evaluation benchmarks in NLG evaluation,
+SummEval and TopicalChat. We also show that the extensiveness of debates among
+agents and the persona of an agent can influence the performance of evaluators.",2024-05-16
+Layout Generation Agents with Large Language Models,2024-05-13 06:27:23+00:00,http://arxiv.org/abs/2405.08037v1,"Yuichi Sasazawa, Yasuhiro Sogawa","cs.HC, cs.AI",dialogue,"In recent years, there has been an increasing demand for customizable 3D
+virtual spaces. Due to the significant human effort required to create these
+virtual spaces, there is a need for efficiency in virtual space creation. While
+existing studies have proposed methods for automatically generating layouts
+such as floor plans and furniture arrangements, these methods only generate
+text indicating the layout structure based on user instructions, without
+utilizing the information obtained during the generation process. In this
+study, we propose an agent-driven layout generation system using the GPT-4V
+multimodal large language model and validate its effectiveness. Specifically,
+the language model manipulates agents to sequentially place objects in the
+virtual space, thus generating layouts that reflect user instructions.
+Experimental results confirm that our proposed method can generate virtual
+spaces reflecting user instructions with a high success rate. Additionally, we
+successfully identified elements contributing to the improvement in behavior
+generation performance through ablation study.",2024-05-13
+"Deception in Reinforced Autonomous Agents: The Unconventional Rabbit Hat
+  Trick in Legislation",2024-05-07 13:55:11+00:00,http://arxiv.org/abs/2405.04325v1,"Atharvan Dogra, Ameet Deshpande, John Nay, Tanmay Rajpurohit, Ashwin Kalyan, Balaraman Ravindran",cs.CL,dialogue,"Recent developments in large language models (LLMs), while offering a
+powerful foundation for developing natural language agents, raise safety
+concerns about them and the autonomous agents built upon them. Deception is one
+potential capability of AI agents of particular concern, which we refer to as
+an act or statement that misleads, hides the truth, or promotes a belief that
+is not true in its entirety or in part. We move away from the conventional
+understanding of deception through straight-out lying, making objective selfish
+decisions, or giving false information, as seen in previous AI safety research.
+We target a specific category of deception achieved through obfuscation and
+equivocation. We broadly explain the two types of deception by analogizing them
+with the rabbit-out-of-hat magic trick, where (i) the rabbit either comes out
+of a hidden trap door or (ii) (our focus) the audience is completely distracted
+to see the magician bring out the rabbit right in front of them using sleight
+of hand or misdirection. Our novel testbed framework displays intrinsic
+deception capabilities of LLM agents in a goal-driven environment when directed
+to be deceptive in their natural language generations in a two-agent
+adversarial dialogue system built upon the legislative task of ""lobbying"" for a
+bill. Along the lines of a goal-driven environment, we show developing
+deceptive capacity through a reinforcement learning setup, building it around
+the theories of language philosophy and cognitive psychology. We find that the
+lobbyist agent increases its deceptive capabilities by ~ 40% (relative) through
+subsequent reinforcement trials of adversarial interactions, and our deception
+detection mechanism shows a detection capability of up to 92%. Our results
+highlight potential issues in agent-human interaction, with agents potentially
+manipulating humans towards its programmed end-goal.",2024-05-07
+"Large Language Models as Instruments of Power: New Regimes of Autonomous
+  Manipulation and Control",2024-05-06 19:52:57+00:00,http://arxiv.org/abs/2405.03813v1,"Yaqub Chaudhary, Jonnie Penn","cs.SI, cs.CY",dialogue,"Large language models (LLMs) can reproduce a wide variety of rhetorical
+styles and generate text that expresses a broad spectrum of sentiments. This
+capacity, now available at low cost, makes them powerful tools for manipulation
+and control. In this paper, we consider a set of underestimated societal harms
+made possible by the rapid and largely unregulated adoption of LLMs. Rather
+than consider LLMs as isolated digital artefacts used to displace this or that
+area of work, we focus on the large-scale computational infrastructure upon
+which they are instrumentalised across domains. We begin with discussion on how
+LLMs may be used to both pollute and uniformize information environments and
+how these modalities may be leveraged as mechanisms of control. We then draw
+attention to several areas of emerging research, each of which compounds the
+capabilities of LLMs as instruments of power. These include (i) persuasion
+through the real-time design of choice architectures in conversational
+interfaces (e.g., via ""AI personas""), (ii) the use of LLM-agents as
+computational models of human agents (e.g., ""silicon subjects""), (iii) the use
+of LLM-agents as computational models of human agent populations (e.g.,
+""silicon societies"") and finally, (iv) the combination of LLMs with
+reinforcement learning to produce controllable and steerable strategic dialogue
+models. We draw these strands together to discuss how these areas may be
+combined to build LLM-based systems that serve as powerful instruments of
+individual, social and political control via the simulation and disingenuous
+""prediction"" of human behaviour, intent, and action.",2024-05-06
 Online Personalizing White-box LLMs Generation with Neural Bandits,2024-04-24 18:13:12+00:00,http://arxiv.org/abs/2404.16115v1,"Zekai Chen, Weeden Daniel, Po-yu Chen, Francois Buet-Golfouse","cs.CL, cs.AI, cs.LG",dialogue,"The advent of personalized content generation by LLMs presents a novel
 challenge: how to efficiently adapt text to meet individual preferences without
 the unsustainable demand of creating a unique model for each user. This study

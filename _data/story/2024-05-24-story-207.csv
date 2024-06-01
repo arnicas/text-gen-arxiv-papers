@@ -1,4 +1,162 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Text Generation: A Systematic Literature Review of Tasks, Evaluation,
+  and Challenges",2024-05-24 14:38:11+00:00,http://arxiv.org/abs/2405.15604v1,"Jonas Becker, Jan Philip Wahle, Bela Gipp, Terry Ruas","cs.CL, A.1; I.2.7",story,"Text generation has become more accessible than ever, and the increasing
+interest in these systems, especially those using large language models, has
+spurred an increasing number of related publications. We provide a systematic
+literature review comprising 244 selected papers between 2017 and 2024. This
+review categorizes works in text generation into five main tasks: open-ended
+text generation, summarization, translation, paraphrasing, and question
+answering. For each task, we review their relevant characteristics, sub-tasks,
+and specific challenges (e.g., missing datasets for multi-document
+summarization, coherence in story generation, and complex reasoning for
+question answering). Additionally, we assess current approaches for evaluating
+text generation systems and ascertain problems with current metrics. Our
+investigation shows nine prominent challenges common to all tasks and sub-tasks
+in recent text generation publications: bias, reasoning, hallucinations,
+misuse, privacy, interpretability, transparency, datasets, and computing. We
+provide a detailed analysis of these challenges, their potential solutions, and
+which gaps still require further engagement from the community. This systematic
+literature review targets two main audiences: early career researchers in
+natural language processing looking for an overview of the field and promising
+research directions, as well as experienced researchers seeking a detailed view
+of tasks, evaluation methodologies, open challenges, and recent mitigation
+strategies.",2024-05-24
+"Improving Language Models Trained with Translated Data via Continual
+  Pre-Training and Dictionary Learning Analysis",2024-05-23 07:53:04+00:00,http://arxiv.org/abs/2405.14277v1,"Sabri Boughorbel, MD Rizwan Parvez, Majd Hawasly",cs.CL,story,"Training LLMs in low resources languages usually utilizes data augmentation
+with machine translation (MT) from English language. However, translation
+brings a number of challenges: there are large costs attached to translating
+and curating huge amounts of content with high-end machine translation
+solutions, the translated content carries over cultural biases, and if the
+translation is not faithful and accurate, the quality of the data degrades
+causing issues in the trained model. In this work we investigate the role of
+translation and synthetic data in training language models. We translate
+TinyStories, a dataset of 2.2M short stories for 3-4 year old children, from
+English to Arabic using the free NLLB-3B MT model. We train a number of story
+generation models of sizes 1M-33M parameters using this data. We identify a
+number of quality and task-specific issues in the resulting models. To rectify
+these issues, we further pre-train the models with a small dataset of
+synthesized high-quality stories, representing 1\% of the original training
+data, using a capable LLM in Arabic. We show using GPT-4 as a judge and
+dictionary learning analysis from mechanistic interpretability that the
+suggested approach is a practical means to resolve some of the translation
+pitfalls. We illustrate the improvement through case studies of linguistic
+issues and cultural bias.",2024-05-23
+"Synchronized Video Storytelling: Generating Video Narrations with
+  Structured Storyline",2024-05-22 22:22:26+00:00,http://arxiv.org/abs/2405.14040v1,"Dingyi Yang, Chunru Zhan, Ziheng Wang, Biao Wang, Tiezheng Ge, Bo Zheng, Qin Jin",cs.MM,story,"Video storytelling is engaging multimedia content that utilizes video and its
+accompanying narration to attract the audience, where a key challenge is
+creating narrations for recorded visual scenes. Previous studies on dense video
+captioning and video story generation have made some progress. However, in
+practical applications, we typically require synchronized narrations for
+ongoing visual scenes. In this work, we introduce a new task of Synchronized
+Video Storytelling, which aims to generate synchronous and informative
+narrations for videos. These narrations, associated with each video clip,
+should relate to the visual content, integrate relevant knowledge, and have an
+appropriate word count corresponding to the clip's duration. Specifically, a
+structured storyline is beneficial to guide the generation process, ensuring
+coherence and integrity. To support the exploration of this task, we introduce
+a new benchmark dataset E-SyncVidStory with rich annotations. Since existing
+Multimodal LLMs are not effective in addressing this task in one-shot or
+few-shot settings, we propose a framework named VideoNarrator that can generate
+a storyline for input videos and simultaneously generate narrations with the
+guidance of the generated or predefined storyline. We further introduce a set
+of evaluation metrics to thoroughly assess the generation. Both automatic and
+human evaluations validate the effectiveness of our approach. Our dataset,
+codes, and evaluations will be released.",2024-05-22
+"Narrative Review of Support for Emotional Expressions in Virtual
+  Reality: Psychophysiology of speech-to-text interfaces",2024-05-22 18:53:27+00:00,http://arxiv.org/abs/2405.13924v1,"Sunday David Ubur, Denis Gracanin",cs.HC,story,"This narrative review on emotional expression in Speech-to-Text (STT)
+interfaces with Virtual Reality (VR) aims to identify advancements,
+limitations, and research gaps in incorporating emotional expression into
+transcribed text generated by STT systems. Using a rigorous search strategy,
+relevant articles published between 2020 and 2024 are extracted and categorized
+into themes such as communication enhancement technologies, innovations in
+captioning, emotion recognition in AR and VR, and empathic machines. The
+findings reveal the evolution of tools and techniques to meet the needs of
+individuals with hearing impairments, showcasing innovations in live
+transcription, closed captioning, AR, VR, and emotion recognition technologies.
+Despite improvements in accessibility, the absence of emotional nuance in
+transcribed text remains a significant communication challenge. The study
+underscores the urgency for innovations in STT technology to capture emotional
+expressions. The research discusses integrating emotional expression into text
+through strategies like animated text captions, emojilization tools, and models
+associating emotions with animation properties. Extending these efforts into AR
+and VR environments opens new possibilities for immersive and emotionally
+resonant experiences, especially in educational contexts. The study also
+explores empathic applications in healthcare, education, and human-robot
+interactions, highlighting the potential for personalized and effective
+interactions. The multidisciplinary nature of the literature underscores the
+potential for collaborative and interdisciplinary research.",2024-05-22
+Exploration of Masked and Causal Language Modelling for Text Generation,2024-05-21 09:33:31+00:00,http://arxiv.org/abs/2405.12630v1,"Nicolo Micheletti, Samuel Belkadi, Lifeng Han, Goran Nenadic","cs.CL, cs.AI",story,"Large Language Models (LLMs) have revolutionised the field of Natural
+Language Processing (NLP) and have achieved state-of-the-art performance in
+practically every task in this field. However, the prevalent approach used in
+text generation, Causal Language Modelling (CLM), which generates text
+sequentially from left to right, inherently limits the freedom of the model,
+which does not decide when and where each token is generated. In contrast,
+Masked Language Modelling (MLM), primarily used for language understanding
+tasks, can generate tokens anywhere in the text and any order. This paper
+conducts an extensive comparison of MLM and CLM approaches for text generation
+tasks. To do so, we pre-train several language models of comparable sizes on
+three different datasets, namely 1) medical discharge summaries, 2) movie plot
+synopses, and 3) authorship verification datasets. To assess the quality of the
+generations, we first employ quantitative metrics and then perform a
+qualitative human evaluation to analyse coherence and grammatical correctness.
+In addition, we evaluate the usefulness of the generated texts by using them in
+three different downstream tasks: 1) Entity Recognition, 2) Text
+Classification, and 3) Authorship Verification. The results show that MLM
+consistently outperforms CLM in text generation across all datasets, with
+higher quantitative scores and better coherence in the generated text. The
+study also finds \textit{no strong correlation} between the quality of the
+generated text and the performance of the models in the downstream tasks. With
+this study, we show that MLM for text generation has great potential for future
+research and provides direction for future studies in this area.",2024-05-21
+"StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character
+  Simulation via Narrative Planning",2024-05-17 23:04:51+00:00,http://arxiv.org/abs/2405.13042v1,"Yi Wang, Qian Zhou, David Ledo","cs.HC, cs.AI",story,"Automated plot generation for games enhances the player's experience by
+providing rich and immersive narrative experience that adapts to the player's
+actions. Traditional approaches adopt a symbolic narrative planning method
+which limits the scale and complexity of the generated plot by requiring
+extensive knowledge engineering work. Recent advancements use Large Language
+Models (LLMs) to drive the behavior of virtual characters, allowing plots to
+emerge from interactions between characters and their environments. However,
+the emergent nature of such decentralized plot generation makes it difficult
+for authors to direct plot progression. We propose a novel plot creation
+workflow that mediates between a writer's authorial intent and the emergent
+behaviors from LLM-driven character simulation, through a novel authorial
+structure called ""abstract acts"". The writers define high-level plot outlines
+that are later transformed into concrete character action sequences via an
+LLM-based narrative planning process, based on the game world state. The
+process creates ""living stories"" that dynamically adapt to various game world
+states, resulting in narratives co-created by the author, character simulation,
+and player. We present StoryVerse as a proof-of-concept system to demonstrate
+this plot creation workflow. We showcase the versatility of our approach with
+examples in different stories and game environments.",2024-05-17
+Multigenre AI-powered Story Composition,2024-05-06 12:54:41+00:00,http://arxiv.org/abs/2405.06685v1,"Edirlei Soares de Lima, Margot M. E. Neggers, Antonio L. Furtado",cs.CL,story,"This paper shows how to construct genre patterns, whose purpose is to guide
+interactive story composition in a way that enforces thematic consistency. To
+start the discussion we argue, based on previous seminal works, for the
+existence of five fundamental genres, namely comedy, romance - in the sense of
+epic plots, flourishing since the twelfth century -, tragedy, satire, and
+mystery. To construct the patterns, a simple two-phase process is employed:
+first retrieving examples that match our genre characterizations, and then
+applying a form of most specific generalization to the groups of examples in
+order to find their commonalities. In both phases, AI agents are instrumental,
+with our PatternTeller prototype being called to operate the story composition
+process, offering the opportunity to generate stories from a given premise of
+the user, to be developed under the guidance of the chosen pattern and trying
+to accommodate the user's suggestions along the composition stages.",2024-05-06
+The Psychosocial Impacts of Generative AI Harms,2024-05-02 21:21:06+00:00,http://arxiv.org/abs/2405.01740v1,"Faye-Marie Vassel, Evan Shieh, Cassidy R. Sugimoto, Thema Monroe-White",cs.CL,story,"The rapid emergence of generative Language Models (LMs) has led to growing
+concern about the impacts that their unexamined adoption may have on the social
+well-being of diverse user groups. Meanwhile, LMs are increasingly being
+adopted in K-20 schools and one-on-one student settings with minimal
+investigation of potential harms associated with their deployment. Motivated in
+part by real-world/everyday use cases (e.g., an AI writing assistant) this
+paper explores the potential psychosocial harms of stories generated by five
+leading LMs in response to open-ended prompting. We extend findings of
+stereotyping harms analyzing a total of 150K 100-word stories related to
+student classroom interactions. Examining patterns in LM-generated character
+demographics and representational harms (i.e., erasure, subordination, and
+stereotyping) we highlight particularly egregious vignettes, illustrating the
+ways LM-generated outputs may influence the experiences of users with
+marginalized and minoritized identities, and emphasizing the need for a
+critical understanding of the psychosocial impacts of generative AI tools when
+deployed and utilized in diverse social contexts.",2024-05-02
 "How Well Can LLMs Echo Us? Evaluating AI Chatbots' Role-Play Ability
   with ECHO",2024-04-22 08:00:51+00:00,http://arxiv.org/abs/2404.13957v1,"Man Tik Ng, Hui Tung Tse, Jen-tse Huang, Jingjing Li, Wenxuan Wang, Michael R. Lyu",cs.CL,story,"The role-play ability of Large Language Models (LLMs) has emerged as a
 popular research direction. However, existing studies focus on imitating

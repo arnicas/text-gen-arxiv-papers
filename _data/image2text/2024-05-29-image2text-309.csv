@@ -1,4 +1,152 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"MetaToken: Detecting Hallucination in Image Descriptions by Meta
+  Classification",2024-05-29 15:28:42+00:00,http://arxiv.org/abs/2405.19186v1,"Laura Fieback, Jakob Spiegelberg, Hanno Gottschalk","cs.CV, cs.CL, cs.LG, I.4",image2text,"Large Vision Language Models (LVLMs) have shown remarkable capabilities in
+multimodal tasks like visual question answering or image captioning. However,
+inconsistencies between the visual information and the generated text, a
+phenomenon referred to as hallucinations, remain an unsolved problem with
+regard to the trustworthiness of LVLMs. To address this problem, recent works
+proposed to incorporate computationally costly Large (Vision) Language Models
+in order to detect hallucinations on a sentence- or subsentence-level. In this
+work, we introduce MetaToken, a lightweight binary classifier to detect
+hallucinations on the token-level at negligible cost. Based on a statistical
+analysis, we reveal key factors of hallucinations in LVLMs which have been
+overseen in previous works. MetaToken can be applied to any open-source LVLM
+without any knowledge about ground truth data providing a reliable detection of
+hallucinations. We evaluate our method on four state-of-the-art LVLMs
+demonstrating the effectiveness of our approach.",2024-05-29
+Alt4Blind: A User Interface to Simplify Charts Alt-Text Creation,2024-05-29 14:19:57+00:00,http://arxiv.org/abs/2405.19111v1,"Omar Moured, Shahid Ali Farooqui, Karin Muller, Sharifeh Fadaeijouybari, Thorsten Schwarz, Mohammed Javed, Rainer Stiefelhagen","cs.CV, cs.HC",image2text,"Alternative Texts (Alt-Text) for chart images are essential for making
+graphics accessible to people with blindness and visual impairments.
+Traditionally, Alt-Text is manually written by authors but often encounters
+issues such as oversimplification or complication. Recent trends have seen the
+use of AI for Alt-Text generation. However, existing models are susceptible to
+producing inaccurate or misleading information. We address this challenge by
+retrieving high-quality alt-texts from similar chart images, serving as a
+reference for the user when creating alt-texts. Our three contributions are as
+follows: (1) we introduce a new benchmark comprising 5,000 real images with
+semantically labeled high-quality Alt-Texts, collected from Human Computer
+Interaction venues. (2) We developed a deep learning-based model to rank and
+retrieve similar chart images that share the same visual and textual semantics.
+(3) We designed a user interface (UI) to facilitate the alt-text creation
+process. Our preliminary interviews and investigations highlight the usability
+of our UI. For the dataset and further details, please refer to our project
+page: https://moured.github.io/alt4blind/.",2024-05-29
+"Automatic detection of cognitive impairment in elderly people using an
+  entertainment chatbot with Natural Language Processing capabilities",2024-05-28 19:17:48+00:00,http://arxiv.org/abs/2405.18542v1,"Francisco de Arriba-Pérez, Silvia García-Méndez, Francisco J. González-Castaño, Enrique Costa-Montenegro","cs.AI, cs.CL, cs.HC, cs.LG",image2text,"Previous researchers have proposed intelligent systems for therapeutic
+monitoring of cognitive impairments. However, most existing practical
+approaches for this purpose are based on manual tests. This raises issues such
+as excessive caretaking effort and the white-coat effect. To avoid these
+issues, we present an intelligent conversational system for entertaining
+elderly people with news of their interest that monitors cognitive impairment
+transparently. Automatic chatbot dialogue stages allow assessing content
+description skills and detecting cognitive impairment with Machine Learning
+algorithms. We create these dialogue flows automatically from updated news
+items using Natural Language Generation techniques. The system also infers the
+gold standard of the answers to the questions, so it can assess cognitive
+capabilities automatically by comparing these answers with the user responses.
+It employs a similarity metric with values in [0, 1], in increasing level of
+similarity. To evaluate the performance and usability of our approach, we have
+conducted field tests with a test group of 30 elderly people in the earliest
+stages of dementia, under the supervision of gerontologists. In the
+experiments, we have analysed the effect of stress and concentration in these
+users. Those without cognitive impairment performed up to five times better. In
+particular, the similarity metric varied between 0.03, for stressed and
+unfocused participants, and 0.36, for relaxed and focused users. Finally, we
+developed a Machine Learning algorithm based on textual analysis features for
+automatic cognitive impairment detection, which attained accuracy, F-measure
+and recall levels above 80%. We have thus validated the automatic approach to
+detect cognitive impairment in elderly people based on entertainment content.",2024-05-28
+"ECG Semantic Integrator (ESI): A Foundation ECG Model Pretrained with
+  LLM-Enhanced Cardiological Text",2024-05-26 06:45:39+00:00,http://arxiv.org/abs/2405.19366v1,"Han Yu, Peikun Guo, Akane Sano","eess.SP, cs.AI",image2text,"The utilization of deep learning on electrocardiogram (ECG) analysis has
+brought the advanced accuracy and efficiency of cardiac healthcare diagnostics.
+By leveraging the capabilities of deep learning in semantic understanding,
+especially in feature extraction and representation learning, this study
+introduces a new multimodal contrastive pretaining framework that aims to
+improve the quality and robustness of learned representations of 12-lead ECG
+signals. Our framework comprises two key components, including Cardio Query
+Assistant (CQA) and ECG Semantics Integrator(ESI). CQA integrates a
+retrieval-augmented generation (RAG) pipeline to leverage large language models
+(LLMs) and external medical knowledge to generate detailed textual descriptions
+of ECGs. The generated text is enriched with information about demographics and
+waveform patterns. ESI integrates both contrastive and captioning loss to
+pretrain ECG encoders for enhanced representations. We validate our approach
+through various downstream tasks, including arrhythmia detection and ECG-based
+subject identification. Our experimental results demonstrate substantial
+improvements over strong baselines in these tasks. These baselines encompass
+supervised and self-supervised learning methods, as well as prior multimodal
+pretraining approaches.",2024-05-26
+"VDGD: Mitigating LVLM Hallucinations in Cognitive Prompts by Bridging
+  the Visual Perception Gap",2024-05-24 16:21:59+00:00,http://arxiv.org/abs/2405.15683v1,"Sreyan Ghosh, Chandra Kiran Reddy Evuru, Sonal Kumar, Utkarsh Tyagi, Oriol Nieto, Zeyu Jin, Dinesh Manocha","cs.CV, cs.AI, cs.CL",image2text,"Recent interest in Large Vision-Language Models (LVLMs) for practical
+applications is moderated by the significant challenge of hallucination or the
+inconsistency between the factual information and the generated text. In this
+paper, we first perform an in-depth analysis of hallucinations and discover
+several novel insights about how and when LVLMs hallucinate. From our analysis,
+we show that: (1) The community's efforts have been primarily targeted towards
+reducing hallucinations related to visual recognition (VR) prompts (e.g.,
+prompts that only require describing the image), thereby ignoring
+hallucinations for cognitive prompts (e.g., prompts that require additional
+skills like reasoning on contents of the image). (2) LVLMs lack visual
+perception, i.e., they can see but not necessarily understand or perceive the
+input image. We analyze responses to cognitive prompts and show that LVLMs
+hallucinate due to a perception gap: although LVLMs accurately recognize visual
+elements in the input image and possess sufficient cognitive skills, they
+struggle to respond accurately and hallucinate. To overcome this shortcoming,
+we propose Visual Description Grounded Decoding (VDGD), a simple, robust, and
+training-free method for alleviating hallucinations. Specifically, we first
+describe the image and add it as a prefix to the instruction. Next, during
+auto-regressive decoding, we sample from the plausible candidates according to
+their KL-Divergence (KLD) to the description, where lower KLD is given higher
+preference. Experimental results on several benchmarks and LVLMs show that VDGD
+improves significantly over other baselines in reducing hallucinations. We also
+propose VaLLu, a benchmark for the comprehensive evaluation of the cognitive
+capabilities of LVLMs.",2024-05-24
+"A Misleading Gallery of Fluid Motion by Generative Artificial
+  Intelligence",2024-05-24 10:17:15+00:00,http://arxiv.org/abs/2405.15406v1,Ali Kashefi,"physics.flu-dyn, cs.LG",image2text,"In this technical report, we extensively investigate the accuracy of outputs
+from well-known generative artificial intelligence (AI) applications in
+response to prompts describing common fluid motion phenomena familiar to the
+fluid mechanics community. We examine a range of applications, including
+Midjourney, Dall-E, Runway ML, Microsoft Designer, Gemini, Meta AI, and
+Leonardo AI, introduced by prominent companies such as Google, OpenAI, Meta,
+and Microsoft. Our text prompts for generating images or videos include
+examples such as ""Von Karman vortex street"", ""flow past an airfoil"",
+""Kelvin-Helmholtz instability"", ""shock waves on a sharp-nosed supersonic body"",
+etc. We compare the images generated by these applications with real images
+from laboratory experiments and numerical software. Our findings indicate that
+these generative AI models are not adequately trained in fluid dynamics
+imagery, leading to potentially misleading outputs. Beyond text-to-image/video
+generation, we further explore the transition from image/video to text
+generation using these AI tools, aiming to investigate the accuracy of their
+descriptions of fluid motion phenomena. This report serves as a cautionary note
+for educators in academic institutions, highlighting the potential for these
+tools to mislead students. It also aims to inform researchers at these renowned
+companies, encouraging them to address this issue. We conjecture that a primary
+reason for this shortcoming is the limited access to copyright-protected fluid
+motion images from scientific journals.",2024-05-24
+Calibrated Self-Rewarding Vision Language Models,2024-05-23 14:30:33+00:00,http://arxiv.org/abs/2405.14622v2,"Yiyang Zhou, Zhiyuan Fan, Dongjie Cheng, Sihan Yang, Zhaorun Chen, Chenhang Cui, Xiyao Wang, Yun Li, Linjun Zhang, Huaxiu Yao","cs.LG, cs.CL, cs.CV",image2text,"Large Vision-Language Models (LVLMs) have made substantial progress by
+integrating pre-trained large language models (LLMs) and vision models through
+instruction tuning. Despite these advancements, LVLMs often exhibit the
+hallucination phenomenon, where generated text responses appear linguistically
+plausible but contradict the input image, indicating a misalignment between
+image and text pairs. This misalignment arises because the model tends to
+prioritize textual information over visual input, even when both the language
+model and visual representations are of high quality. Existing methods leverage
+additional models or human annotations to curate preference data and enhance
+modality alignment through preference optimization. These approaches may not
+effectively reflect the target LVLM's preferences, making the curated
+preferences easily distinguishable. Our work addresses these challenges by
+proposing the Calibrated Self-Rewarding (CSR) approach, which enables the model
+to self-improve by iteratively generating candidate responses, evaluating the
+reward for each response, and curating preference data for fine-tuning. In the
+reward modeling, we employ a step-wise strategy and incorporate visual
+constraints into the self-rewarding process to place greater emphasis on visual
+input. Empirical results demonstrate that CSR enhances performance and reduces
+hallucinations across ten benchmarks and tasks, achieving substantial
+improvements over existing methods by 7.62%. Our empirical results are further
+supported by rigorous theoretical analysis, under mild assumptions, verifying
+the effectiveness of introducing visual constraints into the self-rewarding
+paradigm. Additionally, CSR shows compatibility with different vision-language
+models and the ability to incrementally improve performance through iterative
+fine-tuning. Our data and code are available at
+https://github.com/YiyangZhou/CSR.",2024-05-23
 "Visual Delta Generator with Large Multi-modal Models for Semi-supervised
   Composed Image Retrieval",2024-04-23 21:00:22+00:00,http://arxiv.org/abs/2404.15516v1,"Young Kyun Jang, Donghyun Kim, Zihang Meng, Dat Huynh, Ser-Nam Lim","cs.CV, cs.AI",image2text,"Composed Image Retrieval (CIR) is a task that retrieves images similar to a
 query, based on a provided textual modification. Current techniques rely on
