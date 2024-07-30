@@ -1,4 +1,296 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+LLMs' Understanding of Natural Language Revealed,2024-07-29 01:21:11+00:00,http://arxiv.org/abs/2407.19630v1,Walid S. Saba,cs.AI,table2text,"Large language models (LLMs) are the result of a massive experiment in
+bottom-up, data-driven reverse engineering of language at scale. Despite their
+utility in a number of downstream NLP tasks, ample research has shown that LLMs
+are incapable of performing reasoning in tasks that require quantification over
+and the manipulation of symbolic variables (e.g., planning and problem
+solving); see for example [25][26]. In this document, however, we will focus on
+testing LLMs for their language understanding capabilities, their supposed
+forte. As we will show here, the language understanding capabilities of LLMs
+have been widely exaggerated. While LLMs have proven to generate human-like
+coherent language (since that's how they were designed), their language
+understanding capabilities have not been properly tested. In particular, we
+believe that the language understanding capabilities of LLMs should be tested
+by performing an operation that is the opposite of 'text generation' and
+specifically by giving the LLM snippets of text as input and then querying what
+the LLM ""understood"". As we show here, when doing so it will become apparent
+that LLMs do not truly understand language, beyond very superficial inferences
+that are essentially the byproduct of the memorization of massive amounts of
+ingested text.",2024-07-29
+"The Power of Combining Data and Knowledge: GPT-4o is an Effective
+  Interpreter of Machine Learning Models in Predicting Lymph Node Metastasis of
+  Lung Cancer",2024-07-25 09:42:24+00:00,http://arxiv.org/abs/2407.17900v2,"Danqing Hu, Bing Liu, Xiaofeng Zhu, Nan Wu","cs.CL, cs.LG",table2text,"Lymph node metastasis (LNM) is a crucial factor in determining the initial
+treatment for patients with lung cancer, yet accurate preoperative diagnosis of
+LNM remains challenging. Recently, large language models (LLMs) have garnered
+significant attention due to their remarkable text generation capabilities.
+Leveraging the extensive medical knowledge learned from vast corpora, LLMs can
+estimate probabilities for clinical problems, though their performance has
+historically been inferior to data-driven machine learning models. In this
+paper, we propose a novel ensemble method that combines the medical knowledge
+acquired by LLMs with the latent patterns identified by machine learning models
+to enhance LNM prediction performance. Initially, we developed machine learning
+models using patient data. We then designed a prompt template to integrate the
+patient data with the predicted probability from the machine learning model.
+Subsequently, we instructed GPT-4o, the most advanced LLM developed by OpenAI,
+to estimate the likelihood of LNM based on patient data and then adjust the
+estimate using the machine learning output. Finally, we collected three outputs
+from the GPT-4o using the same prompt and ensembled these results as the final
+prediction. Using the proposed method, our models achieved an AUC value of
+0.765 and an AP value of 0.415 for LNM prediction, significantly improving
+predictive performance compared to baseline machine learning models. The
+experimental results indicate that GPT-4o can effectively leverage its medical
+knowledge and the probabilities predicted by machine learning models to achieve
+more accurate LNM predictions. These findings demonstrate that LLMs can perform
+well in clinical risk prediction tasks, offering a new paradigm for integrating
+medical knowledge and patient data in clinical predictions.",2024-07-25
+"Are Large Language Models Possible to Conduct Cognitive Behavioral
+  Therapy?",2024-07-25 03:01:47+00:00,http://arxiv.org/abs/2407.17730v1,"Hao Shen, Zihan Li, Minqiang Yang, Minghui Ni, Yongfeng Tao, Zhengyang Yu, Weihao Zheng, Chen Xu, Bin Hu",cs.CL,table2text,"In contemporary society, the issue of psychological health has become
+increasingly prominent, characterized by the diversification, complexity, and
+universality of mental disorders. Cognitive Behavioral Therapy (CBT), currently
+the most influential and clinically effective psychological treatment method
+with no side effects, has limited coverage and poor quality in most countries.
+In recent years, researches on the recognition and intervention of emotional
+disorders using large language models (LLMs) have been validated, providing new
+possibilities for psychological assistance therapy. However, are LLMs truly
+possible to conduct cognitive behavioral therapy? Many concerns have been
+raised by mental health experts regarding the use of LLMs for therapy. Seeking
+to answer this question, we collected real CBT corpus from online video
+websites, designed and conducted a targeted automatic evaluation framework
+involving the evaluation of emotion tendency of generated text, structured
+dialogue pattern and proactive inquiry ability. For emotion tendency, we
+calculate the emotion tendency score of the CBT dialogue text generated by each
+model. For structured dialogue pattern, we use a diverse range of automatic
+evaluation metrics to compare speaking style, the ability to maintain
+consistency of topic and the use of technology in CBT between different models
+. As for inquiring to guide the patient, we utilize PQA (Proactive Questioning
+Ability) metric. We also evaluated the CBT ability of the LLM after integrating
+a CBT knowledge base to explore the help of introducing additional knowledge to
+enhance the model's CBT counseling ability. Four LLM variants with excellent
+performance on natural language processing are evaluated, and the experimental
+result shows the great potential of LLMs in psychological counseling realm,
+especially after combining with other technological means.",2024-07-25
+"IgnitionInnovators at ""Discharge Me!"": Chain-of-Thought Instruction
+  Finetuning Large Language Models for Discharge Summaries",2024-07-24 21:02:53+00:00,http://arxiv.org/abs/2407.17636v1,"An Quang Tang, Xiuzhen Zhang, Minh Ngoc Dinh",cs.CL,table2text,"This paper presents our proposed approach to the Discharge Me! shared task,
+collocated with the 23th Workshop on Biomedical Natural Language Processing
+(BioNLP). In this work, we develop an LLM-based framework for solving the
+Discharge Summary Documentation (DSD) task, i.e., generating the two critical
+target sections `Brief Hospital Course' and `Discharge Instructions' in the
+discharge summary. By streamlining the recent instruction-finetuning process on
+LLMs, we explore several prompting strategies for optimally adapting LLMs to
+specific generation task of DSD. Experimental results show that providing a
+clear output structure, complimented by a set of comprehensive
+Chain-of-Thoughts (CoT) questions, effectively improves the model's reasoning
+capability, and thereby, enhancing the structural correctness and faithfulness
+of clinical information in the generated text. Source code is available at:
+https://github.com/antangrocket1312/Discharge_LLM",2024-07-24
+A Survey of Text Style Transfer: Applications and Ethical Implications,2024-07-23 17:15:23+00:00,http://arxiv.org/abs/2407.16737v1,"Sourabrata Mukherjee, Mateusz Lango, Zdenek Kasner, Ondrej Dušek",cs.CL,table2text,"Text style transfer (TST) is an important task in controllable text
+generation, which aims to control selected attributes of language use, such as
+politeness, formality, or sentiment, without altering the style-independent
+content of the text. The field has received considerable research attention in
+recent years and has already been covered in several reviews, but the focus has
+mostly been on the development of new algorithms and learning from different
+types of data (supervised, unsupervised, out-of-domain, etc.) and not so much
+on the application side. However, TST-related technologies are gradually
+reaching a production- and deployment-ready level, and therefore, the inclusion
+of the application perspective in TST research becomes crucial. Similarly, the
+often overlooked ethical considerations of TST technology have become a
+pressing issue. This paper presents a comprehensive review of TST applications
+that have been researched over the years, using both traditional linguistic
+approaches and more recent deep learning methods. We discuss current
+challenges, future research directions, and ethical implications of TST
+applications in text generation. By providing a holistic overview of the
+landscape of TST applications, we hope to stimulate further research and
+contribute to a better understanding of the potential as well as ethical
+considerations associated with TST.",2024-07-23
+"FairFlow: An Automated Approach to Model-based Counterfactual Data
+  Augmentation For NLP",2024-07-23 12:29:37+00:00,http://arxiv.org/abs/2407.16431v1,"Ewoenam Kwaku Tokpo, Toon Calders",cs.CL,table2text,"Despite the evolution of language models, they continue to portray harmful
+societal biases and stereotypes inadvertently learned from training data. These
+inherent biases often result in detrimental effects in various applications.
+Counterfactual Data Augmentation (CDA), which seeks to balance demographic
+attributes in training data, has been a widely adopted approach to mitigate
+bias in natural language processing. However, many existing CDA approaches rely
+on word substitution techniques using manually compiled word-pair dictionaries.
+These techniques often lead to out-of-context substitutions, resulting in
+potential quality issues. The advancement of model-based techniques, on the
+other hand, has been challenged by the need for parallel training data. Works
+in this area resort to manually generated parallel data that are expensive to
+collect and are consequently limited in scale. This paper proposes FairFlow, an
+automated approach to generating parallel data for training counterfactual text
+generator models that limits the need for human intervention. Furthermore, we
+show that FairFlow significantly overcomes the limitations of dictionary-based
+word-substitution approaches whilst maintaining good performance.",2024-07-23
+"Robust Privacy Amidst Innovation with Large Language Models Through a
+  Critical Assessment of the Risks",2024-07-23 04:20:14+00:00,http://arxiv.org/abs/2407.16166v1,"Yao-Shun Chuang, Atiquer Rahman Sarkar, Noman Mohammed, Xiaoqian Jiang",cs.CL,table2text,"This study examines integrating EHRs and NLP with large language models
+(LLMs) to improve healthcare data management and patient care. It focuses on
+using advanced models to create secure, HIPAA-compliant synthetic patient notes
+for biomedical research. The study used de-identified and re-identified MIMIC
+III datasets with GPT-3.5, GPT-4, and Mistral 7B to generate synthetic notes.
+Text generation employed templates and keyword extraction for contextually
+relevant notes, with one-shot generation for comparison. Privacy assessment
+checked PHI occurrence, while text utility was tested using an ICD-9 coding
+task. Text quality was evaluated with ROUGE and cosine similarity metrics to
+measure semantic similarity with source notes. Analysis of PHI occurrence and
+text utility via the ICD-9 coding task showed that the keyword-based method had
+low risk and good performance. One-shot generation showed the highest PHI
+exposure and PHI co-occurrence, especially in geographic location and date
+categories. The Normalized One-shot method achieved the highest classification
+accuracy. Privacy analysis revealed a critical balance between data utility and
+privacy protection, influencing future data use and sharing. Re-identified data
+consistently outperformed de-identified data. This study demonstrates the
+effectiveness of keyword-based methods in generating privacy-protecting
+synthetic clinical notes that retain data usability, potentially transforming
+clinical data-sharing practices. The superior performance of re-identified over
+de-identified data suggests a shift towards methods that enhance utility and
+privacy by using dummy PHIs to perplex privacy attacks.",2024-07-23
+"Finetuning Generative Large Language Models with Discrimination
+  Instructions for Knowledge Graph Completion",2024-07-23 02:25:01+00:00,http://arxiv.org/abs/2407.16127v1,"Yang Liu, Xiaobin Tian, Zequn Sun, Wei Hu","cs.CL, cs.AI",table2text,"Traditional knowledge graph (KG) completion models learn embeddings to
+predict missing facts. Recent works attempt to complete KGs in a
+text-generation manner with large language models (LLMs). However, they need to
+ground the output of LLMs to KG entities, which inevitably brings errors. In
+this paper, we present a finetuning framework, DIFT, aiming to unleash the KG
+completion ability of LLMs and avoid grounding errors. Given an incomplete
+fact, DIFT employs a lightweight model to obtain candidate entities and
+finetunes an LLM with discrimination instructions to select the correct one
+from the given candidates. To improve performance while reducing instruction
+data, DIFT uses a truncated sampling method to select useful facts for
+finetuning and injects KG embeddings into the LLM. Extensive experiments on
+benchmark datasets demonstrate the effectiveness of our proposed framework.",2024-07-23
+"When Do Universal Image Jailbreaks Transfer Between Vision-Language
+  Models?",2024-07-21 16:27:24+00:00,http://arxiv.org/abs/2407.15211v1,"Rylan Schaeffer, Dan Valentine, Luke Bailey, James Chua, Cristóbal Eyzaguirre, Zane Durante, Joe Benton, Brando Miranda, Henry Sleight, John Hughes, Rajashree Agrawal, Mrinank Sharma, Scott Emmons, Sanmi Koyejo, Ethan Perez","cs.CL, cs.AI, cs.CR, cs.CV, cs.LG",table2text,"The integration of new modalities into frontier AI systems offers exciting
+capabilities, but also increases the possibility such systems can be
+adversarially manipulated in undesirable ways. In this work, we focus on a
+popular class of vision-language models (VLMs) that generate text outputs
+conditioned on visual and textual inputs. We conducted a large-scale empirical
+study to assess the transferability of gradient-based universal image
+""jailbreaks"" using a diverse set of over 40 open-parameter VLMs, including 18
+new VLMs that we publicly release. Overall, we find that transferable
+gradient-based image jailbreaks are extremely difficult to obtain. When an
+image jailbreak is optimized against a single VLM or against an ensemble of
+VLMs, the jailbreak successfully jailbreaks the attacked VLM(s), but exhibits
+little-to-no transfer to any other VLMs; transfer is not affected by whether
+the attacked and target VLMs possess matching vision backbones or language
+models, whether the language model underwent instruction-following and/or
+safety-alignment training, or many other factors. Only two settings display
+partially successful transfer: between identically-pretrained and
+identically-initialized VLMs with slightly different VLM training data, and
+between different training checkpoints of a single VLM. Leveraging these
+results, we then demonstrate that transfer can be significantly improved
+against a specific target VLM by attacking larger ensembles of ""highly-similar""
+VLMs. These results stand in stark contrast to existing evidence of universal
+and transferable text jailbreaks against language models and transferable
+adversarial attacks against image classifiers, suggesting that VLMs may be more
+robust to gradient-based transfer attacks.",2024-07-21
+"Is Behavior Cloning All You Need? Understanding Horizon in Imitation
+  Learning",2024-07-20 23:31:56+00:00,http://arxiv.org/abs/2407.15007v1,"Dylan J. Foster, Adam Block, Dipendra Misra","cs.LG, cs.AI, math.ST, stat.ML, stat.TH",table2text,"Imitation learning (IL) aims to mimic the behavior of an expert in a
+sequential decision making task by learning from demonstrations, and has been
+widely applied to robotics, autonomous driving, and autoregressive text
+generation. The simplest approach to IL, behavior cloning (BC), is thought to
+incur sample complexity with unfavorable quadratic dependence on the problem
+horizon, motivating a variety of different online algorithms that attain
+improved linear horizon dependence under stronger assumptions on the data and
+the learner's access to the expert.
+  We revisit the apparent gap between offline and online IL from a
+learning-theoretic perspective, with a focus on general policy classes up to
+and including deep neural networks. Through a new analysis of behavior cloning
+with the logarithmic loss, we show that it is possible to achieve
+horizon-independent sample complexity in offline IL whenever (i) the range of
+the cumulative payoffs is controlled, and (ii) an appropriate notion of
+supervised learning complexity for the policy class is controlled. Specializing
+our results to deterministic, stationary policies, we show that the gap between
+offline and online IL is not fundamental: (i) it is possible to achieve linear
+dependence on horizon in offline IL under dense rewards (matching what was
+previously only known to be achievable in online IL); and (ii) without further
+assumptions on the policy class, online IL cannot improve over offline IL with
+the logarithmic loss, even in benign MDPs. We complement our theoretical
+results with experiments on standard RL tasks and autoregressive language
+generation to validate the practical relevance of our findings.",2024-07-20
+Check-Eval: A Checklist-based Approach for Evaluating Text Quality,2024-07-19 17:14:16+00:00,http://arxiv.org/abs/2407.14467v1,"Jayr Pereira, Roberto Lotufo","cs.CL, cs.AI",table2text,"Evaluating the quality of text generated by large language models (LLMs)
+remains a significant challenge. Traditional metrics often fail to align well
+with human judgments, particularly in tasks requiring creativity and nuance. In
+this paper, we propose Check-Eval, a novel evaluation framework leveraging LLMs
+to assess the quality of generated text through a checklist-based approach.
+Check-Eval can be employed as both a reference-free and reference-dependent
+evaluation method, providing a structured and interpretable assessment of text
+quality. The framework consists of two main stages: checklist generation and
+checklist evaluation. We validate Check-Eval on two benchmark datasets:
+Portuguese Legal Semantic Textual Similarity and SummEval. Our results
+demonstrate that Check-Eval achieves higher correlations with human judgments
+compared to existing metrics, such as G-Eval and GPTScore, underscoring its
+potential as a more reliable and effective evaluation framework for natural
+language generation tasks. The code for our experiments is available at
+https://anonymous.4open.science/r/check-eval-0DB4.",2024-07-19
+"From Instruction to Insight: Exploring the Functional and Semantic Roles
+  of Text in Interactive Dashboards",2024-07-19 16:48:00+00:00,http://arxiv.org/abs/2407.14451v1,"Nicole Sultanum, Vidya Setlur",cs.HC,table2text,"There is increased interest in the interplay between text and visuals in the
+field of data visualization. However, this attention has predominantly been on
+the use of text in standalone visualizations or augmenting text stories
+supported by a series of independent views. In this paper, we shift from the
+traditional focus on single-chart annotations to characterize the nuanced but
+crucial communication role of text in the complex environment of interactive
+dashboards. Through a survey and analysis of 190 dashboards in the wild, plus
+13 expert interview sessions with experienced dashboard authors, we highlight
+the distinctive nature of text as an integral component of the dashboard
+experience, while delving into the categories, semantic levels, and functional
+roles of text, and exploring how these text elements are coalesced by dashboard
+authors to guide and inform dashboard users.
+  Our contributions are: 1) we distill qualitative and quantitative findings
+from our studies to characterize current practices of text use in dashboards,
+including a categorization of text-based components and design patterns; 2) we
+leverage current practices and existing literature to propose, discuss, and
+validate recommended practices for text in dashboards, embodied as 12
+heuristics that underscore the semantic and functional role of text in offering
+navigational cues, contextualizing data insights, supporting reading order,
+etc; 3) we reflect on our findings to identify gaps and propose opportunities
+for data visualization researchers to push the boundaries on text usage for
+dashboards, from authoring support and interactivity to text generation and
+content personalization.
+  Our research underscores the significance of elevating text as a first-class
+citizen in data visualization, and the need to support the inclusion of textual
+components and their interactive affordances in dashboard design.",2024-07-19
+"Clinical Reading Comprehension with Encoder-Decoder Models Enhanced by
+  Direct Preference Optimization",2024-07-19 03:12:10+00:00,http://arxiv.org/abs/2407.14000v1,"Md Sultan Al Nahian, Ramakanth Kavuluru","cs.IR, cs.CL, cs.LG",table2text,"Extractive question answering over clinical text is a crucial need to help
+deal with the deluge of clinical text generated in hospitals. While encoder
+models (e.g., BERT) have been popular for this reading comprehension task,
+recently encoder-decoder models (e.g., T5) are on the rise. There is also the
+emergence of preference optimization techniques to align decoder-only LLMs with
+human preferences. In this paper, we combine encoder-decoder models with the
+direct preference optimization (DPO) method to improve over prior state of the
+art for the RadQA radiology question answering task by 12-15 F1 points. To the
+best of our knowledge, this effort is the first to show that DPO method also
+works for reading comprehension via novel heuristics to generate preference
+data without human inputs.",2024-07-19
+Do LLMs have Consistent Values?,2024-07-16 08:58:00+00:00,http://arxiv.org/abs/2407.12878v2,"Naama Rozen, Gal Elidan, Amir Globerson, Ella Daniel","cs.CL, cs.AI",table2text,"Values are a basic driving force underlying human behavior. Large Language
+Models (LLM) technology is constantly improving towards human-like dialogue.
+However, little research has been done to study the values exhibited in text
+generated by LLMs. Here we study this question by turning to the rich
+literature on value structure in psychology. We ask whether LLMs exhibit the
+same value structure that has been demonstrated in humans, including the
+ranking of values, and correlation between values. We show that the results of
+this analysis strongly depend on how the LLM is prompted, and that under a
+particular prompting strategy (referred to as 'Value Anchoring') the agreement
+with human data is quite compelling. Our results serve both to improve our
+understanding of values in LLMs, as well as introduce novel methods for
+assessing consistency in LLM responses.",2024-07-16
+Are you still on track!? Catching LLM Task Drift with Activations,2024-06-02 16:53:21+00:00,http://arxiv.org/abs/2406.00799v4,"Sahar Abdelnabi, Aideen Fay, Giovanni Cherubin, Ahmed Salem, Mario Fritz, Andrew Paverd","cs.CR, cs.CL, cs.CY",table2text,"Large Language Models (LLMs) are routinely used in retrieval-augmented
+applications to orchestrate tasks and process inputs from users and other
+sources. These inputs, even in a single LLM interaction, can come from a
+variety of sources, of varying trustworthiness and provenance. This opens the
+door to prompt injection attacks, where the LLM receives and acts upon
+instructions from supposedly data-only sources, thus deviating from the user's
+original instructions. We define this as task drift, and we propose to catch it
+by scanning and analyzing the LLM's activations. We compare the LLM's
+activations before and after processing the external input in order to detect
+whether this input caused instruction drift. We develop two probing methods and
+find that simply using a linear classifier can detect drift with near perfect
+ROC AUC on an out-of-distribution test set. We show that this approach
+generalizes surprisingly well to unseen task domains, such as prompt
+injections, jailbreaks, and malicious instructions, without being trained on
+any of these attacks. Our setup does not require any modification of the LLM
+(e.g., fine-tuning) or any text generation, thus maximizing deployability and
+cost efficiency and avoiding reliance on unreliable model output. To foster
+future research on activation-based task inspection, decoding, and
+interpretability, we will release our large-scale TaskTracker toolkit,
+comprising a dataset of over 500K instances, representations from 5 SoTA
+language models, and inspection tools.",2024-06-02
 Evaluating Large Language Model Biases in Persona-Steered Generation,2024-05-30 17:06:03+00:00,http://arxiv.org/abs/2405.20253v1,"Andy Liu, Mona Diab, Daniel Fried",cs.CL,table2text,"The task of persona-steered text generation requires large language models
 (LLMs) to generate text that reflects the distribution of views that an
 individual fitting a persona could have. People have multifaceted personas, but

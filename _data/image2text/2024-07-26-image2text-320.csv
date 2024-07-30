@@ -1,4 +1,237 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Wolf: Captioning Everything with a World Summarization Framework,2024-07-26 17:59:09+00:00,http://arxiv.org/abs/2407.18908v1,"Boyi Li, Ligeng Zhu, Ran Tian, Shuhan Tan, Yuxiao Chen, Yao Lu, Yin Cui, Sushant Veer, Max Ehrlich, Jonah Philion, Xinshuo Weng, Fuzhao Xue, Andrew Tao, Ming-Yu Liu, Sanja Fidler, Boris Ivanovic, Trevor Darrell, Jitendra Malik, Song Han, Marco Pavone","cs.LG, cs.CL, cs.CV",image2text,"We propose Wolf, a WOrLd summarization Framework for accurate video
+captioning. Wolf is an automated captioning framework that adopts a
+mixture-of-experts approach, leveraging complementary strengths of Vision
+Language Models (VLMs). By utilizing both image and video models, our framework
+captures different levels of information and summarizes them efficiently. Our
+approach can be applied to enhance video understanding, auto-labeling, and
+captioning. To evaluate caption quality, we introduce CapScore, an LLM-based
+metric to assess the similarity and quality of generated captions compared to
+the ground truth captions. We further build four human-annotated datasets in
+three domains: autonomous driving, general scenes, and robotics, to facilitate
+comprehensive comparisons. We show that Wolf achieves superior captioning
+performance compared to state-of-the-art approaches from the research community
+(VILA1.5, CogAgent) and commercial solutions (Gemini-Pro-1.5, GPT-4V). For
+instance, in comparison with GPT-4V, Wolf improves CapScore both quality-wise
+by 55.6% and similarity-wise by 77.4% on challenging driving videos. Finally,
+we establish a benchmark for video captioning and introduce a leaderboard,
+aiming to accelerate advancements in video understanding, captioning, and data
+alignment. Leaderboard: https://wolfv0.github.io/leaderboard.html.",2024-07-26
+Guided Latent Slot Diffusion for Object-Centric Learning,2024-07-25 10:38:32+00:00,http://arxiv.org/abs/2407.17929v1,"Krishnakant Singh, Simone Schaub-Meyer, Stefan Roth","cs.CV, cs.LG",image2text,"Slot attention aims to decompose an input image into a set of meaningful
+object files (slots). These latent object representations enable various
+downstream tasks. Yet, these slots often bind to object parts, not objects
+themselves, especially for real-world datasets. To address this, we introduce
+Guided Latent Slot Diffusion - GLASS, an object-centric model that uses
+generated captions as a guiding signal to better align slots with objects. Our
+key insight is to learn the slot-attention module in the space of generated
+images. This allows us to repurpose the pre-trained diffusion decoder model,
+which reconstructs the images from the slots, as a semantic mask generator
+based on the generated captions. GLASS learns an object-level representation
+suitable for multiple tasks simultaneously, e.g., segmentation, image
+generation, and property prediction, outperforming previous methods. For object
+discovery, GLASS achieves approx. a +35% and +10% relative improvement for mIoU
+over the previous state-of-the-art (SOTA) method on the VOC and COCO datasets,
+respectively, and establishes a new SOTA FID score for conditional image
+generation amongst slot-attention-based methods. For the segmentation task,
+GLASS surpasses SOTA weakly-supervised and language-based segmentation models,
+which were specifically designed for the task.",2024-07-25
+"Generative artificial intelligence in dentistry: Current approaches and
+  future challenges",2024-07-24 03:33:47+00:00,http://arxiv.org/abs/2407.17532v1,"Fabián Villena, Claudia Véliz, Rosario García-Huidobro, Sebastián Aguayo",cs.CL,image2text,"Artificial intelligence (AI) has become a commodity for people because of the
+advent of generative AI (GenAI) models that bridge the usability gap of AI by
+providing a natural language interface to interact with complex models. These
+GenAI models range from text generation - such as two-way chat systems - to the
+generation of image or video from textual descriptions input by a user. These
+advancements in AI have impacted Dentistry in multiple aspects. In dental
+education, the student now has the opportunity to solve a plethora of questions
+by only prompting a GenAI model and have the answer in a matter of seconds.
+GenAI models can help us deliver better patient healthcare by helping
+practitioners gather knowledge quickly and efficiently. Finally, GenAI can also
+be used in dental research, where the applications range from new drug
+discovery to assistance in academic writing. In this review, we first define
+GenAI models and describe their multiple generation modalities; then, we
+explain and discuss their current and potential applications in Dentistry; and
+finally, we describe the challenges these new technologies impose in our area.",2024-07-24
+"When Do Universal Image Jailbreaks Transfer Between Vision-Language
+  Models?",2024-07-21 16:27:24+00:00,http://arxiv.org/abs/2407.15211v1,"Rylan Schaeffer, Dan Valentine, Luke Bailey, James Chua, Cristóbal Eyzaguirre, Zane Durante, Joe Benton, Brando Miranda, Henry Sleight, John Hughes, Rajashree Agrawal, Mrinank Sharma, Scott Emmons, Sanmi Koyejo, Ethan Perez","cs.CL, cs.AI, cs.CR, cs.CV, cs.LG",image2text,"The integration of new modalities into frontier AI systems offers exciting
+capabilities, but also increases the possibility such systems can be
+adversarially manipulated in undesirable ways. In this work, we focus on a
+popular class of vision-language models (VLMs) that generate text outputs
+conditioned on visual and textual inputs. We conducted a large-scale empirical
+study to assess the transferability of gradient-based universal image
+""jailbreaks"" using a diverse set of over 40 open-parameter VLMs, including 18
+new VLMs that we publicly release. Overall, we find that transferable
+gradient-based image jailbreaks are extremely difficult to obtain. When an
+image jailbreak is optimized against a single VLM or against an ensemble of
+VLMs, the jailbreak successfully jailbreaks the attacked VLM(s), but exhibits
+little-to-no transfer to any other VLMs; transfer is not affected by whether
+the attacked and target VLMs possess matching vision backbones or language
+models, whether the language model underwent instruction-following and/or
+safety-alignment training, or many other factors. Only two settings display
+partially successful transfer: between identically-pretrained and
+identically-initialized VLMs with slightly different VLM training data, and
+between different training checkpoints of a single VLM. Leveraging these
+results, we then demonstrate that transfer can be significantly improved
+against a specific target VLM by attacking larger ensembles of ""highly-similar""
+VLMs. These results stand in stark contrast to existing evidence of universal
+and transferable text jailbreaks against language models and transferable
+adversarial attacks against image classifiers, suggesting that VLMs may be more
+robust to gradient-based transfer attacks.",2024-07-21
+"DOPRA: Decoding Over-accumulation Penalization and Re-allocation in
+  Specific Weighting Layer",2024-07-21 11:54:49+00:00,http://arxiv.org/abs/2407.15130v2,"Jinfeng Wei, Xiaofeng Zhang","cs.CL, cs.AI",image2text,"In this work, we introduce DOPRA, a novel approach designed to mitigate
+hallucinations in multi-modal large language models (MLLMs). Unlike existing
+solutions that typically involve costly supplementary training data or the
+integration of external knowledge sources, DOPRA innovatively addresses
+hallucinations by decoding specific weighted layer penalties and
+redistribution, offering an economical and effective solution without
+additional resources. DOPRA is grounded in unique insights into the intrinsic
+mechanisms controlling hallucinations within MLLMs, especially the models'
+tendency to over-rely on a subset of summary tokens in the self-attention
+matrix, neglecting critical image-related information. This phenomenon is
+particularly pronounced in certain strata. To counteract this over-reliance,
+DOPRA employs a strategy of weighted overlay penalties and redistribution in
+specific layers, such as the 12th layer, during the decoding process.
+Furthermore, DOPRA includes a retrospective allocation process that re-examines
+the sequence of generated tokens, allowing the algorithm to reallocate token
+selection to better align with the actual image content, thereby reducing the
+incidence of hallucinatory descriptions in auto-generated captions. Overall,
+DOPRA represents a significant step forward in improving the output quality of
+MLLMs by systematically reducing hallucinations through targeted adjustments
+during the decoding process.",2024-07-21
+"KoMA: Knowledge-driven Multi-agent Framework for Autonomous Driving with
+  Large Language Models",2024-07-19 12:13:08+00:00,http://arxiv.org/abs/2407.14239v1,"Kemou Jiang, Xuan Cai, Zhiyong Cui, Aoyong Li, Yilong Ren, Haiyang Yu, Hao Yang, Daocheng Fu, Licheng Wen, Pinlong Cai",cs.AI,image2text,"Large language models (LLMs) as autonomous agents offer a novel avenue for
+tackling real-world challenges through a knowledge-driven manner. These
+LLM-enhanced methodologies excel in generalization and interpretability.
+However, the complexity of driving tasks often necessitates the collaboration
+of multiple, heterogeneous agents, underscoring the need for such LLM-driven
+agents to engage in cooperative knowledge sharing and cognitive synergy.
+Despite the promise of LLMs, current applications predominantly center around
+single agent scenarios. To broaden the horizons of knowledge-driven strategies
+and bolster the generalization capabilities of autonomous agents, we propose
+the KoMA framework consisting of multi-agent interaction, multi-step planning,
+shared-memory, and ranking-based reflection modules to enhance multi-agents'
+decision-making in complex driving scenarios. Based on the framework's
+generated text descriptions of driving scenarios, the multi-agent interaction
+module enables LLM agents to analyze and infer the intentions of surrounding
+vehicles, akin to human cognition. The multi-step planning module enables LLM
+agents to analyze and obtain final action decisions layer by layer to ensure
+consistent goals for short-term action decisions. The shared memory module can
+accumulate collective experience to make superior decisions, and the
+ranking-based reflection module can evaluate and improve agent behavior with
+the aim of enhancing driving safety and efficiency. The KoMA framework not only
+enhances the robustness and adaptability of autonomous driving agents but also
+significantly elevates their generalization capabilities across diverse
+scenarios. Empirical results demonstrate the superiority of our approach over
+traditional methods, particularly in its ability to handle complex,
+unpredictable driving environments without extensive retraining.",2024-07-19
+"Turning Generative Models Degenerate: The Power of Data Poisoning
+  Attacks",2024-07-17 03:02:15+00:00,http://arxiv.org/abs/2407.12281v2,"Shuli Jiang, Swanand Ravindra Kadhe, Yi Zhou, Farhan Ahmed, Ling Cai, Nathalie Baracaldo","cs.CR, cs.AI",image2text,"The increasing use of large language models (LLMs) trained by third parties
+raises significant security concerns. In particular, malicious actors can
+introduce backdoors through poisoning attacks to generate undesirable outputs.
+While such attacks have been extensively studied in image domains and
+classification tasks, they remain underexplored for natural language generation
+(NLG) tasks. To address this gap, we conduct an investigation of various
+poisoning techniques targeting the LLM's fine-tuning phase via prefix-tuning, a
+Parameter Efficient Fine-Tuning (PEFT) method. We assess their effectiveness
+across two generative tasks: text summarization and text completion; and we
+also introduce new metrics to quantify the success and stealthiness of such NLG
+poisoning attacks. Through our experiments, we find that the prefix-tuning
+hyperparameters and trigger designs are the most crucial factors to influence
+attack success and stealthiness. Moreover, we demonstrate that existing popular
+defenses are ineffective against our poisoning attacks. Our study presents the
+first systematic approach to understanding poisoning attacks targeting NLG
+tasks during fine-tuning via PEFT across a wide range of triggers and attack
+settings. We hope our findings will aid the AI security community in developing
+effective defenses against such threats.",2024-07-17
+"Towards Dataset-scale and Feature-oriented Evaluation of Text
+  Summarization in Large Language Model Prompts",2024-07-16 21:36:43+00:00,http://arxiv.org/abs/2407.12192v2,"Sam Yu-Te Lee, Aryaman Bahukhandi, Dongyu Liu, Kwan-Liu Ma",cs.HC,image2text,"Recent advancements in Large Language Models (LLMs) and Prompt Engineering
+have made chatbot customization more accessible, significantly reducing
+barriers to tasks that previously required programming skills. However, prompt
+evaluation, especially at the dataset scale, remains complex due to the need to
+assess prompts across thousands of test instances within a dataset. Our study,
+based on a comprehensive literature review and pilot study, summarized five
+critical challenges in prompt evaluation. In response, we introduce a
+feature-oriented workflow for systematic prompt evaluation. In the context of
+text summarization, our workflow advocates evaluation with summary
+characteristics (feature metrics) such as complexity, formality, or
+naturalness, instead of using traditional quality metrics like ROUGE. This
+design choice enables a more user-friendly evaluation of prompts, as it guides
+users in sorting through the ambiguity inherent in natural language. To support
+this workflow, we introduce Awesum, a visual analytics system that facilitates
+identifying optimal prompt refinements for text summarization through
+interactive visualizations, featuring a novel Prompt Comparator design that
+employs a BubbleSet-inspired design enhanced by dimensionality reduction
+techniques. We evaluate the effectiveness and general applicability of the
+system with practitioners from various domains and found that (1) our design
+helps overcome the learning curve for non-technical people to conduct a
+systematic evaluation of summarization prompts, and (2) our feature-oriented
+workflow has the potential to generalize to other NLG and image-generation
+tasks. For future works, we advocate moving towards feature-oriented evaluation
+of LLM prompts and discuss unsolved challenges in terms of human-agent
+interaction.",2024-07-16
+"CIC-BART-SSA: Controllable Image Captioning with Structured Semantic
+  Augmentation",2024-07-16 05:26:12+00:00,http://arxiv.org/abs/2407.11393v2,"Kalliopi Basioti, Mohamed A. Abdelsalam, Federico Fancellu, Vladimir Pavlovic, Afsaneh Fazly","cs.CV, cs.AI, cs.CL, cs.LG",image2text,"Controllable Image Captioning (CIC) aims at generating natural language
+descriptions for an image, conditioned on information provided by end users,
+e.g., regions, entities or events of interest. However, available
+image-language datasets mainly contain captions that describe the entirety of
+an image, making them ineffective for training CIC models that can potentially
+attend to any subset of regions or relationships. To tackle this challenge, we
+propose a novel, fully automatic method to sample additional focused and
+visually grounded captions using a unified structured semantic representation
+built on top of the existing set of captions associated with an image. We
+leverage Abstract Meaning Representation (AMR), a cross-lingual graph-based
+semantic formalism, to encode all possible spatio-semantic relations between
+entities, beyond the typical spatial-relations-only focus of current methods.
+We use this Structured Semantic Augmentation (SSA) framework to augment
+existing image-caption datasets with the grounded controlled captions,
+increasing their spatial and semantic diversity and focal coverage. We then
+develop a new model, CIC-BART-SSA, specifically tailored for the CIC task, that
+sources its control signals from SSA-diversified datasets. We empirically show
+that, compared to SOTA CIC models, CIC-BART-SSA generates captions that are
+superior in diversity and text quality, are competitive in controllability,
+and, importantly, minimize the gap between broad and highly focused controlled
+captioning performance by efficiently generalizing to the challenging highly
+focused scenarios. Code is available at
+https://github.com/SamsungLabs/CIC-BART-SSA.",2024-07-16
+"Unconstrained Open Vocabulary Image Classification: Zero-Shot Transfer
+  from Text to Image via CLIP Inversion",2024-07-15 19:53:02+00:00,http://arxiv.org/abs/2407.11211v2,"Philipp Allgeuer, Kyra Ahrens, Stefan Wermter","cs.CV, cs.AI, cs.CL",image2text,"We introduce NOVIC, an innovative uNconstrained Open Vocabulary Image
+Classifier that uses an autoregressive transformer to generatively output
+classification labels as language. Leveraging the extensive knowledge of CLIP
+models, NOVIC harnesses the embedding space to enable zero-shot transfer from
+pure text to images. Traditional CLIP models, despite their ability for open
+vocabulary classification, require an exhaustive prompt of potential class
+labels, restricting their application to images of known content or context. To
+address this, we propose an ""object decoder"" model that is trained on a
+large-scale 92M-target dataset of templated object noun sets and LLM-generated
+captions to always output the object noun in question. This effectively inverts
+the CLIP text encoder and allows textual object labels to be generated directly
+from image-derived embedding vectors, without requiring any a priori knowledge
+of the potential content of an image. The trained decoders are tested on a mix
+of manually and web-curated datasets, as well as standard image classification
+benchmarks, and achieve fine-grained prompt-free prediction scores of up to
+87.5%, a strong result considering the model must work for any conceivable
+image and without any contextual clues.",2024-07-15
+"Pseudo-RIS: Distinctive Pseudo-supervision Generation for Referring
+  Image Segmentation",2024-07-10 07:14:48+00:00,http://arxiv.org/abs/2407.07412v3,"Seonghoon Yu, Paul Hongsuck Seo, Jeany Son","cs.CV, cs.AI",image2text,"We propose a new framework that automatically generates high-quality
+segmentation masks with their referring expressions as pseudo supervisions for
+referring image segmentation (RIS). These pseudo supervisions allow the
+training of any supervised RIS methods without the cost of manual labeling. To
+achieve this, we incorporate existing segmentation and image captioning
+foundation models, leveraging their broad generalization capabilities. However,
+the naive incorporation of these models may generate non-distinctive
+expressions that do not distinctively refer to the target masks. To address
+this challenge, we propose two-fold strategies that generate distinctive
+captions: 1) 'distinctive caption sampling', a new decoding method for the
+captioning model, to generate multiple expression candidates with detailed
+words focusing on the target. 2) 'distinctiveness-based text filtering' to
+further validate the candidates and filter out those with a low level of
+distinctiveness. These two strategies ensure that the generated text
+supervisions can distinguish the target from other objects, making them
+appropriate for the RIS annotations. Our method significantly outperforms both
+weakly and zero-shot SoTA methods on the RIS benchmark datasets. It also
+surpasses fully supervised methods in unseen domains, proving its capability to
+tackle the open-world challenge within RIS. Furthermore, integrating our method
+with human annotations yields further improvements, highlighting its potential
+in semi-supervised learning applications.",2024-07-10
 "MetaToken: Detecting Hallucination in Image Descriptions by Meta
   Classification",2024-05-29 15:28:42+00:00,http://arxiv.org/abs/2405.19186v1,"Laura Fieback, Jakob Spiegelberg, Hanno Gottschalk","cs.CV, cs.CL, cs.LG, I.4",image2text,"Large Vision Language Models (LVLMs) have shown remarkable capabilities in
 multimodal tasks like visual question answering or image captioning. However,

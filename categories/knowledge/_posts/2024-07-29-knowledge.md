@@ -6,10 +6,24 @@ sidebar:
 ---
 
 
-*written on 2024-06-01*
+*written on 2024-07-30*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Cool-Fusion: Fuse Large Language Models without Training](http://arxiv.org/abs/2407.19807v1) | Cong Liu, Xiaojun Quan, Yan Pan, Liang Lin, Weigang Wu, Xu Chen | cs.CL | 2024-07-29 |
+| [Positive Text Reframing under Multi-strategy Optimization](http://arxiv.org/abs/2407.17940v2) | Shutong Jia, Biwei Cao, Qingqing Gao, Jiuxin Cao, Bo Liu | cs.CL, cs.AI | 2024-07-25 |
+| [The Power of Combining Data and Knowledge: GPT-4o is an Effective  Interpreter of Machine Learning Models in Predicting Lymph Node Metastasis of  Lung Cancer](http://arxiv.org/abs/2407.17900v2) | Danqing Hu, Bing Liu, Xiaofeng Zhu, Nan Wu | cs.CL, cs.LG | 2024-07-25 |
+| [Are Large Language Models Possible to Conduct Cognitive Behavioral  Therapy?](http://arxiv.org/abs/2407.17730v1) | Hao Shen, Zihan Li, Minqiang Yang, Minghui Ni, Yongfeng Tao, Zhengyang Yu, Weihao Zheng, Chen Xu, Bin Hu | cs.CL | 2024-07-25 |
+| [Generative artificial intelligence in dentistry: Current approaches and  future challenges](http://arxiv.org/abs/2407.17532v1) | Fabián Villena, Claudia Véliz, Rosario García-Huidobro, Sebastián Aguayo | cs.CL | 2024-07-24 |
+| [Robust Privacy Amidst Innovation with Large Language Models Through a  Critical Assessment of the Risks](http://arxiv.org/abs/2407.16166v1) | Yao-Shun Chuang, Atiquer Rahman Sarkar, Noman Mohammed, Xiaoqian Jiang | cs.CL | 2024-07-23 |
+| [Finetuning Generative Large Language Models with Discrimination  Instructions for Knowledge Graph Completion](http://arxiv.org/abs/2407.16127v1) | Yang Liu, Xiaobin Tian, Zequn Sun, Wei Hu | cs.CL, cs.AI | 2024-07-23 |
+| [Intelligent Artistic Typography: A Comprehensive Review of Artistic Text  Design and Generation](http://arxiv.org/abs/2407.14774v1) | Yuhang Bai, Zichuan Huang, Wenshuo Gao, Shuai Yang, Jiaying Liu | cs.CV, cs.AI, cs.GR | 2024-07-20 |
+| [Check-Eval: A Checklist-based Approach for Evaluating Text Quality](http://arxiv.org/abs/2407.14467v1) | Jayr Pereira, Roberto Lotufo | cs.CL, cs.AI | 2024-07-19 |
+| [From Instruction to Insight: Exploring the Functional and Semantic Roles  of Text in Interactive Dashboards](http://arxiv.org/abs/2407.14451v1) | Nicole Sultanum, Vidya Setlur | cs.HC | 2024-07-19 |
+| [KoMA: Knowledge-driven Multi-agent Framework for Autonomous Driving with  Large Language Models](http://arxiv.org/abs/2407.14239v1) | Kemou Jiang, Xuan Cai, Zhiyong Cui, Aoyong Li, Yilong Ren, Haiyang Yu, Hao Yang, Daocheng Fu, Licheng Wen, Pinlong Cai | cs.AI | 2024-07-19 |
+| [Clinical Reading Comprehension with Encoder-Decoder Models Enhanced by  Direct Preference Optimization](http://arxiv.org/abs/2407.14000v1) | Md Sultan Al Nahian, Ramakanth Kavuluru | cs.IR, cs.CL, cs.LG | 2024-07-19 |
+| [BiasAlert: A Plug-and-play Tool for Social Bias Detection in LLMs](http://arxiv.org/abs/2407.10241v2) | Zhiting Fan, Ruizhe Chen, Ruiling Xu, Zuozhu Liu | cs.CL | 2024-07-14 |
+| [Is Contrasting All You Need? Contrastive Learning for the Detection and  Attribution of AI-generated Text](http://arxiv.org/abs/2407.09364v1) | Lucio La Cava, Davide Costa, Andrea Tagarelli | cs.CL, cs.AI, cs.CY, cs.HC, physics.soc-ph | 2024-07-12 |
 | [Who Writes the Review, Human or AI?](http://arxiv.org/abs/2405.20285v1) | Panagiotis C. Theocharopoulos, Spiros V. Georgakopoulos, Sotiris K. Tasoulis, Vassilis P. Plagianakos | cs.CL | 2024-05-30 |
 | [Kernel Language Entropy: Fine-grained Uncertainty Quantification for  LLMs from Semantic Similarities](http://arxiv.org/abs/2405.20003v1) | Alexander Nikitin, Jannik Kossen, Yarin Gal, Pekka Marttinen | cs.LG, cs.AI, cs.CL | 2024-05-30 |
 | [Large Language Model Watermark Stealing With Mixed Integer Programming](http://arxiv.org/abs/2405.19677v1) | Zhaoxi Zhang, Xiaomei Zhang, Yanjun Zhang, Leo Yu Zhang, Chao Chen, Shengshan Hu, Asif Gill, Shirui Pan | cs.CR, cs.AI | 2024-05-30 |

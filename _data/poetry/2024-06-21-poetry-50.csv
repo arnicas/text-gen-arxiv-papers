@@ -1,4 +1,35 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Evaluating Diversity in Automatic Poetry Generation,2024-06-21 16:03:21+00:00,http://arxiv.org/abs/2406.15267v1,"Yanran Chen, Hannes Gröner, Sina Zarrieß, Steffen Eger",cs.CL,poetry,"Natural Language Generation (NLG), and more generally generative AI, are
+among the currently most impactful research fields. Creative NLG, such as
+automatic poetry generation, is a fascinating niche in this area. While most
+previous research has focused on forms of the Turing test when evaluating
+automatic poetry generation - can humans distinguish between automatic and
+human generated poetry - we evaluate the diversity of automatically generated
+poetry, by comparing distributions of generated poetry to distributions of
+human poetry along structural, lexical, semantic and stylistic dimensions,
+assessing different model types (word vs. character-level, general purpose LLMs
+vs. poetry-specific models), including the very recent LLaMA3, and types of
+fine-tuning (conditioned vs. unconditioned). We find that current automatic
+poetry systems are considerably underdiverse along multiple dimensions - they
+often do not rhyme sufficiently, are semantically too uniform and even do not
+match the length distribution of human poetry. Our experiments reveal, however,
+that style-conditioning and character-level modeling clearly increases
+diversity across virtually all dimensions we explore. Our identified
+limitations may serve as the basis for more genuinely diverse future poetry
+generation models.",2024-06-21
+GPT Czech Poet: Generation of Czech Poetic Strophes with Language Models,2024-06-18 06:19:45+00:00,http://arxiv.org/abs/2407.12790v1,"Michal Chudoba, Rudolf Rosa",cs.CL,poetry,"High-quality automated poetry generation systems are currently only available
+for a small subset of languages. We introduce a new model for generating poetry
+in Czech language, based on fine-tuning a pre-trained Large Language Model. We
+demonstrate that guiding the generation process by explicitly specifying
+strophe parameters within the poem text strongly improves the effectiveness of
+the model. We also find that appropriate tokenization is crucial, showing that
+tokenization methods based on syllables or individual characters instead of
+subwords prove superior in generating poetic strophes. We further enhance the
+results by introducing \textit{Forced~generation}, adding explicit
+specifications of meter and verse parameters at inference time based on the
+already generated text. We evaluate a range of setups, showing that our
+proposed approach achieves high accuracies in rhyming and metric aspects of
+formal quality of the generated poems.",2024-06-18
 MUGC: Machine Generated versus User Generated Content Detection,2024-03-28 07:33:53+00:00,http://arxiv.org/abs/2403.19725v1,"Yaqi Xie, Anjali Rawal, Yujing Cen, Dixuan Zhao, Sunil K Narang, Shanu Sushmita","cs.CL, cs.AI, cs.LG",poetry,"As advanced modern systems like deep neural networks (DNNs) and generative AI
 continue to enhance their capabilities in producing convincing and realistic
 content, the need to distinguish between user-generated and machine generated

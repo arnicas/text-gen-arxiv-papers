@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2024-06-01*
+*written on 2024-07-30*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Evaluating Diversity in Automatic Poetry Generation](http://arxiv.org/abs/2406.15267v1) | Yanran Chen, Hannes Gröner, Sina Zarrieß, Steffen Eger | cs.CL | 2024-06-21 |
+| [GPT Czech Poet: Generation of Czech Poetic Strophes with Language Models](http://arxiv.org/abs/2407.12790v1) | Michal Chudoba, Rudolf Rosa | cs.CL | 2024-06-18 |
 | [MUGC: Machine Generated versus User Generated Content Detection](http://arxiv.org/abs/2403.19725v1) | Yaqi Xie, Anjali Rawal, Yujing Cen, Dixuan Zhao, Sunil K Narang, Shanu Sushmita | cs.CL, cs.AI, cs.LG | 2024-03-28 |
 | [CharPoet: A Chinese Classical Poetry Generation System Based on  Token-free LLM](http://arxiv.org/abs/2401.03512v3) | Chengyue Yu, Lei Zang, Jiaotuan Wang, Chenyi Zhuang, Jinjie Gu | cs.CL, cs.AI, cs.LG | 2024-01-07 |
 | [TPPoet: Transformer-Based Persian Poem Generation using Minimal Data and  Advanced Decoding Techniques](http://arxiv.org/abs/2312.02125v2) | Amir Panahandeh, Hanie Asemi, Esmaeil Nourani | cs.CL, cs.AI, cs.LG | 2023-12-04 |

@@ -1,4 +1,267 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"From Instruction to Insight: Exploring the Functional and Semantic Roles
+  of Text in Interactive Dashboards",2024-07-19 16:48:00+00:00,http://arxiv.org/abs/2407.14451v1,"Nicole Sultanum, Vidya Setlur",cs.HC,story,"There is increased interest in the interplay between text and visuals in the
+field of data visualization. However, this attention has predominantly been on
+the use of text in standalone visualizations or augmenting text stories
+supported by a series of independent views. In this paper, we shift from the
+traditional focus on single-chart annotations to characterize the nuanced but
+crucial communication role of text in the complex environment of interactive
+dashboards. Through a survey and analysis of 190 dashboards in the wild, plus
+13 expert interview sessions with experienced dashboard authors, we highlight
+the distinctive nature of text as an integral component of the dashboard
+experience, while delving into the categories, semantic levels, and functional
+roles of text, and exploring how these text elements are coalesced by dashboard
+authors to guide and inform dashboard users.
+  Our contributions are: 1) we distill qualitative and quantitative findings
+from our studies to characterize current practices of text use in dashboards,
+including a categorization of text-based components and design patterns; 2) we
+leverage current practices and existing literature to propose, discuss, and
+validate recommended practices for text in dashboards, embodied as 12
+heuristics that underscore the semantic and functional role of text in offering
+navigational cues, contextualizing data insights, supporting reading order,
+etc; 3) we reflect on our findings to identify gaps and propose opportunities
+for data visualization researchers to push the boundaries on text usage for
+dashboards, from authoring support and interactivity to text generation and
+content personalization.
+  Our research underscores the significance of elevating text as a first-class
+citizen in data visualization, and the need to support the inclusion of textual
+components and their interactive affordances in dashboard design.",2024-07-19
+"DreamStory: Open-Domain Story Visualization by LLM-Guided Multi-Subject
+  Consistent Diffusion",2024-07-17 17:54:12+00:00,http://arxiv.org/abs/2407.12899v1,"Huiguo He, Huan Yang, Zixi Tuo, Yuan Zhou, Qiuyue Wang, Yuhang Zhang, Zeyu Liu, Wenhao Huang, Hongyang Chao, Jian Yin","cs.CV, cs.AI, cs.MM",story,"Story visualization aims to create visually compelling images or videos
+corresponding to textual narratives. Despite recent advances in diffusion
+models yielding promising results, existing methods still struggle to create a
+coherent sequence of subject-consistent frames based solely on a story. To this
+end, we propose DreamStory, an automatic open-domain story visualization
+framework by leveraging the LLMs and a novel multi-subject consistent diffusion
+model. DreamStory consists of (1) an LLM acting as a story director and (2) an
+innovative Multi-Subject consistent Diffusion model (MSD) for generating
+consistent multi-subject across the images. First, DreamStory employs the LLM
+to generate descriptive prompts for subjects and scenes aligned with the story,
+annotating each scene's subjects for subsequent subject-consistent generation.
+Second, DreamStory utilizes these detailed subject descriptions to create
+portraits of the subjects, with these portraits and their corresponding textual
+information serving as multimodal anchors (guidance). Finally, the MSD uses
+these multimodal anchors to generate story scenes with consistent
+multi-subject. Specifically, the MSD includes Masked Mutual Self-Attention
+(MMSA) and Masked Mutual Cross-Attention (MMCA) modules. MMSA and MMCA modules
+ensure appearance and semantic consistency with reference images and text,
+respectively. Both modules employ masking mechanisms to prevent subject
+blending. To validate our approach and promote progress in story visualization,
+we established a benchmark, DS-500, which can assess the overall performance of
+the story visualization framework, subject-identification accuracy, and the
+consistency of the generation model. Extensive experiments validate the
+effectiveness of DreamStory in both subjective and objective evaluations.
+Please visit our project homepage at https://dream-xyz.github.io/dreamstory.",2024-07-17
+FairyLandAI: Personalized Fairy Tales utilizing ChatGPT and DALLE-3,2024-07-12 17:46:58+00:00,http://arxiv.org/abs/2407.09467v1,"Georgios Makridis, Athanasios Oikonomou, Vasileios Koukos",cs.AI,story,"In the diverse world of AI-driven storytelling, there is a unique opportunity
+to engage young audiences with customized, and personalized narratives. This
+paper introduces FairyLandAI an innovative Large Language Model (LLM) developed
+through OpenAI's API, specifically crafted to create personalized fairytales
+for children. The distinctive feature of FairyLandAI is its dual capability: it
+not only generates stories that are engaging, age-appropriate, and reflective
+of various traditions but also autonomously produces imaginative prompts
+suitable for advanced image generation tools like GenAI and Dalle-3, thereby
+enriching the storytelling experience. FairyLandAI is expertly tailored to
+resonate with the imaginative worlds of children, providing narratives that are
+both educational and entertaining and in alignment with the moral values
+inherent in different ages. Its unique strength lies in customizing stories to
+match individual children's preferences and cultural backgrounds, heralding a
+new era in personalized storytelling. Further, its integration with image
+generation technology offers a comprehensive narrative experience that
+stimulates both verbal and visual creativity. Empirical evaluations of
+FairyLandAI demonstrate its effectiveness in crafting captivating stories for
+children, which not only entertain but also embody the values and teachings of
+diverse traditions. This model serves as an invaluable tool for parents and
+educators, supporting them in imparting meaningful moral lessons through
+engaging narratives. FairyLandAI represents a pioneering step in using LLMs,
+particularly through OpenAI's API, for educational and cultural enrichment,
+making complex moral narratives accessible and enjoyable for young, imaginative
+minds.",2024-07-12
+Arabic Automatic Story Generation with Large Language Models,2024-07-10 11:26:10+00:00,http://arxiv.org/abs/2407.07551v1,"Ahmed Oumar El-Shangiti, Fakhraddin Alwajih, Muhammad Abdul-Mageed","cs.CL, cs.AI",story,"Large language models (LLMs) have recently emerged as a powerful tool for a
+wide range of language generation tasks. Nevertheless, this progress has been
+slower in Arabic. In this work, we focus on the task of generating stories from
+LLMs. For our training, we use stories acquired through machine translation
+(MT) as well as GPT-4. For the MT data, we develop a careful pipeline that
+ensures we acquire high-quality stories. For our GPT-41 data, we introduce
+crafted prompts that allow us to generate data well-suited to the Arabic
+context in both Modern Standard Arabic (MSA) and two Arabic dialects (Egyptian
+and Moroccan). For example, we generate stories tailored to various Arab
+countries on a wide host of topics. Our manual evaluation shows that our model
+fine-tuned on these training datasets can generate coherent stories that adhere
+to our instructions. We also conduct an extensive automatic and human
+evaluation comparing our models against state-of-the-art proprietary and
+open-source models. Our datasets and models will be made publicly available at
+https: //github.com/UBC-NLP/arastories.",2024-07-10
+"Not (yet) the whole story: Evaluating Visual Storytelling Requires More
+  than Measuring Coherence, Grounding, and Repetition",2024-07-05 14:48:15+00:00,http://arxiv.org/abs/2407.04559v1,"Aditya K Surikuchi, Raquel Fernández, Sandro Pezzelle","cs.CL, cs.AI, cs.CV, cs.LG",story,"Visual storytelling consists in generating a natural language story given a
+temporally ordered sequence of images. This task is not only challenging for
+models, but also very difficult to evaluate with automatic metrics since there
+is no consensus about what makes a story 'good'. In this paper, we introduce a
+novel method that measures story quality in terms of human likeness regarding
+three key aspects highlighted in previous work: visual grounding, coherence,
+and repetitiveness. We then use this method to evaluate the stories generated
+by several models, showing that the foundation model LLaVA obtains the best
+result, but only slightly so compared to TAPM, a 50-times smaller visual
+storytelling model. Upgrading the visual and language components of TAPM
+results in a model that yields competitive performance with a relatively low
+number of parameters. Finally, we carry out a human evaluation study, whose
+results suggest that a 'good' story may require more than a human-like level of
+visual grounding, coherence, and repetition.",2024-07-05
+"Inclusivity in Large Language Models: Personality Traits and Gender Bias
+  in Scientific Abstracts",2024-06-27 19:26:11+00:00,http://arxiv.org/abs/2406.19497v1,"Naseela Pervez, Alexander J. Titus","cs.CL, cs.AI",story,"Large language models (LLMs) are increasingly utilized to assist in
+scientific and academic writing, helping authors enhance the coherence of their
+articles. Previous studies have highlighted stereotypes and biases present in
+LLM outputs, emphasizing the need to evaluate these models for their alignment
+with human narrative styles and potential gender biases. In this study, we
+assess the alignment of three prominent LLMs - Claude 3 Opus, Mistral AI Large,
+and Gemini 1.5 Flash - by analyzing their performance on benchmark
+text-generation tasks for scientific abstracts. We employ the Linguistic
+Inquiry and Word Count (LIWC) framework to extract lexical, psychological, and
+social features from the generated texts. Our findings indicate that, while
+these models generally produce text closely resembling human authored content,
+variations in stylistic features suggest significant gender biases. This
+research highlights the importance of developing LLMs that maintain a diversity
+of writing styles to promote inclusivity in academic discourse.",2024-06-27
+"Human-AI Collaborative Taxonomy Construction: A Case Study in
+  Profession-Specific Writing Assistants",2024-06-26 18:25:06+00:00,http://arxiv.org/abs/2406.18675v2,"Minhwa Lee, Zae Myung Kim, Vivek Khetan, Dongyeop Kang","cs.HC, cs.AI, cs.CL",story,"Large Language Models (LLMs) have assisted humans in several writing tasks,
+including text revision and story generation. However, their effectiveness in
+supporting domain-specific writing, particularly in business contexts, is
+relatively less explored. Our formative study with industry professionals
+revealed the limitations in current LLMs' understanding of the nuances in such
+domain-specific writing. To address this gap, we propose an approach of
+human-AI collaborative taxonomy development to perform as a guideline for
+domain-specific writing assistants. This method integrates iterative feedback
+from domain experts and multiple interactions between these experts and LLMs to
+refine the taxonomy. Through larger-scale experiments, we aim to validate this
+methodology and thus improve LLM-powered writing assistance, tailoring it to
+meet the unique requirements of different stakeholder needs.",2024-06-26
+"The GPT-WritingPrompts Dataset: A Comparative Analysis of Character
+  Portrayal in Short Stories",2024-06-24 16:24:18+00:00,http://arxiv.org/abs/2406.16767v1,"Xi Yu Huang, Krishnapriya Vishnubhotla, Frank Rudzicz",cs.CL,story,"The improved generative capabilities of large language models have made them
+a powerful tool for creative writing and storytelling. It is therefore
+important to quantitatively understand the nature of generated stories, and how
+they differ from human storytelling. We augment the Reddit WritingPrompts
+dataset with short stories generated by GPT-3.5, given the same prompts. We
+quantify and compare the emotional and descriptive features of storytelling
+from both generative processes, human and machine, along a set of six
+dimensions. We find that generated stories differ significantly from human
+stories along all six dimensions, and that human and machine generations
+display similar biases when grouped according to the narrative point-of-view
+and gender of the main protagonist. We release our dataset and code at
+https://github.com/KristinHuangg/gpt-writing-prompts.",2024-06-24
+"Evaluation of Instruction-Following Ability for Large Language Models on
+  Story-Ending Generation",2024-06-24 06:53:36+00:00,http://arxiv.org/abs/2406.16356v1,"Rem Hida, Junki Ohmura, Toshiyuki Sekiya",cs.CL,story,"Instruction-tuned Large Language Models (LLMs) have achieved remarkable
+performance across various benchmark tasks. While providing instructions to
+LLMs for guiding their generations is user-friendly, assessing their
+instruction-following capabilities is still unclarified due to a lack of
+evaluation metrics. In this paper, we focus on evaluating the
+instruction-following ability of LLMs in the context of story-ending
+generation, which requires diverse and context-specific instructions. We
+propose an automatic evaluation pipeline that utilizes a machine reading
+comprehension (MRC) model to determine whether the generated story-ending
+reflects instruction. Our findings demonstrate that our proposed metric aligns
+with human evaluation. Furthermore, our experiments confirm that recent
+open-source LLMs can achieve instruction-following performance close to
+GPT-3.5, as assessed through automatic evaluation.",2024-06-24
+SS-Bench: A Benchmark for Social Story Generation and Evaluation,2024-06-22 00:14:48+00:00,http://arxiv.org/abs/2406.15695v1,"Yi Feng, Mingyang Song, Jiaqi Wang, Mao Zheng, Liping Jing, Jian Yu",cs.CL,story,"Children with Autism Spectrum Disorder (ASD) often misunderstand social
+situations and struggle to participate in daily routines. Psychology experts
+write Social Stories under strict constraints of structural clarity,
+descriptive orientation, and situational safety to enhance their abilities in
+these regimes. However, Social Stories are costly in creation and often limited
+in diversity and timeliness. As Large Language Models (LLMs) become
+increasingly powerful, there is a growing need for more automated, affordable,
+and accessible methods to generate Social Stories in real-time with broad
+coverage. Adapting LLMs to meet the unique and strict constraints of Social
+Stories is a challenging issue. To this end, we propose \textbf{SS-Bench}, a
+\textbf{S}ocial \textbf{S}tory \textbf{Bench}mark for generating and evaluating
+Social Stories. Specifically, we develop a constraint-driven strategy named
+\textbf{\textsc{StarSow}} to hierarchically prompt LLMs to generate Social
+Stories and build a benchmark, which has been validated through experiments to
+fine-tune smaller models for generating qualified Social Stories. Additionally,
+we introduce \textbf{Quality Assessment Criteria}, employed in human and GPT
+evaluations, to verify the effectiveness of the generated stories. We hope this
+work benefits the autism community and catalyzes future research focusing on
+particular groups.",2024-06-22
+Measuring Psychological Depth in Language Models,2024-06-18 14:51:54+00:00,http://arxiv.org/abs/2406.12680v1,"Fabrice Harel-Canada, Hanyu Zhou, Sreya Mupalla, Zeynep Yildiz, Amit Sahai, Nanyun Peng",cs.CL,story,"Evaluations of creative stories generated by large language models (LLMs)
+often focus on objective properties of the text, such as its style, coherence,
+and toxicity. While these metrics are indispensable, they do not speak to a
+story's subjective, psychological impact from a reader's perspective. We
+introduce the Psychological Depth Scale (PDS), a novel framework rooted in
+literary theory that measures an LLM's ability to produce authentic and
+narratively complex stories that provoke emotion, empathy, and engagement. We
+empirically validate our framework by showing that humans can consistently
+evaluate stories based on PDS (0.72 Krippendorff's alpha). We also explore
+techniques for automating the PDS to easily scale future analyses. GPT-4o,
+combined with a novel Mixture-of-Personas (MoP) prompting strategy, achieves an
+average Spearman correlation of $0.51$ with human judgment while Llama-3-70B
+scores as high as 0.68 for empathy. Finally, we compared the depth of stories
+authored by both humans and LLMs. Surprisingly, GPT-4 stories either surpassed
+or were statistically indistinguishable from highly-rated human-written stories
+sourced from Reddit. By shifting the focus from text to reader, the
+Psychological Depth Scale is a validated, automated, and systematic means of
+measuring the capacity of LLMs to connect with humans through the stories they
+tell.",2024-06-18
+"Decoding the Narratives: Analyzing Personal Drug Experiences Shared on
+  Reddit",2024-06-17 21:56:57+00:00,http://arxiv.org/abs/2406.12117v1,"Layla Bouzoubaa, Elham Aghakhani, Max Song, Minh Trinh, Rezvaneh Rezapour",cs.CL,story,"Online communities such as drug-related subreddits serve as safe spaces for
+people who use drugs (PWUD), fostering discussions on substance use
+experiences, harm reduction, and addiction recovery. Users' shared narratives
+on these forums provide insights into the likelihood of developing a substance
+use disorder (SUD) and recovery potential. Our study aims to develop a
+multi-level, multi-label classification model to analyze online user-generated
+texts about substance use experiences. For this purpose, we first introduce a
+novel taxonomy to assess the nature of posts, including their intended
+connections (Inquisition or Disclosure), subjects (e.g., Recovery, Dependency),
+and specific objectives (e.g., Relapse, Quality, Safety). Using various
+multi-label classification algorithms on a set of annotated data, we show that
+GPT-4, when prompted with instructions, definitions, and examples, outperformed
+all other models. We apply this model to label an additional 1,000 posts and
+analyze the categories of linguistic expression used within posts in each
+class. Our analysis shows that topics such as Safety, Combination of
+Substances, and Mental Health see more disclosure, while discussions about
+physiological Effects focus on harm reduction. Our work enriches the
+understanding of PWUD's experiences and informs the broader knowledge base on
+SUD and drug use.",2024-06-17
+Extrinsic Evaluation of Cultural Competence in Large Language Models,2024-06-17 14:03:27+00:00,http://arxiv.org/abs/2406.11565v2,"Shaily Bhatt, Fernando Diaz","cs.CL, cs.CY",story,"Productive interactions between diverse users and language technologies
+require outputs from the latter to be culturally relevant and sensitive. Prior
+works have evaluated models' knowledge of cultural norms, values, and
+artifacts, without considering how this knowledge manifests in downstream
+applications. In this work, we focus on extrinsic evaluation of cultural
+competence in two text generation tasks, open-ended question answering and
+story generation. We quantitatively and qualitatively evaluate model outputs
+when an explicit cue of culture, specifically nationality, is perturbed in the
+prompts. Although we find that model outputs do vary when varying nationalities
+and feature culturally relevant words, we also find weak correlations between
+text similarity of outputs for different countries and the cultural values of
+these countries. Finally, we discuss important considerations in designing
+comprehensive evaluation of cultural competence in user-facing tasks.",2024-06-17
+"Confabulation: The Surprising Value of Large Language Model
+  Hallucinations",2024-06-06 15:32:29+00:00,http://arxiv.org/abs/2406.04175v2,"Peiqi Sui, Eamon Duede, Sophie Wu, Richard Jean So","cs.CL, cs.AI",story,"This paper presents a systematic defense of large language model (LLM)
+hallucinations or 'confabulations' as a potential resource instead of a
+categorically negative pitfall. The standard view is that confabulations are
+inherently problematic and AI research should eliminate this flaw. In this
+paper, we argue and empirically demonstrate that measurable semantic
+characteristics of LLM confabulations mirror a human propensity to utilize
+increased narrativity as a cognitive resource for sense-making and
+communication. In other words, it has potential value. Specifically, we analyze
+popular hallucination benchmarks and reveal that hallucinated outputs display
+increased levels of narrativity and semantic coherence relative to veridical
+outputs. This finding reveals a tension in our usually dismissive
+understandings of confabulation. It suggests, counter-intuitively, that the
+tendency for LLMs to confabulate may be intimately associated with a positive
+capacity for coherent narrative-text generation.",2024-06-06
+"Guiding and Diversifying LLM-Based Story Generation via Answer Set
+  Programming",2024-06-01 21:14:25+00:00,http://arxiv.org/abs/2406.00554v2,"Phoebe J. Wang, Max Kreminski","cs.CL, cs.AI",story,"Instruction-tuned large language models (LLMs) are capable of generating
+stories in response to open-ended user requests, but the resulting stories tend
+to be limited in their diversity. Older, symbolic approaches to story
+generation (such as planning) can generate substantially more diverse plot
+outlines, but are limited to producing stories that recombine a fixed set of
+hand-engineered character action templates. Can we combine the strengths of
+these approaches while mitigating their weaknesses? We propose to do so by
+using a higher-level and more abstract symbolic specification of high-level
+story structure -- implemented via answer set programming (ASP) -- to guide and
+diversify LLM-based story generation. Via semantic similarity analysis, we
+demonstrate that our approach produces more diverse stories than an unguided
+LLM, and via code excerpts, we demonstrate the improved compactness and
+flexibility of ASP-based outline generation over full-fledged narrative
+planning.",2024-06-01
 "Text Generation: A Systematic Literature Review of Tasks, Evaluation,
   and Challenges",2024-05-24 14:38:11+00:00,http://arxiv.org/abs/2405.15604v1,"Jonas Becker, Jan Philip Wahle, Bela Gipp, Terry Ruas","cs.CL, A.1; I.2.7",story,"Text generation has become more accessible than ever, and the increasing
 interest in these systems, especially those using large language models, has
