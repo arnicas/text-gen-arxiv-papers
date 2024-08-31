@@ -7,10 +7,21 @@ sidebar:
 ---
 
 
-*written on 2024-07-30*
+*written on 2024-08-31*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [MDD-5k: A New Diagnostic Conversation Dataset for Mental Disorders  Synthesized via Neuro-Symbolic LLM Agents](http://arxiv.org/abs/2408.12142v1) | Congchi Yin, Feng Li, Shu Zhang, Zike Wang, Jun Shao, Piji Li, Jianhua Chen, Xun Jiang | cs.CL, cs.AI | 2024-08-22 |
+| [Soda-Eval: Open-Domain Dialogue Evaluation in the age of LLMs](http://arxiv.org/abs/2408.10902v1) | John Mendonça, Isabel Trancoso, Alon Lavie | cs.CL | 2024-08-20 |
+| [Self-Directed Turing Test for Large Language Models](http://arxiv.org/abs/2408.09853v1) | Weiqi Wu, Hongqiu Wu, Hai Zhao | cs.CL, cs.AI | 2024-08-19 |
+| [Fostering Natural Conversation in Large Language Models with NICO: a  Natural Interactive COnversation dataset](http://arxiv.org/abs/2408.09330v1) | Renliang Sun, Mengyuan Liu, Shiping Yang, Rui Wang, Junqing He, Jiaxing Zhang | cs.CL | 2024-08-18 |
+| [An End-to-End Model for Photo-Sharing Multi-modal Dialogue Generation](http://arxiv.org/abs/2408.08650v1) | Peiming Guo, Sinuo Liu, Yanzhao Zhang, Dingkun Long, Pengjun Xie, Meishan Zhang, Min Zhang | cs.CL | 2024-08-16 |
+| [Synthetic Patient-Physician Dialogue Generation from Clinical Notes  Using LLM](http://arxiv.org/abs/2408.06285v1) | Trisha Das, Dina Albassam, Jimeng Sun | cs.CL, cs.AI, cs.LG | 2024-08-12 |
+| [LLaVA-VSD: Large Language-and-Vision Assistant for Visual Spatial  Description](http://arxiv.org/abs/2408.04957v3) | Yizhang Jin, Jian Li, Jiangning Zhang, Jianlong Hu, Zhenye Gan, Xin Tan, Yong Liu, Yabiao Wang, Chengjie Wang, Lizhuang Ma | cs.CV, cs.AI | 2024-08-09 |
+| [Multi-Turn Context Jailbreak Attack on Large Language Models From First  Principles](http://arxiv.org/abs/2408.04686v1) | Xiongtao Sun, Deyue Zhang, Dongdong Yang, Quanchen Zou, Hui Li | cs.CL, cs.AI | 2024-08-08 |
+| [Target Prompting for Information Extraction with Vision Language Model](http://arxiv.org/abs/2408.03834v1) | Dipankar Medhi | cs.CV, cs.AI | 2024-08-07 |
+| [Empathy Level Alignment via Reinforcement Learning for Empathetic  Response Generation](http://arxiv.org/abs/2408.02976v1) | Hui Ma, Bo Zhang, Bo Xu, Jian Wang, Hongfei Lin, Xiao Sun | cs.CL, cs.AI | 2024-08-06 |
+| [Transforming Slot Schema Induction with Generative Dialogue State  Inference](http://arxiv.org/abs/2408.01638v1) | James D. Finch, Boxin Zhao, Jinho D. Choi | cs.CL | 2024-08-03 |
 | [Are Large Language Models Possible to Conduct Cognitive Behavioral  Therapy?](http://arxiv.org/abs/2407.17730v1) | Hao Shen, Zihan Li, Minqiang Yang, Minghui Ni, Yongfeng Tao, Zhengyang Yu, Weihao Zheng, Chen Xu, Bin Hu | cs.CL | 2024-07-25 |
 | [An Empirical Study of Retrieval Augmented Generation with  Chain-of-Thought](http://arxiv.org/abs/2407.15569v1) | Yuetong Zhao, Hongyu Cao, Xianyu Zhao, Zhijian Ou | cs.CL | 2024-07-22 |
 | [KoMA: Knowledge-driven Multi-agent Framework for Autonomous Driving with  Large Language Models](http://arxiv.org/abs/2407.14239v1) | Kemou Jiang, Xuan Cai, Zhiyong Cui, Aoyong Li, Yilong Ren, Haiyang Yu, Hao Yang, Daocheng Fu, Licheng Wen, Pinlong Cai | cs.AI | 2024-07-19 |

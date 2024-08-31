@@ -1,4 +1,136 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"What Makes a Good Story and How Can We Measure It? A Comprehensive
+  Survey of Story Evaluation",2024-08-26 20:35:42+00:00,http://arxiv.org/abs/2408.14622v1,"Dingyi Yang, Qin Jin","cs.CL, A.1; I.2.7; I.2.10",story,"With the development of artificial intelligence, particularly the success of
+Large Language Models (LLMs), the quantity and quality of automatically
+generated stories have significantly increased. This has led to the need for
+automatic story evaluation to assess the generative capabilities of computing
+systems and analyze the quality of both automatic-generated and human-written
+stories. Evaluating a story can be more challenging than other generation
+evaluation tasks. While tasks like machine translation primarily focus on
+assessing the aspects of fluency and accuracy, story evaluation demands complex
+additional measures such as overall coherence, character development,
+interestingness, etc. This requires a thorough review of relevant research. In
+this survey, we first summarize existing storytelling tasks, including
+text-to-text, visual-to-text, and text-to-visual. We highlight their evaluation
+challenges, identify various human criteria to measure stories, and present
+existing benchmark datasets. Then, we propose a taxonomy to organize evaluation
+metrics that have been developed or can be adopted for story evaluation. We
+also provide descriptions of these metrics, along with the discussion of their
+merits and limitations. Later, we discuss the human-AI collaboration for story
+evaluation and generation. Finally, we suggest potential future research
+directions, extending from story evaluation to general evaluations.",2024-08-26
+DHP Benchmark: Are LLMs Good NLG Evaluators?,2024-08-25 02:01:38+00:00,http://arxiv.org/abs/2408.13704v1,"Yicheng Wang, Jiayi Yuan, Yu-Neng Chuang, Zhuoer Wang, Yingchi Liu, Mark Cusick, Param Kulkarni, Zhengping Ji, Yasser Ibrahim, Xia Hu","cs.CL, cs.AI",story,"Large Language Models (LLMs) are increasingly serving as evaluators in
+Natural Language Generation (NLG) tasks. However, the capabilities of LLMs in
+scoring NLG quality remain inadequately explored. Current studies depend on
+human assessments and simple metrics that fail to capture the discernment of
+LLMs across diverse NLG tasks. To address this gap, we propose the Discernment
+of Hierarchical Perturbation (DHP) benchmarking framework, which provides
+quantitative discernment scores for LLMs utilizing hierarchically perturbed
+text data and statistical tests to measure the NLG evaluation capabilities of
+LLMs systematically. We have re-established six evaluation datasets for this
+benchmark, covering four NLG tasks: Summarization, Story Completion, Question
+Answering, and Translation. Our comprehensive benchmarking of five major LLM
+series provides critical insight into their strengths and limitations as NLG
+evaluators.",2024-08-25
+Xinyu: An Efficient LLM-based System for Commentary Generation,2024-08-21 13:34:29+00:00,http://arxiv.org/abs/2408.11609v2,"Yiquan Wu, Bo Tang, Chenyang Xi, Yu Yu, Pengyu Wang, Yifei Liu, Kun Kuang, Haiying Deng, Zhiyu Li, Feiyu Xiong, Jie Hu, Peng Cheng, Zhonghao Wang, Yi Wang, Yi Luo, Mingchuan Yang","cs.CL, cs.AI, I.2.7",story,"Commentary provides readers with a deep understanding of events by presenting
+diverse arguments and evidence. However, creating commentary is a
+time-consuming task, even for skilled commentators. Large language models
+(LLMs) have simplified the process of natural language generation, but their
+direct application in commentary creation still faces challenges due to unique
+task requirements. These requirements can be categorized into two levels: 1)
+fundamental requirements, which include creating well-structured and logically
+consistent narratives, and 2) advanced requirements, which involve generating
+quality arguments and providing convincing evidence. In this paper, we
+introduce Xinyu, an efficient LLM-based system designed to assist commentators
+in generating Chinese commentaries. To meet the fundamental requirements, we
+deconstruct the generation process into sequential steps, proposing targeted
+strategies and supervised fine-tuning (SFT) for each step. To address the
+advanced requirements, we present an argument ranking model for arguments and
+establish a comprehensive evidence database that includes up-to-date events and
+classic books, thereby strengthening the substantiation of the evidence with
+retrieval augmented generation (RAG) technology. To evaluate the generated
+commentaries more fairly, corresponding to the two-level requirements, we
+introduce a comprehensive evaluation metric that considers five distinct
+perspectives in commentary generation. Our experiments confirm the
+effectiveness of our proposed system. We also observe a significant increase in
+the efficiency of commentators in real-world scenarios, with the average time
+spent on creating a commentary dropping from 4 hours to 20 minutes.
+Importantly, such an increase in efficiency does not compromise the quality of
+the commentaries.",2024-08-21
+Imagining from Images with an AI Storytelling Tool,2024-08-21 10:49:15+00:00,http://arxiv.org/abs/2408.11517v1,"Edirlei Soares de Lima, Marco A. Casanova, Antonio L. Furtado",cs.CL,story,"A method for generating narratives by analyzing single images or image
+sequences is presented, inspired by the time immemorial tradition of Narrative
+Art. The proposed method explores the multimodal capabilities of GPT-4o to
+interpret visual content and create engaging stories, which are illustrated by
+a Stable Diffusion XL model. The method is supported by a fully implemented
+tool, called ImageTeller, which accepts images from diverse sources as input.
+Users can guide the narrative's development according to the conventions of
+fundamental genres - such as Comedy, Romance, Tragedy, Satire or Mystery -, opt
+to generate data-driven stories, or to leave the prototype free to decide how
+to handle the narrative structure. User interaction is provided along the
+generation process, allowing the user to request alternative chapters or
+illustrations, and even reject and restart the story generation based on the
+same input. Additionally, users can attach captions to the input images,
+influencing the system's interpretation of the visual content. Examples of
+generated stories are provided, along with details on how to access the
+prototype.",2024-08-21
+Assessing Language Models' Worldview for Fiction Generation,2024-08-15 03:19:41+00:00,http://arxiv.org/abs/2408.07904v1,"Aisha Khatun, Daniel G. Brown","cs.CL, cs.AI",story,"The use of Large Language Models (LLMs) has become ubiquitous, with abundant
+applications in computational creativity. One such application is fictional
+story generation. Fiction is a narrative that occurs in a story world that is
+slightly different than ours. With LLMs becoming writing partners, we question
+how suitable they are to generate fiction. This study investigates the ability
+of LLMs to maintain a state of world essential to generate fiction. Through a
+series of questions to nine LLMs, we find that only two models exhibit
+consistent worldview, while the rest are self-conflicting. Subsequent analysis
+of stories generated by four models revealed a strikingly uniform narrative
+pattern. This uniformity across models further suggests a lack of `state'
+necessary for fiction. We highlight the limitations of current LLMs in fiction
+writing and advocate for future research to test and create story worlds for
+LLMs to reside in. All code, dataset, and the generated responses can be found
+in https://github.com/tanny411/llm-reliability-and-consistency-evaluation.",2024-08-15
+"Context-aware Visual Storytelling with Visual Prefix Tuning and
+  Contrastive Learning",2024-08-12 16:15:32+00:00,http://arxiv.org/abs/2408.06259v1,"Yingjin Song, Denis Paperno, Albert Gatt","cs.CL, cs.CV",story,"Visual storytelling systems generate multi-sentence stories from image
+sequences. In this task, capturing contextual information and bridging visual
+variation bring additional challenges. We propose a simple yet effective
+framework that leverages the generalization capabilities of pretrained
+foundation models, only training a lightweight vision-language mapping network
+to connect modalities, while incorporating context to enhance coherence. We
+introduce a multimodal contrastive objective that also improves visual
+relevance and story informativeness. Extensive experimental results, across
+both automatic metrics and human evaluations, demonstrate that the stories
+generated by our framework are diverse, coherent, informative, and interesting.",2024-08-12
+"DataNarrative: Automated Data-Driven Storytelling with Visualizations
+  and Texts",2024-08-09 21:31:33+00:00,http://arxiv.org/abs/2408.05346v2,"Mohammed Saidul Islam, Md Tahmid Rahman Laskar, Md Rizwan Parvez, Enamul Hoque, Shafiq Joty",cs.CL,story,"Data-driven storytelling is a powerful method for conveying insights by
+combining narrative techniques with visualizations and text. These stories
+integrate visual aids, such as highlighted bars and lines in charts, along with
+textual annotations explaining insights. However, creating such stories
+requires a deep understanding of the data and meticulous narrative planning,
+often necessitating human intervention, which can be time-consuming and
+mentally taxing. While Large Language Models (LLMs) excel in various NLP tasks,
+their ability to generate coherent and comprehensive data stories remains
+underexplored. In this work, we introduce a novel task for data story
+generation and a benchmark containing 1,449 stories from diverse sources. To
+address the challenges of crafting coherent data stories, we propose a
+multiagent framework employing two LLM agents designed to replicate the human
+storytelling process: one for understanding and describing the data
+(Reflection), generating the outline, and narration, and another for
+verification at each intermediary step. While our agentic framework generally
+outperforms non-agentic counterparts in both model-based and human evaluations,
+the results also reveal unique challenges in data story generation.",2024-08-09
+"DASH: A Bimodal Data Exploration Tool for Interactive Text and
+  Visualizations",2024-08-02 05:08:48+00:00,http://arxiv.org/abs/2408.01011v2,"Dennis Bromley, Vidya Setlur",cs.HC,story,"Integrating textual content, such as titles, annotations, and captions, with
+visualizations facilitates comprehension and takeaways during data exploration.
+Yet current tools often lack mechanisms for integrating meaningful long-form
+prose with visual data. This paper introduces DASH, a bimodal data exploration
+tool that supports integrating semantic levels into the interactive process of
+visualization and text-based analysis. DASH operationalizes a modified version
+of Lundgard et al.'s semantic hierarchy model that categorizes data
+descriptions into four levels ranging from basic encodings to high-level
+insights. By leveraging this structured semantic level framework and a large
+language model's text generation capabilities, DASH enables the creation of
+data-driven narratives via drag-and-drop user interaction. Through a
+preliminary user evaluation, we discuss the utility of DASH's text and chart
+integration capabilities when participants perform data exploration with the
+tool.",2024-08-02
 "From Instruction to Insight: Exploring the Functional and Semantic Roles
   of Text in Interactive Dashboards",2024-07-19 16:48:00+00:00,http://arxiv.org/abs/2407.14451v1,"Nicole Sultanum, Vidya Setlur",cs.HC,story,"There is increased interest in the interplay between text and visuals in the
 field of data visualization. However, this attention has predominantly been on

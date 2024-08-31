@@ -7,10 +7,17 @@ sidebar:
 ---
 
 
-*written on 2024-07-30*
+*written on 2024-08-31*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Spatio-Temporal Context Prompting for Zero-Shot Action Detection](http://arxiv.org/abs/2408.15996v2) | Wei-Jhe Huang, Min-Hung Chen, Shang-Hong Lai | cs.CV, cs.AI | 2024-08-28 |
+| [DIAGen: Diverse Image Augmentation with Generative Models](http://arxiv.org/abs/2408.14584v1) | Tobias Lingenberg, Markus Reuter, Gopika Sudhakaran, Dominik Gojny, Stefan Roth, Simone Schaub-Meyer | cs.CV, cs.AI | 2024-08-26 |
+| [Revisiting Image Captioning Training Paradigm via Direct CLIP-based  Optimization](http://arxiv.org/abs/2408.14547v1) | Nicholas Moratelli, Davide Caffagni, Marcella Cornia, Lorenzo Baraldi, Rita Cucchiara | cs.CV, cs.AI, cs.CL, cs.MM | 2024-08-26 |
+| [Cap2Sum: Learning to Summarize Videos by Generating Captions](http://arxiv.org/abs/2408.12800v1) | Cairong Zhao, Chutian Wang, Zifan Song, Guosheng Hu, Haonan Chen, Xiaofan Zhai | cs.MM | 2024-08-23 |
+| [UniFashion: A Unified Vision-Language Model for Multimodal Fashion  Retrieval and Generation](http://arxiv.org/abs/2408.11305v1) | Xiangyu Zhao, Yuehan Zhang, Wenlong Zhang, Xiao-Ming Wu | cs.CV, cs.AI | 2024-08-21 |
+| [SMILE: Zero-Shot Sparse Mixture of Low-Rank Experts Construction From  Pre-Trained Foundation Models](http://arxiv.org/abs/2408.10174v2) | Anke Tang, Li Shen, Yong Luo, Shuai Xie, Han Hu, Lefei Zhang, Bo Du, Dacheng Tao | cs.LG, cs.AI | 2024-08-19 |
+| [LLaVA-VSD: Large Language-and-Vision Assistant for Visual Spatial  Description](http://arxiv.org/abs/2408.04957v3) | Yizhang Jin, Jian Li, Jiangning Zhang, Jianlong Hu, Zhenye Gan, Xin Tan, Yong Liu, Yabiao Wang, Chengjie Wang, Lizhuang Ma | cs.CV, cs.AI | 2024-08-09 |
 | [Wolf: Captioning Everything with a World Summarization Framework](http://arxiv.org/abs/2407.18908v1) | Boyi Li, Ligeng Zhu, Ran Tian, Shuhan Tan, Yuxiao Chen, Yao Lu, Yin Cui, Sushant Veer, Max Ehrlich, Jonah Philion, Xinshuo Weng, Fuzhao Xue, Andrew Tao, Ming-Yu Liu, Sanja Fidler, Boris Ivanovic, Trevor Darrell, Jitendra Malik, Song Han, Marco Pavone | cs.LG, cs.CL, cs.CV | 2024-07-26 |
 | [Guided Latent Slot Diffusion for Object-Centric Learning](http://arxiv.org/abs/2407.17929v1) | Krishnakant Singh, Simone Schaub-Meyer, Stefan Roth | cs.CV, cs.LG | 2024-07-25 |
 | [Generative artificial intelligence in dentistry: Current approaches and  future challenges](http://arxiv.org/abs/2407.17532v1) | Fabián Villena, Claudia Véliz, Rosario García-Huidobro, Sebastián Aguayo | cs.CL | 2024-07-24 |

@@ -1,4 +1,179 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Spatio-Temporal Context Prompting for Zero-Shot Action Detection,2024-08-28 17:59:05+00:00,http://arxiv.org/abs/2408.15996v2,"Wei-Jhe Huang, Min-Hung Chen, Shang-Hong Lai","cs.CV, cs.AI",knowledge,"Spatio-temporal action detection encompasses the tasks of localizing and
+classifying individual actions within a video. Recent works aim to enhance this
+process by incorporating interaction modeling, which captures the relationship
+between people and their surrounding context. However, these approaches have
+primarily focused on fully-supervised learning, and the current limitation lies
+in the lack of generalization capability to recognize unseen action categories.
+In this paper, we aim to adapt the pretrained image-language models to detect
+unseen actions. To this end, we propose a method which can effectively leverage
+the rich knowledge of visual-language models to perform Person-Context
+Interaction. Meanwhile, our Context Prompting module will utilize contextual
+information to prompt labels, thereby enhancing the generation of more
+representative text features. Moreover, to address the challenge of recognizing
+distinct actions by multiple people at the same timestamp, we design the
+Interest Token Spotting mechanism which employs pretrained visual knowledge to
+find each person's interest context tokens, and then these tokens will be used
+for prompting to generate text features tailored to each individual. To
+evaluate the ability to detect unseen actions, we propose a comprehensive
+benchmark on J-HMDB, UCF101-24, and AVA datasets. The experiments show that our
+method achieves superior results compared to previous approaches and can be
+further extended to multi-action videos, bringing it closer to real-world
+applications. The code and data can be found in
+https://webber2933.github.io/ST-CLIP-project-page.",2024-08-28
+DIAGen: Diverse Image Augmentation with Generative Models,2024-08-26 19:09:13+00:00,http://arxiv.org/abs/2408.14584v1,"Tobias Lingenberg, Markus Reuter, Gopika Sudhakaran, Dominik Gojny, Stefan Roth, Simone Schaub-Meyer","cs.CV, cs.AI",knowledge,"Simple data augmentation techniques, such as rotations and flips, are widely
+used to enhance the generalization power of computer vision models. However,
+these techniques often fail to modify high-level semantic attributes of a
+class. To address this limitation, researchers have explored generative
+augmentation methods like the recently proposed DA-Fusion. Despite some
+progress, the variations are still largely limited to textural changes, thus
+falling short on aspects like varied viewpoints, environment, weather
+conditions, or even class-level semantic attributes (eg, variations in a dog's
+breed). To overcome this challenge, we propose DIAGen, building upon DA-Fusion.
+First, we apply Gaussian noise to the embeddings of an object learned with
+Textual Inversion to diversify generations using a pre-trained diffusion
+model's knowledge. Second, we exploit the general knowledge of a text-to-text
+generative model to guide the image generation of the diffusion model with
+varied class-specific prompts. Finally, we introduce a weighting mechanism to
+mitigate the impact of poorly generated samples. Experimental results across
+various datasets show that DIAGen not only enhances semantic diversity but also
+improves the performance of subsequent classifiers. The advantages of DIAGen
+over standard augmentations and the DA-Fusion baseline are particularly
+pronounced with out-of-distribution samples.",2024-08-26
+"Biomedical Large Languages Models Seem not to be Superior to Generalist
+  Models on Unseen Medical Data",2024-08-25 13:36:22+00:00,http://arxiv.org/abs/2408.13833v1,"Felix J. Dorfner, Amin Dada, Felix Busch, Marcus R. Makowski, Tianyu Han, Daniel Truhn, Jens Kleesiek, Madhumita Sushil, Jacqueline Lammert, Lisa C. Adams, Keno K. Bressem",cs.CL,knowledge,"Large language models (LLMs) have shown potential in biomedical applications,
+leading to efforts to fine-tune them on domain-specific data. However, the
+effectiveness of this approach remains unclear. This study evaluates the
+performance of biomedically fine-tuned LLMs against their general-purpose
+counterparts on a variety of clinical tasks. We evaluated their performance on
+clinical case challenges from the New England Journal of Medicine (NEJM) and
+the Journal of the American Medical Association (JAMA) and on several clinical
+tasks (e.g., information extraction, document summarization, and clinical
+coding). Using benchmarks specifically chosen to be likely outside the
+fine-tuning datasets of biomedical models, we found that biomedical LLMs mostly
+perform inferior to their general-purpose counterparts, especially on tasks not
+focused on medical knowledge. While larger models showed similar performance on
+case tasks (e.g., OpenBioLLM-70B: 66.4% vs. Llama-3-70B-Instruct: 65% on JAMA
+cases), smaller biomedical models showed more pronounced underperformance
+(e.g., OpenBioLLM-8B: 30% vs. Llama-3-8B-Instruct: 64.3% on NEJM cases).
+Similar trends were observed across the CLUE (Clinical Language Understanding
+Evaluation) benchmark tasks, with general-purpose models often performing
+better on text generation, question answering, and coding tasks. Our results
+suggest that fine-tuning LLMs to biomedical data may not provide the expected
+benefits and may potentially lead to reduced performance, challenging
+prevailing assumptions about domain-specific adaptation of LLMs and
+highlighting the need for more rigorous evaluation frameworks in healthcare AI.
+Alternative approaches, such as retrieval-augmented generation, may be more
+effective in enhancing the biomedical capabilities of LLMs without compromising
+their general knowledge.",2024-08-25
+"MDD-5k: A New Diagnostic Conversation Dataset for Mental Disorders
+  Synthesized via Neuro-Symbolic LLM Agents",2024-08-22 05:59:47+00:00,http://arxiv.org/abs/2408.12142v1,"Congchi Yin, Feng Li, Shu Zhang, Zike Wang, Jun Shao, Piji Li, Jianhua Chen, Xun Jiang","cs.CL, cs.AI",knowledge,"The clinical diagnosis of most mental disorders primarily relies on the
+conversations between psychiatrist and patient. The creation of such diagnostic
+conversation datasets is promising to boost the AI mental healthcare community.
+However, directly collecting the conversations in real diagnosis scenarios is
+near impossible due to stringent privacy and ethical considerations. To address
+this issue, we seek to synthesize diagnostic conversation by exploiting
+anonymous patient cases that are easier to access. Specifically, we design a
+neuro-symbolic multi-agent framework for synthesizing the diagnostic
+conversation of mental disorders with large language models. It takes patient
+case as input and is capable of generating multiple diverse conversations with
+one single patient case. The framework basically involves the interaction
+between a doctor agent and a patient agent, and achieves text generation under
+symbolic control via a dynamic diagnosis tree from a tool agent. By applying
+the proposed framework, we develop the largest Chinese mental disorders
+diagnosis dataset MDD-5k, which is built upon 1000 cleaned real patient cases
+by cooperating with a pioneering psychiatric hospital, and contains 5000
+high-quality long conversations with diagnosis results as labels. To the best
+of our knowledge, it's also the first labelled Chinese mental disorders
+diagnosis dataset. Human evaluation demonstrates the proposed MDD-5k dataset
+successfully simulates human-like diagnostic process of mental disorders. The
+dataset and code will become publicly accessible in
+https://github.com/lemonsis/MDD-5k.",2024-08-22
+Analysis of Plan-based Retrieval for Grounded Text Generation,2024-08-20 02:19:35+00:00,http://arxiv.org/abs/2408.10490v1,"Ameya Godbole, Nicholas Monath, Seungyeon Kim, Ankit Singh Rawat, Andrew McCallum, Manzil Zaheer","cs.CL, cs.IR",knowledge,"In text generation, hallucinations refer to the generation of seemingly
+coherent text that contradicts established knowledge. One compelling hypothesis
+is that hallucinations occur when a language model is given a generation task
+outside its parametric knowledge (due to rarity, recency, domain, etc.). A
+common strategy to address this limitation is to infuse the language models
+with retrieval mechanisms, providing the model with relevant knowledge for the
+task. In this paper, we leverage the planning capabilities of instruction-tuned
+LLMs and analyze how planning can be used to guide retrieval to further reduce
+the frequency of hallucinations. We empirically evaluate several variations of
+our proposed approach on long-form text generation tasks. By improving the
+coverage of relevant facts, plan-guided retrieval and generation can produce
+more informative responses while providing a higher rate of attribution to
+source documents.",2024-08-20
+"DELIA: Diversity-Enhanced Learning for Instruction Adaptation in Large
+  Language Models",2024-08-19 17:56:06+00:00,http://arxiv.org/abs/2408.10841v1,"Yuanhao Zeng, Fei Ren, Xinpeng Zhou, Yihang Wang, Yingxia Shao","cs.AI, cs.CL",knowledge,"Although instruction tuning is widely used to adjust behavior in Large
+Language Models (LLMs), extensive empirical evidence and research indicates
+that it is primarily a process where the model fits to specific task formats,
+rather than acquiring new knowledge or capabilities. We propose that this
+limitation stems from biased features learned during instruction tuning, which
+differ from ideal task-specfic features, leading to learn less underlying
+semantics in downstream tasks. However, ideal features are unknown and
+incalculable, constraining past work to rely on prior knowledge to assist
+reasoning or training, which limits LLMs' capabilities to the developers'
+abilities, rather than data-driven scalable learning. In our paper, through our
+novel data synthesis method, DELIA (Diversity-Enhanced Learning for Instruction
+Adaptation), we leverage the buffering effect of extensive diverse data in LLMs
+training to transform biased features in instruction tuning into approximations
+of ideal features, without explicit prior ideal features. Experiments show
+DELIA's better performance compared to common instruction tuning and other
+baselines. It outperforms common instruction tuning by 17.07%-33.41% on
+Icelandic-English translation bleurt score (WMT-21 dataset, gemma-7b-it) and
+improves accuracy by 36.1% on formatted text generation (Llama2-7b-chat).
+Notably, among knowledge injection methods we've known, DELIA uniquely align
+the internal representations of new special tokens with their prior semantics.",2024-08-19
+"SMILE: Zero-Shot Sparse Mixture of Low-Rank Experts Construction From
+  Pre-Trained Foundation Models",2024-08-19 17:32:15+00:00,http://arxiv.org/abs/2408.10174v2,"Anke Tang, Li Shen, Yong Luo, Shuai Xie, Han Hu, Lefei Zhang, Bo Du, Dacheng Tao","cs.LG, cs.AI",knowledge,"Deep model training on extensive datasets is increasingly becoming
+cost-prohibitive, prompting the widespread adoption of deep model fusion
+techniques to leverage knowledge from pre-existing models. From simple weight
+averaging to more sophisticated methods like AdaMerging, model fusion
+effectively improves model performance and accelerates the development of new
+models. However, potential interference between parameters of individual models
+and the lack of interpretability in the fusion progress remain significant
+challenges. Existing methods often try to resolve the parameter interference
+issue by evaluating attributes of parameters, such as their magnitude or sign,
+or by parameter pruning. In this study, we begin by examining the fine-tuning
+of linear layers through the lens of subspace analysis and explicitly define
+parameter interference as an optimization problem to shed light on this
+subject. Subsequently, we introduce an innovative approach to model fusion
+called zero-shot Sparse MIxture of Low-rank Experts (SMILE) construction, which
+allows for the upscaling of source models into an MoE model without extra data
+or further training. Our approach relies on the observation that fine-tuning
+mostly keeps the important parts from the pre-training, but it uses less
+significant or unused areas to adapt to new tasks. Also, the issue of parameter
+interference, which is intrinsically intractable in the original parameter
+space, can be managed by expanding the dimensions. We conduct extensive
+experiments across diverse scenarios, such as image classification and text
+generation tasks, using full fine-tuning and LoRA fine-tuning, and we apply our
+method to large language models (CLIP models, Flan-T5 models, and Mistral-7B
+models), highlighting the adaptability and scalability of SMILE. Code is
+available at https://github.com/tanganke/fusion_bench",2024-08-19
+Rhyme-aware Chinese lyric generator based on GPT,2024-08-19 16:17:20+00:00,http://arxiv.org/abs/2408.10130v1,"Yixiao Yuan, Yangchen Huang, Yu Ma, Xinjin Li, Zhenglin Li, Yiming Shi, Huapeng Zhou","cs.CL, cs.AI",knowledge,"Neural language representation models such as GPT, pre-trained on large-scale
+corpora, can effectively capture rich semantic patterns from plain text and be
+fine-tuned to consistently improve natural language generation performance.
+However, existing pre-trained language models used to generate lyrics rarely
+consider rhyme information, which is crucial in lyrics. Using a pre-trained
+model directly results in poor performance. To enhance the rhyming quality of
+generated lyrics, we incorporate integrated rhyme information into our model,
+thereby improving lyric generation performance.",2024-08-19
+"LLaVA-VSD: Large Language-and-Vision Assistant for Visual Spatial
+  Description",2024-08-09 09:22:40+00:00,http://arxiv.org/abs/2408.04957v3,"Yizhang Jin, Jian Li, Jiangning Zhang, Jianlong Hu, Zhenye Gan, Xin Tan, Yong Liu, Yabiao Wang, Chengjie Wang, Lizhuang Ma","cs.CV, cs.AI",knowledge,"Visual Spatial Description (VSD) aims to generate texts that describe the
+spatial relationships between objects within images. Traditional visual spatial
+relationship classification (VSRC) methods typically output the spatial
+relationship between two objects in an image, often neglecting world knowledge
+and lacking general language capabilities. In this paper, we propose a Large
+Language-and-Vision Assistant for Visual Spatial Description, named LLaVA-VSD,
+which is designed for the classification, description, and open-ended
+description of visual spatial relationships. Specifically, the model first
+constructs a VSD instruction-following dataset using given figure-caption pairs
+for the three tasks. It then employs LoRA to fine-tune a Large Language and
+Vision Assistant for VSD, which has 13 billion parameters and supports
+high-resolution images. Finally, a large language model (Qwen-2) is used to
+refine the generated sentences, enhancing their diversity and accuracy.
+LLaVA-VSD demonstrates excellent multimodal conversational capabilities and can
+follow open-ended instructions to assist with inquiries about object
+relationships in images.",2024-08-09
 Cool-Fusion: Fuse Large Language Models without Training,2024-07-29 09:02:19+00:00,http://arxiv.org/abs/2407.19807v1,"Cong Liu, Xiaojun Quan, Yan Pan, Liang Lin, Weigang Wu, Xu Chen",cs.CL,knowledge,"We focus on the problem of fusing two or more heterogeneous large language
 models (LLMs) to facilitate their complementary strengths. One of the
 challenges on model fusion is high computational load, i.e. to fine-tune or to

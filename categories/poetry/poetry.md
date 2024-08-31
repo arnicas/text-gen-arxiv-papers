@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2024-07-30*
+*written on 2024-08-31*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Rhyme-aware Chinese lyric generator based on GPT](http://arxiv.org/abs/2408.10130v1) | Yixiao Yuan, Yangchen Huang, Yu Ma, Xinjin Li, Zhenglin Li, Yiming Shi, Huapeng Zhou | cs.CL, cs.AI | 2024-08-19 |
+| [Improving Structural Diversity of Blackbox LLMs via  Chain-of-Specification Prompting](http://arxiv.org/abs/2408.06186v1) | Halley Young, Yimeng Zeng, Jacob Gardner, Osbert Bastani | cs.CL, cs.LG | 2024-08-12 |
 | [Evaluating Diversity in Automatic Poetry Generation](http://arxiv.org/abs/2406.15267v1) | Yanran Chen, Hannes Gröner, Sina Zarrieß, Steffen Eger | cs.CL | 2024-06-21 |
 | [GPT Czech Poet: Generation of Czech Poetic Strophes with Language Models](http://arxiv.org/abs/2407.12790v1) | Michal Chudoba, Rudolf Rosa | cs.CL | 2024-06-18 |
 | [MUGC: Machine Generated versus User Generated Content Detection](http://arxiv.org/abs/2403.19725v1) | Yaqi Xie, Anjali Rawal, Yujing Cen, Dixuan Zhao, Sunil K Narang, Shanu Sushmita | cs.CL, cs.AI, cs.LG | 2024-03-28 |

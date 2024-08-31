@@ -1,4 +1,29 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Rhyme-aware Chinese lyric generator based on GPT,2024-08-19 16:17:20+00:00,http://arxiv.org/abs/2408.10130v1,"Yixiao Yuan, Yangchen Huang, Yu Ma, Xinjin Li, Zhenglin Li, Yiming Shi, Huapeng Zhou","cs.CL, cs.AI",poetry,"Neural language representation models such as GPT, pre-trained on large-scale
+corpora, can effectively capture rich semantic patterns from plain text and be
+fine-tuned to consistently improve natural language generation performance.
+However, existing pre-trained language models used to generate lyrics rarely
+consider rhyme information, which is crucial in lyrics. Using a pre-trained
+model directly results in poor performance. To enhance the rhyming quality of
+generated lyrics, we incorporate integrated rhyme information into our model,
+thereby improving lyric generation performance.",2024-08-19
+"Improving Structural Diversity of Blackbox LLMs via
+  Chain-of-Specification Prompting",2024-08-12 14:34:06+00:00,http://arxiv.org/abs/2408.06186v1,"Halley Young, Yimeng Zeng, Jacob Gardner, Osbert Bastani","cs.CL, cs.LG",poetry,"The capability to generate diverse text is a key challenge facing large
+language models (LLMs). Thus far, diversity has been studied via metrics such
+as $n$-gram diversity or diversity of BERT embeddings. However, for these kinds
+of diversity, the user has little control over the dimensions along which
+diversity is considered. For example, in the poetry domain, one might desire
+diversity in terms of rhyme and meter, whereas in the code domain, one might
+desire diversity in terms of the kinds of expressions used to solve a problem.
+We propose a diversity metric called structural diversity, where the user
+provides a mapping from generated text to features capturing the kinds of
+diversity that they care about. In addition, we propose a novel strategy called
+chain-of-specification (CoS) prompting for improving diversity by first having
+the LLM generate a specification encoding one instance of structural features,
+and then prompting the LLM to generate text that satisfies these features;
+notably, our strategy works with blackbox LLMs. In our experiments, we show
+that for structural diversity in the poetry and code domains, CoS significantly
+improves diversity compared to several baselines.",2024-08-12
 Evaluating Diversity in Automatic Poetry Generation,2024-06-21 16:03:21+00:00,http://arxiv.org/abs/2406.15267v1,"Yanran Chen, Hannes Gröner, Sina Zarrieß, Steffen Eger",cs.CL,poetry,"Natural Language Generation (NLG), and more generally generative AI, are
 among the currently most impactful research fields. Creative NLG, such as
 automatic poetry generation, is a fascinating niche in this area. While most

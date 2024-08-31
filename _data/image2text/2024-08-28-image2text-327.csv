@@ -1,4 +1,149 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Spatio-Temporal Context Prompting for Zero-Shot Action Detection,2024-08-28 17:59:05+00:00,http://arxiv.org/abs/2408.15996v2,"Wei-Jhe Huang, Min-Hung Chen, Shang-Hong Lai","cs.CV, cs.AI",image2text,"Spatio-temporal action detection encompasses the tasks of localizing and
+classifying individual actions within a video. Recent works aim to enhance this
+process by incorporating interaction modeling, which captures the relationship
+between people and their surrounding context. However, these approaches have
+primarily focused on fully-supervised learning, and the current limitation lies
+in the lack of generalization capability to recognize unseen action categories.
+In this paper, we aim to adapt the pretrained image-language models to detect
+unseen actions. To this end, we propose a method which can effectively leverage
+the rich knowledge of visual-language models to perform Person-Context
+Interaction. Meanwhile, our Context Prompting module will utilize contextual
+information to prompt labels, thereby enhancing the generation of more
+representative text features. Moreover, to address the challenge of recognizing
+distinct actions by multiple people at the same timestamp, we design the
+Interest Token Spotting mechanism which employs pretrained visual knowledge to
+find each person's interest context tokens, and then these tokens will be used
+for prompting to generate text features tailored to each individual. To
+evaluate the ability to detect unseen actions, we propose a comprehensive
+benchmark on J-HMDB, UCF101-24, and AVA datasets. The experiments show that our
+method achieves superior results compared to previous approaches and can be
+further extended to multi-action videos, bringing it closer to real-world
+applications. The code and data can be found in
+https://webber2933.github.io/ST-CLIP-project-page.",2024-08-28
+DIAGen: Diverse Image Augmentation with Generative Models,2024-08-26 19:09:13+00:00,http://arxiv.org/abs/2408.14584v1,"Tobias Lingenberg, Markus Reuter, Gopika Sudhakaran, Dominik Gojny, Stefan Roth, Simone Schaub-Meyer","cs.CV, cs.AI",image2text,"Simple data augmentation techniques, such as rotations and flips, are widely
+used to enhance the generalization power of computer vision models. However,
+these techniques often fail to modify high-level semantic attributes of a
+class. To address this limitation, researchers have explored generative
+augmentation methods like the recently proposed DA-Fusion. Despite some
+progress, the variations are still largely limited to textural changes, thus
+falling short on aspects like varied viewpoints, environment, weather
+conditions, or even class-level semantic attributes (eg, variations in a dog's
+breed). To overcome this challenge, we propose DIAGen, building upon DA-Fusion.
+First, we apply Gaussian noise to the embeddings of an object learned with
+Textual Inversion to diversify generations using a pre-trained diffusion
+model's knowledge. Second, we exploit the general knowledge of a text-to-text
+generative model to guide the image generation of the diffusion model with
+varied class-specific prompts. Finally, we introduce a weighting mechanism to
+mitigate the impact of poorly generated samples. Experimental results across
+various datasets show that DIAGen not only enhances semantic diversity but also
+improves the performance of subsequent classifiers. The advantages of DIAGen
+over standard augmentations and the DA-Fusion baseline are particularly
+pronounced with out-of-distribution samples.",2024-08-26
+"Revisiting Image Captioning Training Paradigm via Direct CLIP-based
+  Optimization",2024-08-26 18:00:33+00:00,http://arxiv.org/abs/2408.14547v1,"Nicholas Moratelli, Davide Caffagni, Marcella Cornia, Lorenzo Baraldi, Rita Cucchiara","cs.CV, cs.AI, cs.CL, cs.MM",image2text,"The conventional training approach for image captioning involves pre-training
+a network using teacher forcing and subsequent fine-tuning with Self-Critical
+Sequence Training to maximize hand-crafted captioning metrics. However, when
+attempting to optimize modern and higher-quality metrics like CLIP-Score and
+PAC-Score, this training method often encounters instability and fails to
+acquire the genuine descriptive capabilities needed to produce fluent and
+informative captions. In this paper, we propose a new training paradigm termed
+Direct CLIP-Based Optimization (DiCO). Our approach jointly learns and
+optimizes a reward model that is distilled from a learnable captioning
+evaluator with high human correlation. This is done by solving a weighted
+classification problem directly inside the captioner. At the same time, DiCO
+prevents divergence from the original model, ensuring that fluency is
+maintained. DiCO not only exhibits improved stability and enhanced quality in
+the generated captions but also aligns more closely with human preferences
+compared to existing methods, especially in modern metrics. Additionally, it
+maintains competitive performance in traditional metrics. Our source code and
+trained models are publicly available at https://github.com/aimagelab/DiCO.",2024-08-26
+Cap2Sum: Learning to Summarize Videos by Generating Captions,2024-08-23 02:28:54+00:00,http://arxiv.org/abs/2408.12800v1,"Cairong Zhao, Chutian Wang, Zifan Song, Guosheng Hu, Haonan Chen, Xiaofan Zhai",cs.MM,image2text,"With the rapid growth of video data on the internet, video summarization is
+becoming a very important AI technology. However, due to the high labelling
+cost of video summarization, existing studies have to be conducted on
+small-scale datasets, leading to limited performance and generalization
+capacity. In this work, we introduce the use of dense video captions as a
+supervision signal to train video summarization models. Motivated by this, we
+propose Cap2Sum, a model that learns to summarize videos by generating
+captions, to exploit dense video caption annotations. This weakly-supervised
+approach allows us to train the models on large-scale dense video caption
+datasets to achieve better performance and generalization capacity. To further
+improve the generalization capacity, we introduce a CLIP (a strong
+vision-language model) Prior mechanism to enhance the learning of important
+objects that captions may ignore in the videos. In practice, Cap2Sum can
+perform zero-shot video summarization or be fine-tuned by the ground-truth
+summary or video caption of the target dataset. To examine the performance of
+Cap2Sum after weakly-supervised fine-tuning by the video captions, we propose
+two new datasets, TVSum-Caption and SumMe-Caption, which are derived from two
+common video summarization datasets and will be publicly released. We conduct
+extensive experiments and the results demonstrate that our method achieves
+significant improvements in performance and generalization capacity compared
+with previous methods.",2024-08-23
+"UniFashion: A Unified Vision-Language Model for Multimodal Fashion
+  Retrieval and Generation",2024-08-21 03:17:20+00:00,http://arxiv.org/abs/2408.11305v1,"Xiangyu Zhao, Yuehan Zhang, Wenlong Zhang, Xiao-Ming Wu","cs.CV, cs.AI",image2text,"The fashion domain encompasses a variety of real-world multimodal tasks,
+including multimodal retrieval and multimodal generation. The rapid
+advancements in artificial intelligence generated content, particularly in
+technologies like large language models for text generation and diffusion
+models for visual generation, have sparked widespread research interest in
+applying these multimodal models in the fashion domain. However, tasks
+involving embeddings, such as image-to-text or text-to-image retrieval, have
+been largely overlooked from this perspective due to the diverse nature of the
+multimodal fashion domain. And current research on multi-task single models
+lack focus on image generation. In this work, we present UniFashion, a unified
+framework that simultaneously tackles the challenges of multimodal generation
+and retrieval tasks within the fashion domain, integrating image generation
+with retrieval tasks and text generation tasks. UniFashion unifies embedding
+and generative tasks by integrating a diffusion model and LLM, enabling
+controllable and high-fidelity generation. Our model significantly outperforms
+previous single-task state-of-the-art models across diverse fashion tasks, and
+can be readily adapted to manage complex vision-language tasks. This work
+demonstrates the potential learning synergy between multimodal generation and
+retrieval, offering a promising direction for future research in the fashion
+domain. The source code is available at
+https://github.com/xiangyu-mm/UniFashion.",2024-08-21
+"SMILE: Zero-Shot Sparse Mixture of Low-Rank Experts Construction From
+  Pre-Trained Foundation Models",2024-08-19 17:32:15+00:00,http://arxiv.org/abs/2408.10174v2,"Anke Tang, Li Shen, Yong Luo, Shuai Xie, Han Hu, Lefei Zhang, Bo Du, Dacheng Tao","cs.LG, cs.AI",image2text,"Deep model training on extensive datasets is increasingly becoming
+cost-prohibitive, prompting the widespread adoption of deep model fusion
+techniques to leverage knowledge from pre-existing models. From simple weight
+averaging to more sophisticated methods like AdaMerging, model fusion
+effectively improves model performance and accelerates the development of new
+models. However, potential interference between parameters of individual models
+and the lack of interpretability in the fusion progress remain significant
+challenges. Existing methods often try to resolve the parameter interference
+issue by evaluating attributes of parameters, such as their magnitude or sign,
+or by parameter pruning. In this study, we begin by examining the fine-tuning
+of linear layers through the lens of subspace analysis and explicitly define
+parameter interference as an optimization problem to shed light on this
+subject. Subsequently, we introduce an innovative approach to model fusion
+called zero-shot Sparse MIxture of Low-rank Experts (SMILE) construction, which
+allows for the upscaling of source models into an MoE model without extra data
+or further training. Our approach relies on the observation that fine-tuning
+mostly keeps the important parts from the pre-training, but it uses less
+significant or unused areas to adapt to new tasks. Also, the issue of parameter
+interference, which is intrinsically intractable in the original parameter
+space, can be managed by expanding the dimensions. We conduct extensive
+experiments across diverse scenarios, such as image classification and text
+generation tasks, using full fine-tuning and LoRA fine-tuning, and we apply our
+method to large language models (CLIP models, Flan-T5 models, and Mistral-7B
+models), highlighting the adaptability and scalability of SMILE. Code is
+available at https://github.com/tanganke/fusion_bench",2024-08-19
+"LLaVA-VSD: Large Language-and-Vision Assistant for Visual Spatial
+  Description",2024-08-09 09:22:40+00:00,http://arxiv.org/abs/2408.04957v3,"Yizhang Jin, Jian Li, Jiangning Zhang, Jianlong Hu, Zhenye Gan, Xin Tan, Yong Liu, Yabiao Wang, Chengjie Wang, Lizhuang Ma","cs.CV, cs.AI",image2text,"Visual Spatial Description (VSD) aims to generate texts that describe the
+spatial relationships between objects within images. Traditional visual spatial
+relationship classification (VSRC) methods typically output the spatial
+relationship between two objects in an image, often neglecting world knowledge
+and lacking general language capabilities. In this paper, we propose a Large
+Language-and-Vision Assistant for Visual Spatial Description, named LLaVA-VSD,
+which is designed for the classification, description, and open-ended
+description of visual spatial relationships. Specifically, the model first
+constructs a VSD instruction-following dataset using given figure-caption pairs
+for the three tasks. It then employs LoRA to fine-tune a Large Language and
+Vision Assistant for VSD, which has 13 billion parameters and supports
+high-resolution images. Finally, a large language model (Qwen-2) is used to
+refine the generated sentences, enhancing their diversity and accuracy.
+LLaVA-VSD demonstrates excellent multimodal conversational capabilities and can
+follow open-ended instructions to assist with inquiries about object
+relationships in images.",2024-08-09
 Wolf: Captioning Everything with a World Summarization Framework,2024-07-26 17:59:09+00:00,http://arxiv.org/abs/2407.18908v1,"Boyi Li, Ligeng Zhu, Ran Tian, Shuhan Tan, Yuxiao Chen, Yao Lu, Yin Cui, Sushant Veer, Max Ehrlich, Jonah Philion, Xinshuo Weng, Fuzhao Xue, Andrew Tao, Ming-Yu Liu, Sanja Fidler, Boris Ivanovic, Trevor Darrell, Jitendra Malik, Song Han, Marco Pavone","cs.LG, cs.CL, cs.CV",image2text,"We propose Wolf, a WOrLd summarization Framework for accurate video
 captioning. Wolf is an automated captioning framework that adopts a
 mixture-of-experts approach, leveraging complementary strengths of Vision

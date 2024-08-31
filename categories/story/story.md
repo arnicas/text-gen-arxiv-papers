@@ -7,10 +7,18 @@ sidebar:
 ---
 
 
-*written on 2024-07-30*
+*written on 2024-08-31*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [What Makes a Good Story and How Can We Measure It? A Comprehensive  Survey of Story Evaluation](http://arxiv.org/abs/2408.14622v1) | Dingyi Yang, Qin Jin | cs.CL, A.1; I.2.7; I.2.10 | 2024-08-26 |
+| [DHP Benchmark: Are LLMs Good NLG Evaluators?](http://arxiv.org/abs/2408.13704v1) | Yicheng Wang, Jiayi Yuan, Yu-Neng Chuang, Zhuoer Wang, Yingchi Liu, Mark Cusick, Param Kulkarni, Zhengping Ji, Yasser Ibrahim, Xia Hu | cs.CL, cs.AI | 2024-08-25 |
+| [Xinyu: An Efficient LLM-based System for Commentary Generation](http://arxiv.org/abs/2408.11609v2) | Yiquan Wu, Bo Tang, Chenyang Xi, Yu Yu, Pengyu Wang, Yifei Liu, Kun Kuang, Haiying Deng, Zhiyu Li, Feiyu Xiong, Jie Hu, Peng Cheng, Zhonghao Wang, Yi Wang, Yi Luo, Mingchuan Yang | cs.CL, cs.AI, I.2.7 | 2024-08-21 |
+| [Imagining from Images with an AI Storytelling Tool](http://arxiv.org/abs/2408.11517v1) | Edirlei Soares de Lima, Marco A. Casanova, Antonio L. Furtado | cs.CL | 2024-08-21 |
+| [Assessing Language Models' Worldview for Fiction Generation](http://arxiv.org/abs/2408.07904v1) | Aisha Khatun, Daniel G. Brown | cs.CL, cs.AI | 2024-08-15 |
+| [Context-aware Visual Storytelling with Visual Prefix Tuning and  Contrastive Learning](http://arxiv.org/abs/2408.06259v1) | Yingjin Song, Denis Paperno, Albert Gatt | cs.CL, cs.CV | 2024-08-12 |
+| [DataNarrative: Automated Data-Driven Storytelling with Visualizations  and Texts](http://arxiv.org/abs/2408.05346v2) | Mohammed Saidul Islam, Md Tahmid Rahman Laskar, Md Rizwan Parvez, Enamul Hoque, Shafiq Joty | cs.CL | 2024-08-09 |
+| [DASH: A Bimodal Data Exploration Tool for Interactive Text and  Visualizations](http://arxiv.org/abs/2408.01011v2) | Dennis Bromley, Vidya Setlur | cs.HC | 2024-08-02 |
 | [From Instruction to Insight: Exploring the Functional and Semantic Roles  of Text in Interactive Dashboards](http://arxiv.org/abs/2407.14451v1) | Nicole Sultanum, Vidya Setlur | cs.HC | 2024-07-19 |
 | [DreamStory: Open-Domain Story Visualization by LLM-Guided Multi-Subject  Consistent Diffusion](http://arxiv.org/abs/2407.12899v1) | Huiguo He, Huan Yang, Zixi Tuo, Yuan Zhou, Qiuyue Wang, Yuhang Zhang, Zeyu Liu, Wenhao Huang, Hongyang Chao, Jian Yin | cs.CV, cs.AI, cs.MM | 2024-07-17 |
 | [FairyLandAI: Personalized Fairy Tales utilizing ChatGPT and DALLE-3](http://arxiv.org/abs/2407.09467v1) | Georgios Makridis, Athanasios Oikonomou, Vasileios Koukos | cs.AI | 2024-07-12 |

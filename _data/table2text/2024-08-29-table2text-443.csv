@@ -1,4 +1,257 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"The Unreasonable Ineffectiveness of Nucleus Sampling on Mitigating Text
+  Memorization",2024-08-29 08:30:33+00:00,http://arxiv.org/abs/2408.16345v1,"Luka Borec, Philipp Sadler, David Schlangen",cs.CL,table2text,"This work analyses the text memorization behavior of large language models
+(LLMs) when subjected to nucleus sampling. Stochastic decoding methods like
+nucleus sampling are typically applied to overcome issues such as monotonous
+and repetitive text generation, which are often observed with
+maximization-based decoding techniques. We hypothesize that nucleus sampling
+might also reduce the occurrence of memorization patterns, because it could
+lead to the selection of tokens outside the memorized sequence. To test this
+hypothesis we create a diagnostic dataset with a known distribution of
+duplicates that gives us some control over the likelihood of memorization of
+certain parts of the training data. Our analysis of two GPT-Neo models
+fine-tuned on this dataset interestingly shows that (i) an increase of the
+nucleus size reduces memorization only modestly, and (ii) even when models do
+not engage in ""hard"" memorization -- a verbatim reproduction of training
+samples -- they may still display ""soft"" memorization whereby they generate
+outputs that echo the training data but without a complete one-by-one
+resemblance.",2024-08-29
+Spatio-Temporal Context Prompting for Zero-Shot Action Detection,2024-08-28 17:59:05+00:00,http://arxiv.org/abs/2408.15996v2,"Wei-Jhe Huang, Min-Hung Chen, Shang-Hong Lai","cs.CV, cs.AI",table2text,"Spatio-temporal action detection encompasses the tasks of localizing and
+classifying individual actions within a video. Recent works aim to enhance this
+process by incorporating interaction modeling, which captures the relationship
+between people and their surrounding context. However, these approaches have
+primarily focused on fully-supervised learning, and the current limitation lies
+in the lack of generalization capability to recognize unseen action categories.
+In this paper, we aim to adapt the pretrained image-language models to detect
+unseen actions. To this end, we propose a method which can effectively leverage
+the rich knowledge of visual-language models to perform Person-Context
+Interaction. Meanwhile, our Context Prompting module will utilize contextual
+information to prompt labels, thereby enhancing the generation of more
+representative text features. Moreover, to address the challenge of recognizing
+distinct actions by multiple people at the same timestamp, we design the
+Interest Token Spotting mechanism which employs pretrained visual knowledge to
+find each person's interest context tokens, and then these tokens will be used
+for prompting to generate text features tailored to each individual. To
+evaluate the ability to detect unseen actions, we propose a comprehensive
+benchmark on J-HMDB, UCF101-24, and AVA datasets. The experiments show that our
+method achieves superior results compared to previous approaches and can be
+further extended to multi-action videos, bringing it closer to real-world
+applications. The code and data can be found in
+https://webber2933.github.io/ST-CLIP-project-page.",2024-08-28
+DIAGen: Diverse Image Augmentation with Generative Models,2024-08-26 19:09:13+00:00,http://arxiv.org/abs/2408.14584v1,"Tobias Lingenberg, Markus Reuter, Gopika Sudhakaran, Dominik Gojny, Stefan Roth, Simone Schaub-Meyer","cs.CV, cs.AI",table2text,"Simple data augmentation techniques, such as rotations and flips, are widely
+used to enhance the generalization power of computer vision models. However,
+these techniques often fail to modify high-level semantic attributes of a
+class. To address this limitation, researchers have explored generative
+augmentation methods like the recently proposed DA-Fusion. Despite some
+progress, the variations are still largely limited to textural changes, thus
+falling short on aspects like varied viewpoints, environment, weather
+conditions, or even class-level semantic attributes (eg, variations in a dog's
+breed). To overcome this challenge, we propose DIAGen, building upon DA-Fusion.
+First, we apply Gaussian noise to the embeddings of an object learned with
+Textual Inversion to diversify generations using a pre-trained diffusion
+model's knowledge. Second, we exploit the general knowledge of a text-to-text
+generative model to guide the image generation of the diffusion model with
+varied class-specific prompts. Finally, we introduce a weighting mechanism to
+mitigate the impact of poorly generated samples. Experimental results across
+various datasets show that DIAGen not only enhances semantic diversity but also
+improves the performance of subsequent classifiers. The advantages of DIAGen
+over standard augmentations and the DA-Fusion baseline are particularly
+pronounced with out-of-distribution samples.",2024-08-26
+"Predictability and Causality in Spanish and English Natural Language
+  Generation",2024-08-26 14:09:28+00:00,http://arxiv.org/abs/2408.14283v1,"Andrea Busto-Castiñeira, Francisco J. González-Castaño, Silvia García-Méndez, Francisco de Arriba-Pérez",cs.CL,table2text,"In recent years, the field of Natural Language Generation (NLG) has been
+boosted by the recent advances in deep learning technologies. Nonetheless,
+these new data-intensive methods introduce language-dependent disparities in
+NLG as the main training data sets are in English. Also, most neural NLG
+systems use decoder-only (causal) transformer language models, which work well
+for English, but were not designed with other languages in mind. In this work
+we depart from the hypothesis that they may introduce generation bias in target
+languages with less rigid word ordering, subject omission, or different
+attachment preferences for relative clauses, so that for these target languages
+other language generation strategies may be more desirable. This paper first
+compares causal and non-causal language modeling for English and Spanish, two
+languages with different grammatical structures and over 1.5 billion and 0.5
+billion speakers, respectively. For this purpose, we define a novel metric of
+average causal and non-causal context-conditioned entropy of the grammatical
+category distribution for both languages as an information-theoretic a priori
+approach. The evaluation of natural text sources (such as training data) in
+both languages reveals lower average non-causal conditional entropy in Spanish
+and lower causal conditional entropy in English. According to this experiment,
+Spanish is more predictable than English given a non-causal context. Then, by
+applying a conditional relative entropy metric to text generation experiments,
+we obtain as insights that the best performance is respectively achieved with
+causal NLG in English, and with non-causal NLG in Spanish. These insights
+support further research in NLG in Spanish using bidirectional transformer
+language models.",2024-08-26
+"Biomedical Large Languages Models Seem not to be Superior to Generalist
+  Models on Unseen Medical Data",2024-08-25 13:36:22+00:00,http://arxiv.org/abs/2408.13833v1,"Felix J. Dorfner, Amin Dada, Felix Busch, Marcus R. Makowski, Tianyu Han, Daniel Truhn, Jens Kleesiek, Madhumita Sushil, Jacqueline Lammert, Lisa C. Adams, Keno K. Bressem",cs.CL,table2text,"Large language models (LLMs) have shown potential in biomedical applications,
+leading to efforts to fine-tune them on domain-specific data. However, the
+effectiveness of this approach remains unclear. This study evaluates the
+performance of biomedically fine-tuned LLMs against their general-purpose
+counterparts on a variety of clinical tasks. We evaluated their performance on
+clinical case challenges from the New England Journal of Medicine (NEJM) and
+the Journal of the American Medical Association (JAMA) and on several clinical
+tasks (e.g., information extraction, document summarization, and clinical
+coding). Using benchmarks specifically chosen to be likely outside the
+fine-tuning datasets of biomedical models, we found that biomedical LLMs mostly
+perform inferior to their general-purpose counterparts, especially on tasks not
+focused on medical knowledge. While larger models showed similar performance on
+case tasks (e.g., OpenBioLLM-70B: 66.4% vs. Llama-3-70B-Instruct: 65% on JAMA
+cases), smaller biomedical models showed more pronounced underperformance
+(e.g., OpenBioLLM-8B: 30% vs. Llama-3-8B-Instruct: 64.3% on NEJM cases).
+Similar trends were observed across the CLUE (Clinical Language Understanding
+Evaluation) benchmark tasks, with general-purpose models often performing
+better on text generation, question answering, and coding tasks. Our results
+suggest that fine-tuning LLMs to biomedical data may not provide the expected
+benefits and may potentially lead to reduced performance, challenging
+prevailing assumptions about domain-specific adaptation of LLMs and
+highlighting the need for more rigorous evaluation frameworks in healthcare AI.
+Alternative approaches, such as retrieval-augmented generation, may be more
+effective in enhancing the biomedical capabilities of LLMs without compromising
+their general knowledge.",2024-08-25
+DHP Benchmark: Are LLMs Good NLG Evaluators?,2024-08-25 02:01:38+00:00,http://arxiv.org/abs/2408.13704v1,"Yicheng Wang, Jiayi Yuan, Yu-Neng Chuang, Zhuoer Wang, Yingchi Liu, Mark Cusick, Param Kulkarni, Zhengping Ji, Yasser Ibrahim, Xia Hu","cs.CL, cs.AI",table2text,"Large Language Models (LLMs) are increasingly serving as evaluators in
+Natural Language Generation (NLG) tasks. However, the capabilities of LLMs in
+scoring NLG quality remain inadequately explored. Current studies depend on
+human assessments and simple metrics that fail to capture the discernment of
+LLMs across diverse NLG tasks. To address this gap, we propose the Discernment
+of Hierarchical Perturbation (DHP) benchmarking framework, which provides
+quantitative discernment scores for LLMs utilizing hierarchically perturbed
+text data and statistical tests to measure the NLG evaluation capabilities of
+LLMs systematically. We have re-established six evaluation datasets for this
+benchmark, covering four NLG tasks: Summarization, Story Completion, Question
+Answering, and Translation. Our comprehensive benchmarking of five major LLM
+series provides critical insight into their strengths and limitations as NLG
+evaluators.",2024-08-25
+"BackdoorLLM: A Comprehensive Benchmark for Backdoor Attacks on Large
+  Language Models",2024-08-23 02:21:21+00:00,http://arxiv.org/abs/2408.12798v1,"Yige Li, Hanxun Huang, Yunhan Zhao, Xingjun Ma, Jun Sun",cs.AI,table2text,"Generative Large Language Models (LLMs) have made significant strides across
+various tasks, but they remain vulnerable to backdoor attacks, where specific
+triggers in the prompt cause the LLM to generate adversary-desired responses.
+While most backdoor research has focused on vision or text classification
+tasks, backdoor attacks in text generation have been largely overlooked. In
+this work, we introduce \textit{BackdoorLLM}, the first comprehensive benchmark
+for studying backdoor attacks on LLMs. \textit{BackdoorLLM} features: 1) a
+repository of backdoor benchmarks with a standardized training pipeline, 2)
+diverse attack strategies, including data poisoning, weight poisoning, hidden
+state attacks, and chain-of-thought attacks, 3) extensive evaluations with over
+200 experiments on 8 attacks across 7 scenarios and 6 model architectures, and
+4) key insights into the effectiveness and limitations of backdoors in LLMs. We
+hope \textit{BackdoorLLM} will raise awareness of backdoor threats and
+contribute to advancing AI safety. The code is available at
+\url{https://github.com/bboylyg/BackdoorLLM}.",2024-08-23
+"GenderCARE: A Comprehensive Framework for Assessing and Reducing Gender
+  Bias in Large Language Models",2024-08-22 15:35:46+00:00,http://arxiv.org/abs/2408.12494v1,"Kunsheng Tang, Wenbo Zhou, Jie Zhang, Aishan Liu, Gelei Deng, Shuai Li, Peigui Qi, Weiming Zhang, Tianwei Zhang, Nenghai Yu","cs.CL, cs.AI",table2text,"Large language models (LLMs) have exhibited remarkable capabilities in
+natural language generation, but they have also been observed to magnify
+societal biases, particularly those related to gender. In response to this
+issue, several benchmarks have been proposed to assess gender bias in LLMs.
+However, these benchmarks often lack practical flexibility or inadvertently
+introduce biases. To address these shortcomings, we introduce GenderCARE, a
+comprehensive framework that encompasses innovative Criteria, bias Assessment,
+Reduction techniques, and Evaluation metrics for quantifying and mitigating
+gender bias in LLMs. To begin, we establish pioneering criteria for gender
+equality benchmarks, spanning dimensions such as inclusivity, diversity,
+explainability, objectivity, robustness, and realisticity. Guided by these
+criteria, we construct GenderPair, a novel pair-based benchmark designed to
+assess gender bias in LLMs comprehensively. Our benchmark provides standardized
+and realistic evaluations, including previously overlooked gender groups such
+as transgender and non-binary individuals. Furthermore, we develop effective
+debiasing techniques that incorporate counterfactual data augmentation and
+specialized fine-tuning strategies to reduce gender bias in LLMs without
+compromising their overall performance. Extensive experiments demonstrate a
+significant reduction in various gender bias benchmarks, with reductions
+peaking at over 90% and averaging above 35% across 17 different LLMs.
+Importantly, these reductions come with minimal variability in mainstream
+language tasks, remaining below 2%. By offering a realistic assessment and
+tailored reduction of gender biases, we hope that our GenderCARE can represent
+a significant step towards achieving fairness and equity in LLMs. More details
+are available at https://github.com/kstanghere/GenderCARE-ccs24.",2024-08-22
+Preference-Guided Reflective Sampling for Aligning Language Models,2024-08-22 07:18:46+00:00,http://arxiv.org/abs/2408.12163v1,"Hai Ye, Hwee Tou Ng",cs.CL,table2text,"Large language models (LLMs) are aligned with human preferences by
+reinforcement learning from human feedback (RLHF). Effective data sampling is
+crucial for RLHF, as it determines the efficiency of model training, ensuring
+that models learn from the informative samples. To achieve better data
+generation, we propose a new sampling method called Preference-Guided
+Reflective Sampling (PRS). PRS frames the response generation as an
+optimization process to the explicitly specified user preference described in
+natural language. It employs a tree-based generation framework to enable an
+efficient sampling process, which guides the direction of generation through
+preference and better explores the sampling space with adaptive
+self-refinement. Notably, PRS can align LLMs to diverse preferences. We study
+preference-controlled text generation for instruction following and
+keyword-focused document summarization. Our findings indicate that PRS, across
+different LLM policies, generates training data with much higher rewards than
+strong baselines. PRS also excels in post-RL training.",2024-08-22
+Xinyu: An Efficient LLM-based System for Commentary Generation,2024-08-21 13:34:29+00:00,http://arxiv.org/abs/2408.11609v2,"Yiquan Wu, Bo Tang, Chenyang Xi, Yu Yu, Pengyu Wang, Yifei Liu, Kun Kuang, Haiying Deng, Zhiyu Li, Feiyu Xiong, Jie Hu, Peng Cheng, Zhonghao Wang, Yi Wang, Yi Luo, Mingchuan Yang","cs.CL, cs.AI, I.2.7",table2text,"Commentary provides readers with a deep understanding of events by presenting
+diverse arguments and evidence. However, creating commentary is a
+time-consuming task, even for skilled commentators. Large language models
+(LLMs) have simplified the process of natural language generation, but their
+direct application in commentary creation still faces challenges due to unique
+task requirements. These requirements can be categorized into two levels: 1)
+fundamental requirements, which include creating well-structured and logically
+consistent narratives, and 2) advanced requirements, which involve generating
+quality arguments and providing convincing evidence. In this paper, we
+introduce Xinyu, an efficient LLM-based system designed to assist commentators
+in generating Chinese commentaries. To meet the fundamental requirements, we
+deconstruct the generation process into sequential steps, proposing targeted
+strategies and supervised fine-tuning (SFT) for each step. To address the
+advanced requirements, we present an argument ranking model for arguments and
+establish a comprehensive evidence database that includes up-to-date events and
+classic books, thereby strengthening the substantiation of the evidence with
+retrieval augmented generation (RAG) technology. To evaluate the generated
+commentaries more fairly, corresponding to the two-level requirements, we
+introduce a comprehensive evaluation metric that considers five distinct
+perspectives in commentary generation. Our experiments confirm the
+effectiveness of our proposed system. We also observe a significant increase in
+the efficiency of commentators in real-world scenarios, with the average time
+spent on creating a commentary dropping from 4 hours to 20 minutes.
+Importantly, such an increase in efficiency does not compromise the quality of
+the commentaries.",2024-08-21
+"Tracing Privacy Leakage of Language Models to Training Data via Adjusted
+  Influence Functions",2024-08-20 00:40:49+00:00,http://arxiv.org/abs/2408.10468v3,"Jinxin Liu, Zao Yang","cs.LG, cs.CL, cs.CR",table2text,"The responses generated by Large Language Models (LLMs) can include sensitive
+information from individuals and organizations, leading to potential privacy
+leakage. This work implements Influence Functions (IFs) to trace privacy
+leakage back to the training data, thereby mitigating privacy concerns of
+Language Models (LMs). However, we notice that current IFs struggle to
+accurately estimate the influence of tokens with large gradient norms,
+potentially overestimating their influence. When tracing the most influential
+samples, this leads to frequently tracing back to samples with large gradient
+norm tokens, overshadowing the actual most influential samples even if their
+influences are well estimated. To address this issue, we propose Heuristically
+Adjusted IF (HAIF), which reduces the weight of tokens with large gradient
+norms, thereby significantly improving the accuracy of tracing the most
+influential samples. To establish easily obtained groundtruth for tracing
+privacy leakage, we construct two datasets, PII-E and PII-CR, representing two
+distinct scenarios: one with identical text in the model outputs and
+pre-training data, and the other where models leverage their reasoning
+abilities to generate text divergent from pre-training data. HAIF significantly
+improves tracing accuracy, enhancing it by 20.96% to 73.71% on the PII-E
+dataset and 3.21% to 45.93% on the PII-CR dataset, compared to the best SOTA
+IFs against various GPT-2 and QWen-1.5 models. HAIF also outperforms SOTA IFs
+on real-world pretraining data CLUECorpus2020, demonstrating strong robustness
+regardless prompt and response lengths.",2024-08-20
+"SMILE: Zero-Shot Sparse Mixture of Low-Rank Experts Construction From
+  Pre-Trained Foundation Models",2024-08-19 17:32:15+00:00,http://arxiv.org/abs/2408.10174v2,"Anke Tang, Li Shen, Yong Luo, Shuai Xie, Han Hu, Lefei Zhang, Bo Du, Dacheng Tao","cs.LG, cs.AI",table2text,"Deep model training on extensive datasets is increasingly becoming
+cost-prohibitive, prompting the widespread adoption of deep model fusion
+techniques to leverage knowledge from pre-existing models. From simple weight
+averaging to more sophisticated methods like AdaMerging, model fusion
+effectively improves model performance and accelerates the development of new
+models. However, potential interference between parameters of individual models
+and the lack of interpretability in the fusion progress remain significant
+challenges. Existing methods often try to resolve the parameter interference
+issue by evaluating attributes of parameters, such as their magnitude or sign,
+or by parameter pruning. In this study, we begin by examining the fine-tuning
+of linear layers through the lens of subspace analysis and explicitly define
+parameter interference as an optimization problem to shed light on this
+subject. Subsequently, we introduce an innovative approach to model fusion
+called zero-shot Sparse MIxture of Low-rank Experts (SMILE) construction, which
+allows for the upscaling of source models into an MoE model without extra data
+or further training. Our approach relies on the observation that fine-tuning
+mostly keeps the important parts from the pre-training, but it uses less
+significant or unused areas to adapt to new tasks. Also, the issue of parameter
+interference, which is intrinsically intractable in the original parameter
+space, can be managed by expanding the dimensions. We conduct extensive
+experiments across diverse scenarios, such as image classification and text
+generation tasks, using full fine-tuning and LoRA fine-tuning, and we apply our
+method to large language models (CLIP models, Flan-T5 models, and Mistral-7B
+models), highlighting the adaptability and scalability of SMILE. Code is
+available at https://github.com/tanganke/fusion_bench",2024-08-19
 LLMs' Understanding of Natural Language Revealed,2024-07-29 01:21:11+00:00,http://arxiv.org/abs/2407.19630v1,Walid S. Saba,cs.AI,table2text,"Large language models (LLMs) are the result of a massive experiment in
 bottom-up, data-driven reverse engineering of language at scale. Despite their
 utility in a number of downstream NLP tasks, ample research has shown that LLMs

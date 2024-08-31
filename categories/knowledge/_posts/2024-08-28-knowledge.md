@@ -6,10 +6,19 @@ sidebar:
 ---
 
 
-*written on 2024-07-30*
+*written on 2024-08-31*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Spatio-Temporal Context Prompting for Zero-Shot Action Detection](http://arxiv.org/abs/2408.15996v2) | Wei-Jhe Huang, Min-Hung Chen, Shang-Hong Lai | cs.CV, cs.AI | 2024-08-28 |
+| [DIAGen: Diverse Image Augmentation with Generative Models](http://arxiv.org/abs/2408.14584v1) | Tobias Lingenberg, Markus Reuter, Gopika Sudhakaran, Dominik Gojny, Stefan Roth, Simone Schaub-Meyer | cs.CV, cs.AI | 2024-08-26 |
+| [Biomedical Large Languages Models Seem not to be Superior to Generalist  Models on Unseen Medical Data](http://arxiv.org/abs/2408.13833v1) | Felix J. Dorfner, Amin Dada, Felix Busch, Marcus R. Makowski, Tianyu Han, Daniel Truhn, Jens Kleesiek, Madhumita Sushil, Jacqueline Lammert, Lisa C. Adams, Keno K. Bressem | cs.CL | 2024-08-25 |
+| [MDD-5k: A New Diagnostic Conversation Dataset for Mental Disorders  Synthesized via Neuro-Symbolic LLM Agents](http://arxiv.org/abs/2408.12142v1) | Congchi Yin, Feng Li, Shu Zhang, Zike Wang, Jun Shao, Piji Li, Jianhua Chen, Xun Jiang | cs.CL, cs.AI | 2024-08-22 |
+| [Analysis of Plan-based Retrieval for Grounded Text Generation](http://arxiv.org/abs/2408.10490v1) | Ameya Godbole, Nicholas Monath, Seungyeon Kim, Ankit Singh Rawat, Andrew McCallum, Manzil Zaheer | cs.CL, cs.IR | 2024-08-20 |
+| [DELIA: Diversity-Enhanced Learning for Instruction Adaptation in Large  Language Models](http://arxiv.org/abs/2408.10841v1) | Yuanhao Zeng, Fei Ren, Xinpeng Zhou, Yihang Wang, Yingxia Shao | cs.AI, cs.CL | 2024-08-19 |
+| [SMILE: Zero-Shot Sparse Mixture of Low-Rank Experts Construction From  Pre-Trained Foundation Models](http://arxiv.org/abs/2408.10174v2) | Anke Tang, Li Shen, Yong Luo, Shuai Xie, Han Hu, Lefei Zhang, Bo Du, Dacheng Tao | cs.LG, cs.AI | 2024-08-19 |
+| [Rhyme-aware Chinese lyric generator based on GPT](http://arxiv.org/abs/2408.10130v1) | Yixiao Yuan, Yangchen Huang, Yu Ma, Xinjin Li, Zhenglin Li, Yiming Shi, Huapeng Zhou | cs.CL, cs.AI | 2024-08-19 |
+| [LLaVA-VSD: Large Language-and-Vision Assistant for Visual Spatial  Description](http://arxiv.org/abs/2408.04957v3) | Yizhang Jin, Jian Li, Jiangning Zhang, Jianlong Hu, Zhenye Gan, Xin Tan, Yong Liu, Yabiao Wang, Chengjie Wang, Lizhuang Ma | cs.CV, cs.AI | 2024-08-09 |
 | [Cool-Fusion: Fuse Large Language Models without Training](http://arxiv.org/abs/2407.19807v1) | Cong Liu, Xiaojun Quan, Yan Pan, Liang Lin, Weigang Wu, Xu Chen | cs.CL | 2024-07-29 |
 | [Positive Text Reframing under Multi-strategy Optimization](http://arxiv.org/abs/2407.17940v2) | Shutong Jia, Biwei Cao, Qingqing Gao, Jiuxin Cao, Bo Liu | cs.CL, cs.AI | 2024-07-25 |
 | [The Power of Combining Data and Knowledge: GPT-4o is an Effective  Interpreter of Machine Learning Models in Predicting Lymph Node Metastasis of  Lung Cancer](http://arxiv.org/abs/2407.17900v2) | Danqing Hu, Bing Liu, Xiaofeng Zhu, Nan Wu | cs.CL, cs.LG | 2024-07-25 |
