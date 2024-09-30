@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2024-08-31*
+*written on 2024-09-30*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [LLM-based multi-agent poetry generation in non-cooperative environments](http://arxiv.org/abs/2409.03659v2) | Ran Zhang, Steffen Eger | cs.CL | 2024-09-05 |
 | [Rhyme-aware Chinese lyric generator based on GPT](http://arxiv.org/abs/2408.10130v1) | Yixiao Yuan, Yangchen Huang, Yu Ma, Xinjin Li, Zhenglin Li, Yiming Shi, Huapeng Zhou | cs.CL, cs.AI | 2024-08-19 |
 | [Improving Structural Diversity of Blackbox LLMs via  Chain-of-Specification Prompting](http://arxiv.org/abs/2408.06186v1) | Halley Young, Yimeng Zeng, Jacob Gardner, Osbert Bastani | cs.CL, cs.LG | 2024-08-12 |
 | [Evaluating Diversity in Automatic Poetry Generation](http://arxiv.org/abs/2406.15267v1) | Yanran Chen, Hannes Gröner, Sina Zarrieß, Steffen Eger | cs.CL | 2024-06-21 |

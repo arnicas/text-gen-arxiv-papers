@@ -1,4 +1,116 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"IFCap: Image-like Retrieval and Frequency-based Entity Filtering for
+  Zero-shot Captioning",2024-09-26 16:47:32+00:00,http://arxiv.org/abs/2409.18046v1,"Soeun Lee, Si-Woo Kim, Taewhan Kim, Dong-Jin Kim","cs.CV, cs.AI, cs.CL, cs.LG",image2text,"Recent advancements in image captioning have explored text-only training
+methods to overcome the limitations of paired image-text data. However,
+existing text-only training methods often overlook the modality gap between
+using text data during training and employing images during inference. To
+address this issue, we propose a novel approach called Image-like Retrieval,
+which aligns text features with visually relevant features to mitigate the
+modality gap. Our method further enhances the accuracy of generated captions by
+designing a Fusion Module that integrates retrieved captions with input
+features. Additionally, we introduce a Frequency-based Entity Filtering
+technique that significantly improves caption quality. We integrate these
+methods into a unified framework, which we refer to as IFCap
+($\textbf{I}$mage-like Retrieval and $\textbf{F}$requency-based Entity
+Filtering for Zero-shot $\textbf{Cap}$tioning). Through extensive
+experimentation, our straightforward yet powerful approach has demonstrated its
+efficacy, outperforming the state-of-the-art methods by a significant margin in
+both image captioning and video captioning compared to zero-shot captioning
+based on text-only training.",2024-09-26
+MIO: A Foundation Model on Multimodal Tokens,2024-09-26 09:57:16+00:00,http://arxiv.org/abs/2409.17692v1,"Zekun Wang, King Zhu, Chunpu Xu, Wangchunshu Zhou, Jiaheng Liu, Yibo Zhang, Jiashuo Wang, Ning Shi, Siyu Li, Yizhi Li, Haoran Que, Zhaoxiang Zhang, Yuanxing Zhang, Ge Zhang, Ke Xu, Jie Fu, Wenhao Huang","cs.CL, cs.AI, cs.LG",image2text,"In this paper, we introduce MIO, a novel foundation model built on multimodal
+tokens, capable of understanding and generating speech, text, images, and
+videos in an end-to-end, autoregressive manner. While the emergence of large
+language models (LLMs) and multimodal large language models (MM-LLMs) propels
+advancements in artificial general intelligence through their versatile
+capabilities, they still lack true any-to-any understanding and generation.
+Recently, the release of GPT-4o has showcased the remarkable potential of
+any-to-any LLMs for complex real-world tasks, enabling omnidirectional input
+and output across images, speech, and text. However, it is closed-source and
+does not support the generation of multimodal interleaved sequences. To address
+this gap, we present MIO, which is trained on a mixture of discrete tokens
+across four modalities using causal multimodal modeling. MIO undergoes a
+four-stage training process: (1) alignment pre-training, (2) interleaved
+pre-training, (3) speech-enhanced pre-training, and (4) comprehensive
+supervised fine-tuning on diverse textual, visual, and speech tasks. Our
+experimental results indicate that MIO exhibits competitive, and in some cases
+superior, performance compared to previous dual-modal baselines, any-to-any
+model baselines, and even modality-specific baselines. Moreover, MIO
+demonstrates advanced capabilities inherent to its any-to-any feature, such as
+interleaved video-text generation, chain-of-visual-thought reasoning, visual
+guideline generation, instructional image editing, etc.",2024-09-26
+"Copying style, Extracting value: Illustrators' Perception of AI Style
+  Transfer and its Impact on Creative Labor",2024-09-25 22:45:08+00:00,http://arxiv.org/abs/2409.17410v1,"Julien Porquet, Sitong Wang, Lydia B. Chilton",cs.HC,image2text,"Generative text-to-image models are disrupting the lives of creative
+professionals. Specifically, illustrators are threatened by models that claim
+to extract and reproduce their style. Yet, research on style transfer has
+rarely focused on their perspectives. We provided four illustrators with a
+model fine-tuned to their style and conducted semi-structured interviews about
+the model's successes, limitations, and potential uses. Evaluating their
+output, artists reported that style transfer successfully copies aesthetic
+fragments but is limited by content-style disentanglement and lacks the crucial
+emergent quality of their style. They also deemed the others' copies more
+successful. Understanding the results of style transfer as ""boundary objects,""
+we analyze how they can simultaneously be considered unsuccessful by artists
+and poised to replace their work by others. We connect our findings to critical
+HCI frameworks, demonstrating that style transfer, rather than merely a
+Creativity Support Tool, should also be understood as a supply chain
+optimization one.",2024-09-25
+"Brotherhood at WMT 2024: Leveraging LLM-Generated Contextual
+  Conversations for Cross-Lingual Image Captioning",2024-09-23 14:29:46+00:00,http://arxiv.org/abs/2409.15052v1,"Siddharth Betala, Ishan Chokshi","cs.CL, cs.AI",image2text,"In this paper, we describe our system under the team name Brotherhood for the
+English-to-Lowres Multi-Modal Translation Task. We participate in the
+multi-modal translation tasks for English-Hindi, English-Hausa,
+English-Bengali, and English-Malayalam language pairs. We present a method
+leveraging multi-modal Large Language Models (LLMs), specifically GPT-4o and
+Claude 3.5 Sonnet, to enhance cross-lingual image captioning without
+traditional training or fine-tuning. Our approach utilizes instruction-tuned
+prompting to generate rich, contextual conversations about cropped images,
+using their English captions as additional context. These synthetic
+conversations are then translated into the target languages. Finally, we employ
+a weighted prompting strategy, balancing the original English caption with the
+translated conversation to generate captions in the target language. This
+method achieved competitive results, scoring 37.90 BLEU on the English-Hindi
+Challenge Set and ranking first and second for English-Hausa on the Challenge
+and Evaluation Leaderboards, respectively. We conduct additional experiments on
+a subset of 250 images, exploring the trade-offs between BLEU scores and
+semantic similarity across various weighting schemes.",2024-09-23
+Recommendation with Generative Models,2024-09-18 18:29:15+00:00,http://arxiv.org/abs/2409.15173v1,"Yashar Deldjoo, Zhankui He, Julian McAuley, Anton Korikov, Scott Sanner, Arnau Ramisa, Rene Vidal, Maheswaran Sathiamoorthy, Atoosa Kasrizadeh, Silvia Milano, Francesco Ricci",cs.IR,image2text,"Generative models are a class of AI models capable of creating new instances
+of data by learning and sampling from their statistical distributions. In
+recent years, these models have gained prominence in machine learning due to
+the development of approaches such as generative adversarial networks (GANs),
+variational autoencoders (VAEs), and transformer-based architectures such as
+GPT. These models have applications across various domains, such as image
+generation, text synthesis, and music composition. In recommender systems,
+generative models, referred to as Gen-RecSys, improve the accuracy and
+diversity of recommendations by generating structured outputs, text-based
+interactions, and multimedia content. By leveraging these capabilities,
+Gen-RecSys can produce more personalized, engaging, and dynamic user
+experiences, expanding the role of AI in eCommerce, media, and beyond.
+  Our book goes beyond existing literature by offering a comprehensive
+understanding of generative models and their applications, with a special focus
+on deep generative models (DGMs) and their classification. We introduce a
+taxonomy that categorizes DGMs into three types: ID-driven models, large
+language models (LLMs), and multimodal models. Each category addresses unique
+technical and architectural advancements within its respective research area.
+This taxonomy allows researchers to easily navigate developments in Gen-RecSys
+across domains such as conversational AI and multimodal content generation.
+Additionally, we examine the impact and potential risks of generative models,
+emphasizing the importance of robust evaluation frameworks.",2024-09-18
+"Playground v3: Improving Text-to-Image Alignment with Deep-Fusion Large
+  Language Models",2024-09-16 19:52:24+00:00,http://arxiv.org/abs/2409.10695v1,"Bingchen Liu, Ehsan Akhgari, Alexander Visheratin, Aleks Kamko, Linmiao Xu, Shivam Shrirao, Joao Souza, Suhail Doshi, Daiqing Li","cs.CV, cs.AI, cs.GR",image2text,"We introduce Playground v3 (PGv3), our latest text-to-image model that
+achieves state-of-the-art (SoTA) performance across multiple testing
+benchmarks, excels in graphic design abilities and introduces new capabilities.
+Unlike traditional text-to-image generative models that rely on pre-trained
+language models like T5 or CLIP text encoders, our approach fully integrates
+Large Language Models (LLMs) with a novel structure that leverages text
+conditions exclusively from a decoder-only LLM. Additionally, to enhance image
+captioning quality-we developed an in-house captioner, capable of generating
+captions with varying levels of detail, enriching the diversity of text
+structures. We also introduce a new benchmark CapsBench to evaluate detailed
+image captioning performance. Experimental results demonstrate that PGv3 excels
+in text prompt adherence, complex reasoning, and accurate text rendering. User
+preference studies indicate the super-human graphic design ability of our model
+for common design applications, such as stickers, posters, and logo designs.
+Furthermore, PGv3 introduces new capabilities, including precise RGB color
+control and robust multilingual understanding.",2024-09-16
 Spatio-Temporal Context Prompting for Zero-Shot Action Detection,2024-08-28 17:59:05+00:00,http://arxiv.org/abs/2408.15996v2,"Wei-Jhe Huang, Min-Hung Chen, Shang-Hong Lai","cs.CV, cs.AI",image2text,"Spatio-temporal action detection encompasses the tasks of localizing and
 classifying individual actions within a video. Recent works aim to enhance this
 process by incorporating interaction modeling, which captures the relationship

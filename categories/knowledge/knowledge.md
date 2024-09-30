@@ -7,10 +7,21 @@ sidebar:
 ---
 
 
-*written on 2024-08-31*
+*written on 2024-09-30*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Enhancing elusive clues in knowledge learning by contrasting attention  of language models](http://arxiv.org/abs/2409.17954v1) | Jian Gao, Xiao Zhang, Ji Wu, Miao Li | cs.AI | 2024-09-26 |
+| [Zero- and Few-shot Named Entity Recognition and Text Expansion in  Medication Prescriptions using ChatGPT](http://arxiv.org/abs/2409.17683v1) | Natthanaphop Isaradech, Andrea Riedel, Wachiranun Sirikul, Markus Kreuzthaler, Stefan Schulz | cs.CL, cs.AI | 2024-09-26 |
+| [Zero-Shot Detection of LLM-Generated Text using Token Cohesiveness](http://arxiv.org/abs/2409.16914v1) | Shixuan Ma, Quan Wang | cs.CL | 2024-09-25 |
+| [Probing Omissions and Distortions in Transformer-based RDF-to-Text  Models](http://arxiv.org/abs/2409.16707v1) | Juliette Faille, Albert Gatt, Claire Gardent | cs.CL | 2024-09-25 |
+| [ESPERANTO: Evaluating Synthesized Phrases to Enhance Robustness in AI  Detection for Text Origination](http://arxiv.org/abs/2409.14285v1) | Navid Ayoobi, Lily Knab, Wen Cheng, David Pantoja, Hamidreza Alikhani, Sylvain Flamant, Jin Kim, Arjun Mukherjee | cs.CL, cs.AI | 2024-09-22 |
+| [Beyond Accuracy Optimization: Computer Vision Losses for Large Language  Model Fine-Tuning](http://arxiv.org/abs/2409.13641v1) | Daniele Rege Cambrin, Giuseppe Gallipoli, Irene Benedetto, Luca Cagliero, Paolo Garza | cs.CL, cs.CV | 2024-09-20 |
+| [Leveraging Knowledge Graphs and LLMs to Support and Monitor Legislative  Systems](http://arxiv.org/abs/2409.13252v1) | Andrea Colombo | cs.DB, cs.AI | 2024-09-20 |
+| [A Multiple-Fill-in-the-Blank Exam Approach for Enhancing Zero-Resource  Hallucination Detection in Large Language Models](http://arxiv.org/abs/2409.17173v1) | Satoshi Munakata, Taku Fukui, Takao Mohri | cs.CL, cs.AI, 68T50, F.2.2; I.2.7 | 2024-09-20 |
+| [THaMES: An End-to-End Tool for Hallucination Mitigation and Evaluation  in Large Language Models](http://arxiv.org/abs/2409.11353v1) | Mengfei Liang, Archish Arun, Zekun Wu, Cristian Munoz, Jonathan Lutch, Emre Kazim, Adriano Koshiyama, Philip Treleaven | cs.CL | 2024-09-17 |
+| [Zero-resource Hallucination Detection for Text Generation via  Graph-based Contextual Knowledge Triples Modeling](http://arxiv.org/abs/2409.11283v3) | Xinyue Fang, Zhen Huang, Zhiliang Tian, Minghui Fang, Ziyi Pan, Quntian Fang, Zhihua Wen, Hengyue Pan, Dongsheng Li | cs.CL, cs.AI | 2024-09-17 |
+| [MGSA: Multi-Granularity Graph Structure Attention for Knowledge  Graph-to-Text Generation](http://arxiv.org/abs/2409.10294v2) | Shanshan Wang, Chun Zhang, Ning Zhang | cs.CL, cs.AI | 2024-09-16 |
 | [Spatio-Temporal Context Prompting for Zero-Shot Action Detection](http://arxiv.org/abs/2408.15996v2) | Wei-Jhe Huang, Min-Hung Chen, Shang-Hong Lai | cs.CV, cs.AI | 2024-08-28 |
 | [DIAGen: Diverse Image Augmentation with Generative Models](http://arxiv.org/abs/2408.14584v1) | Tobias Lingenberg, Markus Reuter, Gopika Sudhakaran, Dominik Gojny, Stefan Roth, Simone Schaub-Meyer | cs.CV, cs.AI | 2024-08-26 |
 | [Biomedical Large Languages Models Seem not to be Superior to Generalist  Models on Unseen Medical Data](http://arxiv.org/abs/2408.13833v1) | Felix J. Dorfner, Amin Dada, Felix Busch, Marcus R. Makowski, Tianyu Han, Daniel Truhn, Jens Kleesiek, Madhumita Sushil, Jacqueline Lammert, Lisa C. Adams, Keno K. Bressem | cs.CL | 2024-08-25 |

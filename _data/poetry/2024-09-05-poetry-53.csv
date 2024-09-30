@@ -1,4 +1,27 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+LLM-based multi-agent poetry generation in non-cooperative environments,2024-09-05 16:12:29+00:00,http://arxiv.org/abs/2409.03659v2,"Ran Zhang, Steffen Eger",cs.CL,poetry,"Despite substantial progress of large language models (LLMs) for automatic
+poetry generation, the generated poetry lacks diversity while the training
+process differs greatly from human learning. Under the rationale that the
+learning process of the poetry generation systems should be more human-like and
+their output more diverse and novel, we introduce a framework based on social
+learning where we emphasize non-cooperative interactions besides cooperative
+interactions to encourage diversity. Our experiments are the first attempt at
+LLM-based multi-agent systems in non-cooperative environments for poetry
+generation employing both TRAINING-BASED agents (GPT-2) and PROMPTING-BASED
+agents (GPT-3 and GPT-4). Our evaluation based on 96k generated poems shows
+that our framework benefits the poetry generation process for TRAINING-BASED
+agents resulting in 1) a 3.0-3.7 percentage point (pp) increase in diversity
+and a 5.6-11.3 pp increase in novelty according to distinct and novel n-grams.
+The generated poetry from TRAINING-BASED agents also exhibits group divergence
+in terms of lexicons, styles and semantics. PROMPTING-BASED agents in our
+framework also benefit from non-cooperative environments and a more diverse
+ensemble of models with non-homogeneous agents has the potential to further
+enhance diversity, with an increase of 7.0-17.5 pp according to our
+experiments. However, PROMPTING-BASED agents show a decrease in lexical
+diversity over time and do not exhibit the group-based divergence intended in
+the social network. Our paper argues for a paradigm shift in creative tasks
+such as automatic poetry generation to include social learning processes (via
+LLM-based agent modeling) similar to human interaction.",2024-09-05
 Rhyme-aware Chinese lyric generator based on GPT,2024-08-19 16:17:20+00:00,http://arxiv.org/abs/2408.10130v1,"Yixiao Yuan, Yangchen Huang, Yu Ma, Xinjin Li, Zhenglin Li, Yiming Shi, Huapeng Zhou","cs.CL, cs.AI",poetry,"Neural language representation models such as GPT, pre-trained on large-scale
 corpora, can effectively capture rich semantic patterns from plain text and be
 fine-tuned to consistently improve natural language generation performance.

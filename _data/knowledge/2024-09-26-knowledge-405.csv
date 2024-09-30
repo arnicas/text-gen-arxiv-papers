@@ -1,4 +1,222 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Enhancing elusive clues in knowledge learning by contrasting attention
+  of language models",2024-09-26 15:30:54+00:00,http://arxiv.org/abs/2409.17954v1,"Jian Gao, Xiao Zhang, Ji Wu, Miao Li",cs.AI,knowledge,"Causal language models acquire vast amount of knowledge from general text
+corpus during pretraining, but the efficiency of knowledge learning is known to
+be unsatisfactory, especially when learning from knowledge-dense and
+small-sized corpora. The deficiency can come from long-distance dependencies
+which are hard to capture by language models, and overfitting to co-occurrence
+patterns and distracting clues in the training text. To address these issues,
+the paper proposes a method to enhance knowledge learning during language model
+pretraining, by enhancing elusive but important clues in text discovered by the
+language model themselves. We found that larger language models pay more
+attention to non-obvious but important clues, which are often overlooked by
+smaller language models. Therefore, we can identify these clues by contrasting
+the attention weights of large and small language models. We use the identified
+clues as a guide to perform token-dropout data augmentation on the training
+text, and observed a significant boost in both small and large models'
+performance in fact memorization. This shows that the behavior contrast between
+more and less-performant language models contains important clues for knowledge
+learning, and it can be ``amplified"" for a straight-forward improvement in
+knowledge learning efficiency.",2024-09-26
+"Zero- and Few-shot Named Entity Recognition and Text Expansion in
+  Medication Prescriptions using ChatGPT",2024-09-26 09:49:27+00:00,http://arxiv.org/abs/2409.17683v1,"Natthanaphop Isaradech, Andrea Riedel, Wachiranun Sirikul, Markus Kreuzthaler, Stefan Schulz","cs.CL, cs.AI",knowledge,"Introduction: Medication prescriptions are often in free text and include a
+mix of two languages, local brand names, and a wide range of idiosyncratic
+formats and abbreviations. Large language models (LLMs) have shown promising
+ability to generate text in response to input prompts. We use ChatGPT 3.5 to
+automatically structure and expand medication statements in discharge summaries
+and thus make them easier to interpret for people and machines. Methods:
+Named-entity Recognition (NER) and Text Expansion (EX) are used in a zero- and
+few-shot setting with different prompt strategies. 100 medication statements
+were manually annotated and curated. NER performance was measured by using
+strict and partial matching. For the task EX, two experts interpreted the
+results by assessing semantic equivalence between original and expanded
+statements. The model performance was measured by precision, recall, and F1
+score. Results: For NER, the best-performing prompt reached an average F1 score
+of 0.94 in the test set. For EX, the few-shot prompt showed superior
+performance among other prompts, with an average F1 score of 0.87. Conclusion:
+Our study demonstrates good performance for NER and EX tasks in free-text
+medication statements using ChatGPT. Compared to a zero-shot baseline, a
+few-shot approach prevented the system from hallucinating, which would be
+unacceptable when processing safety-relevant medication data.",2024-09-26
+Zero-Shot Detection of LLM-Generated Text using Token Cohesiveness,2024-09-25 13:18:57+00:00,http://arxiv.org/abs/2409.16914v1,"Shixuan Ma, Quan Wang",cs.CL,knowledge,"The increasing capability and widespread usage of large language models
+(LLMs) highlight the desirability of automatic detection of LLM-generated text.
+Zero-shot detectors, due to their training-free nature, have received
+considerable attention and notable success. In this paper, we identify a new
+feature, token cohesiveness, that is useful for zero-shot detection, and we
+demonstrate that LLM-generated text tends to exhibit higher token cohesiveness
+than human-written text. Based on this observation, we devise TOCSIN, a generic
+dual-channel detection paradigm that uses token cohesiveness as a plug-and-play
+module to improve existing zero-shot detectors. To calculate token
+cohesiveness, TOCSIN only requires a few rounds of random token deletion and
+semantic difference measurement, making it particularly suitable for a
+practical black-box setting where the source model used for generation is not
+accessible. Extensive experiments with four state-of-the-art base detectors on
+various datasets, source models, and evaluation settings demonstrate the
+effectiveness and generality of the proposed approach. Code available at:
+\url{https://github.com/Shixuan-Ma/TOCSIN}.",2024-09-25
+"Probing Omissions and Distortions in Transformer-based RDF-to-Text
+  Models",2024-09-25 07:54:16+00:00,http://arxiv.org/abs/2409.16707v1,"Juliette Faille, Albert Gatt, Claire Gardent",cs.CL,knowledge,"In Natural Language Generation (NLG), important information is sometimes
+omitted in the output text. To better understand and analyse how this type of
+mistake arises, we focus on RDF-to-Text generation and explore two methods of
+probing omissions in the encoder output of BART (Lewis et al, 2020) and of T5
+(Raffel et al, 2019): (i) a novel parameter-free probing method based on the
+computation of cosine similarity between embeddings of RDF graphs and of RDF
+graphs in which we removed some entities and (ii) a parametric probe which
+performs binary classification on the encoder embeddings to detect omitted
+entities. We also extend our analysis to distorted entities, i.e. entities that
+are not fully correctly mentioned in the generated text (e.g. misspelling of
+entity, wrong units of measurement). We found that both omitted and distorted
+entities can be probed in the encoder's output embeddings. This suggests that
+the encoder emits a weaker signal for these entities and therefore is
+responsible for some loss of information. This also shows that probing methods
+can be used to detect mistakes in the output of NLG models.",2024-09-25
+"ESPERANTO: Evaluating Synthesized Phrases to Enhance Robustness in AI
+  Detection for Text Origination",2024-09-22 01:13:22+00:00,http://arxiv.org/abs/2409.14285v1,"Navid Ayoobi, Lily Knab, Wen Cheng, David Pantoja, Hamidreza Alikhani, Sylvain Flamant, Jin Kim, Arjun Mukherjee","cs.CL, cs.AI",knowledge,"While large language models (LLMs) exhibit significant utility across various
+domains, they simultaneously are susceptible to exploitation for unethical
+purposes, including academic misconduct and dissemination of misinformation.
+Consequently, AI-generated text detection systems have emerged as a
+countermeasure. However, these detection mechanisms demonstrate vulnerability
+to evasion techniques and lack robustness against textual manipulations. This
+paper introduces back-translation as a novel technique for evading detection,
+underscoring the need to enhance the robustness of current detection systems.
+The proposed method involves translating AI-generated text through multiple
+languages before back-translating to English. We present a model that combines
+these back-translated texts to produce a manipulated version of the original
+AI-generated text. Our findings demonstrate that the manipulated text retains
+the original semantics while significantly reducing the true positive rate
+(TPR) of existing detection methods. We evaluate this technique on nine AI
+detectors, including six open-source and three proprietary systems, revealing
+their susceptibility to back-translation manipulation. In response to the
+identified shortcomings of existing AI text detectors, we present a
+countermeasure to improve the robustness against this form of manipulation. Our
+results indicate that the TPR of the proposed method declines by only 1.85%
+after back-translation manipulation. Furthermore, we build a large dataset of
+720k texts using eight different LLMs. Our dataset contains both human-authored
+and LLM-generated texts in various domains and writing styles to assess the
+performance of our method and existing detectors. This dataset is publicly
+shared for the benefit of the research community.",2024-09-22
+"Beyond Accuracy Optimization: Computer Vision Losses for Large Language
+  Model Fine-Tuning",2024-09-20 16:46:17+00:00,http://arxiv.org/abs/2409.13641v1,"Daniele Rege Cambrin, Giuseppe Gallipoli, Irene Benedetto, Luca Cagliero, Paolo Garza","cs.CL, cs.CV",knowledge,"Large Language Models (LLMs) have demonstrated impressive performance across
+various tasks. However, current training approaches combine standard
+cross-entropy loss with extensive data, human feedback, or ad hoc methods to
+enhance performance. These solutions are often not scalable or feasible due to
+their associated costs, complexity, or resource requirements. This study
+investigates the use of established semantic segmentation loss functions in
+natural language generation to create a versatile, practical, and scalable
+solution for fine-tuning different architectures. We evaluate their
+effectiveness in solving Math Word Problems and question answering across
+different models of varying sizes. For the analyzed tasks, we found that the
+traditional Cross-Entropy loss represents a sub-optimal choice, while models
+trained to minimize alternative (task-dependent) losses, such as Focal or
+Lov\'asz, achieve a mean improvement of +42% on exact match without requiring
+additional data or human feedback. These findings suggest a promising pathway
+for more efficient and accessible training processes.",2024-09-20
+"Leveraging Knowledge Graphs and LLMs to Support and Monitor Legislative
+  Systems",2024-09-20 06:21:03+00:00,http://arxiv.org/abs/2409.13252v1,Andrea Colombo,"cs.DB, cs.AI",knowledge,"Knowledge Graphs (KGs) have been used to organize large datasets into
+structured, interconnected information, enhancing data analytics across various
+fields. In the legislative context, one potential natural application of KGs is
+modeling the intricate set of interconnections that link laws and their
+articles with each other and the broader legislative context.
+  At the same time, the rise of large language models (LLMs) such as GPT has
+opened new opportunities in legal applications, such as text generation and
+document drafting. Despite their potential, the use of LLMs in legislative
+contexts is critical since it requires the absence of hallucinations and
+reliance on up-to-date information, as new laws are published on a daily basis.
+  This work investigates how Legislative Knowledge Graphs and LLMs can
+synergize and support legislative processes. We address three key questions:
+the benefits of using KGs for legislative systems, how LLM can support
+legislative activities by ensuring an accurate output, and how we can allow
+non-technical users to use such technologies in their activities. To this aim,
+we develop Legis AI Platform, an interactive platform focused on Italian
+legislation that enhances the possibility of conducting legislative analysis
+and that aims to support lawmaking activities.",2024-09-20
+"A Multiple-Fill-in-the-Blank Exam Approach for Enhancing Zero-Resource
+  Hallucination Detection in Large Language Models",2024-09-20 04:34:30+00:00,http://arxiv.org/abs/2409.17173v1,"Satoshi Munakata, Taku Fukui, Takao Mohri","cs.CL, cs.AI, 68T50, F.2.2; I.2.7",knowledge,"Large language models (LLMs) often fabricate a hallucinatory text. Several
+methods have been developed to detect such text by semantically comparing it
+with the multiple versions probabilistically regenerated. However, a
+significant issue is that if the storyline of each regenerated text changes,
+the generated texts become incomparable, which worsen detection accuracy. In
+this paper, we propose a hallucination detection method that incorporates a
+multiple-fill-in-the-blank exam approach to address this storyline-changing
+issue. First, our method creates a multiple-fill-in-the-blank exam by masking
+multiple objects from the original text. Second, prompts an LLM to repeatedly
+answer this exam. This approach ensures that the storylines of the exam answers
+align with the original ones. Finally, quantifies the degree of hallucination
+for each original sentence by scoring the exam answers, considering the
+potential for \emph{hallucination snowballing} within the original text itself.
+Experimental results show that our method alone not only outperforms existing
+methods, but also achieves clearer state-of-the-art performance in the
+ensembles with existing methods.",2024-09-20
+"THaMES: An End-to-End Tool for Hallucination Mitigation and Evaluation
+  in Large Language Models",2024-09-17 16:55:25+00:00,http://arxiv.org/abs/2409.11353v1,"Mengfei Liang, Archish Arun, Zekun Wu, Cristian Munoz, Jonathan Lutch, Emre Kazim, Adriano Koshiyama, Philip Treleaven",cs.CL,knowledge,"Hallucination, the generation of factually incorrect content, is a growing
+challenge in Large Language Models (LLMs). Existing detection and mitigation
+methods are often isolated and insufficient for domain-specific needs, lacking
+a standardized pipeline. This paper introduces THaMES (Tool for Hallucination
+Mitigations and EvaluationS), an integrated framework and library addressing
+this gap. THaMES offers an end-to-end solution for evaluating and mitigating
+hallucinations in LLMs, featuring automated test set generation, multifaceted
+benchmarking, and adaptable mitigation strategies. It automates test set
+creation from any corpus, ensuring high data quality, diversity, and
+cost-efficiency through techniques like batch processing, weighted sampling,
+and counterfactual validation. THaMES assesses a model's ability to detect and
+reduce hallucinations across various tasks, including text generation and
+binary classification, applying optimal mitigation strategies like In-Context
+Learning (ICL), Retrieval Augmented Generation (RAG), and Parameter-Efficient
+Fine-tuning (PEFT). Evaluations of state-of-the-art LLMs using a knowledge base
+of academic papers, political news, and Wikipedia reveal that commercial models
+like GPT-4o benefit more from RAG than ICL, while open-weight models like
+Llama-3.1-8B-Instruct and Mistral-Nemo gain more from ICL. Additionally, PEFT
+significantly enhances the performance of Llama-3.1-8B-Instruct in both
+evaluation tasks.",2024-09-17
+"Zero-resource Hallucination Detection for Text Generation via
+  Graph-based Contextual Knowledge Triples Modeling",2024-09-17 15:38:36+00:00,http://arxiv.org/abs/2409.11283v3,"Xinyue Fang, Zhen Huang, Zhiliang Tian, Minghui Fang, Ziyi Pan, Quntian Fang, Zhihua Wen, Hengyue Pan, Dongsheng Li","cs.CL, cs.AI",knowledge,"LLMs obtain remarkable performance but suffer from hallucinations. Most
+research on detecting hallucination focuses on the questions with short and
+concrete correct answers that are easy to check the faithfulness. Hallucination
+detections for text generation with open-ended answers are more challenging.
+Some researchers use external knowledge to detect hallucinations in generated
+texts, but external resources for specific scenarios are hard to access. Recent
+studies on detecting hallucinations in long text without external resources
+conduct consistency comparison among multiple sampled outputs. To handle long
+texts, researchers split long texts into multiple facts and individually
+compare the consistency of each pairs of facts. However, these methods (1)
+hardly achieve alignment among multiple facts; (2) overlook dependencies
+between multiple contextual facts. In this paper, we propose a graph-based
+context-aware (GCA) hallucination detection for text generations, which aligns
+knowledge facts and considers the dependencies between contextual knowledge
+triples in consistency comparison. Particularly, to align multiple facts, we
+conduct a triple-oriented response segmentation to extract multiple knowledge
+triples. To model dependencies among contextual knowledge triple (facts), we
+construct contextual triple into a graph and enhance triples' interactions via
+message passing and aggregating via RGCN. To avoid the omission of knowledge
+triples in long text, we conduct a LLM-based reverse verification via
+reconstructing the knowledge triples. Experiments show that our model enhances
+hallucination detection and excels all baselines.",2024-09-17
+"MGSA: Multi-Granularity Graph Structure Attention for Knowledge
+  Graph-to-Text Generation",2024-09-16 14:01:03+00:00,http://arxiv.org/abs/2409.10294v2,"Shanshan Wang, Chun Zhang, Ning Zhang","cs.CL, cs.AI",knowledge,"The Knowledge Graph-to-Text Generation task aims to convert structured
+knowledge graphs into coherent and human-readable natural language text. Recent
+efforts in this field have focused on enhancing pre-trained language models
+(PLMs) by incorporating graph structure information to capture the intricate
+structure details of knowledge graphs. However, most of these approaches tend
+to capture only single-granularity structure information, concentrating either
+on the relationships between entities within the original graph or on the
+relationships between words within the same entity or across different
+entities. This narrow focus results in a significant limitation: models that
+concentrate solely on entity-level structure fail to capture the nuanced
+semantic relationships between words, while those that focus only on word-level
+structure overlook the broader relationships between original entire entities.
+To overcome these limitations, this paper introduces the Multi-granularity
+Graph Structure Attention (MGSA), which is based on PLMs. The encoder of the
+model architecture features an entity-level structure encoding module, a
+word-level structure encoding module, and an aggregation module that
+synthesizes information from both structure. This multi-granularity structure
+encoding approach allows the model to simultaneously capture both entity-level
+and word-level structure information, providing a more comprehensive
+understanding of the knowledge graph's structure information, thereby
+significantly improving the quality of the generated text. We conducted
+extensive evaluations of the MGSA model using two widely recognized KG-to-Text
+Generation benchmark datasets, WebNLG and EventNarrative, where it consistently
+outperformed models that rely solely on single-granularity structure
+information, demonstrating the effectiveness of our approach.",2024-09-16
 Spatio-Temporal Context Prompting for Zero-Shot Action Detection,2024-08-28 17:59:05+00:00,http://arxiv.org/abs/2408.15996v2,"Wei-Jhe Huang, Min-Hung Chen, Shang-Hong Lai","cs.CV, cs.AI",knowledge,"Spatio-temporal action detection encompasses the tasks of localizing and
 classifying individual actions within a video. Recent works aim to enhance this
 process by incorporating interaction modeling, which captures the relationship

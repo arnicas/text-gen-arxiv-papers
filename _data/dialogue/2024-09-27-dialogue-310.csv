@@ -1,4 +1,247 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Experimental Evaluation of Machine Learning Models for Goal-oriented
+  Customer Service Chatbot with Pipeline Architecture",2024-09-27 09:11:52+00:00,http://arxiv.org/abs/2409.18568v1,"Nurul Ain Nabilah Mohd Isa, Siti Nuraishah Agos Jawaddi, Azlan Ismail","cs.AI, cs.LG, cs.NE",dialogue,"Integrating machine learning (ML) into customer service chatbots enhances
+their ability to understand and respond to user queries, ultimately improving
+service performance. However, they may appear artificial to some users and
+affecting customer experience. Hence, meticulous evaluation of ML models for
+each pipeline component is crucial for optimizing performance, though
+differences in functionalities can lead to unfair comparisons. In this paper,
+we present a tailored experimental evaluation approach for goal-oriented
+customer service chatbots with pipeline architecture, focusing on three key
+components: Natural Language Understanding (NLU), dialogue management (DM), and
+Natural Language Generation (NLG). Our methodology emphasizes individual
+assessment to determine optimal ML models. Specifically, we focus on optimizing
+hyperparameters and evaluating candidate models for NLU (utilizing BERT and
+LSTM), DM (employing DQN and DDQN), and NLG (leveraging GPT-2 and DialoGPT).
+The results show that for the NLU component, BERT excelled in intent detection
+whereas LSTM was superior for slot filling. For the DM component, the DDQN
+model outperformed DQN by achieving fewer turns, higher rewards, as well as
+greater success rates. For NLG, the large language model GPT-2 surpassed
+DialoGPT in BLEU, METEOR, and ROUGE metrics. These findings aim to provide a
+benchmark for future research in developing and optimizing customer service
+chatbots, offering valuable insights into model performance and optimal
+hyperparameters.",2024-09-27
+AXCEL: Automated eXplainable Consistency Evaluation using LLMs,2024-09-25 14:45:52+00:00,http://arxiv.org/abs/2409.16984v1,"P Aditya Sreekar, Sahil Verma, Suransh Chopra, Sarik Ghazarian, Abhishek Persad, Narayanan Sadagopan","cs.AI, cs.CL",dialogue,"Large Language Models (LLMs) are widely used in both industry and academia
+for various tasks, yet evaluating the consistency of generated text responses
+continues to be a challenge. Traditional metrics like ROUGE and BLEU show a
+weak correlation with human judgment. More sophisticated metrics using Natural
+Language Inference (NLI) have shown improved correlations but are complex to
+implement, require domain-specific training due to poor cross-domain
+generalization, and lack explainability. More recently, prompt-based metrics
+using LLMs as evaluators have emerged; while they are easier to implement, they
+still lack explainability and depend on task-specific prompts, which limits
+their generalizability. This work introduces Automated eXplainable Consistency
+Evaluation using LLMs (AXCEL), a prompt-based consistency metric which offers
+explanations for the consistency scores by providing detailed reasoning and
+pinpointing inconsistent text spans. AXCEL is also a generalizable metric which
+can be adopted to multiple tasks without changing the prompt. AXCEL outperforms
+both non-prompt and prompt-based state-of-the-art (SOTA) metrics in detecting
+inconsistencies across summarization by 8.7%, free text generation by 6.2%, and
+data-to-text conversion tasks by 29.4%. We also evaluate the influence of
+underlying LLMs on prompt based metric performance and recalibrate the SOTA
+prompt-based metrics with the latest LLMs for fair comparison. Further, we show
+that AXCEL demonstrates strong performance using open source LLMs.",2024-09-25
+HLB: Benchmarking LLMs' Humanlikeness in Language Use,2024-09-24 09:02:28+00:00,http://arxiv.org/abs/2409.15890v1,"Xufeng Duan, Bei Xiao, Xuemei Tang, Zhenguang G. Cai",cs.CL,dialogue,"As synthetic data becomes increasingly prevalent in training language models,
+particularly through generated dialogue, concerns have emerged that these
+models may deviate from authentic human language patterns, potentially losing
+the richness and creativity inherent in human communication. This highlights
+the critical need to assess the humanlikeness of language models in real-world
+language use. In this paper, we present a comprehensive humanlikeness benchmark
+(HLB) evaluating 20 large language models (LLMs) using 10 psycholinguistic
+experiments designed to probe core linguistic aspects, including sound, word,
+syntax, semantics, and discourse (see
+https://huggingface.co/spaces/XufengDuan/HumanLikeness). To anchor these
+comparisons, we collected responses from over 2,000 human participants and
+compared them to outputs from the LLMs in these experiments.
+  For rigorous evaluation, we developed a coding algorithm that accurately
+identified language use patterns, enabling the extraction of response
+distributions for each task. By comparing the response distributions between
+human participants and LLMs, we quantified humanlikeness through distributional
+similarity. Our results reveal fine-grained differences in how well LLMs
+replicate human responses across various linguistic levels. Importantly, we
+found that improvements in other performance metrics did not necessarily lead
+to greater humanlikeness, and in some cases, even resulted in a decline. By
+introducing psycholinguistic methods to model evaluation, this benchmark offers
+the first framework for systematically assessing the humanlikeness of LLMs in
+language use.",2024-09-24
+"The Ability of Large Language Models to Evaluate Constraint-satisfaction
+  in Agent Responses to Open-ended Requests",2024-09-22 09:27:42+00:00,http://arxiv.org/abs/2409.14371v1,"Lior Madmoni, Amir Zait, Ilia Labzovsky, Danny Karmon",cs.CL,dialogue,"Generative AI agents are often expected to respond to complex user requests
+that have No One Right Answer (NORA), e.g., ""design a vegetarian meal plan
+below 1800 calories"". Such requests may entail a set of constraints that the
+agent should adhere to. To successfully develop agents for NORA scenarios, an
+accurate automatic evaluation framework is essential, and specifically - one
+capable of validating the satisfaction of constraints in the agent's response.
+Recently, large language models (LLMs) have been adopted as versatile
+evaluators for many NORA tasks, but their ability to evaluate
+constraint-satisfaction in generated text remains unclear. To study this, we
+develop and release a novel Arithmetic Constraint-Satisfaction (ACS)
+benchmarking dataset. The dataset consists of complex user requests with
+corresponding constraints, agent responses and human labels indicating each
+constraint's satisfaction level in the response. A unique property of this
+dataset is that validating many of its constraints requires reviewing the
+response as a whole (in contrast to many other benchmarks that require the
+validation of a single independent item). Moreover, it assesses LLMs in
+performing reasoning, in-context data extraction, arithmetic calculations, and
+counting. We then benchmark both open and proprietary LLMs on evaluating
+constraint-satisfaction, and show that most models still have a significant
+headroom for improvement, and that errors primarily stem from reasoning issues.
+In addition, most models exhibit a skewed constraint-satisfaction prediction
+pattern, with higher accuracy where the ground-truth label is ""satisfied"".
+Lastly, few-shot prompting for our task proved to be rather challenging, since
+many of the studied models showed a degradation in performance when it was
+introduced.",2024-09-22
+Recommendation with Generative Models,2024-09-18 18:29:15+00:00,http://arxiv.org/abs/2409.15173v1,"Yashar Deldjoo, Zhankui He, Julian McAuley, Anton Korikov, Scott Sanner, Arnau Ramisa, Rene Vidal, Maheswaran Sathiamoorthy, Atoosa Kasrizadeh, Silvia Milano, Francesco Ricci",cs.IR,dialogue,"Generative models are a class of AI models capable of creating new instances
+of data by learning and sampling from their statistical distributions. In
+recent years, these models have gained prominence in machine learning due to
+the development of approaches such as generative adversarial networks (GANs),
+variational autoencoders (VAEs), and transformer-based architectures such as
+GPT. These models have applications across various domains, such as image
+generation, text synthesis, and music composition. In recommender systems,
+generative models, referred to as Gen-RecSys, improve the accuracy and
+diversity of recommendations by generating structured outputs, text-based
+interactions, and multimedia content. By leveraging these capabilities,
+Gen-RecSys can produce more personalized, engaging, and dynamic user
+experiences, expanding the role of AI in eCommerce, media, and beyond.
+  Our book goes beyond existing literature by offering a comprehensive
+understanding of generative models and their applications, with a special focus
+on deep generative models (DGMs) and their classification. We introduce a
+taxonomy that categorizes DGMs into three types: ID-driven models, large
+language models (LLMs), and multimodal models. Each category addresses unique
+technical and architectural advancements within its respective research area.
+This taxonomy allows researchers to easily navigate developments in Gen-RecSys
+across domains such as conversational AI and multimodal content generation.
+Additionally, we examine the impact and potential risks of generative models,
+emphasizing the importance of robust evaluation frameworks.",2024-09-18
+Constructing a Singing Style Caption Dataset,2024-09-15 21:19:24+00:00,http://arxiv.org/abs/2409.09866v1,"Hyunjong Ok, Jaeho Lee","cs.CL, cs.AI, cs.LG, cs.SD, eess.AS",dialogue,"Singing voice synthesis and conversion have emerged as significant subdomains
+of voice generation, leading to much demands on prompt-conditioned generation.
+Unlike common voice data, generating a singing voice requires an understanding
+of various associated vocal and musical characteristics, such as the vocal tone
+of the singer or emotional expressions. However, existing open-source
+audio-text datasets for voice generation tend to capture only a very limited
+range of attributes, often missing musical characteristics of the audio. To
+fill this gap, we introduce S2Cap, an audio-text pair dataset with a diverse
+set of attributes. S2Cap consists of pairs of textual prompts and music audio
+samples with a wide range of vocal and musical attributes, including pitch,
+volume, tempo, mood, singer's gender and age, and musical genre and emotional
+expression. Utilizing S2Cap, we suggest an effective novel baseline algorithm
+for singing style captioning. Singing style captioning is a relative task to
+voice generation that generates text descriptions of vocal characteristics,
+which we first suggested. First, to mitigate the misalignment between the audio
+encoder and the text decoder, we present a novel mechanism called CRESCENDO,
+which utilizes positive-pair similarity learning to synchronize the embedding
+spaces of a pretrained audio encoder to get similar embeddings with a text
+encoder. We additionally supervise the model using the singer's voice, which is
+demixed by the accompaniment. This supervision allows the model to more
+accurately capture vocal characteristics, leading to improved singing style
+captions that better reflect the style of the singer. The dataset and the codes
+are available at \bulurl{https://github.com/HJ-Ok/S2cap}.",2024-09-15
+"Unveiling Gender Bias in Large Language Models: Using Teacher's
+  Evaluation in Higher Education As an Example",2024-09-15 07:50:33+00:00,http://arxiv.org/abs/2409.09652v1,Yuanning Huang,cs.CL,dialogue,"This paper investigates gender bias in Large Language Model (LLM)-generated
+teacher evaluations in higher education setting, focusing on evaluations
+produced by GPT-4 across six academic subjects. By applying a comprehensive
+analytical framework that includes Odds Ratio (OR) analysis, Word Embedding
+Association Test (WEAT), sentiment analysis, and contextual analysis, this
+paper identified patterns of gender-associated language reflecting societal
+stereotypes. Specifically, words related to approachability and support were
+used more frequently for female instructors, while words related to
+entertainment were predominantly used for male instructors, aligning with the
+concepts of communal and agentic behaviors. The study also found moderate to
+strong associations between male salient adjectives and male names, though
+career and family words did not distinctly capture gender biases. These
+findings align with prior research on societal norms and stereotypes,
+reinforcing the notion that LLM-generated text reflects existing biases.",2024-09-15
+"Emerging Reliance Behaviors in Human-AI Text Generation: Hallucinations,
+  Data Quality Assessment, and Cognitive Forcing Functions",2024-09-13 15:55:59+00:00,http://arxiv.org/abs/2409.08937v1,"Zahra Ashktorab, Qian Pan, Werner Geyer, Michael Desmond, Marina Danilevsky, James M. Johnson, Casey Dugan, Michelle Bachman",cs.HC,dialogue,"In this paper, we investigate the impact of hallucinations and cognitive
+forcing functions in human-AI collaborative text generation tasks, focusing on
+the use of Large Language Models (LLMs) to assist in generating high-quality
+conversational data. LLMs require data for fine-tuning, a crucial step in
+enhancing their performance. In the context of conversational customer support,
+the data takes the form of a conversation between a human customer and an agent
+and can be generated with an AI assistant. In our inquiry, involving 11 users
+who each completed 8 tasks, resulting in a total of 88 tasks, we found that the
+presence of hallucinations negatively impacts the quality of data. We also find
+that, although the cognitive forcing function does not always mitigate the
+detrimental effects of hallucinations on data quality, the presence of
+cognitive forcing functions and hallucinations together impacts data quality
+and influences how users leverage the AI responses presented to them. Our
+analysis of user behavior reveals distinct patterns of reliance on AI-generated
+responses, highlighting the importance of managing hallucinations in
+AI-generated content within conversational AI contexts.",2024-09-13
+"Human Perception of LLM-generated Text Content in Social Media
+  Environments",2024-09-10 17:16:42+00:00,http://arxiv.org/abs/2409.06653v1,"Kristina Radivojevic, Matthew Chou, Karla Badillo-Urquiola, Paul Brenner",cs.HC,dialogue,"Emerging technologies, particularly artificial intelligence (AI), and more
+specifically Large Language Models (LLMs) have provided malicious actors with
+powerful tools for manipulating digital discourse. LLMs have the potential to
+affect traditional forms of democratic engagements, such as voter choice,
+government surveys, or even online communication with regulators; since bots
+are capable of producing large quantities of credible text. To investigate the
+human perception of LLM-generated content, we recruited over 1,000 participants
+who then tried to differentiate bot from human posts in social media discussion
+threads. We found that humans perform poorly at identifying the true nature of
+user posts on social media. We also found patterns in how humans identify
+LLM-generated text content in social media discourse. Finally, we observed the
+Uncanny Valley effect in text dialogue in both user perception and
+identification. This indicates that despite humans being poor at the
+identification process, they can still sense discomfort when reading
+LLM-generated content.",2024-09-10
+"TopoChat: Enhancing Topological Materials Retrieval With Large Language
+  Model and Multi-Source Knowledge",2024-09-10 06:01:16+00:00,http://arxiv.org/abs/2409.13732v1,"HuangChao Xu, Baohua Zhang, Zhong Jin, Tiannian Zhu, Quansheng Wu, Hongming Weng","cs.CL, cond-mat.mtrl-sci, cs.LG",dialogue,"Large language models (LLMs), such as ChatGPT, have demonstrated impressive
+performance in the text generation task, showing the ability to understand and
+respond to complex instructions. However, the performance of naive LLMs in
+speciffc domains is limited due to the scarcity of domain-speciffc corpora and
+specialized training. Moreover, training a specialized large-scale model
+necessitates signiffcant hardware resources, which restricts researchers from
+leveraging such models to drive advances. Hence, it is crucial to further
+improve and optimize LLMs to meet speciffc domain demands and enhance their
+scalability. Based on the condensed matter data center, we establish a material
+knowledge graph (MaterialsKG) and integrate it with literature. Using large
+language models and prompt learning, we develop a specialized dialogue system
+for topological materials called TopoChat. Compared to naive LLMs, TopoChat
+exhibits superior performance in structural and property querying, material
+recommendation, and complex relational reasoning. This system enables efffcient
+and precise retrieval of information and facilitates knowledge interaction,
+thereby encouraging the advancement on the ffeld of condensed matter materials.",2024-09-10
+"MarS: a Financial Market Simulation Engine Powered by Generative
+  Foundation Model",2024-09-04 08:16:22+00:00,http://arxiv.org/abs/2409.07486v1,"Junjie Li, Yang Liu, Weiqing Liu, Shikai Fang, Lewen Wang, Chang Xu, Jiang Bian","q-fin.CP, cs.AI, cs.CE, cs.LG, q-fin.TR",dialogue,"Generative models aim to simulate realistic effects of various actions across
+different contexts, from text generation to visual effects. Despite efforts to
+build real-world simulators, leveraging generative models for virtual worlds,
+like financial markets, remains underexplored. In financial markets, generative
+models can simulate market effects of various behaviors, enabling interaction
+with market scenes and players, and training strategies without financial risk.
+This simulation relies on the finest structured data in financial market like
+orders thus building the finest realistic simulation. We propose Large Market
+Model (LMM), an order-level generative foundation model, for financial market
+simulation, akin to language modeling in the digital world. Our financial
+Market Simulation engine (MarS), powered by LMM, addresses the need for
+realistic, interactive and controllable order generation. Key objectives of
+this paper include evaluating LMM's scaling law in financial markets, assessing
+MarS's realism, balancing controlled generation with market impact, and
+demonstrating MarS's potential applications. We showcase MarS as a forecast
+tool, detection system, analysis platform, and agent training environment. Our
+contributions include pioneering a generative model for financial markets,
+designing MarS to meet domain-specific needs, and demonstrating MarS-based
+applications' industry potential.",2024-09-04
+Semantically Controllable Augmentations for Generalizable Robot Learning,2024-09-02 05:25:34+00:00,http://arxiv.org/abs/2409.00951v1,"Zoey Chen, Zhao Mandi, Homanga Bharadhwaj, Mohit Sharma, Shuran Song, Abhishek Gupta, Vikash Kumar","cs.RO, cs.AI, cs.CV, cs.LG",dialogue,"Generalization to unseen real-world scenarios for robot manipulation requires
+exposure to diverse datasets during training. However, collecting large
+real-world datasets is intractable due to high operational costs. For robot
+learning to generalize despite these challenges, it is essential to leverage
+sources of data or priors beyond the robot's direct experience. In this work,
+we posit that image-text generative models, which are pre-trained on large
+corpora of web-scraped data, can serve as such a data source. These generative
+models encompass a broad range of real-world scenarios beyond a robot's direct
+experience and can synthesize novel synthetic experiences that expose robotic
+agents to additional world priors aiding real-world generalization at no extra
+cost.
+  In particular, our approach leverages pre-trained generative models as an
+effective tool for data augmentation. We propose a generative augmentation
+framework for semantically controllable augmentations and rapidly multiplying
+robot datasets while inducing rich variations that enable real-world
+generalization. Based on diverse augmentations of robot data, we show how
+scalable robot manipulation policies can be trained and deployed both in
+simulation and in unseen real-world environments such as kitchens and
+table-tops. By demonstrating the effectiveness of image-text generative models
+in diverse real-world robotic applications, our generative augmentation
+framework provides a scalable and efficient path for boosting generalization in
+robot learning at no extra human cost.",2024-09-02
 "MDD-5k: A New Diagnostic Conversation Dataset for Mental Disorders
   Synthesized via Neuro-Symbolic LLM Agents",2024-08-22 05:59:47+00:00,http://arxiv.org/abs/2408.12142v1,"Congchi Yin, Feng Li, Shu Zhang, Zike Wang, Jun Shao, Piji Li, Jianhua Chen, Xun Jiang","cs.CL, cs.AI",dialogue,"The clinical diagnosis of most mental disorders primarily relies on the
 conversations between psychiatrist and patient. The creation of such diagnostic
