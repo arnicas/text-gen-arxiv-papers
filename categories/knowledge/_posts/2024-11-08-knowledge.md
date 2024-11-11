@@ -6,10 +6,25 @@ sidebar:
 ---
 
 
-*written on 2024-09-30*
+*written on 2024-11-11*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Asterisk*: Keep it Simple](http://arxiv.org/abs/2411.05691v1) | Andrew Semenov | cs.CL, cs.AI | 2024-11-08 |
+| [Ev2R: Evaluating Evidence Retrieval in Automated Fact-Checking](http://arxiv.org/abs/2411.05375v1) | Mubashara Akhtar, Michael Schlichtkrull, Andreas Vlachos | cs.CL, cs.AI, cs.IR, cs.LG | 2024-11-08 |
+| [PadChest-GR: A Bilingual Chest X-ray Dataset for Grounded Radiology  Report Generation](http://arxiv.org/abs/2411.05085v1) | Daniel C. Castro, Aurelia Bustos, Shruthi Bannur, Stephanie L. Hyland, Kenza Bouzid, Maria Teodora Wetscherek, Maria Dolores Sánchez-Valverde, Lara Jaques-Pérez, Lourdes Pérez-Rodríguez, Kenji Takeda, José María Salinas, Javier Alvarez-Valle, Joaquín Galant Herrero, Antonio Pertusa | cs.AI, cs.CL, cs.CV | 2024-11-07 |
+| [GASE: Generatively Augmented Sentence Encoding](http://arxiv.org/abs/2411.04914v1) | Manuel Frank, Haithem Afli | cs.CL | 2024-11-07 |
+| [VTechAGP: An Academic-to-General-Audience Text Paraphrase Dataset and  Benchmark Models](http://arxiv.org/abs/2411.04825v1) | Ming Cheng, Jiaying Gong, Chenhan Yuan, William A. Ingram, Edward Fox, Hoda Eldardiry | cs.CL, cs.DL, cs.LG | 2024-11-07 |
+| [RAGulator: Lightweight Out-of-Context Detectors for Grounded Text  Generation](http://arxiv.org/abs/2411.03920v1) | Ian Poey, Jiajun Liu, Qishuai Zhong, Adrien Chenailler | cs.CL | 2024-11-06 |
+| [Advanced RAG Models with Graph Structures: Optimizing Complex Knowledge  Reasoning and Text Generation](http://arxiv.org/abs/2411.03572v1) | Yuxin Dong, Shuo Wang, Hongye Zheng, Jiajing Chen, Zhenhong Zhang, Chihang Wang | cs.IR | 2024-11-06 |
+| [Graph-DPEP: Decomposed Plug and Ensemble Play for Few-Shot Document  Relation Extraction with Graph-of-Thoughts Reasoning](http://arxiv.org/abs/2411.02864v1) | Tao Zhang, Ning Yan, Masood Mortazavi, Hoang H. Nguyen, Zhongfen Deng, Philip S. Yu | cs.CL, cs.AI, cs.IR | 2024-11-05 |
+| [A Comprehensive Survey of Small Language Models in the Era of Large  Language Models: Techniques, Enhancements, Applications, Collaboration with  LLMs, and Trustworthiness](http://arxiv.org/abs/2411.03350v1) | Fali Wang, Zhiwei Zhang, Xianren Zhang, Zongyu Wu, Tzuhao Mo, Qiuhao Lu, Wanjing Wang, Rui Li, Junjie Xu, Xianfeng Tang, Qi He, Yao Ma, Ming Huang, Suhang Wang | cs.CL, cs.AI, cs.LG, 68T50 (Primary) 68T07 (Secondary), I.2.7 | 2024-11-04 |
+| [E2E-AFG: An End-to-End Model with Adaptive Filtering for  Retrieval-Augmented Generation](http://arxiv.org/abs/2411.00437v1) | Yun Jiang, Zilong Xie, Wei Zhang, Yun Fang, Shuai Pan | cs.CL, cs.AI | 2024-11-01 |
+| [Enhancing Authorship Attribution through Embedding Fusion: A Novel  Approach with Masked and Encoder-Decoder Language Models](http://arxiv.org/abs/2411.00411v1) | Arjun Ramesh Kaushik, Sunil Rufus R P, Nalini Ratha | cs.CL, cs.LG | 2024-11-01 |
+| [Language Models can Self-Lengthen to Generate Long Texts](http://arxiv.org/abs/2410.23933v1) | Shanghaoran Quan, Tianyi Tang, Bowen Yu, An Yang, Dayiheng Liu, Bofei Gao, Jianhong Tu, Yichang Zhang, Jingren Zhou, Junyang Lin | cs.CL | 2024-10-31 |
+| [Mind the Gap: A Generalized Approach for Cross-Modal Embedding Alignment](http://arxiv.org/abs/2410.23437v1) | Arihan Yadav, Alan McMillan | cs.LG, cs.CL, cs.IR, H.3.3; I.2.7; I.2.6 | 2024-10-30 |
+| [Parameter-Efficient Fine-Tuning in Large Models: A Survey of  Methodologies](http://arxiv.org/abs/2410.19878v2) | Luping Wang, Sheng Chen, Linnan Jiang, Shu Pan, Runze Cai, Sen Yang, Fei Yang | cs.CL, cs.AI, cs.LG | 2024-10-24 |
+| [Dynamic and Textual Graph Generation Via Large-Scale LLM-based Agent  Simulation](http://arxiv.org/abs/2410.09824v3) | Jiarui Ji, Runlin Lei, Jialing Bi, Zhewei Wei, Yankai Lin, Xuchen Pan, Yaliang Li, Bolin Ding | cs.CL | 2024-10-13 |
 | [Enhancing elusive clues in knowledge learning by contrasting attention  of language models](http://arxiv.org/abs/2409.17954v1) | Jian Gao, Xiao Zhang, Ji Wu, Miao Li | cs.AI | 2024-09-26 |
 | [Zero- and Few-shot Named Entity Recognition and Text Expansion in  Medication Prescriptions using ChatGPT](http://arxiv.org/abs/2409.17683v1) | Natthanaphop Isaradech, Andrea Riedel, Wachiranun Sirikul, Markus Kreuzthaler, Stefan Schulz | cs.CL, cs.AI | 2024-09-26 |
 | [Zero-Shot Detection of LLM-Generated Text using Token Cohesiveness](http://arxiv.org/abs/2409.16914v1) | Shixuan Ma, Quan Wang | cs.CL | 2024-09-25 |

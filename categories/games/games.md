@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2024-09-30*
+*written on 2024-11-11*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [SVIP: Towards Verifiable Inference of Open-source Large Language Models](http://arxiv.org/abs/2410.22307v1) | Yifan Sun, Yuhang Li, Yue Zhang, Yuchen Jin, Huan Zhang | cs.LG, cs.AI, cs.CL, cs.CR | 2024-10-29 |
+| [Multilingual Controlled Generation And Gold-Standard-Agnostic Evaluation  of Code-Mixed Sentences](http://arxiv.org/abs/2410.10580v1) | Ayushman Gupta, Akhil Bhogal, Kripabandhu Ghosh | cs.CL, cs.AI | 2024-10-14 |
+| [Decoding Game: On Minimax Optimality of Heuristic Text Generation  Strategies](http://arxiv.org/abs/2410.03968v1) | Sijin Chen, Omar Hagrass, Jason M. Klusowski | cs.LG, cs.AI, cs.GT, math.OC | 2024-10-04 |
 | [A Comprehensive Survey on Human Video Generation: Challenges, Methods,  and Insights](http://arxiv.org/abs/2407.08428v1) | Wentao Lei, Jinting Wang, Fengji Ma, Guanjie Huang, Li Liu | cs.CV, cs.AI | 2024-07-11 |
 | [SMLT-MUGC: Small, Medium, and Large Texts -- Machine versus  User-Generated Content Detection and Comparison](http://arxiv.org/abs/2407.12815v1) | Anjali Rawal, Hui Wang, Youjia Zheng, Yu-Hsuan Lin, Shanu Sushmita | cs.CL, cs.LG | 2024-06-28 |
 | [Incentivizing Quality Text Generation via Statistical Contracts](http://arxiv.org/abs/2406.11118v1) | Eden Saig, Ohad Einav, Inbal Talgam-Cohen | cs.GT, cs.AI, cs.LG | 2024-06-17 |

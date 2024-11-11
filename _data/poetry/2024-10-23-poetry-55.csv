@@ -1,4 +1,35 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Benchmarking Foundation Models on Exceptional Cases: Dataset Creation
+  and Validation",2024-10-23 16:24:23+00:00,http://arxiv.org/abs/2410.18001v1,"Suho Kang, Jungyang Park, Joonseo Ha, SoMin Kim, JinHyeong Kim, Subeen Park, Kyungwoo Song",cs.AI,poetry,"Foundation models (FMs) have achieved significant success across various
+tasks, leading to research on benchmarks for reasoning abilities. However,
+there is a lack of studies on FMs performance in exceptional scenarios, which
+we define as out-of-distribution (OOD) reasoning tasks. This paper is the first
+to address these cases, developing a novel dataset for evaluation of FMs across
+multiple modalities, including graphic novels, calligraphy, news articles, and
+lyrics. It includes tasks for instance classification, character recognition,
+token prediction, and text generation. The paper also proposes prompt
+engineering techniques like Chain-of-Thought (CoT) and CoT+Few-Shot to enhance
+performance. Validation of FMs using various methods revealed improvements. The
+code repository is accessible at:
+https://github.com/MLAI-Yonsei/ExceptionalBenchmark",2024-10-23
+Does ChatGPT Have a Poetic Style?,2024-10-20 06:01:34+00:00,http://arxiv.org/abs/2410.15299v2,"Melanie Walsh, Anna Preus, Elizabeth Gronski",cs.CL,poetry,"Generating poetry has become a popular application of LLMs, perhaps
+especially of OpenAI's widely-used chatbot ChatGPT. What kind of poet is
+ChatGPT? Does ChatGPT have its own poetic style? Can it successfully produce
+poems in different styles? To answer these questions, we prompt the GPT-3.5 and
+GPT-4 models to generate English-language poems in 24 different poetic forms
+and styles, about 40 different subjects, and in response to 3 different writing
+prompt templates. We then analyze the resulting 5.7k poems, comparing them to a
+sample of 3.7k poems from the Poetry Foundation and the Academy of American
+Poets. We find that the GPT models, especially GPT-4, can successfully produce
+poems in a range of both common and uncommon English-language forms in
+superficial yet noteworthy ways, such as by producing poems of appropriate
+lengths for sonnets (14 lines), villanelles (19 lines), and sestinas (39
+lines). But the GPT models also exhibit their own distinct stylistic
+tendencies, both within and outside of these specific forms. Our results show
+that GPT poetry is much more constrained and uniform than human poetry, showing
+a strong penchant for rhyme, quatrains (4-line stanzas), iambic meter,
+first-person plural perspectives (we, us, our), and specific vocabulary like
+""heart,"" ""embrace,"" ""echo,"" and ""whisper.""",2024-10-20
 LLM-based multi-agent poetry generation in non-cooperative environments,2024-09-05 16:12:29+00:00,http://arxiv.org/abs/2409.03659v2,"Ran Zhang, Steffen Eger",cs.CL,poetry,"Despite substantial progress of large language models (LLMs) for automatic
 poetry generation, the generated poetry lacks diversity while the training
 process differs greatly from human learning. Under the rationale that the

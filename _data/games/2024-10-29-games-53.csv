@@ -1,4 +1,67 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+SVIP: Towards Verifiable Inference of Open-source Large Language Models,2024-10-29 17:52:45+00:00,http://arxiv.org/abs/2410.22307v1,"Yifan Sun, Yuhang Li, Yue Zhang, Yuchen Jin, Huan Zhang","cs.LG, cs.AI, cs.CL, cs.CR",games,"Open-source Large Language Models (LLMs) have recently demonstrated
+remarkable capabilities in natural language understanding and generation,
+leading to widespread adoption across various domains. However, their
+increasing model sizes render local deployment impractical for individual
+users, pushing many to rely on computing service providers for inference
+through a blackbox API. This reliance introduces a new risk: a computing
+provider may stealthily substitute the requested LLM with a smaller, less
+capable model without consent from users, thereby delivering inferior outputs
+while benefiting from cost savings. In this paper, we formalize the problem of
+verifiable inference for LLMs. Existing verifiable computing solutions based on
+cryptographic or game-theoretic techniques are either computationally
+uneconomical or rest on strong assumptions. We introduce SVIP, a secret-based
+verifiable LLM inference protocol that leverages intermediate outputs from LLM
+as unique model identifiers. By training a proxy task on these outputs and
+requiring the computing provider to return both the generated text and the
+processed intermediate outputs, users can reliably verify whether the computing
+provider is acting honestly. In addition, the integration of a secret mechanism
+further enhances the security of our protocol. We thoroughly analyze our
+protocol under multiple strong and adaptive adversarial scenarios. Our
+extensive experiments demonstrate that SVIP is accurate, generalizable,
+computationally efficient, and resistant to various attacks. Notably, SVIP
+achieves false negative rates below 5% and false positive rates below 3%, while
+requiring less than 0.01 seconds per query for verification.",2024-10-29
+"Multilingual Controlled Generation And Gold-Standard-Agnostic Evaluation
+  of Code-Mixed Sentences",2024-10-14 14:54:05+00:00,http://arxiv.org/abs/2410.10580v1,"Ayushman Gupta, Akhil Bhogal, Kripabandhu Ghosh","cs.CL, cs.AI",games,"Code-mixing, the practice of alternating between two or more languages in an
+utterance, is a common phenomenon in multilingual communities. Due to the
+colloquial nature of code-mixing, there is no singular correct way to translate
+an English sentence into a code-mixed sentence. For this reason, standard
+n-gram-based MT evaluation metrics such as the BLEU score are not appropriate
+for code-mixed evaluation. To demonstrate this, we propose a novel method for
+code-mixed text generation: Controlled Generation, which parameterizes the
+code-mixing degree (CMD) and enables the generation of multiple semantically
+equivalent code-mixed sentences from a given English sentence. We introduce a
+robust new evaluation metric: GAME: A Gold-Standard Agnostic Measure for
+Evaluation of Code-Mixed Sentences. GAME is both language-agnostic and
+gold-standard-agnostic, i.e. unlike other metrics, GAME does not require
+gold-standard code-mixed sentences for evaluation, thus eliminating the need
+for human annotators in the code-mixed evaluation process. When used to
+evaluate semantically equivalent code-mixed sentences, we find that GAME scores
+have a lower standard deviation than BLEU scores. Further, we create and
+release a dataset containing gold-standard code-mixed sentences across 4
+language pairs: English-{Hindi, Bengali, French, Spanish} to encourage more
+computational research on code-mixing.",2024-10-14
+"Decoding Game: On Minimax Optimality of Heuristic Text Generation
+  Strategies",2024-10-04 23:18:27+00:00,http://arxiv.org/abs/2410.03968v1,"Sijin Chen, Omar Hagrass, Jason M. Klusowski","cs.LG, cs.AI, cs.GT, math.OC",games,"Decoding strategies play a pivotal role in text generation for modern
+language models, yet a puzzling gap divides theory and practice. Surprisingly,
+strategies that should intuitively be optimal, such as Maximum a Posteriori
+(MAP), often perform poorly in practice. Meanwhile, popular heuristic
+approaches like Top-$k$ and Nucleus sampling, which employ truncation and
+normalization of the conditional next-token probabilities, have achieved great
+empirical success but lack theoretical justifications. In this paper, we
+propose Decoding Game, a comprehensive theoretical framework which reimagines
+text generation as a two-player zero-sum game between Strategist, who seeks to
+produce text credible in the true distribution, and Nature, who distorts the
+true distribution adversarially. After discussing the decomposibility of
+multi-step generation, we derive the optimal strategy in closed form for
+one-step Decoding Game. It is shown that the adversarial Nature imposes an
+implicit regularization on likelihood maximization, and
+truncation-normalization methods are first-order approximations to the optimal
+strategy under this regularization. Additionally, by generalizing the objective
+and parameters of Decoding Game, near-optimal strategies encompass diverse
+methods such as greedy search, temperature scaling, and hybrids thereof.
+Numerical experiments are conducted to complement our theoretical analysis.",2024-10-04
 "A Comprehensive Survey on Human Video Generation: Challenges, Methods,
   and Insights",2024-07-11 12:09:05+00:00,http://arxiv.org/abs/2407.08428v1,"Wentao Lei, Jinting Wang, Fengji Ma, Guanjie Huang, Li Liu","cs.CV, cs.AI",games,"Human video generation is a dynamic and rapidly evolving task that aims to
 synthesize 2D human body video sequences with generative models given control

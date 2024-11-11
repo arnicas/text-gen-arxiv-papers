@@ -1,4 +1,119 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Graph-DPEP: Decomposed Plug and Ensemble Play for Few-Shot Document
+  Relation Extraction with Graph-of-Thoughts Reasoning",2024-11-05 07:12:36+00:00,http://arxiv.org/abs/2411.02864v1,"Tao Zhang, Ning Yan, Masood Mortazavi, Hoang H. Nguyen, Zhongfen Deng, Philip S. Yu","cs.CL, cs.AI, cs.IR",dialogue,"Large language models (LLMs) pre-trained on massive corpora have demonstrated
+impressive few-shot learning capability on many NLP tasks. Recasting an NLP
+task into a text-to-text generation task is a common practice so that
+generative LLMs can be prompted to resolve it. However, performing
+document-level relation extraction (DocRE) tasks with generative LLM models is
+still challenging due to the structured output format of DocRE, which
+complicates the conversion to plain text. Limited information available in
+few-shot samples and prompt instructions induce further difficulties and
+challenges in relation extraction for mentioned entities in a document. In this
+paper, we represent the structured output as a graph-style triplet rather than
+natural language expressions and leverage generative LLMs for the DocRE task.
+Our approach, the Graph-DPEP framework is grounded in the reasoning behind
+triplet explanation thoughts presented in natural language. In this framework,
+we first introduce a ``decomposed-plug"" method for performing the generation
+from LLMs over prompts with type-space decomposition to alleviate the burden of
+distinguishing all relation types. Second, we employ a verifier for calibrating
+the generation and identifying overlooked query entity pairs. Third, we develop
+""ensemble-play"", reapplying generation on the entire type list by leveraging
+the reasoning thoughts embedded in a sub-graph associated with the missing
+query pair to address the missingness issue. Through extensive comparisons with
+existing prompt techniques and alternative Language Models (LLMs), our
+framework demonstrates superior performance on publicly available benchmarks in
+experiments.",2024-11-05
+"NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM
+  Inference",2024-11-02 05:15:44+00:00,http://arxiv.org/abs/2411.01142v1,"Xuanlin Jiang, Yang Zhou, Shiyi Cao, Ion Stoica, Minlan Yu","cs.DC, cs.AI, cs.LG",dialogue,"Online LLM inference powers many exciting applications such as intelligent
+chatbots and autonomous agents. Modern LLM inference engines widely rely on
+request batching to improve inference throughput, aiming to make it
+cost-efficient when running on expensive GPU accelerators. However, the limited
+GPU memory has largely limited the batch size achieved in practice, leaving
+significant GPU compute resources wasted.
+  We present NEO, an online LLM inference system that offloads part of
+attention compute and KV cache states from the GPU to the local host CPU,
+effectively increasing the GPU batch size and thus inference throughput. To
+this end, NEO proposes asymmetric GPU-CPU pipelining and load-aware scheduling
+to balance GPU and CPU loads and fully utilize their compute and memory
+resources. We evaluate NEO on a wide range of workloads (i.e., code generation,
+text summarization), GPUs (i.e., T4, A10G, H100), and LLM models (i.e., 7B, 8B,
+70B). NEO achieves up to 7.5$\times$, 26%, and 14% higher throughput compared
+to GPU-only approach on T4, A10G, and H100 GPUs, respectively, while
+maintaining the same latency; with more powerful CPUs, NEO achieves up to 79.3%
+throughput gain on A10G GPU.",2024-11-02
+"Linguistics Theory Meets LLM: Code-Switched Text Generation via
+  Equivalence Constrained Large Language Models",2024-10-30 03:03:32+00:00,http://arxiv.org/abs/2410.22660v1,"Garry Kuwanto, Chaitanya Agarwal, Genta Indra Winata, Derry Tanti Wijaya",cs.CL,dialogue,"Code-switching, the phenomenon of alternating between two or more languages
+in a single conversation, presents unique challenges for Natural Language
+Processing (NLP). Most existing research focuses on either syntactic
+constraints or neural generation, with few efforts to integrate linguistic
+theory with large language models (LLMs) for generating natural code-switched
+text. In this paper, we introduce EZSwitch, a novel framework that combines
+Equivalence Constraint Theory (ECT) with LLMs to produce linguistically valid
+and fluent code-switched text. We evaluate our method using both human
+judgments and automatic metrics, demonstrating a significant improvement in the
+quality of generated code-switching sentences compared to baseline LLMs. To
+address the lack of suitable evaluation metrics, we conduct a comprehensive
+correlation study of various automatic metrics against human scores, revealing
+that current metrics often fail to capture the nuanced fluency of code-switched
+text. Additionally, we create CSPref, a human preference dataset based on human
+ratings and analyze model performance across ``hard`` and ``easy`` examples.
+Our findings indicate that incorporating linguistic constraints into LLMs leads
+to more robust and human-aligned generation, paving the way for scalable
+code-switching text generation across diverse language pairs.",2024-10-30
+BENCHAGENTS: Automated Benchmark Creation with Agent Interaction,2024-10-29 22:56:18+00:00,http://arxiv.org/abs/2410.22584v1,"Natasha Butt, Varun Chandrasekaran, Neel Joshi, Besmira Nushi, Vidhisha Balachandran","cs.LG, cs.AI, cs.CL",dialogue,"Evaluations are limited by benchmark availability. As models evolve, there is
+a need to create benchmarks that can measure progress on new generative
+capabilities. However, creating new benchmarks through human annotations is
+slow and expensive, restricting comprehensive evaluations for any capability.
+We introduce BENCHAGENTS, a framework that methodically leverages large
+language models (LLMs) to automate benchmark creation for complex capabilities
+while inherently ensuring data and metric quality. BENCHAGENTS decomposes the
+benchmark creation process into planning, generation, data verification, and
+evaluation, each of which is executed by an LLM agent. These agents interact
+with each other and utilize human-in-the-loop feedback from benchmark
+developers to explicitly improve and flexibly control data diversity and
+quality. We use BENCHAGENTS to create benchmarks to evaluate capabilities
+related to planning and constraint satisfaction during text generation. We then
+use these benchmarks to study seven state-of-the-art models and extract new
+insights on common failure modes and model differences.",2024-10-29
+"An LLM-based Simulation Framework for Embodied Conversational Agents in
+  Psychological Counseling",2024-10-29 13:46:52+00:00,http://arxiv.org/abs/2410.22041v2,"Lixiu Wu, Yuanrong Tang, Qisen Pan, Xianyang Zhan, Yucheng Han, Mingyang You, Lanxi Xiao, Tianhong Wang, Chen Zhong, Jiangtao Gong",cs.HC,dialogue,"Simulation is crucial for validating algorithmic strategies in real-world
+scenarios. While LLM-based social simulation shows promise as a mainstream
+tool, simulating complex scenarios like psychological counseling remains
+challenging. We present ECAs (short for Embodied Conversational Agents), a
+framework for simulating psychological counseling clients' embodied memory,
+integrating embodied cognition and counseling theories. We formulate six design
+goals based on a comprehensive review of psychological counseling theories.
+Using LLMs, we expand real counseling case data into a nuanced embodied
+cognitive memory space and generate dialogues based on high-frequency
+counseling questions. We validate our framework using the D4 dataset, with
+evaluations by licensed counselors. Results show our approach significantly
+outperforms baselines in simulation authenticity and necessity. To demonstrate
+scalability, we created a public ECAs dataset through batch simulations. This
+research provides valuable insights for future social simulation studies in
+psychological counseling and Embodied Counseling Agents research.",2024-10-29
+"Dynamic and Textual Graph Generation Via Large-Scale LLM-based Agent
+  Simulation",2024-10-13 12:57:08+00:00,http://arxiv.org/abs/2410.09824v3,"Jiarui Ji, Runlin Lei, Jialing Bi, Zhewei Wei, Yankai Lin, Xuchen Pan, Yaliang Li, Bolin Ding",cs.CL,dialogue,"Graph generation is a fundamental task that has been extensively studied in
+social, technological, and scientific analysis. For modeling the dynamic graph
+evolution process, traditional rule-based methods struggle to capture community
+structures within graphs, while deep learning methods only focus on fitting
+training graphs. This limits existing graph generators to producing graphs that
+adhere to predefined rules or closely resemble training datasets, achieving
+poor performance in dynamic graph generation. Given that graphs are abstract
+representations arising from pairwise interactions in human activities, a
+realistic simulation of human-wise interaction could provide deeper insights
+into the graph evolution mechanism. With the increasing recognition of large
+language models (LLMs) in simulating human behavior, we introduce
+GraphAgent-Generator (GAG), a novel simulation-based framework for dynamic
+graph generation. Without training or fine-tuning process of LLM, our framework
+effectively replicates seven macro-level structural characteristics in
+established network science theories while surpassing existing baselines in
+graph expansion tasks by 31\% on specific evaluation metrics. Through node
+classification task, we validate GAG effectively preserves characteristics of
+real-world network for node-wise textual features in generated text-rich graph.
+Furthermore, by incorporating parallel acceleration, GAG supports generating
+graphs with up to nearly 100,000 nodes or 10 million edges through large-scale
+LLM-based agent simulation, with a minimum speed-up of 90.4\%. The source code
+is available at https://anonymous.4open.science/r/GraphAgent-2206.",2024-10-13
 "Experimental Evaluation of Machine Learning Models for Goal-oriented
   Customer Service Chatbot with Pipeline Architecture",2024-09-27 09:11:52+00:00,http://arxiv.org/abs/2409.18568v1,"Nurul Ain Nabilah Mohd Isa, Siti Nuraishah Agos Jawaddi, Azlan Ismail","cs.AI, cs.LG, cs.NE",dialogue,"Integrating machine learning (ML) into customer service chatbots enhances
 their ability to understand and respond to user queries, ultimately improving

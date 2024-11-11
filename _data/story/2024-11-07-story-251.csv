@@ -1,4 +1,204 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Bayesian Calibration of Win Rate Estimation with LLM Evaluators,2024-11-07 04:32:40+00:00,http://arxiv.org/abs/2411.04424v1,"Yicheng Gao, Gonghan Xu, Zhe Wang, Arman Cohan","cs.CL, cs.AI",story,"Recent advances in large language models (LLMs) show the potential of using
+LLMs as evaluators for assessing the quality of text generations from LLMs.
+However, applying LLM evaluators naively to compare or judge between different
+systems can lead to unreliable results due to the intrinsic win rate estimation
+bias of LLM evaluators. In order to mitigate this problem, we propose two
+calibration methods, Bayesian Win Rate Sampling (BWRS) and Bayesian
+Dawid-Skene, both of which leverage Bayesian inference to more accurately infer
+the true win rate of generative language models. We empirically validate our
+methods on six datasets covering story generation, summarization, and
+instruction following tasks. We show that both our methods are effective in
+improving the accuracy of win rate estimation using LLMs as evaluators,
+offering a promising direction for reliable automatic text quality evaluation.",2024-11-07
+"Evaluating Creative Short Story Generation in Humans and Large Language
+  Models",2024-11-04 17:40:39+00:00,http://arxiv.org/abs/2411.02316v2,"Mete Ismayilzada, Claire Stevenson, Lonneke van der Plas","cs.CL, cs.AI",story,"Storytelling is a fundamental aspect of human communication, relying heavily
+on creativity to produce narratives that are novel, appropriate, and
+surprising. While large language models (LLMs) have recently demonstrated the
+ability to generate high-quality stories, their creative capabilities remain
+underexplored. Previous research has either focused on creativity tests
+requiring short responses or primarily compared model performance in story
+generation to that of professional writers. However, the question of whether
+LLMs exhibit creativity in writing short stories on par with the average human
+remains unanswered. In this work, we conduct a systematic analysis of
+creativity in short story generation across LLMs and everyday people. Using a
+five-sentence creative story task, commonly employed in psychology to assess
+human creativity, we automatically evaluate model- and human-generated stories
+across several dimensions of creativity, including novelty, surprise, and
+diversity. Our findings reveal that while LLMs can generate stylistically
+complex stories, they tend to fall short in terms of creativity when compared
+to average human writers.",2024-11-04
+"A Multi-Task Role-Playing Agent Capable of Imitating Character
+  Linguistic Styles",2024-11-04 02:26:27+00:00,http://arxiv.org/abs/2411.02457v1,"Siyuan Chen, Qingyi Si, Chenxu Yang, Yunzhi Liang, Zheng Lin, Huan Liu, Weiping Wang","cs.CL, cs.AI",story,"The advent of large language models (LLMs) has significantly propelled the
+advancement of Role-Playing Agents (RPAs). However, current Role-Playing Agents
+predominantly focus on mimicking a character's fundamental attributes while
+neglecting the replication of linguistic style, and they are incapable of
+effectively replicating characters when performing tasks beyond multi-turn
+dialogues, which results in generated responses that lack authenticity. The
+reason current RPAs lack this capability is due to the nature of existing
+character datasets, which lack collections of character quotations and are
+limited to multi-turn dialogue tasks, constraining the RPA's performance across
+other task domains and failing to mimic a character's linguistic style. To
+address this gap, we developed a multi-task role-playing dataset named MRstyle,
+which encompasses a substantial number of real individuals along with their
+quotations and covers seven different tasks. On this basis, we develop
+StyleRPA, a Multi-Task Role-Playing Agent (MRPA) that significantly outperforms
+recent open-source LLMs and RPAs baselines on 7 tasks including Dialogue,
+Dictionary, Composition, Story Generation, Product Description, Music
+Commentary, and Open Question Answering. The code and data will be released.",2024-11-04
+"KAHANI: Culturally-Nuanced Visual Storytelling Pipeline for Non-Western
+  Cultures",2024-10-25 09:23:24+00:00,http://arxiv.org/abs/2410.19419v2,"Hamna, Deepthi Sudharsan, Agrima Seth, Ritvik Budhiraja, Deepika Khullar, Vyshak Jain, Kalika Bali, Aditya Vashistha, Sameer Segal",cs.CL,story,"Large Language Models (LLMs) and Text-To-Image (T2I) models have demonstrated
+the ability to generate compelling text and visual stories. However, their
+outputs are predominantly aligned with the sensibilities of the Global North,
+often resulting in an outsider's gaze on other cultures. As a result,
+non-Western communities have to put extra effort into generating culturally
+specific stories. To address this challenge, we developed a visual storytelling
+pipeline called KAHANI that generates culturally grounded visual stories for
+non-Western cultures. Our pipeline leverages off-the-shelf models GPT-4 Turbo
+and Stable Diffusion XL (SDXL). By using Chain of Thought (CoT) and T2I
+prompting techniques, we capture the cultural context from user's prompt and
+generate vivid descriptions of the characters and scene compositions. To
+evaluate the effectiveness of KAHANI, we conducted a comparative user study
+with ChatGPT-4 (with DALL-E3) in which participants from different regions of
+India compared the cultural relevance of stories generated by the two tools.
+Results from the qualitative and quantitative analysis performed on the user
+study showed that KAHANI was able to capture and incorporate more Culturally
+Specific Items (CSIs) compared to ChatGPT-4. In terms of both its cultural
+competence and visual story generation quality, our pipeline outperformed
+ChatGPT-4 in 27 out of the 36 comparisons.",2024-10-25
+"Beyond Retrieval: Generating Narratives in Conversational Recommender
+  Systems",2024-10-22 07:53:41+00:00,http://arxiv.org/abs/2410.16780v1,"Krishna Sayana, Raghavendra Vasudeva, Yuri Vasilevski, Kun Su, Liam Hebert, Hubert Pham, Ambarish Jash, Sukhdeep Sodhi","cs.CL, cs.AI, cs.IR, cs.LG",story,"The recent advances in Large Language Model's generation and reasoning
+capabilities present an opportunity to develop truly conversational
+recommendation systems. However, effectively integrating recommender system
+knowledge into LLMs for natural language generation which is tailored towards
+recommendation tasks remains a challenge. This paper addresses this challenge
+by making two key contributions.
+  First, we introduce a new dataset (REGEN) for natural language generation
+tasks in conversational recommendations. REGEN (Reviews Enhanced with
+GEnerative Narratives) extends the Amazon Product Reviews dataset with rich
+user narratives, including personalized explanations of product preferences,
+product endorsements for recommended items, and summaries of user purchase
+history. REGEN is made publicly available to facilitate further research.
+Furthermore, we establish benchmarks using well-known generative metrics, and
+perform an automated evaluation of the new dataset using a rater LLM. Second,
+the paper introduces a fusion architecture (CF model with an LLM) which serves
+as a baseline for REGEN. And to the best of our knowledge, represents the first
+attempt to analyze the capabilities of LLMs in understanding recommender
+signals and generating rich narratives. We demonstrate that LLMs can
+effectively learn from simple fusion architectures utilizing interaction-based
+CF embeddings, and this can be further enhanced using the metadata and
+personalization data associated with items. Our experiments show that combining
+CF and content embeddings leads to improvements of 4-12% in key language
+metrics compared to using either type of embedding individually. We also
+provide an analysis to interpret how CF and content embeddings contribute to
+this new generative task.",2024-10-22
+With a Grain of SALT: Are LLMs Fair Across Social Dimensions?,2024-10-16 12:22:47+00:00,http://arxiv.org/abs/2410.12499v1,"Samee Arif, Zohaib Khan, Agha Ali Raza, Awais Athar",cs.CL,story,"This paper presents an analysis of biases in open-source Large Language
+Models (LLMs) across various genders, religions, and races. We introduce a
+methodology for generating a bias detection dataset using seven bias triggers:
+General Debate, Positioned Debate, Career Advice, Story Generation,
+Problem-Solving, Cover-Letter Writing, and CV Generation. We use GPT-4o to
+generate a diverse set of prompts for each trigger across various genders,
+religious and racial groups. We evaluate models from Llama and Gemma family on
+the generated dataset. We anonymise the LLM-generated text associated with each
+group using GPT-4o-mini and do a pairwise comparison using GPT-4o-as-a-Judge.
+To quantify bias in the LLM-generated text we use the number of wins and losses
+in the pairwise comparison. Our analysis spans three languages, English,
+German, and Arabic to explore how language influences bias manifestation. Our
+findings reveal that LLMs exhibit strong polarization toward certain groups
+across each category, with a notable consistency observed across models.
+However, when switching languages, variations and anomalies emerge, often
+attributable to cultural cues and contextual differences.",2024-10-16
+"Towards More Effective Table-to-Text Generation: Assessing In-Context
+  Learning and Self-Evaluation with Open-Source Models",2024-10-15 09:19:42+00:00,http://arxiv.org/abs/2410.12878v1,"Sahar Iravani, Tim . O . F Conrad","cs.CL, cs.AI, cs.LG",story,"Table processing, a key task in natural language processing, has
+significantly benefited from recent advancements in language models (LMs).
+However, the capabilities of LMs in table-to-text generation, which transforms
+structured data into coherent narrative text, require an in-depth
+investigation, especially with current open-source models. This study explores
+the effectiveness of various in-context learning strategies in LMs across
+benchmark datasets, focusing on the impact of providing examples to the model.
+More importantly, we examine a real-world use case, offering valuable insights
+into practical applications. To complement traditional evaluation metrics, we
+employ a large language model (LLM) self-evaluation approach using
+chain-of-thought reasoning and assess its correlation with human-aligned
+metrics like BERTScore. Our findings highlight the significant impact of
+examples in improving table-to-text generation and suggest that, while LLM
+self-evaluation has potential, its current alignment with human judgment could
+be enhanced. This points to the need for more reliable evaluation methods.",2024-10-15
+"More than Memes: A Multimodal Topic Modeling Approach to Conspiracy
+  Theories on Telegram",2024-10-11 09:10:26+00:00,http://arxiv.org/abs/2410.08642v1,Elisabeth Steffen,"cs.SI, cs.CL, cs.CV, cs.MM",story,"Research on conspiracy theories and related content online has traditionally
+focused on textual data. To address the increasing prevalence of (audio-)visual
+data on social media, and to capture the evolving and dynamic nature of this
+communication, researchers have begun to explore the potential of unsupervised
+approaches for analyzing multimodal online content. Our research contributes to
+this field by exploring the potential of multimodal topic modeling for
+analyzing conspiracy theories in German-language Telegram channels. Our work
+uses the BERTopic topic modeling approach in combination with CLIP for the
+analysis of textual and visual data. We analyze a corpus of ~40, 000 Telegram
+messages posted in October 2023 in 571 German-language Telegram channels known
+for disseminating conspiracy theories and other deceptive content. We explore
+the potentials and challenges of this approach for studying a medium-sized
+corpus of user-generated, text-image online content. We offer insights into the
+dominant topics across modalities, different text and image genres discovered
+during the analysis, quantitative inter-modal topic analyses, and a qualitative
+case study of textual, visual, and multimodal narrative strategies in the
+communication of conspiracy theories.",2024-10-11
+Constraint representation towards precise data-driven storytelling,2024-10-10 02:03:46+00:00,http://arxiv.org/abs/2410.07535v1,"Yu-Zhe Shi, Haotian Li, Lecheng Ruan, Huamin Qu",cs.HC,story,"Data-driven storytelling serves as a crucial bridge for communicating ideas
+in a persuasive way. However, the manual creation of data stories is a
+multifaceted, labor-intensive, and case-specific effort, limiting their broader
+application. As a result, automating the creation of data stories has emerged
+as a significant research thrust. Despite advances in Artificial Intelligence,
+the systematic generation of data stories remains challenging due to their
+hybrid nature: they must frame a perspective based on a seed idea in a top-down
+manner, similar to traditional storytelling, while coherently grounding
+insights of given evidence in a bottom-up fashion, akin to data analysis. These
+dual requirements necessitate precise constraints on the permissible space of a
+data story. In this viewpoint, we propose integrating constraints into the data
+story generation process. Defined upon the hierarchies of interpretation and
+articulation, constraints shape both narrations and illustrations to align with
+seed ideas and contextualized evidence. We identify the taxonomy and required
+functionalities of these constraints. Although constraints can be heterogeneous
+and latent, we explore the potential to represent them in a
+computation-friendly fashion via Domain-Specific Languages. We believe that
+leveraging constraints will facilitate both artistic and scientific aspects of
+data story generation.",2024-10-10
+"Decoding Decoded: Understanding Hyperparameter Effects in Open-Ended
+  Text Generation",2024-10-08 14:51:03+00:00,http://arxiv.org/abs/2410.06097v1,"Esteban Garces Arias, Meimingwei Li, Christian Heumann, Matthias Aßenmacher","cs.CL, cs.LG",story,"Decoding strategies for large language models (LLMs) are a critical but often
+underexplored aspect of text generation tasks. Since LLMs produce probability
+distributions over the entire vocabulary, various decoding methods have been
+developed to transform these probabilities into coherent and fluent text, each
+with its own set of hyperparameters. In this study, we present a large-scale,
+comprehensive analysis of how hyperparameter selection affects text quality in
+open-ended text generation across multiple LLMs, datasets, and evaluation
+metrics. Through an extensive sensitivity analysis, we provide practical
+guidelines for hyperparameter tuning and demonstrate the substantial influence
+of these choices on text quality. Using three established datasets, spanning
+factual domains (e.g., news) and creative domains (e.g., fiction), we show that
+hyperparameter tuning significantly impacts generation quality, though its
+effects vary across models and tasks. We offer in-depth insights into these
+effects, supported by both human evaluations and a synthesis of widely-used
+automatic evaluation metrics.",2024-10-08
+"ACDC: Autoregressive Coherent Multimodal Generation using Diffusion
+  Correction",2024-10-07 03:22:51+00:00,http://arxiv.org/abs/2410.04721v1,"Hyungjin Chung, Dohun Lee, Jong Chul Ye","cs.LG, cs.CV",story,"Autoregressive models (ARMs) and diffusion models (DMs) represent two leading
+paradigms in generative modeling, each excelling in distinct areas: ARMs in
+global context modeling and long-sequence generation, and DMs in generating
+high-quality local contexts, especially for continuous data such as images and
+short videos. However, ARMs often suffer from exponential error accumulation
+over long sequences, leading to physically implausible results, while DMs are
+limited by their local context generation capabilities. In this work, we
+introduce Autoregressive Coherent multimodal generation with Diffusion
+Correction (ACDC), a zero-shot approach that combines the strengths of both
+ARMs and DMs at the inference stage without the need for additional
+fine-tuning. ACDC leverages ARMs for global context generation and
+memory-conditioned DMs for local correction, ensuring high-quality outputs by
+correcting artifacts in generated multimodal tokens. In particular, we propose
+a memory module based on large language models (LLMs) that dynamically adjusts
+the conditioning texts for the DMs, preserving crucial global context
+information. Our experiments on multimodal tasks, including coherent
+multi-frame story generation and autoregressive video generation, demonstrate
+that ACDC effectively mitigates the accumulation of errors and significantly
+enhances the quality of generated outputs, achieving superior performance while
+remaining agnostic to specific ARM and DM architectures. Project page:
+https://acdc2025.github.io/",2024-10-07
 "Evaluation of Large Language Models for Summarization Tasks in the
   Medical Domain: A Narrative Review",2024-09-26 17:58:26+00:00,http://arxiv.org/abs/2409.18170v1,"Emma Croxford, Yanjun Gao, Nicholas Pellegrino, Karen K. Wong, Graham Wills, Elliot First, Frank J. Liao, Cherodeep Goswami, Brian Patterson, Majid Afshar","cs.CL, cs.AI",story,"Large Language Models have advanced clinical Natural Language Generation,
 creating opportunities to manage the volume of medical text. However, the

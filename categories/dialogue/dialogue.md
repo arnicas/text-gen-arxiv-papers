@@ -7,10 +7,16 @@ sidebar:
 ---
 
 
-*written on 2024-09-30*
+*written on 2024-11-11*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Graph-DPEP: Decomposed Plug and Ensemble Play for Few-Shot Document  Relation Extraction with Graph-of-Thoughts Reasoning](http://arxiv.org/abs/2411.02864v1) | Tao Zhang, Ning Yan, Masood Mortazavi, Hoang H. Nguyen, Zhongfen Deng, Philip S. Yu | cs.CL, cs.AI, cs.IR | 2024-11-05 |
+| [NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM  Inference](http://arxiv.org/abs/2411.01142v1) | Xuanlin Jiang, Yang Zhou, Shiyi Cao, Ion Stoica, Minlan Yu | cs.DC, cs.AI, cs.LG | 2024-11-02 |
+| [Linguistics Theory Meets LLM: Code-Switched Text Generation via  Equivalence Constrained Large Language Models](http://arxiv.org/abs/2410.22660v1) | Garry Kuwanto, Chaitanya Agarwal, Genta Indra Winata, Derry Tanti Wijaya | cs.CL | 2024-10-30 |
+| [BENCHAGENTS: Automated Benchmark Creation with Agent Interaction](http://arxiv.org/abs/2410.22584v1) | Natasha Butt, Varun Chandrasekaran, Neel Joshi, Besmira Nushi, Vidhisha Balachandran | cs.LG, cs.AI, cs.CL | 2024-10-29 |
+| [An LLM-based Simulation Framework for Embodied Conversational Agents in  Psychological Counseling](http://arxiv.org/abs/2410.22041v2) | Lixiu Wu, Yuanrong Tang, Qisen Pan, Xianyang Zhan, Yucheng Han, Mingyang You, Lanxi Xiao, Tianhong Wang, Chen Zhong, Jiangtao Gong | cs.HC | 2024-10-29 |
+| [Dynamic and Textual Graph Generation Via Large-Scale LLM-based Agent  Simulation](http://arxiv.org/abs/2410.09824v3) | Jiarui Ji, Runlin Lei, Jialing Bi, Zhewei Wei, Yankai Lin, Xuchen Pan, Yaliang Li, Bolin Ding | cs.CL | 2024-10-13 |
 | [Experimental Evaluation of Machine Learning Models for Goal-oriented  Customer Service Chatbot with Pipeline Architecture](http://arxiv.org/abs/2409.18568v1) | Nurul Ain Nabilah Mohd Isa, Siti Nuraishah Agos Jawaddi, Azlan Ismail | cs.AI, cs.LG, cs.NE | 2024-09-27 |
 | [AXCEL: Automated eXplainable Consistency Evaluation using LLMs](http://arxiv.org/abs/2409.16984v1) | P Aditya Sreekar, Sahil Verma, Suransh Chopra, Sarik Ghazarian, Abhishek Persad, Narayanan Sadagopan | cs.AI, cs.CL | 2024-09-25 |
 | [HLB: Benchmarking LLMs' Humanlikeness in Language Use](http://arxiv.org/abs/2409.15890v1) | Xufeng Duan, Bei Xiao, Xuemei Tang, Zhenguang G. Cai | cs.CL | 2024-09-24 |
