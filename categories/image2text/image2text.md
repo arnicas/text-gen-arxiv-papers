@@ -7,10 +7,17 @@ sidebar:
 ---
 
 
-*written on 2024-11-11*
+*written on 2024-11-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [LaB-RAG: Label Boosted Retrieval Augmented Generation for Radiology  Report Generation](http://arxiv.org/abs/2411.16523v1) | Steven Song, Anirudh Subramanyam, Irene Madejski, Robert L. Grossman | cs.CV, cs.CL | 2024-11-25 |
+| [MolMetaLM: a Physicochemical Knowledge-Guided Molecular Meta Language  Model](http://arxiv.org/abs/2411.15500v1) | Yifan Wu, Min Zeng, Yang Li, Yang Zhang, Min Li | cs.ET, cs.CL | 2024-11-23 |
+| [Improving Factuality of 3D Brain MRI Report Generation with Paired  Image-domain Retrieval and Text-domain Augmentation](http://arxiv.org/abs/2411.15490v1) | Junhyeok Lee, Yujin Oh, Dahyoun Lee, Hyon Keun Joh, Chul-Ho Sohn, Sung Hyun Baik, Cheol Kyu Jung, Jung Hyun Park, Kyu Sung Choi, Byung-Hoon Kim, Jong Chul Ye | cs.CV, cs.LG, eess.IV | 2024-11-23 |
+| [Benchmarking Multimodal Models for Ukrainian Language Understanding  Across Academic and Cultural Domains](http://arxiv.org/abs/2411.14647v1) | Yurii Paniv, Artur Kiulian, Dmytro Chaplynskyi, Mykola Khandoga, Anton Polishko, Tetiana Bas, Guillermo Gabrielli | cs.CL | 2024-11-22 |
+| [From Text to Pose to Image: Improving Diffusion Model Control and  Quality](http://arxiv.org/abs/2411.12872v2) | Clément Bonnet, Ariel N. Lee, Franck Wertel, Antoine Tamano, Tanguy Cizain, Pablo Ducru | cs.CV, cs.AI, cs.LG | 2024-11-19 |
+| [Debias your Large Multi-Modal Model at Test-Time with Non-Contrastive  Visual Attribute Steering](http://arxiv.org/abs/2411.12590v1) | Neale Ratzlaff, Matthew Lyle Olson, Musashi Hinck, Estelle Aflalo, Shao-Yen Tseng, Vasudev Lal, Phillip Howard | cs.CV, cs.LG | 2024-11-15 |
+| [Bridging the Visual Gap: Fine-Tuning Multimodal Models with  Knowledge-Adapted Captions](http://arxiv.org/abs/2411.09018v1) | Moran Yanuka, Assaf Ben Kish, Yonatan Bitton, Idan Szpektor, Raja Giryes | cs.CV, cs.CL, cs.LG | 2024-11-13 |
 | [Decoding Report Generators: A Cyclic Vision-Language Adapter for  Counterfactual Explanations](http://arxiv.org/abs/2411.05261v1) | Yingying Fang, Zihao Jin, Shaojie Guo, Jinda Liu, Yijian Gao, Junzhi Ning, Zhiling Yue, Zhi Li, Simon LF Walsh, Guang Yang | cs.CV, cs.AI, cs.CL, cs.LG | 2024-11-08 |
 | [PadChest-GR: A Bilingual Chest X-ray Dataset for Grounded Radiology  Report Generation](http://arxiv.org/abs/2411.05085v1) | Daniel C. Castro, Aurelia Bustos, Shruthi Bannur, Stephanie L. Hyland, Kenza Bouzid, Maria Teodora Wetscherek, Maria Dolores Sánchez-Valverde, Lara Jaques-Pérez, Lourdes Pérez-Rodríguez, Kenji Takeda, José María Salinas, Javier Alvarez-Valle, Joaquín Galant Herrero, Antonio Pertusa | cs.AI, cs.CL, cs.CV | 2024-11-07 |
 | [RS-MoE: Mixture of Experts for Remote Sensing Image Captioning and  Visual Question Answering](http://arxiv.org/abs/2411.01595v1) | Hui Lin, Danfeng Hong, Shuhang Ge, Chuyao Luo, Kai Jiang, Hao Jin, Congcong Wen | cs.CV, cs.AI | 2024-11-03 |

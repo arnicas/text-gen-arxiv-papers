@@ -1,4 +1,240 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Can LLMs be Good Graph Judger for Knowledge Graph Construction?,2024-11-26 12:46:57+00:00,http://arxiv.org/abs/2411.17388v1,"Haoyu Huang, Chong Chen, Conghui He, Yang Li, Jiawei Jiang, Wentao Zhang","cs.CL, cs.AI",knowledge,"In real-world scenarios, most of the data obtained from information retrieval
+(IR) system is unstructured. Converting natural language sentences into
+structured Knowledge Graphs (KGs) remains a critical challenge. The quality of
+constructed KGs may also impact the performance of some KG-dependent domains
+like GraphRAG systems and recommendation systems. Recently, Large Language
+Models (LLMs) have demonstrated impressive capabilities in addressing a wide
+range of natural language processing tasks. However, there are still challenges
+when utilizing LLMs to address the task of generating structured KGs. And we
+have identified three limitations with respect to existing KG construction
+methods. (1)There is a large amount of information and excessive noise in
+real-world documents, which could result in extracting messy information.
+(2)Native LLMs struggle to effectively extract accuracy knowledge from some
+domain-specific documents. (3)Hallucinations phenomenon cannot be overlooked
+when utilizing LLMs directly as an unsupervised method for constructing KGs.
+  In this paper, we propose GraphJudger, a knowledge graph construction
+framework to address the aforementioned challenges. We introduce three
+innovative modules in our method, which are entity-centric iterative text
+denoising, knowledge aware instruction tuning and graph judgement,
+respectively. We seek to utilize the capacity of LLMs to function as a graph
+judger, a capability superior to their role only as a predictor for KG
+construction problems. Experiments conducted on two general text-graph pair
+datasets and one domain-specific text-graph pair dataset show superior
+performances compared to baseline methods. The code of our proposed method is
+available at https://github.com/hhy-huang/GraphJudger.",2024-11-26
+"Dynamic Self-Distillation via Previous Mini-batches for Fine-tuning
+  Small Language Models",2024-11-25 23:37:48+00:00,http://arxiv.org/abs/2411.16991v1,"Yao Fu, Yin Yu, Xiaotian Han, Runchao Li, Xianxuan Long, Haotian Yu, Pan Li",cs.CL,knowledge,"Knowledge distillation (KD) has become a widely adopted approach for
+compressing large language models (LLMs) to reduce computational costs and
+memory footprints. However, the availability of complex teacher models is a
+prerequisite for running most KD pipelines. Thus, the traditional KD procedure
+can be unachievable or budget-unfriendly, particularly when relying on
+commercial LLMs like GPT4. In this regard, Self-distillation (SelfD) emerges as
+an advisable alternative, enabling student models to learn without teachers'
+guidance. Nonetheless, existing SelfD approaches for LMs often involve
+architectural modifications, assuming the models are open-source, which may not
+always be practical. In this work, we introduce a model-agnostic and
+task-agnostic method named dynamic SelfD from the previous minibatch (DynSDPB),
+which realizes current iterations' distillation from the last ones' generated
+logits. Additionally, to address prediction inaccuracies during the early
+iterations, we dynamically adjust the distillation influence and temperature
+values to enhance the adaptability of fine-tuning. Furthermore, DynSDPB is a
+novel fine-tuning policy that facilitates the seamless integration of existing
+self-correction and self-training techniques for small language models (SLMs)
+because they all require updating SLMs' parameters. We demonstrate the superior
+performance of DynSDPB on both encoder-only LMs (e.g., BERT model families) and
+decoder-only LMs (e.g., LLaMA model families), validating its effectiveness
+across natural language understanding (NLU) and natural language generation
+(NLG) benchmarks.",2024-11-25
+"MolMetaLM: a Physicochemical Knowledge-Guided Molecular Meta Language
+  Model",2024-11-23 09:27:38+00:00,http://arxiv.org/abs/2411.15500v1,"Yifan Wu, Min Zeng, Yang Li, Yang Zhang, Min Li","cs.ET, cs.CL",knowledge,"Most current molecular language models transfer the masked language model or
+image-text generation model from natural language processing to molecular
+field. However, molecules are not solely characterized by atom/bond symbols;
+they encapsulate important physical/chemical properties. Moreover, normal
+language models bring grammar rules that are irrelevant for understanding
+molecules. In this study, we propose a novel physicochemical knowledge-guided
+molecular meta language framework MolMetaLM. We design a molecule-specialized
+meta language paradigm, formatted as multiple <S,P,O> (subject, predicate,
+object) knowledge triples sharing the same S (i.e., molecule) to enhance
+learning the semantic relationships between physicochemical knowledge and
+molecules. By introducing different molecular knowledge and noises, the meta
+language paradigm generates tens of thousands of pretraining tasks. By
+recovering the token/sequence/order-level noises, MolMetaLM exhibits
+proficiency in large-scale benchmark evaluations involving property prediction,
+molecule generation, conformation inference, and molecular optimization.
+Through MolMetaLM, we offer a new insight for designing language models.",2024-11-23
+"Benchmarking Multimodal Models for Ukrainian Language Understanding
+  Across Academic and Cultural Domains",2024-11-22 00:37:49+00:00,http://arxiv.org/abs/2411.14647v1,"Yurii Paniv, Artur Kiulian, Dmytro Chaplynskyi, Mykola Khandoga, Anton Polishko, Tetiana Bas, Guillermo Gabrielli",cs.CL,knowledge,"While the evaluation of multimodal English-centric models is an active area
+of research with numerous benchmarks, there is a profound lack of benchmarks or
+evaluation suites for low- and mid-resource languages. We introduce ZNO-Vision,
+a comprehensive multimodal Ukrainian-centric benchmark derived from
+standardized university entrance examination (ZNO). The benchmark consists of
+over 4,300 expert-crafted questions spanning 12 academic disciplines, including
+mathematics, physics, chemistry, and humanities. We evaluated the performance
+of both open-source models and API providers, finding that only a handful of
+models performed above baseline. Alongside the new benchmark, we performed the
+first evaluation study of multimodal text generation for the Ukrainian
+language: we measured caption generation quality on the Multi30K-UK dataset,
+translated the VQA benchmark into Ukrainian, and measured performance
+degradation relative to original English versions. Lastly, we tested a few
+models from a cultural perspective on knowledge of national cuisine. We believe
+our work will advance multimodal generation capabilities for the Ukrainian
+language and our approach could be useful for other low-resource languages.",2024-11-22
+"Knowledge Graphs, Large Language Models, and Hallucinations: An NLP
+  Perspective",2024-11-21 16:09:05+00:00,http://arxiv.org/abs/2411.14258v1,"Ernests Lavrinovics, Russa Biswas, Johannes Bjerva, Katja Hose","cs.CL, cs.AI, 68-02, I.2.7",knowledge,"Large Language Models (LLMs) have revolutionized Natural Language Processing
+(NLP) based applications including automated text generation, question
+answering, chatbots, and others. However, they face a significant challenge:
+hallucinations, where models produce plausible-sounding but factually incorrect
+responses. This undermines trust and limits the applicability of LLMs in
+different domains. Knowledge Graphs (KGs), on the other hand, provide a
+structured collection of interconnected facts represented as entities (nodes)
+and their relationships (edges). In recent research, KGs have been leveraged to
+provide context that can fill gaps in an LLM understanding of certain topics
+offering a promising approach to mitigate hallucinations in LLMs, enhancing
+their reliability and accuracy while benefiting from their wide applicability.
+Nonetheless, it is still a very active area of research with various unresolved
+open problems. In this paper, we discuss these open challenges covering
+state-of-the-art datasets and benchmarks as well as methods for knowledge
+integration and evaluating hallucinations. In our discussion, we consider the
+current use of KGs in LLM systems and identify future directions within each of
+these challenges.",2024-11-21
+"Robust Detection of Watermarks for Large Language Models Under Human
+  Edits",2024-11-21 06:06:04+00:00,http://arxiv.org/abs/2411.13868v1,"Xiang Li, Feng Ruan, Huiyuan Wang, Qi Long, Weijie J. Su","cs.LG, cs.CL, math.ST, stat.ME, stat.ML, stat.TH",knowledge,"Watermarking has offered an effective approach to distinguishing text
+generated by large language models (LLMs) from human-written text. However, the
+pervasive presence of human edits on LLM-generated text dilutes watermark
+signals, thereby significantly degrading detection performance of existing
+methods. In this paper, by modeling human edits through mixture model
+detection, we introduce a new method in the form of a truncated goodness-of-fit
+test for detecting watermarked text under human edits, which we refer to as
+Tr-GoF. We prove that the Tr-GoF test achieves optimality in robust detection
+of the Gumbel-max watermark in a certain asymptotic regime of substantial text
+modifications and vanishing watermark signals. Importantly, Tr-GoF achieves
+this optimality \textit{adaptively} as it does not require precise knowledge of
+human edit levels or probabilistic specifications of the LLMs, in contrast to
+the optimal but impractical (Neyman--Pearson) likelihood ratio test. Moreover,
+we establish that the Tr-GoF test attains the highest detection efficiency rate
+in a certain regime of moderate text modifications. In stark contrast, we show
+that sum-based detection rules, as employed by existing methods, fail to
+achieve optimal robustness in both regimes because the additive nature of their
+statistics is less resilient to edit-induced noise. Finally, we demonstrate the
+competitive and sometimes superior empirical performance of the Tr-GoF test on
+both synthetic data and open-source LLMs in the OPT and LLaMA families.",2024-11-21
+"From Text to Pose to Image: Improving Diffusion Model Control and
+  Quality",2024-11-19 21:34:50+00:00,http://arxiv.org/abs/2411.12872v2,"Clément Bonnet, Ariel N. Lee, Franck Wertel, Antoine Tamano, Tanguy Cizain, Pablo Ducru","cs.CV, cs.AI, cs.LG",knowledge,"In the last two years, text-to-image diffusion models have become extremely
+popular. As their quality and usage increase, a major concern has been the need
+for better output control. In addition to prompt engineering, one effective
+method to improve the controllability of diffusion models has been to condition
+them on additional modalities such as image style, depth map, or keypoints.
+This forms the basis of ControlNets or Adapters. When attempting to apply these
+methods to control human poses in outputs of text-to-image diffusion models,
+two main challenges have arisen. The first challenge is generating poses
+following a wide range of semantic text descriptions, for which previous
+methods involved searching for a pose within a dataset of (caption, pose)
+pairs. The second challenge is conditioning image generation on a specified
+pose while keeping both high aesthetic and high pose fidelity. In this article,
+we fix these two main issues by introducing a text-to-pose (T2P) generative
+model alongside a new sampling algorithm, and a new pose adapter that
+incorporates more pose keypoints for higher pose fidelity. Together, these two
+new state-of-the-art models enable, for the first time, a generative
+text-to-pose-to-image framework for higher pose control in diffusion models. We
+release all models and the code used for the experiments at
+https://github.com/clement-bonnet/text-to-pose.",2024-11-19
+"A Combined Encoder and Transformer Approach for Coherent and
+  High-Quality Text Generation",2024-11-19 01:41:56+00:00,http://arxiv.org/abs/2411.12157v1,"Jiajing Chen, Shuo Wang, Zhen Qi, Zhenhong Zhang, Chihang Wang, Hongye Zheng",cs.CL,knowledge,"This research introduces a novel text generation model that combines BERT's
+semantic interpretation strengths with GPT-4's generative capabilities,
+establishing a high standard in generating coherent, contextually accurate
+language. Through the combined architecture, the model enhances semantic depth
+and maintains smooth, human-like text flow, overcoming limitations seen in
+prior models. Experimental benchmarks reveal that BERT-GPT-4 surpasses
+traditional models, including GPT-3, T5, BART, Transformer-XL, and CTRL, in key
+metrics like Perplexity and BLEU, showcasing its superior natural language
+generation performance. By fully utilizing contextual information, this hybrid
+model generates text that is not only logically coherent but also aligns
+closely with human language patterns, providing an advanced solution for text
+generation tasks. This research highlights the potential of integrating
+semantic understanding with advanced generative models, contributing new
+insights for NLP, and setting a foundation for broader applications of
+large-scale generative architectures in areas such as automated writing,
+question-answer systems, and adaptive conversational agents.",2024-11-19
+"FedCoLLM: A Parameter-Efficient Federated Co-tuning Framework for Large
+  and Small Language Models",2024-11-18 16:34:58+00:00,http://arxiv.org/abs/2411.11707v1,"Tao Fan, Yan Kang, Guoqiang Ma, Lixin Fan, Kai Chen, Qiang Yang","cs.CL, cs.AI",knowledge,"By adapting Large Language Models (LLMs) to domain-specific tasks or
+enriching them with domain-specific knowledge, we can fully harness the
+capabilities of LLMs. Nonetheless, a gap persists in achieving simultaneous
+mutual enhancement between the server's LLM and the downstream clients' Small
+Language Models (SLMs). To address this, we propose FedCoLLM, a novel and
+parameter-efficient federated framework designed for co-tuning LLMs and SLMs.
+This approach is aimed at adaptively transferring server-side LLMs knowledge to
+clients' SLMs while simultaneously enriching the LLMs with domain insights from
+the clients. To accomplish this, FedCoLLM utilizes lightweight adapters in
+conjunction with SLMs, facilitating knowledge exchange between server and
+clients in a manner that respects data privacy while also minimizing
+computational and communication overhead. Our evaluation of FedCoLLM, utilizing
+various public LLMs and SLMs across a range of NLP text generation tasks,
+reveals that the performance of clients' SLMs experiences notable improvements
+with the assistance of the LLMs. Simultaneously, the LLMs enhanced via FedCoLLM
+achieves comparable performance to that obtained through direct fine-tuning on
+clients' data.",2024-11-18
+"CROW: Eliminating Backdoors from Large Language Models via Internal
+  Consistency Regularization",2024-11-18 07:52:12+00:00,http://arxiv.org/abs/2411.12768v1,"Nay Myat Min, Long H. Pham, Yige Li, Jun Sun","cs.CL, cs.AI, cs.LG",knowledge,"Recent studies reveal that Large Language Models (LLMs) are susceptible to
+backdoor attacks, where adversaries embed hidden triggers that manipulate model
+responses. Existing backdoor defense methods are primarily designed for vision
+or classification tasks, and are thus ineffective for text generation tasks,
+leaving LLMs vulnerable. We introduce Internal Consistency Regularization
+(CROW), a novel defense using consistency regularization finetuning to address
+layer-wise inconsistencies caused by backdoor triggers. CROW leverages the
+intuition that clean models exhibit smooth, consistent transitions in hidden
+representations across layers, whereas backdoored models show noticeable
+fluctuation when triggered. By enforcing internal consistency through
+adversarial perturbations and regularization, CROW neutralizes backdoor effects
+without requiring clean reference models or prior trigger knowledge, relying
+only on a small set of clean data. This makes it practical for deployment
+across various LLM architectures. Experimental results demonstrate that CROW
+consistently achieves a significant reductions in attack success rates across
+diverse backdoor strategies and tasks, including negative sentiment, targeted
+refusal, and code injection, on models such as Llama-2 (7B, 13B), CodeLlama
+(7B, 13B) and Mistral-7B, while preserving the model's generative capabilities.",2024-11-18
+SEFD: Semantic-Enhanced Framework for Detecting LLM-Generated Text,2024-11-17 20:13:30+00:00,http://arxiv.org/abs/2411.12764v1,"Weiqing He, Bojian Hou, Tianqi Shang, Davoud Ataee Tarzanagh, Qi Long, Li Shen","cs.CL, cs.AI, cs.IR",knowledge,"The widespread adoption of large language models (LLMs) has created an urgent
+need for robust tools to detect LLM-generated text, especially in light of
+\textit{paraphrasing} techniques that often evade existing detection methods.
+To address this challenge, we present a novel semantic-enhanced framework for
+detecting LLM-generated text (SEFD) that leverages a retrieval-based mechanism
+to fully utilize text semantics. Our framework improves upon existing detection
+methods by systematically integrating retrieval-based techniques with
+traditional detectors, employing a carefully curated retrieval mechanism that
+strikes a balance between comprehensive coverage and computational efficiency.
+We showcase the effectiveness of our approach in sequential text scenarios
+common in real-world applications, such as online forums and Q\&A platforms.
+Through comprehensive experiments across various LLM-generated texts and
+detection methods, we demonstrate that our framework substantially enhances
+detection accuracy in paraphrasing scenarios while maintaining robustness for
+standard LLM-generated content.",2024-11-17
+LLM Hallucination Reasoning with Zero-shot Knowledge Test,2024-11-14 18:55:26+00:00,http://arxiv.org/abs/2411.09689v1,"Seongmin Lee, Hsiang Hsu, Chun-Fu Chen","cs.AI, cs.CL",knowledge,"LLM hallucination, where LLMs occasionally generate unfaithful text, poses
+significant challenges for their practical applications. Most existing
+detection methods rely on external knowledge, LLM fine-tuning, or
+hallucination-labeled datasets, and they do not distinguish between different
+types of hallucinations, which are crucial for improving detection performance.
+We introduce a new task, Hallucination Reasoning, which classifies
+LLM-generated text into one of three categories: aligned, misaligned, and
+fabricated. Our novel zero-shot method assesses whether LLM has enough
+knowledge about a given prompt and text. Our experiments conducted on new
+datasets demonstrate the effectiveness of our method in hallucination reasoning
+and underscore its importance for enhancing detection performance.",2024-11-14
+LLaMA-Mesh: Unifying 3D Mesh Generation with Language Models,2024-11-14 17:08:23+00:00,http://arxiv.org/abs/2411.09595v1,"Zhengyi Wang, Jonathan Lorraine, Yikai Wang, Hang Su, Jun Zhu, Sanja Fidler, Xiaohui Zeng","cs.LG, cs.AI, cs.CL, cs.CV, 68T05, I.3.5; I.2.10; I.2.6",knowledge,"This work explores expanding the capabilities of large language models (LLMs)
+pretrained on text to generate 3D meshes within a unified model. This offers
+key advantages of (1) leveraging spatial knowledge already embedded in LLMs,
+derived from textual sources like 3D tutorials, and (2) enabling conversational
+3D generation and mesh understanding. A primary challenge is effectively
+tokenizing 3D mesh data into discrete tokens that LLMs can process seamlessly.
+To address this, we introduce LLaMA-Mesh, a novel approach that represents the
+vertex coordinates and face definitions of 3D meshes as plain text, allowing
+direct integration with LLMs without expanding the vocabulary. We construct a
+supervised fine-tuning (SFT) dataset enabling pretrained LLMs to (1) generate
+3D meshes from text prompts, (2) produce interleaved text and 3D mesh outputs
+as required, and (3) understand and interpret 3D meshes. Our work is the first
+to demonstrate that LLMs can be fine-tuned to acquire complex spatial knowledge
+for 3D mesh generation in a text-based format, effectively unifying the 3D and
+text modalities. LLaMA-Mesh achieves mesh generation quality on par with models
+trained from scratch while maintaining strong text generation performance.",2024-11-14
 Asterisk*: Keep it Simple,2024-11-08 16:42:33+00:00,http://arxiv.org/abs/2411.05691v1,Andrew Semenov,"cs.CL, cs.AI",knowledge,"This paper describes Asterisk, a compact GPT-based model for generating text
 embeddings. The model uses a minimalist architecture with two layers, two
 attention heads, and 256 embedding dimensions. By applying knowledge

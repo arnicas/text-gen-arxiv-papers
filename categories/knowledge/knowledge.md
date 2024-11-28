@@ -7,10 +7,23 @@ sidebar:
 ---
 
 
-*written on 2024-11-11*
+*written on 2024-11-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Can LLMs be Good Graph Judger for Knowledge Graph Construction?](http://arxiv.org/abs/2411.17388v1) | Haoyu Huang, Chong Chen, Conghui He, Yang Li, Jiawei Jiang, Wentao Zhang | cs.CL, cs.AI | 2024-11-26 |
+| [Dynamic Self-Distillation via Previous Mini-batches for Fine-tuning  Small Language Models](http://arxiv.org/abs/2411.16991v1) | Yao Fu, Yin Yu, Xiaotian Han, Runchao Li, Xianxuan Long, Haotian Yu, Pan Li | cs.CL | 2024-11-25 |
+| [MolMetaLM: a Physicochemical Knowledge-Guided Molecular Meta Language  Model](http://arxiv.org/abs/2411.15500v1) | Yifan Wu, Min Zeng, Yang Li, Yang Zhang, Min Li | cs.ET, cs.CL | 2024-11-23 |
+| [Benchmarking Multimodal Models for Ukrainian Language Understanding  Across Academic and Cultural Domains](http://arxiv.org/abs/2411.14647v1) | Yurii Paniv, Artur Kiulian, Dmytro Chaplynskyi, Mykola Khandoga, Anton Polishko, Tetiana Bas, Guillermo Gabrielli | cs.CL | 2024-11-22 |
+| [Knowledge Graphs, Large Language Models, and Hallucinations: An NLP  Perspective](http://arxiv.org/abs/2411.14258v1) | Ernests Lavrinovics, Russa Biswas, Johannes Bjerva, Katja Hose | cs.CL, cs.AI, 68-02, I.2.7 | 2024-11-21 |
+| [Robust Detection of Watermarks for Large Language Models Under Human  Edits](http://arxiv.org/abs/2411.13868v1) | Xiang Li, Feng Ruan, Huiyuan Wang, Qi Long, Weijie J. Su | cs.LG, cs.CL, math.ST, stat.ME, stat.ML, stat.TH | 2024-11-21 |
+| [From Text to Pose to Image: Improving Diffusion Model Control and  Quality](http://arxiv.org/abs/2411.12872v2) | Clément Bonnet, Ariel N. Lee, Franck Wertel, Antoine Tamano, Tanguy Cizain, Pablo Ducru | cs.CV, cs.AI, cs.LG | 2024-11-19 |
+| [A Combined Encoder and Transformer Approach for Coherent and  High-Quality Text Generation](http://arxiv.org/abs/2411.12157v1) | Jiajing Chen, Shuo Wang, Zhen Qi, Zhenhong Zhang, Chihang Wang, Hongye Zheng | cs.CL | 2024-11-19 |
+| [FedCoLLM: A Parameter-Efficient Federated Co-tuning Framework for Large  and Small Language Models](http://arxiv.org/abs/2411.11707v1) | Tao Fan, Yan Kang, Guoqiang Ma, Lixin Fan, Kai Chen, Qiang Yang | cs.CL, cs.AI | 2024-11-18 |
+| [CROW: Eliminating Backdoors from Large Language Models via Internal  Consistency Regularization](http://arxiv.org/abs/2411.12768v1) | Nay Myat Min, Long H. Pham, Yige Li, Jun Sun | cs.CL, cs.AI, cs.LG | 2024-11-18 |
+| [SEFD: Semantic-Enhanced Framework for Detecting LLM-Generated Text](http://arxiv.org/abs/2411.12764v1) | Weiqing He, Bojian Hou, Tianqi Shang, Davoud Ataee Tarzanagh, Qi Long, Li Shen | cs.CL, cs.AI, cs.IR | 2024-11-17 |
+| [LLM Hallucination Reasoning with Zero-shot Knowledge Test](http://arxiv.org/abs/2411.09689v1) | Seongmin Lee, Hsiang Hsu, Chun-Fu Chen | cs.AI, cs.CL | 2024-11-14 |
+| [LLaMA-Mesh: Unifying 3D Mesh Generation with Language Models](http://arxiv.org/abs/2411.09595v1) | Zhengyi Wang, Jonathan Lorraine, Yikai Wang, Hang Su, Jun Zhu, Sanja Fidler, Xiaohui Zeng | cs.LG, cs.AI, cs.CL, cs.CV, 68T05, I.3.5; I.2.10; I.2.6 | 2024-11-14 |
 | [Asterisk*: Keep it Simple](http://arxiv.org/abs/2411.05691v1) | Andrew Semenov | cs.CL, cs.AI | 2024-11-08 |
 | [Ev2R: Evaluating Evidence Retrieval in Automated Fact-Checking](http://arxiv.org/abs/2411.05375v1) | Mubashara Akhtar, Michael Schlichtkrull, Andreas Vlachos | cs.CL, cs.AI, cs.IR, cs.LG | 2024-11-08 |
 | [PadChest-GR: A Bilingual Chest X-ray Dataset for Grounded Radiology  Report Generation](http://arxiv.org/abs/2411.05085v1) | Daniel C. Castro, Aurelia Bustos, Shruthi Bannur, Stephanie L. Hyland, Kenza Bouzid, Maria Teodora Wetscherek, Maria Dolores Sánchez-Valverde, Lara Jaques-Pérez, Lourdes Pérez-Rodríguez, Kenji Takeda, José María Salinas, Javier Alvarez-Valle, Joaquín Galant Herrero, Antonio Pertusa | cs.AI, cs.CL, cs.CV | 2024-11-07 |

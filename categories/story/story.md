@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2024-11-11*
+*written on 2024-11-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Richer Output for Richer Countries: Uncovering Geographical Disparities  in Generated Stories and Travel Recommendations](http://arxiv.org/abs/2411.07320v1) | Kirti Bhagat, Kinshuk Vasisht, Danish Pruthi | cs.CL, cs.AI, cs.CY, cs.LG | 2024-11-11 |
 | [Bayesian Calibration of Win Rate Estimation with LLM Evaluators](http://arxiv.org/abs/2411.04424v1) | Yicheng Gao, Gonghan Xu, Zhe Wang, Arman Cohan | cs.CL, cs.AI | 2024-11-07 |
 | [Evaluating Creative Short Story Generation in Humans and Large Language  Models](http://arxiv.org/abs/2411.02316v2) | Mete Ismayilzada, Claire Stevenson, Lonneke van der Plas | cs.CL, cs.AI | 2024-11-04 |
 | [A Multi-Task Role-Playing Agent Capable of Imitating Character  Linguistic Styles](http://arxiv.org/abs/2411.02457v1) | Siyuan Chen, Qingyi Si, Chenxu Yang, Yunzhi Liang, Zheng Lin, Huan Liu, Weiping Wang | cs.CL, cs.AI | 2024-11-04 |

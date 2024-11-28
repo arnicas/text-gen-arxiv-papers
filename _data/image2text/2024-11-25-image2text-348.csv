@@ -1,4 +1,142 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"LaB-RAG: Label Boosted Retrieval Augmented Generation for Radiology
+  Report Generation",2024-11-25 16:10:05+00:00,http://arxiv.org/abs/2411.16523v1,"Steven Song, Anirudh Subramanyam, Irene Madejski, Robert L. Grossman","cs.CV, cs.CL",image2text,"In the current paradigm of image captioning, deep learning models are trained
+to generate text from image embeddings of latent features. We challenge the
+assumption that these latent features ought to be high-dimensional vectors
+which require model fine tuning to handle. Here we propose Label Boosted
+Retrieval Augmented Generation (LaB-RAG), a text-based approach to image
+captioning that leverages image descriptors in the form of categorical labels
+to boost standard retrieval augmented generation (RAG) with pretrained large
+language models (LLMs). We study our method in the context of radiology report
+generation (RRG), where the task is to generate a clinician's report detailing
+their observations from a set of radiological images, such as X-rays. We argue
+that simple linear classifiers over extracted image embeddings can effectively
+transform X-rays into text-space as radiology-specific labels. In combination
+with standard RAG, we show that these derived text labels can be used with
+general-domain LLMs to generate radiology reports. Without ever training our
+generative language model or image feature encoder models, and without ever
+directly ""showing"" the LLM an X-ray, we demonstrate that LaB-RAG achieves
+better results across natural language and radiology language metrics compared
+with other retrieval-based RRG methods, while attaining competitive results
+compared to other fine-tuned vision-language RRG models. We further present
+results of our experiments with various components of LaB-RAG to better
+understand our method. Finally, we critique the use of a popular RRG metric,
+arguing it is possible to artificially inflate its results without true
+data-leakage.",2024-11-25
+"MolMetaLM: a Physicochemical Knowledge-Guided Molecular Meta Language
+  Model",2024-11-23 09:27:38+00:00,http://arxiv.org/abs/2411.15500v1,"Yifan Wu, Min Zeng, Yang Li, Yang Zhang, Min Li","cs.ET, cs.CL",image2text,"Most current molecular language models transfer the masked language model or
+image-text generation model from natural language processing to molecular
+field. However, molecules are not solely characterized by atom/bond symbols;
+they encapsulate important physical/chemical properties. Moreover, normal
+language models bring grammar rules that are irrelevant for understanding
+molecules. In this study, we propose a novel physicochemical knowledge-guided
+molecular meta language framework MolMetaLM. We design a molecule-specialized
+meta language paradigm, formatted as multiple <S,P,O> (subject, predicate,
+object) knowledge triples sharing the same S (i.e., molecule) to enhance
+learning the semantic relationships between physicochemical knowledge and
+molecules. By introducing different molecular knowledge and noises, the meta
+language paradigm generates tens of thousands of pretraining tasks. By
+recovering the token/sequence/order-level noises, MolMetaLM exhibits
+proficiency in large-scale benchmark evaluations involving property prediction,
+molecule generation, conformation inference, and molecular optimization.
+Through MolMetaLM, we offer a new insight for designing language models.",2024-11-23
+"Improving Factuality of 3D Brain MRI Report Generation with Paired
+  Image-domain Retrieval and Text-domain Augmentation",2024-11-23 08:18:55+00:00,http://arxiv.org/abs/2411.15490v1,"Junhyeok Lee, Yujin Oh, Dahyoun Lee, Hyon Keun Joh, Chul-Ho Sohn, Sung Hyun Baik, Cheol Kyu Jung, Jung Hyun Park, Kyu Sung Choi, Byung-Hoon Kim, Jong Chul Ye","cs.CV, cs.LG, eess.IV",image2text,"Acute ischemic stroke (AIS) requires time-critical management, with hours of
+delayed intervention leading to an irreversible disability of the patient.
+Since diffusion weighted imaging (DWI) using the magnetic resonance image (MRI)
+plays a crucial role in the detection of AIS, automated prediction of AIS from
+DWI has been a research topic of clinical importance. While text radiology
+reports contain the most relevant clinical information from the image findings,
+the difficulty of mapping across different modalities has limited the
+factuality of conventional direct DWI-to-report generation methods. Here, we
+propose paired image-domain retrieval and text-domain augmentation (PIRTA), a
+cross-modal retrieval-augmented generation (RAG) framework for providing
+clinician-interpretative AIS radiology reports with improved factuality. PIRTA
+mitigates the need for learning cross-modal mapping, which poses difficulty in
+image-to-text generation, by casting the cross-modal mapping problem as an
+in-domain retrieval of similar DWI images that have paired ground-truth text
+radiology reports. By exploiting the retrieved radiology reports to augment the
+report generation process of the query image, we show by experiments with
+extensive in-house and public datasets that PIRTA can accurately retrieve
+relevant reports from 3D DWI images. This approach enables the generation of
+radiology reports with significantly higher accuracy compared to direct
+image-to-text generation using state-of-the-art multimodal language models.",2024-11-23
+"Benchmarking Multimodal Models for Ukrainian Language Understanding
+  Across Academic and Cultural Domains",2024-11-22 00:37:49+00:00,http://arxiv.org/abs/2411.14647v1,"Yurii Paniv, Artur Kiulian, Dmytro Chaplynskyi, Mykola Khandoga, Anton Polishko, Tetiana Bas, Guillermo Gabrielli",cs.CL,image2text,"While the evaluation of multimodal English-centric models is an active area
+of research with numerous benchmarks, there is a profound lack of benchmarks or
+evaluation suites for low- and mid-resource languages. We introduce ZNO-Vision,
+a comprehensive multimodal Ukrainian-centric benchmark derived from
+standardized university entrance examination (ZNO). The benchmark consists of
+over 4,300 expert-crafted questions spanning 12 academic disciplines, including
+mathematics, physics, chemistry, and humanities. We evaluated the performance
+of both open-source models and API providers, finding that only a handful of
+models performed above baseline. Alongside the new benchmark, we performed the
+first evaluation study of multimodal text generation for the Ukrainian
+language: we measured caption generation quality on the Multi30K-UK dataset,
+translated the VQA benchmark into Ukrainian, and measured performance
+degradation relative to original English versions. Lastly, we tested a few
+models from a cultural perspective on knowledge of national cuisine. We believe
+our work will advance multimodal generation capabilities for the Ukrainian
+language and our approach could be useful for other low-resource languages.",2024-11-22
+"From Text to Pose to Image: Improving Diffusion Model Control and
+  Quality",2024-11-19 21:34:50+00:00,http://arxiv.org/abs/2411.12872v2,"Clément Bonnet, Ariel N. Lee, Franck Wertel, Antoine Tamano, Tanguy Cizain, Pablo Ducru","cs.CV, cs.AI, cs.LG",image2text,"In the last two years, text-to-image diffusion models have become extremely
+popular. As their quality and usage increase, a major concern has been the need
+for better output control. In addition to prompt engineering, one effective
+method to improve the controllability of diffusion models has been to condition
+them on additional modalities such as image style, depth map, or keypoints.
+This forms the basis of ControlNets or Adapters. When attempting to apply these
+methods to control human poses in outputs of text-to-image diffusion models,
+two main challenges have arisen. The first challenge is generating poses
+following a wide range of semantic text descriptions, for which previous
+methods involved searching for a pose within a dataset of (caption, pose)
+pairs. The second challenge is conditioning image generation on a specified
+pose while keeping both high aesthetic and high pose fidelity. In this article,
+we fix these two main issues by introducing a text-to-pose (T2P) generative
+model alongside a new sampling algorithm, and a new pose adapter that
+incorporates more pose keypoints for higher pose fidelity. Together, these two
+new state-of-the-art models enable, for the first time, a generative
+text-to-pose-to-image framework for higher pose control in diffusion models. We
+release all models and the code used for the experiments at
+https://github.com/clement-bonnet/text-to-pose.",2024-11-19
+"Debias your Large Multi-Modal Model at Test-Time with Non-Contrastive
+  Visual Attribute Steering",2024-11-15 20:06:09+00:00,http://arxiv.org/abs/2411.12590v1,"Neale Ratzlaff, Matthew Lyle Olson, Musashi Hinck, Estelle Aflalo, Shao-Yen Tseng, Vasudev Lal, Phillip Howard","cs.CV, cs.LG",image2text,"Large Multi-Modal Models (LMMs) have demonstrated impressive capabilities as
+general-purpose chatbots that can engage in conversations about a provided
+input, such as an image. However, their responses are influenced by societal
+biases present in their training datasets, leading to undesirable differences
+in how the model responds when presented with images depicting people of
+different demographics. In this work, we propose a novel debiasing framework
+for LMMs that directly removes biased representations during text generation to
+decrease outputs related to protected attributes, or even representing them
+internally. Our proposed method is training-free; given a single image and a
+list of target attributes, we can ablate the corresponding representations with
+just one step of gradient descent on the image itself. Our experiments show
+that not only can we can minimize the propensity of LMMs to generate text
+related to protected attributes, but we can improve sentiment and even simply
+use synthetic data to inform the ablation while retaining language modeling
+capabilities on real data such as COCO or FACET. Furthermore, we find the
+resulting generations from a debiased LMM exhibit similar accuracy as a
+baseline biased model, showing that debiasing effects can be achieved without
+sacrificing model performance.",2024-11-15
+"Bridging the Visual Gap: Fine-Tuning Multimodal Models with
+  Knowledge-Adapted Captions",2024-11-13 20:50:04+00:00,http://arxiv.org/abs/2411.09018v1,"Moran Yanuka, Assaf Ben Kish, Yonatan Bitton, Idan Szpektor, Raja Giryes","cs.CV, cs.CL, cs.LG",image2text,"Recent research increasingly focuses on training vision-language models
+(VLMs) with long, detailed image captions. However, small-scale VLMs often
+struggle to balance the richness of these captions with the risk of
+hallucinating content during fine-tuning. In this paper, we explore how well
+VLMs adapt to such captions. To quantify caption quality, we propose Decomposed
+NLI (DNLI), an evaluation framework that breaks down generated captions into
+individual propositions, assessing each in isolation. This fine-grained
+analysis reveals a critical balance between capturing descriptive details and
+preventing hallucinations. Our findings show that simply reducing caption
+complexity or employing standard data curation techniques does not effectively
+resolve this issue. To tackle this challenge, we introduce Knowledge Adapted
+(KnowAda) fine-tuning, a data-centric approach that automatically adapts
+training data with the model's existing knowledge and visual understanding.
+KnowAda minimizes hallucinations while preserving high descriptiveness. We
+validate this approach across several small-scale VLMs (up to 7B parameters)
+and dense caption datasets, demonstrating that KnowAda effectively balances
+hallucination reduction and descriptiveness. Our results show that KnowAda
+outperforms various baselines in both automatic metrics and human evaluations.
+We will release our code and models.",2024-11-13
 "Decoding Report Generators: A Cyclic Vision-Language Adapter for
   Counterfactual Explanations",2024-11-08 01:46:11+00:00,http://arxiv.org/abs/2411.05261v1,"Yingying Fang, Zihao Jin, Shaojie Guo, Jinda Liu, Yijian Gao, Junzhi Ning, Zhiling Yue, Zhi Li, Simon LF Walsh, Guang Yang","cs.CV, cs.AI, cs.CL, cs.LG",image2text,"Despite significant advancements in report generation methods, a critical
 limitation remains: the lack of interpretability in the generated text. This

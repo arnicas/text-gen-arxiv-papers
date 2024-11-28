@@ -1,4 +1,18 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Richer Output for Richer Countries: Uncovering Geographical Disparities
+  in Generated Stories and Travel Recommendations",2024-11-11 19:25:25+00:00,http://arxiv.org/abs/2411.07320v1,"Kirti Bhagat, Kinshuk Vasisht, Danish Pruthi","cs.CL, cs.AI, cs.CY, cs.LG",story,"While a large body of work inspects language models for biases concerning
+gender, race, occupation and religion, biases of geographical nature are
+relatively less explored. Some recent studies benchmark the degree to which
+large language models encode geospatial knowledge. However, the impact of the
+encoded geographical knowledge (or lack thereof) on real-world applications has
+not been documented. In this work, we examine large language models for two
+common scenarios that require geographical knowledge: (a) travel
+recommendations and (b) geo-anchored story generation. Specifically, we study
+four popular language models, and across about $100$K travel requests, and
+$200$K story generations, we observe that travel recommendations corresponding
+to poorer countries are less unique with fewer location references, and stories
+from these regions more often convey emotions of hardship and sadness compared
+to those from wealthier nations.",2024-11-11
 Bayesian Calibration of Win Rate Estimation with LLM Evaluators,2024-11-07 04:32:40+00:00,http://arxiv.org/abs/2411.04424v1,"Yicheng Gao, Gonghan Xu, Zhe Wang, Arman Cohan","cs.CL, cs.AI",story,"Recent advances in large language models (LLMs) show the potential of using
 LLMs as evaluators for assessing the quality of text generations from LLMs.
 However, applying LLM evaluators naively to compare or judge between different
