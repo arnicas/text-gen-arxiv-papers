@@ -1,4 +1,254 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Map2Text: New Content Generation from Low-Dimensional Visualizations,2024-12-24 20:16:13+00:00,http://arxiv.org/abs/2412.18673v1,"Xingjian Zhang, Ziyang Xiong, Shixuan Liu, Yutong Xie, Tolga Ergen, Dongsub Shim, Hua Xu, Honglak Lee, Qiaozhu Me","cs.AI, cs.HC",knowledge,"Low-dimensional visualizations, or ""projection maps"" of datasets, are widely
+used across scientific research and creative industries as effective tools for
+interpreting large-scale and complex information. These visualizations not only
+support understanding existing knowledge spaces but are often used implicitly
+to guide exploration into unknown areas. While powerful methods like TSNE or
+UMAP can create such visual maps, there is currently no systematic way to
+leverage them for generating new content. To bridge this gap, we introduce
+Map2Text, a novel task that translates spatial coordinates within
+low-dimensional visualizations into new, coherent, and accurately aligned
+textual content. This allows users to explore and navigate undiscovered
+information embedded in these spatial layouts interactively and intuitively. To
+evaluate the performance of Map2Text methods, we propose Atometric, an
+evaluation metric that provides a granular assessment of logical coherence and
+alignment of the atomic statements in the generated texts. Experiments
+conducted across various datasets demonstrate the versatility of Map2Text in
+generating scientific research hypotheses, crafting synthetic personas, and
+devising strategies for testing large language models. Our findings highlight
+the potential of Map2Text to unlock new pathways for interacting with and
+navigating large-scale textual datasets, offering a novel framework for
+spatially guided content generation and discovery.",2024-12-24
+"The HalluRAG Dataset: Detecting Closed-Domain Hallucinations in RAG
+  Applications Using an LLM's Internal States",2024-12-22 15:08:24+00:00,http://arxiv.org/abs/2412.17056v1,"Fabian Ridder, Malte Schilling","cs.CL, cs.LG",knowledge,"Detecting hallucinations in large language models (LLMs) is critical for
+enhancing their reliability and trustworthiness. Most research focuses on
+hallucinations as deviations from information seen during training. However,
+the opaque nature of an LLM's parametric knowledge complicates the
+understanding of why generated texts appear ungrounded: The LLM might not have
+picked up the necessary knowledge from large and often inaccessible datasets,
+or the information might have been changed or contradicted during further
+training. Our focus is on hallucinations involving information not used in
+training, which we determine by using recency to ensure the information emerged
+after a cut-off date. This study investigates these hallucinations by detecting
+them at sentence level using different internal states of various LLMs. We
+present HalluRAG, a dataset designed to train classifiers on these
+hallucinations. Depending on the model and quantization, MLPs trained on
+HalluRAG detect hallucinations with test accuracies ranging up to 75 %, with
+Mistral-7B-Instruct-v0.1 achieving the highest test accuracies. Our results
+show that IAVs detect hallucinations as effectively as CEVs and reveal that
+answerable and unanswerable prompts are encoded differently as separate
+classifiers for these categories improved accuracy. However, HalluRAG showed
+some limited generalizability, advocating for more diversity in datasets on
+hallucinations.",2024-12-22
+GraphAgent: Agentic Graph Language Assistant,2024-12-22 14:13:32+00:00,http://arxiv.org/abs/2412.17029v1,"Yuhao Yang, Jiabin Tang, Lianghao Xia, Xingchen Zou, Yuxuan Liang, Chao Huang",cs.AI,knowledge,"Real-world data is represented in both structured (e.g., graph connections)
+and unstructured (e.g., textual, visual information) formats, encompassing
+complex relationships that include explicit links (such as social connections
+and user behaviors) and implicit interdependencies among semantic entities,
+often illustrated through knowledge graphs. In this work, we propose
+GraphAgent, an automated agent pipeline that addresses both explicit graph
+dependencies and implicit graph-enhanced semantic inter-dependencies, aligning
+with practical data scenarios for predictive tasks (e.g., node classification)
+and generative tasks (e.g., text generation). GraphAgent comprises three key
+components: (i) a Graph Generator Agent that builds knowledge graphs to reflect
+complex semantic dependencies; (ii) a Task Planning Agent that interprets
+diverse user queries and formulates corresponding tasks through agentic
+self-planning; and (iii) a Task Execution Agent that efficiently executes
+planned tasks while automating tool matching and invocation in response to user
+queries. These agents collaborate seamlessly, integrating language models with
+graph language models to uncover intricate relational information and data
+semantic dependencies. Through extensive experiments on various graph-related
+predictive and text generative tasks on diverse datasets, we demonstrate the
+effectiveness of our GraphAgent across various settings. We have made our
+proposed GraphAgent open-source at: https://github.com/HKUDS/GraphAgent.",2024-12-22
+EMPRA: Embedding Perturbation Rank Attack against Neural Ranking Models,2024-12-20 22:36:19+00:00,http://arxiv.org/abs/2412.16382v1,"Amin Bigdeli, Negar Arabzadeh, Ebrahim Bagheri, Charles L. A. Clarke",cs.IR,knowledge,"Recent research has shown that neural information retrieval techniques may be
+susceptible to adversarial attacks. Adversarial attacks seek to manipulate the
+ranking of documents, with the intention of exposing users to targeted content.
+In this paper, we introduce the Embedding Perturbation Rank Attack (EMPRA)
+method, a novel approach designed to perform adversarial attacks on black-box
+Neural Ranking Models (NRMs). EMPRA manipulates sentence-level embeddings,
+guiding them towards pertinent context related to the query while preserving
+semantic integrity. This process generates adversarial texts that seamlessly
+integrate with the original content and remain imperceptible to humans. Our
+extensive evaluation conducted on the widely-used MS MARCO V1 passage
+collection demonstrate the effectiveness of EMPRA against a wide range of
+state-of-the-art baselines in promoting a specific set of target documents
+within a given ranked results. Specifically, EMPRA successfully achieves a
+re-ranking of almost 96% of target documents originally ranked between 51-100
+to rank within the top 10. Furthermore, EMPRA does not depend on surrogate
+models for adversarial text generation, enhancing its robustness against
+different NRMs in realistic settings.",2024-12-20
+Qwen2.5 Technical Report,2024-12-19 17:56:09+00:00,http://arxiv.org/abs/2412.15115v1,"Qwen, :, An Yang, Baosong Yang, Beichen Zhang, Binyuan Hui, Bo Zheng, Bowen Yu, Chengyuan Li, Dayiheng Liu, Fei Huang, Haoran Wei, Huan Lin, Jian Yang, Jianhong Tu, Jianwei Zhang, Jianxin Yang, Jiaxi Yang, Jingren Zhou, Junyang Lin, Kai Dang, Keming Lu, Keqin Bao, Kexin Yang, Le Yu, Mei Li, Mingfeng Xue, Pei Zhang, Qin Zhu, Rui Men, Runji Lin, Tianhao Li, Tingyu Xia, Xingzhang Ren, Xuancheng Ren, Yang Fan, Yang Su, Yichang Zhang, Yu Wan, Yuqiong Liu, Zeyu Cui, Zhenru Zhang, Zihan Qiu",cs.CL,knowledge,"In this report, we introduce Qwen2.5, a comprehensive series of large
+language models (LLMs) designed to meet diverse needs. Compared to previous
+iterations, Qwen 2.5 has been significantly improved during both the
+pre-training and post-training stages. In terms of pre-training, we have scaled
+the high-quality pre-training datasets from the previous 7 trillion tokens to
+18 trillion tokens. This provides a strong foundation for common sense, expert
+knowledge, and reasoning capabilities. In terms of post-training, we implement
+intricate supervised finetuning with over 1 million samples, as well as
+multistage reinforcement learning. Post-training techniques enhance human
+preference, and notably improve long text generation, structural data analysis,
+and instruction following. To handle diverse and varied use cases effectively,
+we present Qwen2.5 LLM series in rich sizes. Open-weight offerings include base
+and instruction-tuned models, with quantized versions available. In addition,
+for hosted solutions, the proprietary models currently include two
+mixture-of-experts (MoE) variants: Qwen2.5-Turbo and Qwen2.5-Plus, both
+available from Alibaba Cloud Model Studio. Qwen2.5 has demonstrated top-tier
+performance on a wide range of benchmarks evaluating language understanding,
+reasoning, mathematics, coding, human preference alignment, etc. Specifically,
+the open-weight flagship Qwen2.5-72B-Instruct outperforms a number of open and
+proprietary models and demonstrates competitive performance to the
+state-of-the-art open-weight model, Llama-3-405B-Instruct, which is around 5
+times larger. Qwen2.5-Turbo and Qwen2.5-Plus offer superior cost-effectiveness
+while performing competitively against GPT-4o-mini and GPT-4o respectively.
+Additionally, as the foundation, Qwen2.5 models have been instrumental in
+training specialized models such as Qwen2.5-Math, Qwen2.5-Coder, QwQ, and
+multimodal models.",2024-12-19
+Why language models collapse when trained on recursively generated text,2024-12-19 14:11:15+00:00,http://arxiv.org/abs/2412.14872v1,"Lecheng Wang, Xianjie Shi, Ge Li, Jia Li, Yihong Dong, Xuanming Zhang, Wenpin Jiao, Hong Mei",cs.CL,knowledge,"Language models (LMs) have been widely used to generate text on the Internet.
+The generated text is often collected into the training corpus of the next
+generations of LMs. Previous work has experimentally found that LMs collapse
+when trained on recursively generated text. This paper contributes to existing
+knowledge from two aspects. We present a theoretical proof of LM collapse. Our
+proof reveals the cause of LM collapse and proves that all auto-regressive LMs
+will definitely collapse. We present a new finding: the performance of LMs
+gradually declines when trained on recursively generated text until they
+perform no better than a randomly initialized LM. The trained LMs produce large
+amounts of repetitive text and perform poorly across a wide range of natural
+language tasks. The above proof and new findings deepen our understanding of LM
+collapse and offer valuable insights that may inspire new training techniques
+to mitigate this threat.",2024-12-19
+"Extending LLMs to New Languages: A Case Study of Llama and Persian
+  Adaptation",2024-12-17 23:18:06+00:00,http://arxiv.org/abs/2412.13375v1,"Samin Mahdizadeh Sani, Pouya Sadeghi, Thuy-Trang Vu, Yadollah Yaghoobzadeh, Gholamreza Haffari",cs.CL,knowledge,"Large language models (LLMs) have made great progress in classification and
+text generation tasks. However, they are mainly trained on English data and
+often struggle with low-resource languages. In this study, we explore adding a
+new language, i.e., Persian, to Llama (a model with a limited understanding of
+Persian) using parameter-efficient fine-tuning. We employ a multi-stage
+approach involving pretraining on monolingual Persian data, aligning
+representations through bilingual pretraining and instruction datasets, and
+instruction-tuning with task-specific datasets. We evaluate the model's
+performance at each stage on generation and classification tasks. Our findings
+suggest that incorporating the Persian language, through bilingual data
+alignment, can enhance classification accuracy for Persian tasks, with no
+adverse impact and sometimes even improvements on English tasks. Additionally,
+the results highlight the model's initial strength as a critical factor when
+working with limited training data, with cross-lingual alignment offering
+minimal benefits for the low-resource language. Knowledge transfer from English
+to Persian has a marginal effect, primarily benefiting simple classification
+tasks.",2024-12-17
+"Unlocking LLMs: Addressing Scarce Data and Bias Challenges in Mental
+  Health",2024-12-17 15:01:07+00:00,http://arxiv.org/abs/2412.12981v1,"Vivek Kumar, Eirini Ntoutsi, Pushpraj Singh Rajawat, Giacomo Medda, Diego Reforgiato Recupero",cs.CL,knowledge,"Large language models (LLMs) have shown promising capabilities in healthcare
+analysis but face several challenges like hallucinations, parroting, and bias
+manifestation. These challenges are exacerbated in complex, sensitive, and
+low-resource domains. Therefore, in this work we introduce IC-AnnoMI, an
+expert-annotated motivational interviewing (MI) dataset built upon AnnoMI by
+generating in-context conversational dialogues leveraging LLMs, particularly
+ChatGPT. IC-AnnoMI employs targeted prompts accurately engineered through cues
+and tailored information, taking into account therapy style (empathy,
+reflection), contextual relevance, and false semantic change. Subsequently, the
+dialogues are annotated by experts, strictly adhering to the Motivational
+Interviewing Skills Code (MISC), focusing on both the psychological and
+linguistic dimensions of MI dialogues. We comprehensively evaluate the
+IC-AnnoMI dataset and ChatGPT's emotional reasoning ability and understanding
+of domain intricacies by modeling novel classification tasks employing several
+classical machine learning and current state-of-the-art transformer approaches.
+Finally, we discuss the effects of progressive prompting strategies and the
+impact of augmented data in mitigating the biases manifested in IC-AnnoM. Our
+contributions provide the MI community with not only a comprehensive dataset
+but also valuable insights for using LLMs in empathetic text generation for
+conversational therapy in supervised settings.",2024-12-17
+Graph-Guided Textual Explanation Generation Framework,2024-12-16 19:35:55+00:00,http://arxiv.org/abs/2412.12318v1,"Shuzhou Yuan, Jingyi Sun, Ran Zhang, Michael Färber, Steffen Eger, Pepa Atanasova, Isabelle Augenstein",cs.CL,knowledge,"Natural language explanations (NLEs) are commonly used to provide plausible
+free-text explanations of a model's reasoning about its predictions. However,
+recent work has questioned the faithfulness of NLEs, as they may not accurately
+reflect the model's internal reasoning process regarding its predicted answer.
+In contrast, highlight explanations -- input fragments identified as critical
+for the model's predictions -- exhibit measurable faithfulness, which has been
+incrementally improved through existing research. Building on this foundation,
+we propose G-Tex, a Graph-Guided Textual Explanation Generation framework
+designed to enhance the faithfulness of NLEs by leveraging highlight
+explanations. Specifically, highlight explanations are extracted as highly
+faithful cues representing the model's reasoning and are subsequently encoded
+through a graph neural network layer, which explicitly guides the NLE
+generation process. This alignment ensures that the generated explanations
+closely reflect the model's underlying reasoning. Experiments on T5 and BART
+using three reasoning datasets show that G-Tex improves NLE faithfulness by up
+to 17.59% compared to baseline methods. Additionally, G-Tex generates NLEs with
+greater semantic and lexical similarity to human-written ones. Human
+evaluations show that G-Tex can decrease redundant content and enhance the
+overall quality of NLEs. As our work introduces a novel method for explicitly
+guiding NLE generation to improve faithfulness, we hope it will serve as a
+stepping stone for addressing additional criteria for NLE and generated text
+overall.",2024-12-16
+"LLM-RG4: Flexible and Factual Radiology Report Generation across Diverse
+  Input Contexts",2024-12-16 17:29:51+00:00,http://arxiv.org/abs/2412.12001v1,"Zhuhao Wang, Yihua Sun, Zihan Li, Xuan Yang, Fang Chen, Hongen Liao","cs.CL, cs.CV",knowledge,"Drafting radiology reports is a complex task requiring flexibility, where
+radiologists tail content to available information and particular clinical
+demands. However, most current radiology report generation (RRG) models are
+constrained to a fixed task paradigm, such as predicting the full ``finding''
+section from a single image, inherently involving a mismatch between inputs and
+outputs. The trained models lack the flexibility for diverse inputs and could
+generate harmful, input-agnostic hallucinations. To bridge the gap between
+current RRG models and the clinical demands in practice, we first develop a
+data generation pipeline to create a new MIMIC-RG4 dataset, which considers
+four common radiology report drafting scenarios and has perfectly corresponded
+input and output. Secondly, we propose a novel large language model (LLM) based
+RRG framework, namely LLM-RG4, which utilizes LLM's flexible
+instruction-following capabilities and extensive general knowledge. We further
+develop an adaptive token fusion module that offers flexibility to handle
+diverse scenarios with different input combinations, while minimizing the
+additional computational burden associated with increased input volumes.
+Besides, we propose a token-level loss weighting strategy to direct the model's
+attention towards positive and uncertain descriptions. Experimental results
+demonstrate that LLM-RG4 achieves state-of-the-art performance in both clinical
+efficiency and natural language generation on the MIMIC-RG4 and MIMIC-CXR
+datasets. We quantitatively demonstrate that our model has minimal
+input-agnostic hallucinations, whereas current open-source models commonly
+suffer from this problem.",2024-12-16
+DART: An AIGT Detector using AMR of Rephrased Text,2024-12-16 07:51:09+00:00,http://arxiv.org/abs/2412.11517v1,"Hyeonchu Park, Byungjun Kim, Bugeun Kim","cs.CL, cs.AI",knowledge,"As large language models (LLMs) generate more human-like texts, concerns
+about the side effects of AI-generated texts (AIGT) have grown. So, researchers
+have developed methods for detecting AIGT. However, two challenges remain.
+First, the performance on detecting black-box LLMs is low, because existing
+models have focused on syntactic features. Second, most AIGT detectors have
+been tested on a single-candidate setting, which assumes that we know the
+origin of an AIGT and may deviate from the real-world scenario. To resolve
+these challenges, we propose DART, which consists of four steps: rephrasing,
+semantic parsing, scoring, and multiclass classification. We conducted several
+experiments to test the performance of DART by following previous work. The
+experimental result shows that DART can discriminate multiple black-box LLMs
+without using syntactic features and knowing the origin of AIGT.",2024-12-16
+AD-LLM: Benchmarking Large Language Models for Anomaly Detection,2024-12-15 10:22:14+00:00,http://arxiv.org/abs/2412.11142v1,"Tiankai Yang, Yi Nian, Shawn Li, Ruiyao Xu, Yuangang Li, Jiaqi Li, Zhuo Xiao, Xiyang Hu, Ryan Rossi, Kaize Ding, Xia Hu, Yue Zhao","cs.CL, cs.AI",knowledge,"Anomaly detection (AD) is an important machine learning task with many
+real-world uses, including fraud detection, medical diagnosis, and industrial
+monitoring. Within natural language processing (NLP), AD helps detect issues
+like spam, misinformation, and unusual user activity. Although large language
+models (LLMs) have had a strong impact on tasks such as text generation and
+summarization, their potential in AD has not been studied enough. This paper
+introduces AD-LLM, the first benchmark that evaluates how LLMs can help with
+NLP anomaly detection. We examine three key tasks: (i) zero-shot detection,
+using LLMs' pre-trained knowledge to perform AD without tasks-specific
+training; (ii) data augmentation, generating synthetic data and category
+descriptions to improve AD models; and (iii) model selection, using LLMs to
+suggest unsupervised AD models. Through experiments with different datasets, we
+find that LLMs can work well in zero-shot AD, that carefully designed
+augmentation methods are useful, and that explaining model selection for
+specific datasets remains challenging. Based on these results, we outline six
+future research directions on LLMs for AD.",2024-12-15
+"TSCheater: Generating High-Quality Tibetan Adversarial Texts via Visual
+  Similarity",2024-12-03 10:57:19+00:00,http://arxiv.org/abs/2412.02371v3,"Xi Cao, Quzong Gesang, Yuan Sun, Nuo Qun, Tashi Nyima","cs.CL, cs.CR",knowledge,"Language models based on deep neural networks are vulnerable to textual
+adversarial attacks. While rich-resource languages like English are receiving
+focused attention, Tibetan, a cross-border language, is gradually being studied
+due to its abundant ancient literature and critical language strategy.
+Currently, there are several Tibetan adversarial text generation methods, but
+they do not fully consider the textual features of Tibetan script and
+overestimate the quality of generated adversarial texts. To address this issue,
+we propose a novel Tibetan adversarial text generation method called TSCheater,
+which considers the characteristic of Tibetan encoding and the feature that
+visually similar syllables have similar semantics. This method can also be
+transferred to other abugidas, such as Devanagari script. We utilize a
+self-constructed Tibetan syllable visual similarity database called TSVSDB to
+generate substitution candidates and adopt a greedy algorithm-based scoring
+mechanism to determine substitution order. After that, we conduct the method on
+eight victim language models. Experimentally, TSCheater outperforms existing
+methods in attack effectiveness, perturbation magnitude, semantic similarity,
+visual similarity, and human acceptance. Finally, we construct the first
+Tibetan adversarial robustness evaluation benchmark called AdvTS, which is
+generated by existing methods and proofread by humans.",2024-12-03
 Can LLMs be Good Graph Judger for Knowledge Graph Construction?,2024-11-26 12:46:57+00:00,http://arxiv.org/abs/2411.17388v1,"Haoyu Huang, Chong Chen, Conghui He, Yang Li, Jiawei Jiang, Wentao Zhang","cs.CL, cs.AI",knowledge,"In real-world scenarios, most of the data obtained from information retrieval
 (IR) system is unstructured. Converting natural language sentences into
 structured Knowledge Graphs (KGs) remains a critical challenge. The quality of

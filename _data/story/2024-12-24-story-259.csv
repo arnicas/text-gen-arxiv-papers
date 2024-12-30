@@ -1,4 +1,139 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Are We in the AI-Generated Text World Already? Quantifying and
+  Monitoring AIGT on Social Media",2024-12-24 04:04:54+00:00,http://arxiv.org/abs/2412.18148v1,"Zhen Sun, Zongmin Zhang, Xinyue Shen, Ziyi Zhang, Yule Liu, Michael Backes, Yang Zhang, Xinlei He","cs.AI, cs.CL, cs.CR, cs.SI",story,"Social media platforms are experiencing a growing presence of AI-Generated
+Texts (AIGTs). However, the misuse of AIGTs could have profound implications
+for public opinion, such as spreading misinformation and manipulating
+narratives. Despite its importance, a systematic study to assess the prevalence
+of AIGTs on social media is still lacking. To address this gap, this paper aims
+to quantify, monitor, and analyze the AIGTs on online social media platforms.
+We first collect a dataset (SM-D) with around 2.4M posts from 3 major social
+media platforms: Medium, Quora, and Reddit. Then, we construct a diverse
+dataset (AIGTBench) to train and evaluate AIGT detectors. AIGTBench combines
+popular open-source datasets and our AIGT datasets generated from social media
+texts by 12 LLMs, serving as a benchmark for evaluating mainstream detectors.
+With this setup, we identify the best-performing detector (OSM-Det). We then
+apply OSM-Det to SM-D to track AIGTs over time and observe different trends of
+AI Attribution Rate (AAR) across social media platforms from January 2022 to
+October 2024. Specifically, Medium and Quora exhibit marked increases in AAR,
+rising from 1.77% to 37.03% and 2.06% to 38.95%, respectively. In contrast,
+Reddit shows slower growth, with AAR increasing from 1.31% to 2.45% over the
+same period. Our further analysis indicates that AIGTs differ from
+human-written texts across several dimensions, including linguistic patterns,
+topic distributions, engagement levels, and the follower distribution of
+authors. We envision our analysis and findings on AIGTs in social media can
+shed light on future research in this domain.",2024-12-24
+"Chain-of-MetaWriting: Linguistic and Textual Analysis of How Small
+  Language Models Write Young Students Texts",2024-12-19 15:58:53+00:00,http://arxiv.org/abs/2412.14986v1,"Ioana Buhnila, Georgeta Cislaru, Amalia Todirascu",cs.CL,story,"Large Language Models (LLMs) have been used to generate texts in response to
+different writing tasks: reports, essays, story telling. However, language
+models do not have a meta-representation of the text writing process, nor
+inherent communication learning needs, comparable to those of young human
+students. This paper introduces a fine-grained linguistic and textual analysis
+of multilingual Small Language Models' (SLMs) writing. With our method,
+Chain-of-MetaWriting, SLMs can imitate some steps of the human writing process,
+such as planning and evaluation. We mainly focused on short story and essay
+writing tasks in French for schoolchildren and undergraduate students
+respectively. Our results show that SLMs encounter difficulties in assisting
+young students on sensitive topics such as violence in the schoolyard, and they
+sometimes use words too complex for the target audience. In particular, the
+output is quite different from the human produced texts in term of text
+cohesion and coherence regarding temporal connectors, topic progression,
+reference.",2024-12-19
+"Evaluation of LLM Vulnerabilities to Being Misused for Personalized
+  Disinformation Generation",2024-12-18 09:48:53+00:00,http://arxiv.org/abs/2412.13666v1,"Aneta Zugecova, Dominik Macko, Ivan Srba, Robert Moro, Jakub Kopal, Katarina Marcincinova, Matus Mesarcik","cs.CL, cs.AI, cs.CY",story,"The capabilities of recent large language models (LLMs) to generate
+high-quality content indistinguishable by humans from human-written texts rises
+many concerns regarding their misuse. Previous research has shown that LLMs can
+be effectively misused for generating disinformation news articles following
+predefined narratives. Their capabilities to generate personalized (in various
+aspects) content have also been evaluated and mostly found usable. However, a
+combination of personalization and disinformation abilities of LLMs has not
+been comprehensively studied yet. Such a dangerous combination should trigger
+integrated safety filters of the LLMs, if there are some. This study fills this
+gap by evaluation of vulnerabilities of recent open and closed LLMs, and their
+willingness to generate personalized disinformation news articles in English.
+We further explore whether the LLMs can reliably meta-evaluate the
+personalization quality and whether the personalization affects the
+generated-texts detectability. Our results demonstrate the need for stronger
+safety-filters and disclaimers, as those are not properly functioning in most
+of the evaluated LLMs. Additionally, our study revealed that the
+personalization actually reduces the safety-filter activations; thus
+effectively functioning as a jailbreak. Such behavior must be urgently
+addressed by LLM developers and service providers.",2024-12-18
+"Generating Long-form Story Using Dynamic Hierarchical Outlining with
+  Memory-Enhancement",2024-12-18 07:50:54+00:00,http://arxiv.org/abs/2412.13575v1,"Qianyue Wang, Jinwu Hu, Zhengping Li, Yufeng Wang, daiyuan li, Yu Hu, Mingkui Tan",cs.CL,story,"Long-form story generation task aims to produce coherent and sufficiently
+lengthy text, essential for applications such as novel writingand interactive
+storytelling. However, existing methods, including LLMs, rely on rigid outlines
+or lack macro-level planning, making it difficult to achieve both contextual
+consistency and coherent plot development in long-form story generation. To
+address this issues, we propose Dynamic Hierarchical Outlining with
+Memory-Enhancement long-form story generation method, named DOME, to generate
+the long-form story with coherent content and plot. Specifically, the Dynamic
+Hierarchical Outline(DHO) mechanism incorporates the novel writing theory into
+outline planning and fuses the plan and writing stages together, improving the
+coherence of the plot by ensuring the plot completeness and adapting to the
+uncertainty during story generation. A Memory-Enhancement Module (MEM) based on
+temporal knowledge graphs is introduced to store and access the generated
+content, reducing contextual conflicts and improving story coherence. Finally,
+we propose a Temporal Conflict Analyzer leveraging temporal knowledge graphs to
+automatically evaluate the contextual consistency of long-form story.
+Experiments demonstrate that DOME significantly improves the fluency,
+coherence, and overall quality of generated long stories compared to
+state-of-the-art methods.",2024-12-18
+"Improving Linguistic Diversity of Large Language Models with Possibility
+  Exploration Fine-Tuning",2024-12-04 14:23:16+00:00,http://arxiv.org/abs/2412.03343v1,"Long Mai, Julie Carson-Berndsen","cs.CL, cs.AI",story,"While Large Language Models (LLMs) have made significant strides in
+replicating human-like abilities, there are concerns about a reduction in the
+linguistic diversity of their outputs. This results in the homogenization of
+viewpoints and perspectives, as well as the underrepresentation of specific
+demographic groups. Although several fine-tuning and prompting techniques have
+been suggested to tackle the issue, they are often tailored to specific tasks
+or come with a substantial increase in computational cost and latency. This
+makes them challenging to apply to applications that demand very low latency,
+such as chatbots and virtual assistants. We propose Possibility Exploration
+Fine-Tuning (PEFT), a task-agnostic framework that enhances the text diversity
+of LLMs without increasing latency or computational cost. Given the same
+prompt, models fine-tuned with PEFT can simultaneously generate multiple
+diverse responses, each corresponding with a controllable possibility number.
+Experiments on dialogue and story generation tasks demonstrate that PEFT
+significantly enhances the diversity of LLM outputs, as evidenced by lower
+similarity between candidate responses. Since PEFT emphasizes semantic
+diversity over lexical diversity, it can also notably reduce demographic bias
+in dialogue systems. The implementations and datasets are available in our
+repository: https://github.com/mailong25/peft_diversity",2024-12-04
+"MLD-EA: Check and Complete Narrative Coherence by Introducing Emotions
+  and Actions",2024-12-03 23:01:21+00:00,http://arxiv.org/abs/2412.02897v1,"Jinming Zhang, Yunfei Long","cs.CL, cs.AI",story,"Narrative understanding and story generation are critical challenges in
+natural language processing (NLP), with much of the existing research focused
+on summarization and question-answering tasks. While previous studies have
+explored predicting plot endings and generating extended narratives, they often
+neglect the logical coherence within stories, leaving a significant gap in the
+field. To address this, we introduce the Missing Logic Detector by Emotion and
+Action (MLD-EA) model, which leverages large language models (LLMs) to identify
+narrative gaps and generate coherent sentences that integrate seamlessly with
+the story's emotional and logical flow. The experimental results demonstrate
+that the MLD-EA model enhances narrative understanding and story generation,
+highlighting LLMs' potential as effective logic checkers in story writing with
+logical coherence and emotional consistency. This work fills a gap in NLP
+research and advances border goals of creating more sophisticated and reliable
+story-generation systems.",2024-12-03
+"Forma mentis networks predict creativity ratings of short texts via
+  interpretable artificial intelligence in human and GPT-simulated raters",2024-11-30 16:33:48+00:00,http://arxiv.org/abs/2412.00530v1,"Edith Haim, Natalie Fischer, Salvatore Citraro, Giulio Rossetti, Massimo Stella","cs.AI, cs.CL, cs.LG",story,"Creativity is a fundamental skill of human cognition. We use textual forma
+mentis networks (TFMN) to extract network (semantic/syntactic associations) and
+emotional features from approximately one thousand human- and GPT3.5-generated
+stories. Using Explainable Artificial Intelligence (XAI), we test whether
+features relative to Mednick's associative theory of creativity can explain
+creativity ratings assigned by humans and GPT-3.5. Using XGBoost, we examine
+three scenarios: (i) human ratings of human stories, (ii) GPT-3.5 ratings of
+human stories, and (iii) GPT-3.5 ratings of GPT-generated stories. Our findings
+reveal that GPT-3.5 ratings differ significantly from human ratings not only in
+terms of correlations but also because of feature patterns identified with XAI
+methods. GPT-3.5 favours 'its own' stories and rates human stories differently
+from humans. Feature importance analysis with SHAP scores shows that: (i)
+network features are more predictive for human creativity ratings but also for
+GPT-3.5's ratings of human stories; (ii) emotional features played a greater
+role than semantic/syntactic network structure in GPT-3.5 rating its own
+stories. These quantitative results underscore key limitations in GPT-3.5's
+ability to align with human assessments of creativity. We emphasise the need
+for caution when using GPT-3.5 to assess and generate creative content, as it
+does not yet capture the nuanced complexity that characterises human
+creativity.",2024-11-30
 "Richer Output for Richer Countries: Uncovering Geographical Disparities
   in Generated Stories and Travel Recommendations",2024-11-11 19:25:25+00:00,http://arxiv.org/abs/2411.07320v1,"Kirti Bhagat, Kinshuk Vasisht, Danish Pruthi","cs.CL, cs.AI, cs.CY, cs.LG",story,"While a large body of work inspects language models for biases concerning
 gender, race, occupation and religion, biases of geographical nature are

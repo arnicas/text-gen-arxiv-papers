@@ -1,4 +1,125 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Friends-MMC: A Dataset for Multi-modal Multi-party Conversation
+  Understanding",2024-12-23 05:32:48+00:00,http://arxiv.org/abs/2412.17295v1,"Yueqian Wang, Xiaojun Meng, Yuxuan Wang, Jianxin Liang, Qun Liu, Dongyan Zhao",cs.CL,dialogue,"Multi-modal multi-party conversation (MMC) is a less studied yet important
+topic of research due to that it well fits real-world scenarios and thus
+potentially has more widely-used applications. Compared with the traditional
+multi-modal conversations, MMC requires stronger character-centered
+understanding abilities as there are many interlocutors appearing in both the
+visual and textual context. To facilitate the study of this problem, we present
+Friends-MMC in this paper, an MMC dataset that contains 24,000+ unique
+utterances paired with video context. To explore the character-centered
+understanding of the dialogue, we also annotate the speaker of each utterance,
+the names and bounding bboxes of faces that appear in the video. Based on this
+Friends-MMC dataset, we further study two fundamental MMC tasks: conversation
+speaker identification and conversation response prediction, both of which have
+the multi-party nature with the video or image as visual context. For
+conversation speaker identification, we demonstrate the inefficiencies of
+existing methods such as pre-trained models, and propose a simple yet effective
+baseline method that leverages an optimization solver to utilize the context of
+two modalities to achieve better performance. For conversation response
+prediction, we fine-tune generative dialogue models on Friend-MMC, and analyze
+the benefits of speaker information. The code and dataset is publicly available
+at https://github.com/yellow-binary-tree/Friends-MMC and thus we call for more
+attention on modeling speaker information when understanding conversations.",2024-12-23
+GraphAgent: Agentic Graph Language Assistant,2024-12-22 14:13:32+00:00,http://arxiv.org/abs/2412.17029v1,"Yuhao Yang, Jiabin Tang, Lianghao Xia, Xingchen Zou, Yuxuan Liang, Chao Huang",cs.AI,dialogue,"Real-world data is represented in both structured (e.g., graph connections)
+and unstructured (e.g., textual, visual information) formats, encompassing
+complex relationships that include explicit links (such as social connections
+and user behaviors) and implicit interdependencies among semantic entities,
+often illustrated through knowledge graphs. In this work, we propose
+GraphAgent, an automated agent pipeline that addresses both explicit graph
+dependencies and implicit graph-enhanced semantic inter-dependencies, aligning
+with practical data scenarios for predictive tasks (e.g., node classification)
+and generative tasks (e.g., text generation). GraphAgent comprises three key
+components: (i) a Graph Generator Agent that builds knowledge graphs to reflect
+complex semantic dependencies; (ii) a Task Planning Agent that interprets
+diverse user queries and formulates corresponding tasks through agentic
+self-planning; and (iii) a Task Execution Agent that efficiently executes
+planned tasks while automating tool matching and invocation in response to user
+queries. These agents collaborate seamlessly, integrating language models with
+graph language models to uncover intricate relational information and data
+semantic dependencies. Through extensive experiments on various graph-related
+predictive and text generative tasks on diverse datasets, we demonstrate the
+effectiveness of our GraphAgent across various settings. We have made our
+proposed GraphAgent open-source at: https://github.com/HKUDS/GraphAgent.",2024-12-22
+"Unlocking LLMs: Addressing Scarce Data and Bias Challenges in Mental
+  Health",2024-12-17 15:01:07+00:00,http://arxiv.org/abs/2412.12981v1,"Vivek Kumar, Eirini Ntoutsi, Pushpraj Singh Rajawat, Giacomo Medda, Diego Reforgiato Recupero",cs.CL,dialogue,"Large language models (LLMs) have shown promising capabilities in healthcare
+analysis but face several challenges like hallucinations, parroting, and bias
+manifestation. These challenges are exacerbated in complex, sensitive, and
+low-resource domains. Therefore, in this work we introduce IC-AnnoMI, an
+expert-annotated motivational interviewing (MI) dataset built upon AnnoMI by
+generating in-context conversational dialogues leveraging LLMs, particularly
+ChatGPT. IC-AnnoMI employs targeted prompts accurately engineered through cues
+and tailored information, taking into account therapy style (empathy,
+reflection), contextual relevance, and false semantic change. Subsequently, the
+dialogues are annotated by experts, strictly adhering to the Motivational
+Interviewing Skills Code (MISC), focusing on both the psychological and
+linguistic dimensions of MI dialogues. We comprehensively evaluate the
+IC-AnnoMI dataset and ChatGPT's emotional reasoning ability and understanding
+of domain intricacies by modeling novel classification tasks employing several
+classical machine learning and current state-of-the-art transformer approaches.
+Finally, we discuss the effects of progressive prompting strategies and the
+impact of augmented data in mitigating the biases manifested in IC-AnnoM. Our
+contributions provide the MI community with not only a comprehensive dataset
+but also valuable insights for using LLMs in empathetic text generation for
+conversational therapy in supervised settings.",2024-12-17
+"VG-TVP: Multimodal Procedural Planning via Visually Grounded Text-Video
+  Prompting",2024-12-16 10:08:38+00:00,http://arxiv.org/abs/2412.11621v1,"Muhammet Furkan Ilaslan, Ali Koksal, Kevin Qinhong Lin, Burak Satar, Mike Zheng Shou, Qianli Xu","cs.CV, cs.MM",dialogue,"Large Language Model (LLM)-based agents have shown promise in procedural
+tasks, but the potential of multimodal instructions augmented by texts and
+videos to assist users remains under-explored. To address this gap, we propose
+the Visually Grounded Text-Video Prompting (VG-TVP) method which is a novel
+LLM-empowered Multimodal Procedural Planning (MPP) framework. It generates
+cohesive text and video procedural plans given a specified high-level
+objective. The main challenges are achieving textual and visual
+informativeness, temporal coherence, and accuracy in procedural plans. VG-TVP
+leverages the zero-shot reasoning capability of LLMs, the video-to-text
+generation ability of the video captioning models, and the text-to-video
+generation ability of diffusion models. VG-TVP improves the interaction between
+modalities by proposing a novel Fusion of Captioning (FoC) method and using
+Text-to-Video Bridge (T2V-B) and Video-to-Text Bridge (V2T-B). They allow LLMs
+to guide the generation of visually-grounded text plans and textual-grounded
+video plans. To address the scarcity of datasets suitable for MPP, we have
+curated a new dataset called Daily-Life Task Procedural Plans (Daily-PP). We
+conduct comprehensive experiments and benchmarks to evaluate human preferences
+(regarding textual and visual informativeness, temporal coherence, and plan
+accuracy). Our VG-TVP method outperforms unimodal baselines on the Daily-PP
+dataset.",2024-12-16
+AutoPatent: A Multi-Agent Framework for Automatic Patent Generation,2024-12-13 02:27:34+00:00,http://arxiv.org/abs/2412.09796v1,"Qiyao Wang, Shiwen Ni, Huaren Liu, Shule Lu, Guhong Chen, Xi Feng, Chi Wei, Qiang Qu, Hamid Alinejad-Rokny, Yuan Lin, Min Yang","cs.CL, cs.AI",dialogue,"As the capabilities of Large Language Models (LLMs) continue to advance, the
+field of patent processing has garnered increased attention within the natural
+language processing community. However, the majority of research has been
+concentrated on classification tasks, such as patent categorization and
+examination, or on short text generation tasks like patent summarization and
+patent quizzes. In this paper, we introduce a novel and practical task known as
+Draft2Patent, along with its corresponding D2P benchmark, which challenges LLMs
+to generate full-length patents averaging 17K tokens based on initial drafts.
+Patents present a significant challenge to LLMs due to their specialized
+nature, standardized terminology, and extensive length. We propose a
+multi-agent framework called AutoPatent which leverages the LLM-based planner
+agent, writer agents, and examiner agent with PGTree and RRAG to generate
+lengthy, intricate, and high-quality complete patent documents. The
+experimental results demonstrate that our AutoPatent framework significantly
+enhances the ability to generate comprehensive patents across various LLMs.
+Furthermore, we have discovered that patents generated solely with the
+AutoPatent framework based on the Qwen2.5-7B model outperform those produced by
+larger and more powerful LLMs, such as GPT-4o, Qwen2.5-72B, and LLAMA3.1-70B,
+in both objective metrics and human evaluations. We will make the data and code
+available upon acceptance at \url{https://github.com/QiYao-Wang/AutoPatent}.",2024-12-13
+"Improved Large Language Model Jailbreak Detection via Pretrained
+  Embeddings",2024-12-02 14:35:43+00:00,http://arxiv.org/abs/2412.01547v1,"Erick Galinkin, Martin Sablotny","cs.CR, cs.AI, cs.LG",dialogue,"The adoption of large language models (LLMs) in many applications, from
+customer service chat bots and software development assistants to more capable
+agentic systems necessitates research into how to secure these systems. Attacks
+like prompt injection and jailbreaking attempt to elicit responses and actions
+from these models that are not compliant with the safety, privacy, or content
+policies of organizations using the model in their application. In order to
+counter abuse of LLMs for generating potentially harmful replies or taking
+undesirable actions, LLM owners must apply safeguards during training and
+integrate additional tools to block the LLM from generating text that abuses
+the model. Jailbreaking prompts play a vital role in convincing an LLM to
+generate potentially harmful content, making it important to identify
+jailbreaking attempts to block any further steps. In this work, we propose a
+novel approach to detect jailbreak prompts based on pairing text embeddings
+well-suited for retrieval with traditional machine learning classification
+algorithms. Our approach outperforms all publicly available methods from open
+source LLM security applications.",2024-12-02
 "Is my Meeting Summary Good? Estimating Quality with a Multi-LLM
   Evaluator",2024-11-27 15:35:32+00:00,http://arxiv.org/abs/2411.18444v1,"Frederic Kirstein, Terry Ruas, Bela Gipp","cs.CL, cs.AI",dialogue,"The quality of meeting summaries generated by natural language generation
 (NLG) systems is hard to measure automatically. Established metrics such as

@@ -1,4 +1,24 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Mastering Board Games by External and Internal Planning with Language
+  Models",2024-12-02 18:56:51+00:00,http://arxiv.org/abs/2412.12119v1,"John Schultz, Jakub Adamek, Matej Jusup, Marc Lanctot, Michael Kaisers, Sarah Perrin, Daniel Hennes, Jeremy Shar, Cannada Lewis, Anian Ruoss, Tom Zahavy, Petar Veličković, Laurel Prince, Satinder Singh, Eric Malmi, Nenad Tomašev","cs.AI, cs.CL, cs.LG",games,"While large language models perform well on a range of complex tasks (e.g.,
+text generation, question answering, summarization), robust multi-step planning
+and reasoning remains a considerable challenge for them. In this paper we show
+that search-based planning can significantly improve LLMs' playing strength
+across several board games (Chess, Fischer Random / Chess960, Connect Four, and
+Hex). We introduce, compare and contrast two major approaches: In external
+search, the model guides Monte Carlo Tree Search (MCTS) rollouts and
+evaluations without calls to an external engine, and in internal search, the
+model directly generates in-context a linearized tree of potential futures and
+a resulting final choice. Both build on a language model pre-trained on
+relevant domain knowledge, capturing the transition and value functions across
+these games. We find that our pre-training method minimizes hallucinations, as
+our model is highly accurate regarding state prediction and legal moves.
+Additionally, both internal and external search indeed improve win-rates
+against state-of-the-art bots, even reaching Grandmaster-level performance in
+chess while operating on a similar move count search budget per decision as
+human Grandmasters. The way we combine search with domain knowledge is not
+specific to board games, suggesting direct extensions into more general
+language model inference and training techniques.",2024-12-02
 Measuring Bullshit in the Language Games played by ChatGPT,2024-11-22 18:55:21+00:00,http://arxiv.org/abs/2411.15129v1,"Alessandro Trevisan, Harry Giddens, Sarah Dillon, Alan F. Blackwell","cs.CL, cs.AI, cs.HC",games,"Generative large language models (LLMs), which create text without direct
 correspondence to truth value, are widely understood to resemble the uses of
 language described in Frankfurt's popular monograph On Bullshit. In this paper,

@@ -7,10 +7,17 @@ sidebar:
 ---
 
 
-*written on 2024-11-28*
+*written on 2024-12-30*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Are We in the AI-Generated Text World Already? Quantifying and  Monitoring AIGT on Social Media](http://arxiv.org/abs/2412.18148v1) | Zhen Sun, Zongmin Zhang, Xinyue Shen, Ziyi Zhang, Yule Liu, Michael Backes, Yang Zhang, Xinlei He | cs.AI, cs.CL, cs.CR, cs.SI | 2024-12-24 |
+| [Chain-of-MetaWriting: Linguistic and Textual Analysis of How Small  Language Models Write Young Students Texts](http://arxiv.org/abs/2412.14986v1) | Ioana Buhnila, Georgeta Cislaru, Amalia Todirascu | cs.CL | 2024-12-19 |
+| [Evaluation of LLM Vulnerabilities to Being Misused for Personalized  Disinformation Generation](http://arxiv.org/abs/2412.13666v1) | Aneta Zugecova, Dominik Macko, Ivan Srba, Robert Moro, Jakub Kopal, Katarina Marcincinova, Matus Mesarcik | cs.CL, cs.AI, cs.CY | 2024-12-18 |
+| [Generating Long-form Story Using Dynamic Hierarchical Outlining with  Memory-Enhancement](http://arxiv.org/abs/2412.13575v1) | Qianyue Wang, Jinwu Hu, Zhengping Li, Yufeng Wang, daiyuan li, Yu Hu, Mingkui Tan | cs.CL | 2024-12-18 |
+| [Improving Linguistic Diversity of Large Language Models with Possibility  Exploration Fine-Tuning](http://arxiv.org/abs/2412.03343v1) | Long Mai, Julie Carson-Berndsen | cs.CL, cs.AI | 2024-12-04 |
+| [MLD-EA: Check and Complete Narrative Coherence by Introducing Emotions  and Actions](http://arxiv.org/abs/2412.02897v1) | Jinming Zhang, Yunfei Long | cs.CL, cs.AI | 2024-12-03 |
+| [Forma mentis networks predict creativity ratings of short texts via  interpretable artificial intelligence in human and GPT-simulated raters](http://arxiv.org/abs/2412.00530v1) | Edith Haim, Natalie Fischer, Salvatore Citraro, Giulio Rossetti, Massimo Stella | cs.AI, cs.CL, cs.LG | 2024-11-30 |
 | [Richer Output for Richer Countries: Uncovering Geographical Disparities  in Generated Stories and Travel Recommendations](http://arxiv.org/abs/2411.07320v1) | Kirti Bhagat, Kinshuk Vasisht, Danish Pruthi | cs.CL, cs.AI, cs.CY, cs.LG | 2024-11-11 |
 | [Bayesian Calibration of Win Rate Estimation with LLM Evaluators](http://arxiv.org/abs/2411.04424v1) | Yicheng Gao, Gonghan Xu, Zhe Wang, Arman Cohan | cs.CL, cs.AI | 2024-11-07 |
 | [Evaluating Creative Short Story Generation in Humans and Large Language  Models](http://arxiv.org/abs/2411.02316v2) | Mete Ismayilzada, Claire Stevenson, Lonneke van der Plas | cs.CL, cs.AI | 2024-11-04 |

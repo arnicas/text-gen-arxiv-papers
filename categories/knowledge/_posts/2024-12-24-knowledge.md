@@ -6,10 +6,23 @@ sidebar:
 ---
 
 
-*written on 2024-11-28*
+*written on 2024-12-30*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Map2Text: New Content Generation from Low-Dimensional Visualizations](http://arxiv.org/abs/2412.18673v1) | Xingjian Zhang, Ziyang Xiong, Shixuan Liu, Yutong Xie, Tolga Ergen, Dongsub Shim, Hua Xu, Honglak Lee, Qiaozhu Me | cs.AI, cs.HC | 2024-12-24 |
+| [The HalluRAG Dataset: Detecting Closed-Domain Hallucinations in RAG  Applications Using an LLM's Internal States](http://arxiv.org/abs/2412.17056v1) | Fabian Ridder, Malte Schilling | cs.CL, cs.LG | 2024-12-22 |
+| [GraphAgent: Agentic Graph Language Assistant](http://arxiv.org/abs/2412.17029v1) | Yuhao Yang, Jiabin Tang, Lianghao Xia, Xingchen Zou, Yuxuan Liang, Chao Huang | cs.AI | 2024-12-22 |
+| [EMPRA: Embedding Perturbation Rank Attack against Neural Ranking Models](http://arxiv.org/abs/2412.16382v1) | Amin Bigdeli, Negar Arabzadeh, Ebrahim Bagheri, Charles L. A. Clarke | cs.IR | 2024-12-20 |
+| [Qwen2.5 Technical Report](http://arxiv.org/abs/2412.15115v1) | Qwen, :, An Yang, Baosong Yang, Beichen Zhang, Binyuan Hui, Bo Zheng, Bowen Yu, Chengyuan Li, Dayiheng Liu, Fei Huang, Haoran Wei, Huan Lin, Jian Yang, Jianhong Tu, Jianwei Zhang, Jianxin Yang, Jiaxi Yang, Jingren Zhou, Junyang Lin, Kai Dang, Keming Lu, Keqin Bao, Kexin Yang, Le Yu, Mei Li, Mingfeng Xue, Pei Zhang, Qin Zhu, Rui Men, Runji Lin, Tianhao Li, Tingyu Xia, Xingzhang Ren, Xuancheng Ren, Yang Fan, Yang Su, Yichang Zhang, Yu Wan, Yuqiong Liu, Zeyu Cui, Zhenru Zhang, Zihan Qiu | cs.CL | 2024-12-19 |
+| [Why language models collapse when trained on recursively generated text](http://arxiv.org/abs/2412.14872v1) | Lecheng Wang, Xianjie Shi, Ge Li, Jia Li, Yihong Dong, Xuanming Zhang, Wenpin Jiao, Hong Mei | cs.CL | 2024-12-19 |
+| [Extending LLMs to New Languages: A Case Study of Llama and Persian  Adaptation](http://arxiv.org/abs/2412.13375v1) | Samin Mahdizadeh Sani, Pouya Sadeghi, Thuy-Trang Vu, Yadollah Yaghoobzadeh, Gholamreza Haffari | cs.CL | 2024-12-17 |
+| [Unlocking LLMs: Addressing Scarce Data and Bias Challenges in Mental  Health](http://arxiv.org/abs/2412.12981v1) | Vivek Kumar, Eirini Ntoutsi, Pushpraj Singh Rajawat, Giacomo Medda, Diego Reforgiato Recupero | cs.CL | 2024-12-17 |
+| [Graph-Guided Textual Explanation Generation Framework](http://arxiv.org/abs/2412.12318v1) | Shuzhou Yuan, Jingyi Sun, Ran Zhang, Michael Färber, Steffen Eger, Pepa Atanasova, Isabelle Augenstein | cs.CL | 2024-12-16 |
+| [LLM-RG4: Flexible and Factual Radiology Report Generation across Diverse  Input Contexts](http://arxiv.org/abs/2412.12001v1) | Zhuhao Wang, Yihua Sun, Zihan Li, Xuan Yang, Fang Chen, Hongen Liao | cs.CL, cs.CV | 2024-12-16 |
+| [DART: An AIGT Detector using AMR of Rephrased Text](http://arxiv.org/abs/2412.11517v1) | Hyeonchu Park, Byungjun Kim, Bugeun Kim | cs.CL, cs.AI | 2024-12-16 |
+| [AD-LLM: Benchmarking Large Language Models for Anomaly Detection](http://arxiv.org/abs/2412.11142v1) | Tiankai Yang, Yi Nian, Shawn Li, Ruiyao Xu, Yuangang Li, Jiaqi Li, Zhuo Xiao, Xiyang Hu, Ryan Rossi, Kaize Ding, Xia Hu, Yue Zhao | cs.CL, cs.AI | 2024-12-15 |
+| [TSCheater: Generating High-Quality Tibetan Adversarial Texts via Visual  Similarity](http://arxiv.org/abs/2412.02371v3) | Xi Cao, Quzong Gesang, Yuan Sun, Nuo Qun, Tashi Nyima | cs.CL, cs.CR | 2024-12-03 |
 | [Can LLMs be Good Graph Judger for Knowledge Graph Construction?](http://arxiv.org/abs/2411.17388v1) | Haoyu Huang, Chong Chen, Conghui He, Yang Li, Jiawei Jiang, Wentao Zhang | cs.CL, cs.AI | 2024-11-26 |
 | [Dynamic Self-Distillation via Previous Mini-batches for Fine-tuning  Small Language Models](http://arxiv.org/abs/2411.16991v1) | Yao Fu, Yin Yu, Xiaotian Han, Runchao Li, Xianxuan Long, Haotian Yu, Pan Li | cs.CL | 2024-11-25 |
 | [MolMetaLM: a Physicochemical Knowledge-Guided Molecular Meta Language  Model](http://arxiv.org/abs/2411.15500v1) | Yifan Wu, Min Zeng, Yang Li, Yang Zhang, Min Li | cs.ET, cs.CL | 2024-11-23 |
