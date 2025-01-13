@@ -1,4 +1,35 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Reasoning-Enhanced Self-Training for Long-Form Personalized Text
+  Generation",2025-01-07 22:29:08+00:00,http://arxiv.org/abs/2501.04167v1,"Alireza Salemi, Cheng Li, Mingyang Zhang, Qiaozhu Mei, Weize Kong, Tao Chen, Zhuowan Li, Michael Bendersky, Hamed Zamani","cs.CL, cs.AI, cs.IR",knowledge,"Personalized text generation requires a unique ability of large language
+models (LLMs) to learn from context that they often do not encounter during
+their standard training. One way to encourage LLMs to better use personalized
+context for generating outputs that better align with the user's expectations
+is to instruct them to reason over the user's past preferences, background
+knowledge, or writing style. To achieve this, we propose Reasoning-Enhanced
+Self-Training for Personalized Text Generation (REST-PG), a framework that
+trains LLMs to reason over personal data during response generation. REST-PG
+first generates reasoning paths to train the LLM's reasoning abilities and then
+employs Expectation-Maximization Reinforced Self-Training to iteratively train
+the LLM based on its own high-reward outputs. We evaluate REST-PG on the
+LongLaMP benchmark, consisting of four diverse personalized long-form text
+generation tasks. Our experiments demonstrate that REST-PG achieves significant
+improvements over state-of-the-art baselines, with an average relative
+performance gain of 14.5% on the benchmark.",2025-01-07
+"Beyond Factual Accuracy: Evaluating Coverage of Diverse Factual
+  Information in Long-form Text Generation",2025-01-07 05:43:23+00:00,http://arxiv.org/abs/2501.03545v1,"Chris Samarinas, Alexander Krubner, Alireza Salemi, Youngwoo Kim, Hamed Zamani",cs.CL,knowledge,"This paper presents ICAT, an evaluation framework for measuring coverage of
+diverse factual information in long-form text generation. ICAT breaks down a
+long output text into a list of atomic claims and not only verifies each claim
+through retrieval from a (reliable) knowledge source, but also computes the
+alignment between the atomic factual claims and various aspects expected to be
+presented in the output. We study three implementations of the ICAT framework,
+each with a different assumption on the availability of aspects and alignment
+method. By adopting data from the diversification task in the TREC Web Track
+and the ClueWeb corpus, we evaluate the ICAT framework. We demonstrate strong
+correlation with human judgments and provide comprehensive evaluation across
+multiple state-of-the-art LLMs. Our framework further offers interpretable and
+fine-grained analysis of diversity and coverage. Its modular design allows for
+easy adaptation to different domains and datasets, making it a valuable tool
+for evaluating the qualitative aspects of long-form responses produced by LLMs.",2025-01-07
 Map2Text: New Content Generation from Low-Dimensional Visualizations,2024-12-24 20:16:13+00:00,http://arxiv.org/abs/2412.18673v1,"Xingjian Zhang, Ziyang Xiong, Shixuan Liu, Yutong Xie, Tolga Ergen, Dongsub Shim, Hua Xu, Honglak Lee, Qiaozhu Me","cs.AI, cs.HC",knowledge,"Low-dimensional visualizations, or ""projection maps"" of datasets, are widely
 used across scientific research and creative industries as effective tools for
 interpreting large-scale and complex information. These visualizations not only

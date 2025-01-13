@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2024-12-30*
+*written on 2025-01-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Improving Image Captioning by Mimicking Human Reformulation Feedback at  Inference-time](http://arxiv.org/abs/2501.04513v1) | Uri Berger, Omri Abend, Lea Frermann, Gabriel Stanovsky | cs.CV, cs.CL | 2025-01-08 |
+| [Text to Band Gap: Pre-trained Language Models as Encoders for  Semiconductor Band Gap Prediction](http://arxiv.org/abs/2501.03456v1) | Ying-Ting Yeh, Janghoon Ock, Amir Barati Farimani | cs.CL, cond-mat.mtrl-sci | 2025-01-07 |
 | [Is Your Text-to-Image Model Robust to Caption Noise?](http://arxiv.org/abs/2412.19531v1) | Weichen Yu, Ziyan Yang, Shanchuan Lin, Qi Zhao, Jianyi Wang, Liangke Gui, Matt Fredrikson, Lu Jiang | cs.CV, cs.AI | 2024-12-27 |
 | [RDPM: Solve Diffusion Probabilistic Models via Recurrent Token  Prediction](http://arxiv.org/abs/2412.18390v2) | Xiaoping Wu, Jie Hu, Xiaoming Wei | cs.CV, cs.AI, cs.LG, cs.MM | 2024-12-24 |
 | [GenAI Content Detection Task 2: AI vs. Human -- Academic Essay  Authenticity Challenge](http://arxiv.org/abs/2412.18274v1) | Shammur Absar Chowdhury, Hind Almerekhi, Mucahid Kutlu, Kaan Efe Keles, Fatema Ahmad, Tasnim Mohiuddin, George Mikros, Firoj Alam | cs.CL, cs.AI, 68T50, F.2.2; I.2.7 | 2024-12-24 |

@@ -1,4 +1,39 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Creating, Using and Assessing a Generative-AI-Based
+  Human-Chatbot-Dialogue Dataset with User-Interaction Learning Capabilities",2025-01-01 10:02:21+00:00,http://arxiv.org/abs/2501.00791v1,"Alfredo Cuzzocrea, Giovanni Pilato, Pablo Garcia Bringas",cs.HC,dialogue,"The study illustrates a first step towards an ongoing work aimed at
+developing a dataset of dialogues potentially useful for customer service
+conversation management between humans and AI chatbots. The approach exploits
+ChatGPT 3.5 to generate dialogues. One of the requirements is that the dialogue
+is characterized by a specific language proficiency level of the user; the
+other one is that the user expresses a specific emotion during the interaction.
+The generated dialogues were then evaluated for overall quality. The complexity
+of the language used by both humans and AI agents, has been evaluated by using
+standard complexity measurements. Furthermore, the attitudes and interaction
+patterns exhibited by the chatbot at each turn have been stored for further
+detection of common conversation patterns in specific emotional contexts. The
+methodology could improve human-AI dialogue effectiveness and serve as a basis
+for systems that can learn from user interactions.",2025-01-01
+"FaGeL: Fabric LLMs Agent empowered Embodied Intelligence Evolution with
+  Autonomous Human-Machine Collaboration",2024-12-28 23:26:52+00:00,http://arxiv.org/abs/2412.20297v1,"Jia Liu, Min Chen",cs.HC,dialogue,"Recent advancements in Large Language Models (LLMs) have enhanced the
+reasoning capabilities of embodied agents, driving progress toward AGI-powered
+robotics. While LLMs have been applied to tasks like semantic reasoning and
+task generalization, their potential in open physical space exploration remains
+underexplored. This paper introduces FaGeL (Fabric aGent empowered by embodied
+intelligence with LLMs), an embodied agent integrating smart fabric technology
+for seamless, non-intrusive human-agent interaction. FaGeL autonomously
+generates tasks using multimodal data from wearable and ambient sensors,
+refining its behavior based on implicit human feedback in generated text,
+without explicit ratings or preferences. We also introduce a token-level
+saliency map to visualize LLM fine-tuning, enhancing the interpretability of
+token-level alignment. The system leverages dual feedback mechanisms to improve
+token-level alignment and addresses challenges in non-intrusive human-machine
+interaction and cognition evolution. Our contributions include FaGeL's
+development, the DualCUT algorithm for AI alignment, and experimental
+validation in cooperative tasks, demonstrating FaGeL's ability to adapt and
+evolve autonomously through implicit feedback. In the future, we plan to
+explore FaGeL's scalability in dynamic environments and its integration with
+other AI systems to develop AGI agents that adapt seamlessly to diverse human
+needs.",2024-12-28
 "Friends-MMC: A Dataset for Multi-modal Multi-party Conversation
   Understanding",2024-12-23 05:32:48+00:00,http://arxiv.org/abs/2412.17295v1,"Yueqian Wang, Xiaojun Meng, Yuxuan Wang, Jianxin Liang, Qun Liu, Dongyan Zhao",cs.CL,dialogue,"Multi-modal multi-party conversation (MMC) is a less studied yet important
 topic of research due to that it well fits real-world scenarios and thus

@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2024-12-30*
+*written on 2025-01-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Reasoning-Enhanced Self-Training for Long-Form Personalized Text  Generation](http://arxiv.org/abs/2501.04167v1) | Alireza Salemi, Cheng Li, Mingyang Zhang, Qiaozhu Mei, Weize Kong, Tao Chen, Zhuowan Li, Michael Bendersky, Hamed Zamani | cs.CL, cs.AI, cs.IR | 2025-01-07 |
+| [Beyond Factual Accuracy: Evaluating Coverage of Diverse Factual  Information in Long-form Text Generation](http://arxiv.org/abs/2501.03545v1) | Chris Samarinas, Alexander Krubner, Alireza Salemi, Youngwoo Kim, Hamed Zamani | cs.CL | 2025-01-07 |
 | [Map2Text: New Content Generation from Low-Dimensional Visualizations](http://arxiv.org/abs/2412.18673v1) | Xingjian Zhang, Ziyang Xiong, Shixuan Liu, Yutong Xie, Tolga Ergen, Dongsub Shim, Hua Xu, Honglak Lee, Qiaozhu Me | cs.AI, cs.HC | 2024-12-24 |
 | [The HalluRAG Dataset: Detecting Closed-Domain Hallucinations in RAG  Applications Using an LLM's Internal States](http://arxiv.org/abs/2412.17056v1) | Fabian Ridder, Malte Schilling | cs.CL, cs.LG | 2024-12-22 |
 | [GraphAgent: Agentic Graph Language Assistant](http://arxiv.org/abs/2412.17029v1) | Yuhao Yang, Jiabin Tang, Lianghao Xia, Xingchen Zou, Yuxuan Liang, Chao Huang | cs.AI | 2024-12-22 |

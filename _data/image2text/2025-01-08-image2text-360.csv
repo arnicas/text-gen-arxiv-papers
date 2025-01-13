@@ -1,4 +1,48 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Improving Image Captioning by Mimicking Human Reformulation Feedback at
+  Inference-time",2025-01-08 14:00:07+00:00,http://arxiv.org/abs/2501.04513v1,"Uri Berger, Omri Abend, Lea Frermann, Gabriel Stanovsky","cs.CV, cs.CL",image2text,"Incorporating automatically predicted human feedback into the process of
+training generative models has attracted substantial recent interest, while
+feedback at inference time has received less attention. The typical feedback at
+training time, i.e., preferences of choice given two samples, does not
+naturally transfer to the inference phase. We introduce a novel type of
+feedback -- caption reformulations -- and train models to mimic reformulation
+feedback based on human annotations. Our method does not require training the
+image captioning model itself, thereby demanding substantially less
+computational effort. We experiment with two types of reformulation feedback:
+first, we collect a dataset of human reformulations that correct errors in the
+generated captions. We find that incorporating reformulation models trained on
+this data into the inference phase of existing image captioning models results
+in improved captions, especially when the original captions are of low quality.
+We apply our method to non-English image captioning, a domain where robust
+models are less prevalent, and gain substantial improvement. Second, we apply
+reformulations to style transfer. Quantitative evaluations reveal
+state-of-the-art performance on German image captioning and English style
+transfer, while human validation with a detailed comparative framework exposes
+the specific axes of improvement.",2025-01-08
+"Text to Band Gap: Pre-trained Language Models as Encoders for
+  Semiconductor Band Gap Prediction",2025-01-07 00:56:26+00:00,http://arxiv.org/abs/2501.03456v1,"Ying-Ting Yeh, Janghoon Ock, Amir Barati Farimani","cs.CL, cond-mat.mtrl-sci",image2text,"In this study, we explore the use of a transformer-based language model as an
+encoder to predict the band gaps of semiconductor materials directly from their
+text descriptions. Quantum chemistry simulations, including Density Functional
+Theory (DFT), are computationally intensive and time-consuming, which limits
+their practicality for high-throughput material screening, particularly for
+complex systems. Shallow machine learning (ML) models, while effective, often
+require extensive data preprocessing to convert non-numerical material
+properties into numerical inputs. In contrast, our approach leverages textual
+data directly, bypassing the need for complex feature engineering. We generate
+material descriptions in two formats: formatted strings combining features and
+natural language text generated using the ChatGPT API. We demonstrate that the
+RoBERTa model, pre-trained on natural language processing tasks, performs
+effectively as an encoder for prediction tasks. With minimal fine-tuning, it
+achieves a mean absolute error (MAE) of approximately 0.33 eV, performing
+better than shallow machine learning models such as Support Vector Regression,
+Random Forest, and XGBoost. Even when only the linear regression head is
+trained while keeping the RoBERTa encoder layers frozen, the accuracy remains
+nearly identical to that of the fully trained model. This demonstrates that the
+pre-trained RoBERTa encoder is highly adaptable for processing domain-specific
+text related to material properties, such as the band gap, significantly
+reducing the need for extensive retraining. This study highlights the potential
+of transformer-based language models to serve as efficient and versatile
+encoders for semiconductor materials property prediction tasks.",2025-01-07
 Is Your Text-to-Image Model Robust to Caption Noise?,2024-12-27 08:53:37+00:00,http://arxiv.org/abs/2412.19531v1,"Weichen Yu, Ziyan Yang, Shanchuan Lin, Qi Zhao, Jianyi Wang, Liangke Gui, Matt Fredrikson, Lu Jiang","cs.CV, cs.AI",image2text,"In text-to-image (T2I) generation, a prevalent training technique involves
 utilizing Vision Language Models (VLMs) for image re-captioning. Even though
 VLMs are known to exhibit hallucination, generating descriptive content that
