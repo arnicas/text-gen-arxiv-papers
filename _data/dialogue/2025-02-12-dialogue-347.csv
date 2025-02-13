@@ -1,4 +1,264 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Exploring the Potential of Large Language Models to Simulate Personality,2025-02-12 10:17:18+00:00,http://arxiv.org/abs/2502.08265v1,"Maria Molchanova, Anna Mikhailova, Anna Korzanova, Lidiia Ostyakova, Alexandra Dolidze","cs.CL, cs.AI",dialogue,"With the advancement of large language models (LLMs), the focus in
+Conversational AI has shifted from merely generating coherent and relevant
+responses to tackling more complex challenges, such as personalizing dialogue
+systems. In an effort to enhance user engagement, chatbots are often designed
+to mimic human behaviour, responding within a defined emotional spectrum and
+aligning to a set of values. In this paper, we aim to simulate personal traits
+according to the Big Five model with the use of LLMs. Our research showed that
+generating personality-related texts is still a challenging task for the
+models. As a result, we present a dataset of generated texts with the
+predefined Big Five characteristics and provide an analytical framework for
+testing LLMs on a simulation of personality skills.",2025-02-12
+Exploring Mobile Touch Interaction with Large Language Models,2025-02-11 15:17:00+00:00,http://arxiv.org/abs/2502.07629v1,"Tim Zindulka, Jannek Sekowski, Florian Lehmann, Daniel Buschek","cs.HC, cs.CL, H.5.2; I.2.7",dialogue,"Interacting with Large Language Models (LLMs) for text editing on mobile
+devices currently requires users to break out of their writing environment and
+switch to a conversational AI interface. In this paper, we propose to control
+the LLM via touch gestures performed directly on the text. We first chart a
+design space that covers fundamental touch input and text transformations. In
+this space, we then concretely explore two control mappings: spread-to-generate
+and pinch-to-shorten, with visual feedback loops. We evaluate this concept in a
+user study (N=14) that compares three feedback designs: no visualisation, text
+length indicator, and length + word indicator. The results demonstrate that
+touch-based control of LLMs is both feasible and user-friendly, with the length
++ word indicator proving most effective for managing text generation. This work
+lays the foundation for further research into gesture-based interaction with
+LLMs on touch devices.",2025-02-11
+"HamRaz: A Culture-Based Persian Conversation Dataset for Person-Centered
+  Therapy Using LLM Agents",2025-02-09 18:23:34+00:00,http://arxiv.org/abs/2502.05982v1,"Mohammad Amin Abbasi, Farnaz Sadat Mirnezami, Hassan Naderi",cs.CL,dialogue,"This paper presents HamRaz, a novel Persian-language mental health dataset
+designed for Person-Centered Therapy (PCT) using Large Language Models (LLMs).
+Despite the growing application of LLMs in AI-driven psychological counseling,
+existing datasets predominantly focus on Western and East Asian contexts,
+overlooking cultural and linguistic nuances essential for effective
+Persian-language therapy. To address this gap, HamRaz combines script-based
+dialogues with adaptive LLM role-playing, ensuring coherent and dynamic therapy
+interactions. We also introduce HamRazEval, a dual evaluation framework that
+measures conversational quality and therapeutic effectiveness using General
+Dialogue Metrics and the Barrett-Lennard Relationship Inventory (BLRI).
+Experimental results show HamRaz outperforms conventional Script Mode and
+Two-Agent Mode, producing more empathetic, context-aware, and realistic therapy
+sessions. By releasing HamRaz, we contribute a culturally adapted, LLM-driven
+resource to advance AI-powered psychotherapy research in diverse communities.",2025-02-09
+The Odyssey of the Fittest: Can Agents Survive and Still Be Good?,2025-02-08 04:17:28+00:00,http://arxiv.org/abs/2502.05442v1,"Dylan Waldner, Risto Miikkulainen","cs.AI, cs.CY, cs.HC, cs.LG",dialogue,"As AI models grow in power and generality, understanding how agents learn and
+make decisions in complex environments is critical to promoting ethical
+behavior. This paper examines the ethical implications of implementing
+biological drives, specifically, self preservation, into three different
+agents. A Bayesian agent optimized with NEAT, a Bayesian agent optimized with
+stochastic variational inference, and a GPT 4o agent play a simulated, LLM
+generated text based adventure game. The agents select actions at each scenario
+to survive, adapting to increasingly challenging scenarios. Post simulation
+analysis evaluates the ethical scores of the agent's decisions, uncovering the
+tradeoffs they navigate to survive. Specifically, analysis finds that when
+danger increases, agents ignore ethical considerations and opt for unethical
+behavior. The agents' collective behavior, trading ethics for survival,
+suggests that prioritizing survival increases the risk of unethical behavior.
+In the context of AGI, designing agents to prioritize survival may amplify the
+likelihood of unethical decision making and unintended emergent behaviors,
+raising fundamental questions about goal design in AI safety research.",2025-02-08
+"Enhancing Impression Change Prediction in Speed Dating Simulations Based
+  on Speakers' Personalities",2025-02-07 07:18:32+00:00,http://arxiv.org/abs/2502.04706v1,"Kazuya Matsuo, Yoko Ishii, Atsushi Otsuka, Ryo Ishii, Hiroaki Sugiyama, Masahiro Mizukami, Tsunehiro Arimoto, Narichika Nomoto, Yoshihide Sato, Tetsuya Yamaguchi","cs.CL, cs.HC",dialogue,"This paper focuses on simulating text dialogues in which impressions between
+speakers improve during speed dating. This simulation involves selecting an
+utterance from multiple candidates generated by a text generation model that
+replicates a specific speaker's utterances, aiming to improve the impression of
+the speaker. Accurately selecting an utterance that improves the impression is
+crucial for the simulation. We believe that whether an utterance improves a
+dialogue partner's impression of the speaker may depend on the personalities of
+both parties. However, recent methods for utterance selection do not consider
+the impression per utterance or the personalities. To address this, we propose
+a method that predicts whether an utterance improves a partner's impression of
+the speaker, considering the personalities. The evaluation results showed that
+personalities are useful in predicting impression changes per utterance.
+Furthermore, we conducted a human evaluation of simulated dialogues using our
+method. The results showed that it could simulate dialogues more favorably
+received than those selected without considering personalities.",2025-02-07
+PsyPlay: Personality-Infused Role-Playing Conversational Agents,2025-02-06 07:17:12+00:00,http://arxiv.org/abs/2502.03821v1,"Tao Yang, Yuhua Zhu, Xiaojun Quan, Cong Liu, Qifan Wang",cs.CL,dialogue,"The current research on Role-Playing Conversational Agents (RPCAs) with Large
+Language Models (LLMs) primarily focuses on imitating specific speaking styles
+and utilizing character backgrounds, neglecting the depiction of deeper
+personality traits.~In this study, we introduce personality-infused
+role-playing for LLM agents, which encourages agents to accurately portray
+their designated personality traits during dialogues. We then propose PsyPlay,
+a dialogue generation framework that facilitates the expression of rich
+personalities among multiple LLM agents. Specifically, PsyPlay enables agents
+to assume roles with distinct personality traits and engage in discussions
+centered around specific topics, consistently exhibiting their designated
+personality traits throughout the interactions. Validation on generated
+dialogue data demonstrates that PsyPlay can accurately portray the intended
+personality traits, achieving an overall success rate of 80.31% on GPT-3.5.
+Notably, we observe that LLMs aligned with positive values are more successful
+in portraying positive personality roles compared to negative ones. Moreover,
+we construct a dialogue corpus for personality-infused role-playing, called
+PsyPlay-Bench. The corpus, which consists of 4745 instances of correctly
+portrayed dialogues using PsyPlay, aims to further facilitate research in
+personalized role-playing and dialogue personality detection.",2025-02-06
+"Detecting Ambiguities to Guide Query Rewrite for Robust Conversations in
+  Enterprise AI Assistants",2025-02-01 19:23:21+00:00,http://arxiv.org/abs/2502.00537v1,"Md Mehrab Tanjim, Xiang Chen, Victor S. Bursztyn, Uttaran Bhattacharya, Tung Mai, Vaishnavi Muppala, Akash Maharaj, Saayan Mitra, Eunyee Koh, Yunyao Li, Ken Russell",cs.CL,dialogue,"Multi-turn conversations with an Enterprise AI Assistant can be challenging
+due to conversational dependencies in questions, leading to ambiguities and
+errors. To address this, we propose an NLU-NLG framework for ambiguity
+detection and resolution through reformulating query automatically and
+introduce a new task called ""Ambiguity-guided Query Rewrite."" To detect
+ambiguities, we develop a taxonomy based on real user conversational logs and
+draw insights from it to design rules and extract features for a classifier
+which yields superior performance in detecting ambiguous queries, outperforming
+LLM-based baselines. Furthermore, coupling the query rewrite module with our
+ambiguity detecting classifier shows that this end-to-end framework can
+effectively mitigate ambiguities without risking unnecessary insertions of
+unwanted phrases for clear queries, leading to an improvement in the overall
+performance of the AI Assistant. Due to its significance, this has been
+deployed in the real world application, namely Adobe Experience Platform AI
+Assistant.",2025-02-01
+"Imitation Game for Adversarial Disillusion with Multimodal Generative
+  Chain-of-Thought Role-Play",2025-01-31 13:57:34+00:00,http://arxiv.org/abs/2501.19143v1,"Ching-Chun Chang, Fan-Yun Chen, Shih-Hong Gu, Kai Gao, Hanrui Wang, Isao Echizen","cs.AI, cs.CR, cs.CV",dialogue,"As the cornerstone of artificial intelligence, machine perception confronts a
+fundamental threat posed by adversarial illusions. These adversarial attacks
+manifest in two primary forms: deductive illusion, where specific stimuli are
+crafted based on the victim model's general decision logic, and inductive
+illusion, where the victim model's general decision logic is shaped by specific
+stimuli. The former exploits the model's decision boundaries to create a
+stimulus that, when applied, interferes with its decision-making process. The
+latter reinforces a conditioned reflex in the model, embedding a backdoor
+during its learning phase that, when triggered by a stimulus, causes aberrant
+behaviours. The multifaceted nature of adversarial illusions calls for a
+unified defence framework, addressing vulnerabilities across various forms of
+attack. In this study, we propose a disillusion paradigm based on the concept
+of an imitation game. At the heart of the imitation game lies a multimodal
+generative agent, steered by chain-of-thought reasoning, which observes,
+internalises and reconstructs the semantic essence of a sample, liberated from
+the classic pursuit of reversing the sample to its original state. As a proof
+of concept, we conduct experimental simulations using a multimodal generative
+dialogue agent and evaluates the methodology under a variety of attack
+scenarios.",2025-01-31
+Context-Aware Semantic Recomposition Mechanism for Large Language Models,2025-01-29 02:38:28+00:00,http://arxiv.org/abs/2501.17386v1,"Richard Katrix, Quentin Carroway, Rowan Hawkesbury, Matthias Heathfield","cs.CL, cs.AI",dialogue,"Context-aware processing mechanisms have increasingly become a critical area
+of exploration for improving the semantic and contextual capabilities of
+language generation models. The Context-Aware Semantic Recomposition Mechanism
+(CASRM) was introduced as a novel framework designed to address limitations in
+coherence, contextual adaptability, and error propagation in large-scale text
+generation tasks. Through the integration of dynamically generated context
+vectors and attention modulation layers, CASRM enhances the alignment between
+token-level representations and broader contextual dependencies. Experimental
+evaluations demonstrated significant improvements in semantic coherence across
+multiple domains, including technical, conversational, and narrative text. The
+ability to adapt to unseen domains and ambiguous inputs was evaluated using a
+diverse set of test scenarios, highlighting the robustness of the proposed
+mechanism. A detailed computational analysis revealed that while CASRM
+introduces additional processing overhead, the gains in linguistic precision
+and contextual relevance outweigh the marginal increase in complexity. The
+framework also successfully mitigates error propagation in sequential tasks,
+improving performance in dialogue continuation and multi-step text synthesis.
+Additional investigations into token-level attention distribution emphasized
+the dynamic focus shifts enabled through context-aware enhancements. The
+findings suggest that CASRM offers a scalable and flexible solution for
+integrating contextual intelligence into existing language model architectures.",2025-01-29
+"Towards Explainable Multimodal Depression Recognition for Clinical
+  Interviews",2025-01-27 14:57:25+00:00,http://arxiv.org/abs/2501.16106v1,"Wenjie Zheng, Qiming Xie, Zengzhi Wang, Jianfei Yu, Rui Xia",cs.CL,dialogue,"Recently, multimodal depression recognition for clinical interviews (MDRC)
+has recently attracted considerable attention. Existing MDRC studies mainly
+focus on improving task performance and have achieved significant development.
+However, for clinical applications, model transparency is critical, and
+previous works ignore the interpretability of decision-making processes. To
+address this issue, we propose an Explainable Multimodal Depression Recognition
+for Clinical Interviews (EMDRC) task, which aims to provide evidence for
+depression recognition by summarizing symptoms and uncovering underlying
+causes. Given an interviewer-participant interaction scenario, the goal of
+EMDRC is to structured summarize participant's symptoms based on the eight-item
+Patient Health Questionnaire depression scale (PHQ-8), and predict their
+depression severity. To tackle the EMDRC task, we construct a new dataset based
+on an existing MDRC dataset. Moreover, we utilize the PHQ-8 and propose a
+PHQ-aware multimodal multi-task learning framework, which captures the
+utterance-level symptom-related semantic information to help generate
+dialogue-level summary. Experiment results on our annotated dataset demonstrate
+the superiority of our proposed methods over baseline systems on the EMDRC
+task.",2025-01-27
+Unmasking Conversational Bias in AI Multiagent Systems,2025-01-24 09:10:02+00:00,http://arxiv.org/abs/2501.14844v2,"Erica Coppolillo, Giuseppe Manco, Luca Maria Aiello","cs.CL, cs.AI, cs.MA",dialogue,"Detecting biases in the outputs produced by generative models is essential to
+reduce the potential risks associated with their application in critical
+settings. However, the majority of existing methodologies for identifying
+biases in generated text consider the models in isolation and neglect their
+contextual applications. Specifically, the biases that may arise in multi-agent
+systems involving generative models remain under-researched. To address this
+gap, we present a framework designed to quantify biases within multi-agent
+systems of conversational Large Language Models (LLMs). Our approach involves
+simulating small echo chambers, where pairs of LLMs, initialized with aligned
+perspectives on a polarizing topic, engage in discussions. Contrary to
+expectations, we observe significant shifts in the stance expressed in the
+generated messages, particularly within echo chambers where all agents
+initially express conservative viewpoints, in line with the well-documented
+political bias of many LLMs toward liberal positions. Crucially, the bias
+observed in the echo-chamber experiment remains undetected by current
+state-of-the-art bias detection methods that rely on questionnaires. This
+highlights a critical need for the development of a more sophisticated toolkit
+for bias detection and mitigation for AI multi-agent systems. The code to
+perform the experiments is publicly available at
+https://anonymous.4open.science/r/LLMsConversationalBias-7725.",2025-01-24
+"Multi-agent KTO: Reinforcing Strategic Interactions of Large Language
+  Model in Language Game",2025-01-24 04:09:03+00:00,http://arxiv.org/abs/2501.14225v1,"Rong Ye, Yongxin Zhang, Yikai Zhang, Haoyu Kuang, Zhongyu Wei, Peng Sun","cs.CL, cs.AI, cs.HC",dialogue,"Achieving Artificial General Intelligence (AGI) requires AI agents that can
+not only make stratigic decisions but also engage in flexible and meaningful
+communication. Inspired by Wittgenstein's language game theory in Philosophical
+Investigations, we propose that language agents can learn through in-context
+interaction rather than traditional multi-stage frameworks that separate
+decision-making from language expression. Using Werewolf, a social deduction
+game that tests language understanding, strategic interaction, and
+adaptability, we develop the Multi-agent Kahneman & Tversky's Optimization
+(MaKTO). MaKTO engages diverse models in extensive gameplay to generate
+unpaired desirable and unacceptable responses, then employs KTO to refine the
+model's decision-making process. In 9-player Werewolf games, MaKTO achieves a
+61% average win rate across various models, outperforming GPT-4o and two-stage
+RL agents by relative improvements of 23.0% and 10.9%, respectively. Notably,
+MaKTO also demonstrates human-like performance, winning 60% against expert
+players and showing only 49% detectability in Turing-style blind tests. These
+results showcase MaKTO's superior decision-making, strategic adaptation, and
+natural language generation in complex social deduction games.",2025-01-24
+A RAG-Based Institutional Assistant,2025-01-23 17:54:19+00:00,http://arxiv.org/abs/2501.13880v1,"Gustavo Kuratomi, Paulo Pirozelli, Fabio G. Cozman, Sarajane M. Peres",cs.CL,dialogue,"Although large language models (LLMs) demonstrate strong text generation
+capabilities, they struggle in scenarios requiring access to structured
+knowledge bases or specific documents, limiting their effectiveness in
+knowledge-intensive tasks. To address this limitation, retrieval-augmented
+generation (RAG) models have been developed, enabling generative models to
+incorporate relevant document fragments into their inputs. In this paper, we
+design and evaluate a RAG-based virtual assistant specifically tailored for the
+University of S\~ao Paulo. Our system architecture comprises two key modules: a
+retriever and a generative model. We experiment with different types of models
+for both components, adjusting hyperparameters such as chunk size and the
+number of retrieved documents. Our optimal retriever model achieves a Top-5
+accuracy of 30%, while our most effective generative model scores 22.04\%
+against ground truth answers. Notably, when the correct document chunks are
+supplied to the LLMs, accuracy significantly improves to 54.02%, an increase of
+over 30 percentage points. Conversely, without contextual input, performance
+declines to 13.68%. These findings highlight the critical role of database
+access in enhancing LLM performance. They also reveal the limitations of
+current semantic search methods in accurately identifying relevant documents
+and underscore the ongoing challenges LLMs face in generating precise
+responses.",2025-01-23
+Reference-free Evaluation Metrics for Text Generation: A Survey,2025-01-21 10:05:48+00:00,http://arxiv.org/abs/2501.12011v1,"Takumi Ito, Kees van Deemter, Jun Suzuki",cs.CL,dialogue,"A number of automatic evaluation metrics have been proposed for natural
+language generation systems. The most common approach to automatic evaluation
+is the use of a reference-based metric that compares the model's output with
+gold-standard references written by humans. However, it is expensive to create
+such references, and for some tasks, such as response generation in dialogue,
+creating references is not a simple matter. Therefore, various reference-free
+metrics have been developed in recent years. In this survey, which intends to
+cover the full breadth of all NLG tasks, we investigate the most commonly used
+approaches, their application, and their other uses beyond evaluating models.
+The survey concludes by highlighting some promising directions for future
+research.",2025-01-21
+Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG,2025-01-15 20:40:25+00:00,http://arxiv.org/abs/2501.09136v3,"Aditi Singh, Abul Ehtesham, Saket Kumar, Tala Talaei Khoei","cs.AI, cs.CL, cs.IR",dialogue,"Large Language Models (LLMs) have revolutionized artificial intelligence (AI)
+by enabling human like text generation and natural language understanding.
+However, their reliance on static training data limits their ability to respond
+to dynamic, real time queries, resulting in outdated or inaccurate outputs.
+Retrieval Augmented Generation (RAG) has emerged as a solution, enhancing LLMs
+by integrating real time data retrieval to provide contextually relevant and
+up-to-date responses. Despite its promise, traditional RAG systems are
+constrained by static workflows and lack the adaptability required for
+multistep reasoning and complex task management.
+  Agentic Retrieval-Augmented Generation (Agentic RAG) transcends these
+limitations by embedding autonomous AI agents into the RAG pipeline. These
+agents leverage agentic design patterns reflection, planning, tool use, and
+multiagent collaboration to dynamically manage retrieval strategies,
+iteratively refine contextual understanding, and adapt workflows to meet
+complex task requirements. This integration enables Agentic RAG systems to
+deliver unparalleled flexibility, scalability, and context awareness across
+diverse applications.
+  This survey provides a comprehensive exploration of Agentic RAG, beginning
+with its foundational principles and the evolution of RAG paradigms. It
+presents a detailed taxonomy of Agentic RAG architectures, highlights key
+applications in industries such as healthcare, finance, and education, and
+examines practical implementation strategies. Additionally, it addresses
+challenges in scaling these systems, ensuring ethical decision making, and
+optimizing performance for real-world applications, while providing detailed
+insights into frameworks and tools for implementing Agentic RAG.",2025-01-15
 "Creating, Using and Assessing a Generative-AI-Based
   Human-Chatbot-Dialogue Dataset with User-Interaction Learning Capabilities",2025-01-01 10:02:21+00:00,http://arxiv.org/abs/2501.00791v1,"Alfredo Cuzzocrea, Giovanni Pilato, Pablo Garcia Bringas",cs.HC,dialogue,"The study illustrates a first step towards an ongoing work aimed at
 developing a dataset of dialogues potentially useful for customer service

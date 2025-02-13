@@ -7,10 +7,26 @@ sidebar:
 ---
 
 
-*written on 2025-01-13*
+*written on 2025-02-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Explanation based In-Context Demonstrations Retrieval for Multilingual  Grammatical Error Correction](http://arxiv.org/abs/2502.08507v1) | Wei Li, Wen Luo, Guangyue Peng, Houfeng Wang | cs.CL | 2025-02-12 |
+| [Bridging LLM-Generated Code and Requirements: Reverse Generation  technique and SBC Metric for Developer Insights](http://arxiv.org/abs/2502.07835v1) | Ahilan Ayyachamy Nadar Ponnusamy | cs.SE, cs.AI | 2025-02-11 |
+| [Latent Convergence Modulation in Large Language Models: A Novel Approach  to Iterative Contextual Realignment](http://arxiv.org/abs/2502.06302v1) | Patricia Porretta, Sylvester Pakenham, Huxley Ainsworth, Gregory Chatten, Godfrey Allerton, Simon Hollingsworth, Vance Periwinkle | cs.CL | 2025-02-10 |
+| [Can LLMs Replace Human Evaluators? An Empirical Study of LLM-as-a-Judge  in Software Engineering](http://arxiv.org/abs/2502.06193v1) | Ruiqi Wang, Jiyu Guo, Cuiyun Gao, Guodong Fan, Chun Yong Chong, Xin Xia | cs.SE, cs.AI | 2025-02-10 |
+| [Structural Perturbation in Large Language Model Representations through  Recursive Symbolic Regeneration](http://arxiv.org/abs/2502.05794v1) | Kathlyn Eaglewood, Tobias Featherington, Dorian Mayfair, Sylvester Grimshaw, James Pettigrew | cs.CL | 2025-02-09 |
+| [AdParaphrase: Paraphrase Dataset for Analyzing Linguistic Features  toward Generating Attractive Ad Texts](http://arxiv.org/abs/2502.04674v2) | Soichiro Murakami, Peinan Zhang, Hidetaka Kamigaito, Hiroya Takamura, Manabu Okumura | cs.CL, cs.AI | 2025-02-07 |
+| [Experiments with Large Language Models on Retrieval-Augmented Generation  for Closed-Source Simulation Software](http://arxiv.org/abs/2502.03916v1) | Andreas Baumann, Peter Eberhard | cs.CL, cs.AI | 2025-02-06 |
+| [Context-Preserving Gradient Modulation for Large Language Models: A  Novel Approach to Semantic Consistency in Long-Form Text Generation](http://arxiv.org/abs/2502.03643v1) | Nirola Kobanov, Edmund Weatherstone, Zachary Vanderpoel, Orlando Wetherby | cs.CL | 2025-02-05 |
+| [Structured Token Retention and Computational Memory Paths in Large  Language Models](http://arxiv.org/abs/2502.03102v1) | Jonathan Delena, Augustin Moreau, Dominic Ravensdale, Frederick Chatterton | cs.CL | 2025-02-05 |
+| [Analyze Feature Flow to Enhance Interpretation and Steering in Language  Models](http://arxiv.org/abs/2502.03032v2) | Daniil Laptev, Nikita Balagansky, Yaroslav Aksenov, Daniil Gavrilov | cs.LG, cs.CL | 2025-02-05 |
+| [Rankify: A Comprehensive Python Toolkit for Retrieval, Re-Ranking, and  Retrieval-Augmented Generation](http://arxiv.org/abs/2502.02464v2) | Abdelrahman Abdallah, Bhawna Piryani, Jamshid Mozafari, Mohammed Ali, Adam Jatowt | cs.IR, cs.CL | 2025-02-04 |
+| [Gradient-Regularized Latent Space Modulation in Large Language Models  for Structured Contextual Synthesis](http://arxiv.org/abs/2502.01979v1) | Derek Yotheringhay, Beatrix Nightingale, Maximilian Featherstone, Edmund Worthington, Hugo Ashdown | cs.CL | 2025-02-04 |
+| [Latent Lexical Projection in Large Language Models: A Novel Approach to  Implicit Representation Refinement](http://arxiv.org/abs/2502.01882v1) | Ziad Shaker, Brendan Ashdown, Hugo Fitzalan, Alistair Heathcote, Jocasta Huntington | cs.CL | 2025-02-03 |
+| [M+: Extending MemoryLLM with Scalable Long-Term Memory](http://arxiv.org/abs/2502.00592v1) | Yu Wang, Dmitry Krotov, Yuanzhe Hu, Yifan Gao, Wangchunshu Zhou, Julian McAuley, Dan Gutfreund, Rogerio Feris, Zexue He | cs.CL | 2025-02-01 |
+| [A Comprehensive Framework for Semantic Similarity Analysis of Human and  AI-Generated Text Using Transformer Architectures and Ensemble Techniques](http://arxiv.org/abs/2501.14288v2) | Lifu Gao, Ziwei Liu, Qi Zhang | cs.CL, cs.AI | 2025-01-24 |
+| [BiMarker: Enhancing Text Watermark Detection for Large Language Models  with Bipolar Watermarks](http://arxiv.org/abs/2501.12174v4) | Zhuang Li | cs.LG | 2025-01-21 |
 | [Reasoning-Enhanced Self-Training for Long-Form Personalized Text  Generation](http://arxiv.org/abs/2501.04167v1) | Alireza Salemi, Cheng Li, Mingyang Zhang, Qiaozhu Mei, Weize Kong, Tao Chen, Zhuowan Li, Michael Bendersky, Hamed Zamani | cs.CL, cs.AI, cs.IR | 2025-01-07 |
 | [Beyond Factual Accuracy: Evaluating Coverage of Diverse Factual  Information in Long-form Text Generation](http://arxiv.org/abs/2501.03545v1) | Chris Samarinas, Alexander Krubner, Alireza Salemi, Youngwoo Kim, Hamed Zamani | cs.CL | 2025-01-07 |
 | [Map2Text: New Content Generation from Low-Dimensional Visualizations](http://arxiv.org/abs/2412.18673v1) | Xingjian Zhang, Ziyang Xiong, Shixuan Liu, Yutong Xie, Tolga Ergen, Dongsub Shim, Hua Xu, Honglak Lee, Qiaozhu Me | cs.AI, cs.HC | 2024-12-24 |

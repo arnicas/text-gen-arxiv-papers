@@ -1,4 +1,241 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Context-Preserving Gradient Modulation for Large Language Models: A
+  Novel Approach to Semantic Consistency in Long-Form Text Generation",2025-02-05 22:13:06+00:00,http://arxiv.org/abs/2502.03643v1,"Nirola Kobanov, Edmund Weatherstone, Zachary Vanderpoel, Orlando Wetherby",cs.CL,story,"Maintaining semantic consistency over extended text sequences remains a
+fundamental challenge in long-form text generation, where conventional training
+methodologies often struggle to prevent contextual drift and coherence
+degradation. A novel gradient modulation approach is introduced, designed to
+adjust parameter updates dynamically in response to contextual relevance,
+ensuring that generated text remains aligned with prior discourse. By
+integrating a modulation function that selectively amplifies or attenuates
+gradients based on learned contextual dependencies, the proposed method
+enhances the stability of model-generated narratives without imposing
+significant computational overhead. Comparative evaluations against baseline
+models reveal improvements in coherence, contextual retention, and long-range
+dependency tracking, demonstrating the effectiveness of modifying the learning
+process at the gradient level. The results indicate that sentence structure
+variability and lexical diversity benefit from this approach, mitigating
+repetitive phrasing and improving adaptability across diverse linguistic
+contexts. Statistical validation of coherence metrics further substantiates the
+observed enhancements, with a significant reduction in inconsistencies emerging
+as a direct consequence of the modulation mechanism. Computational efficiency
+assessments confirm that the framework achieves these gains without requiring
+substantial modifications to the underlying architecture, ensuring
+compatibility with existing optimization workflows.",2025-02-05
+Path Planning for Masked Diffusion Model Sampling,2025-02-05 19:00:52+00:00,http://arxiv.org/abs/2502.03540v2,"Fred Zhangzhi Peng, Zachary Bezemek, Sawan Patel, Jarrid Rector-Brooks, Sherwood Yao, Alexander Tong, Pranam Chatterjee","cs.LG, cs.AI",story,"In this paper, we explore how token unmasking order influences generative
+quality in masked diffusion models (MDMs). We derive an expanded evidence lower
+bound (ELBO) that introduces a planner to select which tokens to unmask at each
+step. Our analysis reveals that alternative unmasking strategies can enhance
+generation performance. Building on this, we propose Path Planning (P2), a
+sampling framework that uses a pre-trained BERT model or the denoiser itself to
+guide unmasking decisions. P2 generalizes all known MDM sampling strategies and
+significantly improves performance across diverse domains, including language
+generation (in-context learning, code generation, story infilling, mathematical
+reasoning, reverse curse correction) and biological sequence generation
+(protein and RNA sequences).",2025-02-05
+"Classic4Children: Adapting Chinese Literary Classics for Children with
+  Large Language Model",2025-02-03 06:23:35+00:00,http://arxiv.org/abs/2502.01090v1,"Jiali Chen, Xusen Hei, Yuqi Xue, Zihan Wu, Jiayuan Xie, Yi Cai","cs.CL, cs.AI",story,"Chinese literary classics hold significant cultural and educational value,
+offering deep insights into morality, history, and human nature. These works
+often include classical Chinese and complex narratives, making them difficult
+for children to read. To bridge this gap, we introduce a child-friendly
+literary adaptation (CLA) task to adapt the Chinese literary classic into
+engaging and accessible text for children. However, recent large language
+models (LLMs) overlook children's reading preferences (\ie, vivid character
+portrayals, concise narrative structures, and appropriate readability), which
+poses challenges in CLA. In this paper, we propose a method called
+InstructChild, which augments the LLM with these preferences for adaptation.
+Specifically, we first obtain the characters' personalities and narrative
+structure as additional information for fine-grained instruction tuning. Then,
+we devise a readability metric as the reward to align the LLM with the
+children's reading level. Finally, a lookahead decoding strategy is applied to
+improve the readability of the generated text during inference. To support the
+evaluation of CLA task, we construct the Classic4Children dataset, which
+comprises both the original and child-friendly versions of the Four Great
+Classical Novels of Chinese literature. Experimental results show that our
+InstructChild significantly improves automatic and human evaluation
+performance.",2025-02-03
+"Structural Embedding Projection for Contextual Large Language Model
+  Inference",2025-01-31 00:46:21+00:00,http://arxiv.org/abs/2501.18826v1,"Vincent Enoasmo, Cedric Featherstonehaugh, Xavier Konstantinopoulos, Zacharias Huntington",cs.CL,story,"Structured embedding transformations offer a promising approach for enhancing
+the efficiency and coherence of language model inference. The introduction of
+Structural Embedding Projection (SEP) provides a mechanism for refining token
+representations through projection matrices that integrate hierarchical and
+relational dependencies. The mathematical formulation of SEP enables embedding
+spaces to capture structured contextual relationships, thereby improving
+semantic fidelity without significantly increasing computational overhead.
+Experimental evaluations conducted on a range of linguistic datasets revealed
+that SEP contributed to reductions in perplexity and enhanced contextual
+coherence, demonstrating its potential to refine language model outputs.
+Computational efficiency assessments highlighted variations across different
+datasets, suggesting that the integration of structured embeddings introduced
+dataset-dependent trade-offs between inference speed and representational
+richness. The qualitative analysis of generated responses indicated that SEP
+enhanced narrative consistency and topic alignment, leading to improved fluency
+in multi-sentence text generation. The modifications to embedding layers
+required precise optimization to ensure stable training dynamics, as the
+introduction of structured transformations altered the traditional
+representation-learning process. The architectural adjustments necessary for
+SEP implementation influenced inference latency and memory consumption,
+requiring a balance between efficiency gains and additional processing demands.
+The impact of SEP on lexical diversity suggested that embedding modifications
+influenced the model's vocabulary usage, reflecting a more context-aware
+selection of generated tokens.",2025-01-31
+Context-Aware Semantic Recomposition Mechanism for Large Language Models,2025-01-29 02:38:28+00:00,http://arxiv.org/abs/2501.17386v1,"Richard Katrix, Quentin Carroway, Rowan Hawkesbury, Matthias Heathfield","cs.CL, cs.AI",story,"Context-aware processing mechanisms have increasingly become a critical area
+of exploration for improving the semantic and contextual capabilities of
+language generation models. The Context-Aware Semantic Recomposition Mechanism
+(CASRM) was introduced as a novel framework designed to address limitations in
+coherence, contextual adaptability, and error propagation in large-scale text
+generation tasks. Through the integration of dynamically generated context
+vectors and attention modulation layers, CASRM enhances the alignment between
+token-level representations and broader contextual dependencies. Experimental
+evaluations demonstrated significant improvements in semantic coherence across
+multiple domains, including technical, conversational, and narrative text. The
+ability to adapt to unseen domains and ambiguous inputs was evaluated using a
+diverse set of test scenarios, highlighting the robustness of the proposed
+mechanism. A detailed computational analysis revealed that while CASRM
+introduces additional processing overhead, the gains in linguistic precision
+and contextual relevance outweigh the marginal increase in complexity. The
+framework also successfully mitigates error propagation in sequential tasks,
+improving performance in dialogue continuation and multi-step text synthesis.
+Additional investigations into token-level attention distribution emphasized
+the dynamic focus shifts enabled through context-aware enhancements. The
+findings suggest that CASRM offers a scalable and flexible solution for
+integrating contextual intelligence into existing language model architectures.",2025-01-29
+"VeriFact: Verifying Facts in LLM-Generated Clinical Text with Electronic
+  Health Records",2025-01-28 03:13:16+00:00,http://arxiv.org/abs/2501.16672v1,"Philip Chung, Akshay Swaminathan, Alex J. Goodell, Yeasul Kim, S. Momsen Reincke, Lichy Han, Ben Deverett, Mohammad Amin Sadeghi, Abdel-Badih Ariss, Marc Ghanem, David Seong, Andrew A. Lee, Caitlin E. Coombes, Brad Bradshaw, Mahir A. Sufian, Hyo Jung Hong, Teresa P. Nguyen, Mohammad R. Rasouli, Komal Kamra, Mark A. Burbridge, James C. McAvoy, Roya Saffary, Stephen P. Ma, Dev Dash, James Xie, Ellen Y. Wang, Clifford A. Schmiesing, Nigam Shah, Nima Aghaeepour","cs.AI, cs.CL, cs.IR, cs.LO",story,"Methods to ensure factual accuracy of text generated by large language models
+(LLM) in clinical medicine are lacking. VeriFact is an artificial intelligence
+system that combines retrieval-augmented generation and LLM-as-a-Judge to
+verify whether LLM-generated text is factually supported by a patient's medical
+history based on their electronic health record (EHR). To evaluate this system,
+we introduce VeriFact-BHC, a new dataset that decomposes Brief Hospital Course
+narratives from discharge summaries into a set of simple statements with
+clinician annotations for whether each statement is supported by the patient's
+EHR clinical notes. Whereas highest agreement between clinicians was 88.5%,
+VeriFact achieves up to 92.7% agreement when compared to a denoised and
+adjudicated average human clinican ground truth, suggesting that VeriFact
+exceeds the average clinician's ability to fact-check text against a patient's
+medical record. VeriFact may accelerate the development of LLM-based EHR
+applications by removing current evaluation bottlenecks.",2025-01-28
+"People who frequently use ChatGPT for writing tasks are accurate and
+  robust detectors of AI-generated text",2025-01-26 19:31:34+00:00,http://arxiv.org/abs/2501.15654v1,"Jenna Russell, Marzena Karpinska, Mohit Iyyer","cs.CL, cs.AI",story,"In this paper, we study how well humans can detect text generated by
+commercial LLMs (GPT-4o, Claude, o1). We hire annotators to read 300
+non-fiction English articles, label them as either human-written or
+AI-generated, and provide paragraph-length explanations for their decisions.
+Our experiments show that annotators who frequently use LLMs for writing tasks
+excel at detecting AI-generated text, even without any specialized training or
+feedback. In fact, the majority vote among five such ""expert"" annotators
+misclassifies only 1 of 300 articles, significantly outperforming most
+commercial and open-source detectors we evaluated even in the presence of
+evasion tactics like paraphrasing and humanization. Qualitative analysis of the
+experts' free-form explanations shows that while they rely heavily on specific
+lexical clues ('AI vocabulary'), they also pick up on more complex phenomena
+within the text (e.g., formality, originality, clarity) that are challenging to
+assess for automatic detectors. We release our annotated dataset and code to
+spur future research into both human and automated detection of AI-generated
+text.",2025-01-26
+"Instruction Tuning for Story Understanding and Generation with Weak
+  Supervision",2025-01-26 15:59:31+00:00,http://arxiv.org/abs/2501.15574v1,"Yangshu Yuan, Heng Chen, Christian Ng",cs.CL,story,"Story understanding and generation have long been a challenging task in
+natural language processing (NLP), especially when dealing with various levels
+of instruction specificity. In this paper, we propose a novel approach called
+""Weak to Strong Instruction Tuning"" for improving story generation by tuning
+models with instructions of varying clarity. We explore the potential of large
+language models (LLMs) to adapt to different types of instructions, weak and
+strong, and show that our method significantly enhances performance in story
+comprehension and generation. By leveraging the strength of instruction tuning,
+we train models to understand the nuances of story plots, characters, and
+themes while generating coherent and engaging narratives. Through extensive
+experiments on several benchmark datasets and comparison with state-of-the-art
+baselines, we demonstrate that our method outperforms existing techniques,
+yielding substantial improvements in both automatic evaluation metrics and
+human evaluations. Our work shows that adaptive instruction tuning can be a
+powerful tool in refining generative models for complex narrative tasks.",2025-01-26
+"Semantic Layered Embedding Diffusion in Large Language Models for
+  Multi-Contextual Consistency",2025-01-26 05:17:04+00:00,http://arxiv.org/abs/2501.15405v1,"Irin Kabakum, Thomas Montgomery, Daniel Ravenwood, Genevieve Harrington","cs.CL, cs.AI",story,"The Semantic Layered Embedding Diffusion (SLED) mechanism redefines the
+representation of hierarchical semantics within transformer-based
+architectures, enabling enhanced contextual consistency across a wide array of
+linguistic tasks. By introducing a multi-layered diffusion process grounded in
+spectral analysis, it achieves a complex balance between global and local
+semantic coherence. Experimental results demonstrate significant improvements
+in perplexity and BLEU scores, emphasizing the mechanism's ability to adapt
+effectively across diverse domains, including multilingual and cross-domain
+text generation. A rigorous mathematical framework underpins the embedding
+diffusion process, incorporating weighted adjacency matrices, kernel-based
+refinements, and dynamic layer-wise normalization. Error distribution analysis
+reveals that SLED addresses challenges in semantic alignment and coherence,
+outperforming baseline approaches across varied benchmarks. Scalability studies
+illustrate that its performance gains are maintained consistently across
+different model sizes, reflecting a practical balance between computational
+efficiency and linguistic precision. The implementation also achieves energy
+efficiency, reducing resource consumption during training and inference phases
+without compromising accuracy. Qualitative case studies further validate its
+adaptability to extended narratives and context-intensive scenarios,
+highlighting the mechanism's potential for real-world applications. SLED offers
+a different perspective on embedding design and its implications for advancing
+language modeling.",2025-01-26
+"Toyteller: AI-powered Visual Storytelling Through Toy-Playing with
+  Character Symbols",2025-01-23 00:20:38+00:00,http://arxiv.org/abs/2501.13284v1,"John Joon Young Chung, Melissa Roemmele, Max Kreminski","cs.HC, cs.AI, cs.CL",story,"We introduce Toyteller, an AI-powered storytelling system where users
+generate a mix of story text and visuals by directly manipulating character
+symbols like they are toy-playing. Anthropomorphized symbol motions can convey
+rich and nuanced social interactions; Toyteller leverages these motions (1) to
+let users steer story text generation and (2) as a visual output format that
+accompanies story text. We enabled motion-steered text generation and
+text-steered motion generation by mapping motions and text onto a shared
+semantic space so that large language models and motion generation models can
+use it as a translational layer. Technical evaluations showed that Toyteller
+outperforms a competitive baseline, GPT-4o. Our user study identified that
+toy-playing helps express intentions difficult to verbalize. However, only
+motions could not express all user intentions, suggesting combining it with
+other modalities like language. We discuss the design space of toy-playing
+interactions and implications for technical HCI research on human-AI
+interaction.",2025-01-23
+"Neural Contextual Reinforcement Framework for Logical Structure Language
+  Generation",2025-01-20 11:34:28+00:00,http://arxiv.org/abs/2501.11417v1,"Marcus Irvin, William Cooper, Edward Hughes, Jessica Morgan, Christopher Hamilton","cs.CL, cs.AI",story,"The Neural Contextual Reinforcement Framework introduces an innovative
+approach to enhancing the logical coherence and structural consistency of text
+generated by large language models. Leveraging reinforcement learning
+principles, the framework integrates custom reward functions and dynamic
+context alignment mechanisms to address challenges inherent in maintaining
+long-range dependencies across extended sequences. The architecture
+incorporates multi-head attention layers and hierarchical encoding modules,
+enabling the model to produce outputs that align closely with human
+expectations of logical structure and semantic flow. Quantitative evaluations
+across diverse datasets demonstrate substantial improvements in coherence
+metrics, perplexity reduction, and semantic alignment, showcasing the
+framework's ability to outperform baseline models in both general and
+domain-specific tasks. Qualitative analyses further highlight the framework's
+capacity to generate text with improved narrative clarity and reduced
+redundancy, reflecting its effectiveness in balancing fluency with structural
+precision. In addition to its performance gains, the framework exhibits
+robustness in handling noisy input data and scalability across varying model
+sizes, reinforcing its versatility in practical applications. Experimental
+results reveal that optimal context window sizes significantly influence
+coherence outcomes, showing the importance of architectural flexibility in
+adapting to diverse linguistic structures. Cross-lingual performance
+evaluations affirm the framework's adaptability to multiple languages,
+extending its utility beyond monolingual contexts. Resource efficiency analyses
+indicate a reduction in computational overhead compared to traditional
+approaches, emphasizing the practicality of the framework for large-scale
+deployment.",2025-01-20
+"Why are we living the age of AI applications right now? The long
+  innovation path from AI's birth to a child's bedtime magic",2025-01-12 20:50:24+00:00,http://arxiv.org/abs/2501.06929v1,Tapio Pitkäranta,"cs.CY, cs.AI",story,"Today a four-year-old child who does not know how to read or write can now
+create bedtime stories with graphical illustrations and narrated audio, using
+AI tools that seamlessly transform speech into text, generate visuals, and
+convert text back into speech in a natural and engaging manner. This remarkable
+example demonstrates why we are living in the age of AI applications. This
+paper examines contemporary leading AI applications and traces their historical
+development, highlighting the major advancements that have enabled their
+realization. Five key factors are identified: 1) The evolution of computational
+hardware (CPUs and GPUs), enabling the training of complex AI models 2) The
+vast digital archives provided by the World Wide Web, which serve as a
+foundational data resource for AI systems 3) The ubiquity of mobile computing,
+with smartphones acting as powerful, accessible small computers in the hands of
+billions 4) The rise of industrial-scale cloud infrastructures, offering
+elastic computational power for AI training and deployment 5) Breakthroughs in
+AI research, including neural networks, backpropagation, and the ""Attention is
+All You Need"" framework, which underpin modern AI capabilities. These
+innovations have elevated AI from solving narrow tasks to enabling applications
+like ChatGPT that are adaptable for numerous use cases, redefining
+human-computer interaction. By situating these developments within a historical
+context, the paper highlights the critical milestones that have made AI's
+current capabilities both possible and widely accessible, offering profound
+implications for society.",2025-01-12
 "Examining the Robustness of Homogeneity Bias to Hyperparameter
   Adjustments in GPT-4",2025-01-04 06:51:49+00:00,http://arxiv.org/abs/2501.02211v1,Messi H. J. Lee,"cs.CV, cs.CL, cs.LG",story,"Vision-Language Models trained on massive collections of human-generated data
 often reproduce and amplify societal stereotypes. One critical form of

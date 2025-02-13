@@ -7,10 +7,16 @@ sidebar:
 ---
 
 
-*written on 2025-01-13*
+*written on 2025-02-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [The Odyssey of the Fittest: Can Agents Survive and Still Be Good?](http://arxiv.org/abs/2502.05442v1) | Dylan Waldner, Risto Miikkulainen | cs.AI, cs.CY, cs.HC, cs.LG | 2025-02-08 |
+| [Sports and Women's Sports: Gender Bias in Text Generation with Olympic  Data](http://arxiv.org/abs/2502.04218v1) | Laura Biester | cs.CL | 2025-02-06 |
+| [Solving the Content Gap in Roblox Game Recommendations: LLM-Based  Profile Generation and Reranking](http://arxiv.org/abs/2502.06802v1) | Chen Wang, Xiaokai Wei, Yexi Jiang, Frank Ong, Kevin Gao, Xiao Yu, Zheng Hui, Se-eun Yoon, Philip Yu, Michelle Gong | cs.IR, cs.AI, cs.CL, cs.LG | 2025-02-01 |
+| [Beyond checkmate: exploring the creative chokepoints in AI text](http://arxiv.org/abs/2501.19301v1) | Nafis Irtiza Tripto, Saranya Venkatraman, Mahjabin Nahar, Dongwon Lee | cs.CL, cs.AI | 2025-01-31 |
+| [Complete Chess Games Enable LLM Become A Chess Master](http://arxiv.org/abs/2501.17186v2) | Yinqi Zhang, Xintian Han, Haolong Li, Kedi Chen, Shaohui Lin | cs.AI, cs.CL, cs.LG | 2025-01-26 |
+| [Multi-agent KTO: Reinforcing Strategic Interactions of Large Language  Model in Language Game](http://arxiv.org/abs/2501.14225v1) | Rong Ye, Yongxin Zhang, Yikai Zhang, Haoyu Kuang, Zhongyu Wei, Peng Sun | cs.CL, cs.AI, cs.HC | 2025-01-24 |
 | [Mastering Board Games by External and Internal Planning with Language  Models](http://arxiv.org/abs/2412.12119v1) | John Schultz, Jakub Adamek, Matej Jusup, Marc Lanctot, Michael Kaisers, Sarah Perrin, Daniel Hennes, Jeremy Shar, Cannada Lewis, Anian Ruoss, Tom Zahavy, Petar Veličković, Laurel Prince, Satinder Singh, Eric Malmi, Nenad Tomašev | cs.AI, cs.CL, cs.LG | 2024-12-02 |
 | [Measuring Bullshit in the Language Games played by ChatGPT](http://arxiv.org/abs/2411.15129v1) | Alessandro Trevisan, Harry Giddens, Sarah Dillon, Alan F. Blackwell | cs.CL, cs.AI, cs.HC | 2024-11-22 |
 | [SVIP: Towards Verifiable Inference of Open-source Large Language Models](http://arxiv.org/abs/2410.22307v1) | Yifan Sun, Yuhang Li, Yue Zhang, Yuchen Jin, Huan Zhang | cs.LG, cs.AI, cs.CL, cs.CR | 2024-10-29 |

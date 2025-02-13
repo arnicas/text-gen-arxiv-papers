@@ -1,4 +1,102 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+The Odyssey of the Fittest: Can Agents Survive and Still Be Good?,2025-02-08 04:17:28+00:00,http://arxiv.org/abs/2502.05442v1,"Dylan Waldner, Risto Miikkulainen","cs.AI, cs.CY, cs.HC, cs.LG",games,"As AI models grow in power and generality, understanding how agents learn and
+make decisions in complex environments is critical to promoting ethical
+behavior. This paper examines the ethical implications of implementing
+biological drives, specifically, self preservation, into three different
+agents. A Bayesian agent optimized with NEAT, a Bayesian agent optimized with
+stochastic variational inference, and a GPT 4o agent play a simulated, LLM
+generated text based adventure game. The agents select actions at each scenario
+to survive, adapting to increasingly challenging scenarios. Post simulation
+analysis evaluates the ethical scores of the agent's decisions, uncovering the
+tradeoffs they navigate to survive. Specifically, analysis finds that when
+danger increases, agents ignore ethical considerations and opt for unethical
+behavior. The agents' collective behavior, trading ethics for survival,
+suggests that prioritizing survival increases the risk of unethical behavior.
+In the context of AGI, designing agents to prioritize survival may amplify the
+likelihood of unethical decision making and unintended emergent behaviors,
+raising fundamental questions about goal design in AI safety research.",2025-02-08
+"Sports and Women's Sports: Gender Bias in Text Generation with Olympic
+  Data",2025-02-06 17:01:00+00:00,http://arxiv.org/abs/2502.04218v1,Laura Biester,cs.CL,games,"Large Language Models (LLMs) have been shown to be biased in prior work, as
+they generate text that is in line with stereotypical views of the world or
+that is not representative of the viewpoints and values of historically
+marginalized demographic groups. In this work, we propose using data from
+parallel men's and women's events at the Olympic Games to investigate different
+forms of gender bias in language models. We define three metrics to measure
+bias, and find that models are consistently biased against women when the
+gender is ambiguous in the prompt. In this case, the model frequently retrieves
+only the results of the men's event with or without acknowledging them as such,
+revealing pervasive gender bias in LLMs in the context of athletics.",2025-02-06
+"Solving the Content Gap in Roblox Game Recommendations: LLM-Based
+  Profile Generation and Reranking",2025-02-01 06:30:56+00:00,http://arxiv.org/abs/2502.06802v1,"Chen Wang, Xiaokai Wei, Yexi Jiang, Frank Ong, Kevin Gao, Xiao Yu, Zheng Hui, Se-eun Yoon, Philip Yu, Michelle Gong","cs.IR, cs.AI, cs.CL, cs.LG",games,"With the vast and dynamic user-generated content on Roblox, creating
+effective game recommendations requires a deep understanding of game content.
+Traditional recommendation models struggle with the inconsistent and sparse
+nature of game text features such as titles and descriptions. Recent
+advancements in large language models (LLMs) offer opportunities to enhance
+recommendation systems by analyzing in-game text data. This paper addresses two
+challenges: generating high-quality, structured text features for games without
+extensive human annotation, and validating these features to ensure they
+improve recommendation relevance. We propose an approach that extracts in-game
+text and uses LLMs to infer attributes such as genre and gameplay objectives
+from raw player interactions. Additionally, we introduce an LLM-based
+re-ranking mechanism to assess the effectiveness of the generated text
+features, enhancing personalization and user satisfaction. Beyond
+recommendations, our approach supports applications such as user
+engagement-based integrity detection, already deployed in production. This
+scalable framework demonstrates the potential of in-game text understanding to
+improve recommendation quality on Roblox and adapt recommendations to its
+unique, user-generated ecosystem.",2025-02-01
+Beyond checkmate: exploring the creative chokepoints in AI text,2025-01-31 16:57:01+00:00,http://arxiv.org/abs/2501.19301v1,"Nafis Irtiza Tripto, Saranya Venkatraman, Mahjabin Nahar, Dongwon Lee","cs.CL, cs.AI",games,"Large Language Models (LLMs) have revolutionized Natural Language Processing
+(NLP) and Artificial Intelligence (AI), unlocking unprecedented capabilities.
+This rapid advancement has spurred research into various aspects of LLMs, their
+text generation & reasoning capability, and potential misuse, fueling the
+necessity for robust detection methods. While numerous prior research has
+focused on detecting LLM-generated text (AI text) and thus checkmating them,
+our study investigates a relatively unexplored territory: portraying the
+nuanced distinctions between human and AI texts across text segments. Whether
+LLMs struggle with or excel at incorporating linguistic ingenuity across
+different text segments carries substantial implications for determining their
+potential as effective creative assistants to humans. Through an analogy with
+the structure of chess games-comprising opening, middle, and end games-we
+analyze text segments (introduction, body, and conclusion) to determine where
+the most significant distinctions between human and AI texts exist. While AI
+texts can approximate the body segment better due to its increased length, a
+closer examination reveals a pronounced disparity, highlighting the importance
+of this segment in AI text detection. Additionally, human texts exhibit higher
+cross-segment differences compared to AI texts. Overall, our research can shed
+light on the intricacies of human-AI text distinctions, offering novel insights
+for text detection and understanding.",2025-01-31
+Complete Chess Games Enable LLM Become A Chess Master,2025-01-26 09:43:39+00:00,http://arxiv.org/abs/2501.17186v2,"Yinqi Zhang, Xintian Han, Haolong Li, Kedi Chen, Shaohui Lin","cs.AI, cs.CL, cs.LG",games,"Large language models (LLM) have shown remarkable abilities in text
+generation, question answering, language translation, reasoning and many other
+tasks. It continues to advance rapidly and is becoming increasingly influential
+in various fields, from technology and business to education and entertainment.
+Despite LLM's success in multiple areas, its ability to play abstract games,
+such as chess, is underexplored. Chess-playing requires the language models to
+output legal and reasonable moves from textual inputs. Here, we propose the
+Large language model ChessLLM to play full chess games. We transform the game
+into a textual format with the best move represented in the Forsyth-Edwards
+Notation. We show that by simply supervised fine-tuning, our model has achieved
+a professional-level Elo rating of 1788 in matches against the standard
+Elo-rated Stockfish when permitted to sample 10 times. We further show that
+data quality is important. Long-round data supervision enjoys a 350 Elo rating
+improvement over short-round data.",2025-01-26
+"Multi-agent KTO: Reinforcing Strategic Interactions of Large Language
+  Model in Language Game",2025-01-24 04:09:03+00:00,http://arxiv.org/abs/2501.14225v1,"Rong Ye, Yongxin Zhang, Yikai Zhang, Haoyu Kuang, Zhongyu Wei, Peng Sun","cs.CL, cs.AI, cs.HC",games,"Achieving Artificial General Intelligence (AGI) requires AI agents that can
+not only make stratigic decisions but also engage in flexible and meaningful
+communication. Inspired by Wittgenstein's language game theory in Philosophical
+Investigations, we propose that language agents can learn through in-context
+interaction rather than traditional multi-stage frameworks that separate
+decision-making from language expression. Using Werewolf, a social deduction
+game that tests language understanding, strategic interaction, and
+adaptability, we develop the Multi-agent Kahneman & Tversky's Optimization
+(MaKTO). MaKTO engages diverse models in extensive gameplay to generate
+unpaired desirable and unacceptable responses, then employs KTO to refine the
+model's decision-making process. In 9-player Werewolf games, MaKTO achieves a
+61% average win rate across various models, outperforming GPT-4o and two-stage
+RL agents by relative improvements of 23.0% and 10.9%, respectively. Notably,
+MaKTO also demonstrates human-like performance, winning 60% against expert
+players and showing only 49% detectability in Turing-style blind tests. These
+results showcase MaKTO's superior decision-making, strategic adaptation, and
+natural language generation in complex social deduction games.",2025-01-24
 "Mastering Board Games by External and Internal Planning with Language
   Models",2024-12-02 18:56:51+00:00,http://arxiv.org/abs/2412.12119v1,"John Schultz, Jakub Adamek, Matej Jusup, Marc Lanctot, Michael Kaisers, Sarah Perrin, Daniel Hennes, Jeremy Shar, Cannada Lewis, Anian Ruoss, Tom Zahavy, Petar Veličković, Laurel Prince, Satinder Singh, Eric Malmi, Nenad Tomašev","cs.AI, cs.CL, cs.LG",games,"While large language models perform well on a range of complex tasks (e.g.,
 text generation, question answering, summarization), robust multi-step planning

@@ -7,10 +7,25 @@ sidebar:
 ---
 
 
-*written on 2025-01-13*
+*written on 2025-02-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Exploring the Potential of Large Language Models to Simulate Personality](http://arxiv.org/abs/2502.08265v1) | Maria Molchanova, Anna Mikhailova, Anna Korzanova, Lidiia Ostyakova, Alexandra Dolidze | cs.CL, cs.AI | 2025-02-12 |
+| [Exploring Mobile Touch Interaction with Large Language Models](http://arxiv.org/abs/2502.07629v1) | Tim Zindulka, Jannek Sekowski, Florian Lehmann, Daniel Buschek | cs.HC, cs.CL, H.5.2; I.2.7 | 2025-02-11 |
+| [HamRaz: A Culture-Based Persian Conversation Dataset for Person-Centered  Therapy Using LLM Agents](http://arxiv.org/abs/2502.05982v1) | Mohammad Amin Abbasi, Farnaz Sadat Mirnezami, Hassan Naderi | cs.CL | 2025-02-09 |
+| [The Odyssey of the Fittest: Can Agents Survive and Still Be Good?](http://arxiv.org/abs/2502.05442v1) | Dylan Waldner, Risto Miikkulainen | cs.AI, cs.CY, cs.HC, cs.LG | 2025-02-08 |
+| [Enhancing Impression Change Prediction in Speed Dating Simulations Based  on Speakers' Personalities](http://arxiv.org/abs/2502.04706v1) | Kazuya Matsuo, Yoko Ishii, Atsushi Otsuka, Ryo Ishii, Hiroaki Sugiyama, Masahiro Mizukami, Tsunehiro Arimoto, Narichika Nomoto, Yoshihide Sato, Tetsuya Yamaguchi | cs.CL, cs.HC | 2025-02-07 |
+| [PsyPlay: Personality-Infused Role-Playing Conversational Agents](http://arxiv.org/abs/2502.03821v1) | Tao Yang, Yuhua Zhu, Xiaojun Quan, Cong Liu, Qifan Wang | cs.CL | 2025-02-06 |
+| [Detecting Ambiguities to Guide Query Rewrite for Robust Conversations in  Enterprise AI Assistants](http://arxiv.org/abs/2502.00537v1) | Md Mehrab Tanjim, Xiang Chen, Victor S. Bursztyn, Uttaran Bhattacharya, Tung Mai, Vaishnavi Muppala, Akash Maharaj, Saayan Mitra, Eunyee Koh, Yunyao Li, Ken Russell | cs.CL | 2025-02-01 |
+| [Imitation Game for Adversarial Disillusion with Multimodal Generative  Chain-of-Thought Role-Play](http://arxiv.org/abs/2501.19143v1) | Ching-Chun Chang, Fan-Yun Chen, Shih-Hong Gu, Kai Gao, Hanrui Wang, Isao Echizen | cs.AI, cs.CR, cs.CV | 2025-01-31 |
+| [Context-Aware Semantic Recomposition Mechanism for Large Language Models](http://arxiv.org/abs/2501.17386v1) | Richard Katrix, Quentin Carroway, Rowan Hawkesbury, Matthias Heathfield | cs.CL, cs.AI | 2025-01-29 |
+| [Towards Explainable Multimodal Depression Recognition for Clinical  Interviews](http://arxiv.org/abs/2501.16106v1) | Wenjie Zheng, Qiming Xie, Zengzhi Wang, Jianfei Yu, Rui Xia | cs.CL | 2025-01-27 |
+| [Unmasking Conversational Bias in AI Multiagent Systems](http://arxiv.org/abs/2501.14844v2) | Erica Coppolillo, Giuseppe Manco, Luca Maria Aiello | cs.CL, cs.AI, cs.MA | 2025-01-24 |
+| [Multi-agent KTO: Reinforcing Strategic Interactions of Large Language  Model in Language Game](http://arxiv.org/abs/2501.14225v1) | Rong Ye, Yongxin Zhang, Yikai Zhang, Haoyu Kuang, Zhongyu Wei, Peng Sun | cs.CL, cs.AI, cs.HC | 2025-01-24 |
+| [A RAG-Based Institutional Assistant](http://arxiv.org/abs/2501.13880v1) | Gustavo Kuratomi, Paulo Pirozelli, Fabio G. Cozman, Sarajane M. Peres | cs.CL | 2025-01-23 |
+| [Reference-free Evaluation Metrics for Text Generation: A Survey](http://arxiv.org/abs/2501.12011v1) | Takumi Ito, Kees van Deemter, Jun Suzuki | cs.CL | 2025-01-21 |
+| [Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG](http://arxiv.org/abs/2501.09136v3) | Aditi Singh, Abul Ehtesham, Saket Kumar, Tala Talaei Khoei | cs.AI, cs.CL, cs.IR | 2025-01-15 |
 | [Creating, Using and Assessing a Generative-AI-Based  Human-Chatbot-Dialogue Dataset with User-Interaction Learning Capabilities](http://arxiv.org/abs/2501.00791v1) | Alfredo Cuzzocrea, Giovanni Pilato, Pablo Garcia Bringas | cs.HC | 2025-01-01 |
 | [FaGeL: Fabric LLMs Agent empowered Embodied Intelligence Evolution with  Autonomous Human-Machine Collaboration](http://arxiv.org/abs/2412.20297v1) | Jia Liu, Min Chen | cs.HC | 2024-12-28 |
 | [Friends-MMC: A Dataset for Multi-modal Multi-party Conversation  Understanding](http://arxiv.org/abs/2412.17295v1) | Yueqian Wang, Xiaojun Meng, Yuxuan Wang, Jianxin Liang, Qun Liu, Dongyan Zhao | cs.CL | 2024-12-23 |
