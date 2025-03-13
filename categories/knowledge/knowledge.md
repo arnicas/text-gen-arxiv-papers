@@ -7,10 +7,20 @@ sidebar:
 ---
 
 
-*written on 2025-02-13*
+*written on 2025-03-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Search-R1: Training LLMs to Reason and Leverage Search Engines with  Reinforcement Learning](http://arxiv.org/abs/2503.09516v1) | Bowen Jin, Hansi Zeng, Zhenrui Yue, Dong Wang, Hamed Zamani, Jiawei Han | cs.CL, cs.AI, cs.IR | 2025-03-12 |
+| [Odysseus Navigates the Sirens' Song: Dynamic Focus Decoding for Factual  and Diverse Open-Ended Text Generation](http://arxiv.org/abs/2503.08057v1) | Wen Luo, Feifan Song, Wei Li, Guangyue Peng, Shaohang Wei, Houfeng Wang | cs.CL | 2025-03-11 |
+| [Plume: Scaffolding Text Composition in Dashboards](http://arxiv.org/abs/2503.07512v1) | Maxim Lisnic, Vidya Setlur, Nicole Sultanum | cs.HC | 2025-03-10 |
+| [AuthorMist: Evading AI Text Detectors with Reinforcement Learning](http://arxiv.org/abs/2503.08716v1) | Isaac David, Arthur Gervais | cs.CR, cs.AI, cs.LG | 2025-03-10 |
+| [Dr Genre: Reinforcement Learning from Decoupled LLM Feedback for Generic  Text Rewriting](http://arxiv.org/abs/2503.06781v1) | Yufei Li, John Nham, Ganesh Jawahar, Lei Shu, David Uthus, Yun-Hsuan Sung, Chengrun Yang, Itai Rolnick, Yi Qiao, Cong Liu | cs.CL, cs.AI, cs.LG | 2025-03-09 |
+| [Text-Speech Language Models with Improved Cross-Modal Transfer by  Aligning Abstraction Levels](http://arxiv.org/abs/2503.06211v1) | Santiago Cuervo, Adel Moumen, Yanis Labrak, Sameer Khurana, Antoine Laurent, Mickael Rouvier, Ricard Marxer | cs.CL, cs.AI, eess.AS | 2025-03-08 |
+| [Personalized Text Generation with Contrastive Activation Steering](http://arxiv.org/abs/2503.05213v1) | Jinghao Zhang, Yuting Liu, Wenjie Wang, Qiang Liu, Shu Wu, Liang Wang, Tat-Seng Chua | cs.CL | 2025-03-07 |
+| [Guiding LLMs to Generate High-Fidelity and High-Quality Counterfactual  Explanations for Text Classification](http://arxiv.org/abs/2503.04463v1) | Van Bach Nguyen, Christin Seifert, Jörg Schlötterer | cs.CL | 2025-03-06 |
+| [TPC: Cross-Temporal Prediction Connection for Vision-Language Model  Hallucination Reduction](http://arxiv.org/abs/2503.04457v1) | Chao Wang, Weiwei Fu, Yang Zhou | cs.CV, cs.AI | 2025-03-06 |
+| [Tgea: An error-annotated dataset and benchmark tasks for text generation  from pretrained language models](http://arxiv.org/abs/2503.04232v1) | Jie He, Bo Peng, Yi Liao, Qun Liu, Deyi Xiong | cs.CL | 2025-03-06 |
 | [Explanation based In-Context Demonstrations Retrieval for Multilingual  Grammatical Error Correction](http://arxiv.org/abs/2502.08507v1) | Wei Li, Wen Luo, Guangyue Peng, Houfeng Wang | cs.CL | 2025-02-12 |
 | [Bridging LLM-Generated Code and Requirements: Reverse Generation  technique and SBC Metric for Developer Insights](http://arxiv.org/abs/2502.07835v1) | Ahilan Ayyachamy Nadar Ponnusamy | cs.SE, cs.AI | 2025-02-11 |
 | [Latent Convergence Modulation in Large Language Models: A Novel Approach  to Iterative Contextual Realignment](http://arxiv.org/abs/2502.06302v1) | Patricia Porretta, Sylvester Pakenham, Huxley Ainsworth, Gregory Chatten, Godfrey Allerton, Simon Hollingsworth, Vance Periwinkle | cs.CL | 2025-02-10 |

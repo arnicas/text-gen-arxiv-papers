@@ -1,4 +1,19 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Beyond Next Word Prediction: Developing Comprehensive Evaluation
+  Frameworks for measuring LLM performance on real world applications",2025-03-05 06:44:38+00:00,http://arxiv.org/abs/2503.04828v1,"Vishakha Agrawal, Archie Chaudhury, Shreya Agrawal","cs.CL, cs.AI, cs.LG",games,"While Large Language Models (LLMs) are fundamentally next-token prediction
+systems, their practical applications extend far beyond this basic function.
+From natural language processing and text generation to conversational
+assistants and software use, LLMs have numerous use-cases, and have already
+acquired a significant degree of enterprise adoption. To evaluate such models,
+static evaluation datasets, consisting of a set of prompts and their
+corresponding ground truths, are often used to benchmark the efficacy of the
+model for a particular task. In this paper, we provide the basis for a more
+comprehensive evaluation framework, based upon a traditional game and
+tool-based architecture that enables a more overarching measurement of a
+model's capabilities. For simplicity, we provide a generalized foundation that
+can be extended, without significant alteration, to numerous scenarios, from
+specific use cases such as supply chain management or financial reasoning, to
+abstract measurements such as ethics or safety.",2025-03-05
 The Odyssey of the Fittest: Can Agents Survive and Still Be Good?,2025-02-08 04:17:28+00:00,http://arxiv.org/abs/2502.05442v1,"Dylan Waldner, Risto Miikkulainen","cs.AI, cs.CY, cs.HC, cs.LG",games,"As AI models grow in power and generality, understanding how agents learn and
 make decisions in complex environments is critical to promoting ethical
 behavior. This paper examines the ethical implications of implementing

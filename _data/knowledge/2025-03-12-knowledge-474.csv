@@ -1,4 +1,180 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Search-R1: Training LLMs to Reason and Leverage Search Engines with
+  Reinforcement Learning",2025-03-12 16:26:39+00:00,http://arxiv.org/abs/2503.09516v1,"Bowen Jin, Hansi Zeng, Zhenrui Yue, Dong Wang, Hamed Zamani, Jiawei Han","cs.CL, cs.AI, cs.IR",knowledge,"Efficiently acquiring external knowledge and up-to-date information is
+essential for effective reasoning and text generation in large language models
+(LLMs). Retrieval augmentation and tool-use training approaches where a search
+engine is treated as a tool lack complex multi-turn retrieval flexibility or
+require large-scale supervised data. Prompting advanced LLMs with reasoning
+capabilities during inference to use search engines is not optimal, since the
+LLM does not learn how to optimally interact with the search engine. This paper
+introduces Search-R1, an extension of the DeepSeek-R1 model where the LLM
+learns -- solely through reinforcement learning (RL) -- to autonomously
+generate (multiple) search queries during step-by-step reasoning with real-time
+retrieval. Search-R1 optimizes LLM rollouts with multi-turn search
+interactions, leveraging retrieved token masking for stable RL training and a
+simple outcome-based reward function. Experiments on seven question-answering
+datasets show that Search-R1 improves performance by 26% (Qwen2.5-7B), 21%
+(Qwen2.5-3B), and 10% (LLaMA3.2-3B) over SOTA baselines. This paper further
+provides empirical insights into RL optimization methods, LLM choices, and
+response length dynamics in retrieval-augmented reasoning. The code and model
+checkpoints are available at https://github.com/PeterGriffinJin/Search-R1.",2025-03-12
+"Odysseus Navigates the Sirens' Song: Dynamic Focus Decoding for Factual
+  and Diverse Open-Ended Text Generation",2025-03-11 05:27:28+00:00,http://arxiv.org/abs/2503.08057v1,"Wen Luo, Feifan Song, Wei Li, Guangyue Peng, Shaohang Wei, Houfeng Wang",cs.CL,knowledge,"Large Language Models (LLMs) are increasingly required to generate text that
+is both factually accurate and diverse across various open-ended applications.
+However, current stochastic decoding methods struggle to balance such
+objectives. We introduce Dynamic Focus Decoding (DFD), a novel plug-and-play
+stochastic approach that resolves this trade-off without requiring additional
+data, knowledge, or models. DFD adaptively adjusts the decoding focus based on
+distributional differences across layers, leveraging the modular and
+hierarchical nature of factual knowledge within LLMs. This dynamic adjustment
+improves factuality in knowledge-intensive decoding steps and promotes
+diversity in less knowledge-reliant steps. DFD can be easily integrated with
+existing decoding methods, enhancing both factuality and diversity with minimal
+computational overhead. Extensive experiments across seven datasets demonstrate
+that DFD significantly improves performance, providing a scalable and efficient
+solution for open-ended text generation.",2025-03-11
+Plume: Scaffolding Text Composition in Dashboards,2025-03-10 16:32:52+00:00,http://arxiv.org/abs/2503.07512v1,"Maxim Lisnic, Vidya Setlur, Nicole Sultanum",cs.HC,knowledge,"Text in dashboards plays multiple critical roles, including providing
+context, offering insights, guiding interactions, and summarizing key
+information. Despite its importance, most dashboarding tools focus on
+visualizations and offer limited support for text authoring. To address this
+gap, we developed Plume, a system to help authors craft effective dashboard
+text. Through a formative review of exemplar dashboards, we created a typology
+of text parameters and articulated the relationship between visual placement
+and semantic connections, which informed Plume's design. Plume employs large
+language models (LLMs) to generate contextually appropriate content and
+provides guidelines for writing clear, readable text. A preliminary evaluation
+with 12 dashboard authors explored how assisted text authoring integrates into
+workflows, revealing strengths and limitations of LLM-generated text and the
+value of our human-in-the-loop approach. Our findings suggest opportunities to
+improve dashboard authoring tools by better supporting the diverse roles that
+text plays in conveying insights.",2025-03-10
+AuthorMist: Evading AI Text Detectors with Reinforcement Learning,2025-03-10 12:41:05+00:00,http://arxiv.org/abs/2503.08716v1,"Isaac David, Arthur Gervais","cs.CR, cs.AI, cs.LG",knowledge,"In the age of powerful AI-generated text, automatic detectors have emerged to
+identify machine-written content. This poses a threat to author privacy and
+freedom, as text authored with AI assistance may be unfairly flagged. We
+propose AuthorMist, a novel reinforcement learning-based system to transform
+AI-generated text into human-like writing. AuthorMist leverages a
+3-billion-parameter language model as a backbone, fine-tuned with Group
+Relative Policy Optimization (GPRO) to paraphrase text in a way that evades AI
+detectors.
+  Our framework establishes a generic approach where external detector APIs
+(GPTZero, WinstonAI, Originality.ai, etc.) serve as reward functions within the
+reinforcement learning loop, enabling the model to systematically learn outputs
+that these detectors are less likely to classify as AI-generated. This
+API-as-reward methodology can be applied broadly to optimize text against any
+detector with an accessible interface. Experiments on multiple datasets and
+detectors demonstrate that AuthorMist effectively reduces the detectability of
+AI-generated text while preserving the original meaning. Our evaluation shows
+attack success rates ranging from 78.6% to 96.2% against individual detectors,
+significantly outperforming baseline paraphrasing methods. AuthorMist maintains
+high semantic similarity (above 0.94) with the original text while successfully
+evading detection. These results highlight limitations in current AI text
+detection technologies and raise questions about the sustainability of the
+detection-evasion arms race.",2025-03-10
+"Dr Genre: Reinforcement Learning from Decoupled LLM Feedback for Generic
+  Text Rewriting",2025-03-09 21:23:52+00:00,http://arxiv.org/abs/2503.06781v1,"Yufei Li, John Nham, Ganesh Jawahar, Lei Shu, David Uthus, Yun-Hsuan Sung, Chengrun Yang, Itai Rolnick, Yi Qiao, Cong Liu","cs.CL, cs.AI, cs.LG",knowledge,"Generic text rewriting is a prevalent large language model (LLM) application
+that covers diverse real-world tasks, such as style transfer, fact correction,
+and email editing. These tasks vary in rewriting objectives (e.g., factual
+consistency vs. semantic preservation), making it challenging to develop a
+unified model that excels across all dimensions. Existing methods often
+specialize in either a single task or a specific objective, limiting their
+generalizability. In this work, we introduce a generic model proficient in
+factuality, stylistic, and conversational rewriting tasks. To simulate
+real-world user rewrite requests, we construct a conversational rewrite
+dataset, ChatRewrite, that presents ``natural''-sounding instructions, from raw
+emails using LLMs. Combined with other popular rewrite datasets, including
+LongFact for the factuality rewrite task and RewriteLM for the stylistic
+rewrite task, this forms a broad benchmark for training and evaluating generic
+rewrite models. To align with task-specific objectives, we propose Dr Genre, a
+Decoupled-reward learning framework for Generic rewriting, that utilizes
+objective-oriented reward models with a task-specific weighting. Evaluation
+shows that \approach delivers higher-quality rewrites across all targeted
+tasks, improving objectives including instruction following (agreement),
+internal consistency (coherence), and minimal unnecessary edits (conciseness).",2025-03-09
+"Text-Speech Language Models with Improved Cross-Modal Transfer by
+  Aligning Abstraction Levels",2025-03-08 13:28:50+00:00,http://arxiv.org/abs/2503.06211v1,"Santiago Cuervo, Adel Moumen, Yanis Labrak, Sameer Khurana, Antoine Laurent, Mickael Rouvier, Ricard Marxer","cs.CL, cs.AI, eess.AS",knowledge,"Text-Speech Language Models (TSLMs) -- language models trained to jointly
+process and generate text and speech -- aim to enable cross-modal knowledge
+transfer to overcome the scaling limitations of unimodal speech LMs. The
+predominant approach to TSLM training expands the vocabulary of a pre-trained
+text LM by appending new embeddings and linear projections for speech, followed
+by fine-tuning on speech data. We hypothesize that this method limits
+cross-modal transfer by neglecting feature compositionality, preventing
+text-learned functions from being fully leveraged at appropriate abstraction
+levels. To address this, we propose augmenting vocabulary expansion with
+modules that better align abstraction levels across layers. Our models,
+\textsc{SmolTolk}, rival or surpass state-of-the-art TSLMs trained with orders
+of magnitude more compute. Representation analyses and improved multimodal
+performance suggest our method enhances cross-modal transfer.",2025-03-08
+Personalized Text Generation with Contrastive Activation Steering,2025-03-07 08:07:15+00:00,http://arxiv.org/abs/2503.05213v1,"Jinghao Zhang, Yuting Liu, Wenjie Wang, Qiang Liu, Shu Wu, Liang Wang, Tat-Seng Chua",cs.CL,knowledge,"Personalized text generation aims to infer users' writing style preferences
+from their historical texts and generate outputs that faithfully reflect these
+stylistic characteristics. Existing solutions primarily adopt two paradigms:
+retrieval-augmented generation (RAG) and parameter-efficient fine-tuning
+(PEFT). While these approaches have advanced the field, they suffer from two
+critical limitations: (1) the entanglement of content semantics and stylistic
+patterns in historical texts impedes accurate modeling of user-specific writing
+preferences; and (2) scalability challenges arising from both RAG's inference
+latency by retrieval operations and PEFT's parameter storage requirements for
+per user model. To overcome these limitations, we propose StyleVector, a
+training-free framework that disentangles and represents personalized writing
+style as a vector in LLM's activation space, enabling style-steered generation
+during inference without requiring costly retrieval or parameter storage.
+Comprehensive experiments demonstrate that our framework achieves a significant
+8% relative improvement in personalized generation while reducing storage
+requirements by 1700 times over PEFT method.",2025-03-07
+"Guiding LLMs to Generate High-Fidelity and High-Quality Counterfactual
+  Explanations for Text Classification",2025-03-06 14:15:07+00:00,http://arxiv.org/abs/2503.04463v1,"Van Bach Nguyen, Christin Seifert, Jörg Schlötterer",cs.CL,knowledge,"The need for interpretability in deep learning has driven interest in
+counterfactual explanations, which identify minimal changes to an instance that
+change a model's prediction. Current counterfactual (CF) generation methods
+require task-specific fine-tuning and produce low-quality text. Large Language
+Models (LLMs), though effective for high-quality text generation, struggle with
+label-flipping counterfactuals (i.e., counterfactuals that change the
+prediction) without fine-tuning. We introduce two simple classifier-guided
+approaches to support counterfactual generation by LLMs, eliminating the need
+for fine-tuning while preserving the strengths of LLMs. Despite their
+simplicity, our methods outperform state-of-the-art counterfactual generation
+methods and are effective across different LLMs, highlighting the benefits of
+guiding counterfactual generation by LLMs with classifier information. We
+further show that data augmentation by our generated CFs can improve a
+classifier's robustness. Our analysis reveals a critical issue in
+counterfactual generation by LLMs: LLMs rely on parametric knowledge rather
+than faithfully following the classifier.",2025-03-06
+"TPC: Cross-Temporal Prediction Connection for Vision-Language Model
+  Hallucination Reduction",2025-03-06 14:11:00+00:00,http://arxiv.org/abs/2503.04457v1,"Chao Wang, Weiwei Fu, Yang Zhou","cs.CV, cs.AI",knowledge,"Vision-language models (VLMs) have achieved remarkable advancements,
+capitalizing on the impressive capabilities of large language models (LLMs)
+across diverse tasks. Despite this, a critical challenge known as hallucination
+occurs when models overconfidently describe objects or attributes absent from
+the image, a problem exacerbated by the tendency of VLMs to rely on linguistic
+priors. This limitation reduces model reliability in high-stakes applications.
+In this work, we have observed the characteristic of logits' continuity
+consistency enhancement and introduced a straightforward and efficient method,
+Cross-Temporal Prediction Connection (TPC), designed to enhance the semantic
+consistency of logits by connecting them temporally across timesteps. TPC
+amplifies information flow and improves coherence, effectively reducing
+hallucination. Extensive experiments show that TPC surpasses existing
+representatives, delivering superior performance in both accuracy and
+efficiency while maintaining robustness in open-ended text generation tasks.",2025-03-06
+"Tgea: An error-annotated dataset and benchmark tasks for text generation
+  from pretrained language models",2025-03-06 09:14:02+00:00,http://arxiv.org/abs/2503.04232v1,"Jie He, Bo Peng, Yi Liao, Qun Liu, Deyi Xiong",cs.CL,knowledge,"In order to deeply understand the capability of pretrained language models in
+text generation and conduct a diagnostic evaluation, we propose TGEA, an
+error-annotated dataset with multiple benchmark tasks for text generation from
+pretrained language models (PLMs). We use carefully selected prompt words to
+guide GPT-2 to generate candidate sentences, from which we select 47K for error
+annotation. Crowdsourced workers manually check each of these sentences and
+detect 12k erroneous sentences. We create an error taxonomy to cover 24 types
+of errors occurring in these erroneous sentences according to the nature of
+errors with respect to linguistics and knowledge (eg, common sense). For each
+erroneous span in PLM-generated sentences, we also detect another span that is
+closely associated with it. Each error is hence manually labeled with
+comprehensive annotations, including the span of the error, the associated
+span, minimal correction to the error, the type of the error, and rationale
+behind the error. Apart from the fully annotated dataset, we also present a
+detailed description of the data collection procedure, statistics and analysis
+of the dataset. This is the first dataset with comprehensive annotations for
+PLM-generated texts, which facilitates the diagnostic evaluation of PLM-based
+text generation. Furthermore, we use TGEA as a benchmark dataset and propose a
+series of automatic diagnosis tasks, including error detection, error type
+classification, associated span detection, error rationale generation, to
+further promote future study on the automatic error detection and correction on
+texts generated by pretrained language models.",2025-03-06
 "Explanation based In-Context Demonstrations Retrieval for Multilingual
   Grammatical Error Correction",2025-02-12 15:41:43+00:00,http://arxiv.org/abs/2502.08507v1,"Wei Li, Wen Luo, Guangyue Peng, Houfeng Wang",cs.CL,knowledge,"Grammatical error correction (GEC) aims to correct grammatical, spelling, and
 semantic errors in natural language text. With the growing of large language

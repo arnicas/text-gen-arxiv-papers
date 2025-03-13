@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2025-02-13*
+*written on 2025-03-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Automated Evaluation of Meter and Rhyme in Russian Generative and  Human-Authored Poetry](http://arxiv.org/abs/2502.20931v1) | Ilya Koziev | cs.CL | 2025-02-28 |
+| [Where is my Glass Slipper? AI, Poetry and Art](http://arxiv.org/abs/2503.05781v1) | Anastasios P. Pagiaslis | cs.CY, cs.CL, I.2.7; J.5 | 2025-02-26 |
 | [Benchmarking Foundation Models on Exceptional Cases: Dataset Creation  and Validation](http://arxiv.org/abs/2410.18001v1) | Suho Kang, Jungyang Park, Joonseo Ha, SoMin Kim, JinHyeong Kim, Subeen Park, Kyungwoo Song | cs.AI | 2024-10-23 |
 | [Does ChatGPT Have a Poetic Style?](http://arxiv.org/abs/2410.15299v2) | Melanie Walsh, Anna Preus, Elizabeth Gronski | cs.CL | 2024-10-20 |
 | [LLM-based multi-agent poetry generation in non-cooperative environments](http://arxiv.org/abs/2409.03659v2) | Ran Zhang, Steffen Eger | cs.CL | 2024-09-05 |

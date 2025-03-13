@@ -1,4 +1,43 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Automated Evaluation of Meter and Rhyme in Russian Generative and
+  Human-Authored Poetry",2025-02-28 10:39:07+00:00,http://arxiv.org/abs/2502.20931v1,Ilya Koziev,cs.CL,poetry,"Generative poetry systems require effective tools for data engineering and
+automatic evaluation, particularly to assess how well a poem adheres to
+versification rules, such as the correct alternation of stressed and unstressed
+syllables and the presence of rhymes.
+  In this work, we introduce the Russian Poetry Scansion Tool library designed
+for stress mark placement in Russian-language syllabo-tonic poetry, rhyme
+detection, and identification of defects of poeticness. Additionally, we
+release RIFMA -- a dataset of poem fragments spanning various genres and forms,
+annotated with stress marks. This dataset can be used to evaluate the
+capability of modern large language models to accurately place stress marks in
+poetic texts.
+  The published resources provide valuable tools for researchers and
+practitioners in the field of creative generative AI, facilitating advancements
+in the development and evaluation of generative poetry systems.",2025-02-28
+"Where is my Glass Slipper? AI, Poetry and Art",2025-02-26 14:57:03+00:00,http://arxiv.org/abs/2503.05781v1,Anastasios P. Pagiaslis,"cs.CY, cs.CL, I.2.7; J.5",poetry,"This literature review interrogates the intersections between artificial
+intelligence, poetry, and art, offering a comprehensive exploration of both
+historical evolution and current debates in digital creative practices. It
+traces the development of computer-generated poetry from early template-based
+systems to generative models, critically assessing evaluative frameworks such
+as adaptations of the Turing Test, the FACE model, and ProFTAP. It also
+examines how these frameworks endeavour to measure creativity, semantic
+coherence, and cultural relevance in AI-generated texts, whilst highlighting
+the persistent challenges in replicating the nuance of human poetic expression.
+  The review contributes a Marketing Theory discussion that deconstructs the
+figurative marketing narratives employed by AI companies, which utilise
+sanitised language and anthropomorphic metaphors to humanise their
+technologies. This discussion reveals the reductive nature of such narratives
+and underscores the tension between algorithmic precision and the realities of
+human creativity.The review also incorporates an auto-ethnographic account that
+offers a self-reflexive commentary on its own composition. By acknowledging the
+use of AI in crafting this review, the auto-ethnographic account destabilises
+conventional notions of authorship and objectivity, resonating with
+deconstruction and challenging logocentric assumptions in academic discourse.
+  Ultimately, the review calls for a re-evaluation of creative processes that
+recognises the interdependence of technological innovation and human
+subjectivity. It advocates for interdisciplinary dialogue addressing ethical,
+cultural, and philosophical concerns, while reimagining the boundaries of
+artistic production.",2025-02-26
 "Benchmarking Foundation Models on Exceptional Cases: Dataset Creation
   and Validation",2024-10-23 16:24:23+00:00,http://arxiv.org/abs/2410.18001v1,"Suho Kang, Jungyang Park, Joonseo Ha, SoMin Kim, JinHyeong Kim, Subeen Park, Kyungwoo Song",cs.AI,poetry,"Foundation models (FMs) have achieved significant success across various
 tasks, leading to research on benchmarks for reasoning abilities. However,

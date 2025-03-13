@@ -1,4 +1,95 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Dr Genre: Reinforcement Learning from Decoupled LLM Feedback for Generic
+  Text Rewriting",2025-03-09 21:23:52+00:00,http://arxiv.org/abs/2503.06781v1,"Yufei Li, John Nham, Ganesh Jawahar, Lei Shu, David Uthus, Yun-Hsuan Sung, Chengrun Yang, Itai Rolnick, Yi Qiao, Cong Liu","cs.CL, cs.AI, cs.LG",dialogue,"Generic text rewriting is a prevalent large language model (LLM) application
+that covers diverse real-world tasks, such as style transfer, fact correction,
+and email editing. These tasks vary in rewriting objectives (e.g., factual
+consistency vs. semantic preservation), making it challenging to develop a
+unified model that excels across all dimensions. Existing methods often
+specialize in either a single task or a specific objective, limiting their
+generalizability. In this work, we introduce a generic model proficient in
+factuality, stylistic, and conversational rewriting tasks. To simulate
+real-world user rewrite requests, we construct a conversational rewrite
+dataset, ChatRewrite, that presents ``natural''-sounding instructions, from raw
+emails using LLMs. Combined with other popular rewrite datasets, including
+LongFact for the factuality rewrite task and RewriteLM for the stylistic
+rewrite task, this forms a broad benchmark for training and evaluating generic
+rewrite models. To align with task-specific objectives, we propose Dr Genre, a
+Decoupled-reward learning framework for Generic rewriting, that utilizes
+objective-oriented reward models with a task-specific weighting. Evaluation
+shows that \approach delivers higher-quality rewrites across all targeted
+tasks, improving objectives including instruction following (agreement),
+internal consistency (coherence), and minimal unnecessary edits (conciseness).",2025-03-09
+"Open-Source Large Language Models as Multilingual Crowdworkers:
+  Synthesizing Open-Domain Dialogues in Several Languages With No Examples in
+  Targets and No Machine Translation",2025-03-05 12:52:14+00:00,http://arxiv.org/abs/2503.03462v1,"Ahmed Njifenjou, Virgile Sucal, Bassam Jabaian, Fabrice Lefèvre","cs.CL, cs.AI, cs.HC, cs.LG",dialogue,"The prevailing paradigm in the domain of Open-Domain Dialogue agents
+predominantly focuses on the English language, encompassing both models and
+datasets. Furthermore, the financial and temporal investments required for
+crowdsourcing such datasets for finetuning are substantial, particularly when
+multiple languages are involved. Fortunately, advancements in Large Language
+Models (LLMs) have unveiled a plethora of possibilities across diverse tasks.
+Specifically, instruction-tuning has enabled LLMs to execute tasks based on
+natural language instructions, occasionally surpassing the performance of human
+crowdworkers. Additionally, these models possess the capability to function in
+various languages within a single thread. Consequently, to generate new samples
+in different languages, we propose leveraging these capabilities to replicate
+the data collection process. We introduce a pipeline for generating Open-Domain
+Dialogue data in multiple Target Languages using LLMs, with demonstrations
+provided in a unique Source Language. By eschewing explicit Machine Translation
+in this approach, we enhance the adherence to language-specific nuances. We
+apply this methodology to the PersonaChat dataset. To enhance the openness of
+generated dialogues and mimic real life scenarii, we added the notion of speech
+events corresponding to the type of conversation the speakers are involved in
+and also that of common ground which represents the premises of a conversation.",2025-03-05
+"Beyond Next Word Prediction: Developing Comprehensive Evaluation
+  Frameworks for measuring LLM performance on real world applications",2025-03-05 06:44:38+00:00,http://arxiv.org/abs/2503.04828v1,"Vishakha Agrawal, Archie Chaudhury, Shreya Agrawal","cs.CL, cs.AI, cs.LG",dialogue,"While Large Language Models (LLMs) are fundamentally next-token prediction
+systems, their practical applications extend far beyond this basic function.
+From natural language processing and text generation to conversational
+assistants and software use, LLMs have numerous use-cases, and have already
+acquired a significant degree of enterprise adoption. To evaluate such models,
+static evaluation datasets, consisting of a set of prompts and their
+corresponding ground truths, are often used to benchmark the efficacy of the
+model for a particular task. In this paper, we provide the basis for a more
+comprehensive evaluation framework, based upon a traditional game and
+tool-based architecture that enables a more overarching measurement of a
+model's capabilities. For simplicity, we provide a generalized foundation that
+can be extended, without significant alteration, to numerous scenarios, from
+specific use cases such as supply chain management or financial reasoning, to
+abstract measurements such as ethics or safety.",2025-03-05
+"Evaluating Personalized Tool-Augmented LLMs from the Perspectives of
+  Personalization and Proactivity",2025-03-02 07:36:22+00:00,http://arxiv.org/abs/2503.00771v1,"Yupu Hao, Pengfei Cao, Zhuoran Jin, Huanxuan Liao, Yubo Chen, Kang Liu, Jun Zhao",cs.CL,dialogue,"Personalized tool utilization is essential for aligning large language models
+(LLMs) with user preference in interaction scenarios with various tools.
+However, most of the current benchmarks primarily focus on either
+personalization of text generation or direct tool-utilizing, without
+considering both. In this work, we introduce a novel benchmark ETAPP for
+evaluating personalized tool invocation, establishing a sandbox environment,
+and a comprehensive dataset of 800 testing cases covering diverse user
+profiles. To improve the accuracy of our evaluation, we propose a
+key-point-based LLM evaluation method, mitigating biases in the LLM-as-a-judge
+system by manually annotating key points for each test case and providing them
+to LLM as the reference. Additionally, we evaluate the excellent LLMs and
+provide an in-depth analysis. Furthermore, we investigate the impact of
+different tool-invoking strategies on LLMs' personalization performance and the
+effects of fine-tuning in our task. The effectiveness of our preference-setting
+and key-point-based evaluation method is also validated. Our findings offer
+insights into improving personalized LLM agents. Our Code is available at
+https://github.com/hypasd-art/ETAPP.",2025-03-02
+"RAPID: Efficient Retrieval-Augmented Long Text Generation with Writing
+  Planning and Information Discovery",2025-03-02 06:11:29+00:00,http://arxiv.org/abs/2503.00751v1,"Hongchao Gu, Dexun Li, Kuicai Dong, Hao Zhang, Hang Lv, Hao Wang, Defu Lian, Yong Liu, Enhong Chen","cs.CL, cs.AI",dialogue,"Generating knowledge-intensive and comprehensive long texts, such as
+encyclopedia articles, remains significant challenges for Large Language
+Models. It requires not only the precise integration of facts but also the
+maintenance of thematic coherence throughout the article. Existing methods,
+such as direct generation and multi-agent discussion, often struggle with
+issues like hallucinations, topic incoherence, and significant latency. To
+address these challenges, we propose RAPID, an efficient retrieval-augmented
+long text generation framework. RAPID consists of three main modules: (1)
+Retrieval-augmented preliminary outline generation to reduce hallucinations,
+(2) Attribute-constrained search for efficient information discovery, (3)
+Plan-guided article generation for enhanced coherence. Extensive experiments on
+our newly compiled benchmark dataset, FreshWiki-2024, demonstrate that RAPID
+significantly outperforms state-of-the-art methods across a wide range of
+evaluation metrics (e.g. long-text generation, outline quality, latency, etc).
+Our work provides a robust and efficient solution to the challenges of
+automated long-text generation.",2025-03-02
 Exploring the Potential of Large Language Models to Simulate Personality,2025-02-12 10:17:18+00:00,http://arxiv.org/abs/2502.08265v1,"Maria Molchanova, Anna Mikhailova, Anna Korzanova, Lidiia Ostyakova, Alexandra Dolidze","cs.CL, cs.AI",dialogue,"With the advancement of large language models (LLMs), the focus in
 Conversational AI has shifted from merely generating coherent and relevant
 responses to tackling more complex challenges, such as personalizing dialogue
