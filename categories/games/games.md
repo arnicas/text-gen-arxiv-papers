@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2025-03-13*
+*written on 2025-04-21*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Collaborative Storytelling and LLM: A Linguistic Analysis of  Automatically-Generated Role-Playing Game Sessions](http://arxiv.org/abs/2503.20623v1) | Alessandro Maisto | cs.CL, cs.AI | 2025-03-26 |
 | [Beyond Next Word Prediction: Developing Comprehensive Evaluation  Frameworks for measuring LLM performance on real world applications](http://arxiv.org/abs/2503.04828v1) | Vishakha Agrawal, Archie Chaudhury, Shreya Agrawal | cs.CL, cs.AI, cs.LG | 2025-03-05 |
 | [The Odyssey of the Fittest: Can Agents Survive and Still Be Good?](http://arxiv.org/abs/2502.05442v1) | Dylan Waldner, Risto Miikkulainen | cs.AI, cs.CY, cs.HC, cs.LG | 2025-02-08 |
 | [Sports and Women's Sports: Gender Bias in Text Generation with Olympic  Data](http://arxiv.org/abs/2502.04218v1) | Laura Biester | cs.CL | 2025-02-06 |

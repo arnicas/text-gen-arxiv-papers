@@ -1,4 +1,233 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Object-Driven Narrative in AR: A Scenario-Metaphor Framework with VLM
+  Integration",2025-04-17 17:37:49+00:00,http://arxiv.org/abs/2504.13119v1,"Yusi Sun, Haoyan Guan, leith Kin Yep Chan, Yong Hong Kuo",cs.HC,story,"Most adaptive AR storytelling systems define environmental semantics using
+simple object labels and spatial coordinates, limiting narratives to rigid,
+pre-defined logic. This oversimplification overlooks the contextual
+significance of object relationships-for example, a wedding ring on a
+nightstand might suggest marital conflict, yet is treated as just ""two objects""
+in space. To address this, we explored integrating Vision Language Models
+(VLMs) into AR pipelines. However, several challenges emerged: First, stories
+generated with simple prompt guidance lacked narrative depth and spatial usage.
+Second, spatial semantics were underutilized, failing to support meaningful
+storytelling. Third, pre-generated scripts struggled to align with AR
+Foundation's object naming and coordinate systems. We propose a scene-driven AR
+storytelling framework that reimagines environments as active narrative agents,
+built on three innovations: 1. State-aware object semantics: We decompose
+object meaning into physical, functional, and metaphorical layers, allowing
+VLMs to distinguish subtle narrative cues between similar objects. 2.
+Structured narrative interface: A bidirectional JSON layer maps VLM-generated
+metaphors to AR anchors, maintaining spatial and semantic coherence. 3. STAM
+evaluation framework: A three-part experimental design evaluates narrative
+quality, highlighting both strengths and limitations of VLM-AR integration. Our
+findings show that the system can generate stories from the environment itself,
+not just place them on top of it. In user studies, 70% of participants reported
+seeing real-world objects differently when narratives were grounded in
+environmental symbolism. By merging VLMs' generative creativity with AR's
+spatial precision, this framework introduces a novel object-driven storytelling
+paradigm, transforming passive spaces into active narrative landscapes.",2025-04-17
+"Finding Flawed Fictions: Evaluating Complex Reasoning in Language Models
+  via Plot Hole Detection",2025-04-16 09:25:54+00:00,http://arxiv.org/abs/2504.11900v2,"Kabir Ahuja, Melanie Sclar, Yulia Tsvetkov",cs.CL,story,"Stories are a fundamental aspect of human experience. Engaging deeply with
+stories and spotting plot holes -- inconsistencies in a storyline that break
+the internal logic or rules of a story's world -- requires nuanced reasoning
+skills, including tracking entities and events and their interplay, abstract
+thinking, pragmatic narrative understanding, commonsense and social reasoning,
+and theory of mind. As Large Language Models (LLMs) increasingly generate,
+interpret, and modify text, rigorously assessing their narrative consistency
+and deeper language understanding becomes critical. However, existing
+benchmarks focus mainly on surface-level comprehension. In this work, we
+propose plot hole detection in stories as a proxy to evaluate language
+understanding and reasoning in LLMs. We introduce FlawedFictionsMaker, a novel
+algorithm to controllably and carefully synthesize plot holes in human-written
+stories. Using this algorithm, we construct a benchmark to evaluate LLMs' plot
+hole detection abilities in stories -- FlawedFictions -- , which is robust to
+contamination, with human filtering ensuring high quality. We find that
+state-of-the-art LLMs struggle in accurately solving FlawedFictions regardless
+of the reasoning effort allowed, with performance significantly degrading as
+story length increases. Finally, we show that LLM-based story summarization and
+story generation are prone to introducing plot holes, with more than 50% and
+100% increases in plot hole detection rates with respect to human-written
+originals.",2025-04-16
+Looking beyond the next token,2025-04-15 16:09:06+00:00,http://arxiv.org/abs/2504.11336v1,"Abitha Thankaraj, Yiding Jiang, J. Zico Kolter, Yonatan Bisk","cs.LG, cs.AI, cs.CL",story,"The structure of causal language model training assumes that each token can
+be accurately predicted from the previous context. This contrasts with humans'
+natural writing and reasoning process, where goals are typically known before
+the exact argument or phrasings. While this mismatch has been well studied in
+the literature, the working assumption has been that architectural changes are
+needed to address this mismatch. We argue that rearranging and processing the
+training data sequences can allow models to more accurately imitate the true
+data-generating process, and does not require any other changes to the
+architecture or training infrastructure. We demonstrate that this technique,
+Trelawney, and the inference algorithms derived from it allow us to improve
+performance on several key benchmarks that span planning, algorithmic
+reasoning, and story generation tasks. Finally, our method naturally enables
+the generation of long-term goals at no additional cost. We investigate how
+using the model's goal-generation capability can further improve planning and
+reasoning. Additionally, we believe Trelawney could potentially open doors to
+new capabilities beyond the current language modeling paradigm.",2025-04-15
+"Beyond Memorization: Mapping the Originality-Quality Frontier of
+  Language Models",2025-04-13 00:48:58+00:00,http://arxiv.org/abs/2504.09389v1,"Vishakh Padmakumar, Chen Yueh-Han, Jane Pan, Valerie Chen, He He",cs.CL,story,"As large language models (LLMs) are increasingly used for ideation and
+scientific discovery, it is important to evaluate their ability to generate
+novel output. Prior work evaluates novelty as the originality with respect to
+training data, but original outputs can be low quality. In contrast, non-expert
+judges may favor high-quality but memorized outputs, limiting the reliability
+of human preference as a metric. We propose a new novelty metric for LLM
+generations that balances originality and quality -- the harmonic mean of the
+fraction of \ngrams unseen during training and a task-specific quality score.
+We evaluate the novelty of generations from two families of open-data models
+(OLMo and Pythia) on three creative tasks: story completion, poetry writing,
+and creative tool use. We find that LLM generated text is less novel than human
+written text. To elicit more novel outputs, we experiment with various
+inference-time methods, which reveals a trade-off between originality and
+quality. While these methods can boost novelty, they do so by increasing
+originality at the expense of quality. In contrast, increasing model size or
+applying post-training reliably shifts the Pareto frontier, highlighting that
+starting with a stronger base model is a more effective way to improve novelty.",2025-04-13
+Parameterized Synthetic Text Generation with SimpleStories,2025-04-12 11:44:47+00:00,http://arxiv.org/abs/2504.09184v1,"Lennart Finke, Thomas Dooms, Mat Allen, Juan Diego Rodriguez, Noa Nabeshima, Dan Braun","cs.CL, cs.AI",story,"We present SimpleStories, a large synthetic story dataset in simple language,
+consisting of 2 million stories each in English and Japanese. Our method
+employs parametrization of prompts with features at multiple levels of
+abstraction, allowing for systematic control over story characteristics to
+ensure broad syntactic and semantic diversity. Building on and addressing
+limitations in the TinyStories dataset, our approach demonstrates that
+simplicity and variety can be achieved simultaneously in synthetic text
+generation at scale.",2025-04-12
+"ELSA: A Style Aligned Dataset for Emotionally Intelligent Language
+  Generation",2025-04-11 06:30:16+00:00,http://arxiv.org/abs/2504.08281v1,"Vishal Gandhi, Sagar Gandhi","cs.CL, cs.AI, cs.LG",story,"Advancements in emotion aware language processing increasingly shape vital
+NLP applications ranging from conversational AI and affective computing to
+computational psychology and creative content generation. Existing emotion
+datasets either lack emotional granularity or fail to capture necessary
+stylistic diversity, limiting the advancement of effective emotion conditioned
+text generation systems. Seeking to bridge this crucial gap between granularity
+and style diversity, this paper introduces a novel systematically constructed
+dataset named ELSA Emotion and Language Style Alignment Dataset leveraging fine
+grained emotion taxonomies adapted from existing sources such as dair ai
+emotion dataset and GoEmotions taxonomy. This dataset comprises multiple
+emotionally nuanced variations of original sentences regenerated across
+distinct contextual styles such as conversational, formal, poetic, and
+narrative, using advanced Large Language Models LLMs. Rigorous computational
+evaluation using metrics such as perplexity, embedding variance, readability,
+lexical diversity, and semantic coherence measures validates the datasets
+emotional authenticity, linguistic fluency, and textual diversity.
+Comprehensive metric analyses affirm its potential to support deeper
+explorations into emotion conditioned style adaptive text generation. By
+enabling precision tuned emotionally nuanced language modeling, our dataset
+creates fertile ground for research on fine grained emotional control, prompt
+driven explanation, interpretability, and style adaptive expressive language
+generation with LLMs.",2025-04-11
+The Zero Body Problem: Probing LLM Use of Sensory Language,2025-04-08 19:31:37+00:00,http://arxiv.org/abs/2504.06393v1,"Rebecca M. M. Hicke, Sil Hamilton, David Mimno","cs.CL, cs.LG",story,"Sensory language expresses embodied experiences ranging from taste and sound
+to excitement and stomachache. This language is of interest to scholars from a
+wide range of domains including robotics, narratology, linguistics, and
+cognitive science. In this work, we explore whether language models, which are
+not embodied, can approximate human use of embodied language. We extend an
+existing corpus of parallel human and model responses to short story prompts
+with an additional 18,000 stories generated by 18 popular models. We find that
+all models generate stories that differ significantly from human usage of
+sensory language, but the direction of these differences varies considerably
+between model families. Namely, Gemini models use significantly more sensory
+language than humans along most axes whereas most models from the remaining
+five families use significantly less. Linear probes run on five models suggest
+that they are capable of identifying sensory language. However, we find
+preliminary evidence suggesting that instruction tuning may discourage usage of
+sensory language. Finally, to support further work, we release our expanded
+story dataset.",2025-04-08
+"Narrative Studio: Visual narrative exploration using LLMs and Monte
+  Carlo Tree Search",2025-04-03 09:31:07+00:00,http://arxiv.org/abs/2504.02426v1,"Parsa Ghaffari, Chris Hokamp",cs.AI,story,"Interactive storytelling benefits from planning and exploring multiple 'what
+if' scenarios. Modern LLMs are useful tools for ideation and exploration, but
+current chat-based user interfaces restrict users to a single linear flow. To
+address this limitation, we propose Narrative Studio -- a novel in-browser
+narrative exploration environment featuring a tree-like interface that allows
+branching exploration from user-defined points in a story. Each branch is
+extended via iterative LLM inference guided by system and user-defined prompts.
+Additionally, we employ Monte Carlo Tree Search (MCTS) to automatically expand
+promising narrative paths based on user-specified criteria, enabling more
+diverse and robust story development. We also allow users to enhance narrative
+coherence by grounding the generated text in an entity graph that represents
+the actors and environment of the story.",2025-04-03
+Leveraging LLMs for User Stories in AI Systems: UStAI Dataset,2025-04-01 08:03:40+00:00,http://arxiv.org/abs/2504.00513v1,"Asma Yamani, Malak Baslyman, Moataz Ahmed","cs.SE, cs.AI",story,"AI systems are gaining widespread adoption across various sectors and
+domains. Creating high-quality AI system requirements is crucial for aligning
+the AI system with business goals and consumer values and for social
+responsibility. However, with the uncertain nature of AI systems and the heavy
+reliance on sensitive data, more research is needed to address the elicitation
+and analysis of AI systems requirements. With the proprietary nature of many AI
+systems, there is a lack of open-source requirements artifacts and technical
+requirements documents for AI systems, limiting broader research and
+investigation. With Large Language Models (LLMs) emerging as a promising
+alternative to human-generated text, this paper investigates the potential use
+of LLMs to generate user stories for AI systems based on abstracts from
+scholarly papers. We conducted an empirical evaluation using three LLMs and
+generated $1260$ user stories from $42$ abstracts from $26$ domains. We assess
+their quality using the Quality User Story (QUS) framework. Moreover, we
+identify relevant non-functional requirements (NFRs) and ethical principles.
+Our analysis demonstrates that the investigated LLMs can generate user stories
+inspired by the needs of various stakeholders, offering a promising approach
+for generating user stories for research purposes and for aiding in the early
+requirements elicitation phase of AI systems. We have compiled and curated a
+collection of stories generated by various LLMs into a dataset (UStAI), which
+is now publicly available for use.",2025-04-01
+Learning to Reason for Long-Form Story Generation,2025-03-28 18:48:26+00:00,http://arxiv.org/abs/2503.22828v1,"Alexander Gurung, Mirella Lapata",cs.CL,story,"Generating high-quality stories spanning thousands of tokens requires
+competency across a variety of skills, from tracking plot and character arcs to
+keeping a consistent and engaging style. Due to the difficulty of sourcing
+labeled datasets and precise quality measurements, most work using large
+language models (LLMs) for long-form story generation uses combinations of
+hand-designed prompting techniques to elicit author-like behavior. This is a
+manual process that is highly dependent on the specific story-generation task.
+Motivated by the recent success of applying RL with Verifiable Rewards to
+domains like math and coding, we propose a general story-generation task
+(Next-Chapter Prediction) and a reward formulation (Verified Rewards via
+Completion Likelihood Improvement) that allows us to use an unlabeled book
+dataset as a learning signal for reasoning. We learn to reason over a story's
+condensed information and generate a detailed plan for the next chapter. Our
+reasoning is evaluated via the chapters it helps a story-generator create, and
+compared against non-trained and supervised finetuning (SFT) baselines.
+Pairwise human judgments reveal the chapters our learned reasoning produces are
+preferred across almost all metrics, and the effect is more pronounced in Scifi
+and Fantasy genres.",2025-03-28
+"Evaluating book summaries from internal knowledge in Large Language
+  Models: a cross-model and semantic consistency approach",2025-03-27 15:36:24+00:00,http://arxiv.org/abs/2503.21613v1,Javier Coronado-Blázquez,cs.CL,story,"We study the ability of large language models (LLMs) to generate
+comprehensive and accurate book summaries solely from their internal knowledge,
+without recourse to the original text. Employing a diverse set of books and
+multiple LLM architectures, we examine whether these models can synthesize
+meaningful narratives that align with established human interpretations.
+Evaluation is performed with a LLM-as-a-judge paradigm: each AI-generated
+summary is compared against a high-quality, human-written summary via a
+cross-model assessment, where all participating LLMs evaluate not only their
+own outputs but also those produced by others. This methodology enables the
+identification of potential biases, such as the proclivity for models to favor
+their own summarization style over others. In addition, alignment between the
+human-crafted and LLM-generated summaries is quantified using ROUGE and
+BERTScore metrics, assessing the depth of grammatical and semantic
+correspondence. The results reveal nuanced variations in content representation
+and stylistic preferences among the models, highlighting both strengths and
+limitations inherent in relying on internal knowledge for summarization tasks.
+These findings contribute to a deeper understanding of LLM internal encodings
+of factual information and the dynamics of cross-model evaluation, with
+implications for the development of more robust natural language generative
+systems.",2025-03-27
+"Collaborative Storytelling and LLM: A Linguistic Analysis of
+  Automatically-Generated Role-Playing Game Sessions",2025-03-26 15:10:47+00:00,http://arxiv.org/abs/2503.20623v1,Alessandro Maisto,"cs.CL, cs.AI",story,"Role-playing games (RPG) are games in which players interact with one another
+to create narratives. The role of players in the RPG is largely based on the
+interaction between players and their characters. This emerging form of shared
+narrative, primarily oral, is receiving increasing attention. In particular,
+many authors investigated the use of an LLM as an actor in the game. In this
+paper, we aim to discover to what extent the language of Large Language Models
+(LLMs) exhibit oral or written features when asked to generate an RPG session
+without human interference. We will conduct a linguistic analysis of the
+lexical and syntactic features of the generated texts and compare the results
+with analyses of conversations, transcripts of human RPG sessions, and books.
+We found that LLMs exhibit a pattern that is distinct from all other text
+categories, including oral conversations, human RPG sessions and books. Our
+analysis has shown how training influences the way LLMs express themselves and
+provides important indications of the narrative capabilities of these tools.",2025-03-26
+Accessible Text Descriptions for UpSet Plots,2025-03-21 20:02:21+00:00,http://arxiv.org/abs/2503.17517v1,"Andrew McNutt, Maggie K McCracken, Ishrat Jahan Eliza, Daniel Hajas, Jake Wagoner, Nate Lanza, Jack Wilburn, Sarah Creem-Regehr, Alexander Lex",cs.HC,story,"Data visualizations are typically not accessible to blind and low-vision
+(BLV) users. Automatically generating text descriptions offers an enticing
+mechanism for democratizing access to the information held in complex
+scientific charts, yet appropriate procedures for generating those texts remain
+elusive. Pursuing this issue, we study a single complex chart form: UpSet
+plots. UpSet Plots are a common way to analyze set data, an area largely
+unexplored by prior accessibility literature. By analyzing the patterns present
+in real-world examples, we develop a system for automatically captioning any
+UpSet plot. We evaluated the utility of our captions via semi-structured
+interviews with (N=11) BLV users and found that BLV users find them
+informative. In extensions, we find that sighted users can use our texts
+similarly to UpSet plots and that they are better than naive LLM usage.",2025-03-21
 "VaxGuard: A Multi-Generator, Multi-Type, and Multi-Role Dataset for
   Detecting LLM-Generated Vaccine Misinformation",2025-03-12 06:43:25+00:00,http://arxiv.org/abs/2503.09103v1,"Syed Talal Ahmad, Haohui Lu, Sidong Liu, Annie Lau, Amin Beheshti, Mark Dras, Usman Naseem",cs.CL,story,"Recent advancements in Large Language Models (LLMs) have significantly
 improved text generation capabilities. However, they also present challenges,

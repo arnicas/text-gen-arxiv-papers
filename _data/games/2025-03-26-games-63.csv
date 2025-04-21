@@ -1,4 +1,19 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Collaborative Storytelling and LLM: A Linguistic Analysis of
+  Automatically-Generated Role-Playing Game Sessions",2025-03-26 15:10:47+00:00,http://arxiv.org/abs/2503.20623v1,Alessandro Maisto,"cs.CL, cs.AI",games,"Role-playing games (RPG) are games in which players interact with one another
+to create narratives. The role of players in the RPG is largely based on the
+interaction between players and their characters. This emerging form of shared
+narrative, primarily oral, is receiving increasing attention. In particular,
+many authors investigated the use of an LLM as an actor in the game. In this
+paper, we aim to discover to what extent the language of Large Language Models
+(LLMs) exhibit oral or written features when asked to generate an RPG session
+without human interference. We will conduct a linguistic analysis of the
+lexical and syntactic features of the generated texts and compare the results
+with analyses of conversations, transcripts of human RPG sessions, and books.
+We found that LLMs exhibit a pattern that is distinct from all other text
+categories, including oral conversations, human RPG sessions and books. Our
+analysis has shown how training influences the way LLMs express themselves and
+provides important indications of the narrative capabilities of these tools.",2025-03-26
 "Beyond Next Word Prediction: Developing Comprehensive Evaluation
   Frameworks for measuring LLM performance on real world applications",2025-03-05 06:44:38+00:00,http://arxiv.org/abs/2503.04828v1,"Vishakha Agrawal, Archie Chaudhury, Shreya Agrawal","cs.CL, cs.AI, cs.LG",games,"While Large Language Models (LLMs) are fundamentally next-token prediction
 systems, their practical applications extend far beyond this basic function.

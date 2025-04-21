@@ -7,10 +7,23 @@ sidebar:
 ---
 
 
-*written on 2025-03-13*
+*written on 2025-04-21*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Object-Driven Narrative in AR: A Scenario-Metaphor Framework with VLM  Integration](http://arxiv.org/abs/2504.13119v1) | Yusi Sun, Haoyan Guan, leith Kin Yep Chan, Yong Hong Kuo | cs.HC | 2025-04-17 |
+| [Finding Flawed Fictions: Evaluating Complex Reasoning in Language Models  via Plot Hole Detection](http://arxiv.org/abs/2504.11900v2) | Kabir Ahuja, Melanie Sclar, Yulia Tsvetkov | cs.CL | 2025-04-16 |
+| [Looking beyond the next token](http://arxiv.org/abs/2504.11336v1) | Abitha Thankaraj, Yiding Jiang, J. Zico Kolter, Yonatan Bisk | cs.LG, cs.AI, cs.CL | 2025-04-15 |
+| [Beyond Memorization: Mapping the Originality-Quality Frontier of  Language Models](http://arxiv.org/abs/2504.09389v1) | Vishakh Padmakumar, Chen Yueh-Han, Jane Pan, Valerie Chen, He He | cs.CL | 2025-04-13 |
+| [Parameterized Synthetic Text Generation with SimpleStories](http://arxiv.org/abs/2504.09184v1) | Lennart Finke, Thomas Dooms, Mat Allen, Juan Diego Rodriguez, Noa Nabeshima, Dan Braun | cs.CL, cs.AI | 2025-04-12 |
+| [ELSA: A Style Aligned Dataset for Emotionally Intelligent Language  Generation](http://arxiv.org/abs/2504.08281v1) | Vishal Gandhi, Sagar Gandhi | cs.CL, cs.AI, cs.LG | 2025-04-11 |
+| [The Zero Body Problem: Probing LLM Use of Sensory Language](http://arxiv.org/abs/2504.06393v1) | Rebecca M. M. Hicke, Sil Hamilton, David Mimno | cs.CL, cs.LG | 2025-04-08 |
+| [Narrative Studio: Visual narrative exploration using LLMs and Monte  Carlo Tree Search](http://arxiv.org/abs/2504.02426v1) | Parsa Ghaffari, Chris Hokamp | cs.AI | 2025-04-03 |
+| [Leveraging LLMs for User Stories in AI Systems: UStAI Dataset](http://arxiv.org/abs/2504.00513v1) | Asma Yamani, Malak Baslyman, Moataz Ahmed | cs.SE, cs.AI | 2025-04-01 |
+| [Learning to Reason for Long-Form Story Generation](http://arxiv.org/abs/2503.22828v1) | Alexander Gurung, Mirella Lapata | cs.CL | 2025-03-28 |
+| [Evaluating book summaries from internal knowledge in Large Language  Models: a cross-model and semantic consistency approach](http://arxiv.org/abs/2503.21613v1) | Javier Coronado-Blázquez | cs.CL | 2025-03-27 |
+| [Collaborative Storytelling and LLM: A Linguistic Analysis of  Automatically-Generated Role-Playing Game Sessions](http://arxiv.org/abs/2503.20623v1) | Alessandro Maisto | cs.CL, cs.AI | 2025-03-26 |
+| [Accessible Text Descriptions for UpSet Plots](http://arxiv.org/abs/2503.17517v1) | Andrew McNutt, Maggie K McCracken, Ishrat Jahan Eliza, Daniel Hajas, Jake Wagoner, Nate Lanza, Jack Wilburn, Sarah Creem-Regehr, Alexander Lex | cs.HC | 2025-03-21 |
 | [VaxGuard: A Multi-Generator, Multi-Type, and Multi-Role Dataset for  Detecting LLM-Generated Vaccine Misinformation](http://arxiv.org/abs/2503.09103v1) | Syed Talal Ahmad, Haohui Lu, Sidong Liu, Annie Lau, Amin Beheshti, Mark Dras, Usman Naseem | cs.CL | 2025-03-12 |
 | [Social Bias Benchmark for Generation: A Comparison of Generation and  QA-Based Evaluations](http://arxiv.org/abs/2503.06987v1) | Jiho Jin, Woosung Kang, Junho Myung, Alice Oh | cs.CL, cs.AI | 2025-03-10 |
 | [Where is my Glass Slipper? AI, Poetry and Art](http://arxiv.org/abs/2503.05781v1) | Anastasios P. Pagiaslis | cs.CY, cs.CL, I.2.7; J.5 | 2025-02-26 |

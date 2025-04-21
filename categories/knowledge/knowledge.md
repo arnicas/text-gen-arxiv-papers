@@ -7,10 +7,23 @@ sidebar:
 ---
 
 
-*written on 2025-03-13*
+*written on 2025-04-21*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Chain-of-Thought Textual Reasoning for Few-shot Temporal Action  Localization](http://arxiv.org/abs/2504.13460v1) | Hongwei Ji, Wulian Yun, Mengshi Qi, Huadong Ma | cs.CV, cs.AI | 2025-04-18 |
+| [Syntactic and Semantic Control of Large Language Models via Sequential  Monte Carlo](http://arxiv.org/abs/2504.13139v1) | João Loula, Benjamin LeBrun, Li Du, Ben Lipkin, Clemente Pasti, Gabriel Grand, Tianyu Liu, Yahya Emara, Marjorie Freedman, Jason Eisner, Ryan Cotterel, Vikash Mansinghka, Alexander K. Lew, Tim Vieira, Timothy J. O'Donnell | cs.CL, cs.AI, cs.LG | 2025-04-17 |
+| [d1: Scaling Reasoning in Diffusion Large Language Models via  Reinforcement Learning](http://arxiv.org/abs/2504.12216v1) | Siyan Zhao, Devaansh Gupta, Qinqing Zheng, Aditya Grover | cs.CL, cs.LG | 2025-04-16 |
+| [Enhancing multimodal analogical reasoning with Logic Augmented  Generation](http://arxiv.org/abs/2504.11190v1) | Anna Sofia Lippolis, Andrea Giovanni Nuzzolese, Aldo Gangemi | cs.AI, cs.CL | 2025-04-15 |
+| [Transferable text data distillation by trajectory matching](http://arxiv.org/abs/2504.09818v1) | Rong Yao, Hailin Hu, Yifei Fu, Hanting Chen, Wenyi Fang, Fanyi Du, Kai Han, Yunhe Wang | cs.CL | 2025-04-14 |
+| [QUDsim: Quantifying Discourse Similarities in LLM-Generated Text](http://arxiv.org/abs/2504.09373v1) | Ramya Namuduri, Yating Wu, Anshun Asher Zheng, Manya Wadhwa, Greg Durrett, Junyi Jessy Li | cs.CL | 2025-04-12 |
+| [Parameterized Synthetic Text Generation with SimpleStories](http://arxiv.org/abs/2504.09184v1) | Lennart Finke, Thomas Dooms, Mat Allen, Juan Diego Rodriguez, Noa Nabeshima, Dan Braun | cs.CL, cs.AI | 2025-04-12 |
+| [ELSA: A Style Aligned Dataset for Emotionally Intelligent Language  Generation](http://arxiv.org/abs/2504.08281v1) | Vishal Gandhi, Sagar Gandhi | cs.CL, cs.AI, cs.LG | 2025-04-11 |
+| [How to Detect and Defeat Molecular Mirage: A Metric-Driven Benchmark for  Hallucination in LLM-based Molecular Comprehension](http://arxiv.org/abs/2504.12314v1) | Hao Li, Liuzhenghao Lv, He Cao, Zijing Liu, Zhiyuan Yan, Yu Wang, Yonghong Tian, Yu Li, Li Yuan | cs.CL, cs.AI | 2025-04-10 |
+| [Zeus: Zero-shot LLM Instruction for Union Segmentation in Multimodal  Medical Imaging](http://arxiv.org/abs/2504.07336v1) | Siyuan Dai, Kai Ye, Guodong Liu, Haoteng Tang, Liang Zhan | cs.CV, cs.AI | 2025-04-09 |
+| [Defending LLM Watermarking Against Spoofing Attacks with Contrastive  Representation Learning](http://arxiv.org/abs/2504.06575v2) | Li An, Yujian Liu, Yepeng Liu, Yang Zhang, Yuheng Bu, Shiyu Chang | cs.CR, cs.CL | 2025-04-09 |
+| [LExT: Towards Evaluating Trustworthiness of Natural Language  Explanations](http://arxiv.org/abs/2504.06227v1) | Krithi Shailya, Shreya Rajpal, Gokul S Krishnan, Balaraman Ravindran | cs.CL | 2025-04-08 |
+| [VeriMind: Agentic LLM for Automated Verilog Generation with a Novel  Evaluation Metric](http://arxiv.org/abs/2503.16514v3) | Bardia Nadimi, Ghali Omar Boutaib, Hao Zheng | cs.AR, cs.AI, cs.LG, cs.PL | 2025-03-15 |
 | [Search-R1: Training LLMs to Reason and Leverage Search Engines with  Reinforcement Learning](http://arxiv.org/abs/2503.09516v1) | Bowen Jin, Hansi Zeng, Zhenrui Yue, Dong Wang, Hamed Zamani, Jiawei Han | cs.CL, cs.AI, cs.IR | 2025-03-12 |
 | [Odysseus Navigates the Sirens' Song: Dynamic Focus Decoding for Factual  and Diverse Open-Ended Text Generation](http://arxiv.org/abs/2503.08057v1) | Wen Luo, Feifan Song, Wei Li, Guangyue Peng, Shaohang Wei, Houfeng Wang | cs.CL | 2025-03-11 |
 | [Plume: Scaffolding Text Composition in Dashboards](http://arxiv.org/abs/2503.07512v1) | Maxim Lisnic, Vidya Setlur, Nicole Sultanum | cs.HC | 2025-03-10 |

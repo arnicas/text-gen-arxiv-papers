@@ -1,4 +1,45 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Beyond Memorization: Mapping the Originality-Quality Frontier of
+  Language Models",2025-04-13 00:48:58+00:00,http://arxiv.org/abs/2504.09389v1,"Vishakh Padmakumar, Chen Yueh-Han, Jane Pan, Valerie Chen, He He",cs.CL,poetry,"As large language models (LLMs) are increasingly used for ideation and
+scientific discovery, it is important to evaluate their ability to generate
+novel output. Prior work evaluates novelty as the originality with respect to
+training data, but original outputs can be low quality. In contrast, non-expert
+judges may favor high-quality but memorized outputs, limiting the reliability
+of human preference as a metric. We propose a new novelty metric for LLM
+generations that balances originality and quality -- the harmonic mean of the
+fraction of \ngrams unseen during training and a task-specific quality score.
+We evaluate the novelty of generations from two families of open-data models
+(OLMo and Pythia) on three creative tasks: story completion, poetry writing,
+and creative tool use. We find that LLM generated text is less novel than human
+written text. To elicit more novel outputs, we experiment with various
+inference-time methods, which reveals a trade-off between originality and
+quality. While these methods can boost novelty, they do so by increasing
+originality at the expense of quality. In contrast, increasing model size or
+applying post-training reliably shifts the Pareto frontier, highlighting that
+starting with a stronger base model is a more effective way to improve novelty.",2025-04-13
+"Fùxì: A Benchmark for Evaluating Language Models on Ancient Chinese
+  Text Understanding and Generation",2025-03-20 04:26:40+00:00,http://arxiv.org/abs/2503.15837v1,"Shangqing Zhao, Yuhao Zhou, Yupei Ren, Zhe Chen, Chenghao Jia, Fang Zhe, Zhaogaung Long, Shu Liu, Man Lan","cs.CL, cs.AI",poetry,"Ancient Chinese text processing presents unique challenges for large language
+models (LLMs) due to its distinct linguistic features, complex structural
+constraints, and rich cultural context. While existing benchmarks have
+primarily focused on evaluating comprehension through multiple-choice
+questions, there remains a critical gap in assessing models' generative
+capabilities in classical Chinese. We introduce F\`ux\`i, a comprehensive
+benchmark that evaluates both understanding and generation capabilities across
+21 diverse tasks. Our benchmark distinguishes itself through three key
+contributions: (1) balanced coverage of both comprehension and generation
+tasks, including novel tasks like poetry composition and couplet completion,
+(2) specialized evaluation metrics designed specifically for classical Chinese
+text generation, combining rule-based verification with fine-tuned LLM
+evaluators, and (3) a systematic assessment framework that considers both
+linguistic accuracy and cultural authenticity. Through extensive evaluation of
+state-of-the-art LLMs, we reveal significant performance gaps between
+understanding and generation tasks, with models achieving promising results in
+comprehension but struggling considerably in generation tasks, particularly
+those requiring deep cultural knowledge and adherence to classical formats. Our
+findings highlight the current limitations in ancient Chinese text processing
+and provide insights for future model development. The benchmark, evaluation
+toolkit, and baseline results are publicly available to facilitate research in
+this domain.",2025-03-20
 "Automated Evaluation of Meter and Rhyme in Russian Generative and
   Human-Authored Poetry",2025-02-28 10:39:07+00:00,http://arxiv.org/abs/2502.20931v1,Ilya Koziev,cs.CL,poetry,"Generative poetry systems require effective tools for data engineering and
 automatic evaluation, particularly to assess how well a poem adheres to

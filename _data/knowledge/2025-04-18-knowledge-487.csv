@@ -1,4 +1,262 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Chain-of-Thought Textual Reasoning for Few-shot Temporal Action
+  Localization",2025-04-18 04:35:35+00:00,http://arxiv.org/abs/2504.13460v1,"Hongwei Ji, Wulian Yun, Mengshi Qi, Huadong Ma","cs.CV, cs.AI",knowledge,"Traditional temporal action localization (TAL) methods rely on large amounts
+of detailed annotated data, whereas few-shot TAL reduces this dependence by
+using only a few training samples to identify unseen action categories.
+However, existing few-shot TAL methods typically focus solely on video-level
+information, neglecting textual information, which can provide valuable
+semantic support for the localization task. Therefore, we propose a new
+few-shot temporal action localization method by Chain-of-Thought textual
+reasoning to improve localization performance. Specifically, we design a novel
+few-shot learning framework that leverages textual semantic information to
+enhance the model's ability to capture action commonalities and variations,
+which includes a semantic-aware text-visual alignment module designed to align
+the query and support videos at different levels. Meanwhile, to better express
+the temporal dependencies and causal relationships between actions at the
+textual level to assist action localization, we design a Chain of Thought
+(CoT)-like reasoning method that progressively guides the Vision Language Model
+(VLM) and Large Language Model (LLM) to generate CoT-like text descriptions for
+videos. The generated texts can capture more variance of action than visual
+features. We conduct extensive experiments on the publicly available
+ActivityNet1.3 and THUMOS14 datasets. We introduce the first dataset named
+Human-related Anomaly Localization and explore the application of the TAL task
+in human anomaly detection. The experimental results demonstrate that our
+proposed method significantly outperforms existing methods in single-instance
+and multi-instance scenarios. We will release our code, data and benchmark.",2025-04-18
+"Syntactic and Semantic Control of Large Language Models via Sequential
+  Monte Carlo",2025-04-17 17:49:40+00:00,http://arxiv.org/abs/2504.13139v1,"João Loula, Benjamin LeBrun, Li Du, Ben Lipkin, Clemente Pasti, Gabriel Grand, Tianyu Liu, Yahya Emara, Marjorie Freedman, Jason Eisner, Ryan Cotterel, Vikash Mansinghka, Alexander K. Lew, Tim Vieira, Timothy J. O'Donnell","cs.CL, cs.AI, cs.LG",knowledge,"A wide range of LM applications require generating text that conforms to
+syntactic or semantic constraints. Imposing such constraints can be naturally
+framed as probabilistic conditioning, but exact generation from the resulting
+distribution -- which can differ substantially from the LM's base distribution
+-- is generally intractable. In this work, we develop an architecture for
+controlled LM generation based on sequential Monte Carlo (SMC). Our SMC
+framework allows us to flexibly incorporate domain- and problem-specific
+constraints at inference time, and efficiently reallocate computational
+resources in light of new information during the course of generation. By
+comparing to a number of alternatives and ablations on four challenging domains
+-- Python code generation for data science, text-to-SQL, goal inference, and
+molecule synthesis -- we demonstrate that, with little overhead, our approach
+allows small open-source language models to outperform models over 8x larger,
+as well as closed-source, fine-tuned ones. In support of the probabilistic
+perspective, we show that these performance improvements are driven by better
+approximation to the posterior distribution. Our system builds on the framework
+of Lew et al. (2023) and integrates with its language model probabilistic
+programming language, giving users a simple, programmable way to apply SMC to a
+broad variety of controlled generation problems.",2025-04-17
+"d1: Scaling Reasoning in Diffusion Large Language Models via
+  Reinforcement Learning",2025-04-16 16:08:45+00:00,http://arxiv.org/abs/2504.12216v1,"Siyan Zhao, Devaansh Gupta, Qinqing Zheng, Aditya Grover","cs.CL, cs.LG",knowledge,"Recent large language models (LLMs) have demonstrated strong reasoning
+capabilities that benefits from online reinforcement learning (RL). These
+capabilities have primarily been demonstrated within the left-to-right
+autoregressive (AR) generation paradigm. In contrast, non-autoregressive
+paradigms based on diffusion generate text in a coarse-to-fine manner. Although
+recent diffusion-based large language models (dLLMs) have achieved competitive
+language modeling performance compared to their AR counterparts, it remains
+unclear if dLLMs can also leverage recent advances in LLM reasoning. To this
+end, we propose d1, a framework to adapt pre-trained masked dLLMs into
+reasoning models via a combination of supervised finetuning (SFT) and RL.
+Specifically, we develop and extend techniques to improve reasoning in
+pretrained dLLMs: (a) we utilize a masked SFT technique to distill knowledge
+and instill self-improvement behavior directly from existing datasets, and (b)
+we introduce a novel critic-free, policy-gradient based RL algorithm called
+diffu-GRPO. Through empirical studies, we investigate the performance of
+different post-training recipes on multiple mathematical and logical reasoning
+benchmarks. We find that d1 yields the best performance and significantly
+improves performance of a state-of-the-art dLLM.",2025-04-16
+"Enhancing multimodal analogical reasoning with Logic Augmented
+  Generation",2025-04-15 13:47:55+00:00,http://arxiv.org/abs/2504.11190v1,"Anna Sofia Lippolis, Andrea Giovanni Nuzzolese, Aldo Gangemi","cs.AI, cs.CL",knowledge,"Recent advances in Large Language Models have demonstrated their capabilities
+across a variety of tasks. However, automatically extracting implicit knowledge
+from natural language remains a significant challenge, as machines lack active
+experience with the physical world. Given this scenario, semantic knowledge
+graphs can serve as conceptual spaces that guide the automated text generation
+reasoning process to achieve more efficient and explainable results. In this
+paper, we apply a logic-augmented generation (LAG) framework that leverages the
+explicit representation of a text through a semantic knowledge graph and
+applies it in combination with prompt heuristics to elicit implicit analogical
+connections. This method generates extended knowledge graph triples
+representing implicit meaning, enabling systems to reason on unlabeled
+multimodal data regardless of the domain. We validate our work through three
+metaphor detection and understanding tasks across four datasets, as they
+require deep analogical reasoning capabilities. The results show that this
+integrated approach surpasses current baselines, performs better than humans in
+understanding visual metaphors, and enables more explainable reasoning
+processes, though still has inherent limitations in metaphor understanding,
+especially for domain-specific metaphors. Furthermore, we propose a thorough
+error analysis, discussing issues with metaphorical annotations and current
+evaluation methods.",2025-04-15
+Transferable text data distillation by trajectory matching,2025-04-14 02:39:26+00:00,http://arxiv.org/abs/2504.09818v1,"Rong Yao, Hailin Hu, Yifei Fu, Hanting Chen, Wenyi Fang, Fanyi Du, Kai Han, Yunhe Wang",cs.CL,knowledge,"In the realm of large language model (LLM), as the size of large models
+increases, it also brings higher training costs. There is a urgent need to
+minimize the data size in LLM training. Compared with data selection method,
+the data distillation method aims to synthesize a small number of data samples
+to achieve the training effect of the full data set and has better flexibility.
+Despite its successes in computer vision, the discreteness of text data has
+hitherto stymied its exploration in natural language processing (NLP). In this
+work, we proposed a method that involves learning pseudo prompt data based on
+trajectory matching and finding its nearest neighbor ID to achieve
+cross-architecture transfer. During the distillation process, we introduce a
+regularization loss to improve the robustness of our distilled data. To our
+best knowledge, this is the first data distillation work suitable for text
+generation tasks such as instruction tuning. Evaluations on two benchmarks,
+including ARC-Easy and MMLU instruction tuning datasets, established the
+superiority of our distillation approach over the SOTA data selection method
+LESS. Furthermore, our method demonstrates a good transferability over LLM
+structures (i.e., OPT to Llama).",2025-04-14
+QUDsim: Quantifying Discourse Similarities in LLM-Generated Text,2025-04-12 23:46:09+00:00,http://arxiv.org/abs/2504.09373v1,"Ramya Namuduri, Yating Wu, Anshun Asher Zheng, Manya Wadhwa, Greg Durrett, Junyi Jessy Li",cs.CL,knowledge,"As large language models become increasingly capable at various writing
+tasks, their weakness at generating unique and creative content becomes a major
+liability. Although LLMs have the ability to generate text covering diverse
+topics, there is an overall sense of repetitiveness across texts that we aim to
+formalize and quantify via a similarity metric. The familiarity between
+documents arises from the persistence of underlying discourse structures.
+However, existing similarity metrics dependent on lexical overlap and syntactic
+patterns largely capture $\textit{content}$ overlap, thus making them
+unsuitable for detecting $\textit{structural}$ similarities. We introduce an
+abstraction based on linguistic theories in Questions Under Discussion (QUD)
+and question semantics to help quantify differences in discourse progression.
+We then use this framework to build $\textbf{QUDsim}$, a similarity metric that
+can detect discursive parallels between documents. Using QUDsim, we find that
+LLMs often reuse discourse structures (more so than humans) across samples,
+even when content differs. Furthermore, LLMs are not only repetitive and
+structurally uniform, but are also divergent from human authors in the types of
+structures they use.",2025-04-12
+Parameterized Synthetic Text Generation with SimpleStories,2025-04-12 11:44:47+00:00,http://arxiv.org/abs/2504.09184v1,"Lennart Finke, Thomas Dooms, Mat Allen, Juan Diego Rodriguez, Noa Nabeshima, Dan Braun","cs.CL, cs.AI",knowledge,"We present SimpleStories, a large synthetic story dataset in simple language,
+consisting of 2 million stories each in English and Japanese. Our method
+employs parametrization of prompts with features at multiple levels of
+abstraction, allowing for systematic control over story characteristics to
+ensure broad syntactic and semantic diversity. Building on and addressing
+limitations in the TinyStories dataset, our approach demonstrates that
+simplicity and variety can be achieved simultaneously in synthetic text
+generation at scale.",2025-04-12
+"ELSA: A Style Aligned Dataset for Emotionally Intelligent Language
+  Generation",2025-04-11 06:30:16+00:00,http://arxiv.org/abs/2504.08281v1,"Vishal Gandhi, Sagar Gandhi","cs.CL, cs.AI, cs.LG",knowledge,"Advancements in emotion aware language processing increasingly shape vital
+NLP applications ranging from conversational AI and affective computing to
+computational psychology and creative content generation. Existing emotion
+datasets either lack emotional granularity or fail to capture necessary
+stylistic diversity, limiting the advancement of effective emotion conditioned
+text generation systems. Seeking to bridge this crucial gap between granularity
+and style diversity, this paper introduces a novel systematically constructed
+dataset named ELSA Emotion and Language Style Alignment Dataset leveraging fine
+grained emotion taxonomies adapted from existing sources such as dair ai
+emotion dataset and GoEmotions taxonomy. This dataset comprises multiple
+emotionally nuanced variations of original sentences regenerated across
+distinct contextual styles such as conversational, formal, poetic, and
+narrative, using advanced Large Language Models LLMs. Rigorous computational
+evaluation using metrics such as perplexity, embedding variance, readability,
+lexical diversity, and semantic coherence measures validates the datasets
+emotional authenticity, linguistic fluency, and textual diversity.
+Comprehensive metric analyses affirm its potential to support deeper
+explorations into emotion conditioned style adaptive text generation. By
+enabling precision tuned emotionally nuanced language modeling, our dataset
+creates fertile ground for research on fine grained emotional control, prompt
+driven explanation, interpretability, and style adaptive expressive language
+generation with LLMs.",2025-04-11
+"How to Detect and Defeat Molecular Mirage: A Metric-Driven Benchmark for
+  Hallucination in LLM-based Molecular Comprehension",2025-04-10 04:19:02+00:00,http://arxiv.org/abs/2504.12314v1,"Hao Li, Liuzhenghao Lv, He Cao, Zijing Liu, Zhiyuan Yan, Yu Wang, Yonghong Tian, Yu Li, Li Yuan","cs.CL, cs.AI",knowledge,"Large language models are increasingly used in scientific domains, especially
+for molecular understanding and analysis. However, existing models are affected
+by hallucination issues, resulting in errors in drug design and utilization. In
+this paper, we first analyze the sources of hallucination in LLMs for molecular
+comprehension tasks, specifically the knowledge shortcut phenomenon observed in
+the PubChem dataset. To evaluate hallucination in molecular comprehension tasks
+with computational efficiency, we introduce \textbf{Mol-Hallu}, a novel
+free-form evaluation metric that quantifies the degree of hallucination based
+on the scientific entailment relationship between generated text and actual
+molecular properties. Utilizing the Mol-Hallu metric, we reassess and analyze
+the extent of hallucination in various LLMs performing molecular comprehension
+tasks. Furthermore, the Hallucination Reduction Post-processing stage~(HRPP) is
+proposed to alleviate molecular hallucinations, Experiments show the
+effectiveness of HRPP on decoder-only and encoder-decoder molecular LLMs. Our
+findings provide critical insights into mitigating hallucination and improving
+the reliability of LLMs in scientific applications.",2025-04-10
+"Zeus: Zero-shot LLM Instruction for Union Segmentation in Multimodal
+  Medical Imaging",2025-04-09 23:33:35+00:00,http://arxiv.org/abs/2504.07336v1,"Siyuan Dai, Kai Ye, Guodong Liu, Haoteng Tang, Liang Zhan","cs.CV, cs.AI",knowledge,"Medical image segmentation has achieved remarkable success through the
+continuous advancement of UNet-based and Transformer-based foundation
+backbones. However, clinical diagnosis in the real world often requires
+integrating domain knowledge, especially textual information. Conducting
+multimodal learning involves visual and text modalities shown as a solution,
+but collecting paired vision-language datasets is expensive and time-consuming,
+posing significant challenges. Inspired by the superior ability in numerous
+cross-modal tasks for Large Language Models (LLMs), we proposed a novel
+Vision-LLM union framework to address the issues. Specifically, we introduce
+frozen LLMs for zero-shot instruction generation based on corresponding medical
+images, imitating the radiology scanning and report generation process. {To
+better approximate real-world diagnostic processes}, we generate more precise
+text instruction from multimodal radiology images (e.g., T1-w or T2-w MRI and
+CT). Based on the impressive ability of semantic understanding and rich
+knowledge of LLMs. This process emphasizes extracting special features from
+different modalities and reunion the information for the ultimate clinical
+diagnostic. With generated text instruction, our proposed union segmentation
+framework can handle multimodal segmentation without prior collected
+vision-language datasets. To evaluate our proposed method, we conduct
+comprehensive experiments with influential baselines, the statistical results
+and the visualized case study demonstrate the superiority of our novel method.}",2025-04-09
+"Defending LLM Watermarking Against Spoofing Attacks with Contrastive
+  Representation Learning",2025-04-09 04:38:17+00:00,http://arxiv.org/abs/2504.06575v2,"Li An, Yujian Liu, Yepeng Liu, Yang Zhang, Yuheng Bu, Shiyu Chang","cs.CR, cs.CL",knowledge,"Watermarking has emerged as a promising technique for detecting texts
+generated by LLMs. Current research has primarily focused on three design
+criteria: high quality of the watermarked text, high detectability, and
+robustness against removal attack. However, the security against spoofing
+attacks remains relatively understudied. For example, a piggyback attack can
+maliciously alter the meaning of watermarked text-transforming it into hate
+speech-while preserving the original watermark, thereby damaging the reputation
+of the LLM provider. We identify two core challenges that make defending
+against spoofing difficult: (1) the need for watermarks to be both sensitive to
+semantic-distorting changes and insensitive to semantic-preserving edits, and
+(2) the contradiction between the need to detect global semantic shifts and the
+local, auto-regressive nature of most watermarking schemes. To address these
+challenges, we propose a semantic-aware watermarking algorithm that post-hoc
+embeds watermarks into a given target text while preserving its original
+meaning. Our method introduces a semantic mapping model, which guides the
+generation of a green-red token list, contrastively trained to be sensitive to
+semantic-distorting changes and insensitive to semantic-preserving changes.
+Experiments on two standard benchmarks demonstrate strong robustness against
+removal attacks and security against spoofing attacks, including sentiment
+reversal and toxic content insertion, while maintaining high watermark
+detectability. Our approach offers a significant step toward more secure and
+semantically aware watermarking for LLMs. Our code is available at
+https://github.com/UCSB-NLP-Chang/contrastive-watermark.",2025-04-09
+"LExT: Towards Evaluating Trustworthiness of Natural Language
+  Explanations",2025-04-08 17:16:52+00:00,http://arxiv.org/abs/2504.06227v1,"Krithi Shailya, Shreya Rajpal, Gokul S Krishnan, Balaraman Ravindran",cs.CL,knowledge,"As Large Language Models (LLMs) become increasingly integrated into
+high-stakes domains, there have been several approaches proposed toward
+generating natural language explanations. These explanations are crucial for
+enhancing the interpretability of a model, especially in sensitive domains like
+healthcare, where transparency and reliability are key. In light of such
+explanations being generated by LLMs and its known concerns, there is a growing
+need for robust evaluation frameworks to assess model-generated explanations.
+Natural Language Generation metrics like BLEU and ROUGE capture syntactic and
+semantic accuracies but overlook other crucial aspects such as factual
+accuracy, consistency, and faithfulness. To address this gap, we propose a
+general framework for quantifying trustworthiness of natural language
+explanations, balancing Plausibility and Faithfulness, to derive a
+comprehensive Language Explanation Trustworthiness Score (LExT) (The code and
+set up to reproduce our experiments are publicly available at
+https://github.com/cerai-iitm/LExT). Applying our domain-agnostic framework to
+the healthcare domain using public medical datasets, we evaluate six models,
+including domain-specific and general-purpose models. Our findings demonstrate
+significant differences in their ability to generate trustworthy explanations.
+On comparing these explanations, we make interesting observations such as
+inconsistencies in Faithfulness demonstrated by general-purpose models and
+their tendency to outperform domain-specific fine-tuned models. This work
+further highlights the importance of using a tailored evaluation framework to
+assess natural language explanations in sensitive fields, providing a
+foundation for improving the trustworthiness and transparency of language
+models in healthcare and beyond.",2025-04-08
+"VeriMind: Agentic LLM for Automated Verilog Generation with a Novel
+  Evaluation Metric",2025-03-15 23:43:06+00:00,http://arxiv.org/abs/2503.16514v3,"Bardia Nadimi, Ghali Omar Boutaib, Hao Zheng","cs.AR, cs.AI, cs.LG, cs.PL",knowledge,"Designing Verilog modules requires meticulous attention to correctness,
+efficiency, and adherence to design specifications. However, manually writing
+Verilog code remains a complex and time-consuming task that demands both expert
+knowledge and iterative refinement. Leveraging recent advancements in large
+language models (LLMs) and their structured text generation capabilities, we
+propose VeriMind, an agentic LLM framework for Verilog code generation that
+significantly automates and optimizes the synthesis process. Unlike traditional
+LLM-based code generators, VeriMind employs a structured reasoning approach:
+given a user-provided prompt describing design requirements, the system first
+formulates a detailed train of thought before the final Verilog code is
+generated. This multi-step methodology enhances interpretability, accuracy, and
+adaptability in hardware design. In addition, we introduce a novel evaluation
+metric-pass@ARC-which combines the conventional pass@k measure with Average
+Refinement Cycles (ARC) to capture both success rate and the efficiency of
+iterative refinement. Experimental results on diverse hardware design tasks
+demonstrated that our approach achieved up to $8.3\%$ improvement on pass@k
+metric and $8.1\%$ on pass@ARC metric. These findings underscore the
+transformative potential of agentic LLMs in automated hardware design, RTL
+development, and digital system synthesis.",2025-03-15
 "Search-R1: Training LLMs to Reason and Leverage Search Engines with
   Reinforcement Learning",2025-03-12 16:26:39+00:00,http://arxiv.org/abs/2503.09516v1,"Bowen Jin, Hansi Zeng, Zhenrui Yue, Dong Wang, Hamed Zamani, Jiawei Han","cs.CL, cs.AI, cs.IR",knowledge,"Efficiently acquiring external knowledge and up-to-date information is
 essential for effective reasoning and text generation in large language models

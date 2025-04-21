@@ -1,4 +1,258 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+Watermarking Needs Input Repetition Masking,2025-04-16 16:25:26+00:00,http://arxiv.org/abs/2504.12229v1,"David Khachaturov, Robert Mullins, Ilia Shumailov, Sumanth Dathathri","cs.LG, cs.CL, cs.CR",dialogue,"Recent advancements in Large Language Models (LLMs) raised concerns over
+potential misuse, such as for spreading misinformation. In response two counter
+measures emerged: machine learning-based detectors that predict if text is
+synthetic, and LLM watermarking, which subtly marks generated text for
+identification and attribution. Meanwhile, humans are known to adjust language
+to their conversational partners both syntactically and lexically. By
+implication, it is possible that humans or unwatermarked LLMs could
+unintentionally mimic properties of LLM generated text, making counter measures
+unreliable. In this work we investigate the extent to which such conversational
+adaptation happens. We call the concept $\textit{mimicry}$ and demonstrate that
+both humans and LLMs end up mimicking, including the watermarking signal even
+in seemingly improbable settings. This challenges current academic assumptions
+and suggests that for long-term watermarking to be reliable, the likelihood of
+false positives needs to be significantly lower, while longer word sequences
+should be used for seeding watermarking mechanisms.",2025-04-16
+"ELSA: A Style Aligned Dataset for Emotionally Intelligent Language
+  Generation",2025-04-11 06:30:16+00:00,http://arxiv.org/abs/2504.08281v1,"Vishal Gandhi, Sagar Gandhi","cs.CL, cs.AI, cs.LG",dialogue,"Advancements in emotion aware language processing increasingly shape vital
+NLP applications ranging from conversational AI and affective computing to
+computational psychology and creative content generation. Existing emotion
+datasets either lack emotional granularity or fail to capture necessary
+stylistic diversity, limiting the advancement of effective emotion conditioned
+text generation systems. Seeking to bridge this crucial gap between granularity
+and style diversity, this paper introduces a novel systematically constructed
+dataset named ELSA Emotion and Language Style Alignment Dataset leveraging fine
+grained emotion taxonomies adapted from existing sources such as dair ai
+emotion dataset and GoEmotions taxonomy. This dataset comprises multiple
+emotionally nuanced variations of original sentences regenerated across
+distinct contextual styles such as conversational, formal, poetic, and
+narrative, using advanced Large Language Models LLMs. Rigorous computational
+evaluation using metrics such as perplexity, embedding variance, readability,
+lexical diversity, and semantic coherence measures validates the datasets
+emotional authenticity, linguistic fluency, and textual diversity.
+Comprehensive metric analyses affirm its potential to support deeper
+explorations into emotion conditioned style adaptive text generation. By
+enabling precision tuned emotionally nuanced language modeling, our dataset
+creates fertile ground for research on fine grained emotional control, prompt
+driven explanation, interpretability, and style adaptive expressive language
+generation with LLMs.",2025-04-11
+Synthetic Data Generation & Multi-Step RL for Reasoning & Tool Use,2025-04-07 05:20:58+00:00,http://arxiv.org/abs/2504.04736v1,"Anna Goldie, Azalia Mirhoseini, Hao Zhou, Irene Cai, Christopher D. Manning","cs.AI, cs.CL, cs.LG",dialogue,"Reinforcement learning has been shown to improve the performance of large
+language models. However, traditional approaches like RLHF or RLAIF treat the
+problem as single-step. As focus shifts toward more complex reasoning and
+agentic tasks, language models must take multiple steps of text generation,
+reasoning and environment interaction before generating a solution. We propose
+a synthetic data generation and RL methodology targeting multi-step
+optimization scenarios. This approach, called Step-Wise Reinforcement Learning
+(SWiRL), iteratively generates multi-step reasoning and tool use data, and then
+learns from that data. It employs a simple step-wise decomposition that breaks
+each multi-step trajectory into multiple sub-trajectories corresponding to each
+action by the original model. It then applies synthetic data filtering and RL
+optimization on these sub-trajectories. We evaluated SWiRL on a number of
+multi-step tool use, question answering, and mathematical reasoning tasks. Our
+experiments show that SWiRL outperforms baseline approaches by 21.5%, 12.3%,
+14.8%, 11.1%, and 15.3% in relative accuracy on GSM8K, HotPotQA, CofCA,
+MuSiQue, and BeerQA, respectively. Excitingly, the approach exhibits
+generalization across tasks: for example, training only on HotPotQA (text
+question-answering) improves zero-shot performance on GSM8K (a math dataset) by
+a relative 16.9%.",2025-04-07
+IMPersona: Evaluating Individual Level LM Impersonation,2025-04-06 02:57:58+00:00,http://arxiv.org/abs/2504.04332v2,"Quan Shi, Carlos E. Jimenez, Stephen Dong, Brian Seo, Caden Yao, Adam Kelch, Karthik Narasimhan","cs.CL, cs.AI",dialogue,"As language models achieve increasingly human-like capabilities in
+conversational text generation, a critical question emerges: to what extent can
+these systems simulate the characteristics of specific individuals? To evaluate
+this, we introduce IMPersona, a framework for evaluating LMs at impersonating
+specific individuals' writing style and personal knowledge. Using supervised
+fine-tuning and a hierarchical memory-inspired retrieval system, we demonstrate
+that even modestly sized open-source models, such as Llama-3.1-8B-Instruct, can
+achieve impersonation abilities at concerning levels. In blind conversation
+experiments, participants (mis)identified our fine-tuned models with memory
+integration as human in 44.44% of interactions, compared to just 25.00% for the
+best prompting-based approach. We analyze these results to propose detection
+methods and defense strategies against such impersonation attempts. Our
+findings raise important questions about both the potential applications and
+risks of personalized language models, particularly regarding privacy,
+security, and the ethical deployment of such technologies in real-world
+contexts.",2025-04-06
+"Real-time Ad retrieval via LLM-generative Commercial Intention for
+  Sponsored Search Advertising",2025-04-02 02:26:31+00:00,http://arxiv.org/abs/2504.01304v1,"Tongtong Liu, Zhaohui Wang, Meiyue Qin, Zenghui Lu, Xudong Chen, Yuekui Yang, Peng Shu",cs.IR,dialogue,"The integration of Large Language Models (LLMs) with retrieval systems has
+shown promising potential in retrieving documents (docs) or advertisements
+(ads) for a given query. Existing LLM-based retrieval methods generate numeric
+or content-based DocIDs to retrieve docs/ads. However, the one-to-few mapping
+between numeric IDs and docs, along with the time-consuming content extraction,
+leads to semantic inefficiency and limits scalability in large-scale corpora.
+In this paper, we propose the Real-time Ad REtrieval (RARE) framework, which
+leverages LLM-generated text called Commercial Intentions (CIs) as an
+intermediate semantic representation to directly retrieve ads for queries in
+real-time. These CIs are generated by a customized LLM injected with commercial
+knowledge, enhancing its domain relevance. Each CI corresponds to multiple ads,
+yielding a lightweight and scalable set of CIs. RARE has been implemented in a
+real-world online system, handling daily search volumes in the hundreds of
+millions. The online implementation has yielded significant benefits: a 5.04%
+increase in consumption, a 6.37% rise in Gross Merchandise Volume (GMV), a
+1.28% enhancement in click-through rate (CTR) and a 5.29% increase in shallow
+conversions. Extensive offline experiments show RARE's superiority over ten
+competitive baselines in four major categories.",2025-04-02
+"GraphMaster: Automated Graph Synthesis via LLM Agents in Data-Limited
+  Environments",2025-04-01 12:21:50+00:00,http://arxiv.org/abs/2504.00711v1,"Enjun Du, Xunkai Li, Tian Jin, Zhihan Zhang, Rong-Hua Li, Guoren Wang",cs.LG,dialogue,"The era of foundation models has revolutionized AI research, yet Graph
+Foundation Models (GFMs) remain constrained by the scarcity of large-scale
+graph corpora. Traditional graph data synthesis techniques primarily focus on
+simplistic structural operations, lacking the capacity to generate semantically
+rich nodes with meaningful textual attributes: a critical limitation for
+real-world applications. While large language models (LLMs) demonstrate
+exceptional text generation capabilities, their direct application to graph
+synthesis is impeded by context window limitations, hallucination phenomena,
+and structural consistency challenges. To address these issues, we introduce
+GraphMaster, the first multi-agent framework specifically designed for graph
+data synthesis in data-limited environments. GraphMaster orchestrates four
+specialized LLM agents (Manager, Perception, Enhancement, and Evaluation) that
+collaboratively optimize the synthesis process through iterative refinement,
+ensuring both semantic coherence and structural integrity. To rigorously
+evaluate our approach, we create new data-limited ""Sub"" variants of six
+standard graph benchmarks, specifically designed to test synthesis capabilities
+under realistic constraints. Additionally, we develop a novel interpretability
+assessment framework that combines human evaluation with a principled
+Grassmannian manifold-based analysis, providing both qualitative and
+quantitative measures of semantic coherence. Experimental results demonstrate
+that GraphMaster significantly outperforms traditional synthesis methods across
+multiple datasets, establishing a strong foundation for advancing GFMs in
+data-scarce environments.",2025-04-01
+"A Unified Virtual Mixture-of-Experts Framework:Enhanced Inference and
+  Hallucination Mitigation in Single-Model System",2025-04-01 11:38:01+00:00,http://arxiv.org/abs/2504.03739v1,Mingyan Liu,"cs.CL, cs.AI, cs.LG",dialogue,"Generative models, such as GPT and BERT, have significantly improved
+performance in tasks like text generation and summarization. However,
+hallucinations ""where models generate non-factual or misleading content"" are
+especially problematic in smaller-scale architectures, limiting their
+real-world applicability.In this paper, we propose a unified Virtual
+Mixture-of-Experts (MoE) fusion strategy that enhances inference performance
+and mitigates hallucinations in a single Qwen 1.5 0.5B model without increasing
+the parameter count. Our method leverages multiple domain-specific expert
+prompts (with the number of experts being adjustable) to guide the model from
+different perspectives. We apply a statistical outlier truncation strategy
+based on the mean and standard deviation to filter out abnormally high
+probability predictions, and we inject noise into the embedding space to
+promote output diversity. To clearly assess the contribution of each module, we
+adopt a fixed voting mechanism rather than a dynamic gating network, thereby
+avoiding additional confounding factors. We provide detailed theoretical
+derivations from both statistical and ensemble learning perspectives to
+demonstrate how our method reduces output variance and suppresses
+hallucinations. Extensive ablation experiments on dialogue generation tasks
+show that our approach significantly improves inference accuracy and robustness
+in small models. Additionally, we discuss methods for evaluating the
+orthogonality of virtual experts and outline the potential for future work
+involving dynamic expert weight allocation using gating networks.",2025-04-01
+"Multi-Agent LLM Judge: automatic personalized LLM judge design for
+  evaluating natural language generation applications",2025-04-01 09:36:56+00:00,http://arxiv.org/abs/2504.02867v1,"Hongliu Cao, Ilias Driouich, Robin Singh, Eoin Thomas","cs.CL, cs.AI",dialogue,"Large Language Models (LLMs) have demonstrated impressive performance across
+diverse domains, yet they still encounter challenges such as insufficient
+domain-specific knowledge, biases, and hallucinations. This underscores the
+need for robust evaluation methodologies to accurately assess LLM-based
+applications. Traditional evaluation methods, which rely on word overlap or
+text embeddings, are inadequate for capturing the nuanced semantic information
+necessary to evaluate dynamic, open-ended text generation. Recent research has
+explored leveraging LLMs to mimic human reasoning and decision-making processes
+for evaluation purposes known as LLM-as-a-judge framework. However, these
+existing frameworks have two significant limitations. First, they lack the
+flexibility to adapt to different text styles, including various answer and
+ground truth styles, thereby reducing their generalization performance. Second,
+the evaluation scores produced by these frameworks are often skewed and hard to
+interpret, showing a low correlation with human judgment. To address these
+challenges, we propose a novel dynamic multi-agent system that automatically
+designs personalized LLM judges for various natural language generation
+applications. This system iteratively refines evaluation prompts and balances
+the trade-off between the adaptive requirements of downstream tasks and the
+alignment with human perception. Our experimental results show that the
+proposed multi-agent LLM Judge framework not only enhances evaluation accuracy
+compared to existing methods but also produces evaluation scores that better
+align with human perception.",2025-04-01
+"SpeechDialogueFactory: Generating High-Quality Speech Dialogue Data to
+  Accelerate Your Speech-LLM Development",2025-03-31 08:52:21+00:00,http://arxiv.org/abs/2503.23848v1,"Minghan Wang, Ye Bai, Yuxia Wang, Thuy-Trang Vu, Ehsan Shareghi, Gholamreza Haffari",cs.CL,dialogue,"High-quality speech dialogue datasets are crucial for Speech-LLM development,
+yet existing acquisition methods face significant limitations. Human recordings
+incur high costs and privacy concerns, while synthetic approaches often lack
+conversational authenticity. To address these challenges, we introduce
+\textsc{SpeechDialogueFactory}, a production-ready framework for generating
+natural speech dialogues efficiently. Our solution employs a comprehensive
+pipeline including metadata generation, dialogue scripting,
+paralinguistic-enriched utterance simulation, and natural speech synthesis with
+voice cloning. Additionally, the system provides an interactive UI for detailed
+sample inspection and a high-throughput batch synthesis mode. Evaluations show
+that dialogues generated by our system achieve a quality comparable to human
+recordings while significantly reducing production costs. We release our work
+as an open-source toolkit, alongside example datasets available in English and
+Chinese, empowering researchers and developers in Speech-LLM research and
+development.",2025-03-31
+"Can DeepSeek Reason Like a Surgeon? An Empirical Evaluation for
+  Vision-Language Understanding in Robotic-Assisted Surgery",2025-03-29 15:48:46+00:00,http://arxiv.org/abs/2503.23130v3,"Boyi Ma, Yanguang Zhao, Jie Wang, Guankun Wang, Kun Yuan, Tong Chen, Long Bai, Hongliang Ren","cs.CV, cs.CL, cs.RO",dialogue,"The DeepSeek models have shown exceptional performance in general scene
+understanding, question-answering (QA), and text generation tasks, owing to
+their efficient training paradigm and strong reasoning capabilities. In this
+study, we investigate the dialogue capabilities of the DeepSeek model in
+robotic surgery scenarios, focusing on tasks such as Single Phrase QA, Visual
+QA, and Detailed Description. The Single Phrase QA tasks further include
+sub-tasks such as surgical instrument recognition, action understanding, and
+spatial position analysis. We conduct extensive evaluations using publicly
+available datasets, including EndoVis18 and CholecT50, along with their
+corresponding dialogue data. Our empirical study shows that, compared to
+existing general-purpose multimodal large language models, DeepSeek-VL2
+performs better on complex understanding tasks in surgical scenes.
+Additionally, although DeepSeek-V3 is purely a language model, we find that
+when image tokens are directly inputted, the model demonstrates better
+performance on single-sentence QA tasks. However, overall, the DeepSeek models
+still fall short of meeting the clinical requirements for understanding
+surgical scenes. Under general prompts, DeepSeek models lack the ability to
+effectively analyze global surgical concepts and fail to provide detailed
+insights into surgical scenarios. Based on our observations, we argue that the
+DeepSeek models are not ready for vision-language tasks in surgical contexts
+without fine-tuning on surgery-specific datasets.",2025-03-29
+"Composable Prompting Workspaces for Creative Writing: Exploration and
+  Iteration Using Dynamic Widgets",2025-03-27 11:36:47+00:00,http://arxiv.org/abs/2503.21394v1,"Rifat Mehreen Amin, Oliver Hans Kühle, Daniel Buschek, Andreas Butz","cs.HC, cs.CL, H.5.2; I.2.7",dialogue,"Generative AI models offer many possibilities for text creation and
+transformation. Current graphical user interfaces (GUIs) for prompting them
+lack support for iterative exploration, as they do not represent prompts as
+actionable interface objects. We propose the concept of a composable prompting
+canvas for text exploration and iteration using dynamic widgets. Users generate
+widgets through system suggestions, prompting, or manually to capture
+task-relevant facets that affect the generated text. In a comparative study
+with a baseline (conversational UI), 18 participants worked on two writing
+tasks, creating diverse prompting environments with custom widgets and spatial
+layouts. They reported having more control over the generated text and
+preferred our system over the baseline. Our design significantly outperformed
+the baseline on the Creativity Support Index, and participants felt the results
+were worth the effort. This work highlights the need for GUIs that support
+user-driven customization and (re-)structuring to increase both the flexibility
+and efficiency of prompting.",2025-03-27
+Controlling Large Language Model with Latent Actions,2025-03-27 11:25:22+00:00,http://arxiv.org/abs/2503.21383v1,"Chengxing Jia, Ziniu Li, Pengyuan Wang, Yi-Chen Li, Zhenyu Hou, Yuxiao Dong, Yang Yu","cs.CL, cs.LG",dialogue,"Adapting Large Language Models (LLMs) to downstream tasks using Reinforcement
+Learning (RL) has proven to be an effective approach. However, LLMs do not
+inherently define the structure of an agent for RL training, particularly in
+terms of defining the action space. This paper studies learning a compact
+latent action space to enhance the controllability and exploration of RL for
+LLMs. We propose Controlling Large Language Models with Latent Actions (CoLA),
+a framework that integrates a latent action space into pre-trained LLMs. We
+apply CoLA to the Llama-3.1-8B model. Our experiments demonstrate that,
+compared to RL with token-level actions, CoLA's latent action enables greater
+semantic diversity in text generation. For enhancing downstream tasks, we show
+that CoLA with RL achieves a score of 42.4 on the math500 benchmark, surpassing
+the baseline score of 38.2, and reaches 68.2 when augmented with a Monte Carlo
+Tree Search variant. Furthermore, CoLA with RL consistently improves
+performance on agent-based tasks without degrading the pre-trained LLM's
+capabilities, unlike the baseline. Finally, CoLA reduces computation time by
+half in tasks involving enhanced thinking prompts for LLMs by RL. These results
+highlight CoLA's potential to advance RL-based adaptation of LLMs for
+downstream applications.",2025-03-27
+"VeriMind: Agentic LLM for Automated Verilog Generation with a Novel
+  Evaluation Metric",2025-03-15 23:43:06+00:00,http://arxiv.org/abs/2503.16514v3,"Bardia Nadimi, Ghali Omar Boutaib, Hao Zheng","cs.AR, cs.AI, cs.LG, cs.PL",dialogue,"Designing Verilog modules requires meticulous attention to correctness,
+efficiency, and adherence to design specifications. However, manually writing
+Verilog code remains a complex and time-consuming task that demands both expert
+knowledge and iterative refinement. Leveraging recent advancements in large
+language models (LLMs) and their structured text generation capabilities, we
+propose VeriMind, an agentic LLM framework for Verilog code generation that
+significantly automates and optimizes the synthesis process. Unlike traditional
+LLM-based code generators, VeriMind employs a structured reasoning approach:
+given a user-provided prompt describing design requirements, the system first
+formulates a detailed train of thought before the final Verilog code is
+generated. This multi-step methodology enhances interpretability, accuracy, and
+adaptability in hardware design. In addition, we introduce a novel evaluation
+metric-pass@ARC-which combines the conventional pass@k measure with Average
+Refinement Cycles (ARC) to capture both success rate and the efficiency of
+iterative refinement. Experimental results on diverse hardware design tasks
+demonstrated that our approach achieved up to $8.3\%$ improvement on pass@k
+metric and $8.1\%$ on pass@ARC metric. These findings underscore the
+transformative potential of agentic LLMs in automated hardware design, RTL
+development, and digital system synthesis.",2025-03-15
 "Dr Genre: Reinforcement Learning from Decoupled LLM Feedback for Generic
   Text Rewriting",2025-03-09 21:23:52+00:00,http://arxiv.org/abs/2503.06781v1,"Yufei Li, John Nham, Ganesh Jawahar, Lei Shu, David Uthus, Yun-Hsuan Sung, Chengrun Yang, Itai Rolnick, Yi Qiao, Cong Liu","cs.CL, cs.AI, cs.LG",dialogue,"Generic text rewriting is a prevalent large language model (LLM) application
 that covers diverse real-world tasks, such as style transfer, fact correction,

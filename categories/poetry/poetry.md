@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2025-03-13*
+*written on 2025-04-21*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Beyond Memorization: Mapping the Originality-Quality Frontier of  Language Models](http://arxiv.org/abs/2504.09389v1) | Vishakh Padmakumar, Chen Yueh-Han, Jane Pan, Valerie Chen, He He | cs.CL | 2025-04-13 |
+| [Fùxì: A Benchmark for Evaluating Language Models on Ancient Chinese  Text Understanding and Generation](http://arxiv.org/abs/2503.15837v1) | Shangqing Zhao, Yuhao Zhou, Yupei Ren, Zhe Chen, Chenghao Jia, Fang Zhe, Zhaogaung Long, Shu Liu, Man Lan | cs.CL, cs.AI | 2025-03-20 |
 | [Automated Evaluation of Meter and Rhyme in Russian Generative and  Human-Authored Poetry](http://arxiv.org/abs/2502.20931v1) | Ilya Koziev | cs.CL | 2025-02-28 |
 | [Where is my Glass Slipper? AI, Poetry and Art](http://arxiv.org/abs/2503.05781v1) | Anastasios P. Pagiaslis | cs.CY, cs.CL, I.2.7; J.5 | 2025-02-26 |
 | [Benchmarking Foundation Models on Exceptional Cases: Dataset Creation  and Validation](http://arxiv.org/abs/2410.18001v1) | Suho Kang, Jungyang Park, Joonseo Ha, SoMin Kim, JinHyeong Kim, Subeen Park, Kyungwoo Song | cs.AI | 2024-10-23 |
