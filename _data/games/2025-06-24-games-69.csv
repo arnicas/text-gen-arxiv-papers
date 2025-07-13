@@ -1,4 +1,102 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Who Does What in Deep Learning? Multidimensional Game-Theoretic
+  Attribution of Function of Neural Units",2025-06-24 15:50:35+00:00,http://arxiv.org/abs/2506.19732v1,"Shrey Dixit, Kayson Fakhar, Fatemeh Hadaeghi, Patrick Mineault, Konrad P. Kording, Claus C. Hilgetag","cs.LG, cs.AI",games,"Neural networks now generate text, images, and speech with billions of
+parameters, producing a need to know how each neural unit contributes to these
+high-dimensional outputs. Existing explainable-AI methods, such as SHAP,
+attribute importance to inputs, but cannot quantify the contributions of neural
+units across thousands of output pixels, tokens, or logits. Here we close that
+gap with Multiperturbation Shapley-value Analysis (MSA), a model-agnostic
+game-theoretic framework. By systematically lesioning combinations of units,
+MSA yields Shapley Modes, unit-wise contribution maps that share the exact
+dimensionality of the model's output. We apply MSA across scales, from
+multi-layer perceptrons to the 56-billion-parameter Mixtral-8x7B and Generative
+Adversarial Networks (GAN). The approach demonstrates how regularisation
+concentrates computation in a few hubs, exposes language-specific experts
+inside the LLM, and reveals an inverted pixel-generation hierarchy in GANs.
+Together, these results showcase MSA as a powerful approach for interpreting,
+editing, and compressing deep neural networks.",2025-06-24
+AI-Generated Game Commentary: A Survey and a Datasheet Repository,2025-06-17 07:04:51+00:00,http://arxiv.org/abs/2506.17294v1,"Qirui Zheng, Xingbo Wang, Keyuan Cheng, Yunlong Lu, Wenxin Li","cs.CL, cs.AI, cs.LG",games,"AI-Generated Game Commentary (AIGGC) has gained increasing attention due to
+its market potential and inherent technical challenges. As a comprehensive
+multimodal Natural Language Processing (NLP) task, AIGGC imposes substantial
+demands on language models, including factual accuracy, logical reasoning,
+expressive text generation, generation speed, and context management. In this
+paper, we introduce a general framework for AIGGC and present a comprehensive
+survey of 45 existing game commentary dataset and methods according to key
+challenges they aim to address in this domain. We further classify and compare
+various evaluation metrics commonly used in this domain. To support future
+research and benchmarking, we also provide a structured datasheet summarizing
+the essential attributes of these datasets in appendix, which is meanwhile
+publicly available in an open repository.",2025-06-17
+Abstract Counterfactuals for Language Model Agents,2025-06-03 14:44:26+00:00,http://arxiv.org/abs/2506.02946v1,"Edoardo Pona, Milad Kazemi, Yali Du, David Watson, Nicola Paoletti",cs.LG,games,"Counterfactual inference is a powerful tool for analysing and evaluating
+autonomous agents, but its application to language model (LM) agents remains
+challenging. Existing work on counterfactuals in LMs has primarily focused on
+token-level counterfactuals, which are often inadequate for LM agents due to
+their open-ended action spaces. Unlike traditional agents with fixed, clearly
+defined action spaces, the actions of LM agents are often implicit in the
+strings they output, making their action spaces difficult to define and
+interpret. Furthermore, the meanings of individual tokens can shift depending
+on the context, adding complexity to token-level reasoning and sometimes
+leading to biased or meaningless counterfactuals. We introduce \emph{Abstract
+Counterfactuals}, a framework that emphasises high-level characteristics of
+actions and interactions within an environment, enabling counterfactual
+reasoning tailored to user-relevant features. Our experiments demonstrate that
+the approach produces consistent and meaningful counterfactuals while
+minimising the undesired side effects of token-level methods. We conduct
+experiments on text-based games and counterfactual text generation, while
+considering both token-level and latent-space interventions.",2025-06-03
+"STORY2GAME: Generating (Almost) Everything in an Interactive Fiction
+  Game",2025-05-06 14:00:41+00:00,http://arxiv.org/abs/2505.03547v1,"Eric Zhou, Shreyas Basavatia, Moontashir Siam, Zexin Chen, Mark O. Riedl",cs.AI,games,"We introduce STORY2GAME, a novel approach to using Large Language Models to
+generate text-based interactive fiction games that starts by generating a
+story, populates the world, and builds the code for actions in a game engine
+that enables the story to play out interactively. Whereas a given set of
+hard-coded actions can artificially constrain story generation, the ability to
+generate actions means the story generation process can be more open-ended but
+still allow for experiences that are grounded in a game state. The key to
+successful action generation is to use LLM-generated preconditions and effects
+of actions in the stories as guides for what aspects of the game state must be
+tracked and changed by the game engine when a player performs an action. We
+also introduce a technique for dynamically generating new actions to
+accommodate the player's desire to perform actions that they think of that are
+not part of the story. Dynamic action generation may require on-the-fly updates
+to the game engine's state representation and revision of previously generated
+actions. We evaluate the success rate of action code generation with respect to
+whether a player can interactively play through the entire generated story.",2025-05-06
+"A Platform for Generating Educational Activities to Teach English as a
+  Second Language",2025-04-28 20:43:40+00:00,http://arxiv.org/abs/2504.20251v1,"Aiala Rosá, Santiago Góngora, Juan Pablo Filevich, Ignacio Sastre, Laura Musto, Brian Carpenter, Luis Chiruzzo","cs.CL, cs.AI, cs.CY",games,"We present a platform for the generation of educational activities oriented
+to teaching English as a foreign language. The different activities -- games
+and language practice exercises -- are strongly based on Natural Language
+Processing techniques. The platform offers the possibility of playing
+out-of-the-box games, generated from resources created semi-automatically and
+then manually curated. It can also generate games or exercises of greater
+complexity from texts entered by teachers, providing a stage of review and
+edition of the generated content before use. As a way of expanding the variety
+of activities in the platform, we are currently experimenting with image and
+text generation. In order to integrate them and improve the performance of
+other neural tools already integrated, we are working on migrating the platform
+to a more powerful server. In this paper we describe the development of our
+platform and its deployment for end users, discussing the challenges faced and
+how we overcame them, and also detail our future work plans.",2025-04-28
+Anyprefer: An Agentic Framework for Preference Data Synthesis,2025-04-27 15:21:59+00:00,http://arxiv.org/abs/2504.19276v1,"Yiyang Zhou, Zhaoyang Wang, Tianle Wang, Shangyu Xing, Peng Xia, Bo Li, Kaiyuan Zheng, Zijian Zhang, Zhaorun Chen, Wenhao Zheng, Xuchao Zhang, Chetan Bansal, Weitong Zhang, Ying Wei, Mohit Bansal, Huaxiu Yao","cs.LG, cs.AI, cs.CL",games,"High-quality preference data is essential for aligning foundation models with
+human values through preference learning. However, manual annotation of such
+data is often time-consuming and costly. Recent methods often adopt a
+self-rewarding approach, where the target model generates and annotates its own
+preference data, but this can lead to inaccuracies since the reward model
+shares weights with the target model, thereby amplifying inherent biases. To
+address these issues, we propose Anyprefer, a framework designed to synthesize
+high-quality preference data for aligning the target model. Anyprefer frames
+the data synthesis process as a cooperative two-player Markov Game, where the
+target model and the judge model collaborate together. Here, a series of
+external tools are introduced to assist the judge model in accurately rewarding
+the target model's responses, mitigating biases in the rewarding process. In
+addition, a feedback mechanism is introduced to optimize prompts for both
+models, enhancing collaboration and improving data quality. The synthesized
+data is compiled into a new preference dataset, Anyprefer-V1, consisting of 58K
+high-quality preference pairs. Extensive experiments show that Anyprefer
+significantly improves model alignment performance across four main
+applications, covering 21 datasets, achieving average improvements of 18.55% in
+five natural language generation datasets, 3.66% in nine vision-language
+understanding datasets, 30.05% in three medical image analysis datasets, and
+16.00% in four visuo-motor control tasks.",2025-04-27
 "Collaborative Storytelling and LLM: A Linguistic Analysis of
   Automatically-Generated Role-Playing Game Sessions",2025-03-26 15:10:47+00:00,http://arxiv.org/abs/2503.20623v1,Alessandro Maisto,"cs.CL, cs.AI",games,"Role-playing games (RPG) are games in which players interact with one another
 to create narratives. The role of players in the RPG is largely based on the

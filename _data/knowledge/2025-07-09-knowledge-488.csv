@@ -1,4 +1,26 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"CLI-RAG: A Retrieval-Augmented Framework for Clinically Structured and
+  Context Aware Text Generation with LLMs",2025-07-09 10:13:38+00:00,http://arxiv.org/abs/2507.06715v1,"Garapati Keerthana, Manik Gupta","cs.CL, cs.AI, cs.IR",knowledge,"Large language models (LLMs), including zero-shot and few-shot paradigms,
+have shown promising capabilities in clinical text generation. However,
+real-world applications face two key challenges: (1) patient data is highly
+unstructured, heterogeneous, and scattered across multiple note types and (2)
+clinical notes are often long and semantically dense, making naive prompting
+infeasible due to context length constraints and the risk of omitting
+clinically relevant information.
+  We introduce CLI-RAG (Clinically Informed Retrieval-Augmented Generation), a
+domain-specific framework for structured and clinically grounded text
+generation using LLMs. It incorporates a novel hierarchical chunking strategy
+that respects clinical document structure and introduces a task-specific
+dual-stage retrieval mechanism. The global stage identifies relevant note types
+using evidence-based queries, while the local stage extracts high-value content
+within those notes creating relevance at both document and section levels.
+  We apply the system to generate structured progress notes for individual
+hospital visits using 15 clinical note types from the MIMIC-III dataset.
+Experiments show that it preserves temporal and semantic alignment across
+visits, achieving an average alignment score of 87.7%, surpassing the 80.7%
+baseline from real clinician-authored notes. The generated outputs also
+demonstrate high consistency across LLMs, reinforcing deterministic behavior
+essential for reproducibility, reliability, and clinical trust.",2025-07-09
 "Chain-of-Thought Textual Reasoning for Few-shot Temporal Action
   Localization",2025-04-18 04:35:35+00:00,http://arxiv.org/abs/2504.13460v1,"Hongwei Ji, Wulian Yun, Mengshi Qi, Huadong Ma","cs.CV, cs.AI",knowledge,"Traditional temporal action localization (TAL) methods rely on large amounts
 of detailed annotated data, whereas few-shot TAL reduces this dependence by

@@ -7,10 +7,16 @@ sidebar:
 ---
 
 
-*written on 2025-04-21*
+*written on 2025-07-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Who Does What in Deep Learning? Multidimensional Game-Theoretic  Attribution of Function of Neural Units](http://arxiv.org/abs/2506.19732v1) | Shrey Dixit, Kayson Fakhar, Fatemeh Hadaeghi, Patrick Mineault, Konrad P. Kording, Claus C. Hilgetag | cs.LG, cs.AI | 2025-06-24 |
+| [AI-Generated Game Commentary: A Survey and a Datasheet Repository](http://arxiv.org/abs/2506.17294v1) | Qirui Zheng, Xingbo Wang, Keyuan Cheng, Yunlong Lu, Wenxin Li | cs.CL, cs.AI, cs.LG | 2025-06-17 |
+| [Abstract Counterfactuals for Language Model Agents](http://arxiv.org/abs/2506.02946v1) | Edoardo Pona, Milad Kazemi, Yali Du, David Watson, Nicola Paoletti | cs.LG | 2025-06-03 |
+| [STORY2GAME: Generating (Almost) Everything in an Interactive Fiction  Game](http://arxiv.org/abs/2505.03547v1) | Eric Zhou, Shreyas Basavatia, Moontashir Siam, Zexin Chen, Mark O. Riedl | cs.AI | 2025-05-06 |
+| [A Platform for Generating Educational Activities to Teach English as a  Second Language](http://arxiv.org/abs/2504.20251v1) | Aiala Rosá, Santiago Góngora, Juan Pablo Filevich, Ignacio Sastre, Laura Musto, Brian Carpenter, Luis Chiruzzo | cs.CL, cs.AI, cs.CY | 2025-04-28 |
+| [Anyprefer: An Agentic Framework for Preference Data Synthesis](http://arxiv.org/abs/2504.19276v1) | Yiyang Zhou, Zhaoyang Wang, Tianle Wang, Shangyu Xing, Peng Xia, Bo Li, Kaiyuan Zheng, Zijian Zhang, Zhaorun Chen, Wenhao Zheng, Xuchao Zhang, Chetan Bansal, Weitong Zhang, Ying Wei, Mohit Bansal, Huaxiu Yao | cs.LG, cs.AI, cs.CL | 2025-04-27 |
 | [Collaborative Storytelling and LLM: A Linguistic Analysis of  Automatically-Generated Role-Playing Game Sessions](http://arxiv.org/abs/2503.20623v1) | Alessandro Maisto | cs.CL, cs.AI | 2025-03-26 |
 | [Beyond Next Word Prediction: Developing Comprehensive Evaluation  Frameworks for measuring LLM performance on real world applications](http://arxiv.org/abs/2503.04828v1) | Vishakha Agrawal, Archie Chaudhury, Shreya Agrawal | cs.CL, cs.AI, cs.LG | 2025-03-05 |
 | [The Odyssey of the Fittest: Can Agents Survive and Still Be Good?](http://arxiv.org/abs/2502.05442v1) | Dylan Waldner, Risto Miikkulainen | cs.AI, cs.CY, cs.HC, cs.LG | 2025-02-08 |

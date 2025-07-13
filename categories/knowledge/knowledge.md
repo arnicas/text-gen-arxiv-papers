@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2025-04-21*
+*written on 2025-07-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [CLI-RAG: A Retrieval-Augmented Framework for Clinically Structured and  Context Aware Text Generation with LLMs](http://arxiv.org/abs/2507.06715v1) | Garapati Keerthana, Manik Gupta | cs.CL, cs.AI, cs.IR | 2025-07-09 |
 | [Chain-of-Thought Textual Reasoning for Few-shot Temporal Action  Localization](http://arxiv.org/abs/2504.13460v1) | Hongwei Ji, Wulian Yun, Mengshi Qi, Huadong Ma | cs.CV, cs.AI | 2025-04-18 |
 | [Syntactic and Semantic Control of Large Language Models via Sequential  Monte Carlo](http://arxiv.org/abs/2504.13139v1) | João Loula, Benjamin LeBrun, Li Du, Ben Lipkin, Clemente Pasti, Gabriel Grand, Tianyu Liu, Yahya Emara, Marjorie Freedman, Jason Eisner, Ryan Cotterel, Vikash Mansinghka, Alexander K. Lew, Tim Vieira, Timothy J. O'Donnell | cs.CL, cs.AI, cs.LG | 2025-04-17 |
 | [d1: Scaling Reasoning in Diffusion Large Language Models via  Reinforcement Learning](http://arxiv.org/abs/2504.12216v1) | Siyan Zhao, Devaansh Gupta, Qinqing Zheng, Aditya Grover | cs.CL, cs.LG | 2025-04-16 |

@@ -1,4 +1,334 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+On the Semantics of Large Language Models,2025-07-07 20:02:57+00:00,http://arxiv.org/abs/2507.05448v1,Martin Schuele,"cs.CL, cs.AI",dialogue,"Large Language Models (LLMs) such as ChatGPT demonstrated the potential to
+replicate human language abilities through technology, ranging from text
+generation to engaging in conversations. However, it remains controversial to
+what extent these systems truly understand language. We examine this issue by
+narrowing the question down to the semantics of LLMs at the word and sentence
+level. By examining the inner workings of LLMs and their generated
+representation of language and by drawing on classical semantic theories by
+Frege and Russell, we get a more nuanced picture of the potential semantic
+capabilities of LLMs.",2025-07-07
+"SHNU Multilingual Conversational Speech Recognition System for
+  INTERSPEECH 2025 MLC-SLM Challenge",2025-07-04 07:10:33+00:00,http://arxiv.org/abs/2507.03343v2,"Yuxiang Mei, Yuang Zheng, Dongxing Xu, Yanhua Long","cs.CL, eess.AS",dialogue,"This paper describes SHNU multilingual conversational speech recognition
+system (SHNU-mASR, team name-""maybe""), submitted to Track 1 of the INTERSPEECH
+2025 MLC-SLM Challenge. Our system integrates a parallel-speech-encoder
+architecture with a large language model (LLM) to form a unified multilingual
+ASR framework. The parallel-speech-encoder consists of two pre-trained
+encoders, the Whisper-large-v3 encoder and mHuBERT-147 encoder. Their output
+embeddings are concatenated and fed into the LLM, enabling the model to
+leverage complementary acoustic and linguistic knowledge and achieve
+competitive performance. Moreover, we adopt a tri-stage training strategy to
+jointly update the low-rank adaptation modules and projector parameters of both
+the speech encoders and the LLM. In addition, we incorporate an additional
+language-aware prompt at the LLM input to enhance language-specific text
+generation. The SHNU-mASR system achieves an overall character/word error rate
+(CER/WER) of 11.76% on the blind evaluation set of the challenge, outperforming
+the official MLC-SLM baseline by 8.41 absolute CER/WER, without increasing the
+baseline training data.",2025-07-04
+"The Future is Agentic: Definitions, Perspectives, and Open Challenges of
+  Multi-Agent Recommender Systems",2025-07-02 19:25:44+00:00,http://arxiv.org/abs/2507.02097v2,"Reza Yousefi Maragheh, Yashar Deldjoo",cs.IR,dialogue,"Large language models (LLMs) are rapidly evolving from passive engines of
+text generation into agentic entities that can plan, remember, invoke external
+tools, and co-operate with one another. This perspective paper investigates how
+such LLM agents (and societies thereof) can transform the design space of
+recommender systems.
+  We introduce a unified formalism that (i) models an individual agent as a
+tuple comprising its language core, tool set, and hierarchical memory, and (ii)
+captures a multi-agent recommender as a triple of agents, shared environment,
+and communication protocol. Within this framework, we present four end-to-end
+use cases-interactive party planning, synthetic user-simulation for offline
+evaluation, multi-modal furniture recommendation, and brand-aligned explanation
+generation-each illustrating a distinct capability unlocked by agentic
+orchestration.
+  We then surface five cross-cutting challenge families: protocol complexity,
+scalability, hallucination and error propagation, emergent misalignment
+(including covert collusion), and brand compliance.
+  For each, we formalize the problem, review nascent mitigation strategies, and
+outline open research questions. The result is both a blueprint and an agenda:
+a blueprint that shows how memory-augmented, tool-using LLM agents can be
+composed into robust recommendation pipelines, and an agenda inviting the
+RecSys community to develop benchmarks, theoretical guarantees, and governance
+tools that keep pace with this new degree of autonomy. By unifying agentic
+abstractions with recommender objectives, the paper lays the groundwork for the
+next generation of personalized, trustworthy, and context-rich recommendation
+services.",2025-07-02
+Decision-Oriented Text Evaluation,2025-07-02 17:32:35+00:00,http://arxiv.org/abs/2507.01923v2,"Yu-Shiang Huang, Chuan-Ju Wang, Chung-Chi Chen",cs.CL,dialogue,"Natural language generation (NLG) is increasingly deployed in high-stakes
+domains, yet common intrinsic evaluation methods, such as n-gram overlap or
+sentence plausibility, weakly correlate with actual decision-making efficacy.
+We propose a decision-oriented framework for evaluating generated text by
+directly measuring its influence on human and large language model (LLM)
+decision outcomes. Using market digest texts--including objective morning
+summaries and subjective closing-bell analyses--as test cases, we assess
+decision quality based on the financial performance of trades executed by human
+investors and autonomous LLM agents informed exclusively by these texts. Our
+findings reveal that neither humans nor LLM agents consistently surpass random
+performance when relying solely on summaries. However, richer analytical
+commentaries enable collaborative human-LLM teams to outperform individual
+human or agent baselines significantly. Our approach underscores the importance
+of evaluating generated text by its ability to facilitate synergistic
+decision-making between humans and LLMs, highlighting critical limitations of
+traditional intrinsic metrics.",2025-07-02
+Confidence and Stability of Global and Pairwise Scores in NLP Evaluation,2025-07-02 12:05:22+00:00,http://arxiv.org/abs/2507.01633v1,"Georgii Levtsov, Dmitry Ustalov","cs.CL, cs.IR, 62-04, D.2.3",dialogue,"With the advent of highly capable instruction-tuned neural language models,
+benchmarking in natural language processing (NLP) is increasingly shifting
+towards pairwise comparison leaderboards, such as LMSYS Arena, from traditional
+global pointwise scores (e.g., GLUE, BIG-bench, SWE-bench). This paper
+empirically investigates the strengths and weaknesses of both global scores and
+pairwise comparisons to aid decision-making in selecting appropriate model
+evaluation strategies. Through computational experiments on synthetic and
+real-world datasets using standard global metrics and the popular Bradley-Terry
+model for pairwise comparisons, we found that while global scores provide more
+reliable overall rankings, they can underestimate strong models with rare,
+significant errors or low confidence. Conversely, pairwise comparisons are
+particularly effective for identifying strong contenders among models with
+lower global scores, especially where quality metrics are hard to define (e.g.,
+text generation), though they require more comparisons to converge if ties are
+frequent. Our code and data are available at
+https://github.com/HSPyroblast/srw-ranking under a permissive license.",2025-07-02
+Efficient Interleaved Speech Modeling through Knowledge Distillation,2025-06-30 09:47:37+00:00,http://arxiv.org/abs/2506.23670v1,"Mohammadmahdi Nouriborji, Morteza Rohanian","cs.SD, cs.CL, eess.AS",dialogue,"Current speech language models exceed the size and latency constraints of
+many deployment environments. We build compact, expressive speech generation
+models through layer-aligned distillation, matching hidden states, attention
+maps, and softened logits to compress large multimodal transformers by 3x with
+minimal loss in performance. We introduce TinyWave, a family of 2B-parameter
+models for speech-to-speech and interleaved speech-text generation, trained on
+50,000 hours of public audio. TinyWave supports (i) speech-only generation
+using phonetic or expressive tokens and (ii) mixed speech-text continuations.
+Evaluation on Libri-Light shows TinyWave within 1.4 normalized perplexity
+points of its teacher. Accuracy on spoken StoryCloze and SALMon reaches 93-97%
+of the teacher's performance, outperforming size-matched baselines. These
+models are optimized for deployment on commodity hardware, enabling
+applications in real-time conversational agents, assistive technologies, and
+low-resource environments. We release models, training code, and evaluation
+scripts to support reproducible research on compact, expressive speech
+generation.",2025-06-30
+ATGen: A Framework for Active Text Generation,2025-06-29 17:27:48+00:00,http://arxiv.org/abs/2506.23342v1,"Akim Tsvigun, Daniil Vasilev, Ivan Tsvigun, Ivan Lysenko, Talgat Bektleuov, Aleksandr Medvedev, Uliana Vinogradova, Nikita Severin, Mikhail Mozikov, Andrey Savchenko, Rostislav Grigorev, Ramil Kuleev, Fedor Zhdanov, Artem Shelmanov, Ilya Makarov","cs.CL, cs.AI",dialogue,"Active learning (AL) has demonstrated remarkable potential in reducing the
+annotation effort required for training machine learning models. However,
+despite the surging popularity of natural language generation (NLG) tasks in
+recent years, the application of AL to NLG has been limited. In this paper, we
+introduce Active Text Generation (ATGen) - a comprehensive framework that
+bridges AL with text generation tasks, enabling the application of
+state-of-the-art AL strategies to NLG. Our framework simplifies AL-empowered
+annotation in NLG tasks using both human annotators and automatic annotation
+agents based on large language models (LLMs). The framework supports LLMs
+deployed as services, such as ChatGPT and Claude, or operated on-premises.
+Furthermore, ATGen provides a unified platform for smooth implementation and
+benchmarking of novel AL strategies tailored to NLG tasks. Finally, we present
+evaluation results for state-of-the-art AL strategies across diverse settings
+and multiple text generation tasks. We show that ATGen reduces both the effort
+of human annotators and costs associated with API calls to LLM-based annotation
+agents. The code of the framework is available on GitHub under the MIT license.
+The video presentation is available at http://atgen-video.nlpresearch.group",2025-06-29
+"Evaluating AI Counseling in Japanese: Counselor, Client, and Evaluator
+  Roles Assessed by Motivational Interviewing Criteria",2025-06-28 21:50:29+00:00,http://arxiv.org/abs/2507.02950v2,"Keita Kiuchi, Yoshikazu Fujimoto, Hideyuki Goto, Tomonori Hosokawa, Makoto Nishimura, Yosuke Sato, Izumi Sezai","cs.CL, cs.AI, cs.HC, 68T50, I.2.7; H.5.2; J.4",dialogue,"This study provides the first comprehensive evaluation of large language
+model (LLM) performance across three counseling roles in Japanese-language
+therapeutic contexts. We simultaneously assessed counselor artificial
+intelligence (AI) systems (GPT-4-turbo with zeroshot prompting or Structured
+Multi-step Dialogue Prompts (SMDP), Claude-3-Opus-SMDP), client AI simulations,
+and evaluation AI systems (o3, Claude-3.7-Sonnet, Gemini-2.5-pro). Human
+experts (n = 15) with extensive counseling experience evaluated AI-generated
+dialogues using the Motivational Interviewing Treatment Integrity (MITI) Coding
+Manual 4.2.1.
+  Notably, SMDP implementation significantly enhanced counselor AI performance
+across all MITI global ratings compared with zeroshot prompting, with no
+significant differences between GPT-SMDP and Opus-SMDP. Evaluation AIs showed
+comparable performance to human raters for Cultivating Change Talk but
+systematically overestimated Softening Sustain Talk and the overall quality
+metrics. Model-specific biases emerged: Gemini emphasized power-sharing, o3
+focused on technical proficiency, and Sonnet prioritized emotional expression.
+Client AI simulations exhibited a limited emotional range and unnaturally high
+compliance, indicating the need for enhanced realism.
+  These findings establish benchmarks for AI-assisted counseling in non-English
+contexts and identify critical areas for improvement through advanced prompt
+engineering, retrieval-augmented generation, and targeted fine-tuning, with
+important implications for developing culturally sensitive AI mental health
+tools.",2025-06-28
+"Assessing the feasibility of Large Language Models for detecting
+  micro-behaviors in team interactions during space missions",2025-06-27 23:06:24+00:00,http://arxiv.org/abs/2506.22679v1,"Ankush Raut, Projna Paromita, Sydney Begerowski, Suzanne Bell, Theodora Chaspari",cs.CL,dialogue,"We explore the feasibility of large language models (LLMs) in detecting
+subtle expressions of micro-behaviors in team conversations using transcripts
+collected during simulated space missions. Specifically, we examine zero-shot
+classification, fine-tuning, and paraphrase-augmented fine-tuning with
+encoder-only sequence classification LLMs, as well as few-shot text generation
+with decoder-only causal language modeling LLMs, to predict the micro-behavior
+associated with each conversational turn (i.e., dialogue). Our findings
+indicate that encoder-only LLMs, such as RoBERTa and DistilBERT, struggled to
+detect underrepresented micro-behaviors, particularly discouraging speech, even
+with weighted fine-tuning. In contrast, the instruction fine-tuned version of
+Llama-3.1, a decoder-only LLM, demonstrated superior performance, with the best
+models achieving macro F1-scores of 44% for 3-way classification and 68% for
+binary classification. These results have implications for the development of
+speech technologies aimed at analyzing team communication dynamics and
+enhancing training interventions in high-stakes environments such as space
+missions, particularly in scenarios where text is the only accessible data.",2025-06-27
+"DeepTalk: Towards Seamless and Smart Speech Interaction with Adaptive
+  Modality-Specific MoE",2025-06-27 02:32:04+00:00,http://arxiv.org/abs/2506.21864v2,"Hang Shao, Heting Gao, Yunhang Shen, Jiawei Chen, Lijiang Li, Zuwei Long, Bo Tong, Ke Li, Xing Sun","cs.CL, cs.AI",dialogue,"Native multimodal large language models (MLLMs) restructure a single large
+language model (LLM) into a spoken language model (SLM) capable of both speech
+and text generation. Compared to modular and aligned MLLMs, native MLLMs
+preserve richer paralinguistic features such as emotion and prosody, and
+generate speech responses directly within the backbone LLM rather than using a
+separate speech decoder. This integration also results in lower response
+latency and smoother interaction. However, native MLLMs suffer from
+catastrophic forgetting and performance degradation because the available
+paired speech-text data is insufficient to support the pretraining of MLLMs
+compared to the vast amount of text data required to pretrain text LLMs. To
+address this issue, we propose DeepTalk, a framework for adaptive modality
+expert learning based on a Mixture of Experts (MoE) architecture. DeepTalk
+first adaptively distinguishes modality experts according to their modality
+load within the LLM. Each modality expert then undergoes specialized
+single-modality training, followed by joint multimodal collaborative training.
+As a result, DeepTalk incurs only a 5.5% performance drop compared to the
+original LLM, which is significantly lower than the average performance drop of
+over 20% typically seen in native MLLMs (such as GLM-4-Voice), and is on par
+with modular MLLMs. Meanwhile, the end-to-end dialogue latency remains within
+0.5 seconds, ensuring a seamless and intelligent speech interaction experience.
+Code and models are released at https://github.com/talkking/DeepTalk.",2025-06-27
+"Commonsense Generation and Evaluation for Dialogue Systems using Large
+  Language Models",2025-06-24 10:18:05+00:00,http://arxiv.org/abs/2506.19483v1,"Marcos Estecha-Garitagoitia, Chen Zhang, Mario Rodríguez-Cantelar, Luis Fernando D'Haro",cs.CL,dialogue,"This paper provides preliminary results on exploring the task of performing
+turn-level data augmentation for dialogue system based on different types of
+commonsense relationships, and the automatic evaluation of the generated
+synthetic turns. The proposed methodology takes advantage of the extended
+knowledge and zero-shot capabilities of pretrained Large Language Models (LLMs)
+to follow instructions, understand contextual information, and their
+commonsense reasoning capabilities. The approach draws inspiration from
+methodologies like Chain-of-Thought (CoT), applied more explicitly to the task
+of prompt-based generation for dialogue-based data augmentation conditioned on
+commonsense attributes, and the automatic evaluation of the generated
+dialogues.
+  To assess the effectiveness of the proposed approach, first we extracted 200
+randomly selected partial dialogues, from 5 different well-known dialogue
+datasets, and generate alternative responses conditioned on different event
+commonsense attributes. This novel dataset allows us to measure the proficiency
+of LLMs in generating contextually relevant commonsense knowledge, particularly
+up to 12 different specific ATOMIC [10] database relations. Secondly, we
+propose an evaluation framework to automatically detect the quality of the
+generated dataset inspired by the ACCENT [26] metric, which offers a nuanced
+approach to assess event commonsense. However, our method does not follow
+ACCENT's complex eventrelation tuple extraction process. Instead, we propose an
+instruction-based prompt for each commonsense attribute and use
+state-of-the-art LLMs to automatically detect the original attributes used when
+creating each augmented turn in the previous step.
+  Preliminary results suggest that our approach effectively harnesses LLMs
+capabilities for commonsense reasoning and evaluation in dialogue systems.",2025-06-24
+"How Large Language Models play humans in online conversations: a
+  simulated study of the 2016 US politics on Reddit",2025-06-23 08:54:32+00:00,http://arxiv.org/abs/2506.21620v1,"Daniele Cirulli, Giulio Cimini, Giovanni Palermo","cs.CL, cs.AI, cs.CY, cs.SI, physics.soc-ph",dialogue,"Large Language Models (LLMs) have recently emerged as powerful tools for
+natural language generation, with applications spanning from content creation
+to social simulations. Their ability to mimic human interactions raises both
+opportunities and concerns, particularly in the context of politically relevant
+online discussions. In this study, we evaluate the performance of LLMs in
+replicating user-generated content within a real-world, divisive scenario:
+Reddit conversations during the 2016 US Presidential election. In particular,
+we conduct three different experiments, asking GPT-4 to generate comments by
+impersonating either real or artificial partisan users. We analyze the
+generated comments in terms of political alignment, sentiment, and linguistic
+features, comparing them against real user contributions and benchmarking
+against a null model. We find that GPT-4 is able to produce realistic comments,
+both in favor of or against the candidate supported by the community, yet
+tending to create consensus more easily than dissent. In addition we show that
+real and artificial comments are well separated in a semantically embedded
+space, although they are indistinguishable by manual inspection. Our findings
+provide insights on the potential use of LLMs to sneak into online discussions,
+influence political debate and shape political narratives, bearing broader
+implications of AI-driven discourse manipulation.",2025-06-23
+GenerationPrograms: Fine-grained Attribution with Executable Programs,2025-06-17 14:37:09+00:00,http://arxiv.org/abs/2506.14580v1,"David Wan, Eran Hirsch, Elias Stengel-Eskin, Ido Dagan, Mohit Bansal","cs.CL, cs.AI",dialogue,"Recent large language models (LLMs) achieve impressive performance in
+source-conditioned text generation but often fail to correctly provide
+fine-grained attributions for their outputs, undermining verifiability and
+trust. Moreover, existing attribution methods do not explain how and why models
+leverage the provided source documents to generate their final responses,
+limiting interpretability. To overcome these challenges, we introduce a modular
+generation framework, GenerationPrograms, inspired by recent advancements in
+executable ""code agent"" architectures. Unlike conventional generation methods
+that simultaneously generate outputs and attributions or rely on post-hoc
+attribution, GenerationPrograms decomposes the process into two distinct
+stages: first, creating an executable program plan composed of modular text
+operations (such as paraphrasing, compression, and fusion) explicitly tailored
+to the query, and second, executing these operations following the program's
+specified instructions to produce the final response. Empirical evaluations
+demonstrate that GenerationPrograms significantly improves attribution quality
+at both the document level and sentence level across two long-form
+question-answering tasks and a multi-document summarization task. We further
+demonstrate that GenerationPrograms can effectively function as a post-hoc
+attribution method, outperforming traditional techniques in recovering accurate
+attributions. In addition, the interpretable programs generated by
+GenerationPrograms enable localized refinement through modular-level
+improvements that further enhance overall attribution quality.",2025-06-17
+Discovering Coordinated Processes From Social Online Networks,2025-06-15 23:09:43+00:00,http://arxiv.org/abs/2506.12988v1,"Anna Kalenkova, Lewis Mitchell, Ethan Johnson",cs.SI,dialogue,"The rapid growth of social media presents a unique opportunity to study
+coordinated agent behavior in an unfiltered environment. Online processes often
+exhibit complex structures that reflect the nature of the user behavior,
+whether it is authentic and genuine, or part of a coordinated effort by
+malicious agents to spread misinformation and disinformation. Detection of
+AI-generated content can be extremely challenging due to the high quality of
+large language model-generated text. Therefore, approaches that use metadata
+like post timings are required to effectively detect coordinated AI-driven
+campaigns. Existing work that models the spread of information online is
+limited in its ability to represent different control flows that occur within
+the network in practice. Process mining offers techniques for the discovery of
+process models with different routing constructs and are yet to be applied to
+social networks. We propose to leverage process mining methods for the
+discovery of AI and human agent behavior within social networks. Applying
+process mining techniques to real-world Twitter (now X) event data, we
+demonstrate how the structural and behavioral properties of discovered process
+models can reveal coordinated AI and human behaviors online.",2025-06-15
+"Specification and Evaluation of Multi-Agent LLM Systems -- Prototype and
+  Cybersecurity Applications",2025-06-12 08:16:17+00:00,http://arxiv.org/abs/2506.10467v3,Felix Härer,"cs.CR, cs.AI, 68T01, I.2.1",dialogue,"Recent advancements in LLMs indicate potential for novel applications, e.g.,
+through reasoning capabilities in the latest OpenAI and DeepSeek models. For
+applying these models in specific domains beyond text generation, LLM-based
+multi-agent approaches can be utilized that solve complex tasks by combining
+reasoning techniques, code generation, and software execution. Applications
+might utilize these capabilities and the knowledge of specialized LLM agents.
+However, while many evaluations are performed on LLMs, reasoning techniques,
+and applications individually, their joint specification and combined
+application is not explored well. Defined specifications for multi-agent LLM
+systems are required to explore their potential and their suitability for
+specific applications, allowing for systematic evaluations of LLMs, reasoning
+techniques, and related aspects. This paper reports the results of exploratory
+research to specify and evaluate these aspects through a multi-agent system.
+The system architecture and prototype are extended from previous research and a
+specification is introduced for multi-agent systems. Test cases involving
+cybersecurity tasks indicate feasibility of the architecture and evaluation
+approach. In particular, the results show the evaluation of question answering,
+server security, and network security tasks that were completed correctly by
+agents with LLMs from OpenAI and DeepSeek.",2025-06-12
+"Not Minds, but Signs: Reframing LLMs through Semiotics",2025-05-20 08:49:18+00:00,http://arxiv.org/abs/2505.17080v2,Davide Picca,cs.CL,dialogue,"This paper challenges the prevailing tendency to frame Large Language Models
+(LLMs) as cognitive systems, arguing instead for a semiotic perspective that
+situates these models within the broader dynamics of sign manipulation and
+meaning-making. Rather than assuming that LLMs understand language or simulate
+human thought, we propose that their primary function is to recombine,
+recontextualize, and circulate linguistic forms based on probabilistic
+associations. By shifting from a cognitivist to a semiotic framework, we avoid
+anthropomorphism and gain a more precise understanding of how LLMs participate
+in cultural processes, not by thinking, but by generating texts that invite
+interpretation. Through theoretical analysis and practical examples, the paper
+demonstrates how LLMs function as semiotic agents whose outputs can be treated
+as interpretive acts, open to contextual negotiation and critical reflection.
+We explore applications in literature, philosophy, education, and cultural
+production, emphasizing how LLMs can serve as tools for creativity, dialogue,
+and critical inquiry. The semiotic paradigm foregrounds the situated,
+contingent, and socially embedded nature of meaning, offering a more rigorous
+and ethically aware framework for studying and using LLMs. Ultimately, this
+approach reframes LLMs as technological participants in an ongoing ecology of
+signs. They do not possess minds, but they alter how we read, write, and make
+meaning, compelling us to reconsider the foundations of language,
+interpretation, and the role of artificial systems in the production of
+knowledge.",2025-05-20
+Improving RL Exploration for LLM Reasoning through Retrospective Replay,2025-04-19 17:40:04+00:00,http://arxiv.org/abs/2504.14363v2,"Shihan Dou, Muling Wu, Jingwen Xu, Rui Zheng, Tao Gui, Qi Zhang, Xuanjing Huang","cs.LG, cs.CL",dialogue,"Reinforcement learning (RL) has increasingly become a pivotal technique in
+the post-training of large language models (LLMs). The effective exploration of
+the output space is essential for the success of RL. We observe that for
+complex problems, during the early stages of training, the model exhibits
+strong exploratory capabilities and can identify promising solution ideas.
+However, its limited capability at this stage prevents it from successfully
+solving these problems. The early suppression of these potentially valuable
+solution ideas by the policy gradient hinders the model's ability to revisit
+and re-explore these ideas later. Consequently, although the LLM's capabilities
+improve in the later stages of training, it still struggles to effectively
+address these complex problems. To address this exploration issue, we propose a
+novel algorithm named Retrospective Replay-based Reinforcement Learning (RRL),
+which introduces a dynamic replay mechanism throughout the training process.
+RRL enables the model to revisit promising states identified in the early
+stages, thereby improving its efficiency and effectiveness in exploration. To
+evaluate the effectiveness of RRL, we conduct extensive experiments on complex
+reasoning tasks, including mathematical reasoning and code generation, and
+general dialogue tasks. The results indicate that RRL maintains high
+exploration efficiency throughout the training period, significantly enhancing
+the effectiveness of RL in optimizing LLMs for complicated reasoning tasks.
+Moreover, it also improves the performance of RLHF, making the model both safer
+and more helpful.",2025-04-19
 Watermarking Needs Input Repetition Masking,2025-04-16 16:25:26+00:00,http://arxiv.org/abs/2504.12229v1,"David Khachaturov, Robert Mullins, Ilia Shumailov, Sumanth Dathathri","cs.LG, cs.CL, cs.CR",dialogue,"Recent advancements in Large Language Models (LLMs) raised concerns over
 potential misuse, such as for spreading misinformation. In response two counter
 measures emerged: machine learning-based detectors that predict if text is

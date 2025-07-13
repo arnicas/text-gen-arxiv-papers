@@ -1,4 +1,21 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"From Plain Text to Poetic Form: Generating Metrically-Constrained
+  Sanskrit Verses",2025-06-01 03:35:46+00:00,http://arxiv.org/abs/2506.00815v1,"Manoj Balaji Jagadeeshan, Samarth Bhatia, Pretam Ray, Harshul Raj Surana, Akhil Rajeev P, Priya Mishra, Annarao Kulkarni, Ganesh Ramakrishnan, Prathosh AP, Pawan Goyal",cs.CL,poetry,"Recent advances in large language models (LLMs) have significantly improved
+natural language generation, including creative tasks like poetry composition.
+However, most progress remains concentrated in high-resource languages. This
+raises an important question: Can LLMs be adapted for structured poetic
+generation in a low-resource, morphologically rich language such as Sanskrit?
+In this work, we introduce a dataset designed for translating English prose
+into structured Sanskrit verse, with strict adherence to classical metrical
+patterns, particularly the Anushtub meter. We evaluate a range of generative
+models-both open-source and proprietary-under multiple settings. Specifically,
+we explore constrained decoding strategies and instruction-based fine-tuning
+tailored to metrical and semantic fidelity. Our decoding approach achieves over
+99% accuracy in producing syntactically valid poetic forms, substantially
+outperforming general-purpose models in meter conformity. Meanwhile,
+instruction-tuned variants show improved alignment with source meaning and
+poetic style, as supported by human assessments, albeit with marginal
+trade-offs in metrical precision.",2025-06-01
 "Beyond Memorization: Mapping the Originality-Quality Frontier of
   Language Models",2025-04-13 00:48:58+00:00,http://arxiv.org/abs/2504.09389v1,"Vishakh Padmakumar, Chen Yueh-Han, Jane Pan, Valerie Chen, He He",cs.CL,poetry,"As large language models (LLMs) are increasingly used for ideation and
 scientific discovery, it is important to evaluate their ability to generate

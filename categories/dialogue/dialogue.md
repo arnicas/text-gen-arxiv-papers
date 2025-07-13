@@ -7,10 +7,27 @@ sidebar:
 ---
 
 
-*written on 2025-04-21*
+*written on 2025-07-13*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [On the Semantics of Large Language Models](http://arxiv.org/abs/2507.05448v1) | Martin Schuele | cs.CL, cs.AI | 2025-07-07 |
+| [SHNU Multilingual Conversational Speech Recognition System for  INTERSPEECH 2025 MLC-SLM Challenge](http://arxiv.org/abs/2507.03343v2) | Yuxiang Mei, Yuang Zheng, Dongxing Xu, Yanhua Long | cs.CL, eess.AS | 2025-07-04 |
+| [The Future is Agentic: Definitions, Perspectives, and Open Challenges of  Multi-Agent Recommender Systems](http://arxiv.org/abs/2507.02097v2) | Reza Yousefi Maragheh, Yashar Deldjoo | cs.IR | 2025-07-02 |
+| [Decision-Oriented Text Evaluation](http://arxiv.org/abs/2507.01923v2) | Yu-Shiang Huang, Chuan-Ju Wang, Chung-Chi Chen | cs.CL | 2025-07-02 |
+| [Confidence and Stability of Global and Pairwise Scores in NLP Evaluation](http://arxiv.org/abs/2507.01633v1) | Georgii Levtsov, Dmitry Ustalov | cs.CL, cs.IR, 62-04, D.2.3 | 2025-07-02 |
+| [Efficient Interleaved Speech Modeling through Knowledge Distillation](http://arxiv.org/abs/2506.23670v1) | Mohammadmahdi Nouriborji, Morteza Rohanian | cs.SD, cs.CL, eess.AS | 2025-06-30 |
+| [ATGen: A Framework for Active Text Generation](http://arxiv.org/abs/2506.23342v1) | Akim Tsvigun, Daniil Vasilev, Ivan Tsvigun, Ivan Lysenko, Talgat Bektleuov, Aleksandr Medvedev, Uliana Vinogradova, Nikita Severin, Mikhail Mozikov, Andrey Savchenko, Rostislav Grigorev, Ramil Kuleev, Fedor Zhdanov, Artem Shelmanov, Ilya Makarov | cs.CL, cs.AI | 2025-06-29 |
+| [Evaluating AI Counseling in Japanese: Counselor, Client, and Evaluator  Roles Assessed by Motivational Interviewing Criteria](http://arxiv.org/abs/2507.02950v2) | Keita Kiuchi, Yoshikazu Fujimoto, Hideyuki Goto, Tomonori Hosokawa, Makoto Nishimura, Yosuke Sato, Izumi Sezai | cs.CL, cs.AI, cs.HC, 68T50, I.2.7; H.5.2; J.4 | 2025-06-28 |
+| [Assessing the feasibility of Large Language Models for detecting  micro-behaviors in team interactions during space missions](http://arxiv.org/abs/2506.22679v1) | Ankush Raut, Projna Paromita, Sydney Begerowski, Suzanne Bell, Theodora Chaspari | cs.CL | 2025-06-27 |
+| [DeepTalk: Towards Seamless and Smart Speech Interaction with Adaptive  Modality-Specific MoE](http://arxiv.org/abs/2506.21864v2) | Hang Shao, Heting Gao, Yunhang Shen, Jiawei Chen, Lijiang Li, Zuwei Long, Bo Tong, Ke Li, Xing Sun | cs.CL, cs.AI | 2025-06-27 |
+| [Commonsense Generation and Evaluation for Dialogue Systems using Large  Language Models](http://arxiv.org/abs/2506.19483v1) | Marcos Estecha-Garitagoitia, Chen Zhang, Mario Rodríguez-Cantelar, Luis Fernando D'Haro | cs.CL | 2025-06-24 |
+| [How Large Language Models play humans in online conversations: a  simulated study of the 2016 US politics on Reddit](http://arxiv.org/abs/2506.21620v1) | Daniele Cirulli, Giulio Cimini, Giovanni Palermo | cs.CL, cs.AI, cs.CY, cs.SI, physics.soc-ph | 2025-06-23 |
+| [GenerationPrograms: Fine-grained Attribution with Executable Programs](http://arxiv.org/abs/2506.14580v1) | David Wan, Eran Hirsch, Elias Stengel-Eskin, Ido Dagan, Mohit Bansal | cs.CL, cs.AI | 2025-06-17 |
+| [Discovering Coordinated Processes From Social Online Networks](http://arxiv.org/abs/2506.12988v1) | Anna Kalenkova, Lewis Mitchell, Ethan Johnson | cs.SI | 2025-06-15 |
+| [Specification and Evaluation of Multi-Agent LLM Systems -- Prototype and  Cybersecurity Applications](http://arxiv.org/abs/2506.10467v3) | Felix Härer | cs.CR, cs.AI, 68T01, I.2.1 | 2025-06-12 |
+| [Not Minds, but Signs: Reframing LLMs through Semiotics](http://arxiv.org/abs/2505.17080v2) | Davide Picca | cs.CL | 2025-05-20 |
+| [Improving RL Exploration for LLM Reasoning through Retrospective Replay](http://arxiv.org/abs/2504.14363v2) | Shihan Dou, Muling Wu, Jingwen Xu, Rui Zheng, Tao Gui, Qi Zhang, Xuanjing Huang | cs.LG, cs.CL | 2025-04-19 |
 | [Watermarking Needs Input Repetition Masking](http://arxiv.org/abs/2504.12229v1) | David Khachaturov, Robert Mullins, Ilia Shumailov, Sumanth Dathathri | cs.LG, cs.CL, cs.CR | 2025-04-16 |
 | [ELSA: A Style Aligned Dataset for Emotionally Intelligent Language  Generation](http://arxiv.org/abs/2504.08281v1) | Vishal Gandhi, Sagar Gandhi | cs.CL, cs.AI, cs.LG | 2025-04-11 |
 | [Synthetic Data Generation & Multi-Step RL for Reasoning & Tool Use](http://arxiv.org/abs/2504.04736v1) | Anna Goldie, Azalia Mirhoseini, Hao Zhou, Irene Cai, Christopher D. Manning | cs.AI, cs.CL, cs.LG | 2025-04-07 |
