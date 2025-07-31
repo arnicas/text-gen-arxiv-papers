@@ -1,4 +1,219 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Resource-Efficient Adaptation of Large Language Models for Text
+  Embeddings via Prompt Engineering and Contrastive Fine-tuning",2025-07-30 14:49:30+00:00,http://arxiv.org/abs/2507.22729v1,"Benedikt Roth, Stephan Rappensperger, Tianming Qiu, Hamza Imamović, Julian Wörmann, Hao Shen",cs.CL,knowledge,"Large Language Models (LLMs) have become a cornerstone in Natural Language
+Processing (NLP), achieving impressive performance in text generation. Their
+token-level representations capture rich, human-aligned semantics. However,
+pooling these vectors into a text embedding discards crucial information.
+Nevertheless, many non-generative downstream tasks, such as clustering,
+classification, or retrieval, still depend on accurate and controllable
+sentence- or document-level embeddings. We explore several adaptation
+strategies for pre-trained, decoder-only LLMs: (i) various aggregation
+techniques for token embeddings, (ii) task-specific prompt engineering, and
+(iii) text-level augmentation via contrastive fine-tuning. Combining these
+components yields state-of-the-art performance on the English clustering track
+of the Massive Text Embedding Benchmark (MTEB). An analysis of the attention
+map further shows that fine-tuning shifts focus from prompt tokens to
+semantically relevant words, indicating more effective compression of meaning
+into the final hidden state. Our experiments demonstrate that LLMs can be
+effectively adapted as text embedding models through a combination of prompt
+engineering and resource-efficient contrastive fine-tuning on synthetically
+generated positive pairs.",2025-07-30
+Improving Generative Ad Text on Facebook using Reinforcement Learning,2025-07-29 16:34:02+00:00,http://arxiv.org/abs/2507.21983v1,"Daniel R. Jiang, Alex Nikulkov, Yu-Chia Chen, Yang Bai, Zheqing Zhu",cs.LG,knowledge,"Generative artificial intelligence (AI), in particular large language models
+(LLMs), is poised to drive transformative economic change. LLMs are pre-trained
+on vast text data to learn general language patterns, but a subsequent
+post-training phase is critical to align them for specific real-world tasks.
+Reinforcement learning (RL) is the leading post-training technique, yet its
+economic impact remains largely underexplored and unquantified. We examine this
+question through the lens of the first deployment of an RL-trained LLM for
+generative advertising on Facebook. Integrated into Meta's Text Generation
+feature, our model, ""AdLlama,"" powers an AI tool that helps advertisers create
+new variations of human-written ad text. To train this model, we introduce
+reinforcement learning with performance feedback (RLPF), a post-training method
+that uses historical ad performance data as a reward signal. In a large-scale
+10-week A/B test on Facebook spanning nearly 35,000 advertisers and 640,000 ad
+variations, we find that AdLlama improves click-through rates by 6.7%
+(p=0.0296) compared to a supervised imitation model trained on curated ads.
+This represents a substantial improvement in advertiser return on investment on
+Facebook. We also find that advertisers who used AdLlama generated more ad
+variations, indicating higher satisfaction with the model's outputs. To our
+knowledge, this is the largest study to date on the use of generative AI in an
+ecologically valid setting, offering an important data point quantifying the
+tangible impact of RL post-training. Furthermore, the results show that RLPF is
+a promising and generalizable approach for metric-driven post-training that
+bridges the gap between highly capable language models and tangible outcomes.",2025-07-29
+Teaching Language Models To Gather Information Proactively,2025-07-28 23:50:09+00:00,http://arxiv.org/abs/2507.21389v1,"Tenghao Huang, Sihao Chen, Muhao Chen, Jonathan May, Longqi Yang, Mengting Wan, Pei Zhou","cs.AI, cs.CL",knowledge,"Large language models (LLMs) are increasingly expected to function as
+collaborative partners, engaging in back-and-forth dialogue to solve complex,
+ambiguous problems. However, current LLMs often falter in real-world settings,
+defaulting to passive responses or narrow clarifications when faced with
+incomplete or under-specified prompts, falling short of proactively gathering
+the missing information that is crucial for high-quality solutions. In this
+work, we introduce a new task paradigm: proactive information gathering, where
+LLMs must identify gaps in the provided context and strategically elicit
+implicit user knowledge through targeted questions. To systematically study and
+train this capability, we design a scalable framework that generates partially
+specified, real-world tasks, masking key information and simulating authentic
+ambiguity. Within this setup, our core innovation is a reinforcement finetuning
+strategy that rewards questions that elicit genuinely new, implicit user
+information -- such as hidden domain expertise or fine-grained requirements --
+that would otherwise remain unspoken. Experiments demonstrate that our trained
+Qwen-2.5-7B model significantly outperforms o3-mini by 18% on automatic
+evaluation metrics. More importantly, human evaluation reveals that
+clarification questions and final outlines generated by our model are favored
+by human annotators by 42% and 28% respectively. Together, these results
+highlight the value of proactive clarification in elevating LLMs from passive
+text generators to genuinely collaborative thought partners.",2025-07-28
+Length Representations in Large Language Models,2025-07-27 19:41:39+00:00,http://arxiv.org/abs/2507.20398v1,"Sangjun Moon, Dasom Choi, Jingun Kwon, Hidetaka Kamigaito, Manabu Okumura",cs.CL,knowledge,"Large language models (LLMs) have shown remarkable capabilities across
+various tasks, that are learned from massive amounts of text-based data.
+Although LLMs can control output sequence length, particularly in
+instruction-based settings, the internal mechanisms behind this control have
+been unexplored yet. In this study, we provide empirical evidence on how output
+sequence length information is encoded within the internal representations in
+LLMs. In particular, our findings show that multi-head attention mechanisms are
+critical in determining output sequence length, which can be adjusted in a
+disentangled manner. By scaling specific hidden units within the model, we can
+control the output sequence length without losing the informativeness of the
+generated text, thereby indicating that length information is partially
+disentangled from semantic information. Moreover, some hidden units become
+increasingly active as prompts become more length-specific, thus reflecting the
+model's internal awareness of this attribute. Our findings suggest that LLMs
+have learned robust and adaptable internal mechanisms for controlling output
+length without any external control.",2025-07-27
+Basic Reading Distillation,2025-07-26 02:11:55+00:00,http://arxiv.org/abs/2507.19741v2,"Zhi Zhou, Sirui Miao, Xiangyu Duan, Hao Yang, Min Zhang",cs.CL,knowledge,"Large language models (LLMs) have demonstrated remarkable abilities in
+various natural language processing areas, but they demand high computation
+resources which limits their deployment in real-world. Distillation is one
+technique to solve this problem through either knowledge distillation or task
+distillation. Both distillation approaches train small models to imitate
+specific features of LLMs, but they all neglect basic reading education for
+small models on generic texts that are \emph{unrelated} to downstream tasks. In
+this paper, we propose basic reading distillation (BRD) which educates a small
+model to imitate LLMs basic reading behaviors, such as named entity
+recognition, question raising and answering, on each sentence. After such basic
+education, we apply the small model on various tasks including language
+inference benchmarks and BIG-bench tasks. It shows that the small model can
+outperform or perform comparable to over 20x bigger LLMs. Analysis reveals that
+BRD effectively influences the probability distribution of the small model, and
+has orthogonality to either knowledge distillation or task distillation.",2025-07-26
+Ta-G-T: Subjectivity Capture in Table to Text Generation via RDF Graphs,2025-07-25 23:06:00+00:00,http://arxiv.org/abs/2507.19710v1,"Ronak Upasham, Tathagata Dey, Pushpak Bhattacharyya",cs.CL,knowledge,"In Table-to-Text (T2T) generation, existing approaches predominantly focus on
+providing objective descriptions of tabular data. However, generating text that
+incorporates subjectivity, where subjectivity refers to interpretations beyond
+raw numerical data, remains underexplored. To address this, we introduce a
+novel pipeline that leverages intermediate representations to generate both
+objective and subjective text from tables. Our three-stage pipeline consists
+of: 1) extraction of Resource Description Framework (RDF) triples, 2)
+aggregation of text into coherent narratives, and 3) infusion of subjectivity
+to enrich the generated text. By incorporating RDFs, our approach enhances
+factual accuracy while maintaining interpretability. Unlike large language
+models (LLMs) such as GPT-3.5, Mistral-7B, and Llama-2, our pipeline employs
+smaller, fine-tuned T5 models while achieving comparable performance to GPT-3.5
+and outperforming Mistral-7B and Llama-2 in several metrics. We evaluate our
+approach through quantitative and qualitative analyses, demonstrating its
+effectiveness in balancing factual accuracy with subjective interpretation. To
+the best of our knowledge, this is the first work to propose a structured
+pipeline for T2T generation that integrates intermediate representations to
+enhance both factual correctness and subjectivity.",2025-07-25
+"Collaborative Distillation Strategies for Parameter-Efficient Language
+  Model Deployment",2025-07-21 02:55:33+00:00,http://arxiv.org/abs/2507.15198v1,"Xiandong Meng, Yan Wu, Yexin Tian, Xin Hu, Tianze Kang, Junliang Du",cs.CL,knowledge,"This paper addresses the challenges of high computational cost and slow
+inference in deploying large language models. It proposes a distillation
+strategy guided by multiple teacher models. The method constructs several
+teacher models and integrates their output probability distributions and
+intermediate semantic features. This guides the student model to learn from
+multiple sources of knowledge. As a result, the student model gains stronger
+language understanding and generation ability while maintaining a small
+parameter size. To achieve this, the paper introduces a weighted output fusion
+mechanism, a feature alignment loss function, and an entropy-driven dynamic
+teacher weighting strategy. These components improve the quality and stability
+of knowledge transfer during distillation. Under multi-teacher guidance, the
+student model captures semantic information more effectively and demonstrates
+strong performance across multiple evaluation metrics. In particular, the
+method shows high consistency in expression, generalization ability, and task
+adaptability in tasks such as language modeling, text generation, and
+multi-task learning. The experiments compare the proposed method with several
+widely adopted distillation approaches. The results further confirm its overall
+advantages in perplexity, distillation loss, and generation quality. This study
+provides a feasible technical path for the efficient compression of large-scale
+language models. It also demonstrates the effectiveness of multi-teacher
+collaborative mechanisms in complex language modeling tasks.",2025-07-21
+"Solo Connection: A Parameter Efficient Fine-Tuning Technique for
+  Transformers",2025-07-18 20:11:50+00:00,http://arxiv.org/abs/2507.14353v1,"Harsh Nilesh Pathak, Randy Paffenroth","cs.LG, cs.AI, cs.CL",knowledge,"Parameter efficient fine tuning (PEFT) is a versatile and extensible approach
+for adapting a Large Language Model (LLM) for newer tasks. One of the most
+prominent PEFT approaches, Low Rank Adaptation (LoRA), primarily focuses on
+adjusting the attention weight matrices within individual decoder blocks of a
+Generative Pre trained Transformer (GPT2). In contrast, we introduce Solo
+Connection a novel method that adapts the representation at the decoder-block
+level rather than modifying individual weight matrices. Not only does Solo
+Connection outperform LoRA on E2E natural language generation benchmarks, but
+it also reduces the number of trainable parameters by 59% relative to LoRA and
+by more than 99% compared to full fine-tuning of GPT2, an early version of
+Large Language Models (LLMs). Solo Connection is also motivated by homotopy
+theory: we introduce a trainable linear transformation that gradually
+interpolates between a zero vector and the task-specific representation,
+enabling smooth and stable adaptation over time. While skip connections in the
+original 12 layer GPT2 are typically confined to individual decoder blocks,
+subsequent GPT2 variants scale up to 48 layers, and even larger language models
+can include 128 or more decoder blocks. These expanded architectures underscore
+the need to revisit how skip connections are employed during fine-tuning. This
+paper focuses on long skip connections that link outputs of different decoder
+blocks, potentially enhancing the model's ability to adapt to new tasks while
+leveraging pre-trained knowledge.",2025-07-18
+"KiC: Keyword-inspired Cascade for Cost-Efficient Text Generation with
+  LLMs",2025-07-18 05:34:36+00:00,http://arxiv.org/abs/2507.13666v1,"Woo-Chan Kim, Ji-Hoon Park, Seong-Whan Lee",cs.CL,knowledge,"Large language models (LLMs) have demonstrated state-of-the-art performance
+across a wide range of natural language processing tasks. However,
+high-performing models are typically accessible only via APIs, incurring
+substantial inference costs. Cascade methods address this by initially
+employing a cheaper model and escalating to a stronger one only when necessary.
+Nevertheless, existing cascade approaches struggle to select a reliable
+representative response and assess the overall reliability of free-form
+outputs, as they rely on exact text matching. To overcome these limitations, we
+propose Keyword-inspired Cascade (KiC), a novel framework for cost-efficient
+free-form text generation. KiC identifies the most representative answer among
+multiple outputs from a weaker model and evaluates the semantic alignment of
+other responses with it. Based on the degree of alignment, KiC determines
+whether to accept the weaker model's output or escalate to a stronger model.
+Experiments on three free-form text generation benchmarks show that KiC
+achieves 97.53 percent of GPT-4's accuracy while reducing API costs by 28.81
+percent on average, and even outperforms GPT-4 in a specific benchmark.",2025-07-18
+"Linguistic and Embedding-Based Profiling of Texts generated by Humans
+  and Large Language Models",2025-07-18 02:46:55+00:00,http://arxiv.org/abs/2507.13614v2,"Sergio E. Zanotto, Segun Aroyehun","cs.CL, cs.AI",knowledge,"The rapid advancements in large language models (LLMs) have significantly
+improved their ability to generate natural language, making texts generated by
+LLMs increasingly indistinguishable from human-written texts. While recent
+research has primarily focused on using LLMs to classify text as either
+human-written and machine-generated texts, our study focus on characterizing
+these texts using a set of linguistic features across different linguistic
+levels such as morphology, syntax, and semantics. We select a dataset of
+human-written and machine-generated texts spanning 8 domains and produced by 11
+different LLMs. We calculate different linguistic features such as dependency
+length and emotionality and we use them for characterizing human-written and
+machine-generated texts along with different sampling strategies, repetition
+controls and model release date. Our statistical analysis reveals that
+human-written texts tend to exhibit simpler syntactic structures and more
+diverse semantic content. Furthermore, we calculate the variability of our set
+of features across models and domains. Both human and machine texts show
+stylistic diversity across domains, with humans displaying greater variation in
+our features. Finally, we apply style embeddings to further test variability
+among human-written and machine-generated texts. Notably, newer models output
+text that is similarly variable, pointing to an homogenization of
+machine-generated texts.",2025-07-18
+"From Coarse to Nuanced: Cross-Modal Alignment of Fine-Grained Linguistic
+  Cues and Visual Salient Regions for Dynamic Emotion Recognition",2025-07-16 04:15:06+00:00,http://arxiv.org/abs/2507.11892v1,"Yu Liu, Leyuan Qu, Hanlei Shi, Di Gao, Yuhua Zheng, Taihao Li","cs.CV, cs.AI, cs.HC",knowledge,"Dynamic Facial Expression Recognition (DFER) aims to identify human emotions
+from temporally evolving facial movements and plays a critical role in
+affective computing. While recent vision-language approaches have introduced
+semantic textual descriptions to guide expression recognition, existing methods
+still face two key limitations: they often underutilize the subtle emotional
+cues embedded in generated text, and they have yet to incorporate sufficiently
+effective mechanisms for filtering out facial dynamics that are irrelevant to
+emotional expression. To address these gaps, We propose GRACE, Granular
+Representation Alignment for Cross-modal Emotion recognition that integrates
+dynamic motion modeling, semantic text refinement, and token-level cross-modal
+alignment to facilitate the precise localization of emotionally salient
+spatiotemporal features. Our method constructs emotion-aware textual
+descriptions via a Coarse-to-fine Affective Text Enhancement (CATE) module and
+highlights expression-relevant facial motion through a motion-difference
+weighting mechanism. These refined semantic and visual signals are aligned at
+the token level using entropy-regularized optimal transport. Experiments on
+three benchmark datasets demonstrate that our method significantly improves
+recognition performance, particularly in challenging settings with ambiguous or
+imbalanced emotion classes, establishing new state-of-the-art (SOTA) results in
+terms of both UAR and WAR.",2025-07-16
 "CLI-RAG: A Retrieval-Augmented Framework for Clinically Structured and
   Context Aware Text Generation with LLMs",2025-07-09 10:13:38+00:00,http://arxiv.org/abs/2507.06715v1,"Garapati Keerthana, Manik Gupta","cs.CL, cs.AI, cs.IR",knowledge,"Large language models (LLMs), including zero-shot and few-shot paradigms,
 have shown promising capabilities in clinical text generation. However,

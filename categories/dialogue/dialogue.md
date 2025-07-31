@@ -7,10 +7,14 @@ sidebar:
 ---
 
 
-*written on 2025-07-13*
+*written on 2025-07-31*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Investigating Hallucination in Conversations for Low Resource Languages](http://arxiv.org/abs/2507.22720v1) | Amit Das, Md. Najib Hasan, Souvika Sarkar, Zheng Zhang, Fatemeh Jamshidi, Tathagata Bhattacharya, Nilanjana Raychawdhury, Dongji Feng, Vinija Jain, Aman Chadha | cs.CL | 2025-07-30 |
+| [Teaching Language Models To Gather Information Proactively](http://arxiv.org/abs/2507.21389v1) | Tenghao Huang, Sihao Chen, Muhao Chen, Jonathan May, Longqi Yang, Mengting Wan, Pei Zhou | cs.AI, cs.CL | 2025-07-28 |
+| [AI-Driven Generation of Old English: A Framework for Low-Resource  Languages](http://arxiv.org/abs/2507.20111v1) | Rodrigo Gabriel Salazar Alva, Matías Nuñez, Cristian López, Javier Martín Arista | cs.CL, cs.AI | 2025-07-27 |
+| [CogDual: Enhancing Dual Cognition of LLMs via Reinforcement Learning  with Implicit Rule-Based Rewards](http://arxiv.org/abs/2507.17147v1) | Cheng Liu, Yifei Lu, Fanghua Ye, Jian Li, Xingyu Chen, Feiliang Ren, Zhaopeng Tu, Xiaolong Li | cs.CL | 2025-07-23 |
 | [On the Semantics of Large Language Models](http://arxiv.org/abs/2507.05448v1) | Martin Schuele | cs.CL, cs.AI | 2025-07-07 |
 | [SHNU Multilingual Conversational Speech Recognition System for  INTERSPEECH 2025 MLC-SLM Challenge](http://arxiv.org/abs/2507.03343v2) | Yuxiang Mei, Yuang Zheng, Dongxing Xu, Yanhua Long | cs.CL, eess.AS | 2025-07-04 |
 | [The Future is Agentic: Definitions, Perspectives, and Open Challenges of  Multi-Agent Recommender Systems](http://arxiv.org/abs/2507.02097v2) | Reza Yousefi Maragheh, Yashar Deldjoo | cs.IR | 2025-07-02 |
