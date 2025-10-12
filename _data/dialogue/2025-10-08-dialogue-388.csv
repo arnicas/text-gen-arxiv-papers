@@ -1,4 +1,38 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"ToolMem: Enhancing Multimodal Agents with Learnable Tool Capability
+  Memory",2025-10-08 05:32:31+00:00,http://arxiv.org/abs/2510.06664v1,"Yunzhong Xiao, Yangmin Li, Hewei Wang, Yunlong Tang, Zora Zhiruo Wang",cs.CL,dialogue,"Agents utilizing tools powered by large language models (LLMs) or
+vision-language models (VLMs) have demonstrated remarkable progress in diverse
+tasks across text and visual modalities. Unlike traditional tools such as
+calculators, which give deterministic outputs, neural tools perform uncertainly
+across task scenarios. While different tools for a task may excel in varied
+scenarios, existing agents typically rely on fixed tools, thus limiting the
+flexibility in selecting the most suitable tool for specific tasks. In
+contrast, humans snowball their understanding of the capabilities of different
+tools by interacting with them, and apply this knowledge to select the optimal
+tool when solving a future task. To build agents that similarly benefit from
+this process, we propose ToolMem that enables agents to develop memories of
+tool capabilities from previous interactions, by summarizing their strengths
+and weaknesses and storing them in memory; at inference, the agent can retrieve
+relevant entries from ToolMem, and select the best tool to solve individual
+tasks more accurately. We evaluate ToolMem on learning varied text generation
+and text-to-image generation neural tools. Compared to no-memory, generic
+agents, we find ToolMem-augmented agents predict tool performance 14.8% and
+28.7% more accurately across text and multimodal generation scenarios.
+Moreover, ToolMem facilitates optimal tool selection among multiple choices by
+21% and 24% absolute increases in respective scenarios.",2025-10-08
+"What Do Humans Hear When Interacting? Experiments on Selective Listening
+  for Evaluating ASR of Spoken Dialogue Systems",2025-08-06 12:44:57+00:00,http://arxiv.org/abs/2508.04402v2,"Kiyotada Mori, Seiya Kawano, Chaoran Liu, Carlos Toshinori Ishi, Angel Fernando Garcia Contreras, Koichiro Yoshino",cs.CL,dialogue,"Spoken dialogue systems (SDSs) utilize automatic speech recognition (ASR) at
+the front end of their pipeline. The role of ASR in SDSs is to recognize
+information in user speech related to response generation appropriately.
+Examining selective listening of humans, which refers to the ability to focus
+on and listen to important parts of a conversation during the speech, will
+enable us to identify the ASR capabilities required for SDSs and evaluate them.
+In this study, we experimentally confirmed selective listening when humans
+generate dialogue responses by comparing human transcriptions for generating
+dialogue responses and reference transcriptions. Based on our experimental
+results, we discuss the possibility of a new ASR evaluation method that
+leverages human selective listening, which can identify the gap between
+transcription ability between ASR systems and humans.",2025-08-06
 Investigating Hallucination in Conversations for Low Resource Languages,2025-07-30 14:39:51+00:00,http://arxiv.org/abs/2507.22720v1,"Amit Das, Md. Najib Hasan, Souvika Sarkar, Zheng Zhang, Fatemeh Jamshidi, Tathagata Bhattacharya, Nilanjana Raychawdhury, Dongji Feng, Vinija Jain, Aman Chadha",cs.CL,dialogue,"Large Language Models (LLMs) have demonstrated remarkable proficiency in
 generating text that closely resemble human writing. However, they often
 generate factually incorrect statements, a problem typically referred to as

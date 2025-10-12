@@ -1,4 +1,271 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+"Machines in the Crowd? Measuring the Footprint of Machine-Generated Text
+  on Reddit",2025-10-08 16:57:45+00:00,http://arxiv.org/abs/2510.07226v1,"Lucio La Cava, Luca Maria Aiello, Andrea Tagarelli","cs.SI, cs.CL, cs.CY, physics.soc-ph",knowledge,"Generative Artificial Intelligence is reshaping online communication by
+enabling large-scale production of Machine-Generated Text (MGT) at low cost.
+While its presence is rapidly growing across the Web, little is known about how
+MGT integrates into social media environments. In this paper, we present the
+first large-scale characterization of MGT on Reddit. Using a state-of-the-art
+statistical method for detection of MGT, we analyze over two years of activity
+(2022-2024) across 51 subreddits representative of Reddit's main community
+types such as information seeking, social support, and discussion. We study the
+concentration of MGT across communities and over time, and compared MGT to
+human-authored text in terms of social signals it expresses and engagement it
+receives. Our very conservative estimate of MGT prevalence indicates that
+synthetic text is marginally present on Reddit, but it can reach peaks of up to
+9% in some communities in some months. MGT is unevenly distributed across
+communities, more prevalent in subreddits focused on technical knowledge and
+social support, and often concentrated in the activity of a small fraction of
+users. MGT also conveys distinct social signals of warmth and status giving
+typical of language of AI assistants. Despite these stylistic differences, MGT
+achieves engagement levels comparable than human-authored content and in a few
+cases even higher, suggesting that AI-generated text is becoming an organic
+component of online social discourse. This work offers the first perspective on
+the MGT footprint on Reddit, paving the way for new investigations involving
+platform governance, detection strategies, and community dynamics.",2025-10-08
+"Differentially Private Synthetic Text Generation for Retrieval-Augmented
+  Generation (RAG)",2025-10-08 07:15:50+00:00,http://arxiv.org/abs/2510.06719v1,"Junki Mori, Kazuya Kakizaki, Taiki Miyagawa, Jun Sakuma","cs.CR, cs.CL, cs.LG",knowledge,"Retrieval-Augmented Generation (RAG) enhances large language models (LLMs) by
+grounding them in external knowledge. However, its application in sensitive
+domains is limited by privacy risks. Existing private RAG methods typically
+rely on query-time differential privacy (DP), which requires repeated noise
+injection and leads to accumulated privacy loss. To address this issue, we
+propose DP-SynRAG, a framework that uses LLMs to generate differentially
+private synthetic RAG databases. Unlike prior methods, the synthetic text can
+be reused once created, thereby avoiding repeated noise injection and
+additional privacy costs. To preserve essential information for downstream RAG
+tasks, DP-SynRAG extends private prediction, which instructs LLMs to generate
+text that mimics subsampled database records in a DP manner. Experiments show
+that DP-SynRAG achieves superior performanec to the state-of-the-art private
+RAG systems while maintaining a fixed privacy budget, offering a scalable
+solution for privacy-preserving RAG.",2025-10-08
+"ToolMem: Enhancing Multimodal Agents with Learnable Tool Capability
+  Memory",2025-10-08 05:32:31+00:00,http://arxiv.org/abs/2510.06664v1,"Yunzhong Xiao, Yangmin Li, Hewei Wang, Yunlong Tang, Zora Zhiruo Wang",cs.CL,knowledge,"Agents utilizing tools powered by large language models (LLMs) or
+vision-language models (VLMs) have demonstrated remarkable progress in diverse
+tasks across text and visual modalities. Unlike traditional tools such as
+calculators, which give deterministic outputs, neural tools perform uncertainly
+across task scenarios. While different tools for a task may excel in varied
+scenarios, existing agents typically rely on fixed tools, thus limiting the
+flexibility in selecting the most suitable tool for specific tasks. In
+contrast, humans snowball their understanding of the capabilities of different
+tools by interacting with them, and apply this knowledge to select the optimal
+tool when solving a future task. To build agents that similarly benefit from
+this process, we propose ToolMem that enables agents to develop memories of
+tool capabilities from previous interactions, by summarizing their strengths
+and weaknesses and storing them in memory; at inference, the agent can retrieve
+relevant entries from ToolMem, and select the best tool to solve individual
+tasks more accurately. We evaluate ToolMem on learning varied text generation
+and text-to-image generation neural tools. Compared to no-memory, generic
+agents, we find ToolMem-augmented agents predict tool performance 14.8% and
+28.7% more accurately across text and multimodal generation scenarios.
+Moreover, ToolMem facilitates optimal tool selection among multiple choices by
+21% and 24% absolute increases in respective scenarios.",2025-10-08
+"Controllable Stylistic Text Generation with Train-Time
+  Attribute-Regularized Diffusion",2025-10-07 19:09:19+00:00,http://arxiv.org/abs/2510.06386v1,"Fan Zhou, Chang Tian, Tim Van de Cruys",cs.CL,knowledge,"Generating stylistic text with specific attributes is a key problem in
+controllable text generation. Recently, diffusion models have emerged as a
+powerful paradigm for both visual and textual generation. Existing approaches
+can be broadly categorized into classifier-free guidance (CFG) and classifier
+guidance (CG) methods. While CFG effectively preserves semantic content, it
+often fails to provide effective attribute control. In contrast, CG modifies
+the denoising trajectory using classifier gradients, enabling better attribute
+alignment but incurring high computational costs during sampling and suffering
+from classifier generalization issues. In this work, we propose RegDiff, a
+regularized diffusion framework that leverages attribute features without
+requiring a pretrained classifier during sampling, thereby achieving
+controllable generation with reduced computational costs. Specifically, RegDiff
+employs a VAE-based encoder--decoder architecture to ensure reconstruction
+fidelity and a latent diffusion model trained with attribute supervision to
+enable controllable text generation. Attribute information is injected only
+during training. Experiments on five datasets spanning multiple stylistic
+attributes demonstrate that RegDiff outperforms strong baselines in generating
+stylistic texts. These results validate the effectiveness of RegDiff as an
+efficient solution for attribute-controllable text diffusion. Our code,
+datasets, and resources will be released upon publication at
+https://github.com/xxxx.",2025-10-07
+"CDTP: A Large-Scale Chinese Data-Text Pair Dataset for Comprehensive
+  Evaluation of Chinese LLMs",2025-10-07 15:33:52+00:00,http://arxiv.org/abs/2510.06039v1,"Chengwei Wu, Jiapu Wang, Mingyang Gao, Xingrui Zhuo, Jipeng Guo, Runlin Lei, Haoran Luo, Tianyu Chen, Haoyi Zhou, Shirui Pan, Zechao Li","cs.CL, cs.AI",knowledge,"Large Language Models (LLMs) have achieved remarkable success across a wide
+range of natural language processing tasks. However, Chinese LLMs face unique
+challenges, primarily due to the dominance of unstructured free text and the
+lack of structured representations in Chinese corpora. While existing
+benchmarks for LLMs partially assess Chinese LLMs, they are still predominantly
+English-centric and fail to address the unique linguistic characteristics of
+Chinese, lacking structured datasets essential for robust evaluation. To
+address these challenges, we present a Comprehensive Benchmark for Evaluating
+Chinese Large Language Models (CB-ECLLM) based on the newly constructed Chinese
+Data-Text Pair (CDTP) dataset. Specifically, CDTP comprises over 7 million
+aligned text pairs, each consisting of unstructured text coupled with one or
+more corresponding triples, alongside a total of 15 million triples spanning
+four critical domains. The core contributions of CDTP are threefold: (i)
+enriching Chinese corpora with high-quality structured information; (ii)
+enabling fine-grained evaluation tailored to knowledge-driven tasks; and (iii)
+supporting multi-task fine-tuning to assess generalization and robustness
+across scenarios, including Knowledge Graph Completion, Triple-to-Text
+generation, and Question Answering. Furthermore, we conduct rigorous
+evaluations through extensive experiments and ablation studies to assess the
+effectiveness, Supervised Fine-Tuning (SFT), and robustness of the benchmark.
+To support reproducible research, we offer an open-source codebase and outline
+potential directions for future investigations based on our insights.",2025-10-07
+Large Language Models Preserve Semantic Isotopies in Story Continuations,2025-10-06 00:03:12+00:00,http://arxiv.org/abs/2510.04400v1,Marc Cavazza,"cs.CL, cs.AI",knowledge,"In this work, we explore the relevance of textual semantics to Large Language
+Models (LLMs), extending previous insights into the connection between
+distributional semantics and structural semantics. We investigate whether
+LLM-generated texts preserve semantic isotopies. We design a story continuation
+experiment using 10,000 ROCStories prompts completed by five LLMs. We first
+validate GPT-4o's ability to extract isotopies from a linguistic benchmark,
+then apply it to the generated stories. We then analyze structural (coverage,
+density, spread) and semantic properties of isotopies to assess how they are
+affected by completion. Results show that LLM completion within a given token
+horizon preserves semantic isotopies across multiple properties.",2025-10-06
+"Know Thyself? On the Incapability and Implications of AI
+  Self-Recognition",2025-10-03 18:00:01+00:00,http://arxiv.org/abs/2510.03399v1,"Xiaoyan Bai, Aryan Shrivastava, Ari Holtzman, Chenhao Tan","cs.AI, cs.CL, cs.CY, cs.LG",knowledge,"Self-recognition is a crucial metacognitive capability for AI systems,
+relevant not only for psychological analysis but also for safety, particularly
+in evaluative scenarios. Motivated by contradictory interpretations of whether
+models possess self-recognition (Panickssery et al., 2024; Davidson et al.,
+2024), we introduce a systematic evaluation framework that can be easily
+applied and updated. Specifically, we measure how well 10 contemporary larger
+language models (LLMs) can identify their own generated text versus text from
+other models through two tasks: binary self-recognition and exact model
+prediction. Different from prior claims, our results reveal a consistent
+failure in self-recognition. Only 4 out of 10 models predict themselves as
+generators, and the performance is rarely above random chance. Additionally,
+models exhibit a strong bias toward predicting GPT and Claude families. We also
+provide the first evaluation of model awareness of their own and others'
+existence, as well as the reasoning behind their choices in self-recognition.
+We find that the model demonstrates some knowledge of its own existence and
+other models, but their reasoning reveals a hierarchical bias. They appear to
+assume that GPT, Claude, and occasionally Gemini are the top-tier models, often
+associating high-quality text with them. We conclude by discussing the
+implications of our findings on AI safety and future directions to develop
+appropriate AI self-awareness.",2025-10-03
+"Cache-to-Cache: Direct Semantic Communication Between Large Language
+  Models",2025-10-03 17:52:32+00:00,http://arxiv.org/abs/2510.03215v1,"Tianyu Fu, Zihan Min, Hanling Zhang, Jichao Yan, Guohao Dai, Wanli Ouyang, Yu Wang","cs.CL, cs.LG, 68T07, 68T50, I.2.7",knowledge,"Multi-LLM systems harness the complementary strengths of diverse Large
+Language Models, achieving performance and efficiency gains unattainable by a
+single model. In existing designs, LLMs communicate through text, forcing
+internal representations to be transformed into output token sequences. This
+process both loses rich semantic information and incurs token-by-token
+generation latency. Motivated by these limitations, we ask: Can LLMs
+communicate beyond text? Oracle experiments show that enriching the KV-Cache
+semantics can improve response quality without increasing cache size,
+supporting KV-Cache as an effective medium for inter-model communication. Thus,
+we propose Cache-to-Cache (C2C), a new paradigm for direct semantic
+communication between LLMs. C2C uses a neural network to project and fuse the
+source model's KV-cache with that of the target model to enable direct semantic
+transfer. A learnable gating mechanism selects the target layers that benefit
+from cache communication. Compared with text communication, C2C utilizes the
+deep, specialized semantics from both models, while avoiding explicit
+intermediate text generation. Experiments show that C2C achieves 8.5-10.5%
+higher average accuracy than individual models. It further outperforms the text
+communication paradigm by approximately 3.0-5.0%, while delivering an average
+2.0x speedup in latency. Our code is available at
+https://github.com/thu-nics/C2C.",2025-10-03
+Knowledge-Graph Based RAG System Evaluation Framework,2025-10-02 20:36:21+00:00,http://arxiv.org/abs/2510.02549v1,"Sicheng Dong, Vahid Zolfaghari, Nenad Petrovic, Alois Knoll","cs.CL, cs.AI",knowledge,"Large language models (LLMs) has become a significant research focus and is
+utilized in various fields, such as text generation and dialog systems. One of
+the most essential applications of LLM is Retrieval Augmented Generation (RAG),
+which greatly enhances generated content's reliability and relevance. However,
+evaluating RAG systems remains a challenging task. Traditional evaluation
+metrics struggle to effectively capture the key features of modern
+LLM-generated content that often exhibits high fluency and naturalness.
+Inspired by the RAGAS tool, a well-known RAG evaluation framework, we extended
+this framework into a KG-based evaluation paradigm, enabling multi-hop
+reasoning and semantic community clustering to derive more comprehensive
+scoring metrics. By incorporating these comprehensive evaluation criteria, we
+gain a deeper understanding of RAG systems and a more nuanced perspective on
+their performance. To validate the effectiveness of our approach, we compare
+its performance with RAGAS scores and construct a human-annotated subset to
+assess the correlation between human judgments and automated metrics. In
+addition, we conduct targeted experiments to demonstrate that our KG-based
+evaluation method is more sensitive to subtle semantic differences in generated
+outputs. Finally, we discuss the key challenges in evaluating RAG systems and
+highlight potential directions for future research.",2025-10-02
+A-VERT: Agnostic Verification with Embedding Ranking Targets,2025-10-01 21:26:03+00:00,http://arxiv.org/abs/2510.01469v1,"Nicolás Aguirre, Ramiro Caso, Ramiro Rodríguez Colmeiro, Mauro Santelli, Joaquín Toranzo Calderón","cs.CL, cs.LG, 68T50, I.2.7",knowledge,"The automatic evaluation of Language Model (LM) responses is a critical piece
+in the development of benchmarks and metrics, both for model training and
+quality assessment of production model endpoints. The current approaches to
+response classification relies on methods that are too expensive (i.e.
+LLM-as-a-Judge) or that are far from real-world conditions (string-matching,
+logprob). In this paper, a structure-free evaluation method is presented. The
+method makes use of semantic embedding distances to match target candidates
+with arbitrary LM-generated text, resulting in a robust classification of the
+response at a relatively low compute cost (embedding models of less than $10B$
+parameters). The results show a regression score of ~0.97 and an accuracy of
+~96% against human annotators, tested over 3 data sets and 3 different LM
+architectures.",2025-10-01
+"Continuously Augmented Discrete Diffusion model for Categorical
+  Generative Modeling",2025-10-01 18:00:56+00:00,http://arxiv.org/abs/2510.01329v1,"Huangjie Zheng, Shansan Gong, Ruixiang Zhang, Tianrong Chen, Jiatao Gu, Mingyuan Zhou, Navdeep Jaitly, Yizhe Zhang","stat.ML, cs.LG",knowledge,"Standard discrete diffusion models treat all unobserved states identically by
+mapping them to an absorbing [MASK] token. This creates an 'information void'
+where semantic information that could be inferred from unmasked tokens is lost
+between denoising steps. We introduce Continuously Augmented Discrete Diffusion
+(CADD), a framework that augments the discrete state space with a paired
+diffusion in a continuous latent space. This yields graded, gradually corrupted
+states in which masked tokens are represented by noisy yet informative latent
+vectors rather than collapsed 'information voids'. At each reverse step, CADD
+may leverage the continuous latent as a semantic hint to guide discrete
+denoising. The design is clean and compatible with existing discrete diffusion
+training. At sampling time, the strength and choice of estimator for the
+continuous latent vector enables a controlled trade-off between mode-coverage
+(generating diverse outputs) and mode-seeking (generating contextually precise
+outputs) behaviors. Empirically, we demonstrate CADD improves generative
+quality over mask-based diffusion across text generation, image synthesis, and
+code modeling, with consistent gains on both qualitative and quantitative
+metrics against strong discrete baselines.",2025-10-01
+Latent Visual Reasoning,2025-09-29 03:52:01+00:00,http://arxiv.org/abs/2509.24251v2,"Bangzheng Li, Ximeng Sun, Jiang Liu, Ze Wang, Jialian Wu, Xiaodong Yu, Hao Chen, Emad Barsoum, Muhao Chen, Zicheng Liu","cs.CV, cs.CL",knowledge,"Multimodal Large Language Models (MLLMs) have achieved notable gains in
+various tasks by incorporating Chain-of-Thought (CoT) reasoning in language
+spaces. Recent work extends this direction by leveraging external tools for
+visual editing, thereby enhancing the visual signal along the reasoning
+trajectories. Nevertheless, these approaches remain fundamentally constrained:
+reasoning is still confined to the language space, with visual information
+treated as static preconditions. We introduce Latent Visual Reasoning (LVR), a
+new paradigm that enables autoregressive reasoning directly in the visual
+embedding space. A visual encoder first projects images into visual tokens
+within a joint semantic space shared with the language model. The language
+model is then trained to generate latent states that reconstruct key visual
+tokens critical for answering the query, constituting the process of latent
+visual reasoning. By interleaving LVR with standard text generation, our model
+achieves substantial gains on perception-intensive visual question answering
+tasks. In addition, we adapt the GRPO algorithm to conduct reinforcement
+learning on latent reasoning, further balancing LVR and textual generation. We
+show that LVR substantially improves fine-grained visual understanding and
+perception, achieving 71.67% on MMVP compared to 66.67% with Qwen2.5-VL. Code
+base and model weights will be released later.",2025-09-29
+The Telephone Game: Evaluating Semantic Drift in Unified Models,2025-09-04 17:53:52+00:00,http://arxiv.org/abs/2509.04438v2,"Sabbir Mollah, Rohit Gupta, Sirnam Swetha, Qingyang Liu, Ahnaf Munir, Mubarak Shah","cs.CV, cs.CL",knowledge,"Employing a single, unified model (UM) for both visual understanding
+(image-to-text: I2T) and visual generation (text-to-image: T2I) has opened a
+new direction in Visual Language Model (VLM) research. While UMs can also
+support broader unimodal tasks (e.g., text-to-text, image-to-image), we focus
+on the core cross-modal pair T2I and I2T. Existing evaluation benchmarks
+consider these capabilities in isolation: FID and GenEval for T2I, and
+benchmarks such as MME, MMBench for I2T. These isolated single-pass metrics do
+not reveal cross-consistency: whether a model that ""understands"" a concept can
+also ""render"" it, nor whether semantic meaning is preserved when cycling
+between image and text modalities. To address this, we introduce the Semantic
+Drift Protocol (SDP) for Unified Models, a cyclic evaluation protocol that
+alternates I2T and T2I over multiple generations to quantify semantic drift. We
+propose two metrics: (i) Mean Cumulative Drift (MCD), an embedding-based
+measure of overall semantic drift; and (ii) Multi-Generation GenEval (MGG), an
+object-level compliance score extending GenEval. To assess generalization
+beyond COCO dataset, which is widely used in training; we create a new
+benchmark Nocaps+Docci400, sampled from NoCaps and DOCCI and evaluated on seven
+recent models. SDP reveals substantial variation in cross-modal stability: some
+models like BAGEL maintain semantic meaning over many alternations, whereas
+others like VILA-U drift quickly despite strong single-pass scores. Our results
+highlight SDP as a necessary complement to standard I2T and T2I evaluations.
+Code is available at
+https://github.com/mollahsabbir/Semantic-Drift-in-Unified-Models",2025-09-04
+"Time Is a Feature: Exploiting Temporal Dynamics in Diffusion Language
+  Models",2025-08-12 17:59:57+00:00,http://arxiv.org/abs/2508.09138v3,"Wen Wang, Bozhen Fang, Chenchen Jing, Yongliang Shen, Yangyi Shen, Qiuyu Wang, Hao Ouyang, Hao Chen, Chunhua Shen","cs.CL, cs.AI",knowledge,"Diffusion large language models (dLLMs) generate text through iterative
+denoising, yet current decoding strategies discard rich intermediate
+predictions in favor of the final output. Our work here reveals a critical
+phenomenon, temporal oscillation, where correct answers often emerge in the
+middle process, but are overwritten in later denoising steps. To address this
+issue, we introduce two complementary methods that exploit temporal
+consistency: 1) Temporal Self-Consistency Voting, a training-free, test-time
+decoding strategy that aggregates predictions across denoising steps to select
+the most consistent output; and 2) a post-training method termed Temporal
+Consistency Reinforcement, which uses Temporal Semantic Entropy (TSE), a
+measure of semantic stability across intermediate predictions, as a reward
+signal to encourage stable generations. Empirical results across multiple
+benchmarks demonstrate the effectiveness of our approach. Using the negative
+TSE reward alone, we observe a remarkable average improvement of 24.7% on the
+Countdown dataset over an existing dLLM. Combined with the accuracy reward, we
+achieve absolute gains of 2.0% on GSM8K, 4.3% on MATH500, 6.6% on SVAMP, and
+25.3% on Countdown, respectively. Our findings underscore the untapped
+potential of temporal dynamics in dLLMs and offer two simple yet effective
+tools to harness them.",2025-08-12
 "Resource-Efficient Adaptation of Large Language Models for Text
   Embeddings via Prompt Engineering and Contrastive Fine-tuning",2025-07-30 14:49:30+00:00,http://arxiv.org/abs/2507.22729v1,"Benedikt Roth, Stephan Rappensperger, Tianming Qiu, Hamza Imamović, Julian Wörmann, Hao Shen",cs.CL,knowledge,"Large Language Models (LLMs) have become a cornerstone in Natural Language
 Processing (NLP), achieving impressive performance in text generation. Their

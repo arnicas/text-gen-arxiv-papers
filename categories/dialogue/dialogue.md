@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2025-07-31*
+*written on 2025-10-12*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [ToolMem: Enhancing Multimodal Agents with Learnable Tool Capability  Memory](http://arxiv.org/abs/2510.06664v1) | Yunzhong Xiao, Yangmin Li, Hewei Wang, Yunlong Tang, Zora Zhiruo Wang | cs.CL | 2025-10-08 |
+| [What Do Humans Hear When Interacting? Experiments on Selective Listening  for Evaluating ASR of Spoken Dialogue Systems](http://arxiv.org/abs/2508.04402v2) | Kiyotada Mori, Seiya Kawano, Chaoran Liu, Carlos Toshinori Ishi, Angel Fernando Garcia Contreras, Koichiro Yoshino | cs.CL | 2025-08-06 |
 | [Investigating Hallucination in Conversations for Low Resource Languages](http://arxiv.org/abs/2507.22720v1) | Amit Das, Md. Najib Hasan, Souvika Sarkar, Zheng Zhang, Fatemeh Jamshidi, Tathagata Bhattacharya, Nilanjana Raychawdhury, Dongji Feng, Vinija Jain, Aman Chadha | cs.CL | 2025-07-30 |
 | [Teaching Language Models To Gather Information Proactively](http://arxiv.org/abs/2507.21389v1) | Tenghao Huang, Sihao Chen, Muhao Chen, Jonathan May, Longqi Yang, Mengting Wan, Pei Zhou | cs.AI, cs.CL | 2025-07-28 |
 | [AI-Driven Generation of Old English: A Framework for Low-Resource  Languages](http://arxiv.org/abs/2507.20111v1) | Rodrigo Gabriel Salazar Alva, Matías Nuñez, Cristian López, Javier Martín Arista | cs.CL, cs.AI | 2025-07-27 |

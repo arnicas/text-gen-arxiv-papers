@@ -1,4 +1,171 @@
 title,pubdate,id,authors,categories,search,abstract,displaydate
+GenQuest: An LLM-based Text Adventure Game for Language Learners,2025-10-06 05:22:53+00:00,http://arxiv.org/abs/2510.04498v1,"Qiao Wang, Adnan Labib, Robert Swier, Michael Hofmeyr, Zheng Yuan","cs.CL, cs.AI",story,"GenQuest is a generative text adventure game that leverages Large Language
+Models (LLMs) to facilitate second language learning through immersive,
+interactive storytelling. The system engages English as a Foreign Language
+(EFL) learners in a collaborative ""choose-your-own-adventure"" style narrative,
+dynamically generated in response to learner choices. Game mechanics such as
+branching decision points and story milestones are incorporated to maintain
+narrative coherence while allowing learner-driven plot development. Key
+pedagogical features include content generation tailored to each learner's
+proficiency level, and a vocabulary assistant that provides in-context
+explanations of learner-queried text strings, ranging from words and phrases to
+sentences. Findings from a pilot study with university EFL students in China
+indicate promising vocabulary gains and positive user perceptions. Also
+discussed are suggestions from participants regarding the narrative length and
+quality, and the request for multi-modal content such as illustrations.",2025-10-06
+Large Language Models Preserve Semantic Isotopies in Story Continuations,2025-10-06 00:03:12+00:00,http://arxiv.org/abs/2510.04400v1,Marc Cavazza,"cs.CL, cs.AI",story,"In this work, we explore the relevance of textual semantics to Large Language
+Models (LLMs), extending previous insights into the connection between
+distributional semantics and structural semantics. We investigate whether
+LLM-generated texts preserve semantic isotopies. We design a story continuation
+experiment using 10,000 ROCStories prompts completed by five LLMs. We first
+validate GPT-4o's ability to extract isotopies from a linguistic benchmark,
+then apply it to the generated stories. We then analyze structural (coverage,
+density, spread) and semantic properties of isotopies to assess how they are
+affected by completion. Results show that LLM completion within a given token
+horizon preserves semantic isotopies across multiple properties.",2025-10-06
+"The Geometry of Creative Variability: How Credal Sets Expose Calibration
+  Gaps in Language Models",2025-09-27 03:52:03+00:00,http://arxiv.org/abs/2509.23088v1,"Esteban Garces Arias, Julian Rodemann, Christian Heumann",cs.CL,story,"Understanding uncertainty in large language models remains a fundamental
+challenge, particularly in creative tasks where multiple valid outputs exist.
+We present a geometric framework using credal sets - convex hulls of
+probability distributions - to quantify and decompose uncertainty in neural
+text generation, calibrated against human creative variation. Analyzing 500
+creative writing prompts from the WritingPrompts dataset with 10 unique human
+continuations each, we evaluate four language models across five decoding
+strategies, generating 100,000 stories. Our credal set analysis reveals
+substantial gaps in capturing human creative variation, with the best
+model-human calibration reaching only 0.434 (Gemma-2B with temperature 0.7). We
+decompose total uncertainty into epistemic and aleatoric components, finding
+that the choice of decoding strategy contributes 39.4% to 72.0% of total
+epistemic uncertainty. Model scale shows weak correlation with calibration
+quality and no significant difference exists between base and instruction-tuned
+models in calibration quality. Our geometric framework provides actionable
+insights for improving generation systems for human-AI creative alignment. We
+release our complete experimental framework.",2025-09-27
+"When Teams Embrace AI: Human Collaboration Strategies in Generative
+  Prompting in a Creative Design Task",2025-09-26 00:57:39+00:00,http://arxiv.org/abs/2509.21731v1,"Yuanning Han, Ziyi Qiu, Jiale Cheng, RAY LC",cs.HC,story,"Studies of Generative AI (GenAI)-assisted creative workflows have focused on
+individuals overcoming challenges of prompting to produce what they envisioned.
+When designers work in teams, how do collaboration and prompting influence each
+other, and how do users perceive generative AI and their collaborators during
+the co-prompting process? We engaged students with design or performance
+backgrounds, and little exposure to GenAI, to work in pairs with GenAI to
+create stage designs based on a creative theme. We found two patterns of
+collaborative prompting focused on generating story descriptions first, or
+visual imagery first. GenAI tools helped participants build consensus in the
+task, and allowed for discussion of the prompting strategies. Participants
+perceived GenAI as efficient tools rather than true collaborators, suggesting
+that human partners reduced the reliance on their use. This work highlights the
+importance of human-human collaboration when working with GenAI tools,
+suggesting systems that take advantage of shared human expertise in the
+prompting process.",2025-09-26
+Evaluating the Creativity of LLMs in Persian Literary Text Generation,2025-09-22 20:32:56+00:00,http://arxiv.org/abs/2509.18401v1,"Armin Tourajmehr, Mohammad Reza Modarres, Yadollah Yaghoobzadeh",cs.CL,story,"Large language models (LLMs) have demonstrated notable creative abilities in
+generating literary texts, including poetry and short stories. However, prior
+research has primarily centered on English, with limited exploration of
+non-English literary traditions and without standardized methods for assessing
+creativity. In this paper, we evaluate the capacity of LLMs to generate Persian
+literary text enriched with culturally relevant expressions. We build a dataset
+of user-generated Persian literary spanning 20 diverse topics and assess model
+outputs along four creativity dimensions-originality, fluency, flexibility, and
+elaboration-by adapting the Torrance Tests of Creative Thinking. To reduce
+evaluation costs, we adopt an LLM as a judge for automated scoring and validate
+its reliability against human judgments using intraclass correlation
+coefficients, observing strong agreement. In addition, we analyze the models'
+ability to understand and employ four core literary devices: simile, metaphor,
+hyperbole, and antithesis. Our results highlight both the strengths and
+limitations of LLMs in Persian literary text generation, underscoring the need
+for further refinement.",2025-09-22
+"AutiHero: Leveraging Generative AI in Social Narratives to Engage
+  Parents in Story-Driven Behavioral Guidance for Autistic Children",2025-09-22 11:23:10+00:00,http://arxiv.org/abs/2509.17608v1,"Jungeun Lee, Kyungah Lee, Inseok Hwang, SoHyun Park, Young-Ho Kim","cs.HC, cs.AI, cs.CL, H.5.2; I.2.7",story,"Social narratives are known to help autistic children understand and navigate
+social situations through stories. To ensure effectiveness, however, the
+materials need to be customized to reflect each child's unique behavioral
+context, requiring considerable time and effort for parents to practice at
+home. We present AutiHero, a generative AI-based social narrative system for
+behavioral guidance, which supports parents to create personalized stories for
+their autistic children and read them together. AutiHero generates text and
+visual illustrations that reflect their children's interests, target behaviors,
+and everyday contexts. In a two-week deployment study with 16 autistic
+child-parent dyads, parents created 218 stories and read an average of 4.25
+stories per day, demonstrating a high level of engagement. AutiHero also
+provided an effective, low-demanding means to guide children's social
+behaviors, encouraging positive change. We discuss the implications of
+generative AI-infused tools to empower parents in guiding their children's
+behaviors, fostering their social learning.",2025-09-22
+"Once Upon a Time: Interactive Learning for Storytelling with Small
+  Language Models",2025-09-19 07:45:34+00:00,http://arxiv.org/abs/2509.15714v1,"Jonas Mayer Martins, Ali Hamza Bashir, Muhammad Rehan Khalid, Lisa Beinborn","cs.CL, cs.AI",story,"Children efficiently acquire language not just by listening, but by
+interacting with others in their social environment. Conversely, large language
+models are typically trained with next-word prediction on massive amounts of
+text. Motivated by this contrast, we investigate whether language models can be
+trained with less data by learning not only from next-word prediction but also
+from high-level, cognitively inspired feedback. We train a student model to
+generate stories, which a teacher model rates on readability, narrative
+coherence, and creativity. By varying the amount of pretraining before the
+feedback loop, we assess the impact of this interactive learning on formal and
+functional linguistic competence. We find that the high-level feedback is
+highly data efficient: With just 1 M words of input in interactive learning,
+storytelling skills can improve as much as with 410 M words of next-word
+prediction.",2025-09-19
+"Py maidr: Bridging Visual and Non-Visual Data Experiences Through a
+  Unified Python Framework",2025-09-16 20:56:08+00:00,http://arxiv.org/abs/2509.13532v1,"JooYoung Seo, Saairam Venkatesh, Daksh Pokar, Sanchita Kamath, Krishna Anandan Ganesan",cs.HC,story,"Although recent efforts have developed accessible data visualization tools
+for blind and low-vision (BLV) users, most follow a ""design for them"" approach
+that creates an unintentional divide between sighted creators and BLV
+consumers. This unidirectional paradigm perpetuates a power dynamic where
+sighted creators produce non-visual content boundaries for BLV consumers to
+access. This paper proposes a bidirectional approach, ""design for us,"" where
+both sighted and BLV collaborators can employ the same tool to create,
+interpret, and communicate data visualizations for each other. We introduce Py
+maidr, a Python package that seamlessly encodes multimodal (e.g., tactile,
+auditory, conversational) data representations into visual plots generated by
+Matplotlib and Seaborn. By simply importing the maidr package and invoking the
+maidr.show() method, users can generate accessible plots with minimal changes
+to their existing codebase regardless of their visual dis/abilities. Our
+technical case studies demonstrate how this tool is scalable and can be
+integrated into interactive computing (e.g., Jupyter Notebook, Google Colab),
+reproducible and literate programming (e.g., Quarto), and reactive dashboards
+(e.g., Shiny, Streamlit). Our performance benchmarks demonstrate that Py maidr
+introduces minimal and consistent overhead during the rendering and export of
+plots against Matplotlib and Seaborn baselines. This work significantly
+contributes to narrowing the accessibility gap in data visualization by
+providing a unified framework that fosters collaboration and communication
+between sighted and BLV individuals.",2025-09-16
+Biased Tales: Cultural and Topic Bias in Generating Children's Stories,2025-09-09 16:51:16+00:00,http://arxiv.org/abs/2509.07908v1,"Donya Rooein, Vilém Zouhar, Debora Nozza, Dirk Hovy",cs.CL,story,"Stories play a pivotal role in human communication, shaping beliefs and
+morals, particularly in children. As parents increasingly rely on large
+language models (LLMs) to craft bedtime stories, the presence of cultural and
+gender stereotypes in these narratives raises significant concerns. To address
+this issue, we present Biased Tales, a comprehensive dataset designed to
+analyze how biases influence protagonists' attributes and story elements in
+LLM-generated stories. Our analysis uncovers striking disparities. When the
+protagonist is described as a girl (as compared to a boy), appearance-related
+attributes increase by 55.26%. Stories featuring non-Western children
+disproportionately emphasize cultural heritage, tradition, and family themes
+far more than those for Western children. Our findings highlight the role of
+sociocultural bias in making creative AI use more equitable and diverse.",2025-09-09
+Direct-Scoring NLG Evaluators Can Use Pairwise Comparisons Too,2025-09-05 18:48:34+00:00,http://arxiv.org/abs/2509.05440v1,"Logan Lawrence, Ashton Williamson, Alexander Shelton","cs.CL, cs.AI, cs.LG",story,"As large-language models have been increasingly used as automatic raters for
+evaluating free-form content, including document summarization, dialog, and
+story generation, work has been dedicated to evaluating such models by
+measuring their correlations with human judgment. For \textit{sample-level}
+performance, methods which operate by using pairwise comparisons between
+machine-generated text perform well but often lack the ability to assign
+absolute scores to individual summaries, an ability crucial for use cases that
+require thresholding. In this work, we propose a direct-scoring method which
+uses synthetic summaries to act as pairwise machine rankings at test time. We
+show that our method performs comparably to state-of-the-art pairwise
+evaluators in terms of axis-averaged sample-level correlations on the SummEval
+(\textbf{+0.03}), TopicalChat (\textbf{-0.03}), and HANNA (\textbf{+0.05})
+meta-evaluation benchmarks, and release the synthetic in-context summaries as
+data to facilitate future work.",2025-09-05
+Post-training Large Language Models for Diverse High-Quality Responses,2025-09-05 03:47:06+00:00,http://arxiv.org/abs/2509.04784v2,"Yilei Chen, Souradip Chakraborty, Lorenz Wolf, Yannis Paschalidis, Aldo Pacchiano","cs.CL, cs.AI",story,"Reinforcement learning (RL) has emerged as a popular method for post-training
+large language models (LLMs). While improving the model's performance on
+downstream tasks, it often reduces the model's output diversity, leading to
+narrow, canonical responses. Existing methods to enhance diversity are limited,
+either by operating at inference time or by focusing on surface-level
+differences. We propose a novel training method named DQO (Diversity Quality
+Optimization) based on determinantal point processes (DPPs) to jointly optimize
+LLMs for quality and semantic diversity. Our approach samples and embeds a
+group of responses for each prompt, then uses the determinant of a kernel-based
+similarity matrix to measure diversity as the volume spanned by the embeddings
+of these responses. DQO is flexible and can be applied on top of existing RL
+algorithms. Experiments across instruction-following, summarization, story
+generation, and reasoning tasks demonstrate that our method substantially
+improves semantic diversity without sacrificing model quality.",2025-09-05
 "AI-generated stories favour stability over change: homogeneity and
   cultural stereotyping in narratives generated by gpt-4o-mini",2025-07-30 07:44:28+00:00,http://arxiv.org/abs/2507.22445v1,"Jill Walker Rettberg, Hermann Wigers","cs.CL, cs.AI, H.1.2; I.2.4; I.2.0; I.2.7",story,"Can a language model trained largely on Anglo-American texts generate stories
 that are culturally relevant to other nationalities? To find out, we generated

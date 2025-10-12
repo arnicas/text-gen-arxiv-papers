@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2025-07-31*
+*written on 2025-10-12*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Evaluating the Creativity of LLMs in Persian Literary Text Generation](http://arxiv.org/abs/2509.18401v1) | Armin Tourajmehr, Mohammad Reza Modarres, Yadollah Yaghoobzadeh | cs.CL | 2025-09-22 |
+| [Benchmarking the Detection of LLMs-Generated Modern Chinese Poetry](http://arxiv.org/abs/2509.01620v1) | Shanshan Wang, Junchao Wu, Fengying Ye, Jingming Yao, Lidia S. Chao, Derek F. Wong | cs.CL, cs.AI | 2025-09-01 |
+| [Quantum-Enhanced Natural Language Generation: A Multi-Model Framework  with Hybrid Quantum-Classical Architectures](http://arxiv.org/abs/2508.21332v1) | Chi-Sheng Chen, En-Jui Kuo | quant-ph, cs.CL, cs.LG | 2025-08-29 |
 | [From Plain Text to Poetic Form: Generating Metrically-Constrained  Sanskrit Verses](http://arxiv.org/abs/2506.00815v1) | Manoj Balaji Jagadeeshan, Samarth Bhatia, Pretam Ray, Harshul Raj Surana, Akhil Rajeev P, Priya Mishra, Annarao Kulkarni, Ganesh Ramakrishnan, Prathosh AP, Pawan Goyal | cs.CL | 2025-06-01 |
 | [Beyond Memorization: Mapping the Originality-Quality Frontier of  Language Models](http://arxiv.org/abs/2504.09389v1) | Vishakh Padmakumar, Chen Yueh-Han, Jane Pan, Valerie Chen, He He | cs.CL | 2025-04-13 |
 | [Fùxì: A Benchmark for Evaluating Language Models on Ancient Chinese  Text Understanding and Generation](http://arxiv.org/abs/2503.15837v1) | Shangqing Zhao, Yuhao Zhou, Yupei Ren, Zhe Chen, Chenghao Jia, Fang Zhe, Zhaogaung Long, Shu Liu, Man Lan | cs.CL, cs.AI | 2025-03-20 |

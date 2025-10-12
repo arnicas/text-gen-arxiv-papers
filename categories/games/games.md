@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2025-07-31*
+*written on 2025-10-12*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [GenQuest: An LLM-based Text Adventure Game for Language Learners](http://arxiv.org/abs/2510.04498v1) | Qiao Wang, Adnan Labib, Robert Swier, Michael Hofmeyr, Zheng Yuan | cs.CL, cs.AI | 2025-10-06 |
+| [ByteSized32Refactored: Towards an Extensible Interactive Text Games  Corpus for LLM World Modeling and Evaluation](http://arxiv.org/abs/2509.23979v1) | Haonan Wang, Junfeng Sun, Xingdi Yuan, Ruoyao Wang, Ziang Xiao | cs.CL | 2025-09-28 |
+| [Multi-Agent Game Generation and Evaluation via Audio-Visual Recordings](http://arxiv.org/abs/2508.00632v1) | Alexia Jolicoeur-Martineau | cs.AI, cs.MA, cs.MM | 2025-08-01 |
 | [Who Does What in Deep Learning? Multidimensional Game-Theoretic  Attribution of Function of Neural Units](http://arxiv.org/abs/2506.19732v1) | Shrey Dixit, Kayson Fakhar, Fatemeh Hadaeghi, Patrick Mineault, Konrad P. Kording, Claus C. Hilgetag | cs.LG, cs.AI | 2025-06-24 |
 | [AI-Generated Game Commentary: A Survey and a Datasheet Repository](http://arxiv.org/abs/2506.17294v1) | Qirui Zheng, Xingbo Wang, Keyuan Cheng, Yunlong Lu, Wenxin Li | cs.CL, cs.AI, cs.LG | 2025-06-17 |
 | [Abstract Counterfactuals for Language Model Agents](http://arxiv.org/abs/2506.02946v1) | Edoardo Pona, Milad Kazemi, Yali Du, David Watson, Nicola Paoletti | cs.LG | 2025-06-03 |

@@ -6,10 +6,24 @@ sidebar:
 ---
 
 
-*written on 2025-07-31*
+*written on 2025-10-12*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Machines in the Crowd? Measuring the Footprint of Machine-Generated Text  on Reddit](http://arxiv.org/abs/2510.07226v1) | Lucio La Cava, Luca Maria Aiello, Andrea Tagarelli | cs.SI, cs.CL, cs.CY, physics.soc-ph | 2025-10-08 |
+| [Differentially Private Synthetic Text Generation for Retrieval-Augmented  Generation (RAG)](http://arxiv.org/abs/2510.06719v1) | Junki Mori, Kazuya Kakizaki, Taiki Miyagawa, Jun Sakuma | cs.CR, cs.CL, cs.LG | 2025-10-08 |
+| [ToolMem: Enhancing Multimodal Agents with Learnable Tool Capability  Memory](http://arxiv.org/abs/2510.06664v1) | Yunzhong Xiao, Yangmin Li, Hewei Wang, Yunlong Tang, Zora Zhiruo Wang | cs.CL | 2025-10-08 |
+| [Controllable Stylistic Text Generation with Train-Time  Attribute-Regularized Diffusion](http://arxiv.org/abs/2510.06386v1) | Fan Zhou, Chang Tian, Tim Van de Cruys | cs.CL | 2025-10-07 |
+| [CDTP: A Large-Scale Chinese Data-Text Pair Dataset for Comprehensive  Evaluation of Chinese LLMs](http://arxiv.org/abs/2510.06039v1) | Chengwei Wu, Jiapu Wang, Mingyang Gao, Xingrui Zhuo, Jipeng Guo, Runlin Lei, Haoran Luo, Tianyu Chen, Haoyi Zhou, Shirui Pan, Zechao Li | cs.CL, cs.AI | 2025-10-07 |
+| [Large Language Models Preserve Semantic Isotopies in Story Continuations](http://arxiv.org/abs/2510.04400v1) | Marc Cavazza | cs.CL, cs.AI | 2025-10-06 |
+| [Know Thyself? On the Incapability and Implications of AI  Self-Recognition](http://arxiv.org/abs/2510.03399v1) | Xiaoyan Bai, Aryan Shrivastava, Ari Holtzman, Chenhao Tan | cs.AI, cs.CL, cs.CY, cs.LG | 2025-10-03 |
+| [Cache-to-Cache: Direct Semantic Communication Between Large Language  Models](http://arxiv.org/abs/2510.03215v1) | Tianyu Fu, Zihan Min, Hanling Zhang, Jichao Yan, Guohao Dai, Wanli Ouyang, Yu Wang | cs.CL, cs.LG, 68T07, 68T50, I.2.7 | 2025-10-03 |
+| [Knowledge-Graph Based RAG System Evaluation Framework](http://arxiv.org/abs/2510.02549v1) | Sicheng Dong, Vahid Zolfaghari, Nenad Petrovic, Alois Knoll | cs.CL, cs.AI | 2025-10-02 |
+| [A-VERT: Agnostic Verification with Embedding Ranking Targets](http://arxiv.org/abs/2510.01469v1) | Nicolás Aguirre, Ramiro Caso, Ramiro Rodríguez Colmeiro, Mauro Santelli, Joaquín Toranzo Calderón | cs.CL, cs.LG, 68T50, I.2.7 | 2025-10-01 |
+| [Continuously Augmented Discrete Diffusion model for Categorical  Generative Modeling](http://arxiv.org/abs/2510.01329v1) | Huangjie Zheng, Shansan Gong, Ruixiang Zhang, Tianrong Chen, Jiatao Gu, Mingyuan Zhou, Navdeep Jaitly, Yizhe Zhang | stat.ML, cs.LG | 2025-10-01 |
+| [Latent Visual Reasoning](http://arxiv.org/abs/2509.24251v2) | Bangzheng Li, Ximeng Sun, Jiang Liu, Ze Wang, Jialian Wu, Xiaodong Yu, Hao Chen, Emad Barsoum, Muhao Chen, Zicheng Liu | cs.CV, cs.CL | 2025-09-29 |
+| [The Telephone Game: Evaluating Semantic Drift in Unified Models](http://arxiv.org/abs/2509.04438v2) | Sabbir Mollah, Rohit Gupta, Sirnam Swetha, Qingyang Liu, Ahnaf Munir, Mubarak Shah | cs.CV, cs.CL | 2025-09-04 |
+| [Time Is a Feature: Exploiting Temporal Dynamics in Diffusion Language  Models](http://arxiv.org/abs/2508.09138v3) | Wen Wang, Bozhen Fang, Chenchen Jing, Yongliang Shen, Yangyi Shen, Qiuyu Wang, Hao Ouyang, Hao Chen, Chunhua Shen | cs.CL, cs.AI | 2025-08-12 |
 | [Resource-Efficient Adaptation of Large Language Models for Text  Embeddings via Prompt Engineering and Contrastive Fine-tuning](http://arxiv.org/abs/2507.22729v1) | Benedikt Roth, Stephan Rappensperger, Tianming Qiu, Hamza Imamović, Julian Wörmann, Hao Shen | cs.CL | 2025-07-30 |
 | [Improving Generative Ad Text on Facebook using Reinforcement Learning](http://arxiv.org/abs/2507.21983v1) | Daniel R. Jiang, Alex Nikulkov, Yu-Chia Chen, Yang Bai, Zheqing Zhu | cs.LG | 2025-07-29 |
 | [Teaching Language Models To Gather Information Proactively](http://arxiv.org/abs/2507.21389v1) | Tenghao Huang, Sihao Chen, Muhao Chen, Jonathan May, Longqi Yang, Mengting Wan, Pei Zhou | cs.AI, cs.CL | 2025-07-28 |
