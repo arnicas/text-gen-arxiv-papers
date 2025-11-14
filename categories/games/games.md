@@ -11,6 +11,7 @@ sidebar:
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [ROBOPSY PL[AI]: Using Role-Play to Investigate how LLMs Present Collective Memory](http://arxiv.org/abs/2510.09874v1) | Margarete Jahrmann, Thomas Brandstetter, Stefan Glasauer | cs.HC, cs.AI, cs.CY | 2025-10-10 |
 | [GenQuest: An LLM-based Text Adventure Game for Language Learners](http://arxiv.org/abs/2510.04498v1) | Qiao Wang, Adnan Labib, Robert Swier, Michael Hofmeyr, Zheng Yuan | cs.CL, cs.AI | 2025-10-06 |
 | [ByteSized32Refactored: Towards an Extensible Interactive Text Games  Corpus for LLM World Modeling and Evaluation](http://arxiv.org/abs/2509.23979v1) | Haonan Wang, Junfeng Sun, Xingdi Yuan, Ruoyao Wang, Ziang Xiao | cs.CL | 2025-09-28 |
 | [Multi-Agent Game Generation and Evaluation via Audio-Visual Recordings](http://arxiv.org/abs/2508.00632v1) | Alexia Jolicoeur-Martineau | cs.AI, cs.MA, cs.MM | 2025-08-01 |
