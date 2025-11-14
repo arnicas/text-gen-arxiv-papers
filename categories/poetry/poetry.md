@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2025-10-12*
+*written on 2025-11-14*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [so much depends / upon / a whitespace: Why Whitespace Matters for Poets and LLMs](http://arxiv.org/abs/2510.16713v1) | Sriharsh Bhyravajjula, Melanie Walsh, Anna Preus, Maria Antoniak | cs.CL | 2025-10-19 |
 | [Evaluating the Creativity of LLMs in Persian Literary Text Generation](http://arxiv.org/abs/2509.18401v1) | Armin Tourajmehr, Mohammad Reza Modarres, Yadollah Yaghoobzadeh | cs.CL | 2025-09-22 |
 | [Benchmarking the Detection of LLMs-Generated Modern Chinese Poetry](http://arxiv.org/abs/2509.01620v1) | Shanshan Wang, Junchao Wu, Fengying Ye, Jingming Yao, Lidia S. Chao, Derek F. Wong | cs.CL, cs.AI | 2025-09-01 |
 | [Quantum-Enhanced Natural Language Generation: A Multi-Model Framework  with Hybrid Quantum-Classical Architectures](http://arxiv.org/abs/2508.21332v1) | Chi-Sheng Chen, En-Jui Kuo | quant-ph, cs.CL, cs.LG | 2025-08-29 |
