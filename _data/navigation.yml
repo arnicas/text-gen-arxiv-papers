@@ -16,18 +16,18 @@ contents:
   - title: "Searches"
     children:
       - title: "Story/Narrative"
-        url: /categories/story/story/
+        url: /categories/story/story.html
       - title: "Games"
-        url: /categories/games/games/
+        url: /categories/games/games.html
       - title: "Dialogue"
-        url: /categories/dialogue/dialogue/
+        url: /categories/dialogue/dialogue.html
       - title: "Poetry/Lyrics"
-        url: /categories/poetry/poetry/
+        url: /categories/poetry/poetry.html
       - title: "Creativity"
-        url: /categories/creativity/creativity/
+        url: /categories/creativity/creativity.html
       - title: "Knowledge Graphs (old)"
-        url: /categories/knowledge/knowledge/
+        url: /categories/knowledge/knowledge.html
       - title: "Tables2Text (old)"
-        url: /categories/table2text/table2text/
+        url: /categories/table2text/table2text.html
       - title: "Image Description (old)"
-        url: /categories/image2text/image2text/
+        url: /categories/image2text/image2text.html
