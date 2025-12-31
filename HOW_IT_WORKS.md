@@ -167,6 +167,99 @@ To add a new category:
 6. Bootstrap the category with initial data (create CSV, markdown files, and entry in `files_written.jsonl`)
 7. Future runs will automatically update the category
 
+## Pagination Management
+
+### Understanding How Pages Accumulate
+
+**Key behavior:** The system does NOT automatically paginate. Instead:
+- Each category starts with a single page containing all papers
+- When new papers are found, they are **merged** with existing papers on that page
+- The page grows over time, accumulating more papers with each update
+- Result: One continuously growing page per category
+
+**Example:**
+- March 2025: Category has 285 papers on one page
+- December 2025: New scrape finds 45 papers → Creates new page with 330 papers (285 + 45)
+- Old 285-paper page is deleted and moved to `old_files/`
+
+### Why Some Categories Have Pagination
+
+Categories like dialogue, knowledge, and table2text have multiple paginated pages because those pages were **manually created** in the past. The system maintains pagination chains through the `prev_link` and `next_link` fields in `files_written.jsonl`.
+
+### Manual Pagination: `split_category_pagination.py`
+
+When a category page becomes too large (200+ papers), you can manually split it using the pagination script.
+
+**What it does:**
+- Splits a category's most recent page into two pages: current and historical
+- Keeps N most recent papers on the current page
+- Moves older papers to a new historical page
+- Sets up proper pagination links between pages
+- Updates `files_written.jsonl` tracking
+- Regenerates all markdown files
+
+**Usage:**
+```bash
+python split_category_pagination.py --category CATEGORY --keep-recent N
+
+# Example: Split story category, keeping 150 most recent papers
+python split_category_pagination.py --category story --keep-recent 150
+```
+
+**What happens:**
+1. Loads the most recent page for the category
+2. Splits papers into two sets:
+   - Recent: N newest papers (stays on current page)
+   - Historical: Remaining older papers (new historical page)
+3. Creates two new CSV data files
+4. Creates/updates markdown files for both pages
+5. Updates `files_written.jsonl` with pagination chain:
+   - Historical page: `prev_link` inherited from old current, `next_link` points to new current
+   - Current page: `prev_link` points to historical, `next_link` is null
+6. Reports old files that need manual deletion
+
+**After running:**
+- Delete the old data and markdown files (script will list them)
+- Verify pagination links work on the Jekyll site
+- Future updates will only affect the current (most recent) page
+
+**When to split:**
+- **200+ papers**: Consider splitting, keep ~100-150 recent
+- **300+ papers**: Should split, keep ~150 recent
+- **500+ papers**: Definitely split, consider keeping ~200 recent
+
+**Guidelines:**
+- Pages with 50-150 papers: Good reading length
+- Pages with 200+ papers: Starting to get long
+- Pages with 300+ papers: Should split
+
+### Pagination Architecture
+
+**How pagination works:**
+- Uses a **linked-list chain** approach
+- Each entry in `files_written.jsonl` has `prev_link` and `next_link` fields
+- Links point to the generated HTML file paths
+- `write_table_md()` in `build_pages.py` renders [< Previous] and [Next >] links based on these fields
+- Only entries with `most_recent: true` get updated when new papers arrive
+
+**Pagination chain example (story category):**
+```
+March 2025 (285 papers)
+  prev_link: null
+  next_link: categories/story/2023/12/12/story.html
+  most_recent: false
+    ↕
+December 2023 (180 papers)
+  prev_link: categories/story/2025/03/27/story.html
+  next_link: categories/story/2025/12/27/story.html
+  most_recent: false
+    ↕
+December 2025 (150 papers)
+  prev_link: categories/story/2023/12/12/story.html
+  next_link: null
+  most_recent: true  ← Only this page gets new papers on next update
+```
+
 ## Important Notes
 
 - The code uses `pd.concat()` instead of deprecated `.append()` method (pandas 2.0+ compatible)
@@ -174,3 +267,4 @@ To add a new category:
 - The system automatically handles duplicate removal based on arXiv ID
 - Each category maintains its own chronological chain of pages with prev/next navigation
 - The `time.sleep(2)` in scrape.py delays between API requests (not between entries) to be respectful to arXiv's servers
+- **Pagination does NOT happen automatically** - use `split_category_pagination.py` to manually split large pages

@@ -6,7 +6,7 @@ The code is kind of a nightmare, but is being gradually cleaned up and checked i
 
 The file scrape.py has the search strings and saves a pickle of the latest data from ArXiv.
 
-The file build_pages.py takes the pickle as an argument and processes it. There are required files and directories etc. I'll try to document more and clean it up for re-use.
+The file build_pages.py takes the pickle as an argument and processes it. There are required files and directories etc. I'll try to document more and clean it up for re-use.  Update: See Claude's HOW_IT_WORKS.md for more code doc.
 
 
 
