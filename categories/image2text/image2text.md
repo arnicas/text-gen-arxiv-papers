@@ -7,7 +7,9 @@ sidebar:
 ---
 
 
-*written on 2025-11-14*
+**NOTE: This category (image2text) is no longer being actively searched. The content below is from the last update.**
+
+*written on 2025-12-31*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |

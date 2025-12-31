@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2025-11-14*
+*written on 2025-12-31*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Decoding the Black Box: Discerning AI Rhetorics About and Through Poetic Prompting](http://arxiv.org/abs/2512.05243v1) | P. D. Edgar, Alia Hall | cs.CL, cs.CY | 2025-12-04 |
+| [The author is dead, but what if they never lived? A reception experiment on Czech AI- and human-authored poetry](http://arxiv.org/abs/2511.21629v1) | Anna Marklová, Ondřej Vinš, Martina Vokáčová, Jiří Milička | cs.CL | 2025-11-26 |
+| [NAMeGEn: Creative Name Generation via A Novel Agent-based Multiple Personalized Goal Enhancement Framework](http://arxiv.org/abs/2511.15408v1) | Shanlin Zhou, Xinpeng Wang, Jianxun Lian, Zhenghao Liu, Laks V. S. Lakshmanan, Xiaoyuan Yi, Yongtao Hao | cs.CL, cs.AI, cs.IR, cs.MA, cs.NE | 2025-11-19 |
 | [so much depends / upon / a whitespace: Why Whitespace Matters for Poets and LLMs](http://arxiv.org/abs/2510.16713v1) | Sriharsh Bhyravajjula, Melanie Walsh, Anna Preus, Maria Antoniak | cs.CL | 2025-10-19 |
 | [Evaluating the Creativity of LLMs in Persian Literary Text Generation](http://arxiv.org/abs/2509.18401v1) | Armin Tourajmehr, Mohammad Reza Modarres, Yadollah Yaghoobzadeh | cs.CL | 2025-09-22 |
 | [Benchmarking the Detection of LLMs-Generated Modern Chinese Poetry](http://arxiv.org/abs/2509.01620v1) | Shanshan Wang, Junchao Wu, Fengying Ye, Jingming Yao, Lidia S. Chao, Derek F. Wong | cs.CL, cs.AI | 2025-09-01 |

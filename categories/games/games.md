@@ -7,10 +7,17 @@ sidebar:
 ---
 
 
-*written on 2025-11-14*
+*written on 2025-12-31*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Do Persona-Infused LLMs Affect Performance in a Strategic Reasoning Game?](http://arxiv.org/abs/2512.06867v1) | John Licato, Stephen Steinle, Brayden Hollis | cs.AI | 2025-12-07 |
+| [TV2TV: A Unified Framework for Interleaved Language and Video Generation](http://arxiv.org/abs/2512.05103v2) | Xiaochuang Han, Youssef Emad, Melissa Hall, John Nguyen, Karthik Padthe, Liam Robbins, Amir Bar, Delong Chen, Michal Drozdzal, Maha Elbayad, Yushi Hu, Shang-Wen Li, Sreya Dutta Roy, Jakob Verbeek, XuDong Wang, Marjan Ghazvininejad, Luke Zettlemoyer, Emily Dinan | cs.LG, cs.AI, cs.CL, cs.CV | 2025-12-04 |
+| [MindEval: Benchmarking Language Models on Multi-turn Mental Health Support](http://arxiv.org/abs/2511.18491v3) | José Pombal, Maya D'Eon, Nuno M. Guerreiro, Pedro Henrique Martins, António Farinhas, Ricardo Rei | cs.CL, cs.AI | 2025-11-23 |
+| [RLAC: Reinforcement Learning with Adversarial Critic for Free-Form Generation Tasks](http://arxiv.org/abs/2511.01758v1) | Mian Wu, Gavin Zhang, Sewon Min, Sergey Levine, Aviral Kumar | cs.LG, cs.AI, cs.CL | 2025-11-03 |
+| [CATArena: Evaluation of LLM Agents through Iterative Tournament Competitions](http://arxiv.org/abs/2510.26852v1) | Lingyue Fu, Xin Ding, Yaoming Zhu, Shao Zhang, Lin Qiu, Weiwen Liu, Weinan Zhang, Xuezhi Cao, Xunliang Cai, Jiaxin Ding, Yong Yu | cs.AI, cs.CL | 2025-10-30 |
+| [Input Matters: Evaluating Input Structure's Impact on LLM Summaries of Sports Play-by-Play](http://arxiv.org/abs/2510.21034v2) | Barkavi Sundararajan, Somayajulu Sripada, Ehud Reiter | cs.CL | 2025-10-23 |
+| [Loopholing Discrete Diffusion: Deterministic Bypass of the Sampling Wall](http://arxiv.org/abs/2510.19304v1) | Mingyu Jo, Jaesik Yoon, Justin Deschenaux, Caglar Gulcehre, Sungjin Ahn | cs.LG | 2025-10-22 |
 | [ROBOPSY PL[AI]: Using Role-Play to Investigate how LLMs Present Collective Memory](http://arxiv.org/abs/2510.09874v1) | Margarete Jahrmann, Thomas Brandstetter, Stefan Glasauer | cs.HC, cs.AI, cs.CY | 2025-10-10 |
 | [GenQuest: An LLM-based Text Adventure Game for Language Learners](http://arxiv.org/abs/2510.04498v1) | Qiao Wang, Adnan Labib, Robert Swier, Michael Hofmeyr, Zheng Yuan | cs.CL, cs.AI | 2025-10-06 |
 | [ByteSized32Refactored: Towards an Extensible Interactive Text Games  Corpus for LLM World Modeling and Evaluation](http://arxiv.org/abs/2509.23979v1) | Haonan Wang, Junfeng Sun, Xingdi Yuan, Ruoyao Wang, Ziang Xiao | cs.CL | 2025-09-28 |
