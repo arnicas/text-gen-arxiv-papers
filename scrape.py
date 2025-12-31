@@ -26,7 +26,9 @@ search_query_poetry = '%28abs:"text%20generation"+OR+abs:"natural%20language%20g
 
 search_query_dialogue = '%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"NLG"+OR+abs:"generating%20text"+OR+abs:"generating%20dialogue"%29+AND+%28abs:dialogue+OR+abs:agents+OR+abs:conversation%29'
 
-search_query_images = '%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"NLG"+OR+abs:"generating%20text"+OR+abs:"generating%20captions"%29+AND+%28abs:images+OR+abs:image2text+OR+abs:description+OR+abs:image-to-text+OR+abs:caption%29'
+search_query_creativity = '%28abs:"LLM%20generation"+OR+abs:"text%20generation"+OR+abs:"LLM%20output"+OR+abs:"LM%20output"+OR+abs:"LM%20generation"+OR+abs:"language%20model%20generation"+OR+abs:"language%20model%20output"%29+AND+%28abs:creative+OR+abs:creativity+OR+abs:creatively+OR+abs:novel+OR+abs:novelty+OR+abs:originality+OR+abs:original+OR+abs:imagination+OR+abs:imaginative+OR+abs:diverse+OR+abs:diversity%29'
+
+# search_query_images = '%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"NLG"+OR+abs:"generating%20text"+OR+abs:"generating%20captions"%29+AND+%28abs:images+OR+abs:image2text+OR+abs:description+OR+abs:image-to-text+OR+abs:caption%29'
 
 
 base_url = "http://export.arxiv.org/api/query?"
@@ -64,21 +66,26 @@ def get_new():
 
     queries = {
         "story": search_query_story,
-        "table2text": search_query_tables,
         "games": search_query_games,
         "dialogue": search_query_dialogue,
-        "knowledge": search_query_knowledge,
+        # "knowledge": search_query_knowledge,
         "poetry": search_query_poetry,
-        "image2text": search_query_images,
+       # "image2text": search_query_images,
+        "creativity": search_query_creativity,
     }
 
-    sort = "&sortBy=lastUpdatedDate&sortOrder=descending"
+    sort = "&sortBy=submittedDate&sortOrder=descending"
     start = 0  # retreive the first n results
-    max_results = 20
+    max_results = 50
 
     for searchtype, querystring in queries.items():
-        query = "search_query=%s&start=%i&max_results=%i" % (querystring, start, max_results) + sort
-        response = requests.get(base_url + query)
+        try:
+            query = "search_query=%s&start=%i&max_results=%i" % (querystring, start, max_results) + sort
+            print(base_url + query)
+            response = requests.get(base_url + query)
+        except Exception as e:
+            print(e)
+            continue
         feed = atoma.parse_atom_bytes(response.content)
         arts2[searchtype] = []
         for entry in feed.entries:
@@ -104,7 +111,7 @@ def get_new():
                 "abstract": text,
             }
             arts2[searchtype].append(data)
-            time.sleep(2)
+        time.sleep(2)  # Sleep between API requests, not between entries
     return arts2
 
 

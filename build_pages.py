@@ -11,6 +11,7 @@ import shutil
 
 PICK_PATH = './pickles/'
 FILES_WRITTEN_DATA = "_data/files_written.jsonl"
+DISABLED_CATEGORIES = ['knowledge', 'image2text', 'table2text']
 
 today = datetime.today().strftime('%Y-%m-%d')
 
@@ -55,11 +56,13 @@ def most_recent_data_file(categ, written_df) -> dict:
     return row.to_dict(orient="records")[0]
 
 
-def write_table_in_md(df, handle):
+def write_table_in_md(df, handle, categ=None):
     df = df[['title', 'authors', 'categories', 'id', 'displaydate']]
     headers = list(df.columns)
     headers.remove('id')
     handle.write("\n")
+    if categ and categ in DISABLED_CATEGORIES:
+        handle.write(f"**NOTE: This category ({categ}) is no longer being actively searched. The content below is from the last update.**\n\n")
     handle.write(f"*written on {today}*\n\n")
     handle.write('| ' + ' | '.join(headers) + " |\n")
     handle.write('| ' + ' | '.join(['-----' for x in range(len(headers))]) + ' |\n')
@@ -88,7 +91,7 @@ def write_table_md(df, date, categ, prevlink, nextlink=None, most_recent=False):
         handle.write('sidebar:\n')
         handle.write('  nav: contents\n')
         handle.write('---\n\n')
-        write_table_in_md(df, handle)
+        write_table_in_md(df, handle, categ)
         if type(prevlink) is str:
             handle.write(f'[< Previous]({prevlink})\n')
         if type(nextlink) is str:
@@ -104,7 +107,7 @@ def write_table_md(df, date, categ, prevlink, nextlink=None, most_recent=False):
             handle.write('sidebar:\n')
             handle.write('  nav: contents\n')
             handle.write('---\n\n')
-            write_table_in_md(df, handle)
+            write_table_in_md(df, handle, categ)
             if type(prevlink) is str:
                 handle.write(f'[< Previous]({prevlink})\n')
     print("Wrote ", md_filename)
@@ -128,7 +131,7 @@ def get_new_data_as_df(arts2, categ):
 
 def update_files_written_df(written_df, newrow, prev_datafile):
     """Adds row and deletes previous related one. Fixes old link to the new file. """
-    written_df = written_df.append(newrow, ignore_index=True)
+    written_df = pd.concat([written_df, pd.DataFrame([newrow])], ignore_index=True)
     old_one = written_df.loc[written_df['data_file'] == prev_datafile]
     try:
         old_gen_file = old_one['generated_file'].values[0]
