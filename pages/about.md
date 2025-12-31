@@ -13,16 +13,16 @@ Note: Search strings are shown URL-encoded as they are used in the API calls.
 **Active Categories:**
 
 * **Story/Narrative:**
-`%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"NLG"+OR+abs:"generating%20text"OR+abs:"plot%20generation"OR+abs:"story%20generation"OR+abs:"generated%20stories"%29+AND+%28abs:narrative+OR+abs:story+OR+abs:fiction+OR+abs:plot%29`
+`%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"NLG"+OR+abs:"generating%20text"+OR+abs:"LM%20generation"+OR+abs:"language%20model%20text%20generation"+OR+abs:"language%20model%20generation"+OR+abs:"LLM%20generation"OR+abs:"plot%20generation"OR+abs:"story%20generation"OR+abs:"generated%20stories"%29+AND+%28abs:narrative+OR+abs:story+OR+abs:fiction+OR+abs:plot%29`
 
 * **Games:**
-`%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"NLG"+OR+abs:"generating%20text"%29+AND+%28abs:games+OR+abs:game%29`
+`%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"NLG"+OR+abs:"generating%20text"+OR+abs:"LM%20generation"+OR+abs:"language%20model%20text%20generation"+OR+abs:"language%20model%20generation"+OR+abs:"LLM%20generation"%29+AND+%28abs:games+OR+abs:game%29`
 
 * **Dialogue:**
-`%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"NLG"+OR+abs:"generating%20text"+OR+abs:"generating%20dialogue"%29+AND+%28abs:dialogue+OR+abs:agents+OR+abs:conversation%29`
+`%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"NLG"+OR+abs:"generating%20text"+OR+abs:"LM%20generation"+OR+abs:"language%20model%20text%20generation"+OR+abs:"language%20model%20generation"+OR+abs:"LLM%20generation"+OR+abs:"generating%20dialogue"%29+AND+%28abs:dialogue+OR+abs:agents+OR+abs:conversation%29`
 
 * **Poetry/Lyrics:**
-`%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"NLG"+OR+abs:"generating%20text"+OR+abs:"generating%20poetry"%29+AND+%28abs:poetry+OR+abs:poems+OR+abs:lyrics%29`
+`%28abs:"text%20generation"+OR+abs:"natural%20language%20generation"+OR+abs:"NLG"+OR+abs:"generating%20text"+OR+abs:"LM%20generation"+OR+abs:"language%20model%20text%20generation"+OR+abs:"language%20model%20generation"+OR+abs:"LLM%20generation"+OR+abs:"generating%20poetry"%29+AND+%28abs:poetry+OR+abs:poems+OR+abs:lyrics%29`
 
 * **Creativity:**
 `%28abs:"LLM%20generation"+OR+abs:"text%20generation"+OR+abs:"LLM%20output"+OR+abs:"LM%20output"+OR+abs:"LM%20generation"+OR+abs:"language%20model%20generation"+OR+abs:"language%20model%20output"%29+AND+%28abs:creative+OR+abs:creativity+OR+abs:creatively+OR+abs:novel+OR+abs:novelty+OR+abs:originality+OR+abs:original+OR+abs:imagination+OR+abs:imaginative+OR+abs:diverse+OR+abs:diversity%29`
