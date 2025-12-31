@@ -11,14 +11,11 @@
 
       <nav class="sidebar-nav">
         <ul>
-        {% assign pages_list = site.pages %}
-        {% for node in pages_list %}
-          {% if node.title != null %}
-            {% if node.layout == "page" %}
-              {% if node.category != null  and node.category != "ignore" %}
-             <li> <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" id="categ" href="{{ site.baseurl }}{{ node.url }}">{{ node.title}}</a></li>
-              {% endif %}
-            {% endif %}
+        {% for item in site.data.navigation.contents %}
+          {% if item.children %}
+            {% for child in item.children %}
+             <li> <a class="sidebar-nav-item{% if page.url == child.url %} active{% endif %}" id="categ" href="{{ site.baseurl }}{{ child.url }}">{{ child.title}}</a></li>
+            {% endfor %}
           {% endif %}
         {% endfor %}
         </ul>
