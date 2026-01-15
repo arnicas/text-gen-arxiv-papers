@@ -7,10 +7,16 @@ sidebar:
 ---
 
 
-*written on 2025-12-31*
+*written on 2026-01-15*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [MVSS: A Unified Framework for Multi-View Structured Survey Generation](http://arxiv.org/abs/2601.09504v1) | Yinqi Liu, Yueqi Zhu, Yongkang Zhang, Xinfeng Li, Feiran Liu, Yufei Sun, Xin Wang, Renzhao Liang, Yidong Wang, Cunxiang Wang | cs.CL | 2026-01-14 |
+| [Interpretable Text Classification Applied to the Detection of LLM-generated Creative Writing](http://arxiv.org/abs/2601.07368v1) | Minerva Suvanto, Andrea McGlinchey, Mattias Wahde, Peter J Barclay | cs.CL | 2026-01-12 |
+| [Codified Foreshadowing-Payoff Text Generation](http://arxiv.org/abs/2601.07033v1) | Longfei Yun, Kun Zhou, Yupeng Hou, Letian Peng, Jingbo Shang | cs.CL | 2026-01-11 |
+| [AutoTour: Automatic Photo Tour Guide with Smartphones and LLMs](http://arxiv.org/abs/2601.06781v1) | Huatao Xu, Zihe Liu, Zilin Zeng, Baichuan Li, Mo Li | cs.HC, cs.AI, cs.CV | 2026-01-11 |
+| [Evaluation Framework for AI Creativity: A Case Study Based on Story Generation](http://arxiv.org/abs/2601.03698v1) | Pharath Sathya, Yin Jou Huang, Fei Cheng | cs.CL | 2026-01-07 |
+| [Web World Models](http://arxiv.org/abs/2512.23676v1) | Jichen Feng, Yifan Zhang, Chenggong Zhang, Yifu Lu, Shilong Liu, Mengdi Wang | cs.AI, cs.CL, cs.CV | 2025-12-29 |
 | [Scaling Unverifiable Rewards: A Case Study on Visual Insights](http://arxiv.org/abs/2512.22650v1) | Shuyu Gan, James Mooney, Pan Hao, Renxiang Wang, Mingyi Hong, Qianwen Wang, Dongyeop Kang | cs.LG, cs.AI, cs.CL | 2025-12-27 |
 | [SRS-Stories: Vocabulary-constrained multilingual story generation for language learning](http://arxiv.org/abs/2512.18362v1) | Wiktor Kamzela, Mateusz Lango, Ondrej Dusek | cs.CL | 2025-12-20 |
 | [Workflow is All You Need: Escaping the "Statistical Smoothing Trap" via High-Entropy Information Foraging and Adversarial Pacing](http://arxiv.org/abs/2512.10121v1) | Zhongjie Jiang | cs.CL, cs.AI, cs.CY, q-fin.GN | 2025-12-10 |

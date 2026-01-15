@@ -7,10 +7,33 @@ sidebar:
 ---
 
 
-*written on 2025-12-31*
+*written on 2026-01-15*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Efficient Maintenance of Leiden Communities in Large Dynamic Graphs](http://arxiv.org/abs/2601.08554v1) | Chunxu Lin, Yumao Xie, Yixiang Fang, Yongmin Hu, Yingqian Hu, Chen Cheng | cs.SI, cs.DB, cs.GR | 2026-01-13 |
+| [GRPO with State Mutations: Improving LLM-Based Hardware Test Plan Generation](http://arxiv.org/abs/2601.07593v1) | Dimple Vijay Kochar, Nathaniel Pinckney, Guan-Ting Liu, Chia-Tung Ho, Chenhui Deng, Haoxing Ren, Brucek Khailany | cs.AR, cs.CL, cs.LG | 2026-01-12 |
+| [Interpretable Text Classification Applied to the Detection of LLM-generated Creative Writing](http://arxiv.org/abs/2601.07368v1) | Minerva Suvanto, Andrea McGlinchey, Mattias Wahde, Peter J Barclay | cs.CL | 2026-01-12 |
+| [PsyCLIENT: Client Simulation via Conversational Trajectory Modeling for Trainee Practice and Model Evaluation in Mental Health Counseling](http://arxiv.org/abs/2601.07312v1) | Huachuan Qiu, Zhaoming Chen, Yuqian Chen, Yuan Xie, Yu Lu, Zhenzhong Lan | cs.CL | 2026-01-12 |
+| [Document-Level Zero-Shot Relation Extraction with Entity Side Information](http://arxiv.org/abs/2601.07271v1) | Mohan Raj Chanthran, Soon Lay Ki, Ong Huey Fang, Bhawani Selvaretnam | cs.CL | 2026-01-12 |
+| [Can Large Language Models Understand, Reason About, and Generate Code-Switched Text?](http://arxiv.org/abs/2601.07153v1) | Genta Indra Winata, David Anugraha, Patrick Amadeus Irawan, Anirban Das, Haneul Yoo, Paresh Dashore, Shreyas Kulkarni, Ruochen Zhang, Haruki Sakajo, Frederikus Hudi, Anaelia Ovalle, Syrielle Montariol, Felix Gaschi, Michael Anugraha, Rutuj Ravindra Puranik, Zawad Hayat Ahmed, Adril Putra Merin, Emmanuele Chersoni | cs.CL, cs.AI | 2026-01-12 |
+| [Agents of Diffusion: Enhancing Diffusion Language Models with Multi-Agent Reinforcement Learning for Structured Data Generation (Extended Version)](http://arxiv.org/abs/2601.07152v1) | Aja Khanal, Kaushik T. Ranade, Rishabh Agrawal, Kalyan S. Basu, Apurva Narayan | cs.MA | 2026-01-12 |
+| [LLM Performance Predictors: Learning When to Escalate in Hybrid Human-AI Moderation Systems](http://arxiv.org/abs/2601.07006v1) | Or Bachar, Or Levi, Sardhendu Mishra, Adi Levi, Manpreet Singh Minhas, Justin Miller, Omer Ben-Porat, Eilon Sheetrit, Jonathan Morra | cs.AI | 2026-01-11 |
+| [MedTutor: A Retrieval-Augmented LLM System for Case-Based Medical Education](http://arxiv.org/abs/2601.06979v1) | Dongsuk Jang, Ziyao Shangguan, Kyle Tegtmeyer, Anurag Gupta, Jan Czerminski, Sophie Chheang, Arman Cohan | cs.CL | 2026-01-11 |
+| [BiasLab: A Multilingual, Dual-Framing Framework for Robust Measurement of Output-Level Bias in Large Language Models](http://arxiv.org/abs/2601.06861v1) | William Guey, Wei Zhang, Pei-Luen Patrick Rau, Pierrick Bougault, Vitor D. de Moura, Bertan Ucar, Jose O. Gomes | cs.CL, cs.AI | 2026-01-11 |
+| [AutoTour: Automatic Photo Tour Guide with Smartphones and LLMs](http://arxiv.org/abs/2601.06781v1) | Huatao Xu, Zihe Liu, Zilin Zeng, Baichuan Li, Mo Li | cs.HC, cs.AI, cs.CV | 2026-01-11 |
+| [Aligning Text, Code, and Vision: A Multi-Objective Reinforcement Learning Framework for Text-to-Visualization](http://arxiv.org/abs/2601.04582v1) | Mizanur Rahman, Mohammed Saidul Islam, Md Tahmid Rahman Laskar, Shafiq Joty, Enamul Hoque | cs.CL | 2026-01-08 |
+| [AI Generated Text Detection](http://arxiv.org/abs/2601.03812v1) | Adilkhan Alikhanov, Aidar Amangeldi, Diar Demeubay, Dilnaz Akhmetzhan, Nurbek Moldakhmetov, Omar Polat, Galymzhan Zharas | cs.CL, cs.AI | 2026-01-07 |
+| [Evaluation Framework for AI Creativity: A Case Study Based on Story Generation](http://arxiv.org/abs/2601.03698v1) | Pharath Sathya, Yin Jou Huang, Fei Cheng | cs.CL | 2026-01-07 |
+| [A Preliminary Agentic Framework for Matrix Deflation](http://arxiv.org/abs/2601.08219v1) | Paimon Goulart, Evangelos E. Papalexakis | cs.LG | 2026-01-06 |
+| [ReTreVal: Reasoning Tree with Validation -- A Hybrid Framework for Enhanced LLM Multi-Step Reasoning](http://arxiv.org/abs/2601.02880v1) | Abhishek HS, Pavan C Shekar, Arpit Jain, Ashwanth Krishnan | cs.AI, cs.CL | 2026-01-06 |
+| [FlowPlan-G2P: A Structured Generation Framework for Transforming Scientific Papers into Patent Descriptions](http://arxiv.org/abs/2601.02589v1) | Kris W Pan, Yongmin Yoo | cs.CL, cs.AI | 2026-01-05 |
+| [Deferred Commitment Decoding for Diffusion Language Models with Confidence-Aware Sliding Windows](http://arxiv.org/abs/2601.02076v1) | Yingte Shu, Yuchuan Tian, Chao Xu, Yunhe Wang, Hanting Chen | cs.CL, cs.AI | 2026-01-05 |
+| [MORE: Multi-Objective Adversarial Attacks on Speech Recognition](http://arxiv.org/abs/2601.01852v2) | Xiaoxue Gao, Zexin Li, Yiming Chen, Nancy F. Chen | eess.AS, cs.AI, cs.LG | 2026-01-05 |
+| [WebCoderBench: Benchmarking Web Application Generation with Comprehensive and Interpretable Evaluation Metrics](http://arxiv.org/abs/2601.02430v1) | Chenxu Liu, Yingjie Fu, Wei Yang, Ying Zhang, Tao Xie | cs.SE, cs.AI | 2026-01-05 |
+| [Can LLMs Track Their Output Length? A Dynamic Feedback Mechanism for Precise Length Regulation](http://arxiv.org/abs/2601.01768v2) | Meiman Xiao, Ante Wang, Qingguo Hu, Zhongjian Miao, Huangjun Shen, Longyue Wang, Weihua Luo, Jinsong Su | cs.CL | 2026-01-05 |
+| [QSLM: A Performance- and Memory-aware Quantization Framework with Tiered Search Strategy for Spike-driven Language Models](http://arxiv.org/abs/2601.00679v1) | Rachmad Vidya Wicaksana Putra, Pasindu Wickramasinghe, Muhammad Shafique | cs.NE, cs.AI, cs.LG | 2026-01-02 |
+| [How Large Language Models Systematically Misrepresent American Climate Opinions](http://arxiv.org/abs/2512.23889v1) | Sola Kim, Jieshu Wang, Marco A. Janssen, John M. Anderies | cs.CY, cs.AI | 2025-12-29 |
 | [Web World Models](http://arxiv.org/abs/2512.23676v1) | Jichen Feng, Yifan Zhang, Chenggong Zhang, Yifu Lu, Shilong Liu, Mengdi Wang | cs.AI, cs.CL, cs.CV | 2025-12-29 |
 | [Divergent-Convergent Thinking in Large Language Models for Creative Problem Generation](http://arxiv.org/abs/2512.23601v1) | Manh Hung Nguyen, Adish Singla | cs.AI | 2025-12-29 |
 | [Anka: A Domain-Specific Language for Reliable LLM Code Generation](http://arxiv.org/abs/2512.23214v1) | Saif Khalfan Saif Al Mazrouei | cs.CL, cs.LG, cs.PL, cs.SE | 2025-12-29 |

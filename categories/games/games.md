@@ -7,10 +7,12 @@ sidebar:
 ---
 
 
-*written on 2025-12-31*
+*written on 2026-01-15*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Web World Models](http://arxiv.org/abs/2512.23676v1) | Jichen Feng, Yifan Zhang, Chenggong Zhang, Yifu Lu, Shilong Liu, Mengdi Wang | cs.AI, cs.CL, cs.CV | 2025-12-29 |
+| [Concept Generalization in Humans and Large Language Models: Insights from the Number Game](http://arxiv.org/abs/2512.20162v1) | Arghavan Bazigaran, Hansem Sohn | cs.AI | 2025-12-23 |
 | [Do Persona-Infused LLMs Affect Performance in a Strategic Reasoning Game?](http://arxiv.org/abs/2512.06867v1) | John Licato, Stephen Steinle, Brayden Hollis | cs.AI | 2025-12-07 |
 | [TV2TV: A Unified Framework for Interleaved Language and Video Generation](http://arxiv.org/abs/2512.05103v2) | Xiaochuang Han, Youssef Emad, Melissa Hall, John Nguyen, Karthik Padthe, Liam Robbins, Amir Bar, Delong Chen, Michal Drozdzal, Maha Elbayad, Yushi Hu, Shang-Wen Li, Sreya Dutta Roy, Jakob Verbeek, XuDong Wang, Marjan Ghazvininejad, Luke Zettlemoyer, Emily Dinan | cs.LG, cs.AI, cs.CL, cs.CV | 2025-12-04 |
 | [MindEval: Benchmarking Language Models on Multi-turn Mental Health Support](http://arxiv.org/abs/2511.18491v3) | José Pombal, Maya D'Eon, Nuno M. Guerreiro, Pedro Henrique Martins, António Farinhas, Ricardo Rei | cs.CL, cs.AI | 2025-11-23 |
