@@ -7,10 +7,11 @@ sidebar:
 ---
 
 
-*written on 2026-01-15*
+*written on 2026-02-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [CCiV: A Benchmark for Structure, Rhythm and Quality in LLM-Generated Chinese \textit{Ci} Poetry](http://arxiv.org/abs/2602.14081v1) | Shangqing Zhao, Yupei Ren, Yuhao Zhou, Xiaopeng Bai, Man Lan | cs.CL | 2026-02-15 |
 | [LLMs Got Rhythm? Hybrid Phonological Filtering for Greek Poetry Rhyme Detection and Generation](http://arxiv.org/abs/2601.09631v1) | Stergios Chatzikyriakidis | cs.CL | 2026-01-14 |
 | [Decoding the Black Box: Discerning AI Rhetorics About and Through Poetic Prompting](http://arxiv.org/abs/2512.05243v1) | P. D. Edgar, Alia Hall | cs.CL, cs.CY | 2025-12-04 |
 | [The author is dead, but what if they never lived? A reception experiment on Czech AI- and human-authored poetry](http://arxiv.org/abs/2511.21629v1) | Anna Marklová, Ondřej Vinš, Martina Vokáčová, Jiří Milička | cs.CL | 2025-11-26 |

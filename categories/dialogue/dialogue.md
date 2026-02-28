@@ -7,10 +7,56 @@ sidebar:
 ---
 
 
-*written on 2026-01-15*
+*written on 2026-02-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Agentic AI as a Cybersecurity Attack Surface: Threats, Exploits, and Defenses in Runtime Supply Chains](http://arxiv.org/abs/2602.19555v1) | Xiaochong Jiang, Shiqi Yang, Wenting Yang, Yichen Liu, Cheng Ji | cs.CR, cs.AI | 2026-02-23 |
+| [NIMMGen: Learning Neural-Integrated Mechanistic Digital Twins with LLMs](http://arxiv.org/abs/2602.18008v1) | Zihan Guan, Rituparna Datta, Mengxuan Hu, Shunshun Liu, Aiying Zhang, Prasanna Balachandran, Sheng Li, Anil Vullikanti | cs.LG, cs.AI, cs.CL | 2026-02-20 |
+| [What Do LLMs Associate with Your Name? A Human-Centered Black-Box Audit of Personal Data](http://arxiv.org/abs/2602.17483v1) | Dimitri Staufer, Kirsten Morehouse | cs.HC, cs.AI, cs.CL, cs.CY | 2026-02-19 |
+| [From Labor to Collaboration: A Methodological Experiment Using AI Agents to Augment Research Perspectives in Taiwan's Humanities and Social Sciences](http://arxiv.org/abs/2602.17221v1) | Yi-Chih Huang | cs.AI, cs.CL, cs.CY | 2026-02-19 |
+| [Evaluating Collective Behaviour of Hundreds of LLM Agents](http://arxiv.org/abs/2602.16662v1) | Richard Willis, Jianing Zhao, Yali Du, Joel Z. Leibo | cs.MA | 2026-02-18 |
+| [AREG: Adversarial Resource Extraction Game for Evaluating Persuasion and Resistance in Large Language Models](http://arxiv.org/abs/2602.16639v1) | Adib Sakhawat, Fardeen Sadab | cs.CL | 2026-02-18 |
+| [LLM-to-Speech: A Synthetic Data Pipeline for Training Dialectal Text-to-Speech Models](http://arxiv.org/abs/2602.15675v1) | Ahmed Khaled Khamis, Hesham Ali | cs.CL | 2026-02-17 |
+| [AgriWorld:A World Tools Protocol Framework for Verifiable Agricultural Reasoning with Code-Executing LLM Agents](http://arxiv.org/abs/2602.15325v1) | Zhixing Zhang, Jesen Zhang, Hao Liu, Qinhan Lv, Jing Yang, Kaitong Cai, Keze Wang | cs.AI | 2026-02-17 |
+| [Frontier AI Risk Management Framework in Practice: A Risk Analysis Technical Report v1.5](http://arxiv.org/abs/2602.14457v1) | Dongrui Liu, Yi Yu, Jie Zhang, Guanxu Chen, Qihao Lin, Hanxi Zhu, Lige Huang, Yijin Zhou, Peng Wang, Shuai Shao, Boxuan Zhang, Zicheng Liu, Jingwei Sun, Yu Li, Yuejin Xie, Jiaxuan Guo, Jia Xu, Chaochao Lu, Bowen Zhou, Xia Hu, Jing Shao | cs.AI, cs.CL, cs.CV, cs.CY, cs.LG | 2026-02-16 |
+| [TruthStance: An Annotated Dataset of Conversations on Truth Social](http://arxiv.org/abs/2602.14406v1) | Fathima Ameen, Danielle Brown, Manusha Malgareddy, Amanul Haque | cs.CL, cs.AI | 2026-02-16 |
+| [An end-to-end agentic pipeline for smart contract translation and quality evaluation](http://arxiv.org/abs/2602.13808v1) | Abhinav Goel, Chaitya Shah, Agostino Capponi, Alfio Gliozzo | cs.AI, cs.SE | 2026-02-14 |
+| [Never say never: Exploring the effects of available knowledge on agent persuasiveness in controlled physiotherapy motivation dialogues](http://arxiv.org/abs/2602.12924v2) | Stephan Vonschallen, Rahel Häusler, Theresa Schmiedel, Friederike Eyssel | cs.HC, cs.AI | 2026-02-13 |
+| [WavBench: Benchmarking Reasoning, Colloquialism, and Paralinguistics for End-to-End Spoken Dialogue Models](http://arxiv.org/abs/2602.12135v2) | Yangzhuo Li, Shengpeng Ji, Yifu Chen, Tianle Liang, Haorong Ying, Yule Wang, Junbo Li, Jun Fang, Zhou Zhao | cs.CL | 2026-02-12 |
+| [Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?](http://arxiv.org/abs/2602.11988v1) | Thibaud Gloaguen, Niels Mündler, Mark Müller, Veselin Raychev, Martin Vechev | cs.SE, cs.AI | 2026-02-12 |
+| [Do Large Language Models Adapt to Language Variation across Socioeconomic Status?](http://arxiv.org/abs/2602.11939v1) | Elisa Bassignana, Mike Zhang, Dirk Hovy, Amanda Cercas Curry | cs.CL | 2026-02-12 |
+| [RELATE: A Reinforcement Learning-Enhanced LLM Framework for Advertising Text Generation](http://arxiv.org/abs/2602.11780v1) | Jinfang Wang, Jiajie Liu, Jianwei Wu, Ziqin Luo, Zhen Chen, Chunlei Li, Biao Han, Tao Deng, Yi Li, Shuanglong Li, Lin Liu | cs.AI | 2026-02-12 |
+| [AIR: Improving Agent Safety through Incident Response](http://arxiv.org/abs/2602.11749v1) | Zibo Xiao, Jun Sun, Junjie Chen | cs.AI | 2026-02-12 |
+| [TRACER: Trajectory Risk Aggregation for Critical Episodes in Agentic Reasoning](http://arxiv.org/abs/2602.11409v1) | Sina Tayebati, Divake Kumar, Nastaran Darabi, Davide Ettori, Ranganath Krishnan, Amit Ranjan Trivedi | cs.AI | 2026-02-11 |
+| [Learning to Compose for Cross-domain Agentic Workflow Generation](http://arxiv.org/abs/2602.11114v1) | Jialiang Wang, Shengxiang Xu, Hanmo Liu, Jiachuan Wang, Yuyu Luo, Shimin Di, Min-Ling Zhang, Lei Chen | cs.MA, cs.AI, cs.LG, cs.SE | 2026-02-11 |
+| [AlphaForgeBench: Benchmarking End-to-End Trading Strategy Design with Large Language Models](http://arxiv.org/abs/2602.18481v1) | Wentao Zhang, Mingxuan Zhao, Jincheng Gao, Jieshun You, Huaiyu Jia, Yilei Zhao, Bo An, Shuo Sun | q-fin.TR, cs.AI | 2026-02-10 |
+| [Towards Poisoning Robustness Certification for Natural Language Generation](http://arxiv.org/abs/2602.09757v1) | Mihnea Ghitu, Matthew Wicker | cs.LG | 2026-02-10 |
+| [Large Language Models for Designing Participatory Budgeting Rules](http://arxiv.org/abs/2602.09349v2) | Nguyen Thach, Xingchen Sha, Hau Chan | cs.LG | 2026-02-10 |
+| [Accelerating Social Science Research via Agentic Hypothesization and Experimentation](http://arxiv.org/abs/2602.07983v1) | Jishu Sen Gupta, Harini SI, Somesh Kumar Singh, Syed Mohamad Tawseeq, Yaman Kumar Singla, David Doermann, Rajiv Ratn Shah, Balaji Krishnamurthy | cs.AI, cs.CL | 2026-02-08 |
+| [Exploring AI-Augmented Sensemaking of Patient-Generated Health Data: A Mixed-Method Study with Healthcare Professionals in Cardiac Risk Reduction](http://arxiv.org/abs/2602.05687v4) | Pavithren V S Pakianathan, Rania Islambouli, Diogo Branco, Albrecht Schmidt, Tiago Guerreiro, Jan David Smeddinck | cs.HC, cs.AI | 2026-02-05 |
+| [Generative Ontology: When Structured Knowledge Learns to Create](http://arxiv.org/abs/2602.05636v2) | Benny Cheung | cs.AI, cs.CL | 2026-02-05 |
+| [Data-Centric Interpretability for LLM-based Multi-Agent Reinforcement Learning](http://arxiv.org/abs/2602.05183v2) | John Yan, Michael Yu, Yuqi Sun, Alexander Duffy, Tyler Marques, Matthew Lyle Olson | cs.LG, cs.AI | 2026-02-05 |
+| [RA-QA: Towards Respiratory Audio-based Health Question Answering](http://arxiv.org/abs/2602.18452v1) | Gaia A. Bertolino, Yuwei Zhang, Tong Xia, Domenico Talia, Cecilia Mascolo | cs.SD, cs.LG, eess.AS | 2026-02-04 |
+| [ProxyWar: Dynamic Assessment of LLM Code Generation in Game Arenas](http://arxiv.org/abs/2602.04296v1) | Wenjun Peng, Xinyu Wang, Qi Wu | cs.SE, cs.AI | 2026-02-04 |
+| [A$^2$-LLM: An End-to-end Conversational Audio Avatar Large Language Model](http://arxiv.org/abs/2602.04913v1) | Xiaolin Hu, Hang Yuan, Xinzhu Sang, Binbin Yan, Zhou Yu, Cong Huang, Kai Chen | cs.LG, cs.AI, cs.SD | 2026-02-04 |
+| [From Crafting Text to Crafting Thought: Grounding AI Writing Support to Writing Center Pedagogy](http://arxiv.org/abs/2602.04047v1) | Yijun Liu, John Gallagher, Sarah Sterman, Tal August | cs.HC | 2026-02-03 |
+| [The Necessity of a Unified Framework for LLM-Based Agent Evaluation](http://arxiv.org/abs/2602.03238v1) | Pengyu Zhu, Li Sun, Philip S. Yu, Sen Su | cs.AI | 2026-02-03 |
+| [GuideWeb: A Benchmark for Automatic In-App Guide Generation on Real-World Web UIs](http://arxiv.org/abs/2602.01917v1) | Chengguang Gan, Yoshihiro Tsujii, Yunhao Liang, Tatsunori Mori, Shiwen Ni, Hiroki Itoh | cs.CL | 2026-02-02 |
+| [Wiki Live Challenge: Challenging Deep Research Agents with Expert-Level Wikipedia Articles](http://arxiv.org/abs/2602.01590v2) | Shaohan Wang, Benfeng Xu, Licheng Zhang, Mingxuan Du, Chiwei Zhu, Xiaorui Wang, Zhendong Mao, Yongdong Zhang | cs.CL | 2026-02-02 |
+| [PedagoSense: A Pedology Grounded LLM System for Pedagogical Strategy Detection and Contextual Response Generation in Learning Dialogues](http://arxiv.org/abs/2602.01169v1) | Shahem Sultan, Shahem Fadi, Yousef Melhim, Ibrahim Alsarraj, Besher Hassan | cs.CL | 2026-02-01 |
+| [PaperBanana: Automating Academic Illustration for AI Scientists](http://arxiv.org/abs/2601.23265v1) | Dawei Zhu, Rui Meng, Yale Song, Xiyu Wei, Sujian Li, Tomas Pfister, Jinsung Yoon | cs.CL, cs.CV | 2026-01-30 |
+| [WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents](http://arxiv.org/abs/2601.21872v1) | Yao Zhang, Shijie Tang, Zeyu Li, Zhen Han, Volker Tresp | cs.AI | 2026-01-29 |
+| [Embodied Task Planning via Graph-Informed Action Generation with Large Language Model](http://arxiv.org/abs/2601.21841v2) | Xiang Li, Ning Yan, Masood Mortazavi | cs.CL | 2026-01-29 |
+| [More Code, Less Reuse: Investigating Code Quality and Reviewer Sentiment towards AI-generated Pull Requests](http://arxiv.org/abs/2601.21276v1) | Haoming Huang, Pongchai Jaisri, Shota Shimizu, Lingfeng Chen, Sota Nakashima, Gema Rodríguez-Pérez | cs.SE, cs.AI, cs.HC | 2026-01-29 |
+| [Planner-Auditor Twin: Agentic Discharge Planning with FHIR-Based LLM Planning, Guideline Recall, Optional Caching and Self-Improvement](http://arxiv.org/abs/2601.21113v1) | Kaiyuan Wu, Aditya Nagori, Rishikesan Kamaleswaran | cs.AI, cs.MA | 2026-01-28 |
+| [A Dialectic Pipeline for Improving LLM Robustness](http://arxiv.org/abs/2601.20659v1) | Sara Candussio | cs.CL, cs.MA | 2026-01-28 |
+| [RobustExplain: Evaluating Robustness of LLM-Based Explanation Agents for Recommendation](http://arxiv.org/abs/2601.19120v3) | Guilin Zhang, Kai Zhao, Jeffrey Friedman, Xu Chu | cs.IR, cs.AI, cs.LG | 2026-01-27 |
+| [Assessing the Quality of Mental Health Support in LLM Responses through Multi-Attribute Human Evaluation](http://arxiv.org/abs/2601.18630v1) | Abeer Badawi, Md Tahmid Rahman Laskar, Elahe Rahimi, Sheri Grach, Lindsay Bertrand, Lames Danok, Frank Rudzicz, Jimmy Huang, Elham Dolatabadi | cs.AI, cs.HC | 2026-01-26 |
+| [LegalMALR:Multi-Agent Query Understanding and LLM-Based Reranking for Chinese Statute Retrieval](http://arxiv.org/abs/2601.17692v1) | Yunhan Li, Mingjie Xie, Gaoli Kang, Zihan Gong, Gengshen Wu, Min Yang | cs.IR, cs.CL | 2026-01-25 |
+| [Status Hierarchies in Language Models](http://arxiv.org/abs/2601.17577v1) | Emilio Barkett | cs.HC, cs.AI, cs.CL | 2026-01-24 |
+| [The Shadow Self: Intrinsic Value Misalignment in Large Language Model Agents](http://arxiv.org/abs/2601.17344v1) | Chen Chen, Kim Young Il, Yuan Yang, Wenhao Su, Yilin Zhang, Xueluan Gong, Qian Wang, Yongsen Zheng, Ziyao Liu, Kwok-Yan Lam | cs.CL | 2026-01-24 |
+| [On the Insecurity of Keystroke-Based AI Authorship Detection: Timing-Forgery Attacks Against Motor-Signal Verification](http://arxiv.org/abs/2601.17280v1) | David Condrey | cs.CR, cs.AI, cs.HC | 2026-01-24 |
 | [LLMs Got Rhythm? Hybrid Phonological Filtering for Greek Poetry Rhyme Detection and Generation](http://arxiv.org/abs/2601.09631v1) | Stergios Chatzikyriakidis | cs.CL | 2026-01-14 |
 | [Efficient Multilingual Dialogue Processing via Translation Pipelines and Distilled Language Models](http://arxiv.org/abs/2601.09059v1) | Santiago Martínez Novoa, Nicolás Rozo Fajardo, Diego Alejandro González Vargas, Nicolás Bedoya Figueroa | cs.CL | 2026-01-14 |
 | [Can LLMs interpret figurative language as humans do?: surface-level vs representational similarity](http://arxiv.org/abs/2601.09041v1) | Samhita Bollepally, Aurora Sloman-Moll, Takashi Yamauchi | cs.CL, cs.AI | 2026-01-14 |

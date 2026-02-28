@@ -7,10 +7,13 @@ sidebar:
 ---
 
 
-*written on 2026-01-15*
+*written on 2026-02-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [AREG: Adversarial Resource Extraction Game for Evaluating Persuasion and Resistance in Large Language Models](http://arxiv.org/abs/2602.16639v1) | Adib Sakhawat, Fardeen Sadab | cs.CL | 2026-02-18 |
+| [Generative Ontology: When Structured Knowledge Learns to Create](http://arxiv.org/abs/2602.05636v2) | Benny Cheung | cs.AI, cs.CL | 2026-02-05 |
+| [ProxyWar: Dynamic Assessment of LLM Code Generation in Game Arenas](http://arxiv.org/abs/2602.04296v1) | Wenjun Peng, Xinyu Wang, Qi Wu | cs.SE, cs.AI | 2026-02-04 |
 | [Web World Models](http://arxiv.org/abs/2512.23676v1) | Jichen Feng, Yifan Zhang, Chenggong Zhang, Yifu Lu, Shilong Liu, Mengdi Wang | cs.AI, cs.CL, cs.CV | 2025-12-29 |
 | [Concept Generalization in Humans and Large Language Models: Insights from the Number Game](http://arxiv.org/abs/2512.20162v1) | Arghavan Bazigaran, Hansem Sohn | cs.AI | 2025-12-23 |
 | [Do Persona-Infused LLMs Affect Performance in a Strategic Reasoning Game?](http://arxiv.org/abs/2512.06867v1) | John Licato, Stephen Steinle, Brayden Hollis | cs.AI | 2025-12-07 |
