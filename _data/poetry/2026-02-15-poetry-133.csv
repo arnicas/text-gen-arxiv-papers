@@ -1,0 +1,1657 @@
+title,pubdate,id,authors,categories,search,abstract,source,hf_upvotes,displaydate
+"CCiV: A Benchmark for Structure, Rhythm and Quality in LLM-Generated Chinese \textit{Ci} Poetry",2026-02-15 10:19:02+00:00,http://arxiv.org/abs/2602.14081v1,"Shangqing Zhao, Yupei Ren, Yuhao Zhou, Xiaopeng Bai, Man Lan",cs.CL,poetry,"The generation of classical Chinese \textit{Ci} poetry, a form demanding a sophisticated blend of structural rigidity, rhythmic harmony, and artistic quality, poses a significant challenge for large language models (LLMs). To systematically evaluate and advance this capability, we introduce \textbf{C}hinese \textbf{Ci}pai \textbf{V}ariants (\textbf{CCiV}), a benchmark designed to assess LLM-generated \textit{Ci} poetry across these three dimensions: structure, rhythm, and quality. Our evaluation of 17 LLMs on 30 \textit{Cipai} reveals two critical phenomena: models frequently generate valid but unexpected historical variants of a poetic form, and adherence to tonal patterns is substantially harder than structural rules. We further show that form-aware prompting can improve structural and tonal control for stronger models, while potentially degrading weaker ones. Finally, we observe weak and inconsistent alignment between formal correctness and literary quality in our sample. CCiV highlights the need for variant-aware evaluation and more holistic constrained creative generation methods.",,0,2026-02-15
+LLMs Got Rhythm? Hybrid Phonological Filtering for Greek Poetry Rhyme Detection and Generation,2026-01-14 17:05:17+00:00,http://arxiv.org/abs/2601.09631v4,"Stergios Chatzikyriakidis, Anastasia Natsina",cs.CL,poetry,"Large Language Models (LLMs), despite their remarkable capabilities across NLP tasks, struggle with phonologically-grounded phenomena like rhyme detection and generation. This is even more evident in lower-resource languages such as Modern Greek. In this paper, we present a hybrid system that combines LLMs with deterministic phonological algorithms to achieve accurate rhyme identification/analysis and generation. Our approach implements a comprehensive taxonomy of Greek rhyme types, including Pure, Rich, Imperfect, Mosaic, and Identical Pre-rhyme Vowel (IDV) patterns, and employs an agentic generation pipeline with phonological verification. We evaluate multiple prompting strategies (zero-shot, few-shot, Chain-of-Thought, and RAG-augmented) across several LLMs including Claude 3.7 and 4.5, GPT-4o, Gemini 2.0 and open-weight models like Llama 3.1 8B and 70B and Mistral Large. Results reveal a significant ""Reasoning Gap"": while native-like models (Claude 3.7) perform intuitively (40\% accuracy in identification), reasoning-heavy models (Claude 4.5) achieve state-of-the-art performance (54\%) only when prompted with Chain-of-Thought. Most critically, pure LLM generation fails catastrophically (under 4\% valid poems), while our hybrid verification loop restores performance to 73.1\%. We release our system and a corpus of 40,000+ rhymes, derived from the Anemoskala and Interwar Poetry corpora, to support future research.",arxiv,0,2026-01-14
+LLMs Got Rhythm? Hybrid Phonological Filtering for Greek Poetry Rhyme Detection and Generation,2026-01-14 17:05:17+00:00,http://arxiv.org/abs/2601.09631v1,Stergios Chatzikyriakidis,cs.CL,poetry,"Large Language Models (LLMs), despite their remarkable capabilities across NLP tasks, struggle with phonologically-grounded phenomena like rhyme detection and generation. This is even more evident in lower-resource languages such as Modern Greek. In this paper, we present a hybrid system that combines LLMs with deterministic phonological algorithms to achieve accurate rhyme identification/analysis and generation. Our approach implements a comprehensive taxonomy of Greek rhyme types, including Pure, Rich, Imperfect, Mosaic, and Identical Pre-rhyme Vowel (IDV) patterns, and employs an agentic generation pipeline with phonological verification. We evaluate multiple prompting strategies (zero-shot, few-shot, Chain-of-Thought, and RAG-augmented) across several LLMs including Claude 3.7 and 4.5, GPT-4o, Gemini 2.0 and open-weight models like Llama 3.1 8B and 70B and Mistral Large. Results reveal a significant ""Reasoning Gap"": while native-like models (Claude 3.7) perform intuitively (40\% accuracy in identification), reasoning-heavy models (Claude 4.5) achieve state-of-the-art performance (54\%) only when prompted with Chain-of-Thought. Most critically, pure LLM generation fails catastrophically (under 4\% valid poems), while our hybrid verification loop restores performance to 73.1\%. We release our system and a crucial, rigorously cleaned corpus of 40,000+ rhymes, derived from the Anemoskala and Interwar Poetry corpora, to support future research.",,0,2026-01-14
+SDUs DAISY: A Benchmark for Danish Culture,2026-01-11 22:17:34+00:00,http://arxiv.org/abs/2601.19930v1,"Jacob Nielsen, Stine L. Beltoft, Peter Schneider-Kamp, Lukas Galke Poech","cs.CL, cs.AI",poetry,"We introduce a new benchmark for Danish culture via cultural heritage, Daisy, based on the curated topics from the Danish Culture Canon 2006. For each artifact in the culture canon, we query the corresponding Wikipedia page and have a language model generate random questions. This yields a sampling strategy within each work, with a mix of central of peripheral questions for each work, not only knowledge of mainstream information, but also in-depth cornerstones defining the heritage of Danish Culture, defined by the Canon committee. Each question-answer pair is humanly approved or corrected in the final dataset consisting of 741 close-ended question answer pairs covering topics, from 1300 BC. archaeological findings, 1700 century poems and musicals pieces to contemporary pop music and Danish design and architecture.",arxiv,0,2026-01-11
+Decoding the Black Box: Discerning AI Rhetorics About and Through Poetic Prompting,2025-12-04 20:41:39+00:00,http://arxiv.org/abs/2512.05243v1,"P. D. Edgar, Alia Hall","cs.CL, cs.CY",poetry,"Prompt engineering has emerged as a useful way studying the algorithmic tendencies and biases of large language models. Meanwhile creatives and academics have leveraged LLMs to develop creative works and explore the boundaries of their writing capabilities through text generation and code. This study suggests that creative text prompting, specifically Poetry Prompt Patterns, may be a useful addition to the toolbox of the prompt engineer, and outlines the process by which this approach may be taken. Then, the paper uses poetic prompts to assess descriptions and evaluations of three models of a renowned poet and test the consequences of the willingness of models to adapt or rewrite original creative works for presumed audiences.",,0,2025-12-04
+"The author is dead, but what if they never lived? A reception experiment on Czech AI- and human-authored poetry",2025-11-26 17:53:59+00:00,http://arxiv.org/abs/2511.21629v1,"Anna Marklová, Ondřej Vinš, Martina Vokáčová, Jiří Milička",cs.CL,poetry,"Large language models are increasingly capable of producing creative texts, yet most studies on AI-generated poetry focus on English -- a language that dominates training data. In this paper, we examine the perception of AI- and human-written Czech poetry. We ask if Czech native speakers are able to identify it and how they aesthetically judge it. Participants performed at chance level when guessing authorship (45.8\% correct on average), indicating that Czech AI-generated poems were largely indistinguishable from human-written ones. Aesthetic evaluations revealed a strong authorship bias: when participants believed a poem was AI-generated, they rated it as less favorably, even though AI poems were in fact rated equally or more favorably than human ones on average. The logistic regression model uncovered that the more the people liked a poem, the less probable was that they accurately assign the authorship. Familiarity with poetry or literary background had no effect on recognition accuracy. Our findings show that AI can convincingly produce poetry even in a morphologically complex, low-resource (with respect of the training data of AI models) Slavic language such as Czech. The results suggest that readers' beliefs about authorship and the aesthetic evaluation of the poem are interconnected.",,0,2025-11-26
+NAMeGEn: Creative Name Generation via A Novel Agent-based Multiple Personalized Goal Enhancement Framework,2025-11-19 13:05:25+00:00,http://arxiv.org/abs/2511.15408v1,"Shanlin Zhou, Xinpeng Wang, Jianxun Lian, Zhenghao Liu, Laks V. S. Lakshmanan, Xiaoyuan Yi, Yongtao Hao","cs.CL, cs.AI, cs.IR, cs.MA, cs.NE",poetry,"Trained on diverse human-authored texts, Large Language Models (LLMs) unlocked the potential for Creative Natural Language Generation (CNLG), benefiting various applications like advertising and storytelling. Nevertheless, CNLG still remains difficult due to two main challenges. (1) Multi-objective flexibility: user requirements are often personalized, fine-grained, and pluralistic, which LLMs struggle to satisfy simultaneously; (2) Interpretive complexity: beyond generation, creativity also involves understanding and interpreting implicit meaning to enhance users' perception. These challenges significantly limit current methods, especially in short-form text generation, in generating creative and insightful content. To address this, we focus on Chinese baby naming, a representative short-form CNLG task requiring adherence to explicit user constraints (e.g., length, semantics, anthroponymy) while offering meaningful aesthetic explanations. We propose NAMeGEn, a novel multi-agent optimization framework that iteratively alternates between objective extraction, name generation, and evaluation to meet diverse requirements and generate accurate explanations. To support this task, we further construct a classical Chinese poetry corpus with 17k+ poems to enhance aesthetics, and introduce CBNames, a new benchmark with tailored metrics. Extensive experiments demonstrate that NAMeGEn effectively generates creative names that meet diverse, personalized requirements while providing meaningful explanations, outperforming six baseline methods spanning various LLM backbones without any training.",,0,2025-11-19
+Beyond Direct Generation: A Decomposed Approach to Well-Crafted Screenwriting with LLMs,2025-10-27 09:41:29+00:00,http://arxiv.org/abs/2510.23163,"Hang Lei, Shengyi Zong, Zhaoyan Li, Ziren Zhou, Hao Liu",,poetry,"The screenplay serves as the foundation for television production, defining narrative structure, character development, and dialogue. While Large Language Models (LLMs) show great potential in creative writing, direct end-to-end generation approaches often fail to produce well-crafted screenplays. We argue this failure stems from forcing a single model to simultaneously master two disparate capabilities: creative narrative construction and rigid format adherence. The resulting outputs may mimic superficial style but lack the deep structural integrity and storytelling substance required for professional use. To enable LLMs to generate high-quality screenplays, we introduce Dual-Stage Refinement (DSR), a decomposed framework that decouples creative narrative generation from format conversion. The first stage transforms a brief outline into rich, novel-style prose. The second stage refines this narrative into a professionally formatted screenplay. This separation enables the model to specialize in one distinct capability at each stage. A key challenge in implementing DSR is the scarcity of paired outline-to-novel training data. We address this through hybrid data synthesis: reverse synthesis deconstructs existing screenplays into structured inputs, while forward synthesis leverages these inputs to generate high-quality narrative texts as training targets. Blind evaluations by professional screenwriters show that DSR achieves a 75% win rate against strong baselines like Gemini-2.5-Pro and reaches 82.7% of human-level performance. Our work demonstrates that decomposed generation architecture with tailored data synthesis effectively specializes LLMs in complex creative domains.",hf,0,2025-10-27
+so much depends / upon / a whitespace: Why Whitespace Matters for Poets and LLMs,2025-10-19 04:52:21+00:00,http://arxiv.org/abs/2510.16713v1,"Sriharsh Bhyravajjula, Melanie Walsh, Anna Preus, Maria Antoniak",cs.CL,poetry,"Whitespace is a critical component of poetic form, reflecting both adherence to standardized forms and rebellion against those forms. Each poem's whitespace distribution reflects the artistic choices of the poet and is an integral semantic and spatial feature of the poem. Yet, despite the popularity of poetry as both a long-standing art form and as a generation task for large language models (LLMs), whitespace has not received sufficient attention from the NLP community. Using a corpus of 19k English-language published poems from Poetry Foundation, we investigate how 4k poets have used whitespace in their works. We release a subset of 2.8k public-domain poems with preserved formatting to facilitate further research in this area. We compare whitespace usage in the published poems to (1) 51k LLM-generated poems, and (2) 12k unpublished poems posted in an online community. We also explore whitespace usage across time periods, poetic forms, and data sources. Additionally, we find that different text processing methods can result in significantly different representations of whitespace in poetry data, motivating us to use these poems and whitespace patterns to discuss implications for the processing strategies used to assemble pretraining datasets for LLMs.",,0,2025-10-19
+"COIG-Writer: A High-Quality Dataset for Chinese Creative Writing with
+  Thought Processes",2025-10-16 15:01:19+00:00,http://arxiv.org/abs/2510.14763,"Yunwen Li, Shuangshuang Ying, Xingwei Qu, Xin Li, Sheng Jin, Minghao Liu, Zhoufutu Wen, Tianyu Zheng, Xeron Du, Qiguang Chen, Jiajun Shi, Wangchunshu Zhou, Jiazhan Feng, Wanjun Zhong, Libo Qin, Stephen Huang, Wanxiang Che, Chenghua Lin, Eli Zhang",,poetry,"Large language models exhibit systematic deficiencies in creative writing,
+particularly in non-English contexts where training data is scarce and lacks
+process-level supervision. We present COIG-Writer, a novel Chinese creative
+writing dataset that captures both diverse outputs and their underlying thought
+processes through systematic reverse-engineering of high-quality texts. Unlike
+existing datasets that provide only input-output pairs, COIG-Writer comprises
+1,665 meticulously curated triplets spanning 51 genres, each containing: (1) a
+reverse-engineered prompt, (2) detailed creative reasoning documenting
+decision-making processes, and (3) the final text. Through comprehensive
+experiments, we identify a two-component model of creative writing: narrative
+logic (provided by process supervision) and linguistic expression (maintained
+by general-purpose data). Our findings reveal three critical insights: (1)
+Process supervision is highly effective but requires stabilization with general
+data. A ratio of at least one creative sample to twelve general samples is
+needed to achieve optimal performance; below this threshold, the win rate
+progressively degrades (from 62.75% down to 35.78%)., (2) creative capabilities
+are culturally-bound with no cross-lingual transfer (89.26pp gap between
+Chinese and English performance), and (3) lexical diversity inversely
+correlates with creative quality (TTR paradox), suggesting high diversity
+signals compensatory behavior for logical deficiencies. These findings
+establish that creative excellence emerges from the interaction between logical
+scaffolding and linguistic grounding, analogous to how mathematical reasoning
+enhances but cannot replace linguistic competence in foundation models.",hf,14,2025-10-16
+DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment,2025-10-10 05:39:45+00:00,http://arxiv.org/abs/2510.09016v2,"Zongcai Du, Guilin Deng, Xiaofeng Guo, Xin Gao, Linke Li, Kaichang Cheng, Fubo Han, Siyu Yang, Peng Liu, Pan Zhong, Qiang Fu","cs.SD, cs.AI, eess.AS",poetry,"Recent progress in diffusion-based Singing Voice Synthesis (SVS) demonstrates strong expressiveness but remains limited by data scarcity and model scalability. We introduce a two-stage pipeline: a compact seed set of human-sung recordings is constructed by pairing fixed melodies with diverse LLM-generated lyrics, and melody-specific models are trained to synthesize over 500 hours of high-quality Chinese singing data. Building on this corpus, we propose DiTSinger, a Diffusion Transformer with RoPE and qk-norm, systematically scaled in depth, width, and resolution for enhanced fidelity. Furthermore, we design an implicit alignment mechanism that obviates phoneme-level duration labels by constraining phoneme-to-acoustic attention within character-level spans, thereby improving robustness under noisy or uncertain alignments. Extensive experiments validate that our approach enables scalable, alignment-free, and high-fidelity SVS.",arxiv,0,2025-10-10
+Evaluating the Creativity of LLMs in Persian Literary Text Generation,2025-09-22 20:32:56+00:00,http://arxiv.org/abs/2509.18401v1,"Armin Tourajmehr, Mohammad Reza Modarres, Yadollah Yaghoobzadeh",cs.CL,poetry,"Large language models (LLMs) have demonstrated notable creative abilities in
+generating literary texts, including poetry and short stories. However, prior
+research has primarily centered on English, with limited exploration of
+non-English literary traditions and without standardized methods for assessing
+creativity. In this paper, we evaluate the capacity of LLMs to generate Persian
+literary text enriched with culturally relevant expressions. We build a dataset
+of user-generated Persian literary spanning 20 diverse topics and assess model
+outputs along four creativity dimensions-originality, fluency, flexibility, and
+elaboration-by adapting the Torrance Tests of Creative Thinking. To reduce
+evaluation costs, we adopt an LLM as a judge for automated scoring and validate
+its reliability against human judgments using intraclass correlation
+coefficients, observing strong agreement. In addition, we analyze the models'
+ability to understand and employ four core literary devices: simile, metaphor,
+hyperbole, and antithesis. Our results highlight both the strengths and
+limitations of LLMs in Persian literary text generation, underscoring the need
+for further refinement.",both,0,2025-09-22
+KPoEM: A Human-Annotated Dataset for Emotion Classification and RAG-Based Poetry Generation in Korean Modern Poetry,2025-09-04 06:45:39+00:00,http://arxiv.org/abs/2509.03932v2,"Iro Lim, Haein Ji, Byungjun Kim","cs.CL, cs.CY, cs.LG",poetry,"This study introduces KPoEM (Korean Poetry Emotion Mapping), a novel dataset that serves as a foundation for both emotion-centered analysis and generative applications in modern Korean poetry. Despite advancements in NLP, poetry remains underexplored due to its complex figurative language and cultural specificity. We constructed a multi-label dataset of 7,662 entries (7,007 line-level and 615 work-level), annotated with 44 fine-grained emotion categories from five influential Korean poets. The KPoEM emotion classification model, fine-tuned through a sequential strategy -- moving from general-purpose corpora to the specialized KPoEM dataset -- achieved an F1-micro score of 0.60, significantly outperforming previous models (0.43). The model demonstrates an enhanced ability to identify temporally and culturally specific emotional expressions while preserving core poetic sentiments. Furthermore, applying the structured emotion dataset to a RAG-based poetry generation model demonstrates the empirical feasibility of generating texts that reflect the emotional and cultural sensibilities of Korean literature. This integrated approach strengthens the connection between computational techniques and literary analysis, opening new pathways for quantitative emotion research and generative poetics. Overall, this study provides a foundation for advancing emotion-centered analysis and creation in modern Korean poetry.",arxiv,0,2025-09-04
+Benchmarking the Detection of LLMs-Generated Modern Chinese Poetry,2025-09-01 17:01:45+00:00,http://arxiv.org/abs/2509.01620v1,"Shanshan Wang, Junchao Wu, Fengying Ye, Jingming Yao, Lidia S. Chao, Derek F. Wong","cs.CL, cs.AI",poetry,"The rapid development of advanced large language models (LLMs) has made
+AI-generated text indistinguishable from human-written text. Previous work on
+detecting AI-generated text has made effective progress, but has not involved
+modern Chinese poetry. Due to the distinctive characteristics of modern Chinese
+poetry, it is difficult to identify whether a poem originated from humans or
+AI. The proliferation of AI-generated modern Chinese poetry has significantly
+disrupted the poetry ecosystem. Based on the urgency of identifying
+AI-generated poetry in the real Chinese world, this paper proposes a novel
+benchmark for detecting LLMs-generated modern Chinese poetry. We first
+construct a high-quality dataset, which includes both 800 poems written by six
+professional poets and 41,600 poems generated by four mainstream LLMs.
+Subsequently, we conduct systematic performance assessments of six detectors on
+this dataset. Experimental results demonstrate that current detectors cannot be
+used as reliable tools to detect modern Chinese poems generated by LLMs. The
+most difficult poetic features to detect are intrinsic qualities, especially
+style. The detection results verify the effectiveness and necessity of our
+proposed benchmark. Our work lays a foundation for future detection of
+AI-generated poetry.",,0,2025-09-01
+"Quantum-Enhanced Natural Language Generation: A Multi-Model Framework
+  with Hybrid Quantum-Classical Architectures",2025-08-29 05:20:18+00:00,http://arxiv.org/abs/2508.21332v1,"Chi-Sheng Chen, En-Jui Kuo","quant-ph, cs.CL, cs.LG",poetry,"This paper presents a comprehensive evaluation of quantum text generation
+models against traditional Transformer/MLP architectures, addressing the
+growing interest in quantum computing applications for natural language
+processing. We conduct systematic experiments comparing five distinct models:
+Transformer (baseline), Quantum Kernel Self-Attention Network (QKSAN), Quantum
+RWKV (QRWKV), and Quantum Attention Sequence Architecture (QASA) across five
+diverse datasets including simple sentences, short stories, quantum phrases,
+haiku poetry, and proverbs. Our evaluation employs multiple metrics including
+perplexity, BLEU scores, vocabulary diversity, repetition rates, and fluency
+measures to assess different aspects of text generation quality. The
+experimental results reveal that while traditional Transformer models maintain
+overall superiority with the lowest average perplexity (1.21) and highest
+BLEU-1 score (0.2895), quantum-inspired models demonstrate competitive
+performance in specific scenarios. Notably, QKSAN achieves a competitive BLEU-1
+score of 0.2800 while maintaining zero repetition rates, and QRWKV demonstrates
+perfect vocabulary diversity (Distinct-1 = 1.000) in certain tasks.",,0,2025-08-29
+"Attribution, Citation, and Quotation: A Survey of Evidence-based Text
+  Generation with Large Language Models",2025-08-21 09:36:35+00:00,http://arxiv.org/abs/2508.15396,"Tobias Schreieder, Tim Schopf, Michael Färber",,poetry,"The increasing adoption of large language models (LLMs) has been accompanied
+by growing concerns regarding their reliability and trustworthiness. As a
+result, a growing body of research focuses on evidence-based text generation
+with LLMs, aiming to link model outputs to supporting evidence to ensure
+traceability and verifiability. However, the field is fragmented due to
+inconsistent terminology, isolated evaluation practices, and a lack of unified
+benchmarks. To bridge this gap, we systematically analyze 134 papers, introduce
+a unified taxonomy of evidence-based text generation with LLMs, and investigate
+300 evaluation metrics across seven key dimensions. Thereby, we focus on
+approaches that use citations, attribution, or quotations for evidence-based
+text generation. Building on this, we examine the distinctive characteristics
+and representative methods in the field. Finally, we highlight open challenges
+and outline promising directions for future work.",hf,0,2025-08-21
+"From Plain Text to Poetic Form: Generating Metrically-Constrained
+  Sanskrit Verses",2025-06-01 03:35:46+00:00,http://arxiv.org/abs/2506.00815v1,"Manoj Balaji Jagadeeshan, Samarth Bhatia, Pretam Ray, Harshul Raj Surana, Akhil Rajeev P, Priya Mishra, Annarao Kulkarni, Ganesh Ramakrishnan, Prathosh AP, Pawan Goyal",cs.CL,poetry,"Recent advances in large language models (LLMs) have significantly improved
+natural language generation, including creative tasks like poetry composition.
+However, most progress remains concentrated in high-resource languages. This
+raises an important question: Can LLMs be adapted for structured poetic
+generation in a low-resource, morphologically rich language such as Sanskrit?
+In this work, we introduce a dataset designed for translating English prose
+into structured Sanskrit verse, with strict adherence to classical metrical
+patterns, particularly the Anushtub meter. We evaluate a range of generative
+models-both open-source and proprietary-under multiple settings. Specifically,
+we explore constrained decoding strategies and instruction-based fine-tuning
+tailored to metrical and semantic fidelity. Our decoding approach achieves over
+99% accuracy in producing syntactically valid poetic forms, substantially
+outperforming general-purpose models in meter conformity. Meanwhile,
+instruction-tuned variants show improved alignment with source meaning and
+poetic style, as supported by human assessments, albeit with marginal
+trade-offs in metrical precision.",,0,2025-06-01
+Chandomitra: Towards Generating Structured Sanskrit Poetry from Natural Language Inputs,2025-06-01 03:35:46+00:00,http://arxiv.org/abs/2506.00815v2,"Manoj Balaji Jagadeeshan, Samarth Bhatia, Pretam Ray, Harshul Raj Surana, Akhil Rajeev P, Priya Mishra, Annarao Kulkarni, Ganesh Ramakrishnan, Prathosh AP, Pawan Goyal",cs.CL,poetry,"Text Generation has achieved remarkable performance using large language models. It has also been recently well-studied that these large language models are capable of creative generation tasks but prominently for high-resource languages. This prompts a fundamental question: Is there a way to utilize these (large) language models for structured poetry generation in a low-resource language, such as Sanskrit? We present Chandomitra, an English input to structured Sanskrit Poetry translation dataset, specifically adhering to the Anushtubh meter. We benchmark various open and closed models, and scrutinize specialized techniques such as constrained decoding and instruction fine-tuning, for the proposed task. Our constrained decoding methodology achieves 99.86% syntactic accuracy in generating metrically valid Sanskrit poetry, outperforming GPT-4o (1-shot: 31.24%). Our best-performing instruction-tuned model, on the other hand, performs better in semantic coherence with the English input, at the expense of slightly lower syntactic accuracy. Human evaluation further reveals that instruction fine-tuned model is better able to capture the poetic aspects. Data and Code are available.",both,0,2025-06-01
+Creative Preference Optimization,2025-05-20 14:43:41+00:00,http://arxiv.org/abs/2505.14442,"Mete Ismayilzada, Antonio Laverghetta Jr., Simone A. Luchini, Reet Patel, Antoine Bosselut, Lonneke van der Plas, Roger Beaty",,poetry,"While Large Language Models (LLMs) have demonstrated impressive performance
+across natural language generation tasks, their ability to generate truly
+creative content-characterized by novelty, diversity, surprise, and
+quality-remains limited. Existing methods for enhancing LLM creativity often
+focus narrowly on diversity or specific tasks, failing to address creativity's
+multifaceted nature in a generalizable way. In this work, we propose Creative
+Preference Optimization (CrPO), a novel alignment method that injects signals
+from multiple creativity dimensions into the preference optimization objective
+in a modular fashion. We train and evaluate creativity-augmented versions of
+several models using CrPO and MuCE, a new large-scale human preference dataset
+spanning over 200,000 human-generated responses and ratings from more than 30
+psychological creativity assessments. Our models outperform strong baselines,
+including GPT-4o, on both automated and human evaluations, producing more
+novel, diverse, and surprising generations while maintaining high output
+quality. Additional evaluations on NoveltyBench further confirm the
+generalizability of our approach. Together, our results demonstrate that
+directly optimizing for creativity within preference frameworks is a promising
+direction for advancing the creative capabilities of LLMs without compromising
+output quality.",hf,0,2025-05-20
+Detecting Spelling and Grammatical Anomalies in Russian Poetry Texts,2025-05-07 15:27:59+00:00,http://arxiv.org/abs/2505.04507,Ilya Koziev,,poetry,"The quality of natural language texts in fine-tuning datasets plays a
+critical role in the performance of generative models, particularly in
+computational creativity tasks such as poem or song lyric generation. Fluency
+defects in generated poems significantly reduce their value. However, training
+texts are often sourced from internet-based platforms without stringent quality
+control, posing a challenge for data engineers to manage defect levels
+effectively.
+  To address this issue, we propose the use of automated linguistic anomaly
+detection to identify and filter out low-quality texts from training datasets
+for creative models. In this paper, we present a comprehensive comparison of
+unsupervised and supervised text anomaly detection approaches, utilizing both
+synthetic and human-labeled datasets. We also introduce the RUPOR dataset, a
+collection of Russian-language human-labeled poems designed for cross-sentence
+grammatical error detection, and provide the full evaluation code. Our work
+aims to empower the community with tools and insights to improve the quality of
+training datasets for generative models in creative domains.",hf,0,2025-05-07
+Cooking Up Creativity: Enhancing LLM Creativity through Structured Recombination,2025-04-29 11:13:06+00:00,http://arxiv.org/abs/2504.20643,"Moran Mizrahi, Chen Shani, Gabriel Stanovsky, Dan Jurafsky, Dafna Shahaf",,poetry,"Large Language Models (LLMs) excel at many tasks, yet they struggle to produce truly creative, diverse ideas. In this paper, we introduce a novel approach that enhances LLM creativity. We apply LLMs for translating between natural language and structured representations, and perform the core creative leap via cognitively inspired manipulations on these representations. Our notion of creativity goes beyond superficial token-level variations; rather, we recombine structured representations of existing ideas, enabling our system to effectively explore a more abstract landscape of ideas. We demonstrate our approach in the culinary domain with DishCOVER, a model that generates creative recipes. Experiments and domain-expert evaluations reveal that our outputs, which are mostly coherent and feasible, significantly surpass GPT-4o in terms of novelty and diversity, thus outperforming it in creative generation. We hope our work inspires further research into structured creativity in AI.",hf,0,2025-04-29
+Spark: A System for Scientifically Creative Idea Generation,2025-04-25 20:33:57+00:00,http://arxiv.org/abs/2504.20090,"Aishik Sanyal, Samuel Schapiro, Sumuk Shashidhar, Royce Moon, Lav R. Varshney, Dilek Hakkani-Tur",,poetry,"Recently, large language models (LLMs) have shown promising abilities to
+generate novel research ideas in science, a direction which coincides with many
+foundational principles in computational creativity (CC). In light of these
+developments, we present an idea generation system named Spark that couples
+retrieval-augmented idea generation using LLMs with a reviewer model named
+Judge trained on 600K scientific reviews from OpenReview. Our work is both a
+system demonstration and intended to inspire other CC researchers to explore
+grounding the generation and evaluation of scientific ideas within foundational
+CC principles. To this end, we release the annotated dataset used to train
+Judge, inviting other researchers to explore the use of LLMs for idea
+generation and creative evaluations.",hf,0,2025-04-25
+Measuring LLM Novelty As The Frontier Of Original And High-Quality Output,2025-04-13 00:48:58+00:00,http://arxiv.org/abs/2504.09389v2,"Vishakh Padmakumar, Chen Yueh-Han, Jane Pan, Valerie Chen, He He",cs.CL,poetry,"As large language models (LLMs) are increasingly used for ideation and scientific discovery, it is important to evaluate their ability to generate novel output. Prior work evaluates novelty as originality with respect to model training data, but original outputs may be of low quality. In contrast, non-expert judges more reliably score quality but may favor memorized outputs, limiting the reliability of human preference as a metric. We introduce a new novelty metric for LLM generations that balances originality and quality -- the harmonic mean of the fraction of \ngrams unseen during training and a task-specific quality score. Using this framework, we identify trends that affect the novelty of generations from three families of open-data models (OLMo, OLMo-2, and Pythia) on three creative tasks: story completion, poetry writing, and creative tool use. We find that model-generated text from some base LLMs is less novel than human-written text from the internet. However, increasing model scale and post-training reliably improves novelty due to improvements in output quality. We also find that improving the base model at the same scale (\eg OLMo 7B to OLMo-2 7B) leads to higher novelty due to higher originality. Finally, we observe that inference-time methods, such as prompting and providing novel in-context examples, have a much smaller effect on novelty, often increasing originality at the expense of quality. This highlights the need for further research into more effective elicitation strategies as we use models for creative applications.",arxiv,0,2025-04-13
+"Beyond Memorization: Mapping the Originality-Quality Frontier of
+  Language Models",2025-04-13 00:48:58+00:00,http://arxiv.org/abs/2504.09389v1,"Vishakh Padmakumar, Chen Yueh-Han, Jane Pan, Valerie Chen, He He",cs.CL,poetry,"As large language models (LLMs) are increasingly used for ideation and
+scientific discovery, it is important to evaluate their ability to generate
+novel output. Prior work evaluates novelty as the originality with respect to
+training data, but original outputs can be low quality. In contrast, non-expert
+judges may favor high-quality but memorized outputs, limiting the reliability
+of human preference as a metric. We propose a new novelty metric for LLM
+generations that balances originality and quality -- the harmonic mean of the
+fraction of \ngrams unseen during training and a task-specific quality score.
+We evaluate the novelty of generations from two families of open-data models
+(OLMo and Pythia) on three creative tasks: story completion, poetry writing,
+and creative tool use. We find that LLM generated text is less novel than human
+written text. To elicit more novel outputs, we experiment with various
+inference-time methods, which reveals a trade-off between originality and
+quality. While these methods can boost novelty, they do so by increasing
+originality at the expense of quality. In contrast, increasing model size or
+applying post-training reliably shifts the Pareto frontier, highlighting that
+starting with a stronger base model is a more effective way to improve novelty.",,0,2025-04-13
+"Modifying Large Language Model Post-Training for Diverse Creative
+  Writing",2025-03-21 13:21:45+00:00,http://arxiv.org/abs/2503.17126,"John Joon Young Chung, Vishakh Padmakumar, Melissa Roemmele, Yuqian Sun, Max Kreminski",,poetry,"As creative writing tasks do not have singular correct answers, large
+language models (LLMs) trained to perform these tasks should be able to
+generate diverse valid outputs. However, LLM post-training often focuses on
+improving generation quality but neglects to facilitate output diversity.
+Hence, in creative writing generation, we investigate post-training approaches
+to promote both output diversity and quality. Our core idea is to include
+deviation -- the degree of difference between a training sample and all other
+samples with the same prompt -- in the training objective to facilitate
+learning from rare high-quality instances. By adopting our approach to direct
+preference optimization (DPO) and odds ratio preference optimization (ORPO), we
+demonstrate that we can promote the output diversity of trained models while
+minimally decreasing quality. Our best model with 8B parameters could achieve
+on-par diversity as a human-created dataset while having output quality similar
+to the best instruction-tuned models we examined, GPT-4o and DeepSeek-R1. We
+further validate our approaches with a human evaluation, an ablation, and a
+comparison to an existing diversification approach, DivPO.",hf,36,2025-03-21
+"Fùxì: A Benchmark for Evaluating Language Models on Ancient Chinese
+  Text Understanding and Generation",2025-03-20 04:26:40+00:00,http://arxiv.org/abs/2503.15837v1,"Shangqing Zhao, Yuhao Zhou, Yupei Ren, Zhe Chen, Chenghao Jia, Fang Zhe, Zhaogaung Long, Shu Liu, Man Lan","cs.CL, cs.AI",poetry,"Ancient Chinese text processing presents unique challenges for large language
+models (LLMs) due to its distinct linguistic features, complex structural
+constraints, and rich cultural context. While existing benchmarks have
+primarily focused on evaluating comprehension through multiple-choice
+questions, there remains a critical gap in assessing models' generative
+capabilities in classical Chinese. We introduce F\`ux\`i, a comprehensive
+benchmark that evaluates both understanding and generation capabilities across
+21 diverse tasks. Our benchmark distinguishes itself through three key
+contributions: (1) balanced coverage of both comprehension and generation
+tasks, including novel tasks like poetry composition and couplet completion,
+(2) specialized evaluation metrics designed specifically for classical Chinese
+text generation, combining rule-based verification with fine-tuned LLM
+evaluators, and (3) a systematic assessment framework that considers both
+linguistic accuracy and cultural authenticity. Through extensive evaluation of
+state-of-the-art LLMs, we reveal significant performance gaps between
+understanding and generation tasks, with models achieving promising results in
+comprehension but struggling considerably in generation tasks, particularly
+those requiring deep cultural knowledge and adherence to classical formats. Our
+findings highlight the current limitations in ancient Chinese text processing
+and provide insights for future model development. The benchmark, evaluation
+toolkit, and baseline results are publicly available to facilitate research in
+this domain.",,0,2025-03-20
+"Automated Evaluation of Meter and Rhyme in Russian Generative and
+  Human-Authored Poetry",2025-02-28 10:39:07+00:00,http://arxiv.org/abs/2502.20931v1,Ilya Koziev,cs.CL,poetry,"Generative poetry systems require effective tools for data engineering and
+automatic evaluation, particularly to assess how well a poem adheres to
+versification rules, such as the correct alternation of stressed and unstressed
+syllables and the presence of rhymes.
+  In this work, we introduce the Russian Poetry Scansion Tool library designed
+for stress mark placement in Russian-language syllabo-tonic poetry, rhyme
+detection, and identification of defects of poeticness. Additionally, we
+release RIFMA -- a dataset of poem fragments spanning various genres and forms,
+annotated with stress marks. This dataset can be used to evaluate the
+capability of modern large language models to accurately place stress marks in
+poetic texts.
+  The published resources provide valuable tools for researchers and
+practitioners in the field of creative generative AI, facilitating advancements
+in the development and evaluation of generative poetry systems.",,0,2025-02-28
+Automated Evaluation of Meter and Rhyme in Russian Generative and Human-Authored Poetry,2025-02-28 10:39:07+00:00,http://arxiv.org/abs/2502.20931v2,Ilya Koziev,cs.CL,poetry,"Generative poetry systems require effective tools for data engineering and automatic evaluation, particularly to assess how well a poem adheres to versification rules, such as the correct alternation of stressed and unstressed syllables and the presence of rhymes.
+  In this work, we introduce the Russian Poetry Scansion Tool library designed for stress mark placement in Russian-language syllabo-tonic poetry, rhyme detection, and identification of defects of poeticness. Additionally, we release RIFMA -- a dataset of poem fragments spanning various genres and forms, annotated with stress marks. This dataset can be used to evaluate the capability of modern large language models to accurately place stress marks in poetic texts.
+  The published resources provide valuable tools for researchers and practitioners in the field of creative generative AI, facilitating advancements in the development and evaluation of generative poetry systems.",arxiv,0,2025-02-28
+"Where is my Glass Slipper? AI, Poetry and Art",2025-02-26 14:57:03+00:00,http://arxiv.org/abs/2503.05781v1,Anastasios P. Pagiaslis,"cs.CY, cs.CL, I.2.7; J.5",poetry,"This literature review interrogates the intersections between artificial
+intelligence, poetry, and art, offering a comprehensive exploration of both
+historical evolution and current debates in digital creative practices. It
+traces the development of computer-generated poetry from early template-based
+systems to generative models, critically assessing evaluative frameworks such
+as adaptations of the Turing Test, the FACE model, and ProFTAP. It also
+examines how these frameworks endeavour to measure creativity, semantic
+coherence, and cultural relevance in AI-generated texts, whilst highlighting
+the persistent challenges in replicating the nuance of human poetic expression.
+  The review contributes a Marketing Theory discussion that deconstructs the
+figurative marketing narratives employed by AI companies, which utilise
+sanitised language and anthropomorphic metaphors to humanise their
+technologies. This discussion reveals the reductive nature of such narratives
+and underscores the tension between algorithmic precision and the realities of
+human creativity.The review also incorporates an auto-ethnographic account that
+offers a self-reflexive commentary on its own composition. By acknowledging the
+use of AI in crafting this review, the auto-ethnographic account destabilises
+conventional notions of authorship and objectivity, resonating with
+deconstruction and challenging logocentric assumptions in academic discourse.
+  Ultimately, the review calls for a re-evaluation of creative processes that
+recognises the interdependence of technological innovation and human
+subjectivity. It advocates for interdisciplinary dialogue addressing ethical,
+cultural, and philosophical concerns, while reimagining the boundaries of
+artistic production.",,0,2025-02-26
+TALKPLAY: Multimodal Music Recommendation with Large Language Models,2025-02-19 13:28:20+00:00,http://arxiv.org/abs/2502.13713v4,"Seungheon Doh, Keunwoo Choi, Juhan Nam","cs.IR, cs.SD, eess.AS",poetry,"We present TALKPLAY, a novel multimodal music recommendation system that reformulates recommendation as a token generation problem using large language models (LLMs). By leveraging the instruction-following and natural language generation capabilities of LLMs, our system effectively recommends music from diverse user queries while generating contextually relevant responses. While pretrained LLMs are primarily designed for text modality, TALKPLAY extends their scope through two key innovations: a multimodal music tokenizer that encodes audio features, lyrics, metadata, semantic tags, and playlist co-occurrence signals; and a vocabulary expansion mechanism that enables unified processing and generation of both linguistic and music-relevant tokens. By integrating the recommendation system directly into the LLM architecture, TALKPLAY transforms conventional systems by: (1) unifying previous two-stage conversational recommendation systems (recommendation engines and dialogue managers) into a cohesive end-to-end system, (2) effectively utilizing long conversational context for recommendation while maintaining strong performance in extended multi-turn interactions, and (3) generating natural language responses for seamless user interaction. Our qualitative and quantitative evaluation demonstrates that TALKPLAY significantly outperforms unimodal approaches based solely on text or listening history in both recommendation performance and conversational naturalness.",arxiv,0,2025-02-19
+An Annotated Reading of 'The Singer of Tales' in the LLM Era,2025-02-07 18:26:01+00:00,http://arxiv.org/abs/2502.05148v1,Kush R. Varshney,"cs.CY, cs.CL",poetry,"The Parry-Lord oral-formulaic theory was a breakthrough in understanding how oral narrative poetry is learned, composed, and transmitted by illiterate bards. In this paper, we provide an annotated reading of the mechanism underlying this theory from the lens of large language models (LLMs) and generative artificial intelligence (AI). We point out the the similarities and differences between oral composition and LLM generation, and comment on the implications to society and AI policy.",arxiv,0,2025-02-07
+"Song Form-aware Full-Song Text-to-Lyrics Generation with Multi-Level
+  Granularity Syllable Count Control",2024-11-20 07:57:58+00:00,http://arxiv.org/abs/2411.13100,"Yunkee Chae, Eunsik Shin, Hwang Suntae, Seungryeol Paik, Kyogu Lee",,poetry,"Lyrics generation presents unique challenges, particularly in achieving
+precise syllable control while adhering to song form structures such as verses
+and choruses. Conventional line-by-line approaches often lead to unnatural
+phrasing, underscoring the need for more granular syllable management. We
+propose a framework for lyrics generation that enables multi-level syllable
+control at the word, phrase, line, and paragraph levels, aware of song form.
+Our approach generates complete lyrics conditioned on input text and song form,
+ensuring alignment with specified syllable constraints. Generated lyrics
+samples are available at: https://tinyurl.com/lyrics9999",hf,0,2024-11-20
+"Evaluating Creative Short Story Generation in Humans and Large Language
+  Models",2024-11-04 17:40:39+00:00,http://arxiv.org/abs/2411.02316,"Mete Ismayilzada, Claire Stevenson, Lonneke van der Plas",,poetry,"Story-writing is a fundamental aspect of human imagination, relying heavily
+on creativity to produce narratives that are novel, effective, and surprising.
+While large language models (LLMs) have demonstrated the ability to generate
+high-quality stories, their creative story-writing capabilities remain
+under-explored. In this work, we conduct a systematic analysis of creativity in
+short story generation across 60 LLMs and 60 people using a five-sentence
+cue-word-based creative story-writing task. We use measures to automatically
+evaluate model- and human-generated stories across several dimensions of
+creativity, including novelty, surprise, diversity, and linguistic complexity.
+We also collect creativity ratings and Turing Test classifications from
+non-expert and expert human raters and LLMs. Automated metrics show that LLMs
+generate stylistically complex stories, but tend to fall short in terms of
+novelty, surprise and diversity when compared to average human writers. Expert
+ratings generally coincide with automated metrics. However, LLMs and
+non-experts rate LLM stories to be more creative than human-generated stories.
+We discuss why and how these differences in ratings occur, and their
+implications for both human and artificial creativity.",hf,1,2024-11-04
+Reducing the Scope of Language Models,2024-10-28 23:06:57+00:00,http://arxiv.org/abs/2410.21597v3,"David Yunis, Siyu Huo, Chulaka Gunasekara, Danish Contractor","cs.CL, cs.AI, cs.LG",poetry,"Large language models (LLMs) are deployed in a wide variety of user-facing applications. Typically, these deployments have some specific purpose, like answering questions grounded on documentation or acting as coding assistants, but they require general language understanding. In such deployments, LLMs should respond only to queries that align with the intended purpose and reject all other requests, such as generating poetry or answering questions about physics, a task we refer to as `scoping'. We conduct a comprehensive empirical evaluation of various methods, ranging from prompting, fine-tuning to preference learning and the recently proposed general alignment technique known as Circuit Breakers (CB). Across three families of language models and a broad variety of tasks, we show that it is possible to scope language models. We examine scoping for multiple topics, and fine-grained topics. We ablate diversity of irrelevant queries, layer different techniques, conduct adversarial evaluations and more. Among other results, we find that when diverse examples of irrelevant queries are available, simple supervised fine-tuning produces the best results, but when such diversity is low, Circuit Breakers perform quite well. One can often get the benefits of both methods by layering them in succession. We intend our study to serve as a practitioner's guide to scoping LLMs.",arxiv,0,2024-10-28
+LLM Tree Search,2024-10-24 19:38:50+00:00,http://arxiv.org/abs/2410.19117,Dylan Wilson,,poetry,"This project aims to investigate a novel sequence generation method inspired
+by the AlphaGo paradigm, adapting it for use with large language models (LLMs).
+The proposed approach involves creating search trees of different possible
+completions and evaluating these completions based on model confidence. By
+considering various paths in the search tree and scoring them according to the
+model's confidence in each completion, we can generate diverse and high-quality
+sequences. This research explores the implementation of this paradigm by using
+confidence as a proxy for response quality akin to beam search
+vijayakumar2016diverse. The primary goal of this paper is to outline
+the paradigm and demonstrate its potential, rather than focusing on achieving
+perfect results. The paper will outline the reasons why we believe this
+paradigm has the potential to improve LLMs in the following manners: 1)
+increase output quality, 2) decrease errors, 3) eliminate or reduce the
+compound error problems, 4) generate diverse and creative completions, 5) allow
+for iterative problem-solving, and 6) self-training. We expect this approach to
+yield a set of diverse and coherent sequences, offering insights into balancing
+exploration and exploitation in sequence generation. Potential applications
+include creative text generation tasks, such as storytelling and content
+creation, as well as other natural language processing domains, like machine
+translation and automated summarization. The goal is that the model will be far
+more effective as it will be able to consider many possible variations allowing
+it to find the ideal completion. This research aims to contribute to the
+understanding of effective search strategies in sequence generation and their
+impact on generating high-quality, varied textual outputs.",hf,1,2024-10-24
+Benchmarking Foundation Models on Exceptional Cases: Dataset Creation and Validation,2024-10-23 16:24:23+00:00,http://arxiv.org/abs/2410.18001v2,"Suho Kang, Jungyang Park, Joonseo Ha, SoMin Kim, JinHyeong Kim, Subeen Park, Kyungwoo Song",cs.AI,poetry,"Foundation models (FMs) have achieved significant success across various tasks, leading to research on benchmarks for reasoning abilities. However, there is a lack of studies on FMs performance in exceptional scenarios, which we define as out-of-distribution (OOD) reasoning tasks. This paper is the first to address these cases, developing a novel dataset for evaluation of FMs across multiple modalities, including graphic novels, calligraphy, news articles, and lyrics. It includes tasks for instance classification, character recognition, token prediction, and text generation. The paper also proposes prompt engineering techniques like Chain-of-Thought (CoT) and CoT+Few-Shot to enhance performance. Validation of FMs using various methods revealed improvements. The code repository is accessible at: https://github.com/MLAI-Yonsei/ExceptionalBenchmark",arxiv,0,2024-10-23
+"Benchmarking Foundation Models on Exceptional Cases: Dataset Creation
+  and Validation",2024-10-23 16:24:23+00:00,http://arxiv.org/abs/2410.18001v1,"Suho Kang, Jungyang Park, Joonseo Ha, SoMin Kim, JinHyeong Kim, Subeen Park, Kyungwoo Song",cs.AI,poetry,"Foundation models (FMs) have achieved significant success across various
+tasks, leading to research on benchmarks for reasoning abilities. However,
+there is a lack of studies on FMs performance in exceptional scenarios, which
+we define as out-of-distribution (OOD) reasoning tasks. This paper is the first
+to address these cases, developing a novel dataset for evaluation of FMs across
+multiple modalities, including graphic novels, calligraphy, news articles, and
+lyrics. It includes tasks for instance classification, character recognition,
+token prediction, and text generation. The paper also proposes prompt
+engineering techniques like Chain-of-Thought (CoT) and CoT+Few-Shot to enhance
+performance. Validation of FMs using various methods revealed improvements. The
+code repository is accessible at:
+https://github.com/MLAI-Yonsei/ExceptionalBenchmark",,0,2024-10-23
+Does ChatGPT Have a Poetic Style?,2024-10-20 06:01:34+00:00,http://arxiv.org/abs/2410.15299v2,"Melanie Walsh, Anna Preus, Elizabeth Gronski",cs.CL,poetry,"Generating poetry has become a popular application of LLMs, perhaps
+especially of OpenAI's widely-used chatbot ChatGPT. What kind of poet is
+ChatGPT? Does ChatGPT have its own poetic style? Can it successfully produce
+poems in different styles? To answer these questions, we prompt the GPT-3.5 and
+GPT-4 models to generate English-language poems in 24 different poetic forms
+and styles, about 40 different subjects, and in response to 3 different writing
+prompt templates. We then analyze the resulting 5.7k poems, comparing them to a
+sample of 3.7k poems from the Poetry Foundation and the Academy of American
+Poets. We find that the GPT models, especially GPT-4, can successfully produce
+poems in a range of both common and uncommon English-language forms in
+superficial yet noteworthy ways, such as by producing poems of appropriate
+lengths for sonnets (14 lines), villanelles (19 lines), and sestinas (39
+lines). But the GPT models also exhibit their own distinct stylistic
+tendencies, both within and outside of these specific forms. Our results show
+that GPT poetry is much more constrained and uniform than human poetry, showing
+a strong penchant for rhyme, quatrains (4-line stanzas), iambic meter,
+first-person plural perspectives (we, us, our), and specific vocabulary like
+""heart,"" ""embrace,"" ""echo,"" and ""whisper.""",,0,2024-10-20
+SongCreator: Lyrics-based Universal Song Generation,2024-09-09 19:37:07+00:00,http://arxiv.org/abs/2409.06029,"Shun Lei, Yixuan Zhou, Boshi Tang, Max W. Y. Lam, Feng Liu, Hangyu Liu, Jingcheng Wu, Shiyin Kang, Zhiyong Wu, Helen Meng",,poetry,"Music is an integral part of human culture, embodying human intelligence and
+creativity, of which songs compose an essential part. While various aspects of
+song generation have been explored by previous works, such as singing voice,
+vocal composition and instrumental arrangement, etc., generating songs with
+both vocals and accompaniment given lyrics remains a significant challenge,
+hindering the application of music generation models in the real world. In this
+light, we propose SongCreator, a song-generation system designed to tackle this
+challenge. The model features two novel designs: a meticulously designed
+dual-sequence language model (DSLM) to capture the information of vocals and
+accompaniment for song generation, and an additional attention mask strategy
+for DSLM, which allows our model to understand, generate and edit songs, making
+it suitable for various song-related generation tasks. Extensive experiments
+demonstrate the effectiveness of SongCreator by achieving state-of-the-art or
+competitive performances on all eight tasks. Notably, it surpasses previous
+works by a large margin in lyrics-to-song and lyrics-to-vocals. Additionally,
+it is able to independently control the acoustic conditions of the vocals and
+accompaniment in the generated song through different prompts, exhibiting its
+potential applicability. Our samples are available at
+https://songcreator.github.io/.",hf,22,2024-09-09
+LLM-based multi-agent poetry generation in non-cooperative environments,2024-09-05 16:12:29+00:00,http://arxiv.org/abs/2409.03659v2,"Ran Zhang, Steffen Eger",cs.CL,poetry,"Despite substantial progress of large language models (LLMs) for automatic
+poetry generation, the generated poetry lacks diversity while the training
+process differs greatly from human learning. Under the rationale that the
+learning process of the poetry generation systems should be more human-like and
+their output more diverse and novel, we introduce a framework based on social
+learning where we emphasize non-cooperative interactions besides cooperative
+interactions to encourage diversity. Our experiments are the first attempt at
+LLM-based multi-agent systems in non-cooperative environments for poetry
+generation employing both TRAINING-BASED agents (GPT-2) and PROMPTING-BASED
+agents (GPT-3 and GPT-4). Our evaluation based on 96k generated poems shows
+that our framework benefits the poetry generation process for TRAINING-BASED
+agents resulting in 1) a 3.0-3.7 percentage point (pp) increase in diversity
+and a 5.6-11.3 pp increase in novelty according to distinct and novel n-grams.
+The generated poetry from TRAINING-BASED agents also exhibits group divergence
+in terms of lexicons, styles and semantics. PROMPTING-BASED agents in our
+framework also benefit from non-cooperative environments and a more diverse
+ensemble of models with non-homogeneous agents has the potential to further
+enhance diversity, with an increase of 7.0-17.5 pp according to our
+experiments. However, PROMPTING-BASED agents show a decrease in lexical
+diversity over time and do not exhibit the group-based divergence intended in
+the social network. Our paper argues for a paradigm shift in creative tasks
+such as automatic poetry generation to include social learning processes (via
+LLM-based agent modeling) similar to human interaction.",,0,2024-09-05
+Negation Blindness in Large Language Models: Unveiling the NO Syndrome in Image Generation,2024-08-27 14:40:16+00:00,http://arxiv.org/abs/2409.00105v2,"Mohammad Nadeem, Shahab Saquib Sohail, Erik Cambria, Björn W. Schuller, Amir Hussain","cs.CL, cs.AI, cs.LG",poetry,"Foundational Large Language Models (LLMs) have changed the way we perceive technology. They have been shown to excel in tasks ranging from poem writing and coding to essay generation and puzzle solving. With the incorporation of image generation capability, they have become more comprehensive and versatile AI tools. At the same time, researchers are striving to identify the limitations of these tools to improve them further. Currently identified flaws include hallucination, biases, and bypassing restricted commands to generate harmful content. In the present work, we have identified a fundamental limitation related to the image generation ability of LLMs, and termed it The NO Syndrome. This negation blindness refers to LLMs inability to correctly comprehend NO related natural language prompts to generate the desired images. Interestingly, all tested LLMs including GPT-4, Gemini, and Copilot were found to be suffering from this syndrome. To demonstrate the generalization of this limitation, we carried out simulation experiments and conducted entropy-based and benchmark statistical analysis tests on various LLMs in multiple languages, including English, Hindi, and French. We conclude that the NO syndrome is a significant flaw in current LLMs that needs to be addressed. A related finding of this study showed a consistent discrepancy between image and textual responses as a result of this NO syndrome. We posit that the introduction of a negation context-aware reinforcement learning based feedback loop between the LLMs textual response and generated image could help ensure the generated text is based on both the LLMs correct contextual understanding of the negation query and the generated visual output.",arxiv,0,2024-08-27
+Controllable Text Generation for Large Language Models: A Survey,2024-08-22 17:59:04+00:00,http://arxiv.org/abs/2408.12599,"Xun Liang, Hanyu Wang, Yezhaohui Wang, Shichao Song, Jiawei Yang, Simin Niu, Jie Hu, Dan Liu, Shunyu Yao, Feiyu Xiong, Zhiyu Li",,poetry,"In Natural Language Processing (NLP), Large Language Models (LLMs) have
+demonstrated high text generation quality. However, in real-world applications,
+LLMs must meet increasingly complex requirements. Beyond avoiding misleading or
+inappropriate content, LLMs are also expected to cater to specific user needs,
+such as imitating particular writing styles or generating text with poetic
+richness. These varied demands have driven the development of Controllable Text
+Generation (CTG) techniques, which ensure that outputs adhere to predefined
+control conditions--such as safety, sentiment, thematic consistency, and
+linguistic style--while maintaining high standards of helpfulness, fluency, and
+diversity.
+  This paper systematically reviews the latest advancements in CTG for LLMs,
+offering a comprehensive definition of its core concepts and clarifying the
+requirements for control conditions and text quality. We categorize CTG tasks
+into two primary types: content control and attribute control. The key methods
+are discussed, including model retraining, fine-tuning, reinforcement learning,
+prompt engineering, latent space manipulation, and decoding-time intervention.
+We analyze each method's characteristics, advantages, and limitations,
+providing nuanced insights for achieving generation control. Additionally, we
+review CTG evaluation methods, summarize its applications across domains, and
+address key challenges in current research, including reduced fluency and
+practicality. We also propose several appeals, such as placing greater emphasis
+on real-world applications in future research. This paper aims to offer
+valuable guidance to researchers and developers in the field. Our reference
+list and Chinese version are open-sourced at
+https://github.com/IAAR-Shanghai/CTGSurvey.",hf,65,2024-08-22
+Rhyme-aware Chinese lyric generator based on GPT,2024-08-19 16:17:20+00:00,http://arxiv.org/abs/2408.10130v1,"Yixiao Yuan, Yangchen Huang, Yu Ma, Xinjin Li, Zhenglin Li, Yiming Shi, Huapeng Zhou","cs.CL, cs.AI",poetry,"Neural language representation models such as GPT, pre-trained on large-scale
+corpora, can effectively capture rich semantic patterns from plain text and be
+fine-tuned to consistently improve natural language generation performance.
+However, existing pre-trained language models used to generate lyrics rarely
+consider rhyme information, which is crucial in lyrics. Using a pre-trained
+model directly results in poor performance. To enhance the rhyming quality of
+generated lyrics, we incorporate integrated rhyme information into our model,
+thereby improving lyric generation performance.",,0,2024-08-19
+"Improving Structural Diversity of Blackbox LLMs via
+  Chain-of-Specification Prompting",2024-08-12 14:34:06+00:00,http://arxiv.org/abs/2408.06186v1,"Halley Young, Yimeng Zeng, Jacob Gardner, Osbert Bastani","cs.CL, cs.LG",poetry,"The capability to generate diverse text is a key challenge facing large
+language models (LLMs). Thus far, diversity has been studied via metrics such
+as $n$-gram diversity or diversity of BERT embeddings. However, for these kinds
+of diversity, the user has little control over the dimensions along which
+diversity is considered. For example, in the poetry domain, one might desire
+diversity in terms of rhyme and meter, whereas in the code domain, one might
+desire diversity in terms of the kinds of expressions used to solve a problem.
+We propose a diversity metric called structural diversity, where the user
+provides a mapping from generated text to features capturing the kinds of
+diversity that they care about. In addition, we propose a novel strategy called
+chain-of-specification (CoS) prompting for improving diversity by first having
+the LLM generate a specification encoding one instance of structural features,
+and then prompting the LLM to generate text that satisfies these features;
+notably, our strategy works with blackbox LLMs. In our experiments, we show
+that for structural diversity in the poetry and code domains, CoS significantly
+improves diversity compared to several baselines.",,0,2024-08-12
+Evaluating Diversity in Automatic Poetry Generation,2024-06-21 16:03:21+00:00,http://arxiv.org/abs/2406.15267v1,"Yanran Chen, Hannes Gröner, Sina Zarrieß, Steffen Eger",cs.CL,poetry,"Natural Language Generation (NLG), and more generally generative AI, are
+among the currently most impactful research fields. Creative NLG, such as
+automatic poetry generation, is a fascinating niche in this area. While most
+previous research has focused on forms of the Turing test when evaluating
+automatic poetry generation - can humans distinguish between automatic and
+human generated poetry - we evaluate the diversity of automatically generated
+poetry, by comparing distributions of generated poetry to distributions of
+human poetry along structural, lexical, semantic and stylistic dimensions,
+assessing different model types (word vs. character-level, general purpose LLMs
+vs. poetry-specific models), including the very recent LLaMA3, and types of
+fine-tuning (conditioned vs. unconditioned). We find that current automatic
+poetry systems are considerably underdiverse along multiple dimensions - they
+often do not rhyme sufficiently, are semantically too uniform and even do not
+match the length distribution of human poetry. Our experiments reveal, however,
+that style-conditioning and character-level modeling clearly increases
+diversity across virtually all dimensions we explore. Our identified
+limitations may serve as the basis for more genuinely diverse future poetry
+generation models.",,0,2024-06-21
+Evaluating Diversity in Automatic Poetry Generation,2024-06-21 16:03:21+00:00,http://arxiv.org/abs/2406.15267v2,"Yanran Chen, Hannes Gröner, Sina Zarrieß, Steffen Eger",cs.CL,poetry,"Natural Language Generation (NLG), and more generally generative AI, are among the currently most impactful research fields. Creative NLG, such as automatic poetry generation, is a fascinating niche in this area. While most previous research has focused on forms of the Turing test when evaluating automatic poetry generation -- can humans distinguish between automatic and human generated poetry -- we evaluate the diversity of automatically generated poetry (with a focus on quatrains), by comparing distributions of generated poetry to distributions of human poetry along structural, lexical, semantic and stylistic dimensions, assessing different model types (word vs. character-level, general purpose LLMs vs. poetry-specific models), including the very recent LLaMA3-8B, and types of fine-tuning (conditioned vs. unconditioned). We find that current automatic poetry systems are considerably underdiverse along multiple dimensions -- they often do not rhyme sufficiently, are semantically too uniform and even do not match the length distribution of human poetry. Our experiments reveal, however, that style-conditioning and character-level modeling clearly increases diversity across virtually all dimensions we explore. Our identified limitations may serve as the basis for more genuinely diverse future poetry generation models.",arxiv,0,2024-06-21
+GPT Czech Poet: Generation of Czech Poetic Strophes with Language Models,2024-06-18 06:19:45+00:00,http://arxiv.org/abs/2407.12790v1,"Michal Chudoba, Rudolf Rosa",cs.CL,poetry,"High-quality automated poetry generation systems are currently only available
+for a small subset of languages. We introduce a new model for generating poetry
+in Czech language, based on fine-tuning a pre-trained Large Language Model. We
+demonstrate that guiding the generation process by explicitly specifying
+strophe parameters within the poem text strongly improves the effectiveness of
+the model. We also find that appropriate tokenization is crucial, showing that
+tokenization methods based on syllables or individual characters instead of
+subwords prove superior in generating poetic strophes. We further enhance the
+results by introducing \textit{Forced~generation}, adding explicit
+specifications of meter and verse parameters at inference time based on the
+already generated text. We evaluate a range of setups, showing that our
+proposed approach achieves high accuracies in rhyming and metric aspects of
+formal quality of the generated poems.",both,0,2024-06-18
+Poetry2Image: An Iterative Correction Framework for Images Generated from Chinese Classical Poetry,2024-06-15 19:45:08+00:00,http://arxiv.org/abs/2407.06196v1,"Jing Jiang, Yiran Ling, Binzhu Li, Pengxiang Li, Junming Piao, Yu Zhang","cs.CV, cs.AI",poetry,"Text-to-image generation models often struggle with key element loss or semantic confusion in tasks involving Chinese classical poetry.Addressing this issue through fine-tuning models needs considerable training costs. Additionally, manual prompts for re-diffusion adjustments need professional knowledge. To solve this problem, we propose Poetry2Image, an iterative correction framework for images generated from Chinese classical poetry. Utilizing an external poetry dataset, Poetry2Image establishes an automated feedback and correction loop, which enhances the alignment between poetry and image through image generation models and subsequent re-diffusion modifications suggested by large language models (LLM). Using a test set of 200 sentences of Chinese classical poetry, the proposed method--when integrated with five popular image generation models--achieves an average element completeness of 70.63%, representing an improvement of 25.56% over direct image generation. In tests of semantic correctness, our method attains an average semantic consistency of 80.09%. The study not only promotes the dissemination of ancient poetry culture but also offers a reference for similar non-fine-tuning methods to enhance LLM generation.",arxiv,0,2024-06-15
+The Importance of Directional Feedback for LLM-based Optimizers,2024-05-26 05:22:35+00:00,http://arxiv.org/abs/2405.16434,"Allen Nie, Ching-An Cheng, Andrey Kolobov, Adith Swaminathan",,poetry,"We study the potential of using large language models (LLMs) as an
+interactive optimizer for solving maximization problems in a text space using
+natural language and numerical feedback. Inspired by the classical optimization
+literature, we classify the natural language feedback into directional and
+non-directional, where the former is a generalization of the first-order
+feedback to the natural language space. We find that LLMs are especially
+capable of optimization when they are provided with {directional feedback}.
+Based on this insight, we design a new LLM-based optimizer that synthesizes
+directional feedback from the historical optimization trace to achieve reliable
+improvement over iterations. Empirically, we show our LLM-based optimizer is
+more stable and efficient in solving optimization problems, from maximizing
+mathematical functions to optimizing prompts for writing poems, compared with
+existing techniques.",hf,1,2024-05-26
+"Encoder-Decoder Framework for Interactive Free Verses with Generation
+  with Controllable High-Quality Rhyming",2024-05-08 16:13:40+00:00,http://arxiv.org/abs/2405.05176,"Tommaso Pasini, Alejo López-Ávila, Husam Quteineh, Gerasimos Lampouras, Jinhua Du, Yubing Wang, Ze Li, Yusen Sun",,poetry,"Composing poetry or lyrics involves several creative factors, but a
+challenging aspect of generation is the adherence to a more or less strict
+metric and rhyming pattern. To address this challenge specifically, previous
+work on the task has mainly focused on reverse language modeling, which brings
+the critical selection of each rhyming word to the forefront of each verse. On
+the other hand, reversing the word order requires that models be trained from
+scratch with this task-specific goal and cannot take advantage of transfer
+learning from a Pretrained Language Model (PLM). We propose a novel fine-tuning
+approach that prepends the rhyming word at the start of each lyric, which
+allows the critical rhyming decision to be made before the model commits to the
+content of the lyric (as during reverse language modeling), but maintains
+compatibility with the word order of regular PLMs as the lyric itself is still
+generated in left-to-right order. We conducted extensive experiments to compare
+this fine-tuning against the current state-of-the-art strategies for rhyming,
+finding that our approach generates more readable text and better rhyming
+capabilities. Furthermore, we furnish a high-quality dataset in English and 12
+other languages, analyse the approach's feasibility in a multilingual context,
+provide extensive experimental results shedding light on good and bad practices
+for lyrics generation, and propose metrics to compare methods in the future.",hf,0,2024-05-08
+MUGC: Machine Generated versus User Generated Content Detection,2024-03-28 07:33:53+00:00,http://arxiv.org/abs/2403.19725v1,"Yaqi Xie, Anjali Rawal, Yujing Cen, Dixuan Zhao, Sunil K Narang, Shanu Sushmita","cs.CL, cs.AI, cs.LG",poetry,"As advanced modern systems like deep neural networks (DNNs) and generative AI
+continue to enhance their capabilities in producing convincing and realistic
+content, the need to distinguish between user-generated and machine generated
+content is becoming increasingly evident. In this research, we undertake a
+comparative evaluation of eight traditional machine-learning algorithms to
+distinguish between machine-generated and human-generated data across three
+diverse datasets: Poems, Abstracts, and Essays. Our results indicate that
+traditional methods demonstrate a high level of accuracy in identifying
+machine-generated data, reflecting the documented effectiveness of popular
+pre-trained models like RoBERT. We note that machine-generated texts tend to be
+shorter and exhibit less word variety compared to human-generated content.
+While specific domain-related keywords commonly utilized by humans, albeit
+disregarded by current LLMs (Large Language Models), may contribute to this
+high detection accuracy, we show that deeper word representations like word2vec
+can capture subtle semantic variances. Furthermore, readability, bias, moral,
+and affect comparisons reveal a discernible contrast between machine-generated
+and human generated content. There are variations in expression styles and
+potentially underlying biases in the data sources (human and
+machine-generated). This study provides valuable insights into the advancing
+capacities and challenges associated with machine-generated content across
+various domains.",,0,2024-03-28
+Small But Funny: A Feedback-Driven Approach to Humor Distillation,2024-02-28 07:02:38+00:00,http://arxiv.org/abs/2402.18113,"Sahithya Ravi, Patrick Huber, Akshat Shrivastava, Aditya Sagar, Ahmed Aly, Vered Shwartz, Arash Einolghozati",,poetry,"The emergence of Large Language Models (LLMs) has brought to light promising
+language generation capabilities, particularly in performing tasks like complex
+reasoning and creative writing. Consequently, distillation through imitation of
+teacher responses has emerged as a popular technique to transfer knowledge from
+LLMs to more accessible, Small Language Models (SLMs). While this works well
+for simpler tasks, there is a substantial performance gap on tasks requiring
+intricate language comprehension and creativity, such as humor generation. We
+hypothesize that this gap may stem from the fact that creative tasks might be
+hard to learn by imitation alone and explore whether an approach, involving
+supplementary guidance from the teacher, could yield higher performance. To
+address this, we study the effect of assigning a dual role to the LLM - as a
+""teacher"" generating data, as well as a ""critic"" evaluating the student's
+performance. Our experiments on humor generation reveal that the incorporation
+of feedback significantly narrows the performance gap between SLMs and their
+larger counterparts compared to merely relying on imitation. As a result, our
+research highlights the potential of using feedback as an additional dimension
+to data when transferring complex language abilities via distillation.",hf,0,2024-02-28
+Leveraging Large Language Models for NLG Evaluation: A Survey,2024-01-13 15:59:09+00:00,http://arxiv.org/abs/2401.07103,"Zhen Li, Xiaohan Xu, Tao Shen, Can Xu, Jia-Chen Gu, Chongyang Tao",,poetry,"In the rapidly evolving domain of Natural Language Generation (NLG)
+evaluation, introducing Large Language Models (LLMs) has opened new avenues for
+assessing generated content quality, e.g., coherence, creativity, and context
+relevance. This survey aims to provide a thorough overview of leveraging LLMs
+for NLG evaluation, a burgeoning area that lacks a systematic analysis. We
+propose a coherent taxonomy for organizing existing LLM-based evaluation
+metrics, offering a structured framework to understand and compare these
+methods. Our detailed exploration includes critically assessing various
+LLM-based methodologies, as well as comparing their strengths and limitations
+in evaluating NLG outputs. By discussing unresolved challenges, including bias,
+robustness, domain-specificity, and unified evaluation, this survey seeks to
+offer insights to researchers and advocate for fairer and more advanced NLG
+evaluation techniques.",hf,4,2024-01-13
+"CharPoet: A Chinese Classical Poetry Generation System Based on
+  Token-free LLM",2024-01-07 15:00:36+00:00,http://arxiv.org/abs/2401.03512v3,"Chengyue Yu, Lei Zang, Jiaotuan Wang, Chenyi Zhuang, Jinjie Gu","cs.CL, cs.AI, cs.LG",poetry,"Automatic Chinese classical poetry generation has attracted much research
+interest, but achieving effective control over format and content
+simultaneously remains challenging. Traditional systems usually accept keywords
+as user inputs, resulting in limited control over content. Large language
+models (LLMs) improve content control by allowing unrestricted user
+instructions, but the token-by-token generation process frequently makes format
+errors. Motivated by this, we propose CharPoet, a Chinese classical poetry
+generation system based on token-free LLM, which provides effective control
+over both format and content. Our token-free architecture generates in a
+character-by-character manner, enabling precise control over the number of
+characters. Pruned from existing token-based LLMs, CharPoet inherits their
+pretrained capabilities and can generate poetry following instructions like
+""Write me a poem for my mother's birthday."" CharPoet achieves format accuracy
+above 0.96, outperforming Jiuge-GPT-2 (0.91) and GPT-4 (0.38). In terms of
+content quality, CharPoet surpasses traditional systems including Jiuge, and is
+comparable to other LLMs. Our system is open source and available at
+https://modelscope.cn/models/CharPoet/CharPoet. A video demonstration of
+CharPoet is available at https://youtu.be/voZ25qEp3Dc.",both,1,2024-01-07
+Learning to Generate Text in Arbitrary Writing Styles,2023-12-28 18:58:52+00:00,http://arxiv.org/abs/2312.17242,"Aleem Khan, Andrew Wang, Sophia Hager, Nicholas Andrews",,poetry,"Prior work in style-controlled text generation has focused on tasks such as
+emulating the style of prolific literary authors, producing formal or informal
+text, and the degree of toxicity of generated text. Plentiful demonstrations of
+these styles are available, and as a result modern language models are often
+able to emulate them, either via prompting or discriminative control. However,
+in applications such as writing assistants, it is desirable for language models
+to produce text in an author-specific style on the basis of a small writing
+sample. We find that instruction-tuned language models can struggle to
+reproduce author-specific style demonstrated in a prompt. Instead, we propose
+to guide a language model to generate text in a target style using
+contrastively-trained representations that capture stylometric features. A
+central challenge in doing so is that an author's writing is characterized by
+surprising token choices under a generic language model. To reconcile this
+tension, we combine generative re-scoring to achieve an author-specific model,
+with discriminative control to ensure style consistency at the sequence-level.
+The combination of these approaches is found to be particularly effective at
+adhering to an author-specific style in a variety of conditions, including
+unconditional generation and style transfer, and is applicable to any
+underlying language model without requiring fine-tuning.",hf,0,2023-12-28
+"Unlocking Anticipatory Text Generation: A Constrained Approach for
+  Faithful Decoding with Large Language Models",2023-12-11 06:35:33+00:00,http://arxiv.org/abs/2312.06149,"Lifu Tu, Semih Yavuz, Jin Qu, Jiacheng Xu, Rui Meng, Caiming Xiong, Yingbo Zhou",,poetry,"Large Language Models (LLMs) have demonstrated a powerful ability for text
+generation. However, achieving optimal results with a given prompt or
+instruction can be challenging, especially for billion-sized models.
+Additionally, undesired behaviors such as toxicity or hallucinations can
+manifest. While much larger models (e.g., ChatGPT) may demonstrate strength in
+mitigating these issues, there is still no guarantee of complete prevention. In
+this work, we propose formalizing text generation as a future-constrained
+generation problem to minimize undesirable behaviors and enforce faithfulness
+to instructions. The estimation of future constraint satisfaction, accomplished
+using LLMs, guides the text generation process. Our extensive experiments
+demonstrate the effectiveness of the proposed approach across three distinct
+text generation tasks: keyword-constrained generation (Lin et al., 2020),
+toxicity reduction (Gehman et al., 2020), and factual correctness in
+question-answering (Gao et al., 2023).",hf,3,2023-12-11
+"TPPoet: Transformer-Based Persian Poem Generation using Minimal Data and
+  Advanced Decoding Techniques",2023-12-04 18:52:26+00:00,http://arxiv.org/abs/2312.02125v2,"Amir Panahandeh, Hanie Asemi, Esmaeil Nourani","cs.CL, cs.AI, cs.LG",poetry,"Recent advances in language models (LMs), have demonstrated significant
+efficacy in tasks related to the arts and humanities. While LMs have exhibited
+exceptional performance across a wide range of natural language processing
+tasks, there are notable challenges associated with their utilization on small
+datasets and their ability to replicate more creative human capacities. In this
+study, we aim to address these challenges by training a Persian classical
+poetry generation model using a transformer architecture on a specialized
+dataset with no pretraining. Additionally, we propose a novel decoding method
+to enhance coherence and meaningfulness in the generated poetry, effectively
+managing the tradeoff between diversity and quality. Furthermore, the results
+of our training approach and the proposed decoding method are evaluated through
+comprehensive set of automatic and human evaluations and showed its superior
+capability to generate coherent and meaningful poetry in compare to other
+decoding methods and an existing Persian large language model (LLM).",,0,2023-12-04
+Evaluating Large Language Model Creativity from a Literary Perspective,2023-11-30 16:46:25+00:00,http://arxiv.org/abs/2312.03746,"Murray Shanahan, Catherine Clarke",,poetry,"This paper assesses the potential for large language models (LLMs) to serve
+as assistive tools in the creative writing process, by means of a single,
+in-depth case study. In the course of the study, we develop interactive and
+multi-voice prompting strategies that interleave background descriptions (scene
+setting, plot elements), instructions that guide composition, samples of text
+in the target style, and critical discussion of the given samples. We
+qualitatively evaluate the results from a literary critical perspective, as
+well as from the standpoint of computational creativity (a sub-field of
+artificial intelligence). Our findings lend support to the view that the
+sophistication of the results that can be achieved with an LLM mirrors the
+sophistication of the prompting.",hf,0,2023-11-30
+Inspo: Writing Stories with a Flock of AIs and Humans,2023-11-28 05:00:18+00:00,http://arxiv.org/abs/2311.16521v1,"Chieh-Yang Huang, Sanjana Gautam, Shannon McClellan Brooks, Ya-Fang Lin, Ting-Hao 'Kenneth' Huang",cs.HC,poetry,"Large Language Models (LLMs) have advanced automated writing assistance,
+enabling complex tasks like co-writing novels and poems. However, real-world
+writing typically requires various support and collaboration across stages and
+scenarios. Existing research mainly examines how writers utilize single text
+generators, neglecting this broader context. This paper introduces Inspo, a
+web-based editor that incorporates various text generators and online crowd
+workers. Through a three-phase user study, we examine writers' interactions
+with Inspo for novel writing. Quantitative analyses of writing logs highlight
+changes in participants' writing progress and the influence of various
+text-generation models. Complementing this with qualitative insights from
+semi-structured interviews, we illustrate participants' perceptions of these
+models and the crowd. Based on the findings, we provide design recommendations
+for the next generation of intelligent writing tools and discuss the potential
+sociocultural implications of integrating AI and human input in the writing
+process.",,0,2023-11-28
+Retrieval Augmented Generation of Symbolic Music with LLMs,2023-11-17 08:21:56+00:00,http://arxiv.org/abs/2311.10384,"Nicolas Jonason, Luca Casini, Carl Thomé, Bob L. T. Sturm",,poetry,"We explore the use of large language models (LLMs) for music generation using
+a retrieval system to select relevant examples. We find promising initial
+results for music generation in a dialogue with the user, especially
+considering the ease with which such a system can be implemented. The code is
+available online.",hf,0,2023-11-17
+Erato: Automatizing Poetry Evaluation,2023-10-31 10:06:37+00:00,http://arxiv.org/abs/2310.20326v1,"Manex Agirrezabal, Hugo Gonçalo Oliveira, Aitor Ormazabal",cs.CL,poetry,"We present Erato, a framework designed to facilitate the automated evaluation
+of poetry, including that generated by poetry generation systems. Our framework
+employs a diverse set of features, and we offer a brief overview of Erato's
+capabilities and its potential for expansion. Using Erato, we compare and
+contrast human-authored poetry with automatically-generated poetry,
+demonstrating its effectiveness in identifying key differences. Our
+implementation code and software are freely available under the GNU GPLv3
+license.",,0,2023-10-31
+Generating Continuations in Multilingual Idiomatic Contexts,2023-10-31 05:40:33+00:00,http://arxiv.org/abs/2310.20195,"Rhitabrat Pokharel, Ameeta Agrawal",,poetry,"The ability to process idiomatic or literal multiword expressions is a
+crucial aspect of understanding and generating any language. The task of
+generating contextually relevant continuations for narratives containing
+idiomatic (or literal) expressions can allow us to test the ability of
+generative language models (LMs) in understanding nuanced language containing
+non-compositional figurative text. We conduct a series of experiments using
+datasets in two distinct languages (English and Portuguese) under three
+different training settings (zero-shot, few-shot, and fine-tuned). Our results
+suggest that the models are only slightly better at generating continuations
+for literal contexts than idiomatic contexts, with exceedingly small margins.
+Furthermore, the models studied in this work perform equally well across both
+languages, indicating the robustness of generative models in performing this
+task.",hf,0,2023-10-31
+Quality-Diversity through AI Feedback,2023-10-19 12:13:58+00:00,http://arxiv.org/abs/2310.13032,"Herbie Bradley, Andrew Dai, Hannah Teufel, Jenny Zhang, Koen Oostermeijer, Marco Bellagente, Jeff Clune, Kenneth Stanley, Grégory Schott, Joel Lehman",,poetry,"In many text-generation problems, users may prefer not only a single
+response, but a diverse range of high-quality outputs from which to choose.
+Quality-diversity (QD) search algorithms aim at such outcomes, by continually
+improving and diversifying a population of candidates. However, the
+applicability of QD to qualitative domains, like creative writing, has been
+limited by the difficulty of algorithmically specifying measures of quality and
+diversity. Interestingly, recent developments in language models (LMs) have
+enabled guiding search through AI feedback, wherein LMs are prompted in natural
+language to evaluate qualitative aspects of text. Leveraging this development,
+we introduce Quality-Diversity through AI Feedback (QDAIF), wherein an
+evolutionary algorithm applies LMs to both generate variation and evaluate the
+quality and diversity of candidate text. When assessed on creative writing
+domains, QDAIF covers more of a specified search space with high-quality
+samples than do non-QD controls. Further, human evaluation of QDAIF-generated
+creative texts validates reasonable agreement between AI and human evaluation.
+Our results thus highlight the potential of AI feedback to guide open-ended
+search for creative and original solutions, providing a recipe that seemingly
+generalizes to many domains and modalities. In this way, QDAIF is a step
+towards AI systems that can independently search, diversify, evaluate, and
+improve, which are among the core skills underlying human society's capacity
+for innovation.",hf,1,2023-10-19
+"GROVE: A Retrieval-augmented Complex Story Generation Framework with A
+  Forest of Evidence",2023-10-09 03:55:55+00:00,http://arxiv.org/abs/2310.05388,"Zhihua Wen, Zhiliang Tian, Wei Wu, Yuxin Yang, Yanqi Shi, Zhen Huang, Dongsheng Li",,poetry,"Conditional story generation is significant in human-machine interaction,
+particularly in producing stories with complex plots. While Large language
+models (LLMs) perform well on multiple NLP tasks, including story generation,
+it is challenging to generate stories with both complex and creative plots.
+Existing methods often rely on detailed prompts to guide LLMs to meet target
+conditions, which inadvertently restrict the creative potential of the
+generated stories. We argue that leveraging information from exemplary
+human-written stories facilitates generating more diverse plotlines. Delving
+deeper into story details helps build complex and credible plots. In this
+paper, we propose a retrieval-auGmented stoRy generation
+framework with a fOrest of eVidEnce (GROVE) to
+enhance stories' complexity. We build a retrieval repository for target
+conditions to produce few-shot examples to prompt LLMs. Additionally, we design
+an ``asking-why'' prompting scheme that extracts a forest of evidence,
+providing compensation for the ambiguities that may occur in the generated
+story. This iterative process uncovers underlying story backgrounds. Finally,
+we select the most fitting chains of evidence from the evidence forest and
+integrate them into the generated story, thereby enhancing the narrative's
+complexity and credibility. Experimental results and numerous examples verify
+the effectiveness of our method.",hf,4,2023-10-09
+Urdu Poetry Generated by Using Deep Learning Techniques,2023-09-25 15:44:24+00:00,http://arxiv.org/abs/2309.14233v1,"Muhammad Shoaib Farooq, Ali Abbas","cs.CL, cs.LG",poetry,"This study provides Urdu poetry generated using different deep-learning
+techniques and algorithms. The data was collected through the Rekhta website,
+containing 1341 text files with several couplets. The data on poetry was not
+from any specific genre or poet. Instead, it was a collection of mixed Urdu
+poems and Ghazals. Different deep learning techniques, such as the model
+applied Long Short-term Memory Networks (LSTM) and Gated Recurrent Unit (GRU),
+have been used. Natural Language Processing (NLP) may be used in machine
+learning to understand, analyze, and generate a language humans may use and
+understand. Much work has been done on generating poetry for different
+languages using different techniques. The collection and use of data were also
+different for different researchers. The primary purpose of this project is to
+provide a model that generates Urdu poems by using data completely, not by
+sampling data. Also, this may generate poems in pure Urdu, not Roman Urdu, as
+in the base paper. The results have shown good accuracy in the poems generated
+by the model.",,0,2023-09-25
+"Studying the impacts of pre-training using ChatGPT-generated text on
+  downstream tasks",2023-09-02 12:56:15+00:00,http://arxiv.org/abs/2309.05668v1,Sarthak Anand,"cs.CL, cs.AI",poetry,"In recent times, significant advancements have been witnessed in the field of
+language models, particularly with the emergence of Large Language Models
+(LLMs) that are trained on vast amounts of data extracted from internet
+archives. These LLMs, such as ChatGPT, have become widely accessible, allowing
+users to generate text for various purposes including articles, essays, jokes,
+and poetry. Given that LLMs are trained on a diverse range of text sources,
+encompassing platforms like Reddit and Twitter, it is foreseeable that future
+training datasets will also incorporate text generated by previous iterations
+of the models themselves. In light of this development, our research aims to
+investigate the influence of artificial text in the pre-training phase of
+language models. Specifically, we conducted a comparative analysis between a
+language model, RoBERTa, pre-trained using CNN/DailyMail news articles, and
+ChatGPT, which employed the same articles for its training and evaluated their
+performance on three downstream tasks as well as their potential gender bias,
+using sentiment analysis as a metric. Through a series of experiments, we
+demonstrate that the utilization of artificial text during pre-training does
+not have a significant impact on either the performance of the models in
+downstream tasks or their gender bias. In conclusion, our findings suggest that
+the inclusion of text generated by LLMs in their own pre-training process does
+not yield substantial effects on the subsequent performance of the models in
+downstream tasks or their potential gender bias.",,0,2023-09-02
+Teach LLMs to Personalize -- An Approach inspired by Writing Education,2023-08-15 18:06:23+00:00,http://arxiv.org/abs/2308.07968,"Cheng Li, Mingyang Zhang, Qiaozhu Mei, Yaqing Wang, Spurthi Amba Hombaiah, Yi Liang, Michael Bendersky",,poetry,"Personalized text generation is an emerging research area that has attracted
+much attention in recent years. Most studies in this direction focus on a
+particular domain by designing bespoke features or models. In this work, we
+propose a general approach for personalized text generation using large
+language models (LLMs). Inspired by the practice of writing education, we
+develop a multistage and multitask framework to teach LLMs for personalized
+generation. In writing instruction, the task of writing from sources is often
+decomposed into multiple steps that involve finding, evaluating, summarizing,
+synthesizing, and integrating information. Analogously, our approach to
+personalized text generation consists of multiple stages: retrieval, ranking,
+summarization, synthesis, and generation. In addition, we introduce a multitask
+setting that helps the model improve its generation ability further, which is
+inspired by the observation in education that a student's reading proficiency
+and writing ability are often correlated. We evaluate our approach on three
+public datasets, each of which covers a different and representative domain.
+Our results show significant improvements over a variety of baselines.",hf,26,2023-08-15
+Sudowoodo: a Chinese Lyric Imitation System with Source Lyrics,2023-08-09 02:12:04+00:00,http://arxiv.org/abs/2308.04665v1,"Yongzhu Chang, Rongsheng Zhang, Lin Jiang, Qihang Chen, Le Zhang, Jiashu Pu",cs.CL,poetry,"Lyrics generation is a well-known application in natural language generation
+research, with several previous studies focusing on generating accurate lyrics
+using precise control such as keywords, rhymes, etc. However, lyrics imitation,
+which involves writing new lyrics by imitating the style and content of the
+source lyrics, remains a challenging task due to the lack of a parallel corpus.
+In this paper, we introduce \textbf{\textit{Sudowoodo}}, a Chinese lyrics
+imitation system that can generate new lyrics based on the text of source
+lyrics. To address the issue of lacking a parallel training corpus for lyrics
+imitation, we propose a novel framework to construct a parallel corpus based on
+a keyword-based lyrics model from source lyrics. Then the pairs \textit{(new
+lyrics, source lyrics)} are used to train the lyrics imitation model. During
+the inference process, we utilize a post-processing module to filter and rank
+the generated lyrics, selecting the highest-quality ones. We incorporated audio
+information and aligned the lyrics with the audio to form the songs as a bonus.
+The human evaluation results show that our framework can perform better lyric
+imitation. Meanwhile, the \textit{Sudowoodo} system and demo video of the
+system is available at
+\href{https://Sudowoodo.apps-hp.danlu.netease.com/}{Sudowoodo} and
+\href{https://youtu.be/u5BBT_j1L5M}{https://youtu.be/u5BBT\_j1L5M}.",,0,2023-08-09
+The Imitation Game: Detecting Human and AI-Generated Texts in the Era of ChatGPT and BARD,2023-07-22 21:00:14+00:00,http://arxiv.org/abs/2307.12166v2,"Kadhim Hayawi, Sakib Shahriar, Sujith Samuel Mathew","cs.CL, cs.AI",poetry,"The potential of artificial intelligence (AI)-based large language models (LLMs) holds considerable promise in revolutionizing education, research, and practice. However, distinguishing between human-written and AI-generated text has become a significant task. This paper presents a comparative study, introducing a novel dataset of human-written and LLM-generated texts in different genres: essays, stories, poetry, and Python code. We employ several machine learning models to classify the texts. Results demonstrate the efficacy of these models in discerning between human and AI-generated text, despite the dataset's limited sample size. However, the task becomes more challenging when classifying GPT-generated text, particularly in story writing. The results indicate that the models exhibit superior performance in binary classification tasks, such as distinguishing human-generated text from a specific LLM, compared to the more complex multiclass tasks that involve discerning among human-generated and multiple LLMs. Our findings provide insightful implications for AI text detection while our dataset paves the way for future research in this evolving area.",arxiv,0,2023-07-22
+"The Imitation Game: Detecting Human and AI-Generated Texts in the Era of
+  Large Language Models",2023-07-22 21:00:14+00:00,http://arxiv.org/abs/2307.12166v1,"Kadhim Hayawi, Sakib Shahriar, Sujith Samuel Mathew","cs.CL, cs.AI",poetry,"The potential of artificial intelligence (AI)-based large language models
+(LLMs) holds considerable promise in revolutionizing education, research, and
+practice. However, distinguishing between human-written and AI-generated text
+has become a significant task. This paper presents a comparative study,
+introducing a novel dataset of human-written and LLM-generated texts in
+different genres: essays, stories, poetry, and Python code. We employ several
+machine learning models to classify the texts. Results demonstrate the efficacy
+of these models in discerning between human and AI-generated text, despite the
+dataset's limited sample size. However, the task becomes more challenging when
+classifying GPT-generated text, particularly in story writing. The results
+indicate that the models exhibit superior performance in binary classification
+tasks, such as distinguishing human-generated text from a specific LLM,
+compared to the more complex multiclass tasks that involve discerning among
+human-generated and multiple LLMs. Our findings provide insightful implications
+for AI text detection while our dataset paves the way for future research in
+this evolving area.",,0,2023-07-22
+Efficient Guided Generation for Large Language Models,2023-07-19 01:14:49+00:00,http://arxiv.org/abs/2307.09702,"Brandon T. Willard, Rémi Louf",,poetry,"In this article we describe an efficient approach to guiding language model
+text generation with regular expressions and context-free grammars. Our
+approach adds little to no overhead to the token sequence generation process,
+and makes guided generation feasible in practice. An implementation is provided
+in the open source Python library Outlines.",hf,8,2023-07-19
+"Ashaar: Automatic Analysis and Generation of Arabic Poetry Using Deep
+  Learning Approaches",2023-07-12 15:07:16+00:00,http://arxiv.org/abs/2307.06218,"Zaid Alyafeai, Maged S. Al-Shaibani, Moataz Ahmed",,poetry,"Poetry holds immense significance within the cultural and traditional fabric
+of any nation. It serves as a vehicle for poets to articulate their emotions,
+preserve customs, and convey the essence of their culture. Arabic poetry is no
+exception, having played a cherished role in the heritage of the Arabic
+community throughout history and maintaining its relevance in the present era.
+Typically, comprehending Arabic poetry necessitates the expertise of a linguist
+who can analyze its content and assess its quality. This paper presents the
+introduction of a framework called Ashaar
+https://github.com/ARBML/Ashaar, which encompasses a collection of datasets and
+pre-trained models designed specifically for the analysis and generation of
+Arabic poetry. The pipeline established within our proposed approach
+encompasses various aspects of poetry, such as meter, theme, and era
+classification. It also incorporates automatic poetry diacritization, enabling
+more intricate analyses like automated extraction of the Arudi style.
+Additionally, we explore the feasibility of generating conditional poetry
+through the pre-training of a character-based GPT model. Furthermore, as part
+of this endeavor, we provide four datasets: one for poetry generation, another
+for diacritization, and two for Arudi-style prediction. These datasets aim to
+facilitate research and development in the field of Arabic poetry by enabling
+researchers and enthusiasts to delve into the nuances of this rich literary
+tradition.",hf,0,2023-07-12
+"ALBERTI, a Multilingual Domain Specific Language Model for Poetry
+  Analysis",2023-07-03 22:50:53+00:00,http://arxiv.org/abs/2307.01387,"Javier de la Rosa, Álvaro Pérez Pozo, Salvador Ros, Elena González-Blanco",,poetry,"The computational analysis of poetry is limited by the scarcity of tools to
+automatically analyze and scan poems. In a multilingual settings, the problem
+is exacerbated as scansion and rhyme systems only exist for individual
+languages, making comparative studies very challenging and time consuming. In
+this work, we present Alberti, the first multilingual pre-trained
+large language model for poetry. Through domain-specific pre-training (DSP), we
+further trained multilingual BERT on a corpus of over 12 million verses from 12
+languages. We evaluated its performance on two structural poetry tasks: Spanish
+stanza type classification, and metrical pattern prediction for Spanish,
+English and German. In both cases, Alberti outperforms multilingual
+BERT and other transformers-based models of similar sizes, and even achieves
+state-of-the-art results for German when compared to rule-based systems,
+demonstrating the feasibility and effectiveness of DSP in the poetry domain.",hf,1,2023-07-03
+"Most Language Models can be Poets too: An AI Writing Assistant and
+  Constrained Text Generation Studio",2023-06-28 05:10:51+00:00,http://arxiv.org/abs/2306.15926,"Allen Roush, Sanjay Basu, Akshay Moorthy, Dmitry Dubovoy",,poetry,"Despite rapid advancement in the field of Constrained Natural Language
+Generation, little time has been spent on exploring the potential of language
+models which have had their vocabularies lexically, semantically, and/or
+phonetically constrained. We find that most language models generate compelling
+text even under significant constraints. We present a simple and universally
+applicable technique for modifying the output of a language model by
+compositionally applying filter functions to the language models vocabulary
+before a unit of text is generated. This approach is plug-and-play and requires
+no modification to the model. To showcase the value of this technique, we
+present an easy to use AI writing assistant called Constrained Text Generation
+Studio (CTGS). CTGS allows users to generate or choose from text with any
+combination of a wide variety of constraints, such as banning a particular
+letter, forcing the generated words to have a certain number of syllables,
+and/or forcing the words to be partial anagrams of another word. We introduce a
+novel dataset of prose that omits the letter e. We show that our method results
+in strictly superior performance compared to fine-tuning alone on this dataset.
+We also present a Huggingface space web-app presenting this technique called
+Gadsby. The code is available to the public here:
+https://github.com/Hellisotherpeople/Constrained-Text-Generation-Studio",hf,1,2023-06-28
+PoetryDiffusion: Towards Joint Semantic and Metrical Manipulation in Poetry Generation,2023-06-14 11:57:31+00:00,http://arxiv.org/abs/2306.08456v3,"Zhiyuan Hu, Chumin Liu, Yue Feng, Anh Tuan Luu, Bryan Hooi",cs.CL,poetry,"Controllable text generation is a challenging and meaningful field in natural language generation (NLG). Especially, poetry generation is a typical one with well-defined and strict conditions for text generation which is an ideal playground for the assessment of current methodologies. While prior works succeeded in controlling either semantic or metrical aspects of poetry generation, simultaneously addressing both remains a challenge. In this paper, we pioneer the use of the Diffusion model for generating sonnets and Chinese SongCi poetry to tackle such challenges. In terms of semantics, our PoetryDiffusion model, built upon the Diffusion model, generates entire sentences or poetry by comprehensively considering the entirety of sentence information. This approach enhances semantic expression, distinguishing it from autoregressive and large language models (LLMs). For metrical control, the separation feature of diffusion generation and its constraint control module enable us to flexibly incorporate a novel metrical controller to manipulate and evaluate metrics (format and rhythm). The denoising process in PoetryDiffusion allows for gradual enhancement of semantics and flexible integration of the metrical controller which can calculate and impose penalties on states that stray significantly from the target control distribution. Experimental results on two datasets demonstrate that our model outperforms existing models in automatic evaluation of semantic, metrical, and overall performance as well as human evaluation.",arxiv,0,2023-06-14
+"PoetryDiffusion: Towards Joint Semantic and Metrical Manipulation in
+  Poetry Generation",2023-06-14 11:57:31+00:00,http://arxiv.org/abs/2306.08456v1,"Zhiyuan Hu, Chumin Liu, Yue Feng, Bryan Hooi",cs.CL,poetry,"Poetry generation is a typical and popular task in natural language
+generation. While prior works have shown success in controlling either semantic
+or metrical aspects of poetry generation, there are still challenges in
+addressing both perspectives simultaneously. In this paper, we employ the
+Diffusion model to generate poetry in Sonnet and SongCi in Chinese for the
+first time to tackle such challenges. Different from autoregressive generation,
+our PoetryDiffusion model, based on Diffusion model, generates the complete
+sentence or poetry by taking into account the whole sentence information,
+resulting in improved semantic expression. Additionally, we incorporate a novel
+metrical controller to manipulate and evaluate metrics (format and rhythm). The
+denoising process in PoetryDiffusion allows for gradual enhancement of
+semantics and flexible integration of the metrical controller. Experimental
+results on two datasets demonstrate that our model outperforms existing models
+in terms of semantic, metrical and overall performance.",,0,2023-06-14
+"Identifying the style by a qualified reader on a short fragment of
+  generated poetry",2023-06-05 10:55:15+00:00,http://arxiv.org/abs/2306.02771v1,Boris Orekhov,"cs.CL, cs.AI, cs.LG",poetry,"Style is an important concept in today's challenges in natural language
+generating. After the success in the field of image style transfer, the task of
+text style transfer became actual and attractive. Researchers are also
+interested in the tasks of style reproducing in generation of the poetic text.
+Evaluation of style reproducing in natural poetry generation remains a problem.
+I used 3 character-based LSTM-models to work with style reproducing assessment.
+All three models were trained on the corpus of texts by famous Russian-speaking
+poets. Samples were shown to the assessors and 4 answer options were offered,
+the style of which poet this sample reproduces. In addition, the assessors were
+asked how well they were familiar with the work of the poet they had named.
+Students studying history of literature were the assessors, 94 answers were
+received. It has appeared that accuracy of definition of style increases if the
+assessor can quote the poet by heart. Each model showed at least 0.7
+macro-average accuracy. The experiment showed that it is better to involve a
+professional rather than a naive reader in the evaluation of style in the tasks
+of poetry generation, while lstm models are good at reproducing the style of
+Russian poets even on a limited training corpus.",both,0,2023-06-05
+Unsupervised Melody-to-Lyric Generation,2023-05-30 17:20:25+00:00,http://arxiv.org/abs/2305.19228v2,"Yufei Tian, Anjali Narayan-Chen, Shereen Oraby, Alessandra Cervone, Gunnar Sigurdsson, Chenyang Tao, Wenbo Zhao, Yiwen Chen, Tagyoung Chung, Jing Huang, Nanyun Peng","cs.CL, cs.AI, cs.SD, eess.AS",poetry,"Automatic melody-to-lyric generation is a task in which song lyrics are generated to go with a given melody. It is of significant practical interest and more challenging than unconstrained lyric generation as the music imposes additional constraints onto the lyrics. The training data is limited as most songs are copyrighted, resulting in models that underfit the complicated cross-modal relationship between melody and lyrics. In this work, we propose a method for generating high-quality lyrics without training on any aligned melody-lyric data. Specifically, we design a hierarchical lyric generation framework that first generates a song outline and second the complete lyrics. The framework enables disentanglement of training (based purely on text) from inference (melody-guided text generation) to circumvent the shortage of parallel data.
+  We leverage the segmentation and rhythm alignment between melody and lyrics to compile the given melody into decoding constraints as guidance during inference. The two-step hierarchical design also enables content control via the lyric outline, a much-desired feature for democratizing collaborative song creation. Experimental results show that our model can generate high-quality lyrics that are more on-topic, singable, intelligible, and coherent than strong baselines, for example SongMASS, a SOTA model trained on a parallel dataset, with a 24% relative overall quality improvement based on human ratings.",arxiv,0,2023-05-30
+Unsupervised Melody-to-Lyric Generation,2023-05-30 17:20:25+00:00,http://arxiv.org/abs/2305.19228v1,"Yufei Tian, Anjali Narayan-Chen, Shereen Oraby, Alessandra Cervone, Gunnar Sigurdsson, Chenyang Tao, Wenbo Zhao, Tagyoung Chung, Jing Huang, Nanyun Peng","cs.CL, cs.AI, cs.SD, eess.AS",poetry,"Automatic melody-to-lyric generation is a task in which song lyrics are
+generated to go with a given melody. It is of significant practical interest
+and more challenging than unconstrained lyric generation as the music imposes
+additional constraints onto the lyrics. The training data is limited as most
+songs are copyrighted, resulting in models that underfit the complicated
+cross-modal relationship between melody and lyrics. In this work, we propose a
+method for generating high-quality lyrics without training on any aligned
+melody-lyric data. Specifically, we design a hierarchical lyric generation
+framework that first generates a song outline and second the complete lyrics.
+The framework enables disentanglement of training (based purely on text) from
+inference (melody-guided text generation) to circumvent the shortage of
+parallel data.
+  We leverage the segmentation and rhythm alignment between melody and lyrics
+to compile the given melody into decoding constraints as guidance during
+inference. The two-step hierarchical design also enables content control via
+the lyric outline, a much-desired feature for democratizing collaborative song
+creation. Experimental results show that our model can generate high-quality
+lyrics that are more on-topic, singable, intelligible, and coherent than strong
+baselines, for example SongMASS, a SOTA model trained on a parallel dataset,
+with a 24% relative overall quality improvement based on human ratings. O",,0,2023-05-30
+RewriteLM: An Instruction-Tuned Large Language Model for Text Rewriting,2023-05-25 03:26:26+00:00,http://arxiv.org/abs/2305.15685,"Lei Shu, Liangchen Luo, Jayakumar Hoskere, Yun Zhu, Canoee Liu, Simon Tong, Jindong Chen, Lei Meng",,poetry,"Large Language Models (LLMs) have demonstrated impressive zero-shot
+capabilities in long-form text generation tasks expressed through natural
+language instructions. However, user expectations for long-form text rewriting
+is high, and unintended rewrites (''hallucinations'') produced by the model can
+negatively impact its overall performance. Existing evaluation benchmarks
+primarily focus on limited rewriting styles and sentence-level rewriting rather
+than long-form open-ended rewriting.We introduce OpenRewriteEval, a novel
+benchmark that covers a wide variety of rewriting types expressed through
+natural language instructions. It is specifically designed to facilitate the
+evaluation of open-ended rewriting of long-form texts. In addition, we propose
+a strong baseline model, RewriteLM, an instruction-tuned large language model
+for long-form text rewriting. We develop new strategies that facilitate the
+generation of diverse instructions and preference data with minimal human
+intervention. We conduct empirical experiments and demonstrate that our model
+outperforms the current state-of-the-art LLMs in text rewriting. Specifically,
+it excels in preserving the essential content and meaning of the source text,
+minimizing the generation of ''hallucinated'' content, while showcasing the
+ability to generate rewrites with diverse wording and structures.",hf,4,2023-05-25
+Creative Data Generation: A Review Focusing on Text and Poetry,2023-05-15 09:50:15+00:00,http://arxiv.org/abs/2305.08493v2,"Mohamad Elzohbi, Richard Zhao",cs.CL,poetry,"The rapid advancement in machine learning has led to a surge in automatic data generation, making it increasingly challenging to differentiate between naturally or human-generated data and machine-generated data. Despite these advancements, the generation of creative data remains a challenge. This paper aims to investigate and comprehend the essence of creativity, both in general and within the context of natural language generation. We review various approaches to creative writing devices and tasks, with a specific focus on the generation of poetry. We aim to shed light on the challenges and opportunities in the field of creative data generation.",arxiv,0,2023-05-15
+Creative Data Generation: A Review Focusing on Text and Poetry,2023-05-15 09:50:15+00:00,http://arxiv.org/abs/2305.08493v1,"Mohamad Elzohbi, Richard Zhao",cs.CL,poetry,"The rapid advancement in machine learning has led to a surge in automatic
+data generation, making it increasingly challenging to differentiate between
+naturally or human-generated data and machine-generated data. Despite these
+advancements, the generation of creative data remains a challenge. This paper
+aims to investigate and comprehend the essence of creativity, both in general
+and within the context of natural language generation. We review various
+approaches to creative writing devices and tasks, with a specific focus on the
+generation of poetry. We aim to shed light on the challenges and opportunities
+in the field of creative data generation.",,0,2023-05-15
+Unsupervised Melody-Guided Lyrics Generation,2023-05-12 20:57:20+00:00,http://arxiv.org/abs/2305.07760v2,"Yufei Tian, Anjali Narayan-Chen, Shereen Oraby, Alessandra Cervone, Gunnar Sigurdsson, Chenyang Tao, Wenbo Zhao, Tagyoung Chung, Jing Huang, Nanyun Peng","cs.AI, cs.CL, cs.MM",poetry,"Automatic song writing is a topic of significant practical interest. However, its research is largely hindered by the lack of training data due to copyright concerns and challenged by its creative nature. Most noticeably, prior works often fall short of modeling the cross-modal correlation between melody and lyrics due to limited parallel data, hence generating lyrics that are less singable. Existing works also lack effective mechanisms for content control, a much desired feature for democratizing song creation for people with limited music background. In this work, we propose to generate pleasantly listenable lyrics without training on melody-lyric aligned data. Instead, we design a hierarchical lyric generation framework that disentangles training (based purely on text) from inference (melody-guided text generation). At inference time, we leverage the crucial alignments between melody and lyrics and compile the given melody into constraints to guide the generation process. Evaluation results show that our model can generate high-quality lyrics that are more singable, intelligible, coherent, and in rhyme than strong baselines including those supervised on parallel data.",arxiv,0,2023-05-12
+Unsupervised Melody-Guided Lyrics Generation,2023-05-12 20:57:20+00:00,http://arxiv.org/abs/2305.07760v1,"Yufei Tian, Anjali Narayan-Chen, Shereen Oraby, Alessandra Cervone, Gunnar Sigurdsson, Chenyang Tao, Wenbo Zhao, Tagyoung Chung, Jing Huang, Nanyun Peng","cs.AI, cs.CL, cs.MM",poetry,"Automatic song writing is a topic of significant practical interest. However,
+its research is largely hindered by the lack of training data due to copyright
+concerns and challenged by its creative nature. Most noticeably, prior works
+often fall short of modeling the cross-modal correlation between melody and
+lyrics due to limited parallel data, hence generating lyrics that are less
+singable. Existing works also lack effective mechanisms for content control, a
+much desired feature for democratizing song creation for people with limited
+music background. In this work, we propose to generate pleasantly listenable
+lyrics without training on melody-lyric aligned data. Instead, we design a
+hierarchical lyric generation framework that disentangles training (based
+purely on text) from inference (melody-guided text generation). At inference
+time, we leverage the crucial alignments between melody and lyrics and compile
+the given melody into constraints to guide the generation process. Evaluation
+results show that our model can generate high-quality lyrics that are more
+singable, intelligible, coherent, and in rhyme than strong baselines including
+those supervised on parallel data.",,0,2023-05-12
+Bits of Grass: Does GPT already know how to write like Whitman?,2023-05-10 09:02:34+00:00,http://arxiv.org/abs/2305.11064v1,"Piotr Sawicki, Marek Grzes, Fabricio Goes, Dan Brown, Max Peeperkorn, Aisha Khatun",cs.CL,poetry,"This study examines the ability of GPT-3.5, GPT-3.5-turbo (ChatGPT) and GPT-4
+models to generate poems in the style of specific authors using zero-shot and
+many-shot prompts (which use the maximum context length of 8192 tokens). We
+assess the performance of models that are not fine-tuned for generating poetry
+in the style of specific authors, via automated evaluation. Our findings
+indicate that without fine-tuning, even when provided with the maximum number
+of 17 poem examples (8192 tokens) in the prompt, these models do not generate
+poetry in the desired style.",,0,2023-05-10
+On the Creativity of Large Language Models,2023-03-27 18:00:01+00:00,http://arxiv.org/abs/2304.00008,"Giorgio Franceschelli, Mirco Musolesi",,poetry,"Large Language Models (LLMs) are revolutionizing several areas of Artificial
+Intelligence. One of the most remarkable applications is creative writing,
+e.g., poetry or storytelling: the generated outputs are often of astonishing
+quality. However, a natural question arises: can LLMs be really considered
+creative? In this article, we first analyze the development of LLMs under the
+lens of creativity theories, investigating the key open questions and
+challenges. In particular, we focus our discussion on the dimensions of value,
+novelty, and surprise as proposed by Margaret Boden in her work. Then, we
+consider different classic perspectives, namely product, process, press, and
+person. We discuss a set of ``easy'' and ``hard'' problems in machine
+creativity, presenting them in relation to LLMs. Finally, we examine the
+societal impact of these technologies with a particular focus on the creative
+industries, analyzing the opportunities offered, the challenges arising from
+them, and the potential associated risks, from both legal and ethical points of
+view.",hf,0,2023-03-27
+Message Ritual: A Posthuman Account of Living with Lamp,2023-01-26 05:53:51+00:00,http://arxiv.org/abs/2301.10947v1,"Nina Rajcic, Jon McCormack","cs.HC, cs.AI, cs.NE, I.2; J.5; H.5",poetry,"As we become increasingly entangled with digital technologies, the boundary
+between human and machine is progressively blurring. Adopting a performative,
+posthumanist perspective resolves this ambiguity by proposing that such
+boundaries are not predetermined, rather they are enacted within a certain
+material configuration. Using this approach, dubbed `Entanglement HCI', this
+paper presents \emph{Message Ritual} -- a novel, integrated AI system that
+encourages the re-framing of memory through machine generated poetics. Embodied
+within a domestic table lamp, the system listens in on conversations occurring
+within the home, drawing out key topics and phrases of the day and
+reconstituting them through machine generated poetry, delivered to household
+members via SMS upon waking each morning. Participants across four households
+were asked to live with the lamp over a two week period. We present a
+diffractive analysis exploring how the lamp \emph{becomes with} participants
+and discuss the implications of this method for future HCI research.",,0,2023-01-26
+Modern French Poetry Generation with RoBERTa and GPT-2,2022-12-06 12:10:14+00:00,http://arxiv.org/abs/2212.02911v1,"Mika Hämäläinen, Khalid Alnajjar, Thierry Poibeau",cs.CL,poetry,"We present a novel neural model for modern poetry generation in French. The
+model consists of two pretrained neural models that are fine-tuned for the poem
+generation task. The encoder of the model is a RoBERTa based one while the
+decoder is based on GPT-2. This way the model can benefit from the superior
+natural language understanding performance of RoBERTa and the good natural
+language generation performance of GPT-2. Our evaluation shows that the model
+can create French poetry successfully. On a 5 point scale, the lowest score of
+3.57 was given by human judges to typicality and emotionality of the output
+poetry while the best score of 3.79 was given to understandability.",,0,2022-12-06
+"GENIUS: Sketch-based Language Model Pre-training via Extreme and
+  Selective Masking for Text Generation and Augmentation",2022-11-18 16:39:45+00:00,http://arxiv.org/abs/2211.10330,"Biyang Guo, Yeyun Gong, Yelong Shen, Songqiao Han, Hailiang Huang, Nan Duan, Weizhu Chen",,poetry,"We introduce GENIUS: a conditional text generation model using sketches as
+input, which can fill in the missing contexts for a given sketch (key
+information consisting of textual spans, phrases, or words, concatenated by
+mask tokens). GENIUS is pre-trained on a large-scale textual corpus with a
+novel reconstruction from sketch objective using an extreme and selective
+masking strategy, enabling it to generate diverse and high-quality texts given
+sketches. Comparison with other competitive conditional language models (CLMs)
+reveals the superiority of GENIUS's text generation quality. We further show
+that GENIUS can be used as a strong and ready-to-use data augmentation tool for
+various natural language processing (NLP) tasks. Most existing textual data
+augmentation methods are either too conservative, by making small changes to
+the original text, or too aggressive, by creating entirely new samples. With
+GENIUS, we propose GeniusAug, which first extracts the target-aware sketches
+from the original training set and then generates new samples based on the
+sketches. Empirical experiments on 6 text classification datasets show that
+GeniusAug significantly improves the models' performance in both
+in-distribution (ID) and out-of-distribution (OOD) settings. We also
+demonstrate the effectiveness of GeniusAug on named entity recognition (NER)
+and machine reading comprehension (MRC) tasks. (Code and models are publicly
+available at https://github.com/microsoft/SCGLab and
+https://github.com/beyondguo/genius)",hf,0,2022-11-18
+Creative Writing with an AI-Powered Writing Assistant: Perspectives from Professional Writers,2022-11-09 17:00:56+00:00,http://arxiv.org/abs/2211.05030,"Daphne Ippolito, Ann Yuan, Andy Coenen, Sehmon Burnam",,poetry,"Recent developments in natural language generation (NLG) using neural language models have brought us closer than ever to the goal of building AI-powered creative writing tools. However, most prior work on human-AI collaboration in the creative writing domain has evaluated new systems with amateur writers, typically in contrived user studies of limited scope. In this work, we commissioned 13 professional, published writers from a diverse set of creative writing backgrounds to craft stories using Wordcraft, a text editor with built-in AI-powered writing assistance tools. Using interviews and participant journals, we discuss the potential of NLG to have significant impact in the creative writing domain--especially with respect to brainstorming, generation of story details, world-building, and research assistance. Experienced writers, more so than amateurs, typically have well-developed systems and methodologies for writing, as well as distinctive voices and target audiences. Our work highlights the challenges in building for these writers; NLG technologies struggle to preserve style and authorial voice, and they lack deep understanding of story contents. In order for AI-powered writing assistants to realize their full potential, it is essential that they take into account the diverse goals and expertise of human writers.",hf,0,2022-11-09
+Generation of Chinese classical poetry based on pre-trained model,2022-11-04 16:05:31+00:00,http://arxiv.org/abs/2211.02541v1,"Ziyao Wang, Lujin Guan, Guanyu Liu","cs.CL, cs.AI, J.5; I.2.7",poetry,"In order to test whether artificial intelligence can create qualified
+classical poetry like humans, the author proposes a study of Chinese classical
+poetry generation based on a pre-trained model. This paper mainly tries to use
+BART and other pre training models, proposes FS2TEXT and RR2TEXT to generate
+metrical poetry text and even specific style poetry text, and solves the
+problem that the user's writing intention gradually reduces the relevance of
+the generated poetry text.
+  In order to test the model's results, the authors selected ancient poets, by
+combining it with BART's poetic model work, developed a set of AI poetry Turing
+problems, it was reviewed by a group of poets and poetry writing researchers.
+There were more than 600 participants, and the final results showed that,
+high-level poetry lovers can't distinguish between AI activity and human
+activity, this indicates that the author's working methods are not
+significantly different from human activities. The model of poetry generation
+studied by the author generalizes works that cannot be distinguished from those
+of advanced scholars.
+  The number of modern Chinese poets has reached 5 million. However, many
+modern Chinese poets lack language ability and skills as a result of their
+childhood learning. However, many modern poets have no creative inspiration,
+and the author's model can help them. They can look at this model when they
+choose words and phrases and they can write works based on the poems they
+already have, and they can write their own poems. The importance of poetry lies
+in the author's thoughts and reflections. It doesn't matter how good AI poetry
+is. The only thing that matters is for people to see and inspire them.",,0,2022-11-04
+"Help me write a poem: Instruction Tuning as a Vehicle for Collaborative
+  Poetry Writing",2022-10-25 00:07:10+00:00,http://arxiv.org/abs/2210.13669,"Tuhin Chakrabarty, Vishakh Padmakumar, He He",,poetry,"Recent work in training large language models (LLMs) to follow natural
+language instructions has opened up exciting opportunities for natural language
+interface design. Building on the prior success of LLMs in the realm of
+computer-assisted creativity, we aim to study if LLMs can improve the quality
+of user-generated content through collaboration. We present CoPoet, a
+collaborative poetry writing system. In contrast to auto-completing a user's
+text, CoPoet is controlled by user instructions that specify the attributes of
+the desired text, such as Write a sentence about `love' or Write a sentence
+ending in `fly'. The core component of our system is a language model
+fine-tuned on a diverse collection of instructions for poetry writing. Our
+model is not only competitive with publicly available LLMs trained on
+instructions (InstructGPT), but is also capable of satisfying unseen
+compositional instructions. A study with 15 qualified crowdworkers shows that
+users successfully write poems with CoPoet on diverse topics ranging from
+Monarchy to Climate change. Further, the collaboratively written poems are
+preferred by third-party evaluators over those written without the system.",hf,0,2022-10-25
+Controllable Text Generation for Open-Domain Creativity and Fairness,2022-09-24 22:40:01+00:00,http://arxiv.org/abs/2209.12099v1,Nanyun Peng,"cs.CL, cs.AI",poetry,"Recent advances in large pre-trained language models have demonstrated strong
+results in generating natural languages and significantly improved performances
+for many natural language generation (NLG) applications such as machine
+translation and text summarization. However, when the generation tasks are more
+open-ended and the content is under-specified, existing techniques struggle to
+generate long-term coherent and creative content. Moreover, the models exhibit
+and even amplify social biases that are learned from the training corpora. This
+happens because the generation models are trained to capture the surface
+patterns (i.e. sequences of words), instead of capturing underlying semantics
+and discourse structures, as well as background knowledge including social
+norms. In this paper, I introduce our recent works on controllable text
+generation to enhance the creativity and fairness of language generation
+models. We explore hierarchical generation and constrained decoding, with
+applications to creative language generation including story, poetry, and
+figurative languages, and bias mitigation for generation models.",,0,2022-09-24
+Multi-Figurative Language Generation,2022-09-05 08:48:09+00:00,http://arxiv.org/abs/2209.01835,"Huiyuan Lai, Malvina Nissim",,poetry,"Figurative language generation is the task of reformulating a given text in
+the desired figure of speech while still being faithful to the original
+context. We take the first step towards multi-figurative language modelling by
+providing a benchmark for the automatic generation of five common figurative
+forms in English. We train mFLAG employing a scheme for multi-figurative
+language pre-training on top of BART, and a mechanism for injecting the target
+figurative information into the encoder; this enables the generation of text
+with the target figurative form from another figurative form without parallel
+figurative-figurative sentence pairs. Our approach outperforms all strong
+baselines. We also offer some qualitative analysis and reflections on the
+relationship between the different figures of speech.",hf,0,2022-09-05
+Multi-Modal Experience Inspired AI Creation,2022-09-02 11:50:41+00:00,http://arxiv.org/abs/2209.02427v2,"Qian Cao, Xu Chen, Ruihua Song, Hao Jiang, Guang Yang, Zhao Cao",cs.AI,poetry,"AI creation, such as poem or lyrics generation, has attracted increasing attention from both industry and academic communities, with many promising models proposed in the past few years. Existing methods usually estimate the outputs based on single and independent visual or textual information. However, in reality, humans usually make creations according to their experiences, which may involve different modalities and be sequentially correlated. To model such human capabilities, in this paper, we define and solve a novel AI creation problem based on human experiences. More specifically, we study how to generate texts based on sequential multi-modal information. Compared with the previous works, this task is much more difficult because the designed model has to well understand and adapt the semantics among different modalities and effectively convert them into the output in a sequential manner. To alleviate these difficulties, we firstly design a multi-channel sequence-to-sequence architecture equipped with a multi-modal attention network. For more effective optimization, we then propose a curriculum negative sampling strategy tailored for the sequential inputs. To benchmark this problem and demonstrate the effectiveness of our model, we manually labeled a new multi-modal experience dataset. With this dataset, we conduct extensive experiments by comparing our model with a series of representative baselines, where we can demonstrate significant improvements in our model based on both automatic and human-centered metrics. The code and data are available at: \url{https://github.com/Aman-4-Real/MMTG}.",both,1,2022-09-02
+Multi-Modal Experience Inspired AI Creation,2022-09-02 11:50:41+00:00,http://arxiv.org/abs/2209.02427v1,"Qian Cao, Xu Chen, Ruihua Song, Hao Jiang, Guang Yang, Zhao Cao",cs.AI,poetry,"AI creation, such as poem or lyrics generation, has attracted increasing
+attention from both industry and academic communities, with many promising
+models proposed in the past few years. Existing methods usually estimate the
+outputs based on single and independent visual or textual information. However,
+in reality, humans usually make creations according to their experiences, which
+may involve different modalities and be sequentially correlated. To model such
+human capabilities, in this paper, we define and solve a novel AI creation
+problem based on human experiences. More specifically, we study how to generate
+texts based on sequential multi-modal information. Compared with the previous
+works, this task is much more difficult because the designed model has to well
+understand and adapt the semantics among different modalities and effectively
+convert them into the output in a sequential manner. To alleviate these
+difficulties, we firstly design a multi-channel sequence-to-sequence
+architecture equipped with a multi-modal attention network. For more effective
+optimization, we then propose a curriculum negative sampling strategy tailored
+for the sequential inputs. To benchmark this problem and demonstrate the
+effectiveness of our model, we manually labeled a new multi-modal experience
+dataset. With this dataset, we conduct extensive experiments by comparing our
+model with a series of representative baselines, where we can demonstrate
+significant improvements in our model based on both automatic and
+human-centered metrics. The code and data are available at:
+\url{https://github.com/Aman-4-Real/MMTG}.",,0,2022-09-02
+"Understanding EFL Student Idea Generation Strategies for Creative
+  Writing with NLG Tools",2022-06-04 09:11:38+00:00,http://arxiv.org/abs/2207.01484,"David James Woo, Yanzhi Wang, Hengky Susanto, Kai Guo",,poetry,"Natural language generation (NLG) is a process within artificial intelligence
+where computer systems produce human-comprehensible language texts from
+information. English as a foreign language (EFL) students' use of NLG tools
+might facilitate their idea generation, which is fundamental to creative
+writing. However, little is known about how EFL students interact with NLG
+tools to generate ideas. This study explores strategies adopted by EFL students
+when searching for ideas using NLG tools, evaluating ideas generated by NLG
+tools and selecting NLG tools for ideas generation. Four Hong Kong secondary
+school students attended workshops where they learned to write stories
+comprising their own words and words generated by NLG tools. After the
+workshops, they answered questions to reflect on their writing experience with
+NLG tools. In a thematic analysis of the written reflections, we found students
+may have existing ideas when searching for ideas and evaluating ideas with NLG
+tools. Students showed some aversion to ideas generated by NLG tools and
+selected NLG tools that generated a greater quantity of ideas. The findings
+inform our understanding of EFL students' concerns when using NLG tools for
+idea generation and can inform educators' instruction to implement NLG tools
+for classroom creative writing.",hf,0,2022-06-04
+Romantic-Computing,2022-06-01 14:27:17+00:00,http://arxiv.org/abs/2206.11864,Elizabeth Horishny,,poetry,"In this paper we compare various text generation models' ability to write
+poetry in the style of early English Romanticism. These models include:
+Character-Level Recurrent Neural Networks with Long Short-Term Memory, Hugging
+Face's GPT-2, OpenAI's GPT-3, and EleutherAI's GPT-NEO. Quality was measured
+based syllable count and coherence with the automatic evaluation metric GRUEN.
+Character-Level Recurrent Neural Networks performed far worse compared to
+transformer models. And, as parameter-size increased, the quality of
+transformer models' poems improved. These models are typically not compared in
+a creative context, and we are happy to contribute.",hf,0,2022-06-01
+Romantic-Computing,2022-06-01 14:27:17+00:00,http://arxiv.org/abs/2206.11864v1,Elizabeth Horishny,"cs.CL, cs.AI",poetry,"In this paper we compare various text generation models' ability to write
+poetry in the style of early English Romanticism. These models include:
+Character-Level Recurrent Neural Networks with Long Short-Term Memory, Hugging
+Face's GPT-2, OpenAI's GPT-3, and EleutherAI's GPT-NEO. Quality was measured
+based syllable count and coherence with the automatic evaluation metric GRUEN.
+Character-Level Recurrent Neural Networks performed far worse compared to
+transformer models. And, as parameter-size increased, the quality of
+transformer models' poems improved. These models are typically not compared in
+a creative context, and we are happy to contribute.",,0,2022-06-01
+GPoeT-2: A GPT-2 Based Poem Generator,2022-05-18 10:25:12+00:00,http://arxiv.org/abs/2205.08847v1,"Kai-Ling Lo, Rami Ariss, Philipp Kurz","cs.CL, cs.AI",poetry,"This project aims to produce the next volume of machine-generated poetry, a
+complex art form that can be structured and unstructured, and carries depth in
+the meaning between the lines. GPoeT-2 is based on fine-tuning a state of the
+art natural language model (i.e. GPT-2) to generate limericks, typically
+humorous structured poems consisting of five lines with a AABBA rhyming scheme.
+With a two-stage generation system utilizing both forward and reverse language
+modeling, GPoeT-2 is capable of freely generating limericks in diverse topics
+while following the rhyming structure without any seed phrase or a posteriori
+constraints.Based on the automated generation process, we explore a wide
+variety of evaluation metrics to quantify ""good poetry,"" including syntactical
+correctness, lexical diversity, and subject continuity. Finally, we present a
+collection of 94 categorized limericks that rank highly on the explored ""good
+poetry"" metrics to provoke human creativity.",,0,2022-05-18
+Uniform Complexity for Text Generation,2022-04-11 15:19:47+00:00,http://arxiv.org/abs/2204.05185,"Joseph Marvin Imperial, Harish Tayyar Madabushi",,poetry,"Large language models (LLMs) have shown promising results in a wide array of
+generative NLP tasks, such as summarization and machine translation. In the
+context of narrative generation, however, existing models still do not capture
+factors that contribute to producing consistent text. For instance, it is
+logical that a piece of text or a story should be uniformly readable throughout
+and that this form of complexity should be controllable. As such, if the
+complexity of an input text prompt is rated first-grade reading level in the
+Flesch Reading Ease test, then the generated text continuing the plot should
+also be within this range of complexity. With this in mind, we introduce
+Uniform Complexity for Text Generation (UCTG), a new benchmark test which
+raises the challenge of making generative models observe uniform linguistic
+properties with respect to prompts. We experiment with over 150+ linguistically
+and cognitively motivated features for evaluating text complexity in humans and
+generative models. From our results, we find that models such as GPT-2 struggle
+to preserve the complexity of input prompts used in its generations, even if
+finetuned with professionally written texts.",hf,0,2022-04-11
+"Faithfulness in Natural Language Generation: A Systematic Survey of
+  Analysis, Evaluation and Optimization Methods",2022-03-10 08:28:32+00:00,http://arxiv.org/abs/2203.05227,"Wei Li, Wenhao Wu, Moye Chen, Jiachen Liu, Xinyan Xiao, Hua Wu",,poetry,"Natural Language Generation (NLG) has made great progress in recent years due
+to the development of deep learning techniques such as pre-trained language
+models. This advancement has resulted in more fluent, coherent and even
+properties controllable (e.g. stylistic, sentiment, length etc.) generation,
+naturally leading to development in downstream tasks such as abstractive
+summarization, dialogue generation, machine translation, and data-to-text
+generation. However, the faithfulness problem that the generated text usually
+contains unfaithful or non-factual information has become the biggest
+challenge, which makes the performance of text generation unsatisfactory for
+practical applications in many real-world scenarios. Many studies on analysis,
+evaluation, and optimization methods for faithfulness problems have been
+proposed for various tasks, but have not been organized, compared and discussed
+in a combined manner. In this survey, we provide a systematic overview of the
+research progress on the faithfulness problem of NLG, including problem
+analysis, evaluation metrics and optimization methods. We organize the
+evaluation and optimization methods for different tasks into a unified taxonomy
+to facilitate comparison and learning across tasks. Several research trends are
+discussed further.",hf,0,2022-03-10
+Youling: an AI-Assisted Lyrics Creation System,2022-01-18 03:57:04+00:00,http://arxiv.org/abs/2201.06724v1,"Rongsheng Zhang, Xiaoxi Mao, Le Li, Lin Jiang, Lin Chen, Zhiwei Hu, Yadong Xi, Changjie Fan, Minlie Huang",cs.CL,poetry,"Recently, a variety of neural models have been proposed for lyrics
+generation. However, most previous work completes the generation process in a
+single pass with little human intervention. We believe that lyrics creation is
+a creative process with human intelligence centered. AI should play a role as
+an assistant in the lyrics creation process, where human interactions are
+crucial for high-quality creation. This paper demonstrates \textit{Youling}, an
+AI-assisted lyrics creation system, designed to collaborate with music
+creators. In the lyrics generation process, \textit{Youling} supports
+traditional one pass full-text generation mode as well as an interactive
+generation mode, which allows users to select the satisfactory sentences from
+generated candidates conditioned on preceding context. The system also provides
+a revision module which enables users to revise undesired sentences or words of
+lyrics repeatedly. Besides, \textit{Youling} allows users to use multifaceted
+attributes to control the content and format of generated lyrics. The demo
+video of the system is available at https://youtu.be/DFeNpHk0pm4.",,0,2022-01-18
+"BACON: Deep-Learning Powered AI for Poetry Generation with Author
+  Linguistic Style Transfer",2021-12-14 00:08:36+00:00,http://arxiv.org/abs/2112.11483,Alejandro Rodriguez Pascual,,poetry,"This paper describes BACON, a basic prototype of an automatic poetry
+generator with author linguistic style transfer. It combines concepts and
+techniques from finite state machinery, probabilistic models, artificial neural
+networks and deep learning, to write original poetry with rich
+aesthetic-qualities in the style of any given author. Extrinsic evaluation of
+the output generated by BACON shows that participants were unable to tell the
+difference between human and AI-generated poems in any statistically
+significant way.",hf,0,2021-12-14
+"Say What? Collaborative Pop Lyric Generation Using Multitask Transfer
+  Learning",2021-11-15 08:13:26+00:00,http://arxiv.org/abs/2111.07592v1,"Naveen Ram, Tanay Gummadi, Rahul Bhethanabotla, Richard J. Savery, Gil Weinberg","cs.CL, cs.HC, cs.LG, I.2.7",poetry,"Lyric generation is a popular sub-field of natural language generation that
+has seen growth in recent years. Pop lyrics are of unique interest due to the
+genre's unique style and content, in addition to the high level of
+collaboration that goes on behind the scenes in the professional pop
+songwriting process. In this paper, we present a collaborative line-level lyric
+generation system that utilizes transfer-learning via the T5 transformer model,
+which, till date, has not been used to generate pop lyrics. By working and
+communicating directly with professional songwriters, we develop a model that
+is able to learn lyrical and stylistic tasks like rhyming, matching line beat
+requirements, and ending lines with specific target words. Our approach
+compares favorably to existing methods for multiple datasets and yields
+positive results from our online studies and interviews with industry
+songwriters.",,0,2021-11-15
+SP-GPT2: Semantics Improvement in Vietnamese Poetry Generation,2021-10-10 14:31:08+00:00,http://arxiv.org/abs/2110.15723v1,"Tuan Nguyen, Hanh Pham, Truong Bui, Tan Nguyen, Duc Luong, Phong Nguyen","cs.CL, cs.AI, cs.LG",poetry,"Automatic text generation has garnered growing attention in recent years as
+an essential step towards computer creativity. Generative Pretraining
+Transformer 2 (GPT2) is one of the state of the art approaches that have
+excellent successes. In this paper, we took the first step to investigate the
+power of GPT2 in traditional Vietnamese poetry generation. In the earlier time,
+our experiment with base GPT2 was quite good at generating the poem in the
+proper template. Though it can learn the patterns, including rhyme and tone
+rules, from the training data, like almost all other text generation
+approaches, the poems generated still has a topic drift and semantic
+inconsistency. To improve the cohesion within the poems, we proposed a new
+model SP-GPT2 (semantic poem GPT2) which was built on the top GPT2 model and an
+additional loss to constrain context throughout the entire poem. For better
+evaluation, we examined the methods by both automatic quantitative evaluation
+and human evaluation. Both automatic and human evaluation demonstrated that our
+approach can generate poems that have better cohesion without losing the
+quality due to additional loss. At the same time, we are the pioneers of this
+topic. We released the first computational scoring module for poems generated
+in the template containing the style rule dictionary. Additionally, we are the
+first to publish a Luc-Bat dataset, including 87609 Luc Bat poems, which is
+equivalent to about 2.6 million sentences, combined with about 83579 poems in
+other styles was also published for further exploration. The code is available
+at https://github.com/fsoft-ailab/Poem-Generator",,0,2021-10-10
+"The Perils of Using Mechanical Turk to Evaluate Open-Ended Text
+  Generation",2021-09-14 17:20:30+00:00,http://arxiv.org/abs/2109.06835v1,"Marzena Karpinska, Nader Akoury, Mohit Iyyer",cs.CL,poetry,"Recent text generation research has increasingly focused on open-ended
+domains such as story and poetry generation. Because models built for such
+tasks are difficult to evaluate automatically, most researchers in the space
+justify their modeling choices by collecting crowdsourced human judgments of
+text quality (e.g., Likert scores of coherence or grammaticality) from Amazon
+Mechanical Turk (AMT). In this paper, we first conduct a survey of 45
+open-ended text generation papers and find that the vast majority of them fail
+to report crucial details about their AMT tasks, hindering reproducibility. We
+then run a series of story evaluation experiments with both AMT workers and
+English teachers and discover that even with strict qualification filters, AMT
+workers (unlike teachers) fail to distinguish between model-generated text and
+human-generated references. We show that AMT worker judgments improve when they
+are shown model-generated output alongside human-generated references, which
+enables the workers to better calibrate their ratings. Finally, interviews with
+the English teachers provide deeper insights into the challenges of the
+evaluation process, particularly when rating model-generated text.",,0,2021-09-14
+Lingxi: A Diversity-aware Chinese Modern Poetry Generation System,2021-08-27 03:33:28+00:00,http://arxiv.org/abs/2108.12108v1,"Xinran Zhang, Maosong Sun, Jiafeng Liu, Xiaobing Li",cs.CL,poetry,"Poetry generation has been a difficult task in natural language processing.
+Unlike plain neural text generation tasks, poetry has a high requirement for
+novelty, since an easily-understood sentence with too many high frequency words
+might not be considered as poetic, while adequately ambiguous sentences with
+low frequency words can possibly be novel and creative. Inspired by this, we
+present Lingxi, a diversity-aware Chinese modern poetry generation system. We
+propose nucleus sampling with randomized head (NS-RH) algorithm, which
+randomizes the high frequency part (""head"") of the predicted distribution, in
+order to emphasize on the ""comparatively low frequency"" words. The proposed
+algorithm can significantly increase the novelty of generated poetry compared
+with traditional sampling methods. The permutation of distribution is
+controllable by tuning the filtering parameter that determines the ""head"" to
+permutate, achieving diversity-aware sampling. We find that even when a large
+portion of filtered vocabulary is randomized, it can actually generate fluent
+poetry but with notably higher novelty. We also propose a
+semantic-similarity-based rejection sampling algorithm, which creates longer
+and more informative context on the basis of the short input poetry title while
+maintaining high semantic similarity to the title, alleviating the off-topic
+issue.",,0,2021-08-27
+Urdu & Hindi Poetry Generation using Neural Networks,2021-07-16 16:12:51+00:00,http://arxiv.org/abs/2107.14587v1,"Shakeeb A. M. Mukhtar, Pushkar S. Joglekar","cs.CL, cs.LG",poetry,"One of the major problems writers and poets face is the writer's block. It is
+a condition in which an author loses the ability to produce new work or
+experiences a creative slowdown. The problem is more difficult in the context
+of poetry than prose, as in the latter case authors need not be very concise
+while expressing their ideas, also the various aspects such as rhyme, poetic
+meters are not relevant for prose. One of the most effective ways to overcome
+this writing block for poets can be, to have a prompt system, which would help
+their imagination and open their minds for new ideas. A prompt system can
+possibly generate one liner, two liner or full ghazals. The purpose of this
+work is to give an ode to the Urdu, Hindi poets, and helping them start their
+next line of poetry, a couplet or a complete ghazal considering various factors
+like rhymes, refrain, and meters. The result will help aspiring poets to get
+new ideas and help them overcome writer's block by auto-generating pieces of
+poetry using Deep Learning techniques. A concern with creative works like this,
+especially in the literary context, is to ensure that the output is not
+plagiarized. This work also addresses the concern and makes sure that the
+resulting odes are not exact match with input data using parameters like
+temperature and manual plagiarism check against input corpus. To the best of
+our knowledge, although the automatic text generation problem has been studied
+quite extensively in the literature, the specific problem of Urdu, Hindi poetry
+generation has not been explored much. Apart from developing system to
+auto-generate Urdu, Hindi poetry, another key contribution of our work is to
+create a cleaned and preprocessed corpus of Urdu, Hindi poetry (derived from
+authentic resources) and making it freely available for researchers in the
+area.",,0,2021-07-16
+FUDGE: Controlled Text Generation With Future Discriminators,2021-04-12 05:59:53+00:00,http://arxiv.org/abs/2104.05218v1,"Kevin Yang, Dan Klein","cs.CL, cs.LG",poetry,"We propose Future Discriminators for Generation (FUDGE), a flexible and
+modular method for controlled text generation. Given a pre-existing model G for
+generating text from a distribution of interest, FUDGE enables conditioning on
+a desired attribute a (for example, formality) while requiring access only to
+G's output logits. FUDGE learns an attribute predictor operating on a partial
+sequence, and uses this predictor's outputs to adjust G's original
+probabilities. We show that FUDGE models terms corresponding to a Bayesian
+decomposition of the conditional distribution of G given attribute a. Moreover,
+FUDGE can easily compose predictors for multiple desired attributes. We
+evaluate FUDGE on three tasks -- couplet completion in poetry, topic control in
+language generation, and formality change in machine translation -- and observe
+gains in all three tasks.",,0,2021-04-12
+WakaVT: A Sequential Variational Transformer for Waka Generation,2021-04-01 12:14:41+00:00,http://arxiv.org/abs/2104.00426v1,"Yuka Takeishi, Mingxuan Niu, Jing Luo, Zhong Jin, Xinyu Yang","cs.CL, cs.AI",poetry,"Poetry generation has long been a challenge for artificial intelligence. In
+the scope of Japanese poetry generation, many researchers have paid attention
+to Haiku generation, but few have focused on Waka generation. To further
+explore the creative potential of natural language generation systems in
+Japanese poetry creation, we propose a novel Waka generation model, WakaVT,
+which automatically produces Waka poems given user-specified keywords. Firstly,
+an additive mask-based approach is presented to satisfy the form constraint.
+Secondly, the structures of Transformer and variational autoencoder are
+integrated to enhance the quality of generated content. Specifically, to obtain
+novelty and diversity, WakaVT employs a sequence of latent variables, which
+effectively captures word-level variability in Waka data. To improve linguistic
+quality in terms of fluency, coherence, and meaningfulness, we further propose
+the fused multilevel self-attention mechanism, which properly models the
+hierarchical linguistic structure of Waka. To the best of our knowledge, we are
+the first to investigate Waka generation with models based on Transformer
+and/or variational autoencoder. Both objective and subjective evaluation
+results demonstrate that our model outperforms baselines significantly.",,0,2021-04-01
+AfriKI: Machine-in-the-Loop Afrikaans Poetry Generation,2021-03-30 09:17:56+00:00,http://arxiv.org/abs/2103.16190v1,"Imke van Heerden, Anil Bas","cs.CL, cs.LG",poetry,"This paper proposes a generative language model called AfriKI. Our approach
+is based on an LSTM architecture trained on a small corpus of contemporary
+fiction. With the aim of promoting human creativity, we use the model as an
+authoring tool to explore machine-in-the-loop Afrikaans poetry generation. To
+our knowledge, this is the first study to attempt creative text generation in
+Afrikaans.",,0,2021-03-30
+"Controllable Generation from Pre-trained Language Models via Inverse
+  Prompting",2021-03-19 08:36:52+00:00,http://arxiv.org/abs/2103.10685v1,"Xu Zou, Da Yin, Qingyang Zhong, Hongxia Yang, Zhilin Yang, Jie Tang","cs.CL, cs.AI, cs.LG",poetry,"Large-scale pre-trained language models have demonstrated strong capabilities
+of generating realistic text. However, it remains challenging to control the
+generation results. Previous approaches such as prompting are far from
+sufficient, which limits the usage of language models. To tackle this
+challenge, we propose an innovative method, inverse prompting, to better
+control text generation. The core idea of inverse prompting is to use generated
+text to inversely predict the prompt during beam search, which enhances the
+relevance between the prompt and the generated text and provides better
+controllability. Empirically, we pre-train a large-scale Chinese language model
+to perform a systematic study using human evaluation on the tasks of
+open-domain poem generation and open-domain long-form question answering. Our
+results show that our proposed method substantially outperforms the baselines
+and that our generation quality is close to human performance on some of the
+tasks.
+  Narrators can try our poem generation demo at
+https://pretrain.aminer.cn/apps/poetry.html, while our QA demo can be found at
+https://pretrain.aminer.cn/app/qa. For researchers, the code is provided in
+https://github.com/THUDM/InversePrompting.",,0,2021-03-19
+"Exploring Transformers in Natural Language Generation: GPT, BERT, and
+  XLNet",2021-02-16 09:18:16+00:00,http://arxiv.org/abs/2102.08036v1,"M. Onat Topal, Anil Bas, Imke van Heerden","cs.CL, cs.LG",poetry,"Recent years have seen a proliferation of attention mechanisms and the rise
+of Transformers in Natural Language Generation (NLG). Previously,
+state-of-the-art NLG architectures such as RNN and LSTM ran into vanishing
+gradient problems; as sentences grew larger, distance between positions
+remained linear, and sequential computation hindered parallelization since
+sentences were processed word by word. Transformers usher in a new era. In this
+paper, we explore three major Transformer-based models, namely GPT, BERT, and
+XLNet, that carry significant implications for the field. NLG is a burgeoning
+area that is now bolstered with rapid developments in attention mechanisms.
+From poetry generation to summarization, text generation derives benefit as
+Transformer-based language models achieve groundbreaking results.",,0,2021-02-16
+Generate and Revise: Reinforcement Learning in Neural Poetry,2021-02-08 10:35:33+00:00,http://arxiv.org/abs/2102.04114v1,"Andrea Zugarini, Luca Pasqualini, Stefano Melacci, Marco Maggini","cs.CL, cs.AI, cs.LG",poetry,"Writers, poets, singers usually do not create their compositions in just one
+breath. Text is revisited, adjusted, modified, rephrased, even multiple times,
+in order to better convey meanings, emotions and feelings that the author wants
+to express. Amongst the noble written arts, Poetry is probably the one that
+needs to be elaborated the most, since the composition has to formally respect
+predefined meter and rhyming schemes. In this paper, we propose a framework to
+generate poems that are repeatedly revisited and corrected, as humans do, in
+order to improve their overall quality. We frame the problem of revising poems
+in the context of Reinforcement Learning and, in particular, using Proximal
+Policy Optimization. Our model generates poems from scratch and it learns to
+progressively adjust the generated text in order to match a target criterion.
+We evaluate this approach in the case of matching a rhyming scheme, without
+having any information on which words are responsible of creating rhymes and on
+how to coherently alter the poem words. The proposed framework is general and,
+with an appropriate reward shaping, it can be applied to other text generation
+problems.",,0,2021-02-08
+Investigating Societal Biases in a Poetry Composition System,2020-11-05 07:07:40+00:00,http://arxiv.org/abs/2011.02686,"Emily Sheng, David Uthus",,poetry,"There is a growing collection of work analyzing and mitigating societal
+biases in language understanding, generation, and retrieval tasks, though
+examining biases in creative tasks remains underexplored. Creative language
+applications are meant for direct interaction with users, so it is important to
+quantify and mitigate societal biases in these applications. We introduce a
+novel study on a pipeline to mitigate societal biases when retrieving next
+verse suggestions in a poetry composition system. Our results suggest that data
+augmentation through sentiment style transfer has potential for mitigating
+societal biases.",hf,0,2020-11-05
+Weird AI Yankovic: Generating Parody Lyrics,2020-09-25 13:56:20+00:00,http://arxiv.org/abs/2009.12240v1,Mark Riedl,"cs.CL, cs.AI",poetry,"Lyrics parody swaps one set of words that accompany a melody with a new set
+of words, preserving the number of syllables per line and the rhyme scheme.
+Lyrics parody generation is a challenge for controllable text generation. We
+show how a specialized sampling procedure, combined with backward text
+generation with XLNet can produce parody lyrics that reliably meet the syllable
+and rhyme scheme constraints.We introduce the Weird AI Yankovic system and
+provide a case study evaluation. We conclude with societal implications of
+neural lyric parody generation.",,0,2020-09-25
+"Artificial Intelligence versus Maya Angelou: Experimental evidence that
+  people cannot differentiate AI-generated from human-written poetry",2020-05-20 11:52:28+00:00,http://arxiv.org/abs/2005.09980v2,"Nils Köbis, Luca Mossink","cs.AI, cs.CL, econ.GN, q-fin.EC",poetry,"The release of openly available, robust natural language generation
+algorithms (NLG) has spurred much public attention and debate. One reason lies
+in the algorithms' purported ability to generate human-like text across various
+domains. Empirical evidence using incentivized tasks to assess whether people
+(a) can distinguish and (b) prefer algorithm-generated versus human-written
+text is lacking. We conducted two experiments assessing behavioral reactions to
+the state-of-the-art Natural Language Generation algorithm GPT-2 (Ntotal =
+830). Using the identical starting lines of human poems, GPT-2 produced samples
+of poems. From these samples, either a random poem was chosen
+(Human-out-of-the-loop) or the best one was selected (Human-in-the-loop) and in
+turn matched with a human-written poem. In a new incentivized version of the
+Turing Test, participants failed to reliably detect the
+algorithmically-generated poems in the Human-in-the-loop treatment, yet
+succeeded in the Human-out-of-the-loop treatment. Further, people reveal a
+slight aversion to algorithm-generated poetry, independent on whether
+participants were informed about the algorithmic origin of the poem
+(Transparency) or not (Opacity). We discuss what these results convey about the
+performance of NLG algorithms to produce human-like text and propose
+methodologies to study such learning algorithms in human-agent experimental
+settings.",,0,2020-05-20
+Rigid Formats Controlled Text Generation,2020-04-17 01:40:18+00:00,http://arxiv.org/abs/2004.08022v1,"Piji Li, Haisong Zhang, Xiaojiang Liu, Shuming Shi","cs.CL, cs.LG",poetry,"Neural text generation has made tremendous progress in various tasks. One
+common characteristic of most of the tasks is that the texts are not restricted
+to some rigid formats when generating. However, we may confront some special
+text paradigms such as Lyrics (assume the music score is given), Sonnet, SongCi
+(classical Chinese poetry of the Song dynasty), etc. The typical
+characteristics of these texts are in three folds: (1) They must comply fully
+with the rigid predefined formats. (2) They must obey some rhyming schemes. (3)
+Although they are restricted to some formats, the sentence integrity must be
+guaranteed. To the best of our knowledge, text generation based on the
+predefined rigid formats has not been well investigated. Therefore, we propose
+a simple and elegant framework named SongNet to tackle this problem. The
+backbone of the framework is a Transformer-based auto-regressive language
+model. Sets of symbols are tailor-designed to improve the modeling performance
+especially on format, rhyme, and sentence integrity. We improve the attention
+mechanism to impel the model to capture some future information on the format.
+A pre-training and fine-tuning framework is designed to further improve the
+generation quality. Extensive experiments conducted on two collected corpora
+demonstrate that our proposed framework generates significantly better results
+in terms of both automatic metrics and the human evaluation.",,0,2020-04-17
+"Generating Major Types of Chinese Classical Poetry in a Uniformed
+  Framework",2020-03-13 14:16:25+00:00,http://arxiv.org/abs/2003.11528v1,"Jinyi Hu, Maosong Sun",cs.CL,poetry,"Poetry generation is an interesting research topic in the field of text
+generation. As one of the most valuable literary and cultural heritages of
+China, Chinese classical poetry is very familiar and loved by Chinese people
+from generation to generation. It has many particular characteristics in its
+language structure, ranging from form, sound to meaning, thus is regarded as an
+ideal testing task for text generation. In this paper, we propose a GPT-2 based
+uniformed framework for generating major types of Chinese classical poems. We
+define a unified format for formulating all types of training samples by
+integrating detailed form information, then present a simple form-stressed
+weighting method in GPT-2 to strengthen the control to the form of the
+generated poems, with special emphasis on those forms with longer body length.
+Preliminary experimental results show this enhanced model can generate Chinese
+classical poems of major types with high quality in both form and content,
+validating the effectiveness of the proposed strategy. The model has been
+incorporated into Jiuge, the most influential Chinese classical poetry
+generation system developed by Tsinghua University (Guo et al., 2019).",,0,2020-03-13
+Introducing Aspects of Creativity in Automatic Poetry Generation,2020-02-06 20:44:12+00:00,http://arxiv.org/abs/2002.02511v1,"Brendan Bena, Jugal Kalita","cs.CL, cs.AI, cs.LG",poetry,"Poetry Generation involves teaching systems to automatically generate text
+that resembles poetic work. A deep learning system can learn to generate poetry
+on its own by training on a corpus of poems and modeling the particular style
+of language. In this paper, we propose taking an approach that fine-tunes
+GPT-2, a pre-trained language model, to our downstream task of poetry
+generation. We extend prior work on poetry generation by introducing creative
+elements. Specifically, we generate poems that express emotion and elicit the
+same in readers, and poems that use the language of dreams---called dream
+poetry. We are able to produce poems that correctly elicit the emotions of
+sadness and joy 87.5 and 85 percent, respectively, of the time. We produce
+dreamlike poetry by training on a corpus of texts that describe dreams. Poems
+from this model are shown to capture elements of dream poetry with scores of no
+less than 3.2 on the Likert scale. We perform crowdsourced human-evaluation for
+all our poems. We also make use of the Coh-Metrix tool, outlining metrics we
+use to gauge the quality of text generated.",,0,2020-02-06
+Let's FACE it. Finnish Poetry Generation with Aesthetics and Framing,2019-10-30 16:00:54+00:00,http://arxiv.org/abs/1910.13946v1,"Mika Hämäläinen, Khalid Alnajjar",cs.CL,poetry,"We present a creative poem generator for the morphologically rich Finnish
+language. Our method falls into the master-apprentice paradigm, where a
+computationally creative genetic algorithm teaches a BRNN model to generate
+poetry. We model several parts of poetic aesthetics in the fitness function of
+the genetic algorithm, such as sonic features, semantic coherence, imagery and
+metaphor. Furthermore, we justify the creativity of our method based on the
+FACE theory on computational creativity and take additional care in evaluating
+our system by automatic metrics for concepts together with human evaluation for
+aesthetics, framing and expressions.",,0,2019-10-30
+"Creative GANs for generating poems, lyrics, and metaphors",2019-09-20 14:40:18+00:00,http://arxiv.org/abs/1909.09534v1,"Asir Saeed, Suzana Ilić, Eva Zangerle","cs.CL, cs.LG",poetry,"Generative models for text have substantially contributed to tasks like
+machine translation and language modeling, using maximum likelihood
+optimization (MLE). However, for creative text generation, where multiple
+outputs are possible and originality and uniqueness are encouraged, MLE falls
+short. Methods optimized for MLE lead to outputs that can be generic,
+repetitive and incoherent. In this work, we use a Generative Adversarial
+Network framework to alleviate this problem. We evaluate our framework on
+poetry, lyrics and metaphor datasets, each with widely different
+characteristics, and report better performance of our objective function over
+other generative models.",,0,2019-09-20
+Neural Poetry: Learning to Generate Poems using Syllables,2019-08-23 15:09:07+00:00,http://arxiv.org/abs/1908.08861,"Andrea Zugarini, Stefano Melacci, Marco Maggini",,poetry,"Motivated by the recent progresses on machine learning-based models that
+learn artistic styles, in this paper we focus on the problem of poem
+generation. This is a challenging task in which the machine has to capture the
+linguistic features that strongly characterize a certain poet, as well as the
+semantics of the poet's production, that are influenced by his personal
+experiences and by his literary background. Since poetry is constructed using
+syllables, that regulate the form and structure of poems, we propose a
+syllable-based neural language model, and we describe a poem generation
+mechanism that is designed around the poet style, automatically selecting the
+most representative generations. The poetic work of a target author is usually
+not enough to successfully train modern deep neural networks, so we propose a
+multi-stage procedure that exploits non-poetic works of the same author, and
+also other publicly available huge corpora to learn syntax and grammar of the
+target language. We focus on the Italian poet Dante Alighieri, widely famous
+for his Divine Comedy. A quantitative and qualitative experimental analysis of
+the generated tercets is reported, where we included expert judges with strong
+background in humanistic studies. The generated tercets are frequently
+considered to be real by a generic population of judges, with relative
+difference of 56.25\% with respect to the ones really authored by Dante, and
+expert judges perceived Dante's style and rhymes in the generated text.",hf,0,2019-08-23
+"A Hierarchical Attention Based Seq2seq Model for Chinese Lyrics
+  Generation",2019-06-15 06:58:42+00:00,http://arxiv.org/abs/1906.06481v1,"Haoshen Fan, Jie Wang, Bojin Zhuang, Shaojun Wang, Jing Xiao","cs.CL, cs.LG",poetry,"In this paper, we comprehensively study on context-aware generation of
+Chinese song lyrics. Conventional text generative models generate a sequence or
+sentence word by word, failing to consider the contextual relationship between
+sentences. Taking account into the characteristics of lyrics, a hierarchical
+attention based Seq2Seq (Sequence-to-Sequence) model is proposed for Chinese
+lyrics generation. With encoding of word-level and sentence-level contextual
+information, this model promotes the topic relevance and consistency of
+generation. A large Chinese lyrics corpus is also leveraged for model training.
+Eventually, results of automatic and human evaluations demonstrate that our
+model is able to compose complete Chinese lyrics with one united topic
+constraint.",,0,2019-06-15
+"Automated Speech Generation from UN General Assembly Statements: Mapping
+  Risks in AI Generated Texts",2019-06-05 11:23:14+00:00,http://arxiv.org/abs/1906.01946v1,"Joseph Bullock, Miguel Luengo-Oroz","cs.CL, cs.AI",poetry,"Automated text generation has been applied broadly in many domains such as
+marketing and robotics, and used to create chatbots, product reviews and write
+poetry. The ability to synthesize text, however, presents many potential risks,
+while access to the technology required to build generative models is becoming
+increasingly easy. This work is aligned with the efforts of the United Nations
+and other civil society organisations to highlight potential political and
+societal risks arising through the malicious use of text generation software,
+and their potential impact on human rights. As a case study, we present the
+findings of an experiment to generate remarks in the style of political leaders
+by fine-tuning a pretrained AWD- LSTM model on a dataset of speeches made at
+the UN General Assembly. This work highlights the ease with which this can be
+accomplished, as well as the threats of combining these techniques with other
+technologies.",,0,2019-06-05
+Theme-aware generation model for chinese lyrics,2019-05-23 08:50:15+00:00,http://arxiv.org/abs/1906.02134v1,"Jie Wang, Xinyan Zhao","cs.CL, cs.LG",poetry,"With rapid development of neural networks, deep-learning has been extended to
+various natural language generation fields, such as machine translation,
+dialogue generation and even literature creation. In this paper, we propose a
+theme-aware language generation model for Chinese music lyrics, which improves
+the theme-connectivity and coherence of generated paragraphs greatly. A
+multi-channel sequence-to-sequence (seq2seq) model encodes themes and previous
+sentences as global and local contextual information. Moreover, attention
+mechanism is incorporated for sequence decoding, enabling to fuse context into
+predicted next texts. To prepare appropriate train corpus, LDA (Latent
+Dirichlet Allocation) is applied for theme extraction. Generated lyrics is
+grammatically correct and semantically coherent with selected themes, which
+offers a valuable modelling method in other fields including multi-turn
+chatbots, long paragraph generation and etc.",,0,2019-05-23
+"Learning meters of Arabic and English poems with Recurrent Neural
+  Networks: a step forward for language understanding and synthesis",2019-05-07 21:14:03+00:00,http://arxiv.org/abs/1905.05700,"Waleed A. Yousef, Omar M. Ibrahime, Taha M. Madbouly, Moustafa A. Mahmoud",,poetry,"Recognizing a piece of writing as a poem or prose is usually easy for the
+majority of people; however, only specialists can determine which meter a poem
+belongs to. In this paper, we build Recurrent Neural Network (RNN) models that
+can classify poems according to their meters from plain text. The input text is
+encoded at the character level and directly fed to the models without feature
+handcrafting. This is a step forward for machine understanding and synthesis of
+languages in general, and Arabic language in particular. Among the 16 poem
+meters of Arabic and the 4 meters of English the networks were able to
+correctly classify poem with an overall accuracy of 96.38\% and 82.31\%
+respectively. The poem datasets used to conduct this research were massive,
+over 1.5 million of verses, and were crawled from different nontechnical
+sources, almost Arabic and English literature sites, and in different
+heterogeneous and unstructured formats. These datasets are now made publicly
+available in clean, structured, and documented format for other future
+research. To the best of the authors' knowledge, this research is the first to
+address classifying poem meters in a machine learning approach, in general, and
+in RNN featureless based approach, in particular. In addition, the dataset is
+the first publicly available dataset ready for the purpose of future
+computational research.",hf,0,2019-05-07
+Hierarchical Attention: What Really Counts in Various NLP Tasks,2018-08-10 23:28:33+00:00,http://arxiv.org/abs/1808.03728v1,"Zehao Dou, Zhihua Zhang",cs.CL,poetry,"Attention mechanisms in sequence to sequence models have shown great ability
+and wonderful performance in various natural language processing (NLP) tasks,
+such as sentence embedding, text generation, machine translation, machine
+reading comprehension, etc. Unfortunately, existing attention mechanisms only
+learn either high-level or low-level features. In this paper, we think that the
+lack of hierarchical mechanisms is a bottleneck in improving the performance of
+the attention mechanisms, and propose a novel Hierarchical Attention Mechanism
+(Ham) based on the weighted sum of different layers of a multi-level attention.
+Ham achieves a state-of-the-art BLEU score of 0.26 on Chinese poem generation
+task and a nearly 6.5% averaged improvement compared with the existing machine
+reading comprehension models such as BIDAF and Match-LSTM. Furthermore, our
+experiments and theorems reveal that Ham has greater generalization and
+representation ability than existing attention mechanisms.",,0,2018-08-10
+"Guess who? Multilingual approach for the automated generation of
+  author-stylized poetry",2018-07-17 15:13:20+00:00,http://arxiv.org/abs/1807.07147v3,"Alexey Tikhonov, Ivan P. Yamshchikov","cs.CL, cs.AI, cs.LG",poetry,"This paper addresses the problem of stylized text generation in a
+multilingual setup. A version of a language model based on a long short-term
+memory (LSTM) artificial neural network with extended phonetic and semantic
+embeddings is used for stylized poetry generation. The quality of the resulting
+poems generated by the network is estimated through bilingual evaluation
+understudy (BLEU), a survey and a new cross-entropy based metric that is
+suggested for the problems of such type. The experiments show that the proposed
+model consistently outperforms random sample and vanilla-LSTM baselines, humans
+also tend to associate machine generated texts with the target author.",,0,2018-07-17
+Beyond Narrative Description: Generating Poetry from Images by Multi-Adversarial Training,2018-04-23 14:35:59+00:00,http://arxiv.org/abs/1804.08473,"Bei Liu, Jianlong Fu, Makoto P. Kato, Masatoshi Yoshikawa",,poetry,"Automatic generation of natural language from images has attracted extensive attention. In this paper, we take one step further to investigate generation of poetic language (with multiple lines) to an image for automatic poetry creation. This task involves multiple challenges, including discovering poetic clues from the image (e.g., hope from green), and generating poems to satisfy both relevance to the image and poeticness in language level. To solve the above challenges, we formulate the task of poem generation into two correlated sub-tasks by multi-adversarial training via policy gradient, through which the cross-modal relevance and poetic language style can be ensured. To extract poetic clues from images, we propose to learn a deep coupled visual-poetic embedding, in which the poetic representation from objects, sentiments and scenes in an image can be jointly learned. Two discriminative networks are further introduced to guide the poem generation, including a multi-modal discriminator and a poem-style discriminator. To facilitate the research, we have released two poem datasets by human annotators with two distinct properties: 1) the first human annotated image-to-poem pair dataset (with 8,292 pairs in total), and 2) to-date the largest public English poem corpus dataset (with 92,265 different poems in total). Extensive experiments are conducted with 8K images, among which 1.5K image are randomly picked for evaluation. Both objective and subjective evaluations show the superior performances against the state-of-the-art methods for poem generation from images. Turing test carried out with over 500 human subjects, among which 30 evaluators are poetry experts, demonstrates the effectiveness of our approach.",hf,0,2018-04-23
+Natural Language Statistical Features of LSTM-generated Texts,2018-04-10 13:17:36+00:00,http://arxiv.org/abs/1804.04087v2,"Marco Lippi, Marcelo A Montemurro, Mirko Degli Esposti, Giampaolo Cristadoro","cs.CL, cs.LG",poetry,"Long Short-Term Memory (LSTM) networks have recently shown remarkable
+performance in several tasks dealing with natural language generation, such as
+image captioning or poetry composition. Yet, only few works have analyzed text
+generated by LSTMs in order to quantitatively evaluate to which extent such
+artificial texts resemble those generated by humans. We compared the
+statistical structure of LSTM-generated language to that of written natural
+language, and to those produced by Markov models of various orders. In
+particular, we characterized the statistical structure of language by assessing
+word-frequency statistics, long-range correlations, and entropy measures. Our
+main finding is that while both LSTM and Markov-generated texts can exhibit
+features similar to real ones in their word-frequency statistics and entropy
+measures, LSTM-texts are shown to reproduce long-range correlations at scales
+comparable to those found in natural language. Moreover, for LSTM networks a
+temperature-like parameter controlling the generation process shows an optimal
+value---for which the produced texts are closest to real language---consistent
+across all the different statistical features investigated.",,0,2018-04-10
+X575: writing rengas with web services,2016-06-25 20:04:42+00:00,http://arxiv.org/abs/1606.07955v1,"Daniel Winterstein, Joseph Corneli","cs.AI, cs.CL, I.2.1; J.5",poetry,"Our software system simulates the classical collaborative Japanese poetry
+form, renga, made of linked haikus. We used NLP methods wrapped up as web
+services. Our experiments were only a partial success, since results fail to
+satisfy classical constraints. To gather ideas for future work, we examine
+related research in semiotics, linguistics, and computing.",,0,2016-06-25
