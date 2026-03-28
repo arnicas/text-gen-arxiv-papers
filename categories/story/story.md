@@ -7,10 +7,20 @@ sidebar:
 ---
 
 
-*written on 2026-02-28*
+*written on 2026-03-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [Alignment Reduces Expressed but Not Encoded Gender Bias: A Unified Framework and Study](http://arxiv.org/abs/2603.24125v1) | Nour Bouchouchi, Thiabult Laugel, Xavier Renard, Christophe Marsala, Marie-Jeanne Lesot, Marcin Detyniecki | cs.CL | 2026-03-25 |
+| [An Agentic Approach to Generating XAI-Narratives](http://arxiv.org/abs/2603.20003v1) | Yifan He, David Martens | cs.CL | 2026-03-20 |
+| [Directing the Narrative: A Finetuning Method for Controlling Coherence and Style in Story Generation](http://arxiv.org/abs/2603.17295v1) | Jianzhang Zhang, Yijing Tian, Jiwang Qu, Chuang Liu | cs.CV, cs.AI | 2026-03-18 |
+| [PlotTwist: A Creative Plot Generation Framework with Small Language Models](http://arxiv.org/abs/2603.16410v1) | Abhinav Thorat, Ravi Kolla, Jyotin Goel, Niranjan Pedanekar | cs.CL, cs.AI | 2026-03-17 |
+| [LLM-Driven Discovery of High-Entropy Catalysts via Retrieval-Augmented Generation](http://arxiv.org/abs/2603.15712v1) | AI Scientists, Xinyi Lin, Danqing Yin, Ying Guo | cond-mat.mtrl-sci, cs.AI | 2026-03-16 |
+| [Creative Convergence or Imitation? Genre-Specific Homogeneity in LLM-Generated Chinese Literature](http://arxiv.org/abs/2603.14430v1) | Yuanchi Ma, Kaize Shi, Hui He, Zhihua Zhang, Zhongxiang Lei, Ziliang Qiu, Renfen Hu, Jiamou Liu | cs.CL | 2026-03-15 |
+| [Lost in Stories: Consistency Bugs in Long Story Generation by LLMs](http://arxiv.org/abs/2603.05890v1) | Junjie Li, Xinrui Guo, Yuhao Wu, Roy Ka-Wei Lee, Hongzhi Li, Yutao Xie | cs.CL, cs.AI | 2026-03-06 |
+| [LLM-Grounded Explainable AI for Supply Chain Risk Early Warning via Temporal Graph Attention Networks](http://arxiv.org/abs/2603.04818v2) | Zhiming Xue, Yujue Wang, Menghao Huo | cs.AI | 2026-03-05 |
+| [A Directed Graph Model and Experimental Framework for Design and Study of Time-Dependent Text Visualisation](http://arxiv.org/abs/2603.02422v1) | Songhai Fan, Simon Angus, Tim Dwyer, Ying Yang, Sarah Goodwin, Helen Purchase | cs.HC, cs.AI, cs.CL | 2026-03-02 |
+| [Learning from Synthetic Data Improves Multi-hop Reasoning](http://arxiv.org/abs/2603.02091v1) | Anmol Kabra, Yilun Yin, Albert Gong, Kamilė Stankevičiūtė, Dongyoung Go, Johann Lee, Katie Z. Luo, Carla P. Gomes, Kilian Q. Weinberger | cs.LG, cs.AI, cs.CL | 2026-03-02 |
 | [StoryMovie: A Dataset for Semantic Alignment of Visual Stories with Movie Scripts and Subtitles](http://arxiv.org/abs/2602.21829v1) | Daniel Oliveira, David Martins de Matos | cs.CV, cs.AI | 2026-02-25 |
 | [DoAtlas-1: A Causal Compilation Paradigm for Clinical AI](http://arxiv.org/abs/2602.19158v1) | Yulong Li, Jianxu Chen, Xiwei Liu, Chuanyue Suo, Rong Xia, Zhixiang Lu, Yichen Li, Xinlin Zhuang, Niranjana Arun Menon, Yutong Xie, Eran Segal, Imran Razzak | cs.AI | 2026-02-22 |
 | [Projective Psychological Assessment of Large Multimodal Models Using Thematic Apperception Tests](http://arxiv.org/abs/2602.17108v1) | Anton Dzega, Aviad Elyashar, Ortal Slobodin, Odeya Cohen, Rami Puzis | cs.CL | 2026-02-19 |

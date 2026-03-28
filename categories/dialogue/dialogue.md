@@ -7,10 +7,41 @@ sidebar:
 ---
 
 
-*written on 2026-02-28*
+*written on 2026-03-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [OrgForge-IT: A Verifiable Synthetic Benchmark for LLM-Based Insider Threat Detection](http://arxiv.org/abs/2603.22499v1) | Jeffrey Flynt | cs.CR, cs.LG | 2026-03-23 |
+| [Optimizing Multi-Agent Weather Captioning via Text Gradient Descent: A Training-Free Approach with Consensus-Aware Gradient Fusion](http://arxiv.org/abs/2603.21673v1) | Shixu Liu | cs.CL | 2026-03-23 |
+| [Emergent Formal Verification: How an Autonomous AI Ecosystem Independently Discovered SMT-Based Safety Across Six Domains](http://arxiv.org/abs/2603.21149v1) | Octavian Untila | cs.SE, cs.AI, cs.MA | 2026-03-22 |
+| [Reasoning Gets Harder for LLMs Inside A Dialogue](http://arxiv.org/abs/2603.20133v1) | Ivan Kartáč, Mateusz Lango, Ondřej Dušek | cs.CL | 2026-03-20 |
+| [An Agentic Approach to Generating XAI-Narratives](http://arxiv.org/abs/2603.20003v1) | Yifan He, David Martens | cs.CL | 2026-03-20 |
+| [Semantic Delta: An Interpretable Signal Differentiating Human and LLMs Dialogue](http://arxiv.org/abs/2603.19849v1) | Riccardo Scantamburlo, Mauro Mezzanzana, Giacomo Buonanno, Francesco Bertolotti | cs.CL, cs.AI | 2026-03-20 |
+| [Skilled AI Agents for Embedded and IoT Systems Development](http://arxiv.org/abs/2603.19583v1) | Yiming Li, Yuhan Cheng, Mingchen Ma, Yihang Zou, Ningyuan Yang, Wei Cheng, Hai "Helen" Li, Yiran Chen, Tingjun Chen | cs.SE, cs.AI | 2026-03-20 |
+| [Mi:dm K 2.5 Pro](http://arxiv.org/abs/2603.18788v2) | KT Tech innovation Group | cs.CL, cs.AI | 2026-03-19 |
+| [Expert Personas Improve LLM Alignment but Damage Accuracy: Bootstrapping Intent-Based Persona Routing with PRISM](http://arxiv.org/abs/2603.18507v1) | Zizhao Hu, Mohammad Rostami, Jesse Thomason | cs.AI | 2026-03-19 |
+| [When Only the Final Text Survives: Implicit Execution Tracing for Multi-Agent Attribution](http://arxiv.org/abs/2603.17445v2) | Yi Nian, Haosen Cao, Shenzhe Zhu, Henry Peng Zou, Qingqing Luan, Yue Zhao | cs.AI, cs.CL | 2026-03-18 |
+| [Graph-Native Cognitive Memory for AI Agents: Formal Belief Revision Semantics for Versioned Memory Architectures](http://arxiv.org/abs/2603.17244v1) | Young Bin Park | cs.AI, cs.IR, cs.LO | 2026-03-18 |
+| [Evaluating LLM-Simulated Conversations in Modeling Inconsistent and Uncollaborative Behaviors in Human Social Interaction](http://arxiv.org/abs/2603.17094v1) | Ryo Kamoi, Ameya Godbole, Longqi Yang, Rui Zhang, Mengting Wan, Pei Zhou | cs.CL | 2026-03-17 |
+| [Differential Harm Propensity in Personalized LLM Agents: The Curious Case of Mental Health Disclosure](http://arxiv.org/abs/2603.16734v1) | Caglar Yildirim | cs.AI | 2026-03-17 |
+| [Proactive Rejection and Grounded Execution: A Dual-Stage Intent Analysis Paradigm for Safe and Efficient AIoT Smart Homes](http://arxiv.org/abs/2603.16207v1) | Xinxin Jin, Zhengwei Ni, Zhengguo Sheng, Victor C. M. Leung | cs.AI | 2026-03-17 |
+| [VIBEPASS: Can Vibe Coders Really Pass the Vibe Check?](http://arxiv.org/abs/2603.15921v1) | Srijan Bansal, Jiao Fangkai, Yilun Zhou, Austin Xu, Shafiq Joty, Semih Yavuz | cs.SE, cs.AI | 2026-03-16 |
+| [Practicing with Language Models Cultivates Human Empathic Communication](http://arxiv.org/abs/2603.15245v1) | Aakriti Kumar, Nalin Poungpeth, Diyi Yang, Bruce Lambert, Matthew Groh | cs.CL, cs.HC | 2026-03-16 |
+| [OrgForge: A Multi-Agent Simulation Framework for Verifiable Synthetic Corporate Corpora](http://arxiv.org/abs/2603.14997v1) | Jeffrey Flynt | cs.CL, cs.AI, cs.IR | 2026-03-16 |
+| [GNNVerifier: Graph-based Verifier for LLM Task Planning](http://arxiv.org/abs/2603.14730v2) | Yu Hao, Qiuyu Wang, Cheng Yang, Yawen Li, Zhiqiang Zhang, Chuan Shi | cs.LG | 2026-03-16 |
+| [GameUIAgent: An LLM-Powered Framework for Automated Game UI Design with Structured Intermediate Representation](http://arxiv.org/abs/2603.14724v1) | Wei Zeng, Fengwei An, Zhen Liu, Jian Zhao | cs.AI | 2026-03-16 |
+| [CangjieBench: Benchmarking LLMs on a Low-Resource General-Purpose Programming Language](http://arxiv.org/abs/2603.14501v1) | Junhang Cheng, Fang Liu, Jia Li, Chengru Wu, Nanxiang Jiang, Li Zhang | cs.SE, cs.AI, cs.CL | 2026-03-15 |
+| [Infinite Problem Generator: Verifiably Scaling Physics Reasoning Data with Agentic Workflows](http://arxiv.org/abs/2603.14486v1) | Aditya Sharan, Sriram Hebbale, Dhruv Kumar | cs.CL, cs.AI | 2026-03-15 |
+| [QChunker: Learning Question-Aware Text Chunking for Domain RAG via Multi-Agent Debate](http://arxiv.org/abs/2603.11650v1) | Jihao Zhao, Daixuan Li, Pengfei Li, Shuaishuai Zu, Biao Qin, Hongyan Liu | cs.CL | 2026-03-12 |
+| [SPAR-K: Scheduled Periodic Alternating Early Exit for Spoken Language Models](http://arxiv.org/abs/2603.09215v1) | Hsiao-Ying Huang, Cheng-Han Chiang, Hung-yi Lee | cs.CL, eess.AS | 2026-03-10 |
+| [SCALAR: Learning and Composing Skills through LLM Guided Symbolic Planning and Deep RL Grounding](http://arxiv.org/abs/2603.09036v1) | Renos Zabounidis, Yue Wu, Simon Stepputtis, Woojun Kim, Yuanzhi Li, Tom Mitchell, Katia Sycara | cs.LG | 2026-03-10 |
+| [Memory for Autonomous LLM Agents:Mechanisms, Evaluation, and Emerging Frontiers](http://arxiv.org/abs/2603.07670v1) | Pengfei Du | cs.AI | 2026-03-08 |
+| [FireBench: Evaluating Instruction Following in Enterprise and API-Driven LLM Applications](http://arxiv.org/abs/2603.04857v1) | Yunfan Zhang, Yijie Bei, Jetashree Ravi, Pawel Garbacki | cs.CL, cs.SE | 2026-03-05 |
+| [EchoGuard: An Agentic Framework with Knowledge-Graph Memory for Detecting Manipulative Communication in Longitudinal Dialogue](http://arxiv.org/abs/2603.04815v1) | Ratna Kandala, Niva Manchanda, Akshata Kishore Moharir, Ananth Kandala | cs.AI | 2026-03-05 |
+| [Agentics 2.0: Logical Transduction Algebra for Agentic Data Workflows](http://arxiv.org/abs/2603.04241v1) | Alfio Massimiliano Gliozzo, Junkyu Lee, Nahuel Defosse | cs.AI, cs.LG | 2026-03-04 |
+| [Assessing the Effectiveness of LLMs in Delivering Cognitive Behavioral Therapy](http://arxiv.org/abs/2603.03862v1) | Navdeep Singh Bedi, Ana-Maria Bucur, Noriko Kando, Fabio Crestani | cs.CL | 2026-03-04 |
+| [BLUFF: Benchmarking the Detection of False and Synthetic Content across 58 Low-Resource Languages](http://arxiv.org/abs/2603.00634v1) | Jason Lucas, Matt Murtagh-White, Adaku Uchendu, Ali Al-Lawati, Michiharu Yamashita, Dominik Macko, Ivan Srba, Robert Moro, Dongwon Lee | cs.CL | 2026-02-28 |
+| [LLM-Driven Multi-Turn Task-Oriented Dialogue Synthesis for Realistic Reasoning](http://arxiv.org/abs/2602.23610v1) | Yu Zhu, Kai Yang | cs.CL, cs.AI | 2026-02-27 |
 | [Agentic AI as a Cybersecurity Attack Surface: Threats, Exploits, and Defenses in Runtime Supply Chains](http://arxiv.org/abs/2602.19555v1) | Xiaochong Jiang, Shiqi Yang, Wenting Yang, Yichen Liu, Cheng Ji | cs.CR, cs.AI | 2026-02-23 |
 | [NIMMGen: Learning Neural-Integrated Mechanistic Digital Twins with LLMs](http://arxiv.org/abs/2602.18008v1) | Zihan Guan, Rituparna Datta, Mengxuan Hu, Shunshun Liu, Aiying Zhang, Prasanna Balachandran, Sheng Li, Anil Vullikanti | cs.LG, cs.AI, cs.CL | 2026-02-20 |
 | [What Do LLMs Associate with Your Name? A Human-Centered Black-Box Audit of Personal Data](http://arxiv.org/abs/2602.17483v1) | Dimitri Staufer, Kirsten Morehouse | cs.HC, cs.AI, cs.CL, cs.CY | 2026-02-19 |

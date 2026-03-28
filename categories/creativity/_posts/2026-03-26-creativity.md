@@ -6,10 +6,47 @@ sidebar:
 ---
 
 
-*written on 2026-02-28*
+*written on 2026-03-28*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
+| [LogitScope: A Framework for Analyzing LLM Uncertainty Through Information Metrics](http://arxiv.org/abs/2603.24929v1) | Farhan Ahmed, Yuya Jeremy Ong, Chad DeLuca | cs.AI, cs.CL, cs.IT | 2026-03-26 |
+| [MARCH: Multi-Agent Reinforced Self-Check for LLM Hallucination](http://arxiv.org/abs/2603.24579v1) | Zhuo Li, Yupeng Zhang, Pengyu Cheng, Jiajun Song, Mengyu Zhou, Hao Li, Shujie Hu, Yu Qin, Erchao Zhao, Xiaoxi Jiang, Guanjun Jiang | cs.CL | 2026-03-25 |
+| [Evaluating LLM-Based Test Generation Under Software Evolution](http://arxiv.org/abs/2603.23443v1) | Sabaat Haroon, Mohammad Taha Khan, Muhammad Ali Gulzar | cs.SE, cs.AI | 2026-03-24 |
+| [Is AI Catching Up to Human Expression? Exploring Emotion, Personality, Authorship, and Linguistic Style in English and Arabic with Six Large Language Models](http://arxiv.org/abs/2603.23251v1) | Nasser A Alsadhan | cs.CL, cs.LG | 2026-03-24 |
+| [Parametric Knowledge and Retrieval Behavior in RAG Fine-Tuning for Electronic Design Automation](http://arxiv.org/abs/2603.23047v1) | Julian Oestreich, Maximilian Bley, Frank Binder, Lydia Müller, Maksym Sydorenko, André Alcalde | cs.CL, cs.AI, cs.CE | 2026-03-24 |
+| [LLM-guided headline rewriting for clickability enhancement without clickbait](http://arxiv.org/abs/2603.22459v1) | Yehudit Aperstein, Linoy Halifa, Sagiv Bar, Alexander Apartsin | cs.CL, cs.AI | 2026-03-23 |
+| [Dual-Space Knowledge Distillation with Key-Query Matching for Large Language Models with Vocabulary Mismatch](http://arxiv.org/abs/2603.22056v1) | Stella Eva Tsiapali, Cong-Thanh Do, Kate Knill | cs.CL | 2026-03-23 |
+| [Optimizing Multi-Agent Weather Captioning via Text Gradient Descent: A Training-Free Approach with Consensus-Aware Gradient Fusion](http://arxiv.org/abs/2603.21673v1) | Shixu Liu | cs.CL | 2026-03-23 |
+| [LLM-Based Test Case Generation in DBMS through Monte Carlo Tree Search](http://arxiv.org/abs/2603.21530v1) | Yujia Chen, Yingli Zhou, Fangyuan Zhang, Cuiyun Gao | cs.SE, cs.AI | 2026-03-23 |
+| [SafePilot: A Framework for Assuring LLM-enabled Cyber-Physical Systems](http://arxiv.org/abs/2603.21523v1) | Weizhe Xu, Mengyu Liu, Fanxin Kong | cs.RO, cs.AI | 2026-03-23 |
+| [MzansiText and MzansiLM: An Open Corpus and Decoder-Only Language Model for South African Languages](http://arxiv.org/abs/2603.20732v1) | Anri Lombard, Simbarashe Mawere, Temi Aina, Ethan Wolff, Sbonelo Gumede, Elan Novick, Francois Meyer, Jan Buys | cs.CL | 2026-03-21 |
+| [D5P4: Partition Determinantal Point Process for Diversity in Parallel Discrete Diffusion Decoding](http://arxiv.org/abs/2603.19146v1) | Jonathan Lys, Vincent Gripon, Bastien Pasdeloup, Axel Marmoret, Lukas Mauch, Fabien Cardinaux, Ghouthi Boukli Hacene | cs.AI, cs.LG | 2026-03-19 |
+| [Serendipity by Design: Evaluating the Impact of Cross-domain Mappings on Human and LLM Creativity](http://arxiv.org/abs/2603.19087v1) | Qiawen Ella Liu, Marina Dubova, Henry Conklin, Takumi Harada, Thomas L. Griffiths | cs.AI, cs.CL | 2026-03-19 |
+| [Expert Personas Improve LLM Alignment but Damage Accuracy: Bootstrapping Intent-Based Persona Routing with PRISM](http://arxiv.org/abs/2603.18507v1) | Zizhao Hu, Mohammad Rostami, Jesse Thomason | cs.AI | 2026-03-19 |
+| [The Truncation Blind Spot: How Decoding Strategies Systematically Exclude Human-Like Token Choices](http://arxiv.org/abs/2603.18482v1) | Esteban Garces Arias, Nurzhan Sapargali, Christian Heumann, Matthias Aßenmacher | cs.CL, cs.LG, stat.ML | 2026-03-19 |
+| [How LLMs Distort Our Written Language](http://arxiv.org/abs/2603.18161v1) | Marwa Abdulhai, Isadora White, Yanming Wan, Ibrahim Qureshi, Joel Leibo, Max Kleiman-Weiner, Natasha Jaques | cs.CL, cs.AI | 2026-03-18 |
+| [VeriGrey: Greybox Agent Validation](http://arxiv.org/abs/2603.17639v1) | Yuntong Zhang, Sungmin Kang, Ruijie Meng, Marcel Böhme, Abhik Roychoudhury | cs.AI | 2026-03-18 |
+| [Detecting the Machine: A Comprehensive Benchmark of AI-Generated Text Detectors Across Architectures, Domains, and Adversarial Conditions](http://arxiv.org/abs/2603.17522v1) | Madhav S. Baidya, S. S. Baidya, Chirag Chawla | cs.CL, cs.AI | 2026-03-18 |
+| [Prompt Engineering for Scale Development in Generative Psychometrics](http://arxiv.org/abs/2603.15909v1) | Lara Lee Russell-Lasalandra, Hudson Golino | cs.AI, cs.CL, cs.HC | 2026-03-16 |
+| [LLM-Driven Discovery of High-Entropy Catalysts via Retrieval-Augmented Generation](http://arxiv.org/abs/2603.15712v1) | AI Scientists, Xinyi Lin, Danqing Yin, Ying Guo | cond-mat.mtrl-sci, cs.AI | 2026-03-16 |
+| [GNNVerifier: Graph-based Verifier for LLM Task Planning](http://arxiv.org/abs/2603.14730v2) | Yu Hao, Qiuyu Wang, Cheng Yang, Yawen Li, Zhiqiang Zhang, Chuan Shi | cs.LG | 2026-03-16 |
+| [CangjieBench: Benchmarking LLMs on a Low-Resource General-Purpose Programming Language](http://arxiv.org/abs/2603.14501v1) | Junhang Cheng, Fang Liu, Jia Li, Chengru Wu, Nanxiang Jiang, Li Zhang | cs.SE, cs.AI, cs.CL | 2026-03-15 |
+| [Infinite Problem Generator: Verifiably Scaling Physics Reasoning Data with Agentic Workflows](http://arxiv.org/abs/2603.14486v1) | Aditya Sharan, Sriram Hebbale, Dhruv Kumar | cs.CL, cs.AI | 2026-03-15 |
+| [Creative Convergence or Imitation? Genre-Specific Homogeneity in LLM-Generated Chinese Literature](http://arxiv.org/abs/2603.14430v1) | Yuanchi Ma, Kaize Shi, Hui He, Zhihua Zhang, Zhongxiang Lei, Ziliang Qiu, Renfen Hu, Jiamou Liu | cs.CL | 2026-03-15 |
+| [AI Model Modulation with Logits Redistribution](http://arxiv.org/abs/2603.12755v1) | Zihan Wang, Zhongkui Ma, Xinguo Feng, Zhiyang Mei, Ethan Ma, Derui Wang, Minhui Xue, Guangdong Bai | cs.AI | 2026-03-13 |
+| [Experimental evidence of progressive ChatGPT models self-convergence](http://arxiv.org/abs/2603.12683v2) | Konstantinos F. Xylogiannopoulos, Petros Xanthopoulos, Panagiotis Karampelas, Georgios A. Bakamitsos | cs.CL, cs.AI | 2026-03-13 |
+| [RTD-Guard: A Black-Box Textual Adversarial Detection Framework via Replacement Token Detection](http://arxiv.org/abs/2603.12582v1) | He Zhu, Yanshu Li, Wen Liu, Haitian Yang | cs.CL, cs.CR | 2026-03-13 |
+| [FlexRec: Adapting LLM-based Recommenders for Flexible Needs via Reinforcement Learning](http://arxiv.org/abs/2603.11901v1) | Yijun Pan, Weikang Qiu, Qiyao Ma, Mingxuan Ju, Tong Zhao, Neil Shah, Rex Ying | cs.LG | 2026-03-12 |
+| [In the LLM era, Word Sense Induction remains unsolved](http://arxiv.org/abs/2603.11686v1) | Anna Mosolova, Marie Candito, Carlos Ramisch | cs.CL | 2026-03-12 |
+| [KEPo: Knowledge Evolution Poison on Graph-based Retrieval-Augmented Generation](http://arxiv.org/abs/2603.11501v2) | Qizhi Chen, Chao Qi, Yihong Huang, Muquan Li, Rongzheng Wang, Dongyang Zhang, Ke Qin, Shuang Liang | cs.LG, cs.AI, cs.CR | 2026-03-12 |
+| [Is this Idea Novel? An Automated Benchmark for Judgment of Research Ideas](http://arxiv.org/abs/2603.10303v1) | Tim Schopf, Michael Färber | cs.CL, cs.AI | 2026-03-11 |
+| [Writing literature reviews with AI: principles, hurdles and some lessons learned](http://arxiv.org/abs/2603.20235v1) | Saadi Lahlou, Annabelle Gouttebroze, Atrina Oraee, Julian Madera | cs.CY, cs.AI, cs.HC | 2026-03-08 |
+| [AgriPath: A Systematic Exploration of Architectural Trade-offs for Crop Disease Classification](http://arxiv.org/abs/2603.13354v2) | Hamza Mooraj, George Pantazopoulos, Alessandro Suglia | cs.CV, cs.LG | 2026-03-08 |
+| [Do Foundation Models Know Geometry? Probing Frozen Features for Continuous Physical Measurement](http://arxiv.org/abs/2603.06459v1) | Yakov Pyotr Shkolnikov | cs.CV, cs.AI | 2026-03-06 |
+| [Free Lunch for Pass@$k$? Low Cost Diverse Sampling for Diffusion Language Models](http://arxiv.org/abs/2603.04893v1) | Sean Lamont, Christian Walder, Paul Montague, Amir Dezfouli, Michael Norrish | cs.CL, cs.AI | 2026-03-05 |
+| [Beyond Test-Time Compute Strategies: Advocating Energy-per-Token in LLM Inference](http://arxiv.org/abs/2603.20224v1) | Patrick Wilhelm, Thorsten Wittkopp, Odej Kao | cs.CL | 2026-03-04 |
+| [Beyond Factual Correctness: Mitigating Preference-Inconsistent Explanations in Explainable Recommendation](http://arxiv.org/abs/2603.03080v1) | Chengkai Wang, Baisong Liu | cs.AI | 2026-03-03 |
 | [SIGMA: A Semantic-Grounded Instruction-Driven Generative Multi-Task Recommender at AliExpress](http://arxiv.org/abs/2602.22913v1) | Yang Yu, Lei Kou, Huaikuan Yi, Bin Chen, Yayu Cao, Lei Shen, Chao Zhang, Bing Wang, Xiaoyi Zeng | cs.IR, cs.LG | 2026-02-26 |
 | [Where Relevance Emerges: A Layer-Wise Study of Internal Attention for Zero-Shot Re-Ranking](http://arxiv.org/abs/2602.22591v1) | Haodong Chen, Shengyao Zhuang, Zheng Yao, Guido Zuccon, Teerapong Leelanupab | cs.IR | 2026-02-26 |
 | [Sydney Telling Fables on AI and Humans: A Corpus Tracing Memetic Transfer of Persona between LLMs](http://arxiv.org/abs/2602.22481v1) | Jiří Milička, Hana Bednářová | cs.CL, cs.AI | 2026-02-25 |
