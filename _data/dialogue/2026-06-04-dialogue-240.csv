@@ -1,4 +1,56 @@
 title,pubdate,id,authors,categories,search,abstract,source,hf_upvotes,displaydate
+An Infectious Disease Spread Simulation Based on Large Language Model Decision Making,2026-06-04 16:30:13+00:00,http://arxiv.org/abs/2606.06360v1,"Yonchanok Khaokaew, Ruochen Kong, Andreas Zufle, Hao Xue, Taylor Anderson, Chandini Raina MacIntyre, Matthew Scotch, Flora D. Salim, David J Heslop",cs.AI,dialogue,"Modelling individual decision-making during infectious disease outbreaks is crucial for understanding behavioural dynamics and informing effective public health interventions. Prior work has shown that large language models can simulate realistic human behaviour by generating agent decisions based on demographic prompts and situational context. We build on this foundation with a spatially grounded, agent-based simulation framework that integrates LLM-generated decisions about self-reported influenza-like illness into a census-based synthetic population of agents. Location is treated as a central feature: agents are assigned to spatial units within cities, capturing the spatial distributions of different demographic groups using real-world census data and enabling geographically diverse behavioural modelling. We implement and compare three decision scenarios, independent reasoning, household influence, and message framing, and simulate self-reporting outcomes in San Francisco and Atlanta. Results reveal that income and education are the dominant drivers of reporting rate variation, with smaller but consistent effects from geography, LLM model choice, and message framing. Our framework generates synthetic data that captures both social and geographic heterogeneity, supporting spatial epidemiological modelling and bias-aware behavioural analysis.",arxiv,0,2026-06-04
+Beyond tokens: a unified framework for latent communication in LLM-based multi-agent systems,2026-06-04 05:10:20+00:00,http://arxiv.org/abs/2606.05711v1,Yingzhuo Liu,cs.CL,dialogue,"Multi-agent systems built on large language models (LLMs) have become a prevailing paradigm for tackling complex reasoning, planning, and tool-use tasks. The dominant communication protocol in such systems is natural language: agents exchange messages token-by-token, verbalising their internal reasoning so that peers can read, verify, and respond. While convenient and interpretable, this protocol suffers from three structural drawbacks -- high inference cost, irreversible information loss during discretization, and ambiguity/redundancy of natural language. A growing body of work therefore explores an alternative protocol -- latent communication -- in which agents exchange continuous representations (embeddings, hidden states, or KV-caches) directly, bypassing the bottleneck of text generation. This paper presents a unified framework for organising the rapidly expanding literature on latent communication. We analyse existing methods along three orthogonal axes: (1) WHAT information is communicated (Embeddings, Hidden States, KV-Caches, or other continuous state); (2) WHICH sender-receiver alignment is used (latent-space alignment and layer alignment); and (3) HOW the communicated information is fused into the receiver (concatenation, prepending, mathematical operations, cross-attention, or cache restoration). Under this 3-axis framework, we systematically categorise eighteen representative methods proposed between 2024 and 2026, identify five major design patterns, and surface a set of open challenges -- including cross-architecture alignment, security of latent channels, compression for edge deployment, and the relationship between latent communication and latent chain-of-thought. We hope that this framework both lowers the barrier to entry for new researchers and provides a vocabulary for comparing future work.",arxiv,0,2026-06-04
+VASO: Formally Verifiable Self-Evolving Skills for Physical AI Agents,2026-06-03 20:02:35+00:00,http://arxiv.org/abs/2606.05395v1,"Yunhao Yang, Neel P. Bhatt, Kevin Wang, Samuel Tetteh, Zhangyang Wang, Ufuk Topcu","cs.RO, cs.AI",dialogue,"Reusable robot skills are becoming the basic units through which embodied agents turn open-ended instructions into long-horizon physical behavior. We argue that, while foundation models have collapsed the cost of creating these skills, the cost of trusting them has not. Existing skill-evolution loops refine skills through execution feedback, unit tests, environment reward, or LLM self-critique, but these signals provide only trace-level evidence: they show that a skill worked on sampled executions, not that skill-induced plans satisfy temporal safety contracts under untested conditions. We introduce VASO, a framework for verification-guided self-evolution of LLM-generated robot skill contracts. In VASO, each skill is represented as a semantic contract with two coupled interfaces: a formal interface that aligns robot states, observations, and control commands with logical propositions for model checking, and a planner-facing interface that guides executable behavior generation. A model checker first filters logically inconsistent skill contracts, then verifies plans induced by the skill against global and local temporal specifications. When verification fails, VASO translates the counterexample trace into a textual gradient that updates the reusable skill contract while keeping foundation-model weights frozen. On Clearpath Jackal and PX4 quadcopter tasks, VASO reaches 97.2% formal-specification compliance using fewer than 100 optimization samples, outperforming execution-feedback, prompt-optimization, and fine-tuning baselines. To our knowledge, VASO is the first framework that closes the loop between formal verification and self-evolving LLM-generated skills for physical AI agents: formal counterexamples become optimization feedback for reusable robot skill contracts, rather than merely verifying one-off plans, tuning planner prompts, or fine-tuning model weights.",arxiv,0,2026-06-03
+Context-as-AI-Service: Surfacing Cross-File Dependency Chains for LLM-Generated Developer Documentation,2026-06-03 03:26:56+00:00,http://arxiv.org/abs/2606.04397v2,"Ameya Gawde, Vyzantinos Repantis, Harshvardhan Singh, Lucy Moys","cs.SE, cs.IR",dialogue,"LLM agents increasingly write and maintain developer documentation, but usefulness and accuracy often rely on dependency chains that are not obvious to follow. Even with more files in context, the agent must still decide which cross-file dependencies to trace. We present Context-as-AI-Service (CAIS), a retrieval layer that LLM agents query to find evidence across the codebase as they review or generate documentation. CAIS indexes source code, API references, and upstream documentation, then enables agents to query the index through tool calls that combine keyword and semantic search. We evaluate CAIS in two case studies using Claude Sonnet 4.6 on a production SDK: improving API reference comments in a core source file and validating an LLM-generated tutorial. In both studies, the baseline already had ordinary repository tools such as file reads, keyword search, and symbol navigation. CAIS adds a retrieval layer on top, so the comparison isolates added retrieval rather than basic repository access. In the API-reference review, the CAIS-augmented agent produced the same 5 missing-documentation fixes as the baseline and surfaced 4 findings the baseline missed: 2 cross-file factual errors and 2 underspecified API comments. In the tutorial validation, it surfaced 1 executable bug, 1 API-usage improvement, and 2 missing prerequisites that the baseline pipeline did not catch. These findings required tracing non-obvious dependency chains across utility files, framework internals, usage examples, tests, and component-creation logic. Over five runs per condition, adding CAIS reduced wall-clock time by 22% to 34% across the two tasks and lowered input-token usage.",arxiv,0,2026-06-03
+Rethinking Sales Lead Scoring with LLM-based Hierarchical Preference Ranking,2026-06-03 03:05:57+00:00,http://arxiv.org/abs/2606.04387v1,"Chenyu Zhang, Yiwen Liu, Yin Sun, Xinyuan Zhang, Yuji Cao, Junming Jiao, Juyi Qiao","cs.IR, cs.AI",dialogue,"Sales lead conversion in high-stakes domains (e.g., automotive, real estate) differs fundamentally from e-commerce recommendation due to prolonged decision cycles and multi-stage funnels. Traditional lead scoring methods rule-based scorecards, machine learning, or pointwise CTR models face severe challenges: sparse supervision, a semantic gap in unstructured CRM logs, and inability to capture relative lead priority. While Large Language Models(LLMs) offer superior semantic understanding of customer interactions, general-purpose LLMs are ill-suited for lead ranking: they generate text rather than comparable scores, and lack alignment with the hierarchical priorities of sales funnels. We introduce an LLM-based discriminative framework for sales lead scoring, which supports joint modeling of structured CRM features and unstructured customer interactions. On top of this framework, we propose HPRO (Hierarchical Preference Ranking Optimization), which augments sales lead scoring with a hierarchical preference ranking objective. HPRO employs a margin-aware Bradley-Terry formulation to transform sparse binary labels into dense, funnel-aware preference pairs, enabling lead scoring to leverage both pointwise and pairwise supervision. Experiments on large-scale data from a leading NEV brand demonstrate state-of-the-art classification (AUC 0.8161) and ranking performance (+39.7% precision among top-ranked leads). A 132-day online A/B test validates 9.5% sales volume uplift, confirming real-world commercial impact.",arxiv,0,2026-06-03
+Organizational Control Layer: Governance Infrastructure at the Execution Boundary of LLM Agent Systems,2026-06-03 00:25:56+00:00,http://arxiv.org/abs/2606.04306v1,"Tianyu Shi, Yang Mo, Yiou Liu, Zhuonan Hao, Yin Wang, Wenzhuo Hu, Nan Yu, Meng Zhou, Jiangbo Yu",cs.MA,dialogue,"LLM-based agents are increasingly deployed in workflows where generated outputs may directly trigger state-changing actions. This creates an execution-boundary problem: proposed actions must be governed before they are executed. We study this problem through economically consequential multi-agent interactions and argue that deployment-grade agent systems should separate proposal generation from environment-facing execution. To operationalize this principle, we introduce the Organizational Control Layer (OCL), a model-agnostic governance infrastructure that intercepts generated actions before execution through policy enforcement and escalation, without modifying the underlying LLM generator. We evaluate OCL on adversarial buyer--seller negotiation environments adapted from AgenticPay. Across multiple frontier LLM backends, OCL reduces unsafe executions from 88% to near-zero while increasing valid success from 12% to 96%. Results further reveal a safety--utility tradeoff: strict governance improves compliance and reliability against policy and constraint violations, but can reduce flexibility in tightly constrained markets. These findings suggest that deployment-grade LLM agent systems require explicit governance at the boundary between language generation and executable actions. The source code is available at: https://github.com/SHITIANYU-hue/amai_ocl",arxiv,0,2026-06-03
+Efficient ASR Training with Conversations that Never Happened,2026-06-02 17:46:12+00:00,http://arxiv.org/abs/2606.03957v1,"Máté Gedeon, Péter Mihajlik","cs.CL, cs.AI, cs.SD, eess.AS",dialogue,"Conversational ASR for lower-resource languages and niche domains is limited by the scarcity of domain-matched multi-speaker training data. We propose an augmentation pipeline that generates scenario-level dialogues with participant metadata, maps speaker attributes to TTS voice profiles, and assembles synthesized utterances into speaker-aware simulated conversations. We evaluated five LLM families under single-generator, fixed-budget mixture, and scale-up settings using the same FastConformer-Large training recipe for each one. We ran comprehensive evaluations on the Hungarian BEA-Dialogue benchmark corpus, with the method itself being applicable to any language given the resources for each component. The results show that synthetic conversations consistently improve speech recognition performance, but generator choice and data composition strongly affect the gains. Our largest training configuration, using only 67 hours of real conversations and 636 hours of simulated data, achieves better performance on the evaluation benchmark than a zero-shot model trained on 2700 hours of Hungarian speech. These findings indicate that LLM-generated conversational data synthesized with TTS is a practical complement to real conversational corpora for speech model training.",arxiv,0,2026-06-02
+StepFinder: A Temporal Semantic Framework for Failure Attribution in Multi-Agent Systems,2026-06-02 10:45:49+00:00,http://arxiv.org/abs/2606.03467v1,"Taiyu Zhu, Yifan Wu, Weilin Jin, Ying Li, Gang Huang",cs.AI,dialogue,"LLM-based multi-agent systems exhibit remarkable collaborative capabilities in complex multi-step tasks. However, these systems are highly sensitive to single-step execution errors that can propagate through agent interactions and lead to cascading failures. To understand the causes of failure and improve system reliability, failure attribution has been introduced as a task that aims to automatically identify the root cause step responsible for a failure. Existing failure attribution methods mainly rely on LLMs to reason over original execution trajectories, which not only incur high inference costs and latency, but also suffer from interference caused by redundant and noisy execution logs, causing LLMs to struggle in accurately identifying the true root cause step. To address this, we propose StepFinder, a lightweight failure attribution framework. We use LLMs solely during the feature construction phase to encode execution logs into temporal semantic sequences. Subsequently, a parameter-efficient combination of temporal modeling and attention modules is applied to capture the sequential evolution and cross-step dependencies of the trajectories. Finally, the step-level error score is refined through multi-scale differences and position bias, enabling precise root cause identification. Experimental results on the Who&When benchmark demonstrate that StepFinder outperforms LLM-based methods in step-level failure attribution while achieving substantially higher inference efficiency, reducing inference time by 79% compared with the fastest LLM-based method, with no text generation overhead. Our code is available at https://github.com/taiyu-zhu/StepFinder.",arxiv,0,2026-06-02
+RUBAS: Rubric-Based Reinforcement Learning for Agent Safety,2026-06-02 09:02:14+00:00,http://arxiv.org/abs/2606.04051v1,"Xian Qi Loye, Qinglin Su, Zhexin Zhang, Shiyao Cui, Qi Zhu, Fei Mi, Hongning Wang, Minlie Huang","cs.LG, cs.AI, cs.CR",dialogue,"The evolution of LLMs into tool-enabled agents creates a new class of safety challenges associated with real-world execution rather than simple text generation. Existing alignment methods often rely on coarse refusal signals or static supervision, making it difficult to balance safety with useful tool execution across diverse agentic risks. We introduce RUBAS, a rubric-based reinforcement learning framework for agent safety. RUBAS decomposes agent behavior into four dimensions: tool-use safety, argument safety, response safety, and helpfulness. These structured rubrics provide fine-grained and interpretable rewards over complete agent trajectories, enabling reinforcement learning to optimize safe tool use while preserving task completion. Extensive experiments across multiple agent safety benchmarks and models show that RUBAS improves safety over standard alignment baselines, reduces tool-grounded hallucinations, and maintains competitive utility. Our results suggest that multi-dimensional rubric rewards provide an effective training signal for aligning LLM agents in safety-critical tool-use settings.",arxiv,0,2026-06-02
+Chatbots Output Meaningful (but Problematic) Language,2026-06-02 00:24:42+00:00,http://arxiv.org/abs/2606.02973v1,"Matthew Stone, Una Stojnić",cs.CL,dialogue,"Are utterances by AI chatbots meaningful? Concretely, if a user asks, say, Anthropic's agent Claude, ""What is the capital of Spain?"" and Claude answers, ""Madrid is the capital of Spain,"" does that sentence have its ordinary meaning -- and does it express a true proposition? Most ordinary users, as well as AI engineers, take the answer to be trivially ""yes."" However, many cognitive scientists, linguists, and philosophers of language argue that dominant intentionalist accounts of language and meaning deliver the opposite conclusion.
+  Theorists more sympathetic to ordinary users' intuitions have therefore advocated a radical ""de-anthropomorphization"" of language, revising our understanding of mental states, intentions, and semantic content to capture the intuition that the outputs of LLMs are meaningful. We take a different approach. While we, too, argue that LLM outputs are meaningful, we contend that a proper theory of human language already applies, as is, to current chatbots. Meaning is a low bar: claiming that LLM outputs are meaningful does not require positing mental states, intentions, rationality, or the cognitive capacities requisite for communication in LLMs -- or, indeed, making any other anthropomorphic assumptions. People do have communicative intentions (typically successful ones), but nevertheless, even in humans, language production can depart from what the speaker has in mind.
+  Our view has important consequences for how we should theorize about -- and critically engage with -- both human linguistic output and synthetically generated text. In particular, to say that chatbots produce meaningful text is not by any means to endorse what they output, or to assume that the technology is (or is not) good, powerful, appropriate, or useful.",arxiv,0,2026-06-02
+Topics as Proxies for Sociodemographics: How Conversational Context Affects LLM Answers,2026-06-01 18:38:41+00:00,http://arxiv.org/abs/2606.02776v3,"Vera Neplenbroek, Gabriele Sarti, Arianna Bisazza, Raquel Fernández",cs.CL,dialogue,"When large language models (LLMs) are used in high-stakes scenarios, such as legal, medical and financial advice, even a single conversation history is enough to drive differences in outcomes between users. Prior work has demonstrated that this results in outcome disparities between sociodemographic groups, with some groups receiving more advantageous outcomes than others. In this work, we demonstrate that LLMs actually struggle to infer user sociodemographics from a single conversation history and that although there are disparities between sociodemographic groups, they are minimal in magnitude. To investigate what the main driver of these disparities is, we compare user sociodemographics to a range of (psycho)linguistic features of conversations, including conversation topic, emotions, and readability. We find that conversation topics are most predictive of LLM-generated advice within a conversational context, which, to some extent, function as proxies for sociodemographic groups and often affect advice in unpredictable ways. This is cause for concern and highlights the need for future research to better understand and, if needed, mitigate the effect of conversational context on LLM outputs in high-stakes scenarios.",arxiv,0,2026-06-01
+Trust-Calibrated Code Review: A Participatory Design Study of Review Workflows for LLM-Generated Multi-File Changes,2026-06-01 09:32:25+00:00,http://arxiv.org/abs/2606.01969v1,"Lo Gullstrand Heander, Agnia Sergeyuk, Ilya Zakharov, Emma Söderberg, Nikita Mukhortov","cs.SE, cs.HC",dialogue,"Background: Developers increasingly review multi-file code changes generated by LLM-based agents, yet no validated end-to-end workflow or IDE tooling design exists for this scenario.
+  Aims: We investigate (RQ1) the challenges developers face when reviewing LLM-generated multi-file changes and (RQ2) how developers envision effective workflows for this task.
+  Method: In collaboration with JetBrains, we conducted a participatory design study structured using the double-diamond design process with Discover, Define, Develop, and Deliver phases. Industry practitioners participated in the Discover phase (N=17); seven of these returned for the Develop phase. The Define phase was an author-led synthesis. The Deliver phase produced a conceptual design and a high-fidelity semi-interactive prototype evaluated through a follow-up survey with N=43 practitioners.
+  Results: Participants identified trust-calibration as the central challenge. The study yielded a three-level review workflow (overview, file-analysis, code snippet review) supported by seven design constructs (chunk, risk-per-line, risk-per-file, judge, walk-through, zooming in/out, and security cage). In the validation survey, all three workflow levels scored above the neutral midpoint (means 3.50--3.91 on a five-point scale). Of the respondents, 63% expected reduced overall review effort, and 52% reduced trust-assessment effort, relative to their current tools. These findings suggest that the design constructs indicate a positive direction for future tool development.
+  Conclusions: Reviewing LLM-generated multi-file changes is a trust-calibration problem rather than a diffing problem. The three-level workflow and the seven constructs we report give tool designers a conceptual framework for building AI-ready code review tools that surface risk and confidence signals at the granularity at which developers allocate attention.",arxiv,0,2026-06-01
+BraveGuard: From Open-World Threats to Safer Computer-Use Agents,2026-05-31 11:16:18+00:00,http://arxiv.org/abs/2606.01166v2,"Yunhao Feng, Xiaohu Du, Xinhao Deng, Yifan Ding, Ming Wen, Yixu Wang, Yuxiang Xie, Baihui Zheng, Yingshui Tan, Yige Li, Yutao Wu, Kerui Cao, Wenke Huang, Yanming Guo, Xingjun Ma, Yu-Gang Jiang","cs.CR, cs.CL",dialogue,"Computer-use agents extend language models from text generation to sustained interaction with files, terminals, browsers, and external tools. This shift creates safety risks that are difficult to detect from isolated prompts or final responses, because harm often emerges only through multi-step execution traces whose individual actions appear locally benign. We introduce BraveGuard, a self-evolving defense framework for training guard models from open-world threat signals and realistic agent trajectories. BraveGuard mines recent research sources to identify emerging risks and attack patterns, instantiates them as executable computer-use tasks, collects agent rollouts, and derives trajectory-level supervision for guard model training. As new threats and validation failures appear, the pipeline can be repeated, yielding an adaptive defense loop rather than a static, benchmark-driven training process. We instantiate BraveGuard by training multiple guard backbones, including Qwen3-Guard and Llama-Guard variants, and evaluate the resulting guards on trajectory-level agent-safety benchmarks. BraveGuard consistently improves safety detection across computer-use trajectories. On AgentHazard, it substantially improves detection accuracy over off-the-shelf guard models, with accuracy increasing from 38.79% to 82.38% under the averaged guard-model setting. These results show that guard supervision grounded in open-world threat discovery and realistic agent execution can improve safety monitoring beyond fixed taxonomies and synthetic prompt-level data. BraveGuard offers a scalable path toward adaptive defenses for computer-use agents facing evolving real-world risks.",arxiv,0,2026-05-31
+SkillRevise: Improving LLM-Authored Agent Skills via Trace-Conditioned Skill Revision,2026-05-31 10:19:13+00:00,http://arxiv.org/abs/2606.01139v2,"Yuxuan Liu, Zhaochen Su, Lingyun Xie, Yuhao Zhang, Qing Zong, Jiahe Guo, Zhongwei Xie, Yiyan Ji, Yauwai Yim, Hongyu Luo, Xiyu Ren, Ruan Chenyu, Haoran Li, Yangqiu Song",cs.AI,dialogue,"Agent skills are procedural artifacts that enable LLM agents to execute workflows, verify constraints, and recover from failures. Existing self-evolving methods refine skills using accumulated trajectories. However, they struggle in cold-start settings, where only an initial, imperfect skill is available. Consequently, skill construction defaults to expert authoring or one-shot LLM generation. Expert-authored skills are costly and may not align with how LLM agents actually execute tasks, while one-shot generated skills can be syntactically well formed yet behaviorally weak. To bridge this gap, we propose SkillRevise, an execution-grounded framework designed to iteratively refine these initial skills. SkillRevise diagnoses skill defects from execution evidence, retrieves relevant repair principles from a general memory, and applies execution-anchored edits. By re-executing candidates and measuring empirical utility, it systematically retains the optimal skill version. Evaluated across three benchmarks and five LLMs, SkillRevise substantially outperforms one-shot baselines, improving the base agent's success rate on SkillsBench from 36.05% to 61.63%. Furthermore, the revised skills exhibit strong cross-model transferability, capturing generalized procedural knowledge over model-specific artifacts.",arxiv,0,2026-05-31
+Hybrid Verified Decoding: Learning to Allocate Verification in Speculative Decoding,2026-05-31 05:22:40+00:00,http://arxiv.org/abs/2606.01019v1,"Xin Su, Dawid Majchrowski, Fangyuan Yu, Vanshil Atul Shah, Sebastian Rogawski, Pawel Morkisz, Anahita Bhiwandiwalla, Phillip Howard","cs.CL, cs.AI",dialogue,"Large Language Model (LLM) generation remains expensive because autoregressive decoding calls the model once for each new token. Speculative decoding reduces this cost by drafting multiple tokens and verifying them with the target model in one step, but its speedup depends on how many drafted tokens are accepted. Parameter-free draft sources can propose long continuations at low cost in structured and agentic workloads, yet a cache match that looks promising at one generation step may have low payoff at the next. We propose Hybrid Verified Decoding, which predicts the accepted length of a cache draft before verification and uses this payoff estimate to choose between cache verification and a model-based drafter. Across three LLMs and sixteen datasets, Hybrid Verified Decoding is especially effective on agentic workflows, where it outperforms EAGLE3 in every setting with a 2.73x average speedup. Our analysis shows how prompt structure creates cache opportunities, how high-payoff cache drafts concentrate in a small part of the draft space, and how payoff-guided selection reduces sequential decoding work, pointing to runtime draft selection as a promising direction for speculative decoding.",arxiv,0,2026-05-31
+Agentic Authoring of Interactive Multiview Visualizations in Genomics,2026-05-29 21:22:16+00:00,http://arxiv.org/abs/2606.00370v1,"Astrid van den Brandt, Kiroong Choe, Sehi L'Yi, Devin Lange, Nils Gehlenborg","cs.HC, cs.AI",dialogue,"Diverse genomics data, scientific questions, and analysis tasks typically demand highly specialized visualizations. Therefore, users often must customize or author new ones tailored to their data. Existing tools are usually either limited in customization or require substantial learning or programming, and even expressive tools assume visualization expertise many users lack. Agentic and large language model (LLM) approaches are increasingly applied to complex scientific tasks, including visualization. Natural-language conversational interfaces offer a promising path to democratizing the authoring of complex visualizations. In the context of genomics, these approaches face additional challenges: genomics visualizations typically integrate heterogeneous data types and are composed of multiple linked interactive views. These challenges motivate more structured LLM-based schemes. We first characterize where vanilla LLM generation succeeds and fails for genomics visualization, identifying eight quality dimensions. We then compare six schemes--direct generation, a fixed pipeline, and four agentic configurations varying in the number of specialist agents and the presence of a reviewer--across 159 cases spanning three levels of query ambiguity and specification complexity. All schemes use the Gosling visualization grammar as structured output. Agentic iteration substantially improves perceived quality over both baselines, while more complex agent architectures yield no additional benefit. We discuss implications for designing agentic systems for domain-specific visualization authoring. All supplemental materials are available at https://osf.io/uqe83.",arxiv,0,2026-05-29
+Preference-Aware Rubric Learning for Personalized Evaluation,2026-05-29 17:00:55+00:00,http://arxiv.org/abs/2605.31545v1,"Yilun Qiu, Xiaoyan Zhao, Yang Zhang, Yuxin Chen, Cilin Yan, Jiayin Cai, Xiaolong Jiang, Yao Hu, Yoko Yamakata, Tat-Seng Chua",cs.CL,dialogue,"As Large Language Models (LLMs) evolve from general-purpose assistants to user-centric agents, personalization has become central to aligning model behavior with individual preferences, making the evaluation of personalized alignment a critical bottleneck. Existing evaluation methods-ranging from automatic metrics to LLM-as-a-judge approaches-fail to capture subjective, user-specific preferences embedded in long-term interaction histories. We identify three essential principles for reliable and effective personalized evaluation: Representativeness, User-Consistency, and Discriminativeness. To address these principles, we introduce Personalized Evaluation as Learning, a paradigm that formulates personalized evaluation as a learning problem rather than a static judgment. Under this paradigm, we propose PARL (Preference-Aware Rubric Learning for Personalized Evaluation), a framework that learns to induce preference-aware evaluation rubrics directly from raw user histories and performs a self-validation mechanism to ensure consistency with the user's preferences. PARL integrates rubric induction with a discriminative reinforcement learning objective that contrasts user-authored responses against competitive personalized model outputs, enabling the learned rubrics to capture precise, user-specific decision boundaries. Experiments on real-world personalized text generation tasks show that PARL consistently induces high-fidelity rubrics that reliably identify user-aligned responses and generalize across users and tasks, while capturing stable stylistic preferences and fine-grained evaluative patterns. To ensure reproducibility, our code is available at https://github.com/SnowCharmQ/PARL.",arxiv,0,2026-05-29
+Unifying Temporal and Structural Credit Assignment in LLM-Based Multi-Agent Prompt Optimization,2026-05-28 16:57:57+00:00,http://arxiv.org/abs/2605.30227v1,"Wenwu Li, Yuran Song, Mingze Zhao, Bo Jin, Wenhao Li","cs.MA, cs.AI",dialogue,"While Multi-Agent Systems (MAS) empower Large Language Models to tackle complex reasoning tasks through collaborative interaction, optimizing their dynamics remains a formidable challenge due to the discrete, non-differentiable nature of the computation graph and the sparsity of global supervisory signals. Existing black-box optimizers struggle to attribute trajectory-level failure to specific local components, resulting in inefficient, high-variance exploration. We argue that tractable MAS optimization needs structural inductive biases to disentangle error signals. We propose temporal and structural credit assignment, which decomposes the objective along two axes: (i) temporal credit, using state-space bottlenecks to identify critical rounds, and (ii) structural credit, using stationary role policies to isolate agent contributions. Leveraging these decomposed signals, we introduce a discrete, verbalized block coordinate descent algorithm for iterative refinement. Rather than indiscriminate global updates, it alternates between optimizing role prompts and aggregation protocols, using LLM-generated ""proxy gradients"" to target only the identified weak links. Across diverse reasoning benchmarks, our approach substantially reduces query complexity while improving performance, providing a principled and interpretable path toward self-improving MAS.",arxiv,0,2026-05-28
+Does The Way You Plan Matter? An Empirical Study of Planning Representations for LLM Web Agents,2026-05-28 13:39:49+00:00,http://arxiv.org/abs/2605.29927v1,"Alejandra Zambrano, Sara Vera Marjanovic, Imene Kerboua, Xing Han Lù, Leila Kosseim","cs.CL, cs.AI, cs.LG",dialogue,"Despite recent advances, LLM-based web agents still struggle with limited exploration, omission of critical steps, and sensitivity to task constraints. Prior work suggests that many of these failures stem from weaknesses in planning, yet the impact of alternative natural language plan representation remains unexplored. To address this, we introduce PlanAhead, a static planner-executor framework that evaluates the impact of plan representation in agent performance. We first automatically categorize WebArena tasks into 3 difficulty levels, enabling consistent difficulty grading without human annotation. Then we systematically evaluate 4 different plan representations on the tasks categorized as hard: sequential subgoals, narrative, pseudocode, and checklist; across different families of multimodal LLM powered agents (OpenAI, Alibaba, and Google). To account for stochastic variability, we introduce two novel evaluation metrics: Achievement Rate (AR) and Solved-Task Consistency (STC). Our results show that both, the plan formulation and the underlying LLM generating the plan, significantly influence web-agent robustness and task success.",arxiv,0,2026-05-28
+Minimal Prompt Perturbations Lead to Code Vulnerabilities: Prompt Fragility and Hidden-State Signals in Coding LLMs,2026-05-28 10:30:28+00:00,http://arxiv.org/abs/2605.29737v1,"Alexander Sternfeld, Andrei Kucharavy, Ljiljana Dolamic","cs.CR, cs.CL, cs.SE",dialogue,"LLM-based coding assistants are seeing rapid adoption, offering substantial gains in developer productivity. As organizations increasingly ship code these agents produce, the security of that code becomes critical. Prior work has shown that minor prompt perturbations degrade the functional correctness of LLM-generated code, but whether they also compromise code security has remained unstudied. We apply token-level mutations to prompts across three models and five programming languages, and show that mutations as small as a single-character change can flip generated code from secure to vulnerable. Probing the models' hidden states reveals that this fragility is partially encoded in prompt representations, but unevenly so. Input-handling vulnerabilities, where the model omits validation or sanitization, are more predictable (mean AUC 0.753) than secure-defaults vulnerabilities, where insecure code stems from one local choice such as a weak algorithm or unsafe parameter (mean AUC 0.674). These results show that the threat model for LLM-assisted coding extends beyond prompt injection to ordinary prompt variation, and indicate that input-handling flaws can be caught before generation while secure-defaults flaws require intervention during decoding.",arxiv,0,2026-05-28
+AgentCVR: Active Multi-Agent Cross-Video Reasoning via Script-Simulated Reinforcement Learning,2026-05-28 09:09:41+00:00,http://arxiv.org/abs/2605.29643v1,"Yilun Qiu, Jiahe Wang, Cilin Yan, Jiayin Cai, Xiaolong Jiang, Yao Hu, Chun Yuan","cs.CV, cs.MA",dialogue,"Cross-Video Reasoning (CVR) has emerged as a critical frontier in multimodal intelligence, requiring models to retrieve, align, and aggregate evidence distributed across multiple videos. Current Multimodal Large Language Models (MLLMs) often struggle with CVR, as simple single-pass strategies encode multiple videos into a shared compressed context, potentially obscuring rare but critical evidence. In this paper, we propose AgentCVR, a multi-agent framework that treats CVR as an active evidence-acquisition task. AgentCVR employs a Master Agent to iteratively coordinate specialized Visual and Audio Agents for targeted evidence extraction. To ensure efficient training, we introduce Script-Simulated RL, which optimizes the agent's policy with LLM-generated semantic scripts and a lightweight text-based simulator, bypassing costly multimodal inference during online exploration. Experimental results on a comprehensive CVR benchmark show that AgentCVR outperforms single-pass baselines and achieves comparable performance to state-of-the-art closed-source systems, particularly in complex cross-video alignment and localization. To ensure reproducibility, our code is available at https://github.com/wang-jh24/AgentCVR.",arxiv,0,2026-05-28
+Improving Collaborative Storytelling with a Multi-Agent Framework Based on Large Language Models,2026-05-28 08:59:55+00:00,http://arxiv.org/abs/2605.29625v1,"Arturo Valdivia, Paolo Burelli",cs.AI,dialogue,"The topic of Co-creation, i.e., AI agents interacting with humans to generate outputs (e.g., art), has gained significant attention recently. However, most studies focus on adult-human interactions in a digital setting. This paper explores a novel ludic co-creation scenario involving children and Large Language Models (LLMs) interacting through a physical board game to create written stories. Our goal is to develop a multi-agent framework capable of producing high-quality narratives suitable for young players. At the core of our approach is an iterative Writer-Editor process in which one LLM generates stories while another evaluates them and provides feedback for refinement. Through a simulation study involving multiple LLMs, we show that this iterative interaction consistently improves the perceived quality of generated stories across successive loops. The results indicate that a small number of refinement steps may be sufficient to achieve high-quality outputs in interactive storytelling systems.",arxiv,0,2026-05-28
+LLM-ALSO: LLM-Driven Adaptive Learning-Signal Optimization for Multi-Agent Reinforcement Learning,2026-05-28 03:19:08+00:00,http://arxiv.org/abs/2605.29293v1,"Xiaoguang Wu, Zhi Zheng, Hui Xiong",cs.MA,dialogue,"Effective training-time guidance is central to multi-agent reinforcement learning (MARL), yet remains difficult in sparse-reward settings where weak supervision limits coordination and policy improvement, and existing methods often require substantial domain expertise or manual design effort. Large language models (LLMs) provide a promising alternative for flexible learning-signal design, yet existing LLM-based methods remain largely single-agent-oriented, one-shot, or weakly validated for the evolving training dynamics of cooperative MARL. To address these limitations, we propose LLM-ALSO, an iterative LLM-driven adaptive learning-signal optimization framework for MARL. Rather than directly deploying LLM-generated rewards, LLM-ALSO decomposes adaptation into iterative diagnosis, proposal, and validation: a Critic LLM diagnoses stage-specific learning and coordination failures from sparse-return metrics and compact behavior evidence, a Generator LLM proposes candidate reward-shaping configurations conditioned on the diagnosis, and branch-validation feedback refines candidates before they affect the main training trajectory. Through short-horizon validation and stage-aware adaptation, LLM-ALSO promotes only validated updates into training, reducing the risk of unreliable LLM-generated modifications. Experiments on sparse-reward cooperative MARL tasks show that LLM-ALSO improves sparse-evaluation performance and learning efficiency.",arxiv,0,2026-05-28
+When LLM Reward Design Fails: Diagnostic-Driven Refinement for Sparse Structured RL,2026-05-27 17:57:43+00:00,http://arxiv.org/abs/2605.28918v1,"Youting Wang, Yuan Tang, Bowen Liu, Xuan Liu, Dingyan Shang","cs.LG, cs.AI, cs.IR",dialogue,"For sparse, structured reinforcement-learning tasks with semantic reward-function interfaces, LLM-generated reward shaping is better framed as debugging than one-shot generation. We study PPO-trained agents using MiniGrid as core evaluation and MuJoCo as boundary stress test. Our audit finds two dominant one-shot failure modes -- reward flooding and semantic/API misunderstanding -- plus a rarer weak-shaping case. We propose diagnostic-driven iterative refinement, where training diagnostics and a failure-mode taxonomy guide targeted reward-function revision. Refinement improves DoorKey-8x8 from 2.3% to 97.6% and KeyCorridor from 31.2% to 86.7% with high seed-to-seed variance. Controls show these gains are not from retrying or extra training: metrics-only re-prompting yields large drops, while a static-vocabulary control recovers much of the gap (87.6%; 70.7%), showing the taxonomy prompt is a major mechanism and dynamic labels provide only partially isolated incremental evidence. Budget-matched and Best-of-3 comparisons separate refinement from selection and training-time effects. Component-removal tests, sensitivity analyses, and an audit against author labels provide converging evidence for the debugging interpretation while revealing calibration limits. Continuous-control results show the boundary: success-based diagnostics can misfire in dense-reward locomotion, and return-trend feedback removes one false-positive mechanism without robust gains. The low-call protocol is a cost contrast with population-based reward search, not a benchmark comparison. In four crossed-variance-design environments, point estimates suggest larger gains when LLM reward-function variance dominates but bootstrap intervals are wide. The method is bounded to sparse structured tasks with reliable interfaces under PPO; fields like event_text may help, hurt, or be neutral.",arxiv,0,2026-05-27
+Evaluating the Realism of LLM-powered Social Agents: A Case Study of Reactions to Spanish Online News,2026-05-27 15:16:05+00:00,http://arxiv.org/abs/2605.28598v1,"Alejandro Buitrago López, Alberto Ortega Pastor, Javier Pastor-Galindo, José A. Ruipérez-Valiente","cs.CL, cs.AI",dialogue,"LLM-powered social agents are increasingly used to simulate online social behavior, yet their realism remains difficult to validate. Existing work has largely relied on general-purpose benchmarks, while less attention has been paid to short, reactive discourse such as audience replies to online news.
+  In this paper, we evaluate whether LLM-generated reactions to Spanish online news reproduce measurable properties of real audience discourse. Using the Hatemedia dataset, we pair 5,631 news items with 58,555 real audience reactions, and generate a matched synthetic dataset using five LLMs under a shared experimental setting. We compare real and synthetic reactions across three dimensions: hate speech, sentiment, and semantic alignment, considering both off-the-shelf and fine-tuned generation.
+  Results show that off-the-shelf models are poor proxies for real audience reactions: they strongly underproduce hate speech, introduce model-specific sentiment biases, and remain distributionally distant from human replies. Fine-tuning improves fidelity unevenly. Qwen3 provides the most balanced approximation, while Mistral7B achieves the strongest sentiment and semantic alignment but overshoots hate prevalence. Plausible synthetic replies do not necessarily reproduce the distributional properties of public discourse.",arxiv,0,2026-05-27
+Beyond One Path: Evaluating and Enhancing Divergent Thinking in Interactive LLM Agents,2026-05-27 13:33:23+00:00,http://arxiv.org/abs/2605.28465v1,"Jihyeong Park, Ingeol Baek, Jeonghyun Park, Hwanhee Lee",cs.CL,dialogue,"Divergent thinking is a core dimension of creativity, yet existing evaluations of Large Language Models (LLMs) treat them as single-turn text generations, failing to capture how an agent reasons through iterative interaction. To address this, we introduce MUTATE, an interactive benchmark designed to evaluate agentic divergent thinking at two levels: path-level, where an agent discovers multiple alternative paths to the same goal, and action-level, where individual actions require non-typical, mechanism-shifting object uses. Unlike success-only evaluations, MUTATE scores both completed paths and off-path attempts, capturing divergent reasoning that conventional success rates discard. Our experiments with frontier LLMs reveal a structural blind spot in existing frameworks: when exposed to immediate convergence pressure, they tend to fall into immediate action fixation, failing to improve action-level divergence. To overcome this, we propose ReDNA, which separates unconstrained divergent candidate generation from convergent constraint selection. ReDNA significantly outperforms prior methods across both divergence levels and generalizes effectively to an external creativity environment. We also confirm its success stems from a qualitative enhancement of resilient divergent reasoning rather than simple environmental exploration.",arxiv,0,2026-05-27
+OR-Space: A Full-Lifecycle Workspace Benchmark for Industrial Optimization Agents,2026-05-27 08:41:30+00:00,http://arxiv.org/abs/2605.28158v1,"Chenyu Zhou, Xinyun Lu, Jiangyue Zhao, Jianghao Lin, Dongdong Ge, Yinyu Ye",cs.AI,dialogue,"Large language model (LLM) agents are increasingly used to assist with operations research (OR) modeling, yet existing OR-oriented benchmarks often reduce evaluation to one-shot translation from a self-contained problem statement into a mathematical formulation or solver program. Such settings abstract away two characteristics of real industrial OR workflows: persistent multi-artifact workspaces and multi-stage task lifecycles. We introduce OR-Space, a full-lifecycle workspace benchmark for evaluating industrial optimization agents across model construction, model revision, and grounded explanation. Each instance is an executable workspace containing business documents, structured data, optional code artifacts, solver outputs, and task-specific evaluators distributed across interdependent files. OR-Space defines three task modes: Build, where agents construct solver-ready optimization models from heterogeneous artifacts; Revise, where agents modify existing models under changing requirements or solver feedback while preserving valid prior logic; and Explain, where agents answer grounded questions about solutions, constraints, and business implications using evidence spread across workspace artifacts. By combining persistent workspaces with lifecycle-oriented tasks, OR-Space evaluates whether agents can perform reliable optimization work beyond end-to-end text generation. We describe the benchmark design, evaluation protocol, and quality-control pipeline, and position OR-Space as a benchmark for studying the reliability, failure modes, and practical readiness of LLM agents in industrial OR workflows.",arxiv,0,2026-05-27
+"Personality, Role, and Expressive Style in Large Language Models: An Interactionist Analysis",2026-05-27 06:40:31+00:00,http://arxiv.org/abs/2605.28037v1,"Moe Nagao, Koichiro Terao, Mikio Nakano, Naoto Iwahashi",cs.CL,dialogue,"Prompt-based personality control is a key technique for designing large language model (LLM) dialogue agents that behave consistently across social contexts. However, specifying Big Five personality traits (BFTs) in a prompt does not ensure that the intended traits are expressed in generated utterances. This paper investigates this mismatch from an interactionist perspective, viewing personality expression as a context-dependent outcome shaped by the interplay between trait specification and situational factors. We analyze how perceived BFT expression in LLM-generated dialogue is influenced by three prompt factors: personality traits, dialogue roles, and expressive styles. Using a factorial design that combines six personality conditions, three roles, and three expressive-style conditions, we generate 1,080 LLM-agent dialogues in each of English and Japanese. We then evaluate the target agent's utterances using an LLM-as-a-judge framework to estimate expressed Big Five traits. The results show that expressed personality is shaped not only by explicit trait specification, but also by dialogue role and expressive style. These effects are trait-specific: dialogue role strongly influences Openness, expressive style substantially shapes Conscientiousness and Agreeableness, and explicit trait specification dominates Neuroticism. Even without explicit personality-trait specification, social and expressive conditions induce distinct personality-like impressions. Cross-linguistic comparisons show broadly similar patterns between English and Japanese dialogues, with noticeable differences only under specific combinations of personality, role, and expressive style. These findings suggest that personality control in LLM agents should be understood not as a direct consequence of trait prompting, but as a context-dependent process involving personality specification, social role, and expressive style.",arxiv,0,2026-05-27
+Keyphrase Generative Representation of Youth Crisis Conversations Beyond Static Taxonomies,2026-05-26 18:16:29+00:00,http://arxiv.org/abs/2605.27546v1,"Abeer Badawi, Will Aitken, Lydia Sequeira, Jocelyn Rankin, Maia Norman, Elham Dolatabadi","cs.CL, cs.HC",dialogue,"Crisis Responders (CRs) rapidly assess thousands of youth SMS conversations each year to identify mental health concerns and guide support. Yet youth distress is increasingly expressed through evolving and context-specific language that often does not fit fixed-label taxonomies. This work analyzed 703,975 de-identified Kids Help Phone conversations (2018-2023) and expanded KHP's 19-label issue taxonomy into a 39-label hierarchical schema. We then introduce Keyphrase Generative Representation (KGR), a constrained LLM generating concise, conversation-specific keyphrases, evaluated across 129 conversations and 387 expert annotations. The expanded taxonomy achieved expert consensus reliability, with an accuracy of 0.96, and expert review found that 81% of keyphrases accurately reflected content and 74% improved clarity. KGR surfaced identity-linked themes absent from the fixed taxonomy, including immigration problems and caregiver burden, and supported a topic-retrieval workflow that increased accuracy from 0.25 to 0.70 (+0.45) over the manual analyst process. KGR marks a shift toward hybrid, interpretable generative representations that extend crisis response beyond static taxonomies to surface emerging and culturally grounded patterns of youth distress.",arxiv,0,2026-05-26
+Agentic Separation Logic Specification Synthesis,2026-05-26 18:05:42+00:00,http://arxiv.org/abs/2605.27531v1,"Tarun Suresh, David Korczynski, Julien Vanegue","cs.PL, cs.CL, cs.SE",dialogue,"Specification synthesis, the task of automatically inferring formal specifications from program implementations and natural language, is important for refactoring, transpilation, optimization, and verification, yet remains an open challenge for large C++ repositories. Existing LLM-based approaches fail to simultaneously scale to such repositories, produce specifications expressive enough to capture systems-code features such as dynamic memory and heap-allocated data structures, and systematically validate those specifications to rule out incorrect candidates. We present Spec-Agent, an agentic system for synthesizing expressive, well-validated specifications across large C++ codebases. Spec-Agent targets a ladder of specification languages: propositional logic, first-order logic, propositional separation logic, and first-order separation logic. For each function, Spec-Agent uses static analysis and runtime heap tracing to select the appropriate target specification language, generalizes existing functional tests into fuzz harnesses, and iteratively refines LLM-generated candidates via counterexample-guided feedback. We evaluate Spec-Agent on open source C++ codebases comprising millions of lines of code. Spec-Agent synthesizes valid specifications for 85% of target functions, with no false positives observed under fuzzing and expert validation, outperforming Claude Code Opus 4.6 at 10x lower token cost.",arxiv,0,2026-05-26
+TADDLE: A Tool-Augmented Agent for Detecting Deficient LLM-Generated Peer Reviews,2026-05-26 12:07:44+00:00,http://arxiv.org/abs/2605.26911v1,"Hanqi Duan, Xiang Li",cs.AI,dialogue,"LLM-generated peer reviews are increasingly common at major venues, yet their deficiencies are hard to detect because they are uniformly fluent and well-structured. Existing work either classifies authorship without judging quality, or scores quality with features designed for human-written reviews; no prior system detects deficiencies in LLM-generated reviews at the level of individual defect types. To bridge the gap, we introduce TADDLE, a Tool-Augmented Agent for Detecting Deficient LLM-Generated Peer Reviews, together with the first expert-annotated benchmark for this task. Our benchmark comprises 1,800 reviews on 50 ICLR 2025 papers, multi-label-annotated by 18 domain experts against a taxonomy of six defect categories (plus a non-deficient label). TADDLE decomposes detection into four specialized analysis tools -- Verify, Correct, Complete, and Transform -- orchestrated by an agent; an integrator synthesizes their outputs into binary and multi-label classifications via two-stage semi-supervised learning. Extensive experiments show that TADDLE performs strongly on both binary detection and the multi-label classification task. We release the benchmark and code at https://github.com/AquariusAQ/TADDLE.",arxiv,0,2026-05-26
+Knowledge Graphs as the Missing Data Layer for LLM-Based Industrial Asset Operations,2026-05-26 11:31:46+00:00,http://arxiv.org/abs/2605.26874v2,"Madhulatha Mandarapu, Sandeep Kunkunuru","cs.DB, cs.AI, cs.LG",dialogue,"LLM-based agents for industrial asset operations show limited accuracy when reasoning over flat document stores. AssetOpsBench (KDD 2026) establishes that GPT-4 agents achieve 65% on 139 industrial maintenance scenarios, and compares LLM orchestration paradigms (Agent-As-Tool vs. Plan-Execute) on a fixed data layer. We ask the orthogonal question: how much does the data model behind the tools matter?
+  We treat a typed knowledge graph as a grounding substrate and route each question by how it is best answered: (i) LLM-generated Cypher for structured retrieval, which lifts the same GPT-4 model from 65% to 82-83%; (ii) native graph and optimization primitives, with no LLM, reaching 99% on graph-answerable scenarios; and (iii) generation-augmented knowledge (GAK) for answers absent from the data -- the engine's agent materializes the missing facts as provenance-tagged graph nodes, then answers. A recurring theme is inverted LLM usage: we constrain the LLM to query generation or one-shot enrichment from a typed schema and let the graph execute deterministically.
+  On the 88 real AssetOpsBench failure-mode scenarios the benchmark itself flags non-deterministic -- ten equipment types absent from the graph -- GAK lifts answerability from zero to 100% of equipment types and answers 81.8% of scenarios, every materialized fact tagged source:LLM-derived for auditability. We also contribute 40 graph-native scenarios. For structured operational domains the data layer -- not the LLM orchestration -- is the primary lever, and a typed knowledge graph serves as a grounding substrate between raw industrial data and LLM reasoning.",arxiv,0,2026-05-26
+Causal methods for LLM development and evaluation,2026-05-25 16:15:44+00:00,http://arxiv.org/abs/2605.25998v1,"Dennis Frauen, Marie Brockschmidt, Konstantin Hess, Haorui Ma, Yuchen Ma, Abdurahman Maarouf, Maresa Schröder, Jonas Schweisthal, Yuxin Wang, Athiya Deviyani, Sonali Parbhoo, Rahul G. Krishnan, Stefan Feuerriegel",cs.LG,dialogue,"Large language model (LLM) development is currently driven by large-scale empirical iteration over data mixtures, reward models, routing strategies, and evaluation pipelines. Here, we argue that many central questions in LLM development and evaluation are inherently causal: What is the effect of adding a data domain during pretraining? How do annotator preferences change when LLMs generate text in a different style? Should a prompt be routed to a larger or smaller model given inference cost constraints? In general, causal methods are well-suited to such settings where interventions change outcomes but, surprisingly, are underrepresented in LLM development. Our contribution is threefold: (1) We explain how causal methods can help develop modern LLM development and evaluation: LLM development relies heavily on logged data, which are often subject to confounding and distribution shifts; evaluation uses learned but potentially biased judges; and deployment environments are non-stationary. These conditions make purely predictive approaches fragile and create opportunities for principled identification and estimation methods from causal inference. (2) We further map opportunities for causal methods in the entire LLM development pipeline, including pretraining, alignment, routing, agentic workflows, and evaluation. (3) We discuss new research opportunities around leveraging causal methods for LLM development and evaluation. Overall, we argue that causal methods are potentially underutilized for the LLM development and evaluation pipeline, despite the fact that such methods can ensure a reliable and scientifically grounded design.",arxiv,0,2026-05-25
+Truthful Online Preference Aggregation for LLM Fine-Tuning in Mobile Crowdsourcing,2026-05-22 00:26:12+00:00,http://arxiv.org/abs/2605.24052v1,"Shugang Hao, Lingjie Duan","cs.LG, cs.AI",dialogue,"To better serve users' demands in mobile applications (e.g., navigation), mobile crowdsourcing platforms can iteratively align large language model (LLM)-generated content (e.g., AI-generated traffic condition predictions) with human feedback collected from crowdsourcing workers (e.g., mobile users). However, workers may strategically misreport their online preference feedback to maximize their influence or payment. Existing pipelines in mobile crowdsourcing (e.g., EM-based weight estimation) fail to identify the most accurate worker in this online setting, resulting in a linear regret $\mathcal{O}(T)$ over $T$ time slots. In this paper, we study truthful online preference aggregation for LLM fine-tuning in mobile crowdsourcing. We formulate a new dynamic Bayesian game to model the multi-agent online learning process between the platform and strategic mobile workers. We propose a novel online weighted aggregation mechanism that dynamically adjusts each worker's weight in the preference aggregation according to their feedback accuracy. We prove that our mechanism ensures truthful feedback from strategic workers and achieves a sublinear regret $\mathcal{O}(\sqrt{T})$ over $T$ time slots. We further extend our mechanism to a challenging scenario with limited worker feedback per time slot, still guaranteeing a sublinear regret $\mathcal{O}(\sqrt{T})$. Experiments on LLM fine-tuning with real-world datasets further demonstrate significant performance gains of our mechanisms over benchmark schemes.",arxiv,0,2026-05-22
+HawkesLLM: Semantic Uncertainty Propagation in Agentic Text Simulation,2026-05-21 21:17:34+00:00,http://arxiv.org/abs/2605.23043v1,"Zewei Deng, Tinghan Ye, Liyan Xie","cs.CL, stat.ML",dialogue,"Agentic text-simulation systems write in sequence, with each item becoming possible context for later steps. That makes uncertainty path-dependent: an early ambiguity can affect later outputs. This paper studies this problem with HawkesLLM, a framework that separates temporal influence modeling from text generation. We represent the cascade as a network whose nodes are text-generating agents. A multivariate Hawkes process models how these nodes activate over time and which earlier node outputs should influence later prompts. A language model then writes each new event from the compact memory selected by this temporal model. We evaluate the framework on a held-out Global Database of Events, Language, and Tone (GDELT) news-cascade case study. The diagnostics track semantic alignment with local held-out references and separate local drift from global drift. In this setting, HawkesLLM improves late-stage semantic alignment under a compact prompt-memory budget.",arxiv,0,2026-05-21
+Self-Evolving Multi-Agent Systems via Decentralized Memory,2026-05-21 16:55:40+00:00,http://arxiv.org/abs/2605.22721v1,"Guangya Hao, Yunbo Long, Zhuokai Zhao",cs.MA,dialogue,"Self-evolving multi-agent systems (MAS) have emerged as a promising route to LLM agents that continually improve from experience, with persistent memory at their foundation. However, existing designs almost exclusively adopt a centralized repository shared across agents, incurring communication and coordination overhead, raising privacy concerns, and collapsing agent diversity. We propose DecentMem, a decentralized memory framework in which each agent maintains its own dual-pool memory -- an exploitation pool of consolidated past trajectories and an exploration pool of LLM-generated candidates for unseen contexts. The two pools are reweighted online based on stage-wise feedback from an LLM-as-a-judge. Theoretically, we prove that this design guarantees global reachability of the solution space and achieves $O(\log T)$ cumulative regret, matching the stochastic bandit lower bound up to constants. In practice, across three MAS frameworks (AutoGen, DyLAN, AgentNet), three Qwen3 backbones (4B/8B/14B), two Gemma4 backbones (E2B/E4B) and five benchmarks spanning math, code, QA, and embodied tasks, DecentMem improves average accuracy by up to 23.8% over the strongest centralized memory baseline and by up to 52.5% over the no-memory baseline, while reducing token usage by up to 49%.",arxiv,0,2026-05-21
+Boiling the Frog: A Multi-Turn Benchmark for Agentic Safety,2026-05-21 15:50:18+00:00,http://arxiv.org/abs/2605.22643v2,"Piercosma Bisconti, Matteo Prandi, Federico Pierucci, Federico Sartore, Enrico Panai, Laura Caroli, Yue Zhu, Adam Leon Smith, Luca Nannini, Marcello Galisai, Susanna Cifani, Francesco Giarrusso, Marcantonio Bracale Syrnikov, Daniele Nardi",cs.CL,dialogue,"Background. Traditional safety benchmarks for language models evaluate generated text: whether a model outputs toxic language, reproduces bias, or follows harmful instructions. When models are deployed as agents, the safety-relevant object shifts from what the system says to what it does within an environment, and evaluating model responses under prompting is no longer sufficient to address the safety challenges posed by artificial intelligence. Recent developments have seen the rise of benchmarks that evaluate large language models as agents. We contribute to this strand of research. Approach. We introduce Boiling the Frog, a benchmark that evaluates whether tool-using AI models deployed in corporate and office settings are susceptible to incremental attacks. Each scenario begins with benign workspace edits and later introduces a risk-bearing request. The benchmark focuses on stateful multi-turn evaluation: chains expose a persistent workspace, place the risk-bearing payload at controlled positions in the turn sequence, and score whether the resulting artifact state becomes unsafe. Scenarios are organized through a three-level operational risk taxonomy grounded in the Boiling the Frog risks, the AI Act Annex I and Annex III high-risk contexts, and EU AI Act's Code of Practice on General-Purpose AI (GPAI). Results. Across a nine-model panel, aggregate strict attack success rate (ASR) is 44.4%. Model-level ASR ranges from 20.5% for Claude Haiku 4.5 to 92.9% for Gemini 3.1 Flash Lite, with Seed 2.0 Lite also above 80%. Average chain category-level ASR reaches 93.3% for Code of Practice loss-of-control scenarios.",arxiv,0,2026-05-21
+Contractual Skills: A GovernSpec Design Framework for Enterprise AI Agents,2026-05-21 15:40:05+00:00,http://arxiv.org/abs/2605.22634v2,Ting Liu,"cs.SE, cs.AI",dialogue,"Skills have become a practical packaging mechanism for agent instructions, workflows, scripts, and reference materials. In enterprise settings, however, a skill often needs to express more than task guidance: goals, input boundaries, permissions, human approval points, evidence requirements, output contracts, quality criteria, verification steps, and handoff rules. This paper proposes contractual skills, a GovernSpec-inspired design framework for organizing SKILL.md files as readable task contracts while preserving lightweight skill discovery and progressive loading. The framework clarifies the boundary between contractual skills, GovernSpec YAML contracts, Model Context Protocol (MCP) surfaces, tool adapters, runtime guardrails, tracing, and evaluation systems.
+  We evaluate the framework with three offline empirical studies. The first text-generation experiment covers three enterprise skills, fifteen synthetic tasks, four instruction conditions, and eight generation models, producing 960 outputs and 1680 cross-judge score records. The second study is a public-skill A/B expansion: eight public skills are compared with contractual rewrites across forty-eight synthetic tasks, six generation models, two repeats, 1152 outputs, and two complete judge files. In this setting, contractual skills raise mean quality from 4.692 to 4.914 and reduce critical-error rate from 0.083 to 0.013. The third study is an offline tool-calling challenge with eight models and 192 simulated tool-call records. The results suggest that contractual skills are best understood as a governance layer that makes task intent, boundaries, and acceptance criteria explicit, not as a standalone safety mechanism.",arxiv,0,2026-05-21
+"Polite on the Surface, Wrong in Practice: A Curated Dataset for Fixing Honorific Failures in Multilingual Bangla Generation",2026-05-21 13:43:07+00:00,http://arxiv.org/abs/2605.22487v1,"Md. Asaduzzaman Shuvo, Mahedi Hasan, Md. Tashin Parvez, Azizul Haque Noman, Md. Shafayet Hossain Ovi",cs.CL,dialogue,"Recent advances in Multilingual Large Language Models (MLLMs) have significantly enhanced cross-lingual conversational capabilities, yet modeling culturally nuanced and context-dependent communication remains a critical bottleneck. Specifically, existing state-of-the-art models exhibit a severe pragmatic gap when handling structural variations, regional idioms, and honorific consistencies in low-resource contexts like Bangla. To address this limitation, we introduce a novel, culturally aligned instruction-tuning dataset for \textbf{BangLa Application and DialoguE generation - BLADE} and benchmarking framework comprising $4,196$ meticulously curated interaction pairs. We leverage this resource to systematically fine-tune and evaluate leading open-weight architectures, including DeepSeek-8B and LLaMA-3.2-3B, utilizing parameter-efficient fine-tuning via LoRA adapters in a 4-bit NormalFloat (NF4) quantization framework. Our empirical evaluations demonstrate that models fine-tuned on our dataset yield substantial improvements in structural fidelity and honorific alignment, providing a rigorous benchmark for bridging pragmatic disparities in low-resource multilingual text generation. Code and dataset: https://github.com/ashuvo25/Bangla_Application_LLM/tree/main",arxiv,0,2026-05-21
+SWE-Mutation: Can LLMs Generate Reliable Test Suites in Software Engineering?,2026-05-21 08:45:50+00:00,http://arxiv.org/abs/2605.22175v1,"Yuxuan Sun, Yuze Zhao, Yufeng Wang, Yao Du, Zhiyuan Ma, Jinbo Wang, Mengdi Zhang, Kai Zhang, Zhenya Huang","cs.SE, cs.AI",dialogue,"Evaluating software engineering capabilities has become a core component of modern large language models (LLMs); however, the key bottleneck hindering further scaling lies not in the scarcity of high-quality solutions, but in the lack of high-quality test suites. Test suites are indispensable both for synthesizing program repair trajectories and for providing precise feedback signals in reinforcement learning. Unfortunately, due to the high cost and difficulty of annotation, high-quality test suites have long been hard to obtain, while those automatically generated by LLMs tend to be superficial and lack sufficient discriminative power. As a first step toward constructing high-quality test suites, we introduce SWE-Mutation, a benchmark for evaluating LLM-generated test suites. The benchmark characterizes test suites by introducing systematically mutated solutions that attempt to ``fool'' the test suites and pass validation. We further propose an agentic, language-agnostic framework for automatically generating complex mutants. Our benchmark consists of 2,636 mutated variants derived from 800 original instances and includes a multilingual subset spanning nine programming languages. Experiments on seven LLMs reveal that even DeepSeek-V3.1 achieves only 10.20% verification and 36.15% detection rates, highlighting the inadequacy of current LLMs. Additionally, our agentic mutation strategy enhances realism, reducing average detection rates from 71.04% to 39.81% compared to conventional methods. These findings expose persistent deficiencies in the ability of current LLMs to generate reliable and discriminative test suites.",arxiv,0,2026-05-21
+RankJudge: A Multi-Turn LLM-as-a-Judge Synthetic Benchmark Generator,2026-05-20 21:20:01+00:00,http://arxiv.org/abs/2605.21748v1,"Zhenwei Tang, Zhaoyan Liu, Rasa Hosseinzadeh, Tongzi Wu, Keyvan Golestan, Jesse C. Cresswell",cs.CL,dialogue,"As interactive LLM-based applications are created and refined, model developers need to evaluate the quality of generated text along many possible axes. For simpler systems, human evaluation may be practical, but in complicated systems like conversational chatbots, the amount of generated text can overwhelm human annotation resources. Model developers have begun to rely heavily on auto-evaluation, where LLMs are also used to judge generation quality. However, existing LLM-as-a-judge benchmarks largely focus on simple Q\&A tasks that do not match the complexity of multi-turn conversations. We introduce RankJudge, a benchmark generator for evaluating LLM-as-a-judge on multi-turn conversations grounded in reference documents. RankJudge creates pairs of conversations where one conversation has a single flaw injected into one turn. This construction allows paired conversations to be labeled unambiguously as better or worse, and precisely isolates failure categories to individual turns, enabling a strict joint correctness criterion for judging. We implement RankJudge across the domains of machine learning, biomedicine, and finance, evaluate 21 frontier LLM judges, and rank those judges via the Bradley-Terry model. Our formulation also allows ranking each conversation pair with difficulty ratings, which we use to dynamically curate the evaluation slice to reduce label noise, as confirmed via human annotation. We find that judge rankings are stable under partial observability, coarser correctness criteria, and an alternative random-walk rating algorithm.",arxiv,0,2026-05-20
 OrgForge-IT: A Verifiable Synthetic Benchmark for LLM-Based Insider Threat Detection,2026-03-23 19:03:53+00:00,http://arxiv.org/abs/2603.22499v1,Jeffrey Flynt,"cs.CR, cs.LG",dialogue,"Synthetic insider threat benchmarks face a consistency problem: corpora generated without an external factual constraint cannot rule out cross-artifact contradictions. The CERT dataset -- the field's canonical benchmark -- is also static, lacks cross-surface correlation scenarios, and predates the LLM era. We present OrgForge-IT, a verifiable synthetic benchmark in which a deterministic simulation engine maintains ground truth and language models generate only surface prose, making cross-artifact consistency an architectural guarantee. The corpus spans 51 simulated days, 2,904 telemetry records at a 96.4% noise rate, and four detection scenarios designed to defeat single-surface and single-day triage strategies across three threat classes and eight injectable behaviors.
   A ten-model leaderboard reveals several findings: (1) triage and verdict accuracy dissociate - eight models achieve identical triage F1=0.80 yet split between verdict F1=1.0 and 0.80; (2) baseline false-positive rate is a necessary companion to verdict F1, with models at identical verdict accuracy differing by two orders of magnitude on triage noise; (3) victim attribution in the vishing scenario separates tiers - Tier A models exonerate the compromised account holder while Tier B models detect the attack but misclassify the victim; (4) rigid multi-signal thresholds structurally exclude single-surface negligent insiders, demonstrating the necessity of parallel, threat-class-specific triage pipelines; and (5) agentic software-engineering training acts as a force multiplier for multi-day temporal correlation, but only when paired with frontier-level parameter scale. Finally, prompt sensitivity analysis reveals that unstructured prompts induce vocabulary hallucination, motivating a two-track scoring framework separating prompt adherence from reasoning capability.
   OrgForge-IT is open source under the MIT license.",,0,2026-03-23
@@ -159,6 +211,20 @@ Dialogue Is Not Enough to Make a Communicative BabyLM (But Neither Is Developmen
 Check Yourself Before You Wreck Yourself: Selectively Quitting Improves LLM Agent Safety,2025-10-18 13:22:19+00:00,http://arxiv.org/abs/2510.16492v2,"Vamshi Krishna Bonagiri, Ponnurangam Kumaragurum, Khanh Nguyen, Benjamin Plaut",cs.CL,dialogue,"As Large Language Model (LLM) agents increasingly operate in complex environments with real-world consequences, their safety becomes critical. While uncertainty quantification is well-studied for single-turn tasks, multi-turn agentic scenarios with real-world tool access present unique challenges where uncertainties and ambiguities compound, leading to severe or catastrophic risks beyond traditional text generation failures. We propose using ""quitting"" as a simple yet effective behavioral mechanism for LLM agents to recognize and withdraw from situations where they lack confidence. Leveraging the ToolEmu framework, we conduct a systematic evaluation of quitting behavior across 12 state-of-the-art LLMs. Our results demonstrate a highly favorable safety-helpfulness trade-off: agents prompted to quit with explicit instructions improve safety by an average of +0.39 on a 0-3 scale across all models (+0.64 for proprietary models), while maintaining a negligible average decrease of -0.03 in helpfulness. Our analysis demonstrates that simply adding explicit quit instructions proves to be a highly effective safety mechanism that can immediately be deployed in existing agent systems, and establishes quitting as an effective first-line defense mechanism for autonomous agents in high-stakes applications.",,0,2025-10-18
 Efficient Seq2seq Coreference Resolution Using Entity Representations,2025-10-16 09:50:03+00:00,http://arxiv.org/abs/2510.14504v1,"Matt Grenander, Shay B. Cohen, Mark Steedman",cs.CL,dialogue,"Seq2seq coreference models have introduced a new paradigm for coreference resolution by learning to generate text corresponding to coreference labels, without requiring task-specific parameters. While these models achieve new state-of-the-art performance, they do so at the cost of flexibility and efficiency. In particular, they do not efficiently handle incremental settings such as dialogue, where text must processed sequentially. We propose a compressed representation in order to improve the efficiency of these methods in incremental settings. Our method works by extracting and re-organizing entity-level tokens, and discarding the majority of other input tokens. On OntoNotes, our best model achieves just 0.6 CoNLL F1 points below a full-prefix, incremental baseline while achieving a compression ratio of 1.8. On LitBank, where singleton mentions are annotated, it passes state-of-the-art performance. Our results indicate that discarding a wide portion of tokens in seq2seq resolvers is a feasible strategy for incremental coreference resolution.",,0,2025-10-16
 Generating Fair Consensus Statements with Social Choice on Token-Level MDPs,2025-10-15 21:23:18+00:00,http://arxiv.org/abs/2510.14106v1,"Carter Blair, Kate Larson","cs.AI, cs.CL, cs.GT",dialogue,"Current frameworks for consensus statement generation with large language models lack the inherent structure needed to provide provable fairness guarantees when aggregating diverse free-form opinions. We model the task as a multi-objective, token-level Markov Decision Process (MDP), where each objective corresponds to an agent's preference. Token-level rewards for each agent are derived from their policy (e.g., a personalized language model). This approach utilizes the finding that such policies implicitly define optimal Q-functions, providing a principled way to quantify rewards at each generation step without a value function (Rafailov et al., 2024). This MDP formulation creates a formal structure amenable to analysis using principles from social choice theory. We propose two approaches grounded in social choice theory. First, we propose a stochastic generation policy guaranteed to be in the ex-ante core, extending core stability concepts from voting theory to text generation. This policy is derived from an underlying distribution over complete statements that maximizes proportional fairness (Nash Welfare). Second, for generating a single statement, we target the maximization of egalitarian welfare using search algorithms within the MDP framework. Empirically, experiments using language models to instantiate agent policies show that search guided by the egalitarian objective generates consensus statements with improved worst-case agent alignment compared to baseline methods, including the Habermas Machine (Tessler et al., 2024).",,0,2025-10-15
+"Deflanderization for Game Dialogue: Balancing Character Authenticity
+  with Task Execution in LLM-based NPCs",2025-10-15 14:17:23+00:00,http://arxiv.org/abs/2510.13586,"Pasin Buakhaw, Kun Kerdthaisong, Phuree Phenhiran, Pitikorn Khlaisamniang, Supasate Vorathammathorn, Piyalitt Ittichaiwong, Nutchanon Yongsatianchot",,dialogue,"The emergence of large language models (LLMs) has opened new opportunities
+for cre- ating dynamic non-player characters (NPCs) in gaming environments,
+enabling both func- tional task execution and persona-consistent dialogue
+generation. In this paper, we (Tu_Character_lab) report our participation in
+the Commonsense Persona-Grounded Dialogue Challenge (CPDC) 2025 Round 2, which
+eval- uates agents across three tracks: task-oriented dialogue, context-aware
+dialogue, and their integration. Our approach combines two complementary
+strategies: (i) lightweight prompting techniques in the API track, including a
+Deflanderization prompting method to suppress excessive role-play and improve
+task fidelity, and (ii) fine-tuned large models in the GPU track, leveraging
+Qwen3-14B with supervisedfinetuning (SFT) and Low-Rank Adaptation(LoRA). Our
+best submissions ranked 2nd on Task 1, 2nd on Task 3 (API track), and 4th on
+Task 3 (GPU track).",hf,1,2025-10-15
 MADREC: A Multi-Aspect Driven LLM Agent for Explainable and Adaptive Recommendation,2025-10-15 10:03:29+00:00,http://arxiv.org/abs/2510.13371v1,"Jiin Park, Misuk Kim","cs.IR, cs.AI",dialogue,"Recent attempts to integrate large language models (LLMs) into recommender systems have gained momentum, but most remain limited to simple text generation or static prompt-based inference, failing to capture the complexity of user preferences and real-world interactions. This study proposes the Multi-Aspect Driven LLM Agent MADRec, an autonomous LLM-based recommender that constructs user and item profiles by unsupervised extraction of multi-aspect information from reviews and performs direct recommendation, sequential recommendation, and explanation generation. MADRec generates structured profiles via aspect-category-based summarization and applies Re-Ranking to construct high-density inputs. When the ground-truth item is missing from the output, the Self-Feedback mechanism dynamically adjusts the inference criteria. Experiments across multiple domains show that MADRec outperforms traditional and LLM-based baselines in both precision and explainability, with human evaluation further confirming the persuasiveness of the generated explanations.",,0,2025-10-15
 CiteGuard: Faithful Citation Attribution for LLMs via Retrieval-Augmented Validation,2025-10-15 00:32:26+00:00,http://arxiv.org/abs/2510.17853v2,"Yee Man Choi, Xuehang Guo, Yi R. Fung, Qingyun Wang",cs.DL,dialogue,"Large Language Models (LLMs) have emerged as promising assistants for scientific writing. However, there have been concerns regarding the quality and reliability of the generated text, one of which is the citation accuracy and faithfulness. While most recent work relies on methods such as LLM-as-a-Judge, the reliability of LLM-as-a-Judge alone is also in doubt. In this work, we reframe citation evaluation as a problem of citation attribution alignment, which is assessing whether LLM-generated citations match those a human author would include for the same text. We propose CiteGuard, a retrieval-aware agent framework designed to provide more faithful grounding for citation validation. CiteGuard improves the prior baseline by 12.3%, and achieves up to 65.4% accuracy on the CiteME benchmark, on par with human-level performance (69.7%). It also enables the identification of alternative but valid citations.",,0,2025-10-15
 GOAT: A Training Framework for Goal-Oriented Agent with Tools,2025-10-14 07:14:50+00:00,http://arxiv.org/abs/2510.12218v1,"Hyunji Min, Sangwon Jung, Junyoung Sung, Dosung Lee, Leekyeung Han, Paul Hongsuck Seo",cs.AI,dialogue,"Large language models (LLMs) have recently been extended beyond traditional text generation to serve as interactive agents capable of using external tools based on user intent. However, current LLM agents still show limited ability to handle goal-oriented queries, which require decomposing a high-level objective into multiple interdependent API calls with correct planning and execution. Current approaches mainly rely on zero-shot evaluation due to the absence of training data. While proprietary closed-source models such as GPT-4 demonstrate strong reasoning abilities, smaller open-source models struggle to perform complex tool use effectively. Thus, we propose a novel training framework GOAT, which enables fine-tuning of LLM agents in a human annotation-free setting. GOAT automatically constructs synthetic datasets of goal-oriented API execution tasks directly from given API documents, equipping models with the ability to reason over interdependent calls and generate coherent responses. Through extensive experiments, we show that GOAT-trained agents achieve state-of-the-art performance across multiple existing goal-oriented benchmarks. In addition, we introduce GOATBench, a new goal-oriented API execution benchmark, and demonstrate that agents trained with GOAT also excel in this setting. These results highlight GOAT as a practical path toward building robust open-source LLM agents capable of complex reasoning and tool use.",,0,2025-10-14
@@ -229,6 +295,25 @@ clarification questions and final outlines generated by our model are favored
 by human annotators by 42% and 28% respectively. Together, these results
 highlight the value of proactive clarification in elevating LLMs from passive
 text generators to genuinely collaborative thought partners.",,0,2025-07-28
+RMTBench: Benchmarking LLMs Through Multi-Turn User-Centric Role-Playing,2025-07-27 16:49:47+00:00,http://arxiv.org/abs/2507.20352,"Hao Xiang, Tianyi Tang, Yang Su, Bowen Yu, An Yang, Fei Huang, Yichang Zhang, Yaojie Lu, Hongyu Lin, Xianpei Han, Jingren Zhou, Junyang Lin, Le Sun",,dialogue,"Recent advancements in Large Language Models (LLMs) have shown outstanding
+potential for role-playing applications. Evaluating these capabilities is
+becoming crucial yet remains challenging. Existing benchmarks mostly adopt a
+character-centric approach, simplify user-character interactions to
+isolated Q&A tasks, and fail to reflect real-world applications. To address
+this limitation, we introduce RMTBench, a comprehensive user-centric
+bilingual role-playing benchmark featuring 80 diverse characters and over 8,000
+dialogue rounds. RMTBench includes custom characters with detailed backgrounds
+and abstract characters defined by simple traits, enabling evaluation across
+various user scenarios. Our benchmark constructs dialogues based on explicit
+user motivations rather than character descriptions, ensuring alignment with
+practical user applications. Furthermore, we construct an authentic multi-turn
+dialogue simulation mechanism. With carefully selected evaluation dimensions
+and LLM-based scoring, this mechanism captures the complex intention of
+conversations between the user and the character. By shifting focus from
+character background to user intention fulfillment, RMTBench bridges the gap
+between academic evaluation and practical deployment requirements, offering a
+more effective framework for assessing role-playing capabilities in LLMs. All
+code and datasets will be released soon.",hf,0,2025-07-27
 "AI-Driven Generation of Old English: A Framework for Low-Resource
   Languages",2025-07-27 03:29:19+00:00,http://arxiv.org/abs/2507.20111v1,"Rodrigo Gabriel Salazar Alva, Matías Nuñez, Cristian López, Javier Martín Arista","cs.CL, cs.AI",dialogue,"Preserving ancient languages is essential for understanding humanity's
 cultural and linguistic heritage, yet Old English remains critically
@@ -348,3 +433,783 @@ human or agent baselines significantly. Our approach underscores the importance
 of evaluating generated text by its ability to facilitate synergistic
 decision-making between humans and LLMs, highlighting critical limitations of
 traditional intrinsic metrics.",,0,2025-07-02
+"SPADE: Systematic Prompt Framework for Automated Dialogue Expansion in
+  Machine-Generated Text Detection",2025-03-19 09:32:52+00:00,http://arxiv.org/abs/2503.15044,"Haoyi Li, Angela Yifei Yuan, Soyeon Caren Han, Christopher Leckie",,dialogue,"The increasing capability of large language models (LLMs) to generate
+synthetic content has heightened concerns about their misuse, driving the
+development of Machine-Generated Text (MGT) detection models. However, these
+detectors face significant challenges due to the lack of systematically
+generated, high-quality datasets for training. To address this issue, we
+propose five novel data augmentation frameworks for synthetic user dialogue
+generation through a structured prompting approach, reducing the costs
+associated with traditional data collection methods. Our proposed method yields
+14 new dialogue datasets, which we benchmark against seven MGT detection
+models. The results demonstrate improved generalization performance when
+utilizing a mixed dataset produced by our proposed augmentation framework.
+Furthermore, considering that real-world agents lack knowledge of future
+opponent utterances, we simulate online dialogue detection and examine the
+relationship between chat history length and detection accuracy. We also
+benchmark online detection performance with limited chat history on our
+frameworks. Our open-source datasets can be downloaded from
+https://github.com/AngieYYF/SPADE-customer-service-dialogue.",hf,0,2025-03-19
+"Open-Source Large Language Models as Multilingual Crowdworkers:
+  Synthesizing Open-Domain Dialogues in Several Languages With No Examples in
+  Targets and No Machine Translation",2025-03-05 12:52:14+00:00,http://arxiv.org/abs/2503.03462,"Ahmed Njifenjou, Virgile Sucal, Bassam Jabaian, Fabrice Lefèvre",,dialogue,"The prevailing paradigm in the domain of Open-Domain Dialogue agents
+predominantly focuses on the English language, encompassing both models and
+datasets. Furthermore, the financial and temporal investments required for
+crowdsourcing such datasets for finetuning are substantial, particularly when
+multiple languages are involved. Fortunately, advancements in Large Language
+Models (LLMs) have unveiled a plethora of possibilities across diverse tasks.
+Specifically, instruction-tuning has enabled LLMs to execute tasks based on
+natural language instructions, occasionally surpassing the performance of human
+crowdworkers. Additionally, these models possess the capability to function in
+various languages within a single thread. Consequently, to generate new samples
+in different languages, we propose leveraging these capabilities to replicate
+the data collection process. We introduce a pipeline for generating Open-Domain
+Dialogue data in multiple Target Languages using LLMs, with demonstrations
+provided in a unique Source Language. By eschewing explicit Machine Translation
+in this approach, we enhance the adherence to language-specific nuances. We
+apply this methodology to the PersonaChat dataset. To enhance the openness of
+generated dialogues and mimic real life scenarii, we added the notion of speech
+events corresponding to the type of conversation the speakers are involved in
+and also that of common ground which represents the premises of a conversation.",hf,0,2025-03-05
+"Dialogue Benchmark Generation from Knowledge Graphs with Cost-Effective
+  Retrieval-Augmented LLMs",2025-01-17 02:48:29+00:00,http://arxiv.org/abs/2501.09928,"Reham Omar, Omij Mangukiya, Essam Mansour",,dialogue,"Dialogue benchmarks are crucial in training and evaluating chatbots engaging
+in domain-specific conversations. Knowledge graphs (KGs) represent semantically
+rich and well-organized data spanning various domains, such as DBLP, DBpedia,
+and YAGO. Traditionally, dialogue benchmarks have been manually created from
+documents, neglecting the potential of KGs in automating this process. Some
+question-answering benchmarks are automatically generated using extensive
+preprocessing from KGs, but they do not support dialogue generation. This paper
+introduces Chatty-Gen, a novel multi-stage retrieval-augmented generation
+platform for automatically generating high-quality dialogue benchmarks tailored
+to a specific domain using a KG. Chatty-Gen decomposes the generation process
+into manageable stages and uses assertion rules for automatic validation
+between stages. Our approach enables control over intermediate results to
+prevent time-consuming restarts due to hallucinations. It also reduces reliance
+on costly and more powerful commercial LLMs. Chatty-Gen eliminates upfront
+processing of the entire KG using efficient query-based retrieval to find
+representative subgraphs based on the dialogue context. Our experiments with
+several real and large KGs demonstrate that Chatty-Gen significantly
+outperforms state-of-the-art systems and ensures consistent model and system
+performance across multiple LLMs of diverse capabilities, such as GPT-4o,
+Gemini 1.5, Llama 3, and Mistral.",hf,0,2025-01-17
+DEMO: Reframing Dialogue Interaction with Fine-grained Element Modeling,2024-12-06 10:01:38+00:00,http://arxiv.org/abs/2412.04905,"Minzheng Wang, Xinghua Zhang, Kun Chen, Nan Xu, Haiyang Yu, Fei Huang, Wenji Mao, Yongbin Li",,dialogue,"Large language models (LLMs) have made dialogue one of the central modes of
+human-machine interaction, leading to the accumulation of vast amounts of
+conversation logs and increasing demand for dialogue generation. A
+conversational life-cycle spans from the Prelude through the Interlocution to
+the Epilogue, encompassing various elements. Despite the existence of numerous
+dialogue-related studies, there is a lack of benchmarks that encompass
+comprehensive dialogue elements, hindering precise modeling and systematic
+evaluation. To bridge this gap, we introduce an innovative research task
+Dialogue Element MOdeling, including
+Element Awareness and Dialogue Agent Interaction, and
+propose a novel benchmark, DEMO, designed for a comprehensive
+dialogue modeling and assessment. Inspired by imitation learning, we further
+build the agent which possesses the adept ability to model dialogue elements
+based on the DEMO benchmark. Extensive experiments indicate that existing LLMs
+still exhibit considerable potential for enhancement, and our DEMO agent has
+superior performance in both in-domain and out-of-domain tasks.",hf,8,2024-12-06
+DiaSynth -- Synthetic Dialogue Generation Framework,2024-09-25 07:03:31+00:00,http://arxiv.org/abs/2409.19020,"Sathya Krishnan Suresh, Wu Mengjun, Tushar Pranav, Eng Siong Chng",,dialogue,"The scarcity of domain specific dialogue datasets across various domains,
+from academic topics to everyday conversations, limits the development of
+dialogue systems for various applications. Existing research is often
+constrained either by dialogue datasets that are too general or by niche domain
+dialogue datasets whose scale does not match the required scale for training
+dialogue systems. To address this gap, we introduce DiaSynth - a synthetic
+dialogue generation framework capable of generating high quality, contextually
+rich dialogues across a wide range of domains. Our approach differs from
+existing frameworks by dynamically generating dialogues that incorporate
+simulated personas, subtopics, and diverse conversational characteristics,
+using a Large Language Model (LLM) with Chain of Thought (CoT) reasoning to
+create contextually rich, domain-specific dialogues that closely mimic natural
+human interactions. DiaSynth produces tailored dialogues that emulate realistic
+conversations. We perform our experiments by generating synthetic data using
+different LLMs and few-shot examples from DialogSum and SAMSum. The pretrained
+language models fine-tuned on the synthetic data outperform the base models by
+16.47%, while the comparison between models fine-tuned on in-domain data and
+synthetic data shows that the synthetic data is able to capture 90.48% of the
+distribution of the in-domain data. The quality of the data generated also
+scales with the size of LLMs. These results validate DiaSynth's potential as a
+robust alternative to traditional data collection methods.",hf,20,2024-09-25
+"J-CHAT: Japanese Large-scale Spoken Dialogue Corpus for Spoken Dialogue
+  Language Modeling",2024-07-22 17:46:50+00:00,http://arxiv.org/abs/2407.15828,"Wataru Nakata, Kentaro Seki, Hitomi Yanaka, Yuki Saito, Shinnosuke Takamichi, Hiroshi Saruwatari",,dialogue,"Spoken dialogue plays a crucial role in human-AI interactions, necessitating
+dialogue-oriented spoken language models (SLMs). To develop versatile SLMs,
+large-scale and diverse speech datasets are essential. Additionally, to ensure
+hiqh-quality speech generation, the data must be spontaneous like in-wild data
+and must be acoustically clean with noise removed. Despite the critical need,
+no open-source corpus meeting all these criteria has been available. This study
+addresses this gap by constructing and releasing a large-scale spoken dialogue
+corpus, named Japanese Corpus for Human-AI Talks (J-CHAT), which is publicly
+accessible. Furthermore, this paper presents a language-independent method for
+corpus construction and describes experiments on dialogue generation using SLMs
+trained on J-CHAT. Experimental results indicate that the collected data from
+multiple domains by our method improve the naturalness and meaningfulness of
+dialogue generation.",hf,0,2024-07-22
+"PSYDIAL: Personality-based Synthetic Dialogue Generation using Large
+  Language Models",2024-04-01 05:19:34+00:00,http://arxiv.org/abs/2404.00930,"Ji-Eun Han, Jun-Seok Koh, Hyeon-Tae Seo, Du-Seong Chang, Kyung-Ah Sohn",,dialogue,"We present a novel end-to-end personality-based synthetic dialogue data
+generation pipeline, specifically designed to elicit responses from large
+language models via prompting. We design the prompts to generate more
+human-like dialogues considering real-world scenarios when users engage with
+chatbots. We introduce PSYDIAL, the first Korean dialogue dataset focused on
+personality-based dialogues, curated using our proposed pipeline. Notably, we
+focus on the Extraversion dimension of the Big Five personality model in our
+research. Experimental results indicate that while pre-trained models and those
+fine-tuned with a chit-chat dataset struggle to generate responses reflecting
+personality, models trained with PSYDIAL show significant improvements. The
+versatility of our pipeline extends beyond dialogue tasks, offering potential
+for other non-dialogue related applications. This research opens doors for more
+nuanced, personality-driven conversational AI in Korean and potentially other
+languages. Our code is publicly available at
+https://github.com/jiSilverH/psydial.",hf,0,2024-04-01
+"StyleChat: Learning Recitation-Augmented Memory in LLMs for Stylized
+  Dialogue Generation",2024-03-18 03:26:18+00:00,http://arxiv.org/abs/2403.11439,"Jinpeng Li, Zekai Zhang, Quan Tu, Xin Cheng, Dongyan Zhao, Rui Yan",,dialogue,"Large Language Models (LLMs) demonstrate superior performance in generative
+scenarios and have attracted widespread attention. Among them, stylized
+dialogue generation is essential in the context of LLMs for building
+intelligent and engaging dialogue agent. However the ability of LLMs is
+data-driven and limited by data bias, leading to poor performance on specific
+tasks. In particular, stylized dialogue generation suffers from a severe lack
+of supervised data. Furthermore, although many prompt-based methods have been
+proposed to accomplish specific tasks, their performance in complex real-world
+scenarios involving a wide variety of dialog styles further enhancement. In
+this work, we first introduce a stylized dialogue dataset StyleEval with 38
+styles by leveraging the generative power of LLMs comprehensively, which has
+been carefully constructed with rigorous human-led quality control. Based on
+this, we propose the stylized dialogue framework StyleChat via
+recitation-augmented memory strategy and multi-task style learning strategy to
+promote generalization ability. To evaluate the effectiveness of our approach,
+we created a test benchmark that included both a generation task and a choice
+task to comprehensively evaluate trained models and assess whether styles and
+preferences are remembered and understood. Experimental results show that our
+proposed framework StyleChat outperforms all the baselines and helps to break
+the style boundary of LLMs.",hf,0,2024-03-18
+"KoDialogBench: Evaluating Conversational Understanding of Language
+  Models with Korean Dialogue Benchmark",2024-02-27 10:14:57+00:00,http://arxiv.org/abs/2402.17377,"Seongbo Jang, Seonghyeon Lee, Hwanjo Yu",,dialogue,"As language models are often deployed as chatbot assistants, it becomes a
+virtue for models to engage in conversations in a user's first language. While
+these models are trained on a wide range of languages, a comprehensive
+evaluation of their proficiency in low-resource languages such as Korean has
+been lacking. In this work, we introduce KoDialogBench, a benchmark designed to
+assess language models' conversational capabilities in Korean. To this end, we
+collect native Korean dialogues on daily topics from public sources, or
+translate dialogues from other languages. We then structure these conversations
+into diverse test datasets, spanning from dialogue comprehension to response
+selection tasks. Leveraging the proposed benchmark, we conduct extensive
+evaluations and analyses of various language models to measure a foundational
+understanding of Korean dialogues. Experimental results indicate that there
+exists significant room for improvement in models' conversation skills.
+Furthermore, our in-depth comparisons across different language models
+highlight the effectiveness of recent training techniques in enhancing
+conversational proficiency. We anticipate that KoDialogBench will promote the
+progress towards conversation-aware Korean language models.",hf,0,2024-02-27
+"Instruct Once, Chat Consistently in Multiple Rounds: An Efficient Tuning
+  Framework for Dialogue",2024-02-10 14:52:52+00:00,http://arxiv.org/abs/2402.06967,"Jian Wang, Chak Tou Leong, Jiashuo Wang, Dongding Lin, Wenjie Li, Xiao-Yong Wei",,dialogue,"Tuning language models for dialogue generation has been a prevalent paradigm
+for building capable dialogue agents. Yet, traditional tuning narrowly views
+dialogue generation as resembling other language generation tasks, ignoring the
+role disparities between two speakers and the multi-round interactive process
+that dialogues ought to be. Such a manner often leads to unsatisfactory chat
+consistency for the built agent. In this work, we emphasize the interactive,
+communicative nature of dialogue and argue that it is more feasible to model
+the speaker roles of agent and user separately, enabling the agent to adhere to
+its role consistently. With this in mind, we propose an efficient Multi-round
+Interactive Dialogue Tuning (Midi-Tuning) framework. It models the agent and
+user individually with two adapters built upon large language models. The
+adapters make use of respective utterances round by round in alternating order
+and they are tuned via a round-level memory caching mechanism. Extensive
+experiments demonstrate that, our framework performs superior to traditional
+fine-tuning and harbors the tremendous potential for improving dialogue
+consistency.",hf,0,2024-02-10
+Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk,2024-01-10 09:49:10+00:00,http://arxiv.org/abs/2401.05033,"Dennis Ulmer, Elman Mansimov, Kaixiang Lin, Justin Sun, Xibin Gao, Yi Zhang",,dialogue,"Large language models (LLMs) are powerful dialogue agents, but specializing
+them towards fulfilling a specific function can be challenging. Instructing
+tuning, i.e. tuning models on instruction and sample responses generated by
+humans (Ouyang et al., 2022), has proven as an effective method to do so, yet
+requires a number of data samples that a) might not be available or b) costly
+to generate. Furthermore, this cost increases when the goal is to make the LLM
+follow a specific workflow within a dialogue instead of single instructions.
+Inspired by the self-play technique in reinforcement learning and the use of
+LLMs to simulate human agents, we propose a more effective method for data
+collection through LLMs engaging in a conversation in various roles. This
+approach generates a training data via ""self-talk"" of LLMs that can be refined
+and utilized for supervised fine-tuning. We introduce an automated way to
+measure the (partial) success of a dialogue. This metric is used to filter the
+generated conversational data that is fed back in LLM for training. Based on
+our automated and human evaluations of conversation quality, we demonstrate
+that such self-talk data improves results. In addition, we examine the various
+characteristics that showcase the quality of generated dialogues and how they
+can be connected to their potential utility as training data.",hf,18,2024-01-10
+"Faithful Persona-based Conversational Dataset Generation with Large
+  Language Models",2023-12-15 18:23:50+00:00,http://arxiv.org/abs/2312.10007,"Pegah Jandaghi, XiangHai Sheng, Xinyi Bai, Jay Pujara, Hakim Sidahmed",,dialogue,"High-quality conversational datasets are essential for developing AI models
+that can communicate with users. One way to foster deeper interactions between
+a chatbot and its user is through personas, aspects of the user's character
+that provide insights into their personality, motivations, and behaviors.
+Training Natural Language Processing (NLP) models on a diverse and
+comprehensive persona-based dataset can lead to conversational models that
+create a deeper connection with the user, and maintain their engagement. In
+this paper, we leverage the power of Large Language Models (LLMs) to create a
+large, high-quality conversational dataset from a seed dataset. We propose a
+Generator-Critic architecture framework to expand the initial dataset, while
+improving the quality of its conversations. The Generator is an LLM prompted to
+output conversations. The Critic consists of a mixture of expert LLMs that
+control the quality of the generated conversations. These experts select the
+best generated conversations, which we then use to improve the Generator. We
+release Synthetic-Persona-Chat, consisting of 20k conversations seeded from
+Persona-Chat. We evaluate the quality of Synthetic-Persona-Chat and our
+generation framework on different dimensions through extensive experiments, and
+observe that the losing rate of Synthetic-Persona-Chat against Persona-Chat
+during Turing test decreases from 17.2% to 8.8% over three iterations.",hf,11,2023-12-15
+"CharacterGLM: Customizing Chinese Conversational AI Characters with
+  Large Language Models",2023-11-28 14:49:23+00:00,http://arxiv.org/abs/2311.16832,"Jinfeng Zhou, Zhuang Chen, Dazhen Wan, Bosi Wen, Yi Song, Jifan Yu, Yongkang Huang, Libiao Peng, Jiaming Yang, Xiyao Xiao, Sahand Sabour, Xiaohan Zhang, Wenjing Hou, Yijia Zhang, Yuxiao Dong, Jie Tang, Minlie Huang",,dialogue,"In this paper, we present CharacterGLM, a series of models built upon
+ChatGLM, with model sizes ranging from 6B to 66B parameters. Our CharacterGLM
+is designed for generating Character-based Dialogues (CharacterDial), which
+aims to equip a conversational AI system with character customization for
+satisfying people's inherent social desires and emotional needs. On top of
+CharacterGLM, we can customize various AI characters or social agents by
+configuring their attributes (identities, interests, viewpoints, experiences,
+achievements, social relationships, etc.) and behaviors (linguistic features,
+emotional expressions, interaction patterns, etc.). Our model outperforms most
+mainstream close-source large langauge models, including the GPT series,
+especially in terms of consistency, human-likeness, and engagement according to
+manual evaluations. We will release our 6B version of CharacterGLM and a subset
+of training data to facilitate further research development in the direction of
+character-based dialogue generation.",hf,1,2023-11-28
+PRODIGy: a PROfile-based DIalogue Generation dataset,2023-11-09 08:19:34+00:00,http://arxiv.org/abs/2311.05195,"Daniela Occhipinti, Serra Sinem Tekiroglu, Marco Guerini",,dialogue,"Providing dialogue agents with a profile representation can improve their
+consistency and coherence, leading to better conversations. However, current
+profile-based dialogue datasets for training such agents contain either
+explicit profile representations that are simple and dialogue-specific, or
+implicit representations that are difficult to collect. In this work, we
+propose a unified framework in which we bring together both standard and more
+sophisticated profile representations by creating a new resource where each
+dialogue is aligned with all possible speaker representations such as
+communication style, biographies, and personality. This framework allows to
+test several baselines built using generative language models with several
+profile configurations. The automatic evaluation shows that profile-based
+models have better generalisation capabilities than models trained on dialogues
+only, both in-domain and cross-domain settings. These results are consistent
+for fine-tuned models and instruction-based LLMs. Additionally, human
+evaluation demonstrates a clear preference for generations consistent with both
+profile and context. Finally, to account for possible privacy concerns, all
+experiments are done under two configurations: inter-character and
+intra-character. In the former, the LM stores the information about the
+character in its internal representation, while in the latter, the LM does not
+retain any personal information but uses it only at inference time.",hf,0,2023-11-09
+"Learning From Free-Text Human Feedback -- Collect New Datasets Or Extend
+  Existing Ones?",2023-10-24 12:01:11+00:00,http://arxiv.org/abs/2310.15758,"Dominic Petrak, Nafise Sadat Moosavi, Ye Tian, Nikolai Rozanov, Iryna Gurevych",,dialogue,"Learning from free-text human feedback is essential for dialog systems, but
+annotated data is scarce and usually covers only a small fraction of error
+types known in conversational AI. Instead of collecting and annotating new
+datasets from scratch, recent advances in synthetic dialog generation could be
+used to augment existing dialog datasets with the necessary annotations.
+However, to assess the feasibility of such an effort, it is important to know
+the types and frequency of free-text human feedback included in these datasets.
+In this work, we investigate this question for a variety of commonly used
+dialog datasets, including MultiWoZ, SGD, BABI, PersonaChat,
+Wizards-of-Wikipedia, and the human-bot split of the Self-Feeding Chatbot.
+Using our observations, we derive new taxonomies for the annotation of
+free-text human feedback in dialogs and investigate the impact of including
+such data in response generation for three SOTA language generation models,
+including GPT-2, LLAMA, and Flan-T5. Our findings provide new insights into the
+composition of the datasets examined, including error types, user response
+types, and the relations between them.",hf,0,2023-10-24
+"MIRACLE: Towards Personalized Dialogue Generation with Latent-Space
+  Multiple Personal Attribute Control",2023-10-22 08:44:26+00:00,http://arxiv.org/abs/2310.18342,"Zhenyi Lu, Wei Wei, Xiaoye Qu, XianLing Mao, Dangyang Chen, Jixiong Chen",,dialogue,"Personalized dialogue systems aim to endow the chatbot agent with more
+anthropomorphic traits for human-like interactions. Previous approaches have
+explored explicitly user profile modeling using text descriptions, implicit
+derivation of user embeddings, or utilizing handicraft prompts for ChatGPT-like
+models. However, textual personas are limited in describing multi-faceted
+attributes (e.g., language style, inner character nuances),
+implicit embedding suffers from personality sparsity, and handicraft prompts
+lack fine-grained and stable controllability. Hence, these approaches may
+struggle with complex personalized dialogue generation tasks that require
+generating controllable responses with multiple personal attributes. To this
+end, we propose \textsc{Miracle}, a novel personalized dialogue
+generation method through MultIple PeRsonal
+Attributes Control within Latent-Space
+Energy-based Models. ttributes Control within
+Latent-Space Energy-based Models. Specifically, our approach
+first disentangles complex personality into multi-faceted attributes.
+Subsequently, we employ a conditional variational auto-encoder to align with
+the dense personalized responses within a latent joint attribute space. We have
+also tailored a dedicated energy function and customized the ordinary
+differential equations sampling method to offer flexible attribute composition
+and precise attribute control. Extensive experiments demonstrate that
+Miracle outperforms several strong baselines in terms of personality
+controllability and response generation quality. Our dataset and code are
+available at https://github.com/LZY-the-boys/MIRACLE",hf,0,2023-10-22
+BotChat: Evaluating LLMs' Capabilities of Having Multi-Turn Dialogues,2023-10-20 16:53:51+00:00,http://arxiv.org/abs/2310.13650,"Haodong Duan, Jueqi Wei, Chonghua Wang, Hongwei Liu, Yixiao Fang, Songyang Zhang, Dahua Lin, Kai Chen",,dialogue,"Interacting with human via high-quality multi-turn dialogues is a key feature
+of large language models (LLMs). However, human-based evaluation of such
+capability involves intensive manual labor. This report provides a preliminary
+evaluation of existing large language models for human-style multi-turn
+chatting, through an LLM-based approach. We start from real-world human
+dialogues and keep the very first utterances as the ChatSEED. Then we prompt
+LLMs to generate a full multi-turn dialogue (tens of utterances) based on the
+ChatSEED, utterance by utterance. Finally, we adopt state-of-the-art LLMs
+(GPT-4, \etc) as the judge to evaluate the generated dialogues. With different
+evaluation protocols, we come to substantially identical conclusions. We find
+that GPT-4 can generate human-style multi-turn dialogues with impressive
+quality, significantly outperforms its counterparts. It's difficult for a
+discriminator to distinguish between GPT-4 generated dialogues and human
+dialogues. In contrast, other LLMs struggle to generate multi-turn dialogues of
+satisfactory quality due to poor instruction-following capability, tendency to
+generate lengthy utterances, or limited general capability. All data and codes
+will be provided in https://github.com/open-compass/BotChat/ and we hope they
+can serve as a valuable resource for evaluating multi-turn chatting
+capabilities of LLMs.",hf,0,2023-10-20
+"Conversation Chronicles: Towards Diverse Temporal and Relational
+  Dynamics in Multi-Session Conversations",2023-10-20 11:06:21+00:00,http://arxiv.org/abs/2310.13420,"Jihyoung Jang, Minseong Boo, Hyounghun Kim",,dialogue,"In the field of natural language processing, open-domain chatbots have
+emerged as an important research topic. However, a major limitation of existing
+open-domain chatbot research is its singular focus on short single-session
+dialogue, neglecting the potential need for understanding contextual
+information in multiple consecutive sessions that precede an ongoing dialogue.
+Among the elements that compose the context in multi-session conversation
+settings, the time intervals between sessions and the relationships between
+speakers would be particularly important. Despite their importance, current
+research efforts have not sufficiently addressed these dialogical components.
+In this paper, we introduce a new 1M multi-session dialogue dataset, called
+Conversation Chronicles, for implementing a long-term conversation setup in
+which time intervals and fine-grained speaker relationships are incorporated.
+Following recent works, we exploit a large language model to produce the data.
+The extensive human evaluation shows that dialogue episodes in Conversation
+Chronicles reflect those properties while maintaining coherent and consistent
+interactions across all the sessions. We also propose a dialogue model, called
+ReBot, which consists of chronological summarization and dialogue generation
+modules using only around 630M parameters. When trained on Conversation
+Chronicles, ReBot demonstrates long-term context understanding with a high
+human engagement score.",hf,2,2023-10-20
+"We are what we repeatedly do: Inducing and deploying habitual schemas in
+  persona-based responses",2023-10-10 01:44:47+00:00,http://arxiv.org/abs/2310.06245,"Benjamin Kane, Lenhart Schubert",,dialogue,"Many practical applications of dialogue technology require the generation of
+responses according to a particular developer-specified persona. While a
+variety of personas can be elicited from recent large language models, the
+opaqueness and unpredictability of these models make it desirable to be able to
+specify personas in an explicit form. In previous work, personas have typically
+been represented as sets of one-off pieces of self-knowledge that are retrieved
+by the dialogue system for use in generation. However, in realistic human
+conversations, personas are often revealed through story-like narratives that
+involve rich habitual knowledge -- knowledge about kinds of events that an
+agent often participates in (e.g., work activities, hobbies, sporting
+activities, favorite entertainments, etc.), including typical goals,
+sub-events, preconditions, and postconditions of those events. We capture such
+habitual knowledge using an explicit schema representation, and propose an
+approach to dialogue generation that retrieves relevant schemas to condition a
+large language model to generate persona-based responses. Furthermore, we
+demonstrate a method for bootstrapping the creation of such schemas by first
+generating generic passages from a set of simple facts, and then inducing
+schemas from the generated passages.",hf,1,2023-10-10
+"Chat Vector: A Simple Approach to Equip LLMs With New Language Chat
+  Capabilities",2023-10-07 13:34:21+00:00,http://arxiv.org/abs/2310.04799,"Shih-Cheng Huang, Pin-Zu Li, Yu-Chi Hsu, Kuang-Ming Chen, Yu Tung Lin, Shih-Kai Hsiao, Richard Tzong-Han Tsai, Hung-yi Lee",,dialogue,"With the advancements in conversational AI, such as ChatGPT, this paper
+focuses on exploring developing Large Language Models (LLMs) for non-English
+languages, especially emphasizing alignment with human preferences. We
+introduce a computationally efficient method, leveraging chat vector, to
+synergize pre-existing knowledge and behaviors in LLMs, restructuring the
+conventional training paradigm from continual pre-train -> SFT -> RLHF to
+continual pre-train + chat vector. Our empirical studies, primarily focused on
+Traditional Chinese, employ LLaMA2 as the base model and acquire the chat
+vector by subtracting the pre-trained weights, LLaMA2, from the weights of
+LLaMA2-chat. Evaluating from three distinct facets, which are toxicity, ability
+of instruction following, and multi-turn dialogue demonstrates the chat
+vector's superior efficacy in chatting. To confirm the adaptability of our
+approach, we extend our experiments to include models pre-trained in both
+Korean and Simplified Chinese, illustrating the versatility of our methodology.
+Overall, we present a significant solution in aligning LLMs with human
+preferences efficiently across various languages, accomplished by the chat
+vector.",hf,0,2023-10-07
+"Towards human-like spoken dialogue generation between AI agents from
+  written dialogue",2023-10-02 11:03:20+00:00,http://arxiv.org/abs/2310.01088,"Kentaro Mitsui, Yukiya Hono, Kei Sawada",,dialogue,"The advent of large language models (LLMs) has made it possible to generate
+natural written dialogues between two agents. However, generating human-like
+spoken dialogues from these written dialogues remains challenging. Spoken
+dialogues have several unique characteristics: they frequently include
+backchannels and laughter, and the smoothness of turn-taking significantly
+influences the fluidity of conversation. This study proposes CHATS - CHatty
+Agents Text-to-Speech - a discrete token-based system designed to generate
+spoken dialogues based on written dialogues. Our system can generate speech for
+both the speaker side and the listener side simultaneously, using only the
+transcription from the speaker side, which eliminates the need for
+transcriptions of backchannels or laughter. Moreover, CHATS facilitates natural
+turn-taking; it determines the appropriate duration of silence after each
+utterance in the absence of overlap, and it initiates the generation of
+overlapping speech based on the phoneme sequence of the next utterance in case
+of overlap. Experimental evaluations indicate that CHATS outperforms the
+text-to-speech baseline, producing spoken dialogues that are more interactive
+and fluid while retaining clarity and intelligibility.",hf,0,2023-10-02
+ChatHaruhi: Reviving Anime Character in Reality via Large Language Model,2023-08-18 14:50:25+00:00,http://arxiv.org/abs/2308.09597,"Cheng Li, Ziang Leng, Chenxi Yan, Junyi Shen, Hao Wang, Weishi MI, Yaying Fei, Xiaoyang Feng, Song Yan, HaoSheng Wang, Linkang Zhan, Yaokai Jia, Pingyu Wu, Haozhen Sun",,dialogue,"Role-playing chatbots built on large language models have drawn interest, but
+better techniques are needed to enable mimicking specific fictional characters.
+We propose an algorithm that controls language models via an improved prompt
+and memories of the character extracted from scripts. We construct ChatHaruhi,
+a dataset covering 32 Chinese / English TV / anime characters with over 54k
+simulated dialogues. Both automatic and human evaluations show our approach
+improves role-playing ability over baselines. Code and data are available at
+https://github.com/LC1332/Chat-Haruhi-Suzumiya .",hf,1,2023-08-18
+Three Ways of Using Large Language Models to Evaluate Chat,2023-08-12 08:34:15+00:00,http://arxiv.org/abs/2308.06502,"Ondřej Plátek, Vojtěch Hudeček, Patricia Schmidtová, Mateusz Lango, Ondřej Dušek",,dialogue,"This paper describes the systems submitted by team6 for ChatEval, the DSTC 11
+Track 4 competition. We present three different approaches to predicting
+turn-level qualities of chatbot responses based on large language models
+(LLMs). We report improvement over the baseline using dynamic few-shot examples
+from a vector store for the prompts for ChatGPT. We also analyze the
+performance of the other two approaches and report needed improvements for
+future work. We developed the three systems over just two weeks, showing the
+potential of LLMs for this task. An ablation study conducted after the
+challenge deadline shows that the new Llama 2 models are closing the
+performance gap between ChatGPT and open-source LLMs. However, we find that the
+Llama 2 models do not benefit from few-shot examples in the same way as
+ChatGPT.",hf,0,2023-08-12
+"DIALGEN: Collaborative Human-LM Generated Dialogues for Improved
+  Understanding of Human-Human Conversations",2023-07-13 20:02:50+00:00,http://arxiv.org/abs/2307.07047,"Bo-Ru Lu, Nikita Haduong, Chia-Hsuan Lee, Zeqiu Wu, Hao Cheng, Paul Koester, Jean Utke, Tao Yu, Noah A. Smith, Mari Ostendorf",,dialogue,"Applications that could benefit from automatic understanding of human-human
+conversations often come with challenges associated with private information in
+real-world data such as call center or clinical conversations. Working with
+protected data also increases costs of annotation, which limits technology
+development. To address these challenges, we propose DIALGEN, a
+human-in-the-loop semi-automated dialogue generation framework. DIALGEN uses a
+language model (ChatGPT) that can follow schema and style specifications to
+produce fluent conversational text, generating a complex conversation through
+iteratively generating subdialogues and using human feedback to correct
+inconsistencies or redirect the flow. In experiments on structured
+summarization of agent-client information gathering calls, framed as dialogue
+state tracking, we show that DIALGEN data enables significant improvement in
+model performance.",hf,17,2023-07-13
+Prompted LLMs as Chatbot Modules for Long Open-domain Conversation,2023-05-08 08:09:00+00:00,http://arxiv.org/abs/2305.04533,"Gibbeum Lee, Volker Hartmann, Jongho Park, Dimitris Papailiopoulos, Kangwook Lee",,dialogue,"In this paper, we propose MPC (Modular Prompted Chatbot), a new approach for
+creating high-quality conversational agents without the need for fine-tuning.
+Our method utilizes pre-trained large language models (LLMs) as individual
+modules for long-term consistency and flexibility, by using techniques such as
+few-shot prompting, chain-of-thought (CoT), and external memory. Our human
+evaluation results show that MPC is on par with fine-tuned chatbot models in
+open-domain conversations, making it an effective solution for creating
+consistent and engaging chatbots.",hf,0,2023-05-08
+"Multi-Party Chat: Conversational Agents in Group Settings with Humans
+  and Models",2023-04-26 21:41:17+00:00,http://arxiv.org/abs/2304.13835,"Jimmy Wei, Kurt Shuster, Arthur Szlam, Jason Weston, Jack Urbanek, Mojtaba Komeili",,dialogue,"Current dialogue research primarily studies pairwise (two-party)
+conversations, and does not address the everyday setting where more than two
+speakers converse together. In this work, we both collect and evaluate
+multi-party conversations to study this more general case. We use the LIGHT
+environment to construct grounded conversations, where each participant has an
+assigned character to role-play. We thus evaluate the ability of language
+models to act as one or more characters in such conversations. Models require
+two skills that pairwise-trained models appear to lack: (1) being able to
+decide when to talk; (2) producing coherent utterances grounded on multiple
+characters. We compare models trained on our new dataset to existing
+pairwise-trained dialogue models, as well as large language models with
+few-shot prompting. We find that our new dataset, MultiLIGHT, which we will
+publicly release, can help bring significant improvements in the group setting.",hf,1,2023-04-26
+"ChatLLM Network: More brains, More intelligence",2023-04-24 08:29:14+00:00,http://arxiv.org/abs/2304.12998,"Rui Hao, Linmei Hu, Weijian Qi, Qingliu Wu, Yirui Zhang, Liqiang Nie",,dialogue,"Dialogue-based language models mark a huge milestone in the field of
+artificial intelligence, by their impressive ability to interact with users, as
+well as a series of challenging tasks prompted by customized instructions.
+However, the prevalent large-scale dialogue-based language models like ChatGPT
+still have room for improvement, such as unstable responses to questions and
+the inability to think cooperatively like humans. Considering the ability of
+dialogue-based language models in conversation and their inherent randomness in
+thinking, we propose ChatLLM network that allows multiple dialogue-based
+language models to interact, provide feedback, and think together. We design
+the network of ChatLLMs based on ChatGPT. Specifically, individual instances of
+ChatGPT may possess distinct perspectives towards the same problem, and by
+consolidating these diverse viewpoints via a separate ChatGPT, the ChatLLM
+network system can conduct decision-making more objectively and
+comprehensively. In addition, a language-based feedback mechanism comparable to
+backpropagation is devised to update the ChatGPTs within the network.
+Experiments on two datasets demonstrate that our network attains significant
+improvements in problem-solving, leading to observable progress amongst each
+member.",hf,0,2023-04-24
+"Leveraging Large Language Models to Power Chatbots for Collecting User
+  Self-Reported Data",2023-01-14 07:29:36+00:00,http://arxiv.org/abs/2301.05843,"Jing Wei, Sungdong Kim, Hyunhoon Jung, Young-Ho Kim",,dialogue,"Large language models (LLMs) provide a new way to build chatbots by accepting
+natural language prompts. Yet, it is unclear how to design prompts to power
+chatbots to carry on naturalistic conversations while pursuing a given goal,
+such as collecting self-report data from users. We explore what design factors
+of prompts can help steer chatbots to talk naturally and collect data reliably.
+To this aim, we formulated four prompt designs with different structures and
+personas. Through an online study (N = 48) where participants conversed with
+chatbots driven by different designs of prompts, we assessed how prompt designs
+and conversation topics affected the conversation flows and users' perceptions
+of chatbots. Our chatbots covered 79% of the desired information slots during
+conversations, and the designs of prompts and topics significantly influenced
+the conversation flows and the data collection performance. We discuss the
+opportunities and challenges of building chatbots with LLMs.",hf,0,2023-01-14
+Controllable Dialogue Simulation with In-Context Learning,2022-10-09 06:32:58+00:00,http://arxiv.org/abs/2210.04185,"Zekun Li, Wenhu Chen, Shiyang Li, Hong Wang, Jing Qian, Xifeng Yan",,dialogue,"Building dialogue systems requires a large corpus of annotated dialogues.
+Such datasets are usually created via crowdsourcing, which is expensive and
+time-consuming. In this paper, we propose Dialogic, a novel dialogue
+simulation method based on large language model in-context learning to automate
+dataset creation. Seeded with a few annotated dialogues, Dialogic
+automatically selects in-context examples for demonstration and prompts GPT-3
+to generate new dialogues and annotations in a controllable way. Our method can
+rapidly expand a small set of dialogue data with minimum or zero human
+involvement and parameter update and is thus much more cost-efficient
+and time-saving than crowdsourcing. Experimental results on the MultiWOZ
+dataset demonstrate that training a model on the simulated dialogues leads to
+even better performance than using the same amount of human-generated dialogues
+under the challenging low-resource settings, with as few as 85 dialogues as a
+seed. When enough data is available, our method can still serve as an effective
+data augmentation method. Human evaluation results also show that our simulated
+dialogues have near-human fluency and annotation accuracy. The code and data
+are available at \url{https://github.com/Leezekun/dialogic}.",hf,0,2022-10-09
+"A Benchmark for Understanding and Generating Dialogue between Characters
+  in Stories",2022-09-18 10:19:04+00:00,http://arxiv.org/abs/2209.08524,"Jianzhu Yao, Ziqi Liu, Jian Guan, Minlie Huang",,dialogue,"Many classical fairy tales, fiction, and screenplays leverage dialogue to
+advance story plots and establish characters. We present the first study to
+explore whether machines can understand and generate dialogue in stories, which
+requires capturing traits of different characters and the relationships between
+them. To this end, we propose two new tasks including Masked Dialogue
+Generation and Dialogue Speaker Recognition, i.e., generating missing dialogue
+turns and predicting speakers for specified dialogue turns, respectively. We
+build a new dataset DialStory, which consists of 105k Chinese stories with a
+large amount of dialogue weaved into the plots to support the evaluation. We
+show the difficulty of the proposed tasks by testing existing models with
+automatic and manual evaluation on DialStory. Furthermore, we propose to learn
+explicit character representations to improve performance on these tasks.
+Extensive experiments and case studies show that our approach can generate more
+coherent and informative dialogue, and achieve higher speaker recognition
+accuracy than strong baselines.",hf,0,2022-09-18
+MDIA: A Benchmark for Multilingual Dialogue Generation in 46 Languages,2022-08-27 19:35:20+00:00,http://arxiv.org/abs/2208.13078,"Qingyu Zhang, Xiaoyu Shen, Ernie Chang, Jidong Ge, Pengke Chen",,dialogue,"Owing to the lack of corpora for low-resource languages, current works on
+dialogue generation have mainly focused on English. In this paper, we present
+mDIA, the first large-scale multilingual benchmark for dialogue generation
+across low- to high-resource languages. It covers real-life conversations in 46
+languages across 19 language families. We present baseline results obtained by
+fine-tuning the multilingual, non-dialogue-focused pre-trained model mT5 as
+well as English-centric, dialogue-focused pre-trained chatbot DialoGPT. The
+results show that mT5-based models perform better on sacreBLEU and BertScore
+but worse on diversity. Even though promising results are found in few-shot and
+zero-shot scenarios, there is a large gap between the generation quality in
+English and other languages. We hope that the release of mDIA could encourage
+more works on multilingual dialogue generation to promote language diversity.",hf,0,2022-08-27
+Building a Personalized Dialogue System with Prompt-Tuning,2022-06-11 02:21:11+00:00,http://arxiv.org/abs/2206.05399,"Tomohito Kasahara, Daisuke Kawahara, Nguyen Tung, Shengzhe Li, Kenta Shinzato, Toshinori Sato",,dialogue,"Dialogue systems without consistent responses are not fascinating. In this
+study, we build a dialogue system that can respond based on a given character
+setting (persona) to bring consistency. Considering the trend of the rapidly
+increasing scale of language models, we propose an approach that uses
+prompt-tuning, which has low learning costs, on pre-trained large-scale
+language models. The results of automatic and manual evaluations in English and
+Japanese show that it is possible to build a dialogue system with more natural
+and personalized responses using less computational resources than fine-tuning.",hf,0,2022-06-11
+A Mixture-of-Expert Approach to RL-based Dialogue Management,2022-05-31 19:00:41+00:00,http://arxiv.org/abs/2206.00059,"Yinlam Chow, Aza Tulepbergenov, Ofir Nachum, MoonKyung Ryu, Mohammad Ghavamzadeh, Craig Boutilier",,dialogue,"Despite recent advancements in language models (LMs), their application to
+dialogue management (DM) problems and ability to carry on rich conversations
+remain a challenge. We use reinforcement learning (RL) to develop a dialogue
+agent that avoids being short-sighted (outputting generic utterances) and
+maximizes overall user satisfaction. Most existing RL approaches to DM train
+the agent at the word-level, and thus, have to deal with a combinatorially
+complex action space even for a medium-size vocabulary. As a result, they
+struggle to produce a successful and engaging dialogue even if they are
+warm-started with a pre-trained LM. To address this issue, we develop a
+RL-based DM using a novel mixture of expert language model (MoE-LM) that
+consists of (i) a LM capable of learning diverse semantics for conversation
+histories, (ii) a number of {\em specialized} LMs (or experts) capable of
+generating utterances corresponding to a particular attribute or personality,
+and (iii) a RL-based DM that performs dialogue planning with the utterances
+generated by the experts. Our MoE approach provides greater flexibility to
+generate sensible utterances with different intents and allows RL to focus on
+conversational-level DM. We compare it with SOTA baselines on open-domain
+dialogues and demonstrate its effectiveness both in terms of the diversity and
+sensibility of the generated utterances and the overall DM performance.",hf,1,2022-05-31
+Towards a Progression-Aware Autonomous Dialogue Agent,2022-05-07 17:37:43+00:00,http://arxiv.org/abs/2205.03692,"Abraham Sanders, Tomek Strzalkowski, Mei Si, Albert Chang, Deepanshu Dey, Jonas Braasch, Dakuo Wang",,dialogue,"Recent advances in large-scale language modeling and generation have enabled
+the creation of dialogue agents that exhibit human-like responses in a wide
+range of conversational scenarios spanning a diverse set of tasks, from general
+chit-chat to focused goal-oriented discourse. While these agents excel at
+generating high-quality responses that are relevant to prior context, they
+suffer from a lack of awareness of the overall direction in which the
+conversation is headed, and the likelihood of task success inherent therein.
+Thus, we propose a framework in which dialogue agents can evaluate the
+progression of a conversation toward or away from desired outcomes, and use
+this signal to inform planning for subsequent responses. Our framework is
+composed of three key elements: (1) the notion of a ""global"" dialogue state
+(GDS) space, (2) a task-specific progression function (PF) computed in terms of
+a conversation's trajectory through this space, and (3) a planning mechanism
+based on dialogue rollouts by which an agent may use progression signals to
+select its next response.",hf,0,2022-05-07
+"Building a Role Specified Open-Domain Dialogue System Leveraging
+  Large-Scale Language Models",2022-04-30 06:23:06+00:00,http://arxiv.org/abs/2205.00176,"Sanghwan Bae, Donghyun Kwak, Sungdong Kim, Donghoon Ham, Soyoung Kang, Sang-Woo Lee, Woomyoung Park",,dialogue,"Recent open-domain dialogue models have brought numerous breakthroughs.
+However, building a chat system is not scalable since it often requires a
+considerable volume of human-human dialogue data, especially when enforcing
+features such as persona, style, or safety. In this work, we study the
+challenge of imposing roles on open-domain dialogue systems, with the goal of
+making the systems maintain consistent roles while conversing naturally with
+humans. To accomplish this, the system must satisfy a role specification that
+includes certain conditions on the stated features as well as a system policy
+on whether or not certain types of utterances are allowed. For this, we propose
+an efficient data collection framework leveraging in-context few-shot learning
+of large-scale language models for building role-satisfying dialogue dataset
+from scratch. We then compare various architectures for open-domain dialogue
+systems in terms of meeting role specifications while maintaining
+conversational abilities. Automatic and human evaluations show that our models
+return few out-of-bounds utterances, keeping competitive performance on general
+metrics. We release a Korean dialogue dataset we built for further research.",hf,0,2022-04-30
+"Meet Your Favorite Character: Open-domain Chatbot Mimicking Fictional
+  Characters with only a Few Utterances",2022-04-22 17:11:17+00:00,http://arxiv.org/abs/2204.10825,"Seungju Han, Beomsu Kim, Jin Yong Yoo, Seokjun Seo, Sangbum Kim, Enkhbayar Erdenee, Buru Chang",,dialogue,"In this paper, we consider mimicking fictional characters as a promising
+direction for building engaging conversation models. To this end, we present a
+new practical task where only a few utterances of each fictional character are
+available to generate responses mimicking them. Furthermore, we propose a new
+method named Pseudo Dialog Prompting (PDP) that generates responses by
+leveraging the power of large-scale language models with prompts containing the
+target character's utterances. To better reflect the style of the character,
+PDP builds the prompts in the form of dialog that includes the character's
+utterances as dialog history. Since only utterances of the characters are
+available in the proposed task, PDP matches each utterance with an appropriate
+pseudo-context from a predefined set of context candidates using a retrieval
+model. Through human and automatic evaluation, we show that PDP generates
+responses that better reflect the style of fictional characters than baseline
+methods.",hf,1,2022-04-22
+Multimodal Dialogue Response Generation,2021-10-16 08:52:26+00:00,http://arxiv.org/abs/2110.08515,"Qingfeng Sun, Yujing Wang, Can Xu, Kai Zheng, Yaming Yang, Huang Hu, Fei Xu, Jessica Zhang, Xiubo Geng, Daxin Jiang",,dialogue,"Responsing with image has been recognized as an important capability for an
+intelligent conversational agent. Yet existing works only focus on exploring
+the multimodal dialogue models which depend on retrieval-based methods, but
+neglecting generation methods. To fill in the gaps, we first present a
+multimodal dialogue generation model, which takes the dialogue history as
+input, then generates a textual sequence or an image as response. Learning such
+a model often requires multimodal dialogues containing both texts and images
+which are difficult to obtain. Motivated by the challenge in practice, we
+consider multimodal dialogue generation under a natural assumption that only
+limited training examples are available. In such a low-resource setting, we
+devise a novel conversational agent, Divter, in order to isolate parameters
+that depend on multimodal dialogues from the entire generation model. By this
+means, the major part of the model can be learned from a large number of
+text-only dialogues and text-image pairs respectively, then the whole
+parameters can be well fitted using the limited training examples. Extensive
+experiments demonstrate our method achieves state-of-the-art results in both
+automatic and human evaluation, and can generate informative text and
+high-resolution image responses.",hf,0,2021-10-16
+"CharacterChat: Supporting the Creation of Fictional Characters through
+  Conversation and Progressive Manifestation with a Chatbot",2021-06-23 11:22:27+00:00,http://arxiv.org/abs/2106.12314,"Oliver Schmitt, Daniel Buschek",,dialogue,"We present CharacterChat, a concept and chatbot to support writers in
+creating fictional characters. Concretely, writers progressively turn the bot
+into their imagined character through conversation. We iteratively developed
+CharacterChat in a user-centred approach, starting with a survey on character
+creation with writers (N=30), followed by two qualitative user studies (N=7 and
+N=8). Our prototype combines two modes: (1) Guided prompts help writers define
+character attributes (e.g. User: ""Your name is Jane.""), including suggestions
+for attributes (e.g. Bot: ""What is my main motivation?"") and values, realised
+as a rule-based system with a concept network. (2) Open conversation with the
+chatbot helps writers explore their character and get inspiration, realised
+with a language model that takes into account the defined character attributes.
+Our user studies reveal benefits particularly for early stages of character
+creation, and challenges due to limited conversational capabilities. We
+conclude with lessons learned and ideas for future work.",hf,0,2021-06-23
+"Recent Advances in Deep Learning Based Dialogue Systems: A Systematic
+  Survey",2021-05-10 14:07:49+00:00,http://arxiv.org/abs/2105.04387,"Jinjie Ni, Tom Young, Vlad Pandelea, Fuzhao Xue, Erik Cambria",,dialogue,"Dialogue systems are a popular natural language processing (NLP) task as it
+is promising in real-life applications. It is also a complicated task since
+many NLP tasks deserving study are involved. As a result, a multitude of novel
+works on this task are carried out, and most of them are deep learning based
+due to the outstanding performance. In this survey, we mainly focus on the deep
+learning based dialogue systems. We comprehensively review state-of-the-art
+research outcomes in dialogue systems and analyze them from two angles: model
+type and system type. Specifically, from the angle of model type, we discuss
+the principles, characteristics, and applications of different models that are
+widely used in dialogue systems. This will help researchers acquaint these
+models and see how they are applied in state-of-the-art frameworks, which is
+rather helpful when designing a new dialogue system. From the angle of system
+type, we discuss task-oriented and open-domain dialogue systems as two streams
+of research, providing insight into the hot topics related. Furthermore, we
+comprehensively review the evaluation methods and datasets for dialogue systems
+to pave the way for future research. Finally, some possible research trends are
+identified based on the recent research outcomes. To the best of our knowledge,
+this survey is the most comprehensive and up-to-date one at present for deep
+learning based dialogue systems, extensively covering the popular techniques.
+We speculate that this work is a good starting point for academics who are new
+to the dialogue systems or those who want to quickly grasp up-to-date
+techniques in this area.",hf,0,2021-05-10
+"Like hiking? You probably enjoy nature: Persona-grounded Dialog with
+  Commonsense Expansions",2020-10-07 06:25:39+00:00,http://arxiv.org/abs/2010.03205,"Bodhisattwa Prasad Majumder, Harsh Jhamtani, Taylor Berg-Kirkpatrick, Julian McAuley",,dialogue,"Existing persona-grounded dialog models often fail to capture simple
+implications of given persona descriptions, something which humans are able to
+do seamlessly. For example, state-of-the-art models cannot infer that interest
+in hiking might imply love for nature or longing for a break. In this paper, we
+propose to expand available persona sentences using existing commonsense
+knowledge bases and paraphrasing resources to imbue dialog models with access
+to an expanded and richer set of persona descriptions. Additionally, we
+introduce fine-grained grounding on personas by encouraging the model to make a
+discrete choice among persona sentences while synthesizing a dialog response.
+Since such a choice is not observed in the data, we model it using a discrete
+latent random variable and use variational learning to sample from hundreds of
+persona expansions. Our model outperforms competitive baselines on the
+PersonaChat dataset in terms of dialog quality and diversity while achieving
+persona-consistent and controllable dialog generation.",hf,0,2020-10-07
+A Large-Scale Chinese Short-Text Conversation Dataset,2020-08-10 08:12:49+00:00,http://arxiv.org/abs/2008.03946,"Yida Wang, Pei Ke, Yinhe Zheng, Kaili Huang, Yong Jiang, Xiaoyan Zhu, Minlie Huang",,dialogue,"The advancements of neural dialogue generation models show promising results
+on modeling short-text conversations. However, training such models usually
+needs a large-scale high-quality dialogue corpus, which is hard to access. In
+this paper, we present a large-scale cleaned Chinese conversation dataset,
+LCCC, which contains a base version (6.8million dialogues) and a large version
+(12.0 million dialogues). The quality of our dataset is ensured by a rigorous
+data cleaning pipeline, which is built based on a set of rules and a classifier
+that is trained on manually annotated 110K dialogue pairs. We also release
+pre-training dialogue models which are trained on LCCC-base and LCCC-large
+respectively. The cleaned dataset and the pre-training models will facilitate
+the research of short-text conversation modeling. All the models and datasets
+are available at https://github.com/thu-coai/CDial-GPT.",hf,0,2020-08-10
+Recipes for building an open-domain chatbot,2020-04-28 16:33:25+00:00,http://arxiv.org/abs/2004.13637,"Stephen Roller, Emily Dinan, Naman Goyal, Da Ju, Mary Williamson, Yinhan Liu, Jing Xu, Myle Ott, Kurt Shuster, Eric M. Smith, Y-Lan Boureau, Jason Weston",,dialogue,"Building open-domain chatbots is a challenging area for machine learning
+research. While prior work has shown that scaling neural models in the number
+of parameters and the size of the data they are trained on gives improved
+results, we show that other ingredients are important for a high-performing
+chatbot. Good conversation requires a number of skills that an expert
+conversationalist blends in a seamless way: providing engaging talking points
+and listening to their partners, and displaying knowledge, empathy and
+personality appropriately, while maintaining a consistent persona. We show that
+large scale models can learn these skills when given appropriate training data
+and choice of generation strategy. We build variants of these recipes with 90M,
+2.7B and 9.4B parameter models, and make our models and code publicly
+available. Human evaluations show our best models are superior to existing
+approaches in multi-turn dialogue in terms of engagingness and humanness
+measurements. We then discuss the limitations of this work by analyzing failure
+cases of our models.",hf,1,2020-04-28
+"A Pre-training Based Personalized Dialogue Generation Model with
+  Persona-sparse Data",2019-11-12 07:13:42+00:00,http://arxiv.org/abs/1911.04700,"Yinhe Zheng, Rongsheng Zhang, Xiaoxi Mao, Minlie Huang",,dialogue,"Endowing dialogue systems with personas is essential to deliver more
+human-like conversations. However, this problem is still far from well explored
+due to the difficulties of both embodying personalities in natural languages
+and the persona sparsity issue observed in most dialogue corpora. This paper
+proposes a pre-training based personalized dialogue model that can generate
+coherent responses using persona-sparse dialogue data. In this method, a
+pre-trained language model is used to initialize an encoder and decoder, and
+personal attribute embeddings are devised to model richer dialogue contexts by
+encoding speakers' personas together with dialogue histories. Further, to
+incorporate the target persona in the decoding process and to balance its
+contribution, an attention routing structure is devised in the decoder to merge
+features extracted from the target persona and dialogue contexts using
+dynamically predicted weights. Our model can utilize persona-sparse dialogues
+in a unified manner during the training process, and can also control the
+amount of persona-related features to exhibit during the inference process.
+Both automatic and manual evaluation demonstrates that the proposed model
+outperforms state-of-the-art methods for generating more coherent and persona
+consistent responses with persona-sparse data.",hf,0,2019-11-12
+"DialoGPT: Large-Scale Generative Pre-training for Conversational
+  Response Generation",2019-11-01 18:16:54+00:00,http://arxiv.org/abs/1911.00536,"Yizhe Zhang, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu, Bill Dolan",,dialogue,"We present a large, tunable neural conversational response generation model,
+DialoGPT (dialogue generative pre-trained transformer). Trained on 147M
+conversation-like exchanges extracted from Reddit comment chains over a period
+spanning from 2005 through 2017, DialoGPT extends the Hugging Face PyTorch
+transformer to attain a performance close to human both in terms of automatic
+and human evaluation in single-turn dialogue settings. We show that
+conversational systems that leverage DialoGPT generate more relevant,
+contentful and context-consistent responses than strong baseline systems. The
+pre-trained model and training pipeline are publicly released to facilitate
+research into neural response generation and the development of more
+intelligent open-domain dialogue systems.",hf,2,2019-11-01
+ALOHA: Artificial Learning of Human Attributes for Dialogue Agents,2019-10-18 07:52:01+00:00,http://arxiv.org/abs/1910.08293,"Aaron W. Li, Veronica Jiang, Steven Y. Feng, Julia Sprague, Wei Zhou, Jesse Hoey",,dialogue,"For conversational AI and virtual assistants to communicate with humans in a
+realistic way, they must exhibit human characteristics such as expression of
+emotion and personality. Current attempts toward constructing human-like
+dialogue agents have presented significant difficulties. We propose Human Level
+Attributes (HLAs) based on tropes as the basis of a method for learning
+dialogue agents that can imitate the personalities of fictional characters.
+Tropes are characteristics of fictional personalities that are observed
+recurrently and determined by viewers' impressions. By combining detailed HLA
+data with dialogue data for specific characters, we present a dataset,
+HLA-Chat, that models character profiles and gives dialogue agents the ability
+to learn characters' language styles through their HLAs. We then introduce a
+three-component system, ALOHA (which stands for Artificial Learning of Human
+Attributes), that combines character space mapping, character community
+detection, and language style retrieval to build a character (or personality)
+specific language model. Our preliminary experiments demonstrate that two
+variations of ALOHA, combined with our proposed dataset, can outperform
+baseline models at identifying the correct dialogue responses of chosen target
+characters, and are stable regardless of the character's identity, the genre of
+the show, and the context of the dialogue.",hf,0,2019-10-18
+"PLATO: Pre-trained Dialogue Generation Model with Discrete Latent
+  Variable",2019-10-17 14:09:42+00:00,http://arxiv.org/abs/1910.07931,"Siqi Bao, Huang He, Fan Wang, Hua Wu, Haifeng Wang",,dialogue,"Pre-training models have been proved effective for a wide range of natural
+language processing tasks. Inspired by this, we propose a novel dialogue
+generation pre-training framework to support various kinds of conversations,
+including chit-chat, knowledge grounded dialogues, and conversational question
+answering. In this framework, we adopt flexible attention mechanisms to fully
+leverage the bi-directional context and the uni-directional characteristic of
+language generation. We also introduce discrete latent variables to tackle the
+inherent one-to-many mapping problem in response generation. Two reciprocal
+tasks of response generation and latent act recognition are designed and
+carried out simultaneously within a shared network. Comprehensive experiments
+on three publicly available datasets verify the effectiveness and superiority
+of the proposed framework.",hf,0,2019-10-17
+Towards Deep Conversational Recommendations,2018-12-18 19:34:32+00:00,http://arxiv.org/abs/1812.07617,"Raymond Li, Samira Kahou, Hannes Schulz, Vincent Michalski, Laurent Charlin, Chris Pal",,dialogue,"There has been growing interest in using neural networks and deep learning
+techniques to create dialogue systems. Conversational recommendation is an
+interesting setting for the scientific exploration of dialogue with natural
+language as the associated discourse involves goal-driven dialogue that often
+transforms naturally into more free-form chat. This paper provides two
+contributions. First, until now there has been no publicly available
+large-scale dataset consisting of real-world dialogues centered around
+recommendations. To address this issue and to facilitate our exploration here,
+we have collected ReDial, a dataset consisting of over 10,000 conversations
+centered around the theme of providing movie recommendations. We make this data
+available to the community for further research. Second, we use this dataset to
+explore multiple facets of conversational recommendations. In particular we
+explore new neural architectures, mechanisms, and methods suitable for
+composing conversational recommendation systems. Our dataset allows us to
+systematically probe model sub-components addressing different parts of the
+overall problem domain ranging from: sentiment analysis and cold-start
+recommendation generation to detailed aspects of how natural language is used
+in this setting in the real world. We combine such sub-components into a
+full-blown dialogue system and examine its behavior.",hf,0,2018-12-18

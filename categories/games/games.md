@@ -9,15 +9,26 @@ sidebar:
 
 **[\*]** = found in both arXiv and HF search &nbsp; **[HF]** = found via HF semantic search
 
-*written on 2026-03-28*
+*written on 2026-06-06*
 
 | title | authors | categories | displaydate | upvotes |
 | ----- | ----- | ----- | ----- | ----- |
+| [Improving Collaborative Storytelling with a Multi-Agent Framework Based on Large Language Models](http://arxiv.org/abs/2605.29625v1) | Arturo Valdivia, Paolo Burelli | cs.AI | 2026-05-28 |  |
+| [Review Arcade: On the Human Alignment and Gameability of LLM Reviews](http://arxiv.org/abs/2605.28897v1) | Hans Ole Hatzel, Sebastian Steindl, Jan Strich | cs.AI, cs.MA | 2026-05-27 |  |
+| [Truthful Online Preference Aggregation for LLM Fine-Tuning in Mobile Crowdsourcing](http://arxiv.org/abs/2605.24052v1) | Shugang Hao, Lingjie Duan | cs.LG, cs.AI | 2026-05-22 |  |
+| [Interactive Critique-Revision Training for Reliable Structured LLM Generation](http://arxiv.org/abs/2605.08327v1) | Fei Xu Yu, Zuyuan Zhang, Mahdi Imani, Nathaniel D. Bastian, Tian Lan | cs.LG, cs.AI | 2026-05-08 |  |
+| [GameGen-Verifier: Parallel Keypoint-Based Verification for LLM-Generated Games via Runtime State Injection](http://arxiv.org/abs/2605.07442v1) | Chaobo Jia, Ruipeng Wan, Ting Sun, Weihao Tan, Borui Wan, Yuxuan Tong, Guangming Sheng, Hong Xu | cs.LG | 2026-05-08 |  |
+| [Tree-of-Text: A Tree-based Prompting Framework for Table-to-Text Generation in the Sports Domain](http://arxiv.org/abs/2604.26501v1) | Shang-Hsuan Chiang, Tsan-Tsung Yang, An-Zi Yen, Wen-Chih Peng | cs.CL, cs.AI, cs.HC | 2026-04-29 |  |
+| [Less Is More: Engineering Challenges of On-Device Small Language Model Integration in a Mobile Application](http://arxiv.org/abs/2604.24636v2) | William Oliveira | cs.SE, cs.AI, cs.CL | 2026-04-27 |  |
+| [Building a Precise Video Language with Human-AI Oversight](http://arxiv.org/abs/2604.21718v2) | Zhiqiu Lin, Chancharik Mitra, Siyuan Cen, Isaac Li, Yuhan Huang, Yu Tong Tiffany Ling, Hewei Wang, Irene Pi, Shihang Zhu, Ryan Rao, George Liu, Jiaxi Li, Ruojin Li, Yili Han, Yilun Du, Deva Ramanan | cs.CV, cs.AI, cs.CL, cs.LG, cs.MM | 2026-04-22 |  |
+| [Heuristic Classification of Thoughts Prompting (HCoT): Integrating Expert System Heuristics for Structured Reasoning into Large Language Models](http://arxiv.org/abs/2604.12390v3) | Lei Lin, Jizhao Zhu, Yong Liu, Donghong Sun, Hongbo He, Yihua Du | cs.AI | 2026-04-14 |  |
+| [Vocabulary Dropout for Curriculum Diversity in LLM Co-Evolution](http://arxiv.org/abs/2604.03472v2) | Jacob Dineen, Aswin RRV, Zhikun Xu, Ben Zhou | cs.CL, cs.AI | 2026-04-03 |  |
 | [Reasoning Topology Matters: Network-of-Thought for Complex Reasoning Tasks](http://arxiv.org/abs/2603.20730v1) | Fan Huang | cs.CL, cs.AI | 2026-03-21 |  |
 | [GameUIAgent: An LLM-Powered Framework for Automated Game UI Design with Structured Intermediate Representation](http://arxiv.org/abs/2603.14724v1) | Wei Zeng, Fengwei An, Zhen Liu, Jian Zhao | cs.AI | 2026-03-16 |  |
 | [Memory for Autonomous LLM Agents:Mechanisms, Evaluation, and Emerging Frontiers](http://arxiv.org/abs/2603.07670v1) | Pengfei Du | cs.AI | 2026-03-08 |  |
 | [Measuring What VLMs Don't Say: Validation Metrics Hide Clinical Terminology Erasure in Radiology Report Generation](http://arxiv.org/abs/2603.01625v1) | Aditya Parikh, Aasa Feragen, Sneha Das, Stella Frank | cs.CL, cs.AI | 2026-03-02 |  |
 | [AREG: Adversarial Resource Extraction Game for Evaluating Persuasion and Resistance in Large Language Models](http://arxiv.org/abs/2602.16639v1) | Adib Sakhawat, Fardeen Sadab | cs.CL | 2026-02-18 |  |
+| [Haiku to Opus in Just 10 bits: LLMs Unlock Massive Compression Gains](http://arxiv.org/abs/2604.02343v1) | Roy Rinberg, Annabelle Michael Carrell, Simon Henniger, Nicholas Carlini, Keri Warr | cs.LG, cs.AI, cs.IT | 2026-02-09 |  |
 | [Generative Ontology: When Structured Knowledge Learns to Create](http://arxiv.org/abs/2602.05636v2) | Benny Cheung | cs.AI, cs.CL | 2026-02-05 |  |
 | [SimpleTool: Parallel Decoding for Real-Time LLM Function Calling](http://arxiv.org/abs/2603.00030v1) | Xiaoxin Shi, Jiaxin Wan, Linkang Dong, Wei Jiang, Yue Liu, Zengfeng Huang | cs.CL | 2026-02-04 |  |
 | [ProxyWar: Dynamic Assessment of LLM Code Generation in Game Arenas](http://arxiv.org/abs/2602.04296v1) | Wenjun Peng, Xinyu Wang, Qi Wu | cs.SE, cs.AI | 2026-02-04 |  |
@@ -32,8 +43,9 @@ sidebar:
 | [RLAC: Reinforcement Learning with Adversarial Critic for Free-Form Generation Tasks](http://arxiv.org/abs/2511.01758v1) | Mian Wu, Gavin Zhang, Sewon Min, Sergey Levine, Aviral Kumar | cs.LG, cs.AI, cs.CL | 2025-11-03 |  |
 | [CATArena: Evaluation of LLM Agents through Iterative Tournament Competitions](http://arxiv.org/abs/2510.26852v1) | Lingyue Fu, Xin Ding, Yaoming Zhu, Shao Zhang, Lin Qiu, Weiwen Liu, Weinan Zhang, Xuezhi Cao, Xunliang Cai, Jiaxin Ding, Yong Yu | cs.AI, cs.CL | 2025-10-30 |  |
 | [Input Matters: Evaluating Input Structure's Impact on LLM Summaries of Sports Play-by-Play](http://arxiv.org/abs/2510.21034v2) | Barkavi Sundararajan, Somayajulu Sripada, Ehud Reiter | cs.CL | 2025-10-23 |  |
-| [Loopholing Discrete Diffusion: Deterministic Bypass of the Sampling Wall](http://arxiv.org/abs/2510.19304v2) | Mingyu Jo, Jaesik Yoon, Justin Deschenaux, Caglar Gulcehre, Sungjin Ahn | cs.LG | 2025-10-22 |  |
 | [Loopholing Discrete Diffusion: Deterministic Bypass of the Sampling Wall](http://arxiv.org/abs/2510.19304v1) | Mingyu Jo, Jaesik Yoon, Justin Deschenaux, Caglar Gulcehre, Sungjin Ahn | cs.LG | 2025-10-22 |  |
+| [Loopholing Discrete Diffusion: Deterministic Bypass of the Sampling Wall](http://arxiv.org/abs/2510.19304v2) | Mingyu Jo, Jaesik Yoon, Justin Deschenaux, Caglar Gulcehre, Sungjin Ahn | cs.LG | 2025-10-22 |  |
+| [Loopholing Discrete Diffusion: Deterministic Bypass of the Sampling Wall](http://arxiv.org/abs/2510.19304v3) | Mingyu Jo, Jaesik Yoon, Justin Deschenaux, Caglar Gulcehre, Sungjin Ahn | cs.LG | 2025-10-22 |  |
 | **[HF]** [Deflanderization for Game Dialogue: Balancing Character Authenticity  with Task Execution in LLM-based NPCs](http://arxiv.org/abs/2510.13586) | Pasin Buakhaw, Kun Kerdthaisong, Phuree Phenhiran, Pitikorn Khlaisamniang, Supasate Vorathammathorn, Piyalitt Ittichaiwong, Nutchanon Yongsatianchot |  | 2025-10-15 | 1 |
 | [ROBOPSY PL[AI]: Using Role-Play to Investigate how LLMs Present Collective Memory](http://arxiv.org/abs/2510.09874v1) | Margarete Jahrmann, Thomas Brandstetter, Stefan Glasauer | cs.HC, cs.AI, cs.CY | 2025-10-10 |  |
 | [GenQuest: An LLM-based Text Adventure Game for Language Learners](http://arxiv.org/abs/2510.04498v1) | Qiao Wang, Adnan Labib, Robert Swier, Michael Hofmeyr, Zheng Yuan | cs.CL, cs.AI | 2025-10-06 |  |
@@ -82,8 +94,8 @@ sidebar:
 | **[HF]** [MCPDial: A Minecraft Persona-driven Dialogue Dataset](http://arxiv.org/abs/2410.21627) | Seyed Hossein Alavi, Sudha Rao, Ashutosh Adhikari, Gabriel A DesGarennes, Akanksha Malhotra, Chris Brockett, Mahmoud Adada, Raymond T. Ng, Vered Shwartz, Bill Dolan |  | 2024-10-29 |  |
 | **[HF]** [Unbounded: A Generative Infinite Game of Character Life Simulation](http://arxiv.org/abs/2410.18975) | Jialu Li, Yuanzhen Li, Neal Wadhwa, Yael Pritch, David E. Jacobs, Michael Rubinstein, Mohit Bansal, Nataniel Ruiz |  | 2024-10-24 | 37 |
 | [Multilingual Controlled Generation And Gold-Standard-Agnostic Evaluation  of Code-Mixed Sentences](http://arxiv.org/abs/2410.10580v1) | Ayushman Gupta, Akhil Bhogal, Kripabandhu Ghosh | cs.CL, cs.AI | 2024-10-14 |  |
-| [Decoding Game: On Minimax Optimality of Heuristic Text Generation  Strategies](http://arxiv.org/abs/2410.03968v1) | Sijin Chen, Omar Hagrass, Jason M. Klusowski | cs.LG, cs.AI, cs.GT, math.OC | 2024-10-04 |  |
 | [Decoding Game: On Minimax Optimality of Heuristic Text Generation Strategies](http://arxiv.org/abs/2410.03968v3) | Sijin Chen, Omar Hagrass, Jason M. Klusowski | cs.LG, cs.AI, cs.GT, math.OC | 2024-10-04 |  |
+| [Decoding Game: On Minimax Optimality of Heuristic Text Generation  Strategies](http://arxiv.org/abs/2410.03968v1) | Sijin Chen, Omar Hagrass, Jason M. Klusowski | cs.LG, cs.AI, cs.GT, math.OC | 2024-10-04 |  |
 | **[HF]** [A Character-Centric Creative Story Generation via Imagination](http://arxiv.org/abs/2409.16667) | Kyeongman Park, Minbeom Kim, Kyomin Jung |  | 2024-09-25 |  |
 | [SimulBench: Evaluating Language Models with Creative Simulation Tasks](http://arxiv.org/abs/2409.07641v1) | Qi Jia, Xiang Yue, Tianyu Zheng, Jie Huang, Bill Yuchen Lin | cs.CL | 2024-09-11 |  |
 | **[HF]** [You Have Thirteen Hours in Which to Solve the Labyrinth: Enhancing AI  Game Masters with Function Calling](http://arxiv.org/abs/2409.06949) | Jaewoo Song, Andrew Zhu, Chris Callison-Burch |  | 2024-09-11 | 1 |
@@ -121,8 +133,8 @@ sidebar:
 | [Joint Level Generation and Translation Using Gameplay Videos](http://arxiv.org/abs/2306.16662v1) | Negar Mirgati, Matthew Guzdial | cs.CV, cs.LG | 2023-06-29 |  |
 | [ByteSized32: A Corpus and Challenge Task for Generating Task-Specific  World Models Expressed as Text Games](http://arxiv.org/abs/2305.14879v1) | Ruoyao Wang, Graham Todd, Eric Yuan, Ziang Xiao, Marc-Alexandre Côté, Peter Jansen | cs.CL, cs.AI | 2023-05-24 |  |
 | **[HF]** [RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text](http://arxiv.org/abs/2305.13304) | Wangchunshu Zhou, Yuchen Eleanor Jiang, Peng Cui, Tiannan Wang, Zhenxin Xiao, Yifan Hou, Ryan Cotterell, Mrinmaya Sachan |  | 2023-05-22 | 2 |
-| [FIREBALL: A Dataset of Dungeons and Dragons Actual-Play with Structured  Game State Information](http://arxiv.org/abs/2305.01528v1) | Andrew Zhu, Karmanya Aggarwal, Alexander Feng, Lara J. Martin, Chris Callison-Burch | cs.CL, cs.AI | 2023-05-02 |  |
 | **[HF]** [FIREBALL: A Dataset of Dungeons and Dragons Actual-Play with Structured  Game State Information](http://arxiv.org/abs/2305.01528) | Andrew Zhu, Karmanya Aggarwal, Alexander Feng, Lara J. Martin, Chris Callison-Burch |  | 2023-05-02 |  |
+| [FIREBALL: A Dataset of Dungeons and Dragons Actual-Play with Structured  Game State Information](http://arxiv.org/abs/2305.01528v1) | Andrew Zhu, Karmanya Aggarwal, Alexander Feng, Lara J. Martin, Chris Callison-Burch | cs.CL, cs.AI | 2023-05-02 |  |
 | **[HF]** [ChatGPT4PCG Competition: Character-like Level Generation for Science  Birds](http://arxiv.org/abs/2303.15662) | Pittawat Taveekitworachai, Febri Abdullah, Mury F. Dewantoro, Ruck Thawonmas, Julian Togelius, Jochen Renz |  | 2023-03-28 |  |
 | [On pitfalls (and advantages) of sophisticated large language models](http://arxiv.org/abs/2303.17511v1) | Anna Strasser | cs.CY, cs.AI, cs.CL | 2023-02-25 |  |
 | **[HF]** [MarioGPT: Open-Ended Text2Level Generation through Large Language Models](http://arxiv.org/abs/2302.05981) | Shyam Sudhakaran, Miguel González-Duque, Claire Glanois, Matthias Freiberger, Elias Najarro, Sebastian Risi |  | 2023-02-12 |  |
@@ -166,6 +178,7 @@ sidebar:
 | **[HF]** [Interactive Fiction Games: A Colossal Adventure](http://arxiv.org/abs/1909.05398) | Matthew Hausknecht, Prithviraj Ammanabrolu, Marc-Alexandre Côté, Xingdi Yuan |  | 2019-09-11 |  |
 | [Table-to-Text Generation with Effective Hierarchical Encoder on Three  Dimensions (Row, Column and Time)](http://arxiv.org/abs/1909.02304v1) | Heng Gong, Xiaocheng Feng, Bing Qin, Ting Liu | cs.CL | 2019-09-05 |  |
 | [Generating Question-Answer Hierarchies](http://arxiv.org/abs/1906.02622v2) | Kalpesh Krishna, Mohit Iyyer | cs.CL | 2019-06-06 |  |
+| **[HF]** [Pragmatically Informative Text Generation](http://arxiv.org/abs/1904.01301) | Sheng Shen, Daniel Fried, Jacob Andreas, Dan Klein |  | 2019-04-04 |  |
 | [Pragmatically Informative Text Generation](http://arxiv.org/abs/1904.01301v2) | Sheng Shen, Daniel Fried, Jacob Andreas, Dan Klein | cs.CL | 2019-04-02 |  |
 | **[HF]** [Shaping the Narrative Arc: An Information-Theoretic Approach to  Collaborative Dialogue](http://arxiv.org/abs/1901.11528) | Kory, Pablo Samuel Castro, Colin Cherry, George Foster, Marc G. Bellemare |  | 2019-01-31 |  |
 | [Automating Direct Speech Variations in Stories and Games](http://arxiv.org/abs/1708.09090v1) | Stephanie M. Lukin, James O. Ryan, Marilyn A. Walker | cs.CL | 2017-08-30 |  |
