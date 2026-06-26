@@ -9,11 +9,25 @@ sidebar:
 
 **[\*]** = found in both arXiv and HF search &nbsp; **[HF]** = found via HF semantic search
 
-*written on 2026-06-06*
+*written on 2026-06-26*
 
 | title | authors | categories | displaydate | upvotes |
 | ----- | ----- | ----- | ----- | ----- |
+| [Where Do Models Find Happiness? Emotion Vectors in Open-Source LLMs](http://arxiv.org/abs/2606.26987v1) | Sinie van der Ben, Raphaël Baur, Yannick Metz, Mennatallah El-Assady | cs.CL, cs.AI | 2026-06-25 |  |
+| [Hitting a Moving Target: Test-Time Adaptation for AI Text Detection under Continual Distribution Shift](http://arxiv.org/abs/2606.25152v1) | Kevin Ren, Manish Raghavan, Nikhil Garg | cs.CL, cs.AI | 2026-06-23 |  |
+| [Do Language Models Pass the Bechdel Test? Auditing Gender Biases in LLM-Generated Screenplays](http://arxiv.org/abs/2606.24022v1) | Megha N. Govindu, Stephanie T. Wang, Sorelle A. Friedler, Danaé Metaxa | cs.HC, cs.SI | 2026-06-23 |  |
+| **[HF]** [AI Fiction in the Wild](http://arxiv.org/abs/2606.22748) | Neel Gupta, Maria Antoniak, Melanie Walsh |  | 2026-06-22 |  |
+| [CASPER in the Machine: Insights into Character Variety in LLM-Generated Stories](http://arxiv.org/abs/2606.22454v1) | Anneliese Brei, Abhisheik Sharma, Nicholas Sanaie, Lu Wang, Snigdha Chaturvedi | cs.CL, cs.AI | 2026-06-21 |  |
+| **[HF]** [Characterizing Narrative Content in Web-scale LLM Pretraining Data](http://arxiv.org/abs/2606.19468) | Teagan Johnson, Elliott Ash, Andrew Piper, Maria Antoniak |  | 2026-06-17 | 3 |
+| [Do Large Language Models Always Tell The Same Stories?](http://arxiv.org/abs/2606.17350v1) | Thennal DK, Hans Ole Hatzel | cs.CL, cs.AI | 2026-06-15 |  |
+| [GraphStory: Collaborative Story Writing through Event-Based Narrative Editing](http://arxiv.org/abs/2606.16102v1) | Xuan-Vu Le, Minh-Loi Nguyen, Khanh-Duy Le, Minh-Triet Tran, Trung-Nghia Le | cs.HC | 2026-06-15 |  |
+| [Characterizing Cultural Localization in AI-Generated Stories](http://arxiv.org/abs/2606.14626v1) | Shaily Bhatt, Supriti Vijay, Jeremiah Milbauer, Fernando Diaz | cs.CL | 2026-06-12 |  |
+| [IVIE: A Neuro-symbolic Approach to Incremental and Validated Generation of Interactive Fiction Worlds](http://arxiv.org/abs/2606.13348v1) | Micaela Vaucher, Santiago Silveira, Santiago Góngora, Luis Chiruzzo | cs.CL, cs.AI | 2026-06-11 |  |
+| [Constrained Semantic Decompression in LLMs through Persian Proverb-Conditioned Story Generation](http://arxiv.org/abs/2606.12599v1) | Zahra Habibzadeh, Paria Khoshtab, Amir Mesbah, Yadollah Yaghoobzadeh | cs.CL | 2026-06-10 |  |
+| [The Dynamics of Human and AI-Generated Language: How Semantics Fluctuates across Different Timescales](http://arxiv.org/abs/2606.11371v1) | Han-Jen Chang, Yasir Çatal, Angelika Wolman, Agustín Ibáñez, David Smith, I-Wen Su, Kai-Yuan Cheng, Georg Northoff | cs.CL, cs.AI, eess.AS, eess.SP | 2026-06-09 |  |
+| [Neutrality Bites: Gender Representation in AI-Generated Animal Stories](http://arxiv.org/abs/2606.07969v1) | Imani Finkley, Yuanxi Li, Melanie Walsh | cs.CL, cs.AI | 2026-06-06 |  |
 | [VAMPS: Visual-Assisted Mathematical Problem Solving Benchmark](http://arxiv.org/abs/2606.04244v1) | Amirhossein Dabiriaghdam, Shayan Vassef, Mohammadreza Bakhtiari, Yasamin Medghalchi, Ilker Hacihaliloglu, Mesrob Ohannessian, Lele Wang, Giuseppe Carenini | cs.AI, cs.CL, cs.CV, cs.LG | 2026-06-02 |  |
+| [Agentic Large Language Models for Automated Structural Analysis of 3D Frame Systems](http://arxiv.org/abs/2606.06525v2) | Ziheng Geng, Ian Franklin, Santiago Martinez, Jiachen Liu, Yunhe Zhao, Minghui Cheng | cs.GR, cs.AI | 2026-06-02 |  |
 | [POLARIS: Guiding Small Models to Write Long Stories](http://arxiv.org/abs/2606.04095v1) | Rishanth Rajendhran, Jenna Russell, Mohit Iyyer, John Frederick Wieting | cs.CL, cs.AI | 2026-06-02 |  |
 | [AI as a Tool for Simulation-Based Experiments in Literary Studies](http://arxiv.org/abs/2606.02293v1) | Matthew Wilkens | cs.CL | 2026-06-01 |  |
 | [Speculative Decoding Across Languages](http://arxiv.org/abs/2605.30580v1) | Nirajan Paudel, Michael Ginn, Luc De Nardi, Alexis Palmer | cs.CL, cs.LG | 2026-05-28 |  |
@@ -25,6 +39,7 @@ sidebar:
 | [DTO: a Differentiable Training Objective for Effective Counterfactual Story Rewriting](http://arxiv.org/abs/2605.24885v1) | Amelia Girard, Massimo Piccardi | cs.CL | 2026-05-24 |  |
 | [Human Decision-Making with Persuasive and Narrative LLM Explanations](http://arxiv.org/abs/2605.23867v1) | Laura R. Marusich, Mary Grace Kozuch Dhooghe, Jonathan Z. Bakdash, Murat Kantarcioglu | cs.HC, cs.AI | 2026-05-22 |  |
 | [Findings of the Counter Turing Test: AI-Generated Text Detection](http://arxiv.org/abs/2605.20761v2) | Rajarshi Roy, Gurpreet Singh, Ashhar Aziz, Shashwat Bajpai, Nasrin Imanpour, Shwetangshu Biswas, Kapil Wanaskar, Parth Patwa, Subhankar Ghosh, Shreyas Dixit, Nilesh Ranjan Pal, Vipula Rawte, Ritvik Garimella, Amitava Das, Amit Sheth, Vasu Sharma, Aishwarya Naresh Reganti, Vinija Jain, Aman Chadha | cs.CL | 2026-05-20 |  |
+| [Hybrid Intelligence in Cartoon Captioning: Evaluating AI as a Creative Writing Partner](http://arxiv.org/abs/2606.20595v1) | Uğur Önal, Sanem Sariel, Metin Sezgin, Derya Akleman, Ergun Akleman | cs.HC | 2026-05-18 |  |
 | [Towards Human-Level Book-Writing Capability](http://arxiv.org/abs/2605.17064v1) | Jan Zierstek, Matteo Batelic, Maya Medjad, Tim Schönenberger | cs.AI | 2026-05-16 |  |
 | [Children's English Reading Story Generation via Supervised Fine-Tuning of Compact LLMs with Controllable Difficulty and Safety](http://arxiv.org/abs/2605.13709v1) | Qian Shen, Fanghua Cao, Min Yao, Shlok Gilda, Bonnie J. Dorr, Walter L. Leite | cs.CL, cs.AI, cs.LG | 2026-05-13 |  |
 | [StereoTales: A Multilingual Framework for Open-Ended Stereotype Discovery in LLMs](http://arxiv.org/abs/2605.10442v2) | Pierre Le Jeune, Étienne Duchesne, Weixuan Xiao, Stefano Palminteri, Bazire Houssin, Benoît Malézieux, Matteo Dora | cs.CY, cs.AI, cs.CL | 2026-05-11 |  |
@@ -44,6 +59,7 @@ sidebar:
 | [Contrastive Analysis of Linguistic Representations in Large Language Model Outputs through Structured Synthetic Data Generation and Abstracted N-gram Associations](http://arxiv.org/abs/2604.17398v1) | S. A. Desimone, L. Alonso Alemany | cs.CL | 2026-04-19 |  |
 | [BIASEDTALES-ML: A Multilingual Dataset for Analyzing Narrative Attribute Distributions in LLM-Generated Stories](http://arxiv.org/abs/2604.17008v1) | Yuxuan Ouyang, yingfeng luo, JingBo Zhu, Tong Xiao | cs.CL | 2026-04-18 |  |
 | [SPAGBias: Uncovering and Tracing Structured Spatial Gender Bias in Large Language Models](http://arxiv.org/abs/2604.14672v1) | Binxian Su, Haoye Lou, Shucheng Zhu, Weikang Wang, Ying Liu, Dong Yu, Pengyuan Liu | cs.CL | 2026-04-16 |  |
+| **[HF]** [StoryScope: Investigating idiosyncrasies in AI fiction](http://arxiv.org/abs/2604.03136) | Jenna Russell, Rishanth Rajendhran, Chau Minh Pham, Mohit Iyyer, John Wieting |  | 2026-04-13 | 1 |
 | [Spoiler Alert: Narrative Forecasting as a Metric for Tension in LLM Storytelling](http://arxiv.org/abs/2604.09854v1) | Peiqi Sui, Yutong Zhu, Tianyi Cheng, Peter West, Richard Jean So, Hoyt Long, Ari Holtzman | cs.CL | 2026-04-10 |  |
 | [Lessons Without Borders? Evaluating Cultural Alignment of LLMs Using Multilingual Story Moral Generation](http://arxiv.org/abs/2604.08797v1) | Sophie Wu, Andrew Piper | cs.CL, cs.AI | 2026-04-09 |  |
 | **[\*]** [StoryScope: Investigating idiosyncrasies in AI fiction](http://arxiv.org/abs/2604.03136v4) | Jenna Russell, Rishanth Rajendhran, Chau Minh Pham, Mohit Iyyer, John Wieting | cs.CL | 2026-04-03 |  |
@@ -55,16 +71,17 @@ sidebar:
 | [Internal Knowledge Without External Expression: Probing the Generalization Boundary of a Classical Chinese Language Model](http://arxiv.org/abs/2604.14180v1) | Jiuting Chen, Yuan Lian, Hao Wu, Tianqi Huang, Hiroshi Sasaki, Makoto Kouno, Jongil Choi | cs.CL, cs.AI | 2026-03-31 |  |
 | [ChartDiff: A Large-Scale Benchmark for Comprehending Pairs of Charts](http://arxiv.org/abs/2603.28902v2) | Rongtian Ye | cs.AI | 2026-03-30 |  |
 | **[\*]** [Story2Proposal: A Scaffold for Structured Scientific Paper Writing](http://arxiv.org/abs/2603.27065v1) | Zhuoyang Qian, Wei Shi, Xu Lin, Li Ling, Meng Luo, Ziming Wang, Zhiwei Zhang, Tengyue Xu, Gaoge Liu, Zhentao Zhang, Shuo Zhang, Ziqi Wang, Zheng Feng, Yan Luo, Shu Xu, Yongjin Chen, Zhibo Feng, Zhuo Chen, Bruce Yuan, Biao Wu, Harry Wang, Kris Chen | cs.CL | 2026-03-28 | 22 |
+| **[HF]** [Story2Proposal: A Scaffold for Structured Scientific Paper Writing](http://arxiv.org/abs/2603.27065) | Zhuoyang Qian, Wei Shi, Xu Lin, Li Ling, Meng Luo, Ziming Wang, Zhiwei Zhang, Tengyue Xu, Gaoge Liu, Zhentao Zhang, Shuo Zhang, Ziqi Wang, Zheng Feng, Yan Luo, Shu Xu, Yongjin Chen, Zhibo Feng, Zhuo Chen, Bruce Yuan, Biao Wu, Harry Wang, Kris Chen |  | 2026-03-28 | 22 |
 | [FairLLaVA: Fairness-Aware Parameter-Efficient Fine-Tuning for Large Vision-Language Assistants](http://arxiv.org/abs/2603.26008v1) | Mahesh Bhosale, Abdul Wasi, Shantam Srivastava, Shifa Latif, Tianyu Luan, Mingchen Gao, David Doermann, Xuan Gong | cs.CV, cs.AI | 2026-03-27 |  |
-| [Alignment Reduces Expressed but Not Encoded Gender Bias: A Unified Framework and Study](http://arxiv.org/abs/2603.24125v1) | Nour Bouchouchi, Thiabult Laugel, Xavier Renard, Christophe Marsala, Marie-Jeanne Lesot, Marcin Detyniecki | cs.CL | 2026-03-25 |  |
 | [Alignment Reduces Expressed but Not Encoded Gender Bias: A Unified Framework and Study](http://arxiv.org/abs/2603.24125v2) | Nour Bouchouchi, Thibault Laugel, Xavier Renard, Christophe Marsala, Marie-Jeanne Lesot, Marcin Detyniecki | cs.CL | 2026-03-25 |  |
+| [Alignment Reduces Expressed but Not Encoded Gender Bias: A Unified Framework and Study](http://arxiv.org/abs/2603.24125v1) | Nour Bouchouchi, Thiabult Laugel, Xavier Renard, Christophe Marsala, Marie-Jeanne Lesot, Marcin Detyniecki | cs.CL | 2026-03-25 |  |
 | [An Agentic Approach to Generating XAI-Narratives](http://arxiv.org/abs/2603.20003v1) | Yifan He, David Martens | cs.CL | 2026-03-20 |  |
 | [Directing the Narrative: A Finetuning Method for Controlling Coherence and Style in Story Generation](http://arxiv.org/abs/2603.17295v1) | Jianzhang Zhang, Yijing Tian, Jiwang Qu, Chuang Liu | cs.CV, cs.AI | 2026-03-18 |  |
 | [PlotTwist: A Creative Plot Generation Framework with Small Language Models](http://arxiv.org/abs/2603.16410v1) | Abhinav Thorat, Ravi Kolla, Jyotin Goel, Niranjan Pedanekar | cs.CL, cs.AI | 2026-03-17 |  |
 | [LLM-Driven Discovery of High-Entropy Catalysts via Retrieval-Augmented Generation](http://arxiv.org/abs/2603.15712v1) | AI Scientists, Xinyi Lin, Danqing Yin, Ying Guo | cond-mat.mtrl-sci, cs.AI | 2026-03-16 |  |
 | [Creative Convergence or Imitation? Genre-Specific Homogeneity in LLM-Generated Chinese Literature](http://arxiv.org/abs/2603.14430v1) | Yuanchi Ma, Kaize Shi, Hui He, Zhihua Zhang, Zhongxiang Lei, Ziliang Qiu, Renfen Hu, Jiamou Liu | cs.CL | 2026-03-15 |  |
-| **[HF]** [Lost in Stories: Consistency Bugs in Long Story Generation by LLMs](http://arxiv.org/abs/2603.05890) | Junjie Li, Xinrui Guo, Yuhao Wu, Roy Ka-Wei Lee, Hongzhi Li, Yutao Xie |  | 2026-03-06 | 93 |
 | **[\*]** [Lost in Stories: Consistency Bugs in Long Story Generation by LLMs](http://arxiv.org/abs/2603.05890v1) | Junjie Li, Xinrui Guo, Yuhao Wu, Roy Ka-Wei Lee, Hongzhi Li, Yutao Xie | cs.CL, cs.AI | 2026-03-06 | 91 |
+| **[HF]** [Lost in Stories: Consistency Bugs in Long Story Generation by LLMs](http://arxiv.org/abs/2603.05890) | Junjie Li, Xinrui Guo, Yuhao Wu, Roy Ka-Wei Lee, Hongzhi Li, Yutao Xie |  | 2026-03-06 | 93 |
 | [LLM-Grounded Explainable AI for Supply Chain Risk Early Warning via Temporal Graph Attention Networks](http://arxiv.org/abs/2603.04818v2) | Zhiming Xue, Yujue Wang, Menghao Huo | cs.AI | 2026-03-05 |  |
 | [A Directed Graph Model and Experimental Framework for Design and Study of Time-Dependent Text Visualisation](http://arxiv.org/abs/2603.02422v1) | Songhai Fan, Simon Angus, Tim Dwyer, Ying Yang, Sarah Goodwin, Helen Purchase | cs.HC, cs.AI, cs.CL | 2026-03-02 |  |
 | [Learning from Synthetic Data Improves Multi-hop Reasoning](http://arxiv.org/abs/2603.02091v1) | Anmol Kabra, Yilun Yin, Albert Gong, Kamilė Stankevičiūtė, Dongyoung Go, Johann Lee, Katie Z. Luo, Carla P. Gomes, Kilian Q. Weinberger | cs.LG, cs.AI, cs.CL | 2026-03-02 |  |
@@ -74,13 +91,14 @@ sidebar:
 | [Interactive LLM-assisted Curriculum Learning for Multi-Task Evolutionary Policy Search](http://arxiv.org/abs/2602.10891v1) | Berfin Sakallioglu, Giorgia Nadizar, Eric Medvet | cs.NE, cs.AI | 2026-02-11 |  |
 | [Generative Ontology: When Structured Knowledge Learns to Create](http://arxiv.org/abs/2602.05636v2) | Benny Cheung | cs.AI, cs.CL | 2026-02-05 |  |
 | [Hierarchical Adaptive Eviction for KV Cache Management in Multimodal Language Models](http://arxiv.org/abs/2602.02197v1) | Xindian Ma, Yidi Lu, Peng Zhang, Jing Zhang | cs.LG, cs.AI | 2026-02-02 |  |
-| [PaperBanana: Automating Academic Illustration for AI Scientists](http://arxiv.org/abs/2601.23265v2) | Dawei Zhu, Rui Meng, Yale Song, Xiyu Wei, Sujian Li, Tomas Pfister, Jinsung Yoon | cs.CL, cs.CV | 2026-01-30 |  |
 | [PaperBanana: Automating Academic Illustration for AI Scientists](http://arxiv.org/abs/2601.23265v1) | Dawei Zhu, Rui Meng, Yale Song, Xiyu Wei, Sujian Li, Tomas Pfister, Jinsung Yoon | cs.CL, cs.CV | 2026-01-30 |  |
+| [PaperBanana: Automating Academic Illustration for AI Scientists](http://arxiv.org/abs/2601.23265v2) | Dawei Zhu, Rui Meng, Yale Song, Xiyu Wei, Sujian Li, Tomas Pfister, Jinsung Yoon | cs.CL, cs.CV | 2026-01-30 |  |
 | [Output-Space Search: Targeting LLM Generations in a Frozen Encoder-Defined Output Space](http://arxiv.org/abs/2601.21169v1) | Tobias Materzok | cs.CL, cs.AI | 2026-01-29 |  |
 | [Do LLMs Favor LLMs? Quantifying Interaction Effects in Peer Review](http://arxiv.org/abs/2601.20920v1) | Vibhhu Sharma, Thorsten Joachims, Sarah Dean | cs.AI, cs.CY | 2026-01-28 |  |
 | [LLMs as Cultural Archives: Cultural Commonsense Knowledge Graph Extraction](http://arxiv.org/abs/2601.17971v1) | Junior Cedric Tonga, Chen Cecilia Liu, Iryna Gurevych, Fajri Koto | cs.CL | 2026-01-25 |  |
 | [Narrative Theory-Driven LLM Methods for Automatic Story Generation and Understanding: A Survey](http://arxiv.org/abs/2602.15851v1) | David Y. Liu, Aditya Joshi, Paul Dawson | cs.CL, cs.AI | 2026-01-23 |  |
 | [Retell, Reward, Repeat: Reinforcement Learning for Narrative Theory-Informed Story Generation](http://arxiv.org/abs/2601.17226v1) | David Y. Liu, Xanthe Muston, Aditya Joshi, Sebastian Sequoiah-Grayson | cs.CL, cs.AI | 2026-01-23 |  |
+| **[HF]** [Narrative Theory-Driven LLM Methods for Automatic Story Generation and Understanding: A Survey](http://arxiv.org/abs/2602.15851) | David Y. Liu, Aditya Joshi, Paul Dawson |  | 2026-01-23 |  |
 | [Can professional translators identify machine-generated text?](http://arxiv.org/abs/2601.15828v2) | Michael Farrell | cs.CL, cs.AI | 2026-01-22 |  |
 | [When Generative AI Is Intimate, Sexy, and Violent: Examining Not-Safe-For-Work (NSFW) Chatbots on FlowGPT](http://arxiv.org/abs/2601.14324v1) | Xian Li, Yuanning Han, Di Liu, Pengcheng An, Shuo Niu | cs.HC | 2026-01-20 |  |
 | [Anonpsy: A Graph-Based Framework for Structure-Preserving De-identification of Psychiatric Narratives](http://arxiv.org/abs/2601.13503v1) | Kyung Ho Lim, Byung-Hoon Kim | cs.CL | 2026-01-20 |  |
@@ -102,8 +120,8 @@ sidebar:
 | [Generating Storytelling Images with Rich Chains-of-Reasoning](http://arxiv.org/abs/2512.07198v2) | Xiujie Song, Qi Jia, Shota Watanabe, Xiaoyi Pang, Ruijie Chen, Mengyue Wu, Kenny Q. Zhu | cs.CV, cs.CL | 2025-12-08 |  |
 | [Generating Storytelling Images with Rich Chains-of-Reasoning](http://arxiv.org/abs/2512.07198v1) | Xiujie Song, Qi Jia, Shota Watanabe, Xiaoyi Pang, Ruijie Chen, Mengyue Wu, Kenny Q. Zhu | cs.CV, cs.CL | 2025-12-08 |  |
 | [Capturing Classic Authorial Style in Long-Form Story Generation with GRPO Fine-Tuning](http://arxiv.org/abs/2512.05747v1) | Jinlong Liu, Mohammed Bahja, Venelin Kovatchev, Mark Lee | cs.CL | 2025-12-05 |  |
-| **[\*]** [Capturing Classic Authorial Style in Long-Form Story Generation with GRPO Fine-Tuning](http://arxiv.org/abs/2512.05747v2) | Jinlong Liu, Mohammed Bahja, Venelin Kovatchev, Mark Lee | cs.CL | 2025-12-05 |  |
 | **[HF]** [Capturing Classic Authorial Style in Long-Form Story Generation with GRPO Fine-Tuning](http://arxiv.org/abs/2512.05747) | Jinlong Liu, Mohammed Bahja, Venelin Kovatchev, Mark Lee |  | 2025-12-05 |  |
+| **[\*]** [Capturing Classic Authorial Style in Long-Form Story Generation with GRPO Fine-Tuning](http://arxiv.org/abs/2512.05747v2) | Jinlong Liu, Mohammed Bahja, Venelin Kovatchev, Mark Lee | cs.CL | 2025-12-05 |  |
 | [Can ChatGPT evaluate research environments? Evidence from REF2021](http://arxiv.org/abs/2512.05202v1) | Kayvan Kousha, Mike Thelwall, Elizabeth Gadd | cs.DL | 2025-12-04 |  |
 | [LLM-Generated Ads: From Personalization Parity to Persuasion Superiority](http://arxiv.org/abs/2512.03373v1) | Elyas Meguellati, Stefano Civelli, Lei Han, Abraham Bernstein, Shazia Sadiq, Gianluca Demartini | cs.CY, cs.CL | 2025-12-03 |  |
 | [TaleFrame: An Interactive Story Generation System with Fine-Grained Control and Large Language Models](http://arxiv.org/abs/2512.02402v1) | Yunchao Wang, Guodao Sun, Zihang Fu, Zhehao Liu, Kaixing Du, Haidong Gao, Ronghua Liang | cs.CL, cs.HC | 2025-12-02 |  |
@@ -159,8 +177,8 @@ sidebar:
 | **[HF]** [Narrative Studio: Visual narrative exploration using LLMs and Monte  Carlo Tree Search](http://arxiv.org/abs/2504.02426) | Parsa Ghaffari, Chris Hokamp |  | 2025-04-03 |  |
 | [Narrative Studio: Visual narrative exploration using LLMs and Monte  Carlo Tree Search](http://arxiv.org/abs/2504.02426v1) | Parsa Ghaffari, Chris Hokamp | cs.AI | 2025-04-03 |  |
 | [Leveraging LLMs for User Stories in AI Systems: UStAI Dataset](http://arxiv.org/abs/2504.00513v1) | Asma Yamani, Malak Baslyman, Moataz Ahmed | cs.SE, cs.AI | 2025-04-01 |  |
-| **[HF]** [Learning to Reason for Long-Form Story Generation](http://arxiv.org/abs/2503.22828) | Alexander Gurung, Mirella Lapata |  | 2025-03-28 |  |
 | [Learning to Reason for Long-Form Story Generation](http://arxiv.org/abs/2503.22828v1) | Alexander Gurung, Mirella Lapata | cs.CL | 2025-03-28 |  |
+| **[HF]** [Learning to Reason for Long-Form Story Generation](http://arxiv.org/abs/2503.22828) | Alexander Gurung, Mirella Lapata |  | 2025-03-28 |  |
 | [Evaluating book summaries from internal knowledge in Large Language  Models: a cross-model and semantic consistency approach](http://arxiv.org/abs/2503.21613v1) | Javier Coronado-Blázquez | cs.CL | 2025-03-27 |  |
 | [Collaborative Storytelling and LLM: A Linguistic Analysis of  Automatically-Generated Role-Playing Game Sessions](http://arxiv.org/abs/2503.20623v1) | Alessandro Maisto | cs.CL, cs.AI | 2025-03-26 |  |
 | [Accessible Text Descriptions for UpSet Plots](http://arxiv.org/abs/2503.17517v1) | Andrew McNutt, Maggie K McCracken, Ishrat Jahan Eliza, Daniel Hajas, Jake Wagoner, Nate Lanza, Jack Wilburn, Sarah Creem-Regehr, Alexander Lex | cs.HC | 2025-03-21 |  |
@@ -204,13 +222,14 @@ sidebar:
 | [Constraint representation towards precise data-driven storytelling](http://arxiv.org/abs/2410.07535v1) | Yu-Zhe Shi, Haotian Li, Lecheng Ruan, Huamin Qu | cs.HC | 2024-10-10 |  |
 | [Decoding Decoded: Understanding Hyperparameter Effects in Open-Ended  Text Generation](http://arxiv.org/abs/2410.06097v1) | Esteban Garces Arias, Meimingwei Li, Christian Heumann, Matthias Aßenmacher | cs.CL, cs.LG | 2024-10-08 |  |
 | [ACDC: Autoregressive Coherent Multimodal Generation using Diffusion  Correction](http://arxiv.org/abs/2410.04721v1) | Hyungjin Chung, Dohun Lee, Jong Chul Ye | cs.LG, cs.CV | 2024-10-07 |  |
+| **[HF]** [CS4: Measuring the Creativity of Large Language Models Automatically by Controlling the Number of Story-Writing Constraints](http://arxiv.org/abs/2410.04197) | Anirudh Atmakuru, Jatin Nainani, Rohith Siddhartha Reddy Bheemreddy, Anirudh Lakkaraju, Zonghai Yao, Hamed Zamani, Haw-Shiuan Chang |  | 2024-10-05 |  |
 | **[HF]** [Collective Critics for Creative Story Generation](http://arxiv.org/abs/2410.02428) | Minwook Bae, Hyounghun Kim |  | 2024-10-03 | 8 |
 | [Evaluation of Large Language Models for Summarization Tasks in the  Medical Domain: A Narrative Review](http://arxiv.org/abs/2409.18170v1) | Emma Croxford, Yanjun Gao, Nicholas Pellegrino, Karen K. Wong, Graham Wills, Elliot First, Frank J. Liao, Cherodeep Goswami, Brian Patterson, Majid Afshar | cs.CL, cs.AI | 2024-09-26 |  |
 | [Counterfactual Token Generation in Large Language Models](http://arxiv.org/abs/2409.17027v1) | Ivi Chatzi, Nina Corvelo Benz, Eleni Straitouri, Stratis Tsirtsis, Manuel Gomez-Rodriguez | cs.LG, cs.AI, cs.CL | 2024-09-25 |  |
 | [A Character-Centric Creative Story Generation via Imagination](http://arxiv.org/abs/2409.16667v1) | Kyeongman Park, Minbeom Kim, Kyomin Jung | cs.CL | 2024-09-25 |  |
 | **[HF]** [A Character-Centric Creative Story Generation via Imagination](http://arxiv.org/abs/2409.16667) | Kyeongman Park, Minbeom Kim, Kyomin Jung |  | 2024-09-25 |  |
-| [MirrorStories: Reflecting Diversity through Personalized Narrative  Generation with Large Language Models](http://arxiv.org/abs/2409.13935v2) | Sarfaroz Yunusov, Hamza Sidat, Ali Emami | cs.CL, cs.AI, cs.CY | 2024-09-20 |  |
 | **[HF]** [MirrorStories: Reflecting Diversity through Personalized Narrative  Generation with Large Language Models](http://arxiv.org/abs/2409.13935) | Sarfaroz Yunusov, Hamza Sidat, Ali Emami |  | 2024-09-20 |  |
+| [MirrorStories: Reflecting Diversity through Personalized Narrative  Generation with Large Language Models](http://arxiv.org/abs/2409.13935v2) | Sarfaroz Yunusov, Hamza Sidat, Ali Emami | cs.CL, cs.AI, cs.CY | 2024-09-20 |  |
 | [Generating Visual Stories with Grounded and Coreferent Characters](http://arxiv.org/abs/2409.13555v1) | Danyang Liu, Mirella Lapata, Frank Keller | cs.CL, cs.AI | 2024-09-20 |  |
 | [Small Language Models can Outperform Humans in Short Creative Writing: A  Study Comparing SLMs with Humans and LLMs](http://arxiv.org/abs/2409.11547v1) | Guillermo Marco, Luz Rello, Julio Gonzalo | cs.CL, cs.AI | 2024-09-17 |  |
 | [The Art of Storytelling: Multi-Agent Generative AI for Dynamic  Multimodal Narratives](http://arxiv.org/abs/2409.11261v3) | Samee Arif, Taimoor Arif, Muhammad Saad Haroon, Aamina Jamal Khan, Agha Ali Raza, Awais Athar | cs.CL | 2024-09-17 |  |
@@ -231,8 +250,8 @@ sidebar:
 | [DreamStory: Open-Domain Story Visualization by LLM-Guided Multi-Subject  Consistent Diffusion](http://arxiv.org/abs/2407.12899v1) | Huiguo He, Huan Yang, Zixi Tuo, Yuan Zhou, Qiuyue Wang, Yuhang Zhang, Zeyu Liu, Wenhao Huang, Hongyang Chao, Jian Yin | cs.CV, cs.AI, cs.MM | 2024-07-17 |  |
 | [FairyLandAI: Personalized Fairy Tales utilizing ChatGPT and DALLE-3](http://arxiv.org/abs/2407.09467v1) | Georgios Makridis, Athanasios Oikonomou, Vasileios Koukos | cs.AI | 2024-07-12 |  |
 | **[HF]** [SEED-Story: Multimodal Long Story Generation with Large Language Model](http://arxiv.org/abs/2407.08683) | Shuai Yang, Yuying Ge, Yang Li, Yukang Chen, Yixiao Ge, Ying Shan, Yingcong Chen |  | 2024-07-11 | 24 |
-| [Arabic Automatic Story Generation with Large Language Models](http://arxiv.org/abs/2407.07551v1) | Ahmed Oumar El-Shangiti, Fakhraddin Alwajih, Muhammad Abdul-Mageed | cs.CL, cs.AI | 2024-07-10 |  |
 | **[HF]** [Arabic Automatic Story Generation with Large Language Models](http://arxiv.org/abs/2407.07551) | Ahmed Oumar El-Shangiti, Fakhraddin Alwajih, Muhammad Abdul-Mageed |  | 2024-07-10 |  |
+| [Arabic Automatic Story Generation with Large Language Models](http://arxiv.org/abs/2407.07551v1) | Ahmed Oumar El-Shangiti, Fakhraddin Alwajih, Muhammad Abdul-Mageed | cs.CL, cs.AI | 2024-07-10 |  |
 | [Not (yet) the whole story: Evaluating Visual Storytelling Requires More  than Measuring Coherence, Grounding, and Repetition](http://arxiv.org/abs/2407.04559v1) | Aditya K Surikuchi, Raquel Fernández, Sandro Pezzelle | cs.CL, cs.AI, cs.CV, cs.LG | 2024-07-05 |  |
 | [Inclusivity in Large Language Models: Personality Traits and Gender Bias  in Scientific Abstracts](http://arxiv.org/abs/2406.19497v1) | Naseela Pervez, Alexander J. Titus | cs.CL, cs.AI | 2024-06-27 |  |
 | [Human-AI Collaborative Taxonomy Construction: A Case Study in  Profession-Specific Writing Assistants](http://arxiv.org/abs/2406.18675v2) | Minhwa Lee, Zae Myung Kim, Vivek Khetan, Dongyeop Kang | cs.HC, cs.AI, cs.CL | 2024-06-26 |  |

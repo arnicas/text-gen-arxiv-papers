@@ -9,7 +9,7 @@ sidebar:
 
 **[\*]** = found in both arXiv and HF search &nbsp; **[HF]** = found via HF semantic search
 
-*written on 2026-06-06*
+*written on 2026-06-26*
 
 | title | authors | categories | displaydate | upvotes |
 | ----- | ----- | ----- | ----- | ----- |
@@ -50,11 +50,11 @@ sidebar:
 | [Beyond Memorization: Mapping the Originality-Quality Frontier of  Language Models](http://arxiv.org/abs/2504.09389v1) | Vishakh Padmakumar, Chen Yueh-Han, Jane Pan, Valerie Chen, He He | cs.CL | 2025-04-13 |  |
 | **[HF]** [Modifying Large Language Model Post-Training for Diverse Creative  Writing](http://arxiv.org/abs/2503.17126) | John Joon Young Chung, Vishakh Padmakumar, Melissa Roemmele, Yuqian Sun, Max Kreminski |  | 2025-03-21 | 36 |
 | [Fùxì: A Benchmark for Evaluating Language Models on Ancient Chinese  Text Understanding and Generation](http://arxiv.org/abs/2503.15837v1) | Shangqing Zhao, Yuhao Zhou, Yupei Ren, Zhe Chen, Chenghao Jia, Fang Zhe, Zhaogaung Long, Shu Liu, Man Lan | cs.CL, cs.AI | 2025-03-20 |  |
-| [Automated Evaluation of Meter and Rhyme in Russian Generative and  Human-Authored Poetry](http://arxiv.org/abs/2502.20931v1) | Ilya Koziev | cs.CL | 2025-02-28 |  |
 | [Automated Evaluation of Meter and Rhyme in Russian Generative and Human-Authored Poetry](http://arxiv.org/abs/2502.20931v2) | Ilya Koziev | cs.CL | 2025-02-28 |  |
+| [Automated Evaluation of Meter and Rhyme in Russian Generative and  Human-Authored Poetry](http://arxiv.org/abs/2502.20931v1) | Ilya Koziev | cs.CL | 2025-02-28 |  |
 | [Where is my Glass Slipper? AI, Poetry and Art](http://arxiv.org/abs/2503.05781v1) | Anastasios P. Pagiaslis | cs.CY, cs.CL, I.2.7; J.5 | 2025-02-26 |  |
-| [TALKPLAY: Multimodal Music Recommendation with Large Language Models](http://arxiv.org/abs/2502.13713v5) | Seungheon Doh, Keunwoo Choi, Juhan Nam | cs.IR, cs.SD, eess.AS | 2025-02-19 |  |
 | [TALKPLAY: Multimodal Music Recommendation with Large Language Models](http://arxiv.org/abs/2502.13713v4) | Seungheon Doh, Keunwoo Choi, Juhan Nam | cs.IR, cs.SD, eess.AS | 2025-02-19 |  |
+| [TALKPLAY: Multimodal Music Recommendation with Large Language Models](http://arxiv.org/abs/2502.13713v5) | Seungheon Doh, Keunwoo Choi, Juhan Nam | cs.IR, cs.SD, eess.AS | 2025-02-19 |  |
 | [An Annotated Reading of 'The Singer of Tales' in the LLM Era](http://arxiv.org/abs/2502.05148v1) | Kush R. Varshney | cs.CY, cs.CL | 2025-02-07 |  |
 | **[HF]** [Song Form-aware Full-Song Text-to-Lyrics Generation with Multi-Level  Granularity Syllable Count Control](http://arxiv.org/abs/2411.13100) | Yunkee Chae, Eunsik Shin, Hwang Suntae, Seungryeol Paik, Kyogu Lee |  | 2024-11-20 |  |
 | **[HF]** [QUILL: Quotation Generation Enhancement of Large Language Models](http://arxiv.org/abs/2411.03675) | Jin Xiao, Bowei Zhang, Qianyu He, Jiaqing Liang, Feng Wei, Jinglei Chen, Zujie Liang, Deqing Yang, Yanghua Xiao |  | 2024-11-06 |  |
@@ -65,6 +65,7 @@ sidebar:
 | [Benchmarking Foundation Models on Exceptional Cases: Dataset Creation and Validation](http://arxiv.org/abs/2410.18001v2) | Suho Kang, Jungyang Park, Joonseo Ha, SoMin Kim, JinHyeong Kim, Subeen Park, Kyungwoo Song | cs.AI | 2024-10-23 |  |
 | [Does ChatGPT Have a Poetic Style?](http://arxiv.org/abs/2410.15299v2) | Melanie Walsh, Anna Preus, Elizabeth Gronski | cs.CL | 2024-10-20 |  |
 | **[HF]** [SongCreator: Lyrics-based Universal Song Generation](http://arxiv.org/abs/2409.06029) | Shun Lei, Yixuan Zhou, Boshi Tang, Max W. Y. Lam, Feng Liu, Hangyu Liu, Jingcheng Wu, Shiyin Kang, Zhiyong Wu, Helen Meng |  | 2024-09-09 | 22 |
+| **[HF]** [Benchmarking Chinese Knowledge Rectification in Large Language Models](http://arxiv.org/abs/2409.05806) | Tianhe Lu, Jizhan Fang, Yunzhi Yao, Xin Xu, Ningyu Zhang, Huajun Chen |  | 2024-09-09 | 15 |
 | [LLM-based multi-agent poetry generation in non-cooperative environments](http://arxiv.org/abs/2409.03659v2) | Ran Zhang, Steffen Eger | cs.CL | 2024-09-05 |  |
 | [Negation Blindness in Large Language Models: Unveiling the NO Syndrome in Image Generation](http://arxiv.org/abs/2409.00105v2) | Mohammad Nadeem, Shahab Saquib Sohail, Erik Cambria, Björn W. Schuller, Amir Hussain | cs.CL, cs.AI, cs.LG | 2024-08-27 |  |
 | **[HF]** [Controllable Text Generation for Large Language Models: A Survey](http://arxiv.org/abs/2408.12599) | Xun Liang, Hanyu Wang, Yezhaohui Wang, Shichao Song, Jiawei Yang, Simin Niu, Jie Hu, Dan Liu, Shunyu Yao, Feiyu Xiong, Zhiyu Li |  | 2024-08-22 | 65 |

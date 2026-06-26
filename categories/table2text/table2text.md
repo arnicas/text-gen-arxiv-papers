@@ -9,7 +9,7 @@ sidebar:
 
 **NOTE: This category (table2text) is no longer being actively searched. The content below is from the last update.**
 
-*written on 2026-06-06*
+*written on 2026-06-26*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |

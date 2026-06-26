@@ -9,10 +9,55 @@ sidebar:
 
 **[\*]** = found in both arXiv and HF search &nbsp; **[HF]** = found via HF semantic search
 
-*written on 2026-06-06*
+*written on 2026-06-26*
 
 | title | authors | categories | displaydate | upvotes |
 | ----- | ----- | ----- | ----- | ----- |
+| [The Riddle Riddle: Testing Flexible Reasoning in Large Language Models and Humans](http://arxiv.org/abs/2606.27103v1) | Bella Fascendini, Kathryn McGregor, Max D. Gupta, Thomas L. Griffiths | cs.CL | 2026-06-25 |  |
+| [Scientific discovery as meta-optimization: a combinatorial optimization case study](http://arxiv.org/abs/2606.26728v1) | Yuan-Hang Zhang, Chesson Sipling, Massimiliano Di Ventra | cs.AI, cs.LG, cs.MA | 2026-06-25 |  |
+| [A Red Teaming Framework for Large Language Models: A Case Study on Faithfulness Evaluation](http://arxiv.org/abs/2606.25476v1) | Abrar Alotaibi, Raed Mughus, Moataz Ahmed | cs.CL, cs.AI | 2026-06-24 |  |
+| [OrbitForge: Text-to-3D Scene Generation via Reconstruction-Anchored Video Synthesis](http://arxiv.org/abs/2606.24799v1) | Chenrui Fan, Paolo Favaro | cs.CV, cs.AI | 2026-06-23 |  |
+| [Distributed Quality-Diversity Search for Toxicity in Large Language Models](http://arxiv.org/abs/2606.24166v1) | Onkar Shelar, Travis Desell | cs.NE | 2026-06-23 |  |
+| [RASC+: Retrieval-Constrained LLM Adjudication for Clinical Value Set Authoring](http://arxiv.org/abs/2606.23992v1) | Sumit Mukherjee | cs.CL, cs.AI, cs.LG | 2026-06-22 |  |
+| [WaveDetect: Robust Framework for Machine-Generated Text Detection via Wavelet Transform](http://arxiv.org/abs/2606.23336v1) | Zhichen Liu, Kaitong Qin, Linhan He, Yang Xu | cs.CL | 2026-06-22 |  |
+| [A Dual-Track Framework for Template-Constrained LaTeX Conversion](http://arxiv.org/abs/2606.23107v1) | Chung Cheuk Hei, Liu Li | cs.CL | 2026-06-22 |  |
+| [Towards Fast Domain Adaptation and Fine-Grained User Simulation for Evaluating Conversational Recommender Systems](http://arxiv.org/abs/2606.22803v2) | Yuanzi Li, Quanyu Dai, Xueyang Feng, Zihang Tian, Junhao Wang, Xu Chen, Zhenhua Dong, Huifeng Guo | cs.IR | 2026-06-22 |  |
+| [The Origins of Stochasticity: Comprehensive Investigations on Uncertainty Quantification for Large Language Models](http://arxiv.org/abs/2606.22792v1) | Xiang-Jun Ou, Shuang Liang, Xin-Yu Hu, Rong-Hao Huang, Jing Wang, Shao-Qun Zhang | cs.AI | 2026-06-22 |  |
+| [BLUEX v2: Benchmarking LLMs on Open-Ended Questions from Brazilian University Entrance Exams](http://arxiv.org/abs/2606.22723v1) | João Guilherme Alves Santos, Giovana Kerche Bonás, Thiago Laitz, Thales Sales Almeida, Helio Pedrini | cs.CL | 2026-06-21 |  |
+| [Enhancing LLMs for Graph Tasks via Graph-aware LoRA Generation](http://arxiv.org/abs/2606.22429v1) | Junshu Sun, Wanxing Chang, Qingming Huang, Shuhui Wang | cs.LG | 2026-06-21 |  |
+| [ForEx: A Formal Verification Framework for Explainable Reasoning in Logical Fallacy Detection and Annotation](http://arxiv.org/abs/2606.21867v1) | Pei-Cing Huang, Chienyu Liu, Chan Hsu, Ci-Siang Chen, Pei-Ju Lee, Yihuang Kang | cs.AI, cs.CL, cs.SC | 2026-06-20 |  |
+| [The Significance of Style Diversity in Annotation-Free Synthetic Data Generation](http://arxiv.org/abs/2606.20400v1) | Zahra Abbasiantaeb, Zeno Belligoli, Omar Essam, Mohammad Aliannejadi | cs.LG | 2026-06-18 |  |
+| [Secure Coding Drift in LLM-Assisted Post-Quantum Cryptography Development: A Gamified Fix](http://arxiv.org/abs/2606.19474v1) | R. D. N. Shakya, C. P. Wijesiriwardana, S. M. Vidanagamachchi, Nalin A. G. Arachchilage | cs.CR, cs.AI, cs.SE | 2026-06-17 |  |
+| [TW-LegalBench: Measuring Taiwanese Legal Understanding](http://arxiv.org/abs/2606.18699v1) | Fei-Yueh Chen, Chun Huang Lin, Chan Wei Hsu, Kuan Hsuan Yeh, Zih-Ching Chen, Kuan-Ming Chen, Patrick Chung-Chia Huang | cs.CL, cs.AI, cs.IR | 2026-06-17 |  |
+| [PersonalPlan: Planning Multi-Agent Systems for Personalized Programming Learning](http://arxiv.org/abs/2606.18633v1) | Zhiyuan Wen, Jiannong Cao, Peng Gao, Haochen Shi, Wengpan Kuan, Bo Yuan, Xiuxiu Qi | cs.MA | 2026-06-17 |  |
+| [Possible or Definite? A Benchmark for Evaluating Diagnostic Uncertainty Preservation in Clinical Text](http://arxiv.org/abs/2606.18471v1) | Hongbo Du, Zixin Lu, Jiaming Qu | cs.CL | 2026-06-16 |  |
+| [LLM Features Can Hurt GNNs: Concatenation Interference on Homophilous Graph Benchmarks](http://arxiv.org/abs/2606.17579v1) | Zhongyuan Wang, Pratyusha Vemuri | cs.LG, cs.AI, cs.CL, cs.SI | 2026-06-16 |  |
+| [Do Large Language Models Always Tell The Same Stories?](http://arxiv.org/abs/2606.17350v1) | Thennal DK, Hans Ole Hatzel | cs.CL, cs.AI | 2026-06-15 |  |
+| [Data-Driven Decoding of Russell's Circumplex Model of Affect](http://arxiv.org/abs/2606.16843v1) | Amdjed Belaref, Samir Sadok, Zineb Noumir, Renaud Seguier | cs.CL | 2026-06-15 |  |
+| [The Art of Mixology: Mixup-based Obfuscation for Privacy-Preserving Split Learning in Large Language Models](http://arxiv.org/abs/2606.16801v1) | Chen Chen, Xiang Gao, Xianshun Wang, Chengran Li, Shengyu Xia, Xueluan Gong, Linru Zhang, Qian Wang, Kwok-Yan Lam | cs.CL | 2026-06-15 |  |
+| [Multi-Turn Reflective Masking Elicits Reasoning in Mask Diffusion Models](http://arxiv.org/abs/2606.16700v1) | Yanming Zhang, Yihan Bian, Jingyuan Qi, Yuguang Yao, Lifu Huang, Tianyi Zhou | cs.CL | 2026-06-15 |  |
+| [RL-Index: Reinforcement Learning for Retrieval Index Reasoning](http://arxiv.org/abs/2606.16316v1) | Yongjia Lei, Nedim Lipka, Zhisheng Qi, Utkarsh Sahu, Koustava Goswami, Franck Dernoncourt, Ryan A. Rossi, Yu Wang | cs.IR, cs.AI, cs.LG | 2026-06-15 |  |
+| [Auditing Reward Hackability in Code RL Training Environments](http://arxiv.org/abs/2606.16062v1) | Shreshth Rajan | cs.AI, cs.LG | 2026-06-14 |  |
+| [Formalize Once, Edit the Rest: Efficient Lean-Based Answer Selection for Math Reasoning](http://arxiv.org/abs/2606.15972v1) | Ji Feng, Zhouxing Shi | cs.CL, cs.AI, cs.LG | 2026-06-14 |  |
+| [Think Less, Act Early: Reinforced Latent Reasoning with Early Exit in Vision-Language-Action Models](http://arxiv.org/abs/2606.15099v1) | Dianqiao Lei, Lianlei Shan | cs.CV, cs.LG, cs.RO | 2026-06-13 |  |
+| [CARE: Controlling LLM-Generated Policies through Auditable Review of Evidence in Scientific Experimentation](http://arxiv.org/abs/2606.14581v2) | Guanyu Liu, Weiyi Kong, Zeyu Wang, Boer Zhang, Baiqing Li, Peiyu Zhang, Tianyu Shi | cs.LG, cs.AI | 2026-06-12 |  |
+| [Discovery under Hypothesis Redundancy: A Geometric Theory of Discovery Bottlenecks](http://arxiv.org/abs/2606.14386v1) | Li Xia, Baoxun Wang | cs.LG, cs.AI, q-fin.PM | 2026-06-12 |  |
+| [ADORE: Iterative Query Expansion with Retrieval-Grounded Relevance Feedback](http://arxiv.org/abs/2606.13905v1) | Amin Bigdeli, Negar Arabzadeh, Radin Hamidi Rad, Sajad Ebrahimi, Charles L. A. Clarke, Ebrahim Bagheri | cs.IR, cs.CL | 2026-06-11 |  |
+| [Automated reproducibility assessments in the social and behavioral sciences using large language models](http://arxiv.org/abs/2606.13670v2) | Tobias Holtdirk, Pietro Marcolongo, Anna Steinberg Schulten, Felix Henninger, Stefan Rose, Sarah Ball, Bolei Ma, Frauke Kreuter, Markus Weinmann, Stefan Feuerriegel | cs.AI | 2026-06-11 |  |
+| [IVIE: A Neuro-symbolic Approach to Incremental and Validated Generation of Interactive Fiction Worlds](http://arxiv.org/abs/2606.13348v1) | Micaela Vaucher, Santiago Silveira, Santiago Góngora, Luis Chiruzzo | cs.CL, cs.AI | 2026-06-11 |  |
+| [Evaluating Pluralism in LLMs through Latent Perspectives](http://arxiv.org/abs/2606.13254v1) | Laura Majer, Jan Šnajder, Martin Tutek | cs.CL | 2026-06-11 |  |
+| [NTS-CoT: Mitigating Hallucinations in LLM-based News Timeline Summarization with Chain-of-Thought Reasoning](http://arxiv.org/abs/2606.13171v1) | Feng Lyu, Huiqin Yan, Sijing Duan, Hao Wu, Shuang Gu, Xue Qiao, Weixu Zhang, Haolun Wu | cs.CL, cs.AI | 2026-06-11 |  |
+| **[HF]** [GENIE: A Fine-Grained Measure for Novelty](http://arxiv.org/abs/2606.12790) | Ramya Namuduri, Manya Wadhwa, Anshun Asher Zheng, Greg Durrett, Junyi Jessy Li |  | 2026-06-11 | 1 |
+| [ECA: Efficient Continual Alignment for Open-Ended Image-to-Text Generation](http://arxiv.org/abs/2606.12633v1) | Jiangtao Kong, Peijun Zhao, Chun-Fu Chen, Youngwook Do, Shaohan Hu, Tianyi Zhou, Huajie Shao | cs.CV, cs.LG | 2026-06-10 |  |
+| [Analyzing and Improving Fine-grained Preference Optimization in Medical LVLMs](http://arxiv.org/abs/2606.12590v1) | Shayan Mohammadizadehsamakosh, Pritam Sarkar, Leonid Sigal, Ali Etemad, Elham Dolatabadi | cs.CV, cs.AI | 2026-06-10 |  |
+| [I Understand How You Feel: Enhancing Deeper Emotional Support Through Multilingual Emotional Validation in Dialogue System](http://arxiv.org/abs/2606.11875v1) | Zi Haur Pang, Yahui Fu, Koji Inoue, Tatsuya Kawahara | cs.CL, cs.SD | 2026-06-10 |  |
+| [Grammar-Constrained Decoding Can Jailbreak LLMs into Generating Malicious Code](http://arxiv.org/abs/2606.11817v1) | Yitong Zhang, Shiteng Lu, Jia Li | cs.CR, cs.AI, cs.CL, cs.SE | 2026-06-10 |  |
+| [The Dynamics of Human and AI-Generated Language: How Semantics Fluctuates across Different Timescales](http://arxiv.org/abs/2606.11371v1) | Han-Jen Chang, Yasir Çatal, Angelika Wolman, Agustín Ibáñez, David Smith, I-Wen Su, Kai-Yuan Cheng, Georg Northoff | cs.CL, cs.AI, eess.AS, eess.SP | 2026-06-09 |  |
+| [PhantomBench: Benchmarking the Non-existential Threat of Language Models](http://arxiv.org/abs/2606.11105v1) | Haeji Jung, Hila Gonen | cs.CL, cs.AI | 2026-06-09 |  |
+| [RealMath-Eval: Why SOTA Judges Struggle with Real Human Reasoning](http://arxiv.org/abs/2606.10254v1) | Yiteng Mao, Kenan Xu, Yijia Lyu, Wenhao Li, Jianlong Chen, Xiangfeng Wang | cs.AI, cs.CL | 2026-06-08 |  |
+| [MASS: Deep Research for Social Sciences with Memory-Augmented Social Simulation](http://arxiv.org/abs/2606.09198v1) | Yongrui Liu, Deyi Xiong | cs.AI | 2026-06-08 |  |
+| [Graph2Idea:Retrieval-Augmented Scientific Idea Generation with Graph-Structured Contexts](http://arxiv.org/abs/2606.09105v3) | Xu Li, Hanzhe Tu, Xun Han | cs.AI | 2026-06-08 |  |
+| [The Amplifying Mirror: Locating and Steering the Partisan Direction inside a Large Language Model](http://arxiv.org/abs/2606.08792v1) | Wendy K. Tam | cs.CL | 2026-06-07 |  |
 | [An Infectious Disease Spread Simulation Based on Large Language Model Decision Making](http://arxiv.org/abs/2606.06360v1) | Yonchanok Khaokaew, Ruochen Kong, Andreas Zufle, Hao Xue, Taylor Anderson, Chandini Raina MacIntyre, Matthew Scotch, Flora D. Salim, David J Heslop | cs.AI | 2026-06-04 |  |
 | [NAVIRA: Decoupled Stochastic Remasking for Masked Diffusion Language Models](http://arxiv.org/abs/2606.06031v1) | Andrey Fomenko, Maksim Kryzhanovskiy, Svetlana Glazyrina, Roman Ischenko | cs.CL | 2026-06-04 |  |
 | [Interpreting Style Representations via Style-Eliciting Prompts](http://arxiv.org/abs/2606.05716v1) | Junghwan Kim, David Jurgens | cs.CL | 2026-06-04 |  |
@@ -163,8 +208,8 @@ sidebar:
 | [QSLM: A Performance- and Memory-aware Quantization Framework with Tiered Search Strategy for Spike-driven Language Models](http://arxiv.org/abs/2601.00679v1) | Rachmad Vidya Wicaksana Putra, Pasindu Wickramasinghe, Muhammad Shafique | cs.NE, cs.AI, cs.LG | 2026-01-02 |  |
 | [How Large Language Models Systematically Misrepresent American Climate Opinions](http://arxiv.org/abs/2512.23889v1) | Sola Kim, Jieshu Wang, Marco A. Janssen, John M. Anderies | cs.CY, cs.AI | 2025-12-29 |  |
 | [Web World Models](http://arxiv.org/abs/2512.23676v1) | Jichen Feng, Yifan Zhang, Chenggong Zhang, Yifu Lu, Shilong Liu, Mengdi Wang | cs.AI, cs.CL, cs.CV | 2025-12-29 |  |
-| **[HF]** [Divergent-Convergent Thinking in Large Language Models for Creative Problem Generation](http://arxiv.org/abs/2512.23601) | Manh Hung Nguyen, Adish Singla |  | 2025-12-29 |  |
 | [Divergent-Convergent Thinking in Large Language Models for Creative Problem Generation](http://arxiv.org/abs/2512.23601v1) | Manh Hung Nguyen, Adish Singla | cs.AI | 2025-12-29 |  |
+| **[HF]** [Divergent-Convergent Thinking in Large Language Models for Creative Problem Generation](http://arxiv.org/abs/2512.23601) | Manh Hung Nguyen, Adish Singla |  | 2025-12-29 |  |
 | [Anka: A Domain-Specific Language for Reliable LLM Code Generation](http://arxiv.org/abs/2512.23214v1) | Saif Khalfan Saif Al Mazrouei | cs.CL, cs.LG, cs.PL, cs.SE | 2025-12-29 |  |
 | [Scoring, Reasoning, and Selecting the Best! Ensembling Large Language Models via a Peer-Review Process](http://arxiv.org/abs/2512.23213v1) | Zhijun Chen, Zeyu Ji, Qianren Mao, Junhang Cheng, Bangjie Qin, Hao Wu, Zhuoran Li, Jingzheng Li, Kai Sun, Zizhe Wang, Yikun Ban, Zhu Sun, Xiangyang Ji, Hailong Sun | cs.CL, cs.AI | 2025-12-29 |  |
 | [Not too long do read: Evaluating LLM-generated extreme scientific summaries](http://arxiv.org/abs/2512.23206v1) | Zhuoqi Lyu, Qing Ke | cs.CL, cs.AI | 2025-12-29 |  |
@@ -236,6 +281,7 @@ sidebar:
 | **[HF]** [On the Diversity of Synthetic Data and its Impact on Training Large  Language Models](http://arxiv.org/abs/2410.15226) | Hao Chen, Abdul Waheed, Xiang Li, Yidong Wang, Jindong Wang, Bhiksha Raj, Marah I. Abdin |  | 2024-10-19 |  |
 | **[HF]** [Nova: An Iterative Planning and Search Approach to Enhance Novelty and Diversity of LLM Generated Ideas](http://arxiv.org/abs/2410.14255) | Xiang Hu, Hongyu Fu, Jinge Wang, Yifeng Wang, Zhikun Li, Renjun Xu, Yu Lu, Yaochu Jin, Lili Pan, Zhenzhong Lan |  | 2024-10-18 |  |
 | **[HF]** [AI as Humanity's Salieri: Quantifying Linguistic Creativity of Language  Models via Systematic Attribution of Machine Text against Web Text](http://arxiv.org/abs/2410.04265) | Ximing Lu, Melanie Sclar, Skyler Hallinan, Niloofar Mireshghallah, Jiacheng Liu, Seungju Han, Allyson Ettinger, Liwei Jiang, Khyathi Chandu, Nouha Dziri, Yejin Choi |  | 2024-10-05 |  |
+| **[HF]** [CS4: Measuring the Creativity of Large Language Models Automatically by Controlling the Number of Story-Writing Constraints](http://arxiv.org/abs/2410.04197) | Anirudh Atmakuru, Jatin Nainani, Rohith Siddhartha Reddy Bheemreddy, Anirudh Lakkaraju, Zonghai Yao, Hamed Zamani, Haw-Shiuan Chang |  | 2024-10-05 |  |
 | **[HF]** [DALDA: Data Augmentation Leveraging Diffusion Model and LLM with  Adaptive Guidance Scaling](http://arxiv.org/abs/2409.16949) | Kyuheon Jung, Yongdeuk Seo, Seongwoo Cho, Jaeyoung Kim, Hyun-seok Min, Sungchul Choi |  | 2024-09-25 |  |
 | **[HF]** [A Character-Centric Creative Story Generation via Imagination](http://arxiv.org/abs/2409.16667) | Kyeongman Park, Minbeom Kim, Kyomin Jung |  | 2024-09-25 |  |
 | **[HF]** [MirrorStories: Reflecting Diversity through Personalized Narrative  Generation with Large Language Models](http://arxiv.org/abs/2409.13935) | Sarfaroz Yunusov, Hamza Sidat, Ali Emami |  | 2024-09-20 |  |
