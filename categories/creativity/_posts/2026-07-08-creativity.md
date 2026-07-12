@@ -8,10 +8,27 @@ sidebar:
 
 **[\*]** = found in both arXiv and HF search &nbsp; **[HF]** = found via HF semantic search
 
-*written on 2026-06-26*
+*written on 2026-07-12*
 
 | title | authors | categories | displaydate | upvotes |
 | ----- | ----- | ----- | ----- | ----- |
+| [Hallucination Self-Play: Bootstrapping Reinforced Detector via Evolved Generator](http://arxiv.org/abs/2607.07993v1) | Shiping Yang, Shining Liang, Weihao Liu, Wenbiao Ding, Linjun Shou, Lu Cheng, Angel X. Chang | cs.CL, cs.LG | 2026-07-08 |  |
+| [Agentic Neural Architecture Search](http://arxiv.org/abs/2607.07984v1) | Seokhoon Jeong, Mijung Kim, Taehwan Kim | cs.AI | 2026-07-08 |  |
+| [Functional and Secure Code Generation with Task Vectors](http://arxiv.org/abs/2607.07881v1) | Felix Wang, Anudeep Das, Mei Nagappan, N. Asokan | cs.SE, cs.CR, cs.LG | 2026-07-08 |  |
+| [Open-Ended Scenario Reasoning for Specialist Model Adaptation](http://arxiv.org/abs/2607.06625v1) | Youcheng Zong, Runda Jia, Ranmeng Lin, Mingxuan Ren, Dakuo He | cs.LG, cs.AI, eess.SY | 2026-07-07 |  |
+| [Faithful or Findable? Evaluating LLM-Generated Metadata for RDF Dataset Search](http://arxiv.org/abs/2607.05970v1) | Riccardo Terrenzi, Serkan Ayvaz | cs.IR, cs.AI | 2026-07-07 |  |
+| [Synthetic Consumer Insight Generation with Large Language Models](http://arxiv.org/abs/2607.05761v1) | Stephen L. France, Pia. A. Albinsson | cs.AI | 2026-07-07 |  |
+| [Noisy-Channel Minimum Bayes Risk Decoding](http://arxiv.org/abs/2607.05198v1) | Yusuke Sakai, Hidetaka Kamigaito, Taro Watanabe | cs.LG, cs.AI, cs.CL | 2026-07-06 |  |
+| [MARLIN: De Novo Molecular Structure Elucidation from Tandem Mass Spectra without a Ground-Truth Formula](http://arxiv.org/abs/2607.04774v1) | Xujun Che, Xiuxia Du, Depeng Xu | cs.LG | 2026-07-06 |  |
+| [Telescope: Improving Zero Shot Detection of LLM Generated Content By Measuring Token Repetition Probability](http://arxiv.org/abs/2607.04061v1) | Christopher Nassif, Josh F. Cooper | cs.CL, cs.AI, cs.LG, stat.ML | 2026-07-05 |  |
+| [Effectiveness of LLM-based Software Diversity for Reliability Improvement -- an Empirical Study](http://arxiv.org/abs/2607.03174v1) | Gabriel Almeida, Ilir Gashi, Vladimir Stankovic, João R. Campos | cs.SE, cs.AI | 2026-07-03 |  |
+| [Know Your Source: A Public Knowledge Store for Media Background Checks](http://arxiv.org/abs/2607.02383v2) | Benjamin Nichols, Michael Schlichtkrull, Nedjma Ousidhoum | cs.CL | 2026-07-02 |  |
+| **[\*]** [Measuring the Gap Between Human and LLM Research Ideas](http://arxiv.org/abs/2607.01233v1) | Ziyu Chen, Yilun Zhao, Arman Cohan | cs.CL, cs.AI | 2026-07-01 | 16 |
+| [JL1-CC&QA: Extending the JL1-CD Benchmark with Change Captioning and Question Answering](http://arxiv.org/abs/2606.31745v1) | Ziyuan Liu, Ruifei Zhu, Ouqiao Ma, Yuantao Gu | cs.CV, cs.AI | 2026-06-30 |  |
+| [Can LLMs Imagine Moral Alternatives Beyond Binary Dilemmas?](http://arxiv.org/abs/2606.31213v1) | Jongchan Choi, Nari Yang, Sung Soo Park, Jaemin Cho, Han Seoyoung, Haerin Shin, Jun-Hyung Park | cs.CL, cs.AI, cs.LG | 2026-06-30 |  |
+| [AI-Generated PowerShell Malware: An Experimental Framework and Dataset](http://arxiv.org/abs/2606.30819v1) | Luciano Pianese, Vittorio Orbinato, Pietro Liguori, Roberto Natella | cs.CR, cs.AI | 2026-06-29 |  |
+| [Exploring the Value of Diverse LLM Explanations in Introductory Programming](http://arxiv.org/abs/2606.28882v1) | Seth Bernstein, Paul Denny, Juho Leinonen, Kush Patel, Rayhona Nasimova, Matt Littlefield, Stephen MacNeil | cs.HC, cs.AI | 2026-06-27 |  |
+| [The Contagion Tensor: A Framework for Measuring Output-Distribution Coupling in Multi-Agent LLM Systems -- and Auditing the Claims It Enables](http://arxiv.org/abs/2606.28839v1) | Zewen Liu | cs.LG | 2026-06-27 |  |
 | [The Riddle Riddle: Testing Flexible Reasoning in Large Language Models and Humans](http://arxiv.org/abs/2606.27103v1) | Bella Fascendini, Kathryn McGregor, Max D. Gupta, Thomas L. Griffiths | cs.CL | 2026-06-25 |  |
 | [Scientific discovery as meta-optimization: a combinatorial optimization case study](http://arxiv.org/abs/2606.26728v1) | Yuan-Hang Zhang, Chesson Sipling, Massimiliano Di Ventra | cs.AI, cs.LG, cs.MA | 2026-06-25 |  |
 | [A Red Teaming Framework for Large Language Models: A Case Study on Faithfulness Evaluation](http://arxiv.org/abs/2606.25476v1) | Abrar Alotaibi, Raed Mughus, Moataz Ahmed | cs.CL, cs.AI | 2026-06-24 |  |
@@ -22,6 +39,7 @@ sidebar:
 | [A Dual-Track Framework for Template-Constrained LaTeX Conversion](http://arxiv.org/abs/2606.23107v1) | Chung Cheuk Hei, Liu Li | cs.CL | 2026-06-22 |  |
 | [Towards Fast Domain Adaptation and Fine-Grained User Simulation for Evaluating Conversational Recommender Systems](http://arxiv.org/abs/2606.22803v2) | Yuanzi Li, Quanyu Dai, Xueyang Feng, Zihang Tian, Junhao Wang, Xu Chen, Zhenhua Dong, Huifeng Guo | cs.IR | 2026-06-22 |  |
 | [The Origins of Stochasticity: Comprehensive Investigations on Uncertainty Quantification for Large Language Models](http://arxiv.org/abs/2606.22792v1) | Xiang-Jun Ou, Shuang Liang, Xin-Yu Hu, Rong-Hao Huang, Jing Wang, Shao-Qun Zhang | cs.AI | 2026-06-22 |  |
+| [BLUEX v2: Benchmarking LLMs on Open-Ended Questions from Brazilian University Entrance Exams](http://arxiv.org/abs/2606.22723v2) | João Guilherme Alves Santos, Giovana Kerche Bonás, Thiago Laitz, Thales Sales Almeida, Helio Pedrini | cs.CL | 2026-06-21 |  |
 | [BLUEX v2: Benchmarking LLMs on Open-Ended Questions from Brazilian University Entrance Exams](http://arxiv.org/abs/2606.22723v1) | João Guilherme Alves Santos, Giovana Kerche Bonás, Thiago Laitz, Thales Sales Almeida, Helio Pedrini | cs.CL | 2026-06-21 |  |
 | [Enhancing LLMs for Graph Tasks via Graph-aware LoRA Generation](http://arxiv.org/abs/2606.22429v1) | Junshu Sun, Wanxing Chang, Qingming Huang, Shuhui Wang | cs.LG | 2026-06-21 |  |
 | [ForEx: A Formal Verification Framework for Explainable Reasoning in Logical Fallacy Detection and Annotation](http://arxiv.org/abs/2606.21867v1) | Pei-Cing Huang, Chienyu Liu, Chan Hsu, Ci-Siang Chen, Pei-Ju Lee, Yihuang Kang | cs.AI, cs.CL, cs.SC | 2026-06-20 |  |

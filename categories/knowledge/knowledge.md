@@ -9,7 +9,7 @@ sidebar:
 
 **NOTE: This category (knowledge) is no longer being actively searched. The content below is from the last update.**
 
-*written on 2026-06-26*
+*written on 2026-07-12*
 
 | title | authors | categories | displaydate |
 | ----- | ----- | ----- | ----- |
