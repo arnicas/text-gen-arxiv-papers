@@ -9,10 +9,57 @@ sidebar:
 
 **[\*]** = found in both arXiv and HF search &nbsp; **[HF]** = found via HF semantic search
 
-*written on 2026-07-12*
+*written on 2026-09-30*
 
 | title | authors | categories | displaydate | upvotes |
 | ----- | ----- | ----- | ----- | ----- |
+| [MERGE: Multi-LLM Ensemble for Retrieval via Generative Enrichment](http://arxiv.org/abs/2609.37574v1) | Tzu-I Ho, Yung-Yu Shih, Shang-Yu Su, Dongzhe Wang, Yun-Nung Chen | cs.IR, cs.CL | 2026-09-29 |  |
+| [Beyond Semantic Narrowing: Robust and Efficient LLM Watermarking with Hamming Neighborhoods](http://arxiv.org/abs/2609.37218v1) | Zewen Sun, Tongyang Zhao, Liyao Xiang, Mingxuan Ma, Lingzhe Wang, Zhiyuan Li | cs.CR, cs.AI | 2026-09-29 |  |
+| [LLM unbranding: Erasing Commercial Identity while Preserving Generic Utility](http://arxiv.org/abs/2609.37127v1) | Kajetan Ożóg, Alicja Wojciechowska, Dawid Malarz, Paweł Batorski, Artur Kasymov, Przemysław Spurek | cs.CL | 2026-09-29 |  |
+| [Harnessing Large Language Models to Compile Task-Relevant Context into Bayesian Optimisation](http://arxiv.org/abs/2609.36788v1) | Zhongwei Yu, Sourabh Roy, Bin Cao, Xue Yan, Anjie Liu, Jun Wang | cs.LG | 2026-09-29 |  |
+| [BiFE: Search-Efficient Discovery of CPU-Only Branching Policies via LLM-based Bi-Fidelity Evolution](http://arxiv.org/abs/2609.36735v1) | Ce Zhang, Bin Zhang, Zhiwei Xu, Hao Chen, Xinyue Lu, Shanwei Fan, Yingxuan Teng, Guoliang Fan | cs.AI | 2026-09-29 |  |
+| [EvoMO-SR: Multiobjective LLM-based Evolution of Symbolic Expressions with substructure guidance](http://arxiv.org/abs/2609.36187v1) | Cristina Rossetti, Anna V. Kononova, Thomas Bäck, Fei Liu, Niki Van Stein | cs.LG | 2026-09-28 |  |
+| [LLMs are not stochastic parrots: Evidence for meaning-mediated abstraction from conlang-like tasks](http://arxiv.org/abs/2609.34187v2) | Julia Witte Zimmerman, Calla G. Beauregard, Tabia Tanzin Prama, Parisa Suchdev, Kathryn Cramer, Elisabeth Kollrack | cs.CL, cs.AI | 2026-09-28 |  |
+| **[HF]** [Reinforcing Agentic Creativity in Scientific Ideation with Night Science](http://arxiv.org/abs/2609.35706) | Priyanka Kargupta, Silviu Cucerzan, Shweti Mahajan, Allen Herring, Jiawei Han, Ryen W. White, Sujay Kumar Jauhar |  | 2026-09-28 | 3 |
+| [Large Language Models Substantially Compress Well-Being Inequality but Largely Preserve Its Socioeconomic Structure](http://arxiv.org/abs/2609.33055v1) | Nattavudh Powdthavee | cs.AI | 2026-09-27 |  |
+| [Improving the Diversity of LLM Outputs without a Trade-off](http://arxiv.org/abs/2609.33038v1) | Ryoma Sato | cs.CL, cs.AI, cs.LG | 2026-09-27 |  |
+| [CruxBench: A Benchmark of Information Discovery](http://arxiv.org/abs/2609.35879v1) | Hui Dai, Lina Piao, Nick Merrill, Nadja Flechner, Ezra Karger, Haifeng Xu | cs.CL, cs.AI | 2026-09-26 |  |
+| [TemporalGraphLLM: Temporal Graph Neural Networks with Large Language Models for Dynamic Text-Attributed Graphs](http://arxiv.org/abs/2609.31881v1) | Moran Beladev, Or Eitan, Gilad Katz, Lior Rokach | cs.LG | 2026-09-25 |  |
+| [Estimating and Orthogonalizing Unknown Pre-training Gradients for Continual Fine-tuning of Large Language Models](http://arxiv.org/abs/2609.30935v1) | Bing Wang, Changchun Li, Xin-Qiang Cai, Lin Yuanbo Wu, Ximing Li, Gang Niu, Masashi Sugiyama | cs.CL, cs.AI, cs.LG | 2026-09-25 |  |
+| [Breaking Homogeneity: Diversifying Persona Sets for Creative LLM Outputs](http://arxiv.org/abs/2609.30492v1) | Sang Bin Moon, Nicole Cho, Daniel Borrajo, Sumitra Ganesh, Abolfazl Hashemi | cs.CL, cs.AI, stat.ML | 2026-09-24 |  |
+| [LSF-SR: Latent Semantic Fusion for Sequential Recommendation via Flow-based Conditional Variational Autoencoders](http://arxiv.org/abs/2609.29815v1) | Shih-Hong Chen, Josh Jia-Ching Ying, Vincent S. Tseng | cs.IR | 2026-09-24 |  |
+| [Large Language Models for Programming: Actually Fixing or Reimplementing Incorrect Code?](http://arxiv.org/abs/2609.29410v1) | Alexandru Stefan Stoica, Traian Rebedea, Marian Cristian Mihaescu | cs.CL, cs.SE | 2026-09-24 |  |
+| [From Policy Documents to Structured Survey Responses: Evaluating Large Language Models for Policy Monitoring](http://arxiv.org/abs/2609.29370v1) | Carolyn Cole, Matthias Deschryvere, Toqeer Ehsan, Arash Hajikhani | cs.CL, cs.AI | 2026-09-24 |  |
+| [Beyond Poetry: Can Large Language Models Generate Classical Arabic Maqamat?](http://arxiv.org/abs/2609.28245v1) | AbdulRahman A. Morsy, Aya Zirikly | cs.CL, cs.AI | 2026-09-23 |  |
+| [Reference-Based Analysis of Coherence and Diversity in Open-Ended Text Generation](http://arxiv.org/abs/2609.28080v1) | Esteban Garcés Arias | cs.CL | 2026-09-23 |  |
+| [Diffusion Drafts, AR Verifies: Accelerating Document OCR with Self-Speculative Decoding](http://arxiv.org/abs/2609.26638v1) | Dohyun Kim, Sungjun Han, Hyungguk Kim, Yusik Kim, Jamin Shin, Paul Hongsuck Seo, Hongjoon Ahn | cs.CL, cs.CV | 2026-09-22 |  |
+| [RAG-NAROK: Retrieval-Aware Knowledge Corpus Poisoning in RAG with Source-specific Refutation](http://arxiv.org/abs/2609.25469v1) | Abdullahil Kafi, Alvi Ataur Khalil | cs.AI | 2026-09-21 |  |
+| [LoRA-generating hypernetworks for efficient on-device LLM generative personalization](http://arxiv.org/abs/2609.24979v1) | Sean Augenstein, Li Ding, Jihwan Lee, Keith Rush, Andrey Zhmoginov | cs.LG | 2026-09-21 |  |
+| [The Copy Ceiling: An Input-Exposure Control for Ontology-Grounded Generation over Curated Corpora](http://arxiv.org/abs/2609.24885v2) | John J. O'Hare | cs.CL, cs.CY | 2026-09-21 |  |
+| [From Tables to Quantified Statements: Evaluating LLM Inference Generation through Executable Verification](http://arxiv.org/abs/2609.23966v1) | Mai Mohamed Eida, Gunjan Anand, Ayush Singh, Aleksandre Maskharashvili | cs.CL | 2026-09-21 |  |
+| [Tutoring Large Language Models to be Domain-adaptive, Precise and Safe](http://arxiv.org/abs/2609.23071v1) | Somnath Banerjee | cs.AI, cs.CE, cs.CL | 2026-09-19 |  |
+| [Don't Repeat Yourself: Self-Supervised Fine-Tuning for Coverage](http://arxiv.org/abs/2609.31688v1) | Eric Fithian, Kirill Skobelev, X. Y. Han | cs.CL | 2026-09-16 |  |
+| [Correlation-Guided Encoder Selection for Multi-Encoder Large Audio-Language Models](http://arxiv.org/abs/2609.18041v1) | Pei-Jun Liao, Hung-Shin Lee, Wenze Ren, Kuo-Hsuan Hung, Hung-yi Lee, Hsin-Min Wang | eess.AS, cs.CL, cs.SD | 2026-09-16 |  |
+| [Vroom-Vroom at SHROOM-Visions: A Multi-Judge Committee for Detecting Hallucinated Spans in Vision-Language Outputs](http://arxiv.org/abs/2609.17327v2) | Toqeer Ehsan, Nico Penttilä, Richard Schmidt, Arash Hajikhani, Victoria Palacin | cs.CL, cs.AI | 2026-09-15 |  |
+| [little m: An AI Agent for Industrial Process Optimization](http://arxiv.org/abs/2609.16680v2) | Yongchao Ye, Xinyu He, Dutliff Boshoff, Way Kuo, Lishuai Li | cs.AI | 2026-09-15 |  |
+| [Fine-Tuning Fixes Mode Collapse and Over-Dispersion in LLMs](http://arxiv.org/abs/2609.16454v1) | Kirill Skobelev, Eric Fithian, X. Y. Han | cs.AI | 2026-09-15 |  |
+| [Safe Error Correction for Language Models: Frozen-Base Adjustment with Capability Preservation](http://arxiv.org/abs/2609.16145v1) | Gautam Kishore | cs.AI, cs.CL, cs.LG, cs.NE | 2026-09-14 |  |
+| [Hindsight Bias in Clinical Temporal Reasoning: How Future Data Exposure Affects Large Language Model Judgment](http://arxiv.org/abs/2609.13454v1) | Misaki Matsuura, Sayantan Kumar, Ojas Kadam, Jeremy C. Weiss | cs.CL, cs.AI | 2026-09-11 |  |
+| [Generative Retrieval for Unsupervised Text-Based Person Search](http://arxiv.org/abs/2609.12965v1) | Mang Ye, Yucheng Ji, Yang Bai, Min Cao, Siyuan Chai, Bo Du, Min Zhang | cs.CV, cs.AI | 2026-09-11 |  |
+| [T-GADE: Thermodynamical Generative-AI-Driven Evolution of LLM Artifacts](http://arxiv.org/abs/2609.12286v1) | Kyoko Ogawa, Naoki Mori | cs.AI, cs.NE | 2026-09-10 |  |
+| [Evaluation of Contextual Understanding in Large Language Models](http://arxiv.org/abs/2609.09004v1) | Subavarshana Arumugam, Mamta Nallaretnam, Kithuni Wickramasinghe, Chamath Gunapala, Pragatheeswaran Vipulanandan, Uthayasanker Thayasivam, Kamal Premaratne | cs.CL, cs.LG | 2026-09-08 |  |
+| [Humans Introduce, Models Elaborate: Asymmetric Narrative Agency in Human-LLM Co-Writing](http://arxiv.org/abs/2609.07920v2) | Halfdan Nordahl Fundal, Yuri Bizzoni, Charlotte Gjørup Bilde, Ida Bække Johannesen, Rebekah Baglini | cs.HC | 2026-09-07 |  |
+| [From Echo Chambers to Epistemic Monoculture: Large Language Models Present Temporally Contingent Partisan Alignments as Knowledge](http://arxiv.org/abs/2609.07735v1) | Wend K. Tam | cs.CL | 2026-09-07 |  |
+| [Retrieval-Augmented Multi-Prompt Ensemble for Minor-Grain Breeding Information Extraction](http://arxiv.org/abs/2609.07134v1) | Hang Zhao, Jiahao Wang | cs.CL | 2026-09-07 |  |
+| [DrugReason: Dynamic Multi-View Reasoning over Knowledge Graph and Language Evidence for Drug Repurposing](http://arxiv.org/abs/2609.06779v1) | Zijie Liu, Hongxuan Li, Zhen Tan, Jinhao Duan, Baixiang Huang, Zunpeng Liu, Kai Shu, Tianlong Chen | cs.LG, cs.AI | 2026-09-06 |  |
+| [From Reading Code to Reading Spec: A Verified Layer for LLM-Driven Codebase Maintenance](http://arxiv.org/abs/2609.06383v1) | Xinhao Zhang, Jingjie Lu, Kunpeng Liu, Fei Xie | cs.SE, cs.CL | 2026-09-06 |  |
+| [Generating Constructive Feedback on Stories via Reinforcement Learning](http://arxiv.org/abs/2609.04824v1) | Maja Stahl, Timon Ziegenbein, Henning Wachsmuth | cs.CL | 2026-09-04 |  |
+| [EdgeMem: LLM-Free Agent Memory Construction and Retrieval via Evidence-Preserving Multi-Anchor Hypergraph](http://arxiv.org/abs/2609.05553v1) | Zeyang Cui, Jiannong Cao, Zhiyuan Wen, Bo Yuan, Junlan Feng, Shengyuan Chen | cs.AI, cs.MA | 2026-09-03 |  |
+| [Automated Vulnerability Injection in Smart Contracts Using Large Language Models](http://arxiv.org/abs/2609.02624v1) | Luca Migliaccio, Roberto Natella, Naghmeh Ivaki, Nuno Laranjeiro, Marco Vieira | cs.SE, cs.AI, cs.CR | 2026-09-02 |  |
+| [Team DArgk at the 2026 ELOQUENT lab for evaluating generative language model quality: Residuals of Humanity: AI Detection Evasion via GRPO Fine-Tuning](http://arxiv.org/abs/2609.22221v1) | Antonela Tommasel, Juan Manuel Rodriguez | cs.CL, cs.AI | 2026-09-02 |  |
+| [Embedded Conditional Independence Tests for Large Language Model Generated Text with an Application to German Parliament Speeches](http://arxiv.org/abs/2609.00946v1) | Marco Simnacher, Georg Keilbar, Benjamin König, Christoph Lippert, Sonja Greven | stat.ML, cs.AI, cs.LG, math.ST, stat.ME | 2026-09-01 |  |
+| **[HF]** [The Limits of Automatic Evaluation of Creativity in Large Language Models](http://arxiv.org/abs/2608.23705) | Alessandro Tutone, Giorgio Franceschelli, Mirco Musolesi |  | 2026-08-27 |  |
+| **[HF]** [IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation](http://arxiv.org/abs/2607.22375) | Varun Gumma, Navonil Majumder, Soumitra Sinhahajari, Soujanya Poria |  | 2026-07-24 | 9 |
 | [Hallucination Self-Play: Bootstrapping Reinforced Detector via Evolved Generator](http://arxiv.org/abs/2607.07993v1) | Shiping Yang, Shining Liang, Weihao Liu, Wenbiao Ding, Linjun Shou, Lu Cheng, Angel X. Chang | cs.CL, cs.LG | 2026-07-08 |  |
 | [Agentic Neural Architecture Search](http://arxiv.org/abs/2607.07984v1) | Seokhoon Jeong, Mijung Kim, Taehwan Kim | cs.AI | 2026-07-08 |  |
 | [Functional and Secure Code Generation with Task Vectors](http://arxiv.org/abs/2607.07881v1) | Felix Wang, Anudeep Das, Mei Nagappan, N. Asokan | cs.SE, cs.CR, cs.LG | 2026-07-08 |  |
@@ -25,6 +72,9 @@ sidebar:
 | [Effectiveness of LLM-based Software Diversity for Reliability Improvement -- an Empirical Study](http://arxiv.org/abs/2607.03174v1) | Gabriel Almeida, Ilir Gashi, Vladimir Stankovic, João R. Campos | cs.SE, cs.AI | 2026-07-03 |  |
 | [Know Your Source: A Public Knowledge Store for Media Background Checks](http://arxiv.org/abs/2607.02383v2) | Benjamin Nichols, Michael Schlichtkrull, Nedjma Ousidhoum | cs.CL | 2026-07-02 |  |
 | **[\*]** [Measuring the Gap Between Human and LLM Research Ideas](http://arxiv.org/abs/2607.01233v1) | Ziyu Chen, Yilun Zhao, Arman Cohan | cs.CL, cs.AI | 2026-07-01 | 16 |
+| **[HF]** [CreativityPrism: A Cross-Domain Evaluation Framework for Large Language Model Creativity](http://arxiv.org/abs/2510.20091) | Zhaoyi Joey Hou, Bowei Alvin Zhang, Yining Lu, Bhiman Kumar Baghel, Anneliese Brei, Ximing Lu, Meng Jiang, Faeze Brahman, Snigdha Chaturvedi, Haw-Shiuan Chang, Daniel Khashabi, Xiang Lorraine Li |  | 2026-07-01 |  |
+| **[HF]** [Measuring the Gap Between Human and LLM Research Ideas](http://arxiv.org/abs/2607.01233) | Ziyu Chen, Yilun Zhao, Arman Cohan |  | 2026-07-01 | 19 |
+| **[HF]** [CreativityNeuro: Steering Language Model Weights to Improve Divergent Thinking and Reduce Mode Collapse](http://arxiv.org/abs/2607.01433) | Samuel Schapiro, Core Francisco Park, Felix Sosa, Lav R. Varshney |  | 2026-07-01 |  |
 | [JL1-CC&QA: Extending the JL1-CD Benchmark with Change Captioning and Question Answering](http://arxiv.org/abs/2606.31745v1) | Ziyuan Liu, Ruifei Zhu, Ouqiao Ma, Yuantao Gu | cs.CV, cs.AI | 2026-06-30 |  |
 | [Can LLMs Imagine Moral Alternatives Beyond Binary Dilemmas?](http://arxiv.org/abs/2606.31213v1) | Jongchan Choi, Nari Yang, Sung Soo Park, Jaemin Cho, Han Seoyoung, Haerin Shin, Jun-Hyung Park | cs.CL, cs.AI, cs.LG | 2026-06-30 |  |
 | [AI-Generated PowerShell Malware: An Experimental Framework and Dataset](http://arxiv.org/abs/2606.30819v1) | Luciano Pianese, Vittorio Orbinato, Pietro Liguori, Roberto Natella | cs.CR, cs.AI | 2026-06-29 |  |
@@ -282,9 +332,11 @@ sidebar:
 | **[HF]** [Creative Preference Optimization](http://arxiv.org/abs/2505.14442) | Mete Ismayilzada, Antonio Laverghetta Jr., Simone A. Luchini, Reet Patel, Antoine Bosselut, Lonneke van der Plas, Roger Beaty |  | 2025-05-20 |  |
 | **[HF]** [Cooking Up Creativity: Enhancing LLM Creativity through Structured Recombination](http://arxiv.org/abs/2504.20643) | Moran Mizrahi, Chen Shani, Gabriel Stanovsky, Dan Jurafsky, Dafna Shahaf |  | 2025-04-29 |  |
 | **[HF]** [Spark: A System for Scientifically Creative Idea Generation](http://arxiv.org/abs/2504.20090) | Aishik Sanyal, Samuel Schapiro, Sumuk Shashidhar, Royce Moon, Lav R. Varshney, Dilek Hakkani-Tur |  | 2025-04-25 |  |
+| **[HF]** [Automated Creativity Evaluation for Large Language Models: A Reference-Based Approach](http://arxiv.org/abs/2504.15784) | Ruizhe Li, Chiwei Zhu, Benfeng Xu, Xiaorui Wang, Zhendong Mao |  | 2025-04-22 |  |
 | **[HF]** [AI Idea Bench 2025: AI Research Idea Generation Benchmark](http://arxiv.org/abs/2504.14191) | Yansheng Qiu, Haoquan Zhang, Zhaopan Xu, Ming Li, Diping Song, Zheng Wang, Kaipeng Zhang |  | 2025-04-19 |  |
 | **[HF]** [Modifying Large Language Model Post-Training for Diverse Creative  Writing](http://arxiv.org/abs/2503.17126) | John Joon Young Chung, Vishakh Padmakumar, Melissa Roemmele, Yuqian Sun, Max Kreminski |  | 2025-03-21 | 36 |
 | **[HF]** [Creation-MMBench: Assessing Context-Aware Creative Intelligence in MLLM](http://arxiv.org/abs/2503.14478) | Xinyu Fang, Zhijian Chen, Kai Lan, Shengyuan Ding, Yingji Liang, Xiangyu Zhao, Farong Wen, Zicheng Zhang, Guofeng Zhang, Haodong Duan, Kai Chen, Dahua Lin |  | 2025-03-18 | 48 |
+| **[HF]** [Can AI writing be salvaged? Mitigating Idiosyncrasies and Improving Human-AI Alignment in the Writing Process through Edits](http://arxiv.org/abs/2409.14509) | Tuhin Chakrabarty, Philippe Laban, Chien-Sheng Wu |  | 2025-03-04 |  |
 | **[HF]** [Can AI Examine Novelty of Patents?: Novelty Evaluation Based on the  Correspondence between Patent Claim and Prior Art](http://arxiv.org/abs/2502.06316) | Hayato Ikoma, Teruko Mitamura |  | 2025-02-10 |  |
 | **[HF]** [Self-reflecting Large Language Models: A Hegelian Dialectical Approach](http://arxiv.org/abs/2501.14917) | Sara Abdali, Can Goksen, Saeed Amizadeh, Kazuhito Koishida |  | 2025-01-24 |  |
 | **[HF]** [LiveIdeaBench: Evaluating LLMs' Scientific Creativity and Idea  Generation with Minimal Context](http://arxiv.org/abs/2412.17596) | Kai Ruan, Xuan Wang, Jixiang Hong, Hao Sun |  | 2024-12-23 | 6 |
